@@ -14,7 +14,7 @@ Although it is possible to control Liberation using the mouse and keyboard, to g
 
 #### Menu
 
-<figure><img src=".gitbook/assets/qs-menu-bar.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
 The menu is where you will find all file import / export options, and window opening and closing. You'll also find the option to authorise the computer with your subscription here.
 
@@ -28,7 +28,7 @@ The menu is where you will find all file import / export options, and window ope
 
 There are 3 main views can can be shown in the top left of the screen; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons :&#x20;
 
-<figure><img src=".gitbook/assets/qs-icon-bar-views.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
 
 #### 3D View
 
@@ -62,18 +62,6 @@ Along the left is a bar with a series of icon buttons, hover over any button to 
 
 The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section.&#x20;
 
-
-
-\[Just like the Output view, you can zoom in and out with the mouse wheel and click to drag.
-
-Content can be drawn into a _Canvas Target Area_ which defines a section of canvas. And then you can add _Canvas Zones_ to determine which section of the canvas goes to each laser.
-
-Add a guide image to the canvas if you want a representation of the building or structure you are projecting onto.
-
-The button icon list on the left gives you options to add a Canvas Zone, Guide Image and grid options.
-
-You can add a representation of the canvas into the 3D view - check the _3D Visualiser Settings_ window for scale, position and rotation options.]
-
 ### Clips and effects
 
 #### Clipdeck overview
@@ -89,7 +77,7 @@ You can scroll the clipdeck view using :
 * Left and right cursor keys. Add CMD/CTL to scroll one full page at a time.
 * Trackpad : Swipe&#x20;
 * Mouse : if your mouse has a sideways scroll you can use that while hovered over the clip deck
-* APC40 scroll knob / \*\*\*\* Page left/right buttons.
+* APC40 scroll knob or Device left/right buttons.
 
 To help you get your bearings, at the top of the clipdeck is a small grid that represents the entire clipdeck.
 
@@ -99,7 +87,7 @@ Press a clip button (either with the mouse or with the APC40) to start a clip. P
 
 Some clips will be in _Flash mode_ (by default, the red ones), in which case they will stop as soon as you release the clip button.
 
-#### Assigning zones
+#### Selecting zones for the clip
 
 Underneath the clip buttons, you'll see the zone buttons, beam zones 1 to 8 by default. The zone buttons light up to indicate which zones are assigned to the currently selected clip.
 
@@ -111,13 +99,11 @@ Note that these zone allocations and X/Y flip settings are connected to the clip
 
 Right click on a clip to edit more settings for the clip.
 
-#### Clip settings
+#### Laser overview panel
 
-Use the _Clip Settings_ panel to edit scaling, X/Y position, and the powerful zone delay system.
+#### TO DO
 
-#### Global settings
 
-Find the _Global Settings_ panel to adjust global output settings that affect all output across all zones.
 
 ### Effects
 
@@ -158,23 +144,23 @@ There are a further 16 colour effects along the bottom row to apply pre-set hue 
 
 Note that these are just the default effects but they can be customised to do almost whatever you want!&#x20;
 
-
-
-
-
-
-
-
-
-####
-
-
-
-####
-
 #### Currently selected clip
 
 hen you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip.
+
+### Clip settings panel
+
+<figure><img src=".gitbook/assets/qs-clip-settings.png" alt="" width="356"><figcaption></figcaption></figure>
+
+Use the _Clip Settings_ panel to edit scaling, X/Y position, and access the powerful zone delay system.
+
+### Global settings panel
+
+Find the _Global Settings_ panel to adjust global output settings that affect all output across all zones.
+
+### Laser Settings panel
+
+TO DO
 
 ### Timing
 
