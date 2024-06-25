@@ -121,25 +121,25 @@ _\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right
 <figure><img src=".gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
 
 1. **Randomiser** : \
-   Applies a chaotic movement to the clip output.  The parameter changes the amount of chaos.&#x20;
+   Applies a chaotic movement to the clip output.  The parameter adjusts the amount of chaos.&#x20;
 2. **Sine wave** : \
-   Warps all the content across a moving sine wave. The parameter adjusts the wavelength
+   Warps all the content across a moving sine wave. The parameter adjusts the wavelength.
 3. **Rotation** : \
-   Spins everything around, the paramete adjusts the spin speed.
+   Spins everything around. The parameter adjusts the spin speed.
 4. **Horizontal flip** : \
    Squishes and stretches everything horizontally. The parameter adjusts the speed.&#x20;
 5. **Scale** : \
    Repeatedly scales everything from full to zero. The parameter adjusts the speed.&#x20;
 6. **Hue** : \
-   Changes the hue of everything, but doesn't change the saturation (ie anything white stays white). The parameter sets the hue.&#x20;
+   Changes the hue of everything, but doesn't change the saturation (ie anything white stays white). The parameter adjusts the hue.&#x20;
 7. **Saturation and hue** :  \
-   Changes the hue of everything and also fully saturates the colour (ie whites change to the colour). The parameter sets the hue.&#x20;
+   Changes the hue of everything and also fully saturates the colour (ie anything white changes to the colour). The parameter adjusts the hue.&#x20;
 8. **Flash** : \
-   Repeatedly changes the brightness of everything from full to zero. The parameter sets the speed.&#x20;
+   Repeatedly changes the brightness of everything from full to zero. The parameter adjusts the speed.&#x20;
 
 <figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-There are a further 16 colour effects along the bottom row to apply pre-set hue and saturation.
+There are a further 16 colour effects along the bottom row to apply pre-set hue and saturation values.
 
 Note that these are the default effects but they can be edited to do almost whatever you want!&#x20;
 
@@ -151,9 +151,13 @@ When you start a clip, it lights up to show that it is active. It also has a whi
 
 Use the _Clip Settings_ panel to edit scaling, X/Y position, and access the powerful zone delay system.
 
+<figure><img src=".gitbook/assets/qs-clip-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
+
 ### Global settings panel
 
 Find the _Global Settings_ panel to adjust global output settings that affect all output across all zones.
+
+<figure><img src=".gitbook/assets/qs-global-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
 ### Timing
 
@@ -189,20 +193,20 @@ You can choose which laser outputs go to which laser controllers here. Drag and 
 
 For even faster assignment you can double click on a controller on the right to assign it to the next open slot on the left (trust me, when you have 50 lasers this is very helpful!)
 
-#### Laser Settings panel
+#### Laser output panel
 
 <figure><img src=".gitbook/assets/qs-laser-settings.png" alt="" width="375"><figcaption></figcaption></figure>
 
 This panel shows you the settings for the _currently selected laser_ (represented by the number at the top). Change which laser is currently selected using the _tab_ key, hitting a number key, clicking a laser number in the _Laser Overview_ panel or in the _output view._
 
-* **Number button** arm and disarm the laser.&#x20;
+* **Number button** arm and disarm the laser, if it's red then the laser is armed.&#x20;
 * **Brightness** adjust laser brightness independent of the other lasers (and it's combined with the _global brightness_ setting - ie, if they're both at 50%, you're laser will be at 25%).&#x20;
 * **Test Pattern** turns on a test pattern for this laser only (overrides the global test pattern setting)
-* **Orientation -** corrects for lasers rigged sideways or upside-down.&#x20;
+* **Orientation** corrects for lasers rigged sideways or upside-down.&#x20;
 * **Flip Horizontal and Flip Vertical** reverses the output of the laser. Useful for output correction on inconsistently wired lasers.&#x20;
 * **Copy Laser Settings** opens a panel that lets you copy various settings from this laser to others.&#x20;
 
-#### Scanner Settings
+#### Scanner settings
 
 Unlike older systems, Liberation laser content is converted to a point stream as it is sent to the laser and there are many adjustments you can make as to how that point stream is calculated. Full details of this will be covered elsewhere in the manual, but for now, stick with the default scanner preset as it should work with most lasers.&#x20;
 
