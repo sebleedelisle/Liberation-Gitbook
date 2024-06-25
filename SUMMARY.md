@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Install for Windows](README.md)
-* [Quick start guide](quick-start-guide.md)
+* [Quick start guide](README.md)
+* [Install for Windows](<README (1).md>)
