@@ -50,7 +50,7 @@ You can select the laser you want to edit using the numbered buttons in the bar 
 
 You can zoom in and out using the mouse scroll wheel, and click and drag anywhere there isn't a zone to move the view.
 
-Click on a zone to select it and then adjust its corner points with the mouse. User the ALT key while you are dragging a corner to make it non-uniform. Right-click on the zone to see more options, including changing the type of zone.
+Click on a zone to select it and then adjust its corner points with the mouse. Use the ALT key while you are dragging a corner to make it non-uniform. Right-click on the zone to see more options, including changing the type of zone.
 
 Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid settings.
 
