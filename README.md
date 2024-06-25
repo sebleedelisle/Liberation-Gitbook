@@ -79,7 +79,8 @@ You can scroll the clipdeck view using :
 * Left and right cursor keys. Add CMD/CTL to scroll one full page at a time.
 * Trackpad : Swipe&#x20;
 * Mouse : if your mouse has a sideways scroll you can use that while hovered over the clip deck
-* APC40 scroll knob or Device left/right buttons.
+* APC40 scroll knob&#x20;
+* APC40 _<- DEVICE ->_ buttons
 
 To help you get your bearings, at the top of the clipdeck is a small grid that represents the entire clipdeck.
 
