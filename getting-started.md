@@ -1,4 +1,4 @@
-# Quick start guide
+# Getting Started with Liberation
 
 ## Introduction&#x20;
 
