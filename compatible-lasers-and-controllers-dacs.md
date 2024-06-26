@@ -55,13 +55,13 @@ But if you just want to run a couple of lasers at home, it's the cheapest and si
 
 #### Laser Dock (USB, built-in to older Laser Cubes)
 
-Older Laser Cubes have a USB laser controller built into them and can be controlled directly from Liberation. (You can also get stand alone Laser Dock USB controllers but these are expensive and have been discontinued.)&#x20;
+Older Laser Cubes have a USB laser controller built into them and can be controlled directly from Liberation. (You can also get standalone Laser Dock USB controllers but these are expensive and have been discontinued.)&#x20;
 
 #### Controllers that will be supported in the future :
 
-* Mercury (Built-in to X-Laser units)
-* Laser Cube network controller (built in to wifi Laser Cubes)
-* IDN (an open network protocol from ILDA, can be implemented by any manufacturer)
+* [Mercury](https://x-laser.com/pages/mercury-laser-control-system) (Built-in to X-Laser units)
+* [Laser Cube](https://www.laseros.com/lasercube/) network controller (built in to wifi Laser Cubes)
+* [IDN](http://www.ilda-digital.com) (an open network protocol from ILDA, can be implemented by any manufacturer)
 
 
 
