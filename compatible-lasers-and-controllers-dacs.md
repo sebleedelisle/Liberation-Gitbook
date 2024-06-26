@@ -37,13 +37,7 @@ Network DACs like the **Ether Dream** are the **best option for professional** l
 
 If you have a **USB Laser Cube** then you don't need a separate laser controller at all. I'm currently working on the Laser Cube network protocol, so If you have a WiFi cube, you will have to wait.&#x20;
 
-### Recommended wiring
-
-If you have USB DACs then I suggest keeping them close to your computer and connect them to the lasers with ILDA cables. (Although watch out as ILDA cables can act as a grappling hook during de-rigging!)
-
-If you're using Ether Dreams you can still keep them all together and connect to the lasers using long ILDA cables, or you can rig them close to the lasers, and use longer network cables.&#x20;
-
-The ideal for an Ether Dream would be to have them installed directly inside your lasers (Rob at Stanwax Laser will do this for you in the UK)
+###
 
 ### Compatible laser controllers
 
@@ -71,7 +65,13 @@ Older Laser Cubes have a USB laser controller built into them and can be control
 
 
 
+### Cabling suggestions
 
+If you have USB DACs then I suggest keeping them close to your computer and connect them to the lasers with ILDA cables. (Although watch out as ILDA cables can act as a grappling hook during de-rigging!)
+
+If you're using Ether Dreams you can still keep them all together and connect to the lasers using long ILDA cables, or you can rig them close to the lasers, and use longer network cables.&#x20;
+
+The ideal set up is to have Ether Dreams installed directly inside your lasers (Rob at Stanwax Laser will do this for you in the UK)
 
 
 
