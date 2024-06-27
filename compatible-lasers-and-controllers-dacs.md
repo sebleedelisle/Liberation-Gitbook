@@ -13,15 +13,15 @@ You do not need an external controller or an ILDA input if :&#x20;
 
 \*Support for WiFi Laser Cubes is currently in development
 
-### What is a laser controller?&#x20;
+{% hint style="info" %}
+### What is a laser controller?
 
 A laser controller (or DAC) is a hardware device that can take the digital data from Liberation and convert it to the analog signals that are required to control the scanners and output of your laser. (Hence DAC: Digital to Analog Converter.)
 
 The controller connects to your computer via USB or over a standard computer network; it will either be an external device, or installed inside the laser.
 
-If it is an external device, connect it to your laser via the ILDA connection. ILDA is an industry standard that uses an old school 25 pin 'D' connector. Get yourself an ILDA cable, plug one end into the controller, and the other into the laser.&#x20;
-
-&#x20;
+If it's external, you connect it to your laser via the ILDA connection. ILDA is an industry standard that uses an old school 25 pin 'D' connector. Get yourself an ILDA cable, plug one end into the controller, and the other into the laser. &#x20;
+{% endhint %}
 
 <figure><img src=".gitbook/assets/etherdream-ilda.png" alt="" width="375"><figcaption><p>The ILDA output on an external Ether Dream</p></figcaption></figure>
 
@@ -35,9 +35,7 @@ If you are a home user, or run small shows with 4 or fewer lasers that are close
 
 Network DACs like the **Ether Dream** are the **best option for professional** laserists who are happy to set up a network and want to run a large number of lasers; all of the large Liberation shows so far have been run on Ether Dreams.&#x20;
 
-If you have a **USB Laser Cube** then you don't need a separate laser controller at all. I'm currently working on the Laser Cube network protocol, so If you have a WiFi cube, you will have to wait.&#x20;
-
-###
+If you have a **USB Laser Cube** then you don't need a separate laser controller at all. I'm currently working on the Laser Cube network protocol, so if you have a **WiFi Laser Cube**, you will have to wait.&#x20;
 
 ### Compatible laser controllers
 
