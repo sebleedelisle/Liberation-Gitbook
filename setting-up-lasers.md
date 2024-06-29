@@ -9,7 +9,7 @@ description: >-
 
 ### Overview of the process for safely turning on lasers
 
-This guide is not a replacement for formal laser safety training, which you will absolutely need before employing lasers in public. Some countries and territories have additional legal requirements, but either way you should always adhere to safety best practices.&#x20;
+This guide is not a replacement for formal laser safety training, which you will absolutely need before employing lasers in public. Some territories have additional legal requirements, but either way you should always adhere to best practices of safety and professionalism.&#x20;
 
 Please make sure that you understand the safety implications associated with lasers before use!&#x20;
 
@@ -33,7 +33,7 @@ Please make sure that you understand the safety implications associated with las
 
 ### Starting laser output
 
-1. **Clear the exposure area** - make sure no one can be exposed to the laser and brief all personnel to stay out while the lasers are being set up. (You should also make sure that any cameras and projectors within the exposure area are covered or have their lens caps on!)
+1. **Clear the exposure area** - make sure no one can be exposed to the laser and brief all personnel to stay out of the exposure area while the lasers are being set up. (You should also make sure that any cameras and projectors are covered or have their lens caps on!)
 2. **Open the aperture cover** - while standing to the side and away from output, slide the aperture cover down. If your zones are high up, you may want to leave it partially closed.&#x20;
 3. **Raise the brightness until the laser is barely visible** - make the laser only as bright as necessary to see the zone
 4. **Adjust the zone(s)** - set the zone size, shape and position until it is set 3m from the floor from any publicly accessible areas, and the laser doesn't reach any other publicly accessible areas
