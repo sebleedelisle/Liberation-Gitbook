@@ -2,7 +2,9 @@
 
 ## Introduction
 
-Welcome to **Liberation** - the next generation of laser show software. Liberation is powerful and complex modern software; it's built on the fundamentals of usability and reliability to give you the freedom to express your creativity. It's fast, efficient and seamless, follow this _Getting Started_ guide to get you up and running.
+Welcome to **Liberation** - the next generation of laser show software.&#x20;
+
+Liberation is powerful and complex modern software; it's built on the fundamentals of usability and reliability to give you the freedom to express your creativity. It's fast, efficient and seamless, follow this _Getting Started_ guide to get you up and running in no time!
 
 ### Screen layout
 
@@ -12,7 +14,7 @@ Welcome to **Liberation** - the next generation of laser show software. Liberati
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-The menu is where you will find all file import / export options, and window opening and closing. You'll also find the option to authorise the computer with your subscription here.
+The menu is where you will find all file import / export options, and window opening and closing. You'll also find the option to authorise the computer with your subscription here (in _Settings->Authorise/Deauthorise this computer_) .
 
 #### Icon bar
 
@@ -36,19 +38,11 @@ The 3D view shows you what your lasers will look like and can be configured to m
 
 <figure><img src=".gitbook/assets/qs-view-output.png" alt=""><figcaption></figcaption></figure>
 
-The output view is used to configure zones and masks for each laser. Notice the massive number in the background so you can easily see which laser you are on!
-
 #### The output view
 
-This output view is a representation of the entire output of this laser, and where each zone sits within it. By default there is only one zone per laser but you can add as many zones as reasonably practical, and you will see them all in this view.
+The output view is used to configure zones and masks for each laser. Notice the massive number in the background so you can easily see which laser you are on!
 
-You can select the laser you want to edit using the numbered buttons in the bar at the top. Click on a numbered button, or cycle through each laser using the **TAB** key. Pressing the "+" button will add a new laser.
-
-You can zoom in and out using the mouse scroll wheel, and click and drag anywhere there isn't a zone to move the view.
-
-Click on a zone to select it and then adjust its corner points with the mouse. Use the ALT key while you are dragging a corner to make it non-uniform. Right-click on the zone to see more options, including changing the type of zone.
-
-Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid settings.
+This view is a representation of the entire output of this laser, and where each zone sits within it. By default there is only one zone per laser but you can add as many zones as reasonably practical, and you will see them all in this view.
 
 {% hint style="info" %}
 #### What is a zone?
@@ -56,9 +50,23 @@ Along the left is a bar with a series of icon buttons, hover over any button to 
 A zone is a space within a laser's output window that you can direct laser content into. And you can have more than one zone per laser. The simplest type of zone is a _beam_ zone, but there are also _canvas_ zones and _DMX_ zones. For this guide we'll mostly focus on beam zones, which are usually used to create atmospheric beam effects through the air.
 {% endhint %}
 
+You can select the laser you want to edit using either :&#x20;
+
+* the numbered buttons in the bar at the top
+* pressing the number key for the laser you want _(1-9_ keys_)_
+* the **TAB** key to cycle through from one to the next
+
+Add a new laser by pressing the "+"button. (This is also an _Add Laser_ button in the _Laser Overview_ panel)&#x20;
+
+You can zoom in and out using the mouse scroll wheel, and click and drag anywhere there isn't a zone to move the view.
+
+Click on a zone to select it and then adjust its corner points with the mouse. Use the ALT key while you are dragging a corner to make it non-uniform. Right-click on the zone to see more options, including changing the type of zone.
+
+Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid settings.
+
 #### Canvas
 
-The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section.
+The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. This will be covered in detail elsewhere in this manual.&#x20;
 
 ### APC40 MIDI controller
 
@@ -67,6 +75,12 @@ The Canvas system is used mostly for graphics and architectural mapping. You can
 Although it is possible to control Liberation using the mouse and keyboard, to get the most out of it I highly recommend using an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works). I realise that the APC40 has now been discontinued so will be adding support for other controllers in the future, but for now try to get hold of one if you can.
 
 ### Clips and effects
+
+{% hint style="info" %}
+#### What is a clip?
+
+A clip is a container for any laser content within Liberation. Clips can contain beams or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the Clipdeck.&#x20;
+{% endhint %}
 
 #### Clipdeck overview
 
@@ -104,9 +118,35 @@ Note that these zone allocations and X/Y flip settings are connected to the clip
 
 Right click on a clip to edit more settings for the clip.
 
+### Groups
+
+You'll notice that the clips have different outline colours, and these represent which _group_ they're in. The clip group system is very flexible and it allows you to :&#x20;
+
+* Keep clips in one group going, while you toggle groups in another one
+* Quickly assign zones and X/Y flips to all clips within a group
+* Set _Flash mode_ for a clip (Group 3 is set to _Flash mode_ by default)
+
+Groups also have settings for transition in/out that can be inherited by its clips, or over-ridden. &#x20;
+
+You can assign the clip's group using the buttons in the right-click menu, or using the APC40 you can press the group button and _while it is still held down,_ press the clip buttons.  &#x20;
+
+Group colours :&#x20;
+
+1. Cyan
+2. Orange
+3. Red
+4. Blue
+5. Green
+
+#### Change zone settings for all clips within a group
+
+Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.&#x20;
+
+
+
 ### Effects
 
-The effects system in Liberation is a powerful and versatile way of changing the clips in real-time. The default effects buttons 1-8 are under the zone buttons.
+The effects system in Liberation is a powerful and versatile way of changing the clip output in real-time. The default effects buttons 1-8 are under the zone buttons.
 
 #### Applying an effect
 
@@ -208,7 +248,9 @@ This panel shows you the settings for the _currently selected laser_ (represente
 
 #### Scanner settings
 
-Unlike older systems, Liberation laser content is converted to a point stream as it is sent to the laser and there are many adjustments you can make as to how that point stream is calculated. Full details of this will be covered elsewhere in the manual, but for now, stick with the default scanner preset as it should work with most lasers.
+Liberation laser content is converted to a point stream in real time as it is sent to the laser and there are many adjustments you can make as to how that point stream is calculated. This may be confusing for you if you are used to older laser software that deals with pre-calculated point streams, but this is a much more flexible and efficient system.&#x20;
+
+Full details of this will be covered elsewhere in the manual, but for now, stick with the default scanner preset as it should work with most lasers.
 
 * **Speed** is the scanner speed, ie how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
 * **Colour shift** (sometimes known as _blank shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of synch with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in synch with each other.
