@@ -4,7 +4,7 @@
 
 If your laser has a standard ILDA input then you can use it with Liberation (along with a compatible laser controller such as the Ether Dream or Helios DAC - [see full list below](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)).
 
-<figure><img src=".gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>The Helios DAC - the cheapest option for home use</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>The Helios DAC - the cheapest option for home use</p></figcaption></figure>
 
 You do not need an external controller or an ILDA input if :&#x20;
 
@@ -23,11 +23,11 @@ The controller connects to your computer via USB or over a standard computer net
 If it's external, you connect it to your laser via the ILDA connection. ILDA is an industry standard that uses an old school 25 pin 'D' connector. Get yourself an ILDA cable, plug one end into the controller, and the other into the laser. &#x20;
 {% endhint %}
 
-<figure><img src=".gitbook/assets/etherdream-ilda.png" alt="" width="375"><figcaption><p>The ILDA output on an external Ether Dream</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/etherdream-ilda.png" alt="" width="375"><figcaption><p>The ILDA output on an external Ether Dream</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/opt-laser-rear.jpg" alt="" width="317"><figcaption><p>The rear panel of a laser showing the various connections, including the ILDA input</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/opt-laser-rear.jpg" alt="" width="317"><figcaption><p>The rear panel of a laser showing the various connections, including the ILDA input</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/ilda-cable.jpg" alt="" width="375"><figcaption><p>A standard ILDA cable</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ilda-cable.jpg" alt="" width="375"><figcaption><p>A standard ILDA cable</p></figcaption></figure>
 
 ### Which controller is best for me?
 

@@ -44,7 +44,7 @@ Please make sure that you understand the safety implications associated with las
 
 ##
 
-<figure><img src=".gitbook/assets/laser-aperture.jpg" alt=""><figcaption><p>Slide the cover up to block the laser output window (aperture)</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-aperture.jpg" alt=""><figcaption><p>Slide the cover up to block the laser output window (aperture)</p></figcaption></figure>
 
 
 
