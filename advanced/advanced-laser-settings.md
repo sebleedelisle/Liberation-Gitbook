@@ -1,2 +1,2 @@
-# Advanced laser settings
+# ◼️ Advanced laser settings
 

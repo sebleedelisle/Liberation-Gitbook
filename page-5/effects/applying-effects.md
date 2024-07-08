@@ -1,2 +1,2 @@
-# Applying effects
+# ◼️ Applying effects
 

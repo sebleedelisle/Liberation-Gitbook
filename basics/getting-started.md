@@ -8,17 +8,17 @@ Liberation is powerful and complex modern software; it's built on the fundamenta
 
 ### Screen layout
 
-<figure><img src=".gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
 
 #### Menu
 
-<figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
 The menu is where you will find all file import / export options, and window opening and closing. You'll also find the option to authorise the computer with your subscription here (in _Settings->Authorise/Deauthorise this computer_) .
 
 #### Icon bar
 
-<figure><img src=".gitbook/assets/icon-bar.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/icon-bar.png" alt=""><figcaption></figcaption></figure>
 
 Common tasks can be found here, such as arming/disarming all the lasers, the global brightness, test pattern, and switching between the 3D, Canvas and Output views
 
@@ -26,17 +26,17 @@ Common tasks can be found here, such as arming/disarming all the lasers, the glo
 
 There are 3 main views can can be shown in the top left of the screen; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons :
 
-<figure><img src=".gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
 
 #### 3D View
 
-<figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
 The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the "3D Visualiser settings" window.
 
 #### Output View
 
-<figure><img src=".gitbook/assets/qs-view-output.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-view-output.png" alt=""><figcaption></figcaption></figure>
 
 #### The output view
 
@@ -70,7 +70,7 @@ The Canvas system is used mostly for graphics and architectural mapping. You can
 
 ### APC40 MIDI controller
 
-<figure><img src=".gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
 Although it is possible to control Liberation using the mouse and keyboard, to get the most out of it I highly recommend using an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works). I realise that the APC40 has now been discontinued so will be adding support for other controllers in the future, but for now try to get hold of one if you can.
 
@@ -84,7 +84,7 @@ A clip is a container for any laser content within Liberation. Clips can contain
 
 #### Clipdeck overview
 
-<figure><img src=".gitbook/assets/qs-clipdeck.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-clipdeck.png" alt=""><figcaption></figcaption></figure>
 
 This grid is known as the _clipdeck_ and it is where all of the laser content is stored. It is designed to map directly to the 8 x 5 grid of buttons on your APC40.
 
@@ -110,7 +110,7 @@ Some clips will be in _Flash mode_ (by default, the red ones), in which case the
 
 Underneath the clip buttons, you'll see the zone buttons, beam zones 1 to 8 by default. The zone buttons light up to indicate which zones are assigned to the currently selected clip.
 
-<figure><img src=".gitbook/assets/qs-zone-buttons.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-zone-buttons.png" alt=""><figcaption></figcaption></figure>
 
 Two rows below the zone buttons, you'll see the X/Y flip buttons, toggle these to flip the clip horizontally and vertically.
 
@@ -160,7 +160,7 @@ _\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right
 
 #### The default effects
 
-<figure><img src=".gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
 
 1. **Randomiser** :\
    Applies a chaotic movement to the clip output. The parameter adjusts the amount of chaos.
@@ -179,7 +179,7 @@ _\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right
 8. **Flash** :\
    Repeatedly changes the brightness of everything from full to zero. The parameter adjusts the speed.
 
-<figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
 There are a further 16 colour effects along the bottom row to apply pre-set hue and saturation values.
 
@@ -193,19 +193,19 @@ When you start a clip, it lights up to show that it is active. It also has a whi
 
 Use the _Clip Settings_ panel to edit scaling, X/Y position, and access the powerful zone delay system.
 
-<figure><img src=".gitbook/assets/qs-clip-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-clip-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
 ### Global settings panel
 
 Find the _Global Settings_ panel to adjust global output settings that affect all output across all zones.
 
-<figure><img src=".gitbook/assets/qs-global-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-global-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
 ### Timing
 
 Almost all laser displays have some kind of musical soundtrack, so the timing system in Liberation is based around a tempo in beats per minute. In the _Tempo Panel_ you can see a representation of the time; each square represents a beat and you can see them flash in time.
 
-<figure><img src=".gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
 There are multiple synchronisation options, including MIDI clock and Ableton Link. If you know the tempo of the music you can manually adjust it using the on-screen slider or the APC40 Tempo knob, but you can also keep in time with the music using the _Tap Tempo_ system\_.\_
 
@@ -219,7 +219,7 @@ Press the _Y_ key or turn the _Tempo_ knob(APC40) to round the tempo to a whole 
 
 ### Laser overview panel
 
-<figure><img src=".gitbook/assets/qs-laser-overview.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-laser-overview.png" alt="" width="375"><figcaption></figcaption></figure>
 
 The _Laser overview panel_ gives you a quick look into the status of your currently running lasers. The green square on the right shows you that the laser controller is happy. If it goes orange, you have occasional drop-outs, and if it's red it's been disconnected.
 
@@ -235,7 +235,7 @@ For even faster assignment you can double click on a controller on the right to 
 
 #### Laser output panel
 
-<figure><img src=".gitbook/assets/qs-laser-settings.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/qs-laser-settings.png" alt="" width="375"><figcaption></figcaption></figure>
 
 This panel shows you the settings for the _currently selected laser_ (represented by the number at the top). Change which laser is currently selected using the _tab_ key, hitting a number key, clicking a laser number in the _Laser Overview_ panel or in the _output view._
 

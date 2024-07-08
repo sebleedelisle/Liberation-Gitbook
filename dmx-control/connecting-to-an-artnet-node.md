@@ -1,2 +1,2 @@
-# Connecting to an Artnet node
+# ◼️ Connecting to an Artnet node
 

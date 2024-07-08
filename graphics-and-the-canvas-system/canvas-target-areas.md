@@ -1,2 +1,2 @@
-# Canvas target areas
+# ◼️ Canvas target areas
 
