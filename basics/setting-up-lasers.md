@@ -5,7 +5,7 @@ description: >-
   lasers safely.
 ---
 
-# Setting up lasers
+# ✅ Setting up lasers
 
 ### Overview of the process for safely turning on lasers
 

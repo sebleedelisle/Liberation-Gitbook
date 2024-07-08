@@ -1,4 +1,4 @@
-# Install for Windows
+# ✅ Install for Windows
 
 Once you have got an active subscription you will be sent a download link, but if not you can access the downloads at [liberationlaser.com/account/download](https://liberationlaser.com/account/download)
 
