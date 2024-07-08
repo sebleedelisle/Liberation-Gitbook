@@ -10,7 +10,12 @@
 ## Setting up
 
 * [Controller assignment](setting-up/controller-assignment.md)
+* [Page](setting-up/page.md)
+* [Page 4](setting-up/page-4.md)
+* [Page 3](setting-up/page-3.md)
+* [Page 2](setting-up/page-2.md)
+* [Page 1](setting-up/page-1.md)
 
-## Overview
+## Running a show
 
-* [Page 1](overview/page-1.md)
+* [Page 5](running-a-show/page-5.md)
