@@ -6,3 +6,22 @@
 
 Before you start using lasers, you must get safety training. In the UK I can recommend [LVR Optical](https://www.lvroptical.com/laser-safety-training.html). You are wholly responsible for using Liberation safely!
 
+PLASA have a free downloadable laser safety guide which has been generally accepted as industry best practice: [https://www.plasa.org/guidance-for-display-lasers/](https://www.plasa.org/guidance-for-display-lasers/)
+
+
+
+### Under construction
+
+This manual is still under construction! Please let me know if you find any typos or other errors. You can even suggest edits yourself using the links on the right.&#x20;
+
+I've used a key to give you an idea of where each section is :&#x20;
+
+✅  = section complete
+
+🟧  = section partially complete
+
+⏹️  = in progress
+
+✅  = completed
+
+##
