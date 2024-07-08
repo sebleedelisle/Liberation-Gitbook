@@ -1,4 +1,4 @@
-# Important! Read this first
+# ✅ Important! Read this first
 
 ## SAFETY WARNING
 

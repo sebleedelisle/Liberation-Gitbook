@@ -1,4 +1,4 @@
-# Compatible Lasers and Controllers (DACs)
+# ✅ Compatible Lasers and Controllers (DACs)
 
 ### Which lasers are compatible with Liberation?
 
