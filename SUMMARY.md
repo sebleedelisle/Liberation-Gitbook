@@ -55,3 +55,4 @@
   * [◼️ Render profiles](advanced/render-profiles.md)
   * [◼️ Colour calibration](advanced/colour-calibration.md)
   * [◼️ Synchronisation](advanced/synchronisation.md)
+* [◼️ Credits](credits.md)
