@@ -1,2 +1,2 @@
-# Global settings
+# ◼️ Global settings
 

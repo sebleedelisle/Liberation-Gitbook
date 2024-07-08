@@ -1,2 +1,2 @@
-# Effect settings
+# ◼️ Effect settings
 

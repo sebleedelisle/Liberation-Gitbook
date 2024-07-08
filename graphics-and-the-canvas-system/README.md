@@ -1,2 +1,2 @@
-# Graphics and the Canvas system
+# ◼️ Graphics and the Canvas system
 

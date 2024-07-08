@@ -1,9 +1,12 @@
 # Table of contents
 
 * [✅ Important! Read this first](README.md)
-* [✅ Getting Started](getting-started.md)
+* [🟧 Installation](installation/README.md)
+  * [◼️ Install for Mac](installation/install-for-mac.md)
+  * [✅ Install for Windows](installation/install-for-windows.md)
+  * [◼️ Authorising and de-authorising](installation/authorising-and-de-authorising.md)
 * [✅ Basics](basics/README.md)
-  * [✅ Install for Windows](basics/install-for-windows.md)
+  * [✅ Getting Started](basics/getting-started.md)
   * [✅ Setting up lasers](basics/setting-up-lasers.md)
   * [✅ Compatible Lasers and Controllers (DACs)](basics/compatible-lasers-and-controllers-dacs.md)
 * [◼️ Setting up](setting-up/README.md)

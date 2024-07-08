@@ -1,2 +1,2 @@
-# Creating DMX zones
+# ◼️ Creating DMX zones
 

@@ -1,2 +1,2 @@
-# MIDI record/playback system
+# ◼️ MIDI record/playback system
 

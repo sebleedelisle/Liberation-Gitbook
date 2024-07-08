@@ -1,2 +1,2 @@
-# Synchronisation
+# ◼️ Synchronisation
 
