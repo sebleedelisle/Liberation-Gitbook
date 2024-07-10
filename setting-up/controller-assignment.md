@@ -1,6 +1,6 @@
 # ⏹️ Controller assignment
 
-The first thing you need to do is to connect your laser controllers! (See [compatible-lasers-and-controllers-dacs.md](../basics/compatible-lasers-and-controllers-dacs.md "mention") to check what hardware you can use). The controllers will either be connected via USB or over the network.&#x20;
+Once you have the lasers set up within Liberation, you can then assign each one to a laser controller in the real world. (See [compatible-lasers-and-controllers-dacs.md](../basics/compatible-lasers-and-controllers-dacs.md "mention") to check what hardware you can use). The controllers will either be connected via USB or over the network.&#x20;
 
 *   Open the _Controller Assignment_ window via the  _Window->Controller assignment_ menu option. (Or alternatively you can use the _ASSIGN LASER CONTROLLERS_ button in the _Laser Overview_ window.)
 
@@ -17,8 +17,10 @@ Note that whenever you connect to a controller, the laser will be automatically 
 {% endhint %}
 
 * The _disconnect button_ (X) disconnects the controller but doesn't clear it from the laser assigment.  You can then use the _reconnect button_ (rewind arrow) to reconnect it or instead click the _disconnect button_ again to clear the assignment.
-* You can use the _rename button_ (pencil) to rename this controller to whatever you want. It makes sense to name it in a way that makes it easy to associate it with particular hardware. If it's built in to a particular laser you may want to name it accordingly, ie _LaserCube Ultra #1_ or _Triton T5 #3._ These names will be saved with your Liberation installation and will appear from now on whenever you use it, so it can be really helpful for you to quickly identify your lasers.  &#x20;
+* You can use the _rename button_ (pencil) to rename this controller to whatever you want. It makes sense to name it in a way that makes it easy to associate it with particular hardware. If it's built in to a particular laser you may want to name it accordingly, ie _LaserCube Ultra #1_ or _Triton T5 #3._ These names will be saved with your Liberation installation and will appear from now; it can be really helpful for you to quickly identify your lasers.  &#x20;
 
 {% hint style="info" %}
 Pro tip - you can **double click** on a controller on the right to automatically assign it to the next available laser on the left. This can be a real time saver if you have lots of lasers to assign!&#x20;
 {% endhint %}
+
+You can use the _DISCONNECT ALL_ and _RECONNECT ALL_ buttons to quickly reset all the connections. This can be useful if you are having network issues.&#x20;

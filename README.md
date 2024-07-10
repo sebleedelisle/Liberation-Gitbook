@@ -22,6 +22,6 @@ I've used a key to give you an idea of where each section is :&#x20;
 
 ⏹️  = in progress
 
-✅  = completed
+⬛️  = empty placeholder
 
 ##

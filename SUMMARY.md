@@ -9,7 +9,7 @@
   * [⏹️ Quick start guide ](basics/getting-started.md)
   * [✅ Compatible Lasers and Controllers (DACs)](basics/compatible-lasers-and-controllers-dacs.md)
 * [🟧 Setting up](setting-up/README.md)
-  * [✅ Overview and reference guide](setting-up/setting-up-lasers.md)
+  * [✅ Laser set up process](setting-up/setting-up-lasers.md)
   * [◼️ Adding and removing lasers](setting-up/3d-visualiser.md)
   * [⏹️ Controller assignment](setting-up/controller-assignment.md)
   * [◼️ Output view](setting-up/output-view/README.md)

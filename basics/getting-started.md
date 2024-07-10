@@ -6,6 +6,22 @@ Welcome to **Liberation** - the next generation of laser show software.&#x20;
 
 Liberation is powerful and complex modern software; it's built on the fundamentals of usability and reliability to give you the freedom to express your creativity. It's fast, efficient and seamless, follow this _Quick start guide_ to get you up and running in no time!
 
+### Managing lasers
+
+Liberation is flexible enough that you can set up lasers and visualise them without any actual lasers connected at all. And then when you're at the studio or venue you can seamlessly assign each laser to a laser controller. &#x20;
+
+{% hint style="info" %}
+You can set up and visualise as many lasers as you want within Liberation, the tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design and practice a show with 100 lasers on the lowest tiers. You only need to upgrade when it comes to actually running it on real lasers.&#x20;
+{% endhint %}
+
+The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up.&#x20;
+
+{% hint style="info" %}
+Important : Before you arm any lasers make sure understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")chapter.
+{% endhint %}
+
+## Overview of the software
+
 ### Screen layout
 
 <figure><img src="../.gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
@@ -66,7 +82,7 @@ Along the left is a bar with a series of icon buttons, hover over any button to 
 
 #### Canvas
 
-The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. This will be covered in detail elsewhere in this manual.&#x20;
+The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. This will be covered in detail in  [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention").&#x20;
 
 ### APC40 MIDI controller
 
@@ -79,18 +95,18 @@ Although it is possible to control Liberation using the mouse and keyboard, to g
 {% hint style="info" %}
 #### What is a clip?
 
-A clip is a container for any laser content within Liberation. Clips can contain beams or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the Clipdeck.&#x20;
+A clip is a container for any laser content within Liberation. Clips can contain beams or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the clipdeck.&#x20;
 {% endhint %}
 
 #### Clipdeck overview
 
 <figure><img src="../.gitbook/assets/qs-clipdeck.png" alt=""><figcaption></figcaption></figure>
 
-This grid is known as the _clipdeck_ and it is where all of the laser content is stored. It is designed to map directly to the 8 x 5 grid of buttons on your APC40.
+This grid is known as the _clipdeck_ and it is where all of the laser clips are stored. It is designed to map directly to the 8 x 5 grid of buttons on your APC40.
 
 **Navigating the clipdeck.**
 
-You can scroll the clipdeck view using :
+You can scroll the clipdeck left and right using :
 
 * Left and right cursor keys. Add CMD/CTL to scroll one full page at a time.
 * Trackpad : Swipe
@@ -98,7 +114,7 @@ You can scroll the clipdeck view using :
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ buttons
 
-To help you get your bearings, at the top of the clipdeck is a small grid that represents the entire clipdeck.
+To help you get your bearings, there is a mini visualiser of the clipdeck along the top.&#x20;
 
 #### Starting and stopping clips
 
@@ -106,7 +122,9 @@ Press a clip button (either with the mouse or with the APC40) to start a clip. P
 
 Some clips will be in _Flash mode_ (by default, the red ones), in which case they will stop as soon as you release the clip button.
 
-#### Selecting zones for the clip
+The _STOP_ button stops all currently running clips.
+
+#### Setting output zones for the clip
 
 Underneath the clip buttons, you'll see the zone buttons, beam zones 1 to 8 by default. The zone buttons light up to indicate which zones are assigned to the currently selected clip.
 
@@ -225,15 +243,21 @@ The _Laser overview panel_ gives you a quick look into the status of your curren
 
 The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (ie more flickery).
 
-Click on the _Assign Laser Controllers_ button to open the _Controller Assignment_ panel. (This panel can also be accessed via _Window->Controller Assignment_ in the menu bar).
 
-#### Connecting to lasers - Controller Assignment panel
+
+### Connecting to lasers - Controller Assignment panel
+
+Click on the _Assign Laser Controllers_ button to open the _Controller Assignment_ panel. (This panel can also be accessed via _Window->Controller Assignment_ in the menu bar).
 
 You can choose which laser outputs go to which laser controllers here. Drag and drop controllers from the list on the right into slots on the left. You can rename your controllers to match which laser they are paired with (use the pen icon button).
 
-For even faster assignment you can double click on a controller on the right to assign it to the next open slot on the left (trust me, when you have 50 lasers this is very helpful!)
+Read the [controller-assignment.md](../setting-up/controller-assignment.md "mention") chapter for more details.&#x20;
 
-#### Laser output panel
+{% hint style="info" %}
+Before you arm any lasers make sure to go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")chapter.&#x20;
+{% endhint %}
+
+### Laser output panel
 
 <figure><img src="../.gitbook/assets/qs-laser-settings.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -246,14 +270,16 @@ This panel shows you the settings for the _currently selected laser_ (represente
 * **Flip Horizontal and Flip Vertical** reverses the output of the laser. Useful for output correction on inconsistently wired lasers.
 * **Copy Laser Settings** opens a panel that lets you copy various settings from this laser to others.
 
-#### Scanner settings
+### Scanner settings
 
-Liberation laser content is converted to a point stream in real time as it is sent to the laser and there are many adjustments you can make as to how that point stream is calculated. This may be confusing for you if you are used to older laser software that deals with pre-calculated point streams, but this is a much more flexible and efficient system.&#x20;
+Clips are converted to a point stream in real time as they are sent to the laser and there are many adjustments for how that point stream is calculated. This may be confusing for you if you are used to older laser software that deals with pre-calculated point streams, but this is a much more flexible and efficient system.&#x20;
 
-Full details of this will be covered elsewhere in the manual, but for now, stick with the default scanner preset as it should work with most lasers.
+The basic scanner settings are:&#x20;
 
-* **Speed** is the scanner speed, ie how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
+* **Speed** is the scanner speed, ie how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
 * **Colour shift** (sometimes known as _blank shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of synch with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in synch with each other.
+
+The other advanced scanner settings that are covered in the [advanced](../advanced/ "mention")chapter.&#x20;
 
 ### Zoning
 
