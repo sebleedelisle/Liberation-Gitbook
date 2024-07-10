@@ -30,6 +30,10 @@ Any time you're running lasers you must have a **hardware emergency stop button*
 
 Throughout Liberation there are a multitude of sliders and controls.  CMD/CTRL-click into a slider to type a new value if you need greater control that the slider can give you.&#x20;
 
+### Keyboard shortcuts
+
+A full list of keyboard shortcuts can be found here : [#keyboard-shortcuts](getting-started.md#keyboard-shortcuts "mention")
+
 ### Screen layout
 
 <figure><img src="../.gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
@@ -97,6 +101,8 @@ The Canvas system is used mostly for graphics and architectural mapping. You can
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
 Although it is possible to control Liberation using the mouse and keyboard, to get the most out of it I highly recommend using an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works). I realise that the APC40 has now been discontinued so will be adding support for other controllers in the future, but for now try to get hold of one if you can.
+
+See also : [apc40-reference.md](../reference/apc40-reference.md "mention")
 
 ### Clips and effects
 
