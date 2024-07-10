@@ -22,6 +22,10 @@ Important : Before you arm any lasers make sure understand the risks involved an
 
 ## Overview of the software
 
+### Safety shut-off
+
+Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button or the _**ESC**_** key**. You can also reduce the global brightness quickly using the on-screen slider or the main fader on the APC40.&#x20;
+
 ### Screen layout
 
 <figure><img src="../.gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
