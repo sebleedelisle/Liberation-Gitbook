@@ -2,7 +2,7 @@
 
 * [✅ Important! Read this first](README.md)
 * [🟧 Installation](installation/README.md)
-  * [◼️ Install for Mac](installation/install-for-mac.md)
+  * [✅ Install for Mac](installation/install-for-mac.md)
   * [✅ Install for Windows](installation/install-for-windows.md)
   * [◼️ Authorising and de-authorising](installation/authorising-and-de-authorising.md)
 * [✅ Basics](basics/README.md)
