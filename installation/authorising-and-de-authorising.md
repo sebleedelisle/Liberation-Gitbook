@@ -4,17 +4,17 @@
 
 When you open Liberation for the first time, it'll run in _demo mode_ and you'll see the _About panel:_
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-13 at 11.58.11.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
 Click on the _AUTHORISE ONLINE_ button and your web browser will open. If you are not already logged in, you will be prompted to do so now.&#x20;
 
 The system will now automatically authorise your installation with your subscription, and you'll see this message:
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-13 at 12.05.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/authorisation-machine-added" alt=""><figcaption></figcaption></figure>
 
 When you return to Liberation you'll see the _About panel_ has updated (you may have to wait a few seconds).&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-07-13 at 12.06.11.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you have already authorised the maximum number of computers for your subscription, you will need to deauthorise one of your other machines or upgrade your subscription.&#x20;
