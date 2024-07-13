@@ -20,8 +20,6 @@ I've used a key to give you an idea of where each section is :&#x20;
 
 🟧  = section partially complete
 
-⏹️  = in progress
-
 ⬛️  = empty placeholder
 
 ##

@@ -1,4 +1,4 @@
-# ⏹️ Quick start guide&#x20;
+# 🟧 Quick start guide&#x20;
 
 ## Introduction
 

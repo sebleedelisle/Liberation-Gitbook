@@ -1,4 +1,8 @@
-# ⏹️ Controller assignment
+---
+description: '[Just needs images added]'
+---
+
+# 🟧 Controller assignment
 
 Once you have the lasers set up within Liberation, you can then assign each one to a laser controller in the real world. (See [compatible-lasers-and-controllers-dacs.md](../basics/compatible-lasers-and-controllers-dacs.md "mention") to check what hardware you can use). The controllers will either be connected via USB or over the network.&#x20;
 
@@ -10,7 +14,7 @@ Once you have the lasers set up within Liberation, you can then assign each one 
 * _\[INSERT IMAGE OF LASER CONTROLLER WINDOW, CONTROLLER BEING DRAGGED]_&#x20;
 * If you see a green light next to the controller, it means that Liberation has successfully connected to it.&#x20;
 
-<figure><img src="../.gitbook/assets/Controller assignment left panel" alt="" width="338"><figcaption><p>An Ether Dream and a Helios DAC assigned to lasers 2 and 3 respectively</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/controller-assignment-laser-list" alt="" width="338"><figcaption><p>An Ether Dream and a Helios DAC assigned to lasers 2 and 3 respectively</p></figcaption></figure>
 
 {% hint style="info" %}
 Note that whenever you connect to a controller, the laser will be automatically disarmed.&#x20;
