@@ -1,12 +1,12 @@
 # ✅ Install for Windows
 
-Once you have got an active subscription you will be sent a download link, but if not you can access the downloads at [liberationlaser.com/account/download](https://liberationlaser.com/account/download)
+Once you have got an active subscription you will be sent a link, or you can click the _Download_ link on the [_My subscriptions_](https://liberationlaser.com/account/my-products) page.
 
 You'll see this page :
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Click the download button for Windows (the version numbers may change) and you'll see the download indicator show the progress (usually in the top right, screen shot is from Chrome). When it's complete, hover over the Liberation download, and click on the folder icon that appears
+Click _Download latest for Windows_ (the version numbers may change) and you'll see the download indicator show the progress (usually in the top right, screen shot is from Chrome). When it's complete, hover over the Liberation download, and click on the folder icon that appears
 
 <figure><img src="../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
