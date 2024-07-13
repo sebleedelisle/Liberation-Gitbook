@@ -1,2 +1,2 @@
-# 🟧 Installation
+# ✅ Installation
 
