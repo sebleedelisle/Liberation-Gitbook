@@ -52,9 +52,11 @@ Common tasks can be found here, such as arming/disarming all the lasers, the glo
 
 ### Views
 
-There are 3 main views can can be shown in the top left of the screen; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons :
+The large area in the top left of the screen can be one of 3 main views; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons :
 
 <figure><img src="../.gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
+
+Or use the _TAB_ key to switch between the 3D and OUTPUT views, and then continue to tab through each laser output in turn.&#x20;
 
 #### 3D View
 
