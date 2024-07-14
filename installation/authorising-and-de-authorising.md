@@ -24,7 +24,7 @@ If you have already authorised the maximum number of computers for your subscrip
 If you have multiple subscriptions, you will be prompted to choose the subscription that you want to assign the computer.&#x20;
 {% endhint %}
 
-Congratulations! Your Liberation install has now been authorised and you can output to lasers! But please read the [getting-started.md](../basics/getting-started.md "mention")and [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") before arming your lasers.&#x20;
+Congratulations! Your Liberation install has now been authorised and you can output to lasers! But please read the [getting-started.md](../getting-started.md "mention")and [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") before arming your lasers.&#x20;
 
 {% hint style="info" %}
 You can open the _About panel_ at any time via _Menu -> Window -> About Panel_ or  _Menu -> Settings -> Authorise/Deauthorise this computer_
