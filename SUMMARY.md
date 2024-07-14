@@ -1,12 +1,12 @@
 # Table of contents
 
 * [✅ Important! Read this first](README.md)
-* [✅ Installation](installation/README.md)
+* [✅ Installation / licensing](installation/README.md)
   * [✅ Install for Mac](installation/install-for-mac.md)
   * [✅ Install for Windows](installation/install-for-windows.md)
   * [✅ How licensing works](installation/how-licensing-works.md)
   * [✅ Authorising and de-authorising](installation/authorising-and-de-authorising.md)
-* [✅ Quick start guide](getting-started.md)
+* [✅ Quick start guide](basics/getting-started.md)
 * [✅ Hardware](basics/README.md)
   * [✅ Compatible Lasers and Controllers (DACs)](basics/compatible-lasers-and-controllers-dacs.md)
   * [✅ Emergency stop / interlocks](basics/emergency-stop-interlocks.md)
