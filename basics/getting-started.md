@@ -1,4 +1,4 @@
-# 🟧 Quick start guide&#x20;
+# ✅ Quick start guide
 
 ## Introduction
 
@@ -8,7 +8,7 @@ Liberation is powerful and complex modern software; it's built on the fundamenta
 
 ### Managing lasers
 
-Liberation is flexible enough that you can set up lasers and visualise them without any actual lasers connected at all. And then when you're at the studio or venue you can seamlessly assign each laser to a laser controller. &#x20;
+Liberation is flexible enough that you can set up lasers and visualise them without any actual lasers connected at all. And then when you're ready to go you can seamlessly assign each output to a laser controller. &#x20;
 
 {% hint style="info" %}
 You can set up and visualise as many lasers as you want within Liberation, the tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design and practice a show with 100 lasers on the lowest tiers. You only need to upgrade when it comes to actually running it on real lasers.&#x20;
@@ -24,11 +24,11 @@ Important : Before you arm any lasers make sure understand the risks involved an
 
 ### Safety shut-off
 
-Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button or the _**ESC**_** key**. You can also reduce the global brightness quickly using the on-screen slider or the main fader on the APC40.&#x20;
+Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button or the _**ESC**_** key**. You can also reduce the global brightness using the on-screen slider or the main fader on the APC40.&#x20;
 
 ### Slider elements
 
-Throughout Liberation there are a multitude of sliders and controls.  CMD/CTRL-click into a slider to type a new value if you need greater control that the slider can give you.&#x20;
+Throughout Liberation there are various sliders and controls. CMD/CTRL-click into a slider to type a new value if you need greater control than the slider can give you.&#x20;
 
 ### Keyboard shortcuts
 
@@ -42,7 +42,7 @@ A full list of keyboard shortcuts can be found here : [#keyboard-shortcuts](gett
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-The menu is where you will find all file import / export options, and window opening and closing. You'll also find the option to authorise the computer with your subscription here (in _Settings->Authorise/Deauthorise this computer_) .
+The menu is where you will find all file import / export options, and to open panels. You'll also find the option to authorise the computer with your subscription here (in _Settings->Authorise/Deauthorise this computer_) .
 
 #### Icon bar
 
@@ -52,25 +52,21 @@ Common tasks can be found here, such as arming/disarming all the lasers, the glo
 
 ### Views
 
-The large area in the top left of the screen can be one of 3 main views; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons :
+The large area in the top left of the screen can be one of 3 main views; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons (or use the _TAB_ key to switch between the 3D and OUTPUT views, and then continue to tab through each laser output in turn).
 
 <figure><img src="../.gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
-
-Or use the _TAB_ key to switch between the 3D and OUTPUT views, and then continue to tab through each laser output in turn.&#x20;
 
 #### 3D View
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the "3D Visualiser settings" window.
+The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_Menu->Window->3D Visualiser Settings)_.
 
 #### Output View
 
 <figure><img src="../.gitbook/assets/qs-view-output.png" alt=""><figcaption></figcaption></figure>
 
-#### The output view
-
-The output view is used to configure zones and masks for each laser. Notice the massive number in the background so you can easily see which laser you are on!
+The output view is used to configure zones and masks for each laser. (Note the massive number in the background so you can easily see which laser you are on!)
 
 This view is a representation of the entire output of this laser, and where each zone sits within it. By default there is only one zone per laser but you can add as many zones as reasonably practical, and you will see them all in this view.
 
@@ -86,13 +82,15 @@ You can select the laser you want to edit using either :&#x20;
 * pressing the number key for the laser you want _(1-9_ keys_)_
 * the **TAB** key to cycle through from one to the next
 
-Add a new laser by pressing the "+"button. (This is also an _Add Laser_ button in the _Laser Overview_ panel)&#x20;
+Add a new laser to the set up by pressing the [_+_](#user-content-fn-1)[^1] button. (This is also an _ADD LASER_ button in the _Laser Overview_ panel)
+
+Delete a laser from the set up by hitting the red ⊖ button in the _Laser Overview_ panel.&#x20;
 
 You can zoom in and out using the mouse scroll wheel, and click and drag anywhere there isn't a zone to move the view.
 
 Click on a zone to select it and then adjust its corner points with the mouse. Use the ALT key while you are dragging a corner to make it non-uniform. Right-click on the zone to see more options, including changing the type of zone.
 
-Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid settings.
+Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid and snapping settings.
 
 #### Canvas
 
@@ -102,7 +100,7 @@ The Canvas system is used mostly for graphics and architectural mapping. You can
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
-Although it is possible to control Liberation using the mouse and keyboard, to get the most out of it I highly recommend using an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works). I realise that the APC40 has now been discontinued so will be adding support for other controllers in the future, but for now try to get hold of one if you can.
+Although it is possible to control Liberation using the mouse and keyboard, it's way better to use an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works). I realise that the APC40 has now been discontinued so will be adding support for other controllers in the future, but for now try to get hold of one if you can.
 
 See also : [apc40-reference.md](../reference/apc40-reference.md "mention")
 
@@ -142,19 +140,25 @@ The _STOP_ button stops all currently running clips.
 
 #### Setting output zones for the clip
 
-Underneath the clip buttons, you'll see the zone buttons, beam zones 1 to 8 by default. The zone buttons light up to indicate which zones are assigned to the currently selected clip.
+Underneath the clip buttons, you'll see the zone buttons, beam zones 1 to 8 by default (_BEAM 1_, _BEAM 2_, etc). The zone buttons light up to indicate which zones are assigned to the currently selected clip.
 
 <figure><img src="../.gitbook/assets/qs-zone-buttons.png" alt=""><figcaption></figcaption></figure>
 
 Two rows below the zone buttons, you'll see the X/Y flip buttons, toggle these to flip the clip horizontally and vertically.
 
+{% hint style="info" %}
 Note that these zone allocations and X/Y flip settings are connected to the clip itself; they are retained next time you run that clip. They are not a global setting.
+{% endhint %}
 
 Right click on a clip to edit more settings for the clip.
 
 ### Groups
 
-You'll notice that the clips have different outline colours, and these represent which _group_ they're in. The clip group system is very flexible and it allows you to :&#x20;
+You'll notice that  each clip has a coloured outline, and this colour represents which _group_ it's in.&#x20;
+
+<table data-header-hidden><thead><tr><th width="139">Group 1</th><th>Cyan</th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Blue</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
+
+The group system is very flexible and it allows you to :&#x20;
 
 * Keep clips in one group going, while you toggle groups in another one
 * Quickly assign zones and X/Y flips to all clips within a group
@@ -164,19 +168,9 @@ Groups also have settings for transition in/out that can be inherited by its cli
 
 You can assign the clip's group using the buttons in the right-click menu, or using the APC40 you can press the group button and _while it is still held down,_ press the clip buttons.  &#x20;
 
-Group colours :&#x20;
-
-1. Cyan
-2. Orange
-3. Red
-4. Blue
-5. Green
-
-#### Change zone settings for all clips within a group
+Change zone settings for all clips within a group
 
 Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.&#x20;
-
-
 
 ### Effects
 
@@ -184,20 +178,20 @@ The effects system in Liberation is a powerful and versatile way of changing the
 
 #### Applying an effect
 
-Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out gradually.
+Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out.
 
 #### Effect parameters
 
 Use the rotary controllers 1-8\* to adjust the _parameter_ for each effect. (Or you can right-click with the mouse to adjust the level and parameter). The parameter change does differnet things dependent on how the effect is set up. See the list below for the default effects.
 
-_\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1._
+_\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also:_ [apc40-reference.md](../reference/apc40-reference.md "mention")
 
 #### The default effects
 
 <figure><img src="../.gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
 
 1. **Randomiser** :\
-   Applies a chaotic movement to the clip output. The parameter adjusts the amount of chaos.
+   Applies a chaotic movement to the clip output. The parameter adjusts the amount/speed of chaos.
 2. **Sine wave** :\
    Warps all the content across a moving sine wave. The parameter adjusts the wavelength.
 3. **Rotation** :\
@@ -211,7 +205,7 @@ _\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right
 7. **Saturation and hue** :\
    Changes the hue of everything and also fully saturates the colour (ie anything white changes to the colour). The parameter adjusts the hue.
 8. **Flash** :\
-   Repeatedly changes the brightness of everything from full to zero. The parameter adjusts the speed.
+   Repeatedly flashes the brightness of everything from full to zero. The parameter adjusts the flash speed.
 
 <figure><img src="../.gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
@@ -219,9 +213,13 @@ There are a further 16 colour effects along the bottom row to apply pre-set hue 
 
 Note that these are the default effects but they can be edited to do almost whatever you want!
 
-#### What is the "currently selected clip"?
+#### What is the "_currently selected clip"_?
 
-When you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip. Whenever you toggle zone buttons or adjust the clip settings, these are applied to the _currently selected clip._
+When you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip. Whenever you toggle zone buttons or adjust the clip settings, these are applied to the _currently selected clip._&#x20;
+
+{% hint style="info" %}
+To select a clip without triggering it, press the ALT key before pressing the clip button. This is a good way to adjust its zones and other settings withouth running it.&#x20;
+{% endhint %}
 
 ### Clip settings panel
 
@@ -250,6 +248,20 @@ _Tap Tempo_ is a term commonly used in music apps, and it lets you tap in time w
 Press the _R_ key or the _Metronome_ button (APC40) to reset the tempo to the beginning of the bar.
 
 Press the _Y_ key or turn the _Tempo_ knob(APC40) to round the tempo to a whole number. This can be useful for electronic music which tends to have a round number of beats per minute.
+
+### Organising your clip deck
+
+To move a clip on your clip deck, click and drag it to a new position. While dragging you can use the cursor keys (or the scroll wheel/buttons on your APC40) to scroll left and right.&#x20;
+
+Press the ALT key while you're dragging to make a copy.&#x20;
+
+ALT click a clip to select it without starting it.&#x20;
+
+ALT + SHIFT click a clip to multi-select.&#x20;
+
+Click and drag will drag ALL selected effects.&#x20;
+
+To delete a clip either drag it off the clip deck or right click and press the DELETE button.&#x20;
 
 ### Laser overview panel
 
@@ -299,6 +311,8 @@ The other advanced scanner settings that are covered in the [advanced](../advanc
 
 ### Zoning
 
-#### Test patterns
+For a full guide to setting up and zoning lasers see : [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")
 
 [Jump to the start!](https://github.com/sebleedelisle/LiberationLaser/wiki/Quick-Start#hello-world)
+
+[^1]: 
