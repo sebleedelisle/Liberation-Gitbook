@@ -8,7 +8,7 @@
   * [✅ Authorising and de-authorising](installation/authorising-and-de-authorising.md)
 * [✅ Quick start guide](basics/getting-started.md)
 * [✅ Hardware](basics/README.md)
-  * [✅ Compatible Lasers and Controllers (DACs)](basics/compatible-lasers-and-controllers-dacs.md)
+  * [✅ Compatible lasers and controllers (DACs)](basics/compatible-lasers-and-controllers-dacs.md)
   * [✅ Emergency stop / interlocks](basics/emergency-stop-interlocks.md)
 * [🟧 Setting up](setting-up/README.md)
   * [✅ Laser set up process overview](setting-up/setting-up-lasers.md)
