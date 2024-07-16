@@ -19,7 +19,7 @@
     * [◼️ Masks](setting-up/output-view/masks.md)
     * [◼️ Test patterns](setting-up/output-view/3d-visualiser.md)
   * [◼️ 3D visualiser](setting-up/3d-visualiser-1.md)
-  * [◼️ Laser settings](setting-up/page-3.md)
+  * [◼️ Laser settings](setting-up/laser-settings.md)
   * [◼️ Loading and saving](setting-up/loading-and-saving.md)
 * [◼️ Running a show](running-a-show/README.md)
   * [◼️ Live control example](running-a-show/live-control-example.md)
