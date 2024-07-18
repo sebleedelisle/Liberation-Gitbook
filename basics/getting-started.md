@@ -4,7 +4,7 @@
 
 Welcome to **Liberation** - the next generation of laser show software.&#x20;
 
-Liberation is powerful and complex modern software; it's built on the fundamentals of usability and reliability to give you the freedom to express your creativity. It's fast, efficient and seamless, follow this _Quick start guide_ to get you up and running in no time!
+Liberation is powerful and complex modern software; it's built on fundamentals of usability and reliability to give you the freedom to express your creativity. It's fast, efficient and seamless; follow this _Quick start guide_ to get you up and running in no time!
 
 ### Managing lasers
 
