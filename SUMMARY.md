@@ -12,7 +12,7 @@
   * [✅ Emergency stop / interlocks](basics/emergency-stop-interlocks.md)
 * [🟧 Setting up](setting-up/README.md)
   * [✅ Laser set up process overview](setting-up/setting-up-lasers.md)
-  * [◼️ Adding and removing lasers](setting-up/3d-visualiser.md)
+  * [◼️ Setting up your project](setting-up/3d-visualiser.md)
   * [🟧 Controller assignment](setting-up/controller-assignment.md)
   * [◼️ Output view](setting-up/output-view/README.md)
     * [◼️ Zones](setting-up/output-view/zones.md)
