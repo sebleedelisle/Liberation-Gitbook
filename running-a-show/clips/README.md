@@ -27,7 +27,8 @@ Scroll the clip deck a full page left and right using :&#x20;
 
 #### The mini clip visualiser
 
-Along the top of the clip deck you will see a small representation of the entire clip deck. The lit up section represents the clips that are currently visible.&#x20;
+Along the top of the clip deck you will see a small representation of the entire clip deck. The lit up section represents the clips that are currently visible. \
+\[ADD IMAGE OF MINI VISUALISER]
 
 ### Starting and stopping clips
 
