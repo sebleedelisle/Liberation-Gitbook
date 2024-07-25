@@ -16,8 +16,8 @@ If a clip is locked, it can't be moved or deleted. To lock a clip, use the _Lock
 
 * _UNLOCK ALL -_ unlocks every clip in the clip deck.&#x20;
 * _AUTO-LOCK_ - when _Auto-Lock_ is on, any clip that is played automatically (either with the timeline or MIDI record/playback system) will be locked. This is useful if you've programmed a show in Logic Pro (or similar) and do not want to accidentally edit the clips used in the show.&#x20;
-* _LOCKED CLIPS ZONES_ - if this is on then you can't change the zones for a locked clip
-* _LOCKED CLIPS PARAMS_ - if this is on then you can't change the parameters (scale, shift etc) for a locked clip.&#x20;
+* _LOCKED CLIPS ZONES_ - if this is on then you can't change the zones for any locked clip
+* _LOCKED CLIPS PARAMS_ - if this is on then you can't change the parameters (scale, shift etc) for any locked clip.&#x20;
 
 <figure><img src="../../.gitbook/assets/clip-settings-right-click-menu" alt="" width="310"><figcaption><p>The clip settings right click menu</p></figcaption></figure>
 
