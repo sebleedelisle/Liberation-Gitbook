@@ -16,7 +16,7 @@ When you return to Liberation you'll see the _About panel_ has updated (you may 
 
 <figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="warning" %}
 If you have already authorised the maximum number of computers for your subscription, you will need to deauthorise one of your other machines or upgrade your subscription.&#x20;
 {% endhint %}
 
@@ -32,8 +32,14 @@ You can open the _About panel_ at any time via _Menu -> Window -> About Panel_ o
 
 ### De-authorising Liberation
 
-While online, click _DEAUTHORISE COMPUTER_ in the _About panel_. That's it!
+**From within Liberation** - Open _Menu->Window->About Panel_and click the _DEAUTHORISE COMPUTER_ button. That's it! You need to be online for this to work.
 
-{% hint style="info" %}
-You can only de-authorise Liberation from the computer that has been authorised! If you need a remote de-authorisation you will need to contact support, and this can only be done once per subscription period.&#x20;
-{% endhint %}
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
+
+Alternatively you can do this from the website - Select _Your subscriptions_ from the menu, and then click _Manage Subscription_ to open your subscription page. You should see information about your subscription and a list of the computers you have authorised.
+
+Click the _De-authorise_ link next to the machine you want to de-authorise
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.16.40.png" alt=""><figcaption></figcaption></figure>
+
+If your machine hasn't been online since your last renewal it will be deauthorised immediately. If not, then the machine is _queued_ for deauthorisation. This means that deauthorisation will automatically happen next time the machine is connected to the internet, or on your next renewal date, whichever happens first.&#x20;
