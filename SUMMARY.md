@@ -24,7 +24,7 @@
 * [🟧 Running a show](running-a-show/README.md)
   * [◼️ Live control example](running-a-show/live-control-example.md)
   * [◼️ Tempo / synchronisation](running-a-show/tempo-synchronisation.md)
-  * [🟧 Clips](running-a-show/clips/README.md)
+  * [🟧 Clips & Clip deck](running-a-show/clips/README.md)
     * [✅ Clip settings](running-a-show/clips/clip-settings.md)
     * [◼️ Zone delay / chase](running-a-show/clips/zone-delay-chase.md)
     * [◼️ Clip groups](running-a-show/clips/groups.md)

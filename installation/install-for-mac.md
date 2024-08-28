@@ -17,3 +17,5 @@ Click _Download latest for Mac_ (the version numbers will change over time) and 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 
 Drag the Liberation icon on the left into the Applications folder on the right (you may need an administrator password). You can now find Liberation in your Applications folder, double click to open it.&#x20;
+
+Liberation should now run! To output to lasers you will need to now go through the [authorisation process.](authorising-and-de-authorising.md)
