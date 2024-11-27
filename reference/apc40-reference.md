@@ -1,6 +1,6 @@
 # ✅ APC40 reference
 
-<figure><img src="../.gitbook/assets/Liberation_APC40_MK2 (1).svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-27 at 17.22.42.png" alt=""><figcaption></figcaption></figure>
 
 1. 8x5 Clipdeck
 2. Zone On/Off
@@ -11,7 +11,7 @@
 7. Global Brightness
 8. Effect Parameter Adjustment
 9. Group Assignment
-10. Stop All Clips
+10. Stop All Clips (Press twice to immediately stop all clips without their fade settings)
 11. Clipdeck Scroll
 12. Clip Shift X
 13. Clip Shift Y
@@ -27,3 +27,7 @@
 23. Tap Tempo
 24. Tempo Scroll
 25. Foot Pedal, alternative Tap Tempo
+26. Play / Pause&#x20;
+27. Toggle Record Timeline
+28. Arm / Disarm (you must press SHIFT to arm)
+
