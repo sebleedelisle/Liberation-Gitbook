@@ -32,7 +32,7 @@ You can open the _About panel_ at any time via _Menu -> Window -> About Panel_ o
 
 ### De-authorising Liberation
 
-**From within Liberation** - Open _Menu->Window->About Panel_and click the _DEAUTHORISE COMPUTER_ button. That's it! You need to be online for this to work.
+**From within Liberation** - Open _Menu->Window->About Pane&#x6C;_&#x61;nd click the _DEAUTHORISE COMPUTER_ button. That's it! You need to be online for this to work.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
 

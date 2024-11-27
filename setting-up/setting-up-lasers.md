@@ -5,7 +5,7 @@ description: >-
   process of setting up lasers safely.
 ---
 
-# ✅ Overview and reference guide
+# ✅ Laser set up process overview
 
 ### Overview of the process for safely turning on lasers
 
@@ -32,7 +32,7 @@ This page is designed to give you an overview of the process of powering up lase
 ### Set up Liberation :
 
 1. **Disarm all lasers** and find and connect the controller in Liberation
-2. **Turn the **_**Global Brightness**_** setting down to 0** (Use the slider in the icon bar or the _Master Fader_ on the APC40)
+2. **Turn the&#x20;**_**Global Brightness**_**&#x20;setting down to 0** (Use the slider in the icon bar or the _Master Fader_ on the APC40)
 3. **Arm the laser** - with the aperture cover still closed, ensure no clips are currently active and arm the laser  (Use the _Arm_ button in the Laser Overview window)
 4. **Turn on the test pattern** (use the ☒ button in the icon bar, choose pattern 1, the green square with a cross through)
 5. **Adjust the output zone** - make an estimate for the safest zone size and position (for example, this could be right up high into the ceiling but this depends on your particular environment)
