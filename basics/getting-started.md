@@ -36,7 +36,7 @@ CMD/CTRL-click into a slider to type a new value if you need greater control tha
 
 ### Keyboard shortcuts
 
-A full list of keyboard shortcuts can be found here : [#keyboard-shortcuts](getting-started.md#keyboard-shortcuts "mention")
+A full list of keyboard shortcuts can be found here : [Keyboard shortcuts](../reference/keyboard-shortcuts.md)
 
 ### Screen layout
 
@@ -70,7 +70,7 @@ The 3D view shows you what your lasers will look like and can be configured to m
 
 <figure><img src="../.gitbook/assets/qs-view-output.png" alt=""><figcaption></figcaption></figure>
 
-The output view is used to configure zones and masks for each laser. (Note the massive number in the background so you can easily see which laser you are on!)
+The output view is used to configure zones and masks for each laser. (Note the massive number in the top left corner so you can easily see which laser you are on!)
 
 This view is a representation of the entire output of this laser, and where each zone sits within it. By default there is only one zone per laser but you can add as many zones as reasonably practical, and you will see them all in this view.
 
@@ -86,7 +86,7 @@ You can select the laser you want to edit using either :
 * pressing the number key for the laser you want _(1-9_ keys\_)\_
 * the **TAB** key to cycle through from one to the next
 
-Add a new laser to the set up by pressing the _+_ button. (This is also an _ADD LASER_ button in the _Laser Overview_ panel)
+Add a new laser to the set up by pressing the _+_ button. (There is also an _ADD LASER_ button in the _Laser Overview_ panel)
 
 Delete a laser from the set up by hitting the red ⊖ button in the _Laser Overview_ panel.
 
@@ -271,7 +271,7 @@ To delete a clip either drag it off the clip deck or right click and press the D
 
 <figure><img src="../.gitbook/assets/qs-laser-overview.png" alt="" width="375"><figcaption></figcaption></figure>
 
-The _Laser overview panel_ gives you a quick look into the status of your currently running lasers. The green square on the right shows you that the laser controller is happy. If it goes orange, you have occasional drop-outs, and if it's red it's been disconnected.
+The _Laser overview panel_ gives you a quick look into the status of your currently running lasers. The green square on the right shows you that the laser controller is happy. If it goes orange, you have occasional drop-outs, and if it's red it has disconnected.
 
 The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (ie more flickery).
 
