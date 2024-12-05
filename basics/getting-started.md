@@ -2,19 +2,19 @@
 
 ## Introduction
 
-Welcome to **Liberation** - the next generation of laser show software.&#x20;
+Welcome to **Liberation** - the next generation of laser show software.
 
 Liberation is powerful and complex modern software; it's built on fundamentals of usability and reliability to give you the freedom to express your creativity. It's fast, efficient and seamless; follow this _Quick start guide_ to get you up and running in no time!
 
 ### Managing lasers
 
-Liberation is flexible enough that you can set up lasers and visualise them without any actual lasers connected at all. And then when you're ready to go you can seamlessly assign each output to a laser controller. &#x20;
+Liberation is flexible enough that you can set up lasers and visualise them without any actual lasers connected at all. And then when you're ready to go you can seamlessly assign each output to a laser controller.
 
 {% hint style="info" %}
-You can set up and visualise as many lasers as you want within Liberation, the tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design and practice a show with 100 lasers on the lowest tiers. You only need to upgrade when it comes to actually running it on real lasers.&#x20;
+You can set up and visualise as many lasers as you want within Liberation, the tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design and practice a show with 100 lasers on the lowest tiers. You only need to upgrade when it comes to actually running it on real lasers.
 {% endhint %}
 
-The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up.&#x20;
+The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up.
 
 {% hint style="info" %}
 Important : Before you arm any lasers make sure understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")chapter.
@@ -24,11 +24,15 @@ Important : Before you arm any lasers make sure understand the risks involved an
 
 ### Safety shut-off
 
-Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button or the _**ESC**_** key**. You can also reduce the global brightness using the on-screen slider or the main fader on the APC40.&#x20;
+Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button, or the _**ESC**_ key (or the _**SESSION**_ key on the APC40). You can also reduce the global brightness using the on-screen slider or the main fader on the APC40.
 
 ### Slider elements
 
-Throughout Liberation there are various sliders and controls. CMD/CTRL-click into a slider to type a new value if you need greater control than the slider can give you.&#x20;
+Throughout Liberation there are various sliders and controls.&#x20;
+
+{% hint style="info" %}
+CMD/CTRL-click into a slider to type a new value if you need greater control than the slider can give you.
+{% endhint %}
 
 ### Keyboard shortcuts
 
@@ -71,20 +75,20 @@ The output view is used to configure zones and masks for each laser. (Note the m
 This view is a representation of the entire output of this laser, and where each zone sits within it. By default there is only one zone per laser but you can add as many zones as reasonably practical, and you will see them all in this view.
 
 {% hint style="info" %}
-#### What is a zone?
+**What is a zone?**
 
 A zone is a space within a laser's output window that you can direct laser content into. And you can have more than one zone per laser. The simplest type of zone is a _beam_ zone, but there are also _canvas_ zones and _DMX_ zones. For this guide we'll mostly focus on beam zones, which are usually used to create atmospheric beam effects through the air.
 {% endhint %}
 
-You can select the laser you want to edit using either :&#x20;
+You can select the laser you want to edit using either :
 
 * the numbered buttons in the bar at the top
-* pressing the number key for the laser you want _(1-9_ keys_)_
+* pressing the number key for the laser you want _(1-9_ keys\_)\_
 * the **TAB** key to cycle through from one to the next
 
-Add a new laser to the set up by pressing the [_+_](#user-content-fn-1)[^1] button. (This is also an _ADD LASER_ button in the _Laser Overview_ panel)
+Add a new laser to the set up by pressing the _+_ button. (This is also an _ADD LASER_ button in the _Laser Overview_ panel)
 
-Delete a laser from the set up by hitting the red ⊖ button in the _Laser Overview_ panel.&#x20;
+Delete a laser from the set up by hitting the red ⊖ button in the _Laser Overview_ panel.
 
 You can zoom in and out using the mouse scroll wheel, and click and drag anywhere there isn't a zone to move the view.
 
@@ -94,7 +98,7 @@ Along the left is a bar with a series of icon buttons, hover over any button to 
 
 #### Canvas
 
-The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. This will be covered in detail in  [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention").&#x20;
+The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. This will be covered in detail in [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention").
 
 ### APC40 MIDI controller
 
@@ -107,9 +111,9 @@ See also : [apc40-reference.md](../reference/apc40-reference.md "mention")
 ### Clips and effects
 
 {% hint style="info" %}
-#### What is a clip?
+**What is a clip?**
 
-A clip is a container for any laser content within Liberation. Clips can contain beams or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the clipdeck.&#x20;
+A clip is a container for any laser content within Liberation. Clips can contain beams or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the clipdeck.
 {% endhint %}
 
 #### Clipdeck overview
@@ -128,7 +132,7 @@ You can scroll the clipdeck left and right using :
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ buttons
 
-To help you get your bearings, there is a mini visualiser of the clipdeck along the top.&#x20;
+To help you get your bearings, there is a mini visualiser of the clipdeck along the top.
 
 #### Starting and stopping clips
 
@@ -154,23 +158,23 @@ Right click on a clip to edit more settings for the clip.
 
 ### Groups
 
-You'll notice that  each clip has a coloured outline, and this colour represents which _group_ it's in.&#x20;
+You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in.
 
 <table data-header-hidden><thead><tr><th width="139">Group 1</th><th>Cyan</th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Blue</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
 
-The group system is very flexible and it allows you to :&#x20;
+The group system is very flexible and it allows you to :
 
 * Keep clips in one group going, while you toggle groups in another one
 * Quickly assign zones and X/Y flips to all clips within a group
 * Set _Flash mode_ for a clip (Group 3 is set to _Flash mode_ by default)
 
-Groups also have settings for transition in/out that can be inherited by its clips, or over-ridden. &#x20;
+Groups also have settings for transition in/out that can be inherited by its clips, or over-ridden.
 
-You can assign the clip's group using the buttons in the right-click menu, or using the APC40 you can press the group button and _while it is still held down,_ press the clip buttons.  &#x20;
+You can assign the clip's group using the buttons in the right-click menu, or using the APC40 you can press the group button and _while it is still held down,_ press the clip buttons.
 
 Change zone settings for all clips within a group
 
-Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.&#x20;
+Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.
 
 ### Effects
 
@@ -215,10 +219,10 @@ Note that these are the default effects but they can be edited to do almost what
 
 #### What is the "_currently selected clip"_?
 
-When you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip. Whenever you toggle zone buttons or adjust the clip settings, these are applied to the _currently selected clip._&#x20;
+When you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip. Whenever you toggle zone buttons or adjust the clip settings, these are applied to the _currently selected clip._
 
 {% hint style="info" %}
-To select a clip without triggering it, press the ALT key before pressing the clip button. This is a good way to adjust its zones and other settings withouth running it.&#x20;
+To select a clip without triggering it, press the ALT key before pressing the clip button. This is a good way to adjust its zones and other settings withouth running it.
 {% endhint %}
 
 ### Clip settings panel
@@ -251,17 +255,17 @@ Press the _Y_ key or turn the _Tempo_ knob(APC40) to round the tempo to a whole 
 
 ### Organising your clip deck
 
-To move a clip on your clip deck, click and drag it to a new position. While dragging you can use the cursor keys (or the scroll wheel/buttons on your APC40) to scroll left and right.&#x20;
+To move a clip on your clip deck, click and drag it to a new position. While dragging you can use the cursor keys (or the scroll wheel/buttons on your APC40) to scroll left and right.
 
-Press the ALT key while you're dragging to make a copy.&#x20;
+Press the ALT key while you're dragging to make a copy.
 
-ALT click a clip to select it without starting it.&#x20;
+ALT click a clip to select it without starting it.
 
-ALT + SHIFT click a clip to multi-select.&#x20;
+ALT + SHIFT click a clip to multi-select.
 
-Click and drag will drag ALL selected effects.&#x20;
+Click and drag will drag ALL selected effects.
 
-To delete a clip either drag it off the clip deck or right click and press the DELETE button.&#x20;
+To delete a clip either drag it off the clip deck or right click and press the DELETE button.
 
 ### Laser overview panel
 
@@ -271,18 +275,16 @@ The _Laser overview panel_ gives you a quick look into the status of your curren
 
 The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (ie more flickery).
 
-
-
 ### Connecting to lasers - Controller Assignment panel
 
 Click on the _Assign Laser Controllers_ button to open the _Controller Assignment_ panel. (This panel can also be accessed via _Window->Controller Assignment_ in the menu bar).
 
 You can choose which laser outputs go to which laser controllers here. Drag and drop controllers from the list on the right into slots on the left. You can rename your controllers to match which laser they are paired with (use the pen icon button).
 
-Read the [controller-assignment.md](../setting-up/controller-assignment.md "mention") chapter for more details.&#x20;
+Read the [controller-assignment.md](../setting-up/controller-assignment.md "mention") chapter for more details.
 
 {% hint style="info" %}
-Before you arm any lasers make sure to go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")chapter.&#x20;
+Before you arm any lasers make sure to go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")chapter.
 {% endhint %}
 
 ### Laser output panel
@@ -300,19 +302,17 @@ This panel shows you the settings for the _currently selected laser_ (represente
 
 ### Scanner settings
 
-Clips are converted to a point stream in real time as they are sent to the laser and there are many adjustments for how that point stream is calculated. This may be confusing for you if you are used to older laser software that deals with pre-calculated point streams, but this is a much more flexible and efficient system.&#x20;
+Clips are converted to a point stream in real time as they are sent to the laser and there are many adjustments for how that point stream is calculated. This may be confusing for you if you are used to older laser software that deals with pre-calculated point streams, but this is a much more flexible and efficient system.
 
-The basic scanner settings are:&#x20;
+The basic scanner settings are:
 
 * **Speed** is the scanner speed, ie how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
 * **Colour shift** (sometimes known as _blank shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of synch with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in synch with each other.
 
-The other advanced scanner settings that are covered in the [advanced](../advanced/ "mention")chapter.&#x20;
+The other advanced scanner settings that are covered in the [advanced](../advanced/ "mention")chapter.
 
 ### Zoning
 
 For a full guide to setting up and zoning lasers see : [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")
 
 [Jump to the start!](https://github.com/sebleedelisle/LiberationLaser/wiki/Quick-Start#hello-world)
-
-[^1]: 
