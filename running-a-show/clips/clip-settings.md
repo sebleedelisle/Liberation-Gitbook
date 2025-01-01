@@ -8,7 +8,7 @@ Change the output size of the clip using _Scale X_ and _Scale Y_. They are locke
 
 Change the horizontal and vertical position of the clip using _Shift X_ and _Shift Y_.
 
-_Zone Chase_ is such an amazing feature it gets its own section. [zone-delay-chase.md](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ is such an fun feature it gets its own section. [zone-delay-chase.md](zone-delay-chase.md "mention")
 
 ### Locking clips
 
