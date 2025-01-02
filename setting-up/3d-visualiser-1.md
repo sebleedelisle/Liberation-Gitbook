@@ -18,7 +18,7 @@ Open the _3D Visualiser Settings_ window via the _Window_ menu.&#x20;
 * **Show laser numbers** - renders the relevant number above each laser
 * &#x20;**Show zone names** - renders the relevant zone names below each laser
 
-### Visualiser 3D settings
+### Camera settings
 
 These settings mostly relate to the virtual camera in 3D space. You can see a drop down with presets for these settings that you can save and reload.&#x20;
 
@@ -28,7 +28,7 @@ These settings mostly relate to the virtual camera in 3D space. You can see a dr
 * **Orbit centre point** - the position of the orbit point in 3D space, x, y, z.&#x20;
 * **Grid height** - the height of the grid from the "ground" (ie where y = 0).&#x20;
 
-### Visualiser 3D laser settings
+### Visualiser settings
 
 These settings determine where the lasers (and canvas) are placed within the 3D environment. You can see a drop down with presets for these settings that you can save and reload.&#x20;
 
