@@ -48,7 +48,7 @@ This page is designed to give you an overview of the process of powering up lase
 5. **Add physical masking** - use the aperture cover and/or black foil tape to physically mask anywhere outside of the desired zone. This is critically important as any laser hardware or software can malfunction.&#x20;
 6. **Add software masks** - the software masks within Liberation can be used to protect cameras and projectors, but should **never** be used in place of physical masking for protecting humans. Note that no software or hardware is infallible so make sure you understand the risks before using software masks.&#x20;
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Note that this guide assumes an indoor set up. If you are working outdoors, additional steps must be taken to ensure aircraft safety, including but not limited to :&#x20;
 
 * Getting necessary permissions from aviation authorities such as FAA or CAA&#x20;

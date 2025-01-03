@@ -4,7 +4,7 @@ Powering up your lasers can be fun, but it's critically important that you can a
 
 <figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a Laser Cube. The most important hardware you own. </p></figcaption></figure>
 
-{% hint style="info" %}
+{% hint style="danger" %}
 Power tools and heavy equipment have stop buttons that just interrupt the main power supply, but you should **never** do this on laser equipment! The lasers will always take a moment to stop emitting, and a sudden power outage can cause the laser scanners to hit their extremes. So you are likely to get a strong beam in unexpected places!
 
 That's why lasers have built-in interlock and remote stop systems that disarm and arm the laser controllably.&#x20;

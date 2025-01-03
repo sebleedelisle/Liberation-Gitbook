@@ -1,4 +1,4 @@
-# 🟧 3D Visualiser
+# 🟦 3D Visualiser
 
 ### Introduction
 
@@ -28,7 +28,7 @@ These settings mostly relate to the virtual camera in 3D space. You can see a dr
 * **Orbit centre point** - the position of the orbit point in 3D space, x, y, z.&#x20;
 * **Grid height** - the height of the grid from the "ground" (ie where y = 0).&#x20;
 
-### Visualiser settings
+### Content settings
 
 These settings determine where the lasers (and canvas) are placed within the 3D environment. You can see a drop down with presets for these settings that you can save and reload.&#x20;
 
