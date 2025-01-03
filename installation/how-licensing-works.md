@@ -14,7 +14,7 @@ There is a limit to the number of computers you can authorise Liberation on depe
 | Professional      | 2                   |
 | Unlimited         | 3                   |
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Note that for professional installations and shows you should **always** have a spare authorised computer at the ready!&#x20;
 {% endhint %}
 
