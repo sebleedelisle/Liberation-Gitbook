@@ -14,7 +14,7 @@ There is a limit to the number of computers you can authorise Liberation on depe
 | Professional      | 2                   |
 | Unlimited         | 3                   |
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Note that for professional installations and shows you should **always** have a spare authorised computer at the ready!&#x20;
 {% endhint %}
 
@@ -22,4 +22,4 @@ Note that for professional installations and shows you should **always** have a 
 
 Liberation's licensing and authorisation works over the internet; the app connects to our server to associate an installation with your subscription.&#x20;
 
-Once your installation is authorised it doesn't need to be online again until your subscription renews. You can see the renewal date in the _About panel._ There is a short grace period (7 days for monthly subscriptions) but it is recommended to go online as soon as possible after the renewal date to make sure your authorisation remains active. &#x20;
+Once your installation is authorised it doesn't need to be online again until your subscription renews. You can see the renewal date in the _About panel._ There is a short grace period (7 days for monthly subscriptions) but it is recommended to go online as soon as possible after the renewal date to make sure your authorisation renews and remains active. &#x20;
