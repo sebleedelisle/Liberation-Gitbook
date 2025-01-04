@@ -14,7 +14,7 @@ PLASA have a free downloadable laser safety guide which has been generally accep
 
 This manual is still under construction! Please let me know if you find any typos or other errors. You can even suggest edits yourself using the _Edit in Github_ link on the right.&#x20;
 
-I've used a key to give you an idea of where each section is :&#x20;
+I've used a key to give you an idea of how far along each section is :&#x20;
 
 ✅  = section complete
 
