@@ -1,9 +1,9 @@
 # 🟦 Zones
 
-The main type of zone you will use for most of your projects is the _Beam zone_. This is a zone designed for atmospheric beam effects through the air. The other type of zone is a _Canvas zone_ (See [Graphics and the Canvas System](../../graphics-and-the-canvas-system/)).&#x20;
+The main type of zone you will use for most of your projects is the _Beam zone_. This is a zone designed for atmospheric beam effects through the air. The other type of zone is a _Canvas zone_ (See [graphics-and-the-canvas-system](../../graphics-and-the-canvas-system/ "mention")).&#x20;
 
 {% hint style="danger" %}
-**WARNING - Use extreme caution when moving zones while the laser is running** and turn the brightness down as low as it can go. See [Laser set up process](../setting-up-lasers.md) for a comprehensive guide for activating and zoning lasers safely
+**WARNING - Use extreme caution when moving zones while the laser is running** and turn the brightness down as low as it can go. See [setting-up-lasers.md](../setting-up-lasers.md "mention") for a comprehensive guide for activating and zoning lasers safely
 {% endhint %}
 
 You can click and drag the zones around with the mouse. Turn on a test pattern to see where that zone goes.&#x20;
@@ -29,7 +29,7 @@ Right click on any zone to open up its settings. From this right click menu you 
 * Reset it to the default position
 * Access settings specific to the shape type
 * Delete it&#x20;
-* Add an _Alt Zone_ (See [Alt zone system](alt-zone-system.md))
+* Add an _Alt Zone_ (See [alt-zone-system.md](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **WARNING -** be very careful when changing the zone type while the laser is active. The zone will return to the last position / size for that shape so the output could change suddenly. It's best to turn the laser off before changing the zone type. &#x20;

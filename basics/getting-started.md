@@ -102,13 +102,13 @@ Along the left is a bar with a series of icon buttons, hover over any button to 
 
 #### Canvas
 
-The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. This will be covered in detail in [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention").
+The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. See [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention").
 
 ### APC40 MIDI controller
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
-Although it is possible to control Liberation using the mouse and keyboard, it's way better to use an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works). I realise that the APC40 has now been discontinued so will be adding support for other controllers in the future, but for now try to get hold of one if you can.
+Although it is possible to control Liberation using the mouse and keyboard, it's way better to use an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works).
 
 See also : [apc40-reference.md](../reference/apc40-reference.md "mention")
 

@@ -3,7 +3,7 @@
 {% hint style="danger" %}
 **SAFETY NOTICE**&#x20;
 
-Software masks should NEVER be your only method to protect humans from the output of a laser. You should always have physical barriers / masking between the laser and any potential human exposure. Consider this system as a secondary level of redundancy or for non-safety critical applications (like protecting cameras or projectors) but remember that any software can fail.&#x20;
+Software masks should NEVER be your only method of protecting humans from the output of a laser. You should always have physical barriers / masking between the laser and any potential human exposure. Consider this system as a secondary level of redundancy or for non-safety critical applications (like protecting cameras or projectors) but remember that any software can fail.&#x20;
 {% endhint %}
 
 ***
