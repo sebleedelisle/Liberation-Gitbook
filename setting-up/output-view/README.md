@@ -1,4 +1,4 @@
-# 🟧 Output view
+# 🟦 Output view
 
 The Output View is a representation of the full output range of each laser. In this view you can adjust its zones and add mask areas.&#x20;
 
@@ -20,6 +20,6 @@ On the left of the view you'll see the toolbar. Hover your mouse over any icon t
 * Toggle the test pattern for this laser
 * Choose the test pattern for this laser (overrides the main test pattern)
 * Toggle snapping to the grid
-* Adjust the grid size (0 smallest - 8 largest). (Note that the grid sizes are in a power of 2 so when you reduce the size of the grid all of your snapped points are still in line with the grid).
+* Adjust the grid size (0 smallest - 8 largest). (Note that grid sizes increase by a power of 2 so when you reduce the size of the grid all of your snapped points are still in line).
 
 #### &#x20;
