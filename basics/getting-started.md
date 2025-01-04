@@ -42,6 +42,10 @@ A full list of keyboard shortcuts can be found here : [Keyboard shortcuts](../re
 
 <figure><img src="../.gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+Not sure what a particular button does? Hover over it with your mouse to get a description!
+{% endhint %}
+
 #### Menu
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>

@@ -53,19 +53,25 @@ With perspective correction turned on, content is distorted using perspective wa
 
 ### Line / Curve zone shape
 
-The Line / Curve zone shape has become my go to option in recent shows, and it could be argued that this should be the default for beam zones.&#x20;
+The Line / Curve zone shape has become my go-to option in recent shows, and it could be argued that this should be the default for beam zones.&#x20;
 
 More often than not, my zones have to be thin to fit into awkward thin spaces at venues or between windows on buildings, and I found that it could be super fiddly to adjust four corners of a quad when they're so close together. And so the Line / Curve zone was born!&#x20;
 
-For straght lines, all you need is two points, and then adjust the _Zone thickness_ in the right click menu. It's the fastest way to create simple zones.&#x20;
+For straight lines, all you need is two points, and then adjust the _Zone thickness_ in the right click menu. It's the fastest way to create simple zones.&#x20;
 
-Use the _ADD POINT_ button in the right click menu to create additional points in your line. These points are automatically smoothed to create a flowing shape, and you can adjust the _Smooth level_ to iron out any kinks.&#x20;
+ALT/OPTION click on the line to create additional points. These points are automatically smoothed to create a flowing shape, and you can adjust the _Smooth level_ to iron out any kinks.&#x20;
+
+ALT/OPTION click on a point to delete it.&#x20;
 
 Or if you're experienced with vector graphics apps (Inkscape, Illustrator etc) you can use the _Manually adjust bezier curves_ option to give yourself fine ajdustment of all the control points.&#x20;
 
 ### Segmented zone shape
 
 This subdivided zone lets you make extremely detailed corrections and is useful for when you are mapping onto complex shapes. You can add or remove subdivisions using the + and - buttons in the right click menu.&#x20;
+
+### How to edit a zone that is entirely covered by another zone
+
+Right click on the zone on top, and click the padlock button to lock it. You should now be able to edit and adjust the zone underneath.&#x20;
 
 
 
