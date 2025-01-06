@@ -17,7 +17,7 @@ You can set up and visualise as many lasers as you want within Liberation, the t
 The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up.
 
 {% hint style="warning" %}
-Important : Before you arm any lasers make sure understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")chapter.
+Important : Before you arm any lasers make sure understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") chapter.
 {% endhint %}
 
 ## Overview of the software
