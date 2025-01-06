@@ -12,6 +12,18 @@ You can click and drag the zones around with the mouse. Turn on a test pattern t
 Use the arrow keys to **nudge** the currently selected zone/point. Press the SHIFT key to nudge in larger steps.&#x20;
 {% endhint %}
 
+{% hint style="info" %}
+Top tip : you can quickly copy zone settings across multiple lasers! See [copy-laser-settings.md](../laser-settings/copy-laser-settings.md "mention")
+{% endhint %}
+
+### Adding a new beam zone
+
+Click the _Add a new beam zone_ button at the top of the toolbar and a new zone will appear. Note that beam zones are sorted in the order that you add them but you can re-order them. See [re-ordering-beam-zones.md](re-ordering-beam-zones.md "mention")
+
+### Adding an existing canvas zone
+
+Click on the _Add existing canvas zone_ button and you'll see a list of available canvas zones and you can toggle them on and off for this laser. See [graphics-and-the-canvas-system](../../graphics-and-the-canvas-system/ "mention")
+
 ### Zone shape types
 
 There are 3 zone shape types :&#x20;
