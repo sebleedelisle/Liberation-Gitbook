@@ -164,7 +164,7 @@ Right click on a clip to edit more settings for the clip.
 
 You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in.
 
-<table data-header-hidden><thead><tr><th width="139">Group 1</th><th>Cyan</th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Blue</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Blue</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
 
 The group system is very flexible and it allows you to :
 
