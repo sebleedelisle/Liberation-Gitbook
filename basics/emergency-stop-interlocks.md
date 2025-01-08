@@ -1,6 +1,6 @@
 # ✅ Emergency stop / interlocks
 
-Powering up your lasers can be fun, but it's critically important that you can also _stop_ them! Laser hardware and software is generally very reliable but everything can fail. And on the rare occasion that it does, you'll be very thankful for that remote stop button.&#x20;
+Powering up your lasers can be fun, but it's critically important that you can also _stop_ them! Laser hardware and software is generally very reliable but anything can fail. And on the rare occasion that it does, you'll be very thankful for that remote stop button.&#x20;
 
 <figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a Laser Cube. The most important hardware you own. </p></figcaption></figure>
 
