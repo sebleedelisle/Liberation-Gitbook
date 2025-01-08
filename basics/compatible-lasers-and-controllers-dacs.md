@@ -1,4 +1,4 @@
-# ✅ Compatible Lasers and Controllers (DACs)
+# ✅ Compatible lasers and controllers (DACs)
 
 ### Which lasers are compatible with Liberation?
 
@@ -8,10 +8,8 @@ If your laser has a standard ILDA input then you can use it with Liberation (alo
 
 You do not need an external controller or an ILDA input if :&#x20;
 
-* Your laser has a compatible controller installed inside, or;
-* You have a USB Laser Cube from Wicked Lasers\*
-
-\*Support for WiFi Laser Cubes is currently in development
+* Your laser has Ether Dream installed inside, or;
+* You have a Laser Cube from Wicked Lasers
 
 {% hint style="info" %}
 ### What is a laser controller?
@@ -55,17 +53,18 @@ But if you just want to run a couple of lasers at home, it's the cheapest and si
 
 Older Laser Cubes have a USB laser controller built into them and can be controlled directly from Liberation. (You can also get standalone Laser Dock USB controllers but these are expensive and have been discontinued.)&#x20;
 
+#### Laser Cubes
+
+Wifi Laser Cubes have a built-in network controller that is compatible with Liberation. See [#laser-cubes](compatible-lasers-and-controllers-dacs.md#laser-cubes "mention").
+
 #### Controllers that will be supported in the future :
 
 * [Mercury](https://x-laser.com/pages/mercury-laser-control-system) (Built-in to X-Laser units)
-* [Laser Cube](https://www.laseros.com/lasercube/) network controller (built in to wifi Laser Cubes)
 * [IDN](http://www.ilda-digital.com) (an open network protocol from ILDA, can be implemented by any manufacturer)
-
-
 
 ### Cabling suggestions
 
-If you have USB DACs then I suggest keeping them close to your computer and connect them to the lasers with ILDA cables. (Although watch out as ILDA cables can act as a grappling hook during de-rigging!)
+For optimal performance, keep USB DACs near your computer and connect them to the lasers using longer ILDA cables. (Although watch out as ILDA cables can act as a grappling hook during de-rigging!)
 
 If you're using Ether Dreams you can still keep them all together and connect to the lasers using long ILDA cables, or you can rig them close to the lasers, and use longer network cables.&#x20;
 
