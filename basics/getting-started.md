@@ -318,5 +318,3 @@ The other advanced scanner settings that are covered in the [advanced](../advanc
 ### Zoning
 
 For a full guide to setting up and zoning lasers see : [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")
-
-[Jump to the start!](https://github.com/sebleedelisle/LiberationLaser/wiki/Quick-Start#hello-world)
