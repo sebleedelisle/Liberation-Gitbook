@@ -1,6 +1,6 @@
 # 🟦 Zone delay / chase
 
-We all agree that more lasers is more fun but if they're all doing exactly the same thing you're missing out on creative possibilities.
+We all agree that more lasers equals more fun but if they're all doing exactly the same thing you're missing out on creative possibilities.
 
 The zone delay system is a simple yet effective method to introduce variety across zones and can significantly enhance the dynamism of your lasers. It can also be used to make a more traditional chase effect.&#x20;
 
