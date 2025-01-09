@@ -2,7 +2,7 @@
 
 ### Clip settings panel
 
-<figure><img src="../../.gitbook/assets/clip-settings-clip-settings-panel" alt="" width="357"><figcaption><p>The clip settings panel</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/clip-settings-clip-settings-panel" alt="" width="357"><figcaption><p>The clip settings panel</p></figcaption></figure>
 
 Change the output size of the clip using _Scale X_ and _Scale Y_. They are locked together unless you press the _SHIFT_ key.&#x20;
 
@@ -19,11 +19,11 @@ If a clip is locked, it can't be moved or deleted. To lock a clip, use the _Lock
 * _LOCKED CLIPS ZONES_ - if this is on then you can't change the zones for any locked clip
 * _LOCKED CLIPS PARAMS_ - if this is on then you can't change the parameters (scale, shift etc) for any locked clip.&#x20;
 
-<figure><img src="../../.gitbook/assets/clip-settings-right-click-menu" alt="" width="310"><figcaption><p>The clip settings right click menu</p></figcaption></figure>
-
 ### Right click menu
 
-If you right click on a clip, a menu appears with some of the options for that clip. See [clip-editor.md](../../designing-content/clip-editor.md "mention"), [organising-your-clip-deck.md](../../designing-content/organising-your-clip-deck.md "mention") and [groups.md](groups.md "mention")for more about the first few items in this menu.&#x20;
+If you right click on a clip, a menu appears with some of the options for that clip. See [clip-editor.md](../designing-content/clip-editor.md "mention"), [organising-your-clip-deck.md](../designing-content/organising-your-clip-deck.md "mention") and [groups.md](groups.md "mention")for more about the first few items in this menu.&#x20;
+
+<figure><img src="../.gitbook/assets/clip-settings-right-click-menu" alt="" width="310"><figcaption><p>The clip settings right click menu</p></figcaption></figure>
 
 ### Retrigger
 

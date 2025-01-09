@@ -267,7 +267,7 @@ ALT click a clip to select it without starting it.
 
 ALT + SHIFT click a clip to multi-select.
 
-Click and drag will drag ALL selected effects.
+Click and drag will drag ALL selected clips.
 
 To delete a clip either drag it off the clip deck or right click and press the DELETE button.
 
