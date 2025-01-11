@@ -1,19 +1,54 @@
-# 🟦 Setting up your project
+# 🟦 3D Visualiser
 
-When you open Liberation for the first time, it has the default set up. But you'll likely want to adjust it to more closely match your own set up or change it for a particular show.&#x20;
+### Introduction
 
-Here is an overview of the process :
+Liberation's 3D visualiser is an incredibly useful feature -  you can design and refine your shows without needing any lasers at all! It's proved an invaluable tool for me, especially when there are particularly complex setups with large numbers of lasers.&#x20;
 
-1.  **Change the number of lasers in your project :**&#x20;
+### Navigating around the 3D space&#x20;
 
-    In the _Laser Overview_ window, click the red button on the side of any laser to delete it. Add a new laser - click the _ADD LASER_ button underneath the list of lasers.&#x20;
-2.  **Update the 3D visualiser view :**&#x20;
+* Click and drag to rotate the view around the orbit point
+* Mouse wheel to move backwards and forwards towards the orbit point
+* Click and drag while keeping the shift key pressed to move the camera around laterally (strafe) left, right, up and down along the XY plane. &#x20;
 
-    Adjust the position and orientation of each laser using the _3D Visualiser Settings_ Window. See [3d-visualiser-1.md](3d-visualiser-1.md "mention").&#x20;
-3. **Adjust the zones :** \
-   In the _OUTPUT_ view you can check the zones. Tab through each laser or click one of the numbered buttons at the top of the view. Adjust each zone as you require, or even add new zones. See [output-view](output-view/ "mention").
-4. **Change each clip's zones :** \
-   Trigger each clip by clicking its button, and then toggle the zones and the X and Y flip using the on screen buttons. See [clips](../clips/ "mention").
-5. **Connect to your controllers :** when you're ready to plug your lasers in and go, open the _Controller Assignment_ Window. See [controller-assignment.md](controller-assignment.md "mention").&#x20;
-6. **Activate and zone your lasers :** Carefully follow the [setting-up-lasers.md](setting-up-lasers.md "mention")
+### Settings
 
+Open the _3D Visualiser Settings_ window via the _Window_ menu.&#x20;
+
+* **Brightness Adjustment** - changes how bright the lasers appear
+* **Show laser numbers** - renders the relevant number above each laser
+* &#x20;**Show zone names** - renders the relevant zone names below each laser
+
+### Camera settings
+
+These settings mostly relate to the virtual camera in 3D space. You can see a drop down with presets for these settings that you can save and reload.&#x20;
+
+* **Camera distance -** The camera is always pointed at its _Orbit point_. The camera distance is how far away it is from this point. You can also adjust this setting using the mouse scroll wheel.&#x20;
+* **FOV -** Field of view - determines how wide angle / zoomed in the camera is.&#x20;
+* **Orbit position** - describes the current rotation around the orbit point. The first value is the rotation around the X axis (pitch) and the second value is the rotation around the Y axis (yaw).&#x20;
+* **Orbit centre point** - the position of the orbit point in 3D space, x, y, z.&#x20;
+* **Grid height** - the height of the grid from the "ground" (ie where y = 0).&#x20;
+
+### Content settings
+
+These settings determine where the lasers (and canvas) are placed within the 3D environment. You can see a drop down with presets for these settings that you can save and reload.&#x20;
+
+#### Lasers
+
+Each laser has its own group of settings that you can expand using the small white triangle.
+
+* **3D Position** - the laser's x, y and z position.&#x20;
+* **3D Orientation** - the laser's rotation around each of the x, y and z axes.&#x20;
+* **Flip X / Flip Y** - flips the virtual output of the laser - NOTE that this shouldn't be necessary - it's better to use the laser flip / orientation settings to correct any inconsistencies with your hardware.&#x20;
+* **Output Range horizontal / vertical** - relates to the max / min angle of your laser's scanners. 60º is standard but you can adjust this if your lasers are different.&#x20;
+
+#### Canvas
+
+If you are using the canvas system, you can also choose to include the canvas image within the 3D view. Activate the checkbox to render the canvas within and use the position, orientation and scale settings to determine how it looks within your 3D view.&#x20;
+
+
+
+{% hint style="info" %}
+Seeing "ghost" lasers? The 3D Visualiser is somewhat independent of the laser setup and it's possible to have more lasers within the visualiser than you do in Liberation. When you add a laser to your project, a new laser object inside the visualiser will also be added. But if you delete a laser, there will still remain a "ghost" laser object in the visualiser.&#x20;
+
+To get rid of all the ghost lasers, click the _Remove extra 3D laser objects_ button (at the bottom of the 3D Visualiser settings window).
+{% endhint %}
