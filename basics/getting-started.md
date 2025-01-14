@@ -100,6 +100,8 @@ Click on a zone to select it and then adjust its corner points with the mouse. U
 
 Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid and snapping settings.
 
+For more details see [output-view](../setting-up/output-view/ "mention").
+
 #### Canvas
 
 The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. See [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention").
@@ -117,18 +119,18 @@ See also : [apc40-reference.md](../reference/apc40-reference.md "mention")
 {% hint style="info" %}
 **What is a clip?**
 
-A clip is a container for any laser content within Liberation. Clips can contain beams or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the clipdeck.
+A clip is a container for any laser content within Liberation. Clips can contain beams or graphical animations and they are usually a looping cycle. They can be directed into any zone (or _Canvas target area_) and are triggered using the clip buttons inside the clip deck.
 {% endhint %}
 
-#### Clipdeck overview
+#### Clip deck overview
 
 <figure><img src="../.gitbook/assets/qs-clipdeck.png" alt=""><figcaption></figcaption></figure>
 
-This grid is known as the _clipdeck_ and it is where all of the laser clips are stored. It is designed to map directly to the 8 x 5 grid of buttons on your APC40.
+This grid is known as the _clip deck_ and it is where all of the laser clips are stored. It is designed to map directly to the 8 x 5 grid of buttons on your APC40.
 
-**Navigating the clipdeck.**
+**Navigating the clip deck.**
 
-You can scroll the clipdeck left and right using :
+You can scroll the clip deck left and right using :
 
 * Left and right cursor keys. Add CMD/CTL to scroll one full page at a time.
 * Trackpad : Swipe
@@ -136,7 +138,7 @@ You can scroll the clipdeck left and right using :
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ buttons
 
-To help you get your bearings, there is a mini visualiser of the clipdeck along the top.
+To help you get your bearings, there is a mini visualiser of the clip deck along the top.
 
 #### Starting and stopping clips
 
@@ -158,13 +160,13 @@ Two rows below the zone buttons, you'll see the X/Y flip buttons, toggle these t
 Note that these zone allocations and X/Y flip settings are connected to the clip itself; they are retained next time you run that clip. They are not a global setting.
 {% endhint %}
 
-Right click on a clip to edit more settings for the clip.
+Right click on a clip to edit more settings for the clip. Also see [#clip-settings-panel](getting-started.md#clip-settings-panel "mention")
 
 ### Groups
 
-You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in.
+You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in. The APC40 clip buttons also light up in this colour.&#x20;
 
-<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Blue</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Indigo</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
 
 The group system is very flexible and it allows you to :
 

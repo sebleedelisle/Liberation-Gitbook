@@ -5,7 +5,7 @@ Open the laser output settings by either :&#x20;
 * clicking on a number button in the _Laser overview_ window
 * clicking the menu _Window->Laser Output Settings_
 
-Once the window is open it will show you the settings for the currently selected laser. In the _Laser Overview_ window, select a laser by clicking its number button, pressing its number key, or using the _TAB_ key to cycle through options. (_SHIFT + TAB_ goes backwards).&#x20;
+Once the window is open it will show you the settings for the currently selected laser. In the _Laser Overview_ panel, select a laser by clicking its number button, pressing its number key, or using the _TAB_ key to cycle through options. (_SHIFT + TAB_ goes backwards).&#x20;
 
 In the _Laser output_ window, you'll see :&#x20;
 

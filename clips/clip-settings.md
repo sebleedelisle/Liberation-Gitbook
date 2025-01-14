@@ -23,13 +23,21 @@ If a clip is locked, it can't be moved or deleted. To lock a clip, use the _Lock
 
 If you right click on a clip, a menu appears with some of the options for that clip. See [clip-editor.md](../designing-content/clip-editor.md "mention"), [organising-your-clip-deck.md](../designing-content/organising-your-clip-deck.md "mention") and [groups.md](groups.md "mention")for more about the first few items in this menu.&#x20;
 
-<figure><img src="../.gitbook/assets/clip-settings-right-click-menu" alt="" width="310"><figcaption><p>The clip settings right click menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right click menu</p></figcaption></figure>
 
 ### Retrigger
 
 When _Retrigger_ is enabled, the clip will always restart from whenever it is started. This is the default as it's usually the best option, especially if you are not 100% locked in with the music.&#x20;
 
 If _Retrigger_ is not enabled, the clip will always be in time with the beat - it's as though the clip was started at the very beginning of the clock. It's good for when you are synchronised perfectly with the music via an external clock signal. &#x20;
+
+### Transition in/out time (fade)
+
+Clips can be set to fade in and out with a duration measured in seconds. By default the fade time will be inherited by its group settings (and can be changed by right clicking on the group button).&#x20;
+
+If you want a different fade duration from the clip's group, first toggle off the _USE GROUP DEFAULT_ button, then adjust the clip's _In time_ and _Out time_ sliders.&#x20;
+
+
 
 
 
