@@ -30,7 +30,7 @@ The pattern works on the zone numbers and assumes your zones are in order from l
 * **Chase mode** - with chase mode on, each zone is turned on and off like a traditional chase effect. Adjust the chase appearance using the _Fade in, Hold,_ and _Fade out_ settings. These settings are set as a proportion of the zone delay value, so a value of 1 would be the same time as specified in the _Zone delay_ value. It's a little hard to explain so my advice would be to try for yourself.&#x20;
 
 {% hint style="info" %}
-Zone delay also affects any active effects. For instance, a flashing effect will be delayed across the zones as well as the animation within the clip itself.&#x20;
+Zone delay is also applied to any active effects. For instance, a flashing effect will be delayed across the zones as well as the animation within the clip itself.&#x20;
 {% endhint %}
 
 When a clip has any kind of _Zone delay_ you will see a three-dot icon in the top right of the clip. These dots are animated to show you the style of _Zone delay_ for that clip.&#x20;

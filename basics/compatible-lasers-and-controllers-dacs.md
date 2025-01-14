@@ -55,7 +55,7 @@ Older Laser Cubes have a USB laser controller built into them and can be control
 
 #### Laser Cubes
 
-Wifi Laser Cubes have a built-in network controller that is compatible with Liberation. See [#laser-cubes](compatible-lasers-and-controllers-dacs.md#laser-cubes "mention").
+Wifi Laser Cubes have a built-in network controller that is compatible with Liberation. See [#laser-cubes](compatible-lasers-and-controllers-dacs.md#laser-cubes "mention"). (Introduced in v0.7.3 alpha currently in testing)
 
 #### Controllers that will be supported in the future :
 
