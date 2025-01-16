@@ -20,9 +20,7 @@ Then you have either a network or a CPU performance issue :
 
 **CPU performance**
 
-if you have an old or low spec machine it may be too slow to run Liberation. Check the frame rate indicator in the icon bar :
-
-![Framerate indicator on the top right of the icon bar](https://europe1.discourse-cdn.com/standard20/uploads/liberation/original/1X/eea2bc5a6e186b15e940ccf4c6c35fa5444cd41c.png)
+if you have an old or low spec machine it may be too slow to run Liberation. Check the frame rate indicator in the right hand side of the icon bar.
 
 There are two numbers there - the actual frame rate and the target frame rate. If the actual frame rate drops below 30, you may have issues.
 
