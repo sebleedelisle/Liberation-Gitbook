@@ -1,11 +1,13 @@
 # Table of contents
 
 * [✅ Important! Read this first](README.md)
-* [✅ Installation / licensing](installation/README.md)
+* [🟧 Installation / licensing](installation/README.md)
   * [✅ Install for Mac](installation/install-for-mac.md)
   * [✅ Install for Windows](installation/install-for-windows.md)
   * [✅ How licensing works](installation/how-licensing-works.md)
   * [✅ Authorising and de-authorising](installation/authorising-and-de-authorising.md)
+  * [✅ Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md)
+  * [✅ Cancel your subscription](installation/cancel-your-subscription.md)
 * [✅ Quick start guide](basics/getting-started.md)
 * [🟧 Hardware](basics/README.md)
   * [✅ Compatible lasers and controllers (DACs)](basics/compatible-lasers-and-controllers-dacs.md)
