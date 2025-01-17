@@ -11,7 +11,7 @@ Here is an overview of the process :
 
     Adjust the position and orientation of each laser using the _3D Visualiser Settings_ Window. See [3d-visualiser.md](3d-visualiser.md "mention").&#x20;
 3. **Adjust the zones :** \
-   In the _OUTPUT_ view you can check the zones. Tab through each laser or click one of the numbered buttons at the top of the view. Adjust each zone as you require, or even add new zones. See [output-view](output-view/ "mention").
+   In the _OUTPUT_ view you can check the zones. Tab through each laser or click one of the numbered buttons at the top of the view. Adjust each zone as you require, or even add new zones. See [output-view](../output-view/ "mention").
 4. **Change each clip's zones :** \
    Trigger each clip by clicking its button, and then toggle the zones and the X and Y flip using the on screen buttons. See [clips](../clips/ "mention").
 5. **Connect to your controllers :** when you're ready to plug your lasers in and go, open the _Controller Assignment_ Window. See [controller-assignment.md](controller-assignment.md "mention").&#x20;

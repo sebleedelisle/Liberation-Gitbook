@@ -2,7 +2,7 @@
 
 Add a new laser by clicking the _ADD LASER_ button in the _Laser overview_ panel, or the _+_ button in the _Output_ view.&#x20;
 
-When you add a new laser, a beam zone is automatically added to it. Note that lasers and zones are sorted in the order that you add them. See [re-ordering-beam-zones.md](output-view/re-ordering-beam-zones.md "mention").
+When you add a new laser, a beam zone is automatically added to it. Note that lasers and zones are sorted in the order that you add them. See [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md "mention").
 
 Remove a laser by clicking the red "-" button in the _Laser overview_ panel. Note that you will lose all of your laser settings!
 

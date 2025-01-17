@@ -100,7 +100,7 @@ Click on a zone to select it and then adjust its corner points with the mouse. U
 
 Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid and snapping settings.
 
-For more details see [output-view](../setting-up/output-view/ "mention").
+For more details see [output-view](../output-view/ "mention").
 
 #### Canvas
 

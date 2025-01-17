@@ -27,7 +27,7 @@ If you can't see the canvas buttons in the clip deck, try scrolling the beam zon
 Canvas zones are areas within the canvas that you choose to send to a laser. They are represented as pink outline rectangles in the canvas view. You can right click on each zone and select the lasers you want it to be assigned to. If you now switch to the _OUTPUT_ view for that laser you'll see a new zone has appeared. &#x20;
 
 {% hint style="info" %}
-You can also assign a canvas zone to a laser by clicking the _add canvas zone_ button in the _OUTPUT_ view. See [zones.md](../setting-up/output-view/zones.md "mention").
+You can also assign a canvas zone to a laser by clicking the _add canvas zone_ button in the _OUTPUT_ view. See [zones.md](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Guide images
