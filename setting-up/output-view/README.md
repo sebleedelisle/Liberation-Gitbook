@@ -1,6 +1,8 @@
-# 🟦 Output view
+# 🟦 Output view / Zones
 
-The Output View is a representation of the full output range of each laser. In this view you can adjust its zones and add mask areas.&#x20;
+The Output view is a representation of the full output range of each laser. In this view you can adjust its zones and add mask areas.&#x20;
+
+Select the Output view by clicking on the _OUTPUT_ button in the top tool bar.
 
 ### Selecting a laser
 

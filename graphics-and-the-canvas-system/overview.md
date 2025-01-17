@@ -7,12 +7,12 @@ The Liberation Canvas system is relatively simple, but it can be confusing at fi
 
 Maybe not! If you're just projecting a single graphic onto a single laser, you can easily do that with a beam zone (although by default beam zone content is flipped horizontally, so you'll need to X flip the clip).&#x20;
 
-But if you want to spread graphical content among more than one laser, or break it up into different sections to map onto architecture, then you'll need the canvas system.&#x20;
+But if you want to spread graphical content among more than one laser, or break it up into different sections to map onto architecture, then the canvas system has got you covered!&#x20;
 {% endhint %}
 
 ### Canvas
 
-First of all, there's the canvas itself. This is what you see in the _CANVAS_ view and represents a huge, well, canvas, and you can draw content anywhere within this space.&#x20;
+First of all, there's the canvas itself. This is what you see in the _CANVAS_ view and represents a large, well, canvas, and you can draw content anywhere within this space.&#x20;
 
 ### Canvas target areas
 
