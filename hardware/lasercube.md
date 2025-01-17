@@ -41,7 +41,7 @@ I am talking to the designers/coders of LaserCube and I’m hoping this is somet
 
 To be fair, you should probably do this anyway, but I myself use software masks for protecting cameras and projectors. So just be aware that it’s more dangerous to do this using the LaserCube network protocol than it is with the Ether Dream (which goes into a safety stop mode as soon as there is any error or missing data).
 
-Also, I've said it already but **use a wired connection to your LaserCube**. Wifi isn’t gonna cut it.
+Also, I've said it already but **use a wired connection to your LaserCube**. Wifi isn’t gonna cut it and will make this issue even worse.
 {% endhint %}
 
 
