@@ -39,4 +39,4 @@ CC 9 : Rotation 2D (Z)
 And importantly :\
 CC 15 : Global brightness
 
-Please note that this system was originally designed for recording and playback, allowing you to use Logic, Ableton or other DAW to create timeline animations. Although you can use it for live control, it’s not been optimised for that use, and many functions will be missing compared to the APC40 set up.
+Please note that this system was originally designed for recording and playback, allowing you to use Logic, Ableton or other DAW to create timeline animations. Although you can use it for live control, it has not been optimised for that use, and some functions for live control are missing compared to the APC40 set up.
