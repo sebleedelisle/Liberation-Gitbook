@@ -26,6 +26,10 @@ If you can't see the canvas buttons in the clip deck, try scrolling the beam zon
 
 Canvas zones are areas within the canvas that you choose to send to a laser. They are represented as pink outline rectangles in the canvas view. You can right click on each zone and select the lasers you want it to be assigned to. If you now switch to the _OUTPUT_ view for that laser you'll see a new zone has appeared. &#x20;
 
+{% hint style="danger" %}
+WARNING - if the laser is armed you could suddenly start projecting content in a default canvas zone. It's best to disarm the laser before assigning canvas zones to it.&#x20;
+{% endhint %}
+
 {% hint style="info" %}
 You can also assign a canvas zone to a laser by clicking the _add canvas zone_ button in the _OUTPUT_ view. See [zones.md](../output-view/zones.md "mention").
 {% endhint %}
@@ -44,7 +48,7 @@ For architectural mapping I've found it helpful to produce an 'unwrapped' visual
 
 ### Canvas in the 3D visualiser
 
-It would probably be fiddly (to say the least) to recreate your complicated laser projection system in the 3D visualiser! So instead, you have the option to place your canvas within the 3D space. Activate the _Show canvas_ checkbox in the _3D visualiser settings_ window. (Any guide images you have in the canvas will also show up in the visualiser.)
+It would probably be fiddly (to say the least) to recreate your complicated multi laser projection system in the 3D visualiser! So instead, you have the option to place your canvas within the 3D space. Activate the _Show canvas_ checkbox in the _3D visualiser settings_ window. (Any guide images you have in the canvas will also show up in the visualiser.)
 
 {% hint style="info" %}
 Note that the visualiser will still show the canvas projections as atmospheric effects coming from the lasers. You can either just move them out the view or, if you're fancy, you can line them up with the canvas!

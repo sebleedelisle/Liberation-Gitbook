@@ -1,6 +1,6 @@
 # 🟦 Canvas zones
 
-A canvas zone is represented in the canvas view as a pink outline rectangle. It is used to select a rectangular area within the canvas and send its content to one or more lasers.&#x20;
+A canvas zone can be seen in the canvas view as a pink outline rectangle. It is used to select a rectangular area within the canvas and send its content to one or more lasers.&#x20;
 
 You can click and drag the zones around with the mouse. Drag the corners to change the size and shape.&#x20;
 
@@ -24,7 +24,7 @@ You can also add a canvas zone to a laser directly from the _OUTPUT_ view - clic
 
 ### Right-click menu
 
-You can also delete this canvas zone, move it to the back and lock it, all from the right-click menu.
+Right click on the zone and you'll see options to delete this canvas zone, move it to the back and lock it.
 
 
 

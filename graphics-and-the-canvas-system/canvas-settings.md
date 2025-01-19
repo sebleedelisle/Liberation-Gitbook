@@ -4,7 +4,7 @@ Click on the _Canvas settings_ button at the top of the left hand tool bar to op
 
 ### Width and Height
 
-Use these draggable sliders to change the overall width and height of the entire canvas. Notionally these dimensions can be considered as pixel size, but it's all relative.&#x20;
+Use these draggable sliders to change the overall width and height of the entire canvas. These dimensions can be notionally considered as pixel size, but it's all relative.&#x20;
 
 Double click on a slider to type a value.&#x20;
 

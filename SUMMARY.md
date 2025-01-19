@@ -8,6 +8,7 @@
   * [✅ Authorising and de-authorising](installation/authorising-and-de-authorising.md)
   * [✅ Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md)
   * [✅ Cancel your subscription](installation/cancel-your-subscription.md)
+* [🟧 FAQ](faq.md)
 * [✅ Quick start guide](basics/getting-started.md)
 * [✅ Hardware](hardware/README.md)
   * [✅ Compatible lasers and controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md)
