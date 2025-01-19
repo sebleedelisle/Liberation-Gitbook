@@ -2,7 +2,7 @@
 
 ### Compatibility
 
-Windows 10 or 11 64 bit machines. High spec machines recommended if you want to run large shows.&#x20;
+Windows 10 or 11 64 bit machines. High spec machines recommended if you want to run large shows.  The faster your computer is, the smoother the animated laser output will be.&#x20;
 
 ### Installation process
 
