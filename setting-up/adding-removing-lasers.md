@@ -7,7 +7,7 @@ When you add a new laser, a beam zone is automatically added to it. Note that la
 Remove a laser by clicking the red "-" button in the _Laser overview_ panel. Note that you will lose all of your laser settings!
 
 {% hint style="info" %}
-If you want to copy zones or other settings from other lasers, use [copy-settings-between-lasers.md](copy-settings-between-lasers.md "mention")
+If you want to copy zones or other settings from other lasers, use [copy-laser-settings.md](laser-settings/copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
