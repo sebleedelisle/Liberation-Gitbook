@@ -32,7 +32,7 @@ None of the orientation / mirroring corrections change anything in the 3D Visual
 
 ### Copy laser settings
 
-See [#copy-laser-settings](./#copy-laser-settings "mention").
+See [#copy-laser-settings](laser-settings.md#copy-laser-settings "mention").
 
 ### Scanner settings
 
@@ -45,7 +45,7 @@ Although the default settings are quite conservative, you can still damage your 
 {% endhint %}
 
 {% hint style="info" %}
-This speed setting doesn't change the point rate, instead it adjusts how spread out those points are. For more information see [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+This speed setting doesn't change the point rate, instead it adjusts how spread out those points are. For more information see [how-liberation-generates-laser-content.md](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Colour shift**
@@ -60,15 +60,15 @@ If you see little "tails" on your laser output, it's likely because the colour s
 
 #### Scanner presets
 
-Use this to choose a pre-designed scanner setting. The default option is usually fine so you shouldn't need to change this setting unless you have particularly bad (or good) scanners. If you want to dig deeper, see [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Use this to choose a pre-designed scanner setting. The default option is usually fine so you shouldn't need to change this setting unless you have particularly bad (or good) scanners. If you want to dig deeper, see [scanner-presets.md](../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-You can use this system to correct the brightness curve and white balance of your laser. See [colour-calibration.md](../../advanced/colour-calibration.md "mention")
+You can use this system to correct the brightness curve and white balance of your laser. See [colour-calibration.md](../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-You shouldn't need to mess with these but if you're curious, see [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")
+You shouldn't need to mess with these but if you're curious, see [advanced-laser-settings.md](../advanced/advanced-laser-settings.md "mention")
 
 
 

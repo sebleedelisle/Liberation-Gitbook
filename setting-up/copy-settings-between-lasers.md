@@ -1,8 +1,8 @@
-# 🟦 Copy laser settings
-
-This is an incredibly useful and time saving feature for quickly copying zones and other settings from one laser to the others.&#x20;
+# 🟦 Copy settings between lasers
 
 Click on the _COPY LASER SETTINGS_ button in _Laser Output_ and a new window will open.&#x20;
+
+This is an incredibly useful and time saving feature for quickly copying zones and other settings from one laser to the others.&#x20;
 
 Make sure you have selected the laser you want to copy settings _from._&#x20;
 
