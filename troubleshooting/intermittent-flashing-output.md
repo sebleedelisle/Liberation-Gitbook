@@ -1,4 +1,4 @@
-# 🟩 Intermittent / flashing output
+# ✅ Intermittent / flashing output
 
 Check the laser overview panel -\
 
