@@ -1,4 +1,4 @@
-# 🟧 Starting / stopping clips
+# ✅ Starting / stopping clips
 
 {% hint style="info" %}
 You can use the on screen buttons to start and stop clips, but it's much better to use the APC40 midi controller. Liberation has been optimised to work well with this hardware and should be considered an important part of your investment into lasers.&#x20;

@@ -30,7 +30,7 @@
   * [🟦 Test patterns](output-view/3d-visualiser.md)
   * [🟦 Alt zone system](output-view/alt-zone-system.md)
 * [✅ Clips & Clip deck](clips/README.md)
-  * [🟧 Starting / stopping clips](clips/starting-stopping-clips.md)
+  * [✅ Starting / stopping clips](clips/starting-stopping-clips.md)
   * [✅ Clip settings](clips/clip-settings.md)
   * [🟦 Zone delay / chase](clips/zone-delay-chase.md)
   * [◼️ Clip groups](clips/groups.md)
