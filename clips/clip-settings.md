@@ -27,9 +27,19 @@ If you right click on a clip, a menu appears with some of the options for that c
 
 ### Retrigger
 
-When _Retrigger_ is enabled, the clip will always restart from whenever it is started. This is the default as it's usually the best option, especially if you are not 100% locked in with the music.&#x20;
+Clips by default are set to _retrigger_. This means that no matter when you press it, the clip will start running from that moment. So if you start it late, the clip's animation will be slightly late and out of time. &#x20;
 
-If _Retrigger_ is not enabled, the clip will always be in time with the beat - it's as though the clip was started at the very beginning of the clock. It's good for when you are synchronised perfectly with the music via an external clock signal. &#x20;
+{% hint style="info" %}
+If you _Tap Tempo_ while a retriggered clip is running, the system will "quantise" the clip to be in time, even if you didn't start it exactly on the beat.&#x20;
+{% endhint %}
+
+If _Retrigger_ is not enabled, the clip will always be in time - it's as though the clip was started at the very beginning of the clock. It's good for when you are synchronised perfectly with the music via an external clock signal. &#x20;
+
+{% hint style="info" %}
+Clips are often designed to loop forever but you can design them in such a way that they only run once or a few times around. Make sure to keep those set to _retrigger_, or they won't restart!
+{% endhint %}
+
+
 
 ### Transition in/out time (fade)
 
