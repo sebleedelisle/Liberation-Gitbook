@@ -13,7 +13,7 @@ Use the arrow keys to **nudge** the currently selected zone/point. Press the SHI
 {% endhint %}
 
 {% hint style="info" %}
-Top tip : you can quickly copy zone settings across multiple lasers! See [copy-laser-settings.md](../setting-up/laser-settings/copy-laser-settings.md "mention")
+Top tip : you can quickly copy zone settings across multiple lasers! See [copy-settings-between-lasers.md](../setting-up/copy-settings-between-lasers.md "mention")
 {% endhint %}
 
 ### Adding a new beam zone
