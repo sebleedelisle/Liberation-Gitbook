@@ -1,4 +1,4 @@
-# 🟧 Clips & Clip deck
+# ✅ Clips & Clip deck
 
 ### What is a clip?
 
