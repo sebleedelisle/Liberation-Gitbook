@@ -31,6 +31,7 @@
   * [🟦 Alt zone system](output-view/alt-zone-system.md)
 * [✅ Clips & Clip deck](clips/README.md)
   * [✅ Starting / stopping clips](clips/starting-stopping-clips.md)
+  * [🟧 What are the small icons on the clip buttons?](clips/what-are-the-small-icons-on-the-clip-buttons.md)
   * [✅ Clip settings](clips/clip-settings.md)
   * [🟦 Zone delay / chase](clips/zone-delay-chase.md)
   * [◼️ Clip groups](clips/groups.md)

@@ -26,7 +26,7 @@ The pattern works on the zone numbers and assumes your zones are in order from l
 * **Delay mode**
   1. No delay - use this in chase mode
   2. Delay - the default mode, delays the timing of each zone
-  3. Delay with reset - Resets the clip back to the start every time across the pattern. This is good when _Chase mode_ is on.&#x20;
+  3. Delay with re-trigger - Resets the clip back to the start every time across the pattern. This is good when _Chase mode_ is on.&#x20;
 * **Chase mode** - with chase mode on, each zone is turned on and off like a traditional chase effect. Adjust the chase appearance using the _Fade in, Hold,_ and _Fade out_ settings. These settings are set as a proportion of the zone delay value, so a value of 1 would be the same time as specified in the _Zone delay_ value. It's a little hard to explain so my advice would be to try for yourself.&#x20;
 
 {% hint style="info" %}
