@@ -1,6 +1,6 @@
 # ✅ FAQ
 
-## General
+## Hardware
 
 #### **Does Liberation run on Windows?**
 
@@ -22,25 +22,13 @@ Liberation can run many lasers on one computer, it's been tested with over 100 l
 * network speed
 * your subscription type
 
-#### **What are the limitations between the 3 subscription tiers?**
-
-* Hobbyist tier - 2 x laser controllers and 2 x DMX fixtures
-* Pro tier - 8 x laser controllers and 8 x DMX fixtures
-* Unlimited tier - as many lasers and DMX fixtures as your system can handle
-
-Note that you can set up and preview as many lasers as you want on **every** tier, and there are no other limitations at all apart from the number of lasers that you can _arm_. Every other Liberation feature is available to all.
-
-#### **How do I sync Liberation to music?**
-
-It has an intelligent "tap tempo" system that works as you would expect, but you can also use an external MIDI clock or Ableton Link. The timeline can be synced to incoming LTC/SMPTE timecode coming in via any audio interface.&#x20;
-
 #### **Which MIDI controllers can I use?**
 
-Liberation has been designed and optimised around the popular APC40 Mk2 MIDI controller. It also works with the APC40 Mk1.
+Liberation has been designed and optimised around the popular APC40 Mk2 MIDI controller. It also works with the APC40 Mk1. See [live-control-with-the-apc40.md](midi-control/live-control-with-the-apc40.md "mention")
 
 There is also the MIDI Send/Receive system that offers additional MIDI control. See [midi-send-receive.md](midi-control/midi-send-receive.md "mention")
 
-See [midi-control](midi-control/ "mention")
+See [midi-control](midi-control/ "mention")for more information.
 
 ## Laser controllers
 
@@ -71,9 +59,21 @@ See [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-c
 
 #### **Can I use Liberation with my LaserCube?**
 
-Yes, Liberation works directly with any LaserCube.&#x20;
+Yes, Liberation works directly with any LaserCube. See [lasercube.md](hardware/lasercube.md "mention")
 
 ## Subscriptions
+
+#### **What is the price of a subscription?**
+
+See the [shop](https://liberationlaser.com/shop) page for the current prices.&#x20;
+
+#### **What are the limitations between the 3 subscription tiers?**
+
+* Hobbyist tier - 2 x laser controllers and 2 x DMX fixtures
+* Pro tier - 8 x laser controllers and 8 x DMX fixtures
+* Unlimited tier - as many lasers and DMX fixtures as your system can handle
+
+Note that you can set up and preview as many lasers as you want on **every** tier, and there are no other limitations at all apart from the number of lasers that you can _arm_. Every other Liberation feature is available to all.
 
 #### **Can I upgrade to a new tier?**
 
@@ -119,11 +119,13 @@ You can also remotely de-authorise a computer you no longer have access to (with
 
 #### **Can I deauthorise Liberation on a computer that has been lost or stolen?**
 
-* You can deauthorise the computer via the website, but this will only take effect when the subscription renews or when the computer connects to the internet, whichever comes first. If you urgently need to re-authorise a new computer get in touch with support.&#x20;
+You can deauthorise the computer via the website. If the Liberation installation has not been online since your last renewal, this can be done immediately.&#x20;
+
+If not, the deauthorisation will take effect when the subscription renews or when the computer connects to the internet, whichever comes first. If you urgently need to re-authorise a new computer get in touch with support.&#x20;
 
 
 
-### Getting started
+### Using Liberation
 
 #### The default set up has 8 lasers - how do I change this?&#x20;
 
@@ -132,6 +134,10 @@ See [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention"
 #### Can I copy zone settings from one laser to the others?&#x20;
 
 Yes! See [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md "mention")
+
+#### **How do I sync Liberation to music?**
+
+It has an intelligent "tap tempo" system that works as you would expect, but you can also use an external MIDI clock or Ableton Link. The timeline can be synced to incoming LTC/SMPTE timecode coming in via any audio interface.&#x20;
 
 ### Clips&#x20;
 
