@@ -137,7 +137,7 @@ Yes! See [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md
 
 #### What do the little microphone symbol and other icons on the clip denote?&#x20;
 
-They are there to show you that this clip takes sound or MIDI input, and the 3 dots show you that there is a zone delay. See [what-are-the-small-icons-on-the-clip-buttons.md](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+They are there to show you that a clip takes sound or MIDI input, and the 3 dots show you that there is a zone delay. See [what-are-the-small-icons-on-the-clip-buttons.md](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
 
 
 
