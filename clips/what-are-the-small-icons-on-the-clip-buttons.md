@@ -1,4 +1,4 @@
-# 🟧 What are the small icons on the clip buttons?
+# ✅ What are the small icons on the clip buttons?
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 09.58.53.png" alt=""><figcaption><p>The <em>Sound Input</em> and <em>MIDI Notes</em> symbols on the clip buttons</p></figcaption></figure>
 
