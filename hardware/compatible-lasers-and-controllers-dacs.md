@@ -9,7 +9,7 @@ If your laser has a standard ILDA input then you can use it with Liberation (alo
 You do not need an external controller or an ILDA input if :&#x20;
 
 * Your laser has Ether Dream installed inside, or;
-* You have a Laser Cube from Wicked Lasers
+* You have a LaserCube from Wicked Lasers&#x20;
 
 {% hint style="info" %}
 ### What is a laser controller?
@@ -33,7 +33,7 @@ If you are a home user, or run small shows with 4 or fewer lasers that are close
 
 Network DACs like the **Ether Dream** are the **best option for professional** laserists who are happy to set up a network and want to run a large number of lasers; all of the large Liberation shows so far have been run on Ether Dreams.&#x20;
 
-If you have a **USB Laser Cube** then you don't need a separate laser controller at all. I'm currently working on the Laser Cube network protocol, so if you have a **WiFi Laser Cube**, you will have to wait.&#x20;
+If you have a **LaserCube** then you don't need a separate laser controller at all - Liberation is compatible with all LaserCubes. The earlier models connect with a USB cable, and the newer models connect over a network.&#x20;
 
 ### Compatible laser controllers
 
@@ -48,14 +48,6 @@ You connect to them over a standard network. They can be bought as standalone un
 [Helios](https://bitlasers.com/helios-laser-dac/) is the best option for beginners and they are cheaper than Ether Dreams, but as they connect over USB, it's not recommended for long cable runs. Also you may have USB data and driver issues once you connect to more than 4 (especially on Windows).&#x20;
 
 But if you just want to run a couple of lasers at home, it's the cheapest and simplest option.&#x20;
-
-#### Laser Dock (USB, built-in to older Laser Cubes)
-
-Older Laser Cubes have a USB laser controller built into them and can be controlled directly from Liberation. (You can also get standalone Laser Dock USB controllers but these are expensive and have been discontinued.)&#x20;
-
-#### Laser Cubes
-
-Wifi Laser Cubes have a built-in network controller that is compatible with Liberation. See [#laser-cubes](compatible-lasers-and-controllers-dacs.md#laser-cubes "mention"). (Introduced in v0.7.3 alpha currently in testing)
 
 #### Controllers that will be supported in the future :
 
