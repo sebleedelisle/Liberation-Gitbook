@@ -39,7 +39,12 @@ If none of this works then consider upgrading your computer.
 
 Then it’s likely to be a hardware issue. This is out of scope of this manual but you can try the following actions :
 
-* Disable the SFS (Scan Fail Safety) system. Some lasers have a function that disables the laser if it isn’t moving enough, they can be a little overcautious / unreliable.
+* Disable the SFS (Scan Fail Safety) system. Some lasers have a function that disables output if the scanners stop moving ie producing a strong static beam. They can be a little overcautious / unreliable.
+
+{% hint style="danger" %}
+Use extreme caution when disabling the scan fail safety system. Strong static beams can cause burning! Make sure you have a stop button and a fire extinguisher on hand.&#x20;
+{% endhint %}
+
 * Check interlock cables and systems
 * Check all cabling between the controller and the laser.
 
