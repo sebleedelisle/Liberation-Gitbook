@@ -31,7 +31,7 @@ Here is an overview of the process :
     Trigger each clip by clicking its button, and then toggle the zones and the X and Y flip using the on screen buttons. See [clips](../clips/ "mention").
 
     \
-    ![](<../.gitbook/assets/Screenshot 2025-01-22 at 10.44.21.png>)
+    ![](<../.gitbook/assets/Screenshot 2025-01-22 at 15.18.09.png>)
 
 
 5.  **Connect to your controllers :** when you're ready to plug your lasers in and go, open the _Controller Assignment_ Window. See [controller-assignment.md](controller-assignment.md "mention").&#x20;
