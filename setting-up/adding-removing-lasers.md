@@ -1,10 +1,13 @@
-# 🟦 Adding / removing lasers
+# ✅ Adding / removing lasers
 
-Add a new laser by clicking the _ADD LASER_ button in the _Laser overview_ panel\
-![](<../.gitbook/assets/Screenshot 2025-01-22 at 16.01.16.png>)\
-&#x20;\
+Add a new laser by clicking the _ADD LASER_ button in the _Laser overview_ panel
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 16.01.16.png" alt="" width="292"><figcaption></figcaption></figure>
+
 or the _+_ button in the _Output_ view. \
-![](<../.gitbook/assets/Screenshot 2025-01-22 at 16.08.50.png>)
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 16.08.50.png" alt="" width="176"><figcaption></figcaption></figure>
 
 When you add a new laser, a beam zone is automatically added to it. Note that lasers and zones are sorted in the order that you add them. See [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md "mention").
 
