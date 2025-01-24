@@ -141,6 +141,24 @@ It has an intelligent "tap tempo" system that works as you would expect, but you
 
 ### Clips&#x20;
 
+#### How do I adjust zones and settings for a clip without running it?&#x20;
+
+ALT/OPTION click to make it the _currently selected clip_ but without activating it. See also [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+
+#### How do I copy clips?
+
+Click and drag while holding the ALT/OPTION key. See also [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+
+#### How do I delete clips?&#x20;
+
+Click and drag them off the clip deck. See also [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+
+#### How do I multi-select, delete, combine clip decks etc?
+
+See [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+
+
+
 #### What do the little microphone symbol and other icons on the clip denote?&#x20;
 
 They are there to show you that a clip takes sound or MIDI input, and the 3 dots show you that there is a zone delay. See [what-are-the-small-icons-on-the-clip-buttons.md](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
