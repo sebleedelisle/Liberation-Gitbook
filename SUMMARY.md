@@ -30,7 +30,7 @@
   * [🟦 Masks](output-view/masks.md)
   * [🟦 Test patterns](output-view/3d-visualiser.md)
   * [🟦 Alt zone system](output-view/alt-zone-system.md)
-* [✅ Clips & Clip deck](clips/README.md)
+* [🟦 Clips & Clip deck](clips/README.md)
   * [🟦 Overview](clips/overview.md)
   * [✅ Starting / stopping clips](clips/starting-stopping-clips.md)
   * [✅ What are the small icons on the clip buttons?](clips/what-are-the-small-icons-on-the-clip-buttons.md)
