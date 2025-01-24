@@ -1,2 +1,2 @@
-# 🟦 Setting up
+# ✅ Setting up
 
