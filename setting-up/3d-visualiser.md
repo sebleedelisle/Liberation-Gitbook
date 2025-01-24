@@ -60,3 +60,5 @@ Seeing "ghost" lasers? The 3D Visualiser is somewhat independent of the laser se
 
 To get rid of all the ghost lasers, click the _Remove extra 3D laser objects_ button (at the bottom of the 3D Visualiser settings window).&#x20;
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/Remove extra 3D laser.png" alt="" width="375"><figcaption></figcaption></figure>
