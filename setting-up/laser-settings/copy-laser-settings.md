@@ -6,7 +6,11 @@ This is an incredibly useful and time saving feature for quickly copying zones a
 
 Make sure you have selected the laser you want to copy settings _from._&#x20;
 
+<figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Ouput.png" alt="" width="489"><figcaption></figcaption></figure>
+
 Toggle on all the other lasers you want to copy settings _to_. (Use _ALL_ and _NONE_ to make this quicker if you have a lot of lasers)
+
+<figure><img src="../../.gitbook/assets/Copy Laser Settings Details.png" alt="" width="440"><figcaption></figcaption></figure>
 
 Select which settings you want to copy :&#x20;
 
