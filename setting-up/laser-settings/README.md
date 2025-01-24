@@ -3,7 +3,12 @@
 Open the laser output settings by either :&#x20;
 
 * clicking on a number button in the _Laser overview_ window
+
+<figure><img src="../../.gitbook/assets/Remove Laser in Laser Overview.png" alt="" width="292"><figcaption></figcaption></figure>
+
 * clicking the menu _Window->Laser Output Settings_
+
+<figure><img src="../../.gitbook/assets/MenuLaser Output Setting.png" alt="" width="224"><figcaption></figcaption></figure>
 
 Once the window is open it will show you the settings for the currently selected laser. In the _Laser Overview_ panel, select a laser by clicking its number button, pressing its number key, or using the _TAB_ key to cycle through options. (_SHIFT + TAB_ goes backwards).&#x20;
 
@@ -12,6 +17,8 @@ In the _Laser output_ window, you'll see :&#x20;
 * a number button - click on this to arm/disarm this laser. It is red when the laser is armed.&#x20;
 * a _Brightness_ slider for this laser only. Note that this is multiplied by the global brightness.
 * _Test Pattern_ toggle and pattern selector. This lets you choose a specific test pattern for this laser only. (These controls are mirrored in the Output view toolbar).&#x20;
+
+<figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Ouput.png" alt="" width="326"><figcaption></figcaption></figure>
 
 ### Output orientation / mirroring correction
 
@@ -70,7 +77,5 @@ You can use this system to correct the brightness curve and white balance of you
 
 You shouldn't need to mess with these but if you're curious, see [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")
 
-
-
-
+<figure><img src="../../.gitbook/assets/Laser Output Setting Full.png" alt="" width="479"><figcaption></figcaption></figure>
 

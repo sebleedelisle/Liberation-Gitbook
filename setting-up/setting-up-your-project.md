@@ -21,7 +21,7 @@ Here is an overview of the process :
 3.  **Adjust the zones :** \
     In the _OUTPUT_ view you can check the zones. Tab through each laser or click one of the numbered buttons at the top of the view. Adjust each zone as you require, or even add new zones. See [output-view](../output-view/ "mention").
 
-    <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.35.27.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Change each clip's zones :** \
     Trigger each clip by clicking its button, and then toggle the zones and the X and Y flip using the on screen buttons. See [clips](../clips/ "mention").
 
@@ -30,7 +30,7 @@ Here is an overview of the process :
 
 
 
-    <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 15.18.09.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Clip Zone and XY.png" alt=""><figcaption></figcaption></figure>
 5.  **Connect to your controllers :** when you're ready to plug your lasers in and go, open the _Controller Assignment_ Window. See [controller-assignment.md](controller-assignment.md "mention").&#x20;
 
     \
