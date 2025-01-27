@@ -141,7 +141,7 @@ It has an intelligent "tap tempo" system that works as you would expect, but you
 
 #### What settings do I need to adjust to get the best output from the laser?&#x20;
 
-The main setting is _Colour Shift,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [laser-settings](setting-up/laser-settings/ "mention")page for an example of 'tails')&#x20;
+The main setting is _Colour Shift,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [laser-settings](setting-up/laser-settings/ "mention") page for an example of 'tails')&#x20;
 
 You can also try changing the scanner speed, slower if your scanners are cheap, or faster if they are good. But use with caution as you can damage your scanners if you drive them too hard.&#x20;
 
