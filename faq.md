@@ -143,9 +143,9 @@ It has an intelligent "tap tempo" system that works as you would expect, but you
 
 The main setting is _Colour Shift,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [laser-settings](setting-up/laser-settings/ "mention") page for an example of 'tails')&#x20;
 
-You can also try changing the scanner speed, slower if your scanners are cheap, or faster if they are good. But use with caution as you can damage your scanners if you drive them too hard.&#x20;
+You can also try changing the scanner speed, slower if your scanners are basic, or faster if they are good. But use with caution as you can damage your scanners if you drive them too hard.&#x20;
 
-There are also some preset scanner settings. The default option is conservative and fine for most laser beam requirements. But there are other presets for if you have better scanners, or tuned for graphics.&#x20;
+There are also some preset scanner settings. The default option is conservative and fine for most laser beam requirements. But there are other presets for if you have better scanners, and there are presets that are tuned for graphics.&#x20;
 
 For more information see [laser-settings](setting-up/laser-settings/ "mention"), and for information on how to create your own presets see [scanner-presets.md](advanced/scanner-presets.md "mention") (advanced, in progress)
 
