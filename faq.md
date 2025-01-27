@@ -139,6 +139,22 @@ Yes! See [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md
 
 It has an intelligent "tap tempo" system that works as you would expect, but you can also use an external MIDI clock or Ableton Link. The timeline can be synced to incoming LTC/SMPTE timecode coming in via any audio interface.&#x20;
 
+#### What settings do I need to adjust to get the best output from the laser?&#x20;
+
+The main setting is _Colour Shift,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [laser-settings](setting-up/laser-settings/ "mention")page for an example of 'tails')&#x20;
+
+You can also try changing the scanner speed, slower if your scanners are cheap, or faster if they are good. But use with caution as you can damage your scanners if you drive them too hard.&#x20;
+
+There are also some preset scanner settings. The default option is conservative and fine for most laser beam requirements. But there are other presets for if you have better scanners, or tuned for graphics.&#x20;
+
+For more information see [laser-settings](setting-up/laser-settings/ "mention"), and for information on how to create your own presets see [scanner-presets.md](advanced/scanner-presets.md "mention") (advanced, in progress)
+
+You can also correct the colour balance using the _Colour calibration_ settings. See [colour-calibration.md](advanced/colour-calibration.md "mention")(advanced, in progress)
+
+#### What does the _Latency(ms)_ setting do?&#x20;
+
+This is the frame latency, or maximum amount of time between a frame being generated and subsequently sent to a laser. You shouldn't need to adjust it, but if you are having network issues you could try increasing it. See [latency-setting.md](setting-up/latency-setting.md "mention") for more details.&#x20;
+
 ### Clips&#x20;
 
 #### How do I adjust zones and settings for a clip without running it?&#x20;
