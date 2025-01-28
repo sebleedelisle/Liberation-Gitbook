@@ -2,7 +2,7 @@
 
 ### <img src="../.gitbook/assets/Creator Point.png" alt="" data-size="line"> Point Creator
 
-Creates a single point to make a beam.&#x20;
+Creates a single point to make a single beam.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **Colour** settings - see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
@@ -11,7 +11,7 @@ Creates a single point to make a beam.&#x20;
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
 
-Creates a line to make a sheet.&#x20;
+Creates a line to make a sheet through the air.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **Size** - the length of the line
@@ -19,12 +19,12 @@ Creates a line to make a sheet.&#x20;
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - the angle of the line, in degrees
 * **resolution** - see [resolution.md](fundamentals/resolution.md "mention")
-* **alignment** - determines the start point and centre of rotation of the line
+* **alignment** - _LEFT / CENTRE / RIGHT -_ determines the start point and centre of rotation of the line
 * _MOVE TO FRONT / MOVE TO BACK_ - see [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorCircle.png" alt="" data-size="line"> Circle Creator
 
-Creates a circle to make a cone.&#x20;
+Creates a circle to make a cone shape in the air.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **radius** - the radius of the circle
@@ -39,7 +39,7 @@ Creates a circle to make a cone.&#x20;
 Creates an equilateral polygon, triangle, square, pentagon etc.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
-* **size** - the distance from the centre to each of the cornerse
+* **size** - the distance from the centre to each of the corners
 * **Colour** settings - see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - the rotated angle of the shape, in degrees
@@ -52,18 +52,18 @@ Creates an equilateral polygon, triangle, square, pentagon etc.&#x20;
 Loads an SVG file for custom shapes.&#x20;
 
 {% hint style="warning" %}
-Liberation is compatible with the _SVGTiny_ format. InkScape is recommended. Make sure to convert any text to shapes before exporting. Liberation will render strokes, and optionally use fills as masks. Make sure your lines are not black or they won't show up without a colour modifier!&#x20;
+Liberation is compatible with the _SVGTiny_ format. InkScape is recommended but most vector graphics apps can export in this format. Make sure to convert any text to shapes before exporting. Liberation will render strokes, and optionally use fills as masks. Make sure your lines are not black or they won't show up without a colour modifier!&#x20;
 {% endhint %}
 
 * **Import SVG** - load an SVG file from disk.&#x20;
 
 {% hint style="info" %}
-Once an SVG is loaded, the content is converted and saved within the clip, so you don't need to maintain a reference to the file, unless you later want to change the optimisation or mask settings.&#x20;
+Once an SVG is loaded, the content is converted and saved within the clip, so you don't need to maintain a reference to the file, unless you later want to change the mask settings.&#x20;
 {% endhint %}
 
 * **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
-* **scale** - adjusts the size of the SVG. This is automatically calculated when the SVG is loaded to make sure that the image is visible.
+* **scale** - adjusts the size of the SVG. This is automatically calculated when the SVG is loaded (to make sure that the image is visible) but can be subsequently edited manually.
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - the rotated angle of the image, in degrees
 * **resolution** - see [resolution.md](fundamentals/resolution.md "mention")
@@ -73,6 +73,12 @@ Once an SVG is loaded, the content is converted and saved within the clip, so yo
 
 Creates an animation from a sequence of SVG files.&#x20;
 
+* **Import SVG Sequence** - choose which folder that has all the SVG files in. Note that they are loaded in alpha-numeric order.&#x20;
+
+{% hint style="info" %}
+Once the SVG sequence is loaded, the content is converted and saved within the clip, so you don't need to maintain a reference to the files, unless you later want to change the mask settings.&#x20;
+{% endhint %}
+
 * **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **scale** - adjusts the size of the image.
@@ -80,7 +86,7 @@ Creates an animation from a sequence of SVG files.&#x20;
 * **rotation** - the rotated angle of the image, in degrees
 * **resolution** - see [resolution.md](fundamentals/resolution.md "mention")
 * **speed** - the duration of the entire animation, in bars.&#x20;
-* **time per frame** - if this is set then the duration (set with _speed)_ is per frame rather than for the full length of the animation. So if the _speed_ is set to ¼ then every frame will be 1 beat.&#x20;
+* **time per frame** - if this is set then the duration is per frame rather than for the full length of the animation. So if the _speed_ is set to ¼ then every frame will be 1 beat.&#x20;
 * **animation direction** -&#x20;
   * _FORWARDS_ - animation runs forwards and then loops back to the beginning
   * _BACKWARDS_ - animation runs backwards and then loops back to the end
@@ -101,7 +107,7 @@ To add more fonts to Liberation copy the .ttf or .otf files into the data/resour
 {% endhint %}
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
-* **horizontal alignment** - choose _LEFT_, _CENTRE_, or _RIGHT_ to select the alignment relative to the text position.&#x20;
+* **horizontal alignment** - choose _LEFT_, _CENTRE_, or _RIGHT_ to select the text alignment.
 * **Fill state** - see [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - the text size
 * **colour -** see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
