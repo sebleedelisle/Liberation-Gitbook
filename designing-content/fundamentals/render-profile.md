@@ -21,7 +21,7 @@ _**FAST** -_ if your clip has a lot of content and some of it is just really sim
 _**DETAIL**_ - if you are drawing something that needs sharp corners, use this option. But bear in mind your scanners will move more slowly, making the output flickery.&#x20;
 
 {% hint style="info" %}
-Within the clip editor, you can assign creators to different render profiles, but each laser will process these profiles dependent on their scanner settings. See [scanner-presets-and-render-profiles.md](../../advanced/scanner-presets-and-render-profiles.md "mention")
+Within the clip editor, you can assign creators to different render profiles, but each laser will process these profiles dependent on their scanner settings. See [scanner-presets.md](../../advanced/scanner-presets.md "mention")
 {% endhint %}
 
 

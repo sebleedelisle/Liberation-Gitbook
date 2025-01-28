@@ -147,7 +147,7 @@ You can also try changing the scanner speed, slower if your scanners are basic, 
 
 There are also some preset scanner settings. The default option is conservative and fine for most laser beam requirements. But there are other presets for if you have better scanners, and there are presets that are tuned for graphics.&#x20;
 
-For more information see [laser-settings](setting-up/laser-settings/ "mention"), and for information on how to create your own presets see [scanner-presets-and-render-profiles.md](advanced/scanner-presets-and-render-profiles.md "mention") (advanced, in progress)
+For more information see [laser-settings](setting-up/laser-settings/ "mention"), and for information on how to create your own presets see [scanner-presets.md](advanced/scanner-presets.md "mention") (advanced, in progress)
 
 You can also correct the colour balance using the _Colour calibration_ settings. See [colour-calibration.md](advanced/colour-calibration.md "mention")(advanced, in progress)
 
