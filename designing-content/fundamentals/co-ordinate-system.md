@@ -17,7 +17,7 @@ Additionally you can move around in 3D space, forwards and backwards along the z
 
 * In the z axis, backwards away from you is negative, forwards towards you is positive.
 
-### Depth sorting
+
 
 
 
