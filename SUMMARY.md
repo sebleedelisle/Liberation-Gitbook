@@ -45,7 +45,7 @@
   * [◼️ Editing effects](effects/editing-effects.md)
   * [◼️ Effect settings](effects/effect-settings.md)
 * [◼️ Tempo / synchronisation](tempo-synchronisation.md)
-* [◼️ Designing content](designing-content/README.md)
+* [🟧 Designing content](designing-content/README.md)
   * [◼️ Clip editor](designing-content/clip-editor.md)
   * [🟦 Fundamentals](designing-content/fundamentals/README.md)
     * [🟦 Co-ordinate system](designing-content/fundamentals/co-ordinate-system.md)
