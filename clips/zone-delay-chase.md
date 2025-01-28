@@ -33,7 +33,9 @@ The pattern works on the zone numbers and assumes your zones are in order from l
 Zone delay is also applied to any active effects. For instance, a flashing effect will be delayed across the zones as well as the animation within the clip itself.&#x20;
 {% endhint %}
 
-When a clip has any kind of _Zone delay_ you will see a three-dot icon in the top right of the clip. These dots are animated to show you the style of _Zone delay_ for that clip.&#x20;
+When a clip has any kind of _Zone delay_ you will see a three-dot icon in the top right of the clip. These dots are animated to show you the style of _Zone delay_ for that clip. See [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention") for more details.&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>The three dot symbol that indicate that a clip has a zone delay and its mode</p></figcaption></figure>
 
 {% hint style="info" %}
 Zone delay is a setting that belongs to each clip, it's not global; it's part of the creative design of a clip.&#x20;
