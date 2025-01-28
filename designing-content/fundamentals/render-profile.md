@@ -1,6 +1,6 @@
 # 🟦 Render profile
 
-There is the _Render Profile_ setting in every _Creator_ node, and this determines how the shapes are drawn (or _rendered)_ with the lasers. &#x20;
+There is a _Render Profile_ setting in every _Creator_ node, and this determines how the shapes are drawn (or _rendered)_ with the lasers. &#x20;
 
 **For most uses, the&#x20;**_**DEFAULT**_**&#x20;setting is absolutely fine**. But if you're working with graphics, or complex content, you may want more control over how each shape is rendered.&#x20;
 

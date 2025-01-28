@@ -24,13 +24,13 @@ Apologies to my US friends for the additional vowel in the word colour. Liberati
 
 #### Brightness
 
-Probably the simplest to understand, 0 is full dark, 255 is full brightnes.&#x20;
+Probably the simplest to understand, 0 is completely black, 255 is full brightness.&#x20;
 
 ### Example usage
 
 #### Rainbow cycle :&#x20;
 
-Connect a _Sawtooth_ oscillator to your _Hue_ socket, and adjust its range from 0 to 255. Set _Brightness_ and _Saturation_ to 255.&#x20;
+Set _Brightness_ and _Saturation_ to 255. Connect a _Sawtooth_ oscillator to your _Hue_ socket, and adjust its range from 0 to 255.&#x20;
 
 #### Pulsing brightness :&#x20;
 
@@ -38,7 +38,7 @@ Connect a _Sawtooth_ oscillator to your _Brightness_ socket, and adjust its rang
 
 #### Hard flash / strobe :&#x20;
 
-Connect a _Square Wave_ oscillator your _Brightness_ socket, adjust its range from 255 to 0.&#x20;
+Select a colour using the _Hue_ and _Saturation_ or by clicking on the colour picker. Connect a _Square Wave_ oscillator your _Brightness_ socket, adjust its range from 255 to 0.&#x20;
 
 #### Cycle across custom range of hues :&#x20;
 
