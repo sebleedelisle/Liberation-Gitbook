@@ -53,7 +53,7 @@
     * [🟦 Render profile](designing-content/fundamentals/render-profile.md)
     * [🟦 Resolution](designing-content/fundamentals/resolution.md)
     * [🟦 Fills, masks and depth sorting](designing-content/fundamentals/fills-masks-and-depth-sorting.md)
-  * [🟦 Creator nodes](designing-content/generators.md)
+  * [🟦 Creator nodes](designing-content/creator-nodes.md)
   * [◼️ Oscillators](designing-content/oscillators.md)
   * [◼️ Transformations](designing-content/transformations.md)
   * [◼️ Modifiers](designing-content/modifiers/README.md)
