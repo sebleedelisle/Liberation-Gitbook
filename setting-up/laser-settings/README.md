@@ -67,7 +67,7 @@ If you see little "tails" on your laser output, it's likely because the colour s
 
 #### Scanner presets
 
-Use this to choose a pre-designed scanner setting. The default option is usually fine so you shouldn't need to change this setting unless you have particularly bad (or good) scanners. If you want to dig deeper, see [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Use this to choose a pre-designed scanner setting. The default option is usually fine so you shouldn't need to change this setting unless you have particularly bad (or good) scanners. If you want to dig deeper, see [scanner-presets-and-render-profiles.md](../../advanced/scanner-presets-and-render-profiles.md "mention")
 
 #### Colour calibration
 
