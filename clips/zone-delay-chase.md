@@ -8,7 +8,7 @@ The zone delay system is a simple yet effective method to introduce variety acro
 
 _Zone delay_ adds a delay to the timing of the clip across each zone, creating a kind of sweep across the zones.
 
-It's really effective to introduce zone delay to an already running clip, use the relevant rotary on the APC40 to adjust the level and pattern. (See [apc40-reference.md](../reference/apc40-reference.md "mention")). Or you can use the _Clip Settings_ window.
+It's really effective to introduce zone delay to an already running clip, use the relevant control on the APC40 to adjust the level and pattern. (See [apc40-reference.md](../reference/apc40-reference.md "mention")). Or you can use the _Clip Settings_ window.
 
 Zone delay settings :&#x20;
 
