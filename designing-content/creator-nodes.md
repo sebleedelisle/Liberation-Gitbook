@@ -1,8 +1,8 @@
 # 🟦 Creator nodes
 
-### <img src="../.gitbook/assets/Creator Point.png" alt="" data-size="line"> Point Creator
+### <img src="../.gitbook/assets/Creator Point.png" alt="" data-size="line"> Point Creator
 
-Creates a single point to make a single beam.&#x20;
+Makes a single dot / beam.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **Colour** settings - see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
@@ -11,7 +11,7 @@ Creates a single point to make a single beam.&#x20;
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
 
-Creates a line to make a sheet through the air.&#x20;
+Makes a line / sheet.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **Size** - the length of the line
@@ -24,7 +24,7 @@ Creates a line to make a sheet through the air.&#x20;
 
 ### <img src="../.gitbook/assets/CreatorCircle.png" alt="" data-size="line"> Circle Creator
 
-Creates a circle to make a cone shape in the air.&#x20;
+Makes a circle /cone.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **radius** - the radius of the circle
@@ -36,7 +36,7 @@ Creates a circle to make a cone shape in the air.&#x20;
 
 ### <img src="../.gitbook/assets/CreatorPoly.png" alt="" data-size="line"> Polygon Creator
 
-Creates an equilateral polygon, triangle, square, pentagon etc.&#x20;
+Makes an equilateral polygon, triangle, square, pentagon etc.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **size** - the distance from the centre to each of the corners

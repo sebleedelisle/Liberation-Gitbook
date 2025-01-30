@@ -16,7 +16,7 @@ As this is a loop you can use a triangle wave to cycle through every colour.&#x2
 
 #### Saturation
 
-Adjusts the saturation or vividness of your colour. In other words, how _colourful_ it is. Ranges from 0 to 255. Set your saturation to 0 for greys, and 255 for full rainbow colours. Somewhere in the middle will give you pastel washed-out colours.&#x20;
+This setting adjusts the saturation or vividness of your colour. In other words, how _colourful_ it is and ranges from 0 to 255. Set your saturation to 0 for greys, and 255 for full rainbow colours. Somewhere in the middle will give you pastel washed-out colours.&#x20;
 
 {% hint style="info" %}
 Apologies to my US friends for the additional vowel in the word colour. Liberation is made in England so British English is the default. In the future I hope to provide translations to French, Spanish, German, Italian, Simplified Chinese, and yes, even US English. :innocent:
