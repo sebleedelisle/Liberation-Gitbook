@@ -2,13 +2,13 @@
 
 Liberation is designed and programmed by [Seb Lee-Delisle](https://app.gitbook.com/u/ylIaEEh1DCgBfWngNL7qhvoUTQV2).
 
-Help with the WIndows version from [Dan Moore](https://www.makeitdoathing.com).&#x20;
+Help with the Windows version from [Dan Moore](https://www.makeitdoathing.com).&#x20;
 
 It uses the following open source projects :&#x20;
 
 #### [openFrameworks](https://openframeworks.cc)
 
-[Full list ](https://github.com/openframeworks/openFrameworks/blob/master/THANKS.md)of openFrameworks contributors
+[Full list](https://github.com/openframeworks/openFrameworks/blob/master/THANKS.md) of openFrameworks contributors
 
 openFrameworks uses a combination of the following [libraries](https://github.com/openframeworks/openFrameworks/blob/master/docs/libraries.md), depending on your platform:
 
