@@ -94,7 +94,6 @@
   * [◼️ Colour calibration](advanced/colour-calibration.md)
 * [◼️ Synchronisation](synchronisation.md)
 * [◼️ Network advice](network-advice.md)
-* [◼️ Credits](credits.md)
 * [🟧 Troubleshooting](troubleshooting/README.md)
   * [✅ Intermittent / flashing output](troubleshooting/intermittent-flashing-output.md)
   * [✅ Live control](troubleshooting/live-control.md)
@@ -103,3 +102,4 @@
   * [✅ APC40 reference](reference/apc40-reference.md)
   * [✅ MIDI send/receive default mapping](reference/midi-send-receive-default-mapping.md)
   * [◼️ Glossary / jargon](reference/glossary-jargon.md)
+* [✅ Credits](credits.md)
