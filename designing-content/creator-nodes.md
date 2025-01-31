@@ -61,7 +61,9 @@ Liberation is compatible with the _SVGTiny_ format. InkScape is recommended but 
 Once an SVG is loaded, the content is converted and saved within the clip, so you don't need to maintain a reference to the file, unless you later want to change the mask settings.&#x20;
 {% endhint %}
 
-* **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. This will be set automatically if your SVG has any filled shapes. If it has no filled shapes, it will be disabled. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Add outlines to filled shapes** - if the shapes in your SVG don't have an outline, then we can't draw them! This option adds an outline (or _stroke_) to any filled shape. If your SVG doesn't have any stroked shapes, It is set automatically. If it doesn't have any filled shapes, it's disabled.&#x20;
+* **Invert black lines** - if all of the lines in your SVG are black then you can't see them! This option turns them white. It's set automatically if your SVG only has black shapes, but it's disabled if you don't have any.&#x20;
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **scale** - adjusts the size of the SVG. This is automatically calculated when the SVG is loaded (to make sure that the image is visible) but can be subsequently edited manually.
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
@@ -80,6 +82,8 @@ Once the SVG sequence is loaded, the content is converted and saved within the c
 {% endhint %}
 
 * **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Add outlines to filled shapes** - if the shapes in your SVG don't have an outline, then we can't draw them! This option adds an outline (or _stroke_) to any filled shape.&#x20;
+* **Invert black lines** - if all of the lines in your SVG are black then you can't see them! This option turns them white.
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **scale** - adjusts the size of the image.
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
