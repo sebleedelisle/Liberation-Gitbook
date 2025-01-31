@@ -29,17 +29,17 @@ The UI is built in part using [Dear ImGui](https://github.com/ocornut/imgui), de
 
 #### Liberation founding testers
 
-With thanks to the core group of testers that have been with me since the very beginning&#x20;
+With heartfelt thanks to the core group of testers most of whom have been with me since the very beginning:&#x20;
 
 * Abby Shum
-* Dustin Derry
-* Simon Edge
-* Flora Litchfield
-* Danny Mason
-* Rob Stanley
 * Andy Stentiford
+* Danny Mason
+* Dustin Derry
+* Flora Litchfield
+* Simon Edge
+* Rob Stanley
 
 #### Founding Sponsors
 
-Thanks to [X-Laser](https://x-laser.com) who have been sponsoring the development of Liberation since 2023.&#x20;
+Thanks to all of the early access users and thanks to [X-Laser](https://x-laser.com) who have been sponsoring the development of Liberation since 2023. &#x20;
 
