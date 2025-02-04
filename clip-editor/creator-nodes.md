@@ -1,11 +1,11 @@
-# 🟦 Creator nodes
+# 🟦 Creators
 
 ### <img src="../.gitbook/assets/Creator Point.png" alt="" data-size="line"> Point Creator
 
 Makes a single dot / beam.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
-* **Colour** settings - see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
+* **Colour** - the colour of the dot. See [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - see [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
@@ -15,7 +15,7 @@ Makes a line / sheet.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **Size** - the length of the line
-* **Colour** settings - see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
+* **Colour** - the colour of the line. See [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - the angle of the line, in degrees
 * **resolution** - see [resolution.md](fundamentals/resolution.md "mention")
@@ -28,7 +28,7 @@ Makes a circle /cone.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **radius** - the radius of the circle
-* **Colour** settings - see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
+* **Colour** - the colour of the circle. See [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
 * **resolution** - see [resolution.md](fundamentals/resolution.md "mention")
 * **Fill state** - see [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -40,7 +40,7 @@ Makes an equilateral polygon, triangle, square, pentagon etc.&#x20;
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **size** - the distance from the centre to each of the corners
-* **Colour** settings - see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
+* **Colour** - the colour of the polygon. See [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - the rotated angle of the shape, in degrees
 * **resolution** - see [resolution.md](fundamentals/resolution.md "mention")
@@ -81,9 +81,9 @@ Creates an animation from a sequence of SVG files.&#x20;
 Once the SVG sequence is loaded, the content is converted and saved within the clip, so you don't need to maintain a reference to the files, unless you later want to change the mask settings.&#x20;
 {% endhint %}
 
-* **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
-* **Add outlines to filled shapes** - if the shapes in your SVG don't have an outline, then we can't draw them! This option adds an outline (or _stroke_) to any filled shape.&#x20;
-* **Invert black lines** - if all of the lines in your SVG are black then you can't see them! This option turns them white.
+* **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. This will be set automatically if any of your SVGs have filled shapes. If none have any filled shapes, it will be disabled. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Add outlines to filled shapes** -  if the shapes in your SVGs don't have any outlines, then we can't draw them! This option adds an outline (or _stroke_) to any filled shape. If your SVGs don't have any stroked shapes, It is set automatically. If none have any filled shapes, it's disabled.&#x20;
+* **Invert black lines** -  if all of the lines in your SVGs are black then you can't see them! This option turns them white. It's set automatically if your SVGs only have black shapes, but it's disabled if you don't have any.&#x20;
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **scale** - adjusts the size of the image.
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
