@@ -27,9 +27,15 @@ If a clip is within a group that is set to _flash mode_, then it behaves slightl
 
 To **stop all the clips running** press the **STOP** button.&#x20;
 
+{% hint style="info" %}
+Press the **STOP** button **twice** to bypass clips' fade out time and immediately black them out.&#x20;
+{% endhint %}
+
 To stop all the clips running in a particular group, press its group button, then press the **STOP** button.&#x20;
 
 To stop all clips except one, press the running clip you wish to keep, then while it is down, also press the **STOP** button. Then release the clip button. (This also works with multiple clips, as many as you can hold down at once!)
+
+
 
 ### The currently selected clip
 
