@@ -14,6 +14,10 @@ To delete a single clip, use the right click menu.&#x20;
 
 To delete multiple clips, select them (either with ALT-SHIFT click or by dragging the lasso) and drag them off the clip deck.&#x20;
 
+### Adding empty space
+
+You can right-click on a clip button and press _ADD EMPTY COLUMN TO RIGHT_ to add an empty column of space to the clip deck.&#x20;
+
 ### Combining multiple clip decks
 
 You can import an existing clip deck and append it to the end of current clip deck. Use menu _File->Clips/Effects->Append Clip Deck._&#x20;
