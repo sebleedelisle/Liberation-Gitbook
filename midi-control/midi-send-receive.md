@@ -3,7 +3,7 @@
 The MIDI Send/Receive system is separate from the APC40 controls, and is a way to get MIDI data in and out of Liberation. Functions like starting and stopping clips, adjusting global settings, effects and clip parameters all have an associated MIDI command.&#x20;
 
 {% hint style="info" %}
-The MIDI Send/Receive system was initially built before Liberation had any Timeline functionality; it was a workaround and you could use it to record and play back a show into music software like Logic Pro or Cubase.&#x20;
+The MIDI Send/Receive system was initially built before Liberation had any Timeline functionality; it was a workaround you could use to record and play back a show into music software like Logic Pro or Cubase.&#x20;
 
 It gives you direct control over clips, effects and settings, irrespective of the display window and clip deck scroll position. More systemic live control capabilities like tap tempo, assigning zones, and arming/disarming are not yet implemented.&#x20;
 {% endhint %}

@@ -24,7 +24,12 @@ Effect 2 responds to CC 5-8, value 0-127\
 Effect 3 responds to CC 9-12, value 0-127\
 … and so on.
 
-Note that the effect control changes are in groups of 4. The first in each group controls the effect level, the second in each group control the parameter for that effect. The third and fourth are currently reserved for future use.
+Note that the effect control changes are in groups of 4:&#x20;
+
+1. Effect level
+2. Parameter 1
+3. Parameter 2
+4. Parameter 3
 
 ### **Global settings**
 
