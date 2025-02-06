@@ -19,17 +19,14 @@ Note that a MIDI note on event starts the clip, and the equivalent note off even
 ### **Effects**
 
 MIDI control change (CC) messages on **channel 15** adjust the effects.\
-Effect 1 responds to CC 1-4, value 0-127\
-Effect 2 responds to CC 5-8, value 0-127\
-Effect 3 responds to CC 9-12, value 0-127\
+Effect 1 uses CC 1-4, value 0-127\
+Effect 2 uses to CC 5-8, value 0-127\
+Effect 3 uses to CC 9-12, value 0-127\
 … and so on.
 
-Note that the effect control changes are in groups of 4:&#x20;
+Each group of four controls the level and 3 parameters for that effect :&#x20;
 
-1. Effect level
-2. Parameter 1
-3. Parameter 2
-4. Parameter 3
+<table><thead><tr><th width="164">Effect :</th><th>1</th><th width="124">2</th><th>3</th><th>4</th><th>5</th></tr></thead><tbody><tr><td><strong>Level</strong></td><td>CC : 1</td><td>CC : 5</td><td>CC : 9</td><td>CC : 13</td><td>CC : 17</td></tr><tr><td>Parameter 1</td><td>CC : 2</td><td>CC : 6</td><td>CC : 10</td><td>CC : 14</td><td>...etc</td></tr><tr><td><strong>Parameter 2</strong></td><td>CC : 3</td><td>CC : 7</td><td>CC : 11</td><td>CC : 15</td><td></td></tr><tr><td><strong>Parameter 3</strong></td><td>CC : 4 </td><td>CC : 8</td><td>CC : 12</td><td>CC : 16</td><td></td></tr></tbody></table>
 
 ### **Global settings**
 
