@@ -1,5 +1,19 @@
 # ✅ Wave oscillators
 
+## On this page  :&#x20;
+
+### [<img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line">  Sawtooth wave](wave-oscillators.md#sawtooth-wave-1)
+
+### [<img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line">  Triangle wave](wave-oscillators.md#triangle-wave-1)
+
+### <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line">[  Sine wave ](wave-oscillators.md#sine-wave)
+
+### [<img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line">   Square wave](wave-oscillators.md#square-wave-1)&#x20;
+
+### [<img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line">  Noise](wave-oscillators.md#noise)&#x20;
+
+### [<img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line">  Custom Oscillator](wave-oscillators.md#custom-oscillator-1)
+
 ## Wave oscillator settings
 
 All Wave oscillators have the following settings :&#x20;
@@ -170,5 +184,19 @@ Each step has the following settings :&#x20;
   * **None** - no transition, just jump straight to this level at the given time.&#x20;
   * **Linear** - a completely linear movement from the previous level to this one.  &#x20;
   * **Ease in / Ease out / Ease in/out** - eases between the previous level to this one. See _ease function_ above for a description of the animation types.&#x20;
+
+
+
+
+
+
+
+
+
+
+
+
+
+***
 
 ##
