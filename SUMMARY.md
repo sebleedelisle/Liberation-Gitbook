@@ -57,7 +57,7 @@
     * [✅ Wave oscillators](clip-editor/oscillators/wave-oscillators.md)
     * [✅ Sound input oscillator](clip-editor/oscillators/sound-input-oscillator.md)
     * [✅ Parameter Control](clip-editor/oscillators/parameter-control.md)
-  * [◼️ Transformations](clip-editor/transformations.md)
+  * [🟦 Transformations](clip-editor/transformations.md)
   * [◼️ Modifiers](clip-editor/modifiers/README.md)
     * [◼️ MIDI notes](clip-editor/modifiers/midi-notes.md)
 * [◼️ Tempo / synchronisation](tempo-synchronisation.md)
