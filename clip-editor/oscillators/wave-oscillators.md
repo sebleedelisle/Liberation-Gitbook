@@ -143,13 +143,15 @@ Noise specific :
 {% hint style="info" %}
 **Simplex noise** was designed was designed by Ken Perlin in 2001 as an improvement of his "Perlin noise" algorithm, which he developed in 1983 as part of his work on the movie _Tron_ (which he won an Oscar for!)
 
-This so-called "gradient" noise was born out of his frustration with previously "machine-like" computer generated imagery. It's particularly good for rendering clouds, water surfaces, or even height-maps for realisitc terrain.
+This so-called "gradient" noise was born out of his frustration with previously "machine-like" computer generated imagery. In the CGI world, it's particularly good for rendering clouds, water surfaces, or even height-maps for realisitc terrain.
+
+But in Liberation it's good for seemingly unpredictable motion that is still smooth and organic.&#x20;
 {% endhint %}
 
 * **seed** - the value used to create the noise. If you don't like the look of the noise wave you have try changing the value.
 
 {% hint style="info" %}
-Fun fact! In order to get a perfectly looping simplex noise, I'm iterating around a circle on a 2D noise plane. And the seed value moves this plane through a 3rd dimension!
+Fun nerdy fact! In order to get a perfectly looping simplex noise, I'm iterating around a circle on a 2D noise plane. And changing the seed value moves this plane through a 3rd dimension!
 {% endhint %}
 
 * **simplex detail** - changes how detailed or jittery the noise is. If you want the repeating pattern to be less obvious, take the duration up and increase this value.
