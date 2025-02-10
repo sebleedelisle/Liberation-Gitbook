@@ -36,7 +36,7 @@ CMD/CTRL-click into a slider to type a new value if you need greater control tha
 
 ### Keyboard shortcuts
 
-A full list of keyboard shortcuts can be found here : [Keyboard shortcuts](../reference/keyboard-shortcuts.md)
+A full list of keyboard shortcuts can be found here : [keyboard-shortcuts.md](../reference/keyboard-shortcuts.md "mention")
 
 ### Screen layout
 
@@ -68,7 +68,7 @@ The large area in the top left of the screen can be one of 3 main views; **3D**,
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_Menu->Window->3D Visualiser Settings)_.
+The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_Menu->Window->3D Visualiser Settings)_. See [3d-visualiser.md](../setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -138,7 +138,7 @@ You can scroll the clip deck left and right using :
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ buttons
 
-To help you get your bearings, there is a mini visualiser of the clip deck along the top.
+To help you get your bearings, there is a mini visualiser of the clip deck along the top. See also [clips](../clips/ "mention")
 
 #### Starting and stopping clips
 
@@ -160,7 +160,7 @@ Two rows below the zone buttons, you'll see the X/Y flip buttons, toggle these t
 Note that these zone allocations and X/Y flip settings are connected to the clip itself; they are retained next time you run that clip. They are not a global setting.
 {% endhint %}
 
-Right click on a clip to edit more settings for the clip. Also see [#clip-settings-panel](getting-started.md#clip-settings-panel "mention")
+Right click on a clip to edit more settings for the clip. Also see [clip-settings.md](../clips/clip-settings.md "mention")
 
 ### Groups
 
@@ -180,7 +180,9 @@ You can assign the clip's group using the buttons in the right-click menu, or us
 
 Change zone settings for all clips within a group
 
-Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.
+Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.&#x20;
+
+See also [groups.md](../clips/groups.md "mention")
 
 ### Effects
 
@@ -223,7 +225,7 @@ There are a further 16 colour effects along the bottom row to apply pre-set hue 
 
 Note that these are the default effects but they can be edited to do almost whatever you want!
 
-#### What is the "_currently selected clip"_?
+#### What is the _"currently selected clip"_?
 
 When you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip. Whenever you toggle zone buttons or adjust the clip settings, these are applied to the _currently selected clip._
 
