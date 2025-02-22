@@ -34,6 +34,7 @@
 * [🟦 Clips & Clip deck](clips/README.md)
   * [🟦 Overview](clips/overview.md)
   * [✅ Starting / stopping clips](clips/starting-stopping-clips.md)
+  * [✅ Assigning clips to laser zones](clips/assigning-clips-to-laser-zones.md)
   * [✅ What are the small icons on the clip buttons?](clips/what-are-the-small-icons-on-the-clip-buttons.md)
   * [✅ Clip settings](clips/clip-settings.md)
   * [🟦 Zone delay / chase](clips/zone-delay-chase.md)
