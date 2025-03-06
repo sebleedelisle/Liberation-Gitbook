@@ -196,6 +196,10 @@ Press an effect button to toggle the effect, or even better, using the APC40 sli
 
 Use the rotary controllers 1-8\* to adjust the _parameter_ for each effect. (Or you can right-click with the mouse to adjust the level and parameter). The parameter change does differnet things dependent on how the effect is set up. See the list below for the default effects.
 
+{% hint style="info" %}
+The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect.  The _level_ is controlled by the fader on the APC40 or you can click-drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.&#x20;
+{% endhint %}
+
 _\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also:_ [apc40-reference.md](../reference/apc40-reference.md "mention")
 
 #### The default effects

@@ -26,6 +26,6 @@ You can only use one sound interface at a time across all _Sound Inputs (_&#x73;
 {% hint style="info" %}
 You'll see a little microphone icon on the clip button whenever it has a _Sound Input_ oscillator.
 
-&#x20;<img src="../../.gitbook/assets/image.png" alt="" data-size="original">
+&#x20;<img src="../../.gitbook/assets/image (7).png" alt="" data-size="original">
 {% endhint %}
 

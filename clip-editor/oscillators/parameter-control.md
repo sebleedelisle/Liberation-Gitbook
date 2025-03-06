@@ -1,6 +1,6 @@
 # ✅ Parameter Control
 
-## <img src="../../.gitbook/assets/image (1).png" alt="" data-size="line">  Parameter Control&#x20;
+## <img src="../../.gitbook/assets/image (1) (1).png" alt="" data-size="line">  Parameter Control&#x20;
 
 The _Parameter Control_ is a method for controlling various settings within a effect or a clip outside of the clip editor.&#x20;
 
