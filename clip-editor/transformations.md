@@ -1,6 +1,6 @@
 # 🟦 Transformations
 
-## <img src="../.gitbook/assets/image (1).png" alt="" data-size="line">  Translate
+## <img src="../.gitbook/assets/image (1) (1).png" alt="" data-size="line">  Translate
 
 Moves all content along the x, y, and/or z axes. Note that the coordinate system is centered, and extends to +/-200 in the x and y axes. See [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention").
 
@@ -11,7 +11,7 @@ Moves all content along the x, y, and/or z axes. Note that the coordinate system
 
 * **z**  - the distance to move along the z axis (backwards and forwards into the screen).
 
-## <img src="../.gitbook/assets/image (2).png" alt="" data-size="line">  Rotate
+## <img src="../.gitbook/assets/image (2) (1).png" alt="" data-size="line">  Rotate
 
 Rotates all content. Values are in degrees. See [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention").
 
@@ -26,7 +26,7 @@ Rotates all content. Values are in degrees. See [co-ordinate-system.md](fundamen
 
 
 
-## <img src="../.gitbook/assets/image (3).png" alt="" data-size="line">  Scale
+## <img src="../.gitbook/assets/image (3) (1).png" alt="" data-size="line">  Scale
 
 Scales all content.&#x20;
 

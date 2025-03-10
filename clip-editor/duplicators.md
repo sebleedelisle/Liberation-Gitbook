@@ -18,7 +18,7 @@ Duplicates content in a circular pattern.&#x20;
 
 * **radius** - the distance from the centre point that the content is shifted before rotating.&#x20;
 * **count** - the number of copies of the object to make.&#x20;
-* **use each objects pivot point** - when selected, each element will be shifted and rotated around its own centre point.
+* **use each objects pivot point** - when selected, each element will be shifted and rotated around its own centre point. (Only has an effect when there are multiple elements being duplicated)
 * **delay** - adds a progressively longer time delay to each duplicated element. Note that the content needs to have some kind of animation for this to have a noticeable effect.
 * **rotation** - an offset rotation added to the elements.&#x20;
 
