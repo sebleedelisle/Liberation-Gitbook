@@ -21,7 +21,7 @@ If a clip is locked, it can't be moved or deleted. To lock a clip, use the _Lock
 
 ### Right click menu
 
-If you right click on a clip, a menu appears with some of the options for that clip. See [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [Broken link](broken-reference "mention") and [groups.md](groups.md "mention")for more about the first few items in this menu.&#x20;
+If you right click on a clip, a menu appears with some of the options for that clip. See [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [clip-settings.md](clip-settings.md "mention") and [groups.md](groups.md "mention")for more about the first few items in this menu.&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right click menu</p></figcaption></figure>
 
