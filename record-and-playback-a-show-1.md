@@ -1,4 +1,4 @@
-# ◼️ Timecode
+# ✅ Timecode
 
 Liberation supports synchronisation with an external SMPTE/LTC timecode signal, commonly used in live music shows to keep lights, pyros, video and backing tracks in time.
 
@@ -32,18 +32,18 @@ Theoretically it is possible to receive the signal via the jack socket on your M
 
 If your sound interface doesn't have any kind of input monitoring you can check in OSX system settings (under _Sound_) to make sure you are gettitng a signal. (On Windows versions, use the _Sound Control Panel_).&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-03-12 at 11.48.03.png" alt=""><figcaption><p>MacOS shows you the input level for any sound interface in the Sound system settings panel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-03-12 at 11.48.03.png" alt=""><figcaption><p>MacOS shows you the input level for any sound interface in the Sound system settings panel</p></figcaption></figure>
 
 ### Setting up in Liberation
 
 1. Select your sound interface and the correct input channel in the Timecode settings Window.  &#x20;
 
-![](<../.gitbook/assets/Screenshot 2025-03-12 at 12.13.40.png>)
+![](<.gitbook/assets/Screenshot 2025-03-12 at 12.13.40.png>)
 
 {% hint style="info" %}
 Note that there are separate options in the drop down menu for each input channel in your sound interface
 
-![](<../.gitbook/assets/Screenshot 2025-03-12 at 12.17.11.png>)
+![](<.gitbook/assets/Screenshot 2025-03-12 at 12.17.11.png>)
 {% endhint %}
 
 Notice the square on the left, if you are receiving a valid timecode signal, this will go green. If not it will be red.&#x20;
@@ -51,7 +51,7 @@ Notice the square on the left, if you are receiving a valid timecode signal, thi
 2. Select the correct framerate for the incoming timecode. Whoever is providing you with timecode should be able to tell you what the frame rate is. (If you get it wrong, it will still sync, but you'll notice a little "skip" every second)
 3. Open the Timeline's timecode settings, using the little clock icon on the timeline bar and choose the SMPTE(LTC) option.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-03-12 at 12.22.43.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-03-12 at 12.22.43.png" alt=""><figcaption></figcaption></figure>
 
 4. Adjust the start offset (in hours, minutes, seconds, frames) to match the start of the song. Usually this would be 01:00:00:00 for the first song, 02:00:00:00 for the second song and so on. If you have multiple timelines, you'll need to set these options for each one separately.&#x20;
 
