@@ -1,4 +1,4 @@
-# ◼️ Effects
+# 🟦 Effects
 
 The effects system in Liberation is a fun and versatile way of changing the clip output in real-time. Effects are completely flexible and can be used to make everything flash on and off, spin around,  change colours, or even fly around randomly!&#x20;
 
@@ -11,7 +11,7 @@ The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are
 Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out. To fade in an effect without an APC40, click and drag up and down on the button. Or right click on the effect button and adjust the level slider.&#x20;
 
 {% hint style="warning" %}
-Pressing the effect button will immediately activate that effect. However, note that if the level parameter is set to zero, nothing with happen! Click/drag the button to change the level, or right click and use the _level_ slider. Or use the APC40 faders.
+Pressing the effect button will immediately activate that effect. However, note that if the level parameter is set to zero, nothing with happen! Click/drag the button to change the level, or right click and use the _level_ slider, or use the APC40 faders.
 {% endhint %}
 
 #### Effect parameters
@@ -19,7 +19,7 @@ Pressing the effect button will immediately activate that effect. However, note 
 Use the rotary controllers 1-8 to adjust the _parameter_ for each effect. Or right-click the effect button and adjust the parameter slider(s). The parameter change does different things dependent on how the effect is set up. See the list below for the default effects and what their parameters do.
 
 {% hint style="info" %}
-Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also: [apc40-reference.md](../reference/apc40-reference.md "mention")
+Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also: [apc40-reference.md](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -30,7 +30,7 @@ The small numbers you see on the effect buttons refer to the _level_ and _parame
 
 #### The default effects
 
-<figure><img src="../.gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
 
 1. **Randomiser** :\
    Applies a chaotic movement to the clip output. The parameter adjusts the amount/speed of chaos.
@@ -49,7 +49,7 @@ The small numbers you see on the effect buttons refer to the _level_ and _parame
 8. **Flash** :\
    Repeatedly flashes the brightness of everything from full to zero. The parameter adjusts the flash speed.
 
-<figure><img src="../.gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
 There are a further 16 colour effects along the bottom row to apply pre-set hue and saturation values.
 
@@ -73,7 +73,7 @@ This functionality is disabled if the _MX Group_ setting is 0.
 
 Right click on any effect, and click the _EDIT EFFECT_ button to open the effect editor. Notice that this editor is identical the clip editor!&#x20;
 
-Edit your effect in the same way that you would edit any clip. See [clip-editor](../clip-editor/ "mention").
+Edit your effect in the same way that you would edit any clip. See [clip-editor](clip-editor/ "mention").
 
 You need to have at least one creator node; this can be anything (line, circle, shape, even text!), but you should probably choose something that makes the most sense in the effect button preview.&#x20;
 
@@ -85,4 +85,4 @@ For extremely tedious technical reasons, the "trails" nodes are not enabled when
 
 ### Effect parameters
 
-Add a parameter to your effect with a _Parameter node._ The Parameter system is a way to adjust multiple settings inside your effect from the outside. See [parameter-node.md](../clip-editor/parameter-node.md "mention") for more information.&#x20;
+Add a parameter to your effect with a _Parameter node._ The Parameter system is a way to adjust multiple settings inside your effect from the outside. See [parameter-node.md](clip-editor/parameter-node.md "mention") for more information.&#x20;
