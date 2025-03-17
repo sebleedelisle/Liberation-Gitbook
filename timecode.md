@@ -5,18 +5,18 @@ Liberation supports synchronisation with an external SMPTE/LTC timecode signal, 
 {% hint style="info" %}
 What is SMPTE/LTC?&#x20;
 
-SMPTE is a standard for timecode, and LTC is this timecode converted into an audio signal. If you listen to the audio, it sounds like a horrible high pitched squealing, but Liberation can convert it back into an accurate time.&#x20;
+SMPTE is a standard for timecode, and LTC is this timecode converted into an audio signal. If you listen to this audio, it sounds like a horrible high pitched squealing, but for computers it's high resolution timing information.&#x20;
 
 **Nerd facts!**
 
-Historically SMPTE has been used to keep video and audio in sync, or if you were syncing to analog tape, one track would have the LTC audio recorded onto it, sometimes referred to as "striping" the tape. You could use this timecode track to keep multiple tape decks in time with each other, or to keep a MIDI sequencer in time with the tape. (So you wouldn't need to record MIDI instruments on to tape, you could just have the sequencer play them live while you were mixing!)
+Historically SMPTE has been used to keep video and audio in sync, or if syncing to analog tape, one track would have the timecode audio recorded onto it, sometimes referred to as "striping" the tape. You could use this timecode track to keep multiple tape decks in time with each other, or to keep a MIDI sequencer in time with the tape. (So you wouldn't need to record MIDI instruments on to tape, you could just have the sequencer play them live while you were mixing!)
 
 SMPTE stands for Society of Motion Picture and Television Engineers, who defined the standard. LTC stands for _Linear TimeCode._&#x20;
 {% endhint %}
 
 You can receive an LTC timecode signal through any sound interface on your computer, but it's recommended to use a professional interface with at least one adjustable XLR input, and a monitoring capability.&#x20;
 
-I've had good experience with the [M-Audio 192/4](https://www.m-audio.com/audio-midi-interfaces/air-192-4.html) as it has headphone monitoring, an XLR input and it doesn't need any special drivers (on MacOS at least). Upgrade to the [192/6](https://www.m-audio.com/audio-midi-interfaces/air-192-6.html) if you wanna use it for MIDI and recording, but honestly any half decent sound card will work.&#x20;
+I've had good experience with the [M-Audio 192/6](https://www.m-audio.com/audio-midi-interfaces/air-192-6.html) as it has headphone monitoring, 2 XLR inputs and it doesn't need any special drivers (on MacOS at least).  If you're only ever going to use it for timecode you can get the slightly cheaper [M-Audio 192/4](https://www.m-audio.com/audio-midi-interfaces/air-192-4.html) (which only has one input and no MIDI), but honestly any half decent sound interface should work.&#x20;
 
 {% hint style="info" %}
 LTC timecode signals are typically distributed via balanced XLR cables as they are robust enough to transmit low level audio signals across long distances. (XLR is the barrel jack connector usually used with microphones)
