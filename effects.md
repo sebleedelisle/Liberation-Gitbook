@@ -4,7 +4,7 @@ The effects system in Liberation is a fun and versatile way of changing the clip
 
 Anything that you can do in the clip editor can be used as an effect. In fact, effects are edited with the exact same node editor as clips! See [#editing-effects](effects.md#editing-effects "mention"). The creative possibilities are virtually infinite.&#x20;
 
-The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are the small buttons right at the bottom.&#x20;
+The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are the small buttons at the bottom.&#x20;
 
 #### Applying an effect
 
