@@ -14,6 +14,16 @@ Press an effect button to toggle the effect, or even better, using the APC40 sli
 Pressing the effect button will immediately activate that effect. However, note that if the level parameter is set to zero, nothing with happen! Click/drag the button to change the level, or right click and use the _level_ slider, or use the APC40 faders.
 {% endhint %}
 
+#### Effects and the clip's zone delay
+
+Effects pick up the zone delay setting for each currently running clip. So if your clip has a delay that moves from left to right, and you add the flashing effect, the flash also is delayed from left to right.&#x20;
+
+{% hint style="info" %}
+How the clip's zone delay is inherited by effects is one of those things that is extremely hard to describe but obvious when you try it!
+
+I would argue that it is one of the most fun and creative tools built in to Liberation. Give it a try and you'll see what I mean!&#x20;
+{% endhint %}
+
 #### Effect parameters
 
 Use the rotary controllers 1-8 to adjust the _parameter_ for each effect. Or right-click the effect button and adjust the parameter slider(s). The parameter change does different things dependent on how the effect is set up. See the list below for the default effects and what their parameters do.

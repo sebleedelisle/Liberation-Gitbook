@@ -2,7 +2,7 @@
 
 We all agree that more lasers equals more fun but if they're all doing exactly the same thing you're missing out on creative possibilities.
 
-The zone delay system is a simple yet effective method to introduce variety across zones and can significantly enhance the dynamism of your lasers. It can also be used to make a more traditional chase effect.&#x20;
+The zone delay system is a simple yet effective method to introduce variety across zones and can really make the most of a multi-laser set up. It can also be used to make a more traditional chase effect.&#x20;
 
 #### How it works&#x20;
 
