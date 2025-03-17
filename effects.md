@@ -2,7 +2,7 @@
 
 The effects system in Liberation is a fun and versatile way of changing the clip output in real-time. Effects are completely flexible and can be used to make everything flash on and off, spin around,  change colours, or even fly around randomly!&#x20;
 
-Anything that you can do in the clip editor can be used as an effect. In fact, effects are edited with the exact same node editor as clips! See [Broken link](broken-reference "mention"). The creative possibilities are virtually infinite.&#x20;
+Anything that you can do in the clip editor can be used as an effect. In fact, effects are edited with the exact same node editor as clips! See [#editing-effects](effects.md#editing-effects "mention"). The creative possibilities are virtually infinite.&#x20;
 
 The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are the small buttons right at the bottom.&#x20;
 
