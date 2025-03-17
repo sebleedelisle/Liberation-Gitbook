@@ -1,6 +1,6 @@
 # 🟦 Clip groups
 
-You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in. The APC40 clip buttons also change to this colour.&#x20;
+You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in. The APC40 clip buttons also light up in the relevant group colour.&#x20;
 
 <table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Indigo</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
 
@@ -27,7 +27,7 @@ To activate the _group_ button   :&#x20;
 * Press and hold the _group_ button on the APC40
 * Mouse click the on screen _group_ button. Click again to toggle off.&#x20;
 
-You can easily assign clips to the group by pressing them while the _group_ button is active. (The other way to assign a group is with the clip's right click menu). &#x20;
+You can easily assign clips to the group by pressing them while the _group_ button is active. (Another way to assign a group is with the clip's right click menu). &#x20;
 
 ### Change zone settings for all clips within a group
 
