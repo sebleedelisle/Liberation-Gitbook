@@ -32,7 +32,7 @@ Theoretically it is possible to receive the signal via the jack socket on your M
 Honestly I think you'd be better off just getting hold of a cheap USB sound interface rather than attempting this.&#x20;
 {% endhint %}
 
-If your sound interface doesn't have any kind of input monitoring you can check in OSX system settings (under _Sound_) to make sure you are gettitng a signal. (On Windows versions, use the _Sound Control Panel_).&#x20;
+If your sound interface doesn't have any kind of input monitoring you can check in OSX system settings (under _Sound_) to make sure you are gettitng a signal. (On Windows, use the _Sound Control Panel_).&#x20;
 
 <figure><img src=".gitbook/assets/Screenshot 2025-03-12 at 11.48.03.png" alt=""><figcaption><p>MacOS shows you the input level for any sound interface in the Sound system settings panel</p></figcaption></figure>
 
@@ -55,10 +55,12 @@ Notice the square on the left, if you are receiving a valid timecode signal, thi
 
 <figure><img src=".gitbook/assets/Screenshot 2025-03-12 at 12.22.43.png" alt=""><figcaption></figcaption></figure>
 
-4. Adjust the start offset (in hours, minutes, seconds, frames) to match the start of the song. Usually this would be 01:00:00:00 for the first song, 02:00:00:00 for the second song and so on. If you have multiple timelines, you'll need to set these options for each one separately.&#x20;
+4. Adjust the start offset (in hours, minutes, seconds, frames) to match the start of the song. If you have multiple timelines, you'll need to set these options for each one separately.&#x20;
 
 {% hint style="info" %}
-Liberation will automatically switch to the timeline dependent on incoming SMPTE data, so you don't need to manually change timelines during a show.&#x20;
+It's a common convention in the touring world to have each song start at a different hour ie 01:00:00:00 for the first song, 02:00:00:00 for the second song and so on.
+
+Liberation will automatically switch to the timeline dependent on the timecode, so you never need to manually change timelines during a show.&#x20;
 {% endhint %}
 
 Note that unlike MIDI Clock and Ableton Link, SMPTE is an _absolute_ time system, measured in hours, minutes, seconds and frames. Liberation's core time system is based on beats and bars, so when you receive timecode, it will use the tempo set up in the timeline. You'll need to make sure that this tempo is in sync with whatever music is also synced to the timecode.&#x20;
