@@ -33,7 +33,7 @@ This page is designed to give you an overview of the process of powering up lase
 
 1. **Disarm all lasers** and find and connect the controller in Liberation
 2. **Turn the&#x20;**_**Global Brightness**_**&#x20;setting down to 0** (Use the slider in the icon bar or the _Master Fader_ on the APC40)
-3. **Arm the laser** - with the aperture cover still closed, ensure no clips are currently active and arm the laser  (Use the _Arm_ button in the Laser Overview window)
+3. **Arm the laser** - with the aperture cover still closed, ensure no clips are currently active and arm the laser  (Use the _Arm_ button in the _Laser Overview_ panel)
 4. **Turn on the test pattern** (use the ☒ button in the icon bar, choose pattern 1, the green square with a cross through)
 5. **Adjust the output zone** - make an estimate for the safest zone size and position (for example, this could be right up high into the ceiling but this depends on your particular environment)
 6. **Ensure the laser is working** - slowly bring up the brightness until you can see light behind the aperture window. Then reduce the brightness back down to zero.&#x20;

@@ -20,7 +20,7 @@
   * [✅ Adding / removing lasers](setting-up/adding-removing-lasers.md)
   * [✅ Controller assignment](setting-up/controller-assignment.md)
   * [✅ 3D Visualiser](setting-up/3d-visualiser.md)
-  * [✅ Laser output settings window](setting-up/laser-settings/README.md)
+  * [✅ Laser output settings panel](setting-up/laser-settings/README.md)
   * [✅ Copy settings between lasers](setting-up/laser-settings/copy-laser-settings.md)
   * [✅ Latency setting](setting-up/latency-setting.md)
 * [🟦 Output view / Zones](output-view/README.md)

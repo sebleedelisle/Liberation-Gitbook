@@ -16,7 +16,7 @@ Assign clips to canvas target areas by toggling these buttons in exactly the sam
 
 ### Adding / editing canvas target areas
 
-In the top menu bar select _Window->Canvas Target Areas_ to open the window - you'll see all the settings for each canvas target area that you have in your project.&#x20;
+In the top menu bar select _View -> Canvas Target Areas_ - you'll see all the settings for each canvas target area that you have in your project.&#x20;
 
 And at the top there is the _ADD CANVAS TARGET AREA_ button. &#x20;
 

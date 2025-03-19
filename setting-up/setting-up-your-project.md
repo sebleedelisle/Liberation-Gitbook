@@ -6,14 +6,14 @@ Here is an overview of the process :
 
 1.  **Change the number of lasers in your project :**&#x20;
 
-    In the _Laser Overview_ window, click the red button on the right to delete a laser. Add a laser with the _ADD LASER_ button at the bottom. See also [adding-removing-lasers.md](adding-removing-lasers.md "mention")
+    In the _Laser Overview_ panel, click the red button on the right to delete a laser. Add a laser with the _ADD LASER_ button at the bottom. See also [adding-removing-lasers.md](adding-removing-lasers.md "mention")
 
 
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Update the 3D visualiser view :**&#x20;
 
-    Adjust the position and orientation of each laser using the _3D Visualiser Settings_ Window. See [3d-visualiser.md](3d-visualiser.md "mention").&#x20;
+    Adjust the position and orientation of each laser using the _3D Visualiser Settings_ panel. See [3d-visualiser.md](3d-visualiser.md "mention").&#x20;
 
 
 
@@ -31,7 +31,7 @@ Here is an overview of the process :
 
 
     <figure><img src="../.gitbook/assets/Clip Zone and XY.png" alt=""><figcaption></figcaption></figure>
-5.  **Connect to your controllers :** when you're ready to plug your lasers in and go, open the _Controller Assignment_ Window. See [controller-assignment.md](controller-assignment.md "mention").&#x20;
+5.  **Connect to your controllers :** when you're ready to plug your lasers in and go, open the _Controller Assignment_ panel. See [controller-assignment.md](controller-assignment.md "mention").&#x20;
 
     \
 

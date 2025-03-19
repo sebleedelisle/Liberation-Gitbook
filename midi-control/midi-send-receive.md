@@ -5,12 +5,12 @@ The MIDI Send/Receive system is separate from the APC40 controls, and is a way t
 {% hint style="info" %}
 The MIDI Send/Receive system was initially built before Liberation had any Timeline functionality; it was a workaround you could use to record and play back a show into music software like Logic Pro or Cubase.&#x20;
 
-It gives you direct control over clips, effects and settings, irrespective of the display window and clip deck scroll position. More systemic live control capabilities like tap tempo, assigning zones, and arming/disarming are not yet implemented.&#x20;
+It gives you direct control over clips, effects and settings, irrespective of the display and clip deck scroll position. More systemic live control capabilities like tap tempo, assigning zones, and arming/disarming are not implemented.&#x20;
 {% endhint %}
 
 ### MIDI Send/Receive settings&#x20;
 
-Open the menu _Settings->MIDI Send/Receive_ window. You'll notice that you have options to _SEND, RECEIVE,_ or _BOTH_ send and receive, along with the ability to choose which MIDI interfaces you want to use.&#x20;
+Open the _MIDI Send/Receive_ panel (with the menu _View -> MIDI Send/Receive_). You'll notice that you have options to _SEND, RECEIVE,_ or _BOTH_ send and receive, along with the ability to choose which MIDI interfaces you want to use.&#x20;
 
 {% hint style="danger" %}
 Use the _BOTH_ setting with caution. MIDI devices and software can be configured to send back data that they get in, this could cause a feedback loop of MIDI data, and this is not good!&#x20;

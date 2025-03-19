@@ -14,9 +14,9 @@ Liberation's 3D visualiser is an incredibly useful feature -  you can design and
 
 ### Settings
 
-Open the _3D Visualiser Settings_ window via the _Window_ menu.&#x20;
+Open the _3D Visualiser Settings_ panel via the _Window_ menu.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption><p>The 3D Visualiser Settings window</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption><p>The 3D Visualiser Settings panel</p></figcaption></figure>
 
 * **Brightness Adjustment** - changes how bright the lasers appear
 * **Show laser numbers** - renders the relevant number above each laser
@@ -56,7 +56,7 @@ If you are using the canvas system, you can also choose to include the canvas im
 {% hint style="info" %}
 Seeing "ghost" lasers? The 3D Visualiser is somewhat independent of the laser setup and it's possible to have more lasers within the visualiser than you do in Liberation. When you add a laser to your project, a new laser object inside the visualiser will also be added. But if you delete a laser, there will still remain a "ghost" laser object in the visualiser.&#x20;
 
-To get rid of all the ghost lasers, click the _Remove extra 3D laser objects_ button (at the bottom of the 3D Visualiser settings window).&#x20;
+To get rid of all the ghost lasers, click the _Remove extra 3D laser objects_ button (at the bottom of the 3D Visualiser settings panel).&#x20;
 
 <img src="../.gitbook/assets/Remove extra 3D laser.png" alt="" data-size="original">
 {% endhint %}

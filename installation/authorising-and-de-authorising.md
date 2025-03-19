@@ -27,12 +27,12 @@ If you have multiple subscriptions, you will be prompted to choose the subscript
 Congratulations! Your Liberation install has now been authorised and you can output to lasers! But please read the [getting-started.md](../basics/getting-started.md "mention")and [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") before arming your lasers.&#x20;
 
 {% hint style="info" %}
-You can open the _About panel_ at any time via _Menu -> Window -> About Panel_ or  _Menu -> Settings -> Authorise/Deauthorise this computer_
+You can open the _About panel_ at any time via the menu _Liberation -> About Liberation_ or  _Liberation -> Authorise/Deauthorise this computer_
 {% endhint %}
 
 ### De-authorising Liberation
 
-**From within Liberation** - Open _Menu->Window->About Panel_ and click the _DEAUTHORISE COMPUTER_ button. That's it! You need to be online for this to work.
+**From within Liberation** - Open the menu _Liberation -> Authorise / De-authorise this Computer_ and click the _DEAUTHORISE COMPUTER_ button. That's it! You need to be online for this to work.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
 

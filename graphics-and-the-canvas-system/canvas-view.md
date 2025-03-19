@@ -12,7 +12,7 @@ Use the mouse wheel to zoom in and out. Click and drag on any empty space (or on
 
 On the left of the view you'll see the toolbar. Hover your mouse over any icon to see what it does.
 
-* Open the _Canvas settings_ window
+* Open the _Canvas settings_ panel
 * Add a new canvas zone&#x20;
 * Add a new guide image
 * Toggle snapping to the grid
