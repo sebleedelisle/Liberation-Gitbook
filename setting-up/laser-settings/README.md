@@ -1,16 +1,16 @@
-# ✅ Laser output settings window
+# ✅ Laser output settings panel
 
-Open the _Laser output_ settings window with the menu _Window->Laser Output Settings._&#x20;
+Open the _Laser output_ settings panel with the menu _View -> Laser Output Settings._&#x20;
 
 <figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Ouput.png" alt="" width="326"><figcaption></figcaption></figure>
 
 This will show you the settings for the currently selected laser which you can change :&#x20;
 
-* via its number button in the _Laser overview_ window&#x20;
+* via its number button in the _Laser overview_ panel&#x20;
 * with a number key on your keyboard, keys 1 to 0 open lasers 1 - 10
 * with the _TAB_ key to cycle through the lasers. (_SHIFT + TAB_ goes backwards).&#x20;
 
-At the top of this window you'll see :&#x20;
+At the top of this panel you'll see :&#x20;
 
 * a number button - click on this to arm/disarm this laser. It is red when the laser is armed.&#x20;
 * a _Brightness_ slider for this laser only. Note that this is combined with the global brightness.

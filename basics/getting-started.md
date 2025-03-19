@@ -50,7 +50,7 @@ Not sure what a particular button does? Hover over it with your mouse to get a d
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-The menu is where you will find all file import / export options, and to open panels. You'll also find the option to authorise the computer with your subscription here (in _Settings->Authorise/Deauthorise this computer_) .
+The menu is where you will find all file import / export options, and to open panels. You'll also find the option to authorise the computer with your subscription here (in _Liberation -> Authorise/Deauthorise this computer_) .
 
 #### Icon bar
 
@@ -68,7 +68,7 @@ The large area in the top left of the screen can be one of 3 main views; **3D**,
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_Menu->Window->3D Visualiser Settings)_. See [3d-visualiser.md](../setting-up/3d-visualiser.md "mention").
+The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_View -> 3D Visualiser Settings_). See [3d-visualiser.md](../setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -81,7 +81,7 @@ This view is a representation of the entire output of this laser, and where each
 {% hint style="info" %}
 **What is a zone?**
 
-A zone is a space within a laser's output window that you can direct laser content into. And you can have more than one zone per laser. The simplest type of zone is a _beam_ zone, but there are also _canvas_ zones and _DMX_ zones. For this guide we'll mostly focus on beam zones, which are usually used to create atmospheric beam effects through the air.
+A zone is a space within a laser's output that you can direct laser content into. And you can have more than one zone per laser. The simplest type of zone is a _beam_ zone, but there are also _canvas_ zones and _DMX_ zones. For this guide we'll mostly focus on beam zones, which are usually used to create atmospheric beam effects through the air.
 {% endhint %}
 
 You can select the laser you want to edit using either :
@@ -289,7 +289,7 @@ The graph in the middle is a history of frame lengths, and the number on the rig
 
 ### Connecting to lasers - Controller Assignment panel
 
-Click on the _Assign Laser Controllers_ button to open the _Controller Assignment_ panel. (This panel can also be accessed via _Window->Controller Assignment_ in the menu bar).
+Click on the _Assign Laser Controllers_ button to open the _Controller Assignment_ panel. (This panel can also be accessed via _View -> Controller Assignment_ in the menu bar).
 
 You can choose which laser outputs go to which laser controllers here. Drag and drop controllers from the list on the right into slots on the left. You can rename your controllers to match which laser they are paired with (use the pen icon button).
 

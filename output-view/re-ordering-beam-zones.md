@@ -1,6 +1,6 @@
 # 🟦 Re-ordering beam zones
 
-Beam zones appear in the order that you create them, but you can re-order them after the fact. Open _Window->Re-order beam zones._
+Beam zones appear in the order that you create them, but you can re-order them after the fact. Open _View -> Beam Zone Organiser._
 
 You'll see the list of beam zones and which laser they are connected to. Drag and drop the zones to put them in the order you want, or click _Autosort by laser_ to automatically sort them consecutively depending on the laser they are in.&#x20;
 

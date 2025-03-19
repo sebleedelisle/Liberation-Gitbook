@@ -48,7 +48,7 @@ For architectural mapping I've found it helpful to produce an 'unwrapped' visual
 
 ### Canvas in the 3D visualiser
 
-It would probably be fiddly (to say the least) to recreate your complicated multi laser projection system in the 3D visualiser! So instead, you have the option to place your canvas within the 3D space. Activate the _Show canvas_ checkbox in the _3D visualiser settings_ window. (Any guide images you have in the canvas will also show up in the visualiser.)
+It would probably be fiddly (to say the least) to recreate your complicated multi laser projection system in the 3D visualiser! So instead, you have the option to place your canvas within the 3D space. Activate the _Show canvas_ checkbox in the _3D visualiser settings_ panel. (Any guide images you have in the canvas will also show up in the visualiser.)
 
 {% hint style="info" %}
 Note that the visualiser will still show the canvas projections as atmospheric effects coming from the lasers. You can either just move them out the view or, if you're fancy, you can line them up with the canvas!

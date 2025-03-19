@@ -1,6 +1,6 @@
 # 🟦 Canvas settings
 
-Click on the _Canvas settings_ button at the top of the left hand tool bar to open the _Canvas settings_ window. &#x20;
+Click on the _Canvas settings_ button at the top of the left hand tool bar to open the _Canvas settings_ panel. &#x20;
 
 ### Width and Height
 

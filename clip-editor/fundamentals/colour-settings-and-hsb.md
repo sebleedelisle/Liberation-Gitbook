@@ -3,7 +3,7 @@
 Colour within Liberation is defined as HSB rather than RGB. This may be unfamiliar to you but I find it to be a much more intuitive system once you get used to it.&#x20;
 
 {% hint style="info" %}
-If you prefer using RGB you can click on the colour square in any colour setting. This opens the colour editor window which gives you options for RGB and HSB.&#x20;
+If you prefer using RGB you can click on the colour square in any colour setting. This opens the colour editor panel which gives you options for RGB and HSB.&#x20;
 {% endhint %}
 
 ### HSB - Hue, Saturation and Brightness

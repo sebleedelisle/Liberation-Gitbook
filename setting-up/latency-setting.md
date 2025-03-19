@@ -1,6 +1,6 @@
 # ✅ Latency setting
 
-In the bottom of the _Laser Overview_ window, you'll see a slider labelled _Latency(ms)._&#x20;
+In the bottom of the _Laser Overview_ panel, you'll see a slider labelled _Latency(ms)._&#x20;
 
 {% hint style="info" %}
 The default latency setting of 150ms should be fine for most cases but if you are having network issues you may want to try to increase it.&#x20;
