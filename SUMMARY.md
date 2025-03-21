@@ -106,4 +106,5 @@
   * [✅ APC40 reference](reference/apc40-reference.md)
   * [✅ MIDI send/receive default mapping](reference/midi-send-receive-default-mapping.md)
   * [◼️ Glossary / jargon](reference/glossary-jargon.md)
+  * [✅ The Preset system](reference/the-preset-system.md)
 * [✅ Credits](credits.md)
