@@ -1,6 +1,6 @@
 # ✅ APC40 reference
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-11-27 at 17.22.42.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Liberation_APC40_MK2_2.png" alt=""><figcaption></figcaption></figure>
 
 1. 8x5 Clipdeck
 2. Zone On/Off
@@ -10,24 +10,28 @@
 6. Effect Faders
 7. Global Brightness
 8. Effect Parameter Adjustment
-9. Group Assignment
+9. Group Buttons
 10. Stop All Clips (Press twice to immediately stop all clips without their fade settings)
 11. Clipdeck Scroll
-12. Clip Shift X
-13. Clip Shift Y
-14. Zone Delay
-15. Zone Pattern
-16. Global Scale X
-17. Globale Scale Y
-18. Clip Page Left/Right
-19. Zone Page Left/Right
-20. Tempo Multplier Enable/Disable
-21. Tempo Multiplier Fader (0% - 200%)
-22. Tempo Bar Reset
+12. Clip / global parameters
+13. Clip Page Left/Right
+14. Zone Page Left/Right
+15. Shift button (allows for multi select and other options)
+16. Tempo Multplier Enable/Disable
+17. Tempo Multiplier Fader (0% - 200%)
+18. Alt button (allows for clip selection)
+19. Play / Pause&#x20;
+20. Toggle Record Timeline
+21. Arm / Disarm (you must press SHIFT to arm)
+22. Tempo bar reset
 23. Tap Tempo
-24. Tempo Scroll
-25. Foot Pedal, alternative Tap Tempo
-26. Play / Pause&#x20;
-27. Toggle Record Timeline
-28. Arm / Disarm (you must press SHIFT to arm)
+24. Nudge tempo + and -
+25. Tempo Scroll
+26. Foot Pedal, Tap Tempo
+
+
+
+
+
+
 
