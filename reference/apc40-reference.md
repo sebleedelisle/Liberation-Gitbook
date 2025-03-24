@@ -16,10 +16,10 @@
 12. Clip / global parameters
 13. Clip Page Left/Right
 14. Zone Page Left/Right
-15. Shift button (allows for multi select and other options)
-16. Tempo Multplier Enable/Disable
-17. Tempo Multiplier Fader (0% - 200%)
-18. Alt button (allows for clip selection)
+15. Alt button (allows for clip selection)
+16. Shift button (allows for multi select and other options)
+17. Tempo Multplier Enable/Disable
+18. Tempo Multiplier Fader (0% - 200%)
 19. Play / Pause&#x20;
 20. Toggle Record Timeline
 21. Arm / Disarm (you must press SHIFT to arm)
