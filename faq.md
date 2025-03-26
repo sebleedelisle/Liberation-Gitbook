@@ -135,6 +135,10 @@ See [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention"
 
 Yes! See [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md "mention")
 
+#### Can I type a number instead of using a slider?&#x20;
+
+Yes! CMD/CTRL click on the slider and you can enter the value using the keyboard.&#x20;
+
 #### **How do I sync Liberation to music?**
 
 It has an intelligent "tap tempo" system that works as you would expect, but you can also use an external MIDI clock or Ableton Link. The timeline can be synced to incoming LTC/SMPTE timecode coming in via any audio interface.&#x20;
