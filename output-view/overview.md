@@ -14,7 +14,13 @@ Use the number buttons at the top to choose which laser you are editing. Or use 
 
 ### Navigating around the Output view&#x20;
 
-Use the mouse wheel to zoom in and out. Click and drag on any empty space (or on locked zones) to move the view around.&#x20;
+Click and drag on any empty space (or on locked zones) to move the view around.&#x20;
+
+### Zoom in and out of the Output view&#x20;
+
+Use the mouse wheel to zoom in and out.&#x20;
+
+
 
 ### Toolbar icons
 
