@@ -11,7 +11,7 @@ The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are
 Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out. To fade in an effect without an APC40, click and drag up and down on the button. Or right click on the effect button and adjust the level slider.&#x20;
 
 {% hint style="warning" %}
-Pressing the effect button will immediately activate that effect. However, note that if the level parameter is set to zero, nothing with happen! Click/drag the button to change the level, or right click and use the _level_ slider, or use the APC40 faders.
+Pressing the effect button will immediately activate that effect. However, note that if the level  is set to zero, nothing with happen! Click/drag the button to change the level, or right click and use the _level_ slider, or use the APC40 faders.
 {% endhint %}
 
 #### Effects and the clip's zone delay

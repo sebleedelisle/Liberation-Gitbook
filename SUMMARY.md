@@ -101,6 +101,7 @@
 * [🟧 Troubleshooting](troubleshooting/README.md)
   * [✅ Intermittent / flashing output](troubleshooting/intermittent-flashing-output.md)
   * [✅ Live control](troubleshooting/live-control.md)
+  * [✅ Missing resources error on startup](troubleshooting/missing-resources.md)
 * [✅ Reference](reference/README.md)
   * [✅ Keyboard shortcuts](reference/keyboard-shortcuts.md)
   * [✅ APC40 reference](reference/apc40-reference.md)
