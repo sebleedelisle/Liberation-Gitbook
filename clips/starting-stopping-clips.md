@@ -45,8 +45,10 @@ That the clip lights up on screen when it is currently running (and its mini cli
 
 ALT/OPTION click on a clip to select it without activating it. Use ALT/OPTION + SHIFT click to select multiple clips.&#x20;
 
+You can also click and drag a lasso on the clip deck to select multiple clips.&#x20;
+
 {% hint style="info" %}
-You can also click/drag a lasso to select multiple clips
+The APC 40 also has ALT and SHIFT buttons for making selection! The&#x20;
 {% endhint %}
 
 
