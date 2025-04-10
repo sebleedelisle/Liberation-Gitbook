@@ -1,10 +1,10 @@
 # 🟦 Colour changer
 
-## <img src="../.gitbook/assets/image.png" alt="" data-size="line">  Colour change
+## <img src="../../.gitbook/assets/image.png" alt="" data-size="line">  Colour change
 
 &#x20;Description
 
-* **hue, saturation, brightness** - the colour values, see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")&#x20;
+* **hue, saturation, brightness** - the colour values, see [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")&#x20;
 * **hue mode** -&#x20;
   * OFF - the hue isn't changed
   * FIXED - the hue of elements is set to the hue value

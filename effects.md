@@ -26,7 +26,7 @@ I would argue that it is one of the most fun and creative tools built in to Libe
 
 #### Effect parameters
 
-Add a parameter to your effect with a _Parameter node._ The Parameter system is a way to adjust multiple settings inside your effect from the outside. See [parameter-node.md](clip-editor/parameter-node.md "mention") for more information.&#x20;
+Add a parameter to your effect with a _Parameter node._ The Parameter system is a way to adjust multiple settings inside your effect from the outside. See [Broken link](broken-reference "mention") for more information.&#x20;
 
 Use the rotary controllers 1-8 to adjust the _parameter_ for each effect. Or right-click the effect button and adjust the parameter slider(s). The parameter change does different things dependent on how the effect is set up. See the list below for the default effects and what their parameters do.
 
