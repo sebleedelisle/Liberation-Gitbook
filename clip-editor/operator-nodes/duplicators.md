@@ -1,6 +1,6 @@
 # 🟦 Duplicators
 
-## <img src="../.gitbook/assets/image (4).png" alt="" data-size="line">  Mirror
+## <img src="../../.gitbook/assets/image (4).png" alt="" data-size="line">  Mirror
 
 Makes a mirrored duplicate of all the content. By default the mirror axis is a vertical line in the middle.&#x20;
 
@@ -12,7 +12,7 @@ Makes a mirrored duplicate of all the content. By default the mirror axis is a v
 
 * **angle X / angle Y** - the mirror axis becomes a plane and you can use these settings to rotate the plane in 3D.
 
-## <img src="../.gitbook/assets/image (5).png" alt="" data-size="line">  Circular Pattern
+## <img src="../../.gitbook/assets/image (5).png" alt="" data-size="line">  Circular Pattern
 
 Duplicates content in a circular pattern.&#x20;
 
@@ -26,7 +26,7 @@ Duplicates content in a circular pattern.&#x20;
 
 * **rotation x / rotation y**  - rotates the entire circular pattern around the x and y axes.&#x20;
 
-## <img src="../.gitbook/assets/image (6).png" alt="" data-size="line">  Grid Pattern
+## <img src="../../.gitbook/assets/image (6).png" alt="" data-size="line">  Grid Pattern
 
 Duplicates content in a grid pattern of rows and columns.&#x20;
 
