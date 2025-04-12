@@ -17,11 +17,15 @@ The Project file stores almost everything in your current set up, including :&#x
 
 It doesn't currently save and load :&#x20;
 
-* Sound and Midi input settings as used in the MIDI notes node and the Sound Input Oscillator (it _does_ save MIDI send/receive settings as well as the timecode sound input )
+* Sound and Midi input settings as used in the MIDI notes node and the Sound Input Oscillator (it _does_ save MIDI send/receive settings as well as the timecode sound input)
 * Interface scaling&#x20;
 * Media for Canvas guide images&#x20;
 * Sound and Video media for timelines&#x20;
 * Fonts used in the Text node
+
+{% hint style="danger" %}
+Sound and video files in the timeline are not saved with project files so be sure to save them separately if you want to transfer to a different computer. See [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+{% endhint %}
 
 ### Laser settings Import / Export&#x20;
 
@@ -57,6 +61,12 @@ Export a timeline file with one or more timelines. Note that the clipdeck is alw
 
 If you have more than one timeline in your project file, a panel will open allowing you to select which timeilnes you want to export.
 
+{% hint style="danger" %}
+Sound and video files in the timeline are not saved with timeline files so be sure to save them separately if you want to transfer your content to a different computer. See [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+{% endhint %}
+
+###
+
 ### Timeline Import&#x20;
 
 Import one or more timelines from a single timeline file. After you have selected your timeline file, a panel will open with multiple import options.&#x20;
@@ -74,7 +84,11 @@ If the timeline file has more than one timeline they will all be listed. Check t
 
 Saves and loads the Artnet nodes, along with their IP addresses. Also includes the DMX zones, and all of your DMX presets.
 
+### Important note about timeline media files
 
+Sound and video files **are not** currently exported with the timeline file so if you need to move content to a different computer make sure to include these.&#x20;
+
+When the timeline is loaded, it will look in the same folder as the timeline (or project) file and search within it and any subfolders. So as long as the files are in the same folder or a subfolder (such as _/videos_ or  _/sound_ it will find them when it loads. &#x20;
 
 
 
