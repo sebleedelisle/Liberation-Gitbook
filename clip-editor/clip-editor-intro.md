@@ -16,8 +16,8 @@ You can open the Clip Editor by right clicking on the clip button and selecting 
 
 What you'll see in the clip editor :&#x20;
 
-* The Creator and Operator nodes along the top&#x20;
-* The Oscillator nodes along the left
+* The **Creator** and **Operator node buttons** along the top&#x20;
+* The **Oscillator node buttons** along the left
 * A preview of the content in a panel on the right, and if you click on a node, you'll see a second preview that shows you the content at the node itself.
 * The node graph for the clip that you are editing (if it's a new clip this wil be empty)
 * The Clip Editor panel with various options
@@ -32,7 +32,31 @@ If you don't see any output in the 3D visualiser, you may need to use the zone b
 
 You typically start with one or more [creator nodes](creator-nodes.md), and connect [operators](operator-nodes/) from left to right that process the content. Each of these nodes has an array of sockets along the bottom and each one represents a setting within the node, such as brightness, position, scale, rotation etc.&#x20;
 
-[Oscillator nodes](oscillators/) can be connected to these sockets from below and used to animate these settings.&#x20;
+[Oscillator nodes](oscillators/) can be connected to these sockets from below and used to animate these settings.
+
+### Adding nodes to your clip
+
+Click and drag from one of the node buttons along the top or left into an empty space within the clip editor.&#x20;
+
+### Adjusting settings for a node
+
+Click on the cog icon button  (top right of the node) to open the settings panel for that node.&#x20;
+
+### Enabling and disabling a node
+
+Click on the power icon button (top left of the node) to enable and disable the node. The node with dim to show that it is not currently active. Note that content still passes through an operator even if it is disabled, but the node doesn't affect the content.&#x20;
+
+
+
+### Connecting Creator and Operator nodes together
+
+Creators and Operators connect from side to side. The input socket is on the left and the output socket is on the right. (Notice that Creators only have an output and no input).&#x20;
+
+To connect them together just bring them close and the outputs will automatically connect to the inputs.&#x20;
+
+
+
+&#x20;
 
 ### Clip editor panel
 
