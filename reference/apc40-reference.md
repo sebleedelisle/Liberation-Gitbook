@@ -4,12 +4,12 @@
 
 1. 8x5 Clipdeck
 2. Zone On/Off
-3. Effect Faders On/Off
-4. X/Y Flip
-5. Colour Effects
-6. Effect Faders
+3. Effects 1-8 On/Off
+4. Zone X/Y Flip
+5. Effects 9-24 On/Off
+6. Effect Faders 1-8
 7. Global Brightness
-8. Effect Parameter Adjustment
+8. Effect 1-8 Parameter Adjustment
 9. Group Buttons
 10. Stop All Clips (Press twice to immediately stop all clips without their fade settings)
 11. Clipdeck Scroll
