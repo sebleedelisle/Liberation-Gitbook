@@ -14,32 +14,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js (v12 for GitBook compatibility)
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 12
+          node-version: 18
 
-      - name: Install GitBook CLI and plugins
+      - name: Install HonKit and dependencies
         run: |
-          npm install -g gitbook-cli
-          gitbook install
+          npm install -g honkit
+          npm install
+          npx honkit install
 
-      - name: Build GitBook site
-        run: gitbook build
+      - name: Build site with HonKit
+        run: npx honkit build
 
-      - name: Install serve (to host the site)
+      - name: Install serve (static server)
         run: npm install -g serve
 
-      - name: Install muffet
+      - name: Install muffet (link checker)
         run: |
           curl -L https://github.com/raviqqe/muffet/releases/download/v2.7.0/muffet-2.7.0-linux-amd64.tar.gz | tar xz
           sudo mv muffet /usr/local/bin
 
-      - name: Start local server
+      - name: Serve built site
         run: |
           nohup serve _book -l 8080 &
 
-      - name: Wait for server to start
+      - name: Wait for local server to be ready
         run: |
           for i in {1..10}; do
             curl -sSf http://localhost:8080 && break
@@ -48,4 +49,3 @@ jobs:
 
       - name: Run muffet against localhost
         run: muffet --max-connections=5 http://localhost:8080
-
