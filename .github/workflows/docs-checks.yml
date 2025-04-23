@@ -1,0 +1,41 @@
+name: 📚 Docs QA - Broken Links, Spelling & Grammar
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  docs-quality-checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repository
+        uses: actions/checkout@v4
+
+      # 🔍 Broken Link Checker
+      - name: 🔗 Check for Broken Links
+        uses: ruzickap/action-my-broken-link-checker@v2
+        with:
+          url: file://${{ github.workspace }}/
+          recursive: true
+          check-anchors: true
+          honor-robots-txt: false
+          skip-tls-verification: true
+          skip-file-ext: jpg,png,gif,svg,ico
+
+      # 🔤 Spelling checker
+      - name: 🔤 Run codespell for spelling errors
+        uses: codespell-project/actions-codespell@v2
+        with:
+          check_filenames: true
+          skip: .git,*.png,*.jpg,*.svg,*.gif,*.ico,*.pdf,*.zip
+          ignore_words_list: crate,fo,te
+
+      # ✍️ English prose/grammar check
+      - name: ✍️ Run write-good for grammar style suggestions
+        run: |
+          npm install -g write-good
+          find . -name '*.md' | xargs write-good || true
