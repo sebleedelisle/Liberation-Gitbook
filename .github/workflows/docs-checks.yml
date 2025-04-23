@@ -14,12 +14,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js (v14 for GitBook compatibility)
+      - name: Set up Node.js (v12 for GitBook compatibility)
         uses: actions/setup-node@v4
         with:
-          node-version: 14
+          node-version: 12
 
-      - name: Install GitBook CLI
+      - name: Install GitBook CLI and plugins
         run: |
           npm install -g gitbook-cli
           gitbook install
