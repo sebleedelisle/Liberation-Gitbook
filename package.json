@@ -1,0 +1,10 @@
+{
+  "name": "liberation-gitbook",
+  "version": "1.0.0",
+  "devDependencies": {
+    "honkit": "^4.0.0"
+  },
+  "scripts": {
+    "build": "honkit build"
+  }
+}
