@@ -17,7 +17,7 @@ You can set up and visualise as many lasers as you want within Liberation, the t
 The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up.
 
 {% hint style="warning" %}
-Important : Before you arm any lasers make sure understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") chapter.
+Important : Before you arm any lasers make sure you understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") chapter.
 {% endhint %}
 
 ## Overview of the software
@@ -28,7 +28,7 @@ Any time you're running lasers you must have a **hardware emergency stop button*
 
 ### Slider elements
 
-Throughout Liberation there are various sliders and controls.&#x20;
+Throughout Liberation there are various sliders and controls.
 
 {% hint style="info" %}
 CMD/CTRL-click into a slider to type a new value if you need greater control than the slider can give you.
@@ -164,7 +164,7 @@ Right click on a clip to edit more settings for the clip. Also see [clip-setting
 
 ### Groups
 
-You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in. The APC40 clip buttons also light up in this colour.&#x20;
+You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in. The APC40 clip buttons also light up in this colour.
 
 <table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Indigo</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
 
@@ -180,7 +180,7 @@ You can assign the clip's group using the buttons in the right-click menu, or us
 
 Change zone settings for all clips within a group
 
-Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.&#x20;
+Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.
 
 See also [groups.md](../clips/groups.md "mention")
 
@@ -197,7 +197,7 @@ Press an effect button to toggle the effect, or even better, using the APC40 sli
 Use the rotary controllers 1-8\* to adjust the _parameter_ for each effect. (Or you can right-click with the mouse to adjust the level and parameter). The parameter change does different things dependent on how the effect is set up. See the list below for the default effects.
 
 {% hint style="info" %}
-The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect.  The _level_ is controlled by the fader on the APC40 or you can click-drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.&#x20;
+The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect. The _level_ is controlled by the fader on the APC40 or you can click-drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.
 {% endhint %}
 
 _\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also:_ [apc40-reference.md](../reference/apc40-reference.md "mention")
