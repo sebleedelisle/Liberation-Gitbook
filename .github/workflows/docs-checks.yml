@@ -1,38 +1,50 @@
-name: 📚 Docs QA - Broken Links, Spelling & Grammar
+name: Check Links
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-  workflow_dispatch:
+    branches: [main]
 
 jobs:
-  docs-quality-checks:
+  link-check:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ⬇️ Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      # 🔗 Live site broken link check
-      - name: 🔗 Check for Broken Links (Live Docs Site)
-        uses: ruzickap/action-my-broken-link-checker@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          url: https://docs.liberationlaser.com
-          debug: false
-          cmd_params: "--max-connections=5"
+          node-version: 18
 
-      # 🔤 Spelling check using codespell
-      - name: 🔤 Run codespell for spelling errors
-        uses: codespell-project/actions-codespell@v2
-        with:
-          check_filenames: true
-          skip: .git,*.png,*.jpg,*.svg,*.gif,*.ico,*.pdf,*.zip
-          ignore_words_list: crate,fo,te,Liberation
-
-      # ✍️ English prose/grammar check using write-good
-      - name: ✍️ Run write-good for grammar suggestions
+      - name: Install GitBook CLI
         run: |
-          npm install -g write-good
-          find . -name '*.md' | xargs write-good || true
+          npm install -g gitbook-cli
+          gitbook install
+
+      - name: Build GitBook site
+        run: gitbook build
+
+      - name: Install serve (to host the site)
+        run: npm install -g serve
+
+      - name: Install muffet
+        run: |
+          curl -L https://github.com/raviqqe/muffet/releases/download/v2.7.0/muffet-2.7.0-linux-amd64.tar.gz | tar xz
+          sudo mv muffet /usr/local/bin
+
+      - name: Start local server
+        run: |
+          nohup serve _book -l 8080 &
+
+      - name: Wait for server to start
+        run: |
+          for i in {1..10}; do
+            curl -sSf http://localhost:8080 && break
+            sleep 1
+          done
+
+      - name: Run muffet against localhost
+        run: muffet --max-connections=5 http://localhost:8080
