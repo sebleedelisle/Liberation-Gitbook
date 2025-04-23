@@ -39,7 +39,7 @@
   * [✅ Clip settings](clips/clip-settings.md)
   * [🟦 Zone delay / chase](clips/zone-delay-chase.md)
   * [🟦 Clip groups](clips/groups.md)
-  * [◼️ Global settings](clips/global-settings.md)
+  * [◼️ Global transformations](clips/global-settings.md)
   * [🟦 Organising your clip deck](clips/organising-your-clip-deck.md)
 * [🟦 Effects](effects.md)
 * [🟧 The Clip Editor](clip-editor/README.md)
