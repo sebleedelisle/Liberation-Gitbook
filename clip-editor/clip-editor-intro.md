@@ -1,4 +1,4 @@
-# 🟧 Introduction to the Clip Editor
+# 🟦 Introduction to the Clip Editor
 
 The clip editor is a versatile way to create laser content and it's at the heart of Liberation. It's easy to make simple things and yet flexible enough to make some incredibly sophisticated and complex effects.&#x20;
 

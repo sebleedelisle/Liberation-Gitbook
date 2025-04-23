@@ -39,7 +39,7 @@ Note that the steps are divided by time rather than value. So for a wave split i
 * **clamp min / clamp max -** increases the scale of the wave beyond its minimum or maximum values and clamps the result.
 
 {% hint style="info" %}
-The clamp settings are quite hard to explain, but imagine the waveform going off the top or bottom of the graph, and then getting clamped to the edges. I recommend that you experiment with them! But they're very useful if you want a sawtooth to start late or end early.
+The _clamp_ concept is quite hard to explain, but imagine the waveform going off the top or bottom of the graph, and then getting clamped to the edges. I recommend that you experiment with them! But they're very useful if you want a sawtooth to start late or end early.
 {% endhint %}
 
 * **ease function** - the Sawtooth and Triangle waves also have an ease function which subtly changes the animation curve, and can make your animations really expressive!
