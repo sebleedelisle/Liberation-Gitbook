@@ -15,22 +15,23 @@ jobs:
       - name: ⬇️ Checkout repository
         uses: actions/checkout@v4
 
-      # ✅ Link checker using default params
-      - name: 🔗 Check for Broken Links
+      # 🔗 Live site broken link check
+      - name: 🔗 Check for Broken Links (Live Docs Site)
         uses: ruzickap/action-my-broken-link-checker@v2
         with:
-          url: file://${{ github.workspace }}/
+          url: https://docs.liberationlaser.com
           debug: false
+          cmd_params: "--max-connections=5"
 
-      # ✅ Spelling check using codespell
+      # 🔤 Spelling check using codespell
       - name: 🔤 Run codespell for spelling errors
         uses: codespell-project/actions-codespell@v2
         with:
           check_filenames: true
           skip: .git,*.png,*.jpg,*.svg,*.gif,*.ico,*.pdf,*.zip
-          ignore_words_list: crate,fo,te
+          ignore_words_list: crate,fo,te,Liberation
 
-      # ✅ Grammar and style using write-good
+      # ✍️ English prose/grammar check using write-good
       - name: ✍️ Run write-good for grammar suggestions
         run: |
           npm install -g write-good
