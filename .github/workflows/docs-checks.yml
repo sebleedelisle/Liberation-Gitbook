@@ -25,30 +25,14 @@ jobs:
       - name: 📦 Install markdown-link-check
         run: npm install -g markdown-link-check
 
-      #- name: 🔗 Check all Markdown links
-      #  run: |
-      #    find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check --quiet
-      
-      #- name: 🔗 Check internal links
-      #  run: |
-      #    find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check --quiet > mlc-output.txt
-      #    cat mlc-output.txt
-      #    if grep -q "\[✖\]" mlc-output.txt; then
-      #      echo "❌ Broken links found."
-      #      exit 1
-      #    else
-      #      echo "✅ No broken links."
-      #    fi
-
-
-        - name: 🔗 Check all markdown files for broken links
+      - name: 🔗 Check all markdown files for broken links
         run: |
           #!/bin/bash
           echo "🔍 Checking all markdown files for broken links..."
           : > mlc-output.txt
           while IFS= read -r -d '' file; do
             echo "Checking: $file" >> mlc-output.txt
-            npx markdown-link-check --quiet "$file" >> mlc-output.txt
+            markdown-link-check --quiet "$file" >> mlc-output.txt
             echo "" >> mlc-output.txt
           done < <(find . -name "*.md" -print0)
           cat mlc-output.txt
