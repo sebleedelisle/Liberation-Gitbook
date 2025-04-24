@@ -1,4 +1,4 @@
-name: 🔗 Markdown Link Checker
+name: 🔗 Check broken links
 
 on:
   workflow_dispatch:
@@ -10,41 +10,39 @@ on:
       - '**.md'
 
 jobs:
-  check-links:
+  link-check:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repository
+      - name: 📥 Checkout code
         uses: actions/checkout@v4
 
-      - name: 🟢 Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
+      - name: 🔵 Set up environment
+        run: sudo apt-get update && sudo apt-get install -y curl
 
-      - name: 📦 Install markdown-link-check
-        run: npm install -g markdown-link-check
-
-      - name: 🔗 Check all markdown files for broken links
+      - name: 🔍 Scan for broken links with line numbers
         run: |
           echo "🔍 Scanning all Markdown files for broken links with line numbers..."
-          status=0
-          
+          errors=0
           while IFS= read -r -d '' file; do
             echo "🔎 Checking $file..."
             lineno=0
             while IFS= read -r line; do
               lineno=$((lineno + 1))
-              # Extract URLs from markdown lines
-              echo "$line" | grep -Eo '(http|https)://[^)\\s]+' | while read -r url; do
-                # Use curl to check the URL status (HEAD request)
-                status_code=$(curl -o /dev/null -s -w "%{http_code}" "$url")
-                if [ "$status_code" -ge 400 ]; then
-                  echo "❌ [$status_code] $url ($file:$lineno)"
-                  status=1
+              urls=$(echo "$line" | grep -oP '(?<=\[.*\]\()https?://[^\)\s]+' || true)
+              for url in $urls; do
+                status=$(curl -o /dev/null -s -w "%{http_code}" "$url" || echo "fail")
+                if [[ "$status" != "200" ]]; then
+                  echo "❌ [$file:$lineno] $url returned status $status"
+                  errors=1
                 fi
               done
             done < "$file"
           done < <(find . -name "*.md" -print0)
-          
-          exit $status
+
+          if [[ "$errors" -ne 0 ]]; then
+            echo "❌ Broken links found. Failing workflow."
+            exit 1
+          else
+            echo "✅ No broken links."
+          fi
