@@ -30,17 +30,18 @@ jobs:
           echo "🔍 Scanning Markdown files for broken links..."
           BROKEN=0
 
-          while IFS= read -r -d '' file; do
-            echo "🔎 Checking: $file"
-            OUTPUT=$(markdown-link-check "$file" 2>&1)
+          find . -name "*.md" -print0 | while IFS= read -r -d '' file; do
+            OUTPUT=$(markdown-link-check --quiet "$file")
             if echo "$OUTPUT" | grep -q "\[✖\]"; then
+              echo ""
               echo "❌ Broken links found in $file:"
               echo "$OUTPUT" | grep "\[✖\]"
               BROKEN=1
             fi
-          done < <(find . -name "*.md" -print0)
+          done
 
           if [ "$BROKEN" -ne 0 ]; then
+            echo ""
             echo "❌ Broken links detected!"
             exit 1
           else
