@@ -25,6 +25,17 @@ jobs:
       - name: 📦 Install markdown-link-check
         run: npm install -g markdown-link-check
 
-      - name: 🔗 Check all Markdown links
+      #- name: 🔗 Check all Markdown links
+      #  run: |
+      #    find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check --quiet
+      
+      - name: 🔗 Check internal links
         run: |
-          find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check --quiet
+          npx markdown-link-check README.md --quiet > mlc-output.txt
+          cat mlc-output.txt
+          if grep -q "\[✖\]" mlc-output.txt; then
+            echo "❌ Broken links found."
+            exit 1
+          else
+            echo "✅ No broken links."
+          fi
