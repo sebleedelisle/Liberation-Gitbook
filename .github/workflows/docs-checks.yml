@@ -27,18 +27,24 @@ jobs:
 
       - name: 🔗 Check all markdown files for broken links
         run: |
-          echo "🔍 Scanning for broken links..."
+          echo "🔍 Scanning all Markdown files for broken links with line numbers..."
           status=0
+          
           while IFS= read -r -d '' file; do
-            echo "🔎 Checking: $file"
+            echo "🔎 Checking $file..."
+            lineno=0
             while IFS= read -r line; do
-              echo "$line" | npx markdown-link-check --quiet - > tmp-check.txt
-              if grep -q "\[✖\]" tmp-check.txt; then
-                lineno=$(grep -Fn "$line" "$file" | cut -d: -f1 | head -n1)
-                url=$(echo "$line" | grep -oP '(?<=\]\().+?(?=\))')
-                echo "❌ $file:$lineno → $url"
-                status=1
-              fi
+              lineno=$((lineno + 1))
+              # Extract URLs from markdown lines
+              echo "$line" | grep -Eo '(http|https)://[^)\\s]+' | while read -r url; do
+                # Use curl to check the URL status (HEAD request)
+                status_code=$(curl -o /dev/null -s -w "%{http_code}" "$url")
+                if [ "$status_code" -ge 400 ]; then
+                  echo "❌ [$status_code] $url ($file:$lineno)"
+                  status=1
+                fi
+              done
             done < "$file"
           done < <(find . -name "*.md" -print0)
+          
           exit $status
