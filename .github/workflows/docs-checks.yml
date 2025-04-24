@@ -1,6 +1,7 @@
 name: 🔗 Markdown Link Checker
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '**.md'
