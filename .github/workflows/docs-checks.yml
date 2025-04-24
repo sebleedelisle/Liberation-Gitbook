@@ -27,18 +27,18 @@ jobs:
 
       - name: 🔗 Check all markdown files for broken links
         run: |
-          #!/bin/bash
-          echo "🔍 Checking all markdown files for broken links..."
-          : > mlc-output.txt
+          echo "🔍 Scanning for broken links..."
+          status=0
           while IFS= read -r -d '' file; do
-            echo "Checking: $file" >> mlc-output.txt
-            markdown-link-check --quiet "$file" >> mlc-output.txt
-            echo "" >> mlc-output.txt
+            echo "🔎 Checking: $file"
+            while IFS= read -r line; do
+              echo "$line" | npx markdown-link-check --quiet - > tmp-check.txt
+              if grep -q "\[✖\]" tmp-check.txt; then
+                lineno=$(grep -Fn "$line" "$file" | cut -d: -f1 | head -n1)
+                url=$(echo "$line" | grep -oP '(?<=\]\().+?(?=\))')
+                echo "❌ $file:$lineno → $url"
+                status=1
+              fi
+            done < "$file"
           done < <(find . -name "*.md" -print0)
-          cat mlc-output.txt
-          if grep -q "\[✖\]" mlc-output.txt; then
-            echo "❌ Broken links found."
-            exit 1
-          else
-            echo "✅ No broken links."
-          fi
+          exit $status
