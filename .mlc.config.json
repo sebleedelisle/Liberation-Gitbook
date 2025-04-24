@@ -1,0 +1,7 @@
+{
+  "checkRelative": true,
+  "useHTTP": false,
+  "ignorePatterns": [],
+  "httpHeaders": {},
+  "replacementPatterns": []
+}
