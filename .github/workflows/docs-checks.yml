@@ -1,25 +1,19 @@
-name: HonKit Test
+name: 🔗 Markdown Link Checker
 
 on:
   push:
     paths:
       - '**.md'
-      - 'SUMMARY.md'
-      - 'README.md'
-      - 'package.json'
   pull_request:
     paths:
       - '**.md'
-      - 'SUMMARY.md'
-      - 'README.md'
-      - 'package.json'
 
 jobs:
-  build:
+  check-links:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout code
+      - name: 📥 Checkout repository
         uses: actions/checkout@v4
 
       - name: 🟢 Set up Node.js
@@ -27,13 +21,9 @@ jobs:
         with:
           node-version: 18
 
-      - name: 📦 Install dependencies
-        run: npm install
+      - name: 📦 Install markdown-link-check
+        run: npm install -g markdown-link-check
 
-      - name: 📚 Build HonKit locally
-        run: npx honkit build
-
-      - name: 🔗 Check internal links (optional)
-        run: npx honkit serve & npx markdown-link-check README.md --quiet
-
-      # optional: grammar/spell check step if you install those tools
+      - name: 🔗 Check all Markdown links
+        run: |
+          find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check --quiet
