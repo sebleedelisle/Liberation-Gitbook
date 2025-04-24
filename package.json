@@ -2,12 +2,10 @@
   "name": "liberation-gitbook",
   "version": "1.0.0",
   "devDependencies": {
+    "gitbook-plugin-hints": "^1.0.2",
     "honkit": "^4.0.8"
   },
   "scripts": {
     "build": "honkit build"
-  },
-  "dependencies": {
-    "gitbook-plugin-hints": "^1.0.2"
   }
 }
