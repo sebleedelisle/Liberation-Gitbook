@@ -31,7 +31,7 @@ jobs:
       
       - name: 🔗 Check internal links
         run: |
-          npx markdown-link-check README.md --quiet > mlc-output.txt
+          find . -name "*.md" -print0 | xargs -0 -n1 markdown-link-check --quiet > mlc-output.txt
           cat mlc-output.txt
           if grep -q "\[✖\]" mlc-output.txt; then
             echo "❌ Broken links found."
