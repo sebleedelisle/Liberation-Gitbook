@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '**.md'
+      - '**/*.md'
   pull_request:
     paths:
-      - '**.md'
+      - '**/*.md'
 
 jobs:
   check-links:
@@ -22,29 +22,25 @@ jobs:
         with:
           node-version: 18
 
-      - name: 📦 Install dependencies
-        run: |
-          npm install -g markdown-link-check
+      - name: 📦 Install markdown-link-check
+        run: npm install -g markdown-link-check
 
-      - name: 🔍 Check Markdown files for broken links
+      - name: 🔍 Scan Markdown files for broken links
         run: |
-          echo "🔍 Scanning all Markdown files for broken links..."
+          echo "🔍 Scanning Markdown files for broken links..."
           BROKEN=0
-          
-          while IFS= read -r -d '' file; do
-            echo "🔎 Checking: $file..."
-            # Run markdown-link-check with JSON output to parse later
-            markdown-link-check --json "$file" > .mlc.json
 
-            # Check for broken links
-            if grep -q '"status": "dead"' .mlc.json; then
-              echo "❌ Broken links found in $file"
-              jq -r '.links[] | select(.status == "dead") | "  [✖] \(.link) (line unknown)"' .mlc.json
+          while IFS= read -r -d '' file; do
+            echo "🔎 Checking: $file"
+            OUTPUT=$(markdown-link-check "$file" 2>&1)
+            if echo "$OUTPUT" | grep -q "\[✖\]"; then
+              echo "❌ Broken links found in $file:"
+              echo "$OUTPUT" | grep "\[✖\]"
               BROKEN=1
             fi
           done < <(find . -name "*.md" -print0)
 
-          if [ "$BROKEN" -eq 1 ]; then
+          if [ "$BROKEN" -ne 0 ]; then
             echo "❌ Broken links detected!"
             exit 1
           else
