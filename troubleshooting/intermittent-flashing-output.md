@@ -1,11 +1,6 @@
-# ✅ Intermittent / flashing output
+# 🟦 Intermittent / flashing output
 
-Check the laser overview panel -\
-
-
-<figure><img src="https://europe1.discourse-cdn.com/standard20/uploads/liberation/original/1X/2d83b68767a44fec6ebb5d0ba2267dc27f8546f9.png" alt=""><figcaption></figcaption></figure>
-
-***
+Open the _Laser Overview_ panel and look at the connection light next to the laser you are having trouble with.&#x20;
 
 **If the connection light IS NOT constantly green :**\
 Then you have either a network or a CPU performance issue :

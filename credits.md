@@ -12,7 +12,7 @@ It uses the following open source projects :&#x20;
 
 openFrameworks uses a combination of the following [libraries](https://github.com/openframeworks/openFrameworks/blob/master/docs/libraries.md), depending on your platform:
 
-[OpenGL](http://www.opengl.org/), [GLEW](http://glew.sourceforge.net/), [GLUT](http://www.opengl.org/resources/libraries/glut/), [libtess2](https://code.google.com/p/libtess2/), [cairo](http://cairographics.org/), [rtAudio](http://www.music.mcgill.ca/~gary/rtaudio/), [PortAudio](http://www.portaudio.com/), [FMOD](http://www.fmod.org/), [Kiss FFT](http://kissfft.sourceforge.net/), [FreeType](http://freetype.sourceforge.net/index2.html), [FreeImage](http://freeimage.sourceforge.net/), [Quicktime](http://developer.apple.com/quicktime/), [Unicap](http://unicap-imaging.org/), [GStreamer](http://gstreamer.freedesktop.org/), [videoInput](https://github.com/ofTheo/videoInput), [Poco](http://pocoproject.org/)&#x20;
+[OpenGL](http://www.opengl.org/), [GLEW](http://glew.sourceforge.net/), [GLUT](http://www.opengl.org/resources/libraries/glut/), [libtess2](https://code.google.com/p/libtess2/), [cairo](http://cairographics.org/), [rtAudio](http://www.music.mcgill.ca/~gary/rtaudio/), [PortAudio](http://www.portaudio.com/), [FMOD](http://www.fmod.org/), [Kiss FFT](http://kissfft.sourceforge.net/), [FreeType](http://freetype.sourceforge.net/index2.html), [FreeImage](http://freeimage.sourceforge.net/), [Quicktime](https://developer.apple.com/standards/classic-quicktime/), [Unicap](http://unicap-imaging.org/), [GStreamer](http://gstreamer.freedesktop.org/), [videoInput](https://github.com/ofTheo/videoInput), [Poco](http://pocoproject.org/)&#x20;
 
 #### openFrameworks addons&#x20;
 
@@ -25,7 +25,7 @@ openFrameworks uses a combination of the following [libraries](https://github.co
 
 #### [Dear ImGui](https://github.com/ocornut/imgui)
 
-The UI is built in part using [Dear ImGui](https://github.com/ocornut/imgui), developed by [Omar Cornut](https://www.miracleworld.net/) and every direct or indirect [contributors](https://github.com/ocornut/imgui/graphs/contributors) to the GitHub.&#x20;
+The UI is built in part using [Dear ImGui](https://github.com/ocornut/imgui), developed by Omar Cornut and every direct or indirect [contributors](https://github.com/ocornut/imgui/graphs/contributors) to the GitHub.&#x20;
 
 #### Liberation founding testers
 
