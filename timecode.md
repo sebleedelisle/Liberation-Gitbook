@@ -29,7 +29,7 @@ Plug in the timecode signal XLR cable into your sound interface and make sure yo
 {% hint style="info" %}
 Theoretically it is possible to receive the signal via the jack socket on your MacBook but this would require a custom cable. These jacks are typically 4 pole TRRS mini jacks, and I'm honestly not sure which of these connectors can be used for an audio input, and I'm also not sure what voltage level it can accommodate (I've read somewhere it was +/-1V but use this at your own risk!)
 
-Honestly I think you'd be better off just getting hold of a cheap USB sound interface rather than attempting this.&#x20;
+I think you'd be better off just getting hold of a cheap USB sound interface rather than attempting this.&#x20;
 {% endhint %}
 
 If your sound interface doesn't have any kind of input monitoring you can check in OSX system settings (under _Sound_) to make sure you are gettitng a signal. (On Windows, use the _Sound Control Panel_).&#x20;
