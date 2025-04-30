@@ -6,7 +6,7 @@ Windows 10 or 11 64 bit machines. High spec machines recommended if you want to 
 
 ### Installation process
 
-Once you have got an active subscription you will be sent a link, or you can click the _Download_ link on the [_My subscriptions_](https://liberationlaser.com/account/my-products) page.
+Once you have got an active subscription you will be sent a link, or you can click the _Download_ link on the[ _Your subscriptions_](https://liberationlaser.com/account/my-products) page.
 
 You'll see this page :
 
