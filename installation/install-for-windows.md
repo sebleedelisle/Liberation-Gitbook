@@ -10,27 +10,47 @@ Once you have got an active subscription you will be sent a link, or you can cli
 
 You'll see this page :
 
-<figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Windows Install Download Page.png" alt=""><figcaption></figcaption></figure>
 
-Click _Download latest for Windows_ (the version numbers may change) and you'll see the download indicator show the progress (usually in the top right, screen shot is from Chrome). When it's complete, hover over the Liberation download, and click on the folder icon that appears
+Click _Download latest for Windows_ (the version numbers may change) and you'll see the download indicator show the progress (usually in the top right, screen shot is from Chrome). When it's complete, open your downloads and click on the downloaded installer file
 
-<figure><img src="../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Windows Install Download list.png" alt=""><figcaption></figcaption></figure>
 
-This will open your downloads folder. Find the downloaded file (usually at the top), right click, and select "Extract all"
+This will run the installer.&#x20;
 
-<figure><img src="../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
+{% hint style="info" %}
+In some cases you may get a warning saying WIndows protected your PC - Windows is cautious about running new software! As more people run and trust Liberation, this should go away.
 
-A new panel will open asking you where you would like to install Liberation - you can put it anywhere on your hard drive that you have write permissions for, but if in doubt, just put it in a folder in your C: drive.
+But if you get this warning, click the _More info_ link, make sure the _Publisher_ is shown as _SEB.LY LIMITED_ and then _Run anyway_.&#x20;
 
-<figure><img src="../.gitbook/assets/windows-select-destination.png" alt="" width="375"><figcaption></figcaption></figure>
+![](<../.gitbook/assets/Windows Install Windows protection warning.png>)![](<../.gitbook/assets/Windows Installation warning run anyway.png>)
+{% endhint %}
 
-After Windows has finished unzipping it will show you the install file. Double click Liberation.exe to run the app.
+Before the installer starts you may get a warning asking if you are happy for the installer to make changes. Click _Yes_.&#x20;
 
-<figure><img src="../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Windows Installer warning make changes.png" alt=""><figcaption></figcaption></figure>
+
+Now the installer can start! Click through the pages
+
+<figure><img src="../.gitbook/assets/Windows Installer 1.png" alt=""><figcaption></figcaption></figure>
+
+It's recommended to use the default install location, so just click _Next_
+
+<figure><img src="../.gitbook/assets/Windows Installer 2.png" alt=""><figcaption></figcaption></figure>
+
+Next you have options for a desktop icon and start menu folder (recommended)
+
+<figure><img src="../.gitbook/assets/Windows Installer 3.png" alt=""><figcaption></figcaption></figure>
+
+Wait a short while for Liberation to be installed
+
+<figure><img src="../.gitbook/assets/Windows Installer 4.png" alt=""><figcaption></figcaption></figure>
+
+The installer is done! Click _Finish_ to close it and launch Liberation.
+
+<figure><img src="../.gitbook/assets/Windows Installer 5.png" alt=""><figcaption></figcaption></figure>
 
 Liberation needs permission to access files and the network so Windows will probably pop up a bunch of requesters. Make sure to accept everything or Liberation may not work properly.
-
-<figure><img src="../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

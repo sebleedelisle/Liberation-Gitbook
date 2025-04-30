@@ -46,7 +46,7 @@ Click on the power icon button (top left of the node) to enable and disable the 
 
 ### Connecting nodes together
 
-Content is made with a creator node, and is passed along nodes from left to right; each operator affects the content in some way and passes it along to the next operator. Whatever is left at the end of the path is the clip's content.
+Content is made with a creator node, and is passed along nodes from left to right; each operator affects the content in some way and passes it along to the next operator. Whatever is left at the end of the path is the clip's content. Creators and Operators are automatically connected to each other when you move them close together. To separate them, drag them apart again.&#x20;
 
 {% hint style="info" %}
 You can connect more than one node into the next node's input. This is helpful to combine multiple pieces of content
