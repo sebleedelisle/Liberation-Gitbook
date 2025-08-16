@@ -4,11 +4,11 @@
 
 #### **Does Liberation run on Windows?**
 
-Yes, Windows 10 or 11 64 bit machines (TBC)
+Yes - Liberation fully supports **Windows 10 and 11 (64-bit)**, with the exact same features as the Mac version. Every release ships simultaneously for both platforms.
 
 #### **Does Liberation run on Mac**
 
-Yes, MacOS 12.xxxx and later
+Yes - Liberation fully supports **Mac (macOS 12 Monterey and later)**, with full feature parity to the Windows version. All updates are released together.
 
 #### **What is the minimum spec machine required?**
 
