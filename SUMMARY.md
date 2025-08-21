@@ -93,7 +93,7 @@
   * [🟦 MIDI Send/Receive](midi-control/midi-send-receive.md)
 * [🟦 Loading and saving](loading-and-saving.md)
 * [✅ Tips for loading Graphics / SVG files](tips-for-loading-svg-files.md)
-* [◼️ Advanced](advanced/README.md)
+* [🟧 Advanced](advanced/README.md)
   * [◼️ How Liberation generates laser content](advanced/how-liberation-generates-laser-content.md)
   * [◼️ Scanner presets & render profiles](advanced/scanner-presets.md)
   * [◼️ Advanced laser settings](advanced/advanced-laser-settings.md)
