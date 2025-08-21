@@ -98,7 +98,7 @@
   * [◼️ Scanner presets & render profiles](advanced/scanner-presets.md)
   * [◼️ Advanced laser settings](advanced/advanced-laser-settings.md)
   * [◼️ Render profiles](advanced/render-profiles.md)
-  * [◼️ Colour calibration](advanced/colour-calibration.md)
+  * [🟦 Colour calibration](advanced/colour-calibration.md)
 * [◼️ Network advice](network-advice.md)
 * [🟧 Troubleshooting](troubleshooting/README.md)
   * [🟦 Intermittent / flashing output](troubleshooting/intermittent-flashing-output.md)
