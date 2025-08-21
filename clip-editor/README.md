@@ -1,2 +1,2 @@
-# 🟧 Designing content
+# 🟦 The Clip Editor
 
