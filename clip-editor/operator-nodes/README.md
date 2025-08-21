@@ -1,2 +1,2 @@
-# 🟧 Operator nodes
+# 🟦 Operator nodes
 

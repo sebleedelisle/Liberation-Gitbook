@@ -20,6 +20,7 @@ For example, if you wanted a dot to move left and right between -100 and 100, yo
 {% endhint %}
 
 * **duration** - the length of time one full cycle (or _loop_) takes to complete. This is relative to the tempo in bars. So ¼ is a single beat. 1 is a full bar, etc.
+* **duration mutliplier** -&#x20;
 * **offset** - the starting offset for the wave as a percentage of the duration. If you want the wave to start a quarter of the way through then set this to 25%.
 * **repeat count** - the number of times the loop runs before it stops. The default is _FOREVER_ but you can change it if you don't want the oscillator to run indefinitely. After it stops, the property will be set to the value at the end of the wave.
 * **delay count** - the delay in beats before the oscillator starts running. Before it starts running, the property will be set to the value at the start of the wave.
