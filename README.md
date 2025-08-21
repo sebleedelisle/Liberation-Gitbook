@@ -22,10 +22,4 @@ I've used a key to give you an idea of how far along each section is :
 
 ⬛️ = empty placeholder
 
-
-
-Update August 21 2025 
-<figure><img src="../.gitbook/assets/ArcadiaSpider2023.jpg" alt=""><figcaption></figcaption></figure>
-<figure><img src="../.gitbook/assets/Abby Test.png" alt=""><figcaption></figcaption></figure>
-
 ##
