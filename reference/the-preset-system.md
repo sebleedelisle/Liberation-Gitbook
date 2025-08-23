@@ -16,7 +16,7 @@ All of the presets are saved along with your project (or laser settings) whether
 
 You can additionally import and export preset files using the load/save button (a floppy disk icon) next to the preset drop-down list. This opens a pop up that has import/export buttons and also the option to delete one or more of your presets.&#x20;
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-03-21 at 13.45.51.png" alt=""><figcaption><p>The pop up menu that opens when you click the load/save icon</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 If you edit a preset, let's say the scanner setting called _Default_, note that the other lasers won't be automatically updated. Instead each of their scanner settings will now be labelled _Default(edited)_. To update this to the new _Default_ preset, re-select it from the drop-down list.&#x20;
 
