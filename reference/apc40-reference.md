@@ -1,6 +1,6 @@
 # ✅ APC40 reference
 
-<figure><img src="../.gitbook/assets/Liberation_APC40_MK2_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/liberation-apc40-mk2.png" alt=""><figcaption></figcaption></figure>
 
 1. 8x5 Clipdeck
 2. Zone On/Off

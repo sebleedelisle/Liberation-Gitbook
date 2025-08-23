@@ -20,7 +20,7 @@ When you send a clip to a DMX zone, Liberation looks at the first element in the
 
 #### Liberation at Glastonbury
 
-<figure><img src="../.gitbook/assets/ArcadiaSpider2023.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/show-arcadia-spider-2023.jpg" alt=""><figcaption></figcaption></figure>
 
 The first real test of the Liberation DMX system was at Glastonbury 2023 where Reach Lasers installed a total of 90 beam sources as part of the Arcadia "spider" stage.&#x20;
 
