@@ -36,9 +36,10 @@ See [midi-control](midi-control/ "mention")for more information.
 
 * [Ether Dream (recommended)](https://ether-dream.com)
 * [Helios DAC](https://bitlasers.com/helios-laser-dac/)
-* Mercury (in beta testing)
+* [Mercury by X-Laser](https://x-laser.com/pages/mercury-laser-control-system) (their new firmware currently in testing)
 * LaserCube USB (and LaserDock)
 * LaserCube Wifi protocol (with a wired network connection)
+* AVB as used by [LASollinger lasers](https://laseranimation.com/en/) (currently MacOS only in testing)&#x20;
 
 See [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") for more information
 
@@ -50,10 +51,13 @@ To encourage greater interoperability between software and hardware, Liberation 
 
 If your laser has one of the following, you can use it with Liberation :
 
-* An external ILDA input - it's a 25 pin D connector, and you will need a compatible external controller.
-* An internally installed Ether Dream
-* Any LaserCube (works with both USB and Wifi LaserCube)
-* An X-Laser unit with a built-in Mercury system (currently in testing)
+* An external **ILDA input** – a 25-pin D connector, used with a compatible external controller.
+* An internally installed **Ether Dream**.
+* Any **LaserCube** (works with both USB and Wi-Fi LaserCube).
+* An **X-Laser unit with a built-in Mercury system** (Ether Dream emulation, currently in testing).
+* A **LaserAnimation Sollinger projector with AVB built in** (MacOS only, requires AVB-compatible network devices, currently in testing).
+
+
 
 See [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") for more information
 
@@ -69,8 +73,9 @@ See the [shop](https://liberationlaser.com/shop) page for the current prices.&#x
 
 #### **What are the limitations between the 3 subscription tiers?**
 
-* Hobbyist tier - 2 x laser controllers and 2 x DMX fixtures
-* Pro tier - 8 x laser controllers and 8 x DMX fixtures
+* Hobby - 2 x laser controllers and 2 x DMX fixtures
+* Pro 4 - 4 x laser controllers and 4 x DMX fixtures
+* Pro 8 - 8 x laser controllers and 8 x DMX fixtures
 * Unlimited tier - as many lasers and DMX fixtures as your system can handle
 
 Note that you can set up and preview as many lasers as you want on **every** tier, and there are no other limitations at all apart from the number of lasers that you can _arm_. Every other Liberation feature is available to all.

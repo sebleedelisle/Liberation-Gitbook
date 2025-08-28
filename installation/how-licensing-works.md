@@ -10,7 +10,7 @@ In addition to the number of lasers you can arm, you can also use DMX fixtures. 
 
 There is also a limit to the number of computers you can authorise Liberation on dependent on your subscription tier.
 
-<table><thead><tr><th>Subscription tier</th><th width="226">Number of computers</th><th width="155">Lasers</th><th>DMX fixtures</th></tr></thead><tbody><tr><td>Hobbyist</td><td>1</td><td>2</td><td>2</td></tr><tr><td>Professional</td><td>2</td><td>8</td><td>8</td></tr><tr><td>Unlimited</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr></tbody></table>
+<table><thead><tr><th>Subscription tier</th><th width="226">Number of computers</th><th width="155">Lasers</th><th>DMX fixtures</th></tr></thead><tbody><tr><td>Hobby</td><td>1</td><td>2</td><td>0</td></tr><tr><td>Pro 4</td><td>1</td><td>4</td><td>4</td></tr><tr><td>Pro 8</td><td>2</td><td>8</td><td>8</td></tr><tr><td>Unlimited</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr></tbody></table>
 
 {% hint style="danger" %}
 Each license is for one user only and one show at a time. You can have more than one installation per user because you should **always** have at least one spare authorised computer at the ready!&#x20;
