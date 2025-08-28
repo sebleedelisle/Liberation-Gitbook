@@ -10,6 +10,7 @@ You do not need an external controller or an ILDA input if :&#x20;
 
 * Your laser has Ether Dream installed inside, or;
 * You have a LaserCube from Wicked Lasers&#x20;
+* You have a Laser Animation Sollinger laser with an AVB controller built-in (currently in testing on MacOS only)
 
 {% hint style="info" %}
 ### What is a laser controller?
@@ -49,9 +50,16 @@ You connect to them over a standard network. They can be bought as standalone un
 
 But if you just want to run a couple of lasers at home, it's the cheapest and simplest option.&#x20;
 
+#### Mercury (Built-in to X-Laser units)
+
+[**Mercury**](https://x-laser.com/pages/mercury-laser-control-system) is X-Laser’s powerful DMX laser control system, designed for lighting designers who want to run lasers directly from a traditional lighting console. With the latest firmware update, Mercury also includes **Ether Dream emulation**, which means it now works seamlessly with Liberation - as well as any other software that supports Ether Dream.
+
+#### AVB (Built into Laser Animation Sollinger units)
+
+**AVB** is an open network-based protocol for high-performance, low-latency audio and data streaming. Many LaserAnimation Sollinger projectors include AVB support directly in the hardware, which allows Liberation to connect to them over the network without the need for external DACs. AVB support in Liberation is currently **MacOS-only and in testing**, and it requires **compatible AVB-enabled network devices**. When set up correctly, it offers a simpler workflow, fewer external devices, and robust reliability for professional shows. I
+
 #### Controllers that will be supported in the future :
 
-* [Mercury](https://x-laser.com/pages/mercury-laser-control-system) (Built-in to X-Laser units)
 * [IDN](http://www.ilda-digital.com) (an open network protocol from ILDA, can be implemented by any manufacturer)
 
 ### Cabling suggestions
