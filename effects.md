@@ -11,7 +11,7 @@ The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are
 Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out. To fade in an effect without an APC40, click and drag up and down on the button. Or right click on the effect button and adjust the level slider.&#x20;
 
 {% hint style="warning" %}
-Pressing the effect button will immediately activate that effect. However, note that if the level  is set to zero, nothing with happen! Click/drag the button to change the level, or right click and use the _level_ slider, or use the APC40 faders.
+Pressing the effect button will immediately activate that effect. However, note that if the level is set to zero, nothing will happen! Click/drag the button to change the level, or right click and use the _level_ slider, or use the APC40 faders.
 {% endhint %}
 
 #### Effects and the clip's zone delay
@@ -73,7 +73,7 @@ You can choose which groups are affected by the effect. Right click and toggle t
 
 I primarily use this setup when working with canvas graphics and laser beams separately. I assign all canvas clips to group 5 and then exclude this group from effects that I don't want to affect these graphical clips.&#x20;
 
-You could also use it to live apply 2 different colour changes to 2 groups of lasers at once. Create two colour change effects and select which clip groups each one is applied ot.&#x20;
+You could also use it to live apply 2 different colour changes to 2 groups of lasers at once. Create two colour change effects and select which clip groups each one is applied to.&#x20;
 
 ### MX group
 
@@ -83,7 +83,7 @@ This functionality is disabled if the _MX Group_ setting is 0.
 
 ### Editing effects
 
-Right click on any effect, and click the _EDIT EFFECT_ button to open the effect editor. Notice that this editor is identical the clip editor!&#x20;
+Right click on any effect, and click the _EDIT EFFECT_ button to open the effect editor. Notice that this editor is identical to the clip editor!&#x20;
 
 Edit your effect in the same way that you would edit any clip. See [clip-editor](clip-editor/ "mention").
 
