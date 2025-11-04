@@ -104,7 +104,7 @@
   * [🟦 Intermittent / flashing output](troubleshooting/intermittent-flashing-output.md)
   * [✅ Live control](troubleshooting/live-control.md)
   * [✅ Missing resources error on startup](troubleshooting/missing-resources.md)
-  * [What to do if Liberation won't open](troubleshooting/what-to-do-if-liberation-wont-open.md)
+  * [🟦 What if Liberation won't open?](troubleshooting/what-if-liberation-wont-open.md)
 * [✅ Reference](reference/README.md)
   * [✅ Keyboard shortcuts](reference/keyboard-shortcuts.md)
   * [✅ APC40 reference](reference/apc40-reference.md)

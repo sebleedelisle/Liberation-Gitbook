@@ -1,4 +1,4 @@
-# What to do if Liberation won't open
+# 🟦 What if Liberation won't open?
 
 If Liberation refuses to launch or crashes immediately when opening, the most common fix is to reset your local settings. Here’s how to reset them on macOS and Windows.
 
