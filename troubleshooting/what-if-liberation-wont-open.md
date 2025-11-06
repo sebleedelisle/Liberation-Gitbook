@@ -1,6 +1,8 @@
 # 🟦 What if Liberation won't open?
 
-If Liberation refuses to launch or crashes immediately when opening, the most common fix is to reset your local settings. Here’s how to reset them on macOS and Windows.
+It’s rare, but sometimes Liberation may fail to launch or crash right after opening. This almost always happens because one of the local configuration files has become corrupted - usually after a system crash or something unexpected on your computer.
+
+Fortunately, it’s easy to fix by resetting your local settings. Here’s how to do that on macOS and Windows.
 
 > **Important**
 >
