@@ -58,12 +58,12 @@ This speed setting doesn't change the point rate, instead it adjusts how spread 
 The beam changes colour and turns on and off as the scanners move it around and these two things aren't usually perfectly in sync with each other. Adjust this setting to get them back in line.
 
 {% hint style="info" %}
-This is sometimes known as _blank shift_ but I personally prefer the term _colour shift_ - it's a little more accurate as it adjusts the timing of all the colour changes, not just when the laser is turned off.
+This is sometimes known as _blank shift_ but I personally prefer the term _scanner sync_ - it's a little more accurate as it adjusts the timing of all the colour changes vs the scanner movement.
 {% endhint %}
 
 <div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser "tails" - Colour shift not properly set</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>No laser "tails"! Colour shift good!</p></figcaption></figure></div>
 
-If you see little "tails" on your laser output, it's likely because the colour shift needs adjusting. If the tails still appear no matter what, you are likely driving your scanners/laser drivers faster than they can handle. Try slowing the scanner speed down.
+If you see little "tails" on your laser output, it's likely because the scanner sync needs adjusting. If the tails still appear no matter what, you are likely driving your scanners/laser drivers faster than they can handle. Try slowing the scanner speed down.
 
 #### Scanner presets
 
