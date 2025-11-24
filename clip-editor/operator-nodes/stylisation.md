@@ -1,4 +1,4 @@
-# 🟦 Stylisation nodes
+# 🟩 Stylisation nodes
 
 ## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  Randomise
 

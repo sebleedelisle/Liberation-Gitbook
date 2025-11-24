@@ -1,2 +1,2 @@
-# 🟦 MIDI control
+# 🟩 MIDI control
 

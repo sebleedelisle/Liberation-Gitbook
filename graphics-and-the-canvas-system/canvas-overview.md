@@ -1,4 +1,4 @@
-# 🟦 Canvas overview
+# 🟩 Canvas overview
 
 The Liberation Canvas system is relatively simple, but it can be confusing at first. Here's a conceptual overview to get you started.
 

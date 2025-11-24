@@ -1,4 +1,4 @@
-# 🟦 Canvas target areas
+# 🟩 Canvas target areas
 
 We know how get parts of the canvas into zones within each laser, but to get content in the canvas in the first place you'll need the (confusingly but accurately named) _Canvas target areas._&#x20;
 

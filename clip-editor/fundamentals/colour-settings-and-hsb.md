@@ -1,4 +1,4 @@
-# 🟦 Colour settings and HSB
+# 🟩 Colour settings and HSB
 
 Colour within Liberation is defined as HSB rather than RGB. This may be unfamiliar to you but I find it to be a much more intuitive system once you get used to it.&#x20;
 

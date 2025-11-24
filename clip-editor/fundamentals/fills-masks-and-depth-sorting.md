@@ -1,4 +1,4 @@
-# 🟦 Fills, masks and depth sorting
+# 🟩 Fills, masks and depth sorting
 
 ### Strokes, fills and masks
 

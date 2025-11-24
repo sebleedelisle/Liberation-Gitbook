@@ -1,4 +1,4 @@
-# 🟦 Colour calibration
+# 🟩 Colour calibration
 
 Colour calibration ensures your projector’s red, green and blue lasers output light in a smooth and predictable way at all brightness levels. Different projectors can have non-linear brightness curves, meaning that 50% red may look far brighter or dimmer than half the intensity of 100% red. Calibration corrects this so colours mix cleanly, gradients look smooth, and whites are balanced.
 

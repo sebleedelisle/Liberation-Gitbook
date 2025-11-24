@@ -1,4 +1,4 @@
-# 🟦 Canvas zones
+# 🟩 Canvas zones
 
 A canvas zone can be seen in the canvas view as a pink outline rectangle. It is used to select a rectangular area within the canvas and send its content to one or more lasers.&#x20;
 

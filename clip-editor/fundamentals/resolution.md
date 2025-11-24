@@ -1,4 +1,4 @@
-# 🟦 Resolution
+# 🟩 Resolution
 
 Most _Creators_ have a _resolution_ option. This is an advanced setting that determines how many subdivisions the shapes have, and can affect how jagged the shapes are when subsequently stretched and manipulated by modifiers.&#x20;
 

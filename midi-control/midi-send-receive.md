@@ -1,4 +1,4 @@
-# 🟦 MIDI Send/Receive
+# 🟩 MIDI Send/Receive
 
 The MIDI Send/Receive system is separate from the APC40 controls, and is a way to get MIDI data in and out of Liberation. Functions like starting and stopping clips, adjusting global settings, effects and clip parameters all have an associated MIDI command.&#x20;
 
