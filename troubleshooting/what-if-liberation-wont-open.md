@@ -1,4 +1,4 @@
-# 🟦 What if Liberation won't open?
+# ✅ What if Liberation won't open?
 
 It’s rare, but sometimes Liberation may fail to launch or crash right after opening. This almost always happens because one of the local configuration files has become corrupted - usually after a system crash or something unexpected on your computer.
 

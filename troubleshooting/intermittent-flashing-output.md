@@ -1,4 +1,4 @@
-# 🟦 Intermittent / flashing output
+# ✅ Intermittent / flashing output
 
 Open the _Laser Overview_ panel and look at the connection light next to the laser you are having trouble with.&#x20;
 

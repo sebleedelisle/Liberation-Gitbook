@@ -1,4 +1,4 @@
-# ◼️ Global transformations
+# 🟩 Global transformations
 
 In addition to clip transformations (shift x/y, scale x/y) there are Global Transformations that apply to every clip that you run. Open the _Global Transformations_ panel to see them. (This panel is usually in a tab alongside _Clip Settings_).&#x20;
 
