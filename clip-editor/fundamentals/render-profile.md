@@ -1,4 +1,4 @@
-# 🟦 Render profile
+# 🟩 Render profile
 
 There is a _Render Profile_ setting in every _Creator_ node, and this determines how the shapes are drawn (or _rendered)_ with the lasers. &#x20;
 

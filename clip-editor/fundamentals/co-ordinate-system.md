@@ -1,4 +1,4 @@
-# 🟦 Co-ordinate system
+# 🟩 Co-ordinate system
 
 Clip content uses an x/y co-ordinate system where the origin (0,0) is at the centre of the screen.&#x20;
 

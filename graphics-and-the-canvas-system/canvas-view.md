@@ -1,4 +1,4 @@
-# 🟦 Canvas view
+# 🟩 Canvas view
 
 Select the _CANVAS_ view by clicking on the _CANVAS_ button in the top tool bar.
 

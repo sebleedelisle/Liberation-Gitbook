@@ -1,4 +1,4 @@
-# 🟦 Creators
+# 🟩 Creators
 
 ### <img src="../.gitbook/assets/Creator Point.png" alt="" data-size="line"> Point Creator
 

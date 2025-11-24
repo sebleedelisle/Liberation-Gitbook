@@ -1,2 +1,2 @@
-# 🟦 Fundamentals
+# 🟩 Fundamentals
 

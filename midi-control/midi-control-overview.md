@@ -1,4 +1,4 @@
-# 🟦 MIDI control overview
+# 🟩 MIDI control overview
 
 There are several ways that Liberation uses MIDI:&#x20;
 

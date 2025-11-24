@@ -1,4 +1,4 @@
-# 🟦 Live control with the APC40
+# 🟩 Live control with the APC40
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 

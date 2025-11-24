@@ -18,7 +18,7 @@ I've used a key to give you an idea of how far along each section is :
 
 🟧 = section partially complete
 
-🟦 = section complete, just needs screen shots / images
+🟩 = section complete, just needs screen shots / images
 
 ⬛️ = empty placeholder
 

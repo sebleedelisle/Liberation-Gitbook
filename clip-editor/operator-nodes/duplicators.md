@@ -1,4 +1,4 @@
-# 🟦 Duplicators
+# 🟩 Duplicators
 
 ## <img src="../../.gitbook/assets/image (4).png" alt="" data-size="line">  Mirror
 
