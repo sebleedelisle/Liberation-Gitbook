@@ -1,5 +1,6 @@
 # Table of contents
 
+* [✅ Welcome to the Liberation user guide](introduction.md)
 * [✅ Important! Read this first](README.md)
 * [✅ Installation / licensing](installation/README.md)
   * [✅ Install for Mac](installation/install-for-mac.md)
