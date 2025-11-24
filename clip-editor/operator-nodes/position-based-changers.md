@@ -3,13 +3,13 @@
 This family of nodes modifies content according to position. By default, the effect is applied along a horizontal axis (left to right), but you can rotate this axis to any angle. Each node also includes a _radial_ mode, where the effect is driven by the angle of each point relative to the centre.
 
 * **Colour Changer by Position** – shifts colours across the chosen axis or around the radial angle.\
-  &#xNAN;_&#x45;xample: Create a rainbow gradient sweeping across a line, or use radial mode on a circle to produce a colour wheel effect._
+  \&#xNAN;_Example: Create a rainbow gradient sweeping across a line, or use radial mode on a circle to produce a colour wheel effect._
 * **Wave Shift by Position** – applies a sine wave distortion, offsetting the content vertically (or perpendicular to the chosen axis).\
-  &#xNAN;_&#x45;xample: Make a line ripple like water, or use radial mode to make a circle pulse outward from the centre._
+  \&#xNAN;_Example: Make a line ripple like water, or use radial mode to make a circle pulse outward from the centre._
 * **Noise Shift by Position** – applies a simplex noise distortion, offsetting the content vertically (or perpendicular to the chosen axis).\
-  &#xNAN;_&#x45;xample: see Wave Shift example, but with a more organic and random character, perfect for adding natural variation._
+  \&#xNAN;_Example: see Wave Shift example, but with a more organic and random character, perfect for adding natural variation._
 
-## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  Colour change by position
+## <img src="broken-reference" alt="" data-size="line">  Colour change by position
 
 This node applies colour changes across your content based on position. By default, the axis is horizontal (0°), but you can rotate it or switch into radial mode.
 
@@ -49,18 +49,15 @@ These sliders define the colour range applied across the chosen axis (or radial 
 * **end saturation** – saturation at the end.
 * **start brightness** – brightness at the beginning.
 * **end brightness** – brightness at the end.
-
-
-
 * **blend** – mixes the colour change with the original colours. At 100%, the effect fully replaces the original colours.
 
 **Example 1: Sliding Rainbow Gradient**
 
-Starting with default settings :&#x20;
+Starting with default settings :
 
 1. Leave the node in **Linear** mode (0° angle = horizontal).
 2. Leave **wavelength** at 100% (spans the full width, and should be the default).
-3. Leave the start and end values as default.&#x20;
+3. Leave the start and end values as default.
 4. Enable **repeat**.
 5. Add a **Sawtooth Oscillator** to the **offset** setting that goes from 0% to 100%.
 
@@ -68,7 +65,7 @@ Starting with default settings :&#x20;
 
 **Example 2: Black–White–Black Gradient (Pingpong)**
 
-Starting with default settings :&#x20;
+Starting with default settings :
 
 1. Leave the node in **Linear** mode (0° angle = horizontal).
 2. Leave **wavelength** at 100% (spans the full width, and should be the default).
@@ -82,8 +79,7 @@ Starting with default settings :&#x20;
 10. Enable **pingpong**.
 
 _Result: the gradient fades from black to white, then back to black across the width._\
-Note that if you want the content to keep its hue and saturation, turn OFF Saturation mode. \
-
+Note that if you want the content to keep its hue and saturation, turn OFF Saturation mode. \\
 
 ***
 
@@ -96,9 +92,7 @@ Note that if you want the content to keep its hue and saturation, turn OFF Satur
 
 _Result: a seamless colour wheel that continuously rotates around the circle._
 
-
-
-## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  Wave shift by position
+## <img src="broken-reference" alt="" data-size="line">  Wave shift by position
 
 This node applies a wave distortion across your content, shifting points perpendicular to the chosen axis (or radially from the centre).
 
@@ -113,9 +107,7 @@ This node applies a wave distortion across your content, shifting points perpend
 * **Absolute** – takes the absolute value of the wave, creating only upward displacements (folding the negative side over the positive).
 * **Angle** – rotates the axis of the wave. 0° = horizontal.
 
-
-
-## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  Noise shift by position
+## <img src="broken-reference" alt="" data-size="line">  Noise shift by position
 
 This node distorts content using a noise field (like turbulence), shifting points perpendicular to the chosen axis (or radially from the centre). Compared to _Wave Shift_, the result is more organic and random.
 
@@ -130,4 +122,3 @@ This node distorts content using a noise field (like turbulence), shifting point
 * **Absolute** – takes the absolute value of the noise, folding negative values into positives (producing only one-sided displacement).
 * **Radial** – switches from linear to radial mode, so displacement is based on angle from the centre.
 * **Radial Smooth Loop** – adjusts wavelength so it divides evenly into 100% of the circle, preventing visible seams in radial mode.
-
