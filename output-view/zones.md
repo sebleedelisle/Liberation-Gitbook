@@ -1,4 +1,4 @@
-# 🟦 Zones
+# 🟩 Zones
 
 The main type of zone you will use for most of your projects is the _Beam zone_. This is a zone designed for atmospheric beam effects through the air. The other type of zone is a _Canvas zone_ (See [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")).&#x20;
 
@@ -87,8 +87,7 @@ Right click on the zone on top, and click the padlock button to lock it. You sho
 
 
 
-\
-
+<br>
 
 {% hint style="info" %}
 Once you add a Beam zone to your output it will be available to add to a clip in the clip deck.&#x20;

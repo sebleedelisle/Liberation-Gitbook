@@ -1,2 +1,2 @@
-# 🟦 Output view / Zones
+# 🟩 Output view / Zones
 

@@ -1,4 +1,4 @@
-# 🟦 Clip groups
+# 🟩 Clip groups
 
 You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in. The APC40 clip buttons also light up in the relevant group colour.&#x20;
 

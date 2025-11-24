@@ -1,4 +1,4 @@
-# 🟦 Alt zone system
+# 🟩 Alt zone system
 
 Have you ever been in a situation where you might need to instantly move or disable a selection of zones? For example :
 

@@ -1,4 +1,4 @@
-# 🟦 Masks
+# 🟩 Masks
 
 {% hint style="danger" %}
 **SAFETY NOTICE**&#x20;

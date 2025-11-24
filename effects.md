@@ -1,4 +1,4 @@
-# 🟦 Effects
+# 🟩 Effects
 
 The effects system in Liberation is a fun and versatile way of changing the clip output in real-time. Effects are completely flexible and can be used to make everything flash on and off, spin around,  change colours, or even fly around randomly!&#x20;
 
