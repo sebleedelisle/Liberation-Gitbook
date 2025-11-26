@@ -24,7 +24,7 @@ Use the mouse wheel to zoom in and out.&#x20;
 
 ### Toolbar icons
 
-<figure><img src="../.gitbook/assets/Ouput Tool Bar Icon.png" alt="" width="269"><figcaption><p>The toolbar on the left of the <em>OUTPUT</em> view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Output Tool Bar Icon.png" alt="" width="269"><figcaption><p>The toolbar on the left of the <em>OUTPUT</em> view</p></figcaption></figure>
 
 On the left of the view you'll see the toolbar. Hover your mouse over any icon to see what it does.
 
@@ -35,6 +35,5 @@ On the left of the view you'll see the toolbar. Hover your mouse over any icon t
 * Choose the test pattern for this laser (overrides the main test pattern)
 * Toggle snapping to the grid
 * Adjust the grid size (0 smallest - 8 largest). (Note that grid sizes increase by a power of 2 so when you reduce the size of the grid all of your snapped points are still in line).
-
 
 

@@ -48,7 +48,7 @@
 * [🟩 The Clip Editor](clip-editor/README.md)
   * [🟩 Introduction to the Clip Editor](clip-editor/clip-editor-intro.md)
   * [🟩 Fundamentals](clip-editor/fundamentals/README.md)
-    * [🟩 Co-ordinate system](clip-editor/fundamentals/co-ordinate-system.md)
+    * [🟩 Coordinate system](clip-editor/fundamentals/co-ordinate-system.md)
     * [🟩 Colour settings and HSB](clip-editor/fundamentals/colour-settings-and-hsb.md)
     * [🟩 Render profile](clip-editor/fundamentals/render-profile.md)
     * [🟩 Resolution](clip-editor/fundamentals/resolution.md)

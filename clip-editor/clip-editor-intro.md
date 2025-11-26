@@ -19,7 +19,7 @@ What you'll see in the clip editor :&#x20;
 * The **Creator** and **Operator node buttons** along the top&#x20;
 * The **Oscillator node buttons** along the left
 * A preview of the content in a panel on the right, and if you click on a node, you'll see a second preview that shows you the content at the node itself.
-* All of the nodes and connections for the clip that you are editing (if it's a new clip this wil be empty)
+* All of the nodes and connections for the clip that you are editing (if it's a new clip this will be empty)
 * The Clip Editor panel with various options
 
 While you're editing, you will also see what the clip looks like in the 3D visualiser in the background.&#x20;
@@ -85,4 +85,3 @@ Oscillators always have _range_ settings that control the minimum and maximum va
 * _SAVE CLIP_ - saves your edits but warns you about overwriting
 * _SAVE AS A COPY_ - saves your clip in the next available slot in the clip deck. This becomes the new position for your clip and all subsequent saves will be in this new place.&#x20;
 * _EXIT EDITOR_ - closes the clip editor. If you have unsaved changes you will get a confirmation panel.&#x20;
-

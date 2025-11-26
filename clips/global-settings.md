@@ -34,5 +34,4 @@ A rotation around the Y axis (which is a vertical line in the centre), value in 
 
 ### Auto reset
 
-When turned on, this will reset all of the Global Transformations as soon as all the currently running clips are deactivated. So you can be sure that you won't get any suprises next time you run a clip!&#x20;
-
+When turned on, this will reset all of the Global Transformations as soon as all the currently running clips are deactivated. So you can be sure that you won't get any surprises next time you run a clip!&#x20;

@@ -1,6 +1,6 @@
 # 🟧 Tempo / synchronisation
 
-Music synchronisation is a fundamental element of Liberation; once you have the tempo and beats matched up to the music, you can be sure that everything will be in sync. If you're lucky enough to get MIDI clock (or Ableton Link) then you don't have to worry about manual synching at all. But if not don't worry - you can manually match up using the _Live_ tempo feature.&#x20;
+Music synchronisation is a fundamental element of Liberation; once you have the tempo and beats matched up to the music, you can be sure that everything will be in sync. If you're lucky enough to get MIDI clock (or Ableton Link) then you don't have to worry about manual syncing at all. But if not don't worry - you can manually match up using the _Live_ tempo feature.&#x20;
 
 If you have experience with music or lighting software then this process will be familiar to you. If not, it's worth spending some time familiarising yourself with the system and practicing at home before you get to a live show.&#x20;
 

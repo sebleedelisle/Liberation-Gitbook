@@ -18,7 +18,7 @@
 14. Zone Page Left/Right
 15. Alt button (allows for clip selection)
 16. Shift button (allows for multi select and other options)
-17. Tempo Multplier Enable/Disable
+17. Tempo Multiplier Enable/Disable
 18. Tempo Multiplier Fader (0% - 200%)
 19. Play / Pause&#x20;
 20. Toggle Record Timeline
@@ -28,7 +28,6 @@
 24. Nudge tempo + and -
 25. Tempo Scroll
 26. Foot Pedal, Tap Tempo
-
 
 
 

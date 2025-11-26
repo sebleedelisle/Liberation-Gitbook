@@ -74,7 +74,7 @@ Starting with default settings :&#x20;
 2. Leave **wavelength** at 100% (spans the full width, and should be the default).
 3. Turn **repeat** off.
 4. Set **start brightness** to 0 (black).
-5. Set e**nd brightness** to 100 (white).
+5. Set **end brightness** to 100 (white).
 6. Set **start saturation** and **end saturation** to 0 (converts to greyscale).
 7. **hue mode** OFF
 8. **saturation mode** FIXED
@@ -130,4 +130,3 @@ This node distorts content using a noise field (like turbulence), shifting point
 * **Absolute** – takes the absolute value of the noise, folding negative values into positives (producing only one-sided displacement).
 * **Radial** – switches from linear to radial mode, so displacement is based on angle from the centre.
 * **Radial Smooth Loop** – adjusts wavelength so it divides evenly into 100% of the circle, preventing visible seams in radial mode.
-

@@ -75,7 +75,7 @@ Once an SVG is loaded, the content is converted and saved within the clip, so yo
 
 Creates an animation from a sequence of SVG files.&#x20;
 
-* **Import SVG Sequence** - choose which folder that has all the SVG files in. Note that they are loaded in alpha-numeric order.&#x20;
+* **Import SVG Sequence** - choose which folder that has all the SVG files in. Note that they are loaded in alphanumeric order.&#x20;
 
 {% hint style="info" %}
 Once the SVG sequence is loaded, the content is converted and saved within the clip, so you don't need to maintain a reference to the files, unless you later want to change the mask settings.&#x20;
