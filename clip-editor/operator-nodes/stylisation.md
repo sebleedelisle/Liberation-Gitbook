@@ -1,6 +1,6 @@
 # 🟩 Stylisation nodes
 
-## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  Randomise
+## <img src="broken-reference" alt="" data-size="line">  Randomise
 
 Creates scattered copies of the incoming elements using a coherent noise field. In other words, it copies and moves your shapes and dots around in a controlled, “noisy” way. Instead of everything sitting neatly in one place, you get multiple versions that shift and spread out, like particles moving in a flow.
 
@@ -12,14 +12,14 @@ Creates scattered copies of the incoming elements using a coherent noise field. 
 * **amount** – overall strength of the effect (0–100%). Scales both the displacement and the rotation from Face direction.
 
 {% hint style="info" %}
-The randomise node is at the heart of the Randomise effect!&#x20;
+The randomise node is at the heart of the Randomise effect!
 {% endhint %}
 
-## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  Trails
+## <img src="broken-reference" alt="" data-size="line">  Trails
 
 Creates echoes of your content, leaving fading or scaling copies behind the original as it moves.
 
-* **change render profile for trail** – if on, all trail copies use the selected **render profile**. _See_ [render-profile.md](../fundamentals/render-profile.md "mention").&#x20;
+* **change render profile for trail** – if on, all trail copies use the selected **render profile**. _See_ [render-profile.md](../fundamentals/render-profile.md "mention").
 * **render profile** – the profile to use for trail copies when the switch above is on. Commonly used when the main content is set to **DETAIL** but the echoes are rendered as **FAST**, which gives you clear detail on the main shapes while rendering the trails more efficiently.
 * **delay** – sets the spacing between trail copies in musical time, measured in **1/64-note steps**.\
   For reference:
@@ -31,9 +31,9 @@ Creates echoes of your content, leaving fading or scaling copies behind the orig
 * **trail size** – how many trail copies to draw behind the live content.
 * **freeze trails** – turns smoothly flowing trails into a sequence of frozen snapshots. Useful for creating staccato, beat-synced trail effects.
 * **brightness start / brightness end** – applies brightness across the trail from the freshest copy (**start**) to the oldest copy (**end**). Typically set **brightness start** at 100% and **brightness end** to 0% and the echoes will fade out.
-* **scale start / scale end** – applies scaling across the trail from the freshest copy (start) to the oldest copy (end). For trails that shrink to nothing set **scale start** to 100% and **scale end** to 0%.&#x20;
+* **scale start / scale end** – applies scaling across the trail from the freshest copy (start) to the oldest copy (end). For trails that shrink to nothing set **scale start** to 100% and **scale end** to 0%.
 
-## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  Shimmer
+## <img src="broken-reference" alt="" data-size="line">  Shimmer
 
 Adds a twinkling brightness variation to your content, ranging from gentle sparkle to intense strobing.
 
@@ -47,14 +47,12 @@ Adds a twinkling brightness variation to your content, ranging from gentle spark
 {% hint style="info" %}
 Turning on **threshold** is one of those great hidden features that can really bring your particles or content to life. Instead of fading, points are rapidly switched on and off based on their brightness. Because fewer points are being drawn at any given time, the result is brighter output and smoother animation.
 
-But bear in mind that if your content is already at 100% brightness, it won't do anything!&#x20;
+But bear in mind that if your content is already at 100% brightness, it won't do anything!
 {% endhint %}
 
 * **use whole shape** – applies one shimmer value uniformly to the entire shape. When off, the node subdivides shapes so different parts can twinkle independently for a speckled look.
 
-
-
-## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">  Particles
+## <img src="broken-reference" alt="" data-size="line">  Particles
 
 This is an experimental effect that spawns and animates particles based on your content. Any point-based elements going in are treated as emitter positions. Because particle paths are pre-calculated, if your input content changes you may need to refresh/recalculate to update the particles (just change any of the settings)
 
@@ -93,7 +91,7 @@ By adjusting these three values, you can point particles in any direction.
 
 * **life duration** – how long particles exist (measured in 1/64th note units). With shorter values particles vanish rapidly, while with longer values they remain visible for an extended time.
 * **life variation** – adds randomness to particle lifetime so they don’t all vanish at once.
-* **start delay / start delay variation** – delays when each particle becomes visible (in 1/64-note steps). The particle is already spawned and moving during this period, but its brightness is held at 0, so it stays invisible until the delay elapses. It's useful if you want delayed firework "sparkles" to appear.&#x20;
+* **start delay / start delay variation** – delays when each particle becomes visible (in 1/64-note steps). The particle is already spawned and moving during this period, but its brightness is held at 0, so it stays invisible until the delay elapses. It's useful if you want delayed firework "sparkles" to appear.
 
 **Colour & brightness**
 
