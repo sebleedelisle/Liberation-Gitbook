@@ -10,4 +10,12 @@ Before you start using lasers publicly, you must get safety training. In the UK 
 
 PLASA have a free downloadable laser safety guide which has been generally accepted as industry best practice: [https://www.plasa.org/guidance-for-display-lasers/](https://www.plasa.org/guidance-for-display-lasers/)
 
+### Also adhere to these safety precautions:
+
+- Keep beams out of audience eyes: aim above 3m in audience areas; use attenuators/beam blocks while positioning; never aim at people or animals.
+- Always use interlocks, E-stop, and keyswitches—never bypass or tape them down.
+- Liberation does not enforce MPE limits or scan-fail detection; manage power, add external safety systems, and follow local regulations
+- First power-on checklist: start with test patterns at lowest output, keep shutters closed until ready, bring up one projector at a time, confirm zones/masks before adding more. [Setting up your lasers](setting-up/setting-up-lasers.md).
+- Confirm controller/DAC firmware and drivers in advance; avoid updating day-of-show unless you’ve tested that exact version.
+
 ##
