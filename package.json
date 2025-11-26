@@ -6,6 +6,8 @@
     "honkit": "^4.0.8"
   },
   "scripts": {
-    "build": "honkit build"
+    "build": "honkit build",
+    "check:links": "python3 scripts/check_links.py",
+    "check:spelling": "python3 -m codespell -q 3 -S node_modules,_book || PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 -S node_modules,_book"
   }
 }

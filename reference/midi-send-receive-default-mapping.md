@@ -10,7 +10,7 @@ Note that clip control with this system is absolute and the clip positions do no
 
 Midi channel 1, note 1 is clip 0,0, note 2 is clip 0,1 note 3 is clip 0,2 moving down in rows and along in columns. Once it gets to 128 it moves to the next channel and starts again. So you have a total of 128 x 14 = 1792 clips that are accessible via MIDI.
 
-MIDI note for clip co-ordinates :&#x20;
+MIDI note for clip coordinates :&#x20;
 
 <table><thead><tr><th></th><th>x : 0</th><th width="124">x : 1</th><th>x : 2</th><th>x : 3</th><th>x : 4</th></tr></thead><tbody><tr><td><strong>y : 0</strong></td><td>Note : 1</td><td>Note : 6</td><td>Note : 11</td><td>Note : 16</td><td>Note : 20 </td></tr><tr><td><strong>y : 1</strong></td><td>Note : 2</td><td>Note : 7</td><td>Note : 12</td><td>Note : 17</td><td>...etc</td></tr><tr><td><strong>y : 2</strong></td><td>Note : 3</td><td>Note : 8</td><td>Note : 13</td><td>Note : 18</td><td></td></tr><tr><td><strong>y : 3</strong></td><td>Note : 4</td><td>Note : 9</td><td>Note : 14</td><td>Note : 19</td><td></td></tr><tr><td><strong>y : 4</strong></td><td>Note : 5</td><td>Note : 10</td><td>Note : 15</td><td>Note : 20</td><td></td></tr></tbody></table>
 

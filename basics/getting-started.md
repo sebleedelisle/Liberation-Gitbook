@@ -234,7 +234,7 @@ Note that these are the default effects but they can be edited to do almost what
 When you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip. Whenever you toggle zone buttons or adjust the clip settings, these are applied to the _currently selected clip._
 
 {% hint style="info" %}
-To select a clip without triggering it, press the ALT key before pressing the clip button. This is a good way to adjust its zones and other settings withouth running it.
+To select a clip without triggering it, press the ALT key before pressing the clip button. This is a good way to adjust its zones and other settings without running it.
 {% endhint %}
 
 ### Clip settings panel

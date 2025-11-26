@@ -6,7 +6,7 @@ This is an incredibly useful and time saving feature for quickly copying zones a
 
 Make sure you have selected the laser you want to copy settings _from._&#x20;
 
-<figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Ouput.png" alt="" width="326"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Output.png" alt="" width="326"><figcaption></figcaption></figure>
 
 Toggle on all the other lasers you want to copy settings _to_. (Use _ALL_ and _NONE_ to make this quicker if you have a lot of lasers)
 
@@ -20,4 +20,3 @@ Select which settings you want to copy :&#x20;
 * **Copy advanced settings -** includes point rate, smooth home position, target frame rate and all the other advanced settings.&#x20;
 
 When you've made your selection click the _COPY SETTINGS_ button to complete the process.&#x20;
-

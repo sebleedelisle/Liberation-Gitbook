@@ -28,9 +28,8 @@ Adjust the size and position using the sliders. Double click a slider to type a 
 
 * **FIT TO AREA** - shrinks down content to completely fit inside the canvas target area, while maintaining aspect ratio. (This is the default setting)
 * **FILL AREA** - stretches content to fill the canvas target area, while maintaining aspect ratio. Content may be cut off the edges.&#x20;
-* **STRETCH TO FIT** - stretches content to fill the entire canvas target area, ingoring aspect ratio.
+* **STRETCH TO FIT** - stretches content to fill the entire canvas target area, ignoring aspect ratio.
 
 ###
-
 
 

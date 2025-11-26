@@ -2,7 +2,7 @@
 
 Open the _Laser output_ settings panel with the menu _View -> Laser Output Settings._
 
-<figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Ouput.png" alt="" width="326"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Output.png" alt="" width="326"><figcaption></figcaption></figure>
 
 This will show you the settings for the currently selected laser which you can change :
 
