@@ -108,6 +108,7 @@
   * [✅ Missing resources error on startup](troubleshooting/missing-resources.md)
   * [✅ What if Liberation won't open?](troubleshooting/what-if-liberation-wont-open.md)
   * [✅ Where to find the working folder](troubleshooting/where-to-find-the-working-folder.md)
+  * [✅ Unable to deauthorise on Windows?](troubleshooting/unable-to-deauthorise-on-windows.md)
 * [✅ Reference](reference/README.md)
   * [✅ Keyboard shortcuts](reference/keyboard-shortcuts.md)
   * [✅ APC40 reference](reference/apc40-reference.md)
