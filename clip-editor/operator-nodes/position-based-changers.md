@@ -9,7 +9,7 @@ This family of nodes modifies content according to position. By default, the eff
 * **Noise Shift by Position** – applies a simplex noise distortion, offsetting the content vertically (or perpendicular to the chosen axis).\
   \&#xNAN;_Example: see Wave Shift example, but with a more organic and random character, perfect for adding natural variation._
 
-## <img src="broken-reference" alt="" data-size="line">  Colour change by position
+## &#x20;Colour change by position
 
 This node applies colour changes across your content based on position. By default, the axis is horizontal (0°), but you can rotate it or switch into radial mode.
 
@@ -92,7 +92,7 @@ Note that if you want the content to keep its hue and saturation, turn OFF Satur
 
 _Result: a seamless colour wheel that continuously rotates around the circle._
 
-## <img src="broken-reference" alt="" data-size="line">  Wave shift by position
+## &#x20;Wave shift by position
 
 This node applies a wave distortion across your content, shifting points perpendicular to the chosen axis (or radially from the centre).
 
@@ -107,7 +107,7 @@ This node applies a wave distortion across your content, shifting points perpend
 * **Absolute** – takes the absolute value of the wave, creating only upward displacements (folding the negative side over the positive).
 * **Angle** – rotates the axis of the wave. 0° = horizontal.
 
-## <img src="broken-reference" alt="" data-size="line">  Noise shift by position
+## &#x20;Noise shift by position
 
 This node distorts content using a noise field (like turbulence), shifting points perpendicular to the chosen axis (or radially from the centre). Compared to _Wave Shift_, the result is more organic and random.
 
