@@ -1,6 +1,6 @@
 # 🟩 Stylisation nodes
 
-## <img src="broken-reference" alt="" data-size="line">  Randomise
+## &#x20;Randomise
 
 Creates scattered copies of the incoming elements using a coherent noise field. In other words, it copies and moves your shapes and dots around in a controlled, “noisy” way. Instead of everything sitting neatly in one place, you get multiple versions that shift and spread out, like particles moving in a flow.
 
@@ -15,7 +15,7 @@ Creates scattered copies of the incoming elements using a coherent noise field. 
 The randomise node is at the heart of the Randomise effect!
 {% endhint %}
 
-## <img src="broken-reference" alt="" data-size="line">  Trails
+## &#x20;Trails
 
 Creates echoes of your content, leaving fading or scaling copies behind the original as it moves.
 
@@ -33,7 +33,7 @@ Creates echoes of your content, leaving fading or scaling copies behind the orig
 * **brightness start / brightness end** – applies brightness across the trail from the freshest copy (**start**) to the oldest copy (**end**). Typically set **brightness start** at 100% and **brightness end** to 0% and the echoes will fade out.
 * **scale start / scale end** – applies scaling across the trail from the freshest copy (start) to the oldest copy (end). For trails that shrink to nothing set **scale start** to 100% and **scale end** to 0%.
 
-## <img src="broken-reference" alt="" data-size="line">  Shimmer
+## &#x20;Shimmer
 
 Adds a twinkling brightness variation to your content, ranging from gentle sparkle to intense strobing.
 
@@ -52,7 +52,7 @@ But bear in mind that if your content is already at 100% brightness, it won't do
 
 * **use whole shape** – applies one shimmer value uniformly to the entire shape. When off, the node subdivides shapes so different parts can twinkle independently for a speckled look.
 
-## <img src="broken-reference" alt="" data-size="line">  Particles
+## &#x20;Particles
 
 This is an experimental effect that spawns and animates particles based on your content. Any point-based elements going in are treated as emitter positions. Because particle paths are pre-calculated, if your input content changes you may need to refresh/recalculate to update the particles (just change any of the settings)
 

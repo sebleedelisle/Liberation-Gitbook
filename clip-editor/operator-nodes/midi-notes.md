@@ -1,6 +1,6 @@
 # 🟩 MIDI notes
 
-## <img src="broken-reference" alt="" data-size="line">  MIDI notes
+## &#x20;MIDI notes
 
 Creates “laser harp” style effects where incoming MIDI notes trigger beams or shapes across a range. The node uses whatever content you pass into it as the _source_ for each note - feed it a dot, and you’ll get a row of dots. Feed it a shape like a circle, and you’ll get a row of circles, and more complex shapes will be replicated just the same.
 

@@ -1,6 +1,6 @@
 # 🟩 Path Modifiers
 
-## <img src="broken-reference" alt="" data-size="line">  Dotter
+## &#x20;Dotter
 
 This node replaces lines and shapes content with evenly spaced dots (existing dots are unchanged).
 
@@ -12,7 +12,7 @@ This node replaces lines and shapes content with evenly spaced dots (existing do
 * **Length Auto Divisible by Spacing** – automatically adjusts spacing so the path length divides evenly.
 * **Fade Out Ends** – gradually reduces the brightness of dots toward the start and end of the path. Useful when animating **Offset** with a sawtooth Oscillator Node, so dots fade smoothly in/out as they move to the end of the shape.
 
-## <img src="broken-reference" alt="" data-size="line">  Trimmer
+## &#x20;Trimmer
 
 This node trims the visible length of lines and shapes, letting you reveal, hide, or animate them over time.
 
