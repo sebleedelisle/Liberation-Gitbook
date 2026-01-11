@@ -11,10 +11,10 @@ Liberation is powerful and complex modern software; it's built on fundamentals o
 Liberation is flexible enough that you can set up lasers and visualise them without any actual lasers connected at all. And then when you're ready to go you can seamlessly assign each output to a laser controller.
 
 {% hint style="info" %}
-You can set up and visualise as many lasers as you want within Liberation, the tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design and practice a show with 100 lasers on the lowest tiers. You only need to upgrade when it comes to actually running it on real lasers.
+You can set up and visualise as many lasers as you want within Liberation, the license tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design laser shows with 100 lasers even with a free license. You only need to upgrade when it comes to actually running it on real lasers.
 {% endhint %}
 
-The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up.
+The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up. (See [setting-up-your-project.md](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
 Important : Before you arm any lasers make sure you understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") chapter.
@@ -113,6 +113,8 @@ The Canvas system is used mostly for graphics and architectural mapping. You can
 Although it is possible to control Liberation using the mouse and keyboard, it's way better to use an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works).
 
 See also : [apc40-reference.md](../reference/apc40-reference.md "mention")
+
+We have now also implemented support for APC Mini Mark 2 and the MIDI Fighter Twister, and more are in development. But the APC40 Mark 2 is the best option for most cases.&#x20;
 
 ### Clips and effects
 
@@ -249,6 +251,8 @@ Find the _Global Settings_ panel to adjust global output settings that affect al
 
 <figure><img src="../.gitbook/assets/qs-global-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
+Turn on AUTO RESET to automatically reset all the _Global settings_, whenever no clips are playing.&#x20;
+
 ### Timing
 
 Almost all laser displays have some kind of musical soundtrack, so the timing system in Liberation is based around a tempo in beats per minute. In the _Tempo Panel_ you can see a representation of the time; each square represents a beat and you can see them flash in time.
@@ -273,19 +277,19 @@ Press the ALT key while you're dragging to make a copy.
 
 ALT click a clip to select it without starting it.
 
-ALT + SHIFT click a clip to multi-select.
+ALT + SHIFT click a clip to multi-select, or click and drag outside of a clip to "lasso" select.&#x20;
 
 Click and drag will drag ALL selected clips.
 
-To delete a clip either drag it off the clip deck or right click and press the DELETE button.
+To delete one or more clips either drag them off the clip deck (a trash can icon will appear) or use the DELETE button from the clip right click menu.
 
 ### Laser overview panel
 
 <figure><img src="../.gitbook/assets/qs-laser-overview.png" alt="" width="375"><figcaption></figcaption></figure>
 
-The _Laser overview panel_ gives you a quick look into the status of your currently running lasers. The green square on the right shows you that the laser controller is happy. If it goes orange, you have occasional drop-outs, and if it's red it has disconnected.
+The _Laser overview panel_ gives you a quick look into the status of your currently running lasers. The green square on the right shows you that the laser controller is happy. If it goes orange, you have occasional drop-outs, and if it's red it has disconnected. If it's grey, then it's not connected to a controller at all.&#x20;
 
-The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (ie more flickery).
+The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (ie more flickery). Anything below about 25fps will start to look a bit flickery.&#x20;
 
 ### Connecting to lasers - Controller Assignment panel
 
@@ -314,14 +318,22 @@ This panel shows you the settings for the _currently selected laser_ (represente
 
 ### Scanner settings
 
-Clips are converted to a point stream in real time as they are sent to the laser and there are many adjustments for how that point stream is calculated. This may be confusing for you if you are used to older laser software that deals with pre-calculated point streams, but this is a much more flexible and efficient system.
+Display lasers work by moving a single laser beam extremely quickly and turning it on and off to draw shapes in the air. What you see as lines, shapes, and images is actually the beam tracing paths faster than your eyes can follow.
+
+A point stream is the data that tells the laser where to move next and when the beam should be on or off. In Liberation, clips are converted into this point stream in real time as they are sent to the lasers.
+
+Liberation gives you detailed control over how this point stream is generated, allowing you to balance smoothness, brightness, and performance for each laser.
+
+{% hint style="info" %}
+If you are used to older laser software that relies on pre-calculated point streams, this approach may feel different at first. However, real-time point generation allows the same content to be optimised differently for each laser. This makes it easier to work with multiple lasers that have different scanner speeds or quality, without duplicating or rebuilding content. It also keeps clip files very small, which is why the entire default Liberation clip deck is only a few megabytes rather than gigabytes.
+{% endhint %}
 
 The basic scanner settings are:
 
 * **Speed** is the scanner speed, ie how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
-* **Colour shift** (sometimes known as _blank shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of synch with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in synch with each other.
+* **Scanner sync** (sometimes known as _blank shift, previously Colour Shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in synch with each other. See [laser-settings](../setting-up/laser-settings/ "mention")
 
-The other advanced scanner settings that are covered in the [advanced](../advanced/ "mention")chapter.
+The other advanced scanner settings are covered in the [advanced](../advanced/ "mention")chapter.
 
 ### Zoning
 

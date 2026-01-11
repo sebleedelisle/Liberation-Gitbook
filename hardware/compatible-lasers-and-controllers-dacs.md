@@ -9,7 +9,8 @@ If your laser has a standard ILDA input then you can use it with Liberation (alo
 You do not need an external controller or an ILDA input if :
 
 * Your laser has Ether Dream installed inside, or;
-* You have a LaserCube from Wicked Lasers
+* You have a LaserCube from Wicked Lasers, or;
+* You have an X-Laser fixture with Mercury built in, or;&#x20;
 * You have a Laser Animation Sollinger laser with an AVB controller built-in (currently in testing on MacOS only)
 
 {% hint style="info" %}
@@ -35,6 +36,8 @@ If you are a home user, or run small shows with 4 or fewer lasers that are close
 Network DACs like the **Ether Dream** are the **best option for professional** laserists who are happy to set up a network and want to run a large number of lasers; all of the large Liberation shows so far have been run on Ether Dreams.
 
 If you have a **LaserCube** then you don't need a separate laser controller at all - Liberation is compatible with all LaserCubes. The earlier models connect with a USB cable, and the newer models connect over a network.
+
+If you are a professional looking for the easiest option, then consider X-Laser units with Mercury built in or Laser Animation Sollinger lasers that use AVB.&#x20;
 
 ### Compatible laser controllers
 
@@ -68,4 +71,4 @@ For optimal performance, keep USB DACs near your computer and connect them to th
 
 If you're using Ether Dreams you can still keep them all together and connect to the lasers using long ILDA cables, or you can rig them close to the lasers, and use longer network cables.
 
-The ideal set up is to have Ether Dreams installed directly inside your lasers (Rob at Stanwax Laser will do this for you in the UK)
+The ideal set up is to have Ether Dreams (or other controllers) installed directly inside your lasers (Rob at Stanwax Laser will do this for you in the UK)
