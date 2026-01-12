@@ -1,6 +1,6 @@
 # Table of contents
 
-* [✅ Welcome to Liberation - the next generation of laser show software](README.md)
+* [✅ Welcome to Liberation](README.md)
 * [✅ Important! Read this first](important.md)
 * [✅ Installation / licensing](installation/README.md)
   * [✅ Install for Mac](installation/install-for-mac.md)

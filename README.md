@@ -1,4 +1,10 @@
-# ✅ Welcome to Liberation - the next generation of laser show software
+---
+description: The next generation of laser show software
+---
+
+# ✅ Welcome to Liberation
+
+
 
 <figure><img src=".gitbook/assets/LiberationTease.jpeg" alt=""><figcaption></figcaption></figure>
 
