@@ -1,23 +1,23 @@
-# 🟩 Live control with the APC40
+# 🟩 使用 APC40 进行现场控制
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### **APC40 controller**&#x20;
 
-This is the default hardware controller for Liberation; it's highly recommended and it's fair to say that Liberation has been designed around this hardware from the very beginning. As soon as you plug in the APC40, Liberation immediately connects to it automatically.&#x20;
+这是 Liberation 默认的硬件控制器；强烈推荐，可以说 Liberation 从一开始就是围绕它设计的。只要插入 APC40，Liberation 会自动连接。&#x20;
 
 {% hint style="warning" %}
-_Oh no! My USB plug got pulled half way through a show!_&#x20;
+_糟了！演出中 USB 被拔掉了！_&#x20;
 
-Don't panic - just plug it back in, Liberation will automatically reconnect, no drama.&#x20;
+别慌——再插回去，Liberation 会自动重新连接，一切正常。&#x20;
 {% endhint %}
 
-### APC40 Mark 1 or Mark 2?&#x20;
+### APC40 Mark 1 还是 Mark 2？&#x20;
 
-In short, Mark 2 is recommended as it has full colour buttons that more closely match the Liberation clip deck interface. The Mark 1 version will work in a pinch, but it will be a little more confusing as the layout is slightly different from what is on screen, and the buttons can only turn red, orange or green, so will not match the clip colours.&#x20;
+简而言之，推荐 Mark 2，因为它有全彩按钮，更接近 Liberation 的 Clip Deck 界面。Mark 1 也能用，但布局与屏幕略有差异，而且按钮只能显示红/橙/绿三色，无法匹配 Clip 颜色，会更难用。&#x20;
 
 {% hint style="info" %}
-The original APC40 Mark 1 came out in 2009(!) and some people still prefer it for its metal body construction and its robust console-like form factor. The Updated Mark 2 came out in 2014, and although it was discontinued in 2024, it's going back into production in 2025 due to demand from visuals artists (Resolume etc) and laserists.
+原版 APC40 Mark 1 于 2009 年发布（没错！），至今仍有人偏爱它的金属机身和控制台般的结实手感。更新后的 Mark 2 于 2014 年发布，虽然在 2024 年停产，但因视觉艺术家（Resolume 等）和激光师的需求，2025 年将重新投产。
 {% endhint %}
 
-For the full list of controls available on the APC40 see [apc40-reference.md](../reference/apc40-reference.md "mention")
+APC40 的完整控制列表见 [apc40-reference.md](../reference/apc40-reference.md "mention")。

@@ -1,7 +1,7 @@
-# 🟩 Introduction
+# 🟩 介绍
 
-These days lasers are more commonly employed to create beams and atmospheric effects in the air, rather than projecting visuals onto surfaces. I would even go so far to say that projecting graphics with lasers is often seen as un-cool, due largely to the proliferation of poor quality clip art animations and questionable content so often provided as presets.&#x20;
+如今激光更多用于空气中的光束与氛围效果，而不是将图形投射到表面上。我甚至会说，激光图形常被视为“不够酷”，很大程度上是因为大量低质量的剪贴画动画与可疑的预设内容被反复使用。&#x20;
 
-But the thing is; laser graphics can be incredibly versatile, giving you a vast array of creative opportunities.  Whether a simple sparkly corporate logo (yes we've all been there) to a fully mapped architectural façade, we've got you covered.&#x20;
+但事实是：激光图形非常灵活，能提供丰富的创作空间。从简单的闪亮企业 Logo（是的，我们都做过）到完整的建筑立面映射，Liberation 都能胜任。&#x20;
 
-By using mapped graphics and custom animation you open yourself up to a whole new world of creative opportunities to add to your toolkit.&#x20;
+使用映射图形和自定义动画，你可以把更多创意手段加入工具箱。&#x20;

@@ -1,10 +1,10 @@
-# 🟧 The interface
+# 🟧 界面
 
-### Timeline Interface
+### Timeline 界面
 
-If you’ve used music or video software before, the concept of a timeline will feel familiar: it’s a horizontal grid where time moves from left to right, and you can place clips along it to define what plays when.
+如果你用过音乐或视频软件，Timeline 的概念会很熟悉：这是一个水平网格，时间从左到右流动，你可以在上面放置 Clips 来定义何时播放。
 
-If you're new to timelines, think of it like a musical score or a stage cue sheet - each block is a piece of that content triggered at a specific moment. It’s a structured way to design how your laser show unfolds over time.
+如果你没用过 Timeline，可以把它理解为乐谱或舞台提示表——每个块代表某段内容在特定时刻被触发。这是一种结构化的方式来设计激光演出随时间展开的过程。
 
 ***
 
@@ -12,35 +12,35 @@ If you're new to timelines, think of it like a musical score or a stage cue shee
 
 **Enable Button**
 
-Before you can interact with the timeline, it must be enabled. Click the **ENABLE** toggle (orange when active) to activate the timeline for editing and playback.
+在与 Timeline 交互前必须先启用它。点击 **ENABLE** 开关（启用时为橙色）以激活 Timeline 的编辑与播放。
 
 **Timeline Name**
 
-The current timeline’s name is shown next to the enable button (default is **“Timeline”**). Click it to rename - useful when managing multiple songs or segments.
+当前 Timeline 的名称显示在 Enable 按钮旁（默认是 **“Timeline”**）。点击可重命名，便于管理多首歌曲或多个段落。
 
 **Timeline List (Three Bars Icon)**
 
-Click this to open the timeline list. From here, you can switch between timelines or add/remove them from your show.
+点击打开 Timeline 列表。在此可切换 Timeline 或新增/移除。
 
 **Lock Button**
 
-Protect your timeline from accidental changes. When enabled, editing is disabled until unlocked.
+保护 Timeline，防止误操作。启用后编辑会被锁定，直到解锁。
 
 **Add Clips Button**
 
-Adds all currently selected clips from your clip deck into the timeline at the current playhead position. Great for building up a timeline from a live performance or a prepared selection.
+将当前选中的 Clips 从 Clip Deck 添加到 Timeline 的播放头位置。适合从现场表演或预选片段快速搭建 Timeline。
 
 **Insert Audio File**
 
-Opens a file dialog to choose an audio file to insert at the start of the timeline. Supported formats: WAV, MP3, OGG, FLAC. Useful for syncing your timeline to music.
+打开文件对话框，在 Timeline 起始位置插入音频文件。支持格式：WAV、MP3、OGG、FLAC。适合让 Timeline 与音乐对齐。
 
 **Default Clip Duration**
 
-Sets the default length (in bars) for new clips added to the timeline using drag or the + button. Speeds up your workflow when building sequences.
+设置通过拖拽或 + 按钮添加到 Timeline 的新 Clip 默认长度（以小节计）。可加快编排速度。
 
 **Volume**
 
-Adjusts the playback volume of all audio clips on the timeline. Does not affect laser output.
+调节 Timeline 上所有音频 Clips 的播放音量，不影响激光输出。
 
 ***
 
@@ -48,16 +48,16 @@ Adjusts the playback volume of all audio clips on the timeline. Does not affect 
 
 **Transport Controls**
 
-Standard transport buttons to navigate&#x20;
+用于导航的标准控制按钮&#x20;
 
-* Forward / back (moves one bar at a time)
+* Forward / back（每次移动 1 小节）
 * Stop / Rewind to start&#x20;
 * Play / pause
 * Record
 
 **Bar / Beat / Step Display**
 
-Shows the current timeline position in bars:beats:frames format. Updates in real time as playback progresses.
+以 bars:beats:frames 格式显示当前 Timeline 位置。播放时实时更新。
 
 ***
 
@@ -65,19 +65,19 @@ Shows the current timeline position in bars:beats:frames format. Updates in real
 
 **Tempo Map Button**
 
-Enables tempo mapping. When on, a new row appears at the top of the timeline where you can right-click to add tempo changes. Ideal for tracks that change tempo or include tempo ramps.
+启用 tempo mapping。开启后会在 Timeline 顶部出现一行，可右键添加 tempo 变化。适合节奏变化或渐变速度的音乐。
 
 **Timecode Panel**
 
-Opens the timecode settings panel. Here you can configure Liberation to sync to LTC, MIDI Clock, or Ableton Link for perfect alignment with external systems.
+打开 timecode 设置面板。在此可配置 Liberation 与 LTC、MIDI Clock 或 Ableton Link 同步，以便与外部系统精确对齐。
 
 **SNAP Toggle**
 
-When enabled, clips and edits snap to the grid. This makes precise alignment easy. Disable for free placement.
+开启后，Clips 与编辑操作会吸附到网格，方便精确对齐。关闭则可自由摆放。
 
 **Snap Size**
 
-Sets the grid resolution - bars, beats, or steps. Useful when doing fine-tuned edits or fast realignments.
+设置网格分辨率——小节、拍或步。适合精细编辑或快速对齐。
 
 ***
 
@@ -85,16 +85,16 @@ Sets the grid resolution - bars, beats, or steps. Useful when doing fine-tuned e
 
 **Auto Scroll (Skater Icon)**
 
-When enabled, the timeline will automatically scroll to follow the playhead during playback.
+启用后，播放时 Timeline 会自动跟随播放头滚动。
 
 **Scrub Mode (Light Bulb Icon)**
 
-When enabled, lasers are live while you move the playhead manually. Helpful for previewing specific frames, but use with care, especially with powerful projectors.
+启用后，手动移动播放头时激光保持实时输出。适合预览特定帧，但请谨慎使用，尤其是高功率投影器。
 
 **Loop Playback**
 
-Loops the timeline from the beginning to the set timeline length. Good for working on specific sections or running background visuals.
+按 Timeline 设定长度循环播放，适合打磨特定段落或运行背景视觉。
 
 **Timeline Length**
 
-Sets the total length of the timeline in bars. Drag to adjust, or double-click to enter a number directly.
+设置 Timeline 总长度（以小节计）。可拖拽调整，或双击直接输入数值。

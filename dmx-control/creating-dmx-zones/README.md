@@ -1,2 +1,1 @@
-# ◼️ Creating DMX zones
-
+# ◼️ 创建 DMX zones

@@ -1,46 +1,46 @@
-# ✅ Intermittent / flashing output
+# ✅ 间歇 / 闪烁输出
 
-Open the _Laser Overview_ panel and look at the connection light next to the laser you are having trouble with.&#x20;
+打开 _Laser Overview_ 面板，查看出现问题的激光旁边的连接指示灯。&#x20;
 
-**If the connection light IS NOT constantly green :**\
-Then you have either a network or a CPU performance issue :
+**如果连接灯不是一直为绿色：**\
+说明可能是网络或 CPU 性能问题：
 
-**Network performance -**
+**网络性能 -**
 
-* Make sure you are not connected to a wifi network. You should always use a wired connection. Make sure your operating system is prioritising the wired network over wifi or disable wifi if you’re not sure
-* check your network adaptor - and try a different USB-C adaptor
-* Windows users - check / upgrade your network drivers, run the appropriate network testing tools
-* check all wiring, switches, routers. Methodically swap out and test every cable.
-* restart all of your network gear, including switches, routers and every Ether Dream.
+* 确保未连接 Wi-Fi。应始终使用有线连接。请确保系统优先使用有线网络；若不确定就关闭 Wi-Fi。
+* 检查网络适配器，尝试更换 USB-C 适配器。
+* Windows 用户：检查/升级网卡驱动，运行相应的网络测试工具。
+* 检查所有线缆、交换机、路由器。逐一更换并测试每根线。
+* 重启所有网络设备，包括交换机、路由器以及所有 Ether Dream。
 
-**CPU performance**
+**CPU 性能**
 
-if you have an old or low spec machine it may be too slow to run Liberation. Check the frame rate indicator in the right hand side of the icon bar.
+如果电脑较旧或配置较低，可能无法流畅运行 Liberation。查看图标栏右侧的帧率指示器。
 
-There are two numbers there - the actual frame rate and the target frame rate. If the actual frame rate drops below 30, you may have issues.
+那里有两个数字——实际帧率与目标帧率。如果实际帧率低于 30，可能会出现问题。
 
-The following actions may help :
+可尝试以下操作：
 
-* remove unused lasers, ie if you only have one laser connected, delete the others.
-* Switch to the output or canvas view
-* Close all other programs, check network firewall settings, close anti-virus, dropbox, etc.
-* Reduce your display resolution, and make the Liberation window smaller
+* 移除未使用的激光，例如只连接一台激光时就删除其他激光。
+* 切换到 Output 或 Canvas 视图。
+* 关闭其他程序，检查网络防火墙设置，关闭杀毒软件、Dropbox 等。
+* 降低显示分辨率，并缩小 Liberation 窗口。
 
-If none of this works then consider upgrading your computer.
+如果仍无改善，建议升级电脑。
 
 ***
 
-**If the connection light IS constantly green :**
+**如果连接灯一直为绿色：**
 
-Then it’s likely to be a hardware issue. This is out of scope of this manual but you can try the following actions :
+则更可能是硬件问题。本手册不涵盖硬件排障，但可尝试：
 
-* Disable the SFS (Scan Fail Safety) system. Some lasers have a function that disables output if the scanners stop moving ie producing a strong static beam. They can be a little overcautious / unreliable.
+* 禁用 SFS（Scan Fail Safety）系统。有些激光在扫描器停止移动（产生强静态光束）时会关闭输出，但可能过于敏感/不稳定。
 
 {% hint style="danger" %}
-Use extreme caution when disabling the scan fail safety system. Strong static beams can cause burning! Make sure you have a stop button and a fire extinguisher on hand.&#x20;
+禁用 scan fail safety 系统时要极度谨慎。强静态光束可能导致灼烧！确保有停止按钮和灭火器。&#x20;
 {% endhint %}
 
-* Check interlock cables and systems
-* Check all cabling between the controller and the laser.
+* 检查联锁线缆与系统
+* 检查控制器与激光之间的所有线缆。
 
-An [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) can be an invaluable tool for troubleshooting laser issues.
+[ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) 对排查激光问题非常有帮助。

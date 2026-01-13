@@ -1,5 +1,5 @@
-# ✅ Live control
+# ✅ 现场控制
 
-### Clips have stopped animating
+### Clips 停止动画
 
-You have probably stopped the tempo system or changed the tempo source. Make sure you have the _Live_ tempo source selected and hit the play button. (If your tempo source is _Timeline_ you can start and stop using the space bar).&#x20;
+你可能停止了 tempo 系统或切换了 tempo source。确保选择 _Live_ tempo source 并按下播放按钮。（如果 tempo source 是 _Timeline_，可用空格键开始/停止）。&#x20;

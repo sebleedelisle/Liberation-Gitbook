@@ -1,7 +1,7 @@
-# ✅ Missing resources error on startup
+# ✅ 启动时缺少资源错误
 
-If you get a "missing resources" error when starting up it means that critical files that Liberation needs to run are missing. This could happen on Windows if you accidentally delete or move files in your installation folder. Or on Mac if your installation has somehow got corrupted.&#x20;
+如果启动时出现 “missing resources” 错误，说明 Liberation 运行所需的关键文件缺失。这可能发生在 Windows 上（你误删或移动了安装目录文件），或在 Mac 上（安装损坏）。&#x20;
 
-### How to fix
+### 如何修复
 
-The best way to fix this issue is to re-install Liberation.&#x20;
+最好的解决方式是重新安装 Liberation。&#x20;

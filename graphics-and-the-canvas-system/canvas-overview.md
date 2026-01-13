@@ -1,57 +1,57 @@
-# 🟩 Canvas overview
+# 🟩 Canvas 概览
 
-The Liberation Canvas system is relatively simple, but it can be confusing at first. Here's a conceptual overview to get you started.
+Liberation 的 Canvas 系统相对简单，但一开始可能有些绕。以下是一个概念性的入门概览。
 
 {% hint style="info" %}
-#### Wait, do I need the canvas system?
+#### 等等，我需要 Canvas 系统吗？
 
-Maybe not! If you're just projecting a single graphic onto a single laser, you can easily do that with a beam zone (although by default beam zone content is flipped horizontally, so you'll need to X flip the clip).
+可能不需要！如果你只是把一个图形投射到一台激光上，用 beam zone 就可以（不过 beam zone 内容默认水平翻转，所以需要对 Clip 做 X flip）。
 
-But if you want to spread graphical content among more than one laser, or break it up into different sections to map onto architecture, then the canvas system has got you covered!
+但如果你想把图形内容分配到多台激光，或拆分成不同区域映射到建筑上，那么 Canvas 系统就派上用场了！
 {% endhint %}
 
 ### Canvas
 
-First of all, there's the canvas itself. This is what you see in the _CANVAS_ view and represents a large, well, canvas, and you can draw content anywhere within this space.
+首先是 Canvas 本体。它在 _CANVAS_ 视图中呈现，是一张大的画布，你可以在这个空间里任意绘制内容。
 
 ### Canvas target areas
 
-These are shown as blue outline rectangles in the canvas view, and these are areas to which you can send content. You send a clip's content to a canvas target area, in the same way that you would send a clip to a beam zone. You'll see the canvas target area buttons to the right of the beam zone buttons in the clip deck.
+在 Canvas 视图中，Canvas target areas 以蓝色轮廓矩形显示，表示可以接收内容的区域。你可以把 Clip 的内容发送到某个 Canvas target area，就像发送到 beam zone 一样。Clip Deck 中的 Canvas target area 按钮位于 beam zone 按钮的右侧。
 
 {% hint style="info" %}
-If you can't see the canvas buttons in the clip deck, try scrolling the beam zone buttons - use SHIFT and the left and right cursor keys. You should see a button for every canvas target area labelled _CANVAS 1, CANVAS 2_ etc.
+如果在 Clip Deck 中看不到 Canvas 按钮，尝试滚动 beam zone 按钮——使用 SHIFT + 左右方向键。你会看到 _CANVAS 1、CANVAS 2_ 等按钮。
 {% endhint %}
 
 ### Canvas zones
 
-Canvas zones are areas within the canvas that you choose to send to a laser. They are represented as pink outline rectangles in the canvas view. You can right click on each zone and select the lasers you want it to be assigned to. If you now switch to the _OUTPUT_ view for that laser you'll see a new zone has appeared.
+Canvas zones 是 Canvas 内的区域，用来发送到激光。它们在 Canvas 视图中以粉色轮廓矩形显示。你可以右键每个 zone，并选择要分配的激光。切换到该激光的 _OUTPUT_ 视图后，会看到新 zone 出现。
 
 {% hint style="danger" %}
-WARNING - if the laser is armed you could suddenly start projecting content in a default canvas zone. It's best to disarm the laser before assigning canvas zones to it.
+警告 - 如果激光已 arm，默认 canvas zone 可能会突然开始投射内容。最好在将 canvas zones 分配给激光之前先 disarm。
 {% endhint %}
 
 {% hint style="info" %}
-You can also assign a canvas zone to a laser by clicking the _add canvas zone_ button in the _OUTPUT_ view. See [zones.md](../output-view/zones.md "mention").
+你也可以在 _OUTPUT_ 视图中点击 _add canvas zone_ 按钮，将 canvas zone 分配给激光。见 [zones.md](../output-view/zones.md "mention")。
 {% endhint %}
 
 ### Guide images
 
-You can add a guide image into the canvas, and use this as a template for your graphics. It's advisable to adjust the colour tint on the guide image (right click menu) and darken it down to more easily see your content over it.
+你可以在 Canvas 中添加 guide image 作为图形模板。建议在 guide image 上调整颜色 tint（右键菜单）并降低亮度，便于看清你的内容。
 
 {% hint style="info" %}
-For architectural mapping I've found it helpful to produce an 'unwrapped' visual of the building that represents all surfaces on the building as a flat undistorted image. The perspective correction for the various sections can be done using the canvas zone in the _OUTPUT_ view.
+进行建筑映射时，我通常先制作一张建筑的“展开图”，把所有表面作为平面图像表示。各部分的透视校正可在 _OUTPUT_ 视图中的 canvas zone 里完成。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/SaltwellHallFlat2.jpg" alt=""><figcaption><p>A 'flattened' guide image for Saltwell Hall in Gateshead UK</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/SaltwellHallFlat2.jpg" alt=""><figcaption><p>英国 Gateshead 的 Saltwell Hall “展开式” guide image</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/SaltwellHallZones.png" alt=""><figcaption><p>The canvas zones in an embryonic version of Liberation (c2017!) Note the pink rectangles choose which part of the canvas to show, and then the output views below show which part of each laser those zones go to.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/SaltwellHallZones.png" alt=""><figcaption><p>早期版本 Liberation（约 2017）的 canvas zones。粉色矩形选择 Canvas 的哪部分显示，下面的输出视图展示这些 zones 对应到各台激光的位置。</p></figcaption></figure>
 
-### Canvas in the 3D visualiser
+### 3D visualiser 中的 Canvas
 
-It would probably be fiddly (to say the least) to recreate your complicated multi laser projection system in the 3D visualiser! So instead, you have the option to place your canvas within the 3D space. Activate the _Show canvas_ checkbox in the _3D visualiser settings_ panel. (Any guide images you have in the canvas will also show up in the visualiser.)
+要在 3D visualiser 中重建复杂的多激光投影系统可能非常繁琐。所以，你可以选择把 Canvas 放入 3D 空间：在 _3D visualiser settings_ 面板中勾选 _Show canvas_。（Canvas 中的 guide images 也会显示在 visualiser 中。）
 
 {% hint style="info" %}
-Note that the visualiser will still show the canvas projections as atmospheric effects coming from the lasers. You can either just move them out the view or, if you're fancy, you can line them up with the canvas!
+注意：visualiser 仍会把 Canvas 投影显示为从激光发出的空气光束效果。你可以把它们移出视图，或者如果你愿意，也可以把它们与 Canvas 对齐。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-17 at 10.36.49.png" alt=""><figcaption><p>It can be extremely satisfying when you line up the beams from the laser with the canvas image in the 3D visualiser!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-17 at 10.36.49.png" alt=""><figcaption><p>当你把激光光束与 3D visualiser 中的 Canvas 图像对齐时，会非常有成就感！</p></figcaption></figure>

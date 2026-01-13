@@ -1,124 +1,124 @@
-# ✅ What if Liberation won't open?
+# ✅ Liberation 无法打开怎么办？
 
-It’s rare, but sometimes Liberation may fail to launch or crash right after opening. This almost always happens because one of the local configuration files has become corrupted - usually after a system crash or something unexpected on your computer.
+这种情况不常见，但有时 Liberation 可能无法启动，或打开后立即崩溃。几乎都是因为本地配置文件损坏——通常发生在系统崩溃或电脑出现意外之后。
 
-Fortunately, it’s easy to fix by resetting your local settings. Here’s how to do that on macOS and Windows.
+好消息是，重置本地设置即可轻松解决。下面是 macOS 和 Windows 的处理方法。
 
-> **Important**
+> **重要**
 >
-> * Close Liberation before doing anything.
-> * These steps only affect local settings, logs and caches. Your licence and account are safe.
+> * 操作前请先关闭 Liberation。
+> * 这些步骤只影响本地设置、日志和缓存。你的许可证和账号是安全的。
 
 ***
 
-#### Where to find the working folder
+#### 工作文件夹在哪里
 
-Each version of Liberation has its own working folder. For example, if you’re running version 1.0.0, the folder name will be 1.0.0.
+每个版本的 Liberation 都有独立的工作文件夹。例如你运行的是 1.0.0，则文件夹名为 1.0.0。
 
 * **macOS**: `~/Library/Application Support/Liberation/1.0.0`
 * **Windows**: `AppData\Local\Liberation\1.0.0`
 
-**How to open the folder quickly**
+**快速打开文件夹的方法**
 
 **macOS**
 
-1. In Finder, press **Shift+Cmd+G**.
-2.  Paste this path and press **Enter**:
+1. 在 Finder 中按 **Shift+Cmd+G**。
+2. 粘贴以下路径并按 **Enter**：
 
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Open the folder that matches your version number, for example `1.0.0`.
+3. 打开与你版本号对应的文件夹，例如 `1.0.0`。
 
 **Windows**
 
-1.  Press **Win+R**, paste this and press **Enter**:
+1. 按 **Win+R**，粘贴以下内容并按 **Enter**：
 
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Open the folder that matches your version number, for example `1.0.0`.
+2. 打开与你版本号对应的文件夹，例如 `1.0.0`。
 
-> **Tip for Windows**: If you browse via File Explorer instead, enable hidden items: **View > Show > Hidden items**.
+> **Windows 小提示**：如果你通过文件资源管理器浏览，请启用隐藏项目：**View > Show > Hidden items**。
 
 ***
 
-#### Step 1 – Safely reset your settings file
+#### Step 1 – 安全重置 settings 文件
 
-Inside your version folder, open:
+在你的版本文件夹中打开：
 
 ```
 data/liberation/
 ```
 
-Inside the liberation folder you should find a file called se`ttings.json`. Delete this file.&#x20;
+在 liberation 文件夹中应该能看到 `settings.json`。删除该文件。&#x20;
 
-* **macOS example**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Windows example**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **macOS 示例**：`~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
+* **Windows 示例**：`%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
 
-Now try launching Liberation. If it opens, you are done.
-
-***
-
-#### Step 2 – Check for a problematic clip
-
-If Liberation crashed while you were editing a clip, it’s possible that something about that clip file is causing the problem.
-
-In the same folder as your settings.json file you should find a file called clipEdit`.json`
-
-Back up this file somewhere safe (for example, your Desktop), then delete it from the Liberation working folder.
-
-Try launching Liberation again. If it now opens normally, please email the backed-up file to [**info@liberationlaser.com**](mailto:info@liberationlaser.com) so we can investigate what caused the issue.
+现在尝试启动 Liberation。如果能正常打开，完成。
 
 ***
 
-#### Step 3 - Back up, then delete the whole working folder
+#### Step 2 – 检查是否是某个 Clip 导致问题
 
-If Step 1 and Step 2 did not help:
+如果 Liberation 在编辑某个 Clip 时崩溃，可能是该 Clip 文件导致的问题。
 
-1. **Back up** the entire version folder:
-   * macOS: Right click the `1.0.0` folder and choose **Compress** to make a zip, or copy it somewhere safe like Desktop.
-   * Windows: Right click the `1.0.0` folder and choose **Send to > Compressed (zipped) folder**, or copy it somewhere safe like Desktop.
-2. After backing up, **delete** the original `1.0.0` folder from the Liberation working location.
-3. Launch Liberation again. It will recreate a fresh working folder.
+在 settings.json 同一目录下，应该有一个名为 `clipEdit.json` 的文件。
 
-If Liberation now opens, proceed to Step 4.
+请先将该文件备份到安全位置（如桌面），然后从 Liberation 工作文件夹中删除它。
+
+再尝试启动 Liberation。如果现在能正常打开，请将备份文件发送到 [**info@liberationlaser.com**](mailto:info@liberationlaser.com)，以便我们分析问题原因。
 
 ***
 
-#### Step 4 - Send us the backup
+#### Step 3 - 备份后删除整个工作文件夹
 
-This helps us identify what caused the issue so we can prevent it in future versions.
+如果 Step 1 和 Step 2 都无效：
 
-Zip up your **backup** from Step 3 if you did not already, then email it so we can diagnose the cause.
+1. **备份**整个版本文件夹：
+   * macOS：右键 `1.0.0` 文件夹并选择 **Compress** 生成 zip，或复制到桌面等安全位置。
+   * Windows：右键 `1.0.0` 文件夹并选择 **Send to > Compressed (zipped) folder**，或复制到桌面等安全位置。
+2. 备份完成后，**删除** Liberation 工作目录中的原 `1.0.0` 文件夹。
+3. 重新启动 Liberation。它会自动创建新的工作文件夹。
 
-* **To**: [info@liberationlaser.com](mailto:info@liberationlaser.com)
-* **Subject**: Liberation start-up fix - working folder backup
-* **Body**: Please include:
-  * Operating system and version (e.g. macOS 14.6 or Windows 11 23H2)
-  * Liberation version (e.g. 1.0.0)
-  * Which step fixed it, if any (Step 1, Step 2 or Step 3)
-  * A brief description of what happened before the issue started
-* **Attachment**: the zipped backup of your `1.0.0` working folder.
-
-> If the zip is too large for email, upload it to a cloud drive and share a link.
+如果 Liberation 现在能打开，请继续 Step 4。
 
 ***
 
-#### Still not launching after Step 3?
+#### Step 4 - 将备份发送给我们
 
-If Liberation still won’t open after deleting the working folder:
+这有助于我们定位问题并在后续版本中避免它。
 
-* Reboot your computer and try again.
-* Temporarily disable antivirus or security tools that might block new folders, then try launching.
-* Reinstall the latest Liberation build over the top of your existing install.
-* If none of the above works, contact support at [**info@liberationlaser.com**](mailto:info@liberationlaser.com) with details and any crash logs from the `logs` subfolder if present.
+如果还没压缩，请先将 Step 3 的**备份**打包为 zip，然后发送邮件给我们：
+
+* **收件人**： [info@liberationlaser.com](mailto:info@liberationlaser.com)
+* **主题**：Liberation start-up fix - working folder backup
+* **邮件正文**：请包含以下信息
+  * 操作系统与版本（例如 macOS 14.6 或 Windows 11 23H2）
+  * Liberation 版本（例如 1.0.0）
+  * 哪一步解决了问题（Step 1、Step 2 或 Step 3）
+  * 问题发生前的简要描述
+* **附件**：`1.0.0` 工作文件夹的压缩备份
+
+> 如果 zip 过大，请上传到云盘并分享链接。
+
+***
+
+#### Step 3 之后仍无法启动？
+
+如果删除工作文件夹后 Liberation 仍无法打开：
+
+* 重启电脑再试。
+* 临时关闭可能阻止新文件夹创建的杀毒或安全工具，然后再试。
+* 重新安装最新版本的 Liberation（覆盖安装）。
+* 如果仍不行，请联系 [**info@liberationlaser.com**](mailto:info@liberationlaser.com)，并附上 `logs` 子文件夹中的崩溃日志（如果存在）。
 
 ***
 
 #### Summary
 
-1. Delete `data/liberation/settings.json` in your versioned working folder.
-2. If you were editing a clip, back up then delete `data/liberation/clipEdit.json`.
-3. If it still doesn’t open, back up then delete the whole `1.0.0` (or your version) folder.
-4. If Step 3 fixes it (or if it doesn't), zip the backup and send it to [**info@liberationlaser.com**](mailto:info@liberationlaser.com) with your OS, Liberation version.
+1. 删除版本工作文件夹中的 `data/liberation/settings.json`。
+2. 如果你正在编辑 Clip，备份并删除 `data/liberation/clipEdit.json`。
+3. 如果仍无法打开，备份并删除整个 `1.0.0`（或你的版本号）文件夹。
+4. 如果 Step 3 修复了问题（或没有修复），将备份打包后发送到 [**info@liberationlaser.com**](mailto:info@liberationlaser.com)，并注明系统与版本信息。

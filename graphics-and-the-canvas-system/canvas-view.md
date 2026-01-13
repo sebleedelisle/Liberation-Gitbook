@@ -1,24 +1,24 @@
-# 🟩 Canvas view
+# 🟩 Canvas 视图
 
-Select the _CANVAS_ view by clicking on the _CANVAS_ button in the top tool bar.
+点击顶部工具栏中的 _CANVAS_ 按钮进入 _CANVAS_ 视图。
 
-The Canvas view is a representation of the full canvas - this is the area you have to play with and add content to. In this view you can choose which parts of the canvas go to which zones, and add guide images.
+Canvas 视图展示完整的 Canvas——你可以在这个区域中添加内容并进行布局。在此视图中，你可以选择 Canvas 的哪些部分送到哪些 zones，并添加 guide images。
 
-### Navigating around the Canvas view
+### 在 Canvas 视图中移动
 
-&#x20;Click and drag on any empty space (or on locked zones) to move the view around.
+在空白处（或已锁定的 zones 上）点击并拖动即可移动视图。
 
-### Zoom in and out of the Canvas view
+### 缩放 Canvas 视图
 
-Use the mouse wheel to zoom in and out.
+使用鼠标滚轮放大或缩小。
 
-### Toolbar icons
+### 工具栏图标
 
-On the left of the view you'll see the toolbar. Hover your mouse over any icon to see what it does.
+在视图左侧可以看到工具栏。将鼠标悬停在任意图标上即可查看其功能。
 
-* Open the _Canvas settings_ panel
-* Add a new canvas zone
-* Add a new guide image
-* Toggle snapping to the grid
-* Adjust the grid size (0 smallest - 8 largest). (Note that grid sizes increase by a power of 2 so when you reduce the size of the grid all of your snapped points are still in line).
-* Show / hide the grid
+* 打开 _Canvas settings_ 面板
+* 添加新的 canvas zone
+* 添加新的 guide image
+* 切换是否对齐网格
+* 调整网格大小（0 最小 - 8 最大）。（注意网格大小按 2 的幂级增加，因此缩小网格时已对齐的点仍会对齐）。
+* 显示 / 隐藏网格

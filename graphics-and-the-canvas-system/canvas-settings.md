@@ -1,24 +1,19 @@
-# 🟩 Canvas settings
+# 🟩 Canvas 设置
 
-Click on the _Canvas settings_ button at the top of the left hand tool bar to open the _Canvas settings_ panel. &#x20;
+点击左侧工具栏顶部的 _Canvas settings_ 按钮打开 _Canvas settings_ 面板。&#x20;
 
-### Width and Height
+### Width 与 Height
 
-Use these draggable sliders to change the overall width and height of the entire canvas. These dimensions can be notionally considered as pixel size, but it's all relative.&#x20;
+使用这些可拖动滑块调整整个 Canvas 的宽度和高度。这些尺寸可理解为像素大小，但本质是相对的。&#x20;
 
-Double click on a slider to type a value.&#x20;
+双击滑块可输入数值。&#x20;
 
 {% hint style="info" %}
-Here's some extra nerdy detail: the laser moves relative to the canvas resolution, not relative to the zone size. This is because a large zone in the canvas is likely to be projected onto a larger area in real life.&#x20;
+补充一点技术细节：激光的移动是相对于 Canvas 分辨率计算的，而不是相对于 Zone 大小。这是因为 Canvas 中较大的 zone 往往会投射到现实中更大的区域。&#x20;
 
-It's a minor detail that likely won't matter to you, but it should help to even out the performance and visibility across your canvas zones.&#x20;
+这只是个小细节，可能对你影响不大，但它有助于让不同 Canvas zones 的性能和可见度更一致。&#x20;
 {% endhint %}
 
 ### Zone brightness&#x20;
 
-Use this to change how bright the pink zone outlines appear in the Canvas view. This can help with clarity of your content, and to stop this view getting too cluttered.&#x20;
-
-
-
-&#x20;
-
+用于调整 Canvas 视图中粉色 zone 轮廓的亮度。这样可以让内容更清晰，并避免视图过于拥挤。&#x20;

@@ -1,28 +1,27 @@
-# 🟧 Introduction
+# 🟧 介绍
 
-Liberation includes a flexible and powerful DMX system that lets you create lighting effects and control DMX-compatible lasers over Art-Net. It’s designed to make it easy to keep your lighting in sync with your laser show - no need for a separate lighting desk.
+Liberation 内置灵活强大的 DMX 系统，可通过 Art-Net 创建灯光效果并控制兼容 DMX 的激光设备。它让灯光与激光演出保持同步变得简单——无需额外灯光控台。
 
 {% hint style="info" %}
-**What is Art-Net, and how does it relate to DMX?**
+**什么是 Art-Net？它与 DMX 的关系是什么？**
 
-**DMX** is a system that’s been used for years to control lights, lasers, smoke machines and other stage effects. It sends control signals over special cables (usually with XLR connectors), and each fixture listens to a specific set of channels to know what to do.
+**DMX** 是一种多年广泛用于控制灯光、激光、烟机等舞台设备的系统。它通过专用线缆（通常是 XLR 接头）发送控制信号，每个设备监听特定的通道范围来执行动作。
 
-**Art-Net** is a newer way of sending that same DMX data over a regular computer network. Instead of using special cables, it sends everything over Ethernet, just like internet or local network traffic.
+**Art-Net** 是在标准计算机网络上发送同样 DMX 数据的新方式。它不需要专用线缆，而是通过以太网传输，就像普通的网络流量一样。
 
-In Liberation, all DMX output is sent using Art-Net. You can use it to control Art-Net-compatible devices directly, or you can plug in an **Art-Net node** – a small box that converts Art-Net back into standard DMX. This means you can still control traditional DMX lights and effects, even if they don’t support Art-Net themselves.
+在 Liberation 中，所有 DMX 输出都通过 Art-Net 发送。你可以直接控制兼容 Art-Net 的设备，也可以连接一个 **Art-Net node** ——一个将 Art-Net 转换回标准 DMX 的小盒子。这样即使设备本身不支持 Art-Net，也能通过 Liberation 控制传统 DMX 灯光与效果。
 {% endhint %}
 
-You can also use it to control all kinds of different stage equipment like smoke machines, hazers, CO₂ jets, cold spark machines and more. If it supports DMX, you can set it up as a DMX zone and trigger it straight from Liberation, right alongside your laser content.
+你还可以控制各种舞台设备，例如烟机、雾机、CO₂ 喷射、冷焰火等。只要支持 DMX，就可以设置为 DMX zone，并与激光内容并行触发。
 
-DMX fixtures are added as **DMX zones**, which appear in the zone list alongside your laser beam zones and canvas target areas. Each DMX zone uses a **DMX preset**, which tells Liberation how to map properties from your laser clips - like position, colour and brightness - to DMX channel values.
+DMX 设备以 **DMX zones** 添加，会与激光 beam zones 和 canvas target areas 一起出现在 zone 列表中。每个 DMX zone 使用一个 **DMX preset**，它告诉 Liberation 如何将激光 Clips 的属性（如位置、颜色、亮度）映射到 DMX 通道值。
 
-When you send a clip to a DMX zone, Liberation looks at the first element in the clip and converts its properties based on the preset. This makes it simple to drive lights and DMX effects directly from the same clips you're already using for lasers.
+当你将一个 Clip 发送到 DMX zone 时，Liberation 会读取 Clip 的第一个元素，并按 preset 将其属性转换为 DMX 值。这让你可以直接用同一套 Clips 来驱动灯光和 DMX 效果。
 
-#### Liberation at Glastonbury
+#### Liberation 在 Glastonbury
 
 <figure><img src="../.gitbook/assets/ArcadiaSpider2023.jpg" alt=""><figcaption></figcaption></figure>
 
-The first real test of the Liberation DMX system was at Glastonbury 2023 where Reach Lasers installed a total of 90 beam sources as part of the Arcadia "spider" stage.&#x20;
+Liberation DMX 系统的首次真实测试是在 2023 年的 Glastonbury。当时 Reach Lasers 在 Arcadia “spider” 舞台安装了共 90 个光束源。&#x20;
 
-18 lasers were controlled with internal Ether Dreams, and a further 12 6-head beam bars were controlled via Art net and DMX.&#x20;
-
+其中 18 台激光由内置 Ether Dream 控制，另有 12 组 6 头 beam bars 通过 Art-Net 和 DMX 控制。&#x20;

@@ -1,17 +1,17 @@
-# ✅ Unable to deauthorise on Windows?
+# ✅ Windows 无法取消授权？
 
-#### Unable to deauthorise on Windows?
+#### Windows 无法取消授权？
 
-If you are unable to deauthorise a computer on Windows, first make sure you deauthorise the licence using the same version of Liberation that was originally authorised, before authorising it again in a different version.
+如果你在 Windows 上无法取消授权某台电脑，首先请确保使用**最初授权时同一版本**的 Liberation 进行取消授权，然后再在不同版本中重新授权。
 
-If this does not work and you are using a version earlier than 1.0, the issue is likely due to how older Windows builds of Liberation identified the computer. In those versions, the system used to generate a machine ID was less reliable, and in some cases the ID could change between restarts, even if no hardware had obviously changed.
+如果仍无效且你使用的是 1.0 之前的版本，那么问题很可能与旧版 Windows 版本识别电脑的方式有关。在那些版本中，生成机器 ID 的系统不够可靠，有时即使硬件未变，重启后 ID 也可能改变。
 
-If you are stuck trying to deauthorise and have not switched versions, please contact support@liberationlaser.com and we can deauthorise the machine manually for you.
+如果你并未切换版本但仍无法取消授权，请联系 support@liberationlaser.com，我们可以为你手动取消授权。
 
-**Why this happens**
+**为什么会这样**
 
-In early Windows builds of Liberation (pre-1.0), we used the recommended Windows system method for generating a machine ID. Unfortunately, this proved to be inconsistent in some situations. Because of this, the licensing system was rewritten for version 1.0 to use a more robust combination of methods, which now works reliably.
+在早期 Windows 版本的 Liberation（1.0 之前）中，我们使用了 Windows 推荐的方法生成机器 ID。但在某些情况下它不够稳定。因此在 1.0 版本中，授权系统被重写，改用更可靠的多种方法组合，现在可以稳定工作。
 
-As a result, the computer ID used by older versions of Liberation may differ from the one used by current versions. If the ID has already changed, deauthorisation must be handled manually by support.
+因此，旧版本使用的电脑 ID 可能与当前版本不同。一旦 ID 已改变，取消授权就必须由支持团队手动处理。
 
 ***

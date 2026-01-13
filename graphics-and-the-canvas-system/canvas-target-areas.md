@@ -1,35 +1,33 @@
 # 🟩 Canvas target areas
 
-We know how get parts of the canvas into zones within each laser, but to get content in the canvas in the first place you'll need the (confusingly but accurately named) _Canvas target areas._&#x20;
+我们已经知道如何将 Canvas 的部分内容发送到每台激光的 zones，但要让内容进入 Canvas，本身需要（名字虽有些绕但确实准确的） _Canvas target areas_。&#x20;
 
-_Canvas target areas_ are sections of the canvas that you can draw clips into, and they're represented in the _CANVAS_ view as blue outline rectangles.&#x20;
+_Canvas target areas_ 是你可以绘制 Clip 内容的 Canvas 区域，在 _CANVAS_ 视图中以蓝色轮廓矩形显示。&#x20;
 
-A lot of the time you may only need one canvas target area, and then split that up into multiple zones that are sent to different lasers.&#x20;
+很多时候你只需要一个 Canvas target area，然后把它拆分成多个 zones 发送到不同激光。&#x20;
 
-And sometimes you may want multiple canvas target areas for different parts of a building, or to take advantage of the zone delay across them. (Yes! Zone delay still works across canvas target areas!).&#x20;
+有时你也会需要多个 Canvas target areas，用于建筑的不同部分，或利用它们之间的 zone delay。（没错！Zone delay 在 Canvas target areas 之间依然有效。）&#x20;
 
-### Sending clips to canvas target areas
+### 将 Clips 发送到 Canvas target areas
 
-If you look in the clip deck, along side the beam zone buttons, you'll see the canvas target area buttons. You may need to scroll the output buttons to see them, use SHIFT left and right arrows, or the ZONE PAGE buttons on screen, or the APC40 buttons (see [apc40-reference.md](../reference/apc40-reference.md "mention"))
+在 Clip Deck 中，beam zone 按钮旁边就是 Canvas target area 按钮。你可能需要滚动输出按钮才能看到它们：使用 SHIFT + 左右方向键，或屏幕上的 ZONE PAGE 按钮，或 APC40 按钮（见 [apc40-reference.md](../reference/apc40-reference.md "mention")）。
 
-Assign clips to canvas target areas by toggling these buttons in exactly the same way as you would with the beam zone buttons.&#x20;
+像使用 beam zone 按钮一样，通过切换这些按钮将 Clips 分配给 Canvas target areas。&#x20;
 
-### Adding / editing canvas target areas
+### 添加 / 编辑 Canvas target areas
 
-In the top menu bar select _View -> Canvas Target Areas_ - you'll see all the settings for each canvas target area that you have in your project.&#x20;
+在顶部菜单选择 _View -> Canvas Target Areas_，你会看到项目中每个 Canvas target area 的所有设置。&#x20;
 
-And at the top there is the _ADD CANVAS TARGET AREA_ button. &#x20;
+顶部有 _ADD CANVAS TARGET AREA_ 按钮。&#x20;
 
-Delete a canvas target area using the red button with a minus sign.&#x20;
+点击带减号的红色按钮可删除 Canvas target area。&#x20;
 
-Adjust the size and position using the sliders. Double click a slider to type a value.&#x20;
+使用滑块调整大小和位置。双击滑块可输入数值。&#x20;
 
 ### Scale mode
 
-* **FIT TO AREA** - shrinks down content to completely fit inside the canvas target area, while maintaining aspect ratio. (This is the default setting)
-* **FILL AREA** - stretches content to fill the canvas target area, while maintaining aspect ratio. Content may be cut off the edges.&#x20;
-* **STRETCH TO FIT** - stretches content to fill the entire canvas target area, ignoring aspect ratio.
+* **FIT TO AREA** - 在保持纵横比的前提下缩小内容，使其完全适配 Canvas target area。（默认）
+* **FILL AREA** - 在保持纵横比的前提下拉伸内容以填满 Canvas target area，可能会裁切边缘。&#x20;
+* **STRETCH TO FIT** - 拉伸内容以填满 Canvas target area，忽略纵横比。
 
 ###
-
-

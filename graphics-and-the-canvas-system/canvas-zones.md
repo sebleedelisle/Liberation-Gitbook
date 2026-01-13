@@ -1,34 +1,27 @@
 # 🟩 Canvas zones
 
-A canvas zone can be seen in the canvas view as a pink outline rectangle. It is used to select a rectangular area within the canvas and send its content to one or more lasers.&#x20;
+Canvas zone 在 Canvas 视图中以粉色轮廓矩形显示。它用于在 Canvas 中选择一个矩形区域，并将内容发送到一台或多台激光。&#x20;
 
-You can click and drag the zones around with the mouse. Drag the corners to change the size and shape.&#x20;
+你可以用鼠标拖动 zones，拖拽角点可调整大小和形状。&#x20;
 
-### Add a new canvas zone
+### 添加新的 Canvas zone
 
-Click the _Add a new canvas zone_ button in the tool bar.&#x20;
+点击工具栏中的 _Add a new canvas zone_ 按钮。&#x20;
 
-### Assign the canvas zone to a laser
+### 将 Canvas zone 分配给激光
 
-Right-click on the zone and toggle the number buttons to select which laser(s) this canvas zone is assigned to.&#x20;
+右键点击该 zone，切换数字按钮以选择分配给哪台激光。&#x20;
 
 {% hint style="danger" %}
-WARNING - if the laser is armed you could suddenly start projecting content in a default canvas zone. It's best to disarm the laser before assigning canvas zones to it.&#x20;
+警告 - 如果激光已 arm，默认 Canvas zone 可能会突然开始投射内容。最好在分配 Canvas zones 前先 disarm。&#x20;
 {% endhint %}
 
-If you now go to the _OUTPUT_ view for that laser you'll see the canvas zone in there, which can now be edited exacltly like any beam zone. See [zones.md](../output-view/zones.md "mention").&#x20;
+切换到该激光的 _OUTPUT_ 视图后，会看到该 Canvas zone 出现，并且可以像 beam zone 一样编辑。见 [zones.md](../output-view/zones.md "mention")。&#x20;
 
 {% hint style="info" %}
-You can also add a canvas zone to a laser directly from the _OUTPUT_ view - click the _Add existing canvas zone_ button in the left hand toolbar.&#x20;
+你也可以直接在 _OUTPUT_ 视图中为激光添加 Canvas zone——点击左侧工具栏的 _Add existing canvas zone_ 按钮。&#x20;
 {% endhint %}
 
-### Right-click menu
+### 右键菜单
 
-Right click on the zone and you'll see options to delete this canvas zone, move it to the back and lock it.
-
-
-
-
-
-
-
+右键点击 zone，你会看到删除该 Canvas zone、将其置底、锁定等选项。

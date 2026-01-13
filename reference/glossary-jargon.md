@@ -1,2 +1,1 @@
-# ◼️ Glossary / jargon
-
+# ◼️ 术语表
