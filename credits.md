@@ -1,35 +1,35 @@
-# ✅ Credits
+# ✅ 致谢
 
-Liberation is designed and programmed by [Seb Lee-Delisle](https://app.gitbook.com/u/ylIaEEh1DCgBfWngNL7qhvoUTQV2).
+Liberation 由 [Seb Lee-Delisle](https://app.gitbook.com/u/ylIaEEh1DCgBfWngNL7qhvoUTQV2) 设计并开发。
 
-Help with the Windows version from [Dan Moore](https://www.makeitdoathing.com).&#x20;
+Windows 版由 [Dan Moore](https://www.makeitdoathing.com) 协助完成。&#x20;
 
-It uses the following open source projects :&#x20;
+项目使用了以下开源项目：&#x20;
 
 #### [openFrameworks](https://openframeworks.cc)
 
-[Full list](https://github.com/openframeworks/openFrameworks/blob/master/THANKS.md) of openFrameworks contributors
+openFrameworks 贡献者[完整列表](https://github.com/openframeworks/openFrameworks/blob/master/THANKS.md)
 
-openFrameworks uses a combination of the following [libraries](https://github.com/openframeworks/openFrameworks/blob/master/docs/libraries.md), depending on your platform:
+openFrameworks 在不同平台上会组合使用以下[库](https://github.com/openframeworks/openFrameworks/blob/master/docs/libraries.md)：
 
-[OpenGL](http://www.opengl.org/), [GLEW](http://glew.sourceforge.net/), [GLUT](http://www.opengl.org/resources/libraries/glut/), [libtess2](https://code.google.com/p/libtess2/), [cairo](http://cairographics.org/), [rtAudio](http://www.music.mcgill.ca/~gary/rtaudio/), [PortAudio](http://www.portaudio.com/), [FMOD](http://www.fmod.org/), [Kiss FFT](http://kissfft.sourceforge.net/), [FreeType](http://freetype.sourceforge.net/index2.html), [FreeImage](http://freeimage.sourceforge.net/), [Quicktime](https://developer.apple.com/standards/classic-quicktime/), [Unicap](http://unicap-imaging.org/), [GStreamer](http://gstreamer.freedesktop.org/), [videoInput](https://github.com/ofTheo/videoInput), [Poco](http://pocoproject.org/)&#x20;
+[OpenGL](http://www.opengl.org/)、[GLEW](http://glew.sourceforge.net/)、[GLUT](http://www.opengl.org/resources/libraries/glut/)、[libtess2](https://code.google.com/p/libtess2/)、[cairo](http://cairographics.org/)、[rtAudio](http://www.music.mcgill.ca/~gary/rtaudio/)、[PortAudio](http://www.portaudio.com/)、[FMOD](http://www.fmod.org/)、[Kiss FFT](http://kissfft.sourceforge.net/)、[FreeType](http://freetype.sourceforge.net/index2.html)、[FreeImage](http://freeimage.sourceforge.net/)、[Quicktime](https://developer.apple.com/standards/classic-quicktime/)、[Unicap](http://unicap-imaging.org/)、[GStreamer](http://gstreamer.freedesktop.org/)、[videoInput](https://github.com/ofTheo/videoInput)、[Poco](http://pocoproject.org/)&#x20;
 
 #### openFrameworks addons&#x20;
 
 * [ofxAbletonLink](https://github.com/comoc/ofxAbletonLink) by [Akihiro Komori](https://github.com/comoc)
 * [ofxArtnet](https://github.com/hiroyuki/ofxArtnet) by [Hiroyuki Hori](https://github.com/hiroyuki)
-* [ofxLTC](https://github.com/2bbb/ofxLTC) by [2bit](https://github.com/2bbb) (Uses [libltc](https://github.com/x42/libltc))&#x20;
-* [ofxMidi](https://github.com/danomatika/ofxMidi) by [Dan Wilcox](https://github.com/danomatika) (Uses [RTMIDI](https://github.com/thestk/rtmidi) by [Gary Scavone](https://github.com/garyscavone))
+* [ofxLTC](https://github.com/2bbb/ofxLTC) by [2bit](https://github.com/2bbb)（使用 [libltc](https://github.com/x42/libltc)）&#x20;
+* [ofxMidi](https://github.com/danomatika/ofxMidi) by [Dan Wilcox](https://github.com/danomatika)（使用 [RTMIDI](https://github.com/thestk/rtmidi) by [Gary Scavone](https://github.com/garyscavone)）
 * [ofxNative](https://github.com/kritzikratzi/ofxNative) by [Hansi Raber](https://github.com/kritzikratzi)
-* [ofxSVG](https://github.com/openframeworks/openFrameworks/tree/master/addons/ofxSvg) (uses [libsvgtiny](https://source.netsurf-browser.org/libsvgtiny.git/))
+* [ofxSVG](https://github.com/openframeworks/openFrameworks/tree/master/addons/ofxSvg)（使用 [libsvgtiny](https://source.netsurf-browser.org/libsvgtiny.git/)）
 
 #### [Dear ImGui](https://github.com/ocornut/imgui)
 
-The UI is built in part using [Dear ImGui](https://github.com/ocornut/imgui), developed by Omar Cornut and every direct or indirect [contributors](https://github.com/ocornut/imgui/graphs/contributors) to the GitHub.&#x20;
+UI 部分基于 [Dear ImGui](https://github.com/ocornut/imgui)，由 Omar Cornut 及其在 GitHub 的所有直接或间接[贡献者](https://github.com/ocornut/imgui/graphs/contributors)开发。&#x20;
 
-#### Liberation founding testers
+#### Liberation 初期测试者
 
-With heartfelt thanks to the core group of testers most of whom have been with me since the very beginning:&#x20;
+衷心感谢核心测试团队，其中大多数从一开始就参与其中：&#x20;
 
 * Abby Shum
 * Andy Stentiford
@@ -39,7 +39,6 @@ With heartfelt thanks to the core group of testers most of whom have been with m
 * Simon Edge
 * Rob Stanley
 
-#### Founding Sponsors
+#### 创始赞助方
 
-Thanks to all of the early access users and thanks to [X-Laser](https://x-laser.com) who have been sponsoring the development of Liberation since 2023. &#x20;
-
+感谢所有早期访问用户，并感谢自 2023 年以来赞助 Liberation 开发的 [X-Laser](https://x-laser.com)。&#x20;

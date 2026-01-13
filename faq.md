@@ -1,186 +1,186 @@
-# ✅ FAQ
+# ✅ 常见问题（FAQ）
 
-## Hardware
+## 硬件
 
-#### **Does Liberation run on Windows?**
+#### **Liberation 支持 Windows 吗？**
 
-Yes - Liberation fully supports **Windows 10 and 11 (64-bit)**, with the exact same features as the Mac version. Every release ships simultaneously for both platforms.
+是的——Liberation 完全支持 **Windows 10 和 11（64 位）**，功能与 Mac 版一致。每次发布都会同步支持两个平台。
 
-#### **Does Liberation run on Mac**
+#### **Liberation 支持 Mac 吗**
 
-Yes - Liberation fully supports **Mac (macOS 12 Monterey and later)**, with full feature parity to the Windows version. All updates are released together.
+是的——Liberation 完全支持 **Mac（macOS 12 Monterey 及以上）**，功能与 Windows 版一致。所有更新同步发布。
 
-#### **What is the minimum spec machine required?**
+#### **最低硬件配置是什么？**
 
-It depends how many lasers you want to control. If you're only running a few lasers, you'll be fine with a low spec machine. Any Apple Silicon Mac runs really well, and should be able to control up to 100 lasers. If you're running complex shows with high stakes then we recommend the best machine you can afford.
+这取决于你要控制的激光数量。如果只运行少量激光，较低配置即可。任何 Apple Silicon Mac 都运行良好，应该能控制多达 100 台激光。如果你要跑复杂且关键的演出，建议使用你能负担的最佳配置。
 
-#### **How many lasers can I control with Liberation?**
+#### **我可以用 Liberation 控制多少台激光？**
 
-Liberation can run many lasers on one computer, it's been tested with over 100 laser controllers so the answer depends on :
+Liberation 可以在一台电脑上控制大量激光，已测试超过 100 个激光控制器，具体取决于：
 
-* your computer CPU
-* network speed
-* your subscription type
+* 你的电脑 CPU
+* 网络速度
+* 订阅类型
 
-#### **Which MIDI controllers can I use?**
+#### **我可以使用哪些 MIDI 控制器？**
 
-Liberation has been designed and optimised around the popular APC40 Mk2 MIDI controller. It also works with the APC40 Mk1. See [live-control-with-the-apc40.md](midi-control/live-control-with-the-apc40.md "mention")
+Liberation 围绕流行的 APC40 Mk2 MIDI 控制器设计并优化，也支持 APC40 Mk1。参见 [live-control-with-the-apc40.md](midi-control/live-control-with-the-apc40.md "mention")
 
-We are slowly adding more MIDI controllers as we go and currently also support the APC Mini Mk2 and the MIDI Fighter Twister.&#x20;
+我们正在逐步增加更多 MIDI 控制器，目前也支持 APC Mini Mk2 和 MIDI Fighter Twister。&#x20;
 
-There is also the MIDI Send/Receive system that offers additional MIDI control. See [midi-send-receive.md](midi-control/midi-send-receive.md "mention")
+还可以使用 MIDI Send/Receive 系统提供更多 MIDI 控制能力。参见 [midi-send-receive.md](midi-control/midi-send-receive.md "mention")
 
-See [midi-control](midi-control/ "mention")for more information.
+更多信息请见 [midi-control](midi-control/ "mention")。
 
-#### **Can I use it with any MIDI controller?**&#x20;
+#### **我可以使用任意 MIDI 控制器吗？**&#x20;
 
-We are currently working on a configurable MIDI system that will allow this in future.  In the meantime, some users have had success using a MIDI interpreter that can convert any MIDI messages for the MIDI Send/Receive system, but this is a fiddly and advanced process. Search the [forum](https://forum.liberationlaser.com) for advice on this set up but realistically the APC40 is the best option.&#x20;
+我们正在开发可配置的 MIDI 系统，未来将支持这一点。目前，一些用户通过 MIDI 解释器把任意 MIDI 消息转换为 MIDI Send/Receive 系统使用，但这过程较为繁琐且高级。可在[论坛](https://forum.liberationlaser.com)搜索配置建议，但现实中 APC40 仍是最佳选择。&#x20;
 
-## Laser controllers
+## 激光控制器
 
-#### **Which laser controllers are compatible with Liberation?**
+#### **哪些激光控制器与 Liberation 兼容？**
 
-* [Ether Dream (recommended)](https://ether-dream.com)
+* [Ether Dream（推荐）](https://ether-dream.com)
 * [Helios DAC](https://bitlasers.com/helios-laser-dac/)
-* [Mercury by X-Laser](https://x-laser.com/pages/mercury-laser-control-system) (you may need to update your firmware)
-* LaserCube USB (and LaserDock)
-* LaserCube network protocol (with a wired connection)
-* AVB as used by [LASollinger lasers](https://laseranimation.com/en/) (currently MacOS only in testing)
+* [Mercury by X-Laser](https://x-laser.com/pages/mercury-laser-control-system)（可能需要更新固件）
+* LaserCube USB（以及 LaserDock）
+* LaserCube 网络协议（需有线连接）
+* AVB（用于 [LASollinger lasers](https://laseranimation.com/en/)）（目前仅 MacOS，处于测试阶段）
 
-See [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") for more information
+更多信息参见 [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention")
 
-#### **Why don't you support \[other brand of] laser controller?**
+#### **为什么不支持 [其他品牌] 激光控制器？**
 
-To encourage greater interoperability between software and hardware, Liberation will only support DACs that have a published communication protocol. I believe that this is the best way forward for the laser industry.
+为促进软件与硬件之间更好的互通，Liberation 只支持公开通讯协议的 DAC。我认为这是激光行业更好的方向。
 
-#### **How can I tell if my laser can be used with Liberation?**
+#### **如何判断我的激光能否与 Liberation 一起使用？**
 
-If your laser has one of the following, you can use it with Liberation :
+如果你的激光具备以下任一项，即可与 Liberation 一起使用：
 
-* An external **ILDA input** – a 25-pin D connector, used with a compatible external controller.
-* An internally installed **Ether Dream**.
-* Any **LaserCube** (works with both USB and Wi-Fi LaserCube).
-* An **X-Laser unit with a built-in Mercury system** (In Ether Dream mode).
-* A **LaserAnimation Sollinger projector with AVB built in** (MacOS only, requires AVB-compatible network devices, currently in testing).
+* 外部 **ILDA 输入**——25 针 D 口，需要配合兼容的外部控制器。
+* 内置 **Ether Dream**。
+* 任何 **LaserCube**（支持 USB 和 Wi-Fi LaserCube）。
+* 内置 **Mercury 系统的 X-Laser 设备**（以 Ether Dream 模式运行）。
+* 内置 **AVB 的 LaserAnimation Sollinger 投影器**（仅 MacOS，需兼容 AVB 的网络设备，当前在测试中）。
 
-See [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") for more information
+更多信息参见 [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention")
 
-#### **Can I use Liberation with my LaserCube?**
+#### **可以用 Liberation 控制我的 LaserCube 吗？**
 
-Yes, Liberation works directly with any LaserCube. See [lasercube.md](hardware/lasercube.md "mention")
+可以，Liberation 可直接连接任何 LaserCube。参见 [lasercube.md](hardware/lasercube.md "mention")
 
-## Licenses
+## 许可证
 
-#### **What is the price of a license?**
+#### **许可证价格是多少？**
 
-See the [shop](https://liberationlaser.com/shop) page for the current prices.
+当前价格请见 [shop](https://liberationlaser.com/shop) 页面。
 
-#### **What are the limitations between the licensing tiers?**
+#### **不同授权档位的限制是什么？**
 
-See the [shop](https://liberationlaser.com/shop) page for the current license options.
+请见 [shop](https://liberationlaser.com/shop) 页面查看当前许可选项。
 
-Note that you can set up, preview and design shows with as many lasers as you want on **every** tier even the free one, and there are no other limitations at all apart from the number of lasers that you can _arm_. Every other Liberation feature is available to all.
+注意：你可以在 **所有** 档位（包括免费版）中设置、预览并设计任意数量的激光演出。除可 _arm_ 的激光数量外没有其他限制。Liberation 的其他功能对所有档位都可用。
 
-#### **Can I upgrade to a new tier?**
+#### **我可以升级到更高档位吗？**
 
-You can upgrade to a higher tier at any time. You will get a partial refund for the remaining time on your current license, and your new plan will start immediately. See [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
+你可以随时升级到更高档位。系统会按当前许可证剩余时间进行部分退款，新方案立即生效。参见 [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
 
-#### **Can I downgrade my license?**
+#### **我可以降级许可证吗？**
 
-You can downgrade at any time but the change will take effect at the end of your current license period. See [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
+你可以随时降级，但更改会在当前许可证周期结束时生效。参见 [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
 
-#### **How do I authorise my computer with my license?**
+#### **如何用许可证授权我的电脑？**
 
-Once you have purchased a license you can then authorise the computer within the Liberation software itself. You will see an _Authorise_ button on the _About_ screen that will prompt you to log in to the website. Follow the on-screen instructions to complete the authorisation process. See [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
+购买许可证后，可在 Liberation 内进行授权。你会在 _About_ 页面看到 _Authorise_ 按钮，点击后会提示你登录网站。按屏幕提示完成授权流程。参见 [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
 
-#### **How often do I need to connect my computer to the internet?**
+#### **需要多久连接一次互联网？**
 
-Every time the license renews you will need to connect Liberation to the internet to update its internal license. For a monthly recurring payment, you will need to connect every month.
+每次许可证续订时都需要将 Liberation 连接到互联网以更新内部许可证。如果是按月续费，则每月需要连接一次。
 
-#### **What happens if I can’t connect my computer to the internet after renewal?**
+#### **续订后无法连接互联网会怎样？**
 
-Liberation will give you a grace period of 7 days after your license renews to connect to the internet and update its internal license. After that period Liberation will go back into _Free_ mode.
+许可证续订后，Liberation 会提供 7 天宽限期让你连接互联网并更新内部许可证。超过该期限后，Liberation 将回到 _Free_ 模式。
 
-#### **What happens if my credit card expires?**
+#### **信用卡过期会怎样？**
 
-You will get an email notification from our payment provider, and you will need to update your payment system. Log in to the website and use the _Update payment details_ link on the subscriptions page.
+你会收到支付服务商的邮件通知，需要更新支付信息。登录网站，在订阅页面使用 _Update payment details_ 链接。
 
-#### **How do I cancel my recurring license?**
+#### **如何取消自动续费？**
 
-Log in to the website, open the _Your subscriptions_ page, select the subscription you want to cancel, then click the _Cancel Subscription_ link. You can continue to use Liberation for the remainder of the license period.
+登录网站，打开 _Your subscriptions_ 页面，选择要取消的订阅，然后点击 _Cancel Subscription_ 链接。你仍可在当前许可证周期内继续使用 Liberation。
 
-#### **How many computers can I install Liberation on?**
+#### **我可以在多少台电脑上安装 Liberation？**
 
-You can install Liberation on as many computers as you like. Licence authorisations are only required to enable laser / DMX output, and your licence tier determines how many computers can be authorised for output at once. See [how-licensing-works.md](installation/how-licensing-works.md "mention")
+你可以在任意数量的电脑上安装 Liberation。只有启用激光 / DMX 输出时才需要授权，许可证档位决定可同时授权输出的电脑数量。参见 [how-licensing-works.md](installation/how-licensing-works.md "mention")
 
-#### **How do I move my license from one computer to another?**
+#### **如何把许可证从一台电脑转移到另一台？**
 
-* Open Liberation on the computer you do not want to use any more
-* Make sure you are connected to the internet and click the _De-authorise this computer_ button on the _About_ screen
-* Now open Liberation on the new computer
-* Click _Authorise this computer_ button on the _About_ screen.
-* The website will open, log-in and follow the on-screen instructions to complete the authorisation
+* 在不再使用的电脑上打开 Liberation
+* 确保已连接互联网，在 _About_ 页面点击 _De-authorise this computer_ 按钮
+* 在新电脑上打开 Liberation
+* 在 _About_ 页面点击 _Authorise this computer_ 按钮
+* 网站会打开，登录并按屏幕提示完成授权
 
-You can also remotely de-authorise a computer you no longer have access to (with some limitations). See [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
+你也可以远程取消授权无法访问的电脑（有一定限制）。参见 [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
 
-#### **Can I deauthorise Liberation on a computer that has been lost or stolen?**
+#### **丢失或被盗的电脑可以取消授权吗？**
 
-You can deauthorise the computer via the website. If the Liberation installation has not been online since your last renewal, this can be done immediately.
+可以在网站上取消该电脑的授权。如果该电脑自上次续订后一直未联网，可以立即取消。
 
-If not, the deauthorisation will take effect when the subscription renews or when the computer connects to the internet, whichever comes first. If you urgently need to re-authorise a new computer get in touch with support.
+否则，取消授权会在订阅续订时或该电脑连接互联网时生效，以先发生者为准。如果你需要紧急重新授权新电脑，请联系支持。
 
-### Using Liberation
+### 使用 Liberation
 
-#### The default set up has 8 lasers - how do I change this?
+#### 默认设置是 8 台激光，如何更改？
 
-See [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention") and [adding-removing-lasers.md](setting-up/adding-removing-lasers.md "mention")
+参见 [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention") 和 [adding-removing-lasers.md](setting-up/adding-removing-lasers.md "mention")
 
-#### Can I copy zone settings from one laser to the others?
+#### 可以把一个激光的 Zones 设置复制到其他激光吗？
 
-Yes! See [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md "mention")
+可以！参见 [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md "mention")
 
-#### Can I type a number instead of using a slider?
+#### 可以不用滑块直接输入数值吗？
 
-Yes! CMD/CTRL click on the slider and you can enter the value using the keyboard.
+可以！按住 CMD/CTRL 点击滑块，然后用键盘输入数值。
 
-#### **How do I sync Liberation to music?**
+#### **如何让 Liberation 与音乐同步？**
 
-It has an intelligent "tap tempo" system that works as you would expect, but you can also use an external MIDI clock or Ableton Link. See [tempo-synchronisation.md](tempo-synchronisation.md "mention"). The timeline can be synced to incoming LTC/SMPTE timecode coming in via any audio interface. See [timecode.md](timecode.md "mention").
+它有一个智能的 “tap tempo” 系统，使用方式与预期一致；你也可以使用外部 MIDI 时钟或 Ableton Link。参见 [tempo-synchronisation.md](tempo-synchronisation.md "mention")。Timeline 还可以通过任意音频接口输入的 LTC/SMPTE timecode 同步。参见 [timecode.md](timecode.md "mention")。
 
-#### What settings do I need to adjust to get the best output from the laser?
+#### 为了获得最佳激光输出，需要调整哪些设置？
 
-The main setting is _Colour Shift,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [laser-settings](setting-up/laser-settings/ "mention") page for an example of 'tails')
+主要设置是 _Colour Shift_，用于补偿反光镜移动与激光亮度变化之间的轻微延迟。如果激光点/光束出现小 “tails”，就需要调整此项。（示例可见 [laser-settings](setting-up/laser-settings/ "mention") 页面中的照片）
 
-You can also try changing the scanner speed, slower if your scanners are basic, or faster if they are good. But **use with caution as you can damage your scanners if you drive them too hard.**
+你也可以尝试调整扫描器速度：扫描器较基础时可降低，较好时可提高。但 **请谨慎使用，因为过度驱动可能损坏扫描器。**
 
-There are also some preset scanner settings. The default option is conservative and fine for most laser beam requirements. But there are other presets for if you have better scanners, and there are presets that are tuned for graphics.
+还有一些扫描器预设。默认选项较保守，适合大多数激光束需求。如果你有更好的扫描器，或需要针对图形的预设，也可以选择其他预设。
 
-For more information see [laser-settings](setting-up/laser-settings/ "mention"), and for information on how to create your own presets see [scanner-presets.md](advanced/scanner-presets.md "mention") (advanced, in progress)
+更多信息参见 [laser-settings](setting-up/laser-settings/ "mention")；如何创建自定义预设请见 [scanner-presets.md](advanced/scanner-presets.md "mention")（高级，进行中）。
 
-You can also correct the colour balance using the _Colour calibration_ settings. See [colour-calibration.md](advanced/colour-calibration.md "mention")(advanced technique)
+你还可以通过 _Colour calibration_ 设置校正颜色平衡。参见 [colour-calibration.md](advanced/colour-calibration.md "mention")（高级技术）。
 
-#### What does the _Latency(ms)_ setting do?
+#### _Latency(ms)_ 设置的作用是什么？
 
-This is the frame latency, or maximum amount of time between a frame being generated and subsequently sent to a laser. You shouldn't need to adjust it, but if you are having network issues you could try increasing it. See [latency-setting.md](setting-up/latency-setting.md "mention") for more details.
+这是帧延迟，即从生成帧到发送给激光之间的最大时间。通常无需调整，但若出现网络问题可以尝试提高。详见 [latency-setting.md](setting-up/latency-setting.md "mention")。
 
 ### Clips
 
-#### How do I adjust zones and settings for a clip without running it?
+#### 不运行 clip 也能调整 zones 和设置吗？
 
-ALT/OPTION click to make it the _currently selected clip_ but without activating it. See also [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+按住 ALT/OPTION 点击，使其成为 _currently selected clip_ 但不激活。另见 [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
 
-#### How do I copy clips?
+#### 如何复制 clips？
 
-Click and drag while holding the ALT/OPTION key. See also [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+按住 ALT/OPTION 点击并拖动。另见 [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
 
-#### How do I delete clips?
+#### 如何删除 clips？
 
-Click and drag them off the clip deck. See also [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+将它们从 Clip Deck 上拖出去。另见 [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
 
-#### How do I multi-select, delete, combine clip decks etc?
+#### 如何多选、删除、合并 Clip Deck 等？
 
-See [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+参见 [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
 
-#### What do the little microphone symbol and other icons on the clip denote?
+#### Clip 上的小麦克风和其他图标表示什么？
 
-They are there to show you that a clip takes sound or MIDI input, and the 3 dots show you that there is a zone delay. See [what-are-the-small-icons-on-the-clip-buttons.md](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+这些图标表示该 clip 需要声音或 MIDI 输入，3 个点表示有 zone delay。参见 [what-are-the-small-icons-on-the-clip-buttons.md](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

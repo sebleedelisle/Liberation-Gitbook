@@ -1,20 +1,20 @@
-# ✅ Important! Read this first
+# ✅ 重要！先读这里
 
-## SAFETY WARNING
+## 安全警告
 
-**LASERS CAN BE DANGEROUS AND CAN CAUSE EYE AND SKIN DAMAGE, DO NOT POINT THEM AT HUMANS, ANIMALS OR IN THE SKY. UNMOVING BEAMS CAN BURN PROPERTY. ENSURE THAT INDUSTRY BEST PRACTICES AND LOCAL LAWS ARE ADHERED TO AT ALL TIMES.**
+**激光可能危险，会造成眼睛和皮肤伤害，不要指向人、动物或天空。静止光束可能烧伤物体。请始终遵守行业最佳实践和当地法律。**
 
-For a first-time safe setup walkthrough, follow [Setting up your lasers](setting-up/setting-up-lasers.md).
+首次安全搭建的完整流程，请参见[设置激光设备](setting-up/setting-up-lasers.md)。
 
-Before you start using lasers publicly, you must get safety training. In the UK I can recommend [LVR Optical](https://www.lvroptical.com/laser-safety-training.html). You are wholly responsible for using Liberation safely!
+在公开场合使用激光之前，必须接受安全培训。在英国可参考 [LVR Optical](https://www.lvroptical.com/laser-safety-training.html)。使用 Liberation 的安全责任完全由你承担！
 
-PLASA have a free downloadable laser safety guide which has been generally accepted as industry best practice: [https://www.plasa.org/guidance-for-display-lasers/](https://www.plasa.org/guidance-for-display-lasers/)
+PLASA 提供可免费下载的激光安全指南，已被普遍视为行业最佳实践：[https://www.plasa.org/guidance-for-display-lasers/](https://www.plasa.org/guidance-for-display-lasers/)
 
-### Also adhere to these safety precautions:
+### 还需遵守以下安全措施：
 
-- Keep beams out of audience eyes: aim above 3m in audience areas; use attenuators/beam blocks while positioning; never aim at people or animals.
-- Always use interlocks, E-stop, and keyswitches—never bypass or tape them down.
-- Liberation does not enforce MPE limits or scan-fail detection; manage power, add external safety systems, and follow local regulations
-- First power-on checklist: start with test patterns at lowest output, keep shutters closed until ready, bring up one projector at a time, confirm zones/masks before adding more. [Setting up your lasers](setting-up/setting-up-lasers.md).
+- 避免光束进入观众视线：在人群区域瞄准 3m 以上；定位时使用衰减器/挡光器；绝不要瞄准人或动物。
+- 始终使用联锁装置、E-stop 和钥匙开关——绝不要旁路或用胶带固定。
+- Liberation 不强制 MPE 限值或扫描失效检测；请自行管理功率，添加外部安全系统，并遵守当地法规。
+- 首次上电清单：先用最低输出的测试图案开始，在准备好之前保持快门关闭；一次只启用一台投影器，在增加更多之前确认 Zones/Masks。[设置激光设备](setting-up/setting-up-lasers.md)。
 
 ##

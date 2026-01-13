@@ -1,37 +1,37 @@
 ---
-description: The next generation of laser show software
+description: 新一代激光演出软件
 ---
 
-# ✅ Welcome to Liberation
+# ✅ 欢迎使用 Liberation
 
 
 
 <figure><img src=".gitbook/assets/LiberationTease.jpeg" alt=""><figcaption></figcaption></figure>
 
-Liberation opens up a new way of working with lasers - **modern**, **efficient**, for **Mac and PC**, and designed around the real-world needs of contemporary event production. It brings together fast, expressive creative tools with built-in safety and a workflow that feels fluid, intuitive and genuinely built for the future, bringing laser software into the 21st century.
+Liberation 为激光演出提供一种新的工作方式——现代、高效，支持 Mac 和 PC，并围绕当代活动制作的实际需求设计。它将快速、富有表现力的创作工具与内置安全机制结合起来，工作流流畅直观，面向未来，让激光软件进入 21 世纪。
 
-Liberation is part of a growing ecosystem of laser control software that all use the same family of open-protocol controllers. Whether you’re working in TouchDesigner, MadLaser, LaserShowGen or Liberation, you’re never tied to a single manufacturer. You can choose the hardware that suits your rig, your budget and your ideas.
+Liberation 是不断扩展的激光控制软件生态的一部分，使用同一系列开放协议控制器。无论你在 TouchDesigner、MadLaser、LaserShowGen 还是 Liberation 中工作，都不会被单一厂商绑定。你可以根据你的设备架构、预算和想法选择合适的硬件。
 
-Above all, Liberation is made to be an expressive creative instrument. It’s easy to learn, genuinely fun to use, and powerful enough to handle the most demanding festivals, installations and arena tours with rock-solid reliability, all from a single computer.
+最重要的是，Liberation 被设计成一件富有表现力的创作工具。它易学、上手快，也足够强大，能在最严苛的节日、装置和体育馆巡演中可靠运行，只需一台电脑即可完成。
 
-This guide will help you get comfortable with Liberation - from installation and safety basics to building clips, mapping zones and running full shows. It focuses on the concepts and workflows that matter, and Liberation is designed to stay out of your way so you can spend more time creating and less time wrestling with your software.
+本指南将帮助你熟悉 Liberation——从安装和安全基础，到构建 Clips、映射 Zones、运行完整演出。它关注真正重要的概念和工作流；Liberation 旨在尽量不打扰你，让你把时间花在创作上，而不是和软件较劲。
 
-## Who this guide is for
+## 本指南适合哪些人
 
-* New users who want a clear starting path without skipping safety.
-* Show operators who need a reliable reference while setting up venues or rehearsing.
-* Curious tinkerers exploring advanced features like the Clip Editor, MIDI, DMX, and canvas tools.
+* 想要清晰入门路径且不跳过安全要求的新用户。
+* 在搭建场地或排练时需要可靠参考的演出操作人员。
+* 想探索 Clip Editor、MIDI、DMX、Canvas 工具等高级功能的进阶用户。
 
-## How to use the guide
+## 如何使用本指南
 
-* Begin with [**Important! Read this first**](important.md) to review critical safety and licensing notes before connecting hardware.
-* Follow the [**Quick start guide**](basics/getting-started.md) if you want to get output running fast, then dive into [**Hardware**](hardware/) and [**Setting up**](setting-up/) for deeper configuration.
-* Use section headers to jump directly to topics (e.g., [**Clips & Clip deck**](clips/), [**Output view**](output-view/), **etc**) and return to [**Reference**](reference/) or [**Troubleshooting**](troubleshooting/) when you need precise answers.
+* 先阅读[**重要！先读这里**](important.md)，在连接硬件前了解关键的安全与授权说明。
+* 如果想快速出图，请先看[**快速入门指南**](basics/getting-started.md)，然后深入[**硬件**](hardware/)和[**设置**](setting-up/)进行配置。
+* 使用章节标题直接跳转到目标主题（例如 [**Clips & Clip Deck**](clips/)、[**Output view**](output-view/)、**等**），需要精确答案时回到[**参考**](reference/)或[**故障排除**](troubleshooting/)。
 
-## Conventions and tips
+## 约定与提示
 
-* Status emojis show completeness: ✅ finished, 🟧 partial, 🟩 needs images, ◼️ placeholder.
-* Links are scoped to the current release; screenshots and menus may differ slightly if you’re on an older build.
-* Hardware steps call out safety-first defaults - never bypass interlocks and keep beams away from people.
+* 状态 emoji 表示完成度：✅ 已完成，🟧 部分完成，🟩 需要图片，◼️ 占位。
+* 链接对应当前版本；如果你使用较旧版本，截图和菜单可能略有差异。
+* 硬件步骤会强调安全优先的默认做法——不要绕过联锁装置，并让光束远离人群。
 
-If you get stuck, check the [**FAQ**](faq.md), then the [**Troubleshooting**](troubleshooting/) section for targeted fixes before reaching out for support.
+如果遇到问题，先查看[**FAQ**](faq.md)，再看[**故障排除**](troubleshooting/)获取针对性解决方案，然后再联系支持。
