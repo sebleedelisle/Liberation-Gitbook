@@ -1,6 +1,6 @@
 # ✅ Wave oscillators
 
-## On this page :
+## 本页包含：
 
 * <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line">  [Sawtooth wave](wave-oscillators.md#sawtooth-wave-1)
 * <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line">  [Triangle wave](wave-oscillators.md#triangle-wave-1)
@@ -9,55 +9,55 @@
 * <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line">  [Noise](wave-oscillators.md#noise)
 * <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line">  [Custom Oscillator](wave-oscillators.md#custom-oscillator-1)
 
-## Wave oscillator settings
+## Wave oscillator 设置
 
-All Wave oscillators have the following settings :
+所有 Wave oscillators 都有以下设置：
 
-* **range min / range max** - determines the range of values for the property the oscillator is controlling. The property is set to _range min_ when the waveform is at the bottom, and it's set to _range max_ when the waveform is at the top.
-
-{% hint style="info" %}
-For example, if you wanted a dot to move left and right between -100 and 100, you would connect the oscillator to the _x property socket_, set the _min range_ to -100 and the _max range_ to 100.
-{% endhint %}
-
-* **duration** - the length of time one full cycle (or _loop_) takes to complete. This is relative to the tempo in bars. So ¼ is a single beat. 1 is a full bar, etc.
-* **duration multiplier** - scales the base duration by a chosen factor. For example, if duration is set to a quarter note and the multiplier is 3, the oscillator will last for three quarter notes (a dotted minim). Fractional multipliers are also supported — hold _SHIFT_ while dragging the slider to set non-whole numbers, which is useful for phasing effects or creating subtle timing shifts.
-* **offset** - the starting offset for the wave as a percentage of the duration. If you want the wave to start a quarter of the way through then set this to 25%.
-* **repeat count** - the number of times the loop runs before it stops. The default is _FOREVER_ but you can change it if you don't want the oscillator to run indefinitely. After it stops, the property will be set to the value at the end of the wave.
-* **delay count** - the delay in beats before the oscillator starts running. Before it starts running, the property will be set to the value at the start of the wave.
+* **range min / range max** - 决定该 oscillator 控制的属性范围。波形位于最低点时取 _range min_，位于最高点时取 _range max_。
 
 {% hint style="info" %}
-With careful use of _repeat count_ and _delay count_ you can create very complicated animations, kind of like its own timeline!
+例如，你想让一个点在 -100 到 100 之间左右移动，可将 oscillator 连接到 _x property socket_，并将 _min range_ 设为 -100、_max range_ 设为 100。
 {% endhint %}
 
-## Common settings
-
-* **steps** - divides the motion into a number of discrete steps. Good for when you want properties to "jump" to values rather than moving smoothly.
+* **duration** - 完成一个完整周期（或 _loop_）的时间长度，以小节为单位。¼ 表示 1 拍，1 表示 1 小节，以此类推。
+* **duration multiplier** - 按指定因子缩放基础时长。例如 duration 为四分音符、multiplier 为 3，则 oscillator 持续三个四分音符（附点二分音符）。支持小数 multiplier——拖动滑块时按住 _SHIFT_ 可设置非整数值，适合做相位错开或细微的时间偏移。
+* **offset** - 波形起点偏移（以 duration 百分比）。若想从周期的 1/4 处开始，将其设为 25%。
+* **repeat count** - loop 的重复次数。默认 _FOREVER_，如不希望无限运行可修改。停止后，属性会保持为波形结束时的数值。
+* **delay count** - oscillator 启动前的延迟（以拍数计）。启动前，属性会保持波形起点的值。
 
 {% hint style="info" %}
-Note that the steps are divided by time rather than value. So for a wave split into 4 steps with a duration of 1 bar the property will instantly change every beat.
+合理使用 _repeat count_ 和 _delay count_ 可以实现非常复杂的动画，几乎像一个独立的 Timeline！
 {% endhint %}
 
-* **clamp min / clamp max -** increases the scale of the wave beyond its minimum or maximum values and clamps the result.
+## 通用设置
+
+* **steps** - 将运动分成若干离散步骤。适合让属性“跳变”而非平滑移动。
 
 {% hint style="info" %}
-The _clamp_ concept is quite hard to explain, but imagine the waveform going off the top or bottom of the graph, and then getting clamped to the edges. I recommend that you experiment with them! But they're very useful if you want a sawtooth to start late or end early.
+注意 steps 是按时间而非按数值划分。例如将波形分成 4 个 steps、duration 为 1 小节，则属性会每一拍瞬间改变。
 {% endhint %}
 
-* **ease function** - the Sawtooth and Triangle waves also have an ease function which subtly changes the animation curve, and can make your animations really expressive!
-  * **LINEAR** - the default, no easing, just moves in a linear fashion between the min and max values.
-  * **EASE OUT** - starts quickly and then slows down as it gets to the end. Very good for simulating physics, ie slowing down to a halt.
-  * **EASE IN** - starts slowly and gradually speeds up. Good for simulating momentum building.
-  * **EASE IN/OUT** - a combination of both, and a very organic movement.
+* **clamp min / clamp max -** 将波形超出最小/最大值的部分截断并固定在边界。
+
+{% hint style="info" %}
+_clamp_ 概念比较难解释：可以想象波形超过图表上下边界，然后被“夹住”贴在边缘。我建议亲自试试！它对让 sawtooth 提前开始或提前结束非常有用。
+{% endhint %}
+
+* **ease function** - Sawtooth 和 Triangle waves 还带 easing，可微调动画曲线，让动作更有表现力！
+  * **LINEAR** - 默认，无缓动，线性移动。
+  * **EASE OUT** - 起步快，尾部减速。适合模拟逐渐停止的物理运动。
+  * **EASE IN** - 起步慢，逐渐加速。适合模拟动量建立。
+  * **EASE IN/OUT** - 两者结合，动作更自然。
 
 {% hint style="warning" %}
-**Easing -** I would avoid the default linear animation whenever you can unless you specifically want something that looks robotic. Easing can make your animations so much more flowing and organic!
+**Easing -** 除非你需要机械感，否则尽量避免默认的线性动画。Easing 能让动画更流畅、更有机！
 {% endhint %}
 
 ## <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line">  Sawtooth wave
 
-Also sometimes known as a _ramp waveform_ as it ramps upward and then sharply drops at the end of its cycle. It's probably the most common wave oscillator because it creates a loop for cycling properties like _hue_ or _rotation._
+也称 _ramp waveform_，波形向上爬升并在周期末尾骤然下落。它是最常用的 oscillator 之一，因为适合循环 _hue_ 或 _rotation_ 等属性。
 
-See the sections above for :
+相关设置见上文：
 
 * **range min / range max**
 * **duration**
@@ -69,15 +69,15 @@ See the sections above for :
 * **delay count**
 * **ease function**
 
-Sawtooth specific :
+Sawtooth 特有：
 
-* **cycle range compensation** - available when **steps** is set, and is good for cycling values, say a rotation from 0 to 360. When this is not set, the beginning and end values will be the same which can cause sticking at the start point (because 0 and 360 are the same angle). Turn this on and the maximum range will be reduced to correct the step positions.
+* **cycle range compensation** - 当 **steps** 开启时可用，适合循环数值（如 0 到 360 的旋转）。未开启时，起点和终点数值相同（0 与 360 同角度），可能导致起点“卡住”。开启后会减少最大范围以修正步进位置。
 
 ## <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line">  Triangle wave
 
-Unlike the _sawtooth wave_ which jumps back to the beginning every cycle, the _triangle wave_ moves linearly forwards and then backwards.
+与 _sawtooth wave_ 每周期回到起点不同，_triangle wave_ 会线性来回往返。
 
-See the sections above for :
+相关设置见上文：
 
 * **range min / range max**
 * **duration**
@@ -91,9 +91,9 @@ See the sections above for :
 
 ## <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line">  Sine wave
 
-The smoothest waveform! Oscillates gently between two values like a pendulum.
+最平滑的波形！像钟摆一样在两个值之间来回摆动。
 
-See the sections above for :
+相关设置见上文：
 
 * **range min / range max**
 * **duration**
@@ -106,9 +106,9 @@ See the sections above for :
 
 ## <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line">  Square wave
 
-The simplest waveform - it just rocks between two values, back and forth!
+最简单的波形——只在两个值之间来回切换！
 
-See the sections above for :
+相关设置见上文：
 
 * **range min / range max**
 * **duration**
@@ -116,15 +116,15 @@ See the sections above for :
 * **repeat count**
 * **delay count**
 
-Square wave specific :
+Square wave 特有：
 
-* **pulse width** - the length of time the wave is at its maximum value relative to the overall duration. 50% is the default, which is exactly half and half. If you only want it "on" for a quarter of the time, set it to 25%. You can adjust when this pulse happens using the _offset_ value.
+* **pulse width** - 波形处于最大值的持续时间占比。默认 50%，即一半时间为最大、一半时间为最小。若只想“亮”四分之一时间，可设为 25%。可通过 _offset_ 调整脉冲出现时间。
 
 ## <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line">  Noise
 
-One of Liberation's strengths is that it can generate random, but repeatable effects. The _noise_ oscillator can be used to create an organic looping random motion with as much detail/jitter as you like.
+Liberation 的强项之一是生成随机但可重复的效果。_noise_ oscillator 可生成有机、循环的随机运动，细节/抖动可自定义。
 
-See the sections above for :
+相关设置见上文：
 
 * **range min / range max**
 * **duration**
@@ -135,33 +135,33 @@ See the sections above for :
 * **repeat count**
 * **delay count**
 
-Noise specific :
+Noise 特有：
 
-* **noise type** - the algorithm used to generate the noise.
-  * **SIMPLEX** - the default, an undulating value that ebbs and flows, and repeats on a loop.
-  * **RANDOM** - uses a more traditional random number algorithm, totally noisy and chaotic.
-
-{% hint style="info" %}
-**Simplex noise** was designed was designed by Ken Perlin in 2001 as an improvement of his "Perlin noise" algorithm, which he developed in 1983 as part of his work on the movie _Tron_ (which he won an Oscar for!)
-
-This so-called "gradient" noise was born out of his frustration with previously "machine-like" computer generated imagery. In the CGI world, it's particularly good for rendering clouds, water surfaces, or even height-maps for realisitc terrain.
-
-But in Liberation it's good for seemingly unpredictable motion that is still smooth and organic.&#x20;
-{% endhint %}
-
-* **seed** - the value used to create the noise. If you don't like the look of the noise wave you have try changing the value.
+* **noise type** - 生成噪声的算法。
+  * **SIMPLEX** - 默认，起伏变化并在循环中重复。
+  * **RANDOM** - 传统随机算法，更混乱更不可预测。
 
 {% hint style="info" %}
-Fun nerdy fact! In order to get a perfectly looping simplex noise, I'm iterating around a circle on a 2D noise plane. And changing the seed value moves this plane through a 3rd dimension!
+**Simplex noise** 由 Ken Perlin 于 2001 年提出，是他 1983 年开发的 “Perlin noise” 的改进（用于电影 _Tron_，因此获得奥斯卡奖！）
+
+这种所谓的“梯度噪声”源自他对早期“机器感”计算机图像的不满。在 CGI 领域，它特别适合生成云、水面，甚至真实地形高度图。
+
+在 Liberation 中，它适合做看似不可预测但仍平滑、有机的运动。&#x20;
 {% endhint %}
 
-* **simplex detail** - changes how detailed or jittery the noise is. If you want the repeating pattern to be less obvious, take the duration up and increase this value.
+* **seed** - 用于生成噪声的种子值。如果不喜欢当前效果，尝试改变它。
+
+{% hint style="info" %}
+极客小知识！为了让 simplex noise 完美循环，我在 2D 噪声平面上沿着一个圆进行迭代，改变 seed 会让这个平面在第 3 个维度中移动！
+{% endhint %}
+
+* **simplex detail** - 调整噪声细节与抖动程度。如果你觉得重复性太明显，可增加 duration 并提高此值。
 
 ## <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line">  Custom Oscillator
 
-Creates a completely custom waveforms. This is very useful for creating complex animations.
+创建完全自定义的波形，非常适合复杂动画。
 
-See the sections above for :
+相关设置见上文：
 
 * **range min / range max**
 * **duration**
@@ -170,16 +170,16 @@ See the sections above for :
 * **repeat count**
 * **delay count**
 
-Below this are a list of positions and values. The duration is split into 64 steps and you can place a value at any of these points.
+下方列出位置和值。duration 被分为 64 步，你可以在任意步设置数值。
 
-Each step has the following settings :
+每一步包含：
 
-* **Step** - the time step within the duration. 0 is the at the beginning and 64 is at the end.
-* **Level** - the level of the wave at that time step. The level ranges between 0 and 1.
-* **Animation type** - the drop down menu lets you choose how you want to move towards this level from the previous step.
-  * **None** - no transition, just jump straight to this level at the given time.
-  * **Linear** - a completely linear movement from the previous level to this one.
-  * **Ease in / Ease out / Ease in/out** - eases between the previous level to this one. See _ease function_ above for a description of the animation types.
+* **Step** - 时间步，0 为开始，64 为结束。
+* **Level** - 该步的波形值，范围 0 到 1。
+* **Animation type** - 下拉菜单用于选择从上一步过渡到本步的方式。
+  * **None** - 无过渡，直接跳变。
+  * **Linear** - 线性过渡。
+  * **Ease in / Ease out / Ease in/out** - 缓动过渡，见上文 _ease function_ 说明。
 
 ***
 

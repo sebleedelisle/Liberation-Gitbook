@@ -1,31 +1,31 @@
-# 🟩 Organising your clip deck
+# 🟩 整理 Clip Deck
 
-### Moving/duplicating clips
+### 移动 / 复制 Clips
 
-Click and drag to move a clip. If more than one clip is selected (see [starting-stopping-clips.md](starting-stopping-clips.md "mention")) they will all be moved. Hold down ALT/OPTION to duplicate them. Drop the clip(s) onto an empty space.
+点击并拖动可移动 Clip。如果选中了多个 Clips（见 [starting-stopping-clips.md](starting-stopping-clips.md "mention")），它们会一起移动。按住 ALT/OPTION 可复制，松开到空白位置即可。
 
 {% hint style="info" %}
-If you need to select a large number of clips, you can click / drag a lasso, and then scroll the clipdeck while still dragging (either using cursor keys, the APC 40 or sideways touchpad/mouse scroll). The lasso will be extended off the edge of the clip deck.
+如果要选择大量 Clips，可以点击/拖拽套索，然后在保持拖拽的同时滚动 Clip Deck（使用方向键、APC40 或触控板/鼠标的横向滚动）。套索会延伸到 Clip Deck 边缘之外。
 {% endhint %}
 
-### Deleting clips
+### 删除 Clips
 
-To delete a single clip, use the right click menu.
+删除单个 Clip：使用右键菜单。
 
-To delete multiple clips, select them (either with ALT-SHIFT click or by dragging the lasso) and drag them off the clip deck.
+删除多个 Clips：选中它们（ALT-SHIFT 点击或拖拽套索），然后将它们拖出 Clip Deck。
 
-### Adding empty space
+### 添加空白区域
 
-You can right-click on a clip button and press _ADD EMPTY COLUMN TO RIGHT_ to add an empty column of space to the clip deck.
+右键点击某个 Clip 按钮，选择 _ADD EMPTY COLUMN TO RIGHT_，即可在 Clip Deck 右侧添加一列空白。
 
-### Combining multiple clip decks
+### 合并多个 Clip Deck
 
-You can import an existing clip deck and append it to the end of current clip deck. Use menu _File -> Clips/Effects -> Append Clip Deck._
+你可以导入现有的 Clip Deck 并追加到当前 Clip Deck 的末尾。使用菜单 _File -> Clips/Effects -> Append Clip Deck_。
 
-Make a selection of clips (with either the lasso or ALT-SHIFT click) and then _File -> Clips/Effects -> Export Selected Clips._ This will export a clip deck with only those clips, which can then be appended to another clip deck.
+先选中一部分 Clips（使用套索或 ALT-SHIFT 点击），然后使用 _File -> Clips/Effects -> Export Selected Clips_。这会导出仅包含所选 Clips 的 Clip Deck，随后可追加到另一个 Clip Deck。
 
-### Organising clips by timeline
+### 按 Timeline 整理 Clips
 
-When you import a timeline you also have some clip options. You can either replace the current clip deck, append the timeline's entire clip deck, or just the clips it uses.
+导入 Timeline 时也会提供 Clip 选项：可以替换当前 Clip Deck、追加 Timeline 的整个 Clip Deck，或仅追加它使用到的 Clips。
 
-If you have multiple timelines in your project, you can reorganise your clips by timeline. Open the _Timeline selection_ panel, and click _ORGANISE CLIPS BY TIMELINE_. You will now see all of your clips in groups based on their timeline. If a clip is used in multiple timelines, it will be duplicated for each group.
+如果项目中有多个 Timeline，可按 Timeline 重新整理 Clips。打开 _Timeline selection_ 面板，点击 _ORGANISE CLIPS BY TIMELINE_。随后你会看到所有 Clips 按各自 Timeline 分组。如果某个 Clip 被多个 Timeline 使用，会为每个组复制一份。

@@ -1,17 +1,17 @@
-# 🟩 Copy zones between lasers
+# 🟩 在激光之间复制 Zones
 
-Click on the _COPY LASER SETTINGS_ button in _Laser Output_ and a new panel will open.
+在 _Laser Output_ 中点击 _COPY LASER SETTINGS_ 按钮，会打开一个新面板。
 
-This is an incredibly useful and time saving feature for quickly copying zones and other settings from one laser to the others.
+这是一个非常实用且省时的功能，可快速将 Zones 和其他设置从一台激光复制到其他激光。
 
-Make sure you have selected the laser you want to copy settings _from._
+确保已选中你要 _from_ 的源激光。
 
-Toggle on all the other lasers you want to copy settings _to_. (Use _ALL_ and _NONE_ to make this quicker if you have a lot of lasers)
+选择你要 _to_ 的目标激光。（如果激光很多，可使用 _ALL_ 与 _NONE_ 以加快操作）
 
-Select the _Copy output zone settings_ option and then click the _COPY SETTINGS_ button to complete the process.
+选择 _Copy output zone settings_ 选项，然后点击 _COPY SETTINGS_ 完成。
 
 {% hint style="info" %}
-Note that this process will not add or remove zones from lasers. It will merely copy the position and type of zone for each zone that exists in the target lasers.
+注意：此过程不会为激光添加或移除 Zones，只会复制目标激光已存在的每个 Zone 的位置与类型。
 {% endhint %}
 
-See also [copy-laser-settings.md](../setting-up/laser-settings/copy-laser-settings.md "mention") for a full description of the other features of this system.
+更多功能详见 [copy-laser-settings.md](../setting-up/laser-settings/copy-laser-settings.md "mention")。

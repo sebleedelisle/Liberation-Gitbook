@@ -1,74 +1,74 @@
-# 🟩 Introduction to the Clip Editor
+# 🟩 Clip Editor 介绍
 
-The clip editor is a versatile way to create laser content and it's at the heart of Liberation. It's easy to make simple things and yet flexible enough to make some incredibly sophisticated and complex effects.&#x20;
-
-{% hint style="info" %}
-The node based editor was the first part of Liberation that was made! It was born from a conversation with Rob Stanley at a UK laser meet up in 2018 about what an "object-oriented" laser content designer would look like.
-
-Although it seems simple, it's quite a complex system to build, but by the start of 2019 I had a working demo that proved the concept - and it started this whole journey!
-{% endhint %}
-
-It's a node based visual editor (or [node graph architecture](https://en.wikipedia.org/wiki/Node_graph_architecture#Node_graph)) that will be familiar if you have used products like TouchDesigner, MaxMSP or VVVV. Although the clip editor is a little different and somewhat simpler as it's been designed specifically for vector graphics.&#x20;
-
-You can open the Clip Editor by right clicking on the clip button and selecting _EDIT CLIP_. Or right click on an empty clip button and select _CREATE AND EDIT CLIP_.&#x20;
-
-### Overview
-
-What you'll see in the clip editor :&#x20;
-
-* The **Creator** and **Operator node buttons** along the top&#x20;
-* The **Oscillator node buttons** along the left
-* A preview of the content in a panel on the right, and if you click on a node, you'll see a second preview that shows you the content at the node itself.
-* All of the nodes and connections for the clip that you are editing (if it's a new clip this will be empty)
-* The Clip Editor panel with various options
-
-While you're editing, you will also see what the clip looks like in the 3D visualiser in the background.&#x20;
+Clip Editor 是创建激光内容的核心工具，功能灵活：简单内容易做，同时也足够强大，可制作非常复杂的效果。&#x20;
 
 {% hint style="info" %}
-If you don't see any output in the 3D visualiser, you may need to use the zone buttons to turn on the zones you want. You'll also need to make sure that _Preview to lasers_ is enabled, see [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel "mention") below.
+节点式编辑器是 Liberation 的第一个模块！它源于我在 2018 年英国激光聚会时与 Rob Stanley 的一次讨论：什么样的“面向对象”激光内容设计器才是理想的？
+
+看起来简单，但实现起来非常复杂。到了 2019 年初我做出了可运行的原型，证明了概念可行，也因此开启了整个旅程！
 {% endhint %}
 
-### Building a clip
+它是一个基于节点的可视化编辑器（或称 [node graph architecture](https://en.wikipedia.org/wiki/Node_graph_architecture#Node_graph)），如果你用过 TouchDesigner、MaxMSP 或 VVVV 会很熟悉。Clip Editor 与它们略有不同，且更简单，因为它是专为矢量图形设计的。&#x20;
 
-You typically start with one or more [creator nodes](creator-nodes.md), and connect [operators](operator-nodes/) from left to right that process the content. As you move creators and/or operators together you'll notice that they automatically connect to each other. And you can drag them apart to disconnect them again.&#x20;
+你可以右键点击 Clip 按钮并选择 _EDIT CLIP_ 来打开 Clip Editor；或者右键点击空的 Clip 按钮，选择 _CREATE AND EDIT CLIP_。&#x20;
 
-### Adding nodes to your clip
+### 概览
 
-Click and drag from one of the node buttons along the top or left into an empty space within the clip editor.&#x20;
+你会在 Clip Editor 中看到：&#x20;
 
-### Adjusting settings for a node
+* 顶部的 **Creator** 与 **Operator node buttons**&#x20;
+* 左侧的 **Oscillator node buttons**
+* 右侧的内容预览面板；点击某个 node 后会出现第二个预览，显示该 node 的输出
+* 当前 Clip 的所有 nodes 与连接（若是新 Clip 则为空）
+* Clip Editor 面板及其各种选项
 
-Click on the cog icon button  (top right of the node) to open the properties panel for that node.&#x20;
-
-### Enabling and disabling a node
-
-Click on the power icon button (top left of the node) to enable and disable the node. The node will dim to show that it is not currently active. Note that content still passes through an operator even if it is disabled, but the node doesn't affect the content.&#x20;
-
-### Connecting nodes together
-
-Content is made with a creator node, and is passed along nodes from left to right; each operator affects the content in some way and passes it along to the next operator. Whatever is left at the end of the path is the clip's content. Creators and Operators are automatically connected to each other when you move them close together. To separate them, drag them apart again.&#x20;
+编辑时，你还会在后台的 3D visualiser 中看到 Clip 的样子。&#x20;
 
 {% hint style="info" %}
-You can connect more than one node into the next node's input. This is helpful to combine multiple pieces of content
+如果 3D visualiser 中没有输出，可能需要用 Zone 按钮开启所需 Zones。同时确保 _Preview to lasers_ 已启用，详见下方 [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel "mention")。
 {% endhint %}
 
-### Node properties and sockets
+### 构建 Clip
 
-Each node has an array of sockets along the bottom and each one represents a property within the node, such as brightness, position, scale, rotation etc.&#x20;
+通常从一个或多个 [creator nodes](creator-nodes.md) 开始，然后从左到右连接 [operators](operator-nodes/) 对内容进行处理。你会发现当 Creator 和 Operator 靠近时会自动连接，也可以拖开以断开。&#x20;
 
-[Oscillator nodes](oscillators/) can be connected to these sockets from below and used to animate these settings. Oscillator nodes have an output at the top, click and drag to pull out the connection and drop it into one of the other nodes' property sockets.&#x20;
+### 向 Clip 添加 nodes
+
+从顶部或左侧的 node 按钮点击并拖入 Clip Editor 空白区域。&#x20;
+
+### 调整 node 设置
+
+点击 node 右上角的齿轮按钮打开该 node 的属性面板。&#x20;
+
+### 启用/禁用 node
+
+点击 node 左上角的电源按钮可启用或禁用 node。禁用时 node 变暗。注意：即使禁用，内容仍会通过该 operator，只是不会被该 node 影响。&#x20;
+
+### 连接 nodes
+
+内容由 creator node 生成，并从左到右经过各个 nodes；每个 operator 会处理内容并传递给下一个。路径末端剩下的就是 Clip 内容。Creators 与 Operators 靠近会自动连接，拖开即可断开。&#x20;
+
+{% hint style="info" %}
+你可以将多个 nodes 连接到同一个输入，以合并多份内容。
+{% endhint %}
+
+### Node 属性与 sockets
+
+每个 node 底部都有一排 sockets，每个 socket 对应 node 的一个属性，如亮度、位置、缩放、旋转等。&#x20;
+
+[Oscillator nodes](oscillators/) 可从下方连接到这些 sockets，用于随时间改变这些属性。Oscillator nodes 顶部有输出口，点击拖出连接线并放到其他 nodes 的属性 socket 上即可。&#x20;
 
 ### Oscillator nodes
 
-Oscillator nodes are used to change properties over time. They typically represent waveforms such as a sawtooth or sine wave but some oscillator nodes use external inputs (such as the microphone input level) as their source.&#x20;
+Oscillator nodes 用于随时间变化属性。它们通常代表锯齿波或正弦波等波形，但有些 oscillator nodes 使用外部输入（如麦克风输入电平）作为源。&#x20;
 
 {% hint style="info" %}
-If you've ever used an analog synth, you'll be familiar with the concept of oscillators which are commonly used to create waveforms or adjust the sound over time. Oscillators in Liberation do a similar job.&#x20;
+如果你用过模拟合成器，你会熟悉 oscillators，它们常用于生成波形或随时间调整声音。Liberation 中的 oscillators 也是类似作用。&#x20;
 
-**Fun fact:** the name _Liberation_ was inspired by the Moog Liberation, a synthesizer "keytar" released in 1980 and made famous by Herbie Hancock, Jean-Michel Jarre and even James Brown! &#x20;
+**Fun fact:** _Liberation_ 这个名字灵感来自 Moog Liberation——1980 年发布的“键tar”合成器，由 Herbie Hancock、Jean-Michel Jarre 甚至 James Brown 使用而闻名！&#x20;
 {% endhint %}
 
-Oscillators always have _range_ settings that control the minimum and maximum value of the property to be adjusted. And _Wave Oscillators_ always have a _duration_ setting that determines how fast the oscillator changes the value. See [wave-oscillators.md](oscillators/wave-oscillators.md "mention") for more information.&#x20;
+Oscillators 总有 _range_ 设置，用于控制属性的最小/最大值。_Wave Oscillators_ 还带 _duration_ 设置，用于决定变化速度。更多信息见 [wave-oscillators.md](oscillators/wave-oscillators.md "mention")。&#x20;
 
 
 
@@ -78,10 +78,10 @@ Oscillators always have _range_ settings that control the minimum and maximum va
 
 ### Clip editor panel
 
-* Timer - at the top of the panel you'll see the current time for the clip as it progresses
-* _RETRIGGER_ - restarts the clip from the beginning; extra useful if your clip doesn't loop
-* _Preview to lasers_ - when this is checked, you'll see the 3D visualiser update as you edit this clip. If you turn it off, you'll see whatever clips are running outside of the editor. This is a global setting, not per clip.&#x20;
-* _UNDO/REDO_ - for the clip editor itself. Also mapped to CTL/CMD Z and CTL/CMD SHIFT Z.
-* _SAVE CLIP_ - saves your edits but warns you about overwriting
-* _SAVE AS A COPY_ - saves your clip in the next available slot in the clip deck. This becomes the new position for your clip and all subsequent saves will be in this new place.&#x20;
-* _EXIT EDITOR_ - closes the clip editor. If you have unsaved changes you will get a confirmation panel.&#x20;
+* Timer - 面板顶部显示 Clip 当前运行时间
+* _RETRIGGER_ - 从开头重新开始播放；当 Clip 不是循环时特别有用
+* _Preview to lasers_ - 勾选后，编辑 Clip 时 3D visualiser 会实时更新；关闭后则显示编辑器之外正在运行的 Clips。这是全局设置，不是单个 Clip 设置。&#x20;
+* _UNDO/REDO_ - Clip Editor 的撤销/重做，同时映射到 CTL/CMD Z 与 CTL/CMD SHIFT Z
+* _SAVE CLIP_ - 保存编辑，会提示你覆盖
+* _SAVE AS A COPY_ - 将 Clip 保存到 Clip Deck 中下一个可用位置，保存位置会变为新位置，后续保存都写入这个位置&#x20;
+* _EXIT EDITOR_ - 关闭 Clip Editor。若有未保存更改，会弹出确认面板。&#x20;

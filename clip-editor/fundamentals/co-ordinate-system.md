@@ -1,24 +1,18 @@
-# 🟩 Coordinate system
+# 🟩 坐标系统
 
-Clip content uses an x/y coordinate system where the origin (0,0) is at the centre of the screen.&#x20;
+Clip 内容使用 x/y 坐标系，原点 (0,0) 位于屏幕中心。&#x20;
 
-* In the horizontal axis x, left is negative, right is positive.
-* In the vertical axis y, up is negative, down is positive.&#x20;
+* 在水平轴 x 上，左为负，右为正。
+* 在垂直轴 y 上，上为负，下为正。&#x20;
 
-The clip has a width and height of 400 pixels, so the visible area coordinates range from -200 to 200.&#x20;
+Clip 的宽高为 400 像素，所以可见区域坐标范围为 -200 到 200。&#x20;
 
 {% hint style="info" %}
-The clip editor creates _vector_ shapes. This means that they are not stored as pixels but as sets of coordinates that define how the shapes are drawn. This is similar to how Inkscape or Illustrator defines content, as opposed to Photoshop.&#x20;
+Clip Editor 会创建 _vector_ 形状，也就是说它们不是以像素存储，而是以坐标集合来定义形状绘制。这与 Inkscape 或 Illustrator 的方式类似，而不是 Photoshop。&#x20;
 {% endhint %}
 
 ### 3D
 
-Additionally you can move around in 3D space, forwards and backwards along the z axis. By default everything is at the z position of 0.&#x20;
+另外你可以在 3D 空间中沿 z 轴前后移动。默认所有内容的 z 坐标为 0。&#x20;
 
-* In the z axis, backwards away from you is negative, forwards towards you is positive.
-
-
-
-
-
-
+* 在 z 轴上，远离你（向屏幕里）为负，朝向你为正。

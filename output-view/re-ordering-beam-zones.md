@@ -1,9 +1,9 @@
-# 🟩 Re-ordering beam zones
+# 🟩 重新排序 beam zones
 
-Beam zones appear in the order that you create them, but you can re-order them after the fact. Open _View -> Beam Zone Organiser._
+Beam zones 按创建顺序排列，但你可以之后重新排序。打开 _View -> Beam Zone Organiser_。
 
-You'll see the list of beam zones and which laser they are connected to. Drag and drop the zones to put them in the order you want, or click _Autosort by laser_ to automatically sort them consecutively depending on the laser they are in.
+你会看到 beam zones 列表及其所属激光。拖拽 Zones 到你想要的顺序，或点击 _Autosort by laser_ 根据所属激光自动连续排序。
 
 {% hint style="info" %}
-If you haven't given your beam zones custom names, they will use a default name of _Beam 1, Beam 2,_ etc. If you re-order them, their default names will also update depending on their sort order. Be aware of this while you are re-ordering zones as it could be confusing.
+如果你没有为 beam zones 自定义名称，它们默认会是 _Beam 1, Beam 2,_ 等。重新排序时，默认名称也会根据顺序更新。请注意这一点，以免混淆。
 {% endhint %}

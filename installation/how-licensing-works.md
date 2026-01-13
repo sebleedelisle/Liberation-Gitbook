@@ -1,23 +1,23 @@
-# ✅ How licensing works
+# ✅ 授权机制说明
 
-Once you have installed Liberation on your computer it will run in _demo mode_ until you _authorise_ it.&#x20;
+当你在电脑上安装 Liberation 后，应用会以 _demo mode_ 运行，直到你完成 _authorise_。&#x20;
 
 {% hint style="info" %}
-There are no restrictions in _demo mode_ apart from outputting to laser hardware. You can practice shows, build timelines, and save and load your files without limitations. You can install Liberation in _demo mode_ on as many computers as you like, and you only need to authorise your installation when you are ready to use lasers!
+_demo mode_ 除了不能输出到激光硬件外没有任何限制。你可以排练演出、搭建 Timeline、保存和加载文件，均不受限制。你可以在任意数量的电脑上安装 _demo mode_ 的 Liberation，只有在你准备使用激光时才需要授权！
 {% endhint %}
 
-In addition to the number of lasers you can arm, you can also use DMX fixtures. See [dmx-control](../dmx-control/ "mention").
+除了可 arm 的激光数量，你也可以使用 DMX 设备。见 [dmx-control](../dmx-control/ "mention")。
 
-There is also a limit to the number of computers you can authorise Liberation on dependent on your subscription tier.
+你可授权的电脑数量也取决于订阅档位。
 
-<table><thead><tr><th>Subscription tier</th><th width="226">Number of computers</th><th width="155">Lasers</th><th>DMX fixtures</th></tr></thead><tbody><tr><td>Hobby</td><td>1</td><td>2</td><td>0</td></tr><tr><td>Pro 4</td><td>1</td><td>4</td><td>4</td></tr><tr><td>Pro 8</td><td>2</td><td>8</td><td>8</td></tr><tr><td>Unlimited</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr></tbody></table>
+<table><thead><tr><th>订阅档位</th><th width="226">电脑数量</th><th width="155">Lasers</th><th>DMX fixtures</th></tr></thead><tbody><tr><td>Hobby</td><td>1</td><td>2</td><td>0</td></tr><tr><td>Pro 4</td><td>1</td><td>4</td><td>4</td></tr><tr><td>Pro 8</td><td>2</td><td>8</td><td>8</td></tr><tr><td>Unlimited</td><td>3</td><td>Unlimited</td><td>Unlimited</td></tr></tbody></table>
 
 {% hint style="danger" %}
-Each license is for one user only and one show at a time. You can have more than one installation per user because you should **always** have at least one spare authorised computer at the ready!&#x20;
+每个许可证仅限单个用户，且同一时间只能用于一场演出。你可以为一个用户安装多个版本，因为你应当**始终**至少准备一台备用的已授权电脑！&#x20;
 {% endhint %}
 
-### Internet connectivity
+### 互联网连接
 
-Liberation's licensing and authorisation works over the internet; the app connects to our server to associate an installation with your subscription.&#x20;
+Liberation 的授权通过互联网完成；应用会连接我们的服务器，将安装与订阅关联。&#x20;
 
-Once your installation is authorised it doesn't need to be online again until your subscription renews. You can see the renewal date in the _About panel._ There is a short grace period (7 days for monthly subscriptions) but it is recommended to go online as soon as possible after the renewal date to make sure your authorisation renews and remains active. &#x20;
+一旦授权完成，除非订阅续订，否则不需要再次联网。你可以在 _About panel_ 中看到续订日期。系统有一个短暂的宽限期（按月订阅为 7 天），但建议在续订后尽快联网，以确保授权及时更新并保持有效。&#x20;

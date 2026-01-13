@@ -1,52 +1,49 @@
-# 🟩 Colour settings and HSB
+# 🟩 颜色设置与 HSB
 
-Colour within Liberation is defined as HSB rather than RGB. This may be unfamiliar to you but I find it to be a much more intuitive system once you get used to it.&#x20;
+Liberation 中的颜色使用 HSB 而不是 RGB。你可能不太熟悉，但一旦习惯就会发现更直观。&#x20;
 
 {% hint style="info" %}
-If you prefer using RGB you can click on the colour square in any colour setting. This opens the colour editor panel which gives you options for RGB and HSB.&#x20;
+如果你更喜欢 RGB，可以点击任意颜色设置中的颜色方块。这会打开颜色编辑面板，可选择 RGB 或 HSB。&#x20;
 {% endhint %}
 
 ### HSB - Hue, Saturation and Brightness
 
 #### Hue &#x20;
 
-The colour hue ranges between 0 and 255. 0 is red, and as you increase the value you'll pass through every hue in the rainbow, orange, yellow, green, cyan, blue, purple, magenta and then back to red at 255.&#x20;
+Hue 的范围是 0 到 255。0 为红色，数值增加会依次经过彩虹的每一种色相：橙、黄、绿、青、蓝、紫、洋红，最后在 255 回到红色。&#x20;
 
-As this is a loop you can use a triangle wave to cycle through every colour.&#x20;
+由于这是一个循环，你可以用三角波在所有颜色间循环。&#x20;
 
 #### Saturation
 
-This setting adjusts the saturation or vividness of your colour. In other words, how _colourful_ it is and ranges from 0 to 255. Set your saturation to 0 for greys, and 255 for full rainbow colours. Somewhere in the middle will give you pastel washed-out colours.&#x20;
+该设置控制颜色的饱和度/鲜艳程度，范围 0 到 255。饱和度设为 0 为灰度，255 为完全饱和，中间值会得到柔和的粉彩色。&#x20;
 
 {% hint style="info" %}
-Apologies to my US friends for the additional vowel in the word colour. Liberation is made in England so British English is the default. In the future I hope to provide translations to French, Spanish, German, Italian, Simplified Chinese, and yes, even US English. :innocent:
+给美国朋友道个歉，color 我这里多了一个 u。Liberation 在英格兰开发，所以默认是英式拼写。未来我希望提供法语、西班牙语、德语、意大利语、简体中文，甚至美式英语的翻译。:innocent:
 {% endhint %}
 
 #### Brightness
 
-Probably the simplest to understand, 0 is completely black, 255 is full brightness.&#x20;
+最容易理解：0 为全黑，255 为最亮。&#x20;
 
-### Example usage
+### 示例
 
-#### Rainbow cycle :&#x20;
+#### 彩虹循环：&#x20;
 
-Set _Brightness_ and _Saturation_ to 255. Connect a _Sawtooth_ oscillator to your _Hue_ socket, and adjust its range from 0 to 255.&#x20;
+将 _Brightness_ 和 _Saturation_ 设为 255。把 _Sawtooth_ oscillator 连接到 _Hue_ socket，并将其范围设为 0 到 255。&#x20;
 
-#### Pulsing brightness :&#x20;
+#### 亮度呼吸：&#x20;
 
-Connect a _Sawtooth_ oscillator to your _Brightness_ socket, and adjust its range from 255 to 0. You can further adjust the clamp min and max to check the duration of the change. And then use the easing functions to further refine the animation.&#x20;
+把 _Sawtooth_ oscillator 连接到 _Brightness_ socket，并将范围设为 255 到 0。你还可以调整 clamp min/max 来控制变化时长，再用 easing functions 细化动画。&#x20;
 
-#### Hard flash / strobe :&#x20;
+#### 硬闪 / 频闪：&#x20;
 
-Select a colour using the _Hue_ and _Saturation_ or by clicking on the colour picker. Connect a _Square Wave_ oscillator your _Brightness_ socket, adjust its range from 255 to 0.&#x20;
+通过 _Hue_ 和 _Saturation_ 或颜色选择器选定颜色。把 _Square Wave_ oscillator 连接到 _Brightness_ socket，将范围设为 255 到 0。&#x20;
 
-#### Cycle across custom range of hues :&#x20;
+#### 在自定义色相范围内循环：&#x20;
 
-Set _Brightness_ and _Saturation_ to 255. Connect a _Triangle Wave_ oscillator to your _Hue_ socket, and adjust its range :&#x20;
+将 _Brightness_ 和 _Saturation_ 设为 255。把 _Triangle Wave_ oscillator 连接到 _Hue_ socket，并设置范围：&#x20;
 
-* for blue to cyan use a range of 70 to 128
-* for red to yellow use a range of 0 to 40
-* for red to magenta use a range of 255 to 220
-
-
-
+* 蓝到青：范围 70 到 128
+* 红到黄：范围 0 到 40
+* 红到洋红：范围 255 到 220

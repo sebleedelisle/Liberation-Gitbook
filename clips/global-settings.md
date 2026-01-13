@@ -1,37 +1,37 @@
-# 🟩 Global transformations
+# 🟩 全局变换
 
-In addition to clip transformations (shift x/y, scale x/y) there are Global Transformations that apply to every clip that you run. Open the _Global Transformations_ panel to see them. (This panel is usually in a tab alongside _Clip Settings_).&#x20;
+除了 Clip 变换（shift x/y、scale x/y）之外，还有作用于所有运行中 Clips 的 Global Transformations。打开 _Global Transformations_ 面板即可查看（该面板通常与 _Clip Settings_ 在同一标签页中）。&#x20;
 
-By default, all of these settings will be reset as soon as there are no clips playing any more. This reset behaviours can be disabled with the _AUTO RESET_ button at the bottom of the _Global Transformations_ panel. &#x20;
+默认情况下，当没有 Clip 运行时这些设置会立即重置。你可以在 _Global Transformations_ 面板底部用 _AUTO RESET_ 按钮关闭此行为。&#x20;
 
 {% hint style="info" %}
-Note that Global Transformations do not affect anything in the canvas, only Beam and DMX zones&#x20;
+注意：Global Transformations 不会影响 Canvas，只作用于 Beam 和 DMX zones。&#x20;
 {% endhint %}
 
 ### Scale X/Y
 
-Horizontal and vertical scale, these values are locked together unless you press SHIFT. By default these are also mapped onto APC40 Device Control knobs 4 and 8 and appear in the panel to the right of the clip deck.
+水平与垂直缩放。除非按住 SHIFT，否则两者联动。默认映射到 APC40 Device Control 旋钮 4 和 8，并显示在 Clip Deck 右侧面板中。
 
 ### Shift X/Y
 
-Horizontal and vertical shift. Translates everything horizontally / vertically.&#x20;
+水平与垂直位移，将全部内容整体平移。&#x20;
 
 ### Spin
 
-Spins all content around the centre. A positive value spin in the clockwise direction, a negative value spins anti-clockwise. You'll see that this setting affects the _Rotation_ transformation. By default this is mapped to the APC40 Device Control knob 3 and appears in the panel to the right of the clip deck.&#x20;
+围绕中心旋转所有内容。正值顺时针，负值逆时针。该设置会影响 _Rotation_ 变换。默认映射到 APC40 Device Control 旋钮 3，并显示在 Clip Deck 右侧面板中。&#x20;
 
 ### Spin 3D
 
-Spins all content around the Y axis (which is a vertical line in the centre).  You'll see that this setting affects the _Rotation3D_ transformation. By default this is mapped to the APC40 Device Control knob 7 and appears in the panel to the right of the clip deck.&#x20;
+围绕 Y 轴（中心垂直线）旋转所有内容。该设置会影响 _Rotation3D_ 变换。默认映射到 APC40 Device Control 旋钮 7，并显示在 Clip Deck 右侧面板中。&#x20;
 
 ### Rotation
 
-A rotation around the centre, value in degrees.&#x20;
+围绕中心旋转，单位为度。&#x20;
 
 ### Rotation 3D
 
-A rotation around the Y axis (which is a vertical line in the centre), value in degrees.&#x20;
+围绕 Y 轴（中心垂直线）旋转，单位为度。&#x20;
 
 ### Auto reset
 
-When turned on, this will reset all of the Global Transformations as soon as all the currently running clips are deactivated. So you can be sure that you won't get any surprises next time you run a clip!&#x20;
+开启后，只要当前运行的所有 Clips 都被关闭，所有 Global Transformations 就会立即重置，确保下次运行时不会出现意外。&#x20;

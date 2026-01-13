@@ -1,30 +1,30 @@
-# 🟩 Overview
+# 🟩 概览
 
-### What is a clip?
+### 什么是 Clip？
 
-All laser content within Liberation is stored inside of clips.
+Liberation 中的所有激光内容都存储在 Clip 中。
 
-Clips can contain atmospheric beam effects or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the clipdeck.
+Clip 可以包含空气光束效果或图形动画，通常以循环方式播放。它们可以输出到任意 Zone（或 Canvas Target Area），并通过 Clip Deck 中的按钮触发。
 
-Clip content is created using the versatile node-based clip editor system. (See [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention") for more details)
+Clip 内容通过灵活的节点式 Clip Editor 系统创建。（详见 [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention")）
 
-### The clip deck
+### Clip Deck
 
-<figure><img src="../.gitbook/assets/clips-clip-deck" alt=""><figcaption><p>The default clip deck</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/clips-clip-deck" alt=""><figcaption><p>默认 Clip Deck</p></figcaption></figure>
 
-The clip deck is the on-screen grid of clips and it usually extends beyond the visible area that you can see.
+Clip Deck 是屏幕上的 Clip 网格，通常会超出你当前可见的区域。
 
-Scroll the clip deck left and right using :
+左右滚动 Clip Deck 的方式：
 
-* The left and right arrow keys
-* Trackpad 2 finger swipe (or mouse scroll left and right if your mouse can do that!)
-* The _Cue Level_ scroll wheel on the APC40
+* 左右方向键
+* 触控板双指左右滑动（或支持横向滚动的鼠标）
+* APC40 上的 _Cue Level_ 滚轮
 
-Scroll the clip deck a full page left and right using :
+整页左右滚动 Clip Deck：
 
-* CMD/CTRL plus the left and right arrow keys
-* The _Device <- and ->_ buttons on the APC40
+* CMD/CTRL + 左右方向键
+* APC40 上的 _Device <- and ->_ 按钮
 
-#### The mini clip visualiser
+#### Mini Clip visualiser
 
-Along the top of the clip deck you will see a small representation of the entire clip deck. The lit up section represents the clips that are currently visible.
+在 Clip Deck 顶部你会看到一个完整 Clip Deck 的小缩略图。亮起的部分表示当前可见的区域。

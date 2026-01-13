@@ -1,13 +1,13 @@
-# ✅ Emergency stop / interlocks
+# ✅ 急停 / 联锁
 
-Powering up your lasers can be fun, but it's critically important that you can also _stop_ them! Laser hardware and software is generally very reliable but anything can fail. And on the rare occasion that it does, you'll be very thankful for that remote stop button.&#x20;
+给激光通电很有趣，但同样关键的是你要能随时 _stop_ 它们！激光硬件和软件通常很可靠，但任何东西都有可能故障。一旦真的出问题，你会非常庆幸自己有那个远程停止按钮。&#x20;
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a Laser Cube. The most important hardware you own. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>LaserCube 的远程停止按钮。你拥有的最重要的硬件。</p></figcaption></figure>
 
 {% hint style="danger" %}
-Power tools and heavy equipment have stop buttons that just interrupt the main power supply, but you should **never** do this on laser equipment! The lasers will always take a moment to stop emitting, and a sudden power outage can cause the laser scanners to hit their extremes. So you are likely to get a strong beam in unexpected places!
+电动工具和重型设备的停止按钮通常是直接切断主电源，但在激光设备上**绝不要**这样做！激光总会需要一点时间才停止出光，而突然断电可能导致扫描器打到极限位置，产生强光束射向意想不到的地方。
 
-That's why lasers have built-in interlock and remote stop systems that disarm and arm the laser controllably.&#x20;
+因此激光设备带有联锁和远程停止系统，用于可控地解锁和锁定激光输出。&#x20;
 {% endhint %}
 
-**Always use remote stop buttons**, even when using your lasers in private controlled spaces. You never know when someone might randomly walk into the path of the laser, or have an unexpected strong beam that starts burning the plasterwork (ask me how I know).&#x20;
+**始终使用远程停止按钮**，即使你在私有且受控的空间使用激光。你永远不知道什么时候有人会突然走入激光路径，或者出现意外强光束开始烧坏墙面（别问我怎么知道的）。&#x20;

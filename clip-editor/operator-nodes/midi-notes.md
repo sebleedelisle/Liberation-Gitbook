@@ -2,35 +2,35 @@
 
 ## &#x20;MIDI notes
 
-Creates “laser harp” style effects where incoming MIDI notes trigger beams or shapes across a range. The node uses whatever content you pass into it as the _source_ for each note - feed it a dot, and you’ll get a row of dots. Feed it a shape like a circle, and you’ll get a row of circles, and more complex shapes will be replicated just the same.
+创建“laser harp”风格的效果：输入的 MIDI 音符会在一段范围内触发光束或形状。该 node 会使用传入的内容作为每个音符的 _source_——如果输入一个点，就会得到一排点；输入圆形，就会得到一排圆形，更复杂的形状也同样复制。
 
-You can choose which MIDI interface Liberation listens to in **Liberation → Settings (CMD/CTRL ,)**
+你可以在 **Liberation → Settings (CMD/CTRL ,)** 中选择 Liberation 监听的 MIDI 接口。
 
-* **midi channel** – which MIDI channel to listen to (0 = all channels, 1–16 = specific channel)
-* **width** – total width that the notes spread across.
-* **midi note min / max** – the lowest and highest MIDI note values in the range.
-* **ignore out of range notes** – filters out any notes beyond the set range. If disabled, out-of-range notes are "clamped" to the nearest available note (high notes trigger the top of the range, low notes trigger the bottom).
-* **auto extend range** – automatically widens the range if notes are played outside of it.
+* **midi channel** – 监听的 MIDI 通道（0 = 所有通道，1–16 = 指定通道）
+* **width** – 音符展开的总宽度。
+* **midi note min / max** – 范围内的最低与最高 MIDI 音符值。
+* **ignore out of range notes** – 过滤超出范围的音符。关闭时，超出范围的音符会被“夹紧”到最近的音符（高音触发上限，低音触发下限）。
+* **auto extend range** – 当演奏超出范围的音符时自动扩展范围。
 
 {% hint style="info" %}
-Not sure what range of notes you’re getting? Switch on **auto extend range**, set **midi note min** really high and **midi note max** really low, then play through your notes. The system will catch them all and expand the range for you. Once you’ve got everything, just turn **auto extend range** off to lock it in.
+不确定自己能弹到哪些音域？打开 **auto extend range**，将 **midi note min** 设得很高、**midi note max** 设得很低，然后演奏你的音符。系统会捕捉并扩展范围。确认后关闭 **auto extend range** 以锁定范围。
 {% endhint %}
 
-* **leave all notes visible** – creates beams or shapes for all notes in the range whether or not they’re playing, giving you a “laser harp” effect.
-* **hit colour** – the colour that appears when a note is triggered.
-* **hit colour hold time** – how long the hit colour stays at full brightness before fading. Value is in seconds (0–1). _100% = 1 second._
-* **hit colour decay time** – how long it takes the hit colour to fade back after the hold time. Value is in seconds (0–1). _100% = 1 second._
+* **leave all notes visible** – 为范围内所有音符创建光束/形状，不管它们是否在播放，从而形成“laser harp”效果。
+* **hit colour** – 音符触发时出现的颜色。
+* **hit colour hold time** – hit colour 保持满亮度的时长。单位为秒（0–1）。_100% = 1 second._
+* **hit colour decay time** – hit colour 在保持后淡回的时间。单位为秒（0–1）。_100% = 1 second._
 
 {% hint style="info" %}
-If your content is already pure white, setting the hit colour to white won’t make any difference. For the best results, use a saturated colour for your content and set the hit colour to white - this gives a really nice flash effect when notes are triggered.
+如果内容本身已经是纯白色，hit colour 设置为白色不会有变化。最佳做法是让内容本身为饱和色，再将 hit colour 设为白色，这样触发时会有很好的闪光效果。
 {% endhint %}
 
-* **note off fade out time** – how long it takes the note to fade after being released. Value is in seconds (0–1). _100% = 1 second._
-* **hit scale factor** – how much the note scales up when triggered (e.g. 2 = double size).
-* **hit scale hold time** – how long the note stays scaled up before shrinking back. Value is in seconds (0–1). _100% = 1 second._
-* **hit scale decay time** – how long it takes for the note to return to its original size. Value is in seconds (0–1). _100% = 1 second._
-* **note off shrink time** – how long it takes to shrink back to original size after the note has been released. Value is in seconds (0–1). _100% = 1 second._ (Has no effect when **leave all notes visible** is enabled.)
+* **note off fade out time** – 音符释放后的淡出时间。单位为秒（0–1）。_100% = 1 second._
+* **hit scale factor** – 音符触发时的缩放倍数（如 2 = 放大一倍）。
+* **hit scale hold time** – 放大后保持的时间。单位为秒（0–1）。_100% = 1 second._
+* **hit scale decay time** – 缩回原大小所需时间。单位为秒（0–1）。_100% = 1 second._
+* **note off shrink time** – 音符释放后缩回原大小所需时间。单位为秒（0–1）。_100% = 1 second._（开启 **leave all notes visible** 时无效。）
 
 {% hint style="info" %}
-Scaling - Note that if your content is a single dot then the scaling will have no effect!
+Scaling - 注意：如果内容是单个点，缩放不会有任何效果！
 {% endhint %}

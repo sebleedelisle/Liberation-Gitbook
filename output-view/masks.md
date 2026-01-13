@@ -1,18 +1,18 @@
 # 🟩 Masks
 
 {% hint style="danger" %}
-**SAFETY NOTICE**&#x20;
+**安全提示**&#x20;
 
-Software masks should NEVER be your only method of protecting humans from the output of a laser. You should always have physical barriers / masking between the laser and any potential human exposure. Consider this system as a secondary level of redundancy or for non-safety critical applications (like protecting cameras or projectors) but remember that any software can fail.&#x20;
+软件 Masks 绝不能作为保护人群免受激光输出的唯一方式。你必须始终在激光与潜在人员暴露之间设置物理屏障/遮挡。请将此系统视为额外冗余或用于非安全关键用途（如保护相机或投影仪），但记住任何软件都有可能失败。&#x20;
 {% endhint %}
 
 ***
 
-You can add one or more virtual masks to remove (or reduce) laser output in specific places.&#x20;
+你可以添加一个或多个虚拟 masks，用于移除（或降低）特定区域的激光输出。&#x20;
 
-Add a mask by clicking on the icon in the toolbar; you'll see a red square appear in the output view and this is your new mask. You can move it around by clicking and dragging, and drag the corners to change its size. If you want a non-uniform shape, press ALT/OPTION while dragging a corner. (Once the mask is non-uniform, you no longer need to press the ALT/OPTION key.)&#x20;
+点击工具栏图标添加 mask；在 Output view 中会出现一个红色方块，这就是新的 mask。你可以点击拖动移动，拖动角点调整大小。如果需要非矩形形状，拖动角点时按住 ALT/OPTION。（当 mask 变为非矩形后，不需要继续按住 ALT/OPTION。）&#x20;
 
-Right click on the mask to see additional settings :&#x20;
+右键点击 mask 可看到更多设置：&#x20;
 
-* Reduction percentage - this represents the power reduction for the laser within the mask. By default it's set to 100%, ie full blackout within the mask. But you can reduce the laser power by any amount that you choose. Note that when it's not a full reduction, the mask changes colour to orange.&#x20;
-* The DELETE MASK button is also in this right click menu.&#x20;
+* Reduction percentage - 表示在该 mask 内的功率衰减比例。默认 100%，即在 mask 内完全熄灭。你也可以设置为任意衰减幅度。注意当不是完全衰减时，mask 会变为橙色。&#x20;
+* 右键菜单中也包含 DELETE MASK 按钮。&#x20;

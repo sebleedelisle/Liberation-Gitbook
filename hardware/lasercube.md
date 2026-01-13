@@ -1,48 +1,45 @@
 # ✅ LaserCube
 
-<figure><img src="../.gitbook/assets/main-image-4.jpg.webp" alt=""><figcaption><p>LaserCube promotional image courtesy of Wicked Lasers</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/main-image-4.jpg.webp" alt=""><figcaption><p>Wicked Lasers 提供的 LaserCube 宣传图</p></figcaption></figure>
 
-The [LaserCube](https://www.laseros.com/lasercube/) by Wicked Lasers is an extremely compact battery powered laser unit available in a number of different power configurations. They're popular with hobbyists because of the easy to use smart phone app, but recent models are capable enough to be used on professional shows.&#x20;
+Wicked Lasers 的 [LaserCube](https://www.laseros.com/lasercube/) 是一款极其紧凑的电池供电激光设备，提供多种功率配置。由于易用的手机应用，它在爱好者中很受欢迎；而较新的型号已经足够强大，可用于专业演出。&#x20;
 
-The phone app (called LaserOS, also available for desktop) is a free download and is great fun to play with and is good enough for most users. But if you're running bigger shows with multiple lasers, you need something more specialised and powerful - and that's where Liberation comes in.&#x20;
+手机应用（名为 LaserOS，也有桌面版）可免费下载，玩法很多，对大多数用户来说足够。但如果你要运行规模更大的、多激光的演出，就需要更专业、更强大的方案——这正是 Liberation 的用武之地。&#x20;
 
-### Connecting to a LaserCube
+### 连接 LaserCube
 
-Early LaserCubes are controlled via USB, but the current models all have a built-in network controller. These network controlled cubes are known as "LaserCube Wifi". Liberation supports both types of LaserCube\* whether connected via USB or on a network.
+早期 LaserCube 通过 USB 控制，但当前型号都内置网络控制器。这些网络控制的设备被称为 “LaserCube Wifi”。Liberation 支持两种 LaserCube，无论通过 USB 还是网络连接都可以。 
 
-\*(LaserCube network protocol support was introduced in version 0.7.3)
+\*(LaserCube network protocol 支持从 0.7.3 版本开始)
 
 ### USB LaserCube
 
-Connect your LaserCube to your computer with a micro USB cable, then look for it in the _Controller Assignment_ panel (See [controller-assignment.md](../setting-up/controller-assignment.md "mention")). If it doesn't show up automatically, hit the _REFRESH_ button.&#x20;
+用 micro USB 线将 LaserCube 连接到电脑，然后在 _Controller Assignment_ 面板中查找它（见 [controller-assignment.md](../setting-up/controller-assignment.md "mention")）。如果没有自动显示，点击 _REFRESH_ 按钮。&#x20;
 
-### Network LaserCube "Wifi"
+### 网络 LaserCube “Wifi”
 
 {% hint style="danger" %}
-Although the "Wifi" cubes are designed to be operated over a wireless network, this is not recommended and you will likely get dropouts and glitches.  Instead use the RJ45 socket to connect your LaserCube to a wired network, just like you would with Ether Dreams.
+虽然 “Wifi” 版设计用于无线网络，但不推荐这样使用，通常会出现掉线和卡顿。请使用 RJ45 接口把 LaserCube 接入有线网络，就像连接 Ether Dream 一样。
 {% endhint %}
 
-Connect your LaserCube to your wired network.&#x20;
+将 LaserCube 连接到有线网络。&#x20;
 
-Put your LaserCube into "LAN Client" mode and make sure there is a router on your network. The LaserCube will get an IP address from your router, and it should then show up in the _Controller Assignment_ panel.  (See [controller-assignment.md](../setting-up/controller-assignment.md "mention")).&#x20;
+把 LaserCube 设置为 “LAN Client” 模式，并确保网络中有路由器。LaserCube 会从路由器获取 IP 地址，随后应会出现在 _Controller Assignment_ 面板中（见 [controller-assignment.md](../setting-up/controller-assignment.md "mention")）。&#x20;
 
 {% hint style="info" %}
-It is possible to set up a network without a router and give all your devices fixed IP addresses, and this is very common in the events industry. Personally I prefer to add a router on the network and recommend this option to anyone less experienced with networking.&#x20;
+你也可以在不使用路由器的情况下搭建网络，并为所有设备分配固定 IP 地址，这在活动行业非常常见。我个人更倾向于在网络中加入路由器，并推荐给不太熟悉网络的人。&#x20;
 
-The router dynamically allocates an IP address to everything, I find it to be simpler and less error prone.
+路由器会为所有设备自动分配 IP，我觉得更简单、更不容易出错。
 {% endhint %}
 
 {% hint style="danger" %}
-Unlike the Ether Dream, _**LaserCubes DO NOT BLANK THE LASER**_ if they encounter a buffer under-run, lost packet or other corrupt / incorrect data.
+与 Ether Dream 不同，_**LaserCubes 在遇到缓冲区欠载、丢包或其他错误/损坏数据时不会消光**_。
 
-Instead, they just carry on from where they left off, and in some cases this can cause a live beam to cross areas that are not within zones, and even worse, will cut across software masks.
+它们会从中断处继续输出，这在某些情况下会导致可见光束穿过不在 Zones 内的区域，更糟的是还可能穿过软件 Masks。
 
-I am talking to the designers/coders of LaserCube and I’m hoping this is something that they address in future with a firmware update but in the meantime, you must ensure that you physically mask anywhere that you don’t want the laser to go.
+我已与 LaserCube 的设计/开发团队沟通，希望未来通过固件更新修复。但在此之前，你必须确保对不希望激光到达的区域进行物理遮挡。
 
-To be fair, you should probably do this anyway, but I myself use software masks for protecting cameras and projectors. So just be aware that it’s more dangerous to do this using the LaserCube network protocol than it is with the Ether Dream (which goes into a safety stop mode as soon as there is any error or missing data).
+公平地说，你可能本来也应该这样做，但我自己会用软件 Masks 来保护相机和投影仪。所以请注意，与 Ether Dream（出现任何错误或丢失数据会立即进入安全停止模式）相比，使用 LaserCube 网络协议时这样做更危险。
 
-Also, I've said it already but **use a wired connection to your LaserCube**. Wifi isn’t gonna cut it and will make this issue even worse.
+另外再强调一次：**务必使用有线连接 LaserCube**。Wifi 不够稳定，只会让问题更严重。
 {% endhint %}
-
-
-

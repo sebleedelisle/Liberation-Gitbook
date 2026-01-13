@@ -1,63 +1,62 @@
 ---
 description: >-
-  Lasers can be dangerous so it's important to follow best practices and safety
-  guidelines. This page is a useful overview that will help you through the
-  process of setting up lasers safely.
+  激光可能具有危险性，因此务必遵循最佳实践和安全规范。本页提供一个
+  有用的概览，帮助你安全完成激光设备的搭建流程。
 ---
 
-# ✅ Laser set up process overview
+# ✅ 激光设置流程概览
 
-### Overview of the process for safely turning on lasers
+### 安全开机流程概览
 
-This manual is not a replacement for formal laser safety training, which you will absolutely need before employing lasers in public. Some territories have additional legal requirements, but either way you should always adhere to best practices of safety and professionalism.&#x20;
+本手册不能替代正式的激光安全培训，你在公开场合使用激光前必须接受培训。有些地区还有额外的法律要求，但无论如何都应始终遵循安全与专业的最佳实践。&#x20;
 
-PLASA have a free downloadable laser safety guide which has been generally accepted as best practice: [https://www.plasa.org/guidance-for-display-lasers/](https://www.plasa.org/guidance-for-display-lasers/)
+PLASA 提供可免费下载的激光安全指南，已被普遍视为最佳实践：[https://www.plasa.org/guidance-for-display-lasers/](https://www.plasa.org/guidance-for-display-lasers/)
 
-Please make sure that you understand the safety implications associated with lasers before use!&#x20;
+在使用前请确保你理解激光相关的安全风险！&#x20;
 
-#### Introduction
+#### 介绍
 
-This page is designed to give you an overview of the process of powering up lasers safely. The details of how exactly to do each step is covered later on in this section, but this page will help you to understand the big picture, and you can return to this later as a reference every time you set up lasers.&#x20;
+本页旨在概览安全开机流程。每一步的具体细节会在本章节后续页面展开，但这里能帮你理解整体思路；每次搭建激光设备时也可回到这里作为参考。&#x20;
 
-<figure><img src="../.gitbook/assets/laser-aperture.jpg" alt=""><figcaption><p>A typical laser aperture cover</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-aperture.jpg" alt=""><figcaption><p>常见的激光出光孔盖</p></figcaption></figure>
 
-### Set up the hardware :&#x20;
+### 硬件搭建：&#x20;
 
-1. **Close the aperture cover** on the laser&#x20;
-2. **Rig the laser securely** and point it in the right direction
-3. **Connect the stop button** to your laser
-4. **Connect the laser controller** to your computer
-5. **Power up** the laser
+1. **关闭出光孔盖**&#x20;
+2. **牢固固定激光** 并指向正确方向
+3. **连接停止按钮** 到激光
+4. **连接激光控制器** 到电脑
+5. **给激光上电**
 
-### Set up Liberation :
+### 设置 Liberation：
 
-1. **Disarm all lasers** and find and connect the controller in Liberation
-2. **Turn the&#x20;**_**Global Brightness**_**&#x20;setting down to 0** (Use the slider in the icon bar or the _Master Fader_ on the APC40)
-3. **Arm the laser** - with the aperture cover still closed, ensure no clips are currently active and arm the laser  (Use the _Arm_ button in the _Laser Overview_ panel)
-4. **Turn on the test pattern** (use the ☒ button in the icon bar, choose pattern 1, the green square with a cross through)
-5. **Adjust the output zone** - make an estimate for the safest zone size and position (for example, this could be right up high into the ceiling but this depends on your particular environment)
-6. **Ensure the laser is working** - slowly bring up the brightness until you can see light behind the aperture window. Then reduce the brightness back down to zero.&#x20;
-7. **Test the stop button** to make sure that all laser output is extinguished when pressed
+1. **Disarm 所有激光**，并在 Liberation 中查找并连接控制器
+2. **将**_**Global Brightness**_** 调到 0**（使用图标栏的滑块或 APC40 的 _Master Fader_）
+3. **Arm 激光**——保持出光孔盖关闭，确保当前没有 clip 在运行，然后 arm 激光（使用 _Laser Overview_ 面板中的 _Arm_ 按钮）
+4. **开启测试图案**（使用图标栏的 ☒ 按钮，选择 pattern 1，即带十字的绿色方块）
+5. **调整输出 Zone** ——估算最安全的 Zone 大小和位置（例如可以投射到更高的天花板，但需根据环境判断）
+6. **确认激光工作正常** ——缓慢提高亮度，直到能从出光孔看到光；随后再将亮度降回 0。&#x20;
+7. **测试停止按钮**，确认按下后所有激光输出都会熄灭
 
-### Starting laser output
+### 开始激光输出
 
-1. **Clear the exposure area** - make sure no one can be exposed to the laser and brief all personnel to stay out of the exposure area while the lasers are being set up. (You should also make sure that any cameras and projectors are covered or have their lens caps on!)
-2. **Open the aperture cover** - while standing to the side and away from output, slide the aperture cover down. If your zones are high up, you may want to leave it partially closed.&#x20;
-3. **Raise the brightness until the laser is barely visible** - make the laser only as bright as necessary to see the zone
-4. **Adjust the zone(s)** - set the zone size, shape and position until it is set 3m from the floor from any publicly accessible areas, and the laser doesn't reach any other publicly accessible areas
-5. **Add physical masking** - use the aperture cover and/or black foil tape to physically mask anywhere outside of the desired zone. This is critically important as any laser hardware or software can malfunction.&#x20;
-6. **Add software masks** - the software masks within Liberation can be used to protect cameras and projectors, but should **never** be used in place of physical masking for protecting humans. Note that no software or hardware is infallible so make sure you understand the risks before using software masks.&#x20;
+1. **清空曝光区域** ——确保无人会暴露在激光下，并告知所有人员在设置过程中远离曝光区域。（也要确保相机和投影仪已遮挡或加上镜头盖！）
+2. **打开出光孔盖** ——站在侧面远离输出，向下滑动孔盖。如果你的 Zones 在高处，可以只部分打开。&#x20;
+3. **提高亮度直到激光刚好可见** ——只将激光调到足以看清 Zone 的程度
+4. **调整 Zone** ——设置 Zone 的大小、形状和位置，使其在任何可接近的公共区域保持离地 3m，并且激光不会到达其他公共区域
+5. **添加物理遮挡** ——使用出光孔盖和/或黑色遮光胶带对目标 Zone 之外的区域进行物理遮挡。这一点极其重要，因为任何激光硬件或软件都可能故障。&#x20;
+6. **添加软件 Masks** ——Liberation 的软件 Masks 可用于保护相机和投影仪，但**绝不要**代替物理遮挡来保护人员。请注意，没有任何软件或硬件是绝对可靠的，在使用软件 Masks 前务必理解风险。&#x20;
 
 {% hint style="warning" %}
-Note that this guide assumes an indoor set up. If you are working outdoors, additional steps must be taken to ensure aircraft safety, including but not limited to :&#x20;
+注意：本指南假设为室内设置。如果在户外作业，需要额外步骤确保航空安全，包括但不限于：&#x20;
 
-* Getting necessary permissions from aviation authorities such as FAA or CAA&#x20;
-* Liaising with nearby airports and airfields
-* Checking public flight radar and also assigning a spotter to watch out for aircraft
+* 获得 FAA 或 CAA 等航空监管机构的必要许可&#x20;
+* 与附近机场和空管单位协调
+* 检查公共航班雷达，并安排观察员关注空中飞行器
 
-Lasers that are well below the safety threshold can still cause catastrophic distractions for pilots.&#x20;
+即使激光远低于安全阈值，也可能对飞行员造成严重干扰。&#x20;
 
-Make sure you have the necessary qualifications, licenses and permissions before directing any lasers into airspace.&#x20;
+在将激光指向空域之前，请确保具备必要资质、许可和批准。&#x20;
 {% endhint %}
 
 

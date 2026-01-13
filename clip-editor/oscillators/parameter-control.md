@@ -2,12 +2,12 @@
 
 ## <img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" data-size="line">  Parameter Control
 
-The _Parameter Control_ is a method for controlling various settings within a effect or a clip outside of the clip editor.
+_Parameter Control_ 用于在 Clip Editor 之外控制某个 effect 或 Clip 的参数。
 
-* **range min / range max** - the minimum and maximum values the parameter level is mapped onto
-* **level** - the default setting for this parameter. This is the value that can be changed from the outside. You can manually adjust it to see the effect it will have.
-* **parameter number** - every _parameter control_ can be assigned a number, and this is reflected on the controls outside of the clip. You can have more than one parameter control with the same number, and they are all adjusted at the same time.
+* **range min / range max** - 参数电平映射的最小与最大值
+* **level** - 该参数的默认值。外部控制会改变这个值，你也可以手动调整以预览效果。
+* **parameter number** - 每个 _parameter control_ 都可以分配编号，该编号会显示在 Clip 外部的控制项上。你可以让多个 parameter control 使用相同编号，它们会同步调整。
 
 {% hint style="warning" %}
-Currently only parameter 1 of an effect is available to control with the APC40. All parameters within effects and clips are available in the right click menu. In the future more of these parameters will be mappable with MIDI controllers.
+目前只有 effect 的 parameter 1 能通过 APC40 控制。effects 与 Clips 的所有参数都可在右键菜单中使用。未来会支持更多参数映射到 MIDI 控制器。
 {% endhint %}

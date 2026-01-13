@@ -1,124 +1,124 @@
-# 🟩 Position based changers
+# 🟩 基于位置的变换
 
-This family of nodes modifies content according to position. By default, the effect is applied along a horizontal axis (left to right), but you can rotate this axis to any angle. Each node also includes a _radial_ mode, where the effect is driven by the angle of each point relative to the centre.
+这一类 nodes 会根据位置来修改内容。默认效果沿水平轴（从左到右）应用，但你可以将该轴旋转到任意角度。每个 node 还包含 _radial_ 模式，效果由点相对于中心的角度驱动。
 
-* **Colour Changer by Position** – shifts colours across the chosen axis or around the radial angle.\
-  \&#xNAN;_Example: Create a rainbow gradient sweeping across a line, or use radial mode on a circle to produce a colour wheel effect._
-* **Wave Shift by Position** – applies a sine wave distortion, offsetting the content vertically (or perpendicular to the chosen axis).\
-  \&#xNAN;_Example: Make a line ripple like water, or use radial mode to make a circle pulse outward from the centre._
-* **Noise Shift by Position** – applies a simplex noise distortion, offsetting the content vertically (or perpendicular to the chosen axis).\
-  \&#xNAN;_Example: see Wave Shift example, but with a more organic and random character, perfect for adding natural variation._
+* **Colour Changer by Position** – 沿所选轴或径向角度改变颜色。\
+  _示例：让彩虹渐变沿线扫过，或在圆形上使用径向模式形成色环。_
+* **Wave Shift by Position** – 应用正弦波形扭曲，使内容在垂直方向（或所选轴的垂直方向）偏移。\
+  _示例：让线条像水面一样起伏，或使用径向模式让圆形从中心向外脉动。_
+* **Noise Shift by Position** – 应用 simplex 噪声扭曲，使内容在垂直方向（或所选轴的垂直方向）偏移。\
+  _示例：类似 Wave Shift，但更自然随机，适合加入有机变化。_
 
 ## &#x20;Colour change by position
 
-This node applies colour changes across your content based on position. By default, the axis is horizontal (0°), but you can rotate it or switch into radial mode.
+该 node 会根据位置在内容上应用颜色变化。默认轴为水平（0°），你可以旋转或切换到径向模式。
 
-* **wavelength** – sets the size of the repeating colour cycle.
-  * _Linear mode:_ at 100%, one full cycle spans the full width of the content.
-  * _Radial mode:_ at 100%, one full cycle spans the full circle (360°). Values are percentages of the circle: e.g. 50% = half a circle (180°).
-* **offset** – shifts the starting point of the colour cycle, as a percentage of the wavelength. You can modulate this (e.g. with a sawtooth oscillator) to cycle smoothly through colours.
-* **repeat** – when enabled, the cycle repeats across the content. If disabled, the gradient is applied once only: everything before the start is the start colour, everything after the end is the end colour.
-* **pingpong** – when enabled, each repeat alternates in direction, creating a mirrored effect. If _Repeat_ is disabled, the gradient goes forward then back once. _Note: in Pingpong mode the wavelength covers both the forward and return sweep._
-* **linear angle** – rotates the axis of the effect. 0° = horizontal.
-* **radial** – switches to radial mode, applying colours based on the angle from the centre.
-* **radial smooth loop** – automatically adjusts the wavelength so it divides evenly into 100% of the circle, preventing a visible seam where the cycle wraps.
+* **wavelength** – 设置重复颜色周期的长度。
+  * _Linear mode:_ 100% 时，一个完整周期覆盖内容的全宽。
+  * _Radial mode:_ 100% 时，一个完整周期覆盖整个圆（360°）。数值为圆周百分比，例如 50% = 半圈（180°）。
+* **offset** – 按 wavelength 百分比偏移颜色周期起点。可调制该值（例如用 sawtooth oscillator）以平滑循环颜色。
+* **repeat** – 开启后在内容上重复周期；关闭则只应用一次渐变：起点之前都是起始色，终点之后都是结束色。
+* **pingpong** – 开启后，每次重复都会反向交替，形成镜像效果。若 _Repeat_ 关闭，则渐变仅前后往返一次。_注意：Pingpong 模式下，wavelength 覆盖前进与回程。_
+* **linear angle** – 旋转效果轴，0° 为水平。
+* **radial** – 切换到径向模式，根据角度应用颜色。
+* **radial smooth loop** – 自动调整 wavelength 以整除圆周的 100%，避免循环处出现明显接缝。
 
 **Colour Modes**
 
-These determine which aspects of the colour adjustments are applied to the content. See also: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+这些设置决定颜色调整的哪些部分会作用于内容。另见 [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")。
 
 * **hue mode**
-  * _OFF_ – hue is unchanged.
-  * _FIXED_ – hue is forced to a fixed value.
-  * _SHIFTED_ – hue is offset by the specified amount (different coloured elements remain distinct, but are shifted around the colour wheel together).
+  * _OFF_ – 不改变 hue。
+  * _FIXED_ – hue 固定为指定值。
+  * _SHIFTED_ – hue 按指定量偏移（不同颜色仍保持差异，但会一起绕色环移动）。
 * **saturation mode**
-  * _OFF_ – saturation is unchanged.
-  * _FIXED_ – saturation is set to the specified value.
+  * _OFF_ – saturation 不变。
+  * _FIXED_ – saturation 固定为指定值。
 * **brightness mode**
-  * _OFF_ – brightness is unchanged.
-  * _FIXED_ – brightness is set to the specified value.
-  * _MULTIPLY_ – brightness is scaled by the specified value. This preserves dynamics (e.g. flashing elements still flash, but within the limited brightness range).
+  * _OFF_ – brightness 不变。
+  * _FIXED_ – brightness 固定为指定值。
+  * _MULTIPLY_ – brightness 与指定值相乘，保留动态（例如闪烁仍闪烁，但亮度受限制）。
 
 **Start / End Values**
 
-These sliders define the colour range applied across the chosen axis (or radial sweep).
+这些滑块定义所选轴（或径向扫过）的颜色范围。
 
-* **start hue** – the hue at the beginning of the gradient.
-* **end hue** – the hue at the end of the gradient.
-* **start saturation** – saturation at the beginning.
-* **end saturation** – saturation at the end.
-* **start brightness** – brightness at the beginning.
-* **end brightness** – brightness at the end.
-* **blend** – mixes the colour change with the original colours. At 100%, the effect fully replaces the original colours.
+* **start hue** – 渐变起点的 hue。
+* **end hue** – 渐变终点的 hue。
+* **start saturation** – 起点 saturation。
+* **end saturation** – 终点 saturation。
+* **start brightness** – 起点 brightness。
+* **end brightness** – 终点 brightness。
+* **blend** – 将颜色变化与原始颜色混合。100% 时完全替换原色。
 
-**Example 1: Sliding Rainbow Gradient**
+**示例 1：滑动彩虹渐变**
 
-Starting with default settings :
+从默认设置开始：
 
-1. Leave the node in **Linear** mode (0° angle = horizontal).
-2. Leave **wavelength** at 100% (spans the full width, and should be the default).
-3. Leave the start and end values as default.
-4. Enable **repeat**.
-5. Add a **Sawtooth Oscillator** to the **offset** setting that goes from 0% to 100%.
-
-***
-
-**Example 2: Black–White–Black Gradient (Pingpong)**
-
-Starting with default settings :
-
-1. Leave the node in **Linear** mode (0° angle = horizontal).
-2. Leave **wavelength** at 100% (spans the full width, and should be the default).
-3. Turn **repeat** off.
-4. Set **start brightness** to 0 (black).
-5. Set **end brightness** to 100 (white).
-6. Set **start saturation** and **end saturation** to 0 (converts to greyscale).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Enable **pingpong**.
-
-_Result: the gradient fades from black to white, then back to black across the width._\
-Note that if you want the content to keep its hue and saturation, turn OFF Saturation mode. \\
+1. 保持 **Linear** 模式（0° = 水平）。
+2. **wavelength** 设为 100%（覆盖全宽，默认值）。
+3. 保持起始/结束值为默认。
+4. 启用 **repeat**。
+5. 将 **Sawtooth Oscillator** 连接到 **offset**，范围设为 0% 到 100%。
 
 ***
 
-**Example 3: Rotating Rainbow Wheel (Radial)**
+**示例 2：黑-白-黑渐变（Pingpong）**
 
-1. Enable **radial** mode.
-2. Set **wavelength** to 100% (a full 360° sweep).
-3. Turn **repeat** on.
-4. Add a **Sawtooth Oscillator** to the **offset** setting that goes from 0% to 100%.
+从默认设置开始：
 
-_Result: a seamless colour wheel that continuously rotates around the circle._
+1. 保持 **Linear** 模式（0° = 水平）。
+2. **wavelength** 设为 100%（覆盖全宽，默认值）。
+3. 关闭 **repeat**。
+4. **start brightness** 设为 0（黑）。
+5. **end brightness** 设为 100（白）。
+6. **start saturation** 与 **end saturation** 设为 0（转为灰度）。
+7. **hue mode** 设为 OFF。
+8. **saturation mode** 设为 FIXED。
+9. **brightness mode** 设为 FIXED。
+10. 启用 **pingpong**。
+
+_结果：渐变从黑到白，再从白回黑。_\
+注意：如果想保留原有 hue 与 saturation，请关闭 Saturation mode。
+
+***
+
+**示例 3：旋转彩虹轮（Radial）**
+
+1. 启用 **radial** 模式。
+2. **wavelength** 设为 100%（完整 360°）。
+3. 打开 **repeat**。
+4. 将 **Sawtooth Oscillator** 连接到 **offset**，范围设为 0% 到 100%。
+
+_结果：无缝旋转的色轮。_
 
 ## &#x20;Wave shift by position
 
-This node applies a wave distortion across your content, shifting points perpendicular to the chosen axis (or radially from the centre).
+该 node 在内容上应用波形扭曲，使点沿所选轴的垂直方向（或径向）偏移。
 
-* **Wavelength** – sets the length of the wave cycle.
-  * _Linear mode:_ at 100%, one full cycle spans the full width of the content.
-  * _Radial mode:_ at 100%, one full cycle spans the full 360°. (Values are percentages of the circle: 50% = half a turn, 25% = quarter turn, etc.)
-* **Size** – controls the amplitude of the wave (how far the content is displaced).
-* **Offset** – shifts the wave along the axis (or around the circle in radial mode). This is a percentage of the wavelength, so you can animate it with an **Oscillator Node** to make the wave travel.
-* **Radial** – switches from linear to radial mode, so displacement is based on the angle from the centre.
-* **Radial Smooth Loop** – adjusts the wavelength so it divides evenly into 100% of the circle, preventing visible seams at the wrap.
-* **Triangle** – changes the waveform shape from sine to triangle.
-* **Absolute** – takes the absolute value of the wave, creating only upward displacements (folding the negative side over the positive).
-* **Angle** – rotates the axis of the wave. 0° = horizontal.
+* **Wavelength** – 设置波形周期长度。
+  * _Linear mode:_ 100% 时一个完整周期覆盖内容全宽。
+  * _Radial mode:_ 100% 时一个完整周期覆盖 360°（数值为圆周百分比：50% 半圈、25% 四分之一圈等）。
+* **Size** – 控制波形振幅（位移大小）。
+* **Offset** – 沿轴（或径向）偏移波形，为 wavelength 的百分比。可用 **Oscillator Node** 动画化，使波形“流动”。
+* **Radial** – 切换为径向模式，根据角度位移。
+* **Radial Smooth Loop** – 调整 wavelength 使其整除圆周的 100%，避免循环接缝。
+* **Triangle** – 将波形从正弦变为三角。
+* **Absolute** – 取波形绝对值，仅产生单向位移（将负半周期折叠到正向）。
+* **Angle** – 旋转波形轴，0° 为水平。
 
 ## &#x20;Noise shift by position
 
-This node distorts content using a noise field (like turbulence), shifting points perpendicular to the chosen axis (or radially from the centre). Compared to _Wave Shift_, the result is more organic and random.
+该 node 使用噪声场（类似湍流）扭曲内容，使点沿所选轴的垂直方向（或径向）偏移。与 _Wave Shift_ 相比，效果更有机、更随机。
 
-* **Detail** – controls how fine the noise is. Higher values = sharper, more detailed variation. Lower values = smoother variation.
-* **Wavelength** – sets the scale of the noise pattern.
-  * _Linear mode:_ at 100%, one full cycle of noise spans the width of the content.
-  * _Radial mode:_ at 100%, one full cycle spans the full 360°.
-* **Size** – controls the displacement amount (amplitude of the noise distortion).
-* **Offset** – shifts the noise pattern along the axis (or around the circle). This is a percentage of the wavelength, so you can animate it with an **Oscillator Node** to make the noise “flow.”
-* **Depth Offset** – moves through the 3D noise field, creating variation over time. This is especially effective when animated with an Oscillator Node.
-* **Depth Detail** – controls how detailed the variation is across the depth dimension.
-* **Absolute** – takes the absolute value of the noise, folding negative values into positives (producing only one-sided displacement).
-* **Radial** – switches from linear to radial mode, so displacement is based on angle from the centre.
-* **Radial Smooth Loop** – adjusts wavelength so it divides evenly into 100% of the circle, preventing visible seams in radial mode.
+* **Detail** – 控制噪声细节程度。值越高越细碎，越低越平滑。
+* **Wavelength** – 设置噪声图案尺度。
+  * _Linear mode:_ 100% 时一个完整噪声周期覆盖内容全宽。
+  * _Radial mode:_ 100% 时一个完整周期覆盖 360°。
+* **Size** – 位移幅度（噪声扭曲强度）。
+* **Offset** – 沿轴（或径向）偏移噪声图案，为 wavelength 的百分比。可用 **Oscillator Node** 动画化，使噪声“流动”。
+* **Depth Offset** – 在 3D 噪声场中移动，产生时间变化。用 Oscillator Node 动画化时效果尤佳。
+* **Depth Detail** – 控制深度维度上的变化细节。
+* **Absolute** – 取噪声绝对值，将负值折叠为正值（产生单向位移）。
+* **Radial** – 切换为径向模式，根据角度位移。
+* **Radial Smooth Loop** – 调整 wavelength 使其整除圆周的 100%，避免径向模式的可见接缝。

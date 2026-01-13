@@ -1,2 +1,1 @@
-# 🟩 Clips & Clip deck
-
+# 🟩 Clips & Clip Deck

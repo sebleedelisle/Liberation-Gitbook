@@ -1,22 +1,22 @@
-# ✅ Copy settings between lasers
+# ✅ 在激光之间复制设置
 
-Click on the _COPY LASER SETTINGS_ button in _Laser Output_ and a new panel will open.&#x20;
+在 _Laser Output_ 中点击 _COPY LASER SETTINGS_ 按钮，会打开一个新面板。&#x20;
 
-This is an incredibly useful and time saving feature for quickly copying zones and other settings from one laser to the others.&#x20;
+这是一个非常实用且省时的功能，可快速将 zones 和其他设置从一台激光复制到其他激光。&#x20;
 
-Make sure you have selected the laser you want to copy settings _from._&#x20;
+确保已选中你要 _from_ 的源激光。&#x20;
+
+选择你要 _to_ 的目标激光。（如果激光很多，可使用 _ALL_ 与 _NONE_ 以加快操作）
 
 <figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Output.png" alt="" width="326"><figcaption></figcaption></figure>
 
-Toggle on all the other lasers you want to copy settings _to_. (Use _ALL_ and _NONE_ to make this quicker if you have a lot of lasers)
-
 <figure><img src="../../.gitbook/assets/Copy Laser Settings Details.png" alt="" width="293"><figcaption></figcaption></figure>
 
-Select which settings you want to copy :&#x20;
+选择要复制的设置：&#x20;
 
-* **Copy output zone positions&#x20;**_**-**_ copies the zone positions / size / type from one laser to the others. Note that it copies the zones in order, so laser 1 zones 1 and 9 will be copied to laser 2 zones 2 and 10. Alt zones will also be copied.&#x20;
-* **Copy scanner / speed settings** - copies the scanner speed and scanner preset but _not_ _Colour shift._
-* **Copy colour settings -** copies all of the colour calibration settings
-* **Copy advanced settings -** includes point rate, smooth home position, target frame rate and all the other advanced settings.&#x20;
+* **Copy output zone positions&#x20;**_**-**_ 复制 zone 的位置/大小/类型到其他激光。注意复制按顺序进行，所以激光 1 的 zones 1 和 9 会复制到激光 2 的 zones 2 和 10。Alt zones 也会复制。&#x20;
+* **Copy scanner / speed settings** - 复制扫描器速度和扫描器预设，但 _不_ 复制 _Colour shift_。
+* **Copy colour settings -** 复制所有颜色校准设置
+* **Copy advanced settings -** 包含点率、smooth home position、target frame rate 及所有其他高级设置。&#x20;
 
-When you've made your selection click the _COPY SETTINGS_ button to complete the process.&#x20;
+完成选择后点击 _COPY SETTINGS_ 按钮即可。&#x20;

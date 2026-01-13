@@ -1,74 +1,74 @@
-# ✅ Compatible lasers and controllers (DACs)
+# ✅ 兼容的激光与控制器（DAC）
 
-### Which lasers are compatible with Liberation?
+### 哪些激光与 Liberation 兼容？
 
-If your laser has a standard ILDA input then you can use it with Liberation (along with a compatible laser controller such as the Ether Dream or Helios DAC - [see full list below](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)).
+如果你的激光具备标准 ILDA 输入，就可以与 Liberation 一起使用（需搭配兼容的激光控制器，如 Ether Dream 或 Helios DAC——[完整列表见下方](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)）。
 
-<figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>The Helios DAC - the cheapest option for home use</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - 家用最便宜的选择</p></figcaption></figure>
 
-You do not need an external controller or an ILDA input if :
+以下情况无需外部控制器或 ILDA 输入：
 
-* Your laser has Ether Dream installed inside, or;
-* You have a LaserCube from Wicked Lasers, or;
-* You have an X-Laser fixture with Mercury built in, or;&#x20;
-* You have a Laser Animation Sollinger laser with an AVB controller built-in (currently in testing on MacOS only)
+* 你的激光内部安装了 Ether Dream，或
+* 你使用 Wicked Lasers 的 LaserCube，或
+* 你使用内置 Mercury 的 X-Laser 设备，或&#x20;
+* 你使用内置 AVB 控制器的 LaserAnimation Sollinger 激光（目前仅 MacOS，处于测试阶段）
 
 {% hint style="info" %}
-#### What is a laser controller?
+#### 什么是激光控制器？
 
-A laser controller (or DAC) is a hardware device that can take the digital data from Liberation and convert it to the analog signals that are required to control the scanners and output of your laser. (Hence DAC: Digital to Analog Converter.)
+激光控制器（或 DAC）是一种硬件设备，用于接收来自 Liberation 的数字数据并转换成控制扫描器与激光输出所需的模拟信号。（因此 DAC：Digital to Analog Converter。）
 
-The controller connects to your computer via USB or over a standard computer network; it will either be an external device, or installed inside the laser.
+控制器通过 USB 或标准网络连接到电脑；它可能是外置设备，也可能安装在激光内部。
 
-If it's external, you connect it to your laser via the ILDA connection. ILDA is an industry standard that uses an old school 25 pin 'D' connector. Get yourself an ILDA cable, plug one end into the controller, and the other into the laser.
+如果是外置设备，就通过 ILDA 连接到激光。ILDA 是行业标准，使用老式 25 针 D 形接口。准备一根 ILDA 线，一端接控制器，另一端接激光。
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/etherdream-ilda.png" alt="" width="375"><figcaption><p>The ILDA output on an external Ether Dream</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/etherdream-ilda.png" alt="" width="375"><figcaption><p>外置 Ether Dream 上的 ILDA 输出</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/opt-laser-rear.jpg" alt="" width="317"><figcaption><p>The rear panel of a laser showing the various connections, including the ILDA input</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/opt-laser-rear.jpg" alt="" width="317"><figcaption><p>激光后面板，含 ILDA 输入等多种接口</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/ilda-cable.jpg" alt="" width="375"><figcaption><p>A standard ILDA cable</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ilda-cable.jpg" alt="" width="375"><figcaption><p>标准 ILDA 线</p></figcaption></figure>
 
-### Which controller is best for me?
+### 哪种控制器最适合我？
 
-If you are a home user, or run small shows with 4 or fewer lasers that are close to the computer, then USB controllers like the **Helios DAC** are the **most affordable** option.
+如果你是家庭用户，或运行少于 4 台且距离电脑较近的小型演出，USB 控制器如 **Helios DAC** 是**最实惠**的选择。
 
-Network DACs like the **Ether Dream** are the **best option for professional** laserists who are happy to set up a network and want to run a large number of lasers; all of the large Liberation shows so far have been run on Ether Dreams.
+网络 DAC 如 **Ether Dream** 是专业激光师的**最佳选择**，适合搭建网络并运行大量激光；目前大型的 Liberation 演出几乎都在使用 Ether Dream。
 
-If you have a **LaserCube** then you don't need a separate laser controller at all - Liberation is compatible with all LaserCubes. The earlier models connect with a USB cable, and the newer models connect over a network.
+如果你有 **LaserCube**，就不需要单独的激光控制器——Liberation 与所有 LaserCube 兼容。早期型号通过 USB 连接，新型号通过网络连接。
 
-If you are a professional looking for the easiest option, then consider X-Laser units with Mercury built in or Laser Animation Sollinger lasers that use AVB.&#x20;
+如果你是专业用户且想要最省事的方案，可考虑内置 Mercury 的 X-Laser 设备，或使用 AVB 的 LaserAnimation Sollinger 激光。&#x20;
 
-### Compatible laser controllers
+### 兼容的激光控制器
 
-#### Ether Dream (Network)
+#### Ether Dream（网络）
 
-The [Ether Dream](https://ether-dream.com) has been around for over ten years and is currently at version 4 (although Liberation also works with Ether Dream version 1, 2, and 3). They are extremely reliable.
+[Ether Dream](https://ether-dream.com) 已经存在十多年，目前版本为 4（Liberation 也支持 Ether Dream 1、2、3 版）。它们非常可靠。
 
-You connect to them over a standard network. They can be bought as standalone units, or even better, can be fitted inside lasers.
+通过标准网络连接。可以作为独立设备购买，也可以安装在激光内部。
 
-#### Helios (USB)
+#### Helios（USB）
 
-[Helios](https://bitlasers.com/helios-laser-dac/) is the best option for beginners and they are cheaper than Ether Dreams, but as they connect over USB, it's not recommended for long cable runs. Also you may have USB data and driver issues once you connect to more than 4 (especially on Windows).
+[Helios](https://bitlasers.com/helios-laser-dac/) 是入门级最佳选择，价格比 Ether Dream 更低，但由于通过 USB 连接，不建议使用长距离线缆。连接超过 4 台时也可能出现 USB 数据或驱动问题（尤其在 Windows 上）。
 
-But if you just want to run a couple of lasers at home, it's the cheapest and simplest option.
+如果你只是想在家里运行一两台激光，这是最便宜也最简单的选择。
 
-#### Mercury (Built-in to X-Laser units)
+#### Mercury（内置于 X-Laser 设备）
 
-[**Mercury**](https://x-laser.com/pages/mercury-laser-control-system) is X-Laser’s powerful DMX laser control system, designed for lighting designers who want to run lasers directly from a traditional lighting console. With the latest firmware update, Mercury also includes **Ether Dream emulation**, which means it now works seamlessly with Liberation - as well as any other software that supports Ether Dream.
+[**Mercury**](https://x-laser.com/pages/mercury-laser-control-system) 是 X-Laser 的强大 DMX 激光控制系统，面向希望直接从传统灯光控制台运行激光的灯光设计师。通过最新固件更新，Mercury 还包含 **Ether Dream emulation**，因此可以与 Liberation（以及任何支持 Ether Dream 的软件）无缝配合。
 
-#### AVB (Built into Laser Animation Sollinger units)
+#### AVB（内置于 LaserAnimation Sollinger 设备）
 
-**AVB** is an open network-based protocol for high-performance, low-latency audio and data streaming. Many LaserAnimation Sollinger projectors include AVB support directly in the hardware, which allows Liberation to connect to them over the network without the need for external DACs. AVB support in Liberation is currently **MacOS-only and in testing**, and it requires **compatible AVB-enabled network devices**. When set up correctly, it offers a simpler workflow, fewer external devices, and robust reliability for professional shows. I
+**AVB** 是一种基于网络的开放协议，用于高性能、低延迟的音频和数据传输。许多 LaserAnimation Sollinger 投影器在硬件中直接支持 AVB，使 Liberation 能通过网络连接它们而无需外置 DAC。Liberation 中的 AVB 支持目前**仅限 MacOS 且处于测试阶段**，并且需要**兼容 AVB 的网络设备**。正确设置后，它能提供更简化的工作流、更少的外部设备，并且可靠性更强。
 
-#### Controllers that will be supported in the future :
+#### 未来将支持的控制器：
 
-* [IDN](http://www.ilda-digital.com) (an open network protocol from ILDA, can be implemented by any manufacturer)
+* [IDN](http://www.ilda-digital.com)（ILDA 的开放网络协议，可由任意厂商实现）
 
-### Cabling suggestions
+### 线缆建议
 
-For optimal performance, keep USB DACs near your computer and connect them to the lasers using longer ILDA cables. (Although watch out as ILDA cables can act as a grappling hook during de-rigging!)
+为获得最佳性能，尽量把 USB DAC 放在电脑附近，使用更长的 ILDA 线连接激光。（不过要注意：拆装时 ILDA 线可能像“抓钩”一样容易勾到东西！）
 
-If you're using Ether Dreams you can still keep them all together and connect to the lasers using long ILDA cables, or you can rig them close to the lasers, and use longer network cables.
+如果使用 Ether Dream，你可以将它们集中放置并用长 ILDA 线连接激光；或将它们安装在激光附近，改用更长的网线。
 
-The ideal set up is to have Ether Dreams (or other controllers) installed directly inside your lasers (Rob at Stanwax Laser will do this for you in the UK)
+理想的设置是将 Ether Dream（或其他控制器）直接安装在激光内部（英国的 Stanwax Laser 的 Rob 可以帮你完成）。

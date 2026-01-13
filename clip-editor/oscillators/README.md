@@ -1,3 +1,3 @@
 # 🟩 Oscillator nodes
 
-Oscillators have the job of changing a value over time, and can be plugged into any _property socket_ on another node.&#x20;
+Oscillator 的作用是随时间改变数值，并可连接到其他 node 的 _property socket_。&#x20;

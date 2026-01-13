@@ -1,45 +1,45 @@
-# ✅ Authorising and de-authorising
+# ✅ 授权与取消授权
 
-### Authorising Liberation
+### 授权 Liberation
 
-When you open Liberation for the first time, it'll run in _demo mode_ and you'll see the _About panel:_
+首次打开 Liberation 时会以 _demo mode_ 运行，你会看到 _About panel_：
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Click on the _AUTHORISE ONLINE_ button and your web browser will open. If you are not already logged in, you will be prompted to do so now.&#x20;
+点击 _AUTHORISE ONLINE_ 按钮，浏览器会打开。如果你尚未登录，会提示你先登录。&#x20;
 
-The system will now automatically authorise your installation with your subscription, and you'll see this message:
+系统会自动将你的安装与订阅关联完成授权，并显示如下消息：
 
 <figure><img src="../.gitbook/assets/authorisation-machine-added" alt=""><figcaption></figcaption></figure>
 
-When you return to Liberation you'll see the _About panel_ has updated (you may have to wait a few seconds).&#x20;
+返回 Liberation 后，你会看到 _About panel_ 已更新（可能需要等待几秒）。&#x20;
 
 <figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-If you have already authorised the maximum number of computers for your subscription, you will need to deauthorise one of your other machines or upgrade your subscription.&#x20;
+如果你的订阅已达到可授权电脑的上限，需要先取消其他电脑的授权，或升级订阅。&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-If you have multiple subscriptions, you will be prompted to choose the subscription that you want to assign the computer.&#x20;
+如果你有多个订阅，系统会提示你选择要分配给这台电脑的订阅。&#x20;
 {% endhint %}
 
-Congratulations! Your Liberation install has now been authorised and you can output to lasers! But please read the [getting-started.md](../basics/getting-started.md "mention")and [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") before arming your lasers.&#x20;
+恭喜！你的 Liberation 安装已授权，现在可以输出到激光设备了。但在 arm 激光之前，请先阅读 [getting-started.md](../basics/getting-started.md "mention") 和 [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")。&#x20;
 
 {% hint style="info" %}
-You can open the _About panel_ at any time via the menu _Liberation -> About Liberation_ or  _Liberation -> Authorise/Deauthorise this computer_
+你可以随时通过菜单 _Liberation -> About Liberation_ 或 _Liberation -> Authorise/Deauthorise this computer_ 打开 _About panel_。
 {% endhint %}
 
-### De-authorising Liberation
+### 取消 Liberation 授权
 
-**From within Liberation** - Open the menu _Liberation -> Authorise / De-authorise this Computer_ and click the _DEAUTHORISE COMPUTER_ button. That's it! You need to be online for this to work.
+**在 Liberation 内操作**：打开菜单 _Liberation -> Authorise / De-authorise this Computer_，点击 _DEAUTHORISE COMPUTER_ 按钮即可。此操作需要联网。
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
 
-Alternatively you can do this from the website - Select _Your subscriptions_ from the menu, and then click _Manage Subscription_ to open your subscription page. You should see information about your subscription and a list of the computers you have authorised.
+也可以在网站上操作：在菜单中选择 _Your subscriptions_，然后点击 _Manage Subscription_ 打开订阅页面。你会看到订阅信息和已授权的电脑列表。
 
-Click the _De-authorise_ link next to the machine you want to de-authorise
+点击要取消授权的电脑旁边的 _De-authorise_ 链接。
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.16.40.png" alt=""><figcaption></figcaption></figure>
 
-If your machine hasn't been online since your last renewal it will be deauthorised immediately. If not, then the machine is _queued_ for deauthorisation. This means that deauthorisation will automatically happen next time the machine is connected to the internet, or on your next renewal date, whichever happens first.&#x20;
+如果该电脑自上次续订以来没有联网，会立即取消授权。否则会进入 _queued_ 状态，等该电脑下次联网或到达下一次续订日期时自动取消授权，以先发生者为准。&#x20;

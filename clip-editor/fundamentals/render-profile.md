@@ -1,28 +1,25 @@
 # 🟩 Render profile
 
-There is a _Render Profile_ setting in every _Creator_ node, and this determines how the shapes are drawn (or _rendered)_ with the lasers. &#x20;
+每个 _Creator_ node 都有一个 _Render Profile_ 设置，用于决定激光如何绘制（或 _rendered_）形状。&#x20;
 
-**For most uses, the&#x20;**_**DEFAULT**_**&#x20;setting is absolutely fine**. But if you're working with graphics, or complex content, you may want more control over how each shape is rendered.&#x20;
-
-{% hint style="info" %}
-Unlike most laser software, Liberation generates a point stream in real-time, just before being passed to the laser controllers. This saves you a lot of disk space, clips are just a few kB, instead of MB of pre-rendered point streams.&#x20;
-
-It also means that you can tune the same content for different scanner types on a laser by laser basis, without having to change the clips themselves.&#x20;
-
-For more details see [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
-{% endhint %}
-
-There are three preset _Render Profiles_; _DEFAULT_, _FAST_, and _DETAIL._&#x20;
-
-_**DEFAULT**_ - a good general profile, best for most things
-
-_**FAST** -_ if your clip has a lot of content and some of it is just really simple dots and straight lines, you may get less flicker if you choose this option. &#x20;
-
-_**DETAIL**_ - if you are drawing something that needs sharp corners, use this option. But bear in mind your scanners will move more slowly, making the output flickery.&#x20;
+**对大多数用途来说，_**DEFAULT**_ 设置完全足够**。但如果你在处理图形或复杂内容，可能希望更精细地控制渲染方式。&#x20;
 
 {% hint style="info" %}
-Within the clip editor, you can assign creators to different render profiles, but each laser will process these profiles dependent on their scanner settings. See [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+与多数激光软件不同，Liberation 会在输出到激光控制器之前实时生成点流。这能节省大量磁盘空间，Clips 只有几 kB，而不是预渲染点流的 MB 级别。&#x20;
+
+这也意味着你可以针对不同扫描器，在不同激光上调节同一内容，而无需修改 Clips 本身。&#x20;
+
+更多细节见 [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")。
 {% endhint %}
 
+有三个预设 _Render Profiles_：_DEFAULT_、_FAST_ 和 _DETAIL_。&#x20;
 
+_**DEFAULT**_ - 通用配置，适合大多数场景
 
+_**FAST** -_ 如果你的 Clip 内容很多且包含大量简单点和直线，选择该选项可能会减少闪烁。&#x20;
+
+_**DETAIL**_ - 需要清晰锐利的转角时使用，但扫描器会更慢，输出可能更闪烁。&#x20;
+
+{% hint style="info" %}
+在 Clip Editor 中，你可以为 Creators 选择不同的 render profiles，但每台激光会根据各自的扫描器设置来处理这些 profiles。见 [scanner-presets.md](../../advanced/scanner-presets.md "mention")。
+{% endhint %}

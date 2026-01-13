@@ -1,14 +1,13 @@
-# ✅ Latency setting
+# ✅ 延迟设置
 
-In the bottom of the _Laser Overview_ panel, you'll see a slider labelled _Latency(ms)._&#x20;
+在 _Laser Overview_ 面板底部，你会看到标注为 _Latency(ms)_ 的滑块。&#x20;
 
 {% hint style="info" %}
-The default latency setting of 150ms should be fine for most cases but if you are having network issues you may want to try to increase it.&#x20;
+默认延迟 150ms 在大多数情况下足够；如果有网络问题，可以尝试提高。&#x20;
 {% endhint %}
 
-### The complicated explanation
+### 稍微复杂一点的解释
 
-In short, it's the maximum time between Liberation creating a frame, and the laser starting to output it. If you increase this value then you may notice a slight delay between Liberation and your laser output.&#x20;
+简单来说，这是 Liberation 生成一帧到激光开始输出这一帧的最大时间。如果提高这个值，你可能会感觉 Liberation 与激光输出之间略有延迟。&#x20;
 
-The benefit of a longer frame latency is that Liberation can fill up the laser controllers' buffers with content as soon as possible; if there is congestion on the network the controller is less likely to run out of points.&#x20;
-
+更长的帧延迟可以让 Liberation 更早把内容填充到激光控制器的缓冲区；如果网络拥塞，控制器不容易出现点数据耗尽。&#x20;

@@ -1,2 +1,1 @@
-# 🟩 The Clip Editor
-
+# 🟩 Clip Editor

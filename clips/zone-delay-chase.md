@@ -1,42 +1,42 @@
 # 🟩 Zone delay / chase
 
-We all agree that more lasers equals more fun but if they're all doing exactly the same thing you're missing out on creative possibilities.
+大家都知道激光越多越好玩，但如果它们做的完全一样，就会错过不少创意可能。
 
-The zone delay system is a simple yet effective method to introduce variety across zones and can really make the most of a multi-laser set up. It can also be used to make a more traditional chase effect.
+Zone delay 系统是一种简单但有效的方法，可在不同 Zones 之间制造变化，并充分发挥多激光设置的优势；它也可用于更传统的 chase 效果。
 
-#### How it works
+#### 原理
 
-_Zone delay_ adds a delay to the timing of the clip across each zone, creating a kind of sweep across the zones.
+_Zone delay_ 会在各个 Zone 之间加入时间延迟，形成一种扫过 Zones 的效果。
 
-It's really effective to introduce zone delay to an already running clip, use the relevant control on the APC40 to adjust the level and pattern. (See [apc40-reference.md](../reference/apc40-reference.md "mention")). Or you can use the _Clip Settings_ panel.
+将 Zone delay 加在已经运行的 Clip 上效果很好，可使用 APC40 的相关控制来调节级别和模式。（见 [apc40-reference.md](../reference/apc40-reference.md "mention")）。你也可以通过 _Clip Settings_ 面板调整。
 
-Zone delay settings :
+Zone delay 设置：
 
-* **Zone delay** - controls the amount of delay time applied to each zone, measured in 64th notes.
-* **Pattern** - choose the zone order
+* **Zone delay** - 控制每个 Zone 的延迟量，以 64 分音符计。
+* **Pattern** - 选择 Zone 的顺序
   * Left to right
   * Right to left
   * Inside to outside
   * Outside to inside
 
 {% hint style="info" %}
-The pattern works on the zone numbers and assumes your zones are in order from left to right. Zone delay treats canvas zones and DMX zones as separate groups when it comes to calculating the patterns.
+Pattern 基于 Zone 编号，并假设你的 Zones 从左到右排列。在计算 Pattern 时，Zone delay 会将 canvas zones 和 DMX zones 视为独立组。
 {% endhint %}
 
 * **Delay mode**
-  1. No delay - use this in chase mode
-  2. Delay - the default mode, delays the timing of each zone
-  3. Delay with re-trigger - Resets the clip back to the start every time across the pattern. This is good with _Chase mode_.
-* **Chase mode** - with chase mode on, each zone is turned on and off like a traditional chase effect. Adjust the chase appearance using the _Fade in, Hold,_ and _Fade out_ settings. These settings are set as a proportion of the zone delay value, so a value of 1 would be the same time as specified in the _Zone delay_ value. It's a little hard to explain so my advice would be to try for yourself.
+  1. No delay - chase 模式使用
+  2. Delay - 默认模式，为每个 Zone 延迟时间
+  3. Delay with re-trigger - 每次沿 Pattern 扫过时将 Clip 重置到开头，适合配合 _Chase mode_ 使用
+* **Chase mode** - 开启后，每个 Zone 会像传统 chase 效果一样开关。通过 _Fade in_、_Hold_、_Fade out_ 调整效果外观。这些设置按 _Zone delay_ 值的比例计算，例如值为 1 表示与 _Zone delay_ 相同时间。文字不好解释，建议亲自试试。
 
 {% hint style="info" %}
-Zone delay is also applied to any active effects. For instance, a flashing effect will be delayed across the zones as well as the animation within the clip itself.
+Zone delay 也会作用于任何激活的效果。例如闪烁效果会在 Zones 之间延迟，并且 Clip 本身的动画也会延迟。
 {% endhint %}
 
-When a clip has any kind of _Zone delay_ you will see a three-dot icon in the top right of the clip. These dots are animated to show you the style of _Zone delay_ for that clip. See [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention") for more details.
+当 Clip 启用了任何 _Zone delay_ 时，你会在 Clip 右上角看到三个点的图标。这些点会动画显示该 Clip 的 _Zone delay_ 模式。详见 [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention")。
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>The three dot symbol that indicate that a clip has a zone delay and its mode</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>表示 Clip 有 zone delay 及其模式的三点图标</p></figcaption></figure>
 
 {% hint style="info" %}
-Zone delay is a setting that belongs to each clip, it's not global; it's part of the creative design of a clip.
+Zone delay 是每个 Clip 自身的设置，不是全局；它是 Clip 的创作设计的一部分。
 {% endhint %}

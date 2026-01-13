@@ -1,21 +1,21 @@
-# 🟩 Fills, masks and depth sorting
+# 🟩 填充、Masks 与深度排序
 
-### Strokes, fills and masks
+### 线条、填充与 masks
 
-You'll notice that some Creator nodes have a _Fill state_ option;  you can draw them with a stroke (an outline) or as a mask (covering over stuff underneath) or both.&#x20;
+你会注意到某些 Creator nodes 有 _Fill state_ 选项；你可以将它们绘制为线条（轮廓）、作为 mask（覆盖下方内容），或两者兼具。&#x20;
 
-When you render a shape as a mask, it's as though it's filled in with black and anything underneath it will be covered up.&#x20;
+当形状以 mask 方式渲染时，就像填充为黑色一样，下面的内容会被遮挡。&#x20;
 
 {% hint style="info" %}
-Drawing a line (or _stroke_) with a laser is easy enough; you scan the laser from the beginning of the line to the end of the line. There's your line!&#x20;
+用激光画线（或 _stroke_）很简单：从起点扫描到终点就行了。&#x20;
 
-Filled shapes are harder though; If you want a shape filled with colour you could manually cross hatch by drawing lines and filling in, but Liberation can't do that automatically (yet). And even if we did do that, you'd still see other lines underneath it showing through.&#x20;
+但填充形状更难；要将形状填满颜色，你可以用交叉线条来手动填充，但 Liberation 还无法自动做到（目前）。即使做到，你仍会看到下面的线条透出。&#x20;
 
-But what we can do is fill in shapes with _black_. Under the hood, Liberation is making all the calculations to remove content that are underneath the black-filled shape. And trust me, it's fiddly!&#x20;
+我们能做的是用 _black_ 来填充形状。底层上，Liberation 会计算并移除被黑色填充形状覆盖的内容。相信我，这很复杂！&#x20;
 
-But it works really well and gives the illusion of a black filled shape.&#x20;
+但效果很好，能营造出黑色填充的错觉。&#x20;
 {% endhint %}
 
-### Depth sorting
+### 深度排序
 
-As some shapes can _cover over_ other shapes, Liberation has to sort them by their depth. And by default, elements are depth sorted by their z position. If they are at the same z position they are sorted by their layer position which can be changed using the _MOVE TO FRONT_ and _MOVE TO BACK_ buttons inside each creator.&#x20;
+由于某些形状会 _cover over_ 其他形状，Liberation 需要按深度排序。默认情况下会按 z 位置排序；若 z 相同，则按层级顺序排序，你可以在每个 creator 中使用 _MOVE TO FRONT_ 和 _MOVE TO BACK_ 调整。&#x20;

@@ -1,59 +1,52 @@
-# ✅ Starting / stopping clips
+# ✅ 启动 / 停止 Clips
 
 {% hint style="info" %}
-You can use the on screen buttons to start and stop clips, but it's much better to use the APC40 midi controller. Liberation has been optimised to work well with this hardware and should be considered an important part of your investment into lasers.&#x20;
+你可以用屏幕上的按钮启动和停止 Clips，但更好的方式是使用 APC40 MIDI 控制器。Liberation 针对该硬件进行了优化，应把它视为激光系统的重要投入。&#x20;
 {% endhint %}
 
-### Starting and stopping clips
+### 启动与停止 Clips
 
-To start a clip, press the button for that clip (either on screen or on your MIDI controller).
+要启动 Clip，按下该 Clip 的按钮（屏幕上或 MIDI 控制器上均可）。
 
-To stop the clip, press it again.
+要停止 Clip，再按一次。
 
-If you start a new clip (in the same group) the first clip will automatically stop.
+如果你在同一 Group 中启动新 Clip，原先的 Clip 会自动停止。
 
-To start a new clip without stopping other clips you can either
+要在不停止其他 Clips 的情况下启动新 Clip，可以：
 
-* Press the shift key (or APC40 shift button) while starting the new clip; or
-* Re-press the currently running clip(s) while you start the new clip.
+* 按住 shift 键（或 APC40 的 shift 按钮）启动新 Clip；或
+* 在启动新 Clip 的同时，再次按住正在运行的 Clip。
 
-The clip groups are independent of each other so starting a clip in one group will not affect clips in any of the others. See [groups.md](groups.md "mention")
+各 Group 相互独立，在一个 Group 中启动 Clip 不会影响其他 Group。见 [groups.md](groups.md "mention")。
 
 ### Flash mode
 
-If a clip is within a group that is set to _flash mode_, then it behaves slightly differently; the clip will only continue running as long as you have the clip button pressed. As soon as you let go it stops. (By default clip group 3 - the red one - is set to _flash mode.)_
+如果某个 Clip 所在 Group 设置为 _flash mode_，其行为会略有不同：Clip 只会在你按住按钮期间运行，松开即停止。（默认情况下 Group 3（红色）为 _flash mode_。）
 
-### Stop all clips
+### 停止所有 Clips
 
-To **stop all the clips running** press the **STOP** button.&#x20;
-
-{% hint style="info" %}
-Press the **STOP** button **twice** to bypass clips' fade out time and immediately black them out.&#x20;
-{% endhint %}
-
-To stop all the clips running in a particular group, press its group button, then press the **STOP** button.&#x20;
-
-To stop all clips except one, press the running clip you wish to keep, then while it is down, also press the **STOP** button. Then release the clip button. (This also works with multiple clips, as many as you can hold down at once!)
-
-
-
-### The currently selected clip
-
-<figure><img src="../.gitbook/assets/clips-selected-active.png" alt="" width="269"><figcaption><p>Two clips that are currently running. The white outline denotes that the clip on the right is the <em>currently selected clip.</em></p></figcaption></figure>
-
-That the clip lights up on screen when it is currently running (and its mini clip visualiser representation flashes). You will also notice that the last clip you pressed also has a white outline around it. This indicates that it is the _currently selected clip._
-
-ALT/OPTION click on a clip to select it without activating it. Use ALT/OPTION + SHIFT click to select multiple clips.&#x20;
-
-You can also click and drag a lasso on the clip deck to select multiple clips.&#x20;
+要**停止所有正在运行的 Clips**，按 **STOP** 按钮。&#x20;
 
 {% hint style="info" %}
-The APC 40 also has ALT and SHIFT buttons for making selection! The&#x20;
+连续按 **STOP** 两次可跳过 Clips 的淡出时间并立即熄灭。&#x20;
 {% endhint %}
 
+要停止某个特定 Group 中的所有 Clips，先按该 Group 按钮，再按 **STOP** 按钮。&#x20;
+
+要停止除一个之外的所有 Clips，按住你想保留的 Clip，然后同时按 **STOP**，再松开 Clip 按钮。（也适用于多个 Clip，只要你按得住！）
 
 
 
+### 当前选中的 Clip
 
+<figure><img src="../.gitbook/assets/clips-selected-active.png" alt="" width="269"><figcaption><p>两条正在运行的 Clip。右侧 Clip 的白色边框表示它是 <em>currently selected clip</em>。</p></figcaption></figure>
 
+运行中的 Clip 会在屏幕上点亮（其 mini clip visualiser 也会闪烁）。你会注意到最后一次按下的 Clip 也有白色边框，这表示它是 _currently selected clip_。
 
+ALT/OPTION 点击 Clip 可在不激活的情况下选中它。ALT/OPTION + SHIFT 点击可多选。&#x20;
+
+你也可以在 Clip Deck 上拖拽套索进行多选。&#x20;
+
+{% hint style="info" %}
+APC40 也有 ALT 和 SHIFT 按钮用于选择。&#x20;
+{% endhint %}

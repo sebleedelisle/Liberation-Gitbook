@@ -1,94 +1,94 @@
 # 🟩 Zones
 
-The main type of zone you will use for most of your projects is the _Beam zone_. This is a zone designed for atmospheric beam effects through the air. The other type of zone is a _Canvas zone_ (See [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")).&#x20;
+你在大多数项目中使用的主要 Zone 类型是 _Beam zone_，用于空气中的光束效果。另一种是 _Canvas zone_（见 [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")）。&#x20;
 
 {% hint style="danger" %}
-**WARNING - Use extreme caution when moving zones while the laser is running** and turn the brightness down as low as it can go. See [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") for a comprehensive guide for activating and zoning lasers safely
+**警告 - 在激光运行时移动 Zones 必须极度谨慎**，并将亮度降到最低。完整安全指南见 [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")。
 {% endhint %}
 
-You can click and drag the zones around with the mouse. Turn on a test pattern to see where that zone goes.&#x20;
+你可以用鼠标点击并拖动 Zones。打开测试图案以观察该 Zone 的位置。&#x20;
 
 {% hint style="info" %}
-Use the arrow keys to **nudge** the currently selected zone/point. Press the SHIFT key to nudge in larger steps.&#x20;
+使用方向键**微调**当前选中的 Zone/点位。按住 SHIFT 可进行更大步进。&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-Top tip : you can quickly copy zone settings across multiple lasers! See [copy-laser-settings.md](../setting-up/laser-settings/copy-laser-settings.md "mention")
+小技巧：可以快速在多台激光间复制 Zone 设置！见 [copy-laser-settings.md](../setting-up/laser-settings/copy-laser-settings.md "mention")。
 {% endhint %}
 
-### Adding a new beam zone
+### 添加新的 beam zone
 
-Click the _Add a new beam zone_ button at the top of the toolbar and a new zone will appear. Note that beam zones are sorted in the order that you add them but you can re-order them. See [re-ordering-beam-zones.md](re-ordering-beam-zones.md "mention")
+点击工具栏顶部的 _Add a new beam zone_ 按钮，新的 Zone 会出现。注意 beam zones 会按添加顺序排序，但可以重新排序。见 [re-ordering-beam-zones.md](re-ordering-beam-zones.md "mention")。
 
-### Adding an existing canvas zone
+### 添加已有的 canvas zone
 
-Click on the _Add existing canvas zone_ button and you'll see a list of available canvas zones and you can toggle them on and off for this laser. See [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")
+点击 _Add existing canvas zone_ 按钮，会显示可用的 canvas zones 列表，可为该激光启用或关闭。见 [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")。
 
-### Zone shape types
+### Zone 形状类型
 
-There are 3 zone shape types :&#x20;
+共有 3 种 Zone 形状：&#x20;
 
-* **Quad** - the default rectangle zone shape which can be uniform (axis aligned) or distorted. Best for larger rectangular zones or canvas zones that require perspective correction. &#x20;
-* **Line/Curve** - A zone defined by 2 or more points and a thickness. Ideal for thin zones or for terminating on balconies, bridges or other curved shapes. &#x20;
-* **Segmented** - A zone that can be subdivided into smaller quads. Ideal for architectural mapping.&#x20;
+* **Quad** - 默认矩形 Zone，可为轴对齐或变形。适合大矩形 Zones 或需要透视校正的 Canvas zones。&#x20;
+* **Line/Curve** - 由 2 个或更多点与厚度定义的 Zone。适合细长 Zones，或用于阳台、桥梁等曲线边界。&#x20;
+* **Segmented** - 可细分为多个小 Quad 的 Zone，适合建筑映射。&#x20;
 
-Right click on any zone to open up its settings. From this right click menu you can :
+在任意 Zone 上右键可打开设置菜单，可执行：
 
-* Rename the zone (this can be helpful to identify it in the clip deck, especially if you have a lot of zones!)
-* Enable/disable the zone&#x20;
-* Lock its position&#x20;
-* Change its shape type
-* Reset it to the default position
-* Access settings specific to the shape type
-* Delete it&#x20;
-* Add an _Alt Zone_ (See [alt-zone-system.md](alt-zone-system.md "mention"))
+* 重命名 Zone（便于在 Clip Deck 中识别，尤其是 Zones 很多时）
+* 启用/禁用 Zone&#x20;
+* 锁定位置&#x20;
+* 更改形状类型
+* 重置为默认位置
+* 访问形状特定设置
+* 删除&#x20;
+* 添加 _Alt Zone_（见 [alt-zone-system.md](alt-zone-system.md "mention")）
 
 {% hint style="danger" %}
-**WARNING -** be very careful when changing the zone type while the laser is active. The zone will return to the last position / size for that shape so the output could change suddenly. It's best to turn the laser off before changing the zone type. &#x20;
+**警告 -** 激光启用时切换 Zone 类型务必小心。Zone 会恢复到该形状上次的大小/位置，输出可能突然变化。最好在切换 Zone 类型前先关闭激光。&#x20;
 {% endhint %}
 
-### Quad zone shape
+### Quad zone 形状
 
-You can move each corner of the quad with the mouse. ALT/OPTION click a corner to move it independently from the others and distort the quad. Once the quad is distorted, all the corners can move freely.&#x20;
+用鼠标移动 Quad 的每个角。ALT/OPTION 点击角点可独立移动并扭曲 Quad。Quad 一旦扭曲，所有角点都可自由移动。&#x20;
 
-You can remove the distortion and return it to an axis-aligned rectangle using the _REMOVE DISTORTION_ button in the right click menu.&#x20;
+通过右键菜单中的 _REMOVE DISTORTION_ 按钮可取消扭曲并恢复为轴对齐矩形。&#x20;
 
 #### Perspective correction
 
-This option can be set using the toggle button in the right click menu and it determines the distortion method. It's best to keep this turned off for beams but If this zone is projecting graphics on to a flat plane, turn it on and the output will be perspective corrected.&#x20;
+此选项可通过右键菜单中的开关设置，用于选择扭曲方式。用于 beams 时最好关闭；若此 Zone 用于在平面上投影图形，则应打开以进行透视校正。&#x20;
 
 {% hint style="info" %}
-If _Perspective correction_ is turned off, content is distorted using _bi-linear interpolation_. In other words, content is spaced evenly across the quad. That's why it's best for beams.
+当 _Perspective correction_ 关闭时，内容使用 _bi-linear interpolation_ 扭曲，也就是内容在 Quad 内均匀分布，因此更适合 beams。
 
-With perspective correction turned on, content is distorted using perspective warping which adjusts for foreshortening. So if you're projecting graphics onto a wall at an oblique angle, you can use this to undistort the output and fix the projection distortion.&#x20;
+开启透视校正后，内容通过透视扭曲来补偿近大远小。如果你在斜角墙面投影图形，可用此功能纠正投影失真。&#x20;
 {% endhint %}
 
-### Line / Curve zone shape
+### Line / Curve zone 形状
 
-The Line / Curve zone shape has become my go-to option in recent shows, and it could be argued that this should be the default for beam zones.&#x20;
+Line / Curve 已成为我最近演出中的首选，有人甚至认为它应作为 beam zones 的默认形状。&#x20;
 
-More often than not, my zones have to be thin to fit into awkward thin spaces at venues or between windows on buildings, and I found that it could be super fiddly to adjust four corners of a quad when they're so close together. And so the Line / Curve zone was born!&#x20;
+实际场地里，Zones 往往需要很细以适配狭窄空间或建筑窗间缝隙；这时调整 Quad 的四个角会非常繁琐，因此 Line / Curve Zone 就诞生了！&#x20;
 
-For straight lines, all you need is two points, and then adjust the _Zone thickness_ in the right click menu. It's the fastest way to create simple zones.&#x20;
+直线只需两个点，然后在右键菜单中调整 _Zone thickness_。这是创建简单 Zones 的最快方式。&#x20;
 
-ALT/OPTION click on the line to create additional points. These points are automatically smoothed to create a flowing shape, and you can adjust the _Smooth level_ to iron out any kinks.&#x20;
+ALT/OPTION 点击线条可添加点。这些点会自动平滑形成流线形，你可通过 _Smooth level_ 调整弧度。&#x20;
 
-ALT/OPTION click on a point to delete it.&#x20;
+ALT/OPTION 点击某个点可删除。&#x20;
 
-Or if you're experienced with vector graphics apps (Inkscape, Illustrator etc) you can use the _Manually adjust bezier curves_ option to give yourself fine ajdustment of all the control points.&#x20;
+如果你熟悉矢量软件（Inkscape、Illustrator 等），还可以使用 _Manually adjust bezier curves_ 选项精细调整控制点。&#x20;
 
-### Segmented zone shape
+### Segmented zone 形状
 
-This subdivided zone lets you make extremely detailed corrections and is useful for when you are mapping onto complex shapes. You can add or remove subdivisions using the + and - buttons in the right click menu.&#x20;
+该分段 Zone 可进行非常精细的校正，适合复杂形状的映射。可在右键菜单中使用 + 和 - 按钮添加或减少分段。&#x20;
 
-### How to edit a zone that is entirely covered by another zone
+### 如何编辑被另一 Zone 完全覆盖的 Zone
 
-Right click on the zone on top, and click the padlock button to lock it. You should now be able to edit and adjust the zone underneath.&#x20;
+右键上层 Zone，点击锁形按钮将其锁定。然后即可编辑下方 Zone。&#x20;
 
 
 
 <br>
 
 {% hint style="info" %}
-Once you add a Beam zone to your output it will be available to add to a clip in the clip deck.&#x20;
+当你在输出中添加一个 Beam zone 后，它会出现在 Clip Deck 中供 Clip 选择。&#x20;
 {% endhint %}

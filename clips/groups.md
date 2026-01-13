@@ -1,42 +1,42 @@
-# 🟩 Clip groups
+# 🟩 Clip 分组
 
-You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in. The APC40 clip buttons also light up in the relevant group colour.&#x20;
+你会注意到每个 Clip 都有颜色轮廓，这代表它所属的 _group_。APC40 的 Clip 按钮也会以对应的组颜色点亮。&#x20;
 
-<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Indigo</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>青色</td></tr><tr><td>Group 2</td><td>橙色</td></tr><tr><td>Group 3</td><td>红色</td></tr><tr><td>Group 4</td><td>靛色</td></tr><tr><td>Group 5</td><td>绿色</td></tr></tbody></table>
 
-The group system is very flexible and it allows you to :
+Group 系统非常灵活，可用于：
 
-* Keep clips in one group going, while you toggle groups in another one
-* Quickly assign zones and X/Y flips to all clips within a group
-* Set _Flash mode_ for a clip (Group 3 is set to _Flash mode_ by default)
-* Set the default transition in/out times that can be inherited by clips, or over-ridden.
+* 保持某个 Group 的 Clips 继续运行，同时切换另一个 Group
+* 快速为该 Group 内所有 Clips 分配 Zones 与 X/Y flip
+* 为 Clip 设置 _Flash mode_（默认 Group 3 为 _Flash mode_）
+* 设置默认的淡入/淡出时间，可被 Clip 继承或覆盖
 
-It's up to you how you use the _group_ system, but if you have a lot of zones/lasers, it can be helpful to use the different groups for different groups of lasers. But it's up to you! As a starting point, this is how I generally use the groups :&#x20;
+如何使用 _group_ 系统由你决定。但如果你有很多 Zones/激光，把不同的 Group 分配给不同的激光组会很有帮助。以下是我通常的用法：&#x20;
 
-<table data-header-hidden><thead><tr><th width="108"></th><th width="121"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td><td>The default group for the most commonly used beam zones. </td></tr><tr><td>Group 2</td><td>Orange</td><td>The secondary group of laser beam zones</td></tr><tr><td>Group 3</td><td>Red</td><td>Assigned to <em>flash</em> mode, live played, usually fast stabs of light</td></tr><tr><td>Group 4</td><td>Indigo</td><td>Slower mellower clips with a slow default fade in and out</td></tr><tr><td>Group 5</td><td>Green</td><td>Graphics / canvas clips</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="108"></th><th width="121"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>青色</td><td>最常用 beam zones 的默认组</td></tr><tr><td>Group 2</td><td>橙色</td><td>次要的激光 beam zones</td></tr><tr><td>Group 3</td><td>红色</td><td>用于 <em>flash</em> mode，现场演奏，通常是快速的光束爆点</td></tr><tr><td>Group 4</td><td>靛色</td><td>更慢、更柔和的 Clips，默认淡入淡出较慢</td></tr><tr><td>Group 5</td><td>绿色</td><td>Graphics / Canvas Clips</td></tr></tbody></table>
 
-### The _Group_ buttons
+### _Group_ 按钮
 
-The _Group_ buttons are down the right hand side of the clip deck, and when you activate one, you can :&#x20;
+_Group_ 按钮位于 Clip Deck 右侧。激活后，你可以：&#x20;
 
-* assign clips to a group
-* change the zone settings and x/y flip for all clips in the group
+* 将 Clips 分配到某个 Group
+* 修改该 Group 内所有 Clips 的 Zone 设置与 X/Y flip
 
-To activate the _group_ button   :&#x20;
+激活 _group_ 按钮：&#x20;
 
-* Press and hold the _group_ button on the APC40
-* Mouse click the on screen _group_ button. Click again to toggle off.&#x20;
+* 按住 APC40 上的 _group_ 按钮
+* 点击屏幕上的 _group_ 按钮。再次点击可关闭。&#x20;
 
-You can easily assign clips to the group by pressing them while the _group_ button is active. (Another way to assign a group is with the clip's right click menu). &#x20;
+当 _group_ 按钮激活时，按下某个 Clip 即可将其分配到该 Group。（另一种方式是在 Clip 的右键菜单中分配。）&#x20;
 
-### Change zone settings for all clips within a group
+### 为某个 Group 内的所有 Clips 统一修改 Zone 设置
 
-When a _group_ button is active, you’ll see the _zone_ buttons (BEAM 1 - 8, CANVAS 1, etc) light up as follows :
+当 _group_ 按钮激活时，你会看到 _zone_ 按钮（BEAM 1 - 8, CANVAS 1 等）显示如下状态：
 
-* OFF : this zone is **not set for any** of the clips in that group
-* FLASHING : this zone is set for _**some**_**&#x20;but not&#x20;**_**all**_ of the clips in the group
-* ON : this zone is set for _**all**_ of the clips in the group
+* OFF：该 Zone **未设置于**该 Group 的任何 Clip
+* FLASHING：该 Zone **设置于部分**（但**不是全部**）Clip
+* ON：该 Zone 设置于该 Group 的**所有** Clips
 
-Press the zone button to activate and deactivate that zone in _**all**_ the clips in the group.
+按下 Zone 按钮即可为该 Group 的**所有** Clips 启用或关闭该 Zone。
 
-The exact same concept applies for the X/Y flip buttons.&#x20;
+X/Y flip 按钮的逻辑完全相同。&#x20;

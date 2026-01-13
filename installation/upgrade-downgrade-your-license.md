@@ -1,14 +1,11 @@
-# ✅ Upgrade / downgrade your license
+# ✅ 升级 / 降级许可证
 
-You can upgrade to a higher tier at any time. You will get a partial refund for the remaining time on your current subscription, and your new plan will start immediately.
+你可以随时升级到更高档位。系统会按当前订阅剩余时间进行部分退款，新方案立即生效。
 
-You can also downgrade at any time but it will not take effect until your renewal date.&#x20;
+你也可以随时降级，但变更会在续订日期生效。&#x20;
 
-Log in to the website, open the _My subscriptions_ page, select the subscription you want to change, then click the _UPGRADE/DOWNGRADE_ link. You will then see the available options for your license.&#x20;
+登录网站，打开 _My subscriptions_ 页面，选择要变更的订阅，然后点击 _UPGRADE/DOWNGRADE_ 链接。随后会显示可选的许可证方案。&#x20;
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-16 at 14.02.28.png" alt=""><figcaption></figcaption></figure>
 
-Click the relevant _PREVIEW_ button to see how the changes would affect your payments. If you're happy with the change, then click the _Confirm subscription change_ button to complete the process.
-
-
-
+点击相应的 _PREVIEW_ 按钮查看付款变化。如果确认无误，点击 _Confirm subscription change_ 按钮完成流程。

@@ -2,29 +2,29 @@
 
 ## <img src="../../.gitbook/assets/sound-input-icon.png" alt="" data-size="line">  Sound input
 
-Converts the sound input level to a property value.
+将声音输入电平转换为属性值。
 
 {% hint style="info" %}
-The Sound input oscillator uses the default sound interface, but you can change it in _Preferences_. Open the menu _Liberation -> Preferences._
+Sound input oscillator 使用默认音频接口，但你可以在 _Preferences_ 中更改。打开菜单 _Liberation -> Preferences_。
 
-Under the _Sound Input_ settings, you can select which sound interface you would like to use, along with some other settings for adjusting the volume level.
+在 _Sound Input_ 设置中选择你想使用的音频接口，并可调整音量相关设置。
 {% endhint %}
 
-* **range min / range max** - the minimum and maximum values the waveform is mapped onto
-* **channel** - If your sound interface has more than one input channel, you can select here which one you're picking up.
+* **range min / range max** - 波形映射到的最小与最大值
+* **channel** - 如果你的音频接口有多个输入通道，可在此选择要使用的通道。
 
 {% hint style="info" %}
-It's a fun technique to get multiple sound feeds from the mixing desk, that way you can have different clips responding to different musical instruments.
+从调音台获取多路音频是很有趣的做法，这样不同 Clips 可以响应不同乐器。
 {% endhint %}
 
 {% hint style="info" %}
-You can only use one sound interface at a time across all _Sound Inputs (_&#x73;elected in the _App Settings_ panel). If you want to use more than one interface for this, on MacOS you can [create an Aggregate Device](https://support.apple.com/en-gb/HT202000) to combine inputs into a single virtual sound source. (There are many apps on Windows that will do this too, but I haven't tried them).
+所有 _Sound Inputs_ 只能使用一个音频接口（在 _App Settings_ 面板中选择）。如果你想使用多个接口，在 MacOS 上可以[创建 Aggregate Device](https://support.apple.com/en-gb/HT202000) 将多个输入合并为一个虚拟音源。（Windows 上也有很多应用可做到这一点，但我未亲测）。
 {% endhint %}
 
-* **clamp min / clamp max** - use this to choose which range of levels you want to respond to. You shouldn't need to adjust this if the gate and limit settings (in the _App Settings_ panel) are properly adjusted, but they can be used for some creative effects.
+* **clamp min / clamp max** - 用于选择希望响应的电平范围。如果 _App Settings_ 面板中的 gate 与 limit 设置正确，通常无需调整，但也可用于一些创意效果。
 
 {% hint style="info" %}
-You'll see a little microphone icon on the clip button whenever it has a _Sound Input_ oscillator.
+当 Clip 含有 _Sound Input_ oscillator 时，你会在 Clip 按钮上看到一个小麦克风图标。
 
 <img src="../../.gitbook/assets/image (7).png" alt="" data-size="original">
 {% endhint %}

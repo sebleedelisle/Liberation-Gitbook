@@ -1,5 +1,5 @@
-# 🟩 Resolution
+# 🟩 分辨率
 
-Most _Creators_ have a _resolution_ option. This is an advanced setting that determines how many subdivisions the shapes have, and can affect how jagged the shapes are when subsequently stretched and manipulated by modifiers.&#x20;
+多数 _Creators_ 都有 _resolution_ 选项。这是高级设置，用于决定形状的细分程度，并会影响在后续被 modifiers 拉伸或处理时的锯齿程度。&#x20;
 
-The value represents the size of the subdivisions so therefore a lower value is a higher resolution. The default of 4 is fine for most clips but if you need finer quality you can consider reducing this number. Note that a higher resolution requires more CPU. &#x20;
+该值代表细分大小，因此数值越小分辨率越高。默认值 4 对大多数 Clips 足够，但若需要更细腻的质量可以降低此值。注意分辨率越高 CPU 负载越大。&#x20;

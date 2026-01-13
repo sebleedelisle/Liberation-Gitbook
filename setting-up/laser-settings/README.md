@@ -1,78 +1,78 @@
-# ✅ Laser output settings panel
+# ✅ 激光输出设置面板
 
-Open the _Laser output_ settings panel with the menu _View -> Laser Output Settings._
+通过菜单 _View -> Laser Output Settings_ 打开 _Laser output_ 设置面板。
 
 <figure><img src="../../.gitbook/assets/Copy Laser Setting in Laser Output.png" alt="" width="326"><figcaption></figcaption></figure>
 
-This will show you the settings for the currently selected laser which you can change :
+面板会显示当前选中激光的设置，可通过以下方式切换：
 
-* via its number button in the _Laser overview_ panel
-* with a number key on your keyboard, keys 1 to 0 open lasers 1 - 10
-* with the _TAB_ key to cycle through the lasers. (_SHIFT + TAB_ goes backwards).
+* 在 _Laser overview_ 面板中点击其编号按钮
+* 使用键盘数字键 1 到 0 打开激光 1-10
+* 使用 _TAB_ 键在激光之间循环（_SHIFT + TAB_ 反向）。
 
-At the top of this panel you'll see :
+在面板顶部你会看到：
 
-* a number button - click on this to arm/disarm this laser. It is red when the laser is armed.
-* a _Brightness_ slider for this laser only. Note that this is combined with the global brightness.
-* _Test Pattern_ toggle and pattern selector. This lets you choose a specific test pattern for this laser only. (These controls are mirrored in the Output view toolbar).
+* 一个编号按钮——点击以 arm/disarm 该激光。激光 arm 时为红色。
+* 该激光独立的 _Brightness_ 滑块。注意它会与全局亮度叠加。
+* _Test Pattern_ 开关和图案选择器。可为该激光单独指定测试图案。（这些控件在 Output view 工具栏中也有对应）。
 
-### Output orientation / mirroring correction
+### 输出方向 / 镜像修正
 
-The next elements are for correcting the set up of your laser so that it behaves consistently in Liberation.
+以下设置用于修正激光的安装方向，使其在 Liberation 中表现一致。
 
-* **Flip horizontal / vertical** - these options allow you to correct your laser's output
-
-{% hint style="info" %}
-You should not need to change the horizontal / vertical flip settings unless your laser has been wired incorrectly or it has X/Y flip buttons on the back that are not set properly. If you want output to be flipped for a particular clip this can be done on the clip itself.
-{% endhint %}
-
-* **Orientation** - if your laser has been rigged on its side or upside down, you can correct the rotation with this setting .
-* **Fine position adjustments** - can be used to correct very minor shifting/rotation. Designed to correct drift/settling if a laser has been left overnight or for long periods.
+* **Flip horizontal / vertical** - 用于校正激光输出方向
 
 {% hint style="info" %}
-Note that the orientation / mirroring corrections do not change anything in the 3D Visualiser, they should be used to correct the output of the actual laser to match what is in the 3D Visualiser!
+除非激光接线错误或背面有 X/Y flip 按钮且设置不正确，否则不需要调整 horizontal / vertical flip。如果你想为某个 Clip 翻转输出，可以在 Clip 本身设置。
 {% endhint %}
 
-### Copy laser settings
+* **Orientation** - 当激光侧装或倒装时，可用此设置校正旋转方向。
+* **Fine position adjustments** - 用于细微的位移/旋转修正，适合修正激光长时间运行后的漂移或沉降。
 
-See [#copy-laser-settings](./#copy-laser-settings "mention").
+{% hint style="info" %}
+注意：orientation / mirroring 修正不会影响 3D Visualiser，它们用于校正实际激光输出以匹配 3D Visualiser 中的显示。
+{% endhint %}
 
-### Scanner settings
+### 复制激光设置
+
+参见 [#copy-laser-settings](./#copy-laser-settings "mention")。
+
+### 扫描器设置
 
 <figure><img src="../../.gitbook/assets/Laser output scanner settings.png" alt=""><figcaption></figcaption></figure>
 
 #### **Speed**
 
-The speed setting determines how fast the scanners move.
+速度设置决定扫描器移动速度。
 
 {% hint style="danger" %}
-Although the default settings are quite conservative, you can still damage your scanners if you drive them too fast. Use caution, particularly when increasing the speed.
+尽管默认设置较为保守，但若速度过高仍可能损坏扫描器。提高速度时请谨慎。
 {% endhint %}
 
 {% hint style="info" %}
-This speed setting doesn't change the point rate, instead it adjusts how spread out those points are. For more information see [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+此速度设置不会改变点率，而是调整点的分布范围。更多信息见 [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")。
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
 
-The beam changes colour and turns on and off as the scanners move it around and these two things aren't usually perfectly in sync with each other. Adjust this setting to get them back in line.
+光束在扫描器移动时改变颜色并开关，但两者通常并非完全同步。该设置用于校正两者的时间对齐。
 
 {% hint style="info" %}
-This is sometimes known as _blank shift_ but I personally prefer the term _scanner sync_ - it's a little more accurate as it adjusts the timing of all the colour changes vs the scanner movement.
+这有时被称为 _blank shift_，但我更喜欢 _scanner sync_ 这一说法，因为它更准确：它调整的是所有颜色变化与扫描器移动之间的时序。
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser "tails" - Colour shift not properly set</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>No laser "tails"! Colour shift good!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>激光 “tails” - Colour shift 设置不当</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>没有激光 “tails”！Colour shift 正常！</p></figcaption></figure></div>
 
-If you see little "tails" on your laser output, it's likely because the scanner sync needs adjusting. If the tails still appear no matter what, you are likely driving your scanners/laser drivers faster than they can handle. Try slowing the scanner speed down.
+如果看到激光输出有小 “tails”，通常是 scanner sync 需要调整。如果无论如何都存在 tails，可能是扫描器/激光驱动被你开得过快。尝试降低扫描器速度。
 
 #### Scanner presets
 
-Use this to choose a pre-designed scanner setting. The default option is usually fine so you shouldn't need to change this setting unless you have particularly bad (or good) scanners. If you want to dig deeper, see [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+用于选择预设的扫描器设置。默认选项通常足够，除非你的扫描器特别差（或特别好），否则无需更改。想深入了解请见 [scanner-presets.md](../../advanced/scanner-presets.md "mention")。
 
 #### Colour calibration
 
-You can use this system to correct the brightness curve and white balance of your laser. See [colour-calibration.md](../../advanced/colour-calibration.md "mention")
+可用此系统校正激光的亮度曲线与白平衡。参见 [colour-calibration.md](../../advanced/colour-calibration.md "mention")。
 
 #### Advanced settings
 
-You shouldn't need to mess with these but if you're curious, see [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")
+通常不需要调整，但如果你想了解更多，请见 [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")。
