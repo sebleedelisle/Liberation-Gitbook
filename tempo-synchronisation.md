@@ -1,107 +1,105 @@
 # 🟧 Tempo / synchronisation
 
-Music synchronisation is a fundamental element of Liberation; once you have the tempo and beats matched up to the music, you can be sure that everything will be in sync. If you're lucky enough to get MIDI clock (or Ableton Link) then you don't have to worry about manual syncing at all. But if not don't worry - you can manually match up using the _Live_ tempo feature.
+音乐同步是 Liberation 的基础能力；只要把 tempo 与拍点对齐音乐，就能确保一切同步。如果你能使用 MIDI clock（或 Ableton Link），几乎无需手动同步。但即使没有也不用担心——你可以使用 _Live_ tempo 功能手动对齐。
 
-If you have experience with music or lighting software then this process will be familiar to you. If not, it's worth spending some time familiarising yourself with the system and practicing at home before you get to a live show.
+如果你有音乐或灯光软件经验，这个流程会很熟悉。若没有，建议先花时间熟悉系统，并在家里练习后再用于现场演出。
 
 ## Tempo panel
 
-The _Tempo_ panel will always be on screen and contains all the synchronisation settings. At the top you'll see the current bar/beat counter and a transport with play/pause and rewind/fastforward buttons.
+_Tempo_ 面板始终显示在屏幕上，包含所有同步设置。顶部显示当前小节/拍计数，以及播放/暂停与快退/快进的传输控制。
 
-Below that you'll see the beat marker; four squares that "pulse" to the beat. This _beat marker_ is an extremely useful visualisation and you will constantly refer to it while using the _Live_ tempo system.
+下方是拍点指示器：四个方块随节拍“脉冲”闪烁。这个 _beat marker_ 非常有用，你会在使用 _Live_ tempo 系统时频繁依赖它。
 
-### Setting the tempo
+### 设置 tempo
 
-You have options for setting the tempo :
+你可以通过以下方式设置 tempo：
 
-* Click and drag on the _Tempo_ slider
-* Shift-click and drag on the _Tempo_ slider to change the tempo in 0.1 increments
-* Double click on the _Tempo_ slider and manually type the number
-* Use the _Tempo_ knob on the APC40 (Press shift for 0.1 increments)
+* 拖动 _Tempo_ 滑块
+* 按住 Shift 拖动 _Tempo_ 滑块，以 0.1 为步进调整
+* 双击 _Tempo_ 滑块并手动输入数值
+* 使用 APC40 上的 _Tempo_ 旋钮（按 Shift 为 0.1 步进）
 * Tap Tempo
 
 {% hint style="info" %}
-Tempo is defined in "beats per minute" and the traditional default is usually 120.
+Tempo 以 “beats per minute” 定义，传统默认值通常是 120。
 {% endhint %}
 
 ## Tap Tempo
 
-Set the tempo automatically by clicking the _TAP_ button in time with the beat. Set the start of the bar with the _RESET_ button.
+点击 _TAP_ 按钮跟随节拍来自动设置 tempo。用 _RESET_ 按钮设定小节起点。
 
 {% hint style="info" %}
-The Tap Tempo system is smart enough to know if you have taken a break from tapping for a while, or if you've missed a couple of beats. If you start tapping in double time, it will understand that you want to double the tempo, the same goes if you tap in half time.
+Tap Tempo 足够智能：它能判断你是否暂停了一段时间，或漏了几拍。如果你以双倍速度点击，它会理解为要加倍 tempo；半速点击也同理。
 
-It's also smart enough to work out if there are two people both tapping tempo at the same time (ie one on the keyboard and one on the APC40). Liberation will average out the double taps.
+它还能处理两个人同时在敲击 tempo（例如键盘与 APC40 同时 tap）。Liberation 会对双击进行平均。
 {% endhint %}
 
-#### Keyboard commands :
+#### 键盘命令：
 
 T - tap tempo\
-R - reset the bar\
-Y - round the tempo to the nearest beat per minute.
+R - reset 小节\
+Y - 将 tempo 四舍五入到最近的 BPM
 
 {% hint style="info" %}
-As most music these days is created digitally it follows that the tempo is likely to be a rounded whole number. So if tapping a tempo seems to be close, use the Y key (or move the APC40 tempo knob one "tick") to round it to a whole number
+如今大多数音乐都是数字制作，tempo 通常为整数。如果 tap 的 tempo 接近整数，可使用 Y 键（或把 APC40 tempo 旋钮微调一个“tick”）将其四舍五入到整数。
 {% endhint %}
 
-#### APC40 controls :
+#### APC40 控制：
 
-The APC40 has a dedicated _TAP TEMPO_ button or you can also use a connected footswitch to tap with your foot!
+APC40 有专用 _TAP TEMPO_ 按钮，也可以用连接的脚踏开关来 tap！
 
-Use the _TEMPO_ knob to adjust. Press _SHIFT_ while using the _TEMPO_ knob for fine adjustments.
+使用 _TEMPO_ 旋钮调整。按 _SHIFT_ 可进行更细微调整。
 
-Use the _METRONOME_ button to **reset the bar**. (Note that the _METRONOME_ button also lights up in time with the beat)
+使用 _METRONOME_ 按钮来**重置小节**。（注意 _METRONOME_ 按钮也会随拍点闪烁）
 
-Turn the _TEMPO_ knob one "tick" right or left to **round the tempo** up or down to a whole BPM number.
+将 _TEMPO_ 旋钮向左或向右移动一个“tick”可**将 tempo 上/下四舍五入**到整数 BPM。
 
-See also [apc40-reference.md](reference/apc40-reference.md "mention")
+另见 [apc40-reference.md](reference/apc40-reference.md "mention")。
 
 ### Nudge tempo
 
-If you're confident you are close enough to the actual tempo but you find that you're drifting out of time, use the _NUDGE_ buttons to correct.
+如果你感觉 tempo 已经接近，但仍逐渐偏离，可使用 _NUDGE_ 按钮修正。
 
-If the Liberation tempo is getting ahead of the music, press and hold _NUDGE -_ to temporarily slow down until it realigns.
+如果 Liberation tempo 领先音乐，按住 _NUDGE -_ 让它临时变慢直到重新对齐。
 
-If the Liberation tempo is falling behind the music, press and hold _NUDGE +_ to temporarily speed up until it realigns.
+如果 Liberation tempo 落后音乐，按住 _NUDGE +_ 让它临时变快直到重新对齐。
 
 {% hint style="info" %}
-You can use either the on-screen NUDGE buttons or the dedicated buttons on the APC40.
+你可以使用屏幕上的 NUDGE 按钮，也可以使用 APC40 的专用按钮。
 {% endhint %}
 
 ### Half time / double time
 
-Use the _÷2_ and _x2_ buttons to half and double the tempo permanently. Unlike the tempo multiplier this is a permanent change to the current tempo.
+使用 _÷2_ 和 _x2_ 按钮将 tempo 永久减半或加倍。与 tempo multiplier 不同，这是对当前 tempo 的永久修改。
 
 ## Tempo Multiplier
 
-The _Tempo Multiplier_ system lets you temporarily adjust the tempo before returning to what it was before.
+_Tempo Multiplier_ 系统允许你临时调整 tempo，然后恢复为原值。
 
-Toggle the _Tempo Multiplier_ by hitting the _TEMPO MULTIPLIER_ button or the _BANK_ button on the APC40. Adjust using the on screen slider or by using the APC40 A-B slider. Or use the _25%, 50%, 100% 200%_ preset buttons.
+点击 _TEMPO MULTIPLIER_ 按钮或 APC40 上的 _BANK_ 按钮启用。使用屏幕滑块或 APC40 A-B 滑块调整。也可使用 _25%、50%、100%、200%_ 预设按钮。
 
-## External tempo sources
+## 外部 tempo 源
 
 ### MIDI Clock
 
-To sync to an external MIDI clock signal, select the _MIDI CLOCK_ radio button and choose the MIDI device from the drop down menu. Note the coloured status light next to the dropdown menus :
+要同步外部 MIDI clock 信号，选择 _MIDI CLOCK_ 单选项并在下拉菜单中选择 MIDI 设备。留意下拉菜单旁的状态灯：
 
-* Green - receiving a MIDI clock signal
-* Orange - can connect to the MIDI device but there is no clock signed currently
-* Red - cannot connect to the MIDI device
+* 绿色 - 正在接收 MIDI clock 信号
+* 橙色 - 可连接设备，但当前没有 clock 信号
+* 红色 - 无法连接设备
 
 {% hint style="info" %}
-MIDI Clock broadcasts a series of frames, (24 per quarter note) but there is no position data within the messages. This means that it's helpful for keeping in time but you may still need to reset the bar.
+MIDI Clock 会广播一系列帧（每四分音符 24 帧），但消息中不包含位置信息。因此它适合保持节拍，但你可能仍需重置小节。
 
-The Liberation MIDI Clock tempo source also responds to **MIDI Machine Control (MMC)** messages, so if your clock source transmits these you will not need to manually reset the bar.
+Liberation 的 MIDI Clock tempo source 也响应 **MIDI Machine Control (MMC)** 消息，因此如果 clock 源发送 MMC，你无需手动重置小节。
 {% endhint %}
-
-
 
 ### Timeline
 
-Each timeline has its own tempo, which can be a fixed value or a _Tempo Map_. The _Tempo Map_ allows you to adjust the tempo at specific times within the timeline.
+每条 Timeline 都有自己的 tempo，可为固定值或 _Tempo Map_。_Tempo Map_ 允许你在 Timeline 的特定时间点调整 tempo。
 
-The timeline tempo will be used when _TIMELINE_ is selected as the tempo source.
+当选择 _TIMELINE_ 作为 tempo source 时，会使用 Timeline 的 tempo。
 
 {% hint style="info" %}
-You can run a timeline along with _any_ of the tempo sources! So if you have a live band that doesn't play to a click, you can start the timeline manually and keep it in sync using the _LIVE_ tempo source. Or if you have a MIDI clock signal, you can use that!
+你可以让 Timeline 与_任意_ tempo source 同时运行！例如乐队没有 click，你可以手动启动 Timeline 并使用 _LIVE_ tempo 保持同步；如果有 MIDI clock 信号，也可以直接使用它！
 {% endhint %}

@@ -1,129 +1,120 @@
-# 🟩 Loading and saving
+# 🟩 加载与保存
 
-Liberation constantly saves its state to disk so you can be sure that if you have a power outage or system issue, it will start up right where it left off, you shouldn't ever lose your zones, timeline or other content.&#x20;
+Liberation 会持续将状态保存到磁盘，因此即使遇到断电或系统问题，重新启动也会回到离开的位置，你不应丢失 Zones、Timeline 或其他内容。&#x20;
 
-However you can export your set up for backup and transferring to another computer.
+不过，你仍可以导出设置用于备份或迁移到另一台电脑。
 
 ### Project Import/Export
 
-The Project file stores almost everything in your current set up, including :&#x20;
+Project 文件几乎包含当前设置中的所有内容，包括：&#x20;
 
-* Everything detailed in [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention")below
-* Clips, effects and group settings&#x20;
-* All of your timelines (not including audio and video media)
-* Artnet set up&#x20;
-* MIDI send/receive settings
-* Tempo / synchronisation settings
+* [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention") 中列出的所有内容
+* Clips、effects 与 group 设置&#x20;
+* 所有 timelines（不包含音频和视频媒体）
+* Art-Net 设置&#x20;
+* MIDI send/receive 设置
+* Tempo / synchronisation 设置
 
-It doesn't currently save and load :&#x20;
+目前不保存/加载：&#x20;
 
-* Sound and Midi input settings as used in the MIDI notes node and the Sound Input Oscillator (it _does_ save MIDI send/receive settings as well as the timecode sound input)
-* Interface scaling&#x20;
-* Media for Canvas guide images&#x20;
-* Sound and Video media for timelines&#x20;
-* Fonts used in the Text node
+* MIDI notes node 和 Sound Input Oscillator 中的音频/MIDI 输入设置（但会保存 MIDI send/receive 设置以及 timecode 的音频输入）
+* 界面缩放&#x20;
+* Canvas guide images 的媒体文件&#x20;
+* Timeline 的音频与视频媒体&#x20;
+* Text node 使用的字体
 
 {% hint style="danger" %}
-Sound and video files in the timeline are not saved with project files so be sure to save them separately if you want to transfer to a different computer. See [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Timeline 的音频与视频文件不会随 project 文件保存，如需迁移到其他电脑，请单独保存。见 [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")。
 {% endhint %}
 
 ### Laser settings Import / Export&#x20;
 
-* Laser settings for every laser&#x20;
+* 每台激光的 Laser settings&#x20;
 * Beam zones
 * Canvas target areas&#x20;
 * DMX zones
-* Laser controller assignment (and aliases for any of your controllers that you have renamed)&#x20;
-* Laser scanner and colour calibration settings and presets&#x20;
-* 3D visualiser settings and presets
+* Laser controller assignment（以及已重命名控制器的别名）&#x20;
+* Laser scanner 与 colour calibration 设置及 presets&#x20;
+* 3D visualiser 设置与 presets
 
 ### Clip Deck Import / Export
 
-* All of the clips and their zone assignments, settings and parameters
-* All of the group settings, flash mode, fade in/out times etc
+* 所有 Clips 及其 zone 分配、设置与参数
+* 所有 group 设置、flash mode、淡入/淡出时间等
 
-It doesn't currently save and load :&#x20;
+目前不保存/加载：&#x20;
 
-* All of the effects and their parameters and settings&#x20;
+* 所有 effects 及其参数与设置&#x20;
 
 {% hint style="info" %}
-#### Load clips from a project file without loading the whole project
+#### 只从 project 文件导入 Clips（不加载整个项目）
 
-To import just the clips from a project, select _**Clips->Import Clip Deck**_, and instead of selecting a clip deck file (.cpdk), choose a project file.
+要仅导入 Clips，选择 _**Clips->Import Clip Deck**_，并选择 project 文件而不是 Clip Deck 文件（.cpdk）。
 {% endhint %}
 
-### Append clip deck
+### Append Clip Deck
 
-You can add clips from an exported clip deck file to your current project using _Append Clip Deck_. Clips are added to the end of your current clip deck, but the effects and group settings within the file are not imported.&#x20;
+使用 _Append Clip Deck_ 将导出的 Clip Deck 文件追加到当前项目。Clips 会添加到当前 Clip Deck 的末尾，但文件中的 effects 与 group 设置不会导入。&#x20;
 
 ### Export Selected Clips
 
-Any currently selected clips will be exported into a file. Group settings and effects will not be saved, only the clips. Note that currently running active clips are not exported unless they are also selected.&#x20;
+将当前选中的 Clips 导出到文件。不会保存 group 设置与 effects，仅保存 Clips。注意：正在运行的 Clips 若未被选中则不会导出。&#x20;
 
 {% hint style="info" %}
-Option/Alt - shift - click clips to select them (or use the lasso). You can tell which clips are selected by the thick white outline around them. See [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+Option/Alt - shift - 点击 Clips 进行选择（或使用套索）。被选中的 Clips 会有较粗的白色轮廓。见 [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")。
 {% endhint %}
 
 ### Effects Import / Export
 
-Loads and saves all of the effects along with their group settings and parameters.&#x20;
+保存与加载所有 effects 以及其 group 设置和参数。&#x20;
 
 {% hint style="info" %}
-#### Load effects from a project file without loading the whole project
+#### 只从 project 文件导入 Effects（不加载整个项目）
 
-To import just the effects from a project, select _**Effects->Import Effects**_, and instead of selecting a effects file (.efts), choose a project file.
+要仅导入 Effects，选择 _**Effects->Import Effects**_，并选择 project 文件而不是 effects 文件（.efts）。
 {% endhint %}
 
 ### Timeline Export
 
-Export a timeline file with one or more timelines. Note that the clipdeck is always included with exported timeline files (although you can be selective about which clips you import back in, see  [#timeline-import](loading-and-saving.md#timeline-import "mention")below)
+导出包含一个或多个 timelines 的 timeline 文件。注意：导出的 timeline 文件**始终包含** Clip Deck（不过你在导入时可选择要导入哪些 clips，见下方 [#timeline-import](loading-and-saving.md#timeline-import "mention")）。
 
-If you have more than one timeline in your project file, a panel will open allowing you to select which timeilnes you want to export.
+如果项目中有多个 timelines，会出现面板让你选择要导出的 timelines。
 
 {% hint style="danger" %}
-Sound and video files in the timeline are not saved with timeline files so be sure to save them separately if you want to transfer your content to a different computer. See [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Timeline 的音频与视频文件不会随 timeline 文件保存，如需迁移内容请单独保存。见 [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")。
 {% endhint %}
 
 ### Timeline Import&#x20;
 
-Import one or more timelines from a single timeline file. After you have selected your timeline file, a panel will open with multiple import options.&#x20;
+从单个 timeline 文件中导入一个或多个 timelines。选中文件后会弹出面板，提供多种导入选项。&#x20;
 
-If the timeline file has more than one timeline they will all be listed. Check the ones that you want to include.
+若 timeline 文件包含多个 timelines，它们都会列出，勾选要导入的即可。
 
 * Replace existing timelines\
-  Will delete all of your current timelines with the ones imported
+  用导入的 timelines 替换当前所有 timelines
 * Import used clips only\
-  Will import only the clips used, and will arrange the clips in groups, one for each timeline. If this option is not selected, the timeline file's entire clip deck will be appended to your existing clips.&#x20;
+  仅导入被使用的 Clips，并按 Timeline 分组排列。若不选中该项，则会将 timeline 文件的整个 Clip Deck 追加到现有 Clips。&#x20;
 * Replace existing clip deck\
-  Replaces your current clip deck with clips in the timeline file. Only available if _Replace existing timelines_ is selected.&#x20;
+  用 timeline 文件中的 Clips 替换当前 Clip Deck。仅在勾选 _Replace existing timelines_ 时可用。&#x20;
 
 {% hint style="info" %}
-#### Load timelines from a project file without loading the whole project
+#### 只从 project 文件导入 Timelines（不加载整个项目）
 
-To import just the timelines from a project, select _**Timeline->Import Timeline(s)**_, and instead of selecting a timeline file (.ltml), choose a project file.
+要仅导入 Timelines，选择 _**Timeline->Import Timeline(s)**_，并选择 project 文件而不是 timeline 文件（.ltml）。
 {% endhint %}
 
-### DMX / Artnet import / export
+### DMX / Art-Net import / export
 
-Saves and loads the Artnet nodes, along with their IP addresses. Also includes the DMX zones, and all of your DMX presets.
+保存并加载 Art-Net nodes 及其 IP 地址，同时包含 DMX zones 和所有 DMX presets。
 
 
 
-### Important note about timeline media files
+### 关于 Timeline 媒体文件的重要说明
 
-Sound and video files **are not** currently exported with the timeline file so if you need to move content to a different computer make sure to include these.&#x20;
+Timeline 的音频与视频文件**不会**随 timeline 文件导出，如需迁移到其他电脑，请确保一并携带这些文件。&#x20;
 
 {% hint style="info" %}
-#### How a timeline looks for media files&#x20;
+#### Timeline 对媒体文件的查找方式&#x20;
 
-When the timeline is loaded, it will look in the same folder as the timeline (or project) file and search within it and any subfolders. So as long as the files are in the same folder or a subfolder (such as _/videos_ or _/sound_ it will find them when it loads. &#x20;
+加载 Timeline 时，系统会在 Timeline（或 project）文件所在目录及其子目录中查找媒体文件。所以只要媒体文件在同一目录或子目录（如 _/videos_ 或 _/sound_）中，就能被正确加载。&#x20;
 {% endhint %}
-
-
-
-
-
-
-
-
-

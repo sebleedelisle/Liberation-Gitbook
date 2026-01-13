@@ -1,2 +1,1 @@
-# ◼️ Advanced laser settings
-
+# ◼️ 高级激光设置

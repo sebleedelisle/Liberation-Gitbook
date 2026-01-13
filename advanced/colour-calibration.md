@@ -1,49 +1,49 @@
-# 🟩 Colour calibration
+# 🟩 颜色校准
 
-Colour calibration ensures your projector’s red, green and blue lasers output light in a smooth and predictable way at all brightness levels. Different projectors can have non-linear brightness curves, meaning that 50% red may look far brighter or dimmer than half the intensity of 100% red. Calibration corrects this so colours mix cleanly, gradients look smooth, and whites are balanced.
+颜色校准可确保投影器的红、绿、蓝激光在所有亮度下都平滑且可预测地输出。不同投影器可能存在非线性亮度曲线，这意味着 50% 红色看起来可能比 100% 红色的一半亮得多或暗得多。校准可修正这一点，使颜色混合更干净、渐变更顺滑、白色更中性。
 
-#### Warming up your projector
+#### 让投影器预热
 
-Laser diodes change behaviour as they warm up. Always let your projector stabilise before calibration:
+激光二极管在预热过程中表现会变化。校准前请让投影器稳定：
 
-* Project a bright frame such as the **White rectangle test pattern (11)** for at least **15–20 minutes**.
-* This ensures the colour balance you set will stay consistent during a show.
+* 投射一个亮画面，例如 **White rectangle test pattern (11)**，至少 **15–20 分钟**。
+* 这样可以确保你设置的颜色平衡在演出中保持稳定。
 
-#### How the calibration test works
+#### 校准测试原理
 
-Use the test patterns for calibration (see [test-patterns.md](../output-view/test-patterns.md "mention"))
+使用校准测试图案（见 [test-patterns.md](../output-view/test-patterns.md "mention")）：
 
 * **5** – Red
 * **6** – Green
 * **7** – Blue
 * **8** – White
 
-Each of these shows four moving lines:
+每个图案会显示四条移动的线：
 
-* **Top line** – 100% brightness at full speed
-* **Second line** – 75% brightness at 75% speed
-* **Third line** – 50% brightness at 50% speed
-* **Fourth line** – 25% brightness at 25% speed
+* **Top line** – 100% 亮度，100% 速度
+* **Second line** – 75% 亮度，75% 速度
+* **Third line** – 50% 亮度，50% 速度
+* **Fourth line** – 25% 亮度，25% 速度
 
-Because both brightness _and speed_ are scaled together, the lines should all look the same brightness. If one looks lighter or darker, adjust the corresponding slider until they match.
+由于亮度与速度同时缩放，这些线应该看起来亮度一致。如果某条更亮或更暗，请调整相应滑块直到一致。
 
-Each test pattern also has a fifth line at **0% brightness** which shouldn't be visible. This is used to correct for lasers that don’t output any light at very low levels. If your laser remains invisible at low brightness, gradually increase the **0% setting** until the line is just visible, then back it off slightly until it disappears again. The goal is to find the threshold where the laser starts to light, then stay just below it - so your fades start naturally without cutting off the bottom range.
+每个测试图案还有一条 **0% 亮度**的第五条线，正常情况下不可见。它用于修正激光在极低亮度下仍出光的问题。如果你在低亮度下仍能看到激光，逐步提高 **0% setting**，直到线条刚好可见，再略微回调使其消失。目标是找到激光开始点亮的阈值，并保持略低于它——这样淡入会更自然，不会在底部被截断。
 
-#### Using the Colour Calibration panel
+#### 使用 Colour Calibration 面板
 
-The panel gives you independent controls for each channel (red, green, blue) at 100, 75, 50, 25, and 0% levels.
+面板为每个通道（红、绿、蓝）提供 100、75、50、25 和 0% 的独立控制。
 
-1. **Select a test pattern** (start with red).
-2. **Adjust the sliders** so the 100, 75, 50 and 25% lines look the same brightness.
-3. **Tweak the 0% slider** if the “off” line is still faintly visible.
-4. **Repeat for green and blue.**
-5. Switch to the **White test pattern (8)**. All four lines should look equal, and the white should appear neutral (not tinted).
+1. **选择一个测试图案**（从红色开始）。
+2. **调整滑块**，让 100、75、50 和 25% 的线看起来亮度一致。
+3. **调整 0% 滑块**，如果“关闭”线条仍隐约可见。
+4. **对绿色与蓝色重复。**
+5. 切换到 **White test pattern (8)**。四条线应亮度一致，白色应中性（不偏色）。
 
-#### Adjusting the white balance
+#### 调整白平衡
 
-You can also use this system to adjust **white balance**. After calibrating each channel individually, switch to the **White test pattern (8)**. If the output looks tinted (for example too green or too blue), adjust the relative levels of the red, green and blue channels until the lines appear neutral white. Even if your lasers are quite mismatched in power, calibration will still help bring them closer together and produce a cleaner, more balanced mix of colours.
+你也可以用该系统调整 **white balance**。在分别校准每个通道后，切换到 **White test pattern (8)**。如果输出偏色（如偏绿或偏蓝），调整红、绿、蓝通道的相对水平，直到线条呈现中性白。即使你的激光功率差异很大，校准仍能让它们更接近，从而得到更干净、平衡的色彩混合。
 
-#### Saving your calibration
+#### 保存校准
 
-* Use **Store** to overwrite the current preset.
-* Use **Store As** to create a new preset (useful if you work with multiple lasers).
+* 使用 **Store** 覆盖当前 preset。
+* 使用 **Store As** 创建新 preset（适合多台激光时使用）。

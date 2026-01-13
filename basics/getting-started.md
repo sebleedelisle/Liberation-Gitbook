@@ -1,340 +1,260 @@
-# ✅ Quick start guide
+# ✅ 快速入门指南
 
-## Introduction
+## 介绍
 
-Welcome to **Liberation** - the next generation of laser show software.
+欢迎使用 **Liberation** ——新一代激光演出软件。
 
-Liberation is powerful and complex modern software; it's built on fundamentals of usability and reliability to give you the freedom to express your creativity. It's fast, efficient and seamless; follow this _Quick start guide_ to get you up and running in no time!
+Liberation 是一款功能强大且复杂的现代软件；它以易用性与可靠性为核心，让你能自由表达创意。它快速、高效、顺滑；跟随本《快速入门指南》，你可以迅速上手！
 
-### Managing lasers
+### 管理激光
 
-Liberation is flexible enough that you can set up lasers and visualise them without any actual lasers connected at all. And then when you're ready to go you can seamlessly assign each output to a laser controller.
+Liberation 足够灵活，即使没有连接任何真实激光，你也可以完成设置并进行可视化。当你准备好后，再把每个输出分配给激光控制器即可。
 
 {% hint style="info" %}
-You can set up and visualise as many lasers as you want within Liberation, the license tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design laser shows with 100 lasers even with a free license. You only need to upgrade when it comes to actually running it on real lasers.
+你可以在 Liberation 中设置并可视化任意数量的激光，许可证档位（Hobbyist、Pro 等）只限制你能 _arm_ 的激光数量。这意味着即使是免费许可证，你也能用 100 台激光设计演出。只有真正要输出到实际激光时才需要升级。
 {% endhint %}
 
-The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up. (See [setting-up-your-project.md](../setting-up/setting-up-your-project.md "mention"))&#x20;
+默认有 8 台激光横向排列，但你可以自定义为任何布局。建议在熟悉软件之前先保留默认设置，之后再根据硬件实际情况调整。（见 [setting-up-your-project.md](../setting-up/setting-up-your-project.md "mention")）&#x20;
 
 {% hint style="warning" %}
-Important : Before you arm any lasers make sure you understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") chapter.
+重要：在 arm 任何激光之前，请确保理解相关风险，并仔细阅读 [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") 章节。
 {% endhint %}
 
-## Overview of the software
+## 软件概览
 
-### Safety shut-off
+### 安全关闭
 
-Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](../hardware/emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button, or the _**ESC**_ key (or the _**SESSION**_ key on the APC40). You can also reduce the global brightness using the on-screen slider or the main fader on the APC40.
+运行激光时，必须配备**硬件急停按钮**（见 [emergency-stop-interlocks.md](../hardware/emergency-stop-interlocks.md "mention")）。如果只是想不那么紧急地 disarm，可以使用 _**DISARM ALL**_ 按钮，或 _**ESC**_ 键（或 APC40 上的 _**SESSION**_ 键）。你也可以用屏幕上的滑块或 APC40 主推子降低全局亮度。
 
-### Slider elements
+### 滑块控件
 
-Throughout Liberation there are various sliders and controls.
+Liberation 中有各种滑块与控制项。
 
 {% hint style="info" %}
-CMD/CTRL-click into a slider to type a new value if you need greater control than the slider can give you.
+在滑块上 CMD/CTRL 点击可直接输入数值，获得更精细的控制。
 {% endhint %}
 
-### Keyboard shortcuts
+### 键盘快捷键
 
-A full list of keyboard shortcuts can be found here : [keyboard-shortcuts.md](../reference/keyboard-shortcuts.md "mention")
+完整快捷键列表见：[keyboard-shortcuts.md](../reference/keyboard-shortcuts.md "mention")。
 
-### Screen layout
+### 屏幕布局
 
 <figure><img src="../.gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Not sure what a particular button does? Hover over it with your mouse to get a description!
+不确定按钮作用？把鼠标悬停在按钮上即可看到说明！
 {% endhint %}
 
-#### Menu
+#### 菜单
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-The menu is where you will find all file import / export options, and to open panels. You'll also find the option to authorise the computer with your subscription here (in _Liberation -> Authorise/Deauthorise this computer_) .
+菜单中包含文件导入/导出选项，以及打开各类面板的入口。你也可以在这里完成订阅授权（_Liberation -> Authorise/Deauthorise this computer_）。
 
-#### Icon bar
+#### 图标栏
 
 <figure><img src="../.gitbook/assets/icon-bar.png" alt=""><figcaption></figcaption></figure>
 
-Common tasks can be found here, such as arming/disarming all the lasers, the global brightness, test pattern, and switching between the 3D, Canvas and Output views
+常用任务都在这里，比如 arm/disarm 所有激光、全局亮度、测试图案，以及在 3D、Canvas 和 Output 视图之间切换。
 
-### Views
+### 视图
 
-The large area in the top left of the screen can be one of 3 main views; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons (or use the _TAB_ key to switch between the 3D and OUTPUT views, and then continue to tab through each laser output in turn).
+屏幕左上方的大区域会显示 3 个主要视图之一：**3D**、**CANVAS** 和 **OUTPUT**。使用图标栏按钮切换（或按 _TAB_ 键在 3D 与 OUTPUT 间切换，然后继续按 Tab 在各激光输出间循环）。
 
 <figure><img src="../.gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
 
-#### 3D View
+#### 3D 视图
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_View -> 3D Visualiser Settings_). See [3d-visualiser.md](../setting-up/3d-visualiser.md "mention").
+3D 视图显示激光效果，并可配置为匹配你的实际激光设置。点击并拖动以旋转相机，用滚轮前后移动。更多选项在 _3D Visualiser settings_ 面板中（_View -> 3D Visualiser Settings_）。见 [3d-visualiser.md](../setting-up/3d-visualiser.md "mention")。
 
-#### Output View
+#### Output 视图
 
 <figure><img src="../.gitbook/assets/qs-view-output.png" alt=""><figcaption></figcaption></figure>
 
-The output view is used to configure zones and masks for each laser. (Note the massive number in the top left corner so you can easily see which laser you are on!)
+Output 视图用于配置每台激光的 Zones 与 Masks。（注意左上角的大数字，便于确认当前编辑的是哪台激光！）
 
-This view is a representation of the entire output of this laser, and where each zone sits within it. By default there is only one zone per laser but you can add as many zones as reasonably practical, and you will see them all in this view.
+该视图表示这台激光的完整输出范围，以及各个 Zone 在其中的位置。默认每台激光只有一个 Zone，但你可以添加多个合理数量的 Zones，它们都会显示在此视图中。
 
 {% hint style="info" %}
-**What is a zone?**
+**什么是 Zone？**
 
-A zone is a space within a laser's output that you can direct laser content into. And you can have more than one zone per laser. The simplest type of zone is a _beam_ zone, but there are also _canvas_ zones and _DMX_ zones. For this guide we'll mostly focus on beam zones, which are usually used to create atmospheric beam effects through the air.
+Zone 是激光输出中的一个区域，你可以把内容定向到该区域。一台激光可以有多个 Zones。最简单的是 _beam_ zone，此外还有 _canvas_ zones 和 _DMX_ zones。本指南主要讲 beam zones，它通常用于空气中的光束效果。
 {% endhint %}
 
-You can select the laser you want to edit using either :
+你可以用以下方式选择要编辑的激光：
 
-* the numbered buttons in the bar at the top
-* pressing the number key for the laser you want _(1-9_ keys\_)\_
-* the **TAB** key to cycle through from one to the next
+* 顶部栏的编号按钮
+* 按键盘上的激光编号键（_1-9_）
+* 按 **TAB** 键从一台切换到下一台
 
-Add a new laser to the set up by pressing the _+_ button. (There is also an _ADD LASER_ button in the _Laser Overview_ panel)
+点击 _+_ 按钮可添加新激光。（_Laser Overview_ 面板中也有 _ADD LASER_ 按钮）
 
-Delete a laser from the set up by hitting the red ⊖ button in the _Laser Overview_ panel.
+在 _Laser Overview_ 面板中点击红色 ⊖ 按钮可删除激光。
 
-You can zoom in and out using the mouse scroll wheel, and click and drag anywhere there isn't a zone to move the view.
+用鼠标滚轮缩放，在没有 Zone 的区域点击并拖动即可移动视图。
 
-Click on a zone to select it and then adjust its corner points with the mouse. Use the ALT key while you are dragging a corner to make it non-uniform. Right-click on the zone to see more options, including changing the type of zone.
+点击 Zone 选中后可拖动角点调整。拖拽角点时按住 ALT 可进行非均匀调整。右键点击 Zone 可查看更多选项，包括更改 Zone 类型。
 
-Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid and snapping settings.
+左侧是一列图标按钮，鼠标悬停可查看说明。按钮可用于添加 beam zones、canvas zones 与 masks；也可设置该激光专用测试图案，以及网格/吸附设置。
 
-For more details see [output-view](../output-view/ "mention").
+更多细节见 [output-view](../output-view/ "mention")。
 
 #### Canvas
 
-The Canvas system is used mostly for graphics and architectural mapping. You can distribute complex images across multiple lasers, and perspective-correct each section. See [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention").
+Canvas 系统主要用于图形与建筑映射。你可以将复杂图像分配到多台激光，并对每个部分进行透视校正。见 [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")。
 
-### APC40 MIDI controller
+### APC40 MIDI 控制器
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
-Although it is possible to control Liberation using the mouse and keyboard, it's way better to use an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works).
+虽然可以用鼠标和键盘控制 Liberation，但使用 APC40 MIDI 控制器会好得多（Mark 2 最佳，但 Mark 1 也可用）。
 
-See also : [apc40-reference.md](../reference/apc40-reference.md "mention")
+另见：[apc40-reference.md](../reference/apc40-reference.md "mention")。
 
-We have now also implemented support for APC Mini Mark 2 and the MIDI Fighter Twister, and more are in development. But the APC40 Mark 2 is the best option for most cases.&#x20;
+我们也已经支持 APC Mini Mark 2 和 MIDI Fighter Twister，更多设备正在开发中。但对大多数情况来说，APC40 Mark 2 仍是最佳选择。&#x20;
 
-### Clips and effects
+### Clips 与 Effects
 
 {% hint style="info" %}
-**What is a clip?**
+**什么是 Clip？**
 
-A clip is a container for any laser content within Liberation. Clips can contain beams or graphical animations and they are usually a looping cycle. They can be directed into any zone (or _Canvas target area_) and are triggered using the clip buttons inside the clip deck.
+Clip 是 Liberation 中激光内容的容器。Clip 可以包含光束或图形动画，通常以循环方式播放。它们可以发送到任意 Zone（或 _Canvas target area_），并通过 Clip Deck 中的按钮触发。
 {% endhint %}
 
-#### Clip deck overview
+#### Clip Deck 概览
 
 <figure><img src="../.gitbook/assets/qs-clipdeck.png" alt=""><figcaption></figcaption></figure>
 
-This grid is known as the _clip deck_ and it is where all of the laser clips are stored. It is designed to map directly to the 8 x 5 grid of buttons on your APC40.
+这个网格称为 _Clip Deck_，所有激光 Clips 都存储在这里。它与 APC40 的 8 x 5 按钮网格一一对应。
 
-**Navigating the clip deck.**
+**浏览 Clip Deck**
 
-You can scroll the clip deck left and right using :
+你可以左右滚动 Clip Deck：
 
-* Left and right cursor keys. Add CMD/CTL to scroll one full page at a time.
-* Trackpad : Swipe
-* Mouse : if your mouse has a sideways scroll you can use that while hovered over the clip deck
-* APC40 scroll knob
-* APC40 _<- DEVICE ->_ buttons
+* 左右方向键。加 CMD/CTL 可整页滚动。
+* 触控板：滑动
+* 鼠标：支持横向滚动的鼠标可在悬停 Clip Deck 时横向滚动
+* APC40 滚轮
+* APC40 _<- DEVICE ->_ 按钮
 
-To help you get your bearings, there is a mini visualiser of the clip deck along the top. See also [clips](../clips/ "mention")
+为方便定位，顶部有 Clip Deck 的 mini visualiser。另见 [clips](../clips/ "mention")。
 
-#### Starting and stopping clips
+#### 启动与停止 Clips
 
-Press a clip button (either with the mouse or with the APC40) to start a clip. Press it again to stop it. When you start a clip, all other clips of the same colour will automatically stop unless you hold _shift_.
+按下 Clip 按钮（鼠标或 APC40）启动 Clip，再按一次停止。启动 Clip 时，同色组内其他 Clips 会自动停止，除非你按住 _shift_。
 
-Some clips will be in _Flash mode_ (by default, the red ones), in which case they will stop as soon as you release the clip button.
+部分 Clips 处于 _Flash mode_（默认红色组），松开按钮即停止。
 
-The _STOP_ button stops all currently running clips.
+**STOP** 按钮可停止所有正在运行的 Clips。
 
-#### Setting output zones for the clip
+#### 为 Clip 设置输出 Zones
 
-Underneath the clip buttons, you'll see the zone buttons, beam zones 1 to 8 by default (_BEAM 1_, _BEAM 2_, etc). The zone buttons light up to indicate which zones are assigned to the currently selected clip.
+在 Clip 按钮下方是 Zone 按钮，默认 beam zones 为 1 到 8（_BEAM 1_、_BEAM 2_ 等）。按钮点亮表示该 Zone 已分配给当前选中的 Clip。
 
 <figure><img src="../.gitbook/assets/qs-zone-buttons.png" alt=""><figcaption></figcaption></figure>
 
-Two rows below the zone buttons, you'll see the X/Y flip buttons, toggle these to flip the clip horizontally and vertically.
+Zone 按钮下方两行是 X/Y flip 按钮，用于水平/垂直翻转 Clip 输出。
 
 {% hint style="info" %}
-Note that these zone allocations and X/Y flip settings are connected to the clip itself; they are retained next time you run that clip. They are not a global setting.
+注意：这些 Zone 分配与 X/Y flip 设置与 Clip 绑定；下次运行该 Clip 时仍会保留。它们不是全局设置。
 {% endhint %}
 
-Right click on a clip to edit more settings for the clip. Also see [clip-settings.md](../clips/clip-settings.md "mention")
+右键点击 Clip 可编辑更多设置。另见 [clip-settings.md](../clips/clip-settings.md "mention")。
 
 ### Groups
 
-You'll notice that each clip has a coloured outline, and this colour represents which _group_ it's in. The APC40 clip buttons also light up in this colour.
+每个 Clip 都有颜色轮廓，代表它所属的 _group_。APC40 的 Clip 按钮也会以该颜色点亮。
 
-<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyan</td></tr><tr><td>Group 2</td><td>Orange</td></tr><tr><td>Group 3</td><td>Red</td></tr><tr><td>Group 4</td><td>Indigo</td></tr><tr><td>Group 5</td><td>Green</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>青色</td></tr><tr><td>Group 2</td><td>橙色</td></tr><tr><td>Group 3</td><td>红色</td></tr><tr><td>Group 4</td><td>靛色</td></tr><tr><td>Group 5</td><td>绿色</td></tr></tbody></table>
 
-The group system is very flexible and it allows you to :
+Group 系统非常灵活，可用于：
 
-* Keep clips in one group going, while you toggle groups in another one
-* Quickly assign zones and X/Y flips to all clips within a group
-* Set _Flash mode_ for a clip (Group 3 is set to _Flash mode_ by default)
+* 让某个 Group 的 Clips 持续运行，同时切换另一个 Group
+* 快速为该 Group 的所有 Clips 分配 Zones 与 X/Y flip
+* 为 Clip 设置 _Flash mode_（默认 Group 3 为 _Flash mode_）
 
-Groups also have settings for transition in/out that can be inherited by its clips, or over-ridden.
+Groups 还有淡入/淡出设置，Clip 可以继承或覆盖。
 
-You can assign the clip's group using the buttons in the right-click menu, or using the APC40 you can press the group button and _while it is still held down,_ press the clip buttons.
+你可以在右键菜单中分配 Clip 的 Group，或使用 APC40 按住 group 按钮并在保持按下时点选 Clip。
 
-Change zone settings for all clips within a group
+**为 Group 内所有 Clips 统一修改 Zone 设置**
 
-Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.
+在 APC40 上按住 group 按钮，然后在保持按下时使用 Zone 与 X/Y 按钮为该 Group 的所有 Clips 切换 Zone 设置。
 
-See also [groups.md](../clips/groups.md "mention")
+另见 [groups.md](../clips/groups.md "mention")。
 
 ### Effects
 
-The effects system in Liberation is a powerful and versatile way of changing the clip output in real-time. The default effects buttons 1-8 are under the zone buttons.
+Liberation 的 Effects 系统是实时改变 Clip 输出的强大工具。默认 Effects 1-8 按钮在 Zone 按钮下方。
 
-#### Applying an effect
+#### 应用 Effect
 
-Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out.
+按下 effect 按钮切换效果；更好的方法是使用 APC40 的 1-8 号推子淡入/淡出 effects。
 
-#### Effect parameters
+#### Effect 参数
 
-Use the rotary controllers 1-8\* to adjust the _parameter_ for each effect. (Or you can right-click with the mouse to adjust the level and parameter). The parameter change does different things dependent on how the effect is set up. See the list below for the default effects.
+使用旋钮 1-8\* 调整每个 effect 的 _parameter_。（也可右键用鼠标调整 level 与 parameter。）参数具体作用取决于 effect 的设置。默认 effects 列表见下文。
 
 {% hint style="info" %}
-The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect. The _level_ is controlled by the fader on the APC40 or you can click-drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.
+effect 按钮上的小数字表示 _level_ 与 _parameter_。_level_ 由 APC40 推子或点击拖动按钮控制；parameter 由 APC40 旋钮控制，或右键用鼠标调整。
 {% endhint %}
 
-_\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also:_ [apc40-reference.md](../reference/apc40-reference.md "mention")
+_\*Rotary controllers 1-8 位于 APC40 Mk2 顶部，Mk1 在右上角。另见：_ [apc40-reference.md](../reference/apc40-reference.md "mention")。
 
-#### The default effects
+#### 默认 Effects
 
 <figure><img src="../.gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
 
 1. **Randomiser** :\
-   Applies a chaotic movement to the clip output. The parameter adjusts the amount/speed of chaos.
+   对 Clip 输出施加混沌运动。参数调节混沌程度/速度。
 2. **Sine wave** :\
-   Warps all the content across a moving sine wave. The parameter adjusts the wavelength.
+   将所有内容沿移动的正弦波形扭曲。参数调节波长。
 3. **Rotation** :\
-   Spins everything around. The parameter adjusts the spin speed.
+   让所有内容旋转。参数调节旋转速度。
 4. **Horizontal flip** :\
-   Squishes and stretches everything horizontally. The parameter adjusts the speed.
+   水平方向挤压和拉伸所有内容。参数调节速度。
 5. **Scale** :\
-   Repeatedly scales everything from full to zero. The parameter adjusts the speed.
+   将所有内容从满幅到 0 反复缩放。参数调节速度。
 6. **Hue** :\
-   Changes the hue of everything, but doesn't change the saturation (ie anything white stays white). The parameter adjusts the hue.
+   改变所有内容的色相，但不改变饱和度（即白色仍是白色）。参数调节色相。
 7. **Saturation and hue** :\
-   Changes the hue of everything and also fully saturates the colour (ie anything white changes to the colour). The parameter adjusts the hue.
+   改变所有内容的色相，并将颜色完全饱和（即白色也会变为颜色）。参数调节色相。
 8. **Flash** :\
-   Repeatedly flashes the brightness of everything from full to zero. The parameter adjusts the flash speed.
+   将所有内容的亮度从满到 0 反复闪烁。参数调节闪烁速度。
 
 <figure><img src="../.gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-There are a further 16 colour effects along the bottom row to apply pre-set hue and saturation values.
+底部一排还有 16 个颜色 effects，用于应用预设的 hue 与 saturation。
 
-Note that these are the default effects but they can be edited to do almost whatever you want!
+注意：以上是默认 effects，但你可以把它们编辑成几乎任何你想要的效果！
 
-#### What is the _"currently selected clip"_?
+#### 什么是 _"currently selected clip"_？
 
-When you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip. Whenever you toggle zone buttons or adjust the clip settings, these are applied to the _currently selected clip._
+启动 Clip 后，它会点亮表示激活，同时有白色轮廓表示它是 _selected_ clip。你切换 Zone 按钮或调整 Clip 设置时，这些操作都会应用到 _currently selected clip_。
 
 {% hint style="info" %}
-To select a clip without triggering it, press the ALT key before pressing the clip button. This is a good way to adjust its zones and other settings without running it.
+如果想在不触发 Clip 的情况下选中它，按住 ALT 再按 Clip 按钮。这样可以在不运行的情况下调整 Zones 与设置。
 {% endhint %}
 
-### Clip settings panel
+### Clip settings 面板
 
-Use the _Clip Settings_ panel to edit scaling, X/Y position, and access the powerful zone delay system.
+使用 _Clip Settings_ 面板编辑缩放、X/Y 位置，并访问强大的 zone delay 系统。
 
 <figure><img src="../.gitbook/assets/qs-clip-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
-### Global settings panel
+### Global settings 面板
 
-Find the _Global Settings_ panel to adjust global output settings that affect all output across all zones.
+在 _Global Settings_ 面板中调整会影响所有 Zones 输出的全局设置。
 
 <figure><img src="../.gitbook/assets/qs-global-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
-Turn on AUTO RESET to automatically reset all the _Global settings_, whenever no clips are playing.&#x20;
+开启 AUTO RESET 后，在没有 Clips 运行时会自动重置所有 _Global settings_。&#x20;
 
 ### Timing
 
-Almost all laser displays have some kind of musical soundtrack, so the timing system in Liberation is based around a tempo in beats per minute. In the _Tempo Panel_ you can see a representation of the time; each square represents a beat and you can see them flash in time.
+几乎所有激光演出都会配合音乐，因此 Liberation 的时间系统围绕 BPM（每分钟节拍数）进行。在 _Tempo Panel_ 中可以看到时间表示；每个方块代表一个拍点，并会按节拍闪烁。
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
-
-There are multiple synchronisation options, including MIDI clock and Ableton Link. If you know the tempo of the music you can manually adjust it using the on-screen slider or the APC40 Tempo knob, but you can also keep in time with the music using the _Tap Tempo_ system\_.\_
-
-#### Tap Tempo
-
-_Tap Tempo_ is a term commonly used in music apps, and it lets you tap in time with the beat to set the tempo while the music is playing. You can use the button on screen, although it's recommended to use the _T_ key or the _Tap Tempo_ button on the APC40 (or even a foot switch if you prefer).
-
-Press the _R_ key or the _Metronome_ button (APC40) to reset the tempo to the beginning of the bar.
-
-Press the _Y_ key or turn the _Tempo_ knob(APC40) to round the tempo to a whole number. This can be useful for electronic music which tends to have a round number of beats per minute.
-
-### Organising your clip deck
-
-To move a clip on your clip deck, click and drag it to a new position. While dragging you can use the cursor keys (or the scroll wheel/buttons on your APC40) to scroll left and right.
-
-Press the ALT key while you're dragging to make a copy.
-
-ALT click a clip to select it without starting it.
-
-ALT + SHIFT click a clip to multi-select, or click and drag outside of a clip to "lasso" select.&#x20;
-
-Click and drag will drag ALL selected clips.
-
-To delete one or more clips either drag them off the clip deck (a trash can icon will appear) or use the DELETE button from the clip right click menu.
-
-### Laser overview panel
-
-<figure><img src="../.gitbook/assets/qs-laser-overview.png" alt="" width="375"><figcaption></figcaption></figure>
-
-The _Laser overview panel_ gives you a quick look into the status of your currently running lasers. The green square on the right shows you that the laser controller is happy. If it goes orange, you have occasional drop-outs, and if it's red it has disconnected. If it's grey, then it's not connected to a controller at all.&#x20;
-
-The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (ie more flickery). Anything below about 25fps will start to look a bit flickery.&#x20;
-
-### Connecting to lasers - Controller Assignment panel
-
-Click on the _Assign Laser Controllers_ button to open the _Controller Assignment_ panel. (This panel can also be accessed via _View -> Controller Assignment_ in the menu bar).
-
-You can choose which laser outputs go to which laser controllers here. Drag and drop controllers from the list on the right into slots on the left. You can rename your controllers to match which laser they are paired with (use the pen icon button).
-
-Read the [controller-assignment.md](../setting-up/controller-assignment.md "mention") chapter for more details.
-
-{% hint style="danger" %}
-Before you arm any lasers make sure to go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")chapter.
-{% endhint %}
-
-### Laser output panel
-
-<figure><img src="../.gitbook/assets/qs-laser-settings.png" alt="" width="375"><figcaption></figcaption></figure>
-
-This panel shows you the settings for the _currently selected laser_ (represented by the number at the top). Change which laser is currently selected using the _tab_ key, hitting a number key, clicking a laser number in the _Laser Overview_ panel or in the _output view._
-
-* **Number button** arm and disarm the laser, if it's red then the laser is armed.
-* **Brightness** adjust laser brightness independent of the other lasers (and it's combined with the _global brightness_ setting - ie, if they're both at 50%, you're laser will be at 25%).
-* **Test Pattern** turns on a test pattern for this laser only (overrides the global test pattern setting)
-* **Orientation** corrects for lasers rigged sideways or upside-down.
-* **Flip Horizontal and Flip Vertical** reverses the output of the laser. Useful for output correction on inconsistently wired lasers.
-* **Copy Laser Settings** opens a panel that lets you copy various settings from this laser to others.
-
-### Scanner settings
-
-Display lasers work by moving a single laser beam extremely quickly and turning it on and off to draw shapes in the air. What you see as lines, shapes, and images is actually the beam tracing paths faster than your eyes can follow.
-
-A point stream is the data that tells the laser where to move next and when the beam should be on or off. In Liberation, clips are converted into this point stream in real time as they are sent to the lasers.
-
-Liberation gives you detailed control over how this point stream is generated, allowing you to balance smoothness, brightness, and performance for each laser.
-
-{% hint style="info" %}
-If you are used to older laser software that relies on pre-calculated point streams, this approach may feel different at first. However, real-time point generation allows the same content to be optimised differently for each laser. This makes it easier to work with multiple lasers that have different scanner speeds or quality, without duplicating or rebuilding content. It also keeps clip files very small, which is why the entire default Liberation clip deck is only a few megabytes rather than gigabytes.
-{% endhint %}
-
-The basic scanner settings are:
-
-* **Speed** is the scanner speed, ie how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
-* **Scanner sync** (sometimes known as _blank shift, previously Colour Shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in synch with each other. See [laser-settings](../setting-up/laser-settings/ "mention")
-
-The other advanced scanner settings are covered in the [advanced](../advanced/ "mention")chapter.
-
-### Zoning
-
-For a full guide to setting up and zoning lasers see : [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")
