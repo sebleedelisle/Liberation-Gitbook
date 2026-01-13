@@ -2,9 +2,9 @@
 
 ## 介绍
 
-欢迎使用 **Liberation** ——新一代激光演出软件。
+欢迎使用 **Liberation** ——用于现场的激光演出软件。
 
-Liberation 是一款功能强大且复杂的现代软件；它以易用性与可靠性为核心，让你能自由表达创意。它快速、高效、顺滑；跟随本《快速入门指南》，你可以迅速上手！
+Liberation 功能强大且结构复杂，但以易用性与可靠性为核心，便于稳定创作与演出。软件运行快速高效、体验流畅。本《快速入门指南》将帮助你尽快上手。
 
 ### 管理激光
 
@@ -24,7 +24,7 @@ Liberation 足够灵活，即使没有连接任何真实激光，你也可以完
 
 ### 安全关闭
 
-运行激光时，必须配备**硬件急停按钮**（见 [emergency-stop-interlocks.md](../hardware/emergency-stop-interlocks.md "mention")）。如果只是想不那么紧急地 disarm，可以使用 _**DISARM ALL**_ 按钮，或 _**ESC**_ 键（或 APC40 上的 _**SESSION**_ 键）。你也可以用屏幕上的滑块或 APC40 主推子降低全局亮度。
+运行激光时，必须配备**硬件急停按钮**（见 [emergency-stop-interlocks.md](../hardware/emergency-stop-interlocks.md "mention")）。如果只是想非紧急地 disarm，可以使用 _**DISARM ALL**_ 按钮，或 _**ESC**_ 键（或 APC40 上的 _**SESSION**_ 键）。你也可以用屏幕上的滑块或 APC40 主推子降低全局亮度。
 
 ### 滑块控件
 
@@ -76,7 +76,7 @@ Liberation 中有各种滑块与控制项。
 
 Output 视图用于配置每台激光的 Zones 与 Masks。（注意左上角的大数字，便于确认当前编辑的是哪台激光！）
 
-该视图表示这台激光的完整输出范围，以及各个 Zone 在其中的位置。默认每台激光只有一个 Zone，但你可以添加多个合理数量的 Zones，它们都会显示在此视图中。
+该视图表示这台激光的完整输出范围，以及各个 Zone 在其中的位置。默认每台激光只有一个 Zone，但你可以按需添加多个 Zones，它们都会显示在此视图中。
 
 {% hint style="info" %}
 **什么是 Zone？**
@@ -110,11 +110,11 @@ Canvas 系统主要用于图形与建筑映射。你可以将复杂图像分配�
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
-虽然可以用鼠标和键盘控制 Liberation，但使用 APC40 MIDI 控制器会好得多（Mark 2 最佳，但 Mark 1 也可用）。
+虽然可以用鼠标和键盘控制 Liberation，但使用 APC40 MIDI 控制器更高效（Mark 2 更推荐，但 Mark 1 也可用）。
 
 另见：[apc40-reference.md](../reference/apc40-reference.md "mention")。
 
-我们也已经支持 APC Mini Mark 2 和 MIDI Fighter Twister，更多设备正在开发中。但对大多数情况来说，APC40 Mark 2 仍是最佳选择。&#x20;
+我们也已经支持 APC Mini Mark 2 和 MIDI Fighter Twister，更多设备正在开发中。但对大多数情况来说，APC40 Mark 2 仍是更稳妥的选择。&#x20;
 
 ### Clips 与 Effects
 
@@ -188,7 +188,7 @@ Groups 还有淡入/淡出设置，Clip 可以继承或覆盖。
 
 ### Effects
 
-Liberation 的 Effects 系统是实时改变 Clip 输出的强大工具。默认 Effects 1-8 按钮在 Zone 按钮下方。
+Liberation 的 Effects 系统是实时改变 Clip 输出的常用工具。默认 Effects 1-8 按钮在 Zone 按钮下方。
 
 #### 应用 Effect
 
@@ -229,7 +229,7 @@ _\*Rotary controllers 1-8 位于 APC40 Mk2 顶部，Mk1 在右上角。另见：
 
 底部一排还有 16 个颜色 effects，用于应用预设的 hue 与 saturation。
 
-注意：以上是默认 effects，但你可以把它们编辑成几乎任何你想要的效果！
+注意：以上是默认 effects，你可以按需编辑。
 
 #### 什么是 _"currently selected clip"_？
 
@@ -241,7 +241,7 @@ _\*Rotary controllers 1-8 位于 APC40 Mk2 顶部，Mk1 在右上角。另见：
 
 ### Clip settings 面板
 
-使用 _Clip Settings_ 面板编辑缩放、X/Y 位置，并访问强大的 zone delay 系统。
+使用 _Clip Settings_ 面板编辑缩放、X/Y 位置，并访问 zone delay 系统。
 
 <figure><img src="../.gitbook/assets/qs-clip-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
