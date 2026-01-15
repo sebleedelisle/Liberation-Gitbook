@@ -1,4 +1,4 @@
-# 🟧 Introduction
+# ✅ Introduction
 
 Liberation includes a flexible and powerful DMX system that lets you create lighting effects and control DMX-compatible lasers over Art-Net. It’s designed to make it easy to keep your lighting in sync with your laser show - no need for a separate lighting desk.
 
@@ -22,7 +22,6 @@ When you send a clip to a DMX zone, Liberation looks at the first element in the
 
 <figure><img src="../.gitbook/assets/ArcadiaSpider2023.jpg" alt=""><figcaption></figcaption></figure>
 
-The first real test of the Liberation DMX system was at Glastonbury 2023 where Reach Lasers installed a total of 90 beam sources as part of the Arcadia "spider" stage.&#x20;
+The first real test of the Liberation DMX system was at Glastonbury 2023 where Reach Lasers installed a total of 90 beam sources as part of the Arcadia "spider" stage.
 
-18 lasers were controlled with internal Ether Dreams, and a further 12 6-head beam bars were controlled via Art net and DMX.&#x20;
-
+18 lasers were controlled with internal Ether Dreams, and a further 12 6-head beam bars were controlled via Art net and DMX.
