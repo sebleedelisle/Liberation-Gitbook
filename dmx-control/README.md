@@ -1,2 +1,2 @@
-# ◼️ DMX control
+# 🟧 DMX / Artnet
 
