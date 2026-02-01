@@ -76,6 +76,7 @@
   * [◼️ Recording a show](timeline/recording-a-show.md)
   * [◼️ Adding clips manually](timeline/adding-clips-manually.md)
   * [◼️ Fine tuning clips](timeline/fine-tuning-clips.md)
+  * [🟩 Synchronising tempo to an audio track](timeline/synchronising-tempo-to-an-audio-track.md)
 * [✅ Timecode](timecode.md)
 * [🟧 DMX / Artnet](dmx-control/README.md)
   * [✅ Introduction](dmx-control/introduction.md)
