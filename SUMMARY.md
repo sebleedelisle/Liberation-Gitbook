@@ -118,3 +118,4 @@
   * [◼️ Glossary / jargon](reference/glossary-jargon.md)
   * [✅ The Preset system](reference/the-preset-system.md)
 * [✅ Credits](credits.md)
+* [🟩 Using Liberation with Capture visualiser](using-liberation-with-capture-visualiser.md)
