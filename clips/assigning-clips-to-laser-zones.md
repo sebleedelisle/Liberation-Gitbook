@@ -19,5 +19,6 @@ Underneath each zone button you can see buttons marked _X_ and _Y._ These flip t
 You don't need to make a new zone to have different mirror settings. The X and Y flip settings apply to this clip only, they're not a setting of the zone.
 {% endhint %}
 
+### Assigning zones to multiple clips at once
 
-
+You can assign zones and adjust X/Y for all clips in a zone. See [groups.md](groups.md "mention") for more information.&#x20;
