@@ -21,7 +21,7 @@ Colour calibration patterns 5-8. These can be used alongside the colour correcti
 8. Colour calibration pattern - white.&#x20;
 
 {% hint style="danger" %}
-**Caution** -  test pattern 9 can be very dangerous and should be used only once you have determined that the zone is safe. The bright unmoving spots can cause burning on surfaces. If using in the sky make sure you have the necessary licenses/permissions and constantly check for aircraft.&#x20;
+**Caution** -  test pattern 9 can be very dangerous and should be used only once you have determined that the zone is safe. The bright unmoving spots can cause burning on surfaces. If using in the sky make sure you have the necessary licences/permissions and constantly check for aircraft.&#x20;
 {% endhint %}
 
 9. Bright white dots - one full power dot in each corner. It's the most visible pattern so it's good for zoning in bright areas or into the sky.&#x20;

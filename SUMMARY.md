@@ -8,7 +8,7 @@
     * [✅ Install for Windows (legacy before version 0.9)](installation/install-for-windows/install-for-windows-legacy.md)
   * [✅ How licensing works](installation/how-licensing-works.md)
   * [✅ Authorising and de-authorising](installation/authorising-and-de-authorising.md)
-  * [✅ Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md)
+  * [✅ Upgrade / downgrade your licence](installation/upgrade-downgrade-your-license.md)
   * [✅ Cancel your subscription](installation/cancel-your-subscription.md)
   * [🟩 Transfer your content when upgrading to a new version](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
 * [✅ FAQ](faq.md)

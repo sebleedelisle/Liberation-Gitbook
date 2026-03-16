@@ -57,7 +57,7 @@ Note that this guide assumes an indoor set up. If you are working outdoors, addi
 
 Lasers that are well below the safety threshold can still cause catastrophic distractions for pilots.&#x20;
 
-Make sure you have the necessary qualifications, licenses and permissions before directing any lasers into airspace.&#x20;
+Make sure you have the necessary qualifications, licences and permissions before directing any lasers into airspace.&#x20;
 {% endhint %}
 
 
