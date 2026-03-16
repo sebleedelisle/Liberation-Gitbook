@@ -1,8 +1,31 @@
 # ✅ Keyboard shortcuts
 
-```
-```
+Shortcuts are written as `Cmd / Ctrl`: use `Cmd` on macOS and `Ctrl` on Windows.
 
-<table data-header-hidden><thead><tr><th width="193"></th><th></th></tr></thead><tbody><tr><td>CMD*-SHIFT-A</td><td>Arm all lasers</td></tr><tr><td>ESCAPE</td><td>Disarm all lasers</td></tr><tr><td>TAB</td><td>Toggle views and cycle through lasers</td></tr><tr><td>SHIFT plus TAB</td><td>Toggle views and cycle through lasers backward</td></tr><tr><td>NUMBER KEYS 1-9</td><td>Jump to laser</td></tr><tr><td>&#x3C;- -> ARROW KEYS</td><td>Move clip deck left / right</td></tr><tr><td>CMD* plus &#x3C;- -></td><td>Move clip deck page left, page right</td></tr><tr><td>SHIFT plus &#x3C;- -></td><td>Zones page left, page right</td></tr><tr><td>SPACE</td><td>Play / pause (when <em>Timeline</em> tempo source is active)</td></tr><tr><td>T</td><td>Tap tempo</td></tr><tr><td>R</td><td>Bar reset</td></tr><tr><td>Y</td><td>Round tempo to nearest BPM</td></tr><tr><td>CMD* ,</td><td>Open settings panel</td></tr><tr><td>CMD* F</td><td>Toggle full screen mode</td></tr><tr><td>CMD* L</td><td>Laser output settings panel</td></tr><tr><td>CMD* K</td><td>Laser controller assignent panel</td></tr><tr><td>CMD* J</td><td>3D visualiser settings panel</td></tr><tr><td>CMD* SHIFT  +</td><td>Increase interface scaling</td></tr><tr><td>CMD SHIFT -</td><td>Decrease interface scaling</td></tr><tr><td>CMD 0</td><td>Reset interface scaling</td></tr><tr><td>CMD A</td><td>Timeline : Select all</td></tr><tr><td>DELETE</td><td><p>Timeline : Delete selected blocks</p><p>Clip editor : Delete selected nodes</p></td></tr><tr><td>CMD-Q (MacOS)</td><td>Quit app</td></tr><tr><td>ALT-F4 (Windows)</td><td>Quit app</td></tr></tbody></table>
-
-\*Control key on Windows
+| Shortcut | Action |
+| --- | --- |
+| `Cmd / Ctrl + Shift + A` | Arm all lasers |
+| `Escape` | Disarm all lasers |
+| `Tab` | Toggle views and cycle through lasers |
+| `Shift + Tab` | Toggle views and cycle through lasers backward |
+| `1-9` | Jump to laser |
+| `Left / Right Arrow` | Move clip deck left / right |
+| `Cmd / Ctrl + Left / Right Arrow` | Move clip deck one page left / right |
+| `Shift + Left / Right Arrow` | Move zones one page left / right |
+| `Space` | Play / pause (when _Timeline_ tempo source is active) |
+| `T` | Tap tempo |
+| `R` | Bar reset |
+| `Y` | Round tempo to the nearest BPM |
+| `Cmd / Ctrl + ,` | Open the settings panel |
+| `Cmd / Ctrl + F` | Toggle full-screen mode |
+| `Cmd / Ctrl + L` | Open the laser output settings panel |
+| `Cmd / Ctrl + K` | Open the laser controller assignment panel |
+| `Cmd / Ctrl + J` | Open the 3D visualiser settings panel |
+| `Cmd / Ctrl + Shift + Plus (+)` | Increase interface scaling |
+| `Cmd / Ctrl + Shift + Minus (-)` | Decrease interface scaling |
+| `Cmd / Ctrl + 0` | Reset interface scaling |
+| `Cmd / Ctrl + A` | Timeline: select all |
+| `Delete` | Timeline: delete selected blocks |
+| `Delete` | Clip editor: delete selected nodes |
+| `Cmd + Q` (macOS) | Quit the app |
+| `Alt + F4` (Windows) | Quit the app |
