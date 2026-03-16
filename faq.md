@@ -45,7 +45,7 @@ We are currently working on a configurable MIDI system that will allow this in f
 * [Mercury by X-Laser](https://x-laser.com/pages/mercury-laser-control-system) (you may need to update your firmware)
 * LaserCube USB (and LaserDock)
 * LaserCube network protocol (with a wired connection)
-* AVB as used by [LASollinger lasers](https://laseranimation.com/en/) (currently MacOS only in testing)
+* AVB as used by [LASollinger lasers](https://laseranimation.com/en/) (currently macOS only in testing)
 
 See [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") for more information
 
@@ -61,7 +61,7 @@ If your laser has one of the following, you can use it with Liberation :
 * An internally installed **Ether Dream**.
 * Any **LaserCube** (works with both USB and Wi-Fi LaserCube).
 * An **X-Laser unit with a built-in Mercury system** (In Ether Dream mode).
-* A **LaserAnimation Sollinger projector with AVB built in** (MacOS only, requires AVB-compatible network devices, currently in testing).
+* A **LaserAnimation Sollinger projector with AVB built in** (macOS only, requires AVB-compatible network devices, currently in testing).
 
 See [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") for more information
 
@@ -141,7 +141,7 @@ Yes! See [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md
 
 #### Can I type a number instead of using a slider?
 
-Yes! CMD/CTRL click on the slider and you can enter the value using the keyboard.
+Yes. `Cmd / Ctrl`-click the slider and you can enter the value using the keyboard.
 
 #### **How do I sync Liberation to music?**
 
@@ -167,11 +167,11 @@ This is the frame latency, or maximum amount of time between a frame being gener
 
 #### How do I adjust zones and settings for a clip without running it?
 
-ALT/OPTION click to make it the _currently selected clip_ but without activating it. See also [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-click to make it the _currently selected clip_ but without activating it. See also [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
 
 #### How do I copy clips?
 
-Click and drag while holding the ALT/OPTION key. See also [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+Click and drag while holding the `Alt / Option` key. See also [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
 
 #### How do I delete clips?
 

@@ -8,7 +8,7 @@ This will show you the settings for the currently selected laser which you can c
 
 * via its number button in the _Laser overview_ panel
 * with a number key on your keyboard, keys 1 to 0 open lasers 1 - 10
-* with the _TAB_ key to cycle through the lasers. (_SHIFT + TAB_ goes backwards).
+* with the `Tab` key to cycle through the lasers (`Shift + Tab` goes backwards).
 
 At the top of this panel you'll see :
 

@@ -8,7 +8,7 @@ Underneath the clips, you can see a row of zone buttons (both on-screen and refl
 
 If there are more than 8 zones you can scroll left and right using :
 
-* SHIFT plus the <- and -> cursor keys
+* `Shift + Left / Right Arrow`
 * The _DEV ON/OFF_ and _DEV LOCK_ buttons on the APC40
 
 ### Flip X and Y

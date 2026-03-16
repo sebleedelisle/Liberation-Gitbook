@@ -2,7 +2,7 @@
 
 ### Compatibility
 
-MacOS version 12 (Monterey) and higher. Apple Silicon recommended, particularly if you want to run large shows. The faster your computer is, the smoother the animated laser output will be.&#x20;
+macOS version 12 (Monterey) and higher. Apple Silicon recommended, particularly if you want to run large shows. The faster your computer is, the smoother the animated laser output will be.&#x20;
 
 ### Installation process
 

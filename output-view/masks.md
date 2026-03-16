@@ -10,7 +10,7 @@ Software masks should NEVER be your only method of protecting humans from the ou
 
 You can add one or more virtual masks to remove (or reduce) laser output in specific places.&#x20;
 
-Add a mask by clicking on the icon in the toolbar; you'll see a red square appear in the output view and this is your new mask. You can move it around by clicking and dragging, and drag the corners to change its size. If you want a non-uniform shape, press ALT/OPTION while dragging a corner. (Once the mask is non-uniform, you no longer need to press the ALT/OPTION key.)&#x20;
+Add a mask by clicking on the icon in the toolbar; you'll see a red square appear in the output view and this is your new mask. You can move it around by clicking and dragging, and drag the corners to change its size. If you want a non-uniform shape, press `Alt / Option` while dragging a corner. (Once the mask is non-uniform, you no longer need to press the `Alt / Option` key.)&#x20;
 
 Right click on the mask to see additional settings :&#x20;
 

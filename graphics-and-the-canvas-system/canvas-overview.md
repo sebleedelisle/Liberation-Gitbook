@@ -19,7 +19,7 @@ First of all, there's the canvas itself. This is what you see in the _CANVAS_ vi
 These are shown as blue outline rectangles in the canvas view, and these are areas to which you can send content. You send a clip's content to a canvas target area, in the same way that you would send a clip to a beam zone. You'll see the canvas target area buttons to the right of the beam zone buttons in the clip deck.
 
 {% hint style="info" %}
-If you can't see the canvas buttons in the clip deck, try scrolling the beam zone buttons - use SHIFT and the left and right cursor keys. You should see a button for every canvas target area labelled _CANVAS 1, CANVAS 2_ etc.
+If you can't see the canvas buttons in the clip deck, try scrolling the beam zone buttons with `Shift + Left / Right Arrow`. You should see a button for every canvas target area labelled _CANVAS 1, CANVAS 2_ etc.
 {% endhint %}
 
 ### Canvas zones

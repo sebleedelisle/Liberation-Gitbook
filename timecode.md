@@ -16,7 +16,7 @@ SMPTE stands for Society of Motion Picture and Television Engineers, who defined
 
 You can receive an LTC timecode signal through any sound interface on your computer, but it's recommended to use a professional interface with at least one adjustable XLR input, and a monitoring capability.&#x20;
 
-I've had good experience with the [M-Audio 192/6](https://www.m-audio.com/audio-midi-interfaces/air-192-6.html) as it has headphone monitoring, 2 XLR inputs and it doesn't need any special drivers (on MacOS at least).  If you're only ever going to use it for timecode you can get the slightly cheaper [M-Audio 192/4](https://www.m-audio.com/audio-midi-interfaces/air-192-4.html) (which only has one input and no MIDI), but honestly any half decent sound interface should work.&#x20;
+I've had good experience with the [M-Audio 192/6](https://www.m-audio.com/audio-midi-interfaces/air-192-6.html) as it has headphone monitoring, 2 XLR inputs and it doesn't need any special drivers (on macOS at least).  If you're only ever going to use it for timecode you can get the slightly cheaper [M-Audio 192/4](https://www.m-audio.com/audio-midi-interfaces/air-192-4.html) (which only has one input and no MIDI), but honestly any half decent sound interface should work.&#x20;
 
 {% hint style="info" %}
 LTC timecode signals are typically distributed via balanced XLR cables as they are robust enough to transmit low level audio signals across long distances. (XLR is the barrel jack connector usually used with microphones)
@@ -32,9 +32,9 @@ Theoretically it is possible to receive the signal via the jack socket on your M
 I think you'd be better off just getting hold of a cheap USB sound interface rather than attempting this.&#x20;
 {% endhint %}
 
-If your sound interface doesn't have any kind of input monitoring you can check in OSX system settings (under _Sound_) to make sure you are gettitng a signal. (On Windows, use the _Sound Control Panel_).&#x20;
+If your sound interface doesn't have any kind of input monitoring you can check in macOS system settings (under _Sound_) to make sure you are gettitng a signal. (On Windows, use the _Sound Control Panel_).&#x20;
 
-<figure><img src=".gitbook/assets/Screenshot 2025-03-12 at 11.48.03.png" alt=""><figcaption><p>MacOS shows you the input level for any sound interface in the Sound system settings panel</p></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2025-03-12 at 11.48.03.png" alt=""><figcaption><p>macOS shows you the input level for any sound interface in the Sound system settings panel</p></figcaption></figure>
 
 ### Setting up in Liberation
 

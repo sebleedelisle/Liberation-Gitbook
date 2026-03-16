@@ -18,7 +18,7 @@ It's a fun technique to get multiple sound feeds from the mixing desk, that way 
 {% endhint %}
 
 {% hint style="info" %}
-You can only use one sound interface at a time across all _Sound Inputs (_&#x73;elected in the _App Settings_ panel). If you want to use more than one interface for this, on MacOS you can [create an Aggregate Device](https://support.apple.com/en-gb/HT202000) to combine inputs into a single virtual sound source. (There are many apps on Windows that will do this too, but I haven't tried them).
+You can only use one sound interface at a time across all _Sound Inputs (_&#x73;elected in the _App Settings_ panel). If you want to use more than one interface for this, on macOS you can [create an Aggregate Device](https://support.apple.com/en-gb/HT202000) to combine inputs into a single virtual sound source. (There are many apps on Windows that will do this too, but I haven't tried them).
 {% endhint %}
 
 * **clamp min / clamp max** - use this to choose which range of levels you want to respond to. You shouldn't need to adjust this if the gate and limit settings (in the _App Settings_ panel) are properly adjusted, but they can be used for some creative effects.

@@ -11,7 +11,7 @@ You do not need an external controller or an ILDA input if :
 * Your laser has Ether Dream installed inside, or;
 * You have a LaserCube from Wicked Lasers, or;
 * You have an X-Laser fixture with Mercury built in, or;&#x20;
-* You have a Laser Animation Sollinger laser with an AVB controller built-in (currently in testing on MacOS only)
+* You have a Laser Animation Sollinger laser with an AVB controller built-in (currently in testing on macOS only)
 
 {% hint style="info" %}
 #### What is a laser controller?
@@ -59,7 +59,7 @@ But if you just want to run a couple of lasers at home, it's the cheapest and si
 
 #### AVB (Built into Laser Animation Sollinger units)
 
-**AVB** is an open network-based protocol for high-performance, low-latency audio and data streaming. Many LaserAnimation Sollinger projectors include AVB support directly in the hardware, which allows Liberation to connect to them over the network without the need for external DACs. AVB support in Liberation is currently **MacOS-only and in testing**, and it requires **compatible AVB-enabled network devices**. When set up correctly, it offers a simpler workflow, fewer external devices, and robust reliability for professional shows. I
+**AVB** is an open network-based protocol for high-performance, low-latency audio and data streaming. Many LaserAnimation Sollinger projectors include AVB support directly in the hardware, which allows Liberation to connect to them over the network without the need for external DACs. AVB support in Liberation is currently **macOS-only and in testing**, and it requires **compatible AVB-enabled network devices**. When set up correctly, it offers a simpler workflow, fewer external devices, and robust reliability for professional shows. I
 
 #### Controllers that will be supported in the future :
 

@@ -10,7 +10,7 @@ Note that Global Transformations do not affect anything in the canvas, only Beam
 
 ### Scale X/Y
 
-Horizontal and vertical scale, these values are locked together unless you press SHIFT. By default these are also mapped onto APC40 Device Control knobs 4 and 8 and appear in the panel to the right of the clip deck.
+Horizontal and vertical scale, these values are locked together unless you press `Shift`. By default these are also mapped onto APC40 Device Control knobs 4 and 8 and appear in the panel to the right of the clip deck.
 
 ### Shift X/Y
 

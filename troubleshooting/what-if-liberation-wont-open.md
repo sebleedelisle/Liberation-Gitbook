@@ -22,7 +22,7 @@ Each version of Liberation has its own working folder. For example, if you’re 
 
 **macOS**
 
-1. In Finder, press **Shift+Cmd+G**.
+1. In Finder, press **Shift + Cmd + G**.
 2.  Paste this path and press **Enter**:
 
     ```
@@ -32,7 +32,7 @@ Each version of Liberation has its own working folder. For example, if you’re 
 
 **Windows**
 
-1.  Press **Win+R**, paste this and press **Enter**:
+1.  Press **Win + R**, paste this and press **Enter**:
 
     ```
     %LOCALAPPDATA%\Liberation
