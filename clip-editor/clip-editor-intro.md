@@ -81,7 +81,7 @@ Oscillators 总有 _range_ 设置，用于控制属性的最小/最大值。_Wav
 * Timer - 面板顶部显示 Clip 当前运行时间
 * _RETRIGGER_ - 从开头重新开始播放；当 Clip 不是循环时特别有用
 * _Preview to lasers_ - 勾选后，编辑 Clip 时 3D visualiser 会实时更新；关闭后则显示编辑器之外正在运行的 Clips。这是全局设置，不是单个 Clip 设置。&#x20;
-* _UNDO/REDO_ - Clip Editor 的撤销/重做，同时映射到 CTL/CMD Z 与 CTL/CMD SHIFT Z
+* _UNDO/REDO_ - Clip Editor 的撤销/重做，同时映射到 `Cmd / Ctrl + Z` 与 `Cmd / Ctrl + Shift + Z`
 * _SAVE CLIP_ - 保存编辑，会提示你覆盖
 * _SAVE AS A COPY_ - 将 Clip 保存到 Clip Deck 中下一个可用位置，保存位置会变为新位置，后续保存都写入这个位置&#x20;
 * _EXIT EDITOR_ - 关闭 Clip Editor。若有未保存更改，会弹出确认面板。&#x20;

@@ -11,7 +11,7 @@
 * 你的激光内部安装了 Ether Dream，或
 * 你使用 Wicked Lasers 的 LaserCube，或
 * 你使用内置 Mercury 的 X-Laser 设备，或&#x20;
-* 你使用内置 AVB 控制器的 LaserAnimation Sollinger 激光（目前仅 MacOS，处于测试阶段）
+* 你使用内置 AVB 控制器的 LaserAnimation Sollinger 激光（目前仅 macOS，处于测试阶段）
 
 {% hint style="info" %}
 #### 什么是激光控制器？
@@ -59,7 +59,7 @@
 
 #### AVB（内置于 LaserAnimation Sollinger 设备）
 
-**AVB** 是一种基于网络的开放协议，用于高性能、低延迟的音频和数据传输。许多 LaserAnimation Sollinger 投影器在硬件中直接支持 AVB，使 Liberation 能通过网络连接它们而无需外置 DAC。Liberation 中的 AVB 支持目前**仅限 MacOS 且处于测试阶段**，并且需要**兼容 AVB 的网络设备**。正确设置后，它能提供更简化的工作流、更少的外部设备，并且可靠性更强。
+**AVB** 是一种基于网络的开放协议，用于高性能、低延迟的音频和数据传输。许多 LaserAnimation Sollinger 投影器在硬件中直接支持 AVB，使 Liberation 能通过网络连接它们而无需外置 DAC。Liberation 中的 AVB 支持目前**仅限 macOS 且处于测试阶段**，并且需要**兼容 AVB 的网络设备**。正确设置后，它能提供更简化的工作流、更少的外部设备，并且可靠性更强。
 
 #### 未来将支持的控制器：
 

@@ -22,7 +22,7 @@
 
 **macOS**
 
-1. 在 Finder 中按 **Shift+Cmd+G**。
+1. 在 Finder 中按 **Shift + Cmd + G**。
 2. 粘贴以下路径并按 **Enter**：
 
     ```
@@ -32,7 +32,7 @@
 
 **Windows**
 
-1. 按 **Win+R**，粘贴以下内容并按 **Enter**：
+1. 按 **Win + R**，粘贴以下内容并按 **Enter**：
 
     ```
     %LOCALAPPDATA%\Liberation

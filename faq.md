@@ -45,7 +45,7 @@ Liberation 围绕流行的 APC40 Mk2 MIDI 控制器设计并优化，也支持 A
 * [Mercury by X-Laser](https://x-laser.com/pages/mercury-laser-control-system)（可能需要更新固件）
 * LaserCube USB（以及 LaserDock）
 * LaserCube 网络协议（需有线连接）
-* AVB（用于 [LASollinger lasers](https://laseranimation.com/en/)）（目前仅 MacOS，处于测试阶段）
+* AVB（用于 [LASollinger lasers](https://laseranimation.com/en/)）（目前仅 macOS，处于测试阶段）
 
 更多信息参见 [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention")
 
@@ -61,7 +61,7 @@ Liberation 围绕流行的 APC40 Mk2 MIDI 控制器设计并优化，也支持 A
 * 内置 **Ether Dream**。
 * 任何 **LaserCube**（支持 USB 和 Wi-Fi LaserCube）。
 * 内置 **Mercury 系统的 X-Laser 设备**（以 Ether Dream 模式运行）。
-* 内置 **AVB 的 LaserAnimation Sollinger 投影器**（仅 MacOS，需兼容 AVB 的网络设备，当前在测试中）。
+* 内置 **AVB 的 LaserAnimation Sollinger 投影器**（仅 macOS，需兼容 AVB 的网络设备，当前在测试中）。
 
 更多信息参见 [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention")
 
@@ -141,7 +141,7 @@ Liberation 围绕流行的 APC40 Mk2 MIDI 控制器设计并优化，也支持 A
 
 #### 可以不用滑块直接输入数值吗？
 
-可以！按住 CMD/CTRL 点击滑块，然后用键盘输入数值。
+可以！按住 `Cmd / Ctrl` 点击滑块，然后用键盘输入数值。
 
 #### **如何让 Liberation 与音乐同步？**
 
@@ -167,11 +167,11 @@ Liberation 围绕流行的 APC40 Mk2 MIDI 控制器设计并优化，也支持 A
 
 #### 不运行 clip 也能调整 zones 和设置吗？
 
-按住 ALT/OPTION 点击，使其成为 _currently selected clip_ 但不激活。另见 [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+按住 `Alt / Option` 点击，使其成为 _currently selected clip_ 但不激活。另见 [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
 
 #### 如何复制 clips？
 
-按住 ALT/OPTION 点击并拖动。另见 [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+按住 `Alt / Option` 点击并拖动。另见 [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
 
 #### 如何删除 clips？
 

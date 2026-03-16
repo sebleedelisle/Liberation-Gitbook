@@ -14,7 +14,7 @@
 
 要在不停止其他 Clips 的情况下启动新 Clip，可以：
 
-* 按住 shift 键（或 APC40 的 shift 按钮）启动新 Clip；或
+* 按住 `Shift` 键（或 APC40 的 Shift 按钮）启动新 Clip；或
 * 在启动新 Clip 的同时，再次按住正在运行的 Clip。
 
 各 Group 相互独立，在一个 Group 中启动 Clip 不会影响其他 Group。见 [groups.md](groups.md "mention")。
@@ -43,10 +43,10 @@
 
 运行中的 Clip 会在屏幕上点亮（其 mini clip visualiser 也会闪烁）。你会注意到最后一次按下的 Clip 也有白色边框，这表示它是 _currently selected clip_。
 
-ALT/OPTION 点击 Clip 可在不激活的情况下选中它。ALT/OPTION + SHIFT 点击可多选。&#x20;
+`Alt / Option`-点击 Clip 可在不激活的情况下选中它。`Alt / Option + Shift`-点击可多选。&#x20;
 
 你也可以在 Clip Deck 上拖拽套索进行多选。&#x20;
 
 {% hint style="info" %}
-APC40 也有 ALT 和 SHIFT 按钮用于选择。&#x20;
+APC40 也有 `Alt` 和 `Shift` 按钮可用于选择。&#x20;
 {% endhint %}

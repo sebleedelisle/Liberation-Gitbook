@@ -4,7 +4,7 @@
 
 创建“laser harp”风格的效果：输入的 MIDI 音符会在一段范围内触发光束或形状。该 node 会使用传入的内容作为每个音符的 _source_——如果输入一个点，就会得到一排点；输入圆形，就会得到一排圆形，更复杂的形状也同样复制。
 
-你可以在 **Liberation → Settings (CMD/CTRL ,)** 中选择 Liberation 监听的 MIDI 接口。
+你可以在 **Liberation → Settings**（`Cmd / Ctrl + ,`）中选择 Liberation 监听的 MIDI 接口。
 
 * **midi channel** – 监听的 MIDI 通道（0 = 所有通道，1–16 = 指定通道）
 * **width** – 音符展开的总宽度。

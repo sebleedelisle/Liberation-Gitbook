@@ -1,6 +1,6 @@
 # ✅ APC40 参考
 
-<figure><img src="../.gitbook/assets/Liberation_APC40_MK2_2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
 1. 8x5 Clip Deck
 2. Zone On/Off
@@ -20,11 +20,12 @@
 16. Shift button（用于多选与其他操作）
 17. Tempo Multiplier Enable/Disable
 18. Tempo Multiplier Fader（0% - 200%）
-19. Play / Pause&#x20;
+19. Play / Pause
 20. Toggle Record Timeline
-21. Arm / Disarm（必须按 SHIFT 才能 arm）
+21. Arm / Disarm（必须按 Shift 才能 arm）
 22. Tempo bar reset
 23. Tap Tempo
-24. Nudge tempo + and -
-25. Tempo Scroll
-26. Foot Pedal, Tap Tempo
+24. Toggle Zone Delay（配合 Shift 可循环 Delay/Chase，配合 Alt 可切换 Retrigger）
+25. Nudge tempo + and -
+26. Tempo Scroll
+27. Foot Pedal, Tap Tempo

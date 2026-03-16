@@ -8,7 +8,7 @@
 
 如果超过 8 个 Zones，可使用以下方式左右滚动：
 
-* SHIFT + <- / -> 方向键
+* `Shift + Left / Right Arrow`
 * APC40 上的 _DEV ON/OFF_ 和 _DEV LOCK_ 按钮
 
 ### Flip X 与 Y

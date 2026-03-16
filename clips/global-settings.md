@@ -10,7 +10,7 @@
 
 ### Scale X/Y
 
-水平与垂直缩放。除非按住 SHIFT，否则两者联动。默认映射到 APC40 Device Control 旋钮 4 和 8，并显示在 Clip Deck 右侧面板中。
+水平与垂直缩放。除非按住 `Shift`，否则两者联动。默认映射到 APC40 Device Control 旋钮 4 和 8，并显示在 Clip Deck 右侧面板中。
 
 ### Shift X/Y
 

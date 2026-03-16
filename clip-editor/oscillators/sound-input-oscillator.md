@@ -18,7 +18,7 @@ Sound input oscillator 使用默认音频接口，但你可以在 _Preferences_ 
 {% endhint %}
 
 {% hint style="info" %}
-所有 _Sound Inputs_ 只能使用一个音频接口（在 _App Settings_ 面板中选择）。如果你想使用多个接口，在 MacOS 上可以[创建 Aggregate Device](https://support.apple.com/en-gb/HT202000) 将多个输入合并为一个虚拟音源。（Windows 上也有很多应用可做到这一点，但我未亲测）。
+所有 _Sound Inputs_ 只能使用一个音频接口（在 _App Settings_ 面板中选择）。如果你想使用多个接口，在 macOS 上可以[创建 Aggregate Device](https://support.apple.com/en-gb/HT202000) 将多个输入合并为一个虚拟音源。（Windows 上也有很多应用可做到这一点，但我未亲测）。
 {% endhint %}
 
 * **clamp min / clamp max** - 用于选择希望响应的电平范围。如果 _App Settings_ 面板中的 gate 与 limit 设置正确，通常无需调整，但也可用于一些创意效果。
