@@ -2,7 +2,7 @@
 
 #### Unable to deauthorise on Windows?
 
-If you are unable to deauthorise a computer on Windows, first make sure you deauthorise the licence using the same version of Liberation that was originally authorised, before authorising it again in a different version.
+If you are unable to deauthorise a computer on Windows, first make sure you deauthorise the licence using the same version of Liberation that originally authorised it, before authorising it again in a different version.
 
 If this does not work and you are using a version earlier than 1.0, the issue is likely due to how older Windows builds of Liberation identified the computer. In those versions, the system used to generate a machine ID was less reliable, and in some cases the ID could change between restarts, even if no hardware had obviously changed.
 

@@ -69,51 +69,51 @@ See [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-c
 
 Yes, Liberation works directly with any LaserCube. See [lasercube.md](hardware/lasercube.md "mention")
 
-## Licenses
+## Licences
 
-#### **What is the price of a license?**
+#### **What is the price of a licence?**
 
 See the [shop](https://liberationlaser.com/shop) page for the current prices.
 
 #### **What are the limitations between the licensing tiers?**
 
-See the [shop](https://liberationlaser.com/shop) page for the current license options.
+See the [shop](https://liberationlaser.com/shop) page for the current licence options.
 
 Note that you can set up, preview and design shows with as many lasers as you want on **every** tier even the free one, and there are no other limitations at all apart from the number of lasers that you can _arm_. Every other Liberation feature is available to all.
 
 #### **Can I upgrade to a new tier?**
 
-You can upgrade to a higher tier at any time. You will get a partial refund for the remaining time on your current license, and your new plan will start immediately. See [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
+You can upgrade to a higher tier at any time. You will get a partial refund for the remaining time on your current licence, and your new plan will start immediately. See [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
 
-#### **Can I downgrade my license?**
+#### **Can I downgrade my licence?**
 
-You can downgrade at any time but the change will take effect at the end of your current license period. See [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
+You can downgrade at any time but the change will take effect at the end of your current licence period. See [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
 
-#### **How do I authorise my computer with my license?**
+#### **How do I authorise my computer with my licence?**
 
-Once you have purchased a license you can then authorise the computer within the Liberation software itself. You will see an _Authorise_ button on the _About_ screen that will prompt you to log in to the website. Follow the on-screen instructions to complete the authorisation process. See [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
+Once you have purchased a licence you can then authorise the computer within the Liberation software itself. You will see an _Authorise_ button on the _About_ screen that will prompt you to log in to the website. Follow the on-screen instructions to complete the authorisation process. See [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
 
 #### **How often do I need to connect my computer to the internet?**
 
-Every time the license renews you will need to connect Liberation to the internet to update its internal license. For a monthly recurring payment, you will need to connect every month.
+Every time the licence renews you will need to connect Liberation to the internet to update its internal licence. For a monthly recurring payment, you will need to connect every month.
 
 #### **What happens if I can’t connect my computer to the internet after renewal?**
 
-Liberation will give you a grace period of 7 days after your license renews to connect to the internet and update its internal license. After that period Liberation will go back into _Free_ mode.
+Liberation will give you a grace period of 7 days after your licence renews to connect to the internet and update its internal licence. After that period Liberation will go back into _Free_ mode.
 
 #### **What happens if my credit card expires?**
 
 You will get an email notification from our payment provider, and you will need to update your payment system. Log in to the website and use the _Update payment details_ link on the subscriptions page.
 
-#### **How do I cancel my recurring license?**
+#### **How do I cancel my recurring licence?**
 
-Log in to the website, open the _Your subscriptions_ page, select the subscription you want to cancel, then click the _Cancel Subscription_ link. You can continue to use Liberation for the remainder of the license period.
+Log in to the website, open the _Your subscriptions_ page, select the subscription you want to cancel, then click the _Cancel Subscription_ link. You can continue to use Liberation for the remainder of the licence period.
 
 #### **How many computers can I install Liberation on?**
 
 You can install Liberation on as many computers as you like. Licence authorisations are only required to enable laser / DMX output, and your licence tier determines how many computers can be authorised for output at once. See [how-licensing-works.md](installation/how-licensing-works.md "mention")
 
-#### **How do I move my license from one computer to another?**
+#### **How do I move my licence from one computer to another?**
 
 * Open Liberation on the computer you do not want to use any more
 * Make sure you are connected to the internet and click the _De-authorise this computer_ button on the _About_ screen

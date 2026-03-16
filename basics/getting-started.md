@@ -11,7 +11,7 @@ Liberation is powerful and complex modern software; it's built on fundamentals o
 Liberation is flexible enough that you can set up lasers and visualise them without any actual lasers connected at all. And then when you're ready to go you can seamlessly assign each output to a laser controller.
 
 {% hint style="info" %}
-You can set up and visualise as many lasers as you want within Liberation, the license tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design laser shows with 100 lasers even with a free license. You only need to upgrade when it comes to actually running it on real lasers.
+You can set up and visualise as many lasers as you want within Liberation, the licence tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design laser shows with 100 lasers even with a free licence. You only need to upgrade when it comes to actually running it on real lasers.
 {% endhint %}
 
 The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up. (See [setting-up-your-project.md](../setting-up/setting-up-your-project.md "mention"))&#x20;
