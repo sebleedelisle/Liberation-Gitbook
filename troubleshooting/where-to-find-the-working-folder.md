@@ -11,7 +11,7 @@ Each version of Liberation has its own working folder. For example, if you’re 
 
 **macOS**
 
-1. In Finder, press **Shift+Cmd+G**.
+1. In Finder, press **Shift + Cmd + G**.
 2.  Paste this path and press **Enter**:
 
     ```
@@ -21,7 +21,7 @@ Each version of Liberation has its own working folder. For example, if you’re 
 
 **Windows**
 
-1.  Press **Win+R**, paste this and press **Enter**:
+1.  Press **Win + R**, paste this and press **Enter**:
 
     ```
     %LOCALAPPDATA%\Liberation
@@ -29,4 +29,3 @@ Each version of Liberation has its own working folder. For example, if you’re 
 2. Open the folder that matches your version number, for example `1.0.0`.
 
 > **Tip for Windows**: If you browse via File Explorer instead, enable hidden items: **View > Show > Hidden items**.
-

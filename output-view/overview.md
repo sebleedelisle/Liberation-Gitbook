@@ -10,7 +10,7 @@ Select the Output view by clicking on the _OUTPUT_ button in the top tool bar.
 
 ### Selecting a laser
 
-Use the number buttons at the top to choose which laser you are editing. Or use the TAB key to cycle through them, or hit a number key.&#x20;
+Use the number buttons at the top to choose which laser you are editing. Or use the `Tab` key to cycle through them, or hit a number key.&#x20;
 
 ### Navigating around the Output view&#x20;
 
@@ -35,5 +35,4 @@ On the left of the view you'll see the toolbar. Hover your mouse over any icon t
 * Choose the test pattern for this laser (overrides the main test pattern)
 * Toggle snapping to the grid
 * Adjust the grid size (0 smallest - 8 largest). (Note that grid sizes increase by a power of 2 so when you reduce the size of the grid all of your snapped points are still in line).
-
 

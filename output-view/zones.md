@@ -9,7 +9,7 @@ The main type of zone you will use for most of your projects is the _Beam zone_.
 You can click and drag the zones around with the mouse. Turn on a test pattern to see where that zone goes.&#x20;
 
 {% hint style="info" %}
-Use the arrow keys to **nudge** the currently selected zone/point. Press the SHIFT key to nudge in larger steps.&#x20;
+Use the arrow keys to **nudge** the currently selected zone/point. Press the `Shift` key to nudge in larger steps.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
@@ -49,7 +49,7 @@ Right click on any zone to open up its settings. From this right click menu you 
 
 ### Quad zone shape
 
-You can move each corner of the quad with the mouse. ALT/OPTION click a corner to move it independently from the others and distort the quad. Once the quad is distorted, all the corners can move freely.&#x20;
+You can move each corner of the quad with the mouse. `Alt / Option`-click a corner to move it independently from the others and distort the quad. Once the quad is distorted, all the corners can move freely.&#x20;
 
 You can remove the distortion and return it to an axis-aligned rectangle using the _REMOVE DISTORTION_ button in the right click menu.&#x20;
 
@@ -71,9 +71,9 @@ More often than not, my zones have to be thin to fit into awkward thin spaces at
 
 For straight lines, all you need is two points, and then adjust the _Zone thickness_ in the right click menu. It's the fastest way to create simple zones.&#x20;
 
-ALT/OPTION click on the line to create additional points. These points are automatically smoothed to create a flowing shape, and you can adjust the _Smooth level_ to iron out any kinks.&#x20;
+`Alt / Option`-click on the line to create additional points. These points are automatically smoothed to create a flowing shape, and you can adjust the _Smooth level_ to iron out any kinks.&#x20;
 
-ALT/OPTION click on a point to delete it.&#x20;
+`Alt / Option`-click on a point to delete it.&#x20;
 
 Or if you're experienced with vector graphics apps (Inkscape, Illustrator etc) you can use the _Manually adjust bezier curves_ option to give yourself fine ajdustment of all the control points.&#x20;
 

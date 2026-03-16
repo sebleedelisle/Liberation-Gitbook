@@ -4,7 +4,7 @@
 
 Creates “laser harp” style effects where incoming MIDI notes trigger beams or shapes across a range. The node uses whatever content you pass into it as the _source_ for each note - feed it a dot, and you’ll get a row of dots. Feed it a shape like a circle, and you’ll get a row of circles, and more complex shapes will be replicated just the same.
 
-You can choose which MIDI interface Liberation listens to in **Liberation → Settings (CMD/CTRL ,)**
+You can choose which MIDI interface Liberation listens to in **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
 * **midi channel** – which MIDI channel to listen to (0 = all channels, 1–16 = specific channel)
 * **width** – total width that the notes spread across.

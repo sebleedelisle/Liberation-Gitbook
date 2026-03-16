@@ -14,7 +14,7 @@ If you start a new clip (in the same group) the first clip will automatically st
 
 To start a new clip without stopping other clips you can either
 
-* Press the shift key (or APC40 shift button) while starting the new clip; or
+* Press the `Shift` key (or the APC40 Shift button) while starting the new clip; or
 * Re-press the currently running clip(s) while you start the new clip.
 
 The clip groups are independent of each other so starting a clip in one group will not affect clips in any of the others. See [groups.md](groups.md "mention")
@@ -43,14 +43,13 @@ To stop all clips except one, press the running clip you wish to keep, then whil
 
 That the clip lights up on screen when it is currently running (and its mini clip visualiser representation flashes). You will also notice that the last clip you pressed also has a white outline around it. This indicates that it is the _currently selected clip._
 
-ALT/OPTION click on a clip to select it without activating it. Use ALT/OPTION + SHIFT click to select multiple clips.&#x20;
+`Alt / Option`-click on a clip to select it without activating it. Use `Alt / Option + Shift`-click to select multiple clips.&#x20;
 
 You can also click and drag a lasso on the clip deck to select multiple clips.&#x20;
 
 {% hint style="info" %}
-The APC 40 also has ALT and SHIFT buttons for making selection! The&#x20;
+The APC40 also has `Alt` and `Shift` buttons for making selections.&#x20;
 {% endhint %}
-
 
 
 

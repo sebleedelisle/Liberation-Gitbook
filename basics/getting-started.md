@@ -24,14 +24,14 @@ Important : Before you arm any lasers make sure you understand the risks involve
 
 ### Safety shut-off
 
-Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](../hardware/emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button, or the _**ESC**_ key (or the _**SESSION**_ key on the APC40). You can also reduce the global brightness using the on-screen slider or the main fader on the APC40.
+Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](../hardware/emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button, or the `Escape` key (or the _**SESSION**_ key on the APC40). You can also reduce the global brightness using the on-screen slider or the main fader on the APC40.
 
 ### Slider elements
 
 Throughout Liberation there are various sliders and controls.
 
 {% hint style="info" %}
-CMD/CTRL-click into a slider to type a new value if you need greater control than the slider can give you.
+`Cmd / Ctrl`-click a slider to type a new value if you need greater control than the slider can give you.
 {% endhint %}
 
 ### Keyboard shortcuts
@@ -60,7 +60,7 @@ Common tasks can be found here, such as arming/disarming all the lasers, the glo
 
 ### Views
 
-The large area in the top left of the screen can be one of 3 main views; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons (or use the _TAB_ key to switch between the 3D and OUTPUT views, and then continue to tab through each laser output in turn).
+The large area in the top left of the screen can be one of 3 main views; **3D**, **CANVAS** and **OUTPUT.** Switch between them using the icon bar buttons (or use the `Tab` key to switch between the 3D and OUTPUT views, and then continue to tab through each laser output in turn).
 
 <figure><img src="../.gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
 
@@ -88,7 +88,7 @@ You can select the laser you want to edit using either :
 
 * the numbered buttons in the bar at the top
 * pressing the number key for the laser you want _(1-9_ keys\_)\_
-* the **TAB** key to cycle through from one to the next
+* the `Tab` key to cycle through from one to the next
 
 Add a new laser to the set up by pressing the _+_ button. (There is also an _ADD LASER_ button in the _Laser Overview_ panel)
 
@@ -96,7 +96,7 @@ Delete a laser from the set up by hitting the red ⊖ button in the _Laser Overv
 
 You can zoom in and out using the mouse scroll wheel, and click and drag anywhere there isn't a zone to move the view.
 
-Click on a zone to select it and then adjust its corner points with the mouse. Use the ALT key while you are dragging a corner to make it non-uniform. Right-click on the zone to see more options, including changing the type of zone.
+Click on a zone to select it and then adjust its corner points with the mouse. Use the `Alt / Option` key while you are dragging a corner to make it non-uniform. Right-click on the zone to see more options, including changing the type of zone.
 
 Along the left is a bar with a series of icon buttons, hover over any button to get a description of what it does. Buttons here let you add beam zones, canvas zones, and masks. There are also options to set a test pattern for this laser only, along with grid and snapping settings.
 
@@ -134,7 +134,7 @@ This grid is known as the _clip deck_ and it is where all of the laser clips are
 
 You can scroll the clip deck left and right using :
 
-* Left and right cursor keys. Add CMD/CTL to scroll one full page at a time.
+* Left and right arrow keys. Add `Cmd / Ctrl` to scroll one full page at a time.
 * Trackpad : Swipe
 * Mouse : if your mouse has a sideways scroll you can use that while hovered over the clip deck
 * APC40 scroll knob
@@ -236,7 +236,7 @@ Note that these are the default effects but they can be edited to do almost what
 When you start a clip, it lights up to show that it is active. It also has a white outline around it which indicates that this is the currently _selected_ clip. Whenever you toggle zone buttons or adjust the clip settings, these are applied to the _currently selected clip._
 
 {% hint style="info" %}
-To select a clip without triggering it, press the ALT key before pressing the clip button. This is a good way to adjust its zones and other settings without running it.
+To select a clip without triggering it, press the `Alt / Option` key before pressing the clip button. This is a good way to adjust its zones and other settings without running it.
 {% endhint %}
 
 ### Clip settings panel
@@ -273,11 +273,11 @@ Press the _Y_ key or turn the _Tempo_ knob(APC40) to round the tempo to a whole 
 
 To move a clip on your clip deck, click and drag it to a new position. While dragging you can use the cursor keys (or the scroll wheel/buttons on your APC40) to scroll left and right.
 
-Press the ALT key while you're dragging to make a copy.
+Press the `Alt / Option` key while you're dragging to make a copy.
 
-ALT click a clip to select it without starting it.
+`Alt / Option`-click a clip to select it without starting it.
 
-ALT + SHIFT click a clip to multi-select, or click and drag outside of a clip to "lasso" select.&#x20;
+`Alt / Option + Shift`-click a clip to multi-select, or click and drag outside of a clip to "lasso" select.&#x20;
 
 Click and drag will drag ALL selected clips.
 

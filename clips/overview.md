@@ -22,7 +22,7 @@ Scroll the clip deck left and right using :
 
 Scroll the clip deck a full page left and right using :
 
-* CMD/CTRL plus the left and right arrow keys
+* `Cmd / Ctrl + Left / Right Arrow`
 * The _Device <- and ->_ buttons on the APC40
 
 #### The mini clip visualiser

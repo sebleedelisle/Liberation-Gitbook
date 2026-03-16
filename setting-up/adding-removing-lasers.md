@@ -17,5 +17,5 @@ If you want to copy zones or other settings from other lasers, use [copy-laser-s
 {% endhint %}
 
 {% hint style="info" %}
-Notice that whenever you do something potentially dangerous like deleting a laser, you'll get a confirmation dialog. If you want to bypass this, press CMD/CTRL while clicking the button. Naturally, use this with caution!
+Notice that whenever you do something potentially dangerous like deleting a laser, you'll get a confirmation dialog. If you want to bypass this, press `Cmd / Ctrl` while clicking the button. Naturally, use this with caution!
 {% endhint %}

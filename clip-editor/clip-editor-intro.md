@@ -81,7 +81,7 @@ Oscillators always have _range_ settings that control the minimum and maximum va
 * Timer - at the top of the panel you'll see the current time for the clip as it progresses
 * _RETRIGGER_ - restarts the clip from the beginning; extra useful if your clip doesn't loop
 * _Preview to lasers_ - when this is checked, you'll see the 3D visualiser update as you edit this clip. If you turn it off, you'll see whatever clips are running outside of the editor. This is a global setting, not per clip.&#x20;
-* _UNDO/REDO_ - for the clip editor itself. Also mapped to CTL/CMD Z and CTL/CMD SHIFT Z.
+* _UNDO/REDO_ - for the clip editor itself. Also mapped to `Cmd / Ctrl + Z` and `Cmd / Ctrl + Shift + Z`.
 * _SAVE CLIP_ - saves your edits but warns you about overwriting
 * _SAVE AS A COPY_ - saves your clip in the next available slot in the clip deck. This becomes the new position for your clip and all subsequent saves will be in this new place.&#x20;
 * _EXIT EDITOR_ - closes the clip editor. If you have unsaved changes you will get a confirmation panel.&#x20;

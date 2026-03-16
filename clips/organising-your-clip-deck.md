@@ -2,7 +2,7 @@
 
 ### Moving/duplicating clips
 
-Click and drag to move a clip. If more than one clip is selected (see [starting-stopping-clips.md](starting-stopping-clips.md "mention")) they will all be moved. Hold down ALT/OPTION to duplicate them. Drop the clip(s) onto an empty space.
+Click and drag to move a clip. If more than one clip is selected (see [starting-stopping-clips.md](starting-stopping-clips.md "mention")) they will all be moved. Hold down `Alt / Option` to duplicate them. Drop the clip(s) onto an empty space.
 
 {% hint style="info" %}
 If you need to select a large number of clips, you can click / drag a lasso, and then scroll the clipdeck while still dragging (either using cursor keys, the APC 40 or sideways touchpad/mouse scroll). The lasso will be extended off the edge of the clip deck.
@@ -12,7 +12,7 @@ If you need to select a large number of clips, you can click / drag a lasso, and
 
 To delete a single clip, use the right click menu.
 
-To delete multiple clips, select them (either with ALT-SHIFT click or by dragging the lasso) and drag them off the clip deck.
+To delete multiple clips, select them (either with `Alt / Option + Shift`-click or by dragging the lasso) and drag them off the clip deck.
 
 ### Adding empty space
 
@@ -22,7 +22,7 @@ You can right-click on a clip button and press _ADD EMPTY COLUMN TO RIGHT_ to ad
 
 You can import an existing clip deck and append it to the end of current clip deck. Use menu _File -> Clips/Effects -> Append Clip Deck._
 
-Make a selection of clips (with either the lasso or ALT-SHIFT click) and then _File -> Clips/Effects -> Export Selected Clips._ This will export a clip deck with only those clips, which can then be appended to another clip deck.
+Make a selection of clips (with either the lasso or `Alt / Option + Shift`-click) and then _File -> Clips/Effects -> Export Selected Clips._ This will export a clip deck with only those clips, which can then be appended to another clip deck.
 
 ### Organising clips by timeline
 
