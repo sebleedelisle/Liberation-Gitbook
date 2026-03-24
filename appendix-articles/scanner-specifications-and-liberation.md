@@ -1,4 +1,4 @@
-# Scanner specifications and Liberation
+# 🟩 Scanner specifications and Liberation
 
 ### The messy reality of scanner specifications
 

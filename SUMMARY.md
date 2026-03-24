@@ -120,4 +120,4 @@
   * [✅ The Preset system](reference/the-preset-system.md)
 * [✅ Credits](credits.md)
 * [🟩 APPENDIX - Articles](appendix-articles/README.md)
-  * [Scanner specifications and Liberation](appendix-articles/scanner-specifications-and-liberation.md)
+  * [🟩 Scanner specifications and Liberation](appendix-articles/scanner-specifications-and-liberation.md)
