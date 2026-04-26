@@ -12,5 +12,5 @@ This "frame latency" setting is the maximum time between Liberation creating a f
 
 The benefit of a longer frame latency is that Liberation can fill up the laser controllers' buffers with content as soon as possible; if there is congestion on the network the controller is less likely to run out of points.
 
-This usually only applies to network DACs.&#x20;
+This usually only applies to network DACs and a setting of 100ms should be a good balance between speed and protection against network delays. If you have a really strong network you should be able to reduce it to 50ms.&#x20;
 
