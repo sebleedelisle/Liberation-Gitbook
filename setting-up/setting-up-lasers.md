@@ -63,5 +63,3 @@ Lasers that are well below the safety threshold can still cause catastrophic dis
 
 Make sure you have the necessary qualifications, licences and permissions before directing any lasers into airspace.
 {% endhint %}
-
-###

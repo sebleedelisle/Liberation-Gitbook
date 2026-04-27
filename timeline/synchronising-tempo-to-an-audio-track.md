@@ -7,9 +7,7 @@ metaLinks:
 
 # 🟩 Synchronising tempo to an audio track
 
-{% embed url="https://youtu.be/sL0SsuTf7Pc" %}
-
-
+<iframe src="https://www.youtube.com/embed/sL0SsuTf7Pc" title="Synchronising tempo to an audio track" style="width: 100%; aspect-ratio: 16 / 9; border: 0;" allowfullscreen></iframe>
 
 Liberation’s timeline is designed to work with fixed or changing tempos, but getting reliable sync always starts with finding the tempo and lining the audio up correctly. This section describes the recommended workflow.
 

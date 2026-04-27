@@ -2,12 +2,19 @@
   "name": "liberation-gitbook",
   "version": "1.0.0",
   "devDependencies": {
-    "gitbook-plugin-hints": "^1.0.2",
-    "honkit": "^4.0.8"
+    "honkit": "^6.1.7",
+    "honkit-plugin-liberation": "file:plugins/liberation",
+    "pagefind": "^1.5.2"
   },
   "scripts": {
+    "clean": "rm -rf _book",
     "build": "honkit build",
+    "index:search": "pagefind --site _book",
+    "build:site": "npm run clean && npm run build && npm run index:search",
+    "serve": "npm run build:site && npm run preview",
+    "serve:honkit": "honkit serve",
+    "preview": "python3 -m http.server 4000 --directory _book",
     "check:links": "python3 scripts/check_links.py",
-    "check:spelling": "python3 -m codespell -q 3 -S node_modules,_book || PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 -S node_modules,_book"
+    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 -S node_modules,_book || python3 -m codespell -q 3 -S node_modules,_book"
   }
 }
