@@ -98,5 +98,3 @@ When effects are applied, all creator nodes in the effect are substituted with t
 {% hint style="warning" %}
 For extremely tedious technical reasons, the "trails" nodes are not enabled when inside a effect. The same applies for the "delay" setting inside pattern nodes (they use the same system). This will be fixed in future revisions.
 {% endhint %}
-
-###

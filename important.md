@@ -22,5 +22,3 @@ PLASA have a free downloadable laser safety guide which has been generally accep
 * Always use interlocks, E-stop, and keyswitches—never bypass or tape them down.
 * Liberation does not enforce MPE limits or scan-fail detection; manage power, add external safety systems, and follow local regulations
 * First power-on checklist: start with test patterns at lowest output, keep shutters closed until ready, bring up one projector at a time, confirm zones/masks before adding more. [Setting up your lasers](setting-up/setting-up-lasers.md).
-
-##

@@ -189,5 +189,3 @@ Each step has the following settings :
   * **Ease in / Ease out / Ease in/out** - eases between the previous level to this one. See _ease function_ above for a description of the animation types.
 
 ***
-
-##

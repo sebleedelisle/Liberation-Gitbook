@@ -1,4 +1,16 @@
 {
-    "title": "Liberation User Guide",
-  "plugins": ["hints"]
+  "title": "Liberation User Manual",
+  "language": "en",
+  "plugins": [
+    "liberation",
+    "-search",
+    "-lunr",
+    "-fontsettings"
+  ],
+  "pluginsConfig": {
+    "liberation": {
+      "repo": "https://github.com/sebleedelisle/Liberation-Gitbook",
+      "branch": "main"
+    }
+  }
 }

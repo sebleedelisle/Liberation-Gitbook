@@ -1,0 +1,8 @@
+{
+  "name": "honkit-plugin-liberation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "honkit": ">=4.0.0"
+  }
+}
