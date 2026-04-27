@@ -112,13 +112,33 @@
     }
   }
 
+  function isMobileNav() {
+    return window.matchMedia("(max-width: 900px)").matches;
+  }
+
+  function setMobileSidebar(open) {
+    var book = document.querySelector(".book");
+    var button = document.querySelector(".lib-menu-button");
+
+    if (!book) return;
+    book.classList.toggle("lib-mobile-menu-open", !!open);
+    document.body.classList.toggle("lib-mobile-menu-open", !!open);
+    if (button) button.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+
+  function normaliseMobileSidebar() {
+    setMobileSidebar(false);
+  }
+
   function ensureHeader() {
     if (document.querySelector(".lib-site-header")) return;
 
     var header = document.createElement("header");
     header.className = "lib-site-header";
     header.innerHTML = [
-      '<button class="lib-menu-button" type="button" aria-label="Toggle navigation">Menu</button>',
+      '<button class="lib-menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false">',
+      '<span class="lib-menu-icon" aria-hidden="true"></span>',
+      "</button>",
       '<a class="lib-brand" href="' + rootPath() + '/">',
       '<img class="lib-brand-logo" src="' + logoPath() + '" alt="" width="32" height="32">',
       '<span>Liberation User Manual</span>',
@@ -134,6 +154,12 @@
     document.body.insertBefore(header, document.body.firstChild);
 
     header.querySelector(".lib-menu-button").addEventListener("click", function() {
+      if (isMobileNav()) {
+        var currentBook = document.querySelector(".book");
+        setMobileSidebar(!(currentBook && currentBook.classList.contains("lib-mobile-menu-open")));
+        return;
+      }
+
       if (window.gitbook && window.gitbook.sidebar) {
         window.gitbook.sidebar.toggle();
         return;
@@ -143,6 +169,13 @@
     });
 
     header.querySelector(".lib-search-button").addEventListener("click", openSearch);
+
+    var summary = document.querySelector(".book-summary");
+    if (summary) {
+      summary.addEventListener("click", function(event) {
+        if (event.target.closest("a") && isMobileNav()) setMobileSidebar(false);
+      });
+    }
   }
 
   function ensureSearchOverlay() {
@@ -480,6 +513,7 @@
     cleanDocumentTitle();
     ensureFavicons();
     ensureHeader();
+    normaliseMobileSidebar();
     if (!searchOpenedFromQuery && new URLSearchParams(window.location.search).get("q")) {
       searchOpenedFromQuery = true;
       openSearch();
@@ -505,7 +539,10 @@
   });
 
   document.addEventListener("scroll", updateActiveTocLink, true);
-  window.addEventListener("resize", updateActiveTocLink);
+  window.addEventListener("resize", function() {
+    normaliseMobileSidebar();
+    updateActiveTocLink();
+  });
 
   if (window.gitbook && window.gitbook.events) {
     window.gitbook.events.on("page.change", function() {

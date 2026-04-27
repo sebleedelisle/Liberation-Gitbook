@@ -228,6 +228,17 @@ function cleanGeneratedHtml(context) {
   });
 }
 
+function injectPageDescription(content, description) {
+  if (!description || /class="lib-page-description"/.test(content)) return content;
+
+  var descriptionHtml = '<p class="lib-page-description">' + escapeHtml(description) + "</p>";
+  if (/<h1\b[^>]*>[\s\S]*?<\/h1>/i.test(content)) {
+    return content.replace(/(<h1\b[^>]*>[\s\S]*?<\/h1>)/i, "$1" + descriptionHtml);
+  }
+
+  return descriptionHtml + content;
+}
+
 function renderChildPages(sourcePath) {
   var node = getSummary().nodesByPath[normalizeDocPath(sourcePath)];
   if (!node || !node.children || node.children.length === 0) return "";
@@ -297,7 +308,7 @@ module.exports = {
         "</script>";
 
       page.content = '<div data-pagefind-body class="lib-page-content">' +
-        page.content +
+        injectPageDescription(page.content, page.description) +
         renderChildPages(sourcePath) +
         "</div>" +
         pageMeta;
