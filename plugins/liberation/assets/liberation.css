@@ -20,6 +20,7 @@
 html,
 body {
   background: var(--lib-bg) !important;
+  color-scheme: dark;
   color: var(--lib-text);
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -33,6 +34,73 @@ body {
   background: var(--lib-bg);
   color: var(--lib-text);
   top: var(--lib-header);
+}
+
+html,
+body,
+.book,
+.book-summary,
+.book-body,
+.book-body .body-inner,
+.lib-page-toc-list,
+.lib-search-results {
+  scrollbar-color: #565656 transparent;
+  scrollbar-width: thin;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+.book::-webkit-scrollbar,
+.book-summary::-webkit-scrollbar,
+.book-body::-webkit-scrollbar,
+.book-body .body-inner::-webkit-scrollbar,
+.lib-page-toc-list::-webkit-scrollbar,
+.lib-search-results::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track,
+.book::-webkit-scrollbar-track,
+.book-body::-webkit-scrollbar-track,
+.book-body .body-inner::-webkit-scrollbar-track {
+  background: var(--lib-bg);
+}
+
+.book-summary::-webkit-scrollbar-track {
+  background: var(--lib-panel);
+}
+
+.lib-page-toc-list::-webkit-scrollbar-track,
+.lib-search-results::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb,
+.book::-webkit-scrollbar-thumb,
+.book-summary::-webkit-scrollbar-thumb,
+.book-body::-webkit-scrollbar-thumb,
+.book-body .body-inner::-webkit-scrollbar-thumb,
+.lib-page-toc-list::-webkit-scrollbar-thumb,
+.lib-search-results::-webkit-scrollbar-thumb {
+  background: #565656;
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-clip: content-box;
+}
+
+html::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:hover,
+.book::-webkit-scrollbar-thumb:hover,
+.book-summary::-webkit-scrollbar-thumb:hover,
+.book-body::-webkit-scrollbar-thumb:hover,
+.book-body .body-inner::-webkit-scrollbar-thumb:hover,
+.lib-page-toc-list::-webkit-scrollbar-thumb:hover,
+.lib-search-results::-webkit-scrollbar-thumb:hover {
+  background: #707070;
+  background-clip: content-box;
 }
 
 .lib-site-header {
@@ -250,6 +318,7 @@ body {
 }
 
 .body-inner {
+  background: var(--lib-bg);
   color: var(--lib-text);
 }
 
