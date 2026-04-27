@@ -25,7 +25,7 @@ This guide will help you get comfortable with Liberation - from installation and
 ## How to use the guide
 
 * Begin with [**Important! Read this first**](important.md) to review critical safety and licensing notes before connecting hardware.
-* Follow the [**Quick start guide**](basics/getting-started.md) if you want to get output running fast, then dive into [**Hardware**](hardware/) and [**Setting up**](setting-up/) for deeper configuration.
+* Follow the [**Quick start guide**](getting-started.md) if you want to get output running fast, then dive into [**Hardware**](hardware/) and [**Setting up**](setting-up/) for deeper configuration.
 * Use section headers to jump directly to topics (e.g., [**Clips & Clip deck**](clips/), [**Output view**](output-view/), **etc**) and return to [**Reference**](reference/) or [**Troubleshooting**](troubleshooting/) when you need precise answers.
 
 ## Conventions and tips

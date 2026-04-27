@@ -26,15 +26,15 @@ Liberation can run many lasers on one computer, it's been tested with over 100 l
 
 Liberation has been designed and optimised around the popular APC40 Mk2 MIDI controller. It also works with the APC40 Mk1. See [live-control-with-the-apc40.md](midi-control/live-control-with-the-apc40.md "mention")
 
-We are slowly adding more MIDI controllers as we go and currently also support the APC Mini Mk2 and the MIDI Fighter Twister.&#x20;
+We are slowly adding more MIDI controllers as we go and currently also support the APC Mini Mk2 and the MIDI Fighter Twister.
 
 There is also the MIDI Send/Receive system that offers additional MIDI control. See [midi-send-receive.md](midi-control/midi-send-receive.md "mention")
 
 See [midi-control](midi-control/ "mention")for more information.
 
-#### **Can I use it with any MIDI controller?**&#x20;
+#### **Can I use it with any MIDI controller?**
 
-We are currently working on a configurable MIDI system that will allow this in future.  In the meantime, some users have had success using a MIDI interpreter that can convert any MIDI messages for the MIDI Send/Receive system, but this is a fiddly and advanced process. Search the [forum](https://forum.liberationlaser.com) for advice on this set up but realistically the APC40 is the best option.&#x20;
+We are currently working on a configurable MIDI system that will allow this in future. In the meantime, some users have had success using a MIDI interpreter that can convert any MIDI messages for the MIDI Send/Receive system, but this is a fiddly and advanced process. Search the [forum](https://forum.liberationlaser.com) for advice on this set up but realistically the APC40 is the best option.
 
 ## Laser controllers
 
@@ -149,13 +149,13 @@ It has an intelligent "tap tempo" system that works as you would expect, but you
 
 #### What settings do I need to adjust to get the best output from the laser?
 
-The main setting is _Colour Shift,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [laser-settings](setting-up/laser-settings/ "mention") page for an example of 'tails')
+The main setting is _Colour Shift,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [laser-settings.md](setting-up/laser-settings.md "mention") page for an example of 'tails')
 
 You can also try changing the scanner speed, slower if your scanners are basic, or faster if they are good. But **use with caution as you can damage your scanners if you drive them too hard.**
 
 There are also some preset scanner settings. The default option is conservative and fine for most laser beam requirements. But there are other presets for if you have better scanners, and there are presets that are tuned for graphics.
 
-For more information see [laser-settings](setting-up/laser-settings/ "mention"), and for information on how to create your own presets see [scanner-presets.md](advanced/scanner-presets.md "mention") (advanced, in progress)
+For more information see [laser-settings.md](setting-up/laser-settings.md "mention"), and for information on how to create your own presets see [scanner-presets.md](advanced/scanner-presets.md "mention") (advanced, in progress)
 
 You can also correct the colour balance using the _Colour calibration_ settings. See [colour-calibration.md](advanced/colour-calibration.md "mention")(advanced technique)
 

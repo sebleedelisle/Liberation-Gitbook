@@ -6,7 +6,7 @@ Liberation's 3D visualiser is an incredibly useful feature - you can design and 
 
 ### Navigating around the 3D space
 
-<figure><img src="../.gitbook/assets/3D View RedWhite.png" alt=""><figcaption><p>The 3D Visualiser view</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/White.png" alt=""><figcaption><p>The 3D Visualiser view</p></figcaption></figure>
 
 * Click and drag to rotate the view around the orbit point
 * Mouse wheel to move backwards and forwards towards the orbit point

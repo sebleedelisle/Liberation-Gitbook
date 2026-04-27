@@ -11,7 +11,7 @@ Moves all content along the x, y, and/or z axes. Note that the coordinate system
 
 * **z** - the distance to move along the z axis (backwards and forwards into the screen).
 
-## <img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="line"> Rotate
+## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
 Rotates all content. Values are in degrees. See [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
 
@@ -24,7 +24,7 @@ Rotates all content. Values are in degrees. See [co-ordinate-system.md](../funda
 * **rotation y** - rotation around the y axis (yaw).
 * **pivot point z** - rotation offset position in the z axis.
 
-## <img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="line"> Scale
+## <img src="../../.gitbook/assets/image (4).png" alt="" data-size="line"> Scale
 
 Scales all content.
 
