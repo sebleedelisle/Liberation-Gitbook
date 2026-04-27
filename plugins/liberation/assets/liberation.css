@@ -366,6 +366,13 @@ body::-webkit-scrollbar-thumb:hover,
   margin-top: 46px;
 }
 
+.lib-page-description {
+  color: var(--lib-muted) !important;
+  font-size: 22px;
+  line-height: 1.45;
+  margin: 0 0 32px !important;
+}
+
 .markdown-section h3 {
   font-size: 21px;
   margin-top: 34px;
@@ -959,20 +966,71 @@ body::-webkit-scrollbar-thumb:hover,
 
 @media (max-width: 900px) {
   .lib-site-header {
-    padding: 0 14px;
+    gap: 12px;
+    padding: 0 16px;
   }
 
   .lib-menu-button {
     display: inline-flex;
+    height: 40px;
+    width: 40px;
+  }
+
+  .lib-menu-icon,
+  .lib-menu-icon::before,
+  .lib-menu-icon::after {
+    background: currentColor;
+    border-radius: 999px;
+    display: block;
+    height: 2px;
+    width: 22px;
+  }
+
+  .lib-menu-icon {
+    position: relative;
+  }
+
+  .lib-menu-icon::before,
+  .lib-menu-icon::after {
+    content: "";
+    left: 0;
+    position: absolute;
+  }
+
+  .lib-menu-icon::before {
+    top: -7px;
+  }
+
+  .lib-menu-icon::after {
+    top: 7px;
+  }
+
+  .lib-brand {
+    flex: 1;
+    gap: 10px;
+    min-width: 0;
   }
 
   .lib-brand span:last-child {
+    display: block;
     font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .lib-header-spacer {
+    display: none;
   }
 
   .lib-search-button {
+    border-radius: 14px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    height: 44px;
+    justify-content: center;
     min-width: 44px;
-    padding: 0 12px;
+    padding: 0;
     width: 44px;
   }
 
@@ -986,32 +1044,76 @@ body::-webkit-scrollbar-thumb:hover,
     bottom: 0;
     left: 0;
     top: 0;
+    transform: translateX(-105%);
+    transition: transform 180ms ease;
+    width: min(320px, calc(100vw - 56px));
+    z-index: 1200;
+  }
+
+  .book.lib-mobile-menu-open .book-summary {
+    transform: translateX(0);
   }
 
   .book.with-summary .book-body {
     left: 0;
+    transform: none !important;
+  }
+
+  .book-body,
+  .book-body .body-inner {
+    overflow-x: hidden;
   }
 
   .page-inner {
-    padding: 28px 22px 72px;
+    margin: 0;
+    max-width: none;
+    padding: 40px 24px 72px;
   }
 
   .markdown-section {
-    font-size: 15px;
+    font-size: 16px;
+    max-width: none;
   }
 
   .markdown-section h1 {
-    font-size: 32px;
+    font-size: 34px;
+    line-height: 1.12;
+    margin-bottom: 18px;
   }
 
   .markdown-section .lib-page-content > h1:first-child {
     padding-right: 0;
   }
 
+  .markdown-section figure {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+
+  .markdown-section figure img {
+    border-radius: 0;
+    display: block;
+    width: 100%;
+  }
+
   .lib-page-tools {
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin-bottom: 14px;
     position: static;
+  }
+
+  .lib-edit-link {
+    font-size: 0;
+  }
+
+  .lib-edit-link::before {
+    content: "Edit";
+    font-size: 14px;
+  }
+
+  .lib-page-description {
+    font-size: 22px;
+    margin-bottom: 34px !important;
   }
 
   .lib-child-pages {
