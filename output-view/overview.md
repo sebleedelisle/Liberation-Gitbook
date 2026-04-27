@@ -1,8 +1,14 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/overview
+---
+
 # ✅ Overview
 
-The Output view is a representation of the full output range of each laser. In this view you can adjust its zones and add mask areas.&#x20;
+The Output view is a representation of the full output range of each laser. In this view you can adjust its zones and add mask areas.
 
-<figure><img src="../.gitbook/assets/Output View.png" alt="" width="375"><figcaption><p>The <em>OUTPUT</em> view with a beam zone, a canvas zone and a mask. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Output View.png" alt="" width="375"><figcaption><p>The <em>OUTPUT</em> view with a beam zone, a canvas zone and a mask.</p></figcaption></figure>
 
 Select the Output view by clicking on the _OUTPUT_ button in the top tool bar.
 
@@ -10,17 +16,15 @@ Select the Output view by clicking on the _OUTPUT_ button in the top tool bar.
 
 ### Selecting a laser
 
-Use the number buttons at the top to choose which laser you are editing. Or use the `Tab` key to cycle through them, or hit a number key.&#x20;
+Use the number buttons at the top to choose which laser you are editing. Or use the `Tab` key to cycle through them, or hit a number key.
 
-### Navigating around the Output view&#x20;
+### Navigating around the Output view
 
-Click and drag on any empty space (or on locked zones) to move the view around.&#x20;
+Click and drag on any empty space (or on locked zones) to move the view around.
 
-### Zoom in and out of the Output view&#x20;
+### Zoom in and out of the Output view
 
-Use the mouse wheel to zoom in and out.&#x20;
-
-
+Use the mouse wheel to zoom in and out.
 
 ### Toolbar icons
 
@@ -29,10 +33,9 @@ Use the mouse wheel to zoom in and out.&#x20;
 On the left of the view you'll see the toolbar. Hover your mouse over any icon to see what it does.
 
 * Add beam zone to the laser
-* Select which canvas zones are in this laser&#x20;
+* Select which canvas zones are in this laser
 * Add a mask to the laser
 * Toggle the test pattern for this laser
 * Choose the test pattern for this laser (overrides the main test pattern)
 * Toggle snapping to the grid
 * Adjust the grid size (0 smallest - 8 largest). (Note that grid sizes increase by a power of 2 so when you reduce the size of the grid all of your snapped points are still in line).
-

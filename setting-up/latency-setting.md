@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/latency-setting
+---
+
 # ✅ Latency setting
 
 In the _Settings_ panel (_Liberation->Settings_ or CMD/CTRL ,) you'll see a slider labelled _Latency(ms)._ (In older versions of Liberation this was in the Laser Overview panel)

@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/overview
+---
+
 # 🟩 Overview
 
 ### What is a clip?

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/copy-zones-between-lasers
+---
+
 # 🟩 Copy zones between lasers
 
 Click on the _COPY LASER SETTINGS_ button in _Laser Output_ and a new panel will open.
@@ -14,4 +21,4 @@ Select the _Copy output zone settings_ option and then click the _COPY SETTINGS_
 Note that this process will not add or remove zones from lasers. It will merely copy the position and type of zone for each zone that exists in the target lasers.
 {% endhint %}
 
-See also [copy-laser-settings.md](../setting-up/laser-settings/copy-laser-settings.md "mention") for a full description of the other features of this system.
+See also [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention") for a full description of the other features of this system.

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/installation/transfer-your-content-when-upgrading-to-a-new-version
+---
+
 # 🟩 Transfer your content when upgrading to a new version
 
 Liberation stores content in its working folder, (see [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md "mention") ) and this changes for every new version release. If you want to keep your working files from the old version to the new one :&#x20;

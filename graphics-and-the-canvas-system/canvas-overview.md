@@ -1,9 +1,16 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/graphics-and-the-canvas-system/canvas-overview
+---
+
 # 🟩 Canvas overview
 
 The Liberation Canvas system is relatively simple, but it can be confusing at first. Here's a conceptual overview to get you started.
 
 {% hint style="info" %}
-#### Wait, do I need the canvas system?
+**Wait, do I need the canvas system?**
 
 Maybe not! If you're just projecting a single graphic onto a single laser, you can easily do that with a beam zone (although by default beam zone content is flipped horizontally, so you'll need to X flip the clip).
 

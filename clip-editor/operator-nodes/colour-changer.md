@@ -1,6 +1,13 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/operator-nodes/colour-changer
+---
+
 # 🟩 Colour change
 
-## <img src="../../.gitbook/assets/image.png" alt="" data-size="line">  Colour change
+## <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> Colour change
 
 Description
 

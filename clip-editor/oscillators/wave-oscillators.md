@@ -1,13 +1,20 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/oscillators/wave-oscillators
+---
+
 # ✅ Wave oscillators
 
 ## On this page :
 
-* <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line">  [Sawtooth wave](wave-oscillators.md#sawtooth-wave-1)
-* <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line">  [Triangle wave](wave-oscillators.md#triangle-wave-1)
-* <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line">  [Sine wave](wave-oscillators.md#sine-wave)
-* <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line">  [Square wave](wave-oscillators.md#square-wave-1)
-* <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line">  [Noise](wave-oscillators.md#noise)
-* <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line">  [Custom Oscillator](wave-oscillators.md#custom-oscillator-1)
+* <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line"> [Sawtooth wave](wave-oscillators.md#sawtooth-wave-1)
+* <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line"> [Triangle wave](wave-oscillators.md#triangle-wave-1)
+* <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line"> [Sine wave](wave-oscillators.md#sine-wave)
+* <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line"> [Square wave](wave-oscillators.md#square-wave-1)
+* <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line"> [Noise](wave-oscillators.md#noise)
+* <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line"> [Custom Oscillator](wave-oscillators.md#custom-oscillator-1)
 
 ## Wave oscillator settings
 
@@ -53,7 +60,7 @@ The _clamp_ concept is quite hard to explain, but imagine the waveform going off
 **Easing -** I would avoid the default linear animation whenever you can unless you specifically want something that looks robotic. Easing can make your animations so much more flowing and organic!
 {% endhint %}
 
-## <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line">  Sawtooth wave
+## <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line"> Sawtooth wave
 
 Also sometimes known as a _ramp waveform_ as it ramps upward and then sharply drops at the end of its cycle. It's probably the most common wave oscillator because it creates a loop for cycling properties like _hue_ or _rotation._
 
@@ -73,7 +80,7 @@ Sawtooth specific :
 
 * **cycle range compensation** - available when **steps** is set, and is good for cycling values, say a rotation from 0 to 360. When this is not set, the beginning and end values will be the same which can cause sticking at the start point (because 0 and 360 are the same angle). Turn this on and the maximum range will be reduced to correct the step positions.
 
-## <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line">  Triangle wave
+## <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line"> Triangle wave
 
 Unlike the _sawtooth wave_ which jumps back to the beginning every cycle, the _triangle wave_ moves linearly forwards and then backwards.
 
@@ -89,7 +96,7 @@ See the sections above for :
 * **delay count**
 * **ease function**
 
-## <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line">  Sine wave
+## <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line"> Sine wave
 
 The smoothest waveform! Oscillates gently between two values like a pendulum.
 
@@ -104,7 +111,7 @@ See the sections above for :
 * **repeat count**
 * **delay count**
 
-## <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line">  Square wave
+## <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line"> Square wave
 
 The simplest waveform - it just rocks between two values, back and forth!
 
@@ -120,7 +127,7 @@ Square wave specific :
 
 * **pulse width** - the length of time the wave is at its maximum value relative to the overall duration. 50% is the default, which is exactly half and half. If you only want it "on" for a quarter of the time, set it to 25%. You can adjust when this pulse happens using the _offset_ value.
 
-## <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line">  Noise
+## <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line"> Noise
 
 One of Liberation's strengths is that it can generate random, but repeatable effects. The _noise_ oscillator can be used to create an organic looping random motion with as much detail/jitter as you like.
 
@@ -146,7 +153,7 @@ Noise specific :
 
 This so-called "gradient" noise was born out of his frustration with previously "machine-like" computer generated imagery. In the CGI world, it's particularly good for rendering clouds, water surfaces, or even height-maps for realisitc terrain.
 
-But in Liberation it's good for seemingly unpredictable motion that is still smooth and organic.&#x20;
+But in Liberation it's good for seemingly unpredictable motion that is still smooth and organic.
 {% endhint %}
 
 * **seed** - the value used to create the noise. If you don't like the look of the noise wave you have try changing the value.
@@ -157,7 +164,7 @@ Fun nerdy fact! In order to get a perfectly looping simplex noise, I'm iterating
 
 * **simplex detail** - changes how detailed or jittery the noise is. If you want the repeating pattern to be less obvious, take the duration up and increase this value.
 
-## <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line">  Custom Oscillator
+## <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line"> Custom Oscillator
 
 Creates a completely custom waveforms. This is very useful for creating complex animations.
 

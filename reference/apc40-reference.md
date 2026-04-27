@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/reference/apc40-reference
+---
+
 # ✅ APC40 reference
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>

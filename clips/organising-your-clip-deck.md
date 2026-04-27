@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/organising-your-clip-deck
+---
+
 # 🟩 Organising your clip deck
 
 ### Moving/duplicating clips

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/re-ordering-beam-zones
+---
+
 # 🟩 Re-ordering beam zones
 
 Beam zones appear in the order that you create them, but you can re-order them after the fact. Open _View -> Beam Zone Organiser._

@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/timeline/the-interface
+---
+
 # 🟧 The interface
 
 ### Timeline Interface
@@ -48,10 +54,10 @@ Adjusts the playback volume of all audio clips on the timeline. Does not affect 
 
 **Transport Controls**
 
-Standard transport buttons to navigate&#x20;
+Standard transport buttons to navigate
 
 * Forward / back (moves one bar at a time)
-* Stop / Rewind to start&#x20;
+* Stop / Rewind to start
 * Play / pause
 * Record
 

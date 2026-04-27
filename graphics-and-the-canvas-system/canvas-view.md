@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/graphics-and-the-canvas-system/canvas-view
+---
+
 # 🟩 Canvas view
 
 Select the _CANVAS_ view by clicking on the _CANVAS_ button in the top tool bar.
@@ -6,7 +13,7 @@ The Canvas view is a representation of the full canvas - this is the area you ha
 
 ### Navigating around the Canvas view
 
-&#x20;Click and drag on any empty space (or on locked zones) to move the view around.
+Click and drag on any empty space (or on locked zones) to move the view around.
 
 ### Zoom in and out of the Canvas view
 

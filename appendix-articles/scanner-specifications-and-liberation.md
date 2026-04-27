@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/appendix-articles/scanner-specifications-and-liberation
+---
+
 # 🟩 Scanner specifications and Liberation
 
 ### The messy reality of scanner specifications

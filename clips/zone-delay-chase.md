@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/zone-delay-chase
+---
+
 # 🟩 Zone delay / chase
 
 We all agree that more lasers equals more fun but if they're all doing exactly the same thing you're missing out on creative possibilities.
