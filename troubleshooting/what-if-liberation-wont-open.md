@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/what-if-liberation-wont-open
+---
+
 # ✅ What if Liberation won't open?
 
 It’s rare, but sometimes Liberation may fail to launch or crash right after opening. This almost always happens because one of the local configuration files has become corrupted - usually after a system crash or something unexpected on your computer.
@@ -51,7 +58,7 @@ Inside your version folder, open:
 data/liberation/
 ```
 
-Inside the liberation folder you should find a file called se`ttings.json`. Delete this file.&#x20;
+Inside the liberation folder you should find a file called se`ttings.json`. Delete this file.
 
 * **macOS example**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
 * **Windows example**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`

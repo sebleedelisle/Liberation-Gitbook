@@ -1,4 +1,11 @@
-# 🟩 Using Liberation with Capture visualiser
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/using-liberation-with-capture
+---
+
+# 🟩 Using Liberation with Capture
 
 Liberation supports [Capture](https://capture.se) as an external visualiser (version 1.0.3 onwards). If you’re already using Capture in your workflow, you can use it to visualise Liberation’s live laser output in your 3D scene.
 

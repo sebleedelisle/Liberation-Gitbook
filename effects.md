@@ -1,14 +1,20 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/effects
+---
+
 # 🟩 Effects
 
-The effects system in Liberation is a fun and versatile way of changing the clip output in real-time. Effects are completely flexible and can be used to make everything flash on and off, spin around,  change colours, or even fly around randomly!&#x20;
+The effects system in Liberation is a fun and versatile way of changing the clip output in real-time. Effects are completely flexible and can be used to make everything flash on and off, spin around, change colours, or even fly around randomly!
 
-Anything that you can do in the clip editor can be used as an effect. In fact, effects are edited with the exact same node editor as clips! See [#editing-effects](effects.md#editing-effects "mention"). The creative possibilities are virtually infinite.&#x20;
+Anything that you can do in the clip editor can be used as an effect. In fact, effects are edited with the exact same node editor as clips! See [#editing-effects](effects.md#editing-effects "mention"). The creative possibilities are virtually infinite.
 
-The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are the small buttons at the bottom.&#x20;
+The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are the small buttons at the bottom.
 
 #### Applying an effect
 
-Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out. To fade in an effect without an APC40, click and drag up and down on the button. Or right click on the effect button and adjust the level slider.&#x20;
+Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out. To fade in an effect without an APC40, click and drag up and down on the button. Or right click on the effect button and adjust the level slider.
 
 {% hint style="warning" %}
 Pressing the effect button will immediately activate that effect. However, note that if the level is set to zero, nothing will happen! Click/drag the button to change the level, or right click and use the _level_ slider, or use the APC40 faders.
@@ -16,17 +22,17 @@ Pressing the effect button will immediately activate that effect. However, note 
 
 #### Effects and the clip's zone delay
 
-Effects pick up the zone delay setting for each currently running clip. So if your clip has a delay that moves from left to right, and you add the flashing effect, the flash also is delayed from left to right.&#x20;
+Effects pick up the zone delay setting for each currently running clip. So if your clip has a delay that moves from left to right, and you add the flashing effect, the flash also is delayed from left to right.
 
 {% hint style="info" %}
 How the clip's zone delay is inherited by effects is one of those things that is extremely hard to describe but obvious when you try it!
 
-I would argue that it is one of the most fun and creative tools built in to Liberation. Give it a try and you'll see what I mean!&#x20;
+I would argue that it is one of the most fun and creative tools built in to Liberation. Give it a try and you'll see what I mean!
 {% endhint %}
 
 #### Effect parameters
 
-Add a parameter to your effect with a _Parameter node._ The Parameter system is a way to adjust multiple settings inside your effect from the outside. See [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention") for more information.&#x20;
+Add a parameter to your effect with a _Parameter node._ The Parameter system is a way to adjust multiple settings inside your effect from the outside. See [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention") for more information.
 
 Use the rotary controllers 1-8 to adjust the _parameter_ for each effect. Or right-click the effect button and adjust the parameter slider(s). The parameter change does different things dependent on how the effect is set up. See the list below for the default effects and what their parameters do.
 
@@ -35,10 +41,8 @@ Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on
 {% endhint %}
 
 {% hint style="info" %}
-The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect.  The _level_ is controlled by the fader on the APC40 or you can click-drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.&#x20;
+The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect. The _level_ is controlled by the fader on the APC40 or you can click-drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.
 {% endhint %}
-
-
 
 #### The default effects
 
@@ -69,30 +73,30 @@ Note that these are the default effects but they can be edited to do almost what
 
 ### Apply to groups
 
-You can choose which groups are affected by the effect. Right click and toggle the group check boxes labelled _Apply to groups._&#x20;
+You can choose which groups are affected by the effect. Right click and toggle the group check boxes labelled _Apply to groups._
 
-I primarily use this setup when working with canvas graphics and laser beams separately. I assign all canvas clips to group 5 and then exclude this group from effects that I don't want to affect these graphical clips.&#x20;
+I primarily use this setup when working with canvas graphics and laser beams separately. I assign all canvas clips to group 5 and then exclude this group from effects that I don't want to affect these graphical clips.
 
-You could also use it to live apply 2 different colour changes to 2 groups of lasers at once. Create two colour change effects and select which clip groups each one is applied to.&#x20;
+You could also use it to live apply 2 different colour changes to 2 groups of lasers at once. Create two colour change effects and select which clip groups each one is applied to.
 
 ### MX group
 
-Short for _Mutually Exclusive_ this is a way to group effects together in such a way that only one effect in the group can be active at the same time. Notice how only one of the default colour changing effects can be active at once. This is because they are all in MX Group 1.&#x20;
+Short for _Mutually Exclusive_ this is a way to group effects together in such a way that only one effect in the group can be active at the same time. Notice how only one of the default colour changing effects can be active at once. This is because they are all in MX Group 1.
 
 This functionality is disabled if the _MX Group_ setting is 0.
 
 ### Editing effects
 
-Right click on any effect, and click the _EDIT EFFECT_ button to open the effect editor. Notice that this editor is identical to the clip editor!&#x20;
+Right click on any effect, and click the _EDIT EFFECT_ button to open the effect editor. Notice that this editor is identical to the clip editor!
 
 Edit your effect in the same way that you would edit any clip. See [clip-editor](clip-editor/ "mention").
 
-You need to have at least one creator node; this can be anything (line, circle, shape, even text!), but you should probably choose something that makes the most sense in the effect button preview.&#x20;
+You need to have at least one creator node; this can be anything (line, circle, shape, even text!), but you should probably choose something that makes the most sense in the effect button preview.
 
-When effects are applied, all creator nodes in the effect are substituted with the output of the currently running clips.&#x20;
+When effects are applied, all creator nodes in the effect are substituted with the output of the currently running clips.
 
 {% hint style="warning" %}
-For extremely tedious technical reasons, the "trails" nodes are not enabled when inside a effect. The same applies for the "delay" setting inside pattern nodes (they use the same system). This will be fixed in future revisions.&#x20;
+For extremely tedious technical reasons, the "trails" nodes are not enabled when inside a effect. The same applies for the "delay" setting inside pattern nodes (they use the same system). This will be fixed in future revisions.
 {% endhint %}
 
 ###

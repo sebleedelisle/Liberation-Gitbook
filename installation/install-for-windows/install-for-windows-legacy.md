@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/installation/install-for-windows/install-for-windows-legacy
+---
+
 # ✅ Install for Windows (legacy before version 0.9)
 
 ### Compatibility

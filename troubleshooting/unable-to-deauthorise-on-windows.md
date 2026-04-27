@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/unable-to-deauthorise-on-windows
+---
+
 # ✅ Unable to deauthorise on Windows?
 
 #### Unable to deauthorise on Windows?

@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/important
+---
+
 # ✅ Important! Read this first
 
 ## SAFETY WARNING
@@ -12,9 +18,9 @@ PLASA have a free downloadable laser safety guide which has been generally accep
 
 ### Also adhere to these safety precautions:
 
-- Keep beams out of audience eyes: aim above 3m in audience areas; use attenuators/beam blocks while positioning; never aim at people or animals.
-- Always use interlocks, E-stop, and keyswitches—never bypass or tape them down.
-- Liberation does not enforce MPE limits or scan-fail detection; manage power, add external safety systems, and follow local regulations
-- First power-on checklist: start with test patterns at lowest output, keep shutters closed until ready, bring up one projector at a time, confirm zones/masks before adding more. [Setting up your lasers](setting-up/setting-up-lasers.md).
+* Keep beams out of audience eyes: aim above 3m in audience areas; use attenuators/beam blocks while positioning; never aim at people or animals.
+* Always use interlocks, E-stop, and keyswitches—never bypass or tape them down.
+* Liberation does not enforce MPE limits or scan-fail detection; manage power, add external safety systems, and follow local regulations
+* First power-on checklist: start with test patterns at lowest output, keep shutters closed until ready, bring up one projector at a time, confirm zones/masks before adding more. [Setting up your lasers](setting-up/setting-up-lasers.md).
 
 ##

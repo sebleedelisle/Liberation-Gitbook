@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/where-to-find-the-working-folder
+---
+
 # ✅ Where to find the working folder
 
 #### Where to find the working folder

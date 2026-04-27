@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/timeline/overview
+---
+
 # 🟧 Overview
 
 The Timeline in Liberation is completely integrated, not a separate editor or bolt-on module. It shares the same clip deck and content as live performance, meaning anything you can do live can also be recorded, sequenced, and refined in the timeline. Whether you're designing tightly synced laser shows or planning a full set for playback, the timeline gives you total creative control without compromise.

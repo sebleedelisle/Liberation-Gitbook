@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/assigning-clips-to-laser-zones
+---
+
 # ✅ Assigning clips to laser zones
 
 <figure><img src="../.gitbook/assets/clips-zones" alt=""><figcaption><p>The zone buttons at the top, and the Flip X / Flip Y buttons at the bottom.</p></figcaption></figure>
@@ -21,4 +28,4 @@ You don't need to make a new zone to have different mirror settings. The X and Y
 
 ### Assigning zones to multiple clips at once
 
-You can assign zones and adjust X/Y for all clips in a zone. See [groups.md](groups.md "mention") for more information.&#x20;
+You can assign zones and adjust X/Y for all clips in a zone. See [groups.md](groups.md "mention") for more information.

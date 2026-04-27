@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/timeline/synchronising-tempo-to-an-audio-track
+---
+
 # 🟩 Synchronising tempo to an audio track
 
 {% embed url="https://youtu.be/sL0SsuTf7Pc" %}

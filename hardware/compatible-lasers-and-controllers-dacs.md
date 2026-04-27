@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/hardware/compatible-lasers-and-controllers-dacs
+---
+
 # ✅ Compatible lasers and controllers (DACs)
 
 ### Which lasers are compatible with Liberation?
@@ -10,11 +17,11 @@ You do not need an external controller or an ILDA input if :
 
 * Your laser has Ether Dream installed inside, or;
 * You have a LaserCube from Wicked Lasers, or;
-* You have an X-Laser fixture with Mercury built in, or;&#x20;
+* You have an X-Laser fixture with Mercury built in, or;
 * You have a Laser Animation Sollinger laser with an AVB controller built-in (currently in testing on macOS only)
 
 {% hint style="info" %}
-#### What is a laser controller?
+**What is a laser controller?**
 
 A laser controller (or DAC) is a hardware device that can take the digital data from Liberation and convert it to the analog signals that are required to control the scanners and output of your laser. (Hence DAC: Digital to Analog Converter.)
 
@@ -37,7 +44,7 @@ Network DACs like the **Ether Dream** are the **best option for professional** l
 
 If you have a **LaserCube** then you don't need a separate laser controller at all - Liberation is compatible with all LaserCubes. The earlier models connect with a USB cable, and the newer models connect over a network.
 
-If you are a professional looking for the easiest option, then consider X-Laser units with Mercury built in or Laser Animation Sollinger lasers that use AVB.&#x20;
+If you are a professional looking for the easiest option, then consider X-Laser units with Mercury built in or Laser Animation Sollinger lasers that use AVB.
 
 ### Compatible laser controllers
 

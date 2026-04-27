@@ -1,6 +1,13 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/intermittent-flashing-output
+---
+
 # ✅ Intermittent / flashing output
 
-Open the _Laser Overview_ panel and look at the connection light next to the laser you are having trouble with.&#x20;
+Open the _Laser Overview_ panel and look at the connection light next to the laser you are having trouble with.
 
 **If the connection light IS NOT constantly green :**\
 Then you have either a network or a CPU performance issue :
@@ -37,7 +44,7 @@ Then it’s likely to be a hardware issue. This is out of scope of this manual b
 * Disable the SFS (Scan Fail Safety) system. Some lasers have a function that disables output if the scanners stop moving ie producing a strong static beam. They can be a little overcautious / unreliable.
 
 {% hint style="danger" %}
-Use extreme caution when disabling the scan fail safety system. Strong static beams can cause burning! Make sure you have a stop button and a fire extinguisher on hand.&#x20;
+Use extreme caution when disabling the scan fail safety system. Strong static beams can cause burning! Make sure you have a stop button and a fire extinguisher on hand.
 {% endhint %}
 
 * Check interlock cables and systems
