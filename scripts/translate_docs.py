@@ -309,6 +309,36 @@ def html_sources(text):
     return HTML_SRC_PATTERN.findall(text)
 
 
+def restore_preserved_targets(source, translated):
+    source_markdown_targets = markdown_targets(source)
+    translated_markdown_targets = markdown_targets(translated)
+    if source_markdown_targets and len(source_markdown_targets) == len(translated_markdown_targets):
+        target_iter = iter(source_markdown_targets)
+
+        def replace_markdown_target(match):
+            target = next(target_iter)
+            relative_start = match.start(1) - match.start(0)
+            relative_end = match.end(1) - match.start(0)
+            return match.group(0)[:relative_start] + target + match.group(0)[relative_end:]
+
+        translated = MARKDOWN_TARGET_PATTERN.sub(replace_markdown_target, translated)
+
+    source_html_sources = html_sources(source)
+    translated_html_sources = html_sources(translated)
+    if source_html_sources and len(source_html_sources) == len(translated_html_sources):
+        source_iter = iter(source_html_sources)
+
+        def replace_html_source(match):
+            source_path = next(source_iter)
+            relative_start = match.start(1) - match.start(0)
+            relative_end = match.end(1) - match.start(0)
+            return match.group(0)[:relative_start] + source_path + match.group(0)[relative_end:]
+
+        translated = HTML_SRC_PATTERN.sub(replace_html_source, translated)
+
+    return translated
+
+
 def validation_errors(source, translated):
     errors = []
     if source.startswith("---") != translated.startswith("---"):
@@ -388,6 +418,7 @@ def translate_text(provider, model, target_language, language_name, relative_pat
                 max_output_tokens,
             )
         )
+        result = restore_preserved_targets(source_text, result)
         errors = validation_errors(source_text, result)
         if not errors:
             return result
