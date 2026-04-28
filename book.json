@@ -1,6 +1,5 @@
 {
   "title": "Liberation User Manual",
-  "language": "en",
   "plugins": [
     "liberation",
     "-search",
