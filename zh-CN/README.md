@@ -25,7 +25,7 @@ Liberation 是不断扩展的激光控制软件生态的一部分，使用同一
 ## 如何使用本指南
 
 * 先阅读[**重要！先读这里**](important.md)，在连接硬件前了解关键的安全与授权说明。
-* 如果想快速出图，请先看[**快速入门指南**](basics/getting-started.md)，然后深入[**硬件**](hardware/)和[**设置**](setting-up/)进行配置。
+* 如果想快速出图，请先看[**快速入门指南**](getting-started.md)，然后深入[**硬件**](hardware/)和[**设置**](setting-up/)进行配置。
 * 使用章节标题直接跳转到目标主题（例如 [**Clips & Clip Deck**](clips/)、[**Output view**](output-view/)、**等**），需要精确答案时回到[**参考**](reference/)或[**故障排除**](troubleshooting/)。
 
 ## 约定与提示

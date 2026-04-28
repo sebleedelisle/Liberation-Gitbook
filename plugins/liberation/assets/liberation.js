@@ -53,6 +53,12 @@
     return path ? (base || "") + "/" + path : (base || "") + "/";
   }
 
+  function languageHomeUrl(meta) {
+    var language = meta && (meta.currentLanguage || meta.defaultLanguage);
+    if (!language) return siteUrl("", meta);
+    return siteUrl(String(language).replace(/^\/+|\/+$/g, "") + "/", meta);
+  }
+
   function iconSearch() {
     return '<span class="lib-search-icon" aria-hidden="true"></span>';
   }
@@ -177,10 +183,16 @@
     switcher.hidden = false;
   }
 
+  function updateBrandLink(header, meta) {
+    var brand = header.querySelector(".lib-brand");
+    if (brand) brand.href = languageHomeUrl(meta);
+  }
+
   function ensureHeader() {
     var existingHeader = document.querySelector(".lib-site-header");
     var meta = parseMeta();
     if (existingHeader) {
+      updateBrandLink(existingHeader, meta);
       updateLanguageSwitcher(existingHeader, meta);
       return;
     }
@@ -191,7 +203,7 @@
       '<button class="lib-menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false">',
       '<span class="lib-menu-icon" aria-hidden="true"></span>',
       "</button>",
-      '<a class="lib-brand" href="' + rootPath() + '/">',
+      '<a class="lib-brand" href="' + escapeHtml(languageHomeUrl(meta)) + '">',
       '<img class="lib-brand-logo" src="' + logoPath() + '" alt="" width="32" height="32">',
       '<span>Liberation User Manual</span>',
       "</a>",
@@ -208,6 +220,7 @@
     ].join("");
 
     document.body.insertBefore(header, document.body.firstChild);
+    updateBrandLink(header, meta);
 
     header.querySelector(".lib-menu-button").addEventListener("click", function() {
       if (isMobileNav()) {
