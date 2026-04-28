@@ -334,6 +334,23 @@ function walkHtmlFiles(dir, files) {
   return files;
 }
 
+function copyMissingDirectory(sourceDir, targetDir) {
+  if (!fs.existsSync(sourceDir)) return;
+
+  fs.mkdirSync(targetDir, { recursive: true });
+  fs.readdirSync(sourceDir).forEach(function(name) {
+    var source = path.join(sourceDir, name);
+    var target = path.join(targetDir, name);
+    var stat = fs.statSync(source);
+
+    if (stat.isDirectory()) {
+      copyMissingDirectory(source, target);
+    } else if (!fs.existsSync(target)) {
+      fs.copyFileSync(source, target);
+    }
+  });
+}
+
 function relativeOutputRoot(file, root) {
   var rel = path.relative(path.dirname(file), root).replace(/\\/g, "/");
   return rel || ".";
@@ -555,6 +572,22 @@ function writeLegacyEnglishRedirects(context) {
   });
 }
 
+function copyDefaultLanguageAssets(context) {
+  if (!context.output || context.output.name !== "website") return;
+
+  var root = context.output.root();
+  var defaultLanguageRoot = getDefaultLanguageRoot();
+  if (!defaultLanguageRoot) return;
+
+  var defaultGitbookAssets = path.join(root, defaultLanguageRoot, ".gitbook");
+  if (!fs.existsSync(defaultGitbookAssets)) return;
+
+  getLanguageRoots().forEach(function(languageRoot) {
+    if (!languageRoot || languageRoot === defaultLanguageRoot) return;
+    copyMissingDirectory(defaultGitbookAssets, path.join(root, languageRoot, ".gitbook"));
+  });
+}
+
 function injectPageDescription(content, description) {
   if (!description || /class="lib-page-description"/.test(content)) return content;
 
@@ -655,6 +688,7 @@ module.exports = {
 
     finish: function() {
       cleanGeneratedHtml(this);
+      copyDefaultLanguageAssets(this);
       writeDefaultLanguageIndex(this);
       writeLegacyEnglishRedirects(this);
     }
