@@ -6,3 +6,4 @@
 * [Nederlands](nl-NL)
 * [Français](fr-FR)
 * [Español](es-ES)
+* [Dansk](da-DK)
