@@ -10,3 +10,4 @@
 * [Norsk Bokmål](nb-NO)
 * [Svenska](sv-SE)
 * [日本語](ja-JP)
+* [Íslenska](is-IS)
