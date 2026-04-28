@@ -7,3 +7,4 @@
 * [Français](fr-FR)
 * [Español](es-ES)
 * [Dansk](da-DK)
+* [Norsk Bokmål](nb-NO)
