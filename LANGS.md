@@ -15,3 +15,4 @@
 * [Magyar](hu-HU)
 * [Italiano](it-IT)
 * [Polski](pl-PL)
+* [Português do Brasil](pt-BR)
