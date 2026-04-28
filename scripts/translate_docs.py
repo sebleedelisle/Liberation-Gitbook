@@ -136,6 +136,7 @@ LANGUAGE_STYLE_GUIDANCE = {
 }
 DEFAULT_OPENAI_MODEL = "gpt-5.5"
 DEFAULT_ANTHROPIC_MODEL = "claude-sonnet-4-6"
+RETRYABLE_HTTP_STATUS_CODES = {408, 409, 425, 429, 500, 502, 503, 504}
 
 
 MARKDOWN_TARGET_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)\s]+(?:\s+\"[^\"]*\")?)\)")
@@ -200,20 +201,30 @@ def https_context():
         return ssl.create_default_context()
 
 
-def post_json(url, headers, payload):
+def post_json(url, headers, payload, attempts=6):
     data = json.dumps(payload).encode("utf-8")
-    request = urllib.request.Request(
-        url,
-        data=data,
-        headers={**headers, "Content-Type": "application/json"},
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(request, context=https_context(), timeout=180) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as error:
-        body = error.read().decode("utf-8", "replace")
-        raise RuntimeError(f"{error.code} {error.reason}: {body}") from error
+
+    for attempt in range(1, attempts + 1):
+        request = urllib.request.Request(
+            url,
+            data=data,
+            headers={**headers, "Content-Type": "application/json"},
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(request, context=https_context(), timeout=180) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as error:
+            body = error.read().decode("utf-8", "replace")
+            if error.code not in RETRYABLE_HTTP_STATUS_CODES or attempt == attempts:
+                raise RuntimeError(f"{error.code} {error.reason}: {body}") from error
+        except (TimeoutError, urllib.error.URLError) as error:
+            if attempt == attempts:
+                raise RuntimeError(f"Request failed after {attempts} attempts: {error}") from error
+
+        time.sleep(min(2 ** attempt, 30))
+
+    raise RuntimeError("Request failed without a response.")
 
 
 def require_provider_key(provider):
