@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 SOURCE_ROOT = Path("en-GB")
-TARGET_ROOT = Path("zh-CN")
+DEFAULT_TARGETS = [Path("zh-CN")]
 
 
 def git(*args, check=True):
@@ -54,7 +54,29 @@ def markdown_files(root):
     return sorted(path for path in root.rglob("*.md") if path.is_file())
 
 
-def classify():
+def target_roots(args):
+    if args.target:
+        return [Path(target) for target in args.target]
+
+    langs = Path("LANGS.md")
+    if not langs.exists():
+        return DEFAULT_TARGETS
+
+    targets = []
+    for line in langs.read_text(encoding="utf-8").splitlines():
+        if "](" not in line or ")" not in line:
+            continue
+        target = line.split("](", 1)[1].split(")", 1)[0].strip()
+        if not target or target == str(SOURCE_ROOT):
+            continue
+        root = Path(target)
+        if root.exists():
+            targets.append(root)
+
+    return targets or DEFAULT_TARGETS
+
+
+def classify(target_root):
     current = []
     missing = []
     stale = []
@@ -62,7 +84,7 @@ def classify():
 
     for source in markdown_files(SOURCE_ROOT):
         rel = source.relative_to(SOURCE_ROOT)
-        target = TARGET_ROOT / rel
+        target = target_root / rel
 
         if not target.exists():
             missing.append(rel)
@@ -84,9 +106,9 @@ def classify():
 
     source_rels = {path.relative_to(SOURCE_ROOT) for path in markdown_files(SOURCE_ROOT)}
     orphaned = [
-        path.relative_to(TARGET_ROOT)
-        for path in markdown_files(TARGET_ROOT)
-        if path.relative_to(TARGET_ROOT) not in source_rels
+        path.relative_to(target_root)
+        for path in markdown_files(target_root)
+        if path.relative_to(target_root) not in source_rels
     ]
 
     return {
@@ -98,8 +120,8 @@ def classify():
     }
 
 
-def print_status(status):
-    print("Translation status: zh-CN vs en-GB")
+def print_status(target_root, status):
+    print(f"Translation status: {target_root} vs {SOURCE_ROOT}")
     print()
     print(f"Current:   {len(status['current'])}")
     print(f"Stale:     {len(status['stale'])}")
@@ -110,7 +132,7 @@ def print_status(status):
     if status["stale"]:
         print("\nStale:")
         for rel, commit, reason in status["stale"]:
-            print(f"- {rel} ({reason}; zh-CN last touched {commit[:7]})")
+            print(f"- {rel} ({reason}; {target_root} last touched {commit[:7]})")
 
     if status["missing"]:
         print("\nMissing:")
@@ -128,18 +150,18 @@ def print_status(status):
             print(f"- {rel}")
 
 
-def print_diff(rel):
+def print_diff(target_root, rel):
     source = SOURCE_ROOT / rel
-    target = TARGET_ROOT / rel
+    target = target_root / rel
 
     if not source.exists():
         raise SystemExit(f"English source does not exist: {source}")
     if not target.exists():
-        raise SystemExit(f"Chinese translation does not exist: {target}")
+        raise SystemExit(f"Translation does not exist: {target}")
 
     commit = last_commit(target)
     if not commit:
-        raise SystemExit(f"Chinese translation has no git history yet: {target}")
+        raise SystemExit(f"Translation has no git history yet: {target}")
     if not path_exists_at(commit, source):
         old_lines = []
     else:
@@ -158,19 +180,33 @@ def print_diff(rel):
 
 def main():
     parser = argparse.ArgumentParser(description="Report translation freshness from git history.")
+    parser.add_argument(
+        "--target",
+        action="append",
+        help="Target language root to check. May be passed more than once. Defaults to LANGS.md targets.",
+    )
     parser.add_argument("--strict", action="store_true", help="Exit non-zero if translations are stale or missing.")
-    parser.add_argument("--diff", metavar="PATH", help="Show English source diff since the matching zh-CN page was last touched.")
+    parser.add_argument("--diff", metavar="PATH", help="Show English source diff since the matching translated page was last touched.")
     args = parser.parse_args()
+    targets = target_roots(args)
 
     if args.diff:
-        print_diff(Path(args.diff))
+        if len(targets) != 1:
+            raise SystemExit("--diff requires exactly one --target when multiple targets are configured.")
+        print_diff(targets[0], Path(args.diff))
         return
 
-    status = classify()
-    print_status(status)
+    statuses = []
+    for index, target_root in enumerate(targets):
+        if index:
+            print()
+        status = classify(target_root)
+        statuses.append(status)
+        print_status(target_root, status)
 
-    if args.strict and (
+    if args.strict and any(
         status["stale"] or status["missing"] or status["untracked"] or status["orphaned"]
+        for status in statuses
     ):
         raise SystemExit(1)
 

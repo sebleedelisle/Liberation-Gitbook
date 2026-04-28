@@ -1,0 +1,410 @@
+#!/usr/bin/env python3
+"""Translate Markdown docs with OpenAI or Anthropic while preserving structure."""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import re
+import ssl
+import sys
+import time
+import urllib.error
+import urllib.request
+from pathlib import Path
+
+
+SOURCE_ROOT = Path("en-GB")
+LANGUAGE_NAMES = {
+    "de-DE": "German",
+    "nl-NL": "Dutch",
+    "fr-FR": "French",
+    "es-ES": "Spanish",
+    "zh-CN": "Simplified Chinese",
+}
+LANGS_LABELS = {
+    "de-DE": "Deutsch",
+    "nl-NL": "Nederlands",
+    "fr-FR": "Français",
+    "es-ES": "Español",
+}
+BOOK_TITLES = {
+    "de-DE": "Liberation Benutzerhandbuch",
+    "nl-NL": "Liberation gebruikershandleiding",
+    "fr-FR": "Manuel utilisateur de Liberation",
+    "es-ES": "Manual de usuario de Liberation",
+}
+DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
+DEFAULT_ANTHROPIC_MODEL = "claude-sonnet-4-6"
+
+
+MARKDOWN_TARGET_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)\s]+(?:\s+\"[^\"]*\")?)\)")
+HTML_SRC_PATTERN = re.compile(r"\bsrc=[\"']([^\"']+)[\"']")
+FENCE_PATTERN = re.compile(r"^```", re.MULTILINE)
+DIRECTIVE_PATTERN = re.compile(r"^\s*{%\s*[^%]+%}\s*$", re.MULTILINE)
+
+
+def git(*args, check=True):
+    import subprocess
+
+    result = subprocess.run(
+        ["git", *args],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+    )
+    if check and result.returncode:
+        raise RuntimeError(result.stderr.strip())
+    return result.stdout.strip()
+
+
+def git_bytes(*args, check=True):
+    import subprocess
+
+    result = subprocess.run(
+        ["git", *args],
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    if check and result.returncode:
+        raise RuntimeError(result.stderr.decode("utf-8", "replace").strip())
+    return result.stdout
+
+
+def last_commit(path):
+    commit = git("log", "-1", "--format=%H", "--", str(path), check=False)
+    return commit or None
+
+
+def path_exists_at(commit, path):
+    import subprocess
+
+    result = subprocess.run(
+        ["git", "cat-file", "-e", f"{commit}:{path}"],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.DEVNULL,
+    )
+    return result.returncode == 0
+
+
+def content_at(commit, path):
+    return git_bytes("show", f"{commit}:{path}")
+
+
+def https_context():
+    try:
+        import certifi
+
+        return ssl.create_default_context(cafile=certifi.where())
+    except Exception:
+        return ssl.create_default_context()
+
+
+def post_json(url, headers, payload):
+    data = json.dumps(payload).encode("utf-8")
+    request = urllib.request.Request(
+        url,
+        data=data,
+        headers={**headers, "Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(request, context=https_context(), timeout=180) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as error:
+        body = error.read().decode("utf-8", "replace")
+        raise RuntimeError(f"{error.code} {error.reason}: {body}") from error
+
+
+def require_provider_key(provider):
+    key_name = "OPENAI_API_KEY" if provider == "openai" else "ANTHROPIC_API_KEY"
+    if not os.environ.get(key_name):
+        raise SystemExit(f"{key_name} is not set.")
+
+
+def openai_translate(system_prompt, user_prompt, model, max_output_tokens):
+    api_key = os.environ.get("OPENAI_API_KEY")
+    if not api_key:
+        raise SystemExit("OPENAI_API_KEY is not set.")
+
+    response = post_json(
+        "https://api.openai.com/v1/responses",
+        {"Authorization": f"Bearer {api_key}"},
+        {
+            "model": model,
+            "instructions": system_prompt,
+            "input": user_prompt,
+            "max_output_tokens": max_output_tokens,
+        },
+    )
+
+    if response.get("output_text"):
+        return response["output_text"]
+
+    parts = []
+    for item in response.get("output", []):
+        if item.get("type") != "message":
+            continue
+        for content in item.get("content", []):
+            if content.get("type") in {"output_text", "text"}:
+                parts.append(content.get("text", ""))
+    if parts:
+        return "".join(parts)
+
+    raise RuntimeError(f"Could not find text output in OpenAI response: {response}")
+
+
+def anthropic_translate(system_prompt, user_prompt, model, max_output_tokens):
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        raise SystemExit("ANTHROPIC_API_KEY is not set.")
+
+    response = post_json(
+        "https://api.anthropic.com/v1/messages",
+        {
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+        },
+        {
+            "model": model,
+            "max_tokens": max_output_tokens,
+            "system": system_prompt,
+            "messages": [{"role": "user", "content": user_prompt}],
+        },
+    )
+
+    parts = [
+        content.get("text", "")
+        for content in response.get("content", [])
+        if content.get("type") == "text"
+    ]
+    if parts:
+        return "".join(parts)
+
+    raise RuntimeError(f"Could not find text output in Anthropic response: {response}")
+
+
+def markdown_targets(text):
+    targets = []
+    for match in MARKDOWN_TARGET_PATTERN.finditer(text):
+        target = match.group(1)
+        if '"' in target:
+            target = target.split('"', 1)[0]
+        targets.append(target.strip())
+    return targets
+
+
+def html_sources(text):
+    return HTML_SRC_PATTERN.findall(text)
+
+
+def validation_errors(source, translated):
+    errors = []
+    if source.startswith("---") != translated.startswith("---"):
+        errors.append("frontmatter boundary changed")
+    if FENCE_PATTERN.findall(source) != FENCE_PATTERN.findall(translated):
+        errors.append("code fence count changed")
+    if markdown_targets(source) != markdown_targets(translated):
+        errors.append("Markdown link targets changed")
+    if html_sources(source) != html_sources(translated):
+        errors.append("HTML image/source paths changed")
+    if DIRECTIVE_PATTERN.findall(source) != DIRECTIVE_PATTERN.findall(translated):
+        errors.append("GitBook directive lines changed")
+    return errors
+
+
+def strip_wrapper(text):
+    stripped = text.strip()
+    if stripped.startswith("```"):
+        lines = stripped.splitlines()
+        if lines[0].startswith("```") and lines[-1].startswith("```"):
+            return "\n".join(lines[1:-1]).strip() + "\n"
+    return stripped + "\n"
+
+
+def system_prompt(language_name):
+    return (
+        "You are translating a technical user manual for laser show software. "
+        f"Translate natural-language text into {language_name}. "
+        "Return only the translated Markdown document. "
+        "Preserve Markdown structure, heading levels, tables, frontmatter keys, YAML indentation, "
+        "GitBook directives, HTML tags, image paths, Markdown link targets, anchors, file paths, "
+        "code fences, inline code, keyboard shortcuts, UI labels, and product names. "
+        "Keep product and protocol names such as Liberation, APC40, LaserCube, DMX, MIDI, OSC, "
+        "ILDA, DAC, ArtNet, Canvas, Output, 3D Visualiser, Clip, and Clip Deck unchanged unless "
+        "the surrounding sentence naturally needs a translated explanation."
+    )
+
+
+def user_prompt(relative_path, source_text, retry_errors=None):
+    prompt = [
+        f"Translate this Markdown file: {relative_path}",
+        "",
+        "Important:",
+        "- Do not add commentary.",
+        "- Do not wrap the result in a Markdown code fence.",
+        "- Preserve every Markdown link target exactly.",
+        "- Preserve every image src/path exactly.",
+        "- Preserve code fences and inline code exactly.",
+    ]
+    if retry_errors:
+        prompt.extend(["", "The previous attempt failed validation:", *[f"- {error}" for error in retry_errors]])
+    prompt.extend(["", source_text])
+    return "\n".join(prompt)
+
+
+def translate_text(provider, model, language_name, relative_path, source_text, retries, max_output_tokens):
+    translate = openai_translate if provider == "openai" else anthropic_translate
+    errors = None
+    for attempt in range(1, retries + 2):
+        result = strip_wrapper(
+            translate(
+                system_prompt(language_name),
+                user_prompt(relative_path, source_text, errors),
+                model,
+                max_output_tokens,
+            )
+        )
+        errors = validation_errors(source_text, result)
+        if not errors:
+            return result
+        if attempt <= retries:
+            time.sleep(1)
+
+    raise RuntimeError(f"{relative_path} failed validation: {', '.join(errors or [])}")
+
+
+def source_files(source_root, paths):
+    if paths:
+        return [source_root / path for path in paths]
+    return sorted(source_root.rglob("*.md"))
+
+
+def should_translate(source, target, mode, force):
+    if force:
+        return True
+    if not target.exists():
+        return True
+    if mode == "missing":
+        return False
+    if mode == "all":
+        return True
+
+    commit = last_commit(target)
+    if not commit:
+        return False
+    if not path_exists_at(commit, source):
+        return True
+    return content_at(commit, source) != source.read_bytes()
+
+
+def write_book_json(target_root, target_language):
+    path = target_root / "book.json"
+    if path.exists():
+        return
+    title = BOOK_TITLES.get(target_language, "Liberation User Manual")
+    path.write_text(
+        json.dumps({"title": title, "language": target_language}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def update_langs(target_language):
+    label = LANGS_LABELS.get(target_language, LANGUAGE_NAMES.get(target_language, target_language))
+    langs = Path("LANGS.md")
+    line = f"* [{label}]({target_language})"
+    if not langs.exists():
+        langs.write_text(f"# Languages\n\n* [English](en-GB)\n{line}\n", encoding="utf-8")
+        return
+
+    content = langs.read_text(encoding="utf-8")
+    if f"]({target_language})" in content:
+        return
+    if not content.endswith("\n"):
+        content += "\n"
+    langs.write_text(content + line + "\n", encoding="utf-8")
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Translate docs with OpenAI or Anthropic APIs.")
+    parser.add_argument("target_language", help="Target locale folder, for example de-DE.")
+    parser.add_argument("--language-name", help="Human-readable target language name.")
+    parser.add_argument(
+        "--provider",
+        choices=["openai", "anthropic"],
+        default=os.environ.get("TRANSLATE_PROVIDER", "openai"),
+    )
+    parser.add_argument("--model", help="Provider model. Defaults to a sensible model for the provider.")
+    parser.add_argument("--source-root", type=Path, default=SOURCE_ROOT)
+    parser.add_argument("--mode", choices=["missing", "stale", "all"], default="missing")
+    parser.add_argument("--path", action="append", default=[], help="Relative Markdown path to translate.")
+    parser.add_argument("--force", action="store_true", help="Overwrite existing target files.")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--limit", type=int, help="Translate at most this many files.")
+    parser.add_argument("--retries", type=int, default=2)
+    parser.add_argument("--max-output-tokens", type=int, default=12000)
+    parser.add_argument("--update-langs", action="store_true", help="Add the target language to LANGS.md.")
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+    target_root = Path(args.target_language)
+    language_name = args.language_name or LANGUAGE_NAMES.get(args.target_language)
+    if not language_name:
+        raise SystemExit("--language-name is required for unknown target locales.")
+
+    model = args.model
+    if not model:
+        model = DEFAULT_OPENAI_MODEL if args.provider == "openai" else DEFAULT_ANTHROPIC_MODEL
+
+    files = []
+    for source in source_files(args.source_root, args.path):
+        if not source.exists():
+            raise SystemExit(f"Source path does not exist: {source}")
+        rel = source.relative_to(args.source_root)
+        target = target_root / rel
+        if should_translate(source, target, args.mode, args.force):
+            files.append((source, target, rel))
+
+    if args.limit:
+        files = files[: args.limit]
+
+    print(f"Provider: {args.provider}")
+    print(f"Model:    {model}")
+    print(f"Target:   {args.target_language} ({language_name})")
+    print(f"Files:    {len(files)}")
+
+    if args.dry_run:
+        for _, _, rel in files:
+            print(f"- {rel}")
+        return
+
+    require_provider_key(args.provider)
+    target_root.mkdir(parents=True, exist_ok=True)
+    write_book_json(target_root, args.target_language)
+
+    for index, (source, target, rel) in enumerate(files, start=1):
+        print(f"[{index}/{len(files)}] {rel}", flush=True)
+        translated = translate_text(
+            args.provider,
+            model,
+            language_name,
+            rel,
+            source.read_text(encoding="utf-8"),
+            args.retries,
+            args.max_output_tokens,
+        )
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(translated, encoding="utf-8")
+
+    if args.update_langs:
+        update_langs(args.target_language)
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except KeyboardInterrupt:
+        sys.exit(130)
