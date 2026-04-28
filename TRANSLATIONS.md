@@ -32,6 +32,19 @@ npm run translate:docs -- de-DE --language-name German --provider anthropic --up
 
 Use `--model` to override the default model.
 
+## Tone and terminology
+
+The translation prompt asks for a clear, friendly, practical technical-manual tone rather than marketing copy. It also asks the model to use native phrasing instead of literal word-for-word translation, while preserving Markdown structure, links, image paths, code, keyboard shortcuts, UI labels, and product names.
+
+Language-specific reader address:
+
+* German: informal `du`, not formal `Sie`.
+* Dutch: informal `je/jij`.
+* French: `vous`.
+* Spanish: European Spanish with informal `tu`.
+
+Exact on-screen UI labels should stay in English when the text refers to labels, buttons, menu items, panels, or settings.
+
 ## Keeping translations current
 
 Check translation freshness from git history:
