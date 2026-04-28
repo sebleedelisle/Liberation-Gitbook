@@ -30,6 +30,7 @@ var STYLE_ICONS = {
 var lastUpdatedCache = {};
 var branchCache;
 var summaryCache;
+var outputTitleCache;
 
 function escapeHtml(value) {
   return String(value || "")
@@ -174,6 +175,15 @@ function cleanHtmlTitle(title) {
     .join(" | ");
 }
 
+function fallbackTitleFromFilename(title) {
+  return cleanTitle(String(title || "")
+    .replace(/\.md$/i, "")
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, function(char) {
+      return char.toUpperCase();
+    }));
+}
+
 function walkHtmlFiles(dir, files) {
   files = files || [];
 
@@ -194,6 +204,108 @@ function walkHtmlFiles(dir, files) {
 function relativeOutputRoot(file, root) {
   var rel = path.relative(path.dirname(file), root).replace(/\\/g, "/");
   return rel || ".";
+}
+
+function getOutputTitleMap() {
+  if (outputTitleCache) return outputTitleCache;
+
+  var map = {};
+  var nodes = getSummary().nodesByPath;
+  Object.keys(nodes).forEach(function(sourcePath) {
+    var title = cleanTitle(nodes[sourcePath].title);
+    var outputPath = markdownToOutputPath(sourcePath);
+    map[outputPath] = title;
+
+    if (/\/index\.html$/i.test(outputPath)) {
+      map[outputPath.replace(/index\.html$/i, "")] = title;
+      map[outputPath.replace(/\/index\.html$/i, "")] = title;
+    } else if (outputPath === "index.html") {
+      map[""] = title;
+      map["."] = title;
+    }
+  });
+
+  outputTitleCache = map;
+  return outputTitleCache;
+}
+
+function splitHref(href) {
+  var index = href.search(/[?#]/);
+  if (index === -1) {
+    return { base: href, suffix: "" };
+  }
+
+  return {
+    base: href.slice(0, index),
+    suffix: href.slice(index)
+  };
+}
+
+function shouldSkipHref(href) {
+  return !href || /^(?:[a-z][a-z0-9+.-]*:|\/\/|#)/i.test(href);
+}
+
+function relativeOutputPathForHref(file, root, href) {
+  if (shouldSkipHref(href)) return "";
+
+  var parts = splitHref(href);
+  var base = parts.base;
+  if (!base || base === "." || base === "..") return "";
+
+  var resolved = path.resolve(path.dirname(file), base);
+  var ext = path.extname(base);
+
+  if (/\.md$/i.test(base)) {
+    var htmlBase = markdownToOutputPath(base);
+    resolved = path.resolve(path.dirname(file), htmlBase);
+  } else if (!ext || /\/$/i.test(base)) {
+    resolved = path.resolve(resolved, "index.html");
+  }
+
+  return path.relative(root, resolved).replace(/\\/g, "/");
+}
+
+function normalizeHref(file, root, href) {
+  if (shouldSkipHref(href)) return href;
+
+  var parts = splitHref(href);
+  var base = parts.base;
+  if (!base || base === "." || base === "..") return href;
+
+  if (/\.md$/i.test(base)) {
+    return markdownToOutputPath(base) + parts.suffix;
+  }
+
+  if (path.extname(base) || /\/$/i.test(base)) return href;
+
+  var resolved = path.resolve(path.dirname(file), base);
+  if (fs.existsSync(path.join(resolved, "index.html"))) {
+    return base + "/" + parts.suffix;
+  }
+
+  return href;
+}
+
+function titleForHref(file, root, href, fallback) {
+  var outputPath = relativeOutputPathForHref(file, root, href);
+  var title = outputPath ? getOutputTitleMap()[outputPath] : "";
+  return title || fallbackTitleFromFilename(fallback);
+}
+
+function cleanGeneratedLinks(html, file, root) {
+  var withNormalizedHrefs = html.replace(/\bhref="([^"]+)"/g, function(match, href) {
+    var normalized = normalizeHref(file, root, href);
+    if (normalized === href) return match;
+    return 'href="' + escapeHtml(normalized) + '"';
+  });
+
+  return withNormalizedHrefs.replace(/<a\b([^>]*)>([^<]*\.md)<\/a>/g, function(match, attrs, label) {
+    var hrefMatch = attrs.match(/\bhref="([^"]+)"/);
+    if (!hrefMatch) return match;
+
+    var title = titleForHref(file, root, hrefMatch[1], label);
+    return "<a" + attrs + ">" + escapeHtml(title) + "</a>";
+  });
 }
 
 function renderFaviconLinks(file, root) {
@@ -221,6 +333,8 @@ function cleanGeneratedHtml(context) {
       .replace(/\s*<link rel="apple-touch-icon-precomposed"[^>]*>\n?/g, "\n")
       .replace(/\s*<link rel="shortcut icon"[^>]*>\n?/g, "\n")
       .replace(/<\/head>/, "    " + renderFaviconLinks(file, root) + "\n</head>");
+
+    next = cleanGeneratedLinks(next, file, root);
 
     if (next !== html) {
       fs.writeFileSync(file, next);
