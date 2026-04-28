@@ -16,3 +16,4 @@
 * [Italiano](it-IT)
 * [Polski](pl-PL)
 * [Português do Brasil](pt-BR)
+* [한국어](ko-KR)
