@@ -17,3 +17,4 @@
 * [Polski](pl-PL)
 * [Português do Brasil](pt-BR)
 * [한국어](ko-KR)
+* [繁體中文（香港）](zh-HK)
