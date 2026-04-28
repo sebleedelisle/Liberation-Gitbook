@@ -32,6 +32,7 @@ LANGUAGE_NAMES = {
     "pl-PL": "Polish",
     "pt-BR": "Brazilian Portuguese",
     "ko-KR": "Korean",
+    "zh-HK": "Traditional Chinese (Hong Kong)",
     "zh-CN": "Simplified Chinese",
 }
 LANGS_LABELS = {
@@ -50,6 +51,7 @@ LANGS_LABELS = {
     "pl-PL": "Polski",
     "pt-BR": "Português do Brasil",
     "ko-KR": "한국어",
+    "zh-HK": "繁體中文（香港）",
 }
 BOOK_TITLES = {
     "de-DE": "Liberation Benutzerhandbuch",
@@ -67,6 +69,7 @@ BOOK_TITLES = {
     "pl-PL": "Podręcznik użytkownika Liberation",
     "pt-BR": "Manual do usuário do Liberation",
     "ko-KR": "Liberation 사용자 설명서",
+    "zh-HK": "Liberation 使用手冊",
 }
 LANGUAGE_STYLE_GUIDANCE = {
     "de-DE": (
@@ -132,6 +135,12 @@ LANGUAGE_STYLE_GUIDANCE = {
         "For Korean, use clear, concise, polite technical-manual prose. "
         "Do not over-translate established technical terms where an English UI label or common loanword is more natural. "
         "Avoid marketing-like phrasing."
+    ),
+    "zh-HK": (
+        "For Traditional Chinese (Hong Kong), use Traditional Chinese characters and natural Hong Kong technical-manual wording. "
+        "Avoid Simplified Chinese characters and Mainland-only terminology where a Hong Kong phrasing is more natural. "
+        "Use clear, concise, practical prose and avoid marketing-like phrasing. "
+        "Keep established English software/UI terms in English when that is the natural Hong Kong usage."
     ),
 }
 DEFAULT_OPENAI_MODEL = "gpt-5.5"
@@ -377,6 +386,9 @@ def system_prompt(target_language, language_name):
             "Preserve the author's concise, lightly conversational clarity where it fits the target language.",
             "Use consistent technical terminology throughout the manual.",
             "Keep exact on-screen UI labels in English when the text refers to labels, buttons, menu items, panels, or settings.",
+            "Translate visible Markdown link text when it is natural-language text, while preserving each link target exactly.",
+            "When a Markdown link points to another manual page or section, make the visible link text match",
+            "the translated title or heading for that destination instead of leaving the English source title.",
             style_guidance,
             "Return only the translated Markdown document.",
             "Preserve Markdown structure, heading levels, tables, frontmatter keys, YAML indentation,",
@@ -397,7 +409,8 @@ def user_prompt(relative_path, source_text, retry_errors=None):
         "Important:",
         "- Do not add commentary.",
         "- Do not wrap the result in a Markdown code fence.",
-        "- Preserve every Markdown link target exactly.",
+        "- Preserve every Markdown link target exactly, but translate visible Markdown link text.",
+        "- If a link points to another manual page or section, use visible link text that matches the translated title or heading for that destination.",
         "- Preserve every image src/path exactly.",
         "- Preserve code fences and inline code exactly.",
     ]

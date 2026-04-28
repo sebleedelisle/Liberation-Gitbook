@@ -45,8 +45,11 @@ Language-specific reader address:
 * Danish, Norwegian Bokmål, Swedish, Icelandic, Italian, and Brazilian Portuguese: informal direct address.
 * Finnish, Hungarian, and Polish: natural direct technical-manual prose.
 * Japanese and Korean: concise polite technical-manual prose.
+* Traditional Chinese (Hong Kong): Traditional Chinese characters with natural Hong Kong technical-manual wording; avoid Simplified Chinese characters and Mainland-only terminology.
 
 Exact on-screen UI labels should stay in English when the text refers to labels, buttons, menu items, panels, or settings.
+
+Visible Markdown link text should be translated when it is natural-language text. For links to other pages or sections in the manual, the visible text should match the translated title or heading for that destination, while the link target itself must stay exactly the same.
 
 ## Keeping translations current
 
