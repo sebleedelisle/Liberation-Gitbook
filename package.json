@@ -19,6 +19,6 @@
     "translate:docs": "python3 scripts/translate_docs.py",
     "translate:de": "python3 scripts/translate_docs.py de-DE --language-name German --update-langs",
     "translate:de:stale": "python3 scripts/translate_docs.py de-DE --language-name German --mode stale",
-    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 -S node_modules,_book,zh-CN,de-DE,nl-NL,fr-FR,es-ES -L Sie || python3 -m codespell -q 3 -S node_modules,_book,zh-CN,de-DE,nl-NL,fr-FR,es-ES -L Sie"
+    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 -S node_modules,_book,zh-CN,de-DE,nl-NL,fr-FR,es-ES,da-DK,nb-NO,sv-SE,ja-JP,is-IS,fi-FI,hu-HU,it-IT,pl-PL,pt-BR,ko-KR -L Sie || python3 -m codespell -q 3 -S node_modules,_book,zh-CN,de-DE,nl-NL,fr-FR,es-ES,da-DK,nb-NO,sv-SE,ja-JP,is-IS,fi-FI,hu-HU,it-IT,pl-PL,pt-BR,ko-KR -L Sie"
   }
 }

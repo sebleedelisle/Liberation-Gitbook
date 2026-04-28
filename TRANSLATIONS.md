@@ -30,7 +30,7 @@ German with Claude:
 npm run translate:docs -- de-DE --language-name German --provider anthropic --update-langs
 ```
 
-Use `--model` to override the default model.
+Use `--model` to override the default model. The default OpenAI model is `gpt-5.5` for high-quality documentation translation.
 
 ## Tone and terminology
 
@@ -42,6 +42,9 @@ Language-specific reader address:
 * Dutch: informal `je/jij`.
 * French: `vous`.
 * Spanish: European Spanish with informal `tu`.
+* Danish, Norwegian Bokmål, Swedish, Icelandic, Italian, and Brazilian Portuguese: informal direct address.
+* Finnish, Hungarian, and Polish: natural direct technical-manual prose.
+* Japanese and Korean: concise polite technical-manual prose.
 
 Exact on-screen UI labels should stay in English when the text refers to labels, buttons, menu items, panels, or settings.
 
