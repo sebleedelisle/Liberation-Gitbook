@@ -21,6 +21,17 @@ LANGUAGE_NAMES = {
     "nl-NL": "Dutch",
     "fr-FR": "French",
     "es-ES": "Spanish",
+    "da-DK": "Danish",
+    "nb-NO": "Norwegian Bokmål",
+    "sv-SE": "Swedish",
+    "ja-JP": "Japanese",
+    "is-IS": "Icelandic",
+    "fi-FI": "Finnish",
+    "hu-HU": "Hungarian",
+    "it-IT": "Italian",
+    "pl-PL": "Polish",
+    "pt-BR": "Brazilian Portuguese",
+    "ko-KR": "Korean",
     "zh-CN": "Simplified Chinese",
 }
 LANGS_LABELS = {
@@ -28,12 +39,34 @@ LANGS_LABELS = {
     "nl-NL": "Nederlands",
     "fr-FR": "Français",
     "es-ES": "Español",
+    "da-DK": "Dansk",
+    "nb-NO": "Norsk Bokmål",
+    "sv-SE": "Svenska",
+    "ja-JP": "日本語",
+    "is-IS": "Íslenska",
+    "fi-FI": "Suomi",
+    "hu-HU": "Magyar",
+    "it-IT": "Italiano",
+    "pl-PL": "Polski",
+    "pt-BR": "Português do Brasil",
+    "ko-KR": "한국어",
 }
 BOOK_TITLES = {
     "de-DE": "Liberation Benutzerhandbuch",
     "nl-NL": "Liberation gebruikershandleiding",
     "fr-FR": "Manuel utilisateur de Liberation",
     "es-ES": "Manual de usuario de Liberation",
+    "da-DK": "Liberation brugervejledning",
+    "nb-NO": "Liberation brukerhåndbok",
+    "sv-SE": "Liberation användarhandbok",
+    "ja-JP": "Liberation ユーザーマニュアル",
+    "is-IS": "Liberation notendahandbók",
+    "fi-FI": "Liberation käyttöopas",
+    "hu-HU": "Liberation felhasználói kézikönyv",
+    "it-IT": "Manuale utente di Liberation",
+    "pl-PL": "Podręcznik użytkownika Liberation",
+    "pt-BR": "Manual do usuário do Liberation",
+    "ko-KR": "Liberation 사용자 설명서",
 }
 LANGUAGE_STYLE_GUIDANCE = {
     "de-DE": (
@@ -54,8 +87,54 @@ LANGUAGE_STYLE_GUIDANCE = {
         "For Spanish, use European Spanish and informal 'tu' consistently when addressing the reader. "
         "Use natural Spanish technical-manual prose and avoid overly literal English sentence structure."
     ),
+    "da-DK": (
+        "For Danish, use informal 'du' consistently when addressing the reader. "
+        "Use natural Danish technical-manual prose and avoid overly literal English sentence structure."
+    ),
+    "nb-NO": (
+        "For Norwegian, use Bokmål and informal 'du' consistently when addressing the reader. "
+        "Use natural Norwegian technical-manual prose and avoid overly literal English sentence structure."
+    ),
+    "sv-SE": (
+        "For Swedish, use informal 'du' consistently when addressing the reader. "
+        "Use natural Swedish technical-manual prose and avoid overly literal English sentence structure."
+    ),
+    "ja-JP": (
+        "For Japanese, use clear, concise, polite technical-manual prose. "
+        "Do not over-translate established technical terms where a katakana loanword or English UI label is more natural. "
+        "Avoid marketing-like phrasing."
+    ),
+    "is-IS": (
+        "For Icelandic, use informal 'þú' consistently when addressing the reader. "
+        "Use natural Icelandic technical-manual prose and avoid overly literal English sentence structure."
+    ),
+    "fi-FI": (
+        "For Finnish, use natural direct technical-manual prose. "
+        "Prefer concise imperatives where appropriate and avoid overly literal English sentence structure."
+    ),
+    "hu-HU": (
+        "For Hungarian, use natural direct technical-manual prose. "
+        "Prefer concise instructions and avoid overly literal English sentence structure."
+    ),
+    "it-IT": (
+        "For Italian, use informal 'tu' consistently when addressing the reader. "
+        "Use natural Italian technical-manual prose and avoid overly literal English sentence structure."
+    ),
+    "pl-PL": (
+        "For Polish, use natural Polish technical-manual prose. "
+        "Prefer concise direct instructions and avoid awkward literal translations from English."
+    ),
+    "pt-BR": (
+        "For Brazilian Portuguese, use informal 'você' consistently when addressing the reader. "
+        "Use natural Brazilian Portuguese technical-manual prose and avoid overly literal English sentence structure."
+    ),
+    "ko-KR": (
+        "For Korean, use clear, concise, polite technical-manual prose. "
+        "Do not over-translate established technical terms where an English UI label or common loanword is more natural. "
+        "Avoid marketing-like phrasing."
+    ),
 }
-DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
+DEFAULT_OPENAI_MODEL = "gpt-5.5"
 DEFAULT_ANTHROPIC_MODEL = "claude-sonnet-4-6"
 
 
