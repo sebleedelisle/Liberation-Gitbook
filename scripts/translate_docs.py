@@ -137,6 +137,7 @@ LANGUAGE_STYLE_GUIDANCE = {
 DEFAULT_OPENAI_MODEL = "gpt-5.5"
 DEFAULT_ANTHROPIC_MODEL = "claude-sonnet-4-6"
 RETRYABLE_HTTP_STATUS_CODES = {408, 409, 425, 429, 500, 502, 503, 504}
+REQUEST_TIMEOUT_SECONDS = int(os.environ.get("TRANSLATE_REQUEST_TIMEOUT", "600"))
 
 
 MARKDOWN_TARGET_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)\s]+(?:\s+\"[^\"]*\")?)\)")
@@ -212,7 +213,7 @@ def post_json(url, headers, payload, attempts=6):
             method="POST",
         )
         try:
-            with urllib.request.urlopen(request, context=https_context(), timeout=180) as response:
+            with urllib.request.urlopen(request, context=https_context(), timeout=REQUEST_TIMEOUT_SECONDS) as response:
                 return json.loads(response.read().decode("utf-8"))
         except urllib.error.HTTPError as error:
             body = error.read().decode("utf-8", "replace")
