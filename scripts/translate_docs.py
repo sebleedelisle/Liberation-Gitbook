@@ -35,6 +35,26 @@ BOOK_TITLES = {
     "fr-FR": "Manuel utilisateur de Liberation",
     "es-ES": "Manual de usuario de Liberation",
 }
+LANGUAGE_STYLE_GUIDANCE = {
+    "de-DE": (
+        "For German, use informal 'du' consistently when addressing the reader. "
+        "Do not use formal 'Sie'. Use natural German technical-manual prose. "
+        "For prose actions like arm/disarm, prefer German verbs such as aktivieren/deaktivieren "
+        "unless referring to exact on-screen UI labels."
+    ),
+    "nl-NL": (
+        "For Dutch, use informal 'je/jij' consistently when addressing the reader. "
+        "Use natural Dutch technical-manual prose and avoid overly literal English sentence structure."
+    ),
+    "fr-FR": (
+        "For French, use 'vous' consistently when addressing the reader. "
+        "Use natural French technical-manual prose and avoid word-for-word English phrasing."
+    ),
+    "es-ES": (
+        "For Spanish, use European Spanish and informal 'tu' consistently when addressing the reader. "
+        "Use natural Spanish technical-manual prose and avoid overly literal English sentence structure."
+    ),
+}
 DEFAULT_OPENAI_MODEL = "gpt-5.4-mini"
 DEFAULT_ANTHROPIC_MODEL = "claude-sonnet-4-6"
 
@@ -223,17 +243,29 @@ def strip_wrapper(text):
     return stripped + "\n"
 
 
-def system_prompt(language_name):
-    return (
-        "You are translating a technical user manual for laser show software. "
-        f"Translate natural-language text into {language_name}. "
-        "Return only the translated Markdown document. "
-        "Preserve Markdown structure, heading levels, tables, frontmatter keys, YAML indentation, "
-        "GitBook directives, HTML tags, image paths, Markdown link targets, anchors, file paths, "
-        "code fences, inline code, keyboard shortcuts, UI labels, and product names. "
-        "Keep product and protocol names such as Liberation, APC40, LaserCube, DMX, MIDI, OSC, "
-        "ILDA, DAC, ArtNet, Canvas, Output, 3D Visualiser, Clip, and Clip Deck unchanged unless "
-        "the surrounding sentence naturally needs a translated explanation."
+def system_prompt(target_language, language_name):
+    style_guidance = LANGUAGE_STYLE_GUIDANCE.get(target_language, "")
+    return " ".join(
+        part
+        for part in [
+            "You are translating a technical user manual for laser show software.",
+            f"Translate natural-language text into {language_name}.",
+            "Use a clear, professional, friendly technical-manual tone.",
+            "Keep the writing direct and practical, not marketing-like.",
+            "Prefer natural native phrasing over literal word-for-word translation.",
+            "Preserve the author's concise, lightly conversational clarity where it fits the target language.",
+            "Use consistent technical terminology throughout the manual.",
+            "Keep exact on-screen UI labels in English when the text refers to labels, buttons, menu items, panels, or settings.",
+            style_guidance,
+            "Return only the translated Markdown document.",
+            "Preserve Markdown structure, heading levels, tables, frontmatter keys, YAML indentation,",
+            "GitBook directives, HTML tags, image paths, Markdown link targets, anchors, file paths,",
+            "code fences, inline code, keyboard shortcuts, UI labels, and product names.",
+            "Keep product and protocol names such as Liberation, APC40, LaserCube, DMX, MIDI, OSC,",
+            "ILDA, DAC, ArtNet, Canvas, Output, 3D Visualiser, Clip, and Clip Deck unchanged unless",
+            "the surrounding sentence naturally needs a translated explanation.",
+        ]
+        if part
     )
 
 
@@ -254,13 +286,13 @@ def user_prompt(relative_path, source_text, retry_errors=None):
     return "\n".join(prompt)
 
 
-def translate_text(provider, model, language_name, relative_path, source_text, retries, max_output_tokens):
+def translate_text(provider, model, target_language, language_name, relative_path, source_text, retries, max_output_tokens):
     translate = openai_translate if provider == "openai" else anthropic_translate
     errors = None
     for attempt in range(1, retries + 2):
         result = strip_wrapper(
             translate(
-                system_prompt(language_name),
+                system_prompt(target_language, language_name),
                 user_prompt(relative_path, source_text, errors),
                 model,
                 max_output_tokens,
@@ -390,6 +422,7 @@ def main():
         translated = translate_text(
             args.provider,
             model,
+            args.target_language,
             language_name,
             rel,
             source.read_text(encoding="utf-8"),
