@@ -13,3 +13,4 @@
 * [Íslenska](is-IS)
 * [Suomi](fi-FI)
 * [Magyar](hu-HU)
+* [Italiano](it-IT)
