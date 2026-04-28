@@ -1,0 +1,346 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/getting-started
+---
+
+# ✅ Quickstartgids
+
+## Inleiding
+
+Welkom bij **Liberation** - de nieuwe generatie lasershowsoftware.
+
+Liberation is krachtige en complexe moderne software. Het is gebouwd op de basisprincipes van gebruiksgemak en betrouwbaarheid, zodat je de vrijheid hebt om je creativiteit te uiten. Het is snel, efficiënt en naadloos in gebruik; volg deze _Quickstartgids_ om in korte tijd aan de slag te gaan!
+
+### Lasers beheren
+
+Liberation is flexibel genoeg om lasers in te stellen en te visualiseren zonder dat er echte lasers zijn aangesloten. En zodra je klaar bent om te starten, kun je elke output naadloos toewijzen aan een lasercontroller.
+
+{% hint style="info" %}
+Je kunt in Liberation zoveel lasers instellen en visualiseren als je wilt. De licentieniveaus (Hobbyist, Pro, enzovoort) beperken alleen het aantal lasers dat je kunt _armen._ Dit betekent dat je zelfs met een gratis licentie lasershows met 100 lasers kunt ontwerpen. Je hoeft pas te upgraden wanneer je de show daadwerkelijk op echte lasers wilt draaien.
+{% endhint %}
+
+Standaard staan er 8 lasers horizontaal verdeeld, maar je kunt dit helemaal naar wens aanpassen. Het is waarschijnlijk het beste om deze standaardinstelling te laten staan terwijl je de software leert kennen. Later kun je dit aanpassen aan je eigen hardware-opstelling. (Zie [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention"))
+
+{% hint style="warning" %}
+Belangrijk: voordat je lasers armt, moet je zorgen dat je de risico's begrijpt en het hoofdstuk [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention") zorgvuldig doorneemt.
+{% endhint %}
+
+## Overzicht van de software
+
+### Veiligheidsuitschakeling
+
+Wanneer je lasers gebruikt, moet je altijd een **hardware-noodstopknop** bij de hand hebben (zie [emergency-stop-interlocks.md](hardware/emergency-stop-interlocks.md "mention")). Als je alles minder dringend wilt disarmen, kun je de knop _**DISARM ALL**_ gebruiken, of de `Escape`-toets (of de _**SESSION**_-toets op de APC40). Je kunt ook de globale helderheid verlagen met de schuifregelaar op het scherm of met de main fader op de APC40.
+
+### Schuifregelaars
+
+In Liberation vind je verschillende schuifregelaars en bedieningselementen.
+
+{% hint style="info" %}
+Klik met `Cmd / Ctrl` ingedrukt op een schuifregelaar om een nieuwe waarde in te typen als je meer controle nodig hebt dan de schuifregelaar biedt.
+{% endhint %}
+
+### Sneltoetsen
+
+Een volledige lijst met sneltoetsen vind je hier: [keyboard-shortcuts.md](reference/keyboard-shortcuts.md "mention")
+
+### Schermindeling
+
+<figure><img src=".gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Weet je niet zeker wat een bepaalde knop doet? Beweeg er met je muis overheen voor een beschrijving!
+{% endhint %}
+
+#### Menu
+
+<figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
+
+In het menu vind je alle opties voor het importeren en exporteren van bestanden, en kun je panels openen. Hier vind je ook de optie om de computer met je abonnement te autoriseren (in _Liberation -> Authorise/Deauthorise this computer_).
+
+#### Icon bar
+
+<figure><img src=".gitbook/assets/icon-bar.png" alt=""><figcaption></figcaption></figure>
+
+Hier vind je veelgebruikte taken, zoals alle lasers armen/disarmen, de global brightness, test pattern, en schakelen tussen de 3D-, Canvas- en Output-weergaven.
+
+### Weergaven
+
+Het grote gebied linksboven in het scherm kan een van 3 hoofdweergaven zijn: **3D**, **CANVAS** en **OUTPUT.** Schakel ertussen met de knoppen in de icon bar (of gebruik de `Tab`-toets om te schakelen tussen de 3D- en OUTPUT-weergaven, en blijf daarna tabben om elke laseroutput één voor één te doorlopen).
+
+<figure><img src=".gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
+
+#### 3D View
+
+<figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
+
+De 3D-weergave laat zien hoe je lasers eruitzien en kan worden ingesteld zodat deze overeenkomt met je eigen laseropstelling. Klik en sleep om de camera te draaien, en gebruik het muiswiel om naar voren en naar achteren te bewegen. Veel andere opties vind je in het panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Zie [3d-visualiser.md](setting-up/3d-visualiser.md "mention").
+
+#### Output View
+
+<figure><img src=".gitbook/assets/qs-view-output.png" alt=""><figcaption></figcaption></figure>
+
+De outputweergave wordt gebruikt om zones en masks voor elke laser te configureren. (Let op het grote nummer linksboven, zodat je makkelijk ziet op welke laser je zit!)
+
+Deze weergave is een representatie van de volledige output van deze laser, en laat zien waar elke zone daarbinnen zit. Standaard is er maar één zone per laser, maar je kunt zoveel zones toevoegen als redelijk praktisch is, en je ziet ze allemaal in deze weergave.
+
+{% hint style="info" %}
+**Wat is een zone?**
+
+Een zone is een ruimte binnen de output van een laser waar je lasercontent naartoe kunt sturen. Je kunt meer dan één zone per laser hebben. Het eenvoudigste type zone is een _beam_-zone, maar er zijn ook _canvas_-zones en _DMX_-zones. In deze gids richten we ons vooral op beam-zones, die meestal worden gebruikt om atmosferische beam-effecten door de lucht te maken.
+{% endhint %}
+
+Je kunt de laser selecteren die je wilt bewerken met:
+
+* de genummerde knoppen in de balk bovenaan
+* de cijfertoets voor de laser die je wilt _(1-9-toetsen)_
+* de `Tab`-toets om van de ene naar de volgende te bladeren
+
+Voeg een nieuwe laser aan de opstelling toe door op de knop _+_ te drukken. (Er is ook een knop _ADD LASER_ in het panel _Laser Overview_)
+
+Verwijder een laser uit de opstelling door op de rode ⊖-knop in het panel _Laser Overview_ te drukken.
+
+Je kunt in- en uitzoomen met het scrollwiel van de muis, en klikken en slepen op elke plek waar geen zone staat om de weergave te verplaatsen.
+
+Klik op een zone om deze te selecteren en pas daarna de hoekpunten aan met de muis. Gebruik de toets `Alt / Option` terwijl je een hoek sleept om de aanpassing niet-uniform te maken. Klik met de rechtermuisknop op de zone voor meer opties, waaronder het wijzigen van het type zone.
+
+Links staat een balk met een reeks pictogramknoppen. Beweeg over een knop om een beschrijving te krijgen van wat deze doet. Met de knoppen hier kun je beam zones, canvas zones en masks toevoegen. Er zijn ook opties om alleen voor deze laser een test pattern in te stellen, samen met instellingen voor grid en snapping.
+
+Zie voor meer details [output-view](output-view/ "mention").
+
+#### Canvas
+
+Het Canvas-systeem wordt vooral gebruikt voor graphics en architectural mapping. Je kunt complexe afbeeldingen over meerdere lasers verdelen en elk deel perspectief-corrigeren. Zie [graphics-and-the-canvas-system](graphics-and-the-canvas-system/ "mention").
+
+### APC40 MIDI-controller
+
+<figure><img src=".gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
+
+Hoewel het mogelijk is om Liberation met muis en toetsenbord te bedienen, is het veel beter om een APC40 MIDI-control interface te gebruiken (Mark 2 is het beste, maar Mark 1 werkt ook).
+
+Zie ook: [apc40-reference.md](reference/apc40-reference.md "mention")
+
+We hebben nu ook ondersteuning toegevoegd voor APC Mini Mark 2 en de MIDI Fighter Twister, en er zijn meer controllers in ontwikkeling. Maar de APC40 Mark 2 is voor de meeste situaties de beste optie.
+
+### Clips en effects
+
+{% hint style="info" %}
+**Wat is een clip?**
+
+Een clip is een container voor alle lasercontent binnen Liberation. Clips kunnen beams of grafische animaties bevatten en zijn meestal een herhalende cyclus. Ze kunnen naar elke zone (of _Canvas target area_) worden gestuurd en worden getriggerd met de clip buttons in het clip deck.
+{% endhint %}
+
+#### Overzicht van het clip deck
+
+<figure><img src=".gitbook/assets/qs-clipdeck.png" alt=""><figcaption></figcaption></figure>
+
+Dit raster staat bekend als het _clip deck_ en is de plek waar alle laserclips worden opgeslagen. Het is ontworpen om direct overeen te komen met het 8 x 5-raster van knoppen op je APC40.
+
+**Door het clip deck navigeren.**
+
+Je kunt het clip deck naar links en rechts scrollen met:
+
+* Linker- en rechterpijltjestoets. Voeg `Cmd / Ctrl` toe om steeds een volledige pagina te scrollen.
+* Trackpad: veeg
+* Muis: als je muis zijwaarts kan scrollen, kun je dat gebruiken terwijl je boven het clip deck hovert
+* APC40 scroll knob
+* APC40 _<- DEVICE ->_-knoppen
+
+Om je te helpen oriënteren, staat er bovenaan een mini-visualiser van het clip deck. Zie ook [clips](clips/ "mention")
+
+#### Clips starten en stoppen
+
+Druk op een clip button (met de muis of met de APC40) om een clip te starten. Druk er nogmaals op om de clip te stoppen. Wanneer je een clip start, stoppen alle andere clips met dezelfde kleur automatisch, tenzij je _shift_ ingedrukt houdt.
+
+Sommige clips staan in _Flash mode_ (standaard de rode clips). In dat geval stoppen ze zodra je de clip button loslaat.
+
+De knop _STOP_ stopt alle clips die op dat moment draaien.
+
+#### Output zones voor de clip instellen
+
+Onder de clip buttons zie je de zone buttons, standaard beam zones 1 tot en met 8 (_BEAM 1_, _BEAM 2_, enzovoort). De zone buttons lichten op om aan te geven welke zones aan de momenteel geselecteerde clip zijn toegewezen.
+
+<figure><img src=".gitbook/assets/qs-zone-buttons.png" alt=""><figcaption></figcaption></figure>
+
+Twee rijen onder de zone buttons zie je de X/Y flip buttons. Schakel deze in of uit om de clip horizontaal en verticaal te spiegelen.
+
+{% hint style="info" %}
+Let op: deze zonetoewijzingen en X/Y flip-instellingen zijn gekoppeld aan de clip zelf; ze blijven behouden wanneer je die clip de volgende keer start. Het is geen globale instelling.
+{% endhint %}
+
+Klik met de rechtermuisknop op een clip om meer instellingen voor de clip te bewerken. Zie ook [clip-settings.md](clips/clip-settings.md "mention")
+
+### Groepen
+
+Je zult merken dat elke clip een gekleurde rand heeft, en deze kleur geeft aan in welke _group_ de clip zit. De clip buttons op de APC40 lichten ook in deze kleur op.
+
+<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Cyaan</td></tr><tr><td>Group 2</td><td>Oranje</td></tr><tr><td>Group 3</td><td>Rood</td></tr><tr><td>Group 4</td><td>Indigo</td></tr><tr><td>Group 5</td><td>Groen</td></tr></tbody></table>
+
+Het group-systeem is heel flexibel en stelt je in staat om:
+
+* Clips in één group door te laten lopen terwijl je clips in een andere group toggelt
+* Snel zones en X/Y flips toe te wijzen aan alle clips binnen een group
+* _Flash mode_ voor een clip in te stellen (Group 3 staat standaard op _Flash mode_)
+
+Groups hebben ook instellingen voor transition in/out die door de clips kunnen worden overgenomen of overschreven.
+
+Je kunt de group van de clip toewijzen met de knoppen in het rechtermuisknopmenu. Met de APC40 kun je ook op de group button drukken en _terwijl je deze ingedrukt houdt_ op de clip buttons drukken.
+
+Zone-instellingen wijzigen voor alle clips binnen een group
+
+Gebruik de APC40: druk op de group button en gebruik daarna, _terwijl deze nog ingedrukt is_, de zone- en X/Y buttons om zone-instellingen voor alle clips binnen die group te toggelen.
+
+Zie ook [groups.md](clips/groups.md "mention")
+
+### Effects
+
+Het effects-systeem in Liberation is een krachtige en veelzijdige manier om de clip output in realtime te veranderen. De standaard effect buttons 1-8 staan onder de zone buttons.
+
+#### Een effect toepassen
+
+Druk op een effect button om het effect te toggelen, of nog beter: gebruik de APC40-sliders 1-8 om effects in en uit te faden.
+
+#### Effect parameters
+
+Gebruik rotary controllers 1-8\* om de _parameter_ voor elk effect aan te passen. (Je kunt ook met de rechtermuisknop klikken om level en parameter aan te passen). De parameterwijziging doet verschillende dingen, afhankelijk van hoe het effect is ingesteld. Zie de lijst hieronder voor de standaard effects.
+
+{% hint style="info" %}
+De kleine getallen die je op de effect buttons ziet, verwijzen naar het _level_ en de _parameter_ van het effect. Het _level_ wordt geregeld met de fader op de APC40, of je kunt op de knop klikken en slepen. De parameter wordt aangepast met de rotaries op de APC40, of je kunt met de rechtermuisknop aanpassen met de muis.
+{% endhint %}
+
+_\*Rotary controllers 1-8 zitten bovenaan op een APC40 Mk2 en rechtsboven op de Mk1. Zie ook:_ [apc40-reference.md](reference/apc40-reference.md "mention")
+
+#### De standaard effects
+
+<figure><img src=".gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
+
+1. **Randomiser** :\
+   Past een chaotische beweging toe op de clip output. De parameter past de hoeveelheid/snelheid van de chaos aan.
+2. **Sine wave** :\
+   Vervormt alle content over een bewegende sinusgolf. De parameter past de golflengte aan.
+3. **Rotation** :\
+   Laat alles ronddraaien. De parameter past de draaisnelheid aan.
+4. **Horizontal flip** :\
+   Knijpt en rekt alles horizontaal. De parameter past de snelheid aan.
+5. **Scale** :\
+   Schaalt alles herhaaldelijk van volledig naar nul. De parameter past de snelheid aan.
+6. **Hue** :\
+   Verandert de hue van alles, maar verandert de saturation niet (dus alles wat wit is, blijft wit). De parameter past de hue aan.
+7. **Saturation and hue** :\
+   Verandert de hue van alles en verzadigt de kleur ook volledig (dus alles wat wit is, verandert naar de kleur). De parameter past de hue aan.
+8. **Flash** :\
+   Laat de brightness van alles herhaaldelijk flitsen van volledig naar nul. De parameter past de flash-snelheid aan.
+
+<figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
+
+Er zijn nog 16 kleur-effects langs de onderste rij om vooraf ingestelde hue- en saturation-waarden toe te passen.
+
+Let op: dit zijn de standaard effects, maar ze kunnen worden bewerkt om bijna alles te doen wat je wilt!
+
+#### Wat is de _"currently selected clip"_?
+
+Wanneer je een clip start, licht deze op om aan te geven dat de clip actief is. De clip heeft ook een witte rand eromheen, wat aangeeft dat dit de momenteel _geselecteerde_ clip is. Wanneer je zone buttons toggelt of clip settings aanpast, worden deze toegepast op de _currently selected clip._
+
+{% hint style="info" %}
+Om een clip te selecteren zonder deze te triggeren, druk je op de toets `Alt / Option` voordat je op de clip button drukt. Dit is een goede manier om de zones en andere instellingen aan te passen zonder de clip te starten.
+{% endhint %}
+
+### Clip settings panel
+
+Gebruik het panel _Clip Settings_ om scaling, X/Y position en het krachtige zone delay-systeem te bewerken.
+
+<figure><img src=".gitbook/assets/qs-clip-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
+
+### Global settings panel
+
+Gebruik het panel _Global Settings_ om globale output-instellingen aan te passen die invloed hebben op alle output in alle zones.
+
+<figure><img src=".gitbook/assets/qs-global-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
+
+Zet AUTO RESET aan om alle _Global settings_ automatisch te resetten wanneer er geen clips worden afgespeeld.
+
+### Timing
+
+Bijna alle lasershows hebben een soort muzikale soundtrack, dus het timing-systeem in Liberation is gebaseerd op een tempo in beats per minute. In het _Tempo Panel_ zie je een representatie van de tijd; elk vierkant staat voor een beat en je ziet ze op de maat knipperen.
+
+<figure><img src=".gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
+
+Er zijn meerdere synchronisatie-opties, waaronder MIDI clock en Ableton Link. Als je het tempo van de muziek kent, kun je dit handmatig aanpassen met de schuifregelaar op het scherm of met de APC40 Tempo knob, maar je kunt ook met de muziek in de maat blijven met het _Tap Tempo_-systeem\_.\_
+
+#### Tap Tempo
+
+_Tap Tempo_ is een term die vaak wordt gebruikt in muziekapps. Hiermee kun je op de maat meetikken om het tempo in te stellen terwijl de muziek speelt. Je kunt de knop op het scherm gebruiken, maar het is aanbevolen om de _T_-toets of de _Tap Tempo_-knop op de APC40 te gebruiken (of zelfs een voetschakelaar als je dat prettig vindt).
+
+Druk op de _R_-toets of op de _Metronome_-knop (APC40) om het tempo te resetten naar het begin van de maat.
+
+Druk op de _Y_-toets of draai aan de _Tempo_-knop (APC40) om het tempo af te ronden op een heel getal. Dit kan handig zijn voor elektronische muziek, die vaak een rond aantal beats per minute heeft.
+
+### Je clip deck organiseren
+
+Om een clip op je clip deck te verplaatsen, klik en sleep je deze naar een nieuwe positie. Tijdens het slepen kun je de cursortoetsen gebruiken (of het scrollwiel/de knoppen op je APC40) om naar links en rechts te scrollen.
+
+Druk op de toets `Alt / Option` terwijl je sleept om een kopie te maken.
+
+Klik met `Alt / Option` ingedrukt op een clip om deze te selecteren zonder de clip te starten.
+
+Klik met `Alt / Option + Shift` ingedrukt op een clip om meerdere clips te selecteren, of klik en sleep buiten een clip om met een "lasso" te selecteren.
+
+Met klikken en slepen sleep je ALLE geselecteerde clips.
+
+Om één of meer clips te verwijderen, sleep je ze van het clip deck af (er verschijnt een prullenbakpictogram) of gebruik je de knop DELETE in het rechtermuisknopmenu van de clip.
+
+### Laser overview panel
+
+<figure><img src=".gitbook/assets/qs-laser-overview.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Het panel _Laser overview panel_ geeft je snel inzicht in de status van je lasers die op dat moment draaien. Het groene vierkant rechts laat zien dat de lasercontroller goed werkt. Als het oranje wordt, heb je af en toe drop-outs, en als het rood is, is de controller losgekoppeld. Als het grijs is, is deze helemaal niet met een controller verbonden.
+
+De grafiek in het midden is een geschiedenis van frame lengths, en het getal rechts is de huidige frame rate. Hoe complexer de content, hoe lager de frame rate wordt (dus hoe meer flicker). Alles onder ongeveer 25 fps begint er wat flickery uit te zien.
+
+### Verbinden met lasers - Controller Assignment panel
+
+Klik op de knop _Assign Laser Controllers_ om het panel _Controller Assignment_ te openen. (Dit panel is ook bereikbaar via _View -> Controller Assignment_ in de menubalk).
+
+Hier kun je kiezen welke laseroutputs naar welke lasercontrollers gaan. Sleep controllers uit de lijst rechts naar slots links. Je kunt je controllers een andere naam geven zodat ze overeenkomen met de laser waaraan ze gekoppeld zijn (gebruik de knop met het penpictogram).
+
+Lees het hoofdstuk [controller-assignment.md](setting-up/controller-assignment.md "mention") voor meer details.
+
+{% hint style="danger" %}
+Voordat je lasers armt, moet je eerst het hoofdstuk [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention") doornemen.
+{% endhint %}
+
+### Laser output panel
+
+<figure><img src=".gitbook/assets/qs-laser-settings.png" alt="" width="375"><figcaption></figcaption></figure>
+
+Dit panel toont de instellingen voor de _currently selected laser_ (weergegeven door het nummer bovenaan). Wijzig welke laser momenteel is geselecteerd met de _tab_-toets, door op een cijfertoets te drukken, door op een lasernummer te klikken in het panel _Laser Overview_ of in de _output view._
+
+* **Number button** armt en disarmt de laser; als deze rood is, is de laser armed.
+* **Brightness** past de laserhelderheid aan, onafhankelijk van de andere lasers (en wordt gecombineerd met de instelling _global brightness_ - dus als ze allebei op 50% staan, staat je laser op 25%).
+* **Test Pattern** zet alleen voor deze laser een test pattern aan (overschrijft de global test pattern-instelling)
+* **Orientation** corrigeert voor lasers die zijwaarts of ondersteboven zijn opgehangen.
+* **Flip Horizontal and Flip Vertical** keert de output van de laser om. Handig voor outputcorrectie bij lasers die inconsistent zijn bedraad.
+* **Copy Laser Settings** opent een panel waarmee je verschillende instellingen van deze laser naar andere lasers kunt kopiëren.
+
+### Scanner settings
+
+Displaylasers werken door één laserstraal extreem snel te bewegen en aan en uit te schakelen om vormen in de lucht te tekenen. Wat je ziet als lijnen, vormen en afbeeldingen, is in werkelijkheid de straal die paden volgt sneller dan je ogen kunnen bijhouden.
+
+Een point stream is de data die de laser vertelt waar deze naartoe moet bewegen en wanneer de straal aan of uit moet zijn. In Liberation worden clips realtime omgezet naar deze point stream terwijl ze naar de lasers worden gestuurd.
+
+Liberation geeft je gedetailleerde controle over hoe deze point stream wordt gegenereerd, zodat je voor elke laser een balans kunt vinden tussen soepelheid, helderheid en performance.
+
+{% hint style="info" %}
+Als je gewend bent aan oudere lasersoftware die afhankelijk is van vooraf berekende point streams, kan deze aanpak in het begin anders aanvoelen. Realtime point generation maakt het echter mogelijk om dezelfde content per laser anders te optimaliseren. Dit maakt het makkelijker om met meerdere lasers te werken die verschillende scannersnelheden of kwaliteitsniveaus hebben, zonder content te dupliceren of opnieuw op te bouwen. Het houdt clipbestanden ook erg klein. Daarom is het volledige standaard clip deck van Liberation maar een paar megabyte in plaats van gigabytes.
+{% endhint %}
+
+De basisinstellingen voor scanners zijn:
+
+* **Speed** is de scannersnelheid, dus hoe snel de laser beweegt om vormen te tekenen. Dit is vergelijkbaar met het aanpassen van de point rate in traditionele lasersoftware, maar in Liberation kun je wijzigen hoe snel de laser beweegt _onafhankelijk van de point rate._ Normaal hoef je dit niet aan te passen.
+* **Scanner sync** (soms bekend als _blank shift, previously Colour Shift_) De scanners bewegen de laser heel snel, maar meestal loopt de verandering in helderheid en kleur niet synchroon met de beweging. Dit zie je als kleine flikkerende "staarten" van licht aan de rand van beams en lijnen. Gebruik deze instelling om beweging en kleur met elkaar te synchroniseren. Zie [laser-settings.md](setting-up/laser-settings.md "mention")
+
+De andere geavanceerde scanner settings worden behandeld in het hoofdstuk [advanced](advanced/ "mention").
+
+### Zoning
+
+Voor een volledige gids over het instellen en zonen van lasers, zie: [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention")
