@@ -24,10 +24,33 @@
     return rootPath() + "/gitbook/honkit-plugin-liberation/liberation-logo.png";
   }
 
-  function siteUrl(path) {
-    var base = rootPath().replace(/\/$/, "");
+  function siteBasePath(meta) {
+    var language = meta && meta.currentLanguage;
+    var pathname = window.location.pathname || "/";
+
+    if (language) {
+      var marker = "/" + language + "/";
+      var index = pathname.indexOf(marker);
+      if (index !== -1) return pathname.slice(0, index);
+
+      marker = "/" + language;
+      if (pathname.slice(-marker.length) === marker) {
+        return pathname.slice(0, -marker.length);
+      }
+    }
+
+    try {
+      var scriptBase = new URL(rootPath(), window.location.href);
+      return scriptBase.pathname.replace(/\/$/, "");
+    } catch (error) {
+      return "";
+    }
+  }
+
+  function siteUrl(path, meta) {
+    var base = siteBasePath(meta).replace(/\/$/, "");
     path = String(path || "").replace(/^\/+/, "");
-    return path ? base + "/" + path : base + "/";
+    return path ? (base || "") + "/" + path : (base || "") + "/";
   }
 
   function iconSearch() {
@@ -146,7 +169,7 @@
     var select = switcher.querySelector(".lib-language-select");
     select.innerHTML = meta.languages.map(function(language) {
       var selected = language.id === meta.currentLanguage ? " selected" : "";
-      return '<option value="' + escapeHtml(siteUrl(language.targetPath)) + '"' + selected + ">" +
+      return '<option value="' + escapeHtml(siteUrl(language.targetPath, meta)) + '"' + selected + ">" +
         escapeHtml(language.title) +
         "</option>";
     }).join("");
