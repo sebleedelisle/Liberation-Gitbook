@@ -24,6 +24,12 @@
     return rootPath() + "/gitbook/honkit-plugin-liberation/liberation-logo.png";
   }
 
+  function siteUrl(path) {
+    var base = rootPath().replace(/\/$/, "");
+    path = String(path || "").replace(/^\/+/, "");
+    return path ? base + "/" + path : base + "/";
+  }
+
   function iconSearch() {
     return '<span class="lib-search-icon" aria-hidden="true"></span>';
   }
@@ -130,8 +136,31 @@
     setMobileSidebar(false);
   }
 
+  function updateLanguageSwitcher(header, meta) {
+    var switcher = header.querySelector(".lib-language-switcher");
+    if (!switcher || !meta || !Array.isArray(meta.languages) || meta.languages.length < 2) {
+      if (switcher) switcher.hidden = true;
+      return;
+    }
+
+    var select = switcher.querySelector(".lib-language-select");
+    select.innerHTML = meta.languages.map(function(language) {
+      var selected = language.id === meta.currentLanguage ? " selected" : "";
+      return '<option value="' + escapeHtml(siteUrl(language.targetPath)) + '"' + selected + ">" +
+        escapeHtml(language.title) +
+        "</option>";
+    }).join("");
+
+    switcher.hidden = false;
+  }
+
   function ensureHeader() {
-    if (document.querySelector(".lib-site-header")) return;
+    var existingHeader = document.querySelector(".lib-site-header");
+    var meta = parseMeta();
+    if (existingHeader) {
+      updateLanguageSwitcher(existingHeader, meta);
+      return;
+    }
 
     var header = document.createElement("header");
     header.className = "lib-site-header";
@@ -144,6 +173,10 @@
       '<span>Liberation User Manual</span>',
       "</a>",
       '<div class="lib-header-spacer"></div>',
+      '<label class="lib-language-switcher" hidden>',
+      '<span class="lib-language-label">Language</span>',
+      '<select class="lib-language-select" aria-label="Language"></select>',
+      "</label>",
       '<button class="lib-search-button" type="button">',
       iconSearch(),
       '<span class="lib-search-label">Search...</span>',
@@ -169,6 +202,10 @@
     });
 
     header.querySelector(".lib-search-button").addEventListener("click", openSearch);
+    header.querySelector(".lib-language-select").addEventListener("change", function(event) {
+      if (event.target.value) window.location.href = event.target.value;
+    });
+    updateLanguageSwitcher(header, meta);
 
     var summary = document.querySelector(".book-summary");
     if (summary) {

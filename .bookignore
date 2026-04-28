@@ -1,0 +1,8 @@
+.bookignore
+.gitignore
+.mlc.config.json
+.github/
+package.json
+package-lock.json
+plugins/
+scripts/

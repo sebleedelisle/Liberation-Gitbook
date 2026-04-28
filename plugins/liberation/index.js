@@ -29,7 +29,8 @@ var STYLE_ICONS = {
 
 var lastUpdatedCache = {};
 var branchCache;
-var summaryCache;
+var languagesCache;
+var summaryCache = {};
 var outputTitleCache;
 
 function escapeHtml(value) {
@@ -42,6 +43,50 @@ function escapeHtml(value) {
 
 function escapeJsonForScript(value) {
   return JSON.stringify(value).replace(/</g, "\\u003c");
+}
+
+function getYouTubeEmbedUrl(url) {
+  try {
+    var parsed = new URL(url);
+    var host = parsed.hostname.replace(/^www\./, "");
+    var id = "";
+    var pathParts = parsed.pathname.split("/").filter(Boolean);
+
+    if (host === "youtu.be") {
+      id = pathParts[0] || "";
+    } else if (host === "youtube.com" || host === "m.youtube.com") {
+      if (pathParts[0] === "watch") {
+        id = parsed.searchParams.get("v") || "";
+      } else if (pathParts[0] === "embed" || pathParts[0] === "shorts") {
+        id = pathParts[1] || "";
+      }
+    }
+
+    if (/^[A-Za-z0-9_-]{6,}$/.test(id)) {
+      return "https://www.youtube-nocookie.com/embed/" + encodeURIComponent(id);
+    }
+  } catch (error) {
+    return "";
+  }
+
+  return "";
+}
+
+function renderEmbed(url) {
+  url = String(url || "").trim();
+  if (!url) return "";
+
+  var youtubeUrl = getYouTubeEmbedUrl(url);
+  if (youtubeUrl) {
+    return [
+      '<div class="lib-embed">',
+      '<iframe src="' + escapeHtml(youtubeUrl) + '" title="Embedded video" loading="lazy" allowfullscreen ',
+      'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>',
+      "</div>"
+    ].join("");
+  }
+
+  return '<p class="lib-embed-link"><a href="' + escapeHtml(url) + '">' + escapeHtml(url) + "</a></p>";
 }
 
 function getConfigValue(config, key, fallback) {
@@ -78,13 +123,20 @@ function getBranch(config) {
 function getLastUpdated(path) {
   if (!path) return "";
   if (lastUpdatedCache[path] !== undefined) return lastUpdatedCache[path];
-  lastUpdatedCache[path] = git(["log", "-1", "--format=%cI", "--", path]);
+  lastUpdatedCache[path] = git(["log", "--follow", "-1", "--format=%cI", "--", path]);
   return lastUpdatedCache[path];
 }
 
 function buildEditUrl(repo, branch, path) {
   if (!repo || !path) return "";
-  return repo.replace(/\/$/, "") + "/edit/" + encodeURIComponent(branch) + "/" + path;
+  return repo.replace(/\/$/, "") + "/edit/" + encodeUrlPath(branch) + "/" + encodeUrlPath(path);
+}
+
+function encodeUrlPath(value) {
+  return String(value || "")
+    .split("/")
+    .map(encodeURIComponent)
+    .join("/");
 }
 
 function normalizeDocPath(value) {
@@ -94,10 +146,91 @@ function normalizeDocPath(value) {
     .split("#")[0];
 }
 
-function getSummary() {
-  if (summaryCache) return summaryCache;
+function getLanguages() {
+  if (languagesCache) return languagesCache;
 
-  var summaryPath = posixPath.join(process.cwd().replace(/\\/g, "/"), "SUMMARY.md");
+  var langsPath = path.join(process.cwd(), "LANGS.md");
+  var languages = [];
+
+  try {
+    fs.readFileSync(langsPath, "utf8").split(/\r?\n/).forEach(function(line) {
+      var match = line.match(/\[([^\]]+)\]\(([^)]+)\)/);
+      if (!match) return;
+
+      var root = normalizeDocPath(match[2]).replace(/\/+$/, "");
+      if (root && fs.existsSync(path.join(process.cwd(), root, "SUMMARY.md"))) {
+        languages.push({
+          id: root,
+          title: match[1]
+        });
+      }
+    });
+  } catch (error) {
+    languages = [];
+  }
+
+  if (languages.length === 0 && fs.existsSync(path.join(process.cwd(), "SUMMARY.md"))) {
+    languages.push({
+      id: "",
+      title: "English"
+    });
+  }
+
+  languagesCache = languages;
+  return languagesCache;
+}
+
+function getLanguageRoots() {
+  return getLanguages().map(function(language) {
+    return language.id;
+  });
+}
+
+function getDefaultLanguageRoot() {
+  var languages = getLanguages();
+  return languages.length ? languages[0].id : "";
+}
+
+function getLanguageRoot(config) {
+  var language = getConfigValue(config, "language", "");
+  if (language && fs.existsSync(path.join(process.cwd(), language, "SUMMARY.md"))) {
+    return language;
+  }
+  return "";
+}
+
+function sourcePathForRepo(languageRoot, sourcePath) {
+  sourcePath = normalizeDocPath(sourcePath);
+  return languageRoot ? posixPath.join(languageRoot, sourcePath) : sourcePath;
+}
+
+function languageOutputPath(languageRoot, sourcePath) {
+  return sourcePathForRepo(languageRoot, markdownToOutputPath(sourcePath));
+}
+
+function languageHasSourcePath(languageRoot, sourcePath) {
+  return fs.existsSync(path.join(process.cwd(), languageRoot || "", normalizeDocPath(sourcePath)));
+}
+
+function languageTargets(sourcePath) {
+  return getLanguages().map(function(language) {
+    var targetPath = languageHasSourcePath(language.id, sourcePath)
+      ? languageOutputPath(language.id, sourcePath)
+      : (language.id ? language.id + "/index.html" : "index.html");
+
+    return {
+      id: language.id,
+      title: language.title,
+      targetPath: targetPath
+    };
+  });
+}
+
+function getSummary(languageRoot) {
+  var cacheKey = languageRoot || ".";
+  if (summaryCache[cacheKey]) return summaryCache[cacheKey];
+
+  var summaryPath = path.join(process.cwd(), languageRoot || "", "SUMMARY.md");
   var summary = {
     nodesByPath: {}
   };
@@ -129,8 +262,8 @@ function getSummary() {
   }
 
   delete summary.stack;
-  summaryCache = summary;
-  return summaryCache;
+  summaryCache[cacheKey] = summary;
+  return summaryCache[cacheKey];
 }
 
 function markdownToOutputPath(docPath) {
@@ -210,19 +343,22 @@ function getOutputTitleMap() {
   if (outputTitleCache) return outputTitleCache;
 
   var map = {};
-  var nodes = getSummary().nodesByPath;
-  Object.keys(nodes).forEach(function(sourcePath) {
-    var title = cleanTitle(nodes[sourcePath].title);
-    var outputPath = markdownToOutputPath(sourcePath);
-    map[outputPath] = title;
+  getLanguageRoots().forEach(function(languageRoot) {
+    var nodes = getSummary(languageRoot).nodesByPath;
 
-    if (/\/index\.html$/i.test(outputPath)) {
-      map[outputPath.replace(/index\.html$/i, "")] = title;
-      map[outputPath.replace(/\/index\.html$/i, "")] = title;
-    } else if (outputPath === "index.html") {
-      map[""] = title;
-      map["."] = title;
-    }
+    Object.keys(nodes).forEach(function(sourcePath) {
+      var title = cleanTitle(nodes[sourcePath].title);
+      var outputPath = sourcePathForRepo(languageRoot, markdownToOutputPath(sourcePath));
+      map[outputPath] = title;
+
+      if (/\/index\.html$/i.test(outputPath)) {
+        map[outputPath.replace(/index\.html$/i, "")] = title;
+        map[outputPath.replace(/\/index\.html$/i, "")] = title;
+      } else if (outputPath === "index.html") {
+        map[""] = title;
+        map["."] = title;
+      }
+    });
   });
 
   outputTitleCache = map;
@@ -342,6 +478,34 @@ function cleanGeneratedHtml(context) {
   });
 }
 
+function writeDefaultLanguageIndex(context) {
+  if (!context.output || context.output.name !== "website") return;
+
+  var root = context.output.root();
+  var defaultLanguageRoot = getDefaultLanguageRoot();
+  if (!defaultLanguageRoot) return;
+
+  var href = defaultLanguageRoot.replace(/\/+$/, "") + "/";
+  var indexPath = path.join(root, "index.html");
+  if (!fs.existsSync(path.join(root, defaultLanguageRoot, "index.html"))) return;
+
+  fs.writeFileSync(indexPath, [
+    "<!doctype html>",
+    '<html lang="en">',
+    "<head>",
+    '<meta charset="utf-8">',
+    '<meta name="viewport" content="width=device-width, initial-scale=1">',
+    '<meta http-equiv="refresh" content="0; url=' + escapeHtml(href) + '">',
+    '<title>Liberation User Manual</title>',
+    '<script>window.location.replace(' + escapeJsonForScript(href) + ');</script>',
+    "</head>",
+    "<body>",
+    '<p><a href="' + escapeHtml(href) + '">Open the English manual</a></p>',
+    "</body>",
+    "</html>"
+  ].join("\n"));
+}
+
 function injectPageDescription(content, description) {
   if (!description || /class="lib-page-description"/.test(content)) return content;
 
@@ -353,8 +517,8 @@ function injectPageDescription(content, description) {
   return descriptionHtml + content;
 }
 
-function renderChildPages(sourcePath) {
-  var node = getSummary().nodesByPath[normalizeDocPath(sourcePath)];
+function renderChildPages(sourcePath, languageRoot) {
+  var node = getSummary(languageRoot).nodesByPath[normalizeDocPath(sourcePath)];
   if (!node || !node.children || node.children.length === 0) return "";
 
   var links = node.children.map(function(child) {
@@ -398,6 +562,11 @@ module.exports = {
           ].join("");
         });
       }
+    },
+    embed: {
+      process: function(block) {
+        return renderEmbed(block.kwargs.url || block.body);
+      }
     }
   },
 
@@ -406,13 +575,18 @@ module.exports = {
       var config = getPluginConfig(this);
       var repo = getConfigValue(config, "repo", "");
       var branch = getBranch(config);
+      var languageRoot = getLanguageRoot(this.config);
       var sourcePath = page.path || "";
+      var repoPath = sourcePathForRepo(languageRoot, sourcePath);
       var title = cleanTitle(page.title || "");
       var metadata = {
-        sourcePath: sourcePath,
-        editUrl: buildEditUrl(repo, branch, sourcePath),
-        lastUpdated: getLastUpdated(sourcePath),
-        title: title
+        sourcePath: repoPath,
+        editUrl: buildEditUrl(repo, branch, repoPath),
+        lastUpdated: getLastUpdated(repoPath) || (languageRoot === "en-GB" ? getLastUpdated(sourcePath) : ""),
+        title: title,
+        currentLanguage: languageRoot,
+        defaultLanguage: getDefaultLanguageRoot(),
+        languages: languageTargets(sourcePath)
       };
 
       page.title = title;
@@ -423,7 +597,7 @@ module.exports = {
 
       page.content = '<div data-pagefind-body class="lib-page-content">' +
         injectPageDescription(page.content, page.description) +
-        renderChildPages(sourcePath) +
+        renderChildPages(sourcePath, languageRoot) +
         "</div>" +
         pageMeta;
 
@@ -432,6 +606,7 @@ module.exports = {
 
     finish: function() {
       cleanGeneratedHtml(this);
+      writeDefaultLanguageIndex(this);
     }
   }
 };
