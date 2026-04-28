@@ -506,6 +506,55 @@ function writeDefaultLanguageIndex(context) {
   ].join("\n"));
 }
 
+function renderRedirectPage(href, title) {
+  var escapedHref = escapeHtml(href);
+  var escapedTitle = escapeHtml(title || "Liberation User Manual");
+
+  return [
+    "<!doctype html>",
+    '<html lang="en">',
+    "<head>",
+    '<meta charset="utf-8">',
+    '<meta name="viewport" content="width=device-width, initial-scale=1">',
+    '<meta name="robots" content="noindex">',
+    '<meta http-equiv="refresh" content="0; url=' + escapedHref + '">',
+    '<link rel="canonical" href="' + escapedHref + '">',
+    "<title>" + escapedTitle + "</title>",
+    "<script>",
+    "var target = " + escapeJsonForScript(href) + " + window.location.search + window.location.hash;",
+    "window.location.replace(target);",
+    "</script>",
+    "</head>",
+    "<body>",
+    '<p><a href="' + escapedHref + '">' + escapedTitle + "</a></p>",
+    "</body>",
+    "</html>"
+  ].join("\n");
+}
+
+function writeLegacyEnglishRedirects(context) {
+  if (!context.output || context.output.name !== "website") return;
+
+  var root = context.output.root();
+  var defaultLanguageRoot = getDefaultLanguageRoot();
+  if (!defaultLanguageRoot) return;
+
+  var languageOutputRoot = path.join(root, defaultLanguageRoot);
+  if (!fs.existsSync(languageOutputRoot)) return;
+
+  walkHtmlFiles(languageOutputRoot).forEach(function(file) {
+    var rel = path.relative(languageOutputRoot, file).replace(/\\/g, "/");
+    if (!rel || rel === "index.html") return;
+
+    var legacyPath = path.join(root, rel);
+    var href = path.relative(path.dirname(legacyPath), file).replace(/\\/g, "/") || "index.html";
+    var title = getOutputTitleMap()[posixPath.join(defaultLanguageRoot, rel)] || "Liberation User Manual";
+
+    fs.mkdirSync(path.dirname(legacyPath), { recursive: true });
+    fs.writeFileSync(legacyPath, renderRedirectPage(href, title));
+  });
+}
+
 function injectPageDescription(content, description) {
   if (!description || /class="lib-page-description"/.test(content)) return content;
 
@@ -607,6 +656,7 @@ module.exports = {
     finish: function() {
       cleanGeneratedHtml(this);
       writeDefaultLanguageIndex(this);
+      writeLegacyEnglishRedirects(this);
     }
   }
 };
