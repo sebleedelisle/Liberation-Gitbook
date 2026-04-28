@@ -11,3 +11,4 @@
 * [Svenska](sv-SE)
 * [日本語](ja-JP)
 * [Íslenska](is-IS)
+* [Suomi](fi-FI)
