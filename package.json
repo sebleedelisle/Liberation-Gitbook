@@ -15,6 +15,7 @@
     "serve:honkit": "honkit serve",
     "preview": "python3 -m http.server 4000 --directory _book",
     "check:links": "python3 scripts/check_links.py",
+    "check:translations": "python3 scripts/check_translations.py",
     "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 -S node_modules,_book || python3 -m codespell -q 3 -S node_modules,_book"
   }
 }
