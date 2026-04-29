@@ -22,7 +22,7 @@ Hér er yfirlit yfir ferlið:
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Stilltu zones:**\
-    Í _OUTPUT_ view geturðu yfirfarið zones. Flettu á milli leysitækja með Tab eða smelltu á einn af tölusettu hnöppunum efst í view. Stilltu hverja zone eftir þörfum, eða bættu jafnvel við nýjum zones. Sjá [Output view](../output-view/).
+    Í _OUTPUT_ view geturðu yfirfarið zones. Flettu á milli leysitækja með Tab eða smelltu á einn af tölusettu hnöppunum efst í view. Stilltu hverja zone eftir þörfum, eða bættu jafnvel við nýjum zones. Sjá [Output-sýn](../output-view/).
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Breyttu zones fyrir hvert Clip:**\

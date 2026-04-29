@@ -22,11 +22,11 @@ Liberation を初めて開くと、デフォルト設定で起動します。た
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **ゾーンを調整します：**\
-    _OUTPUT_ ビューでゾーンを確認できます。Tab キーで各レーザーを順に切り替えるか、ビュー上部の番号付きボタンをクリックします。必要に応じて各ゾーンを調整し、新しいゾーンを追加することもできます。[Output view](../output-view/) を参照してください。
+    _OUTPUT_ ビューでゾーンを確認できます。Tab キーで各レーザーを順に切り替えるか、ビュー上部の番号付きボタンをクリックします。必要に応じて各ゾーンを調整し、新しいゾーンを追加することもできます。[Outputビュー](../output-view/) を参照してください。
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **各 Clip のゾーンを変更します：**\
-    各 Clip のボタンをクリックしてトリガーし、画面上のボタンでゾーンと X / Y 反転を切り替えます。[Clips & Clip deck](../clips/) を参照してください。
+    各 Clip のボタンをクリックしてトリガーし、画面上のボタンでゾーンと X / Y 反転を切り替えます。[Clips と Clip Deck](../clips/) を参照してください。
 
     \\
 

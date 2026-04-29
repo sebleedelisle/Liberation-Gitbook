@@ -146,7 +146,7 @@ Du kan scrolle clip deck til venstre og højre på disse måder:
 * APC40 scroll-knap
 * APC40 _<- DEVICE ->_-knapper
 
-For at hjælpe dig med at orientere dig er der en mini-visualisering af clip deck langs toppen. Se også [Clips & Clip deck](clips/ "mention")
+For at hjælpe dig med at orientere dig er der en mini-visualisering af clip deck langs toppen. Se også [Clips og Clip Deck](clips/ "mention")
 
 #### Start og stop af clips
 

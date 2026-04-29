@@ -115,7 +115,7 @@
 * [✅ リファレンス](reference/README.md)
   * [✅ キーボードショートカット](reference/keyboard-shortcuts.md)
   * [✅ APC40 リファレンス](reference/apc40-reference.md)
-  * [✅ MIDI send/receive デフォルトマッピング](reference/midi-send-receive-default-mapping.md)
+  * [✅ MIDI 送受信のデフォルトマッピング](reference/midi-send-receive-default-mapping.md)
   * [◼️ 用語集 / 専門用語](reference/glossary-jargon.md)
   * [✅ Preset システム](reference/the-preset-system.md)
 * [✅ クレジット](credits.md)

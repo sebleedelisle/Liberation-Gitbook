@@ -115,7 +115,7 @@
 * [✅ Referencia](reference/README.md)
   * [✅ Billentyűparancsok](reference/keyboard-shortcuts.md)
   * [✅ APC40 referencia](reference/apc40-reference.md)
-  * [✅ MIDI Send/Receive alapértelmezett kiosztás](reference/midi-send-receive-default-mapping.md)
+  * [✅ MIDI küldés/fogadás alapértelmezett leképezése](reference/midi-send-receive-default-mapping.md)
   * [◼️ Szójegyzék / szakzsargon](reference/glossary-jargon.md)
   * [✅ A Preset rendszer](reference/the-preset-system.md)
 * [✅ Köszönetnyilvánítás](credits.md)

@@ -1,1 +1,1 @@
-# 🟩 Output view / Zones
+# 🟩 Output 视图 / Zones

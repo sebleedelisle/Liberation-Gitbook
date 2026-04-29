@@ -115,7 +115,7 @@
 * [✅ Referens](reference/README.md)
   * [Tangentbordsgenvägar](reference/keyboard-shortcuts.md)
   * [✅ APC40-referens](reference/apc40-reference.md)
-  * [✅ Standardmappning för MIDI send/receive](reference/midi-send-receive-default-mapping.md)
+  * [✅ Standardmappning för MIDI-sändning/-mottagning](reference/midi-send-receive-default-mapping.md)
   * [◼️ Ordlista/jargong](reference/glossary-jargon.md)
   * [✅ Preset-systemet](reference/the-preset-system.md)
 * [Tack](credits.md)

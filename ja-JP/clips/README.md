@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips
 ---
 
-# 🟩 Clips & Clip deck
+# 🟩 Clips と Clip Deck

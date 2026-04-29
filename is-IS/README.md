@@ -29,7 +29,7 @@ Umfram allt er Liberation gert til að vera tjáningarríkt sköpunarverkfæri. 
 
 * Byrjaðu á [**Mikilvægt! Lestu þetta fyrst**](important.md) til að fara yfir mikilvæg atriði um öryggi og leyfi áður en þú tengir vélbúnað.
 * Fylgdu [**Leiðbeiningum til að byrja fljótt**](getting-started.md) ef þú vilt koma Output hratt í gang, og farðu síðan í [**Vélbúnaður**](hardware/) og [**Uppsetning**](setting-up/) fyrir ítarlegri stillingar.
-* Notaðu kaflafyrirsagnir til að fara beint í efni, til dæmis [**Clips og Clip Deck**](clips/), [**Output view**](output-view/), **o.s.frv.**, og farðu aftur í [**Tilvísun**](reference/) eða [**Úrræðaleit**](troubleshooting/) þegar þú þarft nákvæm svör.
+* Notaðu kaflafyrirsagnir til að fara beint í efni, til dæmis [**Clips og Clip Deck**](clips/), [**Output-sýn**](output-view/), **o.s.frv.**, og farðu aftur í [**Tilvísun**](reference/) eða [**Úrræðaleit**](troubleshooting/) þegar þú þarft nákvæm svör.
 
 ## Venjur og gagnleg ráð
 

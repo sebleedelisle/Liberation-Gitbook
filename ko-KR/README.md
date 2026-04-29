@@ -29,7 +29,7 @@ Liberation 소프트웨어는 동일한 계열의 개방형 프로토콜 control
 
 * 하드웨어를 연결하기 전에 [**중요! 먼저 읽어 주세요**](important.md)에서 핵심 안전 및 라이선스 안내를 확인하세요.
 * 빠르게 Output을 실행하고 싶다면 [**빠른 시작 가이드**](getting-started.md)를 따른 다음, 더 자세한 구성은 [**하드웨어**](hardware/)와 [**설정하기**](setting-up/)를 확인하세요.
-* 섹션 제목을 사용해 원하는 주제로 바로 이동할 수 있습니다(예: [**Clips 및 Clip Deck**](clips/), [**Output view**](output-view/), **등**). 정확한 답이 필요할 때는 [**참조**](reference/) 또는 [**문제 해결**](troubleshooting/)로 돌아가세요.
+* 섹션 제목을 사용해 원하는 주제로 바로 이동할 수 있습니다(예: [**Clips 및 Clip Deck**](clips/), [**Output 보기**](output-view/), **등**). 정확한 답이 필요할 때는 [**참조**](reference/) 또는 [**문제 해결**](troubleshooting/)로 돌아가세요.
 
 ## 표기 규칙 및 팁
 

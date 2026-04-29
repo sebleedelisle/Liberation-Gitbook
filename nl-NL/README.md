@@ -29,7 +29,7 @@ Deze gids helpt je vertrouwd te raken met Liberation: van installatie en de basi
 
 * Begin met [**Belangrijk! Lees dit eerst**](important.md) om belangrijke veiligheids- en licentie-informatie door te nemen voordat je hardware aansluit.
 * Volg de [**Quickstartgids**](getting-started.md) als je snel output wilt krijgen, en duik daarna in [**Hardware**](hardware/) en [**Instellen**](setting-up/) voor uitgebreidere configuratie.
-* Gebruik de sectiekoppen om direct naar onderwerpen te gaan, bijvoorbeeld [**Clips & Clip deck**](clips/), [**Output-weergave**](output-view/), **enzovoort**, en ga terug naar [**Referentie**](reference/) of [**Probleemoplossing**](troubleshooting/) wanneer je specifieke antwoorden nodig hebt.
+* Gebruik de sectiekoppen om direct naar onderwerpen te gaan, bijvoorbeeld [**Clips & Clip Deck**](clips/), [**Output-weergave**](output-view/), **enzovoort**, en ga terug naar [**Referentie**](reference/) of [**Probleemoplossing**](troubleshooting/) wanneer je specifieke antwoorden nodig hebt.
 
 ## Conventies en tips
 
