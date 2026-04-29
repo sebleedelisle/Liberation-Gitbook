@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX-node
 
-DMX-noden er en særlig node, der giver dig mere præcis kontrol over DMX fixtures. Se [DMX / Artnet](../dmx-control/ "mention") for mere information.
+DMX-noden er en særlig node, der giver dig mere præcis kontrol over DMX fixtures. Se [DMX / Art-Net](../dmx-control/ "mention") for mere information.

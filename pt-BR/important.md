@@ -19,6 +19,6 @@ A PLASA oferece um guia gratuito para download sobre segurança de lasers, ampla
 ### Siga também estas precauções de segurança:
 
 * Mantenha os feixes longe dos olhos do público: mire acima de 3 m nas áreas de plateia; use atenuadores/bloqueadores de feixe durante o posicionamento; nunca mire em pessoas ou animais.
-* Sempre use interlocks, E-stop e keyswitches — nunca faça bypass nem os prenda com fita.
+* Sempre use intertravamentos, botão de parada de emergência e chaves de segurança — nunca os contorne nem os prenda com fita.
 * O Liberation não impõe limites de MPE nem detecção de falha de varredura; gerencie a potência, adicione sistemas externos de segurança e siga as regulamentações locais.
 * Checklist da primeira energização: comece com padrões de teste na saída mais baixa, mantenha os shutters fechados até estar tudo pronto, ligue um projetor por vez e confirme zones/masks antes de adicionar mais. [Configurando seus lasers](setting-up/setting-up-lasers.md).

@@ -17,7 +17,7 @@ Projektfilen sparar nästan allt i din aktuella konfiguration, inklusive:
 * Allt som beskrivs i [Läsa in och spara](loading-and-saving.md#laser-settings-import-export "mention") nedan
 * Clips, effekter och gruppinställningar
 * Alla dina timelines (inte ljud- och videomedia)
-* Artnet-konfiguration
+* Art-Net-konfiguration
 * Inställningar för MIDI-sändning/-mottagning
 * Tempo-/synkroniseringsinställningar
 
@@ -109,9 +109,9 @@ Om timeline-filen innehåller fler än en timeline listas alla. Markera de som d
 Om du bara vill importera timelines från ett projekt väljer du _**Timeline->Import Timeline(s)**_ och väljer en projektfil i stället för en timeline-fil (.ltml).
 {% endhint %}
 
-### DMX-/Artnet-import/-export
+### DMX-/Art-Net-import/-export
 
-Sparar och läser in Artnet-noderna tillsammans med deras IP-adresser. Inkluderar även DMX zones och alla dina DMX-presets.
+Sparar och läser in Art-Net-noderna tillsammans med deras IP-adresser. Inkluderar även DMX zones och alla dina DMX-presets.
 
 ### Viktigt om mediafiler i timeline
 

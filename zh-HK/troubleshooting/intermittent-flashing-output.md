@@ -47,7 +47,7 @@ metaLinks:
 停用 scan fail safety 系統時必須極度小心。強烈的靜態光束可以造成灼燒！請確保手邊有停止按鈕和滅火筒。
 {% endhint %}
 
-* 檢查 interlock 線材及系統
+* 檢查 互鎖線材及系統
 * 檢查控制器與雷射之間的所有線材。
 
 [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) 可以是排查雷射問題時非常有用的工具。

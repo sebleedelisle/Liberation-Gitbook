@@ -17,8 +17,8 @@ Opnaðu _Laser Overview_ panel og skoðaðu tengiljósið við hliðina á þeim
 * Gakktu úr skugga um að þú sért ekki tengdur við Wi-Fi net. Þú ættir alltaf að nota tengingu með snúru. Gakktu úr skugga um að stýrikerfið forgangsraði snúrutengda netinu fram yfir Wi-Fi, eða slökktu á Wi-Fi ef þú ert ekki viss
 * skoðaðu netmillistykkið og prófaðu annað USB-C millistykki
 * Windows notendur: skoðið / uppfærið netrekla og keyrið viðeigandi prófunartól fyrir netkerfi
-* skoðaðu allar snúrur, switch og routera. Skiptu kerfisbundið um hverja snúru og prófaðu.
-* endurræstu allan netbúnað, þar á meðal switch, routera og hvert Ether Dream.
+* skoðaðu allar snúrur, netrofa og beina. Skiptu kerfisbundið um hverja snúru og prófaðu.
+* endurræstu allan netbúnað, þar á meðal netrofa, beina og hvert Ether Dream.
 
 **Afköst örgjörva**
 
@@ -47,7 +47,7 @@ Ef ekkert af þessu virkar skaltu íhuga að uppfæra tölvuna.
 Farðu mjög varlega þegar þú slekkur á scan fail safety kerfinu. Sterkir kyrrstæðir geislar geta valdið bruna! Gakktu úr skugga um að þú hafir stopp-hnapp og slökkvitæki við höndina.
 {% endhint %}
 
-* Athugaðu interlock snúrur og kerfi
+* Athugaðu öryggislæsingarkapla og -kerfi
 * Athugaðu allar snúrur milli controller og laser.
 
 [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) getur verið ómetanlegt verkfæri við bilanagreiningu á laser-vandamálum.

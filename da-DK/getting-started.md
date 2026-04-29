@@ -30,7 +30,7 @@ Vigtigt: Før du armer nogen lasere, skal du sikre dig, at du forstår de involv
 
 ### Sikkerhedsafbrydelse
 
-Når du kører lasere, skal du altid have en **fysisk nødstopknap** ved hånden (se [Nødstop / interlocks](hardware/emergency-stop-interlocks.md "mention")). Hvis du vil disarme alt uden samme hast, kan du bruge knappen _**DISARM ALL**_ eller `Escape`-tasten (eller _**SESSION**_-tasten på APC40). Du kan også reducere den globale lysstyrke med skyderen på skærmen eller med hovedfaderen på APC40.
+Når du kører lasere, skal du altid have en **fysisk nødstopknap** ved hånden (se [Nødstop / sikkerhedslåse](hardware/emergency-stop-interlocks.md "mention")). Hvis du vil disarme alt uden samme hast, kan du bruge knappen _**DISARM ALL**_ eller `Escape`-tasten (eller _**SESSION**_-tasten på APC40). Du kan også reducere den globale lysstyrke med skyderen på skærmen eller med hovedfaderen på APC40.
 
 ### Skyder-elementer
 

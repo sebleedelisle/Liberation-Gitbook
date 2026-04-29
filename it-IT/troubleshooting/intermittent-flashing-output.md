@@ -47,7 +47,7 @@ allora è probabile che si tratti di un problema hardware. Questo argomento non 
 Usa la massima cautela quando disattivi il sistema scan fail safety. I fasci statici intensi possono causare bruciature! Assicurati di avere a portata di mano un pulsante di arresto e un estintore.
 {% endhint %}
 
-* Controlla i cavi e i sistemi di interlock.
+* Controlla i cavi e i sistemi di interblocco.
 * Controlla tutti i cablaggi tra il controller e il laser.
 
 Un [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) può essere uno strumento prezioso per diagnosticare problemi con i laser.

@@ -30,7 +30,7 @@ Tärkeää: Ennen kuin aktivoit yhtään laseria, varmista että ymmärrät niih
 
 ### Turvakatkaisu
 
-Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / interlockit](hardware/emergency-stop-interlocks.md)). Jos haluat poistaa kaiken käytöstä vähemmän kiireellisesti, voit käyttää _**DISARM ALL**_ -painiketta tai `Escape`-näppäintä (tai APC40:n _**SESSION**_-näppäintä). Voit myös vähentää yleistä kirkkautta näytön liukusäätimellä tai APC40:n pääliukusäätimellä.
+Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / turvalukitukset](hardware/emergency-stop-interlocks.md)). Jos haluat poistaa kaiken käytöstä vähemmän kiireellisesti, voit käyttää _**DISARM ALL**_ -painiketta tai `Escape`-näppäintä (tai APC40:n _**SESSION**_-näppäintä). Voit myös vähentää yleistä kirkkautta näytön liukusäätimellä tai APC40:n pääliukusäätimellä.
 
 ### Liukusäätimet
 

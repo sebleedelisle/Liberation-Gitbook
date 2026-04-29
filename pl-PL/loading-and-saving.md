@@ -17,7 +17,7 @@ Plik Project przechowuje prawie wszystko z bieżącej konfiguracji, w tym:
 * Wszystko opisane poniżej w [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export)
 * Clips, efekty oraz ustawienia grup
 * Wszystkie timeline (bez multimediów audio i wideo)
-* Konfigurację Artnet
+* Konfigurację Art-Net
 * Ustawienia wysyłania/odbierania MIDI
 * Ustawienia tempa / synchronizacji
 
@@ -109,9 +109,9 @@ Jeśli plik timeline zawiera więcej niż jedną timeline, wszystkie zostaną wy
 Aby zaimportować z projektu tylko timeline, wybierz _**Timeline->Import Timeline(s)**_, a następnie zamiast pliku timeline (.ltml) wybierz plik projektu.
 {% endhint %}
 
-### DMX / Artnet import / export
+### DMX / Art-Net import / export
 
-Zapisuje i wczytuje węzły Artnet wraz z ich adresami IP. Obejmuje także DMX zones oraz wszystkie presety DMX.
+Zapisuje i wczytuje węzły Art-Net wraz z ich adresami IP. Obejmuje także DMX zones oraz wszystkie presety DMX.
 
 ### Ważna informacja o plikach multimedialnych timeline
 

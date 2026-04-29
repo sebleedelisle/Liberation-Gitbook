@@ -30,4 +30,4 @@ DMX 設備會以 **DMX zone** 形式加入，並與你的 laser beam zones 及 C
 
 Liberation DMX 系統的首次實際測試，是在 Glastonbury 2023 進行；當時 Reach Lasers 在 Arcadia「spider」舞台中合共安裝了 90 個 beam sources。
 
-其中 18 部激光以內置 Ether Dreams 控制，另外 12 組 6-head beam bars 則透過 Art net 及 DMX 控制。
+其中 18 部激光以內置 Ether Dreams 控制，另外 12 組 6-head beam bars 則透過 Art-Net 及 DMX 控制。

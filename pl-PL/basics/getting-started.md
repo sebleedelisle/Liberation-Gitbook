@@ -24,7 +24,7 @@ Ważne: zanim ustawisz jakikolwiek laser w stan armed, upewnij się, że rozumie
 
 ### Awaryjne wyłączenie
 
-Za każdym razem, gdy używasz laserów, musisz mieć pod ręką **sprzętowy przycisk awaryjnego zatrzymania** (zobacz [Wyłącznik awaryjny i interlocki](../hardware/emergency-stop-interlocks.md)). Jeśli jednak chcesz mniej pilnie przełączyć wszystko w stan disarmed, możesz użyć przycisku _**DISARM ALL**_, klawisza `Escape` albo klawisza _**SESSION**_ na APC40. Możesz też zmniejszyć Global Brightness za pomocą suwaka na ekranie albo głównego fadera na APC40.
+Za każdym razem, gdy używasz laserów, musisz mieć pod ręką **sprzętowy przycisk awaryjnego zatrzymania** (zobacz [Zatrzymanie awaryjne / blokady bezpieczeństwa](../hardware/emergency-stop-interlocks.md)). Jeśli jednak chcesz mniej pilnie przełączyć wszystko w stan disarmed, możesz użyć przycisku _**DISARM ALL**_, klawisza `Escape` albo klawisza _**SESSION**_ na APC40. Możesz też zmniejszyć Global Brightness za pomocą suwaka na ekranie albo głównego fadera na APC40.
 
 ### Suwaki i elementy sterujące
 

@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX-Node
 
-Der DMX-Node ist ein spezieller Node, mit dem du DMX-Fixtures präziser steuern kannst. Weitere Informationen findest du unter [DMX / Artnet](../dmx-control/ "mention").
+Der DMX-Node ist ein spezieller Node, mit dem du DMX-Fixtures präziser steuern kannst. Weitere Informationen findest du unter [DMX / Art-Net](../dmx-control/ "mention").

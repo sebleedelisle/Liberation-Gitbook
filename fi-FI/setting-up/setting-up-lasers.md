@@ -50,7 +50,7 @@ Tämän sivun tarkoitus on antaa yleiskuva siitä, miten laserit käynnistetää
 3. **Nosta kirkkautta, kunnes laser juuri ja juuri näkyy** – pidä laser vain niin kirkkaana kuin on tarpeen zone-alueen näkemiseksi
 4. **Säädä zone tai zones** – määritä zone-kohteen koko, muoto ja sijainti niin, että se on 3 m lattian yläpuolella kaikista yleisölle avoimista alueista eikä laser ulotu muille yleisölle avoimille alueille
 5. **Lisää fyysinen rajaus** – käytä sädeaukon suojusta ja/tai mustaa folioteippiä rajaamaan fyysisesti kaikki halutun zone-alueen ulkopuoliset kohdat. Tämä on erittäin tärkeää, koska mikä tahansa laserlaite tai ohjelmisto voi toimia virheellisesti.
-6. **Lisää software masks** – Liberationin masks-toimintoja voidaan käyttää kameroiden ja projektorien suojaamiseen, mutta niitä ei pidä **koskaan** käyttää fyysisen rajauksen sijasta ihmisten suojaamiseen. Huomaa, että mikään ohjelmisto tai laitteisto ei ole erehtymätön, joten varmista, että ymmärrät riskit ennen software masks -toimintojen käyttöä.
+6. **Lisää ohjelmistopohjaiset masks** – Liberationin ohjelmistopohjaisia masks-toimintoja voidaan käyttää kameroiden ja projektorien suojaamiseen, mutta niitä ei pidä **koskaan** käyttää fyysisen rajauksen sijasta ihmisten suojaamiseen. Huomaa, että mikään ohjelmisto tai laitteisto ei ole erehtymätön, joten varmista, että ymmärrät riskit ennen ohjelmistopohjaisten masks-toimintojen käyttöä.
 
 {% hint style="warning" %}
 Huomaa, että tämä opas olettaa sisätiloissa tehtävän käyttöönoton. Jos työskentelet ulkona, lentoturvallisuuden varmistamiseksi on tehtävä lisätoimia, mukaan lukien mutta ei rajoittuen seuraaviin:

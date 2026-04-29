@@ -19,6 +19,6 @@ PLASA udostępnia bezpłatny przewodnik bezpieczeństwa laserowego do pobrania, 
 ### Przestrzegaj również tych zasad bezpieczeństwa:
 
 * Trzymaj wiązki z dala od oczu publiczności: kieruj je powyżej 3 m w strefach dla publiczności; używaj tłumików/blokad wiązki podczas pozycjonowania; nigdy nie kieruj wiązek na ludzi ani zwierzęta.
-* Zawsze używaj blokad bezpieczeństwa, E-stop i keyswitches — nigdy ich nie omijaj ani nie blokuj taśmą.
+* Zawsze używaj blokad bezpieczeństwa, zatrzymania awaryjnego i przełączników kluczykowych — nigdy ich nie omijaj ani nie blokuj taśmą.
 * Liberation nie wymusza limitów MPE ani nie zapewnia wykrywania scan-fail; kontroluj moc, stosuj zewnętrzne systemy bezpieczeństwa i przestrzegaj lokalnych przepisów.
 * Lista kontrolna przy pierwszym uruchomieniu: zacznij od wzorów testowych przy najniższym output, trzymaj shutters zamknięte do momentu gotowości, uruchamiaj po jednym projektorze naraz, potwierdź zones/masks przed dodaniem kolejnych. [Setting up your lasers](setting-up/setting-up-lasers.md).

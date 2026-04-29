@@ -30,7 +30,7 @@ Viktigt: Innan du armerar några lasrar måste du förstå riskerna och noggrant
 
 ### Säkerhetsavstängning
 
-När du kör lasrar måste du alltid ha en **fysisk nödstoppsknapp** nära till hands (se [Nödstopp / interlocks](hardware/emergency-stop-interlocks.md "mention")). Om du vill avarmera allt utan samma brådska kan du använda knappen _**DISARM ALL**_, eller tangenten `Escape` (eller tangenten _**SESSION**_ på APC40). Du kan också minska den globala ljusstyrkan med skjutreglaget på skärmen eller huvudreglaget på APC40.
+När du kör lasrar måste du alltid ha en **fysisk nödstoppsknapp** nära till hands (se [Nödstopp / säkerhetsförreglingar](hardware/emergency-stop-interlocks.md "mention")). Om du vill avarmera allt utan samma brådska kan du använda knappen _**DISARM ALL**_, eller tangenten `Escape` (eller tangenten _**SESSION**_ på APC40). Du kan också minska den globala ljusstyrkan med skjutreglaget på skärmen eller huvudreglaget på APC40.
 
 ### Skjutreglage och kontroller
 

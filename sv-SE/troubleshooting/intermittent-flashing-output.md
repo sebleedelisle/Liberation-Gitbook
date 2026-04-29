@@ -47,7 +47,7 @@ Då är det troligen ett maskinvaruproblem. Detta ligger utanför den här manua
 Var extremt försiktig när du inaktiverar scan fail safety-systemet. Starka statiska strålar kan orsaka brännskador! Se till att du har en stoppknapp och en brandsläckare till hands.
 {% endhint %}
 
-* Kontrollera interlock-kablar och interlock-system
+* Kontrollera säkerhetsförreglingskablar och säkerhetsförreglingssystem
 * Kontrollera all kabeldragning mellan controllern och lasern.
 
 En [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) kan vara ett ovärderligt verktyg vid felsökning av laserproblem.

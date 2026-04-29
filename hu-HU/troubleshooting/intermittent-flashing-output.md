@@ -47,7 +47,7 @@ Akkor valószínűleg hardverproblémáról van szó. Ez kívül esik a kézikö
 A scan fail safety rendszer letiltásakor rendkívül óvatosan járj el. Az erős statikus nyalábok égést okozhatnak! Legyen kéznél vészleállító gomb és tűzoltó készülék.
 {% endhint %}
 
-* Ellenőrizd az interlock kábeleket és rendszereket.
+* Ellenőrizd az biztonsági reteszelési kábeleket és rendszereket.
 * Ellenőrizd a vezérlő és a lézer közötti összes kábelezést.
 
 Egy [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) felbecsülhetetlen segítség lehet a lézerproblémák hibakereséséhez.

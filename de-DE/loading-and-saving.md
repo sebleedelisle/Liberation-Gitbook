@@ -17,7 +17,7 @@ Die Projektdatei speichert fast alles aus deinem aktuellen Setup, einschließlic
 * Alles, was unten unter [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention") beschrieben ist
 * Clips, Effekte und Gruppeneinstellungen
 * Alle deine Timelines (ohne Audio- und Videomedien)
-* ArtNet-Setup
+* Art-Net-Setup
 * MIDI-Sende-/Empfangseinstellungen
 * Tempo- / Synchronisationseinstellungen
 
@@ -109,9 +109,9 @@ Wenn die Timeline-Datei mehr als eine Timeline enthält, werden alle aufgelistet
 Um nur die Timelines aus einem Projekt zu importieren, wähle _**Timeline->Import Timeline(s)**_ und wähle statt einer Timeline-Datei (.ltml) eine Projektdatei.
 {% endhint %}
 
-### DMX- / ArtNet-Import/-Export
+### DMX- / Art-Net-Import/-Export
 
-Speichert und lädt die ArtNet-Nodes zusammen mit ihren IP-Adressen. Enthält außerdem die DMX-Zonen und alle deine DMX-Presets.
+Speichert und lädt die Art-Net-Nodes zusammen mit ihren IP-Adressen. Enthält außerdem die DMX-Zonen und alle deine DMX-Presets.
 
 ### Wichtiger Hinweis zu Timeline-Mediendateien
 

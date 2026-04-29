@@ -17,7 +17,7 @@ Prosjektfilen lagrer nesten alt i det gjeldende oppsettet, inkludert:
 * Alt som er beskrevet i [Laste inn og lagre](loading-and-saving.md#laser-settings-import-export "mention") nedenfor
 * Klipp, effekter og gruppeinnstillinger
 * Alle tidslinjene dine (ikke inkludert lyd- og videomedier)
-* ArtNet-oppsett
+* Art-Net-oppsett
 * Innstillinger for sending/mottak av MIDI
 * Innstillinger for tempo/synkronisering
 
@@ -109,9 +109,9 @@ Hvis tidslinjefilen har mer enn én tidslinje, vises alle i listen. Huk av de du
 For å importere bare tidslinjene fra et prosjekt velger du _**Timeline->Import Timeline(s)**_, og i stedet for å velge en tidslinjefil (.ltml), velger du en prosjektfil.
 {% endhint %}
 
-### Import/eksport av DMX / ArtNet
+### Import/eksport av DMX / Art-Net
 
-Lagrer og laster ArtNet-nodene, sammen med IP-adressene deres. Inkluderer også DMX-sonene og alle DMX-forhåndsinnstillingene dine.
+Lagrer og laster Art-Net-nodene, sammen med IP-adressene deres. Inkluderer også DMX-sonene og alle DMX-forhåndsinnstillingene dine.
 
 ### Viktig merknad om mediefiler for tidslinjer
 

@@ -63,7 +63,7 @@ Om betere interoperabiliteit tussen software en hardware te stimuleren, onderste
 
 Als je laser een van de volgende opties heeft, kun je hem met Liberation gebruiken:
 
-* Een externe **ILDA input** – een 25-pins D-connector, gebruikt met een compatibele externe controller.
+* Een externe **ILDA-ingang** – een 25-pins D-connector, gebruikt met een compatibele externe controller.
 * Een intern geïnstalleerde **Ether Dream**.
 * Elke **LaserCube** (werkt met zowel USB- als Wi-Fi LaserCube).
 * Een **X-Laser-unit met ingebouwd Mercury-systeem** (in Ether Dream-modus).

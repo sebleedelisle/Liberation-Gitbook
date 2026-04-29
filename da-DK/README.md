@@ -35,6 +35,6 @@ Denne guide hjælper dig med at blive fortrolig med Liberation - fra installatio
 
 * Status-emojis viser, hvor komplet indholdet er: ✅ færdig, 🟧 delvis, 🟩 mangler billeder, ◼️ pladsholder.
 * Links gælder for den aktuelle version; skærmbilleder og menuer kan se lidt anderledes ud, hvis du bruger en ældre build.
-* Hardwaretrin fremhæver sikkerhed først som standard - omgå aldrig interlocks, og hold stråler væk fra mennesker.
+* Hardwaretrin fremhæver sikkerhed først som standard - omgå aldrig sikkerhedslåse, og hold stråler væk fra mennesker.
 
 Hvis du går i stå, så tjek [**FAQ**](faq.md) og derefter afsnittet [**Fejlfinding**](troubleshooting/) for målrettede løsninger, før du kontakter support.

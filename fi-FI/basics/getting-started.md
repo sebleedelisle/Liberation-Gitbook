@@ -24,7 +24,7 @@ Tärkeää: ennen kuin asetat mitään lasereita armed-tilaan, varmista, että y
 
 ### Turvakatkaisu
 
-Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys ja lukitukset](../hardware/emergency-stop-interlocks.md)). Jos haluat poistaa kaikkien lasereiden armed-tilan vähemmän kiireellisesti, käytä _**DISARM ALL**_ -painiketta, `Escape`-näppäintä tai APC40-laitteen _**SESSION**_-näppäintä. Voit myös pienentää Global Brightness -tasoa näytön liukusäätimellä tai APC40:n pääfaderilla.
+Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / turvalukitukset](../hardware/emergency-stop-interlocks.md)). Jos haluat poistaa kaikkien lasereiden armed-tilan vähemmän kiireellisesti, käytä _**DISARM ALL**_ -painiketta, `Escape`-näppäintä tai APC40-laitteen _**SESSION**_-näppäintä. Voit myös pienentää Global Brightness -tasoa näytön liukusäätimellä tai APC40:n pääfaderilla.
 
 ### Liukusäätimet
 

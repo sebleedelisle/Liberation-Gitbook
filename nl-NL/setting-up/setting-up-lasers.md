@@ -50,7 +50,7 @@ Deze pagina geeft je een overzicht van het proces om lasers veilig op te starten
 3. **Verhoog de brightness totdat de laser net zichtbaar is** - maak de laser alleen zo helder als nodig is om de zone te kunnen zien
 4. **Pas de zone(s) aan** - stel de grootte, vorm en positie van de zone zo in dat deze vanaf alle publiek toegankelijke gebieden 3 m boven de vloer ligt en de laser geen andere publiek toegankelijke gebieden bereikt
 5. **Voeg fysieke maskering toe** - gebruik de afdekking van de laseropening en/of zwarte folietape om alles buiten de gewenste zone fysiek af te schermen. Dit is van cruciaal belang, omdat laserhardware en -software altijd kunnen falen.
-6. **Voeg software masks toe** - de software masks in Liberation kunnen worden gebruikt om camera’s en projectoren te beschermen, maar mogen **nooit** worden gebruikt in plaats van fysieke maskering om mensen te beschermen. Let op: geen enkele software of hardware is onfeilbaar, dus zorg dat je de risico’s begrijpt voordat je software masks gebruikt.
+6. **Voeg softwarematige masks toe** - de softwarematige masks in Liberation kunnen worden gebruikt om camera’s en projectoren te beschermen, maar mogen **nooit** worden gebruikt in plaats van fysieke maskering om mensen te beschermen. Let op: geen enkele software of hardware is onfeilbaar, dus zorg dat je de risico’s begrijpt voordat je softwarematige masks gebruikt.
 
 {% hint style="warning" %}
 Let op: deze gids gaat uit van een indoor opstelling. Werk je buiten, dan zijn extra stappen nodig om de veiligheid van luchtvaart te waarborgen, waaronder maar niet beperkt tot :

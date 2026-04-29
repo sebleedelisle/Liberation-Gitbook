@@ -47,7 +47,7 @@ Entonces es probable que se trate de un problema de hardware. Esto queda fuera d
 Ten muchísimo cuidado al desactivar el sistema scan fail safety. ¡Los haces estáticos intensos pueden provocar quemaduras! Asegúrate de tener a mano un botón de parada y un extintor.
 {% endhint %}
 
-* Comprueba los cables y sistemas de interlock.
+* Comprueba los cables y sistemas de enclavamiento.
 * Comprueba todo el cableado entre el controlador y el láser.
 
 Un [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) puede ser una herramienta muy valiosa para solucionar problemas con láseres.

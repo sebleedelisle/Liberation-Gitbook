@@ -15,7 +15,7 @@ Liberation innehåller ett flexibelt och kraftfullt DMX-system som låter dig sk
 
 **Art-Net** är ett nyare sätt att skicka samma DMX-data via ett vanligt datornätverk. I stället för att använda särskilda kablar skickas allt via Ethernet, precis som internet- eller lokal nätverkstrafik.
 
-I Liberation skickas all DMX-output med Art-Net. Du kan använda det för att styra Art-Net-kompatibla enheter direkt, eller ansluta en **Art-Net node** – en liten box som omvandlar Art-Net tillbaka till vanlig DMX. Det betyder att du fortfarande kan styra traditionella DMX-lampor och effekter, även om de inte själva har stöd för Art-Net.
+I Liberation skickas all DMX-output med Art-Net. Du kan använda det för att styra Art-Net-kompatibla enheter direkt, eller ansluta en **Art-Net-nod** – en liten box som omvandlar Art-Net tillbaka till vanlig DMX. Det betyder att du fortfarande kan styra traditionella DMX-lampor och effekter, även om de inte själva har stöd för Art-Net.
 {% endhint %}
 
 Du kan också använda det för att styra många olika typer av scenutrustning, som rökmaskiner, hazers, CO₂-jets, cold spark-maskiner med mera. Om utrustningen har stöd för DMX kan du konfigurera den som en DMX-zon och trigga den direkt från Liberation, sida vid sida med ditt laserinnehåll.

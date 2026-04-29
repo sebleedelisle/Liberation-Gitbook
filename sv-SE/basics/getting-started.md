@@ -24,7 +24,7 @@ Viktigt: Innan du sätter några lasrar i _armed_-läge måste du förstå riske
 
 ### Säkerhetsavstängning
 
-När du kör lasrar måste du alltid ha en **fysisk nödstoppknapp** till hands (se [Nödstopp och interlocks](../hardware/emergency-stop-interlocks.md)). Om du vill disarm allt utan samma akuta behov kan du använda knappen _**DISARM ALL**_, tangenten `Escape` eller tangenten _**SESSION**_ på APC40. Du kan också sänka Global Brightness med reglaget på skärmen eller huvudfadern på APC40.
+När du kör lasrar måste du alltid ha en **fysisk nödstoppknapp** till hands (se [Nödstopp / säkerhetsförreglingar](../hardware/emergency-stop-interlocks.md)). Om du vill disarm allt utan samma akuta behov kan du använda knappen _**DISARM ALL**_, tangenten `Escape` eller tangenten _**SESSION**_ på APC40. Du kan också sänka Global Brightness med reglaget på skärmen eller huvudfadern på APC40.
 
 ### Reglage
 

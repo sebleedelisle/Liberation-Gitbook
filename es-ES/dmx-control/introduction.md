@@ -30,4 +30,4 @@ Cuando envías un clip a una zona DMX, Liberation toma el primer elemento del cl
 
 La primera prueba real del sistema DMX de Liberation fue en Glastonbury 2023, donde Reach Lasers instaló un total de 90 fuentes de haz como parte del escenario "spider" de Arcadia.
 
-18 láseres se controlaron con Ether Dreams internos, y otras 12 barras de haces de 6 cabezales se controlaron mediante Art-Net y DMX.
+18 láseres se controlaron con Ether Dreams internos, y otras 12 barras de haces con 6 cabezales se controlaron mediante Art-Net y DMX.

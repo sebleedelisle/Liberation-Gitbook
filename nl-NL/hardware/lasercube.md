@@ -41,11 +41,11 @@ De router wijst dynamisch een IP-adres toe aan alles. Ik vind dat eenvoudiger en
 {% hint style="danger" %}
 In tegenstelling tot de Ether Dream _**BLANKEN LaserCubes DE LASER NIET**_ wanneer ze een buffer underrun, verloren pakket of andere corrupte/onjuiste data tegenkomen.
 
-In plaats daarvan gaan ze gewoon verder vanaf het punt waar ze waren gebleven. In sommige gevallen kan daardoor een actieve straal door gebieden gaan die niet binnen zones vallen, en nog erger: dwars door software masks heen snijden.
+In plaats daarvan gaan ze gewoon verder vanaf het punt waar ze waren gebleven. In sommige gevallen kan daardoor een actieve straal door gebieden gaan die niet binnen zones vallen, en nog erger: dwars door softwarematige masks heen snijden.
 
 Ik ben hierover in gesprek met de ontwerpers/coders van LaserCube en hoop dat ze dit in de toekomst met een firmware-update oplossen. Tot die tijd moet je er echter voor zorgen dat je fysiek alles afschermt waar je niet wilt dat de laser komt.
 
-Eerlijk gezegd zou je dat waarschijnlijk sowieso moeten doen, maar ik gebruik zelf software masks om camera’s en projectoren te beschermen. Wees je er dus van bewust dat dit gevaarlijker is met het LaserCube-netwerkprotocol dan met de Ether Dream (die in een safety stop-modus gaat zodra er een fout of ontbrekende data is).
+Eerlijk gezegd zou je dat waarschijnlijk sowieso moeten doen, maar ik gebruik zelf softwarematige masks om camera’s en projectoren te beschermen. Wees je er dus van bewust dat dit gevaarlijker is met het LaserCube-netwerkprotocol dan met de Ether Dream (die in een safety stop-modus gaat zodra er een fout of ontbrekende data is).
 
 Ook heb ik het al gezegd, maar **gebruik een bekabelde verbinding met je LaserCube**. Wifi is hiervoor niet goed genoeg en maakt dit probleem alleen maar erger.
 {% endhint %}

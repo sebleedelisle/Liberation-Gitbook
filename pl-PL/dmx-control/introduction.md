@@ -15,7 +15,7 @@ Liberation zawiera elastyczny i wydajny system DMX, który pozwala tworzyć efek
 
 **Art-Net** to nowszy sposób przesyłania tych samych danych DMX przez standardową sieć komputerową. Zamiast specjalnych kabli wszystko jest przesyłane przez Ethernet, podobnie jak ruch internetowy lub lokalny.
 
-W Liberation cały sygnał wyjściowy DMX jest wysyłany za pomocą Art-Net. Możesz używać go do bezpośredniego sterowania urządzeniami zgodnymi z Art-Net albo podłączyć **węzeł Art-Net** — niewielkie urządzenie, które konwertuje Art-Net z powrotem na standardowy DMX. Dzięki temu nadal możesz sterować tradycyjnymi światłami i efektami DMX, nawet jeśli same nie obsługują Art-Net.
+W Liberation cały sygnał wyjściowy DMX jest wysyłany za pomocą Art-Net. Możesz używać go do bezpośredniego sterowania urządzeniami zgodnymi z Art-Net albo podłączyć **węzeł Art-Net** — niewielkie urządzenie, które konwertuje Art-Net z powrotem na standardowy sygnał DMX. Dzięki temu nadal możesz sterować tradycyjnymi światłami i efektami DMX, nawet jeśli same nie obsługują Art-Net.
 {% endhint %}
 
 Możesz też używać go do sterowania różnego rodzaju sprzętem scenicznym, takim jak wytwornice dymu, hazery, wyrzutnie CO₂, maszyny do zimnych iskier i wiele innych. Jeśli urządzenie obsługuje DMX, możesz skonfigurować je jako strefę DMX i wyzwalać bezpośrednio z Liberation, razem z treściami laserowymi.

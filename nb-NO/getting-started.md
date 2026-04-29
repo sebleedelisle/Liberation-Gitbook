@@ -30,7 +30,7 @@ Viktig: Før du armerer noen lasere, må du sørge for at du forstår risikoen o
 
 ### Sikkerhetsavstenging
 
-Når du bruker lasere, må du alltid ha en **fysisk nødstoppknapp** tilgjengelig (se [Nødstopp / interlocks](hardware/emergency-stop-interlocks.md "mention")). Hvis du vil deaktivere alt uten samme hastverk, kan du bruke knappen _**DISARM ALL**_ eller `Escape`-tasten (eller _**SESSION**_-tasten på APC40). Du kan også redusere den globale lysstyrken med skyvebryteren på skjermen eller hovedfaderen på APC40.
+Når du bruker lasere, må du alltid ha en **fysisk nødstoppknapp** tilgjengelig (se [Nødstopp / sikkerhetslåser](hardware/emergency-stop-interlocks.md "mention")). Hvis du vil deaktivere alt uten samme hastverk, kan du bruke knappen _**DISARM ALL**_ eller `Escape`-tasten (eller _**SESSION**_-tasten på APC40). Du kan også redusere den globale lysstyrken med skyvebryteren på skjermen eller hovedfaderen på APC40.
 
 ### Skyvebrytere
 

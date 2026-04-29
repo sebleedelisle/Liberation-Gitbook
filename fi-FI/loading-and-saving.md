@@ -17,7 +17,7 @@ Projektitiedosto tallentaa lähes kaiken nykyisestä kokoonpanostasi, mukaan luk
 * Kaikki, mitä on kuvattu kohdassa [Lataaminen ja tallentaminen](loading-and-saving.md#laser-settings-import-export) alla
 * Clips, efektit ja ryhmäasetukset
 * Kaikki aikajanasi (ei sisällä ääni- ja videomediaa)
-* Artnet-kokoonpano
+* Art-Net-kokoonpano
 * MIDI-lähetys- ja vastaanottoasetukset
 * Tempo- ja synkronointiasetukset
 
@@ -109,9 +109,9 @@ Jos aikajanatiedostossa on useampi kuin yksi aikajana, ne kaikki näytetään lu
 Jos haluat tuoda projektista vain aikajanat, valitse _**Timeline->Import Timeline(s)**_ ja valitse aikajanatiedoston (.ltml) sijaan projektitiedosto.
 {% endhint %}
 
-### DMX / Artnet -tuonti/vienti
+### DMX / Art-Net -tuonti/vienti
 
-Tallentaa ja lataa Artnet-nodet sekä niiden IP-osoitteet. Sisältää myös DMX-alueet ja kaikki DMX-presetisi.
+Tallentaa ja lataa Art-Net-nodet sekä niiden IP-osoitteet. Sisältää myös DMX-alueet ja kaikki DMX-presetisi.
 
 ### Tärkeä huomautus aikajanan mediatiedostoista
 

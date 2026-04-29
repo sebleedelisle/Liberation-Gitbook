@@ -30,4 +30,4 @@ Kun lähetät clipin DMX-alueelle, Liberation tarkistaa clipin ensimmäisen elem
 
 Liberationin DMX-järjestelmän ensimmäinen todellinen testi oli Glastonbury 2023 -tapahtumassa, jossa Reach Lasers asensi yhteensä 90 sädelähdettä osaksi Arcadia “spider” -lavaa.
 
-18 laseria ohjattiin sisäisillä Ether Dream -ohjaimilla, ja lisäksi 12 kuusipäistä beam baria ohjattiin Art-Netin ja DMX:n kautta.
+18 laseria ohjattiin sisäisillä Ether Dream -ohjaimilla, ja lisäksi 12 kuusipäistä beam bar -laitetta ohjattiin Art-Netin ja DMX:n kautta.

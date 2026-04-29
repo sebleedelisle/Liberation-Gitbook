@@ -17,7 +17,7 @@ Le fichier Project stocke presque tous les éléments de votre configuration act
 * Tout ce qui est détaillé dans [Chargement et enregistrement](loading-and-saving.md#laser-settings-import-export "mention") ci-dessous
 * Les clips, effets et réglages de groupes
 * Toutes vos timelines (hors médias audio et vidéo)
-* La configuration ArtNet
+* La configuration Art-Net
 * Les réglages d’envoi/réception MIDI
 * Les réglages de tempo / synchronisation
 
@@ -109,9 +109,9 @@ Si le fichier de timeline contient plusieurs timelines, elles seront toutes list
 Pour importer uniquement les timelines d’un projet, sélectionnez _**Timeline->Import Timeline(s)**_, puis choisissez un fichier de projet au lieu de sélectionner un fichier de timeline (.ltml).
 {% endhint %}
 
-### Import / Export DMX / ArtNet
+### Import / Export DMX / Art-Net
 
-Enregistre et charge les nœuds ArtNet, avec leurs adresses IP. Inclut également les zones DMX et tous vos préréglages DMX.
+Enregistre et charge les nœuds Art-Net, avec leurs adresses IP. Inclut également les zones DMX et tous vos préréglages DMX.
 
 ### Remarque importante sur les fichiers médias des timelines
 

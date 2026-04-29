@@ -30,4 +30,4 @@ When you send a clip to a DMX zone, Liberation looks at the first element in the
 
 The first real test of the Liberation DMX system was at Glastonbury 2023 where Reach Lasers installed a total of 90 beam sources as part of the Arcadia "spider" stage.
 
-18 lasers were controlled with internal Ether Dreams, and a further 12 6-head beam bars were controlled via Art net and DMX.
+18 lasers were controlled with internal Ether Dreams, and a further 12 6-head beam bars were controlled via Art-Net and DMX.

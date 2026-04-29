@@ -19,6 +19,6 @@ PLASA har en gratis laser-sikkerhedsvejledning, som kan downloades, og som gener
 ### Følg også disse sikkerhedsforanstaltninger:
 
 * Hold stråler væk fra publikums øjne: sigt over 3 m i publikumsområder; brug dæmpere/stråleblokke under positionering; sigt aldrig mod mennesker eller dyr.
-* Brug altid interlocks, E-stop og keyswitches—omgå dem aldrig, og tape dem aldrig fast.
+* Brug altid sikkerhedslåse, nødstop og nøgleafbrydere – omgå dem aldrig, og tape dem aldrig fast.
 * Liberation håndhæver ikke MPE-grænser eller scan-fail-detektion; styr effekten, tilføj eksterne sikkerhedssystemer, og følg lokal lovgivning
 * Tjekliste ved første opstart: start med testmønstre ved laveste output, hold shutters lukkede, indtil du er klar, tænd én projektor ad gangen, og bekræft zones/masks, før du tilføjer flere. [Setting up your lasers](setting-up/setting-up-lasers.md).

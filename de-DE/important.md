@@ -19,6 +19,6 @@ PLASA stellt einen kostenlos herunterladbaren Leitfaden zur Lasersicherheit bere
 ### Halte außerdem diese Sicherheitsmaßnahmen ein:
 
 * Halte Strahlen von den Augen des Publikums fern: ziele in Publikumsbereichen über 3 m; verwende Abschwächer/Beam Blocks beim Positionieren; richte Laser niemals auf Menschen oder Tiere.
-* Verwende immer Interlocks, E-Stop und Keyswitches – überbrücke sie niemals und klebe sie nicht fest.
+* Verwende immer Sicherheitsverriegelungen, Not-Aus-Taster und Schlüsselschalter – überbrücke sie niemals und klebe sie nicht fest.
 * Liberation erzwingt keine MPE-Grenzwerte und keine Scan-Fail-Erkennung; steuere die Leistung, ergänze externe Sicherheitssysteme und halte lokale Vorschriften ein.
 * Checkliste für das erste Einschalten: beginne mit Testmustern bei niedrigster Ausgangsleistung, halte Shutter geschlossen, bis alles bereit ist, schalte jeweils nur einen Projektor hinzu und bestätige Zonen/Masken, bevor du weitere hinzufügst. [Laser einrichten](setting-up/setting-up-lasers.md).

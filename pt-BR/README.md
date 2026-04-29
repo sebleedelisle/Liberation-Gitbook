@@ -35,6 +35,6 @@ Este guia vai ajudar você a se familiarizar com o Liberation — desde a instal
 
 * Emojis de status mostram o nível de conclusão: ✅ concluído, 🟧 parcial, 🟩 precisa de imagens, ◼️ placeholder.
 * Os links correspondem à versão atual; capturas de tela e menus podem ser um pouco diferentes se você estiver usando uma build mais antiga.
-* As etapas de hardware destacam padrões que priorizam a segurança: nunca ignore interlocks e mantenha os feixes longe das pessoas.
+* As etapas de hardware destacam padrões que priorizam a segurança: nunca ignore intertravamentos e mantenha os feixes longe das pessoas.
 
 Se você ficar travado, consulte a [**FAQ**](faq.md) e depois a seção [**Solução de problemas**](troubleshooting/) para correções direcionadas antes de entrar em contato com o suporte.

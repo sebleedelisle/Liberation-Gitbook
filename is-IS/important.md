@@ -19,6 +19,6 @@ PLASA býður upp á ókeypis handbók um öryggi leysa til niðurhals, sem er a
 ### Fylgdu einnig þessum öryggisráðstöfunum:
 
 * Haltu geislum frá augum áhorfenda: miðaðu yfir 3 m hæð á áhorfendasvæðum; notaðu dempara/geislablokkir við staðsetningu; beindu aldrei geislum að fólki eða dýrum.
-* Notaðu alltaf interlocks, E-stop og keyswitches — farðu aldrei fram hjá þeim og límdu þá ekki niður.
+* Notaðu alltaf öryggislæsingar, neyðarstöðvun og lykilrofa — farðu aldrei fram hjá þeim og límdu þá ekki niður.
 * Liberation framfylgir ekki MPE-mörkum eða scan-fail greiningu; stýrðu afli, bættu við ytri öryggiskerfum og fylgdu staðbundnum reglum.
 * Gátlisti við fyrstu ræsingu: byrjaðu með test pattern við lægsta Output, hafðu shutters lokaða þar til allt er tilbúið, kveiktu á einum skjávarpa í einu og staðfestu zones/masks áður en þú bætir fleirum við. [Uppsetning leysanna](setting-up/setting-up-lasers.md).

@@ -35,6 +35,6 @@ Questa guida ti aiuterà a prendere confidenza con Liberation: dall’installazi
 
 * Le emoji di stato indicano il livello di completamento: ✅ completato, 🟧 parziale, 🟩 servono immagini, ◼️ segnaposto.
 * I link fanno riferimento alla release corrente; screenshot e menu potrebbero essere leggermente diversi se usi una build precedente.
-* I passaggi relativi all’hardware evidenziano impostazioni predefinite orientate alla sicurezza: non bypassare mai gli interlock e tieni sempre i beams lontani dalle persone.
+* I passaggi relativi all’hardware evidenziano impostazioni predefinite orientate alla sicurezza: non aggirare mai gli interblocchi e tieni sempre i fasci lontani dalle persone.
 
 Se rimani bloccato, consulta le [**FAQ**](faq.md), poi la sezione [**Risoluzione dei problemi**](troubleshooting/) per soluzioni mirate prima di contattare il supporto.

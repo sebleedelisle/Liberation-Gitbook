@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX node
 
-A DMX node egy speciális node, amellyel részletesebben vezérelheted a DMX lámpatesteket. További információért lásd: [DMX / Artnet](../dmx-control/).
+A DMX node egy speciális node, amellyel részletesebben vezérelheted a DMX lámpatesteket. További információért lásd: [DMX / Art-Net](../dmx-control/).

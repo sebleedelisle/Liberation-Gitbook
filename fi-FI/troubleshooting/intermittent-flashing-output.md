@@ -47,7 +47,7 @@ Kyseessä on todennäköisesti laitteisto-ongelma. Tämä ei kuulu tämän ohjek
 Ole erittäin varovainen, kun poistat scan fail safety -järjestelmän käytöstä. Voimakkaat staattiset säteet voivat polttaa! Varmista, että sinulla on hätäpysäytyspainike ja sammutin käden ulottuvilla.
 {% endhint %}
 
-* Tarkista interlock-kaapelit ja -järjestelmät.
+* Tarkista turvalukituskaapelit ja -järjestelmät.
 * Tarkista kaikki ohjaimen ja laserin väliset kaapelit.
 
 [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) voi olla korvaamaton työkalu laserongelmien vianmäärityksessä.

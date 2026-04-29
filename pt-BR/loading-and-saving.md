@@ -17,7 +17,7 @@ O arquivo de projeto armazena quase tudo na sua configuração atual, incluindo:
 * Tudo o que está detalhado em [Carregar e salvar](loading-and-saving.md#laser-settings-import-export) abaixo
 * Clips, efeitos e configurações de grupos
 * Todas as suas linhas do tempo (sem incluir mídia de áudio e vídeo)
-* Configuração de ArtNet
+* Configuração de Art-Net
 * Configurações de envio/recebimento MIDI
 * Configurações de tempo / sincronização
 
@@ -109,9 +109,9 @@ Se o arquivo de linha do tempo tiver mais de uma linha do tempo, todas serão li
 Para importar apenas as linhas do tempo de um projeto, selecione _**Timeline->Import Timeline(s)**_ e, em vez de selecionar um arquivo de linha do tempo (.ltml), escolha um arquivo de projeto.
 {% endhint %}
 
-### Importar / exportar DMX / ArtNet
+### Importar / exportar DMX / Art-Net
 
-Salva e carrega os nodes ArtNet, junto com seus endereços IP. Também inclui as zonas DMX e todos os seus presets DMX.
+Salva e carrega os nodes Art-Net, junto com seus endereços IP. Também inclui as zonas DMX e todos os seus presets DMX.
 
 ### Observação importante sobre arquivos de mídia da linha do tempo
 

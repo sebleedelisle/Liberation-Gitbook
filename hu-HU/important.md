@@ -19,6 +19,6 @@ A PLASA ingyenesen letölthető lézerbiztonsági útmutatót kínál, amelyet s
 ### Tartsa be ezeket a biztonsági óvintézkedéseket is:
 
 * Tartsa a nyalábokat a közönség szemmagassága felett: a közönség számára hozzáférhető területeken 3 m fölé célozzon; pozicionálás közben használjon csillapítókat vagy nyalábblokkolókat; soha ne célozzon emberekre vagy állatokra.
-* Mindig használjon interlockot, vészleállítót és kulcsos kapcsolót — ezeket soha ne kerülje meg, és ne rögzítse lenyomott állapotban.
+* Mindig használj biztonsági reteszeléseket, vészleállítót és kulcsos kapcsolókat — ezeket soha ne kerüld meg, és ne rögzítsd lenyomott állapotban.
 * A Liberation nem kényszeríti ki az MPE-határértékeket, és nem biztosít scan-fail érzékelést; kezelje megfelelően a teljesítményt, használjon külső biztonsági rendszereket, és tartsa be a helyi előírásokat.
 * Első bekapcsolási ellenőrzőlista: kezdjen tesztábrákkal a legalacsonyabb kimeneti teljesítményen, tartsa zárva a shuttereket, amíg minden készen nem áll, egyszerre csak egy projektort indítson el, és további projektorok hozzáadása előtt ellenőrizze a zónákat és maszkokat. [Setting up your lasers](setting-up/setting-up-lasers.md).
