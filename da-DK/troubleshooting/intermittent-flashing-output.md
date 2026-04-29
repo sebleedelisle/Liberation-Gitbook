@@ -47,7 +47,7 @@ Så er der sandsynligvis tale om et hardwareproblem. Det ligger uden for denne m
 Vær ekstremt forsigtig, når du deaktiverer scan fail safety-systemet. Kraftige statiske stråler kan forårsage brandmærker! Sørg for at have en stopknap og en brandslukker ved hånden.
 {% endhint %}
 
-* Tjek sikkerhedslåskabler og -systemer
+* Tjek sikkerhedsinterlock-kabler og -systemer
 * Tjek alle kabler mellem controlleren og laseren.
 
 En [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) kan være et uvurderligt værktøj til fejlfinding af laserproblemer.

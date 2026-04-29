@@ -15,7 +15,7 @@
 * [Quickstartgids](getting-started.md)
 * [✅ Hardware](hardware/README.md)
   * [✅ Compatibele lasers en controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md)
-  * [✅ Noodstop / veiligheidsvergrendelingen](hardware/emergency-stop-interlocks.md)
+  * [✅ Noodstop / veiligheidsinterlocks](hardware/emergency-stop-interlocks.md)
   * [✅ LaserCube](hardware/lasercube.md)
 * [✅ Instellen](setting-up/README.md)
   * [✅ Overzicht van het laserconfiguratieproces](setting-up/setting-up-lasers.md)

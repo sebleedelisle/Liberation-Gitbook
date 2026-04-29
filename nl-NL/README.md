@@ -35,6 +35,6 @@ Deze gids helpt je vertrouwd te raken met Liberation: van installatie en de basi
 
 * Statusemoji’s geven de volledigheid aan: ✅ klaar, 🟧 gedeeltelijk, 🟩 afbeeldingen nodig, ◼️ placeholder.
 * Links gelden voor de huidige release; screenshots en menu’s kunnen iets afwijken als je een oudere build gebruikt.
-* Bij hardwarestappen staan veiligheidseerste standaardinstellingen centraal: omzeil nooit veiligheidsvergrendelingen en houd stralen uit de buurt van mensen.
+* Bij hardwarestappen staan veiligheidseerste standaardinstellingen centraal: omzeil nooit veiligheidsinterlocks en houd stralen uit de buurt van mensen.
 
 Loop je vast, kijk dan eerst in de [**FAQ**](faq.md) en daarna in de sectie [**Probleemoplossing**](troubleshooting/) voor gerichte oplossingen voordat je contact opneemt met support.

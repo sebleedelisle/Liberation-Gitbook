@@ -19,6 +19,6 @@ PLASA heeft een gratis te downloaden gids voor laserveiligheid die algemeen word
 ### Houd je ook aan deze veiligheidsmaatregelen:
 
 * Houd stralen uit de ogen van het publiek: richt boven 3 m in publieksgebieden; gebruik verzwakkers/beam blocks tijdens het positioneren; richt nooit op mensen of dieren.
-* Gebruik altijd veiligheidsvergrendelingen, een noodstop en sleutelschakelaars—omzeil ze nooit en plak ze nooit vast.
+* Gebruik altijd veiligheidsinterlocks, een noodstop en sleutelschakelaars—omzeil ze nooit en plak ze nooit vast.
 * Liberation handhaaft geen MPE-limieten en heeft geen scan-fail-detectie; beheer het vermogen, voeg externe veiligheidssystemen toe en volg de lokale regelgeving.
 * Checklist voor de eerste keer inschakelen: begin met testpatronen op de laagste output, houd shutters gesloten tot je klaar bent, schakel één projector tegelijk in en controleer zones/masks voordat je meer toevoegt. [Je lasers instellen](setting-up/setting-up-lasers.md).

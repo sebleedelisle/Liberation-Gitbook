@@ -47,7 +47,7 @@ Dann handelt es sich wahrscheinlich um ein Hardwareproblem. Das liegt außerhalb
 Sei extrem vorsichtig, wenn du das Scan-Fail-Safety-System deaktivierst. Starke statische Strahlen können Verbrennungen verursachen! Stelle sicher, dass du einen Stopp-Taster und einen Feuerlöscher griffbereit hast.
 {% endhint %}
 
-* Prüfe Sicherheitsverriegelungskabel und -systeme.
+* Prüfe Interlock-Kabel und -Systeme.
 * Prüfe alle Kabel zwischen dem Controller und dem Laser.
 
 Ein [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) kann ein äußerst hilfreiches Werkzeug zur Fehlersuche bei Laserproblemen sein.

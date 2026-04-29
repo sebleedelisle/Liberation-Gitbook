@@ -15,7 +15,7 @@
 * [✅ Hurtigstartveiledning](getting-started.md)
 * [Maskinvare](hardware/README.md)
   * [✅ Kompatible lasere og kontrollere (DAC-er)](hardware/compatible-lasers-and-controllers-dacs.md)
-  * [✅ Nødstopp / sikkerhetslåser](hardware/emergency-stop-interlocks.md)
+  * [✅ Nødstopp / sikkerhetsinterlocks](hardware/emergency-stop-interlocks.md)
   * [✅ LaserCube](hardware/lasercube.md)
 * [✅ Oppsett](setting-up/README.md)
   * [✅ Oversikt over prosessen for laseroppsett](setting-up/setting-up-lasers.md)
