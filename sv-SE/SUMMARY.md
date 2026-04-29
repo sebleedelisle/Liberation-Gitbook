@@ -27,7 +27,6 @@
   * [✅ Kopiera inställningar mellan lasrar](setting-up/copy-laser-settings.md)
   * [✅ Latensinställning](setting-up/latency-setting.md)
 * [Output-vy / zoner](output-view/README.md)
-  * [Sida](output-view/page.md)
   * [✅ Översikt](output-view/overview.md)
   * [🟩 Zones](output-view/zones.md)
   * [🟩 Kopiera zoner mellan lasrar](output-view/copy-zones-between-lasers.md)

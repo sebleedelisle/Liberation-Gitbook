@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import difflib
 import json
 import os
 import re
@@ -199,6 +200,10 @@ FENCE_PATTERN = re.compile(r"^```", re.MULTILINE)
 DIRECTIVE_PATTERN = re.compile(r"^\s*{%\s*[^%]+%}\s*$", re.MULTILINE)
 
 
+class TranslationValidationError(RuntimeError):
+    pass
+
+
 def git(*args, check=True):
     import subprocess
 
@@ -244,6 +249,18 @@ def path_exists_at(commit, path):
 
 def content_at(commit, path):
     return git_bytes("show", f"{commit}:{path}")
+
+
+def source_diff(previous_source_text, current_source_text, relative_path):
+    return "\n".join(
+        difflib.unified_diff(
+            previous_source_text.splitlines(),
+            current_source_text.splitlines(),
+            fromfile=f"previous en-GB/{relative_path}",
+            tofile=f"current en-GB/{relative_path}",
+            lineterm="",
+        )
+    )
 
 
 def https_context():
@@ -483,14 +500,50 @@ def user_prompt(relative_path, source_text, retry_errors=None):
     return "\n".join(prompt)
 
 
-def translate_text(provider, model, target_language, language_name, relative_path, source_text, retries, max_output_tokens):
+def stale_update_prompt(relative_path, previous_source_text, current_source_text, existing_translation_text, retry_errors=None):
+    prompt = [
+        f"Update this Markdown translation: {relative_path}",
+        "",
+        "The existing translated Markdown was created from an earlier English version.",
+        "Use the English source diff to identify exactly what changed.",
+        "Update only the translated passages affected by that English diff.",
+        "Preserve unchanged translated text exactly unless a small grammar adjustment is required around a changed passage.",
+        "",
+        "Important:",
+        "- Return the complete updated translated Markdown document, not a diff.",
+        "- Do not add commentary.",
+        "- Do not wrap the result in a Markdown code fence.",
+        "- Preserve every Markdown link target exactly, but translate visible Markdown link text.",
+        "- If a link points to another manual page or section, use visible link text that matches the translated title or heading for that destination.",
+        "- Do not leave GitBook mention link labels as filenames, paths, slugs, or English titles.",
+        "- Preserve every image src/path exactly.",
+        "- Preserve code fences and inline code exactly.",
+    ]
+    if retry_errors:
+        prompt.extend(["", "The previous attempt failed validation:", *[f"- {error}" for error in retry_errors]])
+    prompt.extend(
+        [
+            "",
+            "<english_source_diff>",
+            source_diff(previous_source_text, current_source_text, relative_path),
+            "</english_source_diff>",
+            "",
+            "<existing_translated_markdown>",
+            existing_translation_text,
+            "</existing_translated_markdown>",
+        ]
+    )
+    return "\n".join(prompt)
+
+
+def translate_with_prompt(provider, model, system, prompt, relative_path, source_text, retries, max_output_tokens):
     translate = openai_translate if provider == "openai" else anthropic_translate
     errors = None
     for attempt in range(1, retries + 2):
         result = strip_wrapper(
             translate(
-                system_prompt(target_language, language_name),
-                user_prompt(relative_path, source_text, errors),
+                system,
+                prompt(errors),
                 model,
                 max_output_tokens,
             )
@@ -502,7 +555,57 @@ def translate_text(provider, model, target_language, language_name, relative_pat
         if attempt <= retries:
             time.sleep(1)
 
-    raise RuntimeError(f"{relative_path} failed validation: {', '.join(errors or [])}")
+    raise TranslationValidationError(f"{relative_path} failed validation: {', '.join(errors or [])}")
+
+
+def translate_text(
+    provider,
+    model,
+    target_language,
+    language_name,
+    relative_path,
+    source_text,
+    retries,
+    max_output_tokens,
+    previous_source_text=None,
+    existing_translation_text=None,
+):
+    system = system_prompt(target_language, language_name)
+
+    if previous_source_text and existing_translation_text and previous_source_text != source_text:
+        try:
+            return translate_with_prompt(
+                provider,
+                model,
+                system,
+                lambda errors: stale_update_prompt(
+                    relative_path,
+                    previous_source_text,
+                    source_text,
+                    existing_translation_text,
+                    errors,
+                ),
+                relative_path,
+                source_text,
+                retries,
+                max_output_tokens,
+            )
+        except TranslationValidationError as error:
+            print(
+                f"Warning: diff-based update failed for {relative_path}: {error}. Falling back to full translation.",
+                file=sys.stderr,
+            )
+
+    return translate_with_prompt(
+        provider,
+        model,
+        system,
+        lambda errors: user_prompt(relative_path, source_text, errors),
+        relative_path,
+        source_text,
+        retries,
+        max_output_tokens,
+    )
 
 
 def source_files(source_root, paths):
@@ -568,6 +671,12 @@ def parse_args():
     parser.add_argument("--model", help="Provider model. Defaults to a sensible model for the provider.")
     parser.add_argument("--source-root", type=Path, default=SOURCE_ROOT)
     parser.add_argument("--mode", choices=["missing", "stale", "all"], default="missing")
+    parser.add_argument(
+        "--stale-strategy",
+        choices=["diff", "full"],
+        default=os.environ.get("TRANSLATE_STALE_STRATEGY", "diff"),
+        help="For stale files, update existing translations from the English git diff or retranslate the full file.",
+    )
     parser.add_argument("--path", action="append", default=[], help="Relative Markdown path to translate.")
     parser.add_argument("--force", action="store_true", help="Overwrite existing target files.")
     parser.add_argument("--dry-run", action="store_true")
@@ -605,6 +714,8 @@ def main():
     print(f"Model:    {model}")
     print(f"Target:   {args.target_language} ({language_name})")
     print(f"Files:    {len(files)}")
+    if args.mode == "stale":
+        print(f"Strategy: {args.stale_strategy}")
 
     if args.dry_run:
         for _, _, rel in files:
@@ -617,15 +728,26 @@ def main():
 
     for index, (source, target, rel) in enumerate(files, start=1):
         print(f"[{index}/{len(files)}] {rel}", flush=True)
+        source_text = source.read_text(encoding="utf-8")
+        previous_source_text = None
+        existing_translation_text = None
+        if args.mode == "stale" and args.stale_strategy == "diff" and target.exists() and not args.force:
+            commit = last_commit(target)
+            if commit and path_exists_at(commit, source):
+                previous_source_text = content_at(commit, source).decode("utf-8", "replace")
+                existing_translation_text = target.read_text(encoding="utf-8")
+
         translated = translate_text(
             args.provider,
             model,
             args.target_language,
             language_name,
             rel,
-            source.read_text(encoding="utf-8"),
+            source_text,
             args.retries,
             args.max_output_tokens,
+            previous_source_text,
+            existing_translation_text,
         )
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(translated, encoding="utf-8")

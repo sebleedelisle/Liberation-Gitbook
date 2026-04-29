@@ -27,7 +27,6 @@
   * [✅ Beállítások másolása lézerek között](setting-up/copy-laser-settings.md)
   * [✅ Késleltetés beállítása](setting-up/latency-setting.md)
 * [🟩 Output nézet / zónák](output-view/README.md)
-  * [Oldal](output-view/page.md)
   * [✅ Áttekintés](output-view/overview.md)
   * [🟩 Zónák](output-view/zones.md)
   * [🟩 Zónák másolása lézerek között](output-view/copy-zones-between-lasers.md)

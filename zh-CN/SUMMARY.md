@@ -27,7 +27,6 @@
   * [✅ 在激光之间复制设置](setting-up/copy-laser-settings.md)
   * [✅ 延迟设置](setting-up/latency-setting.md)
 * [🟩 Output 视图 / Zones](output-view/README.md)
-  * [页面](output-view/page.md)
   * [✅ 概览](output-view/overview.md)
   * [🟩 Zones](output-view/zones.md)
   * [🟩 在激光之间复制 Zones](output-view/copy-zones-between-lasers.md)

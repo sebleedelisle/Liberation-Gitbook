@@ -27,7 +27,6 @@
   * [✅ レーザー間で設定をコピーする](setting-up/copy-laser-settings.md)
   * [✅ レイテンシー設定](setting-up/latency-setting.md)
 * [🟩 Output ビュー / ゾーン](output-view/README.md)
-  * [ページ](output-view/page.md)
   * [✅ 概要](output-view/overview.md)
   * [🟩 ゾーン](output-view/zones.md)
   * [🟩 レーザー間でゾーンをコピーする](output-view/copy-zones-between-lasers.md)

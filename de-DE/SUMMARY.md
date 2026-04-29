@@ -27,7 +27,6 @@
   * [✅ Einstellungen zwischen Lasern kopieren](setting-up/copy-laser-settings.md)
   * [✅ Latenzeinstellung](setting-up/latency-setting.md)
 * [🟩 Output-Ansicht / Zonen](output-view/README.md)
-  * [Page](output-view/page.md)
   * [✅ Überblick](output-view/overview.md)
   * [🟩 Zonen](output-view/zones.md)
   * [🟩 Zonen zwischen Lasern kopieren](output-view/copy-zones-between-lasers.md)
