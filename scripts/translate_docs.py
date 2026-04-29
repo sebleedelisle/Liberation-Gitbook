@@ -35,6 +35,13 @@ LANGUAGE_NAMES = {
     "ko-KR": "Korean",
     "zh-HK": "Traditional Chinese (Hong Kong)",
     "zh-CN": "Simplified Chinese",
+    "vi-VN": "Vietnamese",
+    "tr-TR": "Turkish",
+    "cs-CZ": "Czech",
+    "hr-HR": "Croatian",
+    "ru-RU": "Russian",
+    "ar": "Arabic",
+    "zh-TW": "Traditional Chinese (Taiwan)",
 }
 LANGS_LABELS = {
     "de-DE": "Deutsch",
@@ -53,6 +60,13 @@ LANGS_LABELS = {
     "pt-BR": "Português do Brasil",
     "ko-KR": "한국어",
     "zh-HK": "繁體中文（香港）",
+    "vi-VN": "Tiếng Việt",
+    "tr-TR": "Türkçe",
+    "cs-CZ": "Čeština",
+    "hr-HR": "Hrvatski",
+    "ru-RU": "Русский",
+    "ar": "العربية",
+    "zh-TW": "繁體中文（台灣）",
 }
 BOOK_TITLES = {
     "de-DE": "Liberation Benutzerhandbuch",
@@ -71,6 +85,13 @@ BOOK_TITLES = {
     "pt-BR": "Manual do usuário do Liberation",
     "ko-KR": "Liberation 사용자 설명서",
     "zh-HK": "Liberation 使用手冊",
+    "vi-VN": "Sổ tay người dùng Liberation",
+    "tr-TR": "Liberation kullanıcı kılavuzu",
+    "cs-CZ": "Uživatelská příručka Liberation",
+    "hr-HR": "Korisnički priručnik za Liberation",
+    "ru-RU": "Руководство пользователя Liberation",
+    "ar": "دليل مستخدم Liberation",
+    "zh-TW": "Liberation 使用手冊",
 }
 LANGUAGE_STYLE_GUIDANCE = {
     "de-DE": (
@@ -145,6 +166,38 @@ LANGUAGE_STYLE_GUIDANCE = {
         "Use clear, concise, practical prose and avoid marketing-like phrasing. "
         "Keep established English software/UI terms in English when that is the natural Hong Kong usage."
     ),
+    "vi-VN": (
+        "For Vietnamese, use clear, natural Vietnamese technical-manual prose. "
+        "Use a direct, polite instructional tone and avoid overly literal English sentence structure. "
+        "Keep established English software/UI terms in English where Vietnamese technical users would naturally expect them."
+    ),
+    "tr-TR": (
+        "For Turkish, use natural Turkish technical-manual prose with an informal direct instructional tone. "
+        "Avoid overly literal English sentence structure and keep sentences concise."
+    ),
+    "cs-CZ": (
+        "For Czech, use natural Czech technical-manual prose. "
+        "Use direct instructions, avoid awkward literal phrasing, and keep established technical loanwords where they are normal Czech usage."
+    ),
+    "hr-HR": (
+        "For Croatian, use natural Croatian technical-manual prose. "
+        "Use direct instructions, avoid Serbian-only wording, and avoid overly literal English sentence structure."
+    ),
+    "ru-RU": (
+        "For Russian, use natural Russian technical-manual prose. "
+        "Use clear direct instructions, avoid marketing-like phrasing, and keep established English software/UI terms in English when they refer to exact UI labels."
+    ),
+    "ar": (
+        "For Arabic, use Modern Standard Arabic in clear technical-manual prose. "
+        "Use a direct, practical instructional tone. Keep left-to-right product names, acronyms, file paths, UI labels, and code unchanged. "
+        "Avoid regional colloquialisms."
+    ),
+    "zh-TW": (
+        "For Traditional Chinese (Taiwan), use Traditional Chinese characters and natural Taiwan technical-manual wording. "
+        "Avoid Simplified Chinese characters and Mainland-only terminology where Taiwan phrasing is more natural. "
+        "Use clear, concise, practical prose and avoid marketing-like phrasing. "
+        "Keep established English software/UI terms in English when that is the natural Taiwan usage."
+    ),
 }
 DEFAULT_OPENAI_MODEL = "gpt-5.5"
 DEFAULT_ANTHROPIC_MODEL = "claude-sonnet-4-6"
@@ -173,16 +226,12 @@ CURRENT_APP_TERMS = [
     "Output view",
     "Canvas view",
     "3D view",
+    "Controller Assignment",
     "Laser Overview",
     "Laser Settings",
     "Global Brightness",
-    "test pattern",
-    "arm",
-    "disarm",
-    "armed",
-    "disarmed",
-    "controller",
-    "laser controller",
+    "Test Pattern",
+    "DISARM ALL",
     "APC40",
     "LaserCube",
     "DMX",
@@ -456,9 +505,14 @@ def system_prompt(target_language, language_name):
             "such as setting-up-lasers.md, output-view, or Quick start guide; use the translated destination heading.",
             "Current app terminology: because the app UI is currently in English, keep these app concepts and UI terms",
             f"in English when they refer to Liberation features: {app_terms}.",
+            "When keeping an English app term, do not leave awkward English plural forms or source-language grammar in running prose;",
+            "rewrite the surrounding sentence so it reads naturally in the target language.",
+            "For arm/disarm/armed/disarmed, preserve exact UI labels such as DISARM ALL, but translate or explain prose actions",
+            "and states naturally when that is clearer in the target language.",
             "This glossary applies to Liberation UI and app concepts, not to generic hardware, safety, network, or operating-system terms.",
             "Translate generic terms such as laser, laser output, emergency stop button, interlock, key switch, aperture cover,",
-            "router, wired network, wireless network, network protocol, hardware, software, desktop, and file explorer naturally",
+            "router, wired network, wireless network, network protocol, laser controller, controller, test pattern, output level,",
+            "hardware, software, desktop, and file explorer naturally",
             "unless they are exact on-screen labels. Do not blindly leave whole English source phrases untranslated; use the target",
             "language's accepted technical term, loanword, or localized explanation, whichever is most natural for that language and",
             "industry context. For phrases such as E-stop, keyswitches, LaserCube network protocol, ILDA input, or 25-pin D connector,",
