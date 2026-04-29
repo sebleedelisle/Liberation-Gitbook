@@ -53,7 +53,7 @@
     * [🟩 Render profile](clip-editor/fundamentals/render-profile.md)
     * [🟩 分辨率](clip-editor/fundamentals/resolution.md)
     * [🟩 填充、masks 与深度排序](clip-editor/fundamentals/fills-masks-and-depth-sorting.md)
-  * [Creators](clip-editor/creator-nodes.md)
+  * [🟩 Creators](clip-editor/creator-nodes.md)
   * [🟩 Operator nodes](clip-editor/operator-nodes/README.md)
     * [🟩 Transformations](clip-editor/operator-nodes/transformations.md)
     * [🟩 Duplicators](clip-editor/operator-nodes/duplicators.md)

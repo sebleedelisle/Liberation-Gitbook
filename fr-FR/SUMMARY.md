@@ -56,7 +56,7 @@
   * [🟩 Nœuds Creator](clip-editor/creator-nodes.md)
   * [🟩 Nœuds Operator](clip-editor/operator-nodes/README.md)
     * [🟩 Transformations](clip-editor/operator-nodes/transformations.md)
-    * [Duplicators](clip-editor/operator-nodes/duplicators.md)
+    * [🟩 Duplicators](clip-editor/operator-nodes/duplicators.md)
     * [🟩 Changement de couleur](clip-editor/operator-nodes/colour-changer.md)
     * [🟩 Modificateurs basés sur la position](clip-editor/operator-nodes/position-based-changers.md)
     * [🟩 Modificateurs de chemin](clip-editor/operator-nodes/path-modifiers.md)
