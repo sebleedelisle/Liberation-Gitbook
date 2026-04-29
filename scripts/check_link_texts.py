@@ -20,6 +20,7 @@ HEADING_PATTERN = re.compile(r"^(#{1,6})\s+(.+?)\s*$", re.MULTILINE)
 SKIP_DIRS = {"_book", "node_modules"}
 EXTERNAL_TARGET_PATTERN = re.compile(r"^[a-z][a-z0-9+.-]*:", re.IGNORECASE)
 EMOJI_PREFIX_PATTERN = re.compile(r"^[\s\u2600-\u27BF\U0001F300-\U0001FAFF]+")
+STATUS_PREFIX_PATTERN = re.compile(r"^((?:[\u2600-\u27BF\U0001F300-\U0001FAFF]\ufe0f?\s*)+)")
 
 
 @dataclass(frozen=True)
@@ -140,9 +141,13 @@ def destination_title(path: Path, anchor: str | None) -> str | None:
 def split_title_segments(title: str) -> list[str]:
     return [
         part.strip()
-        for part in re.split(r"\s+(?:/|:|–|\|)\s+|\s*/\s*|\s*:\s*", strip_markdown(title))
+        for part in re.split(r"\s+(?:/|／|:|–|\|)\s+|\s*[／/]\s*|\s*:\s*", strip_markdown(title))
         if normalized(part)
     ]
+
+
+def contains_normalized_phrase(text: str, phrase: str) -> bool:
+    return f" {phrase} " in f" {text} "
 
 
 def resolve_target(root: Path, locale: str, rel_file: Path, raw_target: str) -> tuple[Path, str | None] | None:
@@ -186,7 +191,14 @@ def preserve_label_style(original: str, replacement: str) -> str:
     wrappers = (("**", "**"), ("__", "__"), ("*", "*"), ("_", "_"), ("`", "`"))
     for prefix, suffix in wrappers:
         if stripped.startswith(prefix) and stripped.endswith(suffix) and len(stripped) > len(prefix) + len(suffix):
+            inner = stripped[len(prefix) : -len(suffix)]
+            status_match = STATUS_PREFIX_PATTERN.match(inner)
+            if status_match and not STATUS_PREFIX_PATTERN.match(replacement):
+                replacement = f"{status_match.group(1)}{replacement}"
             return f"{leading}{prefix}{replacement}{suffix}{trailing}"
+    status_match = STATUS_PREFIX_PATTERN.match(stripped)
+    if status_match and not STATUS_PREFIX_PATTERN.match(replacement):
+        replacement = f"{status_match.group(1)}{replacement}"
     return f"{leading}{replacement}{trailing}"
 
 
@@ -213,9 +225,18 @@ def replacement_for_label(label: str, english_title: str, translated_title: str)
             if index < len(translated_segments)
             else translated_title
         )
+        english_segment_norm = normalized(english_segment)
+        translated_segment_norm = normalized(translated_segment)
         if label_norm == normalized(english_segment) or link_label_slug(plain_label) == slugified(english_segment):
             if strip_markdown(plain_label) != translated_segment:
                 return translated_segment, "English destination title segment"
+        if (
+            english_segment_norm
+            and english_segment_norm != translated_segment_norm
+            and contains_normalized_phrase(label_norm, english_segment_norm)
+            and not contains_normalized_phrase(label_norm, translated_segment_norm)
+        ):
+            return translated_title, "Mixed English destination title segment"
 
     if is_slug_or_filename(plain_label):
         return translated_title, "Filename or slug link text"

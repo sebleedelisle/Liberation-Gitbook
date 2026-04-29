@@ -115,7 +115,7 @@
 * [✅ Referentie](reference/README.md)
   * [✅ Sneltoetsen](reference/keyboard-shortcuts.md)
   * [✅ APC40-referentie](reference/apc40-reference.md)
-  * [✅ MIDI Send/Receive-standaardmapping](reference/midi-send-receive-default-mapping.md)
+  * [✅ Standaard MIDI-mapping voor verzenden/ontvangen](reference/midi-send-receive-default-mapping.md)
   * [◼️ Woordenlijst / jargon](reference/glossary-jargon.md)
   * [✅ Het Preset-systeem](reference/the-preset-system.md)
 * [✅ Credits](credits.md)

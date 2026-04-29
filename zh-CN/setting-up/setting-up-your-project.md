@@ -19,11 +19,11 @@
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **调整 Zones：** \
-    在 _OUTPUT_ 视图中可查看 Zones。按 Tab 在激光间切换，或点击顶部的编号按钮。按需调整每个 Zone，或添加新的 Zones。参见 [Output view](../output-view/ "mention")。
+    在 _OUTPUT_ 视图中可查看 Zones。按 Tab 在激光间切换，或点击顶部的编号按钮。按需调整每个 Zone，或添加新的 Zones。参见 [Output 视图](../output-view/ "mention")。
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **设置每个 Clip 的 Zones：** \
-    点击 Clip 按钮触发 Clip，然后用屏幕上的按钮切换 Zones 以及 X/Y flip。参见 [Clips & Clip Deck](../clips/ "mention")。
+    点击 Clip 按钮触发 Clip，然后用屏幕上的按钮切换 Zones 以及 X/Y flip。参见 [Clips 与 Clip Deck](../clips/ "mention")。
 
     \
 

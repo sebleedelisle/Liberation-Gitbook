@@ -115,7 +115,7 @@
 * [✅ Viite](reference/README.md)
   * [✅ Pikanäppäimet](reference/keyboard-shortcuts.md)
   * [✅ APC40-viite](reference/apc40-reference.md)
-  * [✅ MIDI Send/Receive -oletusmääritys](reference/midi-send-receive-default-mapping.md)
+  * [✅ MIDI-lähetyksen ja -vastaanoton oletusmääritys](reference/midi-send-receive-default-mapping.md)
   * [◼️ Sanasto / erikoistermit](reference/glossary-jargon.md)
   * [✅ Preset-järjestelmä](reference/the-preset-system.md)
 * [✅ Tekijät](credits.md)

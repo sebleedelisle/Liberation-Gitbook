@@ -115,7 +115,7 @@
 * [✅ Riferimento](reference/README.md)
   * [✅ Scorciatoie da tastiera](reference/keyboard-shortcuts.md)
   * [✅ Riferimento APC40](reference/apc40-reference.md)
-  * [✅ Mappatura predefinita MIDI Send/Receive](reference/midi-send-receive-default-mapping.md)
+  * [✅ Mappatura predefinita MIDI di invio/ricezione](reference/midi-send-receive-default-mapping.md)
   * [◼️ Glossario / gergo](reference/glossary-jargon.md)
   * [✅ Il sistema Preset](reference/the-preset-system.md)
 * [✅ Crediti](credits.md)

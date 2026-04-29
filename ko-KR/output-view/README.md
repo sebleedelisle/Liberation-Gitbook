@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view
 ---
 
-# 🟩 Output view / Zones
+# 🟩 Output 보기 / Zones

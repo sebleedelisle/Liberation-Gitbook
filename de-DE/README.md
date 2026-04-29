@@ -29,7 +29,7 @@ Dieses Handbuch hilft dir, dich mit Liberation vertraut zu machen – von Instal
 
 * Beginne mit [**Wichtig! Lies dies zuerst**](important.md), um wichtige Sicherheits- und Lizenzhinweise zu prüfen, bevor du Hardware anschließt.
 * Folge der [**Schnellstartanleitung**](getting-started.md), wenn du schnell Output zum Laufen bringen möchtest, und gehe dann zu [**Hardware**](hardware/) und zur [**Einrichtung**](setting-up/) für eine ausführlichere Konfiguration.
-* Nutze die Abschnittsüberschriften, um direkt zu Themen zu springen, z. B. [**Clips & Clip deck**](clips/), [**Output-Ansicht**](output-view/), **usw.**, und kehre zu [**Referenz**](reference/) oder [**Fehlerbehebung**](troubleshooting/) zurück, wenn du genaue Antworten brauchst.
+* Nutze die Abschnittsüberschriften, um direkt zu Themen zu springen, z. B. [**Clips & Clip Deck**](clips/), [**Output-Ansicht**](output-view/), **usw.**, und kehre zu [**Referenz**](reference/) oder [**Fehlerbehebung**](troubleshooting/) zurück, wenn du genaue Antworten brauchst.
 
 ## Konventionen und Tipps
 

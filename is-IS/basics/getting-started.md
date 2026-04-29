@@ -24,7 +24,7 @@ Mikilvægt: Áður en þú setur einhverja leysa í arm skaltu ganga úr skugga 
 
 ### Öryggisstöðvun
 
-Í hvert sinn sem þú keyrir leysa verður þú að hafa **vélrænan neyðarstöðvunarhnapp** við höndina (sjá [Neyðarstöðvun og interlocks](../hardware/emergency-stop-interlocks.md)), en ef þú vilt setja allt í disarm án þess að um bráðatilvik sé að ræða geturðu notað _**DISARM ALL**_ hnappinn eða `Escape` lykilinn (eða _**SESSION**_ lykilinn á APC40). Þú getur líka lækkað Global Brightness með sleðanum á skjánum eða aðal-fader á APC40.
+Í hvert sinn sem þú keyrir leysa verður þú að hafa **vélrænan neyðarstöðvunarhnapp** við höndina (sjá [Neyðarstöðvun / öryggislæsingar](../hardware/emergency-stop-interlocks.md)), en ef þú vilt setja allt í disarm án þess að um bráðatilvik sé að ræða geturðu notað _**DISARM ALL**_ hnappinn eða `Escape` lykilinn (eða _**SESSION**_ lykilinn á APC40). Þú getur líka lækkað Global Brightness með sleðanum á skjánum eða aðal-fader á APC40.
 
 ### Sleðar og stýringar
 
@@ -100,7 +100,7 @@ Smelltu á zone til að velja það og stilltu síðan hornpunktana með músinn
 
 Vinstra megin er stika með röð táknhnappa; haltu músinni yfir hvaða hnappi sem er til að fá lýsingu á því hvað hann gerir. Hnapparnir hér leyfa þér að bæta við beam zones, canvas zones og masks. Þar eru einnig valkostir til að setja test pattern aðeins fyrir þennan leysi, ásamt stillingum fyrir grid og snapping.
 
-Nánar er fjallað um þetta í [Output view](../output-view/).
+Nánar er fjallað um þetta í [Output-sýn](../output-view/).
 
 #### Canvas
 

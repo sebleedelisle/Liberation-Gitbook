@@ -140,7 +140,7 @@ Du kan rulle Clip Deck mod venstre og højre med:
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_-knapper
 
-For at hjælpe dig med at holde overblikket er der en mini-visualisering af Clip Deck langs toppen. Se også [Clips & Clip deck](../clips/)
+For at hjælpe dig med at holde overblikket er der en mini-visualisering af Clip Deck langs toppen. Se også [Clips og Clip Deck](../clips/)
 
 #### Starte og stoppe clips
 
