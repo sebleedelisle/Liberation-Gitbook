@@ -35,6 +35,6 @@ Den här guiden hjälper dig att bli bekväm med Liberation – från installati
 
 * Statusemojier visar hur komplett innehållet är: ✅ klart, 🟧 delvis klart, 🟩 behöver bilder, ◼️ platshållare.
 * Länkar gäller den aktuella versionen; skärmbilder och menyer kan skilja sig något om du använder en äldre build.
-* Steg för hårdvara lyfter fram säkerhetsfokuserade standardval – kringgå aldrig interlocks och håll strålar borta från människor.
+* Steg för hårdvara lyfter fram säkerhetsfokuserade standardval – kringgå aldrig säkerhetsförreglingar och håll strålar borta från människor.
 
 Om du kör fast, titta först i [**FAQ**](faq.md) och sedan i avsnittet [**Felsökning**](troubleshooting/) för riktade lösningar innan du kontaktar support.

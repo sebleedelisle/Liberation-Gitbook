@@ -47,7 +47,7 @@ Prawdopodobnie jest to problem sprzętowy. Wykracza to poza zakres tego podręcz
 Zachowaj szczególną ostrożność przy wyłączaniu systemu scan fail safety. Silne statyczne wiązki mogą powodować przypalenia! Upewnij się, że masz pod ręką przycisk awaryjnego zatrzymania oraz gaśnicę.
 {% endhint %}
 
-* Sprawdź przewody i systemy interlock.
+* Sprawdź przewody i systemy blokad bezpieczeństwa.
 * Sprawdź całe okablowanie między kontrolerem a laserem.
 
 [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) może być niezwykle przydatnym narzędziem przy rozwiązywaniu problemów z laserem.

@@ -24,7 +24,7 @@ Importante: antes de colocar qualquer laser em armed, entenda os riscos envolvid
 
 ### Desligamento de segurança
 
-Sempre que você estiver operando lasers, é obrigatório ter à mão um **botão físico de parada de emergência** (veja [Parada de emergência e interlocks](../hardware/emergency-stop-interlocks.md)). Mas, se você quiser colocar tudo em disarmed sem tanta urgência, use o botão _**DISARM ALL**_, a tecla `Escape` ou a tecla _**SESSION**_ no APC40. Você também pode reduzir o Global Brightness usando o controle deslizante na tela ou o fader principal no APC40.
+Sempre que você estiver operando lasers, é obrigatório ter à mão um **botão físico de parada de emergência** (veja [Parada de emergência / intertravamentos](../hardware/emergency-stop-interlocks.md)). Mas, se você quiser colocar tudo em disarmed sem tanta urgência, use o botão _**DISARM ALL**_, a tecla `Escape` ou a tecla _**SESSION**_ no APC40. Você também pode reduzir o Global Brightness usando o controle deslizante na tela ou o fader principal no APC40.
 
 ### Controles deslizantes
 

@@ -50,7 +50,7 @@ Vi arbejder i øjeblikket på et konfigurerbart MIDI-system, som vil gøre dette
 * [Helios DAC](https://bitlasers.com/helios-laser-dac/)
 * [Mercury by X-Laser](https://x-laser.com/pages/mercury-laser-control-system) (du skal muligvis opdatere din firmware)
 * LaserCube USB (og LaserDock)
-* LaserCube network protocol (med kablet forbindelse)
+* LaserCube-netværksprotokol (med kablet forbindelse)
 * AVB som brugt af [LASollinger lasers](https://laseranimation.com/en/) (i øjeblikket kun macOS, under test)
 
 Se [Kompatible lasere og controllere (DACs)](hardware/compatible-lasers-and-controllers-dacs.md "mention") for flere oplysninger
@@ -63,7 +63,7 @@ For at fremme bedre interoperabilitet mellem software og hardware understøtter 
 
 Hvis din laser har en af følgende, kan du bruge den med Liberation:
 
-* En ekstern **ILDA input** – et 25-benet D-stik, der bruges med en kompatibel ekstern controller.
+* En ekstern **ILDA-indgang** – et 25-benet D-stik, der bruges med en kompatibel ekstern controller.
 * En internt installeret **Ether Dream**.
 * En hvilken som helst **LaserCube** (fungerer med både USB og Wi-Fi LaserCube).
 * En **X-Laser-enhed med indbygget Mercury-system** (i Ether Dream-tilstand).

@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control
 ---
 
-# 🟧 DMX / ArtNet
+# 🟧 DMX / Art-Net

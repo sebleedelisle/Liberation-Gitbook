@@ -19,6 +19,6 @@ PLASA tarjoaa maksuttoman ladattavan laserturvallisuusoppaan, joka on yleisesti 
 ### Noudata myös näitä turvallisuusohjeita:
 
 * Pidä säteet poissa yleisön silmistä: suuntaa ne yli 3 metrin korkeudelle yleisöalueilla; käytä vaimentimia tai säteenrajoittimia kohdistuksen aikana; älä koskaan suuntaa säteitä ihmisiin tai eläimiin.
-* Käytä aina lukituksia, E-stop-hätäpysäytystä ja avainkytkimiä — älä koskaan ohita niitä tai teippaa niitä alas.
+* Käytä aina turvalukituksia, hätäpysäytystä ja avainkytkimiä — älä koskaan ohita niitä tai teippaa niitä alas.
 * Liberation ei valvo MPE-rajoja eikä sisällä scan-fail-tunnistusta; hallitse tehoa, lisää ulkoisia turvajärjestelmiä ja noudata paikallisia määräyksiä.
 * Ensimmäisen käynnistyksen tarkistuslista: aloita testikuvioilla pienimmällä lähtöteholla, pidä sulkimet kiinni kunnes olet valmis, käynnistä yksi projektori kerrallaan ja vahvista vyöhykkeet/maskit ennen kuin lisäät muita. [Setting up your lasers](setting-up/setting-up-lasers.md).

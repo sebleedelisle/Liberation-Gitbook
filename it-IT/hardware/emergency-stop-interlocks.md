@@ -14,7 +14,7 @@ Accendere i tuoi laser può essere divertente, ma è fondamentale poterli anche 
 {% hint style="danger" %}
 Gli utensili elettrici e le attrezzature pesanti hanno pulsanti di arresto che interrompono semplicemente l'alimentazione principale, ma **non** devi mai farlo con le apparecchiature laser! I laser impiegano sempre un attimo a smettere di emettere, e un'interruzione improvvisa dell'alimentazione può far arrivare gli scanner laser ai loro limiti meccanici. Potresti quindi ottenere un fascio intenso in punti imprevisti!
 
-Per questo i laser hanno sistemi integrati di interlock e arresto remoto, che disattivano e attivano il laser in modo controllato.
+Per questo i laser hanno sistemi integrati di interblocco e arresto remoto, che disattivano e attivano il laser in modo controllato.
 {% endhint %}
 
 **Usa sempre i pulsanti di arresto remoto**, anche quando usi i laser in spazi privati e controllati. Non puoi mai sapere quando qualcuno potrebbe entrare per caso nel percorso del laser, o quando un fascio intenso imprevisto potrebbe iniziare a bruciare l'intonaco (chiedimi come lo so).

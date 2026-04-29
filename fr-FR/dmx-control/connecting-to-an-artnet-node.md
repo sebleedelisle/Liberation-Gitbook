@@ -5,4 +5,4 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/connecting-to-an-artnet-node
 ---
 
-# ◼️ Connexion à un nœud Artnet
+# ◼️ Connexion à un nœud Art-Net

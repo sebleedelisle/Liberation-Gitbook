@@ -22,7 +22,7 @@ Tidlige LaserCube-enheter styres via USB, men alle nåværende modeller har en i
 
 Koble LaserCube til datamaskinen med en micro-USB-kabel, og se deretter etter den i _Controller Assignment_-panelet (se [Kontrollertildeling](../setting-up/controller-assignment.md "mention")). Hvis den ikke vises automatisk, trykker du på _REFRESH_-knappen.
 
-### Network LaserCube "Wifi"
+### Nettverks-LaserCube "Wifi"
 
 {% hint style="danger" %}
 Selv om «Wifi»-kubene er laget for å brukes over et trådløst nettverk, anbefales ikke dette. Du vil sannsynligvis få dropouts og glitches. Bruk i stedet RJ45-kontakten til å koble LaserCube til et kablet nettverk, akkurat som du ville gjort med Ether Dreams.
@@ -45,7 +45,7 @@ I stedet fortsetter de bare der de slapp, og i noen tilfeller kan dette føre ti
 
 Jeg snakker med designerne/utviklerne av LaserCube, og jeg håper dette er noe de løser i fremtiden med en firmware-oppdatering. I mellomtiden må du sørge for at du fysisk maskerer alle steder der du ikke vil at laseren skal treffe.
 
-For å være rettferdig bør du sannsynligvis gjøre dette uansett, men jeg bruker selv programvaremasker for å beskytte kameraer og projektorer. Så vær oppmerksom på at det er farligere å gjøre dette med LaserCube-nettverksprotokollen enn med Ether Dream (som går i en safety stop-modus så snart det oppstår en feil eller mangler data).
+For å være rettferdig bør du sannsynligvis gjøre dette uansett, men jeg bruker selv programvaremasker for å beskytte kameraer og projektorer. Så vær oppmerksom på at det er farligere å gjøre dette med LaserCube-nettverksprotokollen enn med Ether Dream (som går i en sikkerhetsstoppmodus så snart det oppstår en feil eller mangler data).
 
 Og som jeg allerede har sagt: **bruk en kablet tilkobling til LaserCube**. Wifi holder ikke, og vil gjøre dette problemet enda verre.
 {% endhint %}

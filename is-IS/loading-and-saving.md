@@ -17,7 +17,7 @@ Verkefnisskráin geymir nánast allt í núverandi uppsetningu, þar á meðal:
 * Allt sem er lýst í [Innflutningur / útflutningur á Laser Settings](loading-and-saving.md#laser-settings-import-export) hér að neðan
 * Clips, áhrif og hópstillingar
 * Allar tímalínurnar þínar (ekki hljóð- og myndmiðlun)
-* Uppsetning fyrir ArtNet
+* Uppsetning fyrir Art-Net
 * Stillingar fyrir MIDI sendingu/móttöku
 * Stillingar fyrir tempó / samstillingu
 
@@ -109,9 +109,9 @@ Ef tímalínuskráin inniheldur fleiri en eina tímalínu birtast þær allar á
 Til að flytja aðeins inn tímalínur úr verkefni skaltu velja _**Timeline->Import Timeline(s)**_ og velja verkefnisskrá í stað tímalínuskrár (.ltml).
 {% endhint %}
 
-### Innflutningur / útflutningur á DMX / ArtNet
+### Innflutningur / útflutningur á DMX / Art-Net
 
-Vistar og hleður inn ArtNet nodes ásamt IP-tölum þeirra. Inniheldur einnig DMX zones og allar DMX-forstillingarnar þínar.
+Vistar og hleður inn Art-Net nodes ásamt IP-tölum þeirra. Inniheldur einnig DMX zones og allar DMX-forstillingarnar þínar.
 
 ### Mikilvæg athugasemd um miðlunarskrár í tímalínum
 

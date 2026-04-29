@@ -189,7 +189,7 @@ CURRENT_APP_TERMS = [
     "OSC",
     "ILDA",
     "DAC",
-    "ArtNet",
+    "Art-Net",
 ]
 
 
@@ -438,9 +438,15 @@ def system_prompt(target_language, language_name):
             "such as setting-up-lasers.md, output-view, or Quick start guide; use the translated destination heading.",
             "Current app terminology: because the app UI is currently in English, keep these app concepts and UI terms",
             f"in English when they refer to Liberation features: {app_terms}.",
-            "This glossary applies to Liberation UI and app concepts, not to generic hardware, safety, or operating-system terms.",
-            "Translate generic terms such as laser, laser output, emergency stop button, aperture cover, hardware, software,",
-            "desktop, and file explorer naturally unless they are exact on-screen labels.",
+            "This glossary applies to Liberation UI and app concepts, not to generic hardware, safety, network, or operating-system terms.",
+            "Translate generic terms such as laser, laser output, emergency stop button, interlock, key switch, aperture cover,",
+            "router, wired network, wireless network, network protocol, hardware, software, desktop, and file explorer naturally",
+            "unless they are exact on-screen labels. Use the target language's accepted technical term or loanword where that is",
+            "the normal industry usage, but do not leave whole source phrases such as E-stop, keyswitches, LaserCube network protocol,",
+            "ILDA input, or 25-pin D connector untranslated in running prose.",
+            "Keep established protocol, connector, product, and acronym names unchanged, including ILDA, DMX, MIDI, OSC, DAC, USB,",
+            "RJ45, XLR, TRRS, IP, DHCP, Ethernet, Art-Net, Ether Dream, LaserCube, LaserOS, APC40, Windows, and macOS.",
+            "Use Art-Net as the visible spelling everywhere; do not use ArtNet, Artnet, or Art net.",
             "Translate the surrounding sentence naturally and use local articles, descriptors, or short explanations when needed",
             "to make the English app term fit the target-language grammar.",
             "Do not create awkward hybrid forms by adding target-language verb or case endings directly to English app terms;",

@@ -17,7 +17,7 @@ Het projectbestand slaat bijna alles uit je huidige setup op, waaronder:
 * Alles wat hieronder wordt beschreven bij [Laden en opslaan](loading-and-saving.md#laser-settings-import-export "mention")
 * Clips, effecten en groepsinstellingen
 * Al je tijdlijnen (zonder audio- en videomedia)
-* ArtNet-setup
+* Art-Net-setup
 * Instellingen voor MIDI verzenden/ontvangen
 * Tempo- en synchronisatie-instellingen
 
@@ -109,9 +109,9 @@ Als het tijdlijnbestand meer dan één tijdlijn bevat, worden ze allemaal weerge
 Als je alleen de tijdlijnen uit een project wilt importeren, selecteer je _**Timeline->Import Timeline(s)**_ en kies je in plaats van een tijdlijnbestand (.ltml) een projectbestand.
 {% endhint %}
 
-### DMX / ArtNet importeren/exporteren
+### DMX / Art-Net importeren/exporteren
 
-Slaat de ArtNet-nodes en hun IP-adressen op en laadt ze weer. Bevat ook de DMX-zones en al je DMX-presets.
+Slaat de Art-Net-nodes en hun IP-adressen op en laadt ze weer. Bevat ook de DMX-zones en al je DMX-presets.
 
 ### Belangrijke opmerking over mediabestanden voor tijdlijnen
 

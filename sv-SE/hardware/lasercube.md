@@ -22,7 +22,7 @@ Tidiga LaserCube-enheter styrs via USB, men de nuvarande modellerna har alla en 
 
 Anslut din LaserCube till datorn med en micro-USB-kabel och leta sedan efter den i panelen _Controller Assignment_ (se [Tilldela kontroller](../setting-up/controller-assignment.md "mention")). Om den inte visas automatiskt trycker du på knappen _REFRESH_.
 
-### Network LaserCube "Wifi"
+### Nätverks-LaserCube "Wifi"
 
 {% hint style="danger" %}
 Även om "Wifi"-kuberna är utformade för att användas via ett trådlöst nätverk rekommenderas det inte, eftersom du sannolikt får avbrott och störningar. Använd i stället RJ45-uttaget för att ansluta din LaserCube till ett trådbundet nätverk, precis som du skulle göra med Ether Dreams.

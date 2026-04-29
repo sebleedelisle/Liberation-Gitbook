@@ -63,7 +63,7 @@ A szoftverek és hardverek közötti jobb együttműködés érdekében a Libera
 
 Ha a lézered rendelkezik az alábbiak egyikével, használhatod a Liberationnel:
 
-* Külső **ILDA input** – egy 25 tűs D-csatlakozó, kompatibilis külső vezérlővel használva.
+* Külső **ILDA-bemenet** – egy 25 tűs D-csatlakozó, kompatibilis külső vezérlővel használva.
 * Beépített **Ether Dream**.
 * Bármely **LaserCube** (USB-s és Wi-Fi-s LaserCube-bal is működik).
 * **Beépített Mercury rendszerrel rendelkező X-Laser egység** (Ether Dream módban).

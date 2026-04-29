@@ -17,7 +17,7 @@ Il file di progetto salva quasi tutto ciò che è presente nella configurazione 
 * Tutto ciò che è descritto in [Caricamento e salvataggio](loading-and-saving.md#laser-settings-import-export) più sotto
 * Clip, effetti e impostazioni dei gruppi
 * Tutte le tue timeline (esclusi i media audio e video)
-* Configurazione ArtNet
+* Configurazione Art-Net
 * Impostazioni di invio/ricezione MIDI
 * Impostazioni di tempo/sincronizzazione
 
@@ -109,9 +109,9 @@ Se il file timeline contiene più di una timeline, verranno elencate tutte. Sele
 Per importare solo le timeline da un progetto, seleziona _**Timeline->Import Timeline(s)**_ e, invece di scegliere un file timeline (.ltml), scegli un file di progetto.
 {% endhint %}
 
-### Importazione/esportazione DMX / ArtNet
+### Importazione/esportazione DMX / Art-Net
 
-Salva e carica i nodi ArtNet insieme ai relativi indirizzi IP. Include anche le zone DMX e tutti i tuoi preset DMX.
+Salva e carica i nodi Art-Net insieme ai relativi indirizzi IP. Include anche le zone DMX e tutti i tuoi preset DMX.
 
 ### Nota importante sui file media della timeline
 

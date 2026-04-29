@@ -47,7 +47,7 @@ Dan is het waarschijnlijk een hardwareprobleem. Dit valt buiten de scope van dez
 Wees uiterst voorzichtig wanneer je het scan fail safety-systeem uitschakelt. Sterke statische bundels kunnen brand veroorzaken! Zorg dat je een stopknop en een brandblusser bij de hand hebt.
 {% endhint %}
 
-* Controleer interlock-kabels en -systemen
+* Controleer veiligheidsvergrendelingskabels en -systemen
 * Controleer alle bekabeling tussen de controller en de laser.
 
 Een [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) kan een onmisbaar hulpmiddel zijn bij het oplossen van laserproblemen.

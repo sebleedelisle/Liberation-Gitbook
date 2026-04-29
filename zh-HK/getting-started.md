@@ -30,7 +30,7 @@ Liberation 非常靈活，即使完全沒有連接實際激光，你也可以設
 
 ### 安全停機
 
-任何時候運行激光，你都必須準備好一個 **硬件緊急停止按鈕**（請參閱 [緊急停止與 interlock](hardware/emergency-stop-interlocks.md)）。如果你只想以較非緊急的方式停用所有輸出，可以使用 _**DISARM ALL**_ 按鈕，或按 `Escape` 鍵（或 APC40 上的 _**SESSION**_ 鍵）。你亦可以使用畫面上的滑桿，或 APC40 上的主 fader，降低全域亮度。
+任何時候運行激光，你都必須準備好一個 **硬件緊急停止按鈕**（請參閱 [緊急停止 / 互鎖](hardware/emergency-stop-interlocks.md)）。如果你只想以較非緊急的方式停用所有輸出，可以使用 _**DISARM ALL**_ 按鈕，或按 `Escape` 鍵（或 APC40 上的 _**SESSION**_ 鍵）。你亦可以使用畫面上的滑桿，或 APC40 上的主 fader，降低全域亮度。
 
 ### 滑桿元素
 

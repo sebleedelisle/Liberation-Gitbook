@@ -63,7 +63,7 @@ Jotta ohjelmistojen ja laitteistojen yhteentoimivuutta voitaisiin parantaa, Libe
 
 Jos laserissasi on jokin seuraavista, voit käyttää sitä Liberationin kanssa:
 
-* Ulkoinen **ILDA input** – 25-nastainen D-liitin, jota käytetään yhteensopivan ulkoisen ohjaimen kanssa.
+* Ulkoinen **ILDA-tulo** – 25-nastainen D-liitin, jota käytetään yhteensopivan ulkoisen ohjaimen kanssa.
 * Sisäisesti asennettu **Ether Dream**.
 * Mikä tahansa **LaserCube** (toimii sekä USB- että Wi-Fi LaserCube -laitteiden kanssa).
 * **X-Laser-laite, jossa on sisäänrakennettu Mercury-järjestelmä** (Ether Dream mode -tilassa).

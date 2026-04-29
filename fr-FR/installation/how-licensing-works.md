@@ -13,7 +13,7 @@ Une fois Liberation installé sur votre ordinateur, il fonctionne en _mode démo
 Le _mode démo_ n’a aucune restriction, sauf l’envoi du signal vers le matériel laser. Vous pouvez répéter des shows, créer des timelines, et enregistrer et charger vos fichiers sans limitation. Vous pouvez installer Liberation en _mode démo_ sur autant d’ordinateurs que vous le souhaitez ; vous n’avez besoin d’autoriser votre installation que lorsque vous êtes prêt à utiliser des lasers !
 {% endhint %}
 
-En plus du nombre de lasers que vous pouvez armer, vous pouvez également utiliser des appareils DMX. Voir [DMX / Artnet](../dmx-control/ "mention").
+En plus du nombre de lasers que vous pouvez armer, vous pouvez également utiliser des appareils DMX. Voir [DMX / Art-Net](../dmx-control/ "mention").
 
 Le nombre d’ordinateurs sur lesquels vous pouvez autoriser Liberation dépend également de votre niveau d’abonnement.
 

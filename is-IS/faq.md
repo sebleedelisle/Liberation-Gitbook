@@ -50,7 +50,7 @@ Við erum nú að vinna að stillanlegu MIDI-kerfi sem mun gera þetta mögulegt
 * [Helios DAC](https://bitlasers.com/helios-laser-dac/)
 * [Mercury by X-Laser](https://x-laser.com/pages/mercury-laser-control-system) (þú gætir þurft að uppfæra fastbúnaðinn)
 * LaserCube USB (og LaserDock)
-* LaserCube network protocol (með snúrutengingu)
+* Netsamskiptareglur LaserCube (með snúrutengingu)
 * AVB eins og notað er af [LASollinger lasers](https://laseranimation.com/en/) (nú aðeins í prófun á macOS)
 
 Sjá [Samhæfðir laserar og laser controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md) fyrir frekari upplýsingar
@@ -63,7 +63,7 @@ Til að hvetja til betri samvirkni milli hugbúnaðar og vélbúnaðar styður L
 
 Ef laserinn þinn hefur eitt af eftirfarandi geturðu notað hann með Liberation:
 
-* Ytra **ILDA input** – 25 pinna D-tengi, notað með samhæfum ytri controller.
+* Ytra **ILDA-inntak** – 25 pinna D-tengi, notað með samhæfri ytri stýringu.
 * Innbyggt **Ether Dream**.
 * Hvaða **LaserCube** sem er (virkar bæði með USB og Wi-Fi LaserCube).
 * **X-Laser-einingu með innbyggðu Mercury-kerfi** (í Ether Dream mode).

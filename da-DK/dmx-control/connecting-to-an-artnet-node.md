@@ -5,4 +5,4 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/connecting-to-an-artnet-node
 ---
 
-# ◼️ Opret forbindelse til en Artnet-node
+# ◼️ Opret forbindelse til en Art-Net-node

@@ -19,6 +19,6 @@ PLASA ofrece una guía gratuita descargable sobre seguridad láser que, en gener
 ### Cumple también estas precauciones de seguridad:
 
 * Mantén los haces fuera de los ojos del público: apunta por encima de 3 m en las zonas de público; usa atenuadores/bloqueadores de haz durante el posicionamiento; no apuntes nunca a personas ni animales.
-* Usa siempre interlocks, E-stop y keyswitches; no los anules ni los fijes nunca con cinta.
+* Usa siempre enclavamientos, parada de emergencia e interruptores de llave; no los anules ni los fijes nunca con cinta.
 * Liberation no aplica límites MPE ni detección de fallos de escaneo; gestiona la potencia, añade sistemas de seguridad externos y cumple la normativa local.
 * Lista de comprobación para el primer encendido: empieza con patrones de prueba a la salida más baja, mantén los shutters cerrados hasta que todo esté listo, activa un proyector cada vez y confirma zonas/máscaras antes de añadir más. [Setting up your lasers](setting-up/setting-up-lasers.md).

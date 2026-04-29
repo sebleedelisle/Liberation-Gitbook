@@ -24,7 +24,7 @@ Fontos: mielőtt bármelyik lézert armed állapotba tennéd, győződj meg ról
 
 ### Biztonsági leállítás
 
-Amikor lézereket működtetsz, mindig legyen kéznél egy **hardveres vészleállító gomb** (lásd: [Vészleállítók és reteszek](../hardware/emergency-stop-interlocks.md)). Ha kevésbé sürgős helyzetben szeretnél mindent _disarmed_ állapotba kapcsolni, használhatod a _**DISARM ALL**_ gombot, az `Escape` billentyűt, vagy az APC40 _**SESSION**_ gombját. A Global Brightness értékét is csökkentheted a képernyőn látható csúszkával vagy az APC40 fő faderével.
+Amikor lézereket működtetsz, mindig legyen kéznél egy **hardveres vészleállító gomb** (lásd: [Vészleállítás / reteszelések](../hardware/emergency-stop-interlocks.md)). Ha kevésbé sürgős helyzetben szeretnél mindent _disarmed_ állapotba kapcsolni, használhatod a _**DISARM ALL**_ gombot, az `Escape` billentyűt, vagy az APC40 _**SESSION**_ gombját. A Global Brightness értékét is csökkentheted a képernyőn látható csúszkával vagy az APC40 fő faderével.
 
 ### Csúszkaelemek
 

@@ -13,7 +13,7 @@ Kun olet asentanut Liberationin tietokoneellesi, se toimii _demotilassa_, kunnes
 _Demotilassa_ ei ole muita rajoituksia kuin lähetys laser-laitteistoon. Voit harjoitella esityksiä, rakentaa aikajanoja sekä tallentaa ja ladata tiedostojasi ilman rajoituksia. Voit asentaa Liberationin _demotilassa_ niin monelle tietokoneelle kuin haluat, ja sinun tarvitsee valtuuttaa asennus vasta, kun olet valmis käyttämään lasereita!
 {% endhint %}
 
-Sen lisäksi, kuinka monta laseria voit ottaa käyttöön arm-toiminnolla, voit käyttää myös DMX-laitteita. Katso [DMX / Artnet](../dmx-control/).
+Sen lisäksi, kuinka monta laseria voit ottaa käyttöön arm-toiminnolla, voit käyttää myös DMX-laitteita. Katso [DMX / Art-Net](../dmx-control/).
 
 Myös niiden tietokoneiden määrä, joihin voit valtuuttaa Liberationin, riippuu tilaustasostasi.
 

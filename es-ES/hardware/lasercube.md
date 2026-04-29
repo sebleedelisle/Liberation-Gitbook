@@ -22,7 +22,7 @@ Los primeros LaserCube se controlan por USB, pero los modelos actuales incorpora
 
 Conecta tu LaserCube al ordenador con un cable micro USB y búscalo en el panel _Controller Assignment_ (consulta [Asignación de controladores](../setting-up/controller-assignment.md "mention")). Si no aparece automáticamente, pulsa el botón _REFRESH_.
 
-### Network LaserCube "Wifi"
+### LaserCube de red "Wifi"
 
 {% hint style="danger" %}
 Aunque los cubos "Wifi" están diseñados para funcionar a través de una red inalámbrica, no es recomendable usarlos así: es probable que tengas cortes y fallos. En su lugar, usa el conector RJ45 para conectar tu LaserCube a una red cableada, igual que harías con Ether Dreams.

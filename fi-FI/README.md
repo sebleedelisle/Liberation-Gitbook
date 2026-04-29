@@ -35,6 +35,6 @@ Tämä opas auttaa sinua pääsemään sinuiksi Liberation-ohjelman kanssa aina 
 
 * Tilan emojit kertovat valmiusasteen: ✅ valmis, 🟧 osittainen, 🟩 tarvitsee kuvia, ◼️ paikkamerkki.
 * Linkit koskevat nykyistä julkaisua. Kuvakaappaukset ja valikot voivat poiketa hieman, jos käytössäsi on vanhempi versio.
-* Laitteistovaiheissa korostetaan turvallisia oletuksia: älä koskaan ohita interlock-suojauksia ja pidä säteet poissa ihmisistä.
+* Laitteistovaiheissa korostetaan turvallisia oletuksia: älä koskaan ohita turvalukituksia ja pidä säteet poissa ihmisistä.
 
 Jos jäät jumiin, tarkista ensin [**Usein kysytyt kysymykset**](faq.md) ja sen jälkeen [**Vianmääritys**](troubleshooting/) kohdennettuja ratkaisuja varten ennen kuin otat yhteyttä tukeen.

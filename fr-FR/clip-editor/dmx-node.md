@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 Nœud DMX
 
-Le nœud DMX est un nœud spécial qui vous permet de contrôler plus finement les appareils DMX. Consultez [DMX / Artnet](../dmx-control/ "mention") pour plus d’informations.
+Le nœud DMX est un nœud spécial qui vous permet de contrôler plus finement les appareils DMX. Consultez [DMX / Art-Net](../dmx-control/ "mention") pour plus d’informations.

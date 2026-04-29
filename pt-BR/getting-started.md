@@ -30,7 +30,7 @@ Importante: antes de armar qualquer laser, certifique-se de entender os riscos e
 
 ### Desligamento de segurança
 
-Sempre que você estiver operando lasers, deve ter um **botão físico de parada de emergência** à mão (veja [Parada de emergência / interlocks](hardware/emergency-stop-interlocks.md)). Mas, se quiser desarmar tudo de forma menos urgente, você pode usar o botão _**DISARM ALL**_ ou a tecla `Escape` (ou a tecla _**SESSION**_ no APC40). Você também pode reduzir o brilho global usando o controle deslizante na tela ou o fader principal no APC40.
+Sempre que você estiver operando lasers, deve ter um **botão físico de parada de emergência** à mão (veja [Parada de emergência / intertravamentos](hardware/emergency-stop-interlocks.md)). Mas, se quiser desarmar tudo de forma menos urgente, você pode usar o botão _**DISARM ALL**_ ou a tecla `Escape` (ou a tecla _**SESSION**_ no APC40). Você também pode reduzir o brilho global usando o controle deslizante na tela ou o fader principal no APC40.
 
 ### Controles deslizantes
 

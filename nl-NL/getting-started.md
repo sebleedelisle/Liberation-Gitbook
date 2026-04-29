@@ -30,7 +30,7 @@ Belangrijk: voordat je lasers armt, moet je zorgen dat je de risico's begrijpt e
 
 ### Veiligheidsuitschakeling
 
-Wanneer je lasers gebruikt, moet je altijd een **hardware-noodstopknop** bij de hand hebben (zie [Noodstop / interlocks](hardware/emergency-stop-interlocks.md "mention")). Als je alles minder dringend wilt disarmen, kun je de knop _**DISARM ALL**_ gebruiken, of de `Escape`-toets (of de _**SESSION**_-toets op de APC40). Je kunt ook de globale helderheid verlagen met de schuifregelaar op het scherm of met de main fader op de APC40.
+Wanneer je lasers gebruikt, moet je altijd een **hardware-noodstopknop** bij de hand hebben (zie [Noodstop / veiligheidsvergrendelingen](hardware/emergency-stop-interlocks.md "mention")). Als je alles minder dringend wilt disarmen, kun je de knop _**DISARM ALL**_ gebruiken, of de `Escape`-toets (of de _**SESSION**_-toets op de APC40). Je kunt ook de globale helderheid verlagen met de schuifregelaar op het scherm of met de main fader op de APC40.
 
 ### Schuifregelaars
 

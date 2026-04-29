@@ -19,6 +19,6 @@ PLASA mette a disposizione una guida gratuita scaricabile sulla sicurezza laser,
 ### Rispetta anche queste precauzioni di sicurezza:
 
 * Tieni i fasci lontani dagli occhi del pubblico: puntali sopra i 3 m nelle aree del pubblico; usa attenuatori o blocchi fascio durante il posizionamento; non puntarli mai verso persone o animali.
-* Usa sempre interlock, E-stop e keyswitch: non bypassarli mai e non bloccarli mai con nastro o altri mezzi.
+* Usa sempre interblocchi, arresto di emergenza e interruttori a chiave: non aggirarli mai e non bloccarli mai con nastro o altri mezzi.
 * Liberation non impone i limiti MPE né il rilevamento di scan-fail; gestisci la potenza, aggiungi sistemi di sicurezza esterni e rispetta le normative locali.
 * Checklist per la prima accensione: inizia con pattern di test all’uscita minima, tieni gli shutter chiusi finché non sei pronto, attiva un proiettore alla volta, conferma zone e maschere prima di aggiungerne altri. [Setting up your lasers](setting-up/setting-up-lasers.md).

@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX-nod
 
-DMX-noden är en specialnod som ger dig mer detaljerad kontroll över DMX-armaturer. Se [DMX / ArtNet](../dmx-control/ "mention") för mer information.
+DMX-noden är en specialnod som ger dig mer detaljerad kontroll över DMX-armaturer. Se [DMX / Art-Net](../dmx-control/ "mention") för mer information.

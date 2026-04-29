@@ -24,7 +24,7 @@ Importante: prima di portare qualsiasi laser in stato armed, assicurati di compr
 
 ### Arresto di sicurezza
 
-Ogni volta che usi i laser devi avere a portata di mano un **pulsante di arresto di emergenza hardware** (vedi [Arresto di emergenza e interlock](../hardware/emergency-stop-interlocks.md)); se invece vuoi portare tutto in stato disarmed senza urgenza, puoi usare il pulsante _**DISARM ALL**_, il tasto `Escape` oppure il tasto _**SESSION**_ sull’APC40. Puoi anche ridurre la Global Brightness usando lo slider sullo schermo o il fader principale dell’APC40.
+Ogni volta che usi i laser devi avere a portata di mano un **pulsante di arresto di emergenza hardware** (vedi [Arresto di emergenza / interblocchi](../hardware/emergency-stop-interlocks.md)); se invece vuoi portare tutto in stato disarmed senza urgenza, puoi usare il pulsante _**DISARM ALL**_, il tasto `Escape` oppure il tasto _**SESSION**_ sull’APC40. Puoi anche ridurre la Global Brightness usando lo slider sullo schermo o il fader principale dell’APC40.
 
 ### Slider e controlli
 

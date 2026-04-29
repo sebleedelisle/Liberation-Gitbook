@@ -47,7 +47,7 @@ Então provavelmente é um problema de hardware. Isso está fora do escopo deste
 Tenha extremo cuidado ao desativar o sistema scan fail safety. Feixes estáticos fortes podem causar queimaduras! Certifique-se de ter um botão de parada e um extintor de incêndio à mão.
 {% endhint %}
 
-* Verifique os cabos e sistemas de interlock
+* Verifique os cabos e sistemas de intertravamento
 * Verifique todo o cabeamento entre o controlador e o laser.
 
 Um [ILDA Gem](https://shop.stanwaxlaser.co.uk/ilda-gem-pocket-2020-718-p.asp) pode ser uma ferramenta inestimável para solucionar problemas com lasers.

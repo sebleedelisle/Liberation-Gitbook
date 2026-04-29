@@ -17,7 +17,7 @@ A Project fájl a jelenlegi beállítások szinte minden elemét tárolja, több
 * Mindent, ami az alábbi részben szerepel: [Betöltés és mentés](loading-and-saving.md#laser-settings-import-export)
 * Klipeket, effekteket és csoportbeállításokat
 * Az összes timeline-t, az audio- és videomédia kivételével
-* ArtNet-beállításokat
+* Art-Net-beállításokat
 * MIDI küldési/fogadási beállításokat
 * Tempó- és szinkronizációs beállításokat
 
@@ -109,9 +109,9 @@ Ha a timeline fájl egynél több timeline-t tartalmaz, mindegyik megjelenik a l
 Ha csak a timeline-okat szeretné importálni egy projektből, válassza a _**Timeline->Import Timeline(s)**_ lehetőséget, majd timeline fájl (.ltml) helyett válasszon egy projektfájlt.
 {% endhint %}
 
-### DMX / ArtNet importálása/exportálása
+### DMX / Art-Net importálása/exportálása
 
-Menti és betölti az ArtNet node-okat az IP-címeikkel együtt. Tartalmazza a DMX zones elemeket és az összes DMX presetet is.
+Menti és betölti az Art-Net node-okat az IP-címeikkel együtt. Tartalmazza a DMX zones elemeket és az összes DMX presetet is.
 
 ### Fontos megjegyzés a timeline médiafájljairól
 

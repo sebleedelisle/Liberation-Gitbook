@@ -35,6 +35,6 @@ Umfram allt er Liberation gert til að vera tjáningarríkt sköpunarverkfæri. 
 
 * Stöðu-emoji sýna hversu langt efnið er komið: ✅ lokið, 🟧 að hluta lokið, 🟩 vantar myndir, ◼️ staðgengill.
 * Tenglar miðast við núverandi útgáfu; skjámyndir og valmyndir geta verið aðeins frábrugðnar ef þú ert með eldri útgáfu.
-* Skref fyrir vélbúnað benda á öruggar sjálfgefnar stillingar – farðu aldrei fram hjá interlocks og haltu geislum frá fólki.
+* Skref fyrir vélbúnað benda á öruggar sjálfgefnar stillingar – farðu aldrei fram hjá öryggislæsingum og haltu geislum frá fólki.
 
 Ef þú festist skaltu skoða [**Algengar spurningar**](faq.md) og síðan kaflann [**Úrræðaleit**](troubleshooting/) fyrir markvissar lausnir áður en þú hefur samband við þjónustuaðila.

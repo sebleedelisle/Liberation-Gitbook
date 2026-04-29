@@ -22,7 +22,7 @@ Varhaisia LaserCube-malleja ohjataan USB:n kautta, mutta nykyisissä malleissa o
 
 Liitä LaserCube tietokoneeseen micro USB -kaapelilla ja etsi se sitten _Controller Assignment_ -paneelista (katso [Ohjaimen määritys](../setting-up/controller-assignment.md)). Jos se ei tule näkyviin automaattisesti, paina _REFRESH_-painiketta.
 
-### Network LaserCube "Wifi"
+### Verkko-LaserCube "Wifi"
 
 {% hint style="danger" %}
 Vaikka "Wifi"-kuutiot on suunniteltu käytettäviksi langattomassa verkossa, sitä ei suositella. Yhteyteen tulee todennäköisesti katkoksia ja häiriöitä. Käytä sen sijaan RJ45-liitäntää ja yhdistä LaserCube langalliseen verkkoon, aivan kuten Ether Dreamien kanssa.

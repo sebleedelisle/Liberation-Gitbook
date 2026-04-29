@@ -35,6 +35,6 @@ Denne veiledningen hjelper deg med å bli trygg på Liberation – fra installas
 
 * Status-emojier viser hvor komplett innholdet er: ✅ ferdig, 🟧 delvis, 🟩 trenger bilder, ◼️ plassholder.
 * Lenker gjelder for gjeldende versjon. Skjermbilder og menyer kan avvike litt hvis du bruker en eldre build.
-* Maskinvaretrinn fremhever sikre standardvalg – aldri omgå interlocks, og hold stråler unna mennesker.
+* Maskinvaretrinn fremhever sikre standardvalg – aldri omgå sikkerhetslåser, og hold stråler unna mennesker.
 
 Hvis du står fast, kan du sjekke [**FAQ**](faq.md) og deretter seksjonen [**Feilsøking**](troubleshooting/) for målrettede løsninger før du kontakter support.

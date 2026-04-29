@@ -30,7 +30,7 @@ Ważne: zanim uzbroisz jakiekolwiek lasery, upewnij się, że rozumiesz związan
 
 ### Awaryjne wyłączenie
 
-Podczas pracy z laserami zawsze musisz mieć pod ręką **sprzętowy przycisk awaryjnego zatrzymania** (zobacz [Zatrzymanie awaryjne / interlocki](hardware/emergency-stop-interlocks.md)). Jeśli jednak chcesz rozbroić wszystko w mniej pilnym trybie, możesz użyć przycisku _**DISARM ALL**_, klawisza `Escape` albo klawisza _**SESSION**_ na APC40. Możesz też zmniejszyć jasność globalną suwakiem na ekranie lub głównym faderem na APC40.
+Podczas pracy z laserami zawsze musisz mieć pod ręką **sprzętowy przycisk awaryjnego zatrzymania** (zobacz [Zatrzymanie awaryjne / blokady bezpieczeństwa](hardware/emergency-stop-interlocks.md)). Jeśli jednak chcesz rozbroić wszystko w mniej pilnym trybie, możesz użyć przycisku _**DISARM ALL**_, klawisza `Escape` albo klawisza _**SESSION**_ na APC40. Możesz też zmniejszyć jasność globalną suwakiem na ekranie lub głównym faderem na APC40.
 
 ### Suwaki
 

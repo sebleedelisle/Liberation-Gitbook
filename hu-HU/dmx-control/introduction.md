@@ -15,7 +15,7 @@ A **DMX** egy régóta használt rendszer lámpák, lézerek, füstgépek és m�
 
 Az **Art-Net** ugyanezeknek a DMX-adatoknak az átvitelére szolgál, de hagyományos számítógépes hálózaton. Speciális kábelek helyett Etherneten küldi az adatokat, ugyanúgy, mint az internetes vagy helyi hálózati forgalom.
 
-A Liberationben minden DMX-kimenet Art-Net használatával történik. Ezzel közvetlenül vezérelhetsz Art-Net-kompatibilis eszközöket, vagy csatlakoztathatsz egy **Art-Net node** eszközt – egy kis dobozt, amely az Art-Net jelet visszaalakítja szabványos DMX-jellé. Így a hagyományos DMX-lámpákat és effekteket is vezérelheted, akkor is, ha azok önmagukban nem támogatják az Art-Netet.
+A Liberationben minden DMX-kimenet Art-Net használatával történik. Ezzel közvetlenül vezérelhetsz Art-Net-kompatibilis eszközöket, vagy csatlakoztathatsz egy **Art-Net-node** eszközt – egy kis dobozt, amely az Art-Net jelet visszaalakítja szabványos DMX-jellé. Így a hagyományos DMX-lámpákat és effekteket is vezérelheted, akkor is, ha azok önmagukban nem támogatják az Art-Netet.
 {% endhint %}
 
 A rendszerrel különféle színpadi eszközöket is vezérelhetsz, például füstgépeket, hazereket, CO₂-jeteket, hidegszikra-gépeket és egyebeket. Ha támogatja a DMX-et, beállíthatod DMX-zónaként, és közvetlenül a Liberationből indíthatod, a lézertartalom mellett.

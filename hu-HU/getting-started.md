@@ -30,7 +30,7 @@ Fontos: Mielőtt bármilyen lézert élesítenél, győződj meg róla, hogy ér
 
 ### Biztonsági leállítás
 
-Amikor lézereket használsz, mindig legyen kéznél **hardveres vészleállító gomb** (lásd: [Vészleállító / interlockok](hardware/emergency-stop-interlocks.md)). Ha viszont kevésbé sürgősen szeretnél mindent hatástalanítani, használhatod a _**DISARM ALL**_ gombot vagy az `Escape` billentyűt (illetve az APC40-en a _**SESSION**_ gombot). A globális fényerőt a képernyőn látható csúszkával vagy az APC40 fő faderével is csökkentheted.
+Amikor lézereket használsz, mindig legyen kéznél **hardveres vészleállító gomb** (lásd: [Vészleállítás / reteszelések](hardware/emergency-stop-interlocks.md)). Ha viszont kevésbé sürgősen szeretnél mindent hatástalanítani, használhatod a _**DISARM ALL**_ gombot vagy az `Escape` billentyűt (illetve az APC40-en a _**SESSION**_ gombot). A globális fényerőt a képernyőn látható csúszkával vagy az APC40 fő faderével is csökkentheted.
 
 ### Csúszkaelemek
 
