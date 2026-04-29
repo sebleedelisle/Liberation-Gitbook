@@ -7,20 +7,20 @@ metaLinks:
 
 # 🟩 Canvas settings
 
-Smelltu á _Canvas settings_ hnappinn efst á vinstri verkfærastikunni til að opna _Canvas settings_ spjaldið.
+Smelltu á hnappinn _Canvas settings_ efst á vinstri tækjastikunni til að opna spjaldið _Canvas settings_.
 
 ### Width and Height
 
-Notaðu þessa draganlegu sleða til að breyta heildarbreidd og heildarhæð alls Canvas. Hægt er að líta á þessi mál sem eins konar pixlastærð, en allt er hlutfallslegt.
+Notaðu þessa draganlegu sleða til að breyta heildarbreidd og heildarhæð alls Canvas. Líta má á þessar stærðir sem nokkurs konar pixlastærð, en allt er afstætt.
 
 Tvísmelltu á sleða til að slá inn gildi.
 
 {% hint style="info" %}
-Hér er smá auka nördaupplýsing: leysirinn hreyfist miðað við upplausn Canvas, ekki miðað við stærð svæðisins. Ástæðan er sú að stórt svæði í Canvas er líklega varpað á stærra svæði í raunheimum.
+Hér er smá auka nördaskýring: leysirinn hreyfist miðað við upplausn Canvas, ekki miðað við stærð zone. Ástæðan er sú að stórt zone á Canvas er líklega varpað á stærra svæði í raunheimum.
 
-Þetta er smáatriði sem skiptir þig líklega litlu máli, en það hjálpar til við að jafna afköst og sýnileika milli svæða í Canvas.
+Þetta er smáatriði sem skiptir þig líklega litlu máli, en það hjálpar til við að jafna afköst og sýnileika milli þeirra zones sem eru á Canvas.
 {% endhint %}
 
 ### Zone brightness
 
-Notaðu þetta til að breyta því hversu bjartar bleiku útlínur svæða birtast í Canvas view. Þetta getur hjálpað til við að gera efnið skýrara og koma í veg fyrir að þessi sýn verði of yfirfull.
+Notaðu þetta til að breyta því hversu bjartar bleiku útlínurnar fyrir zone birtast í Canvas view. Þetta getur gert efnið skýrara og komið í veg fyrir að þessi sýn verði of troðin.

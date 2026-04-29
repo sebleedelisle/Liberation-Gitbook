@@ -73,7 +73,7 @@ Når perspektivkorrektion er slået til, forvrænges indholdet med perspective w
 
 Line / Curve-zoneformen er blevet mit foretrukne valg i de seneste shows, og man kan argumentere for, at den burde være standard for beam-zoner.
 
-Ofte skal mine zoner være smalle for at passe ind i besværlige, smalle områder på venues eller mellem vinduer på bygninger, og jeg oplevede, at det kunne være virkelig besværligt at justere fire hjørner på en quad, når de ligger så tæt på hinanden. Derfor blev Line / Curve-zonen til!
+Ofte skal mine zoner være smalle for at passe ind i besværlige, smalle områder på spillesteder eller mellem vinduer på bygninger, og jeg oplevede, at det kunne være virkelig besværligt at justere fire hjørner på en quad, når de ligger så tæt på hinanden. Derfor blev Line / Curve-zonen til!
 
 Til lige linjer skal du kun bruge to punkter og derefter justere _Zone thickness_ i højrekliksmenuen. Det er den hurtigste måde at oprette enkle zoner på.
 

@@ -7,8 +7,8 @@ metaLinks:
 
 # 🟩 Inngangur
 
-Nú til dags eru leysar oftar notaðir til að búa til geisla og lofthjúpsáhrif í loftinu, frekar en að varpa myndefni á yfirborð. Ég myndi jafnvel ganga svo langt að segja að grafík með leysum sé oft talin hálf hallærisleg, aðallega vegna útbreiðslu lélegra clip art-hreyfimynda og vafasams efnis sem er svo oft innifalið sem forstillingar.
+Nú til dags eru laserar oftar notaðir til að skapa geisla og áhrif í reyk eða þoku í loftinu en til að varpa myndefni á yfirborð. Ég myndi jafnvel ganga svo langt að segja að grafík með laser sé oft talin óspennandi, að stórum hluta vegna þess hve algengar lélegar clip art hreyfimyndir og vafasamt efni eru sem fylgja svo oft sem presets.
 
-En málið er að leysigrafík getur verið ótrúlega fjölhæf og gefið þér gríðarlegt úrval skapandi möguleika. Hvort sem um er að ræða einfalt glitrandi fyrirtækismerki (já, við höfum öll lent þar) eða fullkortlagt byggingarframhlið, þá ertu í góðum málum.
+En málið er að grafík með laser getur verið ótrúlega fjölhæf og opnað fyrir mjög fjölbreytta skapandi möguleika. Hvort sem um er að ræða einfalt, glitrandi fyrirtækismerki — já, við höfum öll lent þar — eða fullkomlega mappaða byggingarframhlið, þá er hægt að vinna með það.
 
-Með því að nota kortlagða grafík og sérsniðna hreyfimyndun opnarðu fyrir heilan nýjan heim skapandi möguleika sem þú getur bætt við verkfærakistuna þína.
+Með mappaðri grafík og sérsniðinni hreyfimyndun bætirðu alveg nýjum heimi skapandi möguleika við verkfærakistuna þína.

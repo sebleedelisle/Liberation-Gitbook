@@ -127,7 +127,7 @@ Também já implementamos suporte ao APC Mini Mark 2 e ao MIDI Fighter Twister, 
 {% hint style="info" %}
 **O que é um clip?**
 
-Um clip é um contêiner para qualquer conteúdo de laser dentro do Liberation. Clips podem conter beams ou animações gráficas e, geralmente, são um ciclo em loop. Eles podem ser direcionados para qualquer zona (ou _Canvas target area_) e são acionados usando os botões de clip dentro do clip deck.
+Um clip é um contêiner para qualquer conteúdo de laser dentro do Liberation. Clips podem conter beams ou animações gráficas e, geralmente, funcionam em loop. Eles podem ser direcionados para qualquer zona (ou _Canvas target area_) e são acionados usando os botões de clip dentro do clip deck.
 {% endhint %}
 
 #### Visão geral do clip deck
@@ -237,9 +237,9 @@ Há mais 16 efeitos de cor na linha inferior para aplicar valores predefinidos d
 
 Observe que estes são os efeitos padrão, mas eles podem ser editados para fazer quase tudo o que você quiser!
 
-#### O que é o _"currently selected clip"_?
+#### O que é o _Clip selecionado no momento_?
 
-Quando você inicia um clip, ele acende para mostrar que está ativo. Ele também recebe um contorno branco ao redor, indicando que este é o clip _selecionado_ no momento. Sempre que você alterna botões de zona ou ajusta as configurações do clip, essas alterações são aplicadas ao _currently selected clip._
+Quando você inicia um clip, ele acende para mostrar que está ativo. Ele também recebe um contorno branco ao redor, indicando que este é o clip selecionado no momento. Sempre que você alterna botões de zona ou ajusta as configurações do clip, essas alterações são aplicadas ao _Clip selecionado no momento_.
 
 {% hint style="info" %}
 Para selecionar um clip sem acioná-lo, pressione a tecla `Alt / Option` antes de pressionar o botão do clip. Essa é uma boa forma de ajustar suas zonas e outras configurações sem executá-lo.

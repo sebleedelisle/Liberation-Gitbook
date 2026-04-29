@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/network-advice
 ---
 
-# ◼️ Netráðleggingar
+# ◼️ Ráðleggingar um netkerfi

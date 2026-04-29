@@ -4,6 +4,6 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/dmx-node
 ---
 
-# 🟩 DMX-hnútur
+# 🟩 DMX node
 
-DMX-hnúturinn er sérstakur hnútur sem veitir þér nákvæmari stjórn á DMX-búnaði. Sjá [dmx-control](../dmx-control/) fyrir nánari upplýsingar.
+DMX node er sérstök tegund af node sem gerir þér kleift að stjórna DMX-búnaði af meiri nákvæmni. Sjá [DMX-stýring](../dmx-control/) til að fá frekari upplýsingar.

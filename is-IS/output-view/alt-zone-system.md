@@ -4,23 +4,23 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/alt-zone-system
 ---
 
-# 🟩 Alt zone-kerfi
+# 🟩 Kerfi fyrir Alt zone
 
-Hefur þú einhvern tíma lent í aðstæðum þar sem þú þarft að færa eða slökkva samstundis á völdum svæðum? Til dæmis:
+Hefur þú einhvern tíma lent í að þurfa að færa eða slökkva samstundis á völdum zones? Til dæmis:
 
-* Lasergeislar fara upp í himininn og þú þarft að beina þeim aftur þannig að þeir endi á byggingum ef flugvél fer hjá.
-* Lasergeislar fara inn á ónotaðar svalir og þú þarft að beina þeim annað í ákveðnum hlutum sýningarinnar á meðan starfsfólk er þar.
+* Leysar sem fara upp í loftið og þú þarft að beina þannig að þeir endi á byggingum ef loftfar fer hjá.
+* Leysar sem fara inn á ónotaða svalahæð og þú þarft að beina annað á ákveðnum köflum sýningarinnar á meðan starfsfólk er þar.
 
-Alt zone-kerfið gerir þér kleift að búa til varasvæði fyrir hvaða svæði sem er til staðar, og með einum hnappi skipta yfir á öll varasvæðin í einu.
+Kerfið fyrir Alt zone gerir þér kleift að búa til varaútgáfu fyrir hvaða zone sem er til staðar og skipta yfir í allar varaútgáfurnar í einu með einum hnappi.
 
-### Bæta við varasvæði
+### Að bæta við Alt zone
 
-Í Output view skaltu hægrismella á svæði og smella á _ADD ALT ZONE_. Þá birtist nýtt grænt svæði. Þú getur breytt því og stillt það nákvæmlega á sama hátt og önnur svæði. Þú þarft að virkja Alt zones í efstu táknastikunni til að sjá prófunarmynstrin.
+Í Output view skaltu hægrismella á zone og smella á _ADD ALT ZONE_. Þá birtist ný zone með grænum lit. Þú getur breytt og stillt hana á nákvæmlega sama hátt og aðrar zones. Þú þarft að virkja Alt zones á efstu táknastikunni til að sjá test pattern.
 
-### Skipta yfir á Alt zones
+### Að skipta yfir í Alt zones
 
-Um leið og þú bætir við einhverju alt zone birtist rofahnappur í efstu táknastikunni merktur _ALT ZONES._ Smelltu á þennan hnapp til að skipta á milli alt zones og venjulegu svæðanna þinna.
+Um leið og þú bætir við einhverri Alt zone birtist víxlhnappur á efstu táknastikunni með heitinu _ALT ZONES._ Smelltu á þennan hnapp til að skipta á milli Alt zones og venjulegra zones.
 
-### Hvernig á að slökkva á svæði í stað þess að færa það
+### Að slökkva á zone í stað þess að færa hana
 
-Bættu við Alt zone, hægrismelltu á það og smelltu á _Disable output_ hnappinn (hringur með línu í gegnum hann). Þegar þú virkjar Alt zones verður efni nú beint yfir á þetta óvirka alt zone.
+Bættu við Alt zone, hægrismelltu á hana og smelltu á hnappinn _Disable output_ (hringur með línu í gegnum). Þegar þú virkjar Alt zones verður efni nú beint yfir í þessa Alt zone, sem er þá óvirk.

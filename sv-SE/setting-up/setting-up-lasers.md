@@ -2,64 +2,64 @@
 description: >-
   Lasrar kan vara farliga, så det är viktigt att följa bästa praxis och
   säkerhetsriktlinjer. Den här sidan ger en praktisk översikt som hjälper dig
-  genom processen att sätta upp lasrar på ett säkert sätt.
+  genom processen att konfigurera lasrar på ett säkert sätt.
 metaLinks:
   alternates:
     - >-
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/setting-up-lasers
 ---
 
-# ✅ Översikt över processen för att sätta upp laser
+# ✅ Översikt över hur du konfigurerar lasrar
 
-### Översikt över processen för att slå på lasrar på ett säkert sätt
+### Översikt över processen för att slå på lasrar säkert
 
-Den här manualen ersätter inte formell lasersäkerhetsutbildning, vilket du absolut behöver innan du använder lasrar offentligt. Vissa områden har ytterligare juridiska krav, men oavsett ska du alltid följa bästa praxis för säkerhet och professionalism.
+Den här manualen ersätter inte formell utbildning i lasersäkerhet, vilket du definitivt behöver innan du använder lasrar offentligt. Vissa områden har ytterligare lagkrav, men oavsett detta ska du alltid följa bästa praxis för säkerhet och arbeta professionellt.
 
-PLASA har en kostnadsfri nedladdningsbar lasersäkerhetsguide som allmänt anses vara bästa praxis: [https://www.plasa.org/guidance-for-display-lasers/](https://www.plasa.org/guidance-for-display-lasers/)
+PLASA har en kostnadsfri lasersäkerhetsguide som kan laddas ned och som allmänt har accepterats som bästa praxis: [https://www.plasa.org/guidance-for-display-lasers/](https://www.plasa.org/guidance-for-display-lasers/)
 
 Se till att du förstår säkerhetsriskerna med lasrar innan du använder dem!
 
 #### Introduktion
 
-Den här sidan är till för att ge dig en översikt över processen för att starta lasrar på ett säkert sätt. Detaljerna för exakt hur varje steg görs beskrivs senare i det här avsnittet, men den här sidan hjälper dig att förstå helheten, och du kan återkomma till den som referens varje gång du sätter upp lasrar.
+Den här sidan är avsedd att ge dig en översikt över processen för att starta lasrar på ett säkert sätt. Exakt hur du utför varje steg beskrivs längre fram i det här avsnittet, men den här sidan hjälper dig att förstå helheten. Du kan också återkomma hit som referens varje gång du konfigurerar lasrar.
 
-<figure><img src="../.gitbook/assets/laser-aperture.jpg" alt=""><figcaption><p>Ett typiskt aperturskydd för laser</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-aperture.jpg" alt=""><figcaption><p>En typisk lucka över laseröppningen</p></figcaption></figure>
 
-### Sätt upp hårdvaran :
+### Konfigurera hårdvaran:
 
-1. **Stäng aperturskyddet** på lasern
+1. **Stäng aperturluckan** på lasern
 2. **Rigga lasern säkert** och rikta den åt rätt håll
 3. **Anslut stoppknappen** till lasern
-4. **Anslut laserkontrollen** till datorn
+4. **Anslut laser controller** till datorn
 5. **Slå på strömmen** till lasern
 
-### Ställ in Liberation :
+### Konfigurera Liberation:
 
-1. **Avaktivera armeringen för alla lasrar** och hitta och anslut kontrollen i Liberation
-2. **Sänk inställningen&#x20;**_**Global Brightness**_**&#x20;till 0** (Använd reglaget i ikonraden eller _Master Fader_ på APC40)
-3. **Armera lasern** - med aperturskyddet fortfarande stängt, kontrollera att inga clips är aktiva och armera lasern (Använd knappen _Arm_ i panelen _Laser Overview_)
-4. **Slå på testmönstret** (använd knappen ☒ i ikonraden, välj mönster 1, den gröna fyrkanten med ett kors genom)
-5. **Justera utgångszonen** - gör en uppskattning av den säkraste zonstorleken och positionen (till exempel kan detta vara högt upp mot taket, men det beror på din specifika miljö)
-6. **Kontrollera att lasern fungerar** - höj långsamt ljusstyrkan tills du kan se ljus bakom aperturfönstret. Sänk sedan ljusstyrkan tillbaka till noll.
+1. **Sätt alla lasrar i läget disarmed** och hitta och anslut controller i Liberation
+2. **Sänk inställningen&#x20;**_**Global Brightness**_**&#x20;till 0** (använd reglaget i ikonraden eller _Master Fader_ på APC40)
+3. **Sätt lasern i läget armed** – med aperturluckan fortfarande stängd, kontrollera att inga Clips är aktiva och sätt lasern i läget armed (använd knappen _Arm_ i panelen _Laser Overview_)
+4. **Slå på test pattern** (använd knappen ☒ i ikonraden, välj mönster 1: den gröna kvadraten med ett kryss genom)
+5. **Justera Output zone** – gör en uppskattning av den säkraste storleken och positionen för zone (till exempel kan den ligga högt upp mot taket, men det beror på din specifika miljö)
+6. **Kontrollera att lasern fungerar** – höj ljusstyrkan långsamt tills du kan se ljus bakom aperturfönstret. Sänk sedan ljusstyrkan tillbaka till noll.
 7. **Testa stoppknappen** för att säkerställa att all laserutgång släcks när den trycks in
 
 ### Starta laserutgång
 
-1. **Töm exponeringsområdet** - se till att ingen kan exponeras för lasern och informera all personal om att hålla sig utanför exponeringsområdet medan lasrarna sätts upp. (Du bör också se till att alla kameror och projektorer är täckta eller har linsskydden på!)
-2. **Öppna aperturskyddet** - stå vid sidan om och bort från utgången och skjut ned aperturskyddet. Om dina zoner ligger högt upp kan du vilja lämna det delvis stängt.
-3. **Höj ljusstyrkan tills lasern knappt syns** - gör lasern bara så stark som behövs för att se zonen
-4. **Justera zonen/zonerna** - ställ in zonens storlek, form och position tills den ligger 3 m från golvet från alla offentligt tillgängliga områden, och lasern inte når några andra offentligt tillgängliga områden
-5. **Lägg till fysisk maskning** - använd aperturskyddet och/eller svart folietejp för att fysiskt maska allt utanför den önskade zonen. Detta är kritiskt viktigt eftersom all laserhårdvara och programvara kan sluta fungera korrekt.
-6. **Lägg till mjukvarumasker** - mjukvarumaskerna i Liberation kan användas för att skydda kameror och projektorer, men ska **aldrig** användas i stället för fysisk maskning för att skydda människor. Observera att ingen programvara eller hårdvara är ofelbar, så se till att du förstår riskerna innan du använder mjukvarumasker.
+1. **Utrym exponeringsområdet** – se till att ingen kan exponeras för lasern och informera all personal om att de ska hålla sig utanför exponeringsområdet medan lasrarna konfigureras. (Du bör också se till att kameror och projektorer är täckta eller har linsskydden på!)
+2. **Öppna aperturluckan** – stå vid sidan av och utanför output, och skjut ned aperturluckan. Om dina zones är högt placerade kan du vilja lämna den delvis stängd.
+3. **Höj ljusstyrkan tills lasern knappt syns** – gör lasern bara så ljus som behövs för att se zone
+4. **Justera zone eller zones** – ställ in storlek, form och position för zone så att den ligger 3 m över golvet från alla offentligt tillgängliga områden, och så att lasern inte når några andra offentligt tillgängliga områden
+5. **Lägg till fysisk maskning** – använd aperturluckan och/eller svart folietejp för att fysiskt maska allt utanför önskad zone. Detta är kritiskt viktigt eftersom både laserhårdvara och mjukvara kan fallera.
+6. **Lägg till masks i programvaran** – masks i Liberation kan användas för att skydda kameror och projektorer, men ska **aldrig** användas i stället för fysisk maskning för att skydda människor. Observera att ingen mjukvara eller hårdvara är ofelbar, så se till att du förstår riskerna innan du använder masks i programvaran.
 
 {% hint style="warning" %}
-Observera att den här guiden förutsätter en installation inomhus. Om du arbetar utomhus måste ytterligare steg tas för att säkerställa flygsäkerheten, inklusive men inte begränsat till :
+Observera att den här guiden förutsätter en installation inomhus. Om du arbetar utomhus måste ytterligare steg vidtas för att säkerställa flygsäkerheten, inklusive men inte begränsat till:
 
 * Skaffa nödvändiga tillstånd från luftfartsmyndigheter som FAA eller CAA
 * Samordna med närliggande flygplatser och flygfält
-* Kontrollera offentlig flygradar och även utse en observatör som håller utkik efter flygplan
+* Kontrollera offentlig flygradar och även utse en observatör som håller uppsikt efter flygplan
 
-Lasrar som ligger långt under säkerhetströskeln kan ändå orsaka katastrofala distraktioner för piloter.
+Även lasrar som ligger långt under säkerhetsgränsen kan orsaka katastrofala distraktioner för piloter.
 
-Se till att du har nödvändiga kvalifikationer, licenser och tillstånd innan du riktar några lasrar upp i luftrummet.
+Se till att du har nödvändiga kvalifikationer, licenser och tillstånd innan du riktar någon laser upp i luftrummet.
 {% endhint %}

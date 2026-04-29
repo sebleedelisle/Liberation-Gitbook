@@ -173,7 +173,7 @@ Liberation 會在你的授權續期後提供 7 天寬限期，讓你連接互聯
 
 #### 如何在不運行 Clip 的情況下調整它的 Zone 和設定？
 
-`Alt / Option`-click，將它設為 _currently selected clip_，但不啟動它。另請參閱[啟動及停止 Clip](clips/starting-stopping-clips.md)
+`Alt / Option`-click，將它設為 _目前選取的 Clip_，但不啟動它。另請參閱[啟動及停止 Clip](clips/starting-stopping-clips.md)
 
 #### 如何複製 Clips？
 

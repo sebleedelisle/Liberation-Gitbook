@@ -4,121 +4,121 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/loading-and-saving
 ---
 
-# 🟩 Hleðsla og vistun
+# 🟩 Hlaða inn og vista
 
-Liberation vistar stöðu sína stöðugt á disk. Þannig geturðu treyst því að ef rafmagn fer af eða kerfisvandamál kemur upp, ræsist forritið aftur þar sem það var statt. Þú ættir því ekki að missa svæði, tímalínur eða annað efni.
+Liberation vistar stöðuna sína stöðugt á disk. Þannig geturðu treyst því að ef rafmagn fer af eða kerfisvandamál kemur upp, þá ræsist forritið aftur þar sem frá var horfið. Þú ættir ekki að tapa zones, tímalínu eða öðru efni.
 
-Þú getur þó flutt uppsetninguna út til öryggisafritunar eða til að færa hana yfir á aðra tölvu.
+Þú getur þó flutt uppsetninguna þína út til að taka öryggisafrit eða færa hana yfir á aðra tölvu.
 
-### Innflutningur / útflutningur á verkefni
+### Innflutningur / útflutningur verkefnis
 
 Verkefnisskráin geymir nánast allt í núverandi uppsetningu, þar á meðal:
 
-* Allt sem er nánar lýst í [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export) hér fyrir neðan
-* Clip, áhrif og hópstillingar
-* Allar tímalínurnar þínar (án hljóð- og myndmiðla)
-* ArtNet-uppsetningu
-* MIDI send/receive stillingar
-* Tempo / samstillingarstillingar
+* Allt sem er lýst í [Innflutningur / útflutningur á Laser Settings](loading-and-saving.md#laser-settings-import-export) hér að neðan
+* Clips, áhrif og hópstillingar
+* Allar tímalínurnar þínar (ekki hljóð- og myndmiðlun)
+* Uppsetning fyrir ArtNet
+* Stillingar fyrir MIDI sendingu/móttöku
+* Stillingar fyrir tempó / samstillingu
 
-Sem stendur vistar og hleður hún ekki:
+Hún vistar og hleður sem stendur ekki:
 
-* Sound og Midi input settings eins og þær eru notaðar í MIDI notes node og Sound Input Oscillator (hún _vistar_ þó MIDI send/receive stillingar ásamt timecode sound input)
-* Interface scaling
-* Miðla fyrir Canvas guide images
-* Hljóð- og myndmiðla fyrir tímalínur
-* Leturgerðir sem eru notaðar í Text node
+* Stillingar fyrir hljóð- og MIDI-inntak eins og þær eru notaðar í MIDI notes node og Sound Input Oscillator (hún _vistar_ stillingar fyrir MIDI sendingu/móttöku ásamt hljóðinntaki fyrir tímakóða)
+* Stærðarkvarða viðmóts
+* Miðlun fyrir leiðbeiningarmyndir í Canvas
+* Hljóð- og myndmiðlun fyrir tímalínur
+* Leturgerðir sem Text node notar
 
 {% hint style="danger" %}
-Hljóð- og myndskrár á tímalínunni eru ekki vistaðar með verkefnisskrám, svo vertu viss um að vista þær sérstaklega ef þú vilt færa efnið yfir á aðra tölvu. Sjá [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files)
+Hljóð- og myndskrár á tímalínunni eru ekki vistaðar með verkefnisskrám, svo vistaðu þær sérstaklega ef þú vilt færa þær yfir á aðra tölvu. Sjá [Mikilvæg athugasemd um miðlunarskrár í tímalínum](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
-### Innflutningur / útflutningur á Laser settings
+### Innflutningur / útflutningur á Laser Settings
 
-* Laser settings fyrir hvern laser
+* Laser Settings fyrir hvern laser
 * Beam zones
-* Canvas target areas
+* Marksvæði fyrir Canvas
 * DMX zones
-* Úthlutun laser controller (og alias fyrir controller-a sem þú hefur endurnefnt)
-* Laser scanner og colour calibration settings og presets
-* 3D Visualiser stillingar og presets
+* Hvaða laser controller er úthlutað hverjum laser (og samnefni fyrir controller sem þú hefur endurnefnt)
+* Stillingar og forstillingar fyrir leysiskanna og litakvörðun
+* Stillingar og forstillingar fyrir 3D-sýn
 
 ### Innflutningur / útflutningur á Clip Deck
 
-* Öll Clip og zone assignments þeirra, stillingar og breytur
-* Allar group settings, flash mode, fade in/out times o.s.frv.
+* Öll Clips og hvaða zones þau eru tengd við, auk stillinga og færibreyta
+* Allar hópstillingar, flash mode, tímar fyrir fade in/out o.s.frv.
 
-Sem stendur vistar og hleður það ekki:
+Það vistar og hleður sem stendur ekki:
 
-* Öllum effects og breytum þeirra og stillingum
-
-{% hint style="info" %}
-**Hlaða Clip úr verkefnisskrá án þess að hlaða allt verkefnið**
-
-Til að flytja aðeins Clip úr verkefni inn skaltu velja _**Clips->Import Clip Deck**_ og velja verkefnisskrá í stað þess að velja clip deck skrá (.cpdk).
-{% endhint %}
-
-### Append Clip Deck
-
-Þú getur bætt Clip úr útfluttri clip deck skrá við núverandi verkefni með _Append Clip Deck_. Clip bætast við í lok núverandi Clip Deck, en effects og group settings í skránni eru ekki flutt inn.
-
-### Export Selected Clips
-
-Öll Clip sem eru valin í augnablikinu verða flutt út í skrá. Group settings og effects vistast ekki, aðeins Clip. Athugaðu að virk Clip sem eru í keyrslu eru ekki flutt út nema þau séu einnig valin.
+* Öll áhrif og færibreytur þeirra og stillingar
 
 {% hint style="info" %}
-Notaðu Option/Alt - shift - click á Clip til að velja þau (eða notaðu lasso). Þú sérð hvaða Clip eru valin á þykku hvítu útlínunni utan um þau. Sjá [starting-stopping-clips.md](clips/starting-stopping-clips.md)
+**Hlaða Clips úr verkefnisskrá án þess að hlaða inn öllu verkefninu**
+
+Til að flytja aðeins inn Clips úr verkefni skaltu velja _**Clips->Import Clip Deck**_ og velja verkefnisskrá í stað skráar fyrir Clip Deck (.cpdk).
 {% endhint %}
 
-### Innflutningur / útflutningur á Effects
+### Bæta Clip Deck við
 
-Hleður og vistar öll effects ásamt group settings og breytum þeirra.
+Þú getur bætt Clips úr útfluttri skrá fyrir Clip Deck við núverandi verkefni með _Append Clip Deck_. Clips er bætt við aftast í núverandi Clip Deck, en áhrif og hópstillingar í skránni eru ekki flutt inn.
+
+### Flytja út valin Clips
+
+Öll Clips sem eru valin verða flutt út í skrá. Hópstillingar og áhrif verða ekki vistuð, aðeins Clips. Athugaðu að virk Clips sem eru í gangi eru ekki flutt út nema þau séu líka valin.
 
 {% hint style="info" %}
-**Hlaða effects úr verkefnisskrá án þess að hlaða allt verkefnið**
-
-Til að flytja aðeins effects úr verkefni inn skaltu velja _**Effects->Import Effects**_ og velja verkefnisskrá í stað þess að velja effects skrá (.efts).
+Haltu inni Option/Alt - shift og smelltu á Clips til að velja þau (eða notaðu lasso). Þú sérð hvaða Clips eru valin á þykkri hvítri útlínu í kringum þau. Sjá [Ræsa og stöðva Clips](clips/starting-stopping-clips.md)
 {% endhint %}
 
-### Útflutningur á tímalínu
+### Innflutningur / útflutningur á áhrifum
 
-Flyttu út tímalínuskrá með einni eða fleiri tímalínum. Athugaðu að Clip Deck fylgir alltaf með útfluttum tímalínuskrám (þó þú getir valið hvaða Clip þú flytur aftur inn, sjá [#timeline-import](loading-and-saving.md#timeline-import) hér fyrir neðan).
+Hleður inn og vistar öll áhrif ásamt hópstillingum þeirra og færibreytum.
 
-Ef fleiri en ein tímalína er í verkefnisskránni opnast panel þar sem þú getur valið hvaða tímalínur þú vilt flytja út.
+{% hint style="info" %}
+**Hlaða áhrifum úr verkefnisskrá án þess að hlaða inn öllu verkefninu**
+
+Til að flytja aðeins inn áhrif úr verkefni skaltu velja _**Effects->Import Effects**_ og velja verkefnisskrá í stað áhrifaskrár (.efts).
+{% endhint %}
+
+### Útflutningur tímalínu
+
+Flyttu út tímalínuskrá með einni eða fleiri tímalínum. Athugaðu að Clip Deck fylgir alltaf með útfluttum tímalínuskrám (þó þú getir valið hvaða Clips þú flytur aftur inn, sjá [Innflutningur tímalína](loading-and-saving.md#timeline-import) hér að neðan).
+
+Ef verkefnisskráin þín inniheldur fleiri en eina tímalínu opnast panel þar sem þú getur valið hvaða tímalínur þú vilt flytja út.
 
 {% hint style="danger" %}
-Hljóð- og myndskrár á tímalínunni eru ekki vistaðar með tímalínuskrám, svo vertu viss um að vista þær sérstaklega ef þú vilt færa efnið yfir á aðra tölvu. Sjá [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files)
+Hljóð- og myndskrár á tímalínunni eru ekki vistaðar með tímalínuskrám, svo vistaðu þær sérstaklega ef þú vilt færa efnið þitt yfir á aðra tölvu. Sjá [Mikilvæg athugasemd um miðlunarskrár í tímalínum](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
-### Innflutningur á tímalínu
+### Innflutningur tímalína
 
-Flyttu inn eina eða fleiri tímalínur úr einni tímalínuskrá. Eftir að þú hefur valið tímalínuskrána opnast panel með nokkrum innflutningsvalkostum.
+Flyttu inn eina eða fleiri tímalínur úr einni tímalínuskrá. Þegar þú hefur valið tímalínuskrána opnast panel með nokkrum innflutningsvalkostum.
 
-Ef tímalínuskráin inniheldur fleiri en eina tímalínu birtast þær allar á lista. Hakaðu við þær sem þú vilt hafa með.
+Ef tímalínuskráin inniheldur fleiri en eina tímalínu birtast þær allar á lista. Hakaðu við þær sem þú vilt taka með.
 
 * Replace existing timelines\
   Eyðir öllum núverandi tímalínum og setur þær innfluttu í staðinn
 * Import used clips only\
-  Flytur aðeins inn Clip sem eru notuð og raðar þeim í hópa, einn hóp fyrir hverja tímalínu. Ef þessi valkostur er ekki valinn verður öllu Clip Deck úr tímalínuskránni bætt við núverandi Clip.
+  Flytur aðeins inn þau Clips sem eru notuð og raðar þeim í hópa, einn fyrir hverja tímalínu. Ef þessi valkostur er ekki valinn verður öllu Clip Deck úr tímalínuskránni bætt við núverandi Clips.
 * Replace existing clip deck\
-  Skiptir núverandi Clip Deck út fyrir Clip í tímalínuskránni. Aðeins í boði ef _Replace existing timelines_ er valið.
+  Skiptir út núverandi Clip Deck fyrir Clips í tímalínuskránni. Aðeins í boði ef _Replace existing timelines_ er valið.
 
 {% hint style="info" %}
-**Hlaða tímalínum úr verkefnisskrá án þess að hlaða allt verkefnið**
+**Hlaða tímalínum úr verkefnisskrá án þess að hlaða inn öllu verkefninu**
 
-Til að flytja aðeins tímalínurnar úr verkefni inn skaltu velja _**Timeline->Import Timeline(s)**_ og velja verkefnisskrá í stað þess að velja tímalínuskrá (.ltml).
+Til að flytja aðeins inn tímalínur úr verkefni skaltu velja _**Timeline->Import Timeline(s)**_ og velja verkefnisskrá í stað tímalínuskrár (.ltml).
 {% endhint %}
 
 ### Innflutningur / útflutningur á DMX / ArtNet
 
-Vistar og hleður ArtNet nodes ásamt IP-vistföngum þeirra. Inniheldur einnig DMX zones og öll DMX presets.
+Vistar og hleður inn ArtNet nodes ásamt IP-tölum þeirra. Inniheldur einnig DMX zones og allar DMX-forstillingarnar þínar.
 
-### Mikilvæg athugasemd um miðlaskrár á tímalínu
+### Mikilvæg athugasemd um miðlunarskrár í tímalínum
 
-Hljóð- og myndskrár eru **ekki** fluttar út með tímalínuskránni sem stendur, svo ef þú þarft að færa efni yfir á aðra tölvu skaltu ganga úr skugga um að þær fylgi með.
+Hljóð- og myndskrár eru **ekki** fluttar út með tímalínuskránni eins og er. Ef þú þarft að færa efni yfir á aðra tölvu skaltu því ganga úr skugga um að þessar skrár fylgi með.
 
 {% hint style="info" %}
-**Hvernig tímalína leitar að miðlaskrám**
+**Hvernig tímalína leitar að miðlunarskrám**
 
-Þegar tímalínunni er hlaðið leitar hún í sömu möppu og tímalínuskráin (eða verkefnisskráin) er í, og leitar innan hennar og allra undirmappa. Svo lengi sem skrárnar eru í sömu möppu eða undirmöppu (til dæmis _/videos_ eða _/sound_) finnur hún þær við hleðslu.
+Þegar tímalína er hlaðin inn leitar hún í sömu möppu og tímalínuskráin (eða verkefnisskráin) er í, ásamt undirmöppum. Svo lengi sem skrárnar eru í sömu möppu eða undirmöppu (eins og _/videos_ eða _/sound_) finnur hún þær þegar hún hleður.
 {% endhint %}

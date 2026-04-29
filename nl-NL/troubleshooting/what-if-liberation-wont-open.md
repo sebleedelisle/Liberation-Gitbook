@@ -58,7 +58,7 @@ Open in je versiemap:
 data/liberation/
 ```
 
-In de map liberation vind je als het goed is een bestand met de naam se`ttings.json`. Verwijder dit bestand.
+In de map liberation vind je als het goed is een bestand met de naam `settings.json`. Verwijder dit bestand.
 
 * **macOS-voorbeeld**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
 * **Windows-voorbeeld**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
@@ -71,7 +71,7 @@ Probeer Liberation nu te starten. Als het opent, ben je klaar.
 
 Als Liberation crashte terwijl je een clip aan het bewerken was, kan iets in dat clipbestand het probleem veroorzaken.
 
-In dezelfde map als je settings.json-bestand vind je als het goed is een bestand met de naam clipEdit`.json`
+In dezelfde map als je settings.json-bestand vind je als het goed is een bestand met de naam `clipEdit.json`
 
 Maak een back-up van dit bestand op een veilige plek (bijvoorbeeld je Desktop) en verwijder het daarna uit de Liberation-werkmap.
 

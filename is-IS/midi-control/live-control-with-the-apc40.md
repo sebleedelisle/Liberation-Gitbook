@@ -9,22 +9,22 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
-### **APC40 stýring**
+### **APC40 controller**
 
-Þetta er sjálfgefni vélbúnaðarstýringin fyrir Liberation; við mælum eindregið með henni og það má segja að Liberation hafi verið hannað með þennan vélbúnað í huga frá upphafi. Um leið og þú tengir APC40 tengist Liberation henni sjálfkrafa.
+APC40 er sjálfgefinn controller fyrir Liberation; við mælum eindregið með honum og það er óhætt að segja að Liberation hafi frá upphafi verið hannað með þennan vélbúnað í huga. Um leið og þú tengir APC40 finnur Liberation hann sjálfkrafa og tengist honum.
 
 {% hint style="warning" %}
-_Æ nei! USB-tengið mitt losnaði í miðri sýningu!_
+_Æ nei! USB-snúran losnaði í miðri sýningu!_
 
-Ekki örvænta — tengdu það bara aftur. Liberation tengist sjálfkrafa aftur, án vandræða.
+Ekki örvænta — tengdu hana bara aftur. Liberation tengist sjálfkrafa aftur, án vandræða.
 {% endhint %}
 
 ### APC40 Mark 1 eða Mark 2?
 
-Í stuttu máli er mælt með Mark 2, þar sem hún er með hnappa í fullum lit sem passa betur við Clip Deck viðmót Liberation. Mark 1 útgáfan virkar ef á þarf að halda, en hún getur verið aðeins ruglingslegri þar sem uppsetningin er örlítið frábrugðin því sem sést á skjánum. Hnapparnir geta líka aðeins orðið rauðir, appelsínugulir eða grænir og passa því ekki við litina á clip-unum.
+Í stuttu máli er mælt með Mark 2, þar sem hann er með hnappa í fullum litum sem passa betur við Liberation Clip Deck viðmótið. Mark 1 útgáfan dugar ef á þarf að halda, en hún getur verið aðeins ruglingslegri þar sem uppsetningin er örlítið frábrugðin því sem sést á skjánum. Hnapparnir geta líka aðeins verið rauðir, appelsínugulir eða grænir og passa því ekki við litina á Clips.
 
 {% hint style="info" %}
-Upprunalega APC40 Mark 1 kom út árið 2009(!) og sumir kjósa hana enn vegna málmhússins og traustrar stjórnborðshönnunar. Uppfærða Mark 2 kom út árið 2014 og þótt framleiðslu hennar hafi verið hætt árið 2024 fer hún aftur í framleiðslu árið 2025 vegna eftirspurnar frá sjónlistafólki (Resolume o.fl.) og laseristum.
+Upprunalegi APC40 Mark 1 kom út árið 2009(!) og sumir kjósa hann enn vegna málmbyggingarinnar og trausts, stjórnborðslíks forms. Uppfærði Mark 2 kom út árið 2014 og þótt framleiðslu hans hafi verið hætt árið 2024 fer hann aftur í framleiðslu árið 2025 vegna eftirspurnar frá myndlistarfólki í visuals (Resolume o.fl.) og laseristum.
 {% endhint %}
 
-Til að sjá allan listann yfir stýringar sem eru í boði á APC40 skaltu skoða [apc40-reference.md](../reference/apc40-reference.md)
+Sjá heildarlista yfir stjórntæki sem eru tiltæk á APC40 í [APC40-tilvísun](../reference/apc40-reference.md)

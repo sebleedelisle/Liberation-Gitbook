@@ -5,77 +5,77 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/hardware/compatible-lasers-and-controllers-dacs
 ---
 
-# ✅ Samhæfðir leysar og stýringar (DACs)
+# ✅ Samhæf leysitæki og controllers (DACs)
 
-### Hvaða leysar eru samhæfðir Liberation?
+### Hvaða leysitæki eru samhæfð við Liberation?
 
-Ef leysirinn þinn er með hefðbundið ILDA-inntak geturðu notað hann með Liberation (ásamt samhæfðri leysistýringu, eins og Ether Dream eða Helios DAC - [sjá allan listann hér fyrir neðan](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)).
+Ef leysitækið þitt er með staðlað ILDA inntak geturðu notað það með Liberation (ásamt samhæfum laser controller, til dæmis Ether Dream eða Helios DAC - [sjá heildarlistann hér fyrir neðan](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)).
 
-<figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - ódýrasti kosturinn fyrir heimilisnotkun</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - ódýrasti kosturinn fyrir heimanotkun</p></figcaption></figure>
 
-Þú þarft ekki ytri stýringu eða ILDA-inntak ef:
+Þú þarft ekki ytri controller eða ILDA inntak ef:
 
-* Leysirinn þinn er með innbyggt Ether Dream, eða;
-* Þú ert með LaserCube frá Wicked Lasers, eða;
-* Þú ert með X-Laser-einingu með innbyggðu Mercury, eða;
-* Þú ert með Laser Animation Sollinger-leysi með innbyggðri AVB-stýringu (sem stendur aðeins í prófun á macOS)
+* Ether Dream er innbyggt í leysitækið þitt, eða;
+* þú ert með LaserCube frá Wicked Lasers, eða;
+* þú ert með X-Laser fixture með innbyggðu Mercury, eða;
+* þú ert með Laser Animation Sollinger leysitæki með innbyggðum AVB controller (sem stendur aðeins í prófun á macOS)
 
 {% hint style="info" %}
-**Hvað er leysistýring?**
+**Hvað er laser controller?**
 
-Leysistýring (eða DAC) er vélbúnaðartæki sem tekur við stafrænum gögnum frá Liberation og breytir þeim í hliðræn merki sem þarf til að stýra skönnum og úttaki leysisins. (Þess vegna DAC: Digital to Analog Converter.)
+Laser controller (eða DAC) er vélbúnaðartæki sem tekur stafrænu gögnin frá Liberation og breytir þeim í hliðræn merki sem þarf til að stjórna scanners og Output leysitækisins. (Þaðan kemur heitið DAC: Digital to Analog Converter.)
 
-Stýringin tengist tölvunni þinni með USB eða um venjulegt tölvunet; hún getur annaðhvort verið ytra tæki eða innbyggð í leysinn.
+Controller tengist tölvunni þinni með USB eða yfir venjulegt tölvunet; hann getur verið ytra tæki eða innbyggður í leysitækið.
 
-Ef hún er ytri tengirðu hana við leysinn með ILDA-tengingu. ILDA er iðnaðarstaðall sem notar gamaldags 25 pinna „D“-tengi. Fáðu þér ILDA-kapal, stingdu öðrum endanum í stýringuna og hinum í leysinn.
+Ef hann er ytri tengirðu hann við leysitækið með ILDA tenginu. ILDA er iðnaðarstaðall sem notar gamalt 25 pinna „D“ tengi. Fáðu þér ILDA kapal, stingdu öðrum endanum í controller og hinum í leysitækið.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/etherdream-ilda.png" alt="" width="375"><figcaption><p>ILDA-úttakið á ytri Ether Dream</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/etherdream-ilda.png" alt="" width="375"><figcaption><p>ILDA Output á ytri Ether Dream</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/opt-laser-rear.jpg" alt="" width="317"><figcaption><p>Bakhlið leysis sem sýnir ýmsar tengingar, þar á meðal ILDA-inntakið</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/opt-laser-rear.jpg" alt="" width="317"><figcaption><p>Bakhlið leysitækis með ýmsum tengjum, þar á meðal ILDA inntaki</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/ilda-cable.jpg" alt="" width="375"><figcaption><p>Venjulegur ILDA-kapall</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ilda-cable.jpg" alt="" width="375"><figcaption><p>Staðlaður ILDA kapall</p></figcaption></figure>
 
-### Hvaða stýring hentar mér best?
+### Hvaða controller hentar mér best?
 
-Ef þú ert heimilisnotandi eða keyrir litlar sýningar með 4 leysum eða færri sem eru nálægt tölvunni, þá eru USB-stýringar eins og **Helios DAC** **hagkvæmasti** kosturinn.
+Ef þú notar búnaðinn heima eða keyrir litlar sýningar með 4 eða færri leysitækjum sem eru nálægt tölvunni, þá eru USB controllers eins og **Helios DAC** **hagkvæmasti** kosturinn.
 
-Net-DAC-stýringar eins og **Ether Dream** eru **besti kosturinn fyrir atvinnufólk** í leysisýningum sem er tilbúið að setja upp net og vill stjórna mörgum leysum; allar stærri Liberation-sýningar hingað til hafa verið keyrðar á Ether Dreams.
+Network DACs eins og **Ether Dream** eru **besti kosturinn fyrir fagfólk** í lasersýningum sem er tilbúið að setja upp net og vill keyra mikinn fjölda leysitækja; allar stærri Liberation sýningar hingað til hafa verið keyrðar á Ether Dreams.
 
-Ef þú ert með **LaserCube** þarftu alls enga sérstaka leysistýringu - Liberation er samhæft öllum LaserCube-tækjum. Eldri gerðirnar tengjast með USB-kapli og nýrri gerðirnar tengjast um net.
+Ef þú ert með **LaserCube** þarftu engan sérstakan laser controller - Liberation er samhæft við öll LaserCubes. Eldri gerðirnar tengjast með USB kapli og nýrri gerðirnar tengjast yfir net.
 
-Ef þú ert fagmaður og vilt auðveldasta kostinn skaltu skoða X-Laser-einingar með innbyggðu Mercury eða Laser Animation Sollinger-leysa sem nota AVB.
+Ef þú ert fagmaður og vilt einfaldasta kostinn skaltu skoða X-Laser einingar með innbyggðu Mercury eða Laser Animation Sollinger leysitæki sem nota AVB.
 
-### Samhæfðar leysistýringar
+### Samhæfir laser controllers
 
-#### Ether Dream (Net)
+#### Ether Dream (Network)
 
-[Ether Dream](https://ether-dream.com) hefur verið til í yfir tíu ár og er nú í útgáfu 4 (þó Liberation virki einnig með Ether Dream útgáfum 1, 2 og 3). Þær eru einstaklega áreiðanlegar.
+[Ether Dream](https://ether-dream.com) hefur verið til í meira en tíu ár og er núna í útgáfu 4 (þó Liberation virki líka með Ether Dream útgáfum 1, 2 og 3). Þau eru afar áreiðanleg.
 
-Þú tengist þeim um venjulegt net. Hægt er að kaupa þær sem sjálfstæðar einingar, eða enn betra, setja þær inn í leysa.
+Þú tengist þeim yfir venjulegt net. Þau fást sem sjálfstæðar einingar, en enn betra er að setja þau beint inn í leysitækin.
 
 #### Helios (USB)
 
-[Helios](https://bitlasers.com/helios-laser-dac/) er besti kosturinn fyrir byrjendur og er ódýrari en Ether Dreams, en þar sem þær tengjast með USB er ekki mælt með löngum kapalleiðum. Þú gætir líka lent í vandamálum með USB-gögn og rekla þegar þú tengir fleiri en 4 (sérstaklega í Windows).
+[Helios](https://bitlasers.com/helios-laser-dac/) er besti kosturinn fyrir byrjendur og er ódýrari en Ether Dreams. Þar sem Helios tengist með USB er þó ekki mælt með löngum kaplaleiðum. Þú gætir líka lent í vandamálum með USB gögn og rekla þegar þú tengir fleiri en 4 tæki (sérstaklega á Windows).
 
-En ef þú vilt bara keyra nokkra leysa heima er þetta ódýrasti og einfaldasti kosturinn.
+En ef þú vilt bara keyra nokkur leysitæki heima er þetta ódýrasti og einfaldasti kosturinn.
 
-#### Mercury (Innbyggt í X-Laser-einingar)
+#### Mercury (innbyggt í X-Laser einingar)
 
-[**Mercury**](https://x-laser.com/pages/mercury-laser-control-system) er öflugt DMX-kerfi frá X-Laser til leysistýringar, hannað fyrir ljósahönnuði sem vilja keyra leysa beint frá hefðbundnu ljósaborði. Með nýjustu fastbúnaðaruppfærslunni inniheldur Mercury einnig **Ether Dream-hermun**, sem þýðir að það virkar nú hnökralaust með Liberation - sem og öðrum hugbúnaði sem styður Ether Dream.
+[**Mercury**](https://x-laser.com/pages/mercury-laser-control-system) er öflugt DMX laser control system frá X-Laser, hannað fyrir ljósahönnuði sem vilja keyra leysitæki beint frá hefðbundnu ljósaborði. Með nýjustu firmware uppfærslunni inniheldur Mercury einnig **Ether Dream emulation**, sem þýðir að það virkar nú hnökralaust með Liberation - og öllum öðrum hugbúnaði sem styður Ether Dream.
 
-#### AVB (Innbyggt í Laser Animation Sollinger-einingar)
+#### AVB (innbyggt í Laser Animation Sollinger einingar)
 
-**AVB** er opið, netbundið samskiptasnið fyrir afkastamikla hljóð- og gagnastreymi með lágri töf. Mörg LaserAnimation Sollinger-tæki eru með AVB-stuðning beint í vélbúnaðinum, sem gerir Liberation kleift að tengjast þeim um netið án þess að þurfa ytri DAC-stýringar. AVB-stuðningur í Liberation er sem stendur **aðeins fyrir macOS og í prófun**, og hann krefst **samhæfðs netbúnaðar með AVB-stuðningi**. Þegar þetta er rétt sett upp býður það upp á einfaldara verkflæði, færri ytri tæki og traustan áreiðanleika fyrir atvinnusýningar.
+**AVB** er opinn netstaðall fyrir afkastamikla hljóð- og gagnastrauma með lágri töf. Margir LaserAnimation Sollinger projectors styðja AVB beint í vélbúnaðinum, sem gerir Liberation kleift að tengjast þeim yfir netið án þess að þurfa ytri DACs. AVB stuðningur í Liberation er sem stendur **aðeins fyrir macOS og í prófun**, og krefst **samhæfra nettækja með AVB stuðningi**. Þegar uppsetningin er rétt býður þetta upp á einfaldara vinnuflæði, færri ytri tæki og traustan áreiðanleika fyrir atvinnusýningar. I
 
-#### Stýringar sem verða studdar í framtíðinni:
+#### Controllers sem verða studdir í framtíðinni:
 
-* [IDN](http://www.ilda-digital.com) (opið netsamskiptasnið frá ILDA sem hvaða framleiðandi sem er getur útfært)
+* [IDN](http://www.ilda-digital.com) (opinn netstaðall frá ILDA sem allir framleiðendur geta innleitt)
 
-### Ráðleggingar um kapla
+### Tillögur um kapla
 
-Til að ná bestu afköstum skaltu hafa USB DAC-stýringar nálægt tölvunni og tengja þær við leysana með lengri ILDA-köplum. (Passaðu samt upp á að ILDA-kaplar geta virkað eins og krókstjaki þegar búnaður er tekinn niður!)
+Til að fá sem besta afköst skaltu hafa USB DACs nálægt tölvunni og tengja þá við leysitækin með lengri ILDA köplum. (En passaðu þig: ILDA kaplar geta virkað eins og akkeriskrókur þegar verið er að taka búnaðinn niður!)
 
-Ef þú notar Ether Dreams geturðu samt haft þær allar saman og tengt við leysana með löngum ILDA-köplum, eða þú getur sett þær upp nálægt leysunum og notað lengri netkapla.
+Ef þú notar Ether Dreams geturðu samt haft þau öll saman og tengt við leysitækin með löngum ILDA köplum, eða þú getur sett þau upp nálægt leysitækjunum og notað lengri netkapla.
 
-Besta uppsetningin er að hafa Ether Dreams (eða aðrar stýringar) innbyggðar beint í leysunum þínum (Rob hjá Stanwax Laser getur gert þetta fyrir þig í Bretlandi)
+Besta uppsetningin er að hafa Ether Dreams (eða aðra controllers) innbyggða beint í leysitækin þín (Rob hjá Stanwax Laser getur gert þetta fyrir þig í Bretlandi)

@@ -5,4 +5,4 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/timeline/adding-clips-manually
 ---
 
-# ◼️ Bæta Clip handvirkt
+# ◼️ Bæta Clips við handvirkt

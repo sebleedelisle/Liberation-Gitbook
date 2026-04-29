@@ -5,35 +5,35 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/setting-up-your-project
 ---
 
-# ✅ Uppsetning verkefnisins
+# ✅ Setja upp verkefnið þitt
 
-Þegar þú opnar Liberation í fyrsta sinn er það með sjálfgefna stillingu. Líklega viltu þó laga hana að eigin uppsetningu.
+Þegar þú opnar Liberation í fyrsta sinn er það sett upp með sjálfgefnum stillingum. Líklega viltu þó laga þær að þinni eigin uppsetningu.
 
 Hér er yfirlit yfir ferlið:
 
 1.  **Breyttu fjölda leysitækja í verkefninu:**
 
-    Í _Laser Overview_ panel smellirðu á rauða hnappinn hægra megin til að eyða leysitæki. Bættu við leysitæki með _ADD LASER_ hnappinum neðst. Sjá einnig [adding-removing-lasers.md](adding-removing-lasers.md)
+    Í _Laser Overview_ spjaldinu smellirðu á rauða hnappinn hægra megin til að eyða leysitæki. Bættu við leysitæki með _ADD LASER_ hnappinum neðst. Sjá einnig [Bæta við og fjarlægja leysitæki](adding-removing-lasers.md)
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
-2.  **Uppfærðu sýnina í 3D visualiser:**
+2.  **Uppfærðu 3D visualiser sýnina:**
 
-    Stilltu staðsetningu og stefnu hvers leysitækis í _3D Visualiser Settings_ panel. Sjá [3d-visualiser.md](3d-visualiser.md).
+    Stilltu staðsetningu og stefnu hvers leysitækis í _3D Visualiser Settings_ spjaldinu. Sjá [3D visualiser](3d-visualiser.md).
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
-3.  **Stilltu svæðin:**\
-    Í _OUTPUT_ view geturðu yfirfarið svæðin. Farðu milli leysitækja með Tab eða smelltu á einn af númeruðu hnöppunum efst í view. Stilltu hvert svæði eftir þörfum, eða bættu jafnvel við nýjum svæðum. Sjá [output-view](../output-view/).
+3.  **Stilltu zones:**\
+    Í _OUTPUT_ view geturðu yfirfarið zones. Flettu á milli leysitækja með Tab eða smelltu á einn af tölusettu hnöppunum efst í view. Stilltu hverja zone eftir þörfum, eða bættu jafnvel við nýjum zones. Sjá [Output view](../output-view/).
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
-4.  **Breyttu svæðum hvers Clip:**\
-    Ræstu hvert Clip með því að smella á hnappinn þess og kveiktu eða slökktu síðan á svæðum og X og Y flip með hnöppunum á skjánum. Sjá [clips](../clips/).
+4.  **Breyttu zones fyrir hvert Clip:**\
+    Ræstu hvert Clip með því að smella á hnappinn fyrir það og kveiktu eða slökktu síðan á zones og X/Y flip með hnöppunum á skjánum. Sjá [Clips](../clips/).
 
     \\
 
     <figure><img src="../.gitbook/assets/Y.png" alt=""><figcaption></figcaption></figure>
-5.  **Tengdu stýritækin þín:** þegar þú ert tilbúin(n) að tengja leysitækin og hefja notkun skaltu opna _Controller Assignment_ panel. Sjá [controller-assignment.md](controller-assignment.md).
+5.  **Tengdu controller:** þegar komið er að því að tengja leysitækin og hefja notkun skaltu opna _Controller Assignment_ spjaldið. Sjá [Controller Assignment](controller-assignment.md).
 
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Virkjaðu leysitækin og stilltu svæði þeirra:** Fylgdu leiðbeiningunum í [setting-up-lasers.md](setting-up-lasers.md) vandlega.
+6. **Virkjaðu leysitækin og stilltu zones fyrir þau:** Fylgdu leiðbeiningunum í [Uppsetning leysitækja](setting-up-lasers.md) vandlega.

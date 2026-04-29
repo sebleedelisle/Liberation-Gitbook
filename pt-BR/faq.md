@@ -173,7 +173,7 @@ Essa é a latência de frame, ou o tempo máximo entre um frame ser gerado e, em
 
 #### Como ajusto zonas e configurações de um clip sem executá-lo?
 
-Clique com `Alt / Option` para torná-lo o _currently selected clip_, mas sem ativá-lo. Veja também [starting-stopping-clips.md](clips/starting-stopping-clips.md)
+Clique com `Alt / Option` para torná-lo o _Clip selecionado no momento_, mas sem ativá-lo. Veja também [starting-stopping-clips.md](clips/starting-stopping-clips.md)
 
 #### Como copio clips?
 

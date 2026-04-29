@@ -8,29 +8,29 @@ metaLinks:
 
 ### Mi az a Clip?
 
-A Liberation minden lézeres tartalmat Clip elemekben tárol.
+A Liberation összes lézeres tartalma Clips formájában van tárolva.
 
-A Clip tartalmazhat atmoszférikus beam effekteket vagy grafikus animációkat, és általában ismétlődő ciklusként működik. Bármely zónába (vagy Canvas Target Area területre) irányítható, és a Clip Deckben található Clip gombokkal indítható.
+A Clip tartalmazhat atmoszférikus beam effektet vagy grafikus animációt, és általában ismétlődő ciklusként működik. Bármely zone területre (vagy Canvas Target Area területre) irányítható, és a Clip Deck felületén található Clip gombokkal indítható.
 
-A Clip tartalma a sokoldalú, node-alapú Clip Editor rendszerrel készül. (További részletekért lásd: [clip-editor-intro.md](../clip-editor/clip-editor-intro.md))
+A Clip tartalma a sokoldalú, node-alapú Clip Editor rendszerben készül. (További részletekért lásd: [Bevezetés a Clip Editor használatába](../clip-editor/clip-editor-intro.md))
 
 ### A Clip Deck
 
 <figure><img src="../.gitbook/assets/clips-clip-deck" alt=""><figcaption><p>Az alapértelmezett Clip Deck</p></figcaption></figure>
 
-A Clip Deck a Clip elemek képernyőn látható rácsa, és általában túlnyúlik a látható területen.
+A Clip Deck a képernyőn látható Clip-rács, amely általában túlnyúlik a látható területen.
 
-A Clip Decket balra és jobbra görgetheted az alábbiakkal:
+A Clip Deck balra és jobbra görgetéséhez használd:
 
-* A bal és jobb nyílbillentyűkkel
-* Trackpaden kétujjas húzással (vagy az egér balra-jobbra görgetésével, ha az egered támogatja!)
-* Az APC40 _Cue Level_ görgőjével
+* A bal és jobb nyílbillentyűt
+* Kétujjas húzást a trackpaden (vagy vízszintes egérgörgetést, ha az egered tudja!)
+* A _Cue Level_ görgőt az APC40 eszközön
 
-A Clip Decket egy teljes oldalnyit balra vagy jobbra az alábbiakkal görgetheted:
+A Clip Deck egy teljes oldalnyi balra vagy jobbra görgetéséhez használd:
 
 * `Cmd / Ctrl + Left / Right Arrow`
-* Az APC40 _Device <- and ->_ gombjaival
+* A _Device <- and ->_ gombokat az APC40 eszközön
 
-#### A mini Clip-megjelenítő
+#### A Clip Deck mini áttekintője
 
-A Clip Deck tetején a teljes Clip Deck kisméretű ábrázolását látod. A megvilágított rész jelzi az aktuálisan látható Clip elemeket.
+A Clip Deck tetején a teljes Clip Deck kicsinyített nézetét látod. A kiemelt rész jelzi, mely Clips láthatók éppen.

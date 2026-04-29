@@ -5,27 +5,27 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/graphics-and-the-canvas-system/canvas-view
 ---
 
-# 🟩 Canvas-sýn
+# 🟩 Canvas view
 
-Veldu _CANVAS_-sýnina með því að smella á _CANVAS_ hnappinn á efri tækjastikunni.
+Veldu _CANVAS_ view með því að smella á _CANVAS_ hnappinn á efstu verkfærastikunni.
 
-Canvas-sýnin sýnir allt Canvas-svæðið — það svæði sem þú getur unnið á og bætt efni við. Í þessari sýn getur þú valið hvaða hlutar Canvas fara í hvaða svæði og bætt við leiðbeinandi myndum.
+Canvas view sýnir allan Canvas-flötinn — svæðið sem þú getur unnið á og bætt efni við. Í þessari sýn geturðu valið hvaða hlutar Canvas fara í hvaða zones og bætt við leiðarmyndum.
 
-### Að fara um Canvas-sýnina
+### Að fara um Canvas view
 
-Smelltu og dragðu á tómu svæði (eða á læstum svæðum) til að færa sýnina til.
+Smelltu og dragðu á auðu svæði (eða á læstum zones) til að færa sýnina til.
 
-### Að þysja inn og út í Canvas-sýninni
+### Að þysja inn og út í Canvas view
 
 Notaðu músarhjólið til að þysja inn og út.
 
-### Tákn á tækjastikunni
+### Tákn á verkfærastiku
 
-Vinstra megin í sýninni sérðu tækjastikuna. Haltu músarbendlinum yfir tákni til að sjá hvað það gerir.
+Vinstra megin í sýninni sérðu verkfærastikuna. Haltu músarbendlinum yfir tákni til að sjá hvað það gerir.
 
 * Opna _Canvas settings_ spjaldið
-* Bæta við nýju Canvas-svæði
-* Bæta við nýrri leiðbeinandi mynd
-* Kveikja/slökkva á smellun við hnitanetið
-* Stilla stærð hnitanetsins (0 minnst - 8 stærst). (Athugaðu að stærðir hnitanetsins aukast í veldum af 2, þannig að þegar þú minnkar stærð hnitanetsins haldast allir punktar sem smellt hafa að hnitanetinu áfram á sömu línum).
+* Bæta við nýju canvas zone
+* Bæta við nýrri leiðarmynd
+* Kveikja eða slökkva á festingu við hnitanetið
+* Stilla stærð hnitanetsins (0 minnst - 8 stærst). (Athugaðu að stærðir hnitanetsins aukast í veldum af 2, þannig að þegar þú minnkar hnitanetið haldast allir festir punktar samt í línu).
 * Sýna / fela hnitanetið

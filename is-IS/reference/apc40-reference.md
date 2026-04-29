@@ -8,30 +8,30 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
-1. 8x5 Clipdeck
-2. Zone On/Off
-3. Effects 1-8 On/Off
-4. Zone X/Y Flip
-5. Effects 9-24 On/Off
-6. Effect Faders 1-8
+1. 8x5 Clip Deck
+2. Kveikja/slökkva á zone
+3. Kveikja/slökkva á áhrifum 1-8
+4. X/Y Flip fyrir zone
+5. Kveikja/slökkva á áhrifum 9-24
+6. Sleðar fyrir áhrif 1-8
 7. Global Brightness
-8. Effect 1-8 Parameter Adjustment
-9. Group Buttons
-10. Stop All Clips (ýttu tvisvar til að stöðva öll Clips strax án fade-stillinga þeirra)
-11. Clipdeck Scroll
-12. Clip / global parameters
-13. Clip Page Left/Right
-14. Zone Page Left/Right
-15. Alt button (gerir þér kleift að velja Clip)
-16. Shift button (gerir þér kleift að velja mörg atriði og nota aðra valkosti)
-17. Tempo Multiplier Enable/Disable
-18. Tempo Multiplier Fader (0% - 200%)
-19. Play / Pause
-20. Toggle Record Timeline
-21. Arm / Disarm (þú verður að ýta á Shift til að virkja Arm)
-22. Tempo bar reset
+8. Stilling á breytum fyrir áhrif 1-8
+9. Hnappahópar
+10. Stoppa öll Clips (ýttu tvisvar til að stoppa öll Clips strax án fade-stillinga þeirra)
+11. Skruna í Clip Deck
+12. Clip / víðværar breytur
+13. Clip Page til vinstri/hægri
+14. Zone Page til vinstri/hægri
+15. Alt-hnappur (gerir kleift að velja Clip)
+16. Shift-hnappur (gerir kleift að velja mörg atriði og nota aðra valkosti)
+17. Kveikja/slökkva á tempo margfaldara
+18. Sleði fyrir tempo margfaldara (0% - 200%)
+19. Spila / pásu
+20. Kveikja/slökkva á upptöku á tímalínu
+21. Arm / Disarm (þú þarft að ýta á Shift til að virkja Arm)
+22. Endurstilla tempo-stiku
 23. Tap Tempo
-24. Toggle Zone Delay (notaðu með Shift til að fletta í gegnum Delay/Chase, eða með Alt til að kveikja/slökkva á Retrigger)
-25. Nudge tempo + og -
-26. Tempo Scroll
-27. Foot Pedal, Tap Tempo
+24. Kveikja/slökkva á Zone Delay (notaðu með Shift til að fletta á milli Delay/Chase, eða með Alt til að kveikja/slökkva á Retrigger)
+25. Hnika tempo + og -
+26. Skruna tempo
+27. Fótrofi, Tap Tempo

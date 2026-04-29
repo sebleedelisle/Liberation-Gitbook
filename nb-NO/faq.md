@@ -173,7 +173,7 @@ Dette er frame-latensen, eller maksimal tid mellom at en frame genereres og dere
 
 #### Hvordan justerer jeg soner og innstillinger for en clip uten å kjøre den?
 
-`Alt / Option`-klikk for å gjøre den til _currently selected clip_ uten å aktivere den. Se også [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-klikk for å gjøre den til _Clip som er valgt for øyeblikket_ uten å aktivere den. Se også [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
 
 #### Hvordan kopierer jeg clips?
 

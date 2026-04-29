@@ -43,11 +43,16 @@ Language-specific reader address:
 * French: `vous`.
 * Spanish: European Spanish with informal `tu`.
 * Danish, Norwegian Bokmål, Swedish, Icelandic, Italian, and Brazilian Portuguese: informal direct address.
-* Finnish, Hungarian, and Polish: natural direct technical-manual prose.
+* Finnish and Polish: natural direct technical-manual prose.
+* Hungarian: informal `te` / tegezés, not formal magázás.
 * Japanese and Korean: concise polite technical-manual prose.
 * Traditional Chinese (Hong Kong): Traditional Chinese characters with natural Hong Kong technical-manual wording; avoid Simplified Chinese characters and Mainland-only terminology.
 
 Exact on-screen UI labels should stay in English when the text refers to labels, buttons, menu items, panels, or settings.
+
+Current app terminology should also stay in English when it refers to Liberation concepts, because the app UI is currently in English. This includes terms such as `Clip`, `Clip Deck`, `Clip Editor`, `Creator`, `node`, `zone`, `beam zone`, `canvas zone`, `DMX zone`, `mask`, `Canvas`, `Output`, `Output view`, `Laser Overview`, `Laser Settings`, `Global Brightness`, `test pattern`, `arm`, `disarm`, `controller`, `APC40`, `LaserCube`, `DMX`, `MIDI`, `OSC`, `ILDA`, `DAC`, and `ArtNet`. Translate the surrounding sentence naturally, but keep these terms aligned with the app. Use local articles, descriptors, or short explanations when needed to make the English term fit the target-language grammar. Avoid awkward hybrid forms where English app terms get target-language endings bolted onto them; rewrite around the term instead. If the app UI is localized later, update this glossary to the localized UI terms.
+
+This glossary is not a reason to keep generic hardware, safety, or operating-system words in English. Translate terms such as laser, laser output, emergency stop button, aperture cover, hardware, software, desktop, and file explorer naturally unless they are exact on-screen labels.
 
 Visible Markdown link text should be translated when it is natural-language text. For links to other pages or sections in the manual, the visible text should match the translated title or heading for that destination, while the link target itself must stay exactly the same.
 

@@ -1,5 +1,5 @@
 ---
-description: A lézershow-szoftverek új generációja
+description: A lézershow-szoftverek következő generációja
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/
@@ -11,30 +11,30 @@ metaLinks:
 
 <figure><img src=".gitbook/assets/LiberationTease.jpeg" alt=""><figcaption></figcaption></figure>
 
-A Liberation új munkamódszert kínál a lézerekhez: **modern**, **hatékony**, **Mac és PC** rendszeren is használható, és a mai rendezvényprodukciók valós igényeire készült. Gyors, kifejező kreatív eszközöket egyesít beépített biztonsággal és olyan munkafolyamattal, amely gördülékeny, intuitív, és valóban a jövőre készült – a lézerszoftvereket áthozva a 21. századba.
+A Liberation új munkamódot nyit meg a lézerek használatában: **modern**, **hatékony**, **Mac és PC** rendszeren is működik, és a mai rendezvényprodukciók valós igényeire készült. Gyors, kifejező kreatív eszközöket ad beépített biztonsági funkciókkal, olyan munkafolyamattal, amely gördülékeny, intuitív, és valóban a jövőre készült — a lézerszoftvereket a 21. századba emelve.
 
-A Liberation egy növekvő lézervezérlő szoftveres ökoszisztéma része, amelynek tagjai ugyanazt a nyílt protokollú vezérlőcsaládot használják. Akár TouchDesignerben, MadLaserben, LaserShowGenben vagy Liberationben dolgozol, sosem vagy egyetlen gyártóhoz kötve. Azt a hardvert választhatod, amely illik a rendszeredhez, a költségkeretedhez és az ötleteidhez.
+A Liberation egy növekvő lézervezérlő szoftveres ökoszisztéma része, amely ugyanazt a nyílt protokollú controller családot használja. Akár TouchDesigner, MadLaser, LaserShowGen vagy Liberation környezetben dolgozol, nem vagy egyetlen gyártóhoz kötve. Azt a hardvert választhatod, amely illik a rendszeredhez, a költségkeretedhez és az ötleteidhez.
 
-A Liberation mindenekelőtt kifejező kreatív hangszernek készült. Könnyen megtanulható, valóban élvezetes használni, és elég nagy teljesítményű ahhoz, hogy egyetlen számítógépről, megbízhatóan kezelje a legnagyobb igényű fesztiválokat, installációkat és arénaturnékat is.
+A Liberation mindenekelőtt kifejező kreatív hangszernek készült. Könnyen megtanulható, valóban élvezetes használni, és elég erős ahhoz, hogy a legnagyobb fesztiválokat, installációkat és arénaturnékat is stabilan kiszolgálja — mindezt egyetlen számítógépről.
 
-Ez az útmutató segít magabiztosan használni a Liberationt – a telepítéstől és a biztonsági alapoktól kezdve a klipek építésén és a zónák leképezésén át a teljes show-k futtatásáig. Azokra a fogalmakra és munkafolyamatokra összpontosít, amelyek valóban számítanak, a Liberation pedig úgy készült, hogy ne akadályozzon: több időt tölthess alkotással, és kevesebbet a szoftverrel való küzdelemmel.
+Ez az útmutató segít magabiztosan használni a Liberationt: a telepítéstől és a biztonsági alapoktól a Clips létrehozásán és a zone-ok leképezésén át a teljes show-k futtatásáig. Azokra a fogalmakra és munkafolyamatokra koncentrál, amelyek igazán számítanak, a Liberation pedig úgy készült, hogy ne álljon az utadba — így több időt tölthetsz alkotással, és kevesebbet a szoftverrel való küzdéssel.
 
 ## Kinek szól ez az útmutató?
 
-* Új felhasználóknak, akik világos kezdő útvonalat szeretnének a biztonság kihagyása nélkül.
-* Show-operátoroknak, akiknek megbízható referenciára van szükségük helyszíni beállítás vagy próba közben.
-* Kíváncsi kísérletezőknek, akik haladó funkciókat fedeznek fel, például a Clip Editor, MIDI, DMX és canvas eszközöket.
+* Új felhasználóknak, akik világos kezdő lépéseket szeretnének, a biztonság kihagyása nélkül.
+* Show-operátoroknak, akiknek megbízható referencia kell helyszíni beállítás vagy próba közben.
+* Kíváncsi kísérletezőknek, akik haladó funkciókat fedeznek fel, például a Clip Editor, MIDI, DMX és Canvas eszközök használatát.
 
 ## Az útmutató használata
 
-* Kezdd az [**Important! Read this first**](important.md) résszel, hogy áttekintsd a kritikus biztonsági és licencelési tudnivalókat a hardver csatlakoztatása előtt.
-* Kövesd a [**Quick start guide**](getting-started.md) útmutatót, ha gyorsan szeretnél kimenetet indítani, majd merülj el a [**Hardware**](hardware/) és [**Setting up**](setting-up/) részekben a részletesebb konfiguráláshoz.
-* A szakaszcímekkel közvetlenül a kívánt témára ugorhatsz, például [**Clips & Clip deck**](clips/), [**Output view**](output-view/), **stb.**; ha pontos válaszokra van szükséged, térj vissza a [**Reference**](reference/) vagy a [**Troubleshooting**](troubleshooting/) részhez.
+* Kezdd a [**Fontos! Ezt olvasd el először**](important.md) résszel, hogy hardver csatlakoztatása előtt átnézd a kritikus biztonsági és licencelési tudnivalókat.
+* Kövesd a [**Gyors kezdési útmutató**](getting-started.md) lépéseit, ha gyorsan szeretnél kimenetet indítani, majd mélyebb konfiguráláshoz nézd meg a [**Hardver**](hardware/) és a [**Beállítás**](setting-up/) részeket.
+* A szakaszcímekkel közvetlenül a megfelelő témákhoz ugorhatsz (például [**Clips és Clip Deck**](clips/), [**Output view**](output-view/), **stb.**), ha pedig pontos válaszokra van szükséged, térj vissza a [**Referencia**](reference/) vagy a [**Hibaelhárítás**](troubleshooting/) részhez.
 
 ## Jelölések és tippek
 
-* Az állapot-emojik a készültséget jelzik: ✅ kész, 🟧 részleges, 🟩 képek szükségesek, ◼️ helyőrző.
-* A linkek az aktuális kiadásra vonatkoznak; a képernyőképek és menük kissé eltérhetnek, ha régebbi buildet használsz.
-* A hardveres lépések a biztonságos alapbeállításokat emelik ki – soha ne kerüld meg a reteszeléseket, és a nyalábokat mindig tartsd távol az emberektől.
+* Az állapotjelző emojik a készültséget mutatják: ✅ kész, 🟧 részleges, 🟩 képekre vár, ◼️ helykitöltő.
+* A linkek az aktuális kiadásra vonatkoznak; régebbi build használata esetén a képernyőképek és menük kissé eltérhetnek.
+* A hardveres lépések a biztonságos alapbeállításokat emelik ki — soha ne kerüld meg a reteszeléseket, és tartsd távol a nyalábokat az emberektől.
 
-Ha elakadsz, először nézd meg a [**FAQ**](faq.md) részt, majd célzott megoldásokért a [**Troubleshooting**](troubleshooting/) szakaszt, mielőtt támogatást kérnél.
+Ha elakadsz, először nézd meg a [**GYIK**](faq.md) részt, majd célzott megoldásokért a [**Hibaelhárítás**](troubleshooting/) szakaszt, mielőtt támogatást kérsz.

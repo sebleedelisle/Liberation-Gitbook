@@ -7,58 +7,58 @@ metaLinks:
 
 # 🟩 Yfirlit yfir Canvas
 
-Liberation Canvas-kerfið er tiltölulega einfalt, en það getur verið ruglingslegt í fyrstu. Hér er huglægt yfirlit sem kemur þér af stað.
+Kerfið Canvas í Liberation er tiltölulega einfalt, en það getur verið ruglingslegt í fyrstu. Hér er hugmyndalegt yfirlit til að koma þér af stað.
 
 {% hint style="info" %}
-**Bíddu, þarf ég Canvas-kerfið?**
+**Bíddu, þarf ég að nota Canvas?**
 
-Kannski ekki! Ef þú ert bara að varpa einni grafík á einn laser geturðu auðveldlega gert það með beam zone (þó að efni í beam zone sé sjálfgefið speglað lárétt, þannig að þú þarft að nota X flip á Clip).
+Kannski ekki! Ef þú ert bara að varpa einni grafík á einn leysi geturðu gert það auðveldlega með beam zone (þó að efni í beam zone sé sjálfgefið speglað lárétt, þannig að þú þarft að kveikja á X flip fyrir Clip).
 
-En ef þú vilt dreifa grafísku efni yfir fleiri en einn laser, eða skipta því upp í mismunandi hluta til að kortleggja á byggingar, þá sér Canvas-kerfið um það!
+En ef þú vilt dreifa grafísku efni á fleiri en einn leysi, eða skipta því í mismunandi hluta til að kortleggja á byggingarform, þá sér Canvas um það!
 {% endhint %}
 
 ### Canvas
 
-Fyrst er það Canvas sjálft. Þetta er það sem þú sérð í _CANVAS_ view og táknar stóran, ja, Canvas-flöt þar sem þú getur teiknað efni hvar sem er innan þessa svæðis.
+Fyrst er það sjálft Canvas. Þetta er það sem þú sérð í _CANVAS_ view og táknar stórt vinnusvæði — eiginlega striga — þar sem þú getur teiknað efni hvar sem er innan svæðisins.
 
-### Canvas target areas
+### Marksvæði á Canvas
 
-Þessi svæði birtast sem bláir útlínurétthyrningar í Canvas view og eru svæði sem þú getur sent efni á. Þú sendir efni úr Clip á Canvas target area, á sama hátt og þú myndir senda Clip á beam zone. Þú sérð Canvas target area-hnappana hægra megin við beam zone-hnappana í Clip Deck.
+Þau birtast sem bláir útlínurétthyrningar í Canvas view og eru svæði sem þú getur sent efni á. Þú sendir efni úr Clip á marksvæði á Canvas á sama hátt og þú myndir senda Clip í beam zone. Þú sérð hnappana fyrir marksvæði á Canvas hægra megin við hnappana fyrir beam zone í Clip Deck.
 
 {% hint style="info" %}
-Ef þú sérð ekki Canvas-hnappana í Clip Deck skaltu prófa að fletta beam zone-hnöppunum með `Shift + Left / Right Arrow`. Þú ættir að sjá hnapp fyrir hvert Canvas target area merkt _CANVAS 1, CANVAS 2_ o.s.frv.
+Ef þú sérð ekki hnappana fyrir Canvas í Clip Deck skaltu prófa að skruna hnappana fyrir beam zone með `Shift + Left / Right Arrow`. Þú ættir að sjá hnapp fyrir hvert marksvæði á Canvas, merkt _CANVAS 1, CANVAS 2_ o.s.frv.
 {% endhint %}
 
 ### Canvas zones
 
-Canvas zones eru svæði innan Canvas sem þú velur að senda á laser. Þau eru sýnd sem bleikir útlínurétthyrningar í Canvas view. Þú getur hægrismellt á hvert svæði og valið laserana sem þú vilt úthluta því til. Ef þú skiptir nú yfir í _OUTPUT_ view fyrir þann laser sérðu að nýtt svæði hefur birst.
+Canvas zones eru svæði innan Canvas sem þú velur að senda á leysi. Þau birtast sem bleikir útlínurétthyrningar í Canvas view. Þú getur hægrismellt á hvert zone og valið leysana sem þú vilt úthluta því á. Ef þú skiptir nú yfir í _OUTPUT_ view fyrir þann leysi sérðu að nýtt zone hefur birst.
 
 {% hint style="danger" %}
-VIÐVÖRUN - ef laserinn er armed gætirðu skyndilega byrjað að varpa efni á sjálfgefnu Canvas zone. Best er að disarm laserinn áður en þú úthlutar Canvas zones til hans.
+VIÐVÖRUN - ef leysirinn er armed gætirðu skyndilega byrjað að varpa efni í sjálfgefnu canvas zone. Best er að velja disarm fyrir leysinn áður en þú úthlutar canvas zones á hann.
 {% endhint %}
 
 {% hint style="info" %}
-Þú getur einnig úthlutað Canvas zone til lasers með því að smella á _add canvas zone_ hnappinn í _OUTPUT_ view. Sjá [zones.md](../output-view/zones.md).
+Þú getur líka úthlutað canvas zone á leysi með því að smella á _add canvas zone_ hnappinn í _OUTPUT_ view. Sjá [Zones](../output-view/zones.md).
 {% endhint %}
 
-### Guide images
+### Leiðarmyndir
 
-Þú getur bætt guide image inn í Canvas og notað hana sem sniðmát fyrir grafíkina þína. Mælt er með að stilla colour tint á guide image (hægrismellsvalmynd) og dekkja hana svo auðveldara sé að sjá efnið þitt ofan á henni.
+Þú getur bætt leiðarmynd inn í Canvas og notað hana sem sniðmát fyrir grafíkina þína. Það er ráðlegt að stilla litblæ leiðarmyndarinnar (í hægrismellivalmyndinni) og dekkja hana svo auðveldara sé að sjá efnið þitt ofan á henni.
 
 {% hint style="info" %}
-Við architectural mapping hefur mér reynst gagnlegt að búa til „útflett“ myndrænt yfirlit af byggingunni sem sýnir alla fleti hennar sem flata, óbjagaða mynd. Sjónarhornsleiðréttingu fyrir mismunandi hluta er hægt að gera með Canvas zone í _OUTPUT_ view.
+Við kortlagningu á byggingarform hefur mér reynst gagnlegt að búa til „útfletta“ mynd af byggingunni, þar sem allir fletir hennar eru sýndir sem flöt og óbjöguð mynd. Sjónarhornsleiðrétting fyrir mismunandi hluta er síðan hægt að gera með canvas zone í _OUTPUT_ view.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/SaltwellHallFlat2.jpg" alt=""><figcaption><p>„Útflött“ guide image fyrir Saltwell Hall í Gateshead í Bretlandi</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/SaltwellHallFlat2.jpg" alt=""><figcaption><p>„Flöt“ leiðarmynd fyrir Saltwell Hall í Gateshead í Bretlandi</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/SaltwellHallZones.png" alt=""><figcaption><p>Canvas zones í frumgerð af Liberation (um 2017!) Taktu eftir að bleiku rétthyrningarnir velja hvaða hluta af Canvas á að sýna, og Output views fyrir neðan sýna síðan á hvaða hluta hvers lasers þessi svæði fara.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/SaltwellHallZones.png" alt=""><figcaption><p>Canvas zones í frumgerð af Liberation (um 2017!) Athugaðu að bleiku rétthyrningarnir velja hvaða hluti Canvas er sýndur, og Output views fyrir neðan sýna síðan á hvaða hluta hvers leysis þessi zones fara.</p></figcaption></figure>
 
-### Canvas í 3D visualiser
+### Canvas í 3D-sýnaranum
 
-Það væri líklega ansi snúið (vægast sagt) að endurskapa flókið fjöllaser-varpskerfi í 3D visualiser! Þess í stað geturðu sett Canvas inn í 3D-rýmið. Virkjaðu _Show canvas_ gátreitinn í _3D visualiser settings_ panel. (Allar guide images sem þú ert með í Canvas birtast líka í visualiser.)
+Það væri líklega ansi snúið, vægast sagt, að endurgera flókið vörpunarkerfi með mörgum leysum í 3D-sýnaranum! Þess í stað hefurðu möguleika á að staðsetja Canvas innan 3D-rýmisins. Kveiktu á _Show canvas_ gátreitnum í _3D visualiser settings_ panel. (Allar leiðarmyndir sem þú ert með í Canvas birtast líka í sýnaranum.)
 
 {% hint style="info" %}
-Athugaðu að visualiser sýnir samt Canvas-vörpunina sem lofthjúpsáhrif frá laserunum. Þú getur annaðhvort einfaldlega fært þau út úr sýninni eða, ef þú vilt gera þetta flott, stillt þau saman við Canvas!
+Athugaðu að sýnarinn mun samt sýna varpanir frá Canvas sem andrúmsloftsáhrif frá leysunum. Þú getur annaðhvort fært þær út úr sjónsviðinu eða, ef þú vilt vanda þig, látið þær passa við Canvas!
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-17 at 10.36.49.png" alt=""><figcaption><p>Það getur verið einstaklega ánægjulegt þegar geislarnir frá lasernum eru stilltir saman við Canvas-myndina í 3D visualiser!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-17 at 10.36.49.png" alt=""><figcaption><p>Það getur verið ótrúlega ánægjulegt þegar geislarnir frá leysinum passa við myndina á Canvas í 3D-sýnaranum!</p></figcaption></figure>

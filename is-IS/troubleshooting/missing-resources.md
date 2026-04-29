@@ -5,9 +5,9 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/missing-resources
 ---
 
-# ✅ Villan „missing resources“ við ræsingu
+# ✅ Villa um „missing resources“ við ræsingu
 
-Ef þú færð villuna „missing resources“ þegar forritið er ræst þýðir það að mikilvægar skrár sem Liberation þarf til að keyra vantar. Þetta getur gerst í Windows ef þú eyðir óvart skrám úr uppsetningarmöppunni eða færir þær. Á Mac getur þetta gerst ef uppsetningin hefur skemmst á einhvern hátt.
+Ef þú færð villu um „missing resources“ þegar þú ræsir forritið þýðir það að mikilvægar skrár sem Liberation þarf til að keyra vantar. Þetta getur gerst í Windows ef þú eyðir eða færir skrár í uppsetningarmöppunni fyrir slysni. Á Mac getur þetta gerst ef uppsetningin hefur skemmst á einhvern hátt.
 
 ### Hvernig á að laga þetta
 

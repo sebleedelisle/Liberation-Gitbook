@@ -9,7 +9,7 @@ metaLinks:
 
 ### Autorisere Liberation
 
-Når du åpner Liberation for første gang, kjører det i _demomodus_, og du ser _About panel:_
+Når du åpner Liberation for første gang, kjører det i _demomodus_, og du ser _About_-panelet:
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -19,7 +19,7 @@ Systemet autoriserer nå installasjonen automatisk med abonnementet ditt, og du 
 
 <figure><img src="../.gitbook/assets/authorisation-machine-added" alt=""><figcaption></figcaption></figure>
 
-Når du går tilbake til Liberation, ser du at _About panel_ er oppdatert (det kan hende du må vente noen sekunder).
+Når du går tilbake til Liberation, ser du at _About_-panelet er oppdatert (det kan hende du må vente noen sekunder).
 
 <figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -34,7 +34,7 @@ Hvis du har flere abonnementer, blir du bedt om å velge abonnementet du vil til
 Gratulerer! Liberation-installasjonen din er nå autorisert, og du kan sende ut til lasere! Men les [getting-started.md](../getting-started.md "mention") og [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") før du armerer laserne.
 
 {% hint style="info" %}
-Du kan åpne _About panel_ når som helst via menyen _Liberation -> About Liberation_ eller _Liberation -> Authorise/Deauthorise this computer_
+Du kan åpne _About_-panelet når som helst via menyen _Liberation -> About Liberation_ eller _Liberation -> Authorise/Deauthorise this computer_
 {% endhint %}
 
 ### Deautorisere Liberation

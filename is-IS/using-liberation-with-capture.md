@@ -5,55 +5,55 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/using-liberation-with-capture
 ---
 
-# 🟩 Notkun Liberation með Capture
+# 🟩 Að nota Liberation með Capture
 
-Liberation styður [Capture](https://capture.se) sem ytri visualiser (frá útgáfu 1.0.3). Ef þú notar Capture nú þegar í þínu vinnuflæði geturðu notað það til að sjá rauntíma leysiúttak Liberation í 3D senunni þinni.
+Liberation styður [Capture](https://capture.se) sem ytri myndhermi (frá útgáfu 1.0.3). Ef þú notar Capture nú þegar í vinnuflæðinu þínu geturðu notað það til að birta lifandi laserúttak frá Liberation í 3D senunni þinni.
 
 ### Hvernig þetta virkar
 
-Það þarf ekkert sérstakt tengingarferli eða handvirka tengingu.
+Það þarf ekkert sérstakt tengiferli eða handvirka tengingu.
 
-Svo lengi sem:
+Svo framarlega sem:
 
 * Liberation og Capture eru á sama neti
-* Eldveggurinn þinn leyfir tenginguna
+* eldveggurinn þinn leyfir tenginguna
 
-…þá birtast allir leysar sem þú hefur sett upp í Liberation sjálfkrafa inni í Capture sem miðlunargjafar. Þú þarft ekki að stilla IP-tölur eða virkja neitt sérstakt - þetta birtist bara sjálft.
+…þá birtast allir leysar sem þú hefur sett upp í Liberation sjálfkrafa inni í Capture sem miðlagjafar. Þú þarft ekki að stilla IP-tölur eða virkja neitt sérstakt — þetta birtist einfaldlega.
 
 ### Að sjá leysa inni í Capture
 
-Allir stilltir leysar í Liberation birtast í Capture sem tiltækir miðlunargjafar.
+Allir leysar sem hafa verið stilltir í Liberation birtast í Capture sem tiltækir miðlagjafar.
 
-Til að sjá raunverulegt úttak:
+Til að sjá úttak í raun:
 
-* Leysirinn verður að vera virkjaður í Liberation
-* Gjafinn verður að vera tengdur við laser fixture inni í Capture
+* leysirinn verður að vera armed í Liberation
+* miðlagjafinn verður að vera tengdur við leysibúnað inni í Capture
 
-Þegar leysirinn er virkjaður sýnir Capture rauntíma úttaksstrauminn frá Liberation. Ef leysir er óvirkjaður í Liberation verður hann áfram sýnilegur í Capture sem gjafi, en hann sendir ekkert úttak.
+Þegar leysirinn er armed birtir Capture lifandi úttaksstraum frá Liberation. Ef leysir er disarmed í Liberation verður hann áfram sýnilegur í Capture sem miðlagjafi, en hann sendir ekkert út.
 
-Sjá skjölin á [capture.se](https://www.capture.se/) fyrir frekari leiðbeiningar og aðstoð við að setja upp leysa í Capture. <br>
+Sjáðu skjölin á [capture.se](https://www.capture.se/) fyrir frekari leiðbeiningar og stuðning við að setja upp leysa í Capture. <br>
 
-### Leyfistakmarkanir og virkjaðir leysar
+### Leyfistakmarkanir og armed leysar
 
-Tengingar við Capture eru meðhöndlaðar nákvæmlega eins og raunveruleg leysiúttök.
+Tengingar við Capture eru meðhöndlaðar nákvæmlega eins og raunveruleg laserúttök.
 
 Það þýðir:
 
-* Þú getur aðeins virkjað eins marga leysa og leyfisþrepið þitt leyfir
-* Aðeins virkjaðir leysar senda gögn virkt til Capture
+* þú getur aðeins sett jafn marga leysa í armed og leyfisþrepið þitt leyfir
+* aðeins leysar sem eru armed senda gögn virkt til Capture
 
 ### Þarf ég Capture?
 
 Alls ekki.
 
-Liberation inniheldur innbyggðan 3D visualiser sem er alltaf tiltækur og fer ekki eftir leyfisþrepinu þínu. Þú getur hannað og forskoðað sýningar beint inni í Liberation án nokkurs utanaðkomandi hugbúnaðar.
+Liberation inniheldur innbyggðan 3D myndhermi sem er alltaf tiltækur og er ekki háður leyfisþrepinu þínu. Þú getur hannað og forskoðað sýningar beint inni í Liberation án utanaðkomandi hugbúnaðar.
 
-Capture er einfaldlega viðbótarvalkostur ef þú notar það nú þegar fyrir lýsingu eða sýningarhönnun.
+Capture er einfaldlega viðbótarmöguleiki ef þú notar það nú þegar fyrir ljós eða sýningarhönnun.
 
 ### Úrræðaleit
 
 Ef leysar birtast ekki í Capture:
 
-* Gakktu úr skugga um að bæði forritin séu á sama neti
-* Athugaðu stillingar eldveggsins
-* Gakktu úr skugga um að leysirinn sé virkjaður í Liberation
+* athugaðu að bæði forritin séu á sama neti
+* athugaðu stillingar eldveggsins
+* gakktu úr skugga um að leysirinn sé armed í Liberation

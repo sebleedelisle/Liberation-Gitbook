@@ -5,16 +5,16 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/hardware/emergency-stop-interlocks
 ---
 
-# ✅ Neyðarstöðvun / interlock-öryggisrásir
+# ✅ Neyðarstöðvun / öryggislæsingar
 
-Það getur verið gaman að kveikja á leysunum þínum, en það er algjörlega nauðsynlegt að þú getir líka _stöðvað_ þá! Leysibúnaður og hugbúnaður er almennt mjög áreiðanlegur, en allt getur bilað. Og ef það gerist, þó sjaldan sé, verður þú mjög þakklátur fyrir fjartengda stöðvunarhnappinn.
+Það getur verið gaman að kveikja á laserunum, en það er lífsnauðsynlegt að þú getir líka _stöðvað_ þá! Laserbúnaður og hugbúnaður eru yfirleitt mjög áreiðanleg, en allt getur bilað. Og ef það gerist, sem er sjaldgæft, verður þú mjög fegin að hafa fjartengdan stöðvunarhnapp.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Fjartengdur stöðvunarhnappur fyrir Laser Cube. Mikilvægasti búnaðurinn sem þú átt.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Fjartengdur stöðvunarhnappur fyrir Laser Cube. Mikilvægasti vélbúnaðurinn sem þú átt.</p></figcaption></figure>
 
 {% hint style="danger" %}
-Rafmagnsverkfæri og þungur búnaður eru með stöðvunarhnappa sem rjúfa einfaldlega aðalrafmagnið, en þú ættir **aldrei** að gera þetta með leysibúnað! Leysarnir eru alltaf smástund að hætta að gefa frá sér geisla og skyndilegt rafmagnsleysi getur valdið því að leysiskannarnir fara út í endastöðu. Þá er líklegt að sterkur geisli birtist á óvæntum stöðum!
+Rafmagnsverkfæri og þungur búnaður eru með stöðvunarhnappa sem rjúfa einfaldlega aðalrafmagnið, en þetta skaltu **aldrei** gera með laserbúnað! Laserarnir eru alltaf augnablik að hætta að gefa frá sér ljós og skyndilegt rafmagnsleysi getur valdið því að laser-skannarnir fara út í ystu stöður. Þá geturðu fengið sterkan geisla á óvæntum stöðum!
 
-Þess vegna eru leysar með innbyggð interlock-kerfi og fjartengd stöðvunarkerfi sem afvopna og virkja leysinn á stýrðan hátt.
+Þess vegna eru laserar með innbyggð interlock-kerfi og fjartengd stöðvunarkerfi sem afvirkja og virkja laserinn með stjórnuðum hætti.
 {% endhint %}
 
-**Notaðu alltaf fjartengda stöðvunarhnappa**, jafnvel þegar þú notar leysana þína í lokuðum og stýrðum einkarýmum. Þú veist aldrei hvenær einhver gæti óvænt gengið inn í geislann, eða hvenær óvænt sterkur geisli gæti farið að brenna gifs eða málningu (spurðu mig hvernig ég veit það).
+**Notaðu alltaf fjartengda stöðvunarhnappa**, jafnvel þegar þú notar laserana í lokuðu og stýrðu einkarými. Þú veist aldrei hvenær einhver gæti óvænt gengið inn í geislann, eða hvenær óvænt sterkur geisli gæti byrjað að brenna múrverk eða gifs (spurðu mig hvernig ég veit það).

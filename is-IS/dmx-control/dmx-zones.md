@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX-svæði
+# ◼️ DMX zones

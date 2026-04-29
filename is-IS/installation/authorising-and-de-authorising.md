@@ -7,15 +7,15 @@ metaLinks:
 
 # ✅ Heimild veitt og afturkölluð
 
-### Heimila Liberation
+### Að veita Liberation heimild
 
-Þegar þú opnar Liberation í fyrsta sinn keyrir það í _demo mode_ og þú sérð _About panel:_
+Þegar þú opnar Liberation í fyrsta sinn keyrir það í _kynningarham_ og þú sérð _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Smelltu á hnappinn _AUTHORISE ONLINE_ og vafrinn þinn opnast. Ef þú ert ekki þegar skráð(ur) inn verðurðu beðin(n) um að skrá þig inn núna.
+Smelltu á hnappinn _AUTHORISE ONLINE_ og vafrinn þinn opnast. Ef þú ert ekki þegar innskráð/ur verður þú beðin/n um að skrá þig inn núna.
 
-Kerfið heimilar nú uppsetninguna sjálfkrafa með áskriftinni þinni og þú sérð þessi skilaboð:
+Kerfið veitir uppsetningunni sjálfkrafa heimild með áskriftinni þinni og þú sérð þessi skilaboð:
 
 <figure><img src="../.gitbook/assets/authorisation-machine-added" alt=""><figcaption></figcaption></figure>
 
@@ -24,29 +24,29 @@ Kerfið heimilar nú uppsetninguna sjálfkrafa með áskriftinni þinni og þú 
 <figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Ef þú hefur þegar heimilað hámarksfjölda tölva fyrir áskriftina þína þarftu að afturkalla heimild fyrir einni af hinum tölvunum þínum eða uppfæra áskriftina.
+Ef þú hefur þegar veitt hámarksfjölda tölva heimild fyrir áskriftina þína þarftu að afturkalla heimild fyrir einni af hinum tölvunum þínum eða uppfæra áskriftina.
 {% endhint %}
 
 {% hint style="info" %}
-Ef þú ert með fleiri en eina áskrift verðurðu beðin(n) um að velja áskriftina sem þú vilt tengja tölvuna við.
+Ef þú ert með fleiri en eina áskrift verður þú beðin/n um að velja áskriftina sem þú vilt tengja tölvuna við.
 {% endhint %}
 
-Til hamingju! Liberation-uppsetningin þín hefur nú verið heimiluð og þú getur sent úttak til leysa. Lestu þó [getting-started.md](../getting-started.md) og [setting-up-lasers.md](../setting-up/setting-up-lasers.md) áður en þú virkjar leysana.
+Til hamingju! Liberation uppsetningin þín hefur nú fengið heimild og þú getur sent út í leysa! Lestu samt [Að byrja](../getting-started.md) og [Uppsetning leysa](../setting-up/setting-up-lasers.md) áður en þú notar arm á leysunum.
 
 {% hint style="info" %}
-Þú getur opnað _About panel_ hvenær sem er úr valmyndinni _Liberation -> About Liberation_ eða _Liberation -> Authorise/Deauthorise this computer_
+Þú getur opnað _About panel_ hvenær sem er í valmyndinni _Liberation -> About Liberation_ eða _Liberation -> Authorise/Deauthorise this computer_
 {% endhint %}
 
-### Afturkalla heimild fyrir Liberation
+### Að afturkalla heimild fyrir Liberation
 
-**Innan úr Liberation** - Opnaðu valmyndina _Liberation -> Authorise / De-authorise this Computer_ og smelltu á hnappinn _DEAUTHORISE COMPUTER_. Það er allt og sumt! Þú þarft að vera nettengd(ur) til að þetta virki.
+**Innan úr Liberation** - Opnaðu valmyndina _Liberation -> Authorise / De-authorise this Computer_ og smelltu á hnappinn _DEAUTHORISE COMPUTER_. Það er allt og sumt! Þú þarft að vera nettengd/ur til að þetta virki.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
 
-Að öðrum kosti geturðu gert þetta á vefsvæðinu - Veldu _Your subscriptions_ úr valmyndinni og smelltu síðan á _Manage Subscription_ til að opna áskriftarsíðuna þína. Þar ættirðu að sjá upplýsingar um áskriftina þína og lista yfir tölvurnar sem þú hefur heimilað.
+Einnig geturðu gert þetta á vefsíðunni - Veldu _Your subscriptions_ í valmyndinni og smelltu síðan á _Manage Subscription_ til að opna áskriftarsíðuna þína. Þar ættirðu að sjá upplýsingar um áskriftina og lista yfir tölvurnar sem þú hefur veitt heimild.
 
-Smelltu á tengilinn _De-authorise_ við hliðina á vélinni sem þú vilt afturkalla heimild fyrir
+Smelltu á tengilinn _De-authorise_ við hliðina á tölvunni sem þú vilt afturkalla heimild fyrir.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.16.40.png" alt=""><figcaption></figcaption></figure>
 
-Ef vélin hefur ekki verið nettengd síðan áskriftin var síðast endurnýjuð verður heimildin afturkölluð strax. Annars fer vélin í _queue_ fyrir afturköllun heimildar. Þetta þýðir að heimildin verður sjálfkrafa afturkölluð næst þegar vélin tengist internetinu, eða á næsta endurnýjunardegi áskriftarinnar, hvort sem gerist fyrr.
+Ef tölvan þín hefur ekki verið nettengd frá síðustu endurnýjun verður heimildin afturkölluð strax. Annars fer tölvan í _biðröð_ fyrir afturköllun heimildar. Það þýðir að heimildin verður sjálfkrafa afturkölluð næst þegar tölvan tengist internetinu, eða á næsta endurnýjunardegi, hvort sem gerist á undan.

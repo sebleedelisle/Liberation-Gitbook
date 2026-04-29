@@ -127,7 +127,7 @@ Abbiamo inoltre implementato il supporto per APC Mini Mark 2 e MIDI Fighter Twis
 {% hint style="info" %}
 **Che cos’è una clip?**
 
-Una clip è un contenitore per qualsiasi contenuto laser all’interno di Liberation. Le clip possono contenere beam o animazioni grafiche e di solito sono cicli in loop. Possono essere indirizzate a qualsiasi zona (o _Canvas target area_) e vengono attivate usando i pulsanti clip all’interno del clip deck.
+Una clip è un contenitore per qualsiasi contenuto laser all’interno di Liberation. Le clip possono contenere beam o animazioni grafiche e di solito funzionano in loop. Possono essere indirizzate a qualsiasi zona (o _Canvas target area_) e vengono attivate usando i pulsanti clip all’interno del clip deck.
 {% endhint %}
 
 #### Panoramica del Clip Deck

@@ -6,36 +6,36 @@ metaLinks:
 
 # ✅ Yfirlit
 
-Output-skjárinn sýnir allt úttakssvið hvers lasers. Hér getur þú stillt svæði lasersins og bætt við maskasvæðum.
+Output view sýnir allt output-svið hvers lasers. Í þessari sýn geturðu stillt zones og bætt við mask-svæðum.
 
-<figure><img src="../.gitbook/assets/Output View.png" alt="" width="375"><figcaption><p><em>OUTPUT</em>-skjárinn með geislasvæði, canvas-svæði og maska.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Output View.png" alt="" width="375"><figcaption><p><em>OUTPUT</em> view með beam zone, canvas zone og mask.</p></figcaption></figure>
 
-Veldu Output-skjáinn með því að smella á _OUTPUT_ hnappinn á efstu tækjastikunni.
+Veldu Output view með því að smella á _OUTPUT_ hnappinn á efstu tækjastikunni.
 
 <figure><img src="../.gitbook/assets/Top icon bar with output selected.png" alt=""><figcaption></figcaption></figure>
 
-### Að velja laser
+### Laser valinn
 
-Notaðu töluhnappana efst til að velja hvaða laser þú ert að breyta. Þú getur líka notað `Tab` lykilinn til að fletta á milli þeirra, eða ýtt á tölustafalykil.
+Notaðu talnahnappana efst til að velja hvaða laser þú ert að breyta. Þú getur líka notað `Tab` til að fletta á milli þeirra eða ýtt á talnalykil.
 
-### Að fara um Output-skjáinn
+### Farið um Output view
 
-Smelltu og dragðu á auðu svæði, eða á læstum svæðum, til að færa skjáinn til.
+Smelltu og dragðu á tómu svæði (eða á læstum zones) til að færa sýnina til.
 
-### Að þysja inn og út á Output-skjánum
+### Þysjað inn og út í Output view
 
 Notaðu músarhjólið til að þysja inn og út.
 
 ### Tákn á tækjastiku
 
-<figure><img src="../.gitbook/assets/Output Tool Bar Icon.png" alt="" width="269"><figcaption><p>Tækjastikan vinstra megin á <em>OUTPUT</em>-skjánum</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Output Tool Bar Icon.png" alt="" width="269"><figcaption><p>Tækjastikan vinstra megin í <em>OUTPUT</em> view</p></figcaption></figure>
 
-Vinstra megin á skjánum sérðu tækjastikuna. Haltu músinni yfir tákni til að sjá hvað það gerir.
+Vinstra megin í sýninni sérðu tækjastikuna. Haltu músinni yfir tákni til að sjá hvað það gerir.
 
-* Bæta geislasvæði við laserinn
-* Velja hvaða canvas-svæði eru í þessum laser
-* Bæta maska við laserinn
-* Kveikja eða slökkva á prófunarmynstri fyrir þennan laser
-* Velja prófunarmynstur fyrir þennan laser (hunsar aðalprófunarmynstrið)
-* Kveikja eða slökkva á því að smella að hnitaneti
-* Stilla stærð hnitanetsins (0 minnst - 8 stærst). (Athugaðu að stærðir hnitanets aukast í veldum af 2, þannig að þegar þú minnkar hnitanetið haldast allir punktar sem hafa smollið að því áfram í línu).
+* Bæta beam zone við laserinn
+* Velja hvaða canvas zones eru í þessum laser
+* Bæta mask við laserinn
+* Kveikja eða slökkva á test pattern fyrir þennan laser
+* Velja test pattern fyrir þennan laser (tekur fram yfir aðal test pattern)
+* Kveikja eða slökkva á festingu við hnitanetið
+* Stilla stærð hnitanetsins (0 minnst - 8 stærst). (Athugaðu að stærðir hnitanetsins aukast í veldum af 2, þannig að þegar þú minnkar hnitanetið haldast allir festir punktar enn í línu).

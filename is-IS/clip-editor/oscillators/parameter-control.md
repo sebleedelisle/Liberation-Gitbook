@@ -9,12 +9,12 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (9).png" alt="" data-size="line">  Parameter Control
 
-_Parameter Control_ er aðferð til að stjórna ýmsum stillingum innan áhrifs eða Clip utan Clip Editor.
+_Parameter Control_ er aðferð til að stjórna ýmsum stillingum í áhrifum eða Clip utan Clip Editor.
 
-* **range min / range max** - lægstu og hæstu gildin sem stig færibreytunnar er varpað á
+* **range min / range max** - lágmarks- og hámarksgildi sviðsins sem gildi færibreytunnar er varpað yfir á
 * **level** - sjálfgefin stilling fyrir þessa færibreytu. Þetta er gildið sem hægt er að breyta utan frá. Þú getur stillt það handvirkt til að sjá hvaða áhrif það hefur.
-* **parameter number** - hægt er að úthluta hverju _parameter control_ númeri og það birtist í stýringunum utan Clip. Þú getur haft fleiri en eitt parameter control með sama númeri og þau eru þá öll stillt samtímis.
+* **parameter number** - hver _parameter control_ getur fengið úthlutað númeri, og það birtist í stjórntækjunum utan Clip. Þú getur haft fleiri en eina parameter control með sama númeri og þá eru þær allar stilltar á sama tíma.
 
 {% hint style="warning" %}
-Sem stendur er aðeins parameter 1 í áhrifum tiltækt til stýringar með APC40. Allar færibreytur í áhrifum og Clip eru tiltækar í hægrismellsvalmyndinni. Í framtíðinni verður hægt að varpa fleiri þessara færibreyta á MIDI controllers.
+Sem stendur er aðeins parameter 1 í áhrifum tiltækur til stýringar með APC40. Allar færibreytur innan áhrifa og Clips eru tiltækar í hægrismellsvalmyndinni. Í framtíðinni verður hægt að tengja fleiri af þessum færibreytum við MIDI controllers.
 {% endhint %}

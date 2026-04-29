@@ -5,27 +5,27 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/assigning-clips-to-laser-zones
 ---
 
-# ✅ Að úthluta Clip-um á leysissvæði
+# ✅ Að úthluta Clips á laser zones
 
-<figure><img src="../.gitbook/assets/clips-zones" alt=""><figcaption><p>Svæðishnapparnir efst og Flip X / Flip Y hnapparnir neðst.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/clips-zones" alt=""><figcaption><p>Hnapparnir fyrir zones eru efst og Flip X / Flip Y hnapparnir neðst.</p></figcaption></figure>
 
-Fyrir neðan Clip-in sérðu röð af svæðishnöppum (bæði á skjánum og speglaða á APC40), sem eru sjálfgefið merktir _BEAM 1_ til _BEAM 8_. Notaðu þessa hnappa til að kveikja og slökkva á svæðum fyrir það _Clip sem er valið núna_.
+Fyrir neðan Clips sérðu röð af hnöppum fyrir zones (bæði á skjánum og speglaða á APC40), sjálfgefið merkta _BEAM 1_ til _BEAM 8_. Notaðu þessa hnappa til að kveikja eða slökkva á zones fyrir það Clip sem er valið hverju sinni.
 
-#### Fletta í gegnum svæðin
+#### Fletta í gegnum zones
 
-Ef það eru fleiri en 8 svæði geturðu flett til vinstri og hægri með:
+Ef zones eru fleiri en 8 getur þú flett til vinstri og hægri með:
 
 * `Shift + Left / Right Arrow`
 * _DEV ON/OFF_ og _DEV LOCK_ hnöppunum á APC40
 
 ### Flip X og Y
 
-Fyrir neðan hvern svæðishnapp sérðu hnappa merkta _X_ og _Y._ Þeir spegla úttakið á hvert svæði lárétt og lóðrétt.
+Fyrir neðan hvern hnapp fyrir zone sérðu hnappa merkta _X_ og _Y._ Þeir spegla úttakið í viðkomandi zone lárétt eða lóðrétt.
 
 {% hint style="info" %}
-Þú þarft ekki að búa til nýtt svæði til að nota aðrar speglunarstillingar. Flip X og Y stillingarnar gilda aðeins fyrir þetta Clip; þær eru ekki stilling á svæðinu sjálfu.
+Þú þarft ekki að búa til nýja zone til að nota aðrar speglunarstillingar. X og Y speglunarstillingarnar eiga aðeins við um þetta Clip; þær eru ekki stilling fyrir zone.
 {% endhint %}
 
-### Úthluta svæðum á mörg Clip í einu
+### Úthluta zones á mörg Clips í einu
 
-Þú getur úthlutað svæðum og stillt X/Y fyrir öll Clip á svæði. Sjá [groups.md](groups.md) fyrir nánari upplýsingar.
+Þú getur úthlutað zones og stillt X/Y fyrir öll Clips í zone. Sjá [Hópar](groups.md) fyrir frekari upplýsingar.

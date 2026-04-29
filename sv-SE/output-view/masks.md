@@ -9,16 +9,16 @@ metaLinks:
 {% hint style="danger" %}
 **SÄKERHETSMEDDELANDE**
 
-Programvarumasker ska ALDRIG vara din enda metod för att skydda människor från laserutstrålning. Du ska alltid ha fysiska barriärer/maskning mellan lasern och all potentiell exponering för människor. Se det här systemet som ett extra redundanslager eller för tillämpningar som inte är säkerhetskritiska (till exempel för att skydda kameror eller projektorer), men kom ihåg att all programvara kan fallera.
+Masks i mjukvara ska ALDRIG vara din enda metod för att skydda människor från laserljus. Du ska alltid ha fysiska barriärer/maskering mellan lasern och alla platser där människor kan exponeras. Se det här systemet som en extra redundansnivå eller som något för användning där säkerheten inte är kritisk, till exempel för att skydda kameror eller projektorer. Kom ihåg att all mjukvara kan fallera.
 {% endhint %}
 
 ***
 
-Du kan lägga till en eller flera virtuella masker för att ta bort (eller minska) laserutstrålningen på specifika platser.
+Du kan lägga till en eller flera virtuella masks för att ta bort eller minska laserljuset på specifika platser.
 
-Lägg till en mask genom att klicka på ikonen i verktygsfältet. En röd fyrkant visas i output view, och det är din nya mask. Du kan flytta den genom att klicka och dra, och dra i hörnen för att ändra storleken. Om du vill ha en oregelbunden form håller du ned `Alt / Option` medan du drar i ett hörn. (När masken väl är oregelbunden behöver du inte längre hålla ned `Alt / Option`.)
+Lägg till en mask genom att klicka på ikonen i verktygsfältet. En röd kvadrat visas i Output view, och det är din nya mask. Du kan flytta den genom att klicka och dra, och ändra storleken genom att dra i hörnen. Om du vill ha en ojämn form håller du ned `Alt / Option` medan du drar i ett hörn. När mask inte längre har en jämn form behöver du inte hålla ned `Alt / Option` längre.
 
-Högerklicka på masken för att se fler inställningar:
+Högerklicka på en mask för att se fler inställningar:
 
-* Reduction percentage – detta anger hur mycket lasereffekten minskas inom masken. Som standard är den inställd på 100 %, det vill säga full nedsläckning inom masken. Men du kan minska lasereffekten med valfri mängd. Observera att masken byter färg till orange när det inte är en fullständig minskning.
+* Reduction percentage – anger hur mycket laserstyrkan minskas inom mask. Som standard är värdet 100 %, dvs. helt släckt inom mask. Men du kan minska laserstyrkan med valfritt värde. Observera att mask byter färg till orange när minskningen inte är fullständig.
 * Knappen DELETE MASK finns också i den här högerklicksmenyn.

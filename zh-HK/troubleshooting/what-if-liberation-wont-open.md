@@ -58,7 +58,7 @@ metaLinks:
 data/liberation/
 ```
 
-在 liberation 資料夾內，你應該會找到一個名為 se`ttings.json` 的檔案。刪除此檔案。
+在 liberation 資料夾內，你應該會找到一個名為 `settings.json` 的檔案。刪除此檔案。
 
 * **macOS 範例**：`~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
 * **Windows 範例**：`%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
@@ -71,7 +71,7 @@ data/liberation/
 
 如果 Liberation 在你編輯 Clip 時當機，該 Clip 檔案的某些內容可能導致問題。
 
-在 settings.json 檔案所在的同一資料夾內，你應該會找到一個名為 clipEdit`.json` 的檔案。
+在 settings.json 檔案所在的同一資料夾內，你應該會找到一個名為 `clipEdit.json` 的檔案。
 
 先將此檔案備份到安全位置（例如 Desktop），然後從 Liberation 工作資料夾中刪除它。
 

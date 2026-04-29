@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/installation
 ---
 
-# ✅ Uppsetning / leyfismál
+# ✅ Uppsetning / leyfisveiting
