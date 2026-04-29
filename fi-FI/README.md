@@ -28,8 +28,8 @@ Tämä opas auttaa sinua pääsemään sinuiksi Liberation-ohjelman kanssa aina 
 ## Oppaan käyttö
 
 * Aloita kohdasta [**Tärkeää! Lue tämä ensin**](important.md), jotta käyt läpi kriittiset turvallisuus- ja lisenssitiedot ennen laitteiston kytkemistä.
-* Seuraa [**Pikaopasta**](getting-started.md), jos haluat saada Output-toiminnan nopeasti käyntiin. Siirry sen jälkeen kohtiin [**Laitteisto**](hardware/) ja [**Käyttöönotto**](setting-up/) tarkempia määrityksiä varten.
-* Käytä osioiden otsikoita siirtyäksesi suoraan aiheisiin, kuten [**Clips ja Clip Deck**](clips/), [**Output view**](output-view/), **jne.** Palaa kohtaan [**Viite**](reference/) tai [**Vianmääritys**](troubleshooting/), kun tarvitset täsmällisiä vastauksia.
+* Seuraa [**Pika-aloitusopas**](getting-started.md), jos haluat saada Output-toiminnan nopeasti käyntiin. Siirry sen jälkeen kohtiin [**Laitteisto**](hardware/) ja [**Käyttöönotto**](setting-up/) tarkempia määrityksiä varten.
+* Käytä osioiden otsikoita siirtyäksesi suoraan aiheisiin, kuten [**Clips ja Clip Deck**](clips/), [**Output-näkymä**](output-view/), **jne.** Palaa kohtaan [**Viite**](reference/) tai [**Vianmääritys**](troubleshooting/), kun tarvitset täsmällisiä vastauksia.
 
 ## Käytännöt ja vinkit
 
@@ -37,4 +37,4 @@ Tämä opas auttaa sinua pääsemään sinuiksi Liberation-ohjelman kanssa aina 
 * Linkit koskevat nykyistä julkaisua. Kuvakaappaukset ja valikot voivat poiketa hieman, jos käytössäsi on vanhempi versio.
 * Laitteistovaiheissa korostetaan turvallisia oletuksia: älä koskaan ohita interlock-suojauksia ja pidä säteet poissa ihmisistä.
 
-Jos jäät jumiin, tarkista ensin [**UKK**](faq.md) ja sen jälkeen [**Vianmääritys**](troubleshooting/) kohdennettuja ratkaisuja varten ennen kuin otat yhteyttä tukeen.
+Jos jäät jumiin, tarkista ensin [**Usein kysytyt kysymykset**](faq.md) ja sen jälkeen [**Vianmääritys**](troubleshooting/) kohdennettuja ratkaisuja varten ennen kuin otat yhteyttä tukeen.

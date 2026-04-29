@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Overfør dit indhold, når du opgraderer til en ny version
 
-Liberation gemmer indhold i sin arbejdsmappe (se [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md "mention")), og den ændres ved hver ny versionsudgivelse. Hvis du vil beholde dine arbejdsfiler fra den gamle version i den nye:&#x20;
+Liberation gemmer indhold i sin arbejdsmappe (se [Hvor du finder arbejdsmappen](../troubleshooting/where-to-find-the-working-folder.md "mention")), og den ændres ved hver ny versionsudgivelse. Hvis du vil beholde dine arbejdsfiler fra den gamle version i den nye:&#x20;
 
 1. Åbn den oprindelige version af Liberation
 2. Brug _File->Project->Export Project_. Det gemmer alt i din Liberation: laseropsætning, tidslinjer, Clip Deck, det hele!&#x20;

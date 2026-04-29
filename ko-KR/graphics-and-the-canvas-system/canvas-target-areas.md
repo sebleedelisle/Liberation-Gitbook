@@ -17,7 +17,7 @@ _Canvas target areas_는 Clip을 그려 넣을 수 있는 Canvas의 영역이며
 
 ### Clip을 Canvas target area로 보내기
 
-Clip Deck을 보면 beam zone 버튼 옆에 Canvas target area 버튼이 있습니다. 이 버튼들이 보이도록 Output 버튼을 스크롤해야 할 수 있습니다. `Shift + Left / Right Arrow`를 사용하거나, 화면의 ZONE PAGE 버튼 또는 APC40 버튼을 사용하세요([apc40-reference.md](../reference/apc40-reference.md) 참고).
+Clip Deck을 보면 beam zone 버튼 옆에 Canvas target area 버튼이 있습니다. 이 버튼들이 보이도록 Output 버튼을 스크롤해야 할 수 있습니다. `Shift + Left / Right Arrow`를 사용하거나, 화면의 ZONE PAGE 버튼 또는 APC40 버튼을 사용하세요([APC40 레퍼런스](../reference/apc40-reference.md) 참고).
 
 Beam zone 버튼을 사용할 때와 정확히 같은 방식으로 이 버튼들을 토글하여 Clip을 Canvas target area에 할당합니다.
 

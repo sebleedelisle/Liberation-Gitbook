@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Flytter alt indhold langs x-, y- og/eller z-akserne. Bemærk, at koordinatsystemet er centreret og går til +/-200 på x- og y-akserne. Se [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Flytter alt indhold langs x-, y- og/eller z-akserne. Bemærk, at koordinatsystemet er centreret og går til +/-200 på x- og y-akserne. Se [Koordinatsystem](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - afstanden, der flyttes langs x-aksen (venstre - højre).
 * **y** - afstanden, der flyttes langs y-aksen (top - bund).
@@ -20,7 +20,7 @@ Flytter alt indhold langs x-, y- og/eller z-akserne. Bemærk, at koordinatsystem
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Roterer alt indhold. Værdier angives i grader. Se [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Roterer alt indhold. Værdier angives i grader. Se [Koordinatsystem](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - hvor meget indholdet roteres med uret, angivet i grader. Alt roteres omkring origo (0,0), centrum.
 * **pivot point x / pivot point y** - Brug disse værdier til at forskyde rotationsorigo.

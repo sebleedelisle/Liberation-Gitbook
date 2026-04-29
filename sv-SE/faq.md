@@ -30,13 +30,13 @@ Liberation kan köra många lasrar från en dator. Det har testats med över 100
 
 #### **Vilka MIDI-kontroller kan jag använda?**
 
-Liberation är utformat och optimerat för den populära MIDI-kontrollern APC40 Mk2. Det fungerar även med APC40 Mk1. Se [live-control-with-the-apc40.md](midi-control/live-control-with-the-apc40.md "mention")
+Liberation är utformat och optimerat för den populära MIDI-kontrollern APC40 Mk2. Det fungerar även med APC40 Mk1. Se [Livekontroll med APC40](midi-control/live-control-with-the-apc40.md "mention")
 
 Vi lägger gradvis till fler MIDI-kontroller och har för närvarande även stöd för APC Mini Mk2 och MIDI Fighter Twister.
 
-Det finns också systemet MIDI Send/Receive, som ger ytterligare MIDI-kontroll. Se [midi-send-receive.md](midi-control/midi-send-receive.md "mention")
+Det finns också systemet MIDI Send/Receive, som ger ytterligare MIDI-kontroll. Se [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
-Se [midi-control](midi-control/ "mention") för mer information.
+Se [MIDI-kontroll](midi-control/ "mention") för mer information.
 
 #### **Kan jag använda det med vilken MIDI-kontroller som helst?**
 
@@ -53,7 +53,7 @@ Vi arbetar just nu med ett konfigurerbart MIDI-system som kommer att göra detta
 * LaserCube network protocol (med trådbunden anslutning)
 * AVB som används av [LASollinger lasers](https://laseranimation.com/en/) (för närvarande endast macOS, under testning)
 
-Se [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") för mer information
+Se [Kompatibla lasrar och styrenheter (DAC](hardware/compatible-lasers-and-controllers-dacs.md "mention") för mer information
 
 #### **Varför har ni inte stöd för laserkontroller från \[annat märke]?**
 
@@ -69,11 +69,11 @@ Om din laser har något av följande kan du använda den med Liberation:
 * En **X-Laser-enhet med inbyggt Mercury-system** (i Ether Dream-läge).
 * En **LaserAnimation Sollinger-projektor med inbyggt AVB** (endast macOS, kräver AVB-kompatibla nätverksenheter, för närvarande under testning).
 
-Se [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") för mer information
+Se [Kompatibla lasrar och styrenheter (DAC](hardware/compatible-lasers-and-controllers-dacs.md "mention") för mer information
 
 #### **Kan jag använda Liberation med min LaserCube?**
 
-Ja, Liberation fungerar direkt med valfri LaserCube. Se [lasercube.md](hardware/lasercube.md "mention")
+Ja, Liberation fungerar direkt med valfri LaserCube. Se [LaserCube](hardware/lasercube.md "mention")
 
 ## Licenser
 
@@ -89,15 +89,15 @@ Observera att du kan konfigurera, förhandsgranska och designa shower med hur m�
 
 #### **Kan jag uppgradera till en ny nivå?**
 
-Du kan uppgradera till en högre nivå när som helst. Du får en delvis återbetalning för den återstående tiden på din nuvarande licens, och din nya plan startar direkt. Se [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
+Du kan uppgradera till en högre nivå när som helst. Du får en delvis återbetalning för den återstående tiden på din nuvarande licens, och din nya plan startar direkt. Se [Uppgradera/nedgradera din licens](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Kan jag nedgradera min licens?**
 
-Du kan nedgradera när som helst, men ändringen träder i kraft i slutet av din nuvarande licensperiod. Se [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
+Du kan nedgradera när som helst, men ändringen träder i kraft i slutet av din nuvarande licensperiod. Se [Uppgradera/nedgradera din licens](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Hur auktoriserar jag min dator med min licens?**
 
-När du har köpt en licens kan du auktorisera datorn direkt i Liberation-programmet. Du ser knappen _Authorise_ på skärmen _About_, som uppmanar dig att logga in på webbplatsen. Följ instruktionerna på skärmen för att slutföra auktoriseringen. Se [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
+När du har köpt en licens kan du auktorisera datorn direkt i Liberation-programmet. Du ser knappen _Authorise_ på skärmen _About_, som uppmanar dig att logga in på webbplatsen. Följ instruktionerna på skärmen för att slutföra auktoriseringen. Se [Auktorisera och avauktorisera](installation/authorising-and-de-authorising.md "mention")
 
 #### **Hur ofta behöver jag ansluta datorn till internet?**
 
@@ -117,7 +117,7 @@ Logga in på webbplatsen, öppna sidan _Your subscriptions_, välj prenumeration
 
 #### **Hur många datorer kan jag installera Liberation på?**
 
-Du kan installera Liberation på hur många datorer du vill. Licensauktorisering krävs bara för att aktivera laser-/DMX-output, och din licensnivå avgör hur många datorer som kan auktoriseras för output samtidigt. Se [how-licensing-works.md](installation/how-licensing-works.md "mention")
+Du kan installera Liberation på hur många datorer du vill. Licensauktorisering krävs bara för att aktivera laser-/DMX-output, och din licensnivå avgör hur många datorer som kan auktoriseras för output samtidigt. Se [Så fungerar licensiering](installation/how-licensing-works.md "mention")
 
 #### **Hur flyttar jag min licens från en dator till en annan?**
 
@@ -127,7 +127,7 @@ Du kan installera Liberation på hur många datorer du vill. Licensauktorisering
 * Klicka på knappen _Authorise this computer_ på skärmen _About_.
 * Webbplatsen öppnas. Logga in och följ instruktionerna på skärmen för att slutföra auktoriseringen
 
-Du kan också fjärravauktorisera en dator som du inte längre har åtkomst till (med vissa begränsningar). Se [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
+Du kan också fjärravauktorisera en dator som du inte längre har åtkomst till (med vissa begränsningar). Se [Auktorisera och avauktorisera](installation/authorising-and-de-authorising.md "mention")
 
 #### **Kan jag avauktorisera Liberation på en dator som har försvunnit eller blivit stulen?**
 
@@ -139,11 +139,11 @@ Om inte, träder avauktoriseringen i kraft när prenumerationen förnyas eller n
 
 #### Standardkonfigurationen har 8 lasrar – hur ändrar jag detta?
 
-Se [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention") och [adding-removing-lasers.md](setting-up/adding-removing-lasers.md "mention")
+Se [Ställa in ditt projekt](setting-up/setting-up-your-project.md "mention") och [Lägga till / ta bort lasrar](setting-up/adding-removing-lasers.md "mention")
 
 #### Kan jag kopiera zoninställningar från en laser till de andra?
 
-Ja! Se [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md "mention")
+Ja! Se [Kopiera zoner mellan lasrar](output-view/copy-zones-between-lasers.md "mention")
 
 #### Kan jag skriva in ett tal i stället för att använda ett reglage?
 
@@ -151,42 +151,42 @@ Ja. `Cmd / Ctrl`-klicka på reglaget så kan du ange värdet med tangentbordet.
 
 #### **Hur synkar jag Liberation till musik?**
 
-Det har ett intelligent "tap tempo"-system som fungerar som du förväntar dig, men du kan också använda en extern MIDI-klocka eller Ableton Link. Se [tempo-synchronisation.md](tempo-synchronisation.md "mention"). Tidslinjen kan synkas till inkommande LTC/SMPTE-tidskod via valfritt ljudinterface. Se [timecode.md](timecode.md "mention").
+Det har ett intelligent "tap tempo"-system som fungerar som du förväntar dig, men du kan också använda en extern MIDI-klocka eller Ableton Link. Se [Tempo / synkronisering](tempo-synchronisation.md "mention"). Tidslinjen kan synkas till inkommande LTC/SMPTE-tidskod via valfritt ljudinterface. Se [Tidskod](timecode.md "mention").
 
 #### Vilka inställningar behöver jag justera för att få bästa output från lasern?
 
-Den viktigaste inställningen är _Colour Shift_, som kompenserar för den lilla fördröjningen mellan att speglarna rör sig och att lasrarna ändrar ljusstyrka. Om dina laserpunkter/-strålar har små "svansar" behöver du justera detta. (Se bilderna på sidan [laser-settings.md](setting-up/laser-settings.md "mention") för ett exempel på "svansar")
+Den viktigaste inställningen är _Colour Shift_, som kompenserar för den lilla fördröjningen mellan att speglarna rör sig och att lasrarna ändrar ljusstyrka. Om dina laserpunkter/-strålar har små "svansar" behöver du justera detta. (Se bilderna på sidan [Panelen Laser output settings](setting-up/laser-settings.md "mention") för ett exempel på "svansar")
 
 Du kan också prova att ändra scannerhastigheten: långsammare om dina scanners är enklare, eller snabbare om de är bra. Men **var försiktig, eftersom du kan skada dina scanners om du driver dem för hårt.**
 
 Det finns också några förinställda scannerinställningar. Standardalternativet är konservativt och fungerar bra för de flesta laserstrålebehov. Men det finns andra förinställningar om du har bättre scanners, och det finns förinställningar som är anpassade för grafik.
 
-För mer information, se [laser-settings.md](setting-up/laser-settings.md "mention"), och för information om hur du skapar egna förinställningar, se [scanner-presets.md](advanced/scanner-presets.md "mention") (avancerat, under arbete)
+För mer information, se [Panelen Laser output settings](setting-up/laser-settings.md "mention"), och för information om hur du skapar egna förinställningar, se [◼️ Skannerförinställningar och renderprofiler](advanced/scanner-presets.md "mention") (avancerat, under arbete)
 
-Du kan också korrigera färgbalansen med inställningarna _Colour calibration_. Se [colour-calibration.md](advanced/colour-calibration.md "mention") (avancerad teknik)
+Du kan också korrigera färgbalansen med inställningarna _Colour calibration_. Se [Färgkalibrering](advanced/colour-calibration.md "mention") (avancerad teknik)
 
 #### Vad gör inställningen _Latency(ms)_?
 
-Detta är bildrutelatensen, eller den maximala tiden mellan att en bildruta genereras och sedan skickas till en laser. Du ska normalt inte behöva justera den, men om du har nätverksproblem kan du prova att öka den. Se [latency-setting.md](setting-up/latency-setting.md "mention") för mer information.
+Detta är bildrutelatensen, eller den maximala tiden mellan att en bildruta genereras och sedan skickas till en laser. Du ska normalt inte behöva justera den, men om du har nätverksproblem kan du prova att öka den. Se [Latensinställning](setting-up/latency-setting.md "mention") för mer information.
 
 ### Clips
 
 #### Hur justerar jag zoner och inställningar för en Clip utan att köra den?
 
-`Alt / Option`-klicka för att göra den till _det Clip som är valt just nu_ utan att aktivera den. Se även [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-klicka för att göra den till _det Clip som är valt just nu_ utan att aktivera den. Se även [Starta/stoppa clips](clips/starting-stopping-clips.md "mention")
 
 #### Hur kopierar jag Clips?
 
-Klicka och dra medan du håller ned tangenten `Alt / Option`. Se även [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+Klicka och dra medan du håller ned tangenten `Alt / Option`. Se även [Organisera ditt Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Hur tar jag bort Clips?
 
-Klicka och dra dem bort från Clip Deck. Se även [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+Klicka och dra dem bort från Clip Deck. Se även [Organisera ditt Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Hur markerar jag flera, tar bort, kombinerar Clip Decks osv.?
 
-Se [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+Se [Organisera ditt Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Vad betyder den lilla mikrofonsymbolen och andra ikoner på Clip-knappen?
 
-De visar att en Clip tar emot ljud- eller MIDI-input, och de tre punkterna visar att det finns en zonfördröjning. Se [what-are-the-small-icons-on-the-clip-buttons.md](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+De visar att en Clip tar emot ljud- eller MIDI-input, och de tre punkterna visar att det finns en zonfördröjning. Se [Vad betyder de små ikonerna på clip-knapparna?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

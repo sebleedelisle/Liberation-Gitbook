@@ -37,7 +37,7 @@ Wenn du im 3D Visualiser keine Ausgabe siehst, musst du eventuell die Zone-Butto
 
 ### Einen Clip bauen
 
-Normalerweise beginnst du mit einer oder mehreren [Creator Nodes](creator-nodes.md) und verbindest dann von links nach rechts [Operatoren](operator-nodes/), die den Content verarbeiten. Wenn du Creator und/oder Operatoren zusammenschiebst, wirst du feststellen, dass sie sich automatisch miteinander verbinden. Du kannst sie wieder auseinanderziehen, um die Verbindung erneut zu trennen.
+Normalerweise beginnst du mit einer oder mehreren [Creator Nodes](creator-nodes.md) und verbindest dann von links nach rechts [Operator-Nodes](operator-nodes/), die den Content verarbeiten. Wenn du Creator und/oder Operatoren zusammenschiebst, wirst du feststellen, dass sie sich automatisch miteinander verbinden. Du kannst sie wieder auseinanderziehen, um die Verbindung erneut zu trennen.
 
 ### Nodes zu deinem Clip hinzufügen
 
@@ -75,7 +75,7 @@ Wenn du schon einmal einen analogen Synthesizer verwendet hast, kennst du vermut
 **Fun fact:** Der Name _Liberation_ wurde vom Moog Liberation inspiriert, einem 1980 erschienenen Synthesizer-„Keytar“, der durch Herbie Hancock, Jean-Michel Jarre und sogar James Brown bekannt wurde!
 {% endhint %}
 
-Oscillators haben immer _range_-Einstellungen, mit denen der minimale und maximale Wert der anzupassenden Eigenschaft gesteuert wird. _Wave Oscillators_ haben außerdem immer eine _duration_-Einstellung, die festlegt, wie schnell der Oscillator den Wert verändert. Weitere Informationen findest du unter [wave-oscillators.md](oscillators/wave-oscillators.md "mention").
+Oscillators haben immer _range_-Einstellungen, mit denen der minimale und maximale Wert der anzupassenden Eigenschaft gesteuert wird. _Wave Oscillators_ haben außerdem immer eine _duration_-Einstellung, die festlegt, wie schnell der Oscillator den Wert verändert. Weitere Informationen findest du unter [Wave oscillators](oscillators/wave-oscillators.md "mention").
 
 ### Clip Editor panel
 

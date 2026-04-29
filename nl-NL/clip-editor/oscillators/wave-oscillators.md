@@ -9,10 +9,10 @@ metaLinks:
 
 ## Op deze pagina :
 
-* <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line"> [Zaagtandgolf](wave-oscillators.md#sawtooth-wave-1)
-* <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line"> [Driehoeksgolf](wave-oscillators.md#triangle-wave-1)
-* <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line"> [Sinusgolf](wave-oscillators.md#sine-wave)
-* <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line"> [Blokgolf](wave-oscillators.md#square-wave-1)
+* <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line"> [Golf-oscillatoren](wave-oscillators.md#sawtooth-wave-1)
+* <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line"> [Golf-oscillatoren](wave-oscillators.md#triangle-wave-1)
+* <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line"> [Golf-oscillatoren](wave-oscillators.md#sine-wave)
+* <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line"> [Golf-oscillatoren](wave-oscillators.md#square-wave-1)
 * <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line"> [Noise](wave-oscillators.md#noise)
 * <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line"> [Custom Oscillator](wave-oscillators.md#custom-oscillator-1)
 

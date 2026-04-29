@@ -31,7 +31,7 @@ Om du redan har auktoriserat det maximala antalet datorer för din prenumeration
 Om du har flera prenumerationer blir du ombedd att välja vilken prenumeration du vill tilldela datorn.
 {% endhint %}
 
-Grattis! Din Liberation-installation är nu auktoriserad och du kan skicka output till lasrar! Men läs [getting-started.md](../getting-started.md "mention") och [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") innan du armerar dina lasrar.
+Grattis! Din Liberation-installation är nu auktoriserad och du kan skicka output till lasrar! Men läs [Snabbstartsguide](../getting-started.md "mention") och [Översikt över hur du konfigurerar lasrar](../setting-up/setting-up-lasers.md "mention") innan du armerar dina lasrar.
 
 {% hint style="info" %}
 Du kan öppna _About panel_ när som helst via menyn _Liberation -> About Liberation_ eller _Liberation -> Authorise/Deauthorise this computer_

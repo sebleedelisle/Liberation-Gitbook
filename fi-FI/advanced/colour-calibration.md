@@ -17,7 +17,7 @@ Laserdiodien toiminta muuttuu niiden lämmetessä. Anna projektorin aina vakautu
 
 #### Kalibrointitestin toiminta
 
-Käytä kalibrointiin testikuvioita (katso [test-patterns.md](../output-view/test-patterns.md))
+Käytä kalibrointiin testikuvioita (katso [Testikuviot](../output-view/test-patterns.md))
 
 * **5** – Punainen
 * **6** – Vihreä

@@ -31,7 +31,7 @@ Ha már engedélyezted az előfizetésedhez tartozó maximális számú számít
 Ha több előfizetésed van, a rendszer megkér, hogy válaszd ki, melyik előfizetéshez szeretnéd hozzárendelni a számítógépet.
 {% endhint %}
 
-Gratulálunk! A Liberation telepítésed most már engedélyezve van, és küldhetsz kimenetet a lézerekre. A lézerek élesítése előtt azonban olvasd el a [getting-started.md](../getting-started.md) és a [setting-up-lasers.md](../setting-up/setting-up-lasers.md) részt.
+Gratulálunk! A Liberation telepítésed most már engedélyezve van, és küldhetsz kimenetet a lézerekre. A lézerek élesítése előtt azonban olvasd el a [Gyors kezdési útmutató](../getting-started.md) és a [A lézerbeállítási folyamat áttekintése](../setting-up/setting-up-lasers.md) részt.
 
 {% hint style="info" %}
 Az _About panel_ bármikor megnyitható a _Liberation -> About Liberation_ vagy a _Liberation -> Authorise/Deauthorise this computer_ menüből.

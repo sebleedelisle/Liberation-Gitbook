@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Wskazówki dotyczące wczytywania plików graficznych / SVG
 
-Informacje o importowaniu kształtów wektorowych, logo itp. znajdziesz w sekcji Shape Creator Node. [creator-nodes.md](clip-editor/creator-nodes.md)
+Informacje o importowaniu kształtów wektorowych, logo itp. znajdziesz w sekcji Shape Creator Node. [Węzły Creator](clip-editor/creator-nodes.md)

@@ -23,7 +23,7 @@ Kattints jobb gombbal a zónára, majd a számozott gombokkal válaszd ki, melyi
 FIGYELMEZTETÉS – ha a lézer élesítve van, hirtelen tartalom vetítése indulhat el egy alapértelmezett canvas zónában. Canvas zónák hozzárendelése előtt érdemes hatástalanítani a lézert.
 {% endhint %}
 
-Ha ezután megnyitod az adott lézer _OUTPUT_ nézetét, ott látni fogod a canvas zónát, amelyet ugyanúgy szerkeszthetsz, mint bármelyik beam zónát. Lásd: [zones.md](../output-view/zones.md).
+Ha ezután megnyitod az adott lézer _OUTPUT_ nézetét, ott látni fogod a canvas zónát, amelyet ugyanúgy szerkeszthetsz, mint bármelyik beam zónát. Lásd: [Zónák](../output-view/zones.md).
 
 {% hint style="info" %}
 Canvas zónát közvetlenül az _OUTPUT_ nézetből is hozzáadhatsz egy lézerhez – kattints a bal oldali eszköztáron az _Add existing canvas zone_ gombra.

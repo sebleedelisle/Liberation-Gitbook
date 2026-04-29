@@ -35,7 +35,7 @@ Bemærk, at korrektioner af orientering/spejling ikke ændrer noget i 3D Visuali
 
 ### Kopiér laserindstillinger
 
-Se [#copy-laser-settings](./#copy-laser-settings "mention").
+Se [Indstillingspanelet Laser output](./#copy-laser-settings "mention").
 
 ### Scannerindstillinger
 
@@ -50,7 +50,7 @@ Selvom standardindstillingerne er ret konservative, kan du stadig beskadige dine
 {% endhint %}
 
 {% hint style="info" %}
-Denne Speed-indstilling ændrer ikke point rate. I stedet justerer den, hvor spredt punkterne ligger. Du kan læse mere under [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+Denne Speed-indstilling ændrer ikke point rate. I stedet justerer den, hvor spredt punkterne ligger. Du kan læse mere under [◼️ Sådan genererer Liberation laserindhold](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Hvis du ser små "haler" på dit laseroutput, skyldes det sandsynligvis, at scan
 
 #### Scanner presets
 
-Brug denne indstilling til at vælge en foruddefineret scannerindstilling. Standardindstillingen er normalt fin, så du bør ikke behøve at ændre den, medmindre du har særligt dårlige (eller gode) scannere. Hvis du vil gå mere i dybden, kan du se [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Brug denne indstilling til at vælge en foruddefineret scannerindstilling. Standardindstillingen er normalt fin, så du bør ikke behøve at ændre den, medmindre du har særligt dårlige (eller gode) scannere. Hvis du vil gå mere i dybden, kan du se [◼️ Scanner-presets og render-profiler](../../advanced/scanner-presets.md "mention")
 
 #### Farvekalibrering
 
-Du kan bruge dette system til at korrigere lysstyrkekurven og hvidbalancen for din laser. Se [colour-calibration.md](../../advanced/colour-calibration.md "mention")
+Du kan bruge dette system til at korrigere lysstyrkekurven og hvidbalancen for din laser. Se [Farvekalibrering](../../advanced/colour-calibration.md "mention")
 
 #### Avancerede indstillinger
 
-Du bør ikke behøve at rode med disse, men hvis du er nysgerrig, kan du se [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")
+Du bør ikke behøve at rode med disse, men hvis du er nysgerrig, kan du se [◼️ Avancerede laserindstillinger](../../advanced/advanced-laser-settings.md "mention")

@@ -31,7 +31,7 @@ Si ya has autorizado el número máximo de ordenadores permitido por tu suscripc
 Si tienes varias suscripciones, se te pedirá que elijas la suscripción a la que quieres asignar el ordenador.
 {% endhint %}
 
-¡Enhorabuena! Tu instalación de Liberation ya está autorizada y puedes enviar salida a los láseres. Pero lee [getting-started.md](../getting-started.md "mention") y [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") antes de armar los láseres.
+¡Enhorabuena! Tu instalación de Liberation ya está autorizada y puedes enviar salida a los láseres. Pero lee [Guía de inicio rápido](../getting-started.md "mention") y [Resumen del proceso de configuración de láseres](../setting-up/setting-up-lasers.md "mention") antes de armar los láseres.
 
 {% hint style="info" %}
 Puedes abrir el panel _About_ en cualquier momento desde el menú _Liberation -> About Liberation_ o _Liberation -> Authorise/Deauthorise this computer_

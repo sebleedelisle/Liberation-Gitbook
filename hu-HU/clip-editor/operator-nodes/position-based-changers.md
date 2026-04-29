@@ -32,7 +32,7 @@ Ez a node a pozíció alapján színváltozásokat alkalmaz a tartalmon. Alapér
 
 **Colour Modes**
 
-Ezek határozzák meg, hogy a színmódosítások mely részei kerülnek alkalmazásra a tartalomra. Lásd még: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md).
+Ezek határozzák meg, hogy a színmódosítások mely részei kerülnek alkalmazásra a tartalomra. Lásd még: [Színbeállítások és HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – a hue változatlan marad.

@@ -13,7 +13,7 @@ metaLinks:
 * <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line"> [Háromszög-hullám](wave-oscillators.md#triangle-wave-1)
 * <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line"> [Szinuszhullám](wave-oscillators.md#sine-wave)
 * <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line"> [Négyszöghullám](wave-oscillators.md#square-wave-1)
-* <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line"> [Zaj](wave-oscillators.md#noise)
+* <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line"> [Hullámoszcillátorok](wave-oscillators.md#noise)
 * <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line"> [Egyéni oszcillátor](wave-oscillators.md#custom-oscillator-1)
 
 ## Wave oscillator beállításai

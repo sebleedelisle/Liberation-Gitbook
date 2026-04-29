@@ -28,8 +28,8 @@ Den här guiden hjälper dig att bli bekväm med Liberation – från installati
 ## Så använder du guiden
 
 * Börja med [**Viktigt! Läs detta först**](important.md) för att gå igenom viktiga säkerhets- och licensieringspunkter innan du ansluter hårdvara.
-* Följ [**Snabbstartsguiden**](getting-started.md) om du snabbt vill få igång output, och gå sedan vidare till [**Hårdvara**](hardware/) och [**Konfigurera**](setting-up/) för mer avancerad konfiguration.
-* Använd avsnittsrubrikerna för att hoppa direkt till ämnen (t.ex. [**Clips och Clip Deck**](clips/), [**Output view**](output-view/), **osv.**) och gå tillbaka till [**Referens**](reference/) eller [**Felsökning**](troubleshooting/) när du behöver exakta svar.
+* Följ [**Snabbstartsguide**](getting-started.md) om du snabbt vill få igång output, och gå sedan vidare till [**Hårdvara**](hardware/) och [**Konfigurera**](setting-up/) för mer avancerad konfiguration.
+* Använd avsnittsrubrikerna för att hoppa direkt till ämnen (t.ex. [**Clips och Clip Deck**](clips/), [**Output-vy**](output-view/), **osv.**) och gå tillbaka till [**Referens**](reference/) eller [**Felsökning**](troubleshooting/) när du behöver exakta svar.
 
 ## Konventioner och tips
 

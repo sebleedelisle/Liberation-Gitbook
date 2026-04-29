@@ -8,7 +8,7 @@ metaLinks:
 
 Liberationin efektijärjestelmä on hauska ja monipuolinen tapa muuttaa klipin ulostuloa reaaliajassa. Efektit ovat täysin joustavia: voit saada kaiken vilkkumaan päälle ja pois, pyörimään, vaihtamaan väriä tai vaikka liikkumaan satunnaisesti ympäriinsä!
 
-Kaikkea, mitä voit tehdä klippieditorissa, voi käyttää efektinä. Itse asiassa efektejä muokataan täsmälleen samalla node-editorilla kuin klippejä! Katso [#editing-effects](effects.md#editing-effects). Luovat mahdollisuudet ovat käytännössä rajattomat.
+Kaikkea, mitä voit tehdä klippieditorissa, voi käyttää efektinä. Itse asiassa efektejä muokataan täsmälleen samalla node-editorilla kuin klippejä! Katso [Efektit](effects.md#editing-effects). Luovat mahdollisuudet ovat käytännössä rajattomat.
 
 Oletusarvoiset efektipainikkeet 1–8 ovat zone-painikkeiden alla, ja efektit 9–24 ovat alareunan pienet painikkeet.
 
@@ -32,12 +32,12 @@ Väittäisin, että se on yksi Liberationin hauskimmista ja luovimmista sisään
 
 #### Efektin parametrit
 
-Lisää efektiin parametri _Parameter node_ -nodella. Parameter-järjestelmän avulla voit säätää useita efektin sisäisiä asetuksia ulkopuolelta. Katso lisätietoja: [parameter-control.md](clip-editor/oscillators/parameter-control.md).
+Lisää efektiin parametri _Parameter node_ -nodella. Parameter-järjestelmän avulla voit säätää useita efektin sisäisiä asetuksia ulkopuolelta. Katso lisätietoja: [Parameter Control](clip-editor/oscillators/parameter-control.md).
 
 Säädä kunkin efektin _parameter_-arvoa rotary controller -säätimillä 1–8. Voit myös klikata efektipainiketta hiiren oikealla painikkeella ja säätää parameter-liukusäädintä tai -säätimiä. Parametrin muutos tekee eri asioita sen mukaan, miten efekti on rakennettu. Alla olevassa luettelossa kerrotaan oletusefektit ja mitä niiden parametrit tekevät.
 
 {% hint style="info" %}
-Rotary controllers 1-8 ovat APC40 Mk2:n yläreunassa ja Mk1:ssä oikeassa yläkulmassa. Katso myös: [apc40-reference.md](reference/apc40-reference.md)
+Rotary controllers 1-8 ovat APC40 Mk2:n yläreunassa ja Mk1:ssä oikeassa yläkulmassa. Katso myös: [APC40-viite](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}

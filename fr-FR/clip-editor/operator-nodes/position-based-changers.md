@@ -32,7 +32,7 @@ Ce node applique des changements de couleur à votre contenu en fonction de la p
 
 **Modes de couleur**
 
-Ces modes déterminent quels aspects des ajustements de couleur sont appliqués au contenu. Voir aussi : [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+Ces modes déterminent quels aspects des ajustements de couleur sont appliqués au contenu. Voir aussi : [Paramètres de couleur et HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – la teinte reste inchangée.

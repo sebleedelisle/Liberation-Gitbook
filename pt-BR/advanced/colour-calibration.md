@@ -17,7 +17,7 @@ Os diodos laser mudam de comportamento conforme aquecem. Sempre deixe o projetor
 
 #### Como o teste de calibração funciona
 
-Use os padrões de teste para calibração (veja [test-patterns.md](../output-view/test-patterns.md))
+Use os padrões de teste para calibração (veja [Padrões de teste](../output-view/test-patterns.md))
 
 * **5** – Red
 * **6** – Green

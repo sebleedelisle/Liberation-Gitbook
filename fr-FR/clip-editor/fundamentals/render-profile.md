@@ -16,7 +16,7 @@ Contrairement à la plupart des logiciels laser, Liberation génère un flux de 
 
 Cela signifie aussi que vous pouvez adapter le même contenu à différents types de scanners, laser par laser, sans avoir à modifier les clips eux-mêmes.
 
-Pour plus de détails, consultez [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+Pour plus de détails, consultez [◼️ Comment Liberation génère du contenu laser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 Il existe trois préréglages _Render Profile_ : _DEFAULT_, _FAST_ et _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ si votre clip contient beaucoup d’éléments et que certains sont
 _**DETAIL**_ - si vous dessinez quelque chose qui nécessite des angles nets, utilisez cette option. Gardez toutefois à l’esprit que vos scanners se déplaceront plus lentement, ce qui peut rendre la sortie plus scintillante.
 
 {% hint style="info" %}
-Dans l’éditeur de clips, vous pouvez attribuer des creators à différents Render Profiles, mais chaque laser traitera ces profils en fonction de ses paramètres de scanner. Consultez [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Dans l’éditeur de clips, vous pouvez attribuer des creators à différents Render Profiles, mais chaque laser traitera ces profils en fonction de ses paramètres de scanner. Consultez [◼️ Préréglages de scanner et profils de rendu](../../advanced/scanner-presets.md "mention")
 {% endhint %}

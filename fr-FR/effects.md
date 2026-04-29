@@ -8,7 +8,7 @@ metaLinks:
 
 Le système d’effets de Liberation est une manière ludique et polyvalente de modifier la sortie des clips en temps réel. Les effets sont entièrement flexibles et peuvent servir à faire clignoter l’ensemble de la sortie, la faire tourner, changer les couleurs, ou même la déplacer de façon aléatoire !
 
-Tout ce que vous pouvez faire dans l’éditeur de clip peut être utilisé comme effet. En fait, les effets se modifient avec exactement le même éditeur de nœuds que les clips ! Voir [#editing-effects](effects.md#editing-effects "mention"). Les possibilités créatives sont quasiment infinies.
+Tout ce que vous pouvez faire dans l’éditeur de clip peut être utilisé comme effet. En fait, les effets se modifient avec exactement le même éditeur de nœuds que les clips ! Voir [Effets](effects.md#editing-effects "mention"). Les possibilités créatives sont quasiment infinies.
 
 Les boutons d’effets par défaut 1 à 8 se trouvent sous les boutons de zone, et les effets 9 à 24 sont les petits boutons situés en bas.
 
@@ -32,12 +32,12 @@ Je dirais même que c’est l’un des outils les plus amusants et créatifs int
 
 #### Paramètres d’effet
 
-Ajoutez un paramètre à votre effet avec un _Parameter node_. Le système Parameter permet d’ajuster depuis l’extérieur plusieurs réglages à l’intérieur de votre effet. Voir [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention") pour plus d’informations.
+Ajoutez un paramètre à votre effet avec un _Parameter node_. Le système Parameter permet d’ajuster depuis l’extérieur plusieurs réglages à l’intérieur de votre effet. Voir [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") pour plus d’informations.
 
 Utilisez les contrôleurs rotatifs 1 à 8 pour ajuster le _parameter_ de chaque effet. Vous pouvez aussi faire un clic droit sur le bouton d’effet et ajuster le ou les curseurs de paramètre. Le changement de paramètre produit des résultats différents selon la configuration de l’effet. Consultez la liste ci-dessous pour connaître les effets par défaut et l’action de leurs paramètres.
 
 {% hint style="info" %}
-Les contrôleurs rotatifs 1 à 8 se trouvent en haut de l’APC40 Mk2 et en haut à droite sur le Mk1. Voir aussi : [apc40-reference.md](reference/apc40-reference.md "mention")
+Les contrôleurs rotatifs 1 à 8 se trouvent en haut de l’APC40 Mk2 et en haut à droite sur le Mk1. Voir aussi : [Référence APC40](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Cette fonctionnalité est désactivée si le réglage _MX Group_ est défini sur
 
 Faites un clic droit sur n’importe quel effet, puis cliquez sur le bouton _EDIT EFFECT_ pour ouvrir l’éditeur d’effet. Notez que cet éditeur est identique à l’éditeur de clip !
 
-Modifiez votre effet de la même manière que vous modifieriez n’importe quel clip. Voir [clip-editor](clip-editor/ "mention").
+Modifiez votre effet de la même manière que vous modifieriez n’importe quel clip. Voir [Le Clip Editor](clip-editor/ "mention").
 
 Vous devez avoir au moins un nœud de création ; cela peut être n’importe quoi (ligne, cercle, forme, même du texte !), mais il est préférable de choisir quelque chose qui a le plus de sens dans l’aperçu du bouton d’effet.
 

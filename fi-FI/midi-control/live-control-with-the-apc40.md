@@ -27,4 +27,4 @@ Lyhyesti: Mark 2 on suositeltu, koska siinä on täysväriset painikkeet, jotka 
 Alkuperäinen APC40 Mark 1 julkaistiin vuonna 2009(!), ja jotkut suosivat sitä yhä metallirakenteen ja tukevan, konsolimaisen muodon vuoksi. Päivitetty Mark 2 julkaistiin vuonna 2014. Vaikka sen valmistus lopetettiin vuonna 2024, se palaa tuotantoon vuonna 2025 visuaalisten artistien (Resolume jne.) ja laserkäyttäjien kysynnän vuoksi.
 {% endhint %}
 
-Täydellinen luettelo APC40:n ohjaimista on kohdassa [apc40-reference.md](../reference/apc40-reference.md)
+Täydellinen luettelo APC40:n ohjaimista on kohdassa [APC40-viite](../reference/apc40-reference.md)

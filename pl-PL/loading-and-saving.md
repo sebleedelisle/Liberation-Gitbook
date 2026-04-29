@@ -30,7 +30,7 @@ Obecnie nie zapisuje ani nie wczytuje:
 * Czcionek używanych w węźle Text
 
 {% hint style="danger" %}
-Pliki dźwiękowe i wideo w timeline nie są zapisywane razem z plikami projektu, więc zapisz je osobno, jeśli chcesz przenieść projekt na inny komputer. Zobacz [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files)
+Pliki dźwiękowe i wideo w timeline nie są zapisywane razem z plikami projektu, więc zapisz je osobno, jeśli chcesz przenieść projekt na inny komputer. Zobacz [Ładowanie i zapisywanie](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Laser settings Import / Export
@@ -67,7 +67,7 @@ Za pomocą _Append Clip Deck_ możesz dodać clips z wyeksportowanego pliku clip
 Wszystkie aktualnie zaznaczone clips zostaną wyeksportowane do pliku. Ustawienia grup i efekty nie zostaną zapisane — tylko clips. Pamiętaj, że aktualnie uruchomione aktywne clips nie są eksportowane, chyba że również są zaznaczone.
 
 {% hint style="info" %}
-Aby zaznaczyć clips, użyj Option/Alt - shift - kliknięcie (albo użyj lassa). Zaznaczone clips rozpoznasz po grubej białej obwódce. Zobacz [starting-stopping-clips.md](clips/starting-stopping-clips.md)
+Aby zaznaczyć clips, użyj Option/Alt - shift - kliknięcie (albo użyj lassa). Zaznaczone clips rozpoznasz po grubej białej obwódce. Zobacz [Uruchamianie / zatrzymywanie klipów](clips/starting-stopping-clips.md)
 {% endhint %}
 
 ### Effects Import / Export
@@ -87,7 +87,7 @@ Eksportuje plik timeline zawierający jedną lub więcej timeline. Pamiętaj, ż
 Jeśli plik projektu zawiera więcej niż jedną timeline, otworzy się panel, w którym możesz wybrać timeline do eksportu.
 
 {% hint style="danger" %}
-Pliki dźwiękowe i wideo w timeline nie są zapisywane razem z plikami timeline, więc zapisz je osobno, jeśli chcesz przenieść zawartość na inny komputer. Zobacz [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files)
+Pliki dźwiękowe i wideo w timeline nie są zapisywane razem z plikami timeline, więc zapisz je osobno, jeśli chcesz przenieść zawartość na inny komputer. Zobacz [Ładowanie i zapisywanie](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Timeline Import

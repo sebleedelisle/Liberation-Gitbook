@@ -60,7 +60,7 @@ Bruk _METRONOME_-knappen til å **tilbakestille takten**. (Merk at _METRONOME_-k
 
 Drei _TEMPO_-knotten ett «hakk» til høyre eller venstre for å **runde av tempoet** opp eller ned til et helt BPM-tall.
 
-Se også [apc40-reference.md](reference/apc40-reference.md "mention")
+Se også [APC40-referanse](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 

@@ -100,7 +100,7 @@ Kliknij zone, aby ją zaznaczyć, a następnie dostosuj jej punkty narożne mysz
 
 Po lewej stronie znajduje się pasek z serią przycisków ikon. Najedź na dowolny przycisk, aby zobaczyć opis jego działania. Przyciski te pozwalają dodawać beam zones, canvas zones oraz masks. Znajdziesz tu też opcje ustawienia test pattern tylko dla tego lasera oraz ustawienia siatki i przyciągania.
 
-Więcej informacji znajdziesz w sekcji [Output view](../output-view/).
+Więcej informacji znajdziesz w sekcji [Widok Output](../output-view/).
 
 #### Canvas
 
@@ -140,7 +140,7 @@ Clip Deck możesz przewijać w lewo i w prawo za pomocą:
 * pokrętła przewijania APC40;
 * przycisków APC40 _<- DEVICE ->_.
 
-Aby ułatwić orientację, u góry znajduje się miniwizualizator Clip Deck. Zobacz też [Clips](../clips/).
+Aby ułatwić orientację, u góry znajduje się miniwizualizator Clip Deck. Zobacz też [Clipy i Clip Deck](../clips/).
 
 #### Uruchamianie i zatrzymywanie Clips
 
@@ -184,7 +184,7 @@ Zmienianie ustawień zone dla wszystkich Clips w grupie
 
 Na APC40 naciśnij przycisk grupy, a następnie _trzymając go wciśnięty_, użyj przycisków zone i X/Y, aby przełączyć ustawienia zone dla wszystkich Clips w tej grupie.
 
-Zobacz też [Grupy](../clips/groups.md).
+Zobacz też [Grupy klipów](../clips/groups.md).
 
 ### Efekty
 
@@ -297,7 +297,7 @@ Kliknij przycisk _Assign Laser Controllers_, aby otworzyć panel _Controller Ass
 
 Tutaj możesz wybrać, które wyjścia laserowe trafiają do których laser controllers. Przeciągaj controllers z listy po prawej do slotów po lewej. Możesz zmienić nazwy controllers tak, aby odpowiadały laserom, z którymi są sparowane — użyj przycisku z ikoną pióra.
 
-Więcej informacji znajdziesz w rozdziale [Controller Assignment](../setting-up/controller-assignment.md).
+Więcej informacji znajdziesz w rozdziale [Przypisywanie kontrolerów](../setting-up/controller-assignment.md).
 
 {% hint style="danger" %}
 Zanim ustawisz jakikolwiek laser w stan armed, przejdź przez rozdział [Konfigurowanie laserów](../setting-up/setting-up-lasers.md).

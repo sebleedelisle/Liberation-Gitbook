@@ -23,7 +23,7 @@ Fai clic con il tasto destro sulla zona e attiva o disattiva i pulsanti numerati
 ATTENZIONE: se il laser è armato, potresti iniziare improvvisamente a proiettare contenuti in una zona Canvas predefinita. È meglio disarmare il laser prima di assegnargli zone Canvas.
 {% endhint %}
 
-Se ora vai alla vista _OUTPUT_ di quel laser, vedrai lì la zona Canvas, che potrà essere modificata esattamente come qualsiasi beam zone. Vedi [zones.md](../output-view/zones.md).
+Se ora vai alla vista _OUTPUT_ di quel laser, vedrai lì la zona Canvas, che potrà essere modificata esattamente come qualsiasi beam zone. Vedi [Zone](../output-view/zones.md).
 
 {% hint style="info" %}
 Puoi anche aggiungere una zona Canvas a un laser direttamente dalla vista _OUTPUT_: fai clic sul pulsante _Add existing canvas zone_ nella barra degli strumenti a sinistra.

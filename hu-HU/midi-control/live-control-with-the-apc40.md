@@ -27,4 +27,4 @@ Röviden: a Mark 2 ajánlott, mert teljes színű gombjai jobban illeszkednek a 
 Az eredeti APC40 Mark 1 2009-ben jelent meg(!), és néhányan még ma is ezt kedvelik a fémháza és a masszív, konzolszerű kialakítása miatt. A frissített Mark 2 2014-ben jelent meg, és bár 2024-ben megszűnt a gyártása, a vizuális művészek (Resolume stb.) és a lézeres felhasználók igényei miatt 2025-ben újra gyártásba kerül.
 {% endhint %}
 
-Az APC40-en elérhető vezérlők teljes listáját lásd itt: [apc40-reference.md](../reference/apc40-reference.md)
+Az APC40-en elérhető vezérlők teljes listáját lásd itt: [APC40 referencia](../reference/apc40-reference.md)

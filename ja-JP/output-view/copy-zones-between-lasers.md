@@ -21,4 +21,4 @@ _Copy output zone settings_ オプションを選択し、_COPY SETTINGS_ ボタ
 この処理では、レーザーにゾーンを追加したり削除したりすることはありません。対象レーザーに存在する各ゾーンについて、ゾーンの位置とタイプのみをコピーします。
 {% endhint %}
 
-このシステムの他の機能について詳しくは、[copy-laser-settings.md](../setting-up/copy-laser-settings.md) も参照してください。
+このシステムの他の機能について詳しくは、[レーザー間で設定をコピーする](../setting-up/copy-laser-settings.md) も参照してください。

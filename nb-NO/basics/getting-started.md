@@ -100,7 +100,7 @@ Klikk på en zone for å velge den, og juster deretter hjørnepunktene med musen
 
 Langs venstre side finnes det en linje med en serie ikonknapper. Hold musepekeren over en knapp for å få en beskrivelse av hva den gjør. Knappene her lar deg legge til beam zones, canvas zones og masks. Det finnes også alternativer for å angi et test pattern bare for denne laseren, sammen med innstillinger for rutenett og snapping.
 
-For mer informasjon, se [Output view](../output-view/).
+For mer informasjon, se [Output-visning](../output-view/).
 
 #### Canvas
 
@@ -140,7 +140,7 @@ Du kan rulle Clip Deck mot venstre og høyre med:
 * rulleknappen på APC40
 * APC40 _<- DEVICE ->_-knappene
 
-For å hjelpe deg med å orientere deg finnes det en liten visualisering av Clip Deck langs toppen. Se også [Clips](../clips/)
+For å hjelpe deg med å orientere deg finnes det en liten visualisering av Clip Deck langs toppen. Se også [Clips og Clip Deck](../clips/)
 
 #### Starte og stoppe Clips
 
@@ -184,7 +184,7 @@ Endre zone-innstillinger for alle Clips i en gruppe
 
 Med APC40 trykker du på gruppeknappen, og _mens den fortsatt holdes nede,_ bruker du zone- og X/Y-knappene til å slå zone-innstillinger av og på for alle Clips i den gruppen.
 
-Se også [Grupper](../clips/groups.md)
+Se også [Clip-grupper](../clips/groups.md)
 
 ### Effekter
 
@@ -297,7 +297,7 @@ Klikk på knappen _Assign Laser Controllers_ for å åpne panelet _Controller As
 
 Her kan du velge hvilke laser outputs som skal gå til hvilke laser controllers. Dra og slipp controllers fra listen til høyre inn i plassene til venstre. Du kan gi controllers nytt navn slik at de samsvarer med laseren de er paret med (bruk knappen med pennikonet).
 
-Les kapittelet [Controller Assignment](../setting-up/controller-assignment.md) for mer informasjon.
+Les kapittelet [Kontrollertildeling](../setting-up/controller-assignment.md) for mer informasjon.
 
 {% hint style="danger" %}
 Før du setter noen lasere i _armed_-tilstand, må du gå gjennom kapittelet [Sette opp lasere](../setting-up/setting-up-lasers.md).

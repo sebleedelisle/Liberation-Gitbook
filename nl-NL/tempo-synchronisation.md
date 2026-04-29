@@ -60,7 +60,7 @@ Gebruik de _METRONOME_-knop om **de maat te resetten**. (Let op: de _METRONOME_-
 
 Draai de _TEMPO_-knop één “tik” naar rechts of links om **het tempo af te ronden** naar boven of beneden naar een heel BPM-getal.
 
-Zie ook [apc40-reference.md](reference/apc40-reference.md "mention")
+Zie ook [APC40-referentie](reference/apc40-reference.md "mention")
 
 ### Tempo nudgen
 

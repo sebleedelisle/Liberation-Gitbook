@@ -56,6 +56,8 @@ This glossary is not a reason to keep generic hardware, safety, or operating-sys
 
 Visible Markdown link text should be translated when it is natural-language text. For links to other pages or sections in the manual, the visible text should match the translated title or heading for that destination, while the link target itself must stay exactly the same.
 
+GitBook mention links must not keep visible labels as filenames, paths, slugs, or English titles such as `setting-up-lasers.md`, `output-view`, or `Quick start guide`. Use the translated destination title or heading as the visible link text.
+
 ## Keeping translations current
 
 Check translation freshness from git history:
@@ -83,3 +85,5 @@ npm run check:translations
 npm run check:links
 npm run build:site
 ```
+
+`npm run check:links` also checks translated internal link labels so stale English page titles and filename-style mention labels cannot be reintroduced silently.

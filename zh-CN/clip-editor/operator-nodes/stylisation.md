@@ -19,7 +19,7 @@ Randomise node 是 Randomise effect 的核心！
 
 生成内容的“拖尾”，在原始内容移动时留下逐渐变淡或缩放的副本。
 
-* **change render profile for trail** – 开启后，所有拖尾副本使用所选 **render profile**。_见_ [render-profile.md](../fundamentals/render-profile.md "mention")。
+* **change render profile for trail** – 开启后，所有拖尾副本使用所选 **render profile**。_见_ [Render profile](../fundamentals/render-profile.md "mention")。
 * **render profile** – 当上面的开关开启时，用于拖尾副本的 profile。常见用法是主内容设为 **DETAIL**，拖尾设为 **FAST**，这样主形状细节清晰，拖尾渲染更高效。
 * **delay** – 拖尾副本之间的时间间隔，以 **1/64-note** 为单位。
   参考：

@@ -26,7 +26,7 @@ randomise 노드는 Randomise 효과의 핵심입니다!
 
 콘텐츠의 잔상을 만들어, 원본이 움직일 때 뒤쪽에 점점 사라지거나 크기가 변하는 복사본을 남깁니다.
 
-* **change render profile for trail** – 켜면 모든 trail 복사본이 선택한 **render profile**을 사용합니다. _참조:_ [render-profile.md](../fundamentals/render-profile.md).
+* **change render profile for trail** – 켜면 모든 trail 복사본이 선택한 **render profile**을 사용합니다. _참조:_ [Render profile](../fundamentals/render-profile.md).
 * **render profile** – 위 스위치가 켜져 있을 때 trail 복사본에 사용할 프로필입니다. 보통 메인 콘텐츠는 **DETAIL**로 설정하고 잔상은 **FAST**로 렌더링할 때 사용합니다. 이렇게 하면 메인 도형은 선명한 디테일을 유지하면서 trail은 더 효율적으로 렌더링할 수 있습니다.
 * **delay** – trail 복사본 사이의 간격을 음악적 시간으로 설정하며, **1/64 노트 단위**로 측정됩니다.\
   참고:

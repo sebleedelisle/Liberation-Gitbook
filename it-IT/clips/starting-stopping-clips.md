@@ -24,7 +24,7 @@ Per avviare una nuova clip senza fermare le altre clip puoi:
 * premere il tasto `Shift` (o il pulsante Shift dell'APC40) mentre avvii la nuova clip; oppure
 * premere di nuovo la clip o le clip attualmente in esecuzione mentre avvii la nuova clip.
 
-I gruppi di clip sono indipendenti tra loro, quindi avviare una clip in un gruppo non influirà sulle clip degli altri gruppi. Vedi [groups.md](groups.md)
+I gruppi di clip sono indipendenti tra loro, quindi avviare una clip in un gruppo non influirà sulle clip degli altri gruppi. Vedi [Gruppi di Clip](groups.md)
 
 ### Flash mode
 

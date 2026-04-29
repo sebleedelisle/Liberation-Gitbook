@@ -9,7 +9,7 @@ metaLinks:
 
 ### Klipek mozgatása és duplikálása
 
-Egy klip mozgatásához kattints rá, és húzd a kívánt helyre. Ha több klip van kijelölve (lásd: [starting-stopping-clips.md](starting-stopping-clips.md)), mindegyik együtt mozog. Duplikáláshoz tartsd lenyomva az `Alt / Option` billentyűt. Dobd a klip(ek)et egy üres helyre.
+Egy klip mozgatásához kattints rá, és húzd a kívánt helyre. Ha több klip van kijelölve (lásd: [Clipek indítása / leállítása](starting-stopping-clips.md)), mindegyik együtt mozog. Duplikáláshoz tartsd lenyomva az `Alt / Option` billentyűt. Dobd a klip(ek)et egy üres helyre.
 
 {% hint style="info" %}
 Ha sok klipet kell kijelölnöd, kattintással és húzással lasszót rajzolhatsz, majd húzás közben tovább görgetheted a clip decket (a kurzorbillentyűkkel, az APC 40-nel vagy oldalirányú touchpad-/egérgörgetéssel). A lasszó a clip deck szélén túlra is kiterjed.

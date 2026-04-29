@@ -15,12 +15,12 @@ eller knappen _+_ i vyn _Output_.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-När du lägger till en ny laser läggs en strålzon automatiskt till för den. Observera att lasrar och zoner sorteras i den ordning du lägger till dem. Se [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md "mention").
+När du lägger till en ny laser läggs en strålzon automatiskt till för den. Observera att lasrar och zoner sorteras i den ordning du lägger till dem. Se [Ändra ordning på beam zones](../output-view/re-ordering-beam-zones.md "mention").
 
 Ta bort en laser genom att klicka på den röda knappen "-" i panelen _Laser overview_. Observera att du då förlorar alla dina laserinställningar!
 
 {% hint style="info" %}
-Om du vill kopiera zoner eller andra inställningar från andra lasrar använder du [copy-laser-settings.md](copy-laser-settings.md "mention")
+Om du vill kopiera zoner eller andra inställningar från andra lasrar använder du [Kopiera inställningar mellan lasrar](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

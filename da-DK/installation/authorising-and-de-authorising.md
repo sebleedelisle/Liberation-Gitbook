@@ -31,7 +31,7 @@ Hvis du allerede har autoriseret det maksimale antal computere for dit abonnemen
 Hvis du har flere abonnementer, bliver du bedt om at vælge det abonnement, du vil tilknytte computeren til.
 {% endhint %}
 
-Tillykke! Din Liberation-installation er nu autoriseret, og du kan sende output til lasere! Men læs venligst [getting-started.md](../getting-started.md "mention") og [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention"), før du armerer dine lasere.
+Tillykke! Din Liberation-installation er nu autoriseret, og du kan sende output til lasere! Men læs venligst [Hurtig startguide](../getting-started.md "mention") og [Oversigt over opsætning af lasere](../setting-up/setting-up-lasers.md "mention"), før du armerer dine lasere.
 
 {% hint style="info" %}
 Du kan til enhver tid åbne _About panel_ via menuen _Liberation -> About Liberation_ eller _Liberation -> Authorise/Deauthorise this computer_

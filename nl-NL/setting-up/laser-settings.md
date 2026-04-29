@@ -41,7 +41,7 @@ Let op: de correcties voor orientation / mirroring veranderen niets in de 3D Vis
 
 ### Laserinstellingen kopiëren
 
-Zie [#copy-laser-settings](laser-settings.md#copy-laser-settings "mention").
+Zie [Paneel Laser output settings](laser-settings.md#copy-laser-settings "mention").
 
 ### Scanner settings
 
@@ -56,7 +56,7 @@ Hoewel de standaardinstellingen vrij behoudend zijn, kun je je scanners nog stee
 {% endhint %}
 
 {% hint style="info" %}
-Deze Speed-instelling verandert de point rate niet, maar past aan hoe ver die punten uit elkaar liggen. Zie voor meer informatie [how-liberation-generates-laser-content.md](../advanced/how-liberation-generates-laser-content.md "mention")
+Deze Speed-instelling verandert de point rate niet, maar past aan hoe ver die punten uit elkaar liggen. Zie voor meer informatie [◼️ Hoe Liberation lasercontent genereert](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,12 +73,12 @@ Als je kleine "tails" in je laseroutput ziet, moet de scanner sync waarschijnlij
 
 #### Scanner presets
 
-Gebruik dit om een vooraf ontworpen scannerinstelling te kiezen. De standaardoptie is meestal prima, dus je hoeft deze instelling normaal gesproken niet te wijzigen, tenzij je bijzonder slechte (of juist goede) scanners hebt. Als je dieper wilt ingaan op de details, zie [scanner-presets.md](../advanced/scanner-presets.md "mention")
+Gebruik dit om een vooraf ontworpen scannerinstelling te kiezen. De standaardoptie is meestal prima, dus je hoeft deze instelling normaal gesproken niet te wijzigen, tenzij je bijzonder slechte (of juist goede) scanners hebt. Als je dieper wilt ingaan op de details, zie [◼️ Scannerpresets & renderprofielen](../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Met dit systeem kun je de helderheidscurve en witbalans van je laser corrigeren. Zie [colour-calibration.md](../advanced/colour-calibration.md "mention")
+Met dit systeem kun je de helderheidscurve en witbalans van je laser corrigeren. Zie [Kleurkalibratie](../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Je hoeft hier normaal gesproken niet aan te zitten, maar als je nieuwsgierig bent, zie [advanced-laser-settings.md](../advanced/advanced-laser-settings.md "mention")
+Je hoeft hier normaal gesproken niet aan te zitten, maar als je nieuwsgierig bent, zie [◼️ Geavanceerde laserinstellingen](../advanced/advanced-laser-settings.md "mention")

@@ -26,7 +26,7 @@ Crea copias dispersas de los elementos de entrada usando un campo de ruido coher
 
 Crea ecos de tu contenido, dejando copias que se desvanecen o cambian de escala detrás del original a medida que se mueve.
 
-* **change render profile for trail** – si está activado, todas las copias del rastro usan el **render profile** seleccionado. _Consulta_ [render-profile.md](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – si está activado, todas las copias del rastro usan el **render profile** seleccionado. _Consulta_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – perfil que se usa para las copias del rastro cuando el interruptor anterior está activado. Se suele usar cuando el contenido principal está configurado en **DETAIL**, pero los ecos se renderizan como **FAST**; así mantienes buen detalle en las formas principales y renderizas los rastros de forma más eficiente.
 * **delay** – define el espaciado entre copias del rastro en tiempo musical, medido en **pasos de 1/64 de nota**.\
   Como referencia:

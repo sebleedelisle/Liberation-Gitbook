@@ -37,7 +37,7 @@ Hvis du ikke ser noget output i 3D Visualiser, skal du muligvis bruge zoneknappe
 
 ### Opbygning af et clip
 
-Du starter typisk med en eller flere [creator-noder](creator-nodes.md) og forbinder [operators](operator-nodes/) fra venstre mod højre, som behandler indholdet. Når du flytter creators og/eller operators tæt på hinanden, vil du bemærke, at de automatisk forbindes. Du kan trække dem fra hinanden igen for at afbryde forbindelsen.
+Du starter typisk med en eller flere [creator-noder](creator-nodes.md) og forbinder [Operatornoder](operator-nodes/) fra venstre mod højre, som behandler indholdet. Når du flytter creators og/eller operators tæt på hinanden, vil du bemærke, at de automatisk forbindes. Du kan trække dem fra hinanden igen for at afbryde forbindelsen.
 
 ### Tilføjelse af noder til dit clip
 
@@ -75,7 +75,7 @@ Hvis du nogensinde har brugt en analog synth, kender du sikkert konceptet med os
 **Sjov detalje:** navnet _Liberation_ er inspireret af Moog Liberation, en "keytar"-synthesizer udgivet i 1980 og gjort berømt af Herbie Hancock, Jean-Michel Jarre og endda James Brown!
 {% endhint %}
 
-Oscillatorer har altid _range_-indstillinger, der styrer minimums- og maksimumsværdien for den egenskab, der skal justeres. Og _Wave Oscillators_ har altid en _duration_-indstilling, der bestemmer, hvor hurtigt oscillatoren ændrer værdien. Se [wave-oscillators.md](oscillators/wave-oscillators.md "mention") for flere oplysninger.
+Oscillatorer har altid _range_-indstillinger, der styrer minimums- og maksimumsværdien for den egenskab, der skal justeres. Og _Wave Oscillators_ har altid en _duration_-indstilling, der bestemmer, hvor hurtigt oscillatoren ændrer værdien. Se [Wave oscillators](oscillators/wave-oscillators.md "mention") for flere oplysninger.
 
 ### Clip Editor-panel
 

@@ -54,7 +54,7 @@ APC40 有专用 _TAP TEMPO_ 按钮，也可以用连接的脚踏开关来 tap！
 
 将 _TEMPO_ 旋钮向左或向右移动一个“tick”可**将 tempo 上/下四舍五入**到整数 BPM。
 
-另见 [apc40-reference.md](reference/apc40-reference.md "mention")。
+另见 [APC40 参考](reference/apc40-reference.md "mention")。
 
 ### Nudge tempo
 

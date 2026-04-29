@@ -38,7 +38,7 @@ Canvas zone は、レーザーへ送信する Canvas 内の領域です。Canvas
 {% endhint %}
 
 {% hint style="info" %}
-_OUTPUT_ view の _add canvas zone_ ボタンをクリックして、Canvas zone をレーザーに割り当てることもできます。[zones.md](../output-view/zones.md) を参照してください。
+_OUTPUT_ view の _add canvas zone_ ボタンをクリックして、Canvas zone をレーザーに割り当てることもできます。[ゾーン](../output-view/zones.md) を参照してください。
 {% endhint %}
 
 ### Guide images

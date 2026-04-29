@@ -31,7 +31,7 @@ Jeśli autoryzowano już maksymalną liczbę komputerów dostępną w Twojej sub
 Jeśli masz wiele subskrypcji, pojawi się prośba o wybranie subskrypcji, do której chcesz przypisać komputer.
 {% endhint %}
 
-Gratulacje! Twoja instalacja Liberation została autoryzowana i możesz wysyłać sygnał do laserów. Przed uzbrojeniem laserów przeczytaj jednak [getting-started.md](../getting-started.md) oraz [setting-up-lasers.md](../setting-up/setting-up-lasers.md).
+Gratulacje! Twoja instalacja Liberation została autoryzowana i możesz wysyłać sygnał do laserów. Przed uzbrojeniem laserów przeczytaj jednak [Szybki start](../getting-started.md) oraz [Przegląd procesu konfiguracji laserów](../setting-up/setting-up-lasers.md).
 
 {% hint style="info" %}
 Możesz otworzyć _About panel_ w dowolnym momencie z menu _Liberation -> About Liberation_ albo _Liberation -> Authorise/Deauthorise this computer_

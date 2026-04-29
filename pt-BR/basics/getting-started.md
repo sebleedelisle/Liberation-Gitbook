@@ -100,7 +100,7 @@ Clique em uma zone para selecioná-la e ajuste seus pontos de canto com o mouse.
 
 À esquerda, há uma barra com uma série de botões de ícone; passe o mouse sobre qualquer botão para ver uma descrição do que ele faz. Os botões aqui permitem adicionar beam zones, canvas zones e masks. Também há opções para definir um test pattern apenas para este laser, além de configurações de grade e encaixe.
 
-Para mais detalhes, veja [Output view](../output-view/).
+Para mais detalhes, veja [Visualização Output](../output-view/).
 
 #### Canvas
 
@@ -140,7 +140,7 @@ Você pode rolar o Clip Deck para a esquerda e para a direita usando:
 * Knob de rolagem do APC40
 * Botões _<- DEVICE ->_ do APC40
 
-Para ajudar você a se orientar, há um minivisualizador do Clip Deck na parte superior. Veja também [Clips](../clips/)
+Para ajudar você a se orientar, há um minivisualizador do Clip Deck na parte superior. Veja também [Clips e Clip Deck](../clips/)
 
 #### Iniciando e parando Clips
 
@@ -184,7 +184,7 @@ Altere as configurações de zone de todos os Clips dentro de um grupo
 
 Usando o APC40, pressione o botão do grupo e, _enquanto ele ainda estiver pressionado,_ use os botões de zone e X/Y para alternar as configurações de zone de todos os Clips desse grupo.
 
-Veja também [Grupos](../clips/groups.md)
+Veja também [Grupos de Clip](../clips/groups.md)
 
 ### Efeitos
 

@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-Het belangrijkste type zone dat je voor de meeste projecten gebruikt, is de _Beam zone_. Dit is een zone die is bedoeld voor atmosferische beam-effecten door de lucht. Het andere type zone is een _Canvas zone_ (zie [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")).
+Het belangrijkste type zone dat je voor de meeste projecten gebruikt, is de _Beam zone_. Dit is een zone die is bedoeld voor atmosferische beam-effecten door de lucht. Het andere type zone is een _Canvas zone_ (zie [Graphics en het Canvas-systeem](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**WAARSCHUWING - Wees uiterst voorzichtig wanneer je zones verplaatst terwijl de laser actief is** en zet de helderheid zo laag mogelijk. Zie [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") voor een uitgebreide gids om lasers veilig te activeren en zones in te stellen.
+**WAARSCHUWING - Wees uiterst voorzichtig wanneer je zones verplaatst terwijl de laser actief is** en zet de helderheid zo laag mogelijk. Zie [Overzicht van het instelproces voor lasers](../setting-up/setting-up-lasers.md "mention") voor een uitgebreide gids om lasers veilig te activeren en zones in te stellen.
 {% endhint %}
 
 Je kunt zones met de muis aanklikken en verslepen. Zet een testpatroon aan om te zien waar die zone terechtkomt.
@@ -19,16 +19,16 @@ Gebruik de pijltoetsen om de momenteel geselecteerde zone/het geselecteerde punt
 {% endhint %}
 
 {% hint style="info" %}
-Top tip: je kunt zone-instellingen snel naar meerdere lasers kopiëren! Zie [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention")
+Top tip: je kunt zone-instellingen snel naar meerdere lasers kopiëren! Zie [Instellingen kopiëren tussen lasers](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Een nieuwe beam-zone toevoegen
 
-Klik op de knop _Add a new beam zone_ bovenaan de toolbar en er verschijnt een nieuwe zone. Let op: beam-zones worden gesorteerd in de volgorde waarin je ze toevoegt, maar je kunt die volgorde aanpassen. Zie [re-ordering-beam-zones.md](re-ordering-beam-zones.md "mention")
+Klik op de knop _Add a new beam zone_ bovenaan de toolbar en er verschijnt een nieuwe zone. Let op: beam-zones worden gesorteerd in de volgorde waarin je ze toevoegt, maar je kunt die volgorde aanpassen. Zie [Beamzones opnieuw ordenen](re-ordering-beam-zones.md "mention")
 
 ### Een bestaande canvas-zone toevoegen
 
-Klik op de knop _Add existing canvas zone_. Je ziet dan een lijst met beschikbare canvas-zones, die je voor deze laser aan en uit kunt zetten. Zie [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")
+Klik op de knop _Add existing canvas zone_. Je ziet dan een lijst met beschikbare canvas-zones, die je voor deze laser aan en uit kunt zetten. Zie [Graphics en het Canvas-systeem](../graphics-and-the-canvas-system/ "mention")
 
 ### Zonevormtypen
 
@@ -47,7 +47,7 @@ Klik met de rechtermuisknop op een zone om de instellingen te openen. Vanuit dit
 * De zone terugzetten naar de standaardpositie
 * Instellingen openen die specifiek zijn voor het vormtype
 * De zone verwijderen
-* Een _Alt Zone_ toevoegen (zie [alt-zone-system.md](alt-zone-system.md "mention"))
+* Een _Alt Zone_ toevoegen (zie [Alt zone-systeem](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **WAARSCHUWING -** wees zeer voorzichtig wanneer je het zonetype wijzigt terwijl de laser actief is. De zone keert terug naar de laatste positie/grootte voor die vorm, waardoor de output plotseling kan veranderen. Je kunt de laser het beste uitschakelen voordat je het zonetype wijzigt.

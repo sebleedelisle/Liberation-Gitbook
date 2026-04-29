@@ -17,7 +17,7 @@ Czasem jednak warto użyć kilku obszarów docelowych Canvas, na przykład dla r
 
 ### Wysyłanie clipów do obszarów docelowych Canvas
 
-W Clip Deck, obok przycisków stref beam, znajdują się przyciski obszarów docelowych Canvas. Aby je zobaczyć, może być konieczne przewinięcie przycisków wyjściowych — użyj `Shift + Left / Right Arrow`, przycisków ZONE PAGE na ekranie albo przycisków APC40 (zobacz [apc40-reference.md](../reference/apc40-reference.md)).
+W Clip Deck, obok przycisków stref beam, znajdują się przyciski obszarów docelowych Canvas. Aby je zobaczyć, może być konieczne przewinięcie przycisków wyjściowych — użyj `Shift + Left / Right Arrow`, przycisków ZONE PAGE na ekranie albo przycisków APC40 (zobacz [Referencja APC40](../reference/apc40-reference.md)).
 
 Przypisuj clipy do obszarów docelowych Canvas, przełączając te przyciski dokładnie tak samo, jak przyciski stref beam.
 

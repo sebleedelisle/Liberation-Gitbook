@@ -20,7 +20,7 @@ Wicked Lasers의 [LaserCube](https://www.laseros.com/lasercube/)는 배터리로
 
 ### USB LaserCube
 
-micro USB 케이블로 LaserCube를 컴퓨터에 연결한 다음 _Controller Assignment_ 패널에서 확인합니다([controller-assignment.md](../setting-up/controller-assignment.md) 참고). 자동으로 표시되지 않으면 _REFRESH_ 버튼을 누르세요.
+micro USB 케이블로 LaserCube를 컴퓨터에 연결한 다음 _Controller Assignment_ 패널에서 확인합니다([컨트롤러 할당](../setting-up/controller-assignment.md) 참고). 자동으로 표시되지 않으면 _REFRESH_ 버튼을 누르세요.
 
 ### Network LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ micro USB 케이블로 LaserCube를 컴퓨터에 연결한 다음 _Controller As
 
 LaserCube를 유선 네트워크에 연결합니다.
 
-LaserCube를 "LAN Client" 모드로 설정하고 네트워크에 라우터가 있는지 확인합니다. LaserCube는 라우터에서 IP 주소를 받아오며, 이후 _Controller Assignment_ 패널에 표시되어야 합니다([controller-assignment.md](../setting-up/controller-assignment.md) 참고).
+LaserCube를 "LAN Client" 모드로 설정하고 네트워크에 라우터가 있는지 확인합니다. LaserCube는 라우터에서 IP 주소를 받아오며, 이후 _Controller Assignment_ 패널에 표시되어야 합니다([컨트롤러 할당](../setting-up/controller-assignment.md) 참고).
 
 {% hint style="info" %}
 라우터 없이 네트워크를 구성하고 모든 장치에 고정 IP 주소를 지정할 수도 있으며, 이벤트 업계에서는 매우 흔한 방식입니다. 개인적으로는 네트워크에 라우터를 추가하는 방식을 선호하며, 네트워크 경험이 많지 않은 사용자에게는 이 옵션을 권장합니다.

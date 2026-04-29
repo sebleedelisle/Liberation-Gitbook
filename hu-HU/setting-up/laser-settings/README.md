@@ -35,7 +35,7 @@ Fontos, hogy az orientation / mirroring korrekciók semmit nem változtatnak a 3
 
 ### Lézerbeállítások másolása
 
-Lásd: [#copy-laser-settings](./#copy-laser-settings).
+Lásd: [Laser output settings panel](./#copy-laser-settings).
 
 ### Scanner beállítások
 
@@ -50,7 +50,7 @@ Bár az alapértelmezett beállítások meglehetősen óvatosak, a scannerek akk
 {% endhint %}
 
 {% hint style="info" %}
-Ez a sebességbeállítás nem a pontsebességet módosítja, hanem azt, hogy a pontok mennyire legyenek szétterítve. További információ: [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md)
+Ez a sebességbeállítás nem a pontsebességet módosítja, hanem azt, hogy a pontok mennyire legyenek szétterítve. További információ: [◼️ Hogyan generál a Liberation lézeres tartalmat](../../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Ha kis „csóvákat” látsz a lézerkimeneten, valószínűleg a scanner sync
 
 #### Scanner presetek
 
-Ezzel előre elkészített scanner beállítást választhatsz. Az alapértelmezett opció általában megfelelő, ezért ezt a beállítást nem kell módosítanod, kivéve ha különösen gyenge (vagy jó) scannereid vannak. Ha mélyebben is érdekel, lásd: [scanner-presets.md](../../advanced/scanner-presets.md)
+Ezzel előre elkészített scanner beállítást választhatsz. Az alapértelmezett opció általában megfelelő, ezért ezt a beállítást nem kell módosítanod, kivéve ha különösen gyenge (vagy jó) scannereid vannak. Ha mélyebben is érdekel, lásd: [◼️ Scanner presets és renderprofilok](../../advanced/scanner-presets.md)
 
 #### Színkalibráció
 
-Ezzel a rendszerrel korrigálhatod a lézer fényerőgörbéjét és fehéregyensúlyát. Lásd: [colour-calibration.md](../../advanced/colour-calibration.md)
+Ezzel a rendszerrel korrigálhatod a lézer fényerőgörbéjét és fehéregyensúlyát. Lásd: [Színkalibrálás](../../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Ezekhez általában nem kell hozzányúlnod, de ha kíváncsi vagy, lásd: [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md)
+Ezekhez általában nem kell hozzányúlnod, de ha kíváncsi vagy, lásd: [◼️ Speciális lézerbeállítások](../../advanced/advanced-laser-settings.md)

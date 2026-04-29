@@ -19,7 +19,7 @@ Hieronder staat de volledige lijst met testpatronen. De patronen vullen de volle
 3. Horizontale groene lijnen - 4 horizontale lijnen, gelijkmatig verdeeld.
 4. Verticale groene lijnen - 4 verticale lijnen, gelijkmatig verdeeld.
 
-Kleurkalibratiepatronen 5-8. Deze kunnen worden gebruikt samen met het kleurcorrectiesysteem in de laserinstellingen. Zie [colour-calibration.md](../advanced/colour-calibration.md "mention"). Deze patronen vullen niet de volledige outputruimte.
+Kleurkalibratiepatronen 5-8. Deze kunnen worden gebruikt samen met het kleurcorrectiesysteem in de laserinstellingen. Zie [Kleurkalibratie](../advanced/colour-calibration.md "mention"). Deze patronen vullen niet de volledige outputruimte.
 
 5. Kleurkalibratiepatroon - rood.
 6. Kleurkalibratiepatroon - groen.

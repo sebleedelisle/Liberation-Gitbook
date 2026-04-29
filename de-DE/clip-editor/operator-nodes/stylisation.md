@@ -26,7 +26,7 @@ Der Randomise-Node ist das Herzstück des Randomise-Effekts!
 
 Erzeugt Echos deines Inhalts und lässt hinter dem Original beim Bewegen ausblendende oder skalierende Kopien zurück.
 
-* **change render profile for trail** – wenn aktiviert, verwenden alle Trail-Kopien das ausgewählte **render profile**. _Siehe_ [render-profile.md](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – wenn aktiviert, verwenden alle Trail-Kopien das ausgewählte **render profile**. _Siehe_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – das Profil, das für Trail-Kopien verwendet wird, wenn der Schalter oben aktiviert ist. Das wird häufig genutzt, wenn der Hauptinhalt auf **DETAIL** gesetzt ist, die Echos aber als **FAST** gerendert werden. So bleiben die Hauptformen klar und detailliert, während die Trails effizienter gerendert werden.
 * **delay** – legt den Abstand zwischen Trail-Kopien in musikalischer Zeit fest, gemessen in **1/64-Noten-Schritten**.\
   Zur Orientierung:

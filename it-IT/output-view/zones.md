@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zone
 
-Il tipo principale di zona che userai nella maggior parte dei progetti è la _Beam zone_. È una zona pensata per effetti beam atmosferici attraverso l’aria. L’altro tipo di zona è una _Canvas zone_ (vedi [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/)).
+Il tipo principale di zona che userai nella maggior parte dei progetti è la _Beam zone_. È una zona pensata per effetti beam atmosferici attraverso l’aria. L’altro tipo di zona è una _Canvas zone_ (vedi [Grafica e sistema Canvas](../graphics-and-the-canvas-system/)).
 
 {% hint style="danger" %}
-**ATTENZIONE - Usa la massima cautela quando sposti le zone mentre il laser è in funzione** e abbassa la luminosità al minimo possibile. Vedi [setting-up-lasers.md](../setting-up/setting-up-lasers.md) per una guida completa su come attivare e configurare le zone dei laser in sicurezza
+**ATTENZIONE - Usa la massima cautela quando sposti le zone mentre il laser è in funzione** e abbassa la luminosità al minimo possibile. Vedi [Panoramica del processo di configurazione dei laser](../setting-up/setting-up-lasers.md) per una guida completa su come attivare e configurare le zone dei laser in sicurezza
 {% endhint %}
 
 Puoi fare clic sulle zone e trascinarle con il mouse. Attiva un pattern di test per vedere dove viene proiettata la zona.
@@ -19,16 +19,16 @@ Usa i tasti freccia per **spostare leggermente** la zona/il punto attualmente se
 {% endhint %}
 
 {% hint style="info" %}
-Suggerimento: puoi copiare rapidamente le impostazioni delle zone su più laser! Vedi [copy-laser-settings.md](../setting-up/copy-laser-settings.md)
+Suggerimento: puoi copiare rapidamente le impostazioni delle zone su più laser! Vedi [Copiare le impostazioni tra laser](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 ### Aggiungere una nuova beam zone
 
-Fai clic sul pulsante _Add a new beam zone_ nella parte superiore della toolbar e apparirà una nuova zona. Nota che le beam zone vengono ordinate in base all’ordine in cui le aggiungi, ma puoi riordinarle. Vedi [re-ordering-beam-zones.md](re-ordering-beam-zones.md)
+Fai clic sul pulsante _Add a new beam zone_ nella parte superiore della toolbar e apparirà una nuova zona. Nota che le beam zone vengono ordinate in base all’ordine in cui le aggiungi, ma puoi riordinarle. Vedi [Riordinare le zone beam](re-ordering-beam-zones.md)
 
 ### Aggiungere una canvas zone esistente
 
-Fai clic sul pulsante _Add existing canvas zone_ e vedrai un elenco delle canvas zone disponibili, che puoi attivare o disattivare per questo laser. Vedi [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/)
+Fai clic sul pulsante _Add existing canvas zone_ e vedrai un elenco delle canvas zone disponibili, che puoi attivare o disattivare per questo laser. Vedi [Grafica e sistema Canvas](../graphics-and-the-canvas-system/)
 
 ### Tipi di forma della zona
 
@@ -47,7 +47,7 @@ Fai clic destro su qualsiasi zona per aprire le sue impostazioni. Da questo menu
 * Ripristinarla alla posizione predefinita
 * Accedere alle impostazioni specifiche del tipo di forma
 * Eliminarla
-* Aggiungere una _Alt Zone_ (vedi [alt-zone-system.md](alt-zone-system.md))
+* Aggiungere una _Alt Zone_ (vedi [Sistema Alt zone](alt-zone-system.md))
 
 {% hint style="danger" %}
 **ATTENZIONE -** fai molta attenzione quando cambi il tipo di zona mentre il laser è attivo. La zona tornerà all’ultima posizione/dimensione usata per quella forma, quindi l’output potrebbe cambiare all’improvviso. È meglio spegnere il laser prima di cambiare il tipo di zona.

@@ -27,7 +27,7 @@ Puoi anche importare ed esportare file preset usando il pulsante load/save (l’
 Se modifichi un preset, ad esempio l’impostazione scanner chiamata _Default_, tieni presente che gli altri laser non verranno aggiornati automaticamente. Le rispettive impostazioni scanner verranno invece etichettate come _Default(edited)_. Per aggiornarle al nuovo preset _Default_, selezionalo di nuovo dall’elenco a discesa.
 
 {% hint style="info" %}
-Se hai molti laser e vuoi aggiornare tutte le loro impostazioni scanner, usa il sistema _COPY LASER SETTINGS_. Vedi [copy-laser-settings.md](../setting-up/copy-laser-settings.md)
+Se hai molti laser e vuoi aggiornare tutte le loro impostazioni scanner, usa il sistema _COPY LASER SETTINGS_. Vedi [Copiare le impostazioni tra laser](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 Se elimini un preset usato altrove, non perderai l’impostazione: la vedrai invece etichettata come _(deleted)._

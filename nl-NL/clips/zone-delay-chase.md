@@ -14,7 +14,7 @@ Het zone-delay-systeem is een eenvoudige maar effectieve manier om variatie tuss
 
 _Zone delay_ voegt een vertraging toe aan de timing van de clip per zone, waardoor een soort sweep over de zones ontstaat.
 
-Het is erg effectief om zone delay toe te voegen aan een clip die al loopt. Gebruik de bijbehorende bediening op de APC40 om het niveau en het patroon aan te passen. (Zie [apc40-reference.md](../reference/apc40-reference.md "mention")). Je kunt ook het paneel _Clip Settings_ gebruiken.
+Het is erg effectief om zone delay toe te voegen aan een clip die al loopt. Gebruik de bijbehorende bediening op de APC40 om het niveau en het patroon aan te passen. (Zie [APC40-referentie](../reference/apc40-reference.md "mention")). Je kunt ook het paneel _Clip Settings_ gebruiken.
 
 Zone delay-instellingen:
 
@@ -39,7 +39,7 @@ Het patroon werkt op basis van de zonenummers en gaat ervan uit dat je zones van
 Zone delay wordt ook toegepast op actieve effecten. Een knippereffect wordt bijvoorbeeld ook over de zones vertraagd, net als de animatie binnen de clip zelf.
 {% endhint %}
 
-Wanneer een clip een vorm van _Zone delay_ heeft, zie je rechtsboven in de clip een pictogram met drie puntjes. Deze puntjes zijn geanimeerd om de stijl van _Zone delay_ voor die clip te tonen. Zie [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention") voor meer informatie.
+Wanneer een clip een vorm van _Zone delay_ heeft, zie je rechtsboven in de clip een pictogram met drie puntjes. Deze puntjes zijn geanimeerd om de stijl van _Zone delay_ voor die clip te tonen. Zie [Wat betekenen de kleine pictogrammen op de clipknoppen?](what-are-the-small-icons-on-the-clip-buttons.md "mention") voor meer informatie.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Het symbool met drie puntjes dat aangeeft dat een clip een zone delay heeft, inclusief de bijbehorende modus</p></figcaption></figure>
 

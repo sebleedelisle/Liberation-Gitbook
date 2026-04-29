@@ -41,4 +41,4 @@ Liberation trenger tillatelse til å få tilgang til filer og nettverket, så Wi
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation skal nå kjøre! For å sende output til lasere må du nå gå gjennom [autoriseringsprosessen.](../authorising-and-de-authorising.md)
+Liberation skal nå kjøre! For å sende output til lasere må du nå gå gjennom [Autorisere og deautorisere](../authorising-and-de-authorising.md)

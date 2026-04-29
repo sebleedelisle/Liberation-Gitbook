@@ -21,4 +21,4 @@ Selecciona la opción _Copy output zone settings_ y después haz clic en el bot�
 Ten en cuenta que este proceso no añadirá ni eliminará zonas de los láseres. Simplemente copiará la posición y el tipo de zona de cada zona que exista en los láseres de destino.
 {% endhint %}
 
-Consulta también [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention") para ver una descripción completa de las demás funciones de este sistema.
+Consulta también [Copiar ajustes entre láseres](../setting-up/copy-laser-settings.md "mention") para ver una descripción completa de las demás funciones de este sistema.

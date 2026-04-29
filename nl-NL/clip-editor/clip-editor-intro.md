@@ -32,12 +32,12 @@ Wat je in de clipeditor ziet:
 Tijdens het bewerken zie je op de achtergrond ook hoe de clip eruitziet in de 3D visualiser.
 
 {% hint style="info" %}
-Als je geen output ziet in de 3D visualiser, moet je mogelijk de zone-knoppen gebruiken om de gewenste zones in te schakelen. Je moet er ook voor zorgen dat _Preview to lasers_ is ingeschakeld; zie [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel "mention") hieronder.
+Als je geen output ziet in de 3D visualiser, moet je mogelijk de zone-knoppen gebruiken om de gewenste zones in te schakelen. Je moet er ook voor zorgen dat _Preview to lasers_ is ingeschakeld; zie [Introductie tot de Clip Editor](clip-editor-intro.md#clip-editor-panel "mention") hieronder.
 {% endhint %}
 
 ### Een clip opbouwen
 
-Meestal begin je met een of meer [creator nodes](creator-nodes.md) en verbind je van links naar rechts [operators](operator-nodes/) die de content verwerken. Wanneer je creators en/of operators naar elkaar toe verplaatst, zul je merken dat ze automatisch met elkaar verbinden. Je kunt ze weer uit elkaar slepen om de verbinding te verbreken.
+Meestal begin je met een of meer [creator nodes](creator-nodes.md) en verbind je van links naar rechts [Operator-nodes](operator-nodes/) die de content verwerken. Wanneer je creators en/of operators naar elkaar toe verplaatst, zul je merken dat ze automatisch met elkaar verbinden. Je kunt ze weer uit elkaar slepen om de verbinding te verbreken.
 
 ### Nodes toevoegen aan je clip
 
@@ -75,7 +75,7 @@ Als je ooit een analoge synth hebt gebruikt, is het concept van oscillators waar
 **Leuk weetje:** de naam _Liberation_ is geïnspireerd op de Moog Liberation, een "keytar"-synthesizer uit 1980 die bekend werd door Herbie Hancock, Jean-Michel Jarre en zelfs James Brown!
 {% endhint %}
 
-Oscillators hebben altijd _range_-instellingen die de minimale en maximale waarde bepalen van de eigenschap die wordt aangepast. _Wave Oscillators_ hebben daarnaast altijd een _duration_-instelling die bepaalt hoe snel de oscillator de waarde verandert. Zie [wave-oscillators.md](oscillators/wave-oscillators.md "mention") voor meer informatie.
+Oscillators hebben altijd _range_-instellingen die de minimale en maximale waarde bepalen van de eigenschap die wordt aangepast. _Wave Oscillators_ hebben daarnaast altijd een _duration_-instelling die bepaalt hoe snel de oscillator de waarde verandert. Zie [Golf-oscillatoren](oscillators/wave-oscillators.md "mention") voor meer informatie.
 
 ### Clip Editor-paneel
 

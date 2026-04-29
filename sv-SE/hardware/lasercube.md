@@ -20,7 +20,7 @@ Tidiga LaserCube-enheter styrs via USB, men de nuvarande modellerna har alla en 
 
 ### USB LaserCube
 
-Anslut din LaserCube till datorn med en micro-USB-kabel och leta sedan efter den i panelen _Controller Assignment_ (se [controller-assignment.md](../setting-up/controller-assignment.md "mention")). Om den inte visas automatiskt trycker du på knappen _REFRESH_.
+Anslut din LaserCube till datorn med en micro-USB-kabel och leta sedan efter den i panelen _Controller Assignment_ (se [Tilldela kontroller](../setting-up/controller-assignment.md "mention")). Om den inte visas automatiskt trycker du på knappen _REFRESH_.
 
 ### Network LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ Anslut din LaserCube till datorn med en micro-USB-kabel och leta sedan efter den
 
 Anslut din LaserCube till ditt trådbundna nätverk.
 
-Sätt din LaserCube i läget "LAN Client" och se till att det finns en router i nätverket. LaserCube får en IP-adress från routern och bör sedan visas i panelen _Controller Assignment_. (Se [controller-assignment.md](../setting-up/controller-assignment.md "mention")).
+Sätt din LaserCube i läget "LAN Client" och se till att det finns en router i nätverket. LaserCube får en IP-adress från routern och bör sedan visas i panelen _Controller Assignment_. (Se [Tilldela kontroller](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Det går att konfigurera ett nätverk utan router och ge alla enheter fasta IP-adresser, och detta är mycket vanligt inom eventbranschen. Personligen föredrar jag att lägga till en router i nätverket och rekommenderar det alternativet till alla som har mindre erfarenhet av nätverk.

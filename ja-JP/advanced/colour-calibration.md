@@ -17,7 +17,7 @@ metaLinks:
 
 #### キャリブレーションテストの仕組み
 
-キャリブレーションにはテストパターンを使用します（[test-patterns.md](../output-view/test-patterns.md "mention") を参照）。
+キャリブレーションにはテストパターンを使用します（[テストパターン](../output-view/test-patterns.md "mention") を参照）。
 
 * **5** – Red
 * **6** – Green

@@ -28,4 +28,4 @@ Je hoeft geen nieuwe zone te maken om andere spiegelinstellingen te gebruiken. D
 
 ### Zones aan meerdere clips tegelijk toewijzen
 
-Je kunt zones toewijzen en X/Y aanpassen voor alle clips in een zone. Zie [groups.md](groups.md "mention") voor meer informatie.
+Je kunt zones toewijzen en X/Y aanpassen voor alle clips in een zone. Zie [Clipgroepen](groups.md "mention") voor meer informatie.

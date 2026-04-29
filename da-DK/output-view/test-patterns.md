@@ -19,7 +19,7 @@ Her er en komplet liste over testmønstrene. Mønstrene udfylder hele outputomr�
 3. Vandrette grønne linjer - 4 vandrette linjer med lige stor afstand.
 4. Lodrette grønne linjer - 4 lodrette linjer med lige stor afstand.
 
-Farvekalibreringsmønstre 5-8. Disse kan bruges sammen med farvekorrektionssystemet i laserindstillingerne. Se [colour-calibration.md](../advanced/colour-calibration.md "mention"). Disse mønstre udfylder ikke hele outputområdet.
+Farvekalibreringsmønstre 5-8. Disse kan bruges sammen med farvekorrektionssystemet i laserindstillingerne. Se [Farvekalibrering](../advanced/colour-calibration.md "mention"). Disse mønstre udfylder ikke hele outputområdet.
 
 5. Farvekalibreringsmønster - rød.
 6. Farvekalibreringsmønster - grøn.

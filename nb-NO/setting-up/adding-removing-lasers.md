@@ -15,12 +15,12 @@ eller _+_-knappen i _Output_-visningen.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Når du legger til en ny laser, legges det automatisk til en strålesone for den. Merk at lasere og soner sorteres i rekkefølgen du legger dem til. Se [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md "mention").
+Når du legger til en ny laser, legges det automatisk til en strålesone for den. Merk at lasere og soner sorteres i rekkefølgen du legger dem til. Se [Endre rekkefølgen på beam-soner](../output-view/re-ordering-beam-zones.md "mention").
 
 Fjern en laser ved å klikke på den røde "-"-knappen i _Laser overview_-panelet. Merk at du mister alle laserinnstillingene dine!
 
 {% hint style="info" %}
-Hvis du vil kopiere soner eller andre innstillinger fra andre lasere, bruker du [copy-laser-settings.md](copy-laser-settings.md "mention")
+Hvis du vil kopiere soner eller andre innstillinger fra andre lasere, bruker du [Kopier innstillinger mellom lasere](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

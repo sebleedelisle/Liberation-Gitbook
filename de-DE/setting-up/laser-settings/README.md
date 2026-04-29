@@ -35,7 +35,7 @@ Beachte, dass die Korrekturen für Ausrichtung/Spiegelung im 3D Visualiser nicht
 
 ### Laser-Einstellungen kopieren
 
-Siehe [#copy-laser-settings](./#copy-laser-settings "mention").
+Siehe [Panel „Laser output“-Einstellungen](./#copy-laser-settings "mention").
 
 ### Scanner-Einstellungen
 
@@ -50,7 +50,7 @@ Auch wenn die Standardeinstellungen recht konservativ sind, kannst du deine Scan
 {% endhint %}
 
 {% hint style="info" %}
-Diese Speed-Einstellung ändert nicht die Point-Rate, sondern passt an, wie weit die Punkte auseinanderliegen. Weitere Informationen findest du unter [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+Diese Speed-Einstellung ändert nicht die Point-Rate, sondern passt an, wie weit die Punkte auseinanderliegen. Weitere Informationen findest du unter [◼️ Wie Liberation Laserinhalte erzeugt](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Wenn du kleine „Tails“ in deiner Laserausgabe siehst, muss wahrscheinlich Sc
 
 #### Scanner presets
 
-Verwende dies, um eine vordefinierte Scanner-Einstellung auszuwählen. Die Standardoption ist normalerweise in Ordnung, du solltest diese Einstellung also nicht ändern müssen, außer du hast besonders schlechte (oder gute) Scanner. Wenn du tiefer einsteigen möchtest, siehe [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Verwende dies, um eine vordefinierte Scanner-Einstellung auszuwählen. Die Standardoption ist normalerweise in Ordnung, du solltest diese Einstellung also nicht ändern müssen, außer du hast besonders schlechte (oder gute) Scanner. Wenn du tiefer einsteigen möchtest, siehe [◼️ Scanner-Presets & Render-Profile](../../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Mit diesem System kannst du die Helligkeitskurve und den Weißabgleich deines Lasers korrigieren. Siehe [colour-calibration.md](../../advanced/colour-calibration.md "mention")
+Mit diesem System kannst du die Helligkeitskurve und den Weißabgleich deines Lasers korrigieren. Siehe [Farbkalibrierung](../../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Du solltest an diesen Einstellungen normalerweise nichts ändern müssen. Wenn du aber neugierig bist, siehe [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")
+Du solltest an diesen Einstellungen normalerweise nichts ändern müssen. Wenn du aber neugierig bist, siehe [◼️ Erweiterte Lasereinstellungen](../../advanced/advanced-laser-settings.md "mention")

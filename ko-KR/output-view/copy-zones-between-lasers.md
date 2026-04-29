@@ -21,4 +21,4 @@ _Copy output zone settings_ 옵션을 선택한 다음 _COPY SETTINGS_ 버튼을
 이 과정은 레이저에 존을 추가하거나 제거하지 않습니다. 대상 레이저에 이미 존재하는 각 존에 대해 존의 위치와 유형만 복사합니다.
 {% endhint %}
 
-이 시스템의 다른 기능에 대한 전체 설명은 [copy-laser-settings.md](../setting-up/copy-laser-settings.md)도 참조하세요.
+이 시스템의 다른 기능에 대한 전체 설명은 [레이저 간 설정 복사](../setting-up/copy-laser-settings.md)도 참조하세요.

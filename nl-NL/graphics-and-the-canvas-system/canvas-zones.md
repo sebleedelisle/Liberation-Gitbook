@@ -23,7 +23,7 @@ Klik met de rechtermuisknop op de zone en schakel de nummerknoppen in of uit om 
 WAARSCHUWING - als de laser armed is, kun je plotseling content gaan projecteren in een standaard canvas zone. Je kunt de laser het beste disarmen voordat je canvas zones eraan toewijst.
 {% endhint %}
 
-Als je nu naar de _OUTPUT_-weergave voor die laser gaat, zie je daar de canvas zone. Deze kun je nu precies zo bewerken als elke beam zone. Zie [zones.md](../output-view/zones.md "mention").
+Als je nu naar de _OUTPUT_-weergave voor die laser gaat, zie je daar de canvas zone. Deze kun je nu precies zo bewerken als elke beam zone. Zie [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Je kunt ook rechtstreeks vanuit de _OUTPUT_-weergave een canvas zone aan een laser toevoegen: klik op de knop _Add existing canvas zone_ in de linkerwerkbalk.

@@ -21,4 +21,4 @@ Valitse _Copy output zone settings_ -asetus ja viimeistele toiminto napsauttamal
 Huomaa, että tämä toiminto ei lisää alueita lasereihin eikä poista niitä. Se vain kopioi kunkin kohdelasereissa jo olevan alueen sijainnin ja tyypin.
 {% endhint %}
 
-Katso myös [copy-laser-settings.md](../setting-up/copy-laser-settings.md), jossa kuvataan järjestelmän muut toiminnot kokonaisuudessaan.
+Katso myös [Kopioi asetukset lasereiden välillä](../setting-up/copy-laser-settings.md), jossa kuvataan järjestelmän muut toiminnot kokonaisuudessaan.

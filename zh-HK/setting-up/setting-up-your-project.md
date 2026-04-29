@@ -26,12 +26,12 @@ metaLinks:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **更改每個 clip 的 zones：**\
-    按一下 clip 的按鈕來觸發它，然後使用畫面上的按鈕切換 zones 以及 X 和 Y flip。請參閱 [Clips](../clips/)。
+    按一下 clip 的按鈕來觸發它，然後使用畫面上的按鈕切換 zones 以及 X 和 Y flip。請參閱 [Clips 及 Clip Deck](../clips/)。
 
     \\
 
     <figure><img src="../.gitbook/assets/Y.png" alt=""><figcaption></figcaption></figure>
-5.  **連接你的 controllers：** 準備好接駁雷射並開始使用時，開啟 _Controller Assignment_ panel。請參閱 [Controller Assignment](controller-assignment.md)。
+5.  **連接你的 controllers：** 準備好接駁雷射並開始使用時，開啟 _Controller Assignment_ panel。請參閱 [控制器指派](controller-assignment.md)。
 
     \\
 

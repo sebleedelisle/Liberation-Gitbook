@@ -24,7 +24,7 @@ Aby uruchomić nowy klip bez zatrzymywania innych klipów, możesz:
 * przytrzymać klawisz `Shift` (albo przycisk Shift na APC40) podczas uruchamiania nowego klipu; albo
 * ponownie nacisnąć aktualnie odtwarzane klipy podczas uruchamiania nowego klipu.
 
-Grupy klipów są od siebie niezależne, więc uruchomienie klipu w jednej grupie nie wpływa na klipy w pozostałych grupach. Zobacz [groups.md](groups.md)
+Grupy klipów są od siebie niezależne, więc uruchomienie klipu w jednej grupie nie wpływa na klipy w pozostałych grupach. Zobacz [Grupy klipów](groups.md)
 
 ### Flash mode
 

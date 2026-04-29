@@ -25,4 +25,4 @@ Klicka på _Download latest for Mac_ (versionsnumren ändras med tiden), så spa
 
 Dra Liberation-ikonen till vänster till mappen Applications till höger (du kan behöva ett administratörslösenord). Du hittar nu Liberation i mappen Applications. Dubbelklicka för att öppna det.
 
-Liberation bör nu starta! För att skicka utsignal till lasrar behöver du nu gå igenom [auktoriseringsprocessen.](authorising-and-de-authorising.md)
+Liberation bör nu starta! För att skicka utsignal till lasrar behöver du nu gå igenom [Auktorisera och avauktorisera](authorising-and-de-authorising.md)

@@ -36,7 +36,7 @@ I Liberation finns olika reglage och kontroller.
 
 ### Kortkommandon
 
-En fullständig lista över kortkommandon finns här: [Kortkommandon](../reference/keyboard-shortcuts.md)
+En fullständig lista över kortkommandon finns här: [Tangentbordsgenvägar](../reference/keyboard-shortcuts.md)
 
 ### Skärmlayout
 
@@ -100,7 +100,7 @@ Klicka på en zone för att välja den och justera sedan hörnpunkterna med muse
 
 Till vänster finns en rad med ikonknappar. Håll muspekaren över en knapp för att visa en beskrivning av vad den gör. Knapparna här låter dig lägga till beam zones, canvas zones och masks. Det finns också alternativ för att ställa in ett test pattern endast för den här lasern, samt inställningar för rutnät och snapping.
 
-Mer information finns i [Output view](../output-view/).
+Mer information finns i [Output-vy](../output-view/).
 
 #### Canvas
 
@@ -140,7 +140,7 @@ Du kan scrolla Clip Deck åt vänster och höger med:
 * scrollratten på APC40
 * knapparna _<- DEVICE ->_ på APC40
 
-För att hjälpa dig att orientera dig finns en minivisualisering av Clip Deck längst upp. Se även [Clips](../clips/)
+För att hjälpa dig att orientera dig finns en minivisualisering av Clip Deck längst upp. Se även [Clips och Clip Deck](../clips/)
 
 #### Starta och stoppa Clips
 
@@ -162,7 +162,7 @@ Två rader under zone-knapparna ser du X/Y flip-knapparna. Växla dem för att v
 Observera att dessa zone-tilldelningar och X/Y flip-inställningar är kopplade till själva Clip. De sparas till nästa gång du kör den Clip. De är inte en global inställning.
 {% endhint %}
 
-Högerklicka på en Clip för att redigera fler inställningar för den. Se även [Clip Settings](../clips/clip-settings.md)
+Högerklicka på en Clip för att redigera fler inställningar för den. Se även [Clip-inställningar](../clips/clip-settings.md)
 
 ### Groups
 
@@ -184,7 +184,7 @@ Du kan tilldela en Clip till en group med knapparna i högerklicksmenyn. Med APC
 
 Med APC40: tryck på group-knappen och använd sedan, _medan den fortfarande hålls ned_, zone- och X/Y-knapparna för att växla zone-inställningar för alla Clips i den group.
 
-Se även [Groups](../clips/groups.md)
+Se även [Clip groups](../clips/groups.md)
 
 ### Effekter
 
@@ -297,7 +297,7 @@ Klicka på knappen _Assign Laser Controllers_ för att öppna panelen _Controlle
 
 Här kan du välja vilka laser-outputs som ska gå till vilka laser controllers. Dra och släpp controllers från listan till höger till platserna till vänster. Du kan byta namn på dina controllers så att de matchar vilken laser de är kopplade till (använd knappen med pennikonen).
 
-Läs kapitlet [Controller Assignment](../setting-up/controller-assignment.md) för mer information.
+Läs kapitlet [Tilldela kontroller](../setting-up/controller-assignment.md) för mer information.
 
 {% hint style="danger" %}
 Innan du sätter några lasrar i _armed_-läge måste du gå igenom kapitlet [Konfigurera lasrar](../setting-up/setting-up-lasers.md).

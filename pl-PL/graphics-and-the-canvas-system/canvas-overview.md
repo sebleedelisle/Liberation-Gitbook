@@ -38,7 +38,7 @@ OSTRZEŻENIE — jeśli laser jest uzbrojony, możesz nagle zacząć wyświetla�
 {% endhint %}
 
 {% hint style="info" %}
-Strefę Canvas możesz też przypisać do lasera, klikając przycisk _add canvas zone_ w widoku _OUTPUT_. Zobacz [zones.md](../output-view/zones.md).
+Strefę Canvas możesz też przypisać do lasera, klikając przycisk _add canvas zone_ w widoku _OUTPUT_. Zobacz [Zones](../output-view/zones.md).
 {% endhint %}
 
 ### Obrazy pomocnicze

@@ -68,7 +68,7 @@ Det store område øverst til venstre på skærmen kan vise en af 3 hovedvisning
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view viser, hvordan dine lasere kommer til at se ud, og kan konfigureres, så det matcher dit eget laser-setup. Klik og træk for at rotere kameraet, og brug musehjulet til at bevæge dig frem og tilbage. Du finder mange andre muligheder i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D-visualisering](../setting-up/3d-visualiser.md).
+3D view viser, hvordan dine lasere kommer til at se ud, og kan konfigureres, så det matcher dit eget laser-setup. Klik og træk for at rotere kameraet, og brug musehjulet til at bevæge dig frem og tilbage. Du finder mange andre muligheder i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](../setting-up/3d-visualiser.md).
 
 #### Output view
 
@@ -100,7 +100,7 @@ Klik på en zone for at vælge den, og juster derefter dens hjørnepunkter med m
 
 Langs venstre side er der en linje med en række ikonknapper. Hold musen over en knap for at få en beskrivelse af, hvad den gør. Knapperne her lader dig tilføje beam zones, canvas zones og masks. Der er også muligheder for kun at sætte en test pattern for denne laser samt indstillinger for grid og snapping.
 
-Se flere detaljer under [Output view](../output-view/).
+Se flere detaljer under [Output-visning](../output-view/).
 
 #### Canvas
 
@@ -140,7 +140,7 @@ Du kan rulle Clip Deck mod venstre og højre med:
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_-knapper
 
-For at hjælpe dig med at holde overblikket er der en mini-visualisering af Clip Deck langs toppen. Se også [Clips](../clips/)
+For at hjælpe dig med at holde overblikket er der en mini-visualisering af Clip Deck langs toppen. Se også [Clips & Clip deck](../clips/)
 
 #### Starte og stoppe clips
 
@@ -184,7 +184,7 @@ Skift zone-indstillinger for alle clips i en gruppe
 
 Med APC40 skal du trykke på gruppeknappen og derefter, _mens den stadig holdes nede_, bruge zone- og X/Y-knapperne til at slå zone-indstillinger til eller fra for alle clips i den gruppe.
 
-Se også [Grupper](../clips/groups.md)
+Se også [Clip-grupper](../clips/groups.md)
 
 ### Effekter
 
@@ -297,7 +297,7 @@ Klik på knappen _Assign Laser Controllers_ for at åbne panelet _Controller Ass
 
 Her kan du vælge, hvilke laserudgange der skal gå til hvilke laser controllers. Træk og slip controllers fra listen til højre ind i pladserne til venstre. Du kan omdøbe dine controllers, så de matcher den laser, de er parret med. Brug knappen med pen-ikonet.
 
-Læs kapitlet [Controller Assignment](../setting-up/controller-assignment.md) for flere detaljer.
+Læs kapitlet [Tildeling af controllere](../setting-up/controller-assignment.md) for flere detaljer.
 
 {% hint style="danger" %}
 Før du sætter nogen lasere i _armed_-tilstand, skal du sørge for at gennemgå kapitlet [Opsætning af lasere](../setting-up/setting-up-lasers.md).

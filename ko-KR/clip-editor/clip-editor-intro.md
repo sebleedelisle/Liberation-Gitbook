@@ -32,12 +32,12 @@ Clip Editor에서 볼 수 있는 항목은 다음과 같습니다.
 편집하는 동안에는 배경의 3D visualiser에서도 Clip이 어떻게 보이는지 확인할 수 있습니다.
 
 {% hint style="info" %}
-3D visualiser에 출력이 보이지 않는다면 zone 버튼을 사용해 원하는 zone을 켜야 할 수 있습니다. 또한 _Preview to lasers_ 가 활성화되어 있는지도 확인해야 합니다. 아래 [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel)을 참고하세요.
+3D visualiser에 출력이 보이지 않는다면 zone 버튼을 사용해 원하는 zone을 켜야 할 수 있습니다. 또한 _Preview to lasers_ 가 활성화되어 있는지도 확인해야 합니다. 아래 [Clip Editor 소개](clip-editor-intro.md#clip-editor-panel)을 참고하세요.
 {% endhint %}
 
 ### Clip 만들기
 
-일반적으로 하나 이상의 [creator nodes](creator-nodes.md)로 시작한 다음, 콘텐츠를 처리하는 [operators](operator-nodes/)를 왼쪽에서 오른쪽으로 연결합니다. Creator 및/또는 Operator를 서로 가까이 이동하면 자동으로 연결되는 것을 볼 수 있습니다. 다시 서로 멀리 드래그하면 연결을 해제할 수 있습니다.
+일반적으로 하나 이상의 [Creator 노드](creator-nodes.md)로 시작한 다음, 콘텐츠를 처리하는 [Operator nodes](operator-nodes/)를 왼쪽에서 오른쪽으로 연결합니다. Creator 및/또는 Operator를 서로 가까이 이동하면 자동으로 연결되는 것을 볼 수 있습니다. 다시 서로 멀리 드래그하면 연결을 해제할 수 있습니다.
 
 ### Clip에 노드 추가하기
 
@@ -63,7 +63,7 @@ Clip Editor에서 볼 수 있는 항목은 다음과 같습니다.
 
 각 노드의 하단에는 소켓 배열이 있으며, 각 소켓은 brightness, position, scale, rotation 등 노드 내부의 속성을 나타냅니다.
 
-[Oscillator nodes](oscillators/)는 아래쪽에서 이 소켓에 연결할 수 있으며, 이러한 설정에 애니메이션을 적용하는 데 사용됩니다. Oscillator 노드는 상단에 출력이 있습니다. 클릭한 뒤 드래그하여 연결을 꺼내 다른 노드의 속성 소켓 중 하나에 놓습니다.
+[Oscillator 노드](oscillators/)는 아래쪽에서 이 소켓에 연결할 수 있으며, 이러한 설정에 애니메이션을 적용하는 데 사용됩니다. Oscillator 노드는 상단에 출력이 있습니다. 클릭한 뒤 드래그하여 연결을 꺼내 다른 노드의 속성 소켓 중 하나에 놓습니다.
 
 ### Oscillator 노드
 
@@ -75,7 +75,7 @@ Oscillator 노드는 시간에 따라 속성을 변경하는 데 사용됩니다
 **재미있는 사실:** _Liberation_ 이라는 이름은 1980년에 출시된 신디사이저 “키타”인 Moog Liberation에서 영감을 받았습니다. 이 악기는 Herbie Hancock, Jean-Michel Jarre, 심지어 James Brown을 통해 유명해졌습니다!
 {% endhint %}
 
-Oscillator에는 조정할 속성의 최소값과 최대값을 제어하는 _range_ 설정이 항상 있습니다. 또한 _Wave Oscillators_ 에는 Oscillator가 값을 얼마나 빠르게 변경할지 결정하는 _duration_ 설정이 항상 있습니다. 자세한 내용은 [wave-oscillators.md](oscillators/wave-oscillators.md)를 참고하세요.
+Oscillator에는 조정할 속성의 최소값과 최대값을 제어하는 _range_ 설정이 항상 있습니다. 또한 _Wave Oscillators_ 에는 Oscillator가 값을 얼마나 빠르게 변경할지 결정하는 _duration_ 설정이 항상 있습니다. 자세한 내용은 [Wave oscillators](oscillators/wave-oscillators.md)를 참고하세요.
 
 ### Clip Editor 패널
 

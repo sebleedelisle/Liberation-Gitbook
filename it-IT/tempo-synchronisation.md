@@ -60,7 +60,7 @@ Usa il pulsante _METRONOME_ per **resettare la battuta**. Nota che anche il puls
 
 Ruota la manopola _TEMPO_ di uno “scatto” a destra o a sinistra per **arrotondare il tempo** verso l’alto o verso il basso a un valore intero di BPM.
 
-Vedi anche [apc40-reference.md](reference/apc40-reference.md)
+Vedi anche [Riferimento APC40](reference/apc40-reference.md)
 
 ### Nudge tempo
 

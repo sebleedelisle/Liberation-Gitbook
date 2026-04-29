@@ -23,7 +23,7 @@ Haz clic derecho sobre la zona y activa o desactiva los botones numéricos para 
 ADVERTENCIA: si el láser está armado, podrías empezar a proyectar contenido de forma repentina en una zona de Canvas predeterminada. Es mejor desarmar el láser antes de asignarle zonas de Canvas.
 {% endhint %}
 
-Si ahora vas a la vista _OUTPUT_ de ese láser, verás allí la zona de Canvas, que ya puedes editar exactamente igual que cualquier zona de haz. Consulta [zones.md](../output-view/zones.md "mention").
+Si ahora vas a la vista _OUTPUT_ de ese láser, verás allí la zona de Canvas, que ya puedes editar exactamente igual que cualquier zona de haz. Consulta [Zonas](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 También puedes añadir una zona de Canvas a un láser directamente desde la vista _OUTPUT_: haz clic en el botón _Add existing canvas zone_ de la barra de herramientas izquierda.

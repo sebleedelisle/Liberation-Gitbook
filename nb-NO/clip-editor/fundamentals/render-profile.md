@@ -16,7 +16,7 @@ I motsetning til de fleste lasersystemer genererer Liberation en punktstrøm i s
 
 Det betyr også at du kan tilpasse det samme innholdet for ulike scannertyper, laser for laser, uten å måtte endre selve Clip-ene.
 
-For mer informasjon, se [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+For mer informasjon, se [◼️ Hvordan Liberation genererer laserinnhold](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 Det finnes tre forhåndsdefinerte _Render Profiles_: _DEFAULT_, _FAST_ og _DETAIL_.
@@ -28,5 +28,5 @@ _**FAST** -_ hvis Clip-en din har mye innhold og noe av det bare er helt enkle p
 _**DETAIL**_ – hvis du tegner noe som trenger skarpe hjørner, bruker du dette alternativet. Men husk at scannerne da beveger seg saktere, noe som kan gjøre Output mer flimrete.
 
 {% hint style="info" %}
-I Clip editor kan du tilordne creators til ulike render profiles, men hver laser behandler disse profilene avhengig av scannerinnstillingene sine. Se [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+I Clip editor kan du tilordne creators til ulike render profiles, men hver laser behandler disse profilene avhengig av scannerinnstillingene sine. Se [◼️ Scanner-forhåndsinnstillinger og renderprofiler](../../advanced/scanner-presets.md "mention")
 {% endhint %}

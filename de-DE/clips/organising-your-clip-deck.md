@@ -9,7 +9,7 @@ metaLinks:
 
 ### Clips verschieben/duplizieren
 
-Klicke und ziehe, um einen Clip zu verschieben. Wenn mehr als ein Clip ausgewählt ist (siehe [starting-stopping-clips.md](starting-stopping-clips.md "mention")), werden alle ausgewählten Clips verschoben. Halte `Alt / Option` gedrückt, um sie zu duplizieren. Lege den/die Clip(s) auf einer freien Stelle ab.
+Klicke und ziehe, um einen Clip zu verschieben. Wenn mehr als ein Clip ausgewählt ist (siehe [Clips starten / stoppen](starting-stopping-clips.md "mention")), werden alle ausgewählten Clips verschoben. Halte `Alt / Option` gedrückt, um sie zu duplizieren. Lege den/die Clip(s) auf einer freien Stelle ab.
 
 {% hint style="info" %}
 Wenn du eine große Anzahl von Clips auswählen musst, kannst du per Klicken/Ziehen ein Lasso aufziehen und dann weiterziehen, während du im Clip Deck scrollst (entweder mit den Pfeiltasten, der APC 40 oder seitlichem Scrollen per Touchpad/Maus). Das Lasso wird über den Rand des Clip Deck hinaus erweitert.

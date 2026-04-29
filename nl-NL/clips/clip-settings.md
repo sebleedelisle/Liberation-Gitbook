@@ -14,7 +14,7 @@ Wijzig de uitvoergrootte van de clip met _Scale X_ en _Scale Y_. Ze zijn aan elk
 
 Wijzig de horizontale en verticale positie van de clip met _Shift X_ en _Shift Y_.
 
-_Zone Delay/Chase_ is zo’n leuke functie dat die een eigen sectie krijgt. [zone-delay-chase.md](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ is zo’n leuke functie dat die een eigen sectie krijgt. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Clips vergrendelen
 
@@ -27,7 +27,7 @@ Als een clip vergrendeld is, kan die niet worden verplaatst of verwijderd. Gebru
 
 ### Rechtsklikmenu
 
-Als je met de rechtermuisknop op een clip klikt, verschijnt er een menu met enkele opties voor die clip. Zie [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [clip-settings.md](clip-settings.md "mention") en [groups.md](groups.md "mention") voor meer informatie over de eerste items in dit menu.
+Als je met de rechtermuisknop op een clip klikt, verschijnt er een menu met enkele opties voor die clip. Zie [Introductie tot de Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip settings](clip-settings.md "mention") en [Clipgroepen](groups.md "mention") voor meer informatie over de eerste items in dit menu.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Het rechtsklikmenu voor Clip settings</p></figcaption></figure>
 

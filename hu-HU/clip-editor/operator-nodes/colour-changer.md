@@ -11,7 +11,7 @@ metaLinks:
 
 Leírás
 
-* **hue, saturation, brightness** - a színértékek, lásd: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md)
+* **hue, saturation, brightness** - a színértékek, lásd: [Színbeállítások és HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - a hue nem módosul
   * FIXED - az elemek hue értéke a megadott hue értékre áll

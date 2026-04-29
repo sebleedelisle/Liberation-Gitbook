@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX-solmu
 
-DMX-solmu on erityinen solmu, jonka avulla voit ohjata DMX-valaisimia tarkemmin. Lisätietoja on kohdassa [dmx-control](../dmx-control/).
+DMX-solmu on erityinen solmu, jonka avulla voit ohjata DMX-valaisimia tarkemmin. Lisätietoja on kohdassa [DMX / Artnet](../dmx-control/).

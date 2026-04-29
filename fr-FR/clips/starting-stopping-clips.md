@@ -24,7 +24,7 @@ Pour démarrer un nouveau clip sans arrêter les autres clips, vous pouvez soit 
 * Appuyer sur la touche `Shift` (ou sur le bouton Shift de l’APC40) pendant que vous démarrez le nouveau clip ; ou
 * Appuyer à nouveau sur le ou les clips en cours d’exécution pendant que vous démarrez le nouveau clip.
 
-Les groupes de clips sont indépendants les uns des autres : démarrer un clip dans un groupe n’a donc aucun effet sur les clips des autres groupes. Voir [groups.md](groups.md "mention")
+Les groupes de clips sont indépendants les uns des autres : démarrer un clip dans un groupe n’a donc aucun effet sur les clips des autres groupes. Voir [Groupes de Clips](groups.md "mention")
 
 ### Mode flash
 

@@ -27,7 +27,7 @@ Zusätzlich kannst du Preset-Dateien über den Load/Save-Button (ein Diskettensy
 Wenn du ein Preset bearbeitest, zum Beispiel die Scanner-Einstellung namens _Default_, beachte, dass die anderen Laser nicht automatisch aktualisiert werden. Stattdessen werden ihre Scanner-Einstellungen nun als _Default(edited)_ gekennzeichnet. Um sie auf das neue _Default_-Preset zu aktualisieren, wähle es erneut in der Dropdown-Liste aus.
 
 {% hint style="info" %}
-Wenn du viele Laser hast und alle ihre Scanner-Einstellungen aktualisieren möchtest, verwende das System _COPY LASER SETTINGS_. Siehe [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention")
+Wenn du viele Laser hast und alle ihre Scanner-Einstellungen aktualisieren möchtest, verwende das System _COPY LASER SETTINGS_. Siehe [Einstellungen zwischen Lasern kopieren](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Wenn du ein Preset löschst, das an anderer Stelle verwendet wird, verlierst du die Einstellung nicht. Sie wird stattdessen als _(deleted)._ gekennzeichnet.

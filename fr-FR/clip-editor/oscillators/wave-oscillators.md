@@ -13,7 +13,7 @@ metaLinks:
 * <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line"> [Onde triangulaire](wave-oscillators.md#triangle-wave-1)
 * <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line"> [Onde sinusoïdale](wave-oscillators.md#sine-wave)
 * <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line"> [Onde carrée](wave-oscillators.md#square-wave-1)
-* <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line"> [Bruit](wave-oscillators.md#noise)
+* <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line"> [Oscillateurs d’onde](wave-oscillators.md#noise)
 * <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line"> [Custom Oscillator](wave-oscillators.md#custom-oscillator-1)
 
 ## Réglages des oscillateurs d’onde

@@ -21,4 +21,4 @@ Velg alternativet _Copy output zone settings_, og klikk deretter på knappen _CO
 Merk at denne prosessen ikke legger til eller fjerner soner fra lasere. Den kopierer bare posisjonen og typen sone for hver sone som finnes i mållaserne.
 {% endhint %}
 
-Se også [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention") for en fullstendig beskrivelse av de andre funksjonene i dette systemet.
+Se også [Kopier innstillinger mellom lasere](../setting-up/copy-laser-settings.md "mention") for en fullstendig beskrivelse av de andre funksjonene i dette systemet.

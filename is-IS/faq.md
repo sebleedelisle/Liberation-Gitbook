@@ -151,7 +151,7 @@ Já. `Cmd / Ctrl`-smelltu á sleðann og þá geturðu slegið gildið inn með 
 
 #### **Hvernig samstilli ég Liberation við tónlist?**
 
-Það er með snjallt „tap tempo“ kerfi sem virkar eins og þú myndir búast við, en þú getur líka notað ytri MIDI clock eða Ableton Link. Sjá [Tempo-samstilling](tempo-synchronisation.md). Timeline er hægt að samstilla við innkomandi LTC/SMPTE timecode í gegnum hvaða hljóðviðmót sem er. Sjá [Timecode](timecode.md).
+Það er með snjallt „tap tempo“ kerfi sem virkar eins og þú myndir búast við, en þú getur líka notað ytri MIDI clock eða Ableton Link. Sjá [Tempo-samstilling](tempo-synchronisation.md). Timeline er hægt að samstilla við innkomandi LTC/SMPTE timecode í gegnum hvaða hljóðviðmót sem er. Sjá [Tímakóði](timecode.md).
 
 #### Hvaða stillingar þarf ég að laga til að fá besta úttakið úr laser?
 
@@ -163,7 +163,7 @@ Aðalstillingin er _Colour Shift,_ sem bætir upp örlitla töf milli þess að 
 
 Fyrir frekari upplýsingar, sjá [Laser Settings](setting-up/laser-settings.md), og fyrir upplýsingar um hvernig þú býrð til eigin forstillingar, sjá [Forstillingar skanna](advanced/scanner-presets.md) (ítarefni, í vinnslu)
 
-Þú getur einnig leiðrétt litajafnvægið með _Colour calibration_ stillingunum. Sjá [Colour calibration](advanced/colour-calibration.md)(ítarefni)
+Þú getur einnig leiðrétt litajafnvægið með _Colour calibration_ stillingunum. Sjá [Litkvörðun](advanced/colour-calibration.md)(ítarefni)
 
 #### Hvað gerir _Latency(ms)_ stillingin?
 

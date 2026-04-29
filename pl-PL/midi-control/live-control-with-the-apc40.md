@@ -27,4 +27,4 @@ Krótko mówiąc, zalecany jest Mark 2, ponieważ ma przyciski w pełnym kolorze
 Oryginalny APC40 Mark 1 pojawił się w 2009 roku (!) i niektórzy nadal go preferują ze względu na metalową obudowę oraz solidną, konsolową konstrukcję. Zaktualizowany Mark 2 pojawił się w 2014 roku i choć został wycofany z produkcji w 2024 roku, ze względu na zapotrzebowanie ze strony artystów wizualnych (Resolume itd.) oraz laseristów wraca do produkcji w 2025 roku.
 {% endhint %}
 
-Pełną listę elementów sterujących dostępnych na APC40 znajdziesz w [apc40-reference.md](../reference/apc40-reference.md)
+Pełną listę elementów sterujących dostępnych na APC40 znajdziesz w [Referencja APC40](../reference/apc40-reference.md)

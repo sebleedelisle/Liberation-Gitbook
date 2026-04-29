@@ -15,12 +15,12 @@ eller på knappen _+_ i visningen _Output_.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Når du tilføjer en ny laser, tilføjes der automatisk en beam zone til den. Bemærk, at lasere og zoner sorteres i den rækkefølge, du tilføjer dem. Se [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md "mention").
+Når du tilføjer en ny laser, tilføjes der automatisk en beam zone til den. Bemærk, at lasere og zoner sorteres i den rækkefølge, du tilføjer dem. Se [Omorganisering af beam-zoner](../output-view/re-ordering-beam-zones.md "mention").
 
 Fjern en laser ved at klikke på den røde knap "-" i panelet _Laser overview_. Bemærk, at du mister alle dine laserindstillinger!
 
 {% hint style="info" %}
-Hvis du vil kopiere zoner eller andre indstillinger fra andre lasere, skal du bruge [copy-laser-settings.md](copy-laser-settings.md "mention")
+Hvis du vil kopiere zoner eller andre indstillinger fra andre lasere, skal du bruge [Kopiér indstillinger mellem lasere](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

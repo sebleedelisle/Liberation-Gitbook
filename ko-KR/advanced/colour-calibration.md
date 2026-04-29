@@ -17,7 +17,7 @@ metaLinks:
 
 #### 보정 테스트 작동 방식
 
-보정에는 테스트 패턴을 사용합니다([test-patterns.md](../output-view/test-patterns.md) 참고).
+보정에는 테스트 패턴을 사용합니다([테스트 패턴](../output-view/test-patterns.md) 참고).
 
 * **5** – Red
 * **6** – Green

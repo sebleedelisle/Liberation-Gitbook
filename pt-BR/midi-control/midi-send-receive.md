@@ -25,6 +25,6 @@ Use a configuração _BOTH_ com cuidado. Dispositivos e softwares MIDI podem ser
 
 ### Mapeamento MIDI
 
-Consulte [midi-send-receive-default-mapping.md](../reference/midi-send-receive-default-mapping.md)
+Consulte [Mapeamento padrão de envio/recebimento MIDI](../reference/midi-send-receive-default-mapping.md)
 
 Planejo adicionar um mapeamento MIDI muito mais personalizável no futuro, mas, enquanto isso, você pode usar apps como [BOME](https://www.bome.com/products/miditranslator) e [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) para traduzir entre o Liberation e seu hardware personalizado.

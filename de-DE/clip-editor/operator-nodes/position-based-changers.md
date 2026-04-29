@@ -32,7 +32,7 @@ Dieser Node wendet Farbänderungen positionsabhängig auf deinen Inhalt an. Stan
 
 **Farbmodi**
 
-Diese bestimmen, welche Aspekte der Farbanpassungen auf den Inhalt angewendet werden. Siehe auch: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+Diese bestimmen, welche Aspekte der Farbanpassungen auf den Inhalt angewendet werden. Siehe auch: [Farbeinstellungen und HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – der Farbton bleibt unverändert.

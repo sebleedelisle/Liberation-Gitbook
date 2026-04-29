@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Przenoszenie zawartości podczas aktualizacji do nowej wersji
 
-Liberation przechowuje zawartość w swoim folderze roboczym (zobacz [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md) ), a folder ten zmienia się przy każdym wydaniu nowej wersji. Jeśli chcesz zachować pliki robocze ze starej wersji i przenieść je do nowej:&#x20;
+Liberation przechowuje zawartość w swoim folderze roboczym (zobacz [Gdzie znaleźć folder roboczy](../troubleshooting/where-to-find-the-working-folder.md) ), a folder ten zmienia się przy każdym wydaniu nowej wersji. Jeśli chcesz zachować pliki robocze ze starej wersji i przenieść je do nowej:&#x20;
 
 1. Otwórz pierwotną wersję Liberation.
 2. Użyj _File->Project->Export Project_. Spowoduje to zapisanie wszystkiego z Twojej instalacji Liberation: konfiguracji laserów, timelines, Clip Deck — wszystkiego!&#x20;

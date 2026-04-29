@@ -26,7 +26,7 @@ Randomise-nodi on Randomise-efektin ytimessä!
 
 Luo sisällöstä kaikuja, eli jättää alkuperäisen liikkuessa sen perään himmeneviä tai skaalautuvia kopioita.
 
-* **change render profile for trail** – jos käytössä, kaikki trail-kopiot käyttävät valittua **render profile** -asetusta. _Katso_ [render-profile.md](../fundamentals/render-profile.md).
+* **change render profile for trail** – jos käytössä, kaikki trail-kopiot käyttävät valittua **render profile** -asetusta. _Katso_ [Render Profile](../fundamentals/render-profile.md).
 * **render profile** – profiili, jota käytetään trail-kopioille, kun yllä oleva kytkin on käytössä. Tätä käytetään usein, kun pääsisältö on asetettu tilaan **DETAIL**, mutta kaiut renderöidään tilassa **FAST**. Näin päämuodoissa säilyy selkeä yksityiskohtaisuus ja trail-kopiot renderöityvät tehokkaammin.
 * **delay** – asettaa trail-kopioiden välisen etäisyyden musiikillisessa ajassa, mitattuna **1/64-nuotin askelina**.\
   Vertailuksi:

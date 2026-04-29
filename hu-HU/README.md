@@ -29,7 +29,7 @@ Ez az útmutató segít magabiztosan használni a Liberationt: a telepítéstől
 
 * Kezdd a [**Fontos! Ezt olvasd el először**](important.md) résszel, hogy hardver csatlakoztatása előtt átnézd a kritikus biztonsági és licencelési tudnivalókat.
 * Kövesd a [**Gyors kezdési útmutató**](getting-started.md) lépéseit, ha gyorsan szeretnél kimenetet indítani, majd mélyebb konfiguráláshoz nézd meg a [**Hardver**](hardware/) és a [**Beállítás**](setting-up/) részeket.
-* A szakaszcímekkel közvetlenül a megfelelő témákhoz ugorhatsz (például [**Clips és Clip Deck**](clips/), [**Output view**](output-view/), **stb.**), ha pedig pontos válaszokra van szükséged, térj vissza a [**Referencia**](reference/) vagy a [**Hibaelhárítás**](troubleshooting/) részhez.
+* A szakaszcímekkel közvetlenül a megfelelő témákhoz ugorhatsz (például [**Clips és Clip Deck**](clips/), [**Output nézet**](output-view/), **stb.**), ha pedig pontos válaszokra van szükséged, térj vissza a [**Referencia**](reference/) vagy a [**Hibaelhárítás**](troubleshooting/) részhez.
 
 ## Jelölések és tippek
 
@@ -37,4 +37,4 @@ Ez az útmutató segít magabiztosan használni a Liberationt: a telepítéstől
 * A linkek az aktuális kiadásra vonatkoznak; régebbi build használata esetén a képernyőképek és menük kissé eltérhetnek.
 * A hardveres lépések a biztonságos alapbeállításokat emelik ki — soha ne kerüld meg a reteszeléseket, és tartsd távol a nyalábokat az emberektől.
 
-Ha elakadsz, először nézd meg a [**GYIK**](faq.md) részt, majd célzott megoldásokért a [**Hibaelhárítás**](troubleshooting/) szakaszt, mielőtt támogatást kérsz.
+Ha elakadsz, először nézd meg a [**FAQ**](faq.md) részt, majd célzott megoldásokért a [**Hibaelhárítás**](troubleshooting/) szakaszt, mielőtt támogatást kérsz.

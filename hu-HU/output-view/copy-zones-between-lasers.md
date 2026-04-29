@@ -21,4 +21,4 @@ Válaszd a _Copy output zone settings_ opciót, majd kattints a _COPY SETTINGS_ 
 Vegye figyelembe, hogy ez a folyamat nem ad hozzá és nem távolít el zónákat a lézerekről. Csak a célként kiválasztott lézereken már meglévő zónák pozícióját és típusát másolja át.
 {% endhint %}
 
-A rendszer további funkcióinak teljes leírásáért lásd még: [copy-laser-settings.md](../setting-up/copy-laser-settings.md).
+A rendszer további funkcióinak teljes leírásáért lásd még: [Beállítások másolása lézerek között](../setting-up/copy-laser-settings.md).

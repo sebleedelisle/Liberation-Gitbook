@@ -32,12 +32,12 @@ Nel clip editor vedrai:
 Mentre modifichi, vedrai anche l’aspetto della clip nel 3D Visualiser sullo sfondo.
 
 {% hint style="info" %}
-Se non vedi alcun output nel 3D Visualiser, potresti dover usare i pulsanti delle zone per attivare le zone desiderate. Devi anche assicurarti che _Preview to lasers_ sia abilitato; vedi [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel) qui sotto.
+Se non vedi alcun output nel 3D Visualiser, potresti dover usare i pulsanti delle zone per attivare le zone desiderate. Devi anche assicurarti che _Preview to lasers_ sia abilitato; vedi [Introduzione al Clip Editor](clip-editor-intro.md#clip-editor-panel) qui sotto.
 {% endhint %}
 
 ### Creare una clip
 
-Di solito inizi con uno o più [nodi Creator](creator-nodes.md) e colleghi gli [operatori](operator-nodes/) da sinistra a destra per elaborare il contenuto. Quando avvicini tra loro creator e/o operatori, noterai che si collegano automaticamente. Puoi trascinarli di nuovo lontano l’uno dall’altro per scollegarli.
+Di solito inizi con uno o più [nodi Creator](creator-nodes.md) e colleghi gli [Nodi Operator](operator-nodes/) da sinistra a destra per elaborare il contenuto. Quando avvicini tra loro creator e/o operatori, noterai che si collegano automaticamente. Puoi trascinarli di nuovo lontano l’uno dall’altro per scollegarli.
 
 ### Aggiungere nodi alla clip
 
@@ -75,7 +75,7 @@ Se hai mai usato un sintetizzatore analogico, conoscerai il concetto di oscillat
 **Curiosità:** il nome _Liberation_ è stato ispirato dal Moog Liberation, un sintetizzatore "keytar" uscito nel 1980 e reso famoso da Herbie Hancock, Jean-Michel Jarre e persino James Brown!
 {% endhint %}
 
-Gli oscillatori hanno sempre impostazioni di _range_ che controllano il valore minimo e massimo della proprietà da modificare. Inoltre, i _Wave Oscillators_ hanno sempre un’impostazione _duration_ che determina la velocità con cui l’oscillatore modifica il valore. Vedi [wave-oscillators.md](oscillators/wave-oscillators.md) per maggiori informazioni.
+Gli oscillatori hanno sempre impostazioni di _range_ che controllano il valore minimo e massimo della proprietà da modificare. Inoltre, i _Wave Oscillators_ hanno sempre un’impostazione _duration_ che determina la velocità con cui l’oscillatore modifica il valore. Vedi [Oscillatori a onda](oscillators/wave-oscillators.md) per maggiori informazioni.
 
 ### Pannello Clip Editor
 

@@ -31,7 +31,7 @@ Se você já tiver autorizado o número máximo de computadores permitido pela s
 Se você tiver várias assinaturas, será solicitado que escolha a assinatura à qual deseja atribuir o computador.
 {% endhint %}
 
-Parabéns! Sua instalação do Liberation foi autorizada e você já pode enviar saída para lasers! Mas leia [getting-started.md](../getting-started.md) e [setting-up-lasers.md](../setting-up/setting-up-lasers.md) antes de armar seus lasers.
+Parabéns! Sua instalação do Liberation foi autorizada e você já pode enviar saída para lasers! Mas leia [Guia de início rápido](../getting-started.md) e [Visão geral do processo de configuração de lasers](../setting-up/setting-up-lasers.md) antes de armar seus lasers.
 
 {% hint style="info" %}
 Você pode abrir o _About panel_ a qualquer momento pelo menu _Liberation -> About Liberation_ ou _Liberation -> Authorise/Deauthorise this computer_

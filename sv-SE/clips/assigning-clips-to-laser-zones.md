@@ -28,4 +28,4 @@ Du behöver inte skapa en ny zon för att ha andra speglingsinställningar. Inst
 
 ### Tilldela zoner till flera clips samtidigt
 
-Du kan tilldela zoner och justera X/Y för alla clips i en zon. Se [groups.md](groups.md "mention") för mer information.
+Du kan tilldela zoner och justera X/Y för alla clips i en zon. Se [Clip groups](groups.md "mention") för mer information.

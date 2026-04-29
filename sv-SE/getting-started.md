@@ -20,17 +20,17 @@ Liberation är tillräckligt flexibelt för att du ska kunna konfigurera lasrar 
 Du kan konfigurera och visualisera så många lasrar du vill i Liberation. Licensnivåerna (Hobbyist, Pro osv.) begränsar bara antalet lasrar du kan _armera_. Det betyder att du kan designa lasershower med 100 lasrar även med en gratislicens. Du behöver bara uppgradera när du faktiskt ska köra showen på riktiga lasrar.
 {% endhint %}
 
-Standardinställningen har 8 lasrar placerade horisontellt, men du kan anpassa detta hur du vill. Det är troligen bäst att behålla standardinställningen medan du lär känna programmet, och senare justera den så att den matchar din hårdvarukonfiguration. (Se [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention"))
+Standardinställningen har 8 lasrar placerade horisontellt, men du kan anpassa detta hur du vill. Det är troligen bäst att behålla standardinställningen medan du lär känna programmet, och senare justera den så att den matchar din hårdvarukonfiguration. (Se [Ställa in ditt projekt](setting-up/setting-up-your-project.md "mention"))
 
 {% hint style="warning" %}
-Viktigt: Innan du armerar några lasrar måste du förstå riskerna och noggrant gå igenom kapitlet [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention").
+Viktigt: Innan du armerar några lasrar måste du förstå riskerna och noggrant gå igenom kapitlet [Översikt över hur du konfigurerar lasrar](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Översikt över programvaran
 
 ### Säkerhetsavstängning
 
-När du kör lasrar måste du alltid ha en **fysisk nödstoppsknapp** nära till hands (se [emergency-stop-interlocks.md](hardware/emergency-stop-interlocks.md "mention")). Om du vill avarmera allt utan samma brådska kan du använda knappen _**DISARM ALL**_, eller tangenten `Escape` (eller tangenten _**SESSION**_ på APC40). Du kan också minska den globala ljusstyrkan med skjutreglaget på skärmen eller huvudreglaget på APC40.
+När du kör lasrar måste du alltid ha en **fysisk nödstoppsknapp** nära till hands (se [Nödstopp / interlocks](hardware/emergency-stop-interlocks.md "mention")). Om du vill avarmera allt utan samma brådska kan du använda knappen _**DISARM ALL**_, eller tangenten `Escape` (eller tangenten _**SESSION**_ på APC40). Du kan också minska den globala ljusstyrkan med skjutreglaget på skärmen eller huvudreglaget på APC40.
 
 ### Skjutreglage och kontroller
 
@@ -42,7 +42,7 @@ I Liberation finns olika skjutreglage och kontroller.
 
 ### Kortkommandon
 
-En fullständig lista över kortkommandon finns här: [keyboard-shortcuts.md](reference/keyboard-shortcuts.md "mention")
+En fullständig lista över kortkommandon finns här: [Tangentbordsgenvägar](reference/keyboard-shortcuts.md "mention")
 
 ### Skärmlayout
 
@@ -74,7 +74,7 @@ Det stora området längst upp till vänster på skärmen kan visa en av 3 huvud
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D-vyn visar hur dina lasrar kommer att se ut och kan konfigureras så att den matchar din egen laseruppsättning. Klicka och dra för att rotera kameran, och använd mushjulet för att röra dig framåt och bakåt. Du hittar många fler alternativ i panelen _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3d-visualiser.md](setting-up/3d-visualiser.md "mention").
+3D-vyn visar hur dina lasrar kommer att se ut och kan konfigureras så att den matchar din egen laseruppsättning. Klicka och dra för att rotera kameran, och använd mushjulet för att röra dig framåt och bakåt. Du hittar många fler alternativ i panelen _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -106,11 +106,11 @@ Klicka på en zon för att markera den och justera sedan hörnpunkterna med muse
 
 Längs vänsterkanten finns en list med ett antal ikonknappar. Håll muspekaren över en knapp för att få en beskrivning av vad den gör. Knapparna här låter dig lägga till beam-zoner, canvas-zoner och masker. Det finns också alternativ för att aktivera ett testmönster endast för den här lasern samt inställningar för rutnät och snapping.
 
-Mer information finns i [output-view](output-view/ "mention").
+Mer information finns i [Output-vy](output-view/ "mention").
 
 #### Canvas
 
-Canvas-systemet används främst för grafik och arkitektonisk mapping. Du kan fördela komplexa bilder över flera lasrar och perspektivkorrigera varje sektion. Se [graphics-and-the-canvas-system](graphics-and-the-canvas-system/ "mention").
+Canvas-systemet används främst för grafik och arkitektonisk mapping. Du kan fördela komplexa bilder över flera lasrar och perspektivkorrigera varje sektion. Se [Grafik och Canvas-systemet](graphics-and-the-canvas-system/ "mention").
 
 ### APC40 MIDI controller
 
@@ -118,7 +118,7 @@ Canvas-systemet används främst för grafik och arkitektonisk mapping. Du kan f
 
 Även om det går att styra Liberation med mus och tangentbord är det mycket bättre att använda ett APC40 MIDI controller-gränssnitt (Mark 2 är bäst, men Mark 1 fungerar också).
 
-Se även: [apc40-reference.md](reference/apc40-reference.md "mention")
+Se även: [APC40-referens](reference/apc40-reference.md "mention")
 
 Vi har nu även implementerat stöd för APC Mini Mark 2 och MIDI Fighter Twister, och fler är under utveckling. Men APC40 Mark 2 är det bästa alternativet i de flesta fall.
 
@@ -146,7 +146,7 @@ Du kan rulla Clip Deck åt vänster och höger med:
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_-knapparna
 
-För att hjälpa dig orientera dig finns en minivisualisering av Clip Deck längs ovankanten. Se även [clips](clips/ "mention")
+För att hjälpa dig orientera dig finns en minivisualisering av Clip Deck längs ovankanten. Se även [Clips och Clip Deck](clips/ "mention")
 
 #### Starta och stoppa Clips
 
@@ -168,7 +168,7 @@ Två rader under zonknapparna ser du X/Y flip-knapparna. Växla dessa för att s
 Observera att dessa zontilldelningar och X/Y flip-inställningar är kopplade till själva Clip. De behålls nästa gång du kör det Clip. De är inte en global inställning.
 {% endhint %}
 
-Högerklicka på ett Clip för att redigera fler inställningar för det. Se även [clip-settings.md](clips/clip-settings.md "mention")
+Högerklicka på ett Clip för att redigera fler inställningar för det. Se även [Clip-inställningar](clips/clip-settings.md "mention")
 
 ### Grupper
 
@@ -190,7 +190,7 @@ Du kan tilldela grupp för ett Clip med knapparna i högerklicksmenyn, eller med
 
 Med APC40: tryck på gruppknappen och använd sedan, _medan den fortfarande hålls nedtryckt_, zon- och X/Y-knapparna för att växla zoninställningar för alla Clips inom den gruppen.
 
-Se även [groups.md](clips/groups.md "mention")
+Se även [Clip groups](clips/groups.md "mention")
 
 ### Effekter
 
@@ -208,7 +208,7 @@ Använd rotary controllers 1–8\* för att justera _parameter_ för varje effek
 De små siffrorna du ser på effektknapparna avser effektens _level_ och _parameter_. _Level_ styrs av fadern på APC40, eller så kan du klicka och dra på knappen. Parametern justeras med rotary controls på APC40, eller så kan du högerklicka för att justera med musen.
 {% endhint %}
 
-_\*Rotary controllers 1–8 sitter längs ovankanten på en APC40 Mk2 och uppe till höger på Mk1. Se även:_ [apc40-reference.md](reference/apc40-reference.md "mention")
+_\*Rotary controllers 1–8 sitter längs ovankanten på en APC40 Mk2 och uppe till höger på Mk1. Se även:_ [APC40-referens](reference/apc40-reference.md "mention")
 
 #### Standardeffekterna
 
@@ -303,10 +303,10 @@ Klicka på knappen _Assign Laser Controllers_ för att öppna panelen _Controlle
 
 Här kan du välja vilka laser outputs som ska gå till vilka laser controllers. Dra och släpp controllers från listan till höger till platserna till vänster. Du kan byta namn på dina controllers så att de matchar den laser de är kopplade till (använd pennikonen).
 
-Läs kapitlet [controller-assignment.md](setting-up/controller-assignment.md "mention") för mer information.
+Läs kapitlet [Tilldela kontroller](setting-up/controller-assignment.md "mention") för mer information.
 
 {% hint style="danger" %}
-Innan du armerar några lasrar måste du gå igenom kapitlet [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention").
+Innan du armerar några lasrar måste du gå igenom kapitlet [Översikt över hur du konfigurerar lasrar](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser output-panel
@@ -337,10 +337,10 @@ Om du är van vid äldre laserprogramvara som bygger på förberäknade point st
 De grundläggande scanner settings är:
 
 * **Speed** är scannerhastigheten, dvs. hur snabbt lasern rör sig för att rita former. Det motsvarar att justera point rate i traditionell laserprogramvara, men i Liberation kan du ändra hur snabbt lasern rör sig _oberoende av point rate._ Du ska normalt inte behöva justera detta.
-* **Scanner sync** (kallas ibland _blank shift_, tidigare Colour Shift) Scanners flyttar lasern mycket snabbt, men förändringar i ljusstyrka och färg är oftast inte synkade med rörelsen. Det syns som små flimrande "svansar" av ljus vid kanten av beams och linjer. Använd den här justeringen för att synka rörelse och färg med varandra. Se [laser-settings.md](setting-up/laser-settings.md "mention")
+* **Scanner sync** (kallas ibland _blank shift_, tidigare Colour Shift) Scanners flyttar lasern mycket snabbt, men förändringar i ljusstyrka och färg är oftast inte synkade med rörelsen. Det syns som små flimrande "svansar" av ljus vid kanten av beams och linjer. Använd den här justeringen för att synka rörelse och färg med varandra. Se [Panelen Laser output settings](setting-up/laser-settings.md "mention")
 
-De andra avancerade scanner-inställningarna behandlas i kapitlet [advanced](advanced/ "mention").
+De andra avancerade scanner-inställningarna behandlas i kapitlet [Avancerat](advanced/ "mention").
 
 ### Zoning
 
-En fullständig guide till att konfigurera och zona lasrar finns här: [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention")
+En fullständig guide till att konfigurera och zona lasrar finns här: [Översikt över hur du konfigurerar lasrar](setting-up/setting-up-lasers.md "mention")

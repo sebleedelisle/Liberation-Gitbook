@@ -28,4 +28,4 @@ Non è necessario creare una nuova zona per avere impostazioni di specchi divers
 
 ### Assegnare zone a più clip contemporaneamente
 
-Puoi assegnare zone e regolare X/Y per tutte le clip in una zona. Consulta [groups.md](groups.md) per maggiori informazioni.
+Puoi assegnare zone e regolare X/Y per tutte le clip in una zona. Consulta [Gruppi di Clip](groups.md) per maggiori informazioni.

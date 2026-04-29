@@ -50,7 +50,7 @@ Selv om standardinnstillingene er ganske konservative, kan du fortsatt skade sca
 {% endhint %}
 
 {% hint style="info" %}
-Denne Speed-innstillingen endrer ikke point rate. I stedet justerer den hvor spredt punktene er. Se [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention") for mer informasjon.
+Denne Speed-innstillingen endrer ikke point rate. I stedet justerer den hvor spredt punktene er. Se [◼️ Hvordan Liberation genererer laserinnhold](../../advanced/how-liberation-generates-laser-content.md "mention") for mer informasjon.
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Hvis du ser små «haler» i laser-outputen, skyldes det sannsynligvis at scanne
 
 #### Scanner presets
 
-Bruk dette til å velge en forhåndsdefinert scannerinnstilling. Standardvalget fungerer vanligvis fint, så du skal normalt ikke trenge å endre denne innstillingen med mindre du har spesielt dårlige (eller gode) scannere. Hvis du vil gå dypere, se [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Bruk dette til å velge en forhåndsdefinert scannerinnstilling. Standardvalget fungerer vanligvis fint, så du skal normalt ikke trenge å endre denne innstillingen med mindre du har spesielt dårlige (eller gode) scannere. Hvis du vil gå dypere, se [◼️ Scanner-forhåndsinnstillinger og renderprofiler](../../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Du kan bruke dette systemet til å korrigere lysstyrkekurven og hvitbalansen til laseren. Se [colour-calibration.md](../../advanced/colour-calibration.md "mention")
+Du kan bruke dette systemet til å korrigere lysstyrkekurven og hvitbalansen til laseren. Se [Fargekalibrering](../../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Du skal ikke trenge å tukle med disse, men hvis du er nysgjerrig, se [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")
+Du skal ikke trenge å tukle med disse, men hvis du er nysgjerrig, se [◼️ Avanserte laserinnstillinger](../../advanced/advanced-laser-settings.md "mention")

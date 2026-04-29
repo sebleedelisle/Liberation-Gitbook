@@ -27,7 +27,7 @@ También puedes importar y exportar archivos de presets usando el botón de carg
 Si editas un preset, por ejemplo el ajuste de escáner llamado _Default_, ten en cuenta que los demás láseres no se actualizarán automáticamente. En su lugar, los ajustes de escáner de cada uno aparecerán ahora etiquetados como _Default(edited)_. Para actualizarlos al nuevo preset _Default_, selecciónalo de nuevo en la lista desplegable.
 
 {% hint style="info" %}
-Si tienes muchos láseres y quieres actualizar todos sus ajustes de escáner, usa el sistema _COPY LASER SETTINGS_. Consulta [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention")
+Si tienes muchos láseres y quieres actualizar todos sus ajustes de escáner, usa el sistema _COPY LASER SETTINGS_. Consulta [Copiar ajustes entre láseres](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Si eliminas un preset que se usa en otro lugar, no perderás el ajuste; en su lugar, lo verás etiquetado como _(deleted)._

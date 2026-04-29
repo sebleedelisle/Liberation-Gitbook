@@ -32,7 +32,7 @@ Denne node anvender farveændringer på dit indhold baseret på position. Som st
 
 **Farvetilstande**
 
-Disse bestemmer, hvilke dele af farvejusteringerne der anvendes på indholdet. Se også: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+Disse bestemmer, hvilke dele af farvejusteringerne der anvendes på indholdet. Se også: [Farveindstillinger og HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – hue ændres ikke.

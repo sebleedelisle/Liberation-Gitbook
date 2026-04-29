@@ -27,7 +27,7 @@ preset 드롭다운 목록 옆의 load/save 버튼(플로피 디스크 아이콘
 예를 들어 _Default_ 라는 Scanner 설정 preset을 편집해도, 다른 레이저가 자동으로 업데이트되지는 않습니다. 대신 각 레이저의 Scanner 설정 라벨이 _Default(edited)_ 로 표시됩니다. 이를 새 _Default_ preset으로 업데이트하려면 드롭다운 목록에서 다시 선택하세요.
 
 {% hint style="info" %}
-레이저가 많고 모든 Scanner 설정을 업데이트하려면 _COPY LASER SETTINGS_ 시스템을 사용하세요. [copy-laser-settings.md](../setting-up/copy-laser-settings.md)를 참고하세요.
+레이저가 많고 모든 Scanner 설정을 업데이트하려면 _COPY LASER SETTINGS_ 시스템을 사용하세요. [레이저 간 설정 복사](../setting-up/copy-laser-settings.md)를 참고하세요.
 {% endhint %}
 
 다른 곳에서 사용 중인 preset을 삭제해도 해당 설정이 사라지지는 않습니다. 대신 _(deleted)._ 로 표시됩니다.

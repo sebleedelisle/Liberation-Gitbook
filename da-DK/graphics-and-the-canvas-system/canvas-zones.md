@@ -23,7 +23,7 @@ Højreklik på zonen, og slå talknapperne til eller fra for at vælge, hvilke(n
 ADVARSEL - hvis laseren er armed, kan du pludselig begynde at projicere indhold i en standard canvas-zone. Det er bedst at disarm laseren, før du tildeler canvas-zoner til den.
 {% endhint %}
 
-Hvis du nu går til _OUTPUT_-visningen for den laser, kan du se canvas-zonen dér, og den kan nu redigeres på præcis samme måde som enhver beam-zone. Se [zones.md](../output-view/zones.md "mention").
+Hvis du nu går til _OUTPUT_-visningen for den laser, kan du se canvas-zonen dér, og den kan nu redigeres på præcis samme måde som enhver beam-zone. Se [Zoner](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Du kan også tilføje en canvas-zone til en laser direkte fra _OUTPUT_-visningen - klik på knappen _Add existing canvas zone_ i værktøjslinjen til venstre.

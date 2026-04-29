@@ -35,7 +35,7 @@
 
 ### 复制激光设置
 
-参见 [#copy-laser-settings](./#copy-laser-settings "mention")。
+参见 [激光输出设置面板](./#copy-laser-settings "mention")。
 
 ### 扫描器设置
 
@@ -50,7 +50,7 @@
 {% endhint %}
 
 {% hint style="info" %}
-此速度设置不会改变点率，而是调整点的分布范围。更多信息见 [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")。
+此速度设置不会改变点率，而是调整点的分布范围。更多信息见 [◼️ Liberation 如何生成激光内容](../../advanced/how-liberation-generates-laser-content.md "mention")。
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@
 
 #### Scanner presets
 
-用于选择预设的扫描器设置。默认选项通常足够，除非你的扫描器特别差（或特别好），否则无需更改。想深入了解请见 [scanner-presets.md](../../advanced/scanner-presets.md "mention")。
+用于选择预设的扫描器设置。默认选项通常足够，除非你的扫描器特别差（或特别好），否则无需更改。想深入了解请见 [◼️ 扫描器预设与 Render profiles](../../advanced/scanner-presets.md "mention")。
 
 #### Colour calibration
 
-可用此系统校正激光的亮度曲线与白平衡。参见 [colour-calibration.md](../../advanced/colour-calibration.md "mention")。
+可用此系统校正激光的亮度曲线与白平衡。参见 [颜色校准](../../advanced/colour-calibration.md "mention")。
 
 #### Advanced settings
 
-通常不需要调整，但如果你想了解更多，请见 [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")。
+通常不需要调整，但如果你想了解更多，请见 [◼️ 高级激光设置](../../advanced/advanced-laser-settings.md "mention")。

@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zónák
 
-A legtöbb projektben a leggyakrabban használt zónatípus a _Beam zone_. Ez a zóna a levegőben látható atmoszferikus beam effektekhez készült. A másik zónatípus a _Canvas zone_ (lásd: [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/)).
+A legtöbb projektben a leggyakrabban használt zónatípus a _Beam zone_. Ez a zóna a levegőben látható atmoszferikus beam effektekhez készült. A másik zónatípus a _Canvas zone_ (lásd: [Grafika és a Canvas rendszer](../graphics-and-the-canvas-system/)).
 
 {% hint style="danger" %}
-**FIGYELMEZTETÉS – Különösen óvatosan mozgass zónákat, miközben a lézer működik**, és vedd le a fényerőt a lehető legalacsonyabbra. A lézerek biztonságos aktiválásáról és zónázásáról részletes útmutatót itt találsz: [setting-up-lasers.md](../setting-up/setting-up-lasers.md)
+**FIGYELMEZTETÉS – Különösen óvatosan mozgass zónákat, miközben a lézer működik**, és vedd le a fényerőt a lehető legalacsonyabbra. A lézerek biztonságos aktiválásáról és zónázásáról részletes útmutatót itt találsz: [A lézerbeállítási folyamat áttekintése](../setting-up/setting-up-lasers.md)
 {% endhint %}
 
 A zónákat egérrel kattintva és húzva mozgathatod. Kapcsolj be egy tesztmintát, hogy lásd, hová kerül a zóna.
@@ -19,16 +19,16 @@ A nyílbillentyűkkel finoman **elmozdíthatod** az aktuálisan kijelölt zóná
 {% endhint %}
 
 {% hint style="info" %}
-Gyors tipp: a zónabeállításokat gyorsan átmásolhatod több lézerre is! Lásd: [copy-laser-settings.md](../setting-up/copy-laser-settings.md)
+Gyors tipp: a zónabeállításokat gyorsan átmásolhatod több lézerre is! Lásd: [Beállítások másolása lézerek között](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 ### Új beam zóna hozzáadása
 
-Kattints az eszköztár tetején található _Add a new beam zone_ gombra, és megjelenik egy új zóna. Vedd figyelembe, hogy a beam zónák a hozzáadásuk sorrendjében vannak rendezve, de átrendezhetők. Lásd: [re-ordering-beam-zones.md](re-ordering-beam-zones.md)
+Kattints az eszköztár tetején található _Add a new beam zone_ gombra, és megjelenik egy új zóna. Vedd figyelembe, hogy a beam zónák a hozzáadásuk sorrendjében vannak rendezve, de átrendezhetők. Lásd: [Nyalábzónák átrendezése](re-ordering-beam-zones.md)
 
 ### Meglévő canvas zóna hozzáadása
 
-Kattints az _Add existing canvas zone_ gombra. Megjelenik az elérhető canvas zónák listája, ahol be- és kikapcsolhatod őket az adott lézerhez. Lásd: [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/)
+Kattints az _Add existing canvas zone_ gombra. Megjelenik az elérhető canvas zónák listája, ahol be- és kikapcsolhatod őket az adott lézerhez. Lásd: [Grafika és a Canvas rendszer](../graphics-and-the-canvas-system/)
 
 ### Zónaforma-típusok
 
@@ -47,7 +47,7 @@ Kattints jobb gombbal bármelyik zónára a beállításai megnyitásához. Ebbe
 * Visszaállíthatod az alapértelmezett pozícióra
 * Elérheted az adott alakzattípushoz tartozó beállításokat
 * Törölheted
-* Hozzáadhatsz egy _Alt Zone_-t (lásd: [alt-zone-system.md](alt-zone-system.md))
+* Hozzáadhatsz egy _Alt Zone_-t (lásd: [Alt zónarendszer](alt-zone-system.md))
 
 {% hint style="danger" %}
 **FIGYELMEZTETÉS –** légy nagyon óvatos, ha aktív lézer mellett módosítod a zóna típusát. A zóna az adott alakzathoz utoljára használt pozícióra/méretre áll vissza, így a kimenet hirtelen megváltozhat. A zónatípus módosítása előtt érdemes kikapcsolni a lézert.

@@ -27,4 +27,4 @@ Kurz gesagt: Mark 2 wird empfohlen, da er vollfarbige Tasten hat, die besser zur
 Der ursprüngliche APC40 Mark 1 erschien 2009(!), und manche bevorzugen ihn immer noch wegen seines Metallgehäuses und seiner robusten, konsolenartigen Bauform. Der aktualisierte Mark 2 erschien 2014. Obwohl er 2024 eingestellt wurde, geht er 2025 aufgrund der Nachfrage von Visuals-Künstlern (Resolume usw.) und Laserists wieder in Produktion.
 {% endhint %}
 
-Die vollständige Liste der auf dem APC40 verfügbaren Bedienelemente findest du unter [apc40-reference.md](../reference/apc40-reference.md "mention")
+Die vollständige Liste der auf dem APC40 verfügbaren Bedienelemente findest du unter [APC40-Referenz](../reference/apc40-reference.md "mention")

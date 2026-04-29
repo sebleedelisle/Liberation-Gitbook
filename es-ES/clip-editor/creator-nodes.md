@@ -10,48 +10,48 @@ metaLinks:
 
 Crea un único punto / haz.
 
-* **Render profile** - consulta [render-profile.md](fundamentals/render-profile.md "mention")
-* **Colour** - el color del punto. Consulta [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** y **y** position - consulta [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Render profile** - consulta [Render profile](fundamentals/render-profile.md "mention")
+* **Colour** - el color del punto. Consulta [Ajustes de color y HSB](fundamentals/colour-settings-and-hsb.md "mention")
+* **x** y **y** position - consulta [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
 
 Crea una línea / lámina.
 
-* **Render profile** - consulta [render-profile.md](fundamentals/render-profile.md "mention")
+* **Render profile** - consulta [Render profile](fundamentals/render-profile.md "mention")
 * **Size** - la longitud de la línea
-* **Colour** - el color de la línea. Consulta [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** y **y** position - consulta [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
+* **Colour** - el color de la línea. Consulta [Ajustes de color y HSB](fundamentals/colour-settings-and-hsb.md "mention")
+* **x** y **y** position - consulta [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - el ángulo de la línea, en grados
-* **resolution** - consulta [resolution.md](fundamentals/resolution.md "mention")
+* **resolution** - consulta [Resolución](fundamentals/resolution.md "mention")
 * **alignment** - _LEFT / CENTRE / RIGHT -_ determina el punto inicial y el centro de rotación de la línea
-* _MOVE TO FRONT / MOVE TO BACK_ - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorCircle.png" alt="" data-size="line"> Circle Creator
 
 Crea un círculo / cono.
 
-* **Render profile** - consulta [render-profile.md](fundamentals/render-profile.md "mention")
+* **Render profile** - consulta [Render profile](fundamentals/render-profile.md "mention")
 * **radius** - el radio del círculo
-* **Colour** - el color del círculo. Consulta [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** y **y** position - consulta [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
-* **resolution** - consulta [resolution.md](fundamentals/resolution.md "mention")
-* **Fill state** - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Colour** - el color del círculo. Consulta [Ajustes de color y HSB](fundamentals/colour-settings-and-hsb.md "mention")
+* **x** y **y** position - consulta [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
+* **resolution** - consulta [Resolución](fundamentals/resolution.md "mention")
+* **Fill state** - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorPoly.png" alt="" data-size="line"> Polygon Creator
 
 Crea un polígono equilátero: triángulo, cuadrado, pentágono, etc.
 
-* **Render profile** - consulta [render-profile.md](fundamentals/render-profile.md "mention")
+* **Render profile** - consulta [Render profile](fundamentals/render-profile.md "mention")
 * **size** - la distancia desde el centro hasta cada una de las esquinas
-* **Colour** - el color del polígono. Consulta [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** y **y** position - consulta [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
+* **Colour** - el color del polígono. Consulta [Ajustes de color y HSB](fundamentals/colour-settings-and-hsb.md "mention")
+* **x** y **y** position - consulta [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - el ángulo de rotación de la forma, en grados
-* **resolution** - consulta [resolution.md](fundamentals/resolution.md "mention")
-* **Fill state** - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **resolution** - consulta [Resolución](fundamentals/resolution.md "mention")
+* **Fill state** - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorShape.png" alt="" data-size="line"> Shape Creator
 
@@ -67,15 +67,15 @@ Liberation es compatible con el formato _SVGTiny_. Se recomienda InkScape, aunqu
 Una vez cargado un SVG, el contenido se convierte y se guarda dentro del clip, así que no necesitas conservar una referencia al archivo, salvo que más adelante quieras cambiar los ajustes de máscara.
 {% endhint %}
 
-* **Use fills as masks** - procesa cualquier forma rellena como una máscara, es decir, rellenada en negro. Se activará automáticamente si tu SVG tiene alguna forma rellena. Si no tiene formas rellenas, se desactivará. Consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** - procesa cualquier forma rellena como una máscara, es decir, rellenada en negro. Se activará automáticamente si tu SVG tiene alguna forma rellena. Si no tiene formas rellenas, se desactivará. Consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - si las formas de tu SVG no tienen contorno, no podremos dibujarlas. Esta opción añade un contorno (o _stroke_) a cualquier forma rellena. Si tu SVG no tiene ninguna forma con trazo, se activa automáticamente. Si no tiene ninguna forma rellena, se desactiva.
 * **Invert black lines** - si todas las líneas de tu SVG son negras, no podrás verlas. Esta opción las vuelve blancas. Se activa automáticamente si tu SVG solo tiene formas negras, pero se desactiva si no tiene ninguna.
-* **Render profile** - consulta [render-profile.md](fundamentals/render-profile.md "mention")
+* **Render profile** - consulta [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - ajusta el tamaño del SVG. Se calcula automáticamente al cargar el SVG (para asegurarse de que la imagen sea visible), pero después puedes editarlo manualmente.
-* **x** y **y** position - consulta [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
+* **x** y **y** position - consulta [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - el ángulo de rotación de la imagen, en grados
-* **resolution** - consulta [resolution.md](fundamentals/resolution.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **resolution** - consulta [Resolución](fundamentals/resolution.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorAnim.png" alt="" data-size="line"> Anim Creator
 
@@ -87,14 +87,14 @@ Crea una animación a partir de una secuencia de archivos SVG.
 Una vez cargada la secuencia SVG, el contenido se convierte y se guarda dentro del clip, así que no necesitas conservar una referencia a los archivos, salvo que más adelante quieras cambiar los ajustes de máscara.
 {% endhint %}
 
-* **Use fills as masks** - procesa cualquier forma rellena como una máscara, es decir, rellenada en negro. Se activará automáticamente si alguno de tus SVG tiene formas rellenas. Si ninguno tiene formas rellenas, se desactivará. Consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** - procesa cualquier forma rellena como una máscara, es decir, rellenada en negro. Se activará automáticamente si alguno de tus SVG tiene formas rellenas. Si ninguno tiene formas rellenas, se desactivará. Consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - si las formas de tus SVG no tienen contornos, no podremos dibujarlas. Esta opción añade un contorno (o _stroke_) a cualquier forma rellena. Si tus SVG no tienen ninguna forma con trazo, se activa automáticamente. Si ninguno tiene formas rellenas, se desactiva.
 * **Invert black lines** - si todas las líneas de tus SVG son negras, no podrás verlas. Esta opción las vuelve blancas. Se activa automáticamente si tus SVG solo tienen formas negras, pero se desactiva si no tienen ninguna.
-* **Render profile** - consulta [render-profile.md](fundamentals/render-profile.md "mention")
+* **Render profile** - consulta [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - ajusta el tamaño de la imagen.
-* **x** y **y** position - consulta [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
+* **x** y **y** position - consulta [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - el ángulo de rotación de la imagen, en grados
-* **resolution** - consulta [resolution.md](fundamentals/resolution.md "mention")
+* **resolution** - consulta [Resolución](fundamentals/resolution.md "mention")
 * **speed** - la duración de la animación completa, en compases.
 * **time per frame** - si está activado, la duración se aplica a cada fotograma en lugar de a la duración completa de la animación. Por tanto, si _speed_ está configurado en ¼, cada fotograma durará 1 beat.
 * **animation direction** -
@@ -103,7 +103,7 @@ Una vez cargada la secuencia SVG, el contenido se convierte y se guarda dentro d
   * _PINGPONG_ - la animación avanza y después retrocede en bucle
   * _MANUAL_ - el fotograma actual se define con el ajuste _position manual_
 * **position manual** - define el fotograma actual: 0% es el primer fotograma y 100% es el último. Puedes ajustarlo manualmente o con un oscilador externo.
-* _MOVE TO FRONT / MOVE TO BACK_ - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorText.png" alt="" data-size="line"> Text Creator
 
@@ -116,16 +116,16 @@ Crea texto usando una fuente TrueType u OpenType.
 Para añadir más fuentes a Liberation, copia los archivos .ttf u .otf en la carpeta data/resources/fonts.
 {% endhint %}
 
-* **Render profile** - consulta [render-profile.md](fundamentals/render-profile.md "mention")
+* **Render profile** - consulta [Render profile](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - elige _LEFT_, _CENTRE_ o _RIGHT_ para seleccionar la alineación del texto.
-* **Fill state** - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Fill state** - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - el tamaño del texto
-* **colour -** consulta [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** y **y** position - consulta [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
+* **colour -** consulta [Ajustes de color y HSB](fundamentals/colour-settings-and-hsb.md "mention")
+* **x** y **y** position - consulta [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - el ángulo de rotación de la imagen, en grados
-* **resolution** - consulta [resolution.md](fundamentals/resolution.md "mention")
+* **resolution** - consulta [Resolución](fundamentals/resolution.md "mention")
 * **reveal** - úsalo para revelar gradualmente el texto, carácter a carácter. Cuando esté entre 0 y 50%, el texto aparecerá gradualmente de izquierda a derecha. Cuando esté entre 50% y 100%, el texto desaparecerá de izquierda a derecha. Puedes conectar un oscilador a este socket para crear animaciones.
 * **reveal by word** - si está activado, _reveal_ funcionará palabra a palabra en lugar de carácter a carácter.
 * **countdown** - un sistema de cuenta atrás (¡implementado con prisas!). Cambiará cada 2 beats, así que si quieres segundos, asegúrate de estar a 120 bpm.
 * **countdown start** - el número desde el que quieres que empiece la cuenta atrás
-* _MOVE TO FRONT / MOVE TO BACK_ - consulta [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")

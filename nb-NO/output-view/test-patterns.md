@@ -19,7 +19,7 @@ Her er en fullstendig liste over testmønstrene. Mønstrene fyller hele utgangso
 3. Horisontale grønne linjer – 4 horisontale linjer med jevn avstand.
 4. Vertikale grønne linjer – 4 vertikale linjer med jevn avstand.
 
-Fargekalibreringsmønstre 5–8. Disse kan brukes sammen med fargekorrigeringssystemet i laserinnstillingene. Se [colour-calibration.md](../advanced/colour-calibration.md "mention"). Disse mønstrene fyller ikke hele utgangsområdet.
+Fargekalibreringsmønstre 5–8. Disse kan brukes sammen med fargekorrigeringssystemet i laserinnstillingene. Se [Fargekalibrering](../advanced/colour-calibration.md "mention"). Disse mønstrene fyller ikke hele utgangsområdet.
 
 5. Fargekalibreringsmønster – rødt.
 6. Fargekalibreringsmønster – grønt.

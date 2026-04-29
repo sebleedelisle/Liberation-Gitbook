@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Vyöhykkeet
 
-Useimmissa projekteissa käytät pääasiassa _Beam zone_ -vyöhykkeitä. Tämä vyöhyke on tarkoitettu ilmassa näkyville säde-efekteille. Toinen vyöhyketyyppi on _Canvas zone_ (katso [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/)).
+Useimmissa projekteissa käytät pääasiassa _Beam zone_ -vyöhykkeitä. Tämä vyöhyke on tarkoitettu ilmassa näkyville säde-efekteille. Toinen vyöhyketyyppi on _Canvas zone_ (katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/)).
 
 {% hint style="danger" %}
-**VAROITUS - Ole erittäin varovainen, kun siirrät vyöhykkeitä laserin ollessa käynnissä**, ja laske kirkkaus mahdollisimman alas. Katso kattava opas laserien turvalliseen aktivointiin ja vyöhykkeiden määrittämiseen kohdasta [setting-up-lasers.md](../setting-up/setting-up-lasers.md)
+**VAROITUS - Ole erittäin varovainen, kun siirrät vyöhykkeitä laserin ollessa käynnissä**, ja laske kirkkaus mahdollisimman alas. Katso kattava opas laserien turvalliseen aktivointiin ja vyöhykkeiden määrittämiseen kohdasta [Lasereiden käyttöönoton prosessin yleiskatsaus](../setting-up/setting-up-lasers.md)
 {% endhint %}
 
 Voit siirtää vyöhykkeitä napsauttamalla ja vetämällä niitä hiirellä. Ota testikuvio käyttöön, jotta näet, mihin vyöhyke osuu.
@@ -19,16 +19,16 @@ Käytä nuolinäppäimiä valittuna olevan vyöhykkeen/pisteen hienosäätöön.
 {% endhint %}
 
 {% hint style="info" %}
-Vinkki: voit kopioida vyöhykeasetuksia nopeasti useille lasereille! Katso [copy-laser-settings.md](../setting-up/copy-laser-settings.md)
+Vinkki: voit kopioida vyöhykeasetuksia nopeasti useille lasereille! Katso [Kopioi asetukset lasereiden välillä](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 ### Uuden beam zone -vyöhykkeen lisääminen
 
-Napsauta työkalupalkin yläosassa olevaa _Add a new beam zone_ -painiketta, jolloin uusi vyöhyke tulee näkyviin. Huomaa, että beam zone -vyöhykkeet lajitellaan lisäysjärjestyksen mukaan, mutta voit muuttaa niiden järjestystä. Katso [re-ordering-beam-zones.md](re-ordering-beam-zones.md)
+Napsauta työkalupalkin yläosassa olevaa _Add a new beam zone_ -painiketta, jolloin uusi vyöhyke tulee näkyviin. Huomaa, että beam zone -vyöhykkeet lajitellaan lisäysjärjestyksen mukaan, mutta voit muuttaa niiden järjestystä. Katso [Sädealueiden järjestyksen muuttaminen](re-ordering-beam-zones.md)
 
 ### Olemassa olevan canvas zone -vyöhykkeen lisääminen
 
-Napsauta _Add existing canvas zone_ -painiketta. Näet luettelon käytettävissä olevista canvas zone -vyöhykkeistä, ja voit ottaa niitä käyttöön tai poistaa käytöstä tälle laserille. Katso [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/)
+Napsauta _Add existing canvas zone_ -painiketta. Näet luettelon käytettävissä olevista canvas zone -vyöhykkeistä, ja voit ottaa niitä käyttöön tai poistaa käytöstä tälle laserille. Katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/)
 
 ### Vyöhykkeen muototyypit
 
@@ -47,7 +47,7 @@ Avaa vyöhykkeen asetukset napsauttamalla mitä tahansa vyöhykettä hiiren oike
 * Palauttaa sen oletussijaintiin
 * Käyttää muototyyppikohtaisia asetuksia
 * Poistaa sen
-* Lisätä _Alt Zone_ -vyöhykkeen (katso [alt-zone-system.md](alt-zone-system.md))
+* Lisätä _Alt Zone_ -vyöhykkeen (katso [Alt-vyöhykejärjestelmä](alt-zone-system.md))
 
 {% hint style="danger" %}
 **VAROITUS -** ole erittäin varovainen, kun vaihdat vyöhyketyyppiä laserin ollessa aktiivinen. Vyöhyke palaa kyseisen muodon viimeiseen sijaintiin/kokoon, joten ulostulo voi muuttua äkillisesti. Laser kannattaa sammuttaa ennen vyöhyketyypin vaihtamista.

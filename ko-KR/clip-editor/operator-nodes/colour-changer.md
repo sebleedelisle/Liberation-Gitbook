@@ -11,7 +11,7 @@ metaLinks:
 
 설명
 
-* **hue, saturation, brightness** - 색상 값입니다. [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md)를 참고하세요.
+* **hue, saturation, brightness** - 색상 값입니다. [색상 설정 및 HSB](../fundamentals/colour-settings-and-hsb.md)를 참고하세요.
 * **hue mode** -
   * OFF - hue가 변경되지 않습니다.
   * FIXED - 요소의 hue가 hue 값으로 설정됩니다.

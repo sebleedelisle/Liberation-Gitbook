@@ -32,7 +32,7 @@ Este node aplica mudanças de cor ao seu conteúdo com base na posição. Por pa
 
 **Modos de cor**
 
-Eles determinam quais aspectos dos ajustes de cor são aplicados ao conteúdo. Veja também: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md).
+Eles determinam quais aspectos dos ajustes de cor são aplicados ao conteúdo. Veja também: [Configurações de cor e HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – o hue não é alterado.

@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Tips voor het laden van Graphics / SVG-bestanden
 
-Zie de Shape Creator Node voor informatie over het importeren van vectorvormen, logo’s enz. [creator-nodes.md](clip-editor/creator-nodes.md "mention")
+Zie de Shape Creator Node voor informatie over het importeren van vectorvormen, logo’s enz. [Creator-nodes](clip-editor/creator-nodes.md "mention")

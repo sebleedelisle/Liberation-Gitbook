@@ -27,4 +27,4 @@ Kort gezegd wordt de Mark 2 aanbevolen, omdat deze full-colour knoppen heeft die
 De originele APC40 Mark 1 kwam uit in 2009(!) en sommige mensen geven er nog steeds de voorkeur aan vanwege de metalen behuizing en de robuuste console-achtige vormfactor. De bijgewerkte Mark 2 kwam uit in 2014, en hoewel deze in 2024 uit productie werd genomen, gaat hij in 2025 weer in productie vanwege de vraag van visual artists (Resolume enz.) en laserists.
 {% endhint %}
 
-Bekijk voor de volledige lijst met beschikbare bedieningselementen op de APC40 [apc40-reference.md](../reference/apc40-reference.md "mention")
+Bekijk voor de volledige lijst met beschikbare bedieningselementen op de APC40 [APC40-referentie](../reference/apc40-reference.md "mention")

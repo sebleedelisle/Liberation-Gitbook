@@ -31,7 +31,7 @@ Jos olet jo valtuuttanut tilauksellasi enimmäismäärän tietokoneita, sinun on
 Jos sinulla on useita tilauksia, sinua pyydetään valitsemaan tilaus, johon haluat liittää tietokoneen.
 {% endhint %}
 
-Onnittelut! Liberation-asennuksesi on nyt valtuutettu, ja voit lähettää ulostuloa lasereille. Lue kuitenkin [getting-started.md](../getting-started.md) ja [setting-up-lasers.md](../setting-up/setting-up-lasers.md) ennen kuin kytket laserit käyttövalmiiksi.
+Onnittelut! Liberation-asennuksesi on nyt valtuutettu, ja voit lähettää ulostuloa lasereille. Lue kuitenkin [Pika-aloitusopas](../getting-started.md) ja [Lasereiden käyttöönoton prosessin yleiskatsaus](../setting-up/setting-up-lasers.md) ennen kuin kytket laserit käyttövalmiiksi.
 
 {% hint style="info" %}
 Voit avata _About panel_ -paneelin milloin tahansa valikosta _Liberation -> About Liberation_ tai _Liberation -> Authorise/Deauthorise this computer_

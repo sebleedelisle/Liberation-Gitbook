@@ -8,7 +8,7 @@ metaLinks:
 
 O sistema de efeitos do Liberation é uma forma divertida e versátil de alterar a saída do Clip em tempo real. Os efeitos são totalmente flexíveis e podem ser usados para fazer tudo piscar, girar, mudar de cor ou até se mover aleatoriamente!
 
-Tudo o que você pode fazer no editor de Clips pode ser usado como efeito. Na verdade, os efeitos são editados com exatamente o mesmo editor de nós usado para Clips! Consulte [#editing-effects](effects.md#editing-effects). As possibilidades criativas são praticamente infinitas.
+Tudo o que você pode fazer no editor de Clips pode ser usado como efeito. Na verdade, os efeitos são editados com exatamente o mesmo editor de nós usado para Clips! Consulte [Effects](effects.md#editing-effects). As possibilidades criativas são praticamente infinitas.
 
 Os botões de efeitos padrão 1-8 ficam abaixo dos botões de zona, e os efeitos 9-24 são os botões pequenos na parte inferior.
 
@@ -32,12 +32,12 @@ Eu diria que é uma das ferramentas mais divertidas e criativas integradas ao Li
 
 #### Parâmetros de efeito
 
-Adicione um parâmetro ao seu efeito com um nó _Parameter_. O sistema Parameter é uma forma de ajustar, de fora, várias configurações dentro do seu efeito. Consulte [parameter-control.md](clip-editor/oscillators/parameter-control.md) para mais informações.
+Adicione um parâmetro ao seu efeito com um nó _Parameter_. O sistema Parameter é uma forma de ajustar, de fora, várias configurações dentro do seu efeito. Consulte [Parameter Control](clip-editor/oscillators/parameter-control.md) para mais informações.
 
 Use os controles rotativos 1-8 para ajustar o _parameter_ de cada efeito. Ou clique com o botão direito no botão do efeito e ajuste o(s) slider(s) de parâmetro. A alteração do parâmetro faz coisas diferentes, dependendo de como o efeito foi configurado. Veja a lista abaixo com os efeitos padrão e o que os parâmetros deles fazem.
 
 {% hint style="info" %}
-Os controles rotativos 1-8 ficam na parte superior de um APC40 Mk2 e no canto superior direito no Mk1. Veja também: [apc40-reference.md](reference/apc40-reference.md)
+Os controles rotativos 1-8 ficam na parte superior de um APC40 Mk2 e no canto superior direito no Mk1. Veja também: [Referência do APC40](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Essa funcionalidade fica desativada se a configuração _MX Group_ estiver em 0.
 
 Clique com o botão direito em qualquer efeito e clique no botão _EDIT EFFECT_ para abrir o editor de efeitos. Observe que esse editor é idêntico ao editor de Clips!
 
-Edite seu efeito da mesma forma que você editaria qualquer Clip. Consulte [clip-editor](clip-editor/).
+Edite seu efeito da mesma forma que você editaria qualquer Clip. Consulte [O Clip Editor](clip-editor/).
 
 Você precisa ter pelo menos um nó criador; pode ser qualquer coisa (linha, círculo, forma, até texto!), mas provavelmente é melhor escolher algo que faça mais sentido na pré-visualização do botão de efeito.
 

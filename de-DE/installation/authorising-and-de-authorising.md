@@ -31,7 +31,7 @@ Wenn du bereits die maximale Anzahl an Computern für dein Abonnement autorisier
 Wenn du mehrere Abonnements hast, wirst du aufgefordert, das Abonnement auszuwählen, dem du den Computer zuweisen möchtest.
 {% endhint %}
 
-Glückwunsch! Deine Liberation-Installation ist jetzt autorisiert und du kannst Laser ausgeben! Bitte lies aber zuerst [getting-started.md](../getting-started.md "mention") und [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention"), bevor du deine Laser aktivierst.
+Glückwunsch! Deine Liberation-Installation ist jetzt autorisiert und du kannst Laser ausgeben! Bitte lies aber zuerst [Schnellstartanleitung](../getting-started.md "mention") und [Überblick über den Laser-Einrichtungsprozess](../setting-up/setting-up-lasers.md "mention"), bevor du deine Laser aktivierst.
 
 {% hint style="info" %}
 Du kannst das _About panel_ jederzeit über das Menü _Liberation -> About Liberation_ oder _Liberation -> Authorise/Deauthorise this computer_ öffnen.

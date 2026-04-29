@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX-node
 
-De DMX-node is een speciale node waarmee je DMX-fixtures nauwkeuriger kunt aansturen. Zie [dmx-control](../dmx-control/ "mention") voor meer informatie.
+De DMX-node is een speciale node waarmee je DMX-fixtures nauwkeuriger kunt aansturen. Zie [DMX / Artnet](../dmx-control/ "mention") voor meer informatie.

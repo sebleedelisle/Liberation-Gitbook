@@ -24,7 +24,7 @@ Um einen neuen Clip zu starten, ohne andere Clips zu stoppen, kannst du entweder
 * die `Shift`-Taste (oder die APC40 Shift-Taste) gedrückt halten, während du den neuen Clip startest; oder
 * den/die aktuell laufenden Clip(s) erneut drücken, während du den neuen Clip startest.
 
-Die Clip-Gruppen sind voneinander unabhängig. Wenn du also einen Clip in einer Gruppe startest, wirkt sich das nicht auf Clips in den anderen Gruppen aus. Siehe [groups.md](groups.md "mention")
+Die Clip-Gruppen sind voneinander unabhängig. Wenn du also einen Clip in einer Gruppe startest, wirkt sich das nicht auf Clips in den anderen Gruppen aus. Siehe [Clip-Gruppen](groups.md "mention")
 
 ### Flash mode
 

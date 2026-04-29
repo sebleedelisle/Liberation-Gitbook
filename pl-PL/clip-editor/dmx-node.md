@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 Węzeł DMX
 
-Węzeł DMX to specjalny węzeł, który zapewnia dokładniejszą kontrolę nad urządzeniami DMX. Więcej informacji znajdziesz w sekcji [dmx-control](../dmx-control/).
+Węzeł DMX to specjalny węzeł, który zapewnia dokładniejszą kontrolę nad urządzeniami DMX. Więcej informacji znajdziesz w sekcji [DMX / Artnet](../dmx-control/).

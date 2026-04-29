@@ -27,9 +27,9 @@ Dieses Handbuch hilft dir, dich mit Liberation vertraut zu machen – von Instal
 
 ## So verwendest du dieses Handbuch
 
-* Beginne mit [**Important! Read this first**](important.md), um wichtige Sicherheits- und Lizenzhinweise zu prüfen, bevor du Hardware anschließt.
-* Folge dem [**Quick start guide**](getting-started.md), wenn du schnell Output zum Laufen bringen möchtest, und gehe dann zu [**Hardware**](hardware/) und [**Setting up**](setting-up/) für eine ausführlichere Konfiguration.
-* Nutze die Abschnittsüberschriften, um direkt zu Themen zu springen, z. B. [**Clips & Clip deck**](clips/), [**Output view**](output-view/), **usw.**, und kehre zu [**Reference**](reference/) oder [**Troubleshooting**](troubleshooting/) zurück, wenn du genaue Antworten brauchst.
+* Beginne mit [**Wichtig! Lies dies zuerst**](important.md), um wichtige Sicherheits- und Lizenzhinweise zu prüfen, bevor du Hardware anschließt.
+* Folge der [**Schnellstartanleitung**](getting-started.md), wenn du schnell Output zum Laufen bringen möchtest, und gehe dann zu [**Hardware**](hardware/) und zur [**Einrichtung**](setting-up/) für eine ausführlichere Konfiguration.
+* Nutze die Abschnittsüberschriften, um direkt zu Themen zu springen, z. B. [**Clips & Clip deck**](clips/), [**Output-Ansicht**](output-view/), **usw.**, und kehre zu [**Referenz**](reference/) oder [**Fehlerbehebung**](troubleshooting/) zurück, wenn du genaue Antworten brauchst.
 
 ## Konventionen und Tipps
 
@@ -37,4 +37,4 @@ Dieses Handbuch hilft dir, dich mit Liberation vertraut zu machen – von Instal
 * Links beziehen sich auf die aktuelle Version; Screenshots und Menüs können leicht abweichen, wenn du eine ältere Build verwendest.
 * Hardware-Schritte weisen auf sicherheitsorientierte Standardeinstellungen hin – umgehe niemals Interlocks und halte Strahlen von Personen fern.
 
-Wenn du nicht weiterkommst, sieh zuerst in der [**FAQ**](faq.md) nach und anschließend im Abschnitt [**Troubleshooting**](troubleshooting/) nach gezielten Lösungen, bevor du den Support kontaktierst.
+Wenn du nicht weiterkommst, sieh zuerst in der [**FAQ**](faq.md) nach und anschließend im Abschnitt [**Fehlerbehebung**](troubleshooting/) nach gezielten Lösungen, bevor du den Support kontaktierst.

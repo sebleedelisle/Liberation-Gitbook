@@ -27,4 +27,4 @@ Kort sagt anbefales Mark 2, fordi den har knapper med full farge som samsvarer b
 Den opprinnelige APC40 Mark 1 kom ut i 2009(!), og noen foretrekker den fortsatt på grunn av metallkabinettet og den robuste, konsoll-lignende formen. Den oppdaterte Mark 2 kom ut i 2014, og selv om den ble tatt ut av produksjon i 2024, settes den i produksjon igjen i 2025 på grunn av etterspørsel fra visual artists (Resolume osv.) og laserister.
 {% endhint %}
 
-For full liste over kontroller som er tilgjengelige på APC40, se [apc40-reference.md](../reference/apc40-reference.md "mention")
+For full liste over kontroller som er tilgjengelige på APC40, se [APC40-referanse](../reference/apc40-reference.md "mention")

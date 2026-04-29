@@ -27,4 +27,4 @@ Kort sagt anbefales Mark 2, fordi den har knapper i fuld farve, som matcher Libe
 Den originale APC40 Mark 1 udkom i 2009(!), og nogle foretrækker den stadig på grund af dens metalkabinet og robuste, konsolagtige formfaktor. Den opdaterede Mark 2 udkom i 2014, og selvom den blev udgået i 2024, sættes den i produktion igen i 2025 på grund af efterspørgsel fra visual artists (Resolume osv.) og laserfolk.
 {% endhint %}
 
-Se den fulde liste over kontroller, der er tilgængelige på APC40, her: [apc40-reference.md](../reference/apc40-reference.md "mention")
+Se den fulde liste over kontroller, der er tilgængelige på APC40, her: [APC40-reference](../reference/apc40-reference.md "mention")

@@ -25,7 +25,7 @@
 
 **Colour Modes**
 
-这些设置决定颜色调整的哪些部分会作用于内容。另见 [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")。
+这些设置决定颜色调整的哪些部分会作用于内容。另见 [颜色设置与 HSB](../fundamentals/colour-settings-and-hsb.md "mention")。
 
 * **hue mode**
   * _OFF_ – 不改变 hue。

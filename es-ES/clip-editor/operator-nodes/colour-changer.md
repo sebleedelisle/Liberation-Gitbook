@@ -11,7 +11,7 @@ metaLinks:
 
 Descripción
 
-* **hue, saturation, brightness** - los valores de color; consulta [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - los valores de color; consulta [Ajustes de color y HSB](../fundamentals/colour-settings-and-hsb.md "mention")
 * **hue mode** -
   * OFF - no se cambia el matiz
   * FIXED - el matiz de los elementos se establece en el valor de matiz

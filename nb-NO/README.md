@@ -29,7 +29,7 @@ Denne veiledningen hjelper deg med å bli trygg på Liberation – fra installas
 
 * Begynn med [**Viktig! Les dette først**](important.md) for å gå gjennom kritiske merknader om sikkerhet og lisensiering før du kobler til maskinvare.
 * Følg [**Hurtigstartveiledning**](getting-started.md) hvis du vil få Output i gang raskt, og gå deretter videre til [**Maskinvare**](hardware/) og [**Oppsett**](setting-up/) for mer detaljert konfigurering.
-* Bruk seksjonsoverskriftene for å hoppe direkte til emner (f.eks. [**Clips og Clip Deck**](clips/), [**Output view**](output-view/), **osv.**) og gå tilbake til [**Referanse**](reference/) eller [**Feilsøking**](troubleshooting/) når du trenger presise svar.
+* Bruk seksjonsoverskriftene for å hoppe direkte til emner (f.eks. [**Clips og Clip Deck**](clips/), [**Output-visning**](output-view/), **osv.**) og gå tilbake til [**Referanse**](reference/) eller [**Feilsøking**](troubleshooting/) når du trenger presise svar.
 
 ## Konvensjoner og tips
 

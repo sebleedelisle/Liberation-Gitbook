@@ -29,7 +29,7 @@ Ten przewodnik pomoże Ci swobodnie zacząć pracę z Liberation — od instalac
 
 * Zacznij od [**Ważne! Przeczytaj najpierw**](important.md), aby przed podłączeniem sprzętu zapoznać się z kluczowymi informacjami o bezpieczeństwie i licencjonowaniu.
 * Skorzystaj z [**Szybkiego startu**](getting-started.md), jeśli chcesz szybko uruchomić Output, a następnie przejdź do sekcji [**Sprzęt**](hardware/) i [**Konfiguracja**](setting-up/), aby dokładniej ustawić system.
-* Używaj nagłówków sekcji, aby przechodzić bezpośrednio do tematów (np. [**Clips i Clip Deck**](clips/), [**Output view**](output-view/), **itd.**) i wracaj do [**Materiałów referencyjnych**](reference/) lub [**Rozwiązywania problemów**](troubleshooting/), gdy potrzebujesz precyzyjnych odpowiedzi.
+* Używaj nagłówków sekcji, aby przechodzić bezpośrednio do tematów (np. [**Clips i Clip Deck**](clips/), [**Widok Output**](output-view/), **itd.**) i wracaj do [**Materiałów referencyjnych**](reference/) lub [**Rozwiązywania problemów**](troubleshooting/), gdy potrzebujesz precyzyjnych odpowiedzi.
 
 ## Konwencje i wskazówki
 

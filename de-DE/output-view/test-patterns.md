@@ -19,7 +19,7 @@ Hier ist die vollständige Liste der Testmuster. Die Muster füllen den gesamten
 3. Horizontale grüne Linien – 4 horizontale Linien mit gleichmäßigem Abstand.
 4. Vertikale grüne Linien – 4 vertikale Linien mit gleichmäßigem Abstand.
 
-Farbkalibrierungsmuster 5–8. Diese können zusammen mit dem Farbkorrektursystem in den Lasereinstellungen verwendet werden. Siehe [colour-calibration.md](../advanced/colour-calibration.md "mention"). Diese Muster füllen nicht den gesamten Ausgabebereich.
+Farbkalibrierungsmuster 5–8. Diese können zusammen mit dem Farbkorrektursystem in den Lasereinstellungen verwendet werden. Siehe [Farbkalibrierung](../advanced/colour-calibration.md "mention"). Diese Muster füllen nicht den gesamten Ausgabebereich.
 
 5. Farbkalibrierungsmuster – Rot.
 6. Farbkalibrierungsmuster – Grün.

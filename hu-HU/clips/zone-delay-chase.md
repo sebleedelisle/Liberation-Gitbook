@@ -14,7 +14,7 @@ A Zone delay rendszer egyszerű, mégis hatékony módszer arra, hogy változato
 
 A _Zone delay_ késleltetést ad a clip időzítéséhez zónánként, így egyfajta söprő mozgást hoz létre a zónák között.
 
-Különösen hatásos, ha a Zone delay-t egy már futó cliphez adod hozzá: az APC40 megfelelő vezérlőjével állíthatod a mértékét és a mintát. (Lásd: [apc40-reference.md](../reference/apc40-reference.md)). Használhatod a _Clip Settings_ panelt is.
+Különösen hatásos, ha a Zone delay-t egy már futó cliphez adod hozzá: az APC40 megfelelő vezérlőjével állíthatod a mértékét és a mintát. (Lásd: [APC40 referencia](../reference/apc40-reference.md)). Használhatod a _Clip Settings_ panelt is.
 
 Zone delay beállítások:
 
@@ -39,7 +39,7 @@ A pattern a zónaszámok alapján működik, és feltételezi, hogy a zónák ba
 A Zone delay az aktív effektekre is érvényes. Például egy villogó effekt ugyanúgy késleltetve jelenik meg a zónák között, mint maga a clipen belüli animáció.
 {% endhint %}
 
-Ha egy clip bármilyen _Zone delay_ beállítást használ, a clip jobb felső sarkában egy hárompontos ikon jelenik meg. Ezek a pontok animálva mutatják az adott clip _Zone delay_ stílusát. További részletekért lásd: [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md).
+Ha egy clip bármilyen _Zone delay_ beállítást használ, a clip jobb felső sarkában egy hárompontos ikon jelenik meg. Ezek a pontok animálva mutatják az adott clip _Zone delay_ stílusát. További részletekért lásd: [Mik azok a kis ikonok a Clip gombokon?](what-are-the-small-icons-on-the-clip-buttons.md).
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>A hárompontos szimbólum jelzi, hogy a clip Zone delay beállítást használ, valamint annak módját</p></figcaption></figure>
 

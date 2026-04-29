@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Tips för att läsa in Graphics / SVG-filer
 
-Se Shape Creator Node för information om att importera vektorformer, logotyper med mera. [creator-nodes.md](clip-editor/creator-nodes.md "mention")
+Se Shape Creator Node för information om att importera vektorformer, logotyper med mera. [Creator-noder](clip-editor/creator-nodes.md "mention")

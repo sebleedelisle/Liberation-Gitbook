@@ -17,7 +17,7 @@ A lézerdiódák működése változik, ahogy bemelegszenek. Kalibrálás előtt
 
 #### Hogyan működik a kalibrációs teszt
 
-A kalibráláshoz használd a tesztmintákat (lásd: [test-patterns.md](../output-view/test-patterns.md))
+A kalibráláshoz használd a tesztmintákat (lásd: [Tesztábrák](../output-view/test-patterns.md))
 
 * **5** – Red
 * **6** – Green

@@ -30,13 +30,13 @@ Liberation kan køre mange lasere på én computer. Det er testet med over 100 l
 
 #### **Hvilke MIDI-controllere kan jeg bruge?**
 
-Liberation er designet og optimeret omkring den populære APC40 Mk2 MIDI-controller. Det fungerer også med APC40 Mk1. Se [live-control-with-the-apc40.md](midi-control/live-control-with-the-apc40.md "mention")
+Liberation er designet og optimeret omkring den populære APC40 Mk2 MIDI-controller. Det fungerer også med APC40 Mk1. Se [Live-styring med APC40](midi-control/live-control-with-the-apc40.md "mention")
 
 Vi tilføjer løbende flere MIDI-controllere og understøtter i øjeblikket også APC Mini Mk2 og MIDI Fighter Twister.
 
-Der findes også MIDI Send/Receive-systemet, som giver ekstra MIDI-styring. Se [midi-send-receive.md](midi-control/midi-send-receive.md "mention")
+Der findes også MIDI Send/Receive-systemet, som giver ekstra MIDI-styring. Se [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
-Se [midi-control](midi-control/ "mention") for flere oplysninger.
+Se [MIDI-kontrol](midi-control/ "mention") for flere oplysninger.
 
 #### **Kan jeg bruge det med en hvilken som helst MIDI-controller?**
 
@@ -53,7 +53,7 @@ Vi arbejder i øjeblikket på et konfigurerbart MIDI-system, som vil gøre dette
 * LaserCube network protocol (med kablet forbindelse)
 * AVB som brugt af [LASollinger lasers](https://laseranimation.com/en/) (i øjeblikket kun macOS, under test)
 
-Se [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") for flere oplysninger
+Se [Kompatible lasere og controllere (DACs)](hardware/compatible-lasers-and-controllers-dacs.md "mention") for flere oplysninger
 
 #### **Hvorfor understøtter I ikke \[andet mærke af] lasercontroller?**
 
@@ -69,11 +69,11 @@ Hvis din laser har en af følgende, kan du bruge den med Liberation:
 * En **X-Laser-enhed med indbygget Mercury-system** (i Ether Dream-tilstand).
 * En **LaserAnimation Sollinger-projektor med indbygget AVB** (kun macOS, kræver AVB-kompatible netværksenheder, under test).
 
-Se [compatible-lasers-and-controllers-dacs.md](hardware/compatible-lasers-and-controllers-dacs.md "mention") for flere oplysninger
+Se [Kompatible lasere og controllere (DACs)](hardware/compatible-lasers-and-controllers-dacs.md "mention") for flere oplysninger
 
 #### **Kan jeg bruge Liberation med min LaserCube?**
 
-Ja, Liberation fungerer direkte med enhver LaserCube. Se [lasercube.md](hardware/lasercube.md "mention")
+Ja, Liberation fungerer direkte med enhver LaserCube. Se [LaserCube](hardware/lasercube.md "mention")
 
 ## Licenser
 
@@ -89,15 +89,15 @@ Bemærk, at du kan opsætte, forhåndsvise og designe shows med så mange lasere
 
 #### **Kan jeg opgradere til et nyt niveau?**
 
-Du kan opgradere til et højere niveau når som helst. Du får en forholdsmæssig refundering for den resterende tid på din nuværende licens, og din nye plan starter med det samme. Se [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
+Du kan opgradere til et højere niveau når som helst. Du får en forholdsmæssig refundering for den resterende tid på din nuværende licens, og din nye plan starter med det samme. Se [Opgrader/nedgrader din licens](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Kan jeg nedgradere min licens?**
 
-Du kan nedgradere når som helst, men ændringen træder først i kraft ved udgangen af din nuværende licensperiode. Se [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
+Du kan nedgradere når som helst, men ændringen træder først i kraft ved udgangen af din nuværende licensperiode. Se [Opgrader/nedgrader din licens](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Hvordan autoriserer jeg min computer med min licens?**
 
-Når du har købt en licens, kan du autorisere computeren direkte i Liberation-softwaren. Du vil se en _Authorise_-knap på _About_-skærmen, som beder dig om at logge ind på websitet. Følg instruktionerne på skærmen for at gennemføre autoriseringen. Se [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
+Når du har købt en licens, kan du autorisere computeren direkte i Liberation-softwaren. Du vil se en _Authorise_-knap på _About_-skærmen, som beder dig om at logge ind på websitet. Følg instruktionerne på skærmen for at gennemføre autoriseringen. Se [Autorisering og deautorisering](installation/authorising-and-de-authorising.md "mention")
 
 #### **Hvor ofte skal jeg forbinde min computer til internettet?**
 
@@ -117,7 +117,7 @@ Log ind på websitet, åbn siden _Your subscriptions_, vælg det abonnement, du 
 
 #### **Hvor mange computere kan jeg installere Liberation på?**
 
-Du kan installere Liberation på så mange computere, du vil. Licensautoriseringer kræves kun for at aktivere laser-/DMX-output, og dit licensniveau bestemmer, hvor mange computere der kan være autoriseret til output på samme tid. Se [how-licensing-works.md](installation/how-licensing-works.md "mention")
+Du kan installere Liberation på så mange computere, du vil. Licensautoriseringer kræves kun for at aktivere laser-/DMX-output, og dit licensniveau bestemmer, hvor mange computere der kan være autoriseret til output på samme tid. Se [Sådan fungerer licensering](installation/how-licensing-works.md "mention")
 
 #### **Hvordan flytter jeg min licens fra én computer til en anden?**
 
@@ -127,7 +127,7 @@ Du kan installere Liberation på så mange computere, du vil. Licensautorisering
 * Klik på knappen _Authorise this computer_ på _About_-skærmen.
 * Websitet åbner. Log ind, og følg instruktionerne på skærmen for at gennemføre autoriseringen
 
-Du kan også fjern-deautorisere en computer, du ikke længere har adgang til (med visse begrænsninger). Se [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
+Du kan også fjern-deautorisere en computer, du ikke længere har adgang til (med visse begrænsninger). Se [Autorisering og deautorisering](installation/authorising-and-de-authorising.md "mention")
 
 #### **Kan jeg deautorisere Liberation på en computer, der er mistet eller stjålet?**
 
@@ -139,11 +139,11 @@ Hvis ikke, træder deautoriseringen i kraft, når abonnementet fornyes, eller n�
 
 #### Standardopsætningen har 8 lasere - hvordan ændrer jeg det?
 
-Se [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention") og [adding-removing-lasers.md](setting-up/adding-removing-lasers.md "mention")
+Se [Opsætning af dit projekt](setting-up/setting-up-your-project.md "mention") og [Tilføj / fjern lasere](setting-up/adding-removing-lasers.md "mention")
 
 #### Kan jeg kopiere zoneindstillinger fra én laser til de andre?
 
-Ja! Se [copy-zones-between-lasers.md](output-view/copy-zones-between-lasers.md "mention")
+Ja! Se [Kopiér zoner mellem lasere](output-view/copy-zones-between-lasers.md "mention")
 
 #### Kan jeg indtaste et tal i stedet for at bruge en slider?
 
@@ -151,42 +151,42 @@ Ja. `Cmd / Ctrl`-klik på slideren, så kan du indtaste værdien med tastaturet.
 
 #### **Hvordan synkroniserer jeg Liberation til musik?**
 
-Det har et intelligent "tap tempo"-system, der fungerer, som du forventer, men du kan også bruge en ekstern MIDI-clock eller Ableton Link. Se [tempo-synchronisation.md](tempo-synchronisation.md "mention"). Tidslinjen kan synkroniseres til indkommende LTC/SMPTE-timecode via et hvilket som helst audio interface. Se [timecode.md](timecode.md "mention").
+Det har et intelligent "tap tempo"-system, der fungerer, som du forventer, men du kan også bruge en ekstern MIDI-clock eller Ableton Link. Se [Tempo / synkronisering](tempo-synchronisation.md "mention"). Tidslinjen kan synkroniseres til indkommende LTC/SMPTE-timecode via et hvilket som helst audio interface. Se [Timecode](timecode.md "mention").
 
 #### Hvilke indstillinger skal jeg justere for at få det bedste output fra laseren?
 
-Den vigtigste indstilling er _Colour Shift_, som kompenserer for den lille forsinkelse mellem spejlenes bevægelse og laserens ændring i lysstyrke. Hvis dine laserpunkter/-stråler har små "haler", skal du justere dette. (Se billederne på siden [laser-settings.md](setting-up/laser-settings.md "mention") for et eksempel på "haler")
+Den vigtigste indstilling er _Colour Shift_, som kompenserer for den lille forsinkelse mellem spejlenes bevægelse og laserens ændring i lysstyrke. Hvis dine laserpunkter/-stråler har små "haler", skal du justere dette. (Se billederne på siden [Panelet Laser output settings](setting-up/laser-settings.md "mention") for et eksempel på "haler")
 
 Du kan også prøve at ændre scannerhastigheden: langsommere, hvis dine scannere er simple, eller hurtigere, hvis de er gode. Men **brug det med forsigtighed, da du kan beskadige dine scannere, hvis du driver dem for hårdt.**
 
 Der findes også nogle forudindstillede scannerindstillinger. Standardindstillingen er konservativ og fungerer fint til de fleste krav til laserstråler. Men der er andre presets, hvis du har bedre scannere, og der er presets, som er tunet til grafik.
 
-Se [laser-settings.md](setting-up/laser-settings.md "mention") for flere oplysninger, og se [scanner-presets.md](advanced/scanner-presets.md "mention") for oplysninger om, hvordan du opretter dine egne presets (avanceret, under udarbejdelse)
+Se [Panelet Laser output settings](setting-up/laser-settings.md "mention") for flere oplysninger, og se [◼️ Scanner-presets og render-profiler](advanced/scanner-presets.md "mention") for oplysninger om, hvordan du opretter dine egne presets (avanceret, under udarbejdelse)
 
-Du kan også korrigere farvebalancen med indstillingerne _Colour calibration_. Se [colour-calibration.md](advanced/colour-calibration.md "mention")(avanceret teknik)
+Du kan også korrigere farvebalancen med indstillingerne _Colour calibration_. Se [Farvekalibrering](advanced/colour-calibration.md "mention")(avanceret teknik)
 
 #### Hvad gør indstillingen _Latency(ms)_?
 
-Dette er frame-latency, eller den maksimale tid mellem at en frame genereres og derefter sendes til en laser. Du bør ikke have behov for at justere den, men hvis du har netværksproblemer, kan du prøve at øge den. Se [latency-setting.md](setting-up/latency-setting.md "mention") for flere detaljer.
+Dette er frame-latency, eller den maksimale tid mellem at en frame genereres og derefter sendes til en laser. Du bør ikke have behov for at justere den, men hvis du har netværksproblemer, kan du prøve at øge den. Se [Latency-indstilling](setting-up/latency-setting.md "mention") for flere detaljer.
 
 ### Clips
 
 #### Hvordan justerer jeg zoner og indstillinger for en clip uden at køre den?
 
-`Alt / Option`-klik for at gøre den til det _aktuelt valgte Clip_, men uden at aktivere den. Se også [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-klik for at gøre den til det _aktuelt valgte Clip_, men uden at aktivere den. Se også [Start / stop af clips](clips/starting-stopping-clips.md "mention")
 
 #### Hvordan kopierer jeg clips?
 
-Klik og træk, mens du holder `Alt / Option`-tasten nede. Se også [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+Klik og træk, mens du holder `Alt / Option`-tasten nede. Se også [Organisering af dit Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Hvordan sletter jeg clips?
 
-Klik og træk dem væk fra clip deck. Se også [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+Klik og træk dem væk fra clip deck. Se også [Organisering af dit Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Hvordan multivælger, sletter og kombinerer jeg clip decks osv.?
 
-Se [organising-your-clip-deck.md](clips/organising-your-clip-deck.md "mention")
+Se [Organisering af dit Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Hvad betyder det lille mikrofonsymbol og de andre ikoner på clippen?
 
-De viser dig, at en clip bruger lyd- eller MIDI-input, og de 3 prikker viser, at der er en zoneforsinkelse. Se [what-are-the-small-icons-on-the-clip-buttons.md](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+De viser dig, at en clip bruger lyd- eller MIDI-input, og de 3 prikker viser, at der er en zoneforsinkelse. Se [Hvad betyder de små ikoner på clip-knapperne?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

@@ -19,7 +19,7 @@ Här är en komplett lista över testmönstren. Mönstren fyller hela utmatnings
 3. Horisontella gröna linjer – 4 horisontella linjer, jämnt fördelade.
 4. Vertikala gröna linjer – 4 vertikala linjer, jämnt fördelade.
 
-Färgkalibreringsmönster 5–8. Dessa kan användas tillsammans med färgkorrigeringssystemet i laserinställningarna. Se [colour-calibration.md](../advanced/colour-calibration.md "mention"). Dessa mönster fyller inte hela utmatningsytan.
+Färgkalibreringsmönster 5–8. Dessa kan användas tillsammans med färgkorrigeringssystemet i laserinställningarna. Se [Färgkalibrering](../advanced/colour-calibration.md "mention"). Dessa mönster fyller inte hela utmatningsytan.
 
 5. Färgkalibreringsmönster – rött.
 6. Färgkalibreringsmönster – grönt.

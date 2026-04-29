@@ -17,7 +17,7 @@ Le comportement des diodes laser change lorsqu’elles montent en température. 
 
 #### Fonctionnement du test d’étalonnage
 
-Utilisez les motifs de test pour l’étalonnage (voir [test-patterns.md](../output-view/test-patterns.md "mention"))
+Utilisez les motifs de test pour l’étalonnage (voir [Mires de test](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green

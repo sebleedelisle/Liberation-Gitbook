@@ -17,7 +17,7 @@ Y, a veces, quizá quieras usar varias áreas de destino del Canvas para diferen
 
 ### Enviar clips a áreas de destino del Canvas
 
-Si miras en el Clip Deck, junto a los botones de beam zone, verás los botones de las áreas de destino del Canvas. Puede que tengas que desplazarte por los botones de salida para verlos; usa `Shift + Left / Right Arrow`, o los botones ZONE PAGE en pantalla, o los botones del APC40 (consulta [apc40-reference.md](../reference/apc40-reference.md "mention")).
+Si miras en el Clip Deck, junto a los botones de beam zone, verás los botones de las áreas de destino del Canvas. Puede que tengas que desplazarte por los botones de salida para verlos; usa `Shift + Left / Right Arrow`, o los botones ZONE PAGE en pantalla, o los botones del APC40 (consulta [Referencia de APC40](../reference/apc40-reference.md "mention")).
 
 Asigna clips a áreas de destino del Canvas activando estos botones exactamente del mismo modo que lo harías con los botones de beam zone.
 

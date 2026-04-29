@@ -20,4 +20,4 @@ _糟了！演出中 USB 被拔掉了！_&#x20;
 原版 APC40 Mark 1 于 2009 年发布（没错！），至今仍有人偏爱它的金属机身和控制台般的结实手感。更新后的 Mark 2 于 2014 年发布，虽然在 2024 年停产，但因视觉艺术家（Resolume 等）和激光师的需求，2025 年将重新投产。
 {% endhint %}
 
-APC40 的完整控制列表见 [apc40-reference.md](../reference/apc40-reference.md "mention")。
+APC40 的完整控制列表见 [APC40 参考](../reference/apc40-reference.md "mention")。

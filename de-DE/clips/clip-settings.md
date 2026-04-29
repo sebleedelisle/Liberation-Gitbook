@@ -14,7 +14,7 @@ metaLinks:
 
 Ändere die horizontale und vertikale Position des Clips mit _Shift X_ und _Shift Y_.
 
-_Zone Delay/Chase_ ist ein so praktisches Feature, dass es einen eigenen Abschnitt bekommt: [zone-delay-chase.md](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ ist ein so praktisches Feature, dass es einen eigenen Abschnitt bekommt: [Zone delay / Chase](zone-delay-chase.md "mention")
 
 ### Clips sperren
 
@@ -27,7 +27,7 @@ Wenn ein Clip gesperrt ist, kann er nicht verschoben oder gelöscht werden. Um e
 
 ### Rechtsklick-Menü
 
-Wenn du mit der rechten Maustaste auf einen Clip klickst, erscheint ein Menü mit einigen Optionen für diesen Clip. Siehe [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [clip-settings.md](clip-settings.md "mention") und [groups.md](groups.md "mention") für mehr Informationen zu den ersten Einträgen in diesem Menü.
+Wenn du mit der rechten Maustaste auf einen Clip klickst, erscheint ein Menü mit einigen Optionen für diesen Clip. Siehe [Einführung in den Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip-Einstellungen](clip-settings.md "mention") und [Clip-Gruppen](groups.md "mention") für mehr Informationen zu den ersten Einträgen in diesem Menü.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Das Rechtsklick-Menü für Clip-Einstellungen</p></figcaption></figure>
 

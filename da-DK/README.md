@@ -29,7 +29,7 @@ Denne guide hjælper dig med at blive fortrolig med Liberation - fra installatio
 
 * Begynd med [**Vigtigt! Læs dette først**](important.md) for at gennemgå kritiske noter om sikkerhed og licens, før du tilslutter hardware.
 * Følg [**Hurtig start-guide**](getting-started.md), hvis du vil have output i gang hurtigt, og gå derefter videre til [**Hardware**](hardware/) og [**Opsætning**](setting-up/) for mere detaljeret konfiguration.
-* Brug sektionsoverskrifterne til at hoppe direkte til emner (f.eks. [**Clips og Clip Deck**](clips/), [**Output view**](output-view/), **osv.**) og vend tilbage til [**Reference**](reference/) eller [**Fejlfinding**](troubleshooting/), når du har brug for præcise svar.
+* Brug sektionsoverskrifterne til at hoppe direkte til emner (f.eks. [**Clips og Clip Deck**](clips/), [**Output-visning**](output-view/), **osv.**) og vend tilbage til [**Reference**](reference/) eller [**Fejlfinding**](troubleshooting/), når du har brug for præcise svar.
 
 ## Konventioner og tips
 

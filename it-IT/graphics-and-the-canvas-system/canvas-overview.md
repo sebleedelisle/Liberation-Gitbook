@@ -38,7 +38,7 @@ ATTENZIONE: se il laser è armato, potresti iniziare improvvisamente a proiettar
 {% endhint %}
 
 {% hint style="info" %}
-Puoi anche assegnare una zona Canvas a un laser facendo clic sul pulsante _add canvas zone_ nella vista _OUTPUT_. Vedi [zones.md](../output-view/zones.md).
+Puoi anche assegnare una zona Canvas a un laser facendo clic sul pulsante _add canvas zone_ nella vista _OUTPUT_. Vedi [Zone](../output-view/zones.md).
 {% endhint %}
 
 ### Immagini guida

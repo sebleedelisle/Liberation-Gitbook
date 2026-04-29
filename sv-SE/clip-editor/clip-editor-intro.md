@@ -32,12 +32,12 @@ Det du ser i Clip Editor:
 Medan du redigerar ser du också hur Clip ser ut i 3D Visualiser i bakgrunden.
 
 {% hint style="info" %}
-Om du inte ser någon output i 3D Visualiser kan du behöva använda zone-knapparna för att slå på de zoner du vill använda. Du behöver också se till att _Preview to lasers_ är aktiverat, se [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel "mention") nedan.
+Om du inte ser någon output i 3D Visualiser kan du behöva använda zone-knapparna för att slå på de zoner du vill använda. Du behöver också se till att _Preview to lasers_ är aktiverat, se [Introduktion till Clip Editor](clip-editor-intro.md#clip-editor-panel "mention") nedan.
 {% endhint %}
 
 ### Bygga en Clip
 
-Du börjar vanligtvis med en eller flera [creator nodes](creator-nodes.md) och ansluter [operators](operator-nodes/) från vänster till höger som bearbetar innehållet. När du flyttar creators och/eller operators tillsammans märker du att de automatiskt ansluts till varandra. Du kan dra isär dem för att koppla från dem igen.
+Du börjar vanligtvis med en eller flera [Creator-noder](creator-nodes.md) och ansluter [Operatornoder](operator-nodes/) från vänster till höger som bearbetar innehållet. När du flyttar creators och/eller operators tillsammans märker du att de automatiskt ansluts till varandra. Du kan dra isär dem för att koppla från dem igen.
 
 ### Lägga till noder i din Clip
 
@@ -63,7 +63,7 @@ Du kan ansluta mer än en nod till nästa nods input. Det är användbart när d
 
 Varje nod har en rad sockets längs nederkanten, och var och en representerar en egenskap i noden, till exempel brightness, position, scale, rotation osv.
 
-[Oscillator nodes](oscillators/) kan anslutas till dessa sockets underifrån och användas för att animera inställningarna. Oscillator nodes har en output upptill. Klicka och dra för att dra ut anslutningen och släpp den i en av de andra nodernas egenskapssockets.
+[Oscillator-noder](oscillators/) kan anslutas till dessa sockets underifrån och användas för att animera inställningarna. Oscillator nodes har en output upptill. Klicka och dra för att dra ut anslutningen och släpp den i en av de andra nodernas egenskapssockets.
 
 ### Oscillator nodes
 
@@ -75,7 +75,7 @@ Om du någon gång har använt en analog synth känner du igen begreppet oscilla
 **Kul fakta:** namnet _Liberation_ inspirerades av Moog Liberation, en ”keytar”-synthesizer som släpptes 1980 och blev känd genom Herbie Hancock, Jean-Michel Jarre och till och med James Brown!
 {% endhint %}
 
-Oscillatorer har alltid _range_-inställningar som styr det minsta och största värdet för egenskapen som ska justeras. Och _Wave Oscillators_ har alltid en _duration_-inställning som avgör hur snabbt oscillatorn ändrar värdet. Se [wave-oscillators.md](oscillators/wave-oscillators.md "mention") för mer information.
+Oscillatorer har alltid _range_-inställningar som styr det minsta och största värdet för egenskapen som ska justeras. Och _Wave Oscillators_ har alltid en _duration_-inställning som avgör hur snabbt oscillatorn ändrar värdet. Se [Wave oscillators](oscillators/wave-oscillators.md "mention") för mer information.
 
 ### Clip Editor-panelen
 

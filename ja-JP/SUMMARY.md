@@ -57,7 +57,7 @@
   * [🟩 Creator ノード](clip-editor/creator-nodes.md)
   * [🟩 Operator ノード](clip-editor/operator-nodes/README.md)
     * [🟩 トランスフォーム](clip-editor/operator-nodes/transformations.md)
-    * [🟩 Duplicator](clip-editor/operator-nodes/duplicators.md)
+    * [Duplicators](clip-editor/operator-nodes/duplicators.md)
     * [🟩 カラー変更](clip-editor/operator-nodes/colour-changer.md)
     * [🟩 位置ベースのチェンジャー](clip-editor/operator-nodes/position-based-changers.md)
     * [🟩 Path Modifier](clip-editor/operator-nodes/path-modifiers.md)

@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Vinkkejä grafiikka-/SVG-tiedostojen lataamiseen
 
-Lisätietoja vektorimuotojen, logojen ym. tuomisesta on Shape Creator Node -kohdassa. [creator-nodes.md](clip-editor/creator-nodes.md)
+Lisätietoja vektorimuotojen, logojen ym. tuomisesta on Shape Creator Node -kohdassa. [Creator-nodet](clip-editor/creator-nodes.md)

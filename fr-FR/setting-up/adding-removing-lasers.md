@@ -15,12 +15,12 @@ ou sur le bouton _+_ dans la vue _Output_.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Lorsque vous ajoutez un nouveau laser, une zone de faisceau lui est automatiquement ajoutée. Notez que les lasers et les zones sont triés dans l’ordre dans lequel vous les ajoutez. Voir [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md "mention").
+Lorsque vous ajoutez un nouveau laser, une zone de faisceau lui est automatiquement ajoutée. Notez que les lasers et les zones sont triés dans l’ordre dans lequel vous les ajoutez. Voir [Réorganiser les zones de faisceau](../output-view/re-ordering-beam-zones.md "mention").
 
 Supprimez un laser en cliquant sur le bouton rouge « - » dans le panneau _Laser overview_. Notez que vous perdrez tous vos réglages laser !
 
 {% hint style="info" %}
-Si vous souhaitez copier des zones ou d’autres réglages depuis d’autres lasers, utilisez [copy-laser-settings.md](copy-laser-settings.md "mention")
+Si vous souhaitez copier des zones ou d’autres réglages depuis d’autres lasers, utilisez [Copier les réglages entre lasers](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

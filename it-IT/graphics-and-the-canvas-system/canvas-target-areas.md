@@ -17,7 +17,7 @@ Altre volte potresti voler usare più Canvas target areas per diverse parti di u
 
 ### Inviare clip alle Canvas target areas
 
-Se guardi nel Clip Deck, accanto ai pulsanti delle beam zone, vedrai i pulsanti delle Canvas target area. Potrebbe essere necessario scorrere i pulsanti di output per visualizzarli: usa `Shift + Left / Right Arrow`, oppure i pulsanti ZONE PAGE sullo schermo, o i pulsanti dell’APC40 (vedi [apc40-reference.md](../reference/apc40-reference.md))
+Se guardi nel Clip Deck, accanto ai pulsanti delle beam zone, vedrai i pulsanti delle Canvas target area. Potrebbe essere necessario scorrere i pulsanti di output per visualizzarli: usa `Shift + Left / Right Arrow`, oppure i pulsanti ZONE PAGE sullo schermo, o i pulsanti dell’APC40 (vedi [Riferimento APC40](../reference/apc40-reference.md))
 
 Assegna i clip alle Canvas target areas attivando o disattivando questi pulsanti esattamente come faresti con i pulsanti delle beam zone.
 

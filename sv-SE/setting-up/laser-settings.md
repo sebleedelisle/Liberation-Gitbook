@@ -56,7 +56,7 @@ Inställningen Speed avgör hur snabbt scanners rör sig.
 {% endhint %}
 
 {% hint style="info" %}
-Den här Speed-inställningen ändrar inte point rate, utan justerar i stället hur utspridda punkterna är. Mer information finns i [how-liberation-generates-laser-content.md](../advanced/how-liberation-generates-laser-content.md "mention")
+Den här Speed-inställningen ändrar inte point rate, utan justerar i stället hur utspridda punkterna är. Mer information finns i [◼️ Så genererar Liberation laserinnehåll](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,12 +73,12 @@ Om du ser små "svansar" i laserutgången beror det sannolikt på att scanner sy
 
 #### Scanner presets
 
-Använd detta för att välja en fördefinierad scannerinställning. Standardalternativet fungerar oftast bra, så du ska normalt inte behöva ändra den här inställningen om du inte har särskilt dåliga (eller bra) scanners. Om du vill gå djupare, se [scanner-presets.md](../advanced/scanner-presets.md "mention")
+Använd detta för att välja en fördefinierad scannerinställning. Standardalternativet fungerar oftast bra, så du ska normalt inte behöva ändra den här inställningen om du inte har särskilt dåliga (eller bra) scanners. Om du vill gå djupare, se [◼️ Skannerförinställningar och renderprofiler](../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Du kan använda det här systemet för att korrigera laserljusstyrkans kurva och vitbalans. Se [colour-calibration.md](../advanced/colour-calibration.md "mention")
+Du kan använda det här systemet för att korrigera laserljusstyrkans kurva och vitbalans. Se [Färgkalibrering](../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Du ska inte behöva ändra de här inställningarna, men om du är nyfiken kan du läsa mer i [advanced-laser-settings.md](../advanced/advanced-laser-settings.md "mention")
+Du ska inte behöva ändra de här inställningarna, men om du är nyfiken kan du läsa mer i [◼️ Avancerade laserinställningar](../advanced/advanced-laser-settings.md "mention")

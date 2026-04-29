@@ -17,7 +17,7 @@ Los diodos láser cambian su comportamiento a medida que se calientan. Deja siem
 
 #### Cómo funciona la prueba de calibración
 
-Usa los patrones de prueba para la calibración (consulta [test-patterns.md](../output-view/test-patterns.md "mention"))
+Usa los patrones de prueba para la calibración (consulta [Patrones de prueba](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green

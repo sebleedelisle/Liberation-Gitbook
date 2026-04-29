@@ -38,7 +38,7 @@ ADVERTENCIA: si el láser está armado, podrías empezar a proyectar contenido d
 {% endhint %}
 
 {% hint style="info" %}
-También puedes asignar una zona de Canvas a un láser haciendo clic en el botón _add canvas zone_ en la vista _OUTPUT_. Consulta [zones.md](../output-view/zones.md "mention").
+También puedes asignar una zona de Canvas a un láser haciendo clic en el botón _add canvas zone_ en la vista _OUTPUT_. Consulta [Zonas](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Imágenes guía

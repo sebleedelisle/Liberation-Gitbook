@@ -60,7 +60,7 @@ Käytä _METRONOME_-painiketta **tahdin nollaamiseen**. (Huomaa, että _METRONOM
 
 Käännä _TEMPO_-nuppia yhden “pykälän” oikealle tai vasemmalle, jos haluat **pyöristää tempon** ylös- tai alaspäin kokonaiseksi BPM-arvoksi.
 
-Katso myös [apc40-reference.md](reference/apc40-reference.md)
+Katso myös [APC40-viite](reference/apc40-reference.md)
 
 ### Tempon nudge-säätö
 

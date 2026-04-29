@@ -17,7 +17,7 @@ Laserdioden verändern ihr Verhalten, während sie warm werden. Lass deinen Proj
 
 #### So funktioniert der Kalibrierungstest
 
-Verwende die Testbilder für die Kalibrierung (siehe [test-patterns.md](../output-view/test-patterns.md "mention"))
+Verwende die Testbilder für die Kalibrierung (siehe [Testmuster](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green

@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Tippek grafikus / SVG-fájlok betöltéséhez
 
-A vektoralakzatok, logók stb. importálásáról a Shape Creator Node részben talál további információt. [creator-nodes.md](clip-editor/creator-nodes.md)
+A vektoralakzatok, logók stb. importálásáról a Shape Creator Node részben talál további információt. [Creator node-ok](clip-editor/creator-nodes.md)

@@ -24,7 +24,7 @@ Para iniciar um novo clip sem parar outros clips, você pode:
 * Pressionar a tecla `Shift` (ou o botão Shift do APC40) enquanto inicia o novo clip; ou
 * Pressionar novamente o(s) clip(s) em execução enquanto inicia o novo clip.
 
-Os grupos de clips são independentes entre si, portanto iniciar um clip em um grupo não afeta os clips de nenhum outro grupo. Veja [groups.md](groups.md)
+Os grupos de clips são independentes entre si, portanto iniciar um clip em um grupo não afeta os clips de nenhum outro grupo. Veja [Grupos de Clip](groups.md)
 
 ### Flash mode
 

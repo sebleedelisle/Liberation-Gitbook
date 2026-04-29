@@ -32,12 +32,12 @@ Clip editorissa näet seuraavat asiat:
 Muokkauksen aikana näet myös taustalla 3D visualiserissa, miltä clip näyttää.
 
 {% hint style="info" %}
-Jos et näe 3D visualiserissa mitään ulostuloa, sinun täytyy ehkä ottaa haluamasi zonet käyttöön zone-painikkeilla. Varmista myös, että _Preview to lasers_ on käytössä. Katso alempaa [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel).
+Jos et näe 3D visualiserissa mitään ulostuloa, sinun täytyy ehkä ottaa haluamasi zonet käyttöön zone-painikkeilla. Varmista myös, että _Preview to lasers_ on käytössä. Katso alempaa [Johdanto Clip Editoriin](clip-editor-intro.md#clip-editor-panel).
 {% endhint %}
 
 ### Clipin rakentaminen
 
-Yleensä aloitat yhdellä tai useammalla [creator-solmulla](creator-nodes.md) ja yhdistät vasemmalta oikealle [operator-solmuja](operator-nodes/), jotka käsittelevät sisältöä. Kun siirrät creator- ja/tai operator-solmuja lähelle toisiaan, huomaat, että ne yhdistyvät automaattisesti. Voit irrottaa ne toisistaan vetämällä ne jälleen erilleen.
+Yleensä aloitat yhdellä tai useammalla [Creator-nodet](creator-nodes.md) ja yhdistät vasemmalta oikealle [Operaattorisolmut](operator-nodes/), jotka käsittelevät sisältöä. Kun siirrät creator- ja/tai operator-solmuja lähelle toisiaan, huomaat, että ne yhdistyvät automaattisesti. Voit irrottaa ne toisistaan vetämällä ne jälleen erilleen.
 
 ### Solmujen lisääminen clipiin
 
@@ -63,7 +63,7 @@ Voit yhdistää useamman kuin yhden solmun seuraavan solmun tuloon. Tämä on hy
 
 Jokaisen solmun alareunassa on joukko liitäntöjä, joista jokainen vastaa solmun ominaisuutta, kuten kirkkautta, sijaintia, skaalaa tai kiertoa.
 
-[Oscillator-solmut](oscillators/) voidaan yhdistää näihin liitäntöihin alapuolelta ja käyttää niiden asetusten animointiin. Oscillator-solmuissa on ulostulo yläreunassa. Napsauta ja vedä siitä yhteys ja pudota se jonkin toisen solmun ominaisuusliitäntään.
+[Oscillaattorisolmut](oscillators/) voidaan yhdistää näihin liitäntöihin alapuolelta ja käyttää niiden asetusten animointiin. Oscillator-solmuissa on ulostulo yläreunassa. Napsauta ja vedä siitä yhteys ja pudota se jonkin toisen solmun ominaisuusliitäntään.
 
 ### Oscillator-solmut
 
@@ -75,7 +75,7 @@ Jos olet joskus käyttänyt analogista syntetisaattoria, oskillaattorien käsite
 **Hauska fakta:** nimi _Liberation_ sai inspiraationsa Moog Liberationista, vuonna 1980 julkaistusta "keytar"-syntetisaattorista, jonka tekivät tunnetuksi Herbie Hancock, Jean-Michel Jarre ja jopa James Brown!
 {% endhint %}
 
-Oscillator-solmuilla on aina _range_-asetukset, joilla määritetään säädettävän ominaisuuden minimi- ja maksimiarvo. _Wave Oscillators_ -solmuilla on lisäksi aina _duration_-asetus, joka määrittää, kuinka nopeasti oscillator muuttaa arvoa. Lisätietoja on kohdassa [wave-oscillators.md](oscillators/wave-oscillators.md).
+Oscillator-solmuilla on aina _range_-asetukset, joilla määritetään säädettävän ominaisuuden minimi- ja maksimiarvo. _Wave Oscillators_ -solmuilla on lisäksi aina _duration_-asetus, joka määrittää, kuinka nopeasti oscillator muuttaa arvoa. Lisätietoja on kohdassa [Wave-oskillaattorit](oscillators/wave-oscillators.md).
 
 ### Clip editor -paneeli
 

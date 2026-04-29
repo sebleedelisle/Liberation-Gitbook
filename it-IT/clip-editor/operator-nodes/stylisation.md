@@ -26,7 +26,7 @@ Il nodo Randomise è alla base dell’effetto Randomise!
 
 Crea echi del tuo contenuto, lasciando dietro all’originale copie che sfumano o cambiano scala mentre si muove.
 
-* **change render profile for trail** – se attivo, tutte le copie della scia usano il **render profile** selezionato. _Vedi_ [render-profile.md](../fundamentals/render-profile.md).
+* **change render profile for trail** – se attivo, tutte le copie della scia usano il **render profile** selezionato. _Vedi_ [Render profile](../fundamentals/render-profile.md).
 * **render profile** – il profilo da usare per le copie della scia quando l’interruttore sopra è attivo. Si usa spesso quando il contenuto principale è impostato su **DETAIL**, ma gli echi vengono renderizzati come **FAST**: in questo modo mantieni dettagli chiari sulle forme principali e renderizzi le scie in modo più efficiente.
 * **delay** – imposta la distanza tra le copie della scia in tempo musicale, misurata in **passi da 1/64 di nota**.\
   Per riferimento:

@@ -19,7 +19,7 @@ Tässä on täydellinen luettelo testikuvioista. Kuviot täyttävät kunkin vyö
 3. Vihreät vaakaviivat – 4 vaakaviivaa tasavälein.
 4. Vihreät pystyviivat – 4 pystyviivaa tasavälein.
 
-Värikalibrointikuviot 5–8. Näitä voidaan käyttää laserin asetuksissa olevan värinkorjausjärjestelmän kanssa. Katso [colour-calibration.md](../advanced/colour-calibration.md). Nämä kuviot eivät täytä koko lähtöaluetta.
+Värikalibrointikuviot 5–8. Näitä voidaan käyttää laserin asetuksissa olevan värinkorjausjärjestelmän kanssa. Katso [Värikalibrointi](../advanced/colour-calibration.md). Nämä kuviot eivät täytä koko lähtöaluetta.
 
 5. Värikalibrointikuvio – punainen.
 6. Värikalibrointikuvio – vihreä.

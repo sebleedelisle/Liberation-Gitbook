@@ -60,7 +60,7 @@ Użyj przycisku _METRONOME_, aby **zresetować takt**. (Pamiętaj, że przycisk 
 
 Obróć pokrętło _TEMPO_ o jeden „klik” w prawo lub w lewo, aby **zaokrąglić tempo** w górę lub w dół do pełnej wartości BPM.
 
-Zobacz także [apc40-reference.md](reference/apc40-reference.md)
+Zobacz także [Referencja APC40](reference/apc40-reference.md)
 
 ### Nudge tempo
 

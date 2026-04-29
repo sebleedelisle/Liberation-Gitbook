@@ -26,7 +26,7 @@ Węzeł Randomise jest podstawą efektu Randomise!
 
 Tworzy echa zawartości, pozostawiając za poruszającym się oryginałem zanikające lub skalowane kopie.
 
-* **change render profile for trail** – jeśli włączone, wszystkie kopie śladu używają wybranego **render profile**. _Zobacz_ [render-profile.md](../fundamentals/render-profile.md).
+* **change render profile for trail** – jeśli włączone, wszystkie kopie śladu używają wybranego **render profile**. _Zobacz_ [Profil renderowania](../fundamentals/render-profile.md).
 * **render profile** – profil używany dla kopii śladu, gdy powyższy przełącznik jest włączony. Często używane, gdy główna zawartość jest ustawiona na **DETAIL**, a echa są renderowane jako **FAST**. Dzięki temu główne kształty zachowują wyraźne detale, a ślady są renderowane wydajniej.
 * **delay** – ustawia odstęp między kopiami śladu w czasie muzycznym, mierzony w **krokach 1/64 nuty**.\
   Dla orientacji:

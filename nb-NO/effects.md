@@ -8,7 +8,7 @@ metaLinks:
 
 Effektsystemet i Liberation er en morsom og fleksibel måte å endre klipputgangen i sanntid på. Effekter er helt fleksible og kan brukes til å få alt til å blinke av og på, rotere, endre farger eller til og med fly tilfeldig rundt!
 
-Alt du kan gjøre i klippeditoren, kan brukes som en effekt. Faktisk redigeres effekter med nøyaktig samme nodeeditor som klipp! Se [#editing-effects](effects.md#editing-effects "mention"). De kreative mulighetene er praktisk talt uendelige.
+Alt du kan gjøre i klippeditoren, kan brukes som en effekt. Faktisk redigeres effekter med nøyaktig samme nodeeditor som klipp! Se [Effekter](effects.md#editing-effects "mention"). De kreative mulighetene er praktisk talt uendelige.
 
 Standard effektknapper 1–8 ligger under soneknappene, og effektene 9–24 er de små knappene nederst.
 
@@ -32,12 +32,12 @@ Jeg vil påstå at det er et av de morsomste og mest kreative verktøyene som er
 
 #### Effektparametere
 
-Legg til en parameter i effekten din med en _Parameter node._ Parametersystemet er en måte å justere flere innstillinger inne i effekten utenfra. Se [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention") for mer informasjon.
+Legg til en parameter i effekten din med en _Parameter node._ Parametersystemet er en måte å justere flere innstillinger inne i effekten utenfra. Se [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") for mer informasjon.
 
 Bruk rotary-kontrollerne 1–8 til å justere _parameter_ for hver effekt. Eller høyreklikk på effektknappen og juster parameterslideren(e). Parameterendringen gjør ulike ting avhengig av hvordan effekten er satt opp. Se listen nedenfor for standardeffektene og hva parameterne deres gjør.
 
 {% hint style="info" %}
-Rotary-kontrollerne 1–8 ligger langs toppen av en APC40 Mk2 og øverst til høyre på Mk1. Se også: [apc40-reference.md](reference/apc40-reference.md "mention")
+Rotary-kontrollerne 1–8 ligger langs toppen av en APC40 Mk2 og øverst til høyre på Mk1. Se også: [APC40-referanse](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

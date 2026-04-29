@@ -14,7 +14,7 @@ Aun así, puedes exportar tu configuración para hacer copias de seguridad o tra
 
 El archivo de proyecto almacena casi todo lo que hay en tu configuración actual, incluyendo:
 
-* Todo lo detallado en [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention") más abajo
+* Todo lo detallado en [Cargar y guardar](loading-and-saving.md#laser-settings-import-export "mention") más abajo
 * Clips, efectos y ajustes de grupo
 * Todas tus líneas de tiempo (sin incluir medios de audio y vídeo)
 * Configuración de Artnet
@@ -30,7 +30,7 @@ Actualmente no guarda ni carga:
 * Fuentes usadas en el nodo Text
 
 {% hint style="danger" %}
-Los archivos de sonido y vídeo de la línea de tiempo no se guardan con los archivos de proyecto, así que asegúrate de guardarlos por separado si quieres transferirlos a otro ordenador. Consulta [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Los archivos de sonido y vídeo de la línea de tiempo no se guardan con los archivos de proyecto, así que asegúrate de guardarlos por separado si quieres transferirlos a otro ordenador. Consulta [Cargar y guardar](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Importación/exportación de ajustes láser
@@ -67,7 +67,7 @@ Puedes añadir clips desde un archivo de Clip Deck exportado a tu proyecto actua
 Los clips seleccionados actualmente se exportarán a un archivo. Los ajustes de grupo y los efectos no se guardarán; solo los clips. Ten en cuenta que los clips activos que se estén ejecutando no se exportan salvo que también estén seleccionados.
 
 {% hint style="info" %}
-Opción/Alt - Mayús - clic en los clips para seleccionarlos (o usa el lazo). Puedes identificar qué clips están seleccionados por el contorno blanco grueso que los rodea. Consulta [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+Opción/Alt - Mayús - clic en los clips para seleccionarlos (o usa el lazo). Puedes identificar qué clips están seleccionados por el contorno blanco grueso que los rodea. Consulta [Iniciar / detener clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Importación/exportación de efectos
@@ -82,12 +82,12 @@ Para importar solo los efectos de un proyecto, selecciona _**Effects->Import Eff
 
 ### Exportación de línea de tiempo
 
-Exporta un archivo de línea de tiempo con una o más líneas de tiempo. Ten en cuenta que el Clip Deck siempre se incluye con los archivos de línea de tiempo exportados (aunque puedes elegir qué clips vuelves a importar; consulta [#timeline-import](loading-and-saving.md#timeline-import "mention") más abajo).
+Exporta un archivo de línea de tiempo con una o más líneas de tiempo. Ten en cuenta que el Clip Deck siempre se incluye con los archivos de línea de tiempo exportados (aunque puedes elegir qué clips vuelves a importar; consulta [Cargar y guardar](loading-and-saving.md#timeline-import "mention") más abajo).
 
 Si tienes más de una línea de tiempo en tu archivo de proyecto, se abrirá un panel que te permitirá seleccionar qué líneas de tiempo quieres exportar.
 
 {% hint style="danger" %}
-Los archivos de sonido y vídeo de la línea de tiempo no se guardan con los archivos de línea de tiempo, así que asegúrate de guardarlos por separado si quieres transferir tu contenido a otro ordenador. Consulta [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Los archivos de sonido y vídeo de la línea de tiempo no se guardan con los archivos de línea de tiempo, así que asegúrate de guardarlos por separado si quieres transferir tu contenido a otro ordenador. Consulta [Cargar y guardar](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Importación de línea de tiempo

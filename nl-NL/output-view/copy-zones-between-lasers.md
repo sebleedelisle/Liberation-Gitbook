@@ -21,4 +21,4 @@ Selecteer de optie _Copy output zone settings_ en klik daarna op de knop _COPY S
 Let op: met dit proces worden er geen zones aan lasers toegevoegd of van lasers verwijderd. Alleen de positie en het type zone worden gekopieerd voor elke zone die al in de doellasers bestaat.
 {% endhint %}
 
-Zie ook [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention") voor een volledige beschrijving van de andere functies van dit systeem.
+Zie ook [Instellingen kopiëren tussen lasers](../setting-up/copy-laser-settings.md "mention") voor een volledige beschrijving van de andere functies van dit systeem.

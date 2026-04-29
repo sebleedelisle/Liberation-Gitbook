@@ -68,7 +68,7 @@ Näytön vasemmassa yläkulmassa oleva suuri alue voi näyttää yhden kolmesta 
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view näyttää, miltä laserit näyttävät, ja sen voi määrittää vastaamaan omaa laseriasetustasi. Klikkaa ja vedä kiertääksesi kameraa. Käytä hiiren rullaa siirtyäksesi eteen- ja taaksepäin. Lisää asetuksia löytyy _3D Visualiser settings_ -paneelista (_View -> 3D Visualiser Settings_). Katso [3D-visualisointi](../setting-up/3d-visualiser.md).
+3D view näyttää, miltä laserit näyttävät, ja sen voi määrittää vastaamaan omaa laseriasetustasi. Klikkaa ja vedä kiertääksesi kameraa. Käytä hiiren rullaa siirtyäksesi eteen- ja taaksepäin. Lisää asetuksia löytyy _3D Visualiser settings_ -paneelista (_View -> 3D Visualiser Settings_). Katso [3D Visualiser](../setting-up/3d-visualiser.md).
 
 #### Output view
 
@@ -100,7 +100,7 @@ Valitse zone klikkaamalla sitä ja säädä sen kulmapisteitä hiirellä. Pidä 
 
 Vasemmalla on palkki, jossa on useita kuvakepainikkeita. Vie hiiri minkä tahansa painikkeen päälle, niin näet kuvauksen sen toiminnosta. Näillä painikkeilla voit lisätä beam zones, canvas zones ja masks. Lisäksi käytettävissä on asetuksia, joilla test pattern asetetaan vain tälle laserille, sekä ruudukko- ja tartunta-asetuksia.
 
-Lisätietoja: [Output view](../output-view/).
+Lisätietoja: [Output-näkymä](../output-view/).
 
 #### Canvas
 
@@ -140,7 +140,7 @@ Voit vierittää Clip Deck -aluetta vasemmalle ja oikealle seuraavilla tavoilla:
 * APC40:n vieritysnuppi
 * APC40:n _<- DEVICE ->_ -painikkeet
 
-Yläreunassa oleva Clip Deck -alueen pienoisvisualisointi auttaa hahmottamaan sijaintisi. Katso myös [Clips](../clips/)
+Yläreunassa oleva Clip Deck -alueen pienoisvisualisointi auttaa hahmottamaan sijaintisi. Katso myös [Clips ja Clip Deck](../clips/)
 
 #### Clips käynnistäminen ja pysäyttäminen
 
@@ -162,7 +162,7 @@ Kaksi riviä zone-painikkeiden alapuolella näkyvät X/Y flip -painikkeet. Niill
 Huomaa, että nämä zone-määritykset ja X/Y flip -asetukset liittyvät itse Clip-sisältöön. Ne säilyvät seuraavaan kertaan, kun käynnistät kyseisen Clip-sisällön. Ne eivät ole globaaleja asetuksia.
 {% endhint %}
 
-Muokkaa Clip-sisällön lisäasetuksia klikkaamalla Clip-kohdetta hiiren oikealla painikkeella. Katso myös [Clip-asetukset](../clips/clip-settings.md)
+Muokkaa Clip-sisällön lisäasetuksia klikkaamalla Clip-kohdetta hiiren oikealla painikkeella. Katso myös [Clip settings](../clips/clip-settings.md)
 
 ### Ryhmät
 
@@ -297,7 +297,7 @@ Avaa _Controller Assignment_ -paneeli klikkaamalla _Assign Laser Controllers_ -p
 
 Tässä voit valita, mitkä laserin Output-kanavat lähetetään millekin laser controller -laitteelle. Vedä ja pudota controller-laitteita oikeanpuoleisesta luettelosta vasemmanpuoleisiin paikkoihin. Voit nimetä controller-laitteet uudelleen sen mukaan, minkä laserin parina ne ovat. Käytä kynäkuvakkeen painiketta.
 
-Lue lisätietoja luvusta [Controller Assignment](../setting-up/controller-assignment.md).
+Lue lisätietoja luvusta [Ohjaimen määritys](../setting-up/controller-assignment.md).
 
 {% hint style="danger" %}
 Ennen kuin asetat mitään lasereita armed-tilaan, käy läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md).

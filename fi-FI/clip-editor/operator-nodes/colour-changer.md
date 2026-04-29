@@ -11,7 +11,7 @@ metaLinks:
 
 Kuvaus
 
-* **hue, saturation, brightness** - väriarvot, katso [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md)
+* **hue, saturation, brightness** - väriarvot, katso [Väriasetukset ja HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - sävyä ei muuteta
   * FIXED - elementtien sävy asetetaan hue-arvoon

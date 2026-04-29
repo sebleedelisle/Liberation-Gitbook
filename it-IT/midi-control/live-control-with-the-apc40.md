@@ -27,4 +27,4 @@ In breve, è consigliato il Mark 2 perché ha pulsanti a colori completi, che co
 L’APC40 Mark 1 originale è uscito nel 2009(!) e alcune persone lo preferiscono ancora per il corpo in metallo e per il formato robusto, simile a una console. Il Mark 2 aggiornato è uscito nel 2014 e, anche se è stato dismesso nel 2024, tornerà in produzione nel 2025 grazie alla richiesta di visual artist (Resolume ecc.) e laserist.
 {% endhint %}
 
-Per l’elenco completo dei controlli disponibili sull’APC40, vedi [apc40-reference.md](../reference/apc40-reference.md)
+Per l’elenco completo dei controlli disponibili sull’APC40, vedi [Riferimento APC40](../reference/apc40-reference.md)

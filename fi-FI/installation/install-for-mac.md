@@ -25,4 +25,4 @@ Napsauta _Download latest for Mac_ (versionumerot muuttuvat ajan myötä), ja Li
 
 Vedä vasemmalla oleva Liberation-kuvake oikealla olevaan Applications-kansioon (saatat tarvita ylläpitäjän salasanan). Liberation löytyy nyt Applications-kansiosta. Avaa se kaksoisnapsauttamalla.
 
-Liberationin pitäisi nyt käynnistyä. Jotta voit lähettää ulostuloa lasereille, sinun täytyy seuraavaksi käydä läpi [valtuutusprosessi.](authorising-and-de-authorising.md)
+Liberationin pitäisi nyt käynnistyä. Jotta voit lähettää ulostuloa lasereille, sinun täytyy seuraavaksi käydä läpi [Valtuutus ja valtuutuksen poistaminen](authorising-and-de-authorising.md)

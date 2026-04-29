@@ -15,12 +15,12 @@ tai _+_ -painiketta _Output_ -näkymässä.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Kun lisäät uuden laserin, sille lisätään automaattisesti yksi sädealue. Huomaa, että laserit ja alueet järjestetään siinä järjestyksessä kuin lisäät ne. Katso [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md).
+Kun lisäät uuden laserin, sille lisätään automaattisesti yksi sädealue. Huomaa, että laserit ja alueet järjestetään siinä järjestyksessä kuin lisäät ne. Katso [Sädealueiden järjestyksen muuttaminen](../output-view/re-ordering-beam-zones.md).
 
 Poista laser napsauttamalla punaista "-" -painiketta _Laser overview_ -paneelissa. Huomaa, että menetät kaikki kyseisen laserin asetukset!
 
 {% hint style="info" %}
-Jos haluat kopioida alueita tai muita asetuksia muista lasereista, käytä toimintoa [copy-laser-settings.md](copy-laser-settings.md)
+Jos haluat kopioida alueita tai muita asetuksia muista lasereista, käytä toimintoa [Kopioi asetukset lasereiden välillä](copy-laser-settings.md)
 {% endhint %}
 
 {% hint style="info" %}

@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 新しいバージョンへアップグレードするときにコンテンツを移行する
 
-Liberation はコンテンツを作業フォルダーに保存します（[where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md) を参照）。この作業フォルダーは、新しいバージョンがリリースされるたびに変わります。古いバージョンの作業ファイルを新しいバージョンでも使いたい場合は、次の手順を行います。&#x20;
+Liberation はコンテンツを作業フォルダーに保存します（[working folder の場所](../troubleshooting/where-to-find-the-working-folder.md) を参照）。この作業フォルダーは、新しいバージョンがリリースされるたびに変わります。古いバージョンの作業ファイルを新しいバージョンでも使いたい場合は、次の手順を行います。&#x20;
 
 1. 元のバージョンの Liberation を開きます
 2. _File->Project->Export Project_ を使用します。これにより、Liberation 内のすべて（レーザー設定、タイムライン、Clip Deck など）が保存されます。&#x20;

@@ -26,7 +26,7 @@ randomise nodeは、Randomiseエフェクトの中核です。
 
 コンテンツの残像を作成し、元の要素が動くにつれて、フェードまたはスケールするコピーを後ろに残します。
 
-* **change render profile for trail** – オンにすると、すべてのトレイルコピーが選択した**render profile**を使用します。_参照:_ [render-profile.md](../fundamentals/render-profile.md "mention")
+* **change render profile for trail** – オンにすると、すべてのトレイルコピーが選択した**render profile**を使用します。_参照:_ [Render profile](../fundamentals/render-profile.md "mention")
 * **render profile** – 上のスイッチがオンのときに、トレイルコピーに使用するプロファイルです。メインコンテンツを**DETAIL**に設定し、残像を**FAST**でレンダリングする用途でよく使われます。これにより、メインのシェイプは細部を保ちながら、トレイルはより効率的にレンダリングできます。
 * **delay** – トレイルコピー間の間隔を音楽的な時間で設定します。単位は**1/64音符ステップ**です。\
   目安:

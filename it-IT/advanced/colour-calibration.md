@@ -17,7 +17,7 @@ I diodi laser cambiano comportamento man mano che si riscaldano. Lascia sempre s
 
 #### Come funziona il test di calibrazione
 
-Usa i pattern di test per la calibrazione (vedi [test-patterns.md](../output-view/test-patterns.md))
+Usa i pattern di test per la calibrazione (vedi [Pattern di test](../output-view/test-patterns.md))
 
 * **5** – Rosso
 * **6** – Verde

@@ -20,7 +20,7 @@ Les premiers LaserCube sont contrôlés via USB, mais les modèles actuels dispo
 
 ### LaserCube USB
 
-Connectez votre LaserCube à votre ordinateur avec un câble micro USB, puis recherchez-le dans le panneau _Controller Assignment_ (voir [controller-assignment.md](../setting-up/controller-assignment.md "mention")). S’il n’apparaît pas automatiquement, cliquez sur le bouton _REFRESH_.
+Connectez votre LaserCube à votre ordinateur avec un câble micro USB, puis recherchez-le dans le panneau _Controller Assignment_ (voir [Attribution des contrôleurs](../setting-up/controller-assignment.md "mention")). S’il n’apparaît pas automatiquement, cliquez sur le bouton _REFRESH_.
 
 ### LaserCube réseau « Wifi »
 
@@ -30,7 +30,7 @@ Même si les cubes « Wifi » sont conçus pour fonctionner sur un réseau sans 
 
 Connectez votre LaserCube à votre réseau filaire.
 
-Placez votre LaserCube en mode « LAN Client » et assurez-vous qu’un routeur est présent sur votre réseau. Le LaserCube recevra une adresse IP depuis votre routeur, puis devrait apparaître dans le panneau _Controller Assignment_. (Voir [controller-assignment.md](../setting-up/controller-assignment.md "mention")).
+Placez votre LaserCube en mode « LAN Client » et assurez-vous qu’un routeur est présent sur votre réseau. Le LaserCube recevra une adresse IP depuis votre routeur, puis devrait apparaître dans le panneau _Controller Assignment_. (Voir [Attribution des contrôleurs](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Il est possible de configurer un réseau sans routeur et d’attribuer des adresses IP fixes à tous vos appareils ; c’est très courant dans le secteur de l’événementiel. Personnellement, je préfère ajouter un routeur au réseau, et je recommande cette option à toute personne moins expérimentée en réseau.

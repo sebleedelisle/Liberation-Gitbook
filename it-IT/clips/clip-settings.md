@@ -14,7 +14,7 @@ Modifica la dimensione di output della clip con _Scale X_ e _Scale Y_. Sono coll
 
 Modifica la posizione orizzontale e verticale della clip con _Shift X_ e _Shift Y_.
 
-_Zone Delay/Chase_ è una funzione così divertente che ha una sezione tutta sua. [zone-delay-chase.md](zone-delay-chase.md)
+_Zone Delay/Chase_ è una funzione così divertente che ha una sezione tutta sua. [Zone delay / chase](zone-delay-chase.md)
 
 ### Bloccare le clip
 
@@ -27,7 +27,7 @@ Se una clip è bloccata, non può essere spostata o eliminata. Per bloccare una 
 
 ### Menu del clic destro
 
-Se fai clic destro su una clip, appare un menu con alcune opzioni relative a quella clip. Vedi [clip-editor-intro.md](../clip-editor/clip-editor-intro.md), [clip-settings.md](clip-settings.md) e [groups.md](groups.md) per maggiori informazioni sulle prime voci di questo menu.
+Se fai clic destro su una clip, appare un menu con alcune opzioni relative a quella clip. Vedi [Introduzione al Clip Editor](../clip-editor/clip-editor-intro.md), [Impostazioni delle clip](clip-settings.md) e [Gruppi di Clip](groups.md) per maggiori informazioni sulle prime voci di questo menu.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Il menu del clic destro delle impostazioni clip</p></figcaption></figure>
 

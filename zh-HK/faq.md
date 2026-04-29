@@ -151,7 +151,7 @@ Liberation 會在你的授權續期後提供 7 天寬限期，讓你連接互聯
 
 #### **如何將 Liberation 與音樂同步？**
 
-它有一個智能的「tap tempo」系統，運作方式如你所預期；你亦可以使用外部 MIDI clock 或 Ableton Link。請參閱 [Tempo 同步](tempo-synchronisation.md)。Timeline 可同步至經由任何 audio interface 輸入的 LTC/SMPTE timecode。請參閱 [Timecode](timecode.md)。
+它有一個智能的「tap tempo」系統，運作方式如你所預期；你亦可以使用外部 MIDI clock 或 Ableton Link。請參閱 [Tempo 同步](tempo-synchronisation.md)。Timeline 可同步至經由任何 audio interface 輸入的 LTC/SMPTE timecode。請參閱 [時間碼](timecode.md)。
 
 #### 要獲得最佳激光 output，需要調整哪些設定？
 

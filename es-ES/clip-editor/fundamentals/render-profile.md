@@ -16,7 +16,7 @@ A diferencia de la mayoría del software láser, Liberation genera un flujo de p
 
 También significa que puedes ajustar el mismo contenido para distintos tipos de escáneres, láser por láser, sin tener que modificar los propios clips.
 
-Para más información, consulta [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+Para más información, consulta [◼️ Cómo genera Liberation contenido láser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 Hay tres _Render Profiles_ predefinidos: _DEFAULT_, _FAST_ y _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ si tu clip tiene mucho contenido y parte de él son puntos y línea
 _**DETAIL**_ - si estás dibujando algo que necesita esquinas definidas, usa esta opción. Pero ten en cuenta que tus escáneres se moverán más despacio, lo que hará que la salida parpadee más.
 
 {% hint style="info" %}
-Dentro del editor de clips, puedes asignar creators a distintos perfiles de renderizado, pero cada láser procesará estos perfiles según sus ajustes de escáner. Consulta [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Dentro del editor de clips, puedes asignar creators a distintos perfiles de renderizado, pero cada láser procesará estos perfiles según sus ajustes de escáner. Consulta [◼️ Preajustes de escáner y perfiles de renderizado](../../advanced/scanner-presets.md "mention")
 {% endhint %}

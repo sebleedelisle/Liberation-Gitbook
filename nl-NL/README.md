@@ -27,9 +27,9 @@ Deze gids helpt je vertrouwd te raken met Liberation: van installatie en de basi
 
 ## Zo gebruik je deze gids
 
-* Begin met [**Important! Read this first**](important.md) om belangrijke veiligheids- en licentie-informatie door te nemen voordat je hardware aansluit.
-* Volg de [**Quick start guide**](getting-started.md) als je snel output wilt krijgen, en duik daarna in [**Hardware**](hardware/) en [**Setting up**](setting-up/) voor uitgebreidere configuratie.
-* Gebruik de sectiekoppen om direct naar onderwerpen te gaan, bijvoorbeeld [**Clips & Clip deck**](clips/), [**Output view**](output-view/), **enzovoort**, en ga terug naar [**Reference**](reference/) of [**Troubleshooting**](troubleshooting/) wanneer je specifieke antwoorden nodig hebt.
+* Begin met [**Belangrijk! Lees dit eerst**](important.md) om belangrijke veiligheids- en licentie-informatie door te nemen voordat je hardware aansluit.
+* Volg de [**Quickstartgids**](getting-started.md) als je snel output wilt krijgen, en duik daarna in [**Hardware**](hardware/) en [**Instellen**](setting-up/) voor uitgebreidere configuratie.
+* Gebruik de sectiekoppen om direct naar onderwerpen te gaan, bijvoorbeeld [**Clips & Clip deck**](clips/), [**Output-weergave**](output-view/), **enzovoort**, en ga terug naar [**Referentie**](reference/) of [**Probleemoplossing**](troubleshooting/) wanneer je specifieke antwoorden nodig hebt.
 
 ## Conventies en tips
 
@@ -37,4 +37,4 @@ Deze gids helpt je vertrouwd te raken met Liberation: van installatie en de basi
 * Links gelden voor de huidige release; screenshots en menu’s kunnen iets afwijken als je een oudere build gebruikt.
 * Bij hardwarestappen staan veiligheidseerste standaardinstellingen centraal: omzeil nooit interlocks en houd stralen uit de buurt van mensen.
 
-Loop je vast, kijk dan eerst in de [**FAQ**](faq.md) en daarna in de sectie [**Troubleshooting**](troubleshooting/) voor gerichte oplossingen voordat je contact opneemt met support.
+Loop je vast, kijk dan eerst in de [**FAQ**](faq.md) en daarna in de sectie [**Probleemoplossing**](troubleshooting/) voor gerichte oplossingen voordat je contact opneemt met support.

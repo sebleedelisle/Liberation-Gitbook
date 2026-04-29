@@ -60,7 +60,7 @@ Use o botão _METRONOME_ para **reset the bar**. (Observe que o botão _METRONOM
 
 Gire o knob _TEMPO_ um “tick” para a direita ou para a esquerda para **round the tempo** para cima ou para baixo até um valor inteiro de BPM.
 
-Veja também [apc40-reference.md](reference/apc40-reference.md)
+Veja também [Referência do APC40](reference/apc40-reference.md)
 
 ### Nudge tempo
 

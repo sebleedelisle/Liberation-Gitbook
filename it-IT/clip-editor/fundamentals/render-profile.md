@@ -16,7 +16,7 @@ A differenza della maggior parte dei software laser, Liberation genera uno strea
 
 Significa anche che puoi ottimizzare lo stesso contenuto per diversi tipi di scanner, laser per laser, senza dover modificare le clip.
 
-Per maggiori dettagli, vedi [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md)
+Per maggiori dettagli, vedi [◼️ Come Liberation genera contenuti laser](../../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 Sono disponibili tre _Render Profiles_ preimpostati: _DEFAULT_, _FAST_ e _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ se la tua clip contiene molti elementi e alcuni sono semplicemente 
 _**DETAIL**_ - se stai disegnando qualcosa che richiede angoli netti, usa questa opzione. Tieni però presente che gli scanner si muoveranno più lentamente, rendendo l’output più soggetto a flicker.
 
 {% hint style="info" %}
-Nel clip editor puoi assegnare i creator a diversi render profile, ma ogni laser elaborerà questi profili in base alle proprie impostazioni dello scanner. Vedi [scanner-presets.md](../../advanced/scanner-presets.md)
+Nel clip editor puoi assegnare i creator a diversi render profile, ma ogni laser elaborerà questi profili in base alle proprie impostazioni dello scanner. Vedi [◼️ Preset scanner e profili di rendering](../../advanced/scanner-presets.md)
 {% endhint %}

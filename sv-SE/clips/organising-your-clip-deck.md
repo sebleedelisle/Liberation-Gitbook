@@ -9,7 +9,7 @@ metaLinks:
 
 ### Flytta/duplicera klipp
 
-Klicka och dra för att flytta ett klipp. Om fler än ett klipp är markerat (se [starting-stopping-clips.md](starting-stopping-clips.md "mention")) flyttas alla. Håll ned `Alt / Option` för att duplicera dem. Släpp klippet eller klippen på en tom plats.
+Klicka och dra för att flytta ett klipp. Om fler än ett klipp är markerat (se [Starta/stoppa clips](starting-stopping-clips.md "mention")) flyttas alla. Håll ned `Alt / Option` för att duplicera dem. Släpp klippet eller klippen på en tom plats.
 
 {% hint style="info" %}
 Om du behöver markera många klipp kan du klicka och dra ett markeringslasso och sedan rulla i Clip Deck medan du fortfarande drar (antingen med piltangenterna, APC 40 eller sidscrollning på pekplatta/mus). Lassot förlängs utanför kanten på Clip Deck.

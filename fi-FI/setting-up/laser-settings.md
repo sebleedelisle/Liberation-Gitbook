@@ -41,7 +41,7 @@ Huomaa, että orientation / mirroring -korjaukset eivät muuta mitään 3D Visua
 
 ### Laserasetusten kopiointi
 
-Katso [#copy-laser-settings](laser-settings.md#copy-laser-settings).
+Katso [Laser output -asetuspaneeli](laser-settings.md#copy-laser-settings).
 
 ### Scanner settings
 
@@ -56,7 +56,7 @@ Vaikka oletusasetukset ovat melko varovaiset, voit silti vahingoittaa skannereit
 {% endhint %}
 
 {% hint style="info" %}
-Tämä Speed-asetus ei muuta pisteiden lähetysnopeutta, vaan säätää sitä, kuinka harvassa tai tiheässä pisteet ovat. Lisätietoja: [how-liberation-generates-laser-content.md](../advanced/how-liberation-generates-laser-content.md)
+Tämä Speed-asetus ei muuta pisteiden lähetysnopeutta, vaan säätää sitä, kuinka harvassa tai tiheässä pisteet ovat. Lisätietoja: [◼️ Miten Liberation luo lasersisältöä](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,12 +73,12 @@ Jos laserin ulostulossa näkyy pieniä ”häntiä”, scanner sync vaatii toden
 
 #### Scanner presets
 
-Tällä valitaan valmis skanneriasetus. Oletusvaihtoehto on yleensä sopiva, joten tätä asetusta ei pitäisi tarvita muuttaa, elleivät skannerisi ole erityisen huonot (tai hyvät). Jos haluat perehtyä tarkemmin, katso [scanner-presets.md](../advanced/scanner-presets.md)
+Tällä valitaan valmis skanneriasetus. Oletusvaihtoehto on yleensä sopiva, joten tätä asetusta ei pitäisi tarvita muuttaa, elleivät skannerisi ole erityisen huonot (tai hyvät). Jos haluat perehtyä tarkemmin, katso [◼️ Skanneriesiasetukset ja renderöintiprofiilit](../advanced/scanner-presets.md)
 
 #### Colour calibration
 
-Tällä järjestelmällä voit korjata laserin kirkkauskäyrää ja valkotasapainoa. Katso [colour-calibration.md](../advanced/colour-calibration.md)
+Tällä järjestelmällä voit korjata laserin kirkkauskäyrää ja valkotasapainoa. Katso [Värikalibrointi](../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Näihin ei yleensä tarvitse koskea, mutta jos olet kiinnostunut, katso [advanced-laser-settings.md](../advanced/advanced-laser-settings.md)
+Näihin ei yleensä tarvitse koskea, mutta jos olet kiinnostunut, katso [◼️ Laserin lisäasetukset](../advanced/advanced-laser-settings.md)

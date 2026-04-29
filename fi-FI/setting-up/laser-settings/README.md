@@ -50,7 +50,7 @@ Vaikka oletusasetukset ovat melko varovaiset, voit silti vahingoittaa skannereit
 {% endhint %}
 
 {% hint style="info" %}
-Tämä Speed-asetus ei muuta pisteiden määrää sekunnissa, vaan säätää sitä, kuinka laajalle pisteet jakautuvat. Lisätietoja on kohdassa [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md)
+Tämä Speed-asetus ei muuta pisteiden määrää sekunnissa, vaan säätää sitä, kuinka laajalle pisteet jakautuvat. Lisätietoja on kohdassa [◼️ Miten Liberation luo lasersisältöä](../../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Jos laserin ulostulossa näkyy pieniä ”häntiä”, Scanner sync tarvitsee to
 
 #### Scanner presets
 
-Tällä valitaan valmiiksi suunniteltu skanneriasetus. Oletusasetus on yleensä sopiva, joten tätä ei pitäisi tarvita muuttaa, elleivät skannerisi ole poikkeuksellisen huonot (tai hyvät). Jos haluat perehtyä tarkemmin, katso [scanner-presets.md](../../advanced/scanner-presets.md)
+Tällä valitaan valmiiksi suunniteltu skanneriasetus. Oletusasetus on yleensä sopiva, joten tätä ei pitäisi tarvita muuttaa, elleivät skannerisi ole poikkeuksellisen huonot (tai hyvät). Jos haluat perehtyä tarkemmin, katso [◼️ Skanneriesiasetukset ja renderöintiprofiilit](../../advanced/scanner-presets.md)
 
 #### Colour calibration
 
-Tällä järjestelmällä voit korjata laserin kirkkauskäyrää ja valkotasapainoa. Katso [colour-calibration.md](../../advanced/colour-calibration.md)
+Tällä järjestelmällä voit korjata laserin kirkkauskäyrää ja valkotasapainoa. Katso [Värikalibrointi](../../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Näihin ei yleensä tarvitse koskea, mutta jos olet utelias, katso [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md)
+Näihin ei yleensä tarvitse koskea, mutta jos olet utelias, katso [◼️ Laserin lisäasetukset](../../advanced/advanced-laser-settings.md)
