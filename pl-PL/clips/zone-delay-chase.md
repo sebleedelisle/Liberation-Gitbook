@@ -14,7 +14,7 @@ System zone delay to prosta, ale skuteczna metoda wprowadzania różnorodności 
 
 _Zone delay_ dodaje opóźnienie do taktowania klipu w kolejnych strefach, tworząc rodzaj przejścia przez strefy.
 
-Bardzo skuteczne jest dodanie zone delay do już odtwarzanego klipu — użyj odpowiedniej kontrolki na APC40, aby regulować poziom i wzór. (Zobacz [apc40-reference.md](../reference/apc40-reference.md)). Możesz też użyć panelu _Clip Settings_.
+Bardzo skuteczne jest dodanie zone delay do już odtwarzanego klipu — użyj odpowiedniej kontrolki na APC40, aby regulować poziom i wzór. (Zobacz [Referencja APC40](../reference/apc40-reference.md)). Możesz też użyć panelu _Clip Settings_.
 
 Ustawienia zone delay:
 
@@ -39,7 +39,7 @@ Pattern działa na numerach stref i zakłada, że strefy są ustawione kolejno o
 Zone delay jest stosowany także do wszystkich aktywnych efektów. Na przykład efekt migania zostanie opóźniony między strefami tak samo jak animacja w samym klipie.
 {% endhint %}
 
-Gdy klip ma dowolny rodzaj _Zone delay_, w prawym górnym rogu klipu zobaczysz ikonę trzech kropek. Kropki są animowane, aby pokazać styl _Zone delay_ dla tego klipu. Więcej szczegółów znajdziesz w [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md).
+Gdy klip ma dowolny rodzaj _Zone delay_, w prawym górnym rogu klipu zobaczysz ikonę trzech kropek. Kropki są animowane, aby pokazać styl _Zone delay_ dla tego klipu. Więcej szczegółów znajdziesz w [Co oznaczają małe ikony na przyciskach klipów?](what-are-the-small-icons-on-the-clip-buttons.md).
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Symbol trzech kropek wskazujący, że klip ma zone delay, oraz pokazujący jego tryb</p></figcaption></figure>
 

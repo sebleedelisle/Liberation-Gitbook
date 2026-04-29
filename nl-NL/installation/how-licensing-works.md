@@ -13,7 +13,7 @@ Zodra je Liberation op je computer hebt geïnstalleerd, draait het in _demomodus
 In _demomodus_ zijn er geen beperkingen, behalve uitvoer naar laserhardware. Je kunt shows oefenen, timelines bouwen en je bestanden zonder beperkingen opslaan en laden. Je kunt Liberation in _demomodus_ op zoveel computers installeren als je wilt; je hoeft je installatie pas te autoriseren wanneer je klaar bent om lasers te gebruiken!
 {% endhint %}
 
-Naast het aantal lasers dat je kunt armeren, kun je ook DMX fixtures gebruiken. Zie [dmx-control](../dmx-control/ "mention").
+Naast het aantal lasers dat je kunt armeren, kun je ook DMX fixtures gebruiken. Zie [DMX / Artnet](../dmx-control/ "mention").
 
 Er geldt ook een limiet voor het aantal computers waarop je Liberation kunt autoriseren, afhankelijk van je abonnementsniveau.
 

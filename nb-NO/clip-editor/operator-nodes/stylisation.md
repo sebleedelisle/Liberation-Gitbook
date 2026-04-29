@@ -26,7 +26,7 @@ Randomise-noden er kjernen i Randomise-effekten!
 
 Lager ekkoer av innholdet ditt, med kopier som toner ut eller skaleres bak originalen mens den beveger seg.
 
-* **change render profile for trail** – hvis på, bruker alle trail-kopier valgt **render profile**. _Se_ [render-profile.md](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – hvis på, bruker alle trail-kopier valgt **render profile**. _Se_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – profilen som brukes for trail-kopier når bryteren over er på. Brukes ofte når hovedinnholdet er satt til **DETAIL**, mens ekkoene rendres som **FAST**. Da får du tydelige detaljer i hovedformene, samtidig som trails rendres mer effektivt.
 * **delay** – angir avstanden mellom trail-kopier i musikalsk tid, målt i **1/64-note-trinn**.\
   Til referanse:

@@ -19,7 +19,7 @@ Ecco l'elenco completo dei pattern di test. I pattern riempiono l'intero spazio 
 3. Linee verdi orizzontali - 4 linee orizzontali, distribuite in modo uniforme.
 4. Linee verdi verticali - 4 linee verticali, distribuite in modo uniforme.
 
-Pattern di calibrazione del colore 5-8. Possono essere usati insieme al sistema di correzione del colore nelle impostazioni del laser. Vedi [colour-calibration.md](../advanced/colour-calibration.md). Questi pattern non riempiono l'intero spazio di output.
+Pattern di calibrazione del colore 5-8. Possono essere usati insieme al sistema di correzione del colore nelle impostazioni del laser. Vedi [Calibrazione del colore](../advanced/colour-calibration.md). Questi pattern non riempiono l'intero spazio di output.
 
 5. Pattern di calibrazione del colore - rosso.
 6. Pattern di calibrazione del colore - verde.

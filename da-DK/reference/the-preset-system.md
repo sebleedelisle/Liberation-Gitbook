@@ -27,7 +27,7 @@ Du kan også importere og eksportere presetfiler med load/save-knappen (et diske
 Hvis du redigerer et preset, for eksempel scannerindstillingen _Default_, skal du være opmærksom på, at de andre lasere ikke opdateres automatisk. I stedet vil hver af deres scannerindstillinger nu være mærket _Default(edited)_. For at opdatere dette til det nye _Default_-preset skal du vælge det igen fra rullelisten.
 
 {% hint style="info" %}
-Hvis du har mange lasere og vil opdatere scannerindstillingerne for dem alle, skal du bruge _COPY LASER SETTINGS_-systemet. Se [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention")
+Hvis du har mange lasere og vil opdatere scannerindstillingerne for dem alle, skal du bruge _COPY LASER SETTINGS_-systemet. Se [Kopiér indstillinger mellem lasere](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Hvis du sletter et preset, der bruges et andet sted, mister du ikke indstillingen. Den vil i stedet blive vist som _(deleted)._

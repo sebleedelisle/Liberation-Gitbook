@@ -434,6 +434,8 @@ def system_prompt(target_language, language_name):
             "Translate visible Markdown link text when it is natural-language text, while preserving each link target exactly.",
             "When a Markdown link points to another manual page or section, make the visible link text match",
             "the translated title or heading for that destination instead of leaving the English source title.",
+            "For GitBook mention links, do not leave visible labels as filenames, paths, slugs, or English titles",
+            "such as setting-up-lasers.md, output-view, or Quick start guide; use the translated destination heading.",
             "Current app terminology: because the app UI is currently in English, keep these app concepts and UI terms",
             f"in English when they refer to Liberation features: {app_terms}.",
             "This glossary applies to Liberation UI and app concepts, not to generic hardware, safety, or operating-system terms.",
@@ -463,6 +465,7 @@ def user_prompt(relative_path, source_text, retry_errors=None):
         "- Do not wrap the result in a Markdown code fence.",
         "- Preserve every Markdown link target exactly, but translate visible Markdown link text.",
         "- If a link points to another manual page or section, use visible link text that matches the translated title or heading for that destination.",
+        "- Do not leave GitBook mention link labels as filenames, paths, slugs, or English titles.",
         "- Preserve every image src/path exactly.",
         "- Preserve code fences and inline code exactly.",
     ]

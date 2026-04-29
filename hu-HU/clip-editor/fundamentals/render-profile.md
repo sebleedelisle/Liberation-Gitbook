@@ -16,7 +16,7 @@ A legtöbb lézerszoftverrel ellentétben a Liberation valós időben generálja
 
 Ez azt is jelenti, hogy ugyanazt a tartalmat lézerenként különböző szkennertípusokhoz hangolhatod, anélkül hogy magukat a Clip-eket módosítanod kellene.
 
-További részletekért lásd: [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md)
+További részletekért lásd: [◼️ Hogyan generál a Liberation lézeres tartalmat](../../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 Három előre beállított _Render Profile_ érhető el: _DEFAULT_, _FAST_ és _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ ha a Clip sok tartalmat tartalmaz, és ezek egy része csak nagyon 
 _**DETAIL**_ – ha olyan tartalmat rajzolsz, amelynél éles sarkokra van szükség, ezt a beállítást használd. Vedd figyelembe, hogy a szkennerek lassabban fognak mozogni, ezért a kimenet villódzóbb lehet.
 
 {% hint style="info" %}
-A clip editorben a Creator csomópontokat különböző renderprofilokhoz rendelheted, de az egyes lézerek ezeket a profilokat a saját scanner beállításaik alapján dolgozzák fel. Lásd: [scanner-presets.md](../../advanced/scanner-presets.md)
+A clip editorben a Creator csomópontokat különböző renderprofilokhoz rendelheted, de az egyes lézerek ezeket a profilokat a saját scanner beállításaik alapján dolgozzák fel. Lásd: [◼️ Scanner presets és renderprofilok](../../advanced/scanner-presets.md)
 {% endhint %}

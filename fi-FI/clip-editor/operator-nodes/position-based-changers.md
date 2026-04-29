@@ -32,7 +32,7 @@ Tämä solmu muuttaa sisällön värejä sijainnin perusteella. Oletuksena aksel
 
 **Colour Modes**
 
-Nämä määrittävät, mitkä värisäätöjen osa-alueet käytetään sisältöön. Katso myös: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md).
+Nämä määrittävät, mitkä värisäätöjen osa-alueet käytetään sisältöön. Katso myös: [Väriasetukset ja HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue ei muutu.

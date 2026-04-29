@@ -17,7 +17,7 @@ Soms wil je meerdere canvas target areas gebruiken voor verschillende delen van 
 
 ### Clips naar canvas target areas sturen
 
-Als je in de Clip Deck kijkt, zie je naast de beam-zoneknoppen ook de knoppen voor canvas target areas. Mogelijk moet je door de output-knoppen scrollen om ze te zien. Gebruik `Shift + Left / Right Arrow`, de ZONE PAGE-knoppen op het scherm, of de APC40-knoppen (zie [apc40-reference.md](../reference/apc40-reference.md "mention"))
+Als je in de Clip Deck kijkt, zie je naast de beam-zoneknoppen ook de knoppen voor canvas target areas. Mogelijk moet je door de output-knoppen scrollen om ze te zien. Gebruik `Shift + Left / Right Arrow`, de ZONE PAGE-knoppen op het scherm, of de APC40-knoppen (zie [APC40-referentie](../reference/apc40-reference.md "mention"))
 
 Wijs clips toe aan canvas target areas door deze knoppen in of uit te schakelen, precies zoals je dat met de beam-zoneknoppen doet.
 

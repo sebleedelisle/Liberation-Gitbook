@@ -14,7 +14,7 @@ Muuta clipin ulostulon kokoa asetuksilla _Scale X_ ja _Scale Y_. Ne on lukittu y
 
 Muuta clipin vaaka- ja pystysijaintia asetuksilla _Shift X_ ja _Shift Y_.
 
-_Zone Delay/Chase_ on niin hauska ominaisuus, että sille on oma osionsa. [zone-delay-chase.md](zone-delay-chase.md)
+_Zone Delay/Chase_ on niin hauska ominaisuus, että sille on oma osionsa. [Zone delay / chase](zone-delay-chase.md)
 
 ### Clipien lukitseminen
 
@@ -27,7 +27,7 @@ Jos clip on lukittu, sitä ei voi siirtää tai poistaa. Lukitse clip oikean pai
 
 ### Oikean painikkeen valikko
 
-Kun napsautat clipiä oikealla painikkeella, näkyviin tulee valikko, jossa on kyseisen clipin asetuksia. Katso lisätietoja valikon ensimmäisistä kohdista: [clip-editor-intro.md](../clip-editor/clip-editor-intro.md), [clip-settings.md](clip-settings.md) ja [groups.md](groups.md).
+Kun napsautat clipiä oikealla painikkeella, näkyviin tulee valikko, jossa on kyseisen clipin asetuksia. Katso lisätietoja valikon ensimmäisistä kohdista: [Johdanto Clip Editoriin](../clip-editor/clip-editor-intro.md), [Clip settings](clip-settings.md) ja [Clip-ryhmät](groups.md).
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Clip settings -valikko oikealla painikkeella</p></figcaption></figure>
 

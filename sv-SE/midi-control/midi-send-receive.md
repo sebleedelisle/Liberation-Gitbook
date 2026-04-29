@@ -25,6 +25,6 @@ Använd inställningen _BOTH_ med försiktighet. MIDI-enheter och programvara ka
 
 ### MIDI-mappning
 
-Se [midi-send-receive-default-mapping.md](../reference/midi-send-receive-default-mapping.md "mention")
+Se [Standardmappning för MIDI-sändning/-mottagning](../reference/midi-send-receive-default-mapping.md "mention")
 
 Jag planerar att lägga till betydligt mer anpassningsbar MIDI-mappning i framtiden, men tills vidare kan du använda appar som [BOME](https://www.bome.com/products/miditranslator) och [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) för att översätta mellan Liberation och din egen hårdvara.

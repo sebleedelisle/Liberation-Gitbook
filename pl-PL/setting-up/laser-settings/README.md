@@ -35,7 +35,7 @@ Pamiętaj, że korekcje orientacji / odbicia lustrzanego nie zmieniają niczego 
 
 ### Kopiowanie ustawień lasera
 
-Zobacz [#copy-laser-settings](./#copy-laser-settings).
+Zobacz [Panel ustawień Laser output](./#copy-laser-settings).
 
 ### Ustawienia skanerów
 
@@ -50,7 +50,7 @@ Chociaż ustawienia domyślne są dość zachowawcze, nadal możesz uszkodzić s
 {% endhint %}
 
 {% hint style="info" %}
-To ustawienie prędkości nie zmienia częstotliwości punktów. Zamiast tego reguluje, jak bardzo punkty są od siebie oddalone. Więcej informacji znajdziesz w [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md)
+To ustawienie prędkości nie zmienia częstotliwości punktów. Zamiast tego reguluje, jak bardzo punkty są od siebie oddalone. Więcej informacji znajdziesz w [◼️ Jak Liberation generuje treści laserowe](../../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Jeśli na wyjściu lasera widzisz małe „ogonki”, prawdopodobnie trzeba dost
 
 #### Scanner presets
 
-Użyj tego ustawienia, aby wybrać gotową konfigurację skanerów. Opcja domyślna zwykle jest odpowiednia, więc nie powinno być potrzeby jej zmiany, chyba że masz szczególnie słabe (albo szczególnie dobre) skanery. Jeśli chcesz dowiedzieć się więcej, zobacz [scanner-presets.md](../../advanced/scanner-presets.md)
+Użyj tego ustawienia, aby wybrać gotową konfigurację skanerów. Opcja domyślna zwykle jest odpowiednia, więc nie powinno być potrzeby jej zmiany, chyba że masz szczególnie słabe (albo szczególnie dobre) skanery. Jeśli chcesz dowiedzieć się więcej, zobacz [◼️ Presety skanera i profile renderowania](../../advanced/scanner-presets.md)
 
 #### Colour calibration
 
-Ten system pozwala skorygować krzywą jasności i balans bieli lasera. Zobacz [colour-calibration.md](../../advanced/colour-calibration.md)
+Ten system pozwala skorygować krzywą jasności i balans bieli lasera. Zobacz [Kalibracja kolorów](../../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Nie powinno być potrzeby zmieniania tych ustawień, ale jeśli chcesz dowiedzieć się więcej, zobacz [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md)
+Nie powinno być potrzeby zmieniania tych ustawień, ale jeśli chcesz dowiedzieć się więcej, zobacz [◼️ Zaawansowane ustawienia lasera](../../advanced/advanced-laser-settings.md)

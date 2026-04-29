@@ -38,7 +38,7 @@ WARNUNG: Wenn der Laser aktiviert ist, könntest du plötzlich Inhalte in einer 
 {% endhint %}
 
 {% hint style="info" %}
-Du kannst eine Canvas Zone auch einem Laser zuweisen, indem du in der _OUTPUT_-Ansicht auf den Button _add canvas zone_ klickst. Siehe [zones.md](../output-view/zones.md "mention").
+Du kannst eine Canvas Zone auch einem Laser zuweisen, indem du in der _OUTPUT_-Ansicht auf den Button _add canvas zone_ klickst. Siehe [Zonen](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Guide Images

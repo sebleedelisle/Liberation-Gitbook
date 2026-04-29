@@ -20,7 +20,7 @@ Vroege LaserCubes worden via USB aangestuurd, maar de huidige modellen hebben al
 
 ### USB LaserCube
 
-Verbind je LaserCube met je computer via een micro-USB-kabel en zoek hem daarna op in het _Controller Assignment_-paneel (zie [controller-assignment.md](../setting-up/controller-assignment.md "mention")). Als hij niet automatisch verschijnt, klik dan op de knop _REFRESH_.
+Verbind je LaserCube met je computer via een micro-USB-kabel en zoek hem daarna op in het _Controller Assignment_-paneel (zie [Controllertoewijzing](../setting-up/controller-assignment.md "mention")). Als hij niet automatisch verschijnt, klik dan op de knop _REFRESH_.
 
 ### Netwerk-LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ Hoewel de "Wifi"-cubes zijn ontworpen om via een draadloos netwerk te werken, wo
 
 Verbind je LaserCube met je bekabelde netwerk.
 
-Zet je LaserCube in de modus "LAN Client" en zorg dat er een router in je netwerk aanwezig is. De LaserCube krijgt een IP-adres van je router en zou daarna moeten verschijnen in het _Controller Assignment_-paneel. (Zie [controller-assignment.md](../setting-up/controller-assignment.md "mention")).
+Zet je LaserCube in de modus "LAN Client" en zorg dat er een router in je netwerk aanwezig is. De LaserCube krijgt een IP-adres van je router en zou daarna moeten verschijnen in het _Controller Assignment_-paneel. (Zie [Controllertoewijzing](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Het is mogelijk om een netwerk zonder router op te zetten en al je apparaten vaste IP-adressen te geven. Dit komt veel voor in de evenementenbranche. Persoonlijk geef ik er de voorkeur aan om een router aan het netwerk toe te voegen, en ik raad deze optie aan voor iedereen met minder netwerkervaring.

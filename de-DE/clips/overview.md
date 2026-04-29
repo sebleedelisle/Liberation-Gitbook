@@ -12,7 +12,7 @@ Alle Laser-Inhalte in Liberation werden in Clips gespeichert.
 
 Clips können atmosphärische Beam-Effekte oder grafische Animationen enthalten und laufen in der Regel als Loop. Sie können in jede Zone (oder Canvas Target Area) geleitet werden und werden über die Clip-Buttons im Clip Deck ausgelöst.
 
-Clip-Inhalte werden mit dem vielseitigen node-basierten Clip-Editor-System erstellt. (Weitere Details findest du unter [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"))
+Clip-Inhalte werden mit dem vielseitigen node-basierten Clip-Editor-System erstellt. (Weitere Details findest du unter [Einführung in den Clip Editor](../clip-editor/clip-editor-intro.md "mention"))
 
 ### Das Clip Deck
 

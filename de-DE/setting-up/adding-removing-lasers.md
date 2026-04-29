@@ -15,12 +15,12 @@ oder in der Ansicht _Output_ auf die Schaltfläche _+_.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Wenn du einen neuen Laser hinzufügst, wird ihm automatisch eine Beam-Zone hinzugefügt. Beachte, dass Laser und Zonen in der Reihenfolge sortiert werden, in der du sie hinzufügst. Siehe [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md "mention").
+Wenn du einen neuen Laser hinzufügst, wird ihm automatisch eine Beam-Zone hinzugefügt. Beachte, dass Laser und Zonen in der Reihenfolge sortiert werden, in der du sie hinzufügst. Siehe [Beam-Zonen neu anordnen](../output-view/re-ordering-beam-zones.md "mention").
 
 Entferne einen Laser, indem du im Panel _Laser overview_ auf die rote Schaltfläche "-" klickst. Beachte, dass dabei alle Einstellungen dieses Lasers verloren gehen!
 
 {% hint style="info" %}
-Wenn du Zonen oder andere Einstellungen von anderen Lasern kopieren möchtest, verwende [copy-laser-settings.md](copy-laser-settings.md "mention")
+Wenn du Zonen oder andere Einstellungen von anderen Lasern kopieren möchtest, verwende [Einstellungen zwischen Lasern kopieren](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

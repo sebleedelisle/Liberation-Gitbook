@@ -27,9 +27,9 @@ Esta guía te ayudará a familiarizarte con Liberation: desde la instalación y 
 
 ## Cómo usar la guía
 
-* Empieza por [**Important! Read this first**](important.md) para revisar las notas críticas de seguridad y licencia antes de conectar hardware.
-* Sigue la [**guía de inicio rápido**](getting-started.md) si quieres obtener salida rápidamente y, después, entra en [**Hardware**](hardware/) y [**Setting up**](setting-up/) para una configuración más detallada.
-* Usa los encabezados de sección para saltar directamente a temas concretos (por ejemplo, [**Clips & Clip deck**](clips/), [**Output view**](output-view/), **etc.**) y vuelve a [**Reference**](reference/) o [**Troubleshooting**](troubleshooting/) cuando necesites respuestas precisas.
+* Empieza por [**¡Importante! Lee esto primero**](important.md) para revisar las notas críticas de seguridad y licencia antes de conectar hardware.
+* Sigue la [**guía de inicio rápido**](getting-started.md) si quieres obtener salida rápidamente y, después, entra en [**Hardware**](hardware/) y [**Configuración**](setting-up/) para una configuración más detallada.
+* Usa los encabezados de sección para saltar directamente a temas concretos (por ejemplo, [**Clips y Clip deck**](clips/), [**Vista Output**](output-view/), **etc.**) y vuelve a [**Referencia**](reference/) o [**Resolución de problemas**](troubleshooting/) cuando necesites respuestas precisas.
 
 ## Convenciones y consejos
 
@@ -37,4 +37,4 @@ Esta guía te ayudará a familiarizarte con Liberation: desde la instalación y 
 * Los enlaces corresponden a la versión actual; las capturas de pantalla y los menús pueden variar ligeramente si usas una compilación anterior.
 * Los pasos de hardware señalan los valores predeterminados más seguros: nunca puentees los interlocks y mantén los haces alejados de las personas.
 
-Si te bloqueas, consulta las [**FAQ**](faq.md) y, después, la sección [**Troubleshooting**](troubleshooting/) para encontrar soluciones específicas antes de contactar con soporte.
+Si te bloqueas, consulta las [**FAQ**](faq.md) y, después, la sección [**Resolución de problemas**](troubleshooting/) para encontrar soluciones específicas antes de contactar con soporte.

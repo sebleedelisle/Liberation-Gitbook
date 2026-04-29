@@ -60,7 +60,7 @@ Utilisez le bouton _METRONOME_ pour **réinitialiser la mesure**. (Notez que le 
 
 Tournez le potentiomètre _TEMPO_ d’un « cran » vers la droite ou la gauche pour **arrondir le tempo** vers le haut ou vers le bas à un nombre entier de BPM.
 
-Voir aussi [apc40-reference.md](reference/apc40-reference.md "mention")
+Voir aussi [Référence APC40](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 

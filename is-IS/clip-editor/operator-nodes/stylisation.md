@@ -26,7 +26,7 @@ Randomise node er kjarninn í Randomise-áhrifunum!
 
 Býr til bergmál af efninu þínu og skilur eftir dofnandi eða stækkandi/minnkandi afrit fyrir aftan upprunalega efnið þegar það hreyfist.
 
-* **change render profile for trail** – ef þetta er kveikt nota öll trail-afrit valið **render profile**. _Sjá_ [render-profile.md](../fundamentals/render-profile.md).
+* **change render profile for trail** – ef þetta er kveikt nota öll trail-afrit valið **render profile**. _Sjá_ [Render profile](../fundamentals/render-profile.md).
 * **render profile** – sniðið sem er notað fyrir trail-afrit þegar rofinn hér fyrir ofan er kveiktur. Þetta er oft notað þegar aðalefnið er stillt á **DETAIL** en bergmálin eru teiknuð sem **FAST**. Þannig færðu skýr smáatriði í aðalformunum en trails eru teiknuð á skilvirkari hátt.
 * **delay** – stillir bilið milli trail-afrita í tónlistarlegum tíma, mælt í **1/64-nótu skrefum**.\
   Til viðmiðunar:

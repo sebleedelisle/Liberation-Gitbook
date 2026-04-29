@@ -19,7 +19,7 @@ Aquí tienes la lista completa de patrones de prueba. Los patrones ocupan todo e
 3. Líneas verdes horizontales: 4 líneas horizontales, espaciadas de forma uniforme.
 4. Líneas verdes verticales: 4 líneas verticales, espaciadas de forma uniforme.
 
-Patrones de calibración de color 5-8. Pueden usarse junto con el sistema de corrección de color dentro de los ajustes del láser. Consulta [colour-calibration.md](../advanced/colour-calibration.md "mention"). Estos patrones no ocupan todo el espacio de salida.
+Patrones de calibración de color 5-8. Pueden usarse junto con el sistema de corrección de color dentro de los ajustes del láser. Consulta [Calibración de color](../advanced/colour-calibration.md "mention"). Estos patrones no ocupan todo el espacio de salida.
 
 5. Patrón de calibración de color: rojo.
 6. Patrón de calibración de color: verde.

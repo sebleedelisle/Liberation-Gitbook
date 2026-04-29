@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Inhalte beim Upgrade auf eine neue Version übertragen
 
-Liberation speichert Inhalte in seinem Arbeitsordner (siehe [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md "mention")), und dieser ändert sich mit jeder neuen Version. Wenn du deine Arbeitsdateien aus der alten Version in die neue übernehmen möchtest:&#x20;
+Liberation speichert Inhalte in seinem Arbeitsordner (siehe [Wo du den Arbeitsordner findest](../troubleshooting/where-to-find-the-working-folder.md "mention")), und dieser ändert sich mit jeder neuen Version. Wenn du deine Arbeitsdateien aus der alten Version in die neue übernehmen möchtest:&#x20;
 
 1. Öffne die ursprüngliche Version von Liberation
 2. Verwende _File->Project->Export Project_. Dadurch wird alles in deinem Liberation gespeichert: Laser-Setup, Timelines, Clip Deck, einfach alles!&#x20;

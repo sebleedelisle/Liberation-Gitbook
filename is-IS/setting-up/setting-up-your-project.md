@@ -26,12 +26,12 @@ Hér er yfirlit yfir ferlið:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Breyttu zones fyrir hvert Clip:**\
-    Ræstu hvert Clip með því að smella á hnappinn fyrir það og kveiktu eða slökktu síðan á zones og X/Y flip með hnöppunum á skjánum. Sjá [Clips](../clips/).
+    Ræstu hvert Clip með því að smella á hnappinn fyrir það og kveiktu eða slökktu síðan á zones og X/Y flip með hnöppunum á skjánum. Sjá [Clips og Clip Deck](../clips/).
 
     \\
 
     <figure><img src="../.gitbook/assets/Y.png" alt=""><figcaption></figcaption></figure>
-5.  **Tengdu controller:** þegar komið er að því að tengja leysitækin og hefja notkun skaltu opna _Controller Assignment_ spjaldið. Sjá [Controller Assignment](controller-assignment.md).
+5.  **Tengdu controller:** þegar komið er að því að tengja leysitækin og hefja notkun skaltu opna _Controller Assignment_ spjaldið. Sjá [Úthlutun laser controller](controller-assignment.md).
 
     \\
 

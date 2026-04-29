@@ -31,7 +31,7 @@ Hvis du allerede har autorisert maksimalt antall datamaskiner for abonnementet d
 Hvis du har flere abonnementer, blir du bedt om å velge abonnementet du vil tilordne datamaskinen til.
 {% endhint %}
 
-Gratulerer! Liberation-installasjonen din er nå autorisert, og du kan sende ut til lasere! Men les [getting-started.md](../getting-started.md "mention") og [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") før du armerer laserne.
+Gratulerer! Liberation-installasjonen din er nå autorisert, og du kan sende ut til lasere! Men les [Hurtigstartveiledning](../getting-started.md "mention") og [Oversikt over prosessen for laseroppsett](../setting-up/setting-up-lasers.md "mention") før du armerer laserne.
 
 {% hint style="info" %}
 Du kan åpne _About_-panelet når som helst via menyen _Liberation -> About Liberation_ eller _Liberation -> Authorise/Deauthorise this computer_

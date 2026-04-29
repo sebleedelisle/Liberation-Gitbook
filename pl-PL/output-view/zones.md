@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-Głównym typem strefy, którego będziesz używać w większości projektów, jest _Beam zone_. Jest to strefa przeznaczona do atmosferycznych efektów wiązek w powietrzu. Drugim typem strefy jest _Canvas zone_ (zobacz [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/)).
+Głównym typem strefy, którego będziesz używać w większości projektów, jest _Beam zone_. Jest to strefa przeznaczona do atmosferycznych efektów wiązek w powietrzu. Drugim typem strefy jest _Canvas zone_ (zobacz [Grafika i system Canvas](../graphics-and-the-canvas-system/)).
 
 {% hint style="danger" %}
-**OSTRZEŻENIE — zachowaj szczególną ostrożność podczas przesuwania stref przy włączonym laserze** i zmniejsz jasność do możliwie najniższego poziomu. Zobacz [setting-up-lasers.md](../setting-up/setting-up-lasers.md), aby zapoznać się z kompletnym przewodnikiem bezpiecznej aktywacji i wyznaczania stref dla laserów.
+**OSTRZEŻENIE — zachowaj szczególną ostrożność podczas przesuwania stref przy włączonym laserze** i zmniejsz jasność do możliwie najniższego poziomu. Zobacz [Przegląd procesu konfiguracji laserów](../setting-up/setting-up-lasers.md), aby zapoznać się z kompletnym przewodnikiem bezpiecznej aktywacji i wyznaczania stref dla laserów.
 {% endhint %}
 
 Możesz klikać i przeciągać strefy myszą. Włącz wzorzec testowy, aby zobaczyć, gdzie trafia dana strefa.
@@ -19,16 +19,16 @@ Użyj klawiszy strzałek, aby **precyzyjnie przesunąć** aktualnie zaznaczoną 
 {% endhint %}
 
 {% hint style="info" %}
-Wskazówka: możesz szybko kopiować ustawienia stref między wieloma laserami! Zobacz [copy-laser-settings.md](../setting-up/copy-laser-settings.md)
+Wskazówka: możesz szybko kopiować ustawienia stref między wieloma laserami! Zobacz [Kopiowanie ustawień między laserami](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 ### Dodawanie nowej strefy beam
 
-Kliknij przycisk _Add a new beam zone_ u góry paska narzędzi, a pojawi się nowa strefa. Pamiętaj, że strefy beam są sortowane w kolejności dodawania, ale możesz zmienić ich kolejność. Zobacz [re-ordering-beam-zones.md](re-ordering-beam-zones.md)
+Kliknij przycisk _Add a new beam zone_ u góry paska narzędzi, a pojawi się nowa strefa. Pamiętaj, że strefy beam są sortowane w kolejności dodawania, ale możesz zmienić ich kolejność. Zobacz [Zmiana kolejności stref wiązek](re-ordering-beam-zones.md)
 
 ### Dodawanie istniejącej strefy canvas
 
-Kliknij przycisk _Add existing canvas zone_. Zobaczysz listę dostępnych stref canvas i możesz włączać lub wyłączać je dla tego lasera. Zobacz [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/)
+Kliknij przycisk _Add existing canvas zone_. Zobaczysz listę dostępnych stref canvas i możesz włączać lub wyłączać je dla tego lasera. Zobacz [Grafika i system Canvas](../graphics-and-the-canvas-system/)
 
 ### Typy kształtu strefy
 
@@ -47,7 +47,7 @@ Kliknij prawym przyciskiem dowolną strefę, aby otworzyć jej ustawienia. W tym
 * Przywrócić ją do domyślnej pozycji
 * Uzyskać dostęp do ustawień właściwych dla danego typu kształtu
 * Usunąć ją
-* Dodać _Alt Zone_ (zobacz [alt-zone-system.md](alt-zone-system.md))
+* Dodać _Alt Zone_ (zobacz [System stref Alt](alt-zone-system.md))
 
 {% hint style="danger" %}
 **OSTRZEŻENIE —** zachowaj dużą ostrożność podczas zmiany typu strefy, gdy laser jest aktywny. Strefa wróci do ostatniej pozycji/rozmiaru dla danego kształtu, więc obraz wyjściowy może nagle się zmienić. Najlepiej wyłączyć laser przed zmianą typu strefy.

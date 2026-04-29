@@ -6,7 +6,7 @@ Liberation 中的所有激光内容都存储在 Clip 中。
 
 Clip 可以包含空气光束效果或图形动画，通常以循环方式播放。它们可以输出到任意 Zone（或 Canvas Target Area），并通过 Clip Deck 中的按钮触发。
 
-Clip 内容通过灵活的节点式 Clip Editor 系统创建。（详见 [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention")）
+Clip 内容通过灵活的节点式 Clip Editor 系统创建。（详见 [Clip Editor 介绍](../clip-editor/clip-editor-intro.md "mention")）
 
 ### Clip Deck
 

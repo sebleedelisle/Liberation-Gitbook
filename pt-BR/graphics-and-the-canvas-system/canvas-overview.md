@@ -38,7 +38,7 @@ AVISO: se o laser estiver armado, você pode começar a projetar conteúdo de re
 {% endhint %}
 
 {% hint style="info" %}
-Você também pode atribuir uma zona do Canvas a um laser clicando no botão _add canvas zone_ na visualização _OUTPUT_. Consulte [zones.md](../output-view/zones.md).
+Você também pode atribuir uma zona do Canvas a um laser clicando no botão _add canvas zone_ na visualização _OUTPUT_. Consulte [Zonas](../output-view/zones.md).
 {% endhint %}
 
 ### Imagens-guia

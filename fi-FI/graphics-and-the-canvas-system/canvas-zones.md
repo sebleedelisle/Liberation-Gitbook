@@ -23,7 +23,7 @@ Napsauta zonea hiiren oikealla painikkeella ja valitse numeropainikkeilla, mille
 VAROITUS – jos laser on armed-tilassa, saatat alkaa yhtäkkiä projisoida sisältöä oletusarvoisella Canvas-zonella. Laser kannattaa asettaa disarmed-tilaan ennen Canvas-zonejen määrittämistä sille.
 {% endhint %}
 
-Jos siirryt nyt kyseisen laserin _OUTPUT_-näkymään, näet Canvas-zonen siellä. Voit muokata sitä täsmälleen kuten mitä tahansa beam zonea. Katso [zones.md](../output-view/zones.md).
+Jos siirryt nyt kyseisen laserin _OUTPUT_-näkymään, näet Canvas-zonen siellä. Voit muokata sitä täsmälleen kuten mitä tahansa beam zonea. Katso [Vyöhykkeet](../output-view/zones.md).
 
 {% hint style="info" %}
 Voit myös lisätä Canvas-zonen laserille suoraan _OUTPUT_-näkymästä – napsauta vasemman työkalurivin _Add existing canvas zone_ -painiketta.

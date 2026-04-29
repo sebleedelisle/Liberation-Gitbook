@@ -20,7 +20,7 @@ Varhaisia LaserCube-malleja ohjataan USB:n kautta, mutta nykyisissä malleissa o
 
 ### USB LaserCube
 
-Liitä LaserCube tietokoneeseen micro USB -kaapelilla ja etsi se sitten _Controller Assignment_ -paneelista (katso [controller-assignment.md](../setting-up/controller-assignment.md)). Jos se ei tule näkyviin automaattisesti, paina _REFRESH_-painiketta.
+Liitä LaserCube tietokoneeseen micro USB -kaapelilla ja etsi se sitten _Controller Assignment_ -paneelista (katso [Ohjaimen määritys](../setting-up/controller-assignment.md)). Jos se ei tule näkyviin automaattisesti, paina _REFRESH_-painiketta.
 
 ### Network LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ Vaikka "Wifi"-kuutiot on suunniteltu käytettäviksi langattomassa verkossa, sit
 
 Liitä LaserCube langalliseen verkkoon.
 
-Aseta LaserCube "LAN Client" -tilaan ja varmista, että verkossa on reititin. LaserCube saa IP-osoitteen reitittimeltä, minkä jälkeen sen pitäisi näkyä _Controller Assignment_ -paneelissa. (Katso [controller-assignment.md](../setting-up/controller-assignment.md)).
+Aseta LaserCube "LAN Client" -tilaan ja varmista, että verkossa on reititin. LaserCube saa IP-osoitteen reitittimeltä, minkä jälkeen sen pitäisi näkyä _Controller Assignment_ -paneelissa. (Katso [Ohjaimen määritys](../setting-up/controller-assignment.md)).
 
 {% hint style="info" %}
 Verkon voi määrittää myös ilman reititintä antamalla kaikille laitteille kiinteät IP-osoitteet, ja tämä on hyvin yleistä tapahtuma-alalla. Itse lisään mieluummin verkkoon reitittimen ja suosittelen tätä vaihtoehtoa kaikille, joilla on vähemmän verkkokokemusta.

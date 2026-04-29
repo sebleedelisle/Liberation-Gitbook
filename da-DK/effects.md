@@ -8,7 +8,7 @@ metaLinks:
 
 Effektsystemet i Liberation er en sjov og fleksibel måde at ændre Clip-outputtet i realtid. Effekter er helt fleksible og kan bruges til at få alt til at blinke til og fra, rotere, skifte farver eller endda flyve tilfældigt rundt!
 
-Alt, hvad du kan gøre i Clip-editoren, kan bruges som en effekt. Faktisk redigeres effekter med præcis den samme node-editor som clips! Se [#editing-effects](effects.md#editing-effects "mention"). De kreative muligheder er stort set uendelige.
+Alt, hvad du kan gøre i Clip-editoren, kan bruges som en effekt. Faktisk redigeres effekter med præcis den samme node-editor som clips! Se [Effekter](effects.md#editing-effects "mention"). De kreative muligheder er stort set uendelige.
 
 Standard-effektknapperne 1-8 ligger under zoneknapperne, og effekterne 9-24 er de små knapper nederst.
 
@@ -32,12 +32,12 @@ Jeg vil mene, at det er et af de sjoveste og mest kreative værktøjer, der er i
 
 #### Effektparametre
 
-Tilføj en parameter til din effekt med en _Parameter node._ Parameter-systemet er en måde at justere flere indstillinger inde i effekten udefra. Se [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention") for flere oplysninger.
+Tilføj en parameter til din effekt med en _Parameter node._ Parameter-systemet er en måde at justere flere indstillinger inde i effekten udefra. Se [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") for flere oplysninger.
 
 Brug drejeknapperne 1-8 til at justere _parameter_ for hver effekt. Eller højreklik på effektknappen og juster parameter-skyderen eller -skyderne. Parameterændringen gør forskellige ting, afhængigt af hvordan effekten er sat op. Se listen nedenfor for standardeffekterne og hvad deres parametre gør.
 
 {% hint style="info" %}
-Rotary controllers 1-8 sidder langs toppen af en APC40 Mk2 og øverst til højre på Mk1. Se også: [apc40-reference.md](reference/apc40-reference.md "mention")
+Rotary controllers 1-8 sidder langs toppen af en APC40 Mk2 og øverst til højre på Mk1. Se også: [APC40-reference](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Denne funktionalitet er deaktiveret, hvis _MX Group_-indstillingen er 0.
 
 Højreklik på en effekt, og klik på knappen _EDIT EFFECT_ for at åbne effekt-editoren. Bemærk, at denne editor er identisk med Clip-editoren!
 
-Rediger din effekt på samme måde, som du ville redigere et hvilket som helst clip. Se [clip-editor](clip-editor/ "mention").
+Rediger din effekt på samme måde, som du ville redigere et hvilket som helst clip. Se [Clip Editoren](clip-editor/ "mention").
 
 Du skal have mindst én creator-node; det kan være hvad som helst (linje, cirkel, form, endda tekst!), men du bør nok vælge noget, der giver bedst mening i forhåndsvisningen på effektknappen.
 

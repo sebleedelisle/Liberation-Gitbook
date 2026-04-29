@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-모든 콘텐츠를 x, y 및/또는 z 축을 따라 이동합니다. 좌표계는 중앙을 기준으로 하며, x 및 y 축은 +/-200까지 확장됩니다. [co-ordinate-system.md](../fundamentals/co-ordinate-system.md)를 참조하세요.
+모든 콘텐츠를 x, y 및/또는 z 축을 따라 이동합니다. 좌표계는 중앙을 기준으로 하며, x 및 y 축은 +/-200까지 확장됩니다. [좌표계](../fundamentals/co-ordinate-system.md)를 참조하세요.
 
 * **x** - x 축을 따라 이동할 거리입니다(왼쪽 - 오른쪽).
 * **y** - y 축을 따라 이동할 거리입니다(위 - 아래).
@@ -20,7 +20,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-모든 콘텐츠를 회전합니다. 값의 단위는 도(degree)입니다. [co-ordinate-system.md](../fundamentals/co-ordinate-system.md)를 참조하세요.
+모든 콘텐츠를 회전합니다. 값의 단위는 도(degree)입니다. [좌표계](../fundamentals/co-ordinate-system.md)를 참조하세요.
 
 * **rotation** - 콘텐츠가 시계 방향으로 회전되는 각도입니다. 모든 요소는 중심인 원점(0,0)을 기준으로 회전합니다.
 * **pivot point x / pivot point y** - 이 값을 사용해 회전 원점을 오프셋합니다.

@@ -9,7 +9,7 @@ metaLinks:
 
 ### Clipの移動／複製
 
-Clipを移動するには、クリックしてドラッグします。複数のClipが選択されている場合（[starting-stopping-clips.md](starting-stopping-clips.md "mention")を参照）、選択されたClipはすべて一緒に移動します。複製するには、`Alt / Option`を押したまま操作します。Clipを空いている場所にドロップします。
+Clipを移動するには、クリックしてドラッグします。複数のClipが選択されている場合（[クリップの開始／停止](starting-stopping-clips.md "mention")を参照）、選択されたClipはすべて一緒に移動します。複製するには、`Alt / Option`を押したまま操作します。Clipを空いている場所にドロップします。
 
 {% hint style="info" %}
 多数のClipを選択する必要がある場合は、クリック／ドラッグで投げ縄選択し、そのままドラッグを続けながらClip Deckをスクロールできます（カーソルキー、APC 40、またはタッチパッド／マウスの横スクロールを使用）。投げ縄選択はClip Deckの端を越えて拡張されます。

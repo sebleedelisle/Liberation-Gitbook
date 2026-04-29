@@ -32,7 +32,7 @@ Questo nodo applica variazioni di colore al contenuto in base alla posizione. Pe
 
 **Modalità colore**
 
-Determinano quali aspetti delle regolazioni colore vengono applicati al contenuto. Vedi anche: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md).
+Determinano quali aspetti delle regolazioni colore vengono applicati al contenuto. Vedi anche: [Impostazioni colore e HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – la hue non viene modificata.

@@ -8,7 +8,7 @@ metaLinks:
 
 Das Effektsystem in Liberation ist eine spaßige und vielseitige Möglichkeit, die Clip-Ausgabe in Echtzeit zu verändern. Effekte sind komplett flexibel und können alles blinken lassen, ein- und ausschalten, drehen, Farben ändern oder sogar zufällig herumfliegen lassen!
 
-Alles, was du im Clip-Editor machen kannst, kann auch als Effekt verwendet werden. Tatsächlich werden Effekte mit genau demselben Node-Editor bearbeitet wie Clips! Siehe [#editing-effects](effects.md#editing-effects "mention"). Die kreativen Möglichkeiten sind praktisch unbegrenzt.
+Alles, was du im Clip-Editor machen kannst, kann auch als Effekt verwendet werden. Tatsächlich werden Effekte mit genau demselben Node-Editor bearbeitet wie Clips! Siehe [Effekte](effects.md#editing-effects "mention"). Die kreativen Möglichkeiten sind praktisch unbegrenzt.
 
 Die Standard-Effekttasten 1–8 befinden sich unter den Zonentasten, und die Effekte 9–24 sind die kleinen Tasten unten.
 
@@ -32,12 +32,12 @@ Ich würde sagen, dass es eines der spaßigsten und kreativsten Werkzeuge ist, d
 
 #### Effektparameter
 
-Füge deinem Effekt mit einem _Parameter node_ einen Parameter hinzu. Das Parameter-System ist eine Möglichkeit, mehrere Einstellungen innerhalb deines Effekts von außen anzupassen. Weitere Informationen findest du unter [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention").
+Füge deinem Effekt mit einem _Parameter node_ einen Parameter hinzu. Das Parameter-System ist eine Möglichkeit, mehrere Einstellungen innerhalb deines Effekts von außen anzupassen. Weitere Informationen findest du unter [Parameter Control](clip-editor/oscillators/parameter-control.md "mention").
 
 Verwende die Drehregler 1–8, um den _parameter_ für jeden Effekt anzupassen. Oder klicke mit der rechten Maustaste auf die Effekttaste und passe die Parameter-Slider an. Die Parameteränderung bewirkt unterschiedliche Dinge, je nachdem, wie der Effekt aufgebaut ist. In der Liste unten findest du die Standard-Effekte und was ihre Parameter tun.
 
 {% hint style="info" %}
-Die Drehregler 1–8 befinden sich beim APC40 Mk2 oben und beim Mk1 oben rechts. Siehe auch: [apc40-reference.md](reference/apc40-reference.md "mention")
+Die Drehregler 1–8 befinden sich beim APC40 Mk2 oben und beim Mk1 oben rechts. Siehe auch: [APC40-Referenz](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Diese Funktion ist deaktiviert, wenn die Einstellung _MX Group_ auf 0 steht.
 
 Klicke mit der rechten Maustaste auf einen beliebigen Effekt und dann auf die Schaltfläche _EDIT EFFECT_, um den Effekt-Editor zu öffnen. Du wirst sehen, dass dieser Editor identisch mit dem Clip-Editor ist!
 
-Bearbeite deinen Effekt genauso, wie du jeden anderen Clip bearbeiten würdest. Siehe [clip-editor](clip-editor/ "mention").
+Bearbeite deinen Effekt genauso, wie du jeden anderen Clip bearbeiten würdest. Siehe [Der Clip Editor](clip-editor/ "mention").
 
 Du brauchst mindestens einen Creator-Node; das kann alles Mögliche sein (Linie, Kreis, Form, sogar Text!), aber du solltest wahrscheinlich etwas wählen, das in der Vorschau der Effekttaste am meisten Sinn ergibt.
 

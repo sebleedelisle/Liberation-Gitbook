@@ -28,4 +28,4 @@ No necesitas crear una zona nueva para tener distintos ajustes de espejo. Los aj
 
 ### Asignar zonas a varios clips a la vez
 
-Puedes asignar zonas y ajustar X/Y para todos los clips de una zona. Consulta [groups.md](groups.md "mention") para obtener más información.
+Puedes asignar zonas y ajustar X/Y para todos los clips de una zona. Consulta [Grupos de Clip](groups.md "mention") para obtener más información.

@@ -32,7 +32,7 @@ Este nodo aplica cambios de color al contenido según la posición. De forma pre
 
 **Colour Modes**
 
-Estos modos determinan qué aspectos de los ajustes de color se aplican al contenido. Consulta también: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+Estos modos determinan qué aspectos de los ajustes de color se aplican al contenido. Consulta también: [Ajustes de color y HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – el hue no cambia.

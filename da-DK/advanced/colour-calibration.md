@@ -17,7 +17,7 @@ Laserdioder ændrer adfærd, når de varmer op. Lad altid projektoren stabiliser
 
 #### Sådan fungerer kalibreringstesten
 
-Brug testmønstrene til kalibrering (se [test-patterns.md](../output-view/test-patterns.md "mention"))
+Brug testmønstrene til kalibrering (se [Testmønstre](../output-view/test-patterns.md "mention"))
 
 * **5** – Rød
 * **6** – Grøn

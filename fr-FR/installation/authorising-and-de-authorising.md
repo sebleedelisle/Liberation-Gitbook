@@ -31,7 +31,7 @@ Si vous avez déjà autorisé le nombre maximal d’ordinateurs pour votre abonn
 Si vous avez plusieurs abonnements, vous serez invité à choisir celui auquel vous souhaitez associer l’ordinateur.
 {% endhint %}
 
-Félicitations ! Votre installation de Liberation est maintenant autorisée et vous pouvez envoyer la sortie vers des lasers ! Mais veuillez lire [getting-started.md](../getting-started.md "mention") et [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") avant d’armer vos lasers.
+Félicitations ! Votre installation de Liberation est maintenant autorisée et vous pouvez envoyer la sortie vers des lasers ! Mais veuillez lire [Guide de démarrage rapide](../getting-started.md "mention") et [Présentation du processus de configuration des lasers](../setting-up/setting-up-lasers.md "mention") avant d’armer vos lasers.
 
 {% hint style="info" %}
 Vous pouvez ouvrir le _About panel_ à tout moment via le menu _Liberation -> About Liberation_ ou _Liberation -> Authorise/Deauthorise this computer_

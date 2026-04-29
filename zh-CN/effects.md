@@ -26,12 +26,12 @@ Effect 如何继承 Clip 的 zone delay 非常难描述，但一试就懂！
 
 #### Effect 参数
 
-使用 _Parameter node_ 为 effect 添加参数。Parameter 系统允许你从外部调整 effect 内部的多个设置。见 [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention")。&#x20;
+使用 _Parameter node_ 为 effect 添加参数。Parameter 系统允许你从外部调整 effect 内部的多个设置。见 [Parameter Control](clip-editor/oscillators/parameter-control.md "mention")。&#x20;
 
 使用旋钮 1-8 调整每个 effect 的 _parameter_。或者右键 effect 按钮并调整参数滑块。参数的具体作用取决于 effect 的设置。下方列出了默认 effects 及其参数作用。
 
 {% hint style="info" %}
-旋钮 1-8 位于 APC40 Mk2 顶部，Mk1 则在右上方。另见：[apc40-reference.md](reference/apc40-reference.md "mention")。
+旋钮 1-8 位于 APC40 Mk2 顶部，Mk1 则在右上方。另见：[APC40 参考](reference/apc40-reference.md "mention")。
 {% endhint %}
 
 {% hint style="info" %}

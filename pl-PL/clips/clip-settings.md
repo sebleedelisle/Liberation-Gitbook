@@ -14,7 +14,7 @@ Zmień rozmiar wyjściowy klipu za pomocą _Scale X_ i _Scale Y_. Są one połą
 
 Zmień pozycję poziomą i pionową klipu za pomocą _Shift X_ i _Shift Y_.
 
-_Zone Delay/Chase_ to na tyle ciekawa funkcja, że ma własną sekcję. [zone-delay-chase.md](zone-delay-chase.md)
+_Zone Delay/Chase_ to na tyle ciekawa funkcja, że ma własną sekcję. [Zone delay / chase](zone-delay-chase.md)
 
 ### Blokowanie klipów
 
@@ -27,7 +27,7 @@ Jeśli klip jest zablokowany, nie można go przenieść ani usunąć. Aby zablok
 
 ### Menu prawego przycisku myszy
 
-Jeśli klikniesz klip prawym przyciskiem myszy, pojawi się menu z wybranymi opcjami dla tego klipu. Zobacz [clip-editor-intro.md](../clip-editor/clip-editor-intro.md), [clip-settings.md](clip-settings.md) i [groups.md](groups.md), aby dowiedzieć się więcej o pierwszych pozycjach w tym menu.
+Jeśli klikniesz klip prawym przyciskiem myszy, pojawi się menu z wybranymi opcjami dla tego klipu. Zobacz [Wprowadzenie do Clip Editor](../clip-editor/clip-editor-intro.md), [Ustawienia Clip](clip-settings.md) i [Grupy klipów](groups.md), aby dowiedzieć się więcej o pierwszych pozycjach w tym menu.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Menu ustawień Clip wywoływane prawym przyciskiem myszy</p></figcaption></figure>
 

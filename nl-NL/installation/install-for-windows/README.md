@@ -61,4 +61,4 @@ Liberation heeft toestemming nodig om bestanden en het netwerk te openen, dus Wi
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation zou nu moeten starten! Om lasers aan te sturen, moet je nu het [autorisatieproces](../authorising-and-de-authorising.md) doorlopen.
+Liberation zou nu moeten starten! Om lasers aan te sturen, moet je nu het [Autoriseren en de-autoriseren](../authorising-and-de-authorising.md) doorlopen.

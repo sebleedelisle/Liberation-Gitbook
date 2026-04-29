@@ -14,7 +14,7 @@ _Scale X_ 및 _Scale Y_를 사용해 Clip의 출력 크기를 변경합니다. _
 
 _Shift X_ 및 _Shift Y_를 사용해 Clip의 가로 및 세로 위치를 변경합니다.
 
-_Zone Delay/Chase_는 별도 섹션이 필요할 만큼 재미있는 기능입니다. [zone-delay-chase.md](zone-delay-chase.md)
+_Zone Delay/Chase_는 별도 섹션이 필요할 만큼 재미있는 기능입니다. [Zone delay / chase](zone-delay-chase.md)
 
 ### Clip 잠금
 
@@ -27,7 +27,7 @@ Clip이 잠겨 있으면 이동하거나 삭제할 수 없습니다. Clip을 잠
 
 ### 오른쪽 클릭 메뉴
 
-Clip을 오른쪽 클릭하면 해당 Clip에 대한 몇 가지 옵션이 포함된 메뉴가 나타납니다. 이 메뉴의 처음 몇 항목에 대한 자세한 내용은 [clip-editor-intro.md](../clip-editor/clip-editor-intro.md), [clip-settings.md](clip-settings.md) 및 [groups.md](groups.md)를 참고하세요.
+Clip을 오른쪽 클릭하면 해당 Clip에 대한 몇 가지 옵션이 포함된 메뉴가 나타납니다. 이 메뉴의 처음 몇 항목에 대한 자세한 내용은 [Clip Editor 소개](../clip-editor/clip-editor-intro.md), [Clip settings](clip-settings.md) 및 [Clip 그룹](groups.md)를 참고하세요.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Clip settings 오른쪽 클릭 메뉴</p></figcaption></figure>
 

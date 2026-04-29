@@ -27,4 +27,4 @@ En bref, le Mark 2 est recommandé, car ses boutons en couleur correspondent mie
 L’APC40 Mark 1 original est sorti en 2009 (!) et certaines personnes le préfèrent encore pour son châssis métallique et son format robuste de type console. Le Mark 2 mis à jour est sorti en 2014 et, bien qu’il ait été arrêté en 2024, il doit être remis en production en 2025 en raison de la demande des artistes visuels (Resolume, etc.) et des laserists.
 {% endhint %}
 
-Pour la liste complète des contrôles disponibles sur l’APC40, consultez [apc40-reference.md](../reference/apc40-reference.md "mention")
+Pour la liste complète des contrôles disponibles sur l’APC40, consultez [Référence APC40](../reference/apc40-reference.md "mention")

@@ -8,7 +8,7 @@ metaLinks:
 
 El sistema de efectos de Liberation es una forma divertida y versátil de modificar la salida del clip en tiempo real. Los efectos son totalmente flexibles y pueden servir para hacer que todo parpadee, gire, cambie de color o incluso se mueva de forma aleatoria.
 
-Todo lo que puedes hacer en el editor de clips puede usarse como efecto. De hecho, los efectos se editan con exactamente el mismo editor de nodos que los clips. Consulta [#editing-effects](effects.md#editing-effects "mention"). Las posibilidades creativas son prácticamente infinitas.
+Todo lo que puedes hacer en el editor de clips puede usarse como efecto. De hecho, los efectos se editan con exactamente el mismo editor de nodos que los clips. Consulta [Efectos](effects.md#editing-effects "mention"). Las posibilidades creativas son prácticamente infinitas.
 
 Los botones de efectos predeterminados 1-8 están debajo de los botones de zona, y los efectos 9-24 son los botones pequeños de la parte inferior.
 
@@ -32,12 +32,12 @@ Diría que es una de las herramientas más divertidas y creativas integradas en 
 
 #### Parámetros de efecto
 
-Añade un parámetro a tu efecto con un _Parameter node._ El sistema de parámetros permite ajustar desde fuera varios ajustes dentro de tu efecto. Consulta [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention") para obtener más información.
+Añade un parámetro a tu efecto con un _Parameter node._ El sistema de parámetros permite ajustar desde fuera varios ajustes dentro de tu efecto. Consulta [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") para obtener más información.
 
 Usa los controles giratorios 1-8 para ajustar el _parameter_ de cada efecto. O haz clic derecho en el botón del efecto y ajusta el slider o sliders de parámetro. El cambio de parámetro hace cosas distintas según cómo esté configurado el efecto. Consulta la lista siguiente para ver los efectos predeterminados y qué hacen sus parámetros.
 
 {% hint style="info" %}
-Los controles giratorios 1-8 están en la parte superior de un APC40 Mk2 y en la parte superior derecha en el Mk1. Consulta también: [apc40-reference.md](reference/apc40-reference.md "mention")
+Los controles giratorios 1-8 están en la parte superior de un APC40 Mk2 y en la parte superior derecha en el Mk1. Consulta también: [Referencia de APC40](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Esta función está desactivada si el ajuste _MX Group_ está en 0.
 
 Haz clic derecho en cualquier efecto y pulsa el botón _EDIT EFFECT_ para abrir el editor de efectos. Verás que este editor es idéntico al editor de clips.
 
-Edita tu efecto del mismo modo que editarías cualquier clip. Consulta [clip-editor](clip-editor/ "mention").
+Edita tu efecto del mismo modo que editarías cualquier clip. Consulta [El Clip Editor](clip-editor/ "mention").
 
 Necesitas tener al menos un nodo creador; puede ser cualquier cosa (línea, círculo, forma, incluso texto), pero probablemente deberías elegir algo que tenga sentido en la vista previa del botón de efecto.
 

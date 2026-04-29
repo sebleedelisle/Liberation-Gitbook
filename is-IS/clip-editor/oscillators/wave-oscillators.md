@@ -12,7 +12,7 @@ metaLinks:
 * <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line"> [Sagtennt bylgja](wave-oscillators.md#sawtooth-wave-1)
 * <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line"> [Þríhyrningsbylgja](wave-oscillators.md#triangle-wave-1)
 * <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line"> [Sínusbylgja](wave-oscillators.md#sine-wave)
-* <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line"> [Ferhyrningsbylgja](wave-oscillators.md#square-wave-1)
+* <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line"> [Bylgjusveiflar](wave-oscillators.md#square-wave-1)
 * <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line"> [Suð](wave-oscillators.md#noise)
 * <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line"> [Sérsniðinn sveifill](wave-oscillators.md#custom-oscillator-1)
 

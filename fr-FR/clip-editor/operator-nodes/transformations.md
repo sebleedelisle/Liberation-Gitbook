@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Déplace tout le contenu le long des axes x, y et/ou z. Notez que le système de coordonnées est centré et s’étend de +/-200 sur les axes x et y. Voir [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Déplace tout le contenu le long des axes x, y et/ou z. Notez que le système de coordonnées est centré et s’étend de +/-200 sur les axes x et y. Voir [Système de coordonnées](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - la distance à parcourir sur l’axe x (gauche - droite).
 * **y** - la distance à parcourir sur l’axe y (haut - bas).
@@ -20,7 +20,7 @@ Déplace tout le contenu le long des axes x, y et/ou z. Notez que le système de
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Fait pivoter tout le contenu. Les valeurs sont exprimées en degrés. Voir [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Fait pivoter tout le contenu. Les valeurs sont exprimées en degrés. Voir [Système de coordonnées](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - l’angle de rotation du contenu dans le sens horaire, en degrés. Tout pivote autour de l’origine (0,0), au centre.
 * **pivot point x / pivot point y** - utilisez ces valeurs pour décaler l’origine de la rotation.

@@ -27,7 +27,7 @@ Du kan även importera och exportera preset-filer med load/save-knappen (en disk
 Om du redigerar en förinställning, till exempel scanner-inställningen som heter _Default_, uppdateras inte de andra lasrarna automatiskt. I stället får deras scanner-inställningar nu etiketten _Default(edited)_. För att uppdatera detta till den nya _Default_-förinställningen väljer du den igen i rullgardinslistan.
 
 {% hint style="info" %}
-Om du har många lasrar och vill uppdatera alla deras scanner-inställningar använder du systemet _COPY LASER SETTINGS_. Se [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention")
+Om du har många lasrar och vill uppdatera alla deras scanner-inställningar använder du systemet _COPY LASER SETTINGS_. Se [Kopiera inställningar mellan lasrar](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Om du raderar en förinställning som används någon annanstans förlorar du inte inställningen, utan ser den i stället markerad som _(deleted)._

@@ -60,7 +60,7 @@ Verwende den _METRONOME_-Button, um **den Takt zurückzusetzen**. (Beachte, dass
 
 Drehe den _TEMPO_-Knob um einen „Tick“ nach rechts oder links, um **das Tempo** auf eine ganze BPM-Zahl auf- oder abzurunden.
 
-Siehe auch [apc40-reference.md](reference/apc40-reference.md "mention")
+Siehe auch [APC40-Referenz](reference/apc40-reference.md "mention")
 
 ### Tempo per Nudge korrigieren
 

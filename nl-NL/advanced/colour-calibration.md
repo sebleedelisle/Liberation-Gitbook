@@ -17,7 +17,7 @@ Laserdiodes gedragen zich anders naarmate ze opwarmen. Laat je projector daarom 
 
 #### Hoe de kalibratietest werkt
 
-Gebruik de testpatronen voor kalibratie (zie [test-patterns.md](../output-view/test-patterns.md "mention"))
+Gebruik de testpatronen voor kalibratie (zie [Testpatronen](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green

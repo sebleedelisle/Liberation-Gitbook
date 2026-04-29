@@ -20,17 +20,17 @@ Liberation er fleksibelt nok til at du kan sette opp lasere og visualisere dem u
 Du kan sette opp og visualisere så mange lasere du vil i Liberation. Lisensnivåene (Hobbyist, Pro osv.) begrenser bare hvor mange lasere du kan _armere._ Det betyr at du kan designe lasershow med 100 lasere selv med en gratis lisens. Du trenger bare å oppgradere når du faktisk skal kjøre showet på ekte lasere.
 {% endhint %}
 
-Som standard er det 8 lasere fordelt horisontalt, men du kan tilpasse dette akkurat slik du vil. Det er sannsynligvis best å beholde standardoppsettet mens du blir kjent med programvaren, og så kan du senere justere det slik at det passer maskinvareoppsettet ditt. (Se [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention"))
+Som standard er det 8 lasere fordelt horisontalt, men du kan tilpasse dette akkurat slik du vil. Det er sannsynligvis best å beholde standardoppsettet mens du blir kjent med programvaren, og så kan du senere justere det slik at det passer maskinvareoppsettet ditt. (Se [Sette opp prosjektet ditt](setting-up/setting-up-your-project.md "mention"))
 
 {% hint style="warning" %}
-Viktig: Før du armerer noen lasere, må du sørge for at du forstår risikoen og gå nøye gjennom kapittelet [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention").
+Viktig: Før du armerer noen lasere, må du sørge for at du forstår risikoen og gå nøye gjennom kapittelet [Oversikt over prosessen for laseroppsett](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Oversikt over programvaren
 
 ### Sikkerhetsavstenging
 
-Når du bruker lasere, må du alltid ha en **fysisk nødstoppknapp** tilgjengelig (se [emergency-stop-interlocks.md](hardware/emergency-stop-interlocks.md "mention")). Hvis du vil deaktivere alt uten samme hastverk, kan du bruke knappen _**DISARM ALL**_ eller `Escape`-tasten (eller _**SESSION**_-tasten på APC40). Du kan også redusere den globale lysstyrken med skyvebryteren på skjermen eller hovedfaderen på APC40.
+Når du bruker lasere, må du alltid ha en **fysisk nødstoppknapp** tilgjengelig (se [Nødstopp / interlocks](hardware/emergency-stop-interlocks.md "mention")). Hvis du vil deaktivere alt uten samme hastverk, kan du bruke knappen _**DISARM ALL**_ eller `Escape`-tasten (eller _**SESSION**_-tasten på APC40). Du kan også redusere den globale lysstyrken med skyvebryteren på skjermen eller hovedfaderen på APC40.
 
 ### Skyvebrytere
 
@@ -42,7 +42,7 @@ I Liberation finnes det ulike skyvebrytere og kontroller.
 
 ### Tastatursnarveier
 
-Du finner en fullstendig liste over tastatursnarveier her: [keyboard-shortcuts.md](reference/keyboard-shortcuts.md "mention")
+Du finner en fullstendig liste over tastatursnarveier her: [Tastatursnarveier](reference/keyboard-shortcuts.md "mention")
 
 ### Skjermoppsett
 
@@ -74,7 +74,7 @@ Det store området øverst til venstre på skjermen kan være én av 3 hovedvisn
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D-visningen viser hvordan laserne dine vil se ut, og kan konfigureres slik at den samsvarer med ditt eget laseroppsett. Klikk og dra for å rotere kameraet, og bruk musehjulet for å bevege deg fremover og bakover. Du finner mange andre alternativer i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3d-visualiser.md](setting-up/3d-visualiser.md "mention").
+3D-visningen viser hvordan laserne dine vil se ut, og kan konfigureres slik at den samsvarer med ditt eget laseroppsett. Klikk og dra for å rotere kameraet, og bruk musehjulet for å bevege deg fremover og bakover. Du finner mange andre alternativer i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](setting-up/3d-visualiser.md "mention").
 
 #### Output-visning
 
@@ -106,11 +106,11 @@ Klikk på en sone for å velge den, og juster deretter hjørnepunktene med musen
 
 Langs venstre side finnes en linje med en serie ikonknapper. Hold musepekeren over en knapp for å få en beskrivelse av hva den gjør. Knappene her lar deg legge til beam-soner, canvas-soner og masker. Det finnes også alternativer for å angi et testmønster bare for denne laseren, sammen med innstillinger for rutenett og festing.
 
-Du finner mer informasjon i [output-view](output-view/ "mention").
+Du finner mer informasjon i [Output-visning](output-view/ "mention").
 
 #### Canvas
 
-Canvas-systemet brukes hovedsakelig til grafikk og arkitektonisk mapping. Du kan fordele komplekse bilder over flere lasere og perspektivkorrigere hver del. Se [graphics-and-the-canvas-system](graphics-and-the-canvas-system/ "mention").
+Canvas-systemet brukes hovedsakelig til grafikk og arkitektonisk mapping. Du kan fordele komplekse bilder over flere lasere og perspektivkorrigere hver del. Se [Grafikk og Canvas-systemet](graphics-and-the-canvas-system/ "mention").
 
 ### APC40 MIDI-kontroller
 
@@ -118,7 +118,7 @@ Canvas-systemet brukes hovedsakelig til grafikk og arkitektonisk mapping. Du kan
 
 Selv om det er mulig å styre Liberation med mus og tastatur, er det mye bedre å bruke et APC40 MIDI-kontrollgrensesnitt (Mark 2 er best, men Mark 1 fungerer også).
 
-Se også: [apc40-reference.md](reference/apc40-reference.md "mention")
+Se også: [APC40-referanse](reference/apc40-reference.md "mention")
 
 Vi har nå også implementert støtte for APC Mini Mark 2 og MIDI Fighter Twister, og flere er under utvikling. Men APC40 Mark 2 er det beste alternativet i de fleste tilfeller.
 
@@ -146,7 +146,7 @@ Du kan rulle Clip Deck mot venstre og høyre med:
 * APC40-rulleknott
 * APC40 _<- DEVICE ->_-knapper
 
-For å gjøre det lettere å orientere seg finnes det en mini-visualisering av Clip Deck langs toppen. Se også [clips](clips/ "mention")
+For å gjøre det lettere å orientere seg finnes det en mini-visualisering av Clip Deck langs toppen. Se også [Clips og Clip Deck](clips/ "mention")
 
 #### Starte og stoppe clips
 
@@ -168,7 +168,7 @@ To rader under soneknappene ser du X/Y flip-knappene. Slå disse av eller på fo
 Merk at disse sonetildelingene og X/Y flip-innstillingene er knyttet til selve clipen. De beholdes neste gang du kjører den clipen. De er ikke en global innstilling.
 {% endhint %}
 
-Høyreklikk på en clip for å redigere flere innstillinger for clipen. Se også [clip-settings.md](clips/clip-settings.md "mention")
+Høyreklikk på en clip for å redigere flere innstillinger for clipen. Se også [Clip settings](clips/clip-settings.md "mention")
 
 ### Grupper
 
@@ -190,7 +190,7 @@ Endre soneinnstillinger for alle clips i en gruppe
 
 Med APC40 trykker du på gruppeknappen, og _mens den fortsatt holdes inne,_ bruker du sone- og X/Y-knappene til å slå soneinnstillinger av eller på for alle clips i den gruppen.
 
-Se også [groups.md](clips/groups.md "mention")
+Se også [Clip-grupper](clips/groups.md "mention")
 
 ### Effekter
 
@@ -208,7 +208,7 @@ Bruk dreiekontrollene 1–8\* til å justere _parameteren_ for hver effekt. (Du 
 De små tallene du ser på effektknappene, viser til _level_ og _parameter_ for effekten. _Level_ styres av faderen på APC40, eller du kan klikke og dra på knappen. Parameteren justeres med dreiekontrollene på APC40, eller du kan høyreklikke for å justere med musen.
 {% endhint %}
 
-_\*Dreiekontroller 1–8 ligger langs toppen av en APC40 Mk2 og øverst til høyre på Mk1. Se også:_ [apc40-reference.md](reference/apc40-reference.md "mention")
+_\*Dreiekontroller 1–8 ligger langs toppen av en APC40 Mk2 og øverst til høyre på Mk1. Se også:_ [APC40-referanse](reference/apc40-reference.md "mention")
 
 #### Standardeffektene
 
@@ -303,10 +303,10 @@ Klikk på knappen _Assign Laser Controllers_ for å åpne panelet _Controller As
 
 Her kan du velge hvilke laserutganger som skal gå til hvilke laserkontrollere. Dra og slipp kontrollere fra listen til høyre inn i sporene til venstre. Du kan gi kontrollerne nye navn slik at de samsvarer med laseren de er paret med (bruk knappen med pennikonet).
 
-Les kapittelet [controller-assignment.md](setting-up/controller-assignment.md "mention") for mer informasjon.
+Les kapittelet [Kontrollertildeling](setting-up/controller-assignment.md "mention") for mer informasjon.
 
 {% hint style="danger" %}
-Før du armerer noen lasere, må du sørge for å gå gjennom kapittelet [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention").
+Før du armerer noen lasere, må du sørge for å gå gjennom kapittelet [Oversikt over prosessen for laseroppsett](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser Output-panel
@@ -337,10 +337,10 @@ Hvis du er vant til eldre laserprogramvare som er avhengig av forhåndsberegnede
 De grunnleggende scanner-innstillingene er:
 
 * **Speed** er scannerhastigheten, dvs. hvor raskt laseren beveger seg rundt for å tegne former. Dette tilsvarer å justere punktraten i tradisjonell laserprogramvare, men i Liberation kan du endre hvor raskt laseren beveger seg _uavhengig av punktraten._ Du skal normalt ikke trenge å justere dette.
-* **Scanner sync** (noen ganger kalt _blank shift, tidligere Colour Shift_) Scannerne beveger laseren svært raskt, men vanligvis er endringer i lysstyrke og farge ute av synk med bevegelsen. Dette viser seg som små flimrende «haler» av lys langs kanten av stråler og linjer. Bruk denne justeringen for å få bevegelse og farge i synk med hverandre. Se [laser-settings.md](setting-up/laser-settings.md "mention")
+* **Scanner sync** (noen ganger kalt _blank shift, tidligere Colour Shift_) Scannerne beveger laseren svært raskt, men vanligvis er endringer i lysstyrke og farge ute av synk med bevegelsen. Dette viser seg som små flimrende «haler» av lys langs kanten av stråler og linjer. Bruk denne justeringen for å få bevegelse og farge i synk med hverandre. Se [Innstillingspanelet Laser output](setting-up/laser-settings.md "mention")
 
-De andre avanserte scanner-innstillingene dekkes i kapittelet [advanced](advanced/ "mention").
+De andre avanserte scanner-innstillingene dekkes i kapittelet [Avansert](advanced/ "mention").
 
 ### Soning
 
-Du finner en fullstendig veiledning for oppsett og soning av lasere her: [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention")
+Du finner en fullstendig veiledning for oppsett og soning av lasere her: [Oversikt over prosessen for laseroppsett](setting-up/setting-up-lasers.md "mention")

@@ -11,7 +11,7 @@ metaLinks:
 
 Beschrijving
 
-* **hue, saturation, brightness** - de kleurwaarden, zie [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - de kleurwaarden, zie [Kleurinstellingen en HSB](../fundamentals/colour-settings-and-hsb.md "mention")
 * **hue mode** -
   * OFF - de hue wordt niet gewijzigd
   * FIXED - de hue van elementen wordt ingesteld op de hue-waarde

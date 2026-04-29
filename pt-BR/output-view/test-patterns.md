@@ -19,7 +19,7 @@ Veja abaixo a lista completa dos padrões de teste. Os padrões preenchem todo o
 3. Linhas verdes horizontais - 4 linhas horizontais, espaçadas uniformemente.
 4. Linhas verdes verticais - 4 linhas verticais, espaçadas uniformemente.
 
-Padrões de calibração de cor 5 a 8. Eles podem ser usados junto com o sistema de correção de cor nas configurações do laser. Consulte [colour-calibration.md](../advanced/colour-calibration.md). Esses padrões não preenchem todo o espaço de saída.
+Padrões de calibração de cor 5 a 8. Eles podem ser usados junto com o sistema de correção de cor nas configurações do laser. Consulte [Calibração de cores](../advanced/colour-calibration.md). Esses padrões não preenchem todo o espaço de saída.
 
 5. Padrão de calibração de cor - vermelho.
 6. Padrão de calibração de cor - verde.

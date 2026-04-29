@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 ゾーン
 
-ほとんどのプロジェクトで主に使用するゾーンは _Beam zone_ です。これは、空中のアトモスフェリックなビームエフェクト用に設計されたゾーンです。もう 1 つのゾーンタイプは _Canvas zone_ です（[graphics-and-the-canvas-system](../graphics-and-the-canvas-system/) を参照）。
+ほとんどのプロジェクトで主に使用するゾーンは _Beam zone_ です。これは、空中のアトモスフェリックなビームエフェクト用に設計されたゾーンです。もう 1 つのゾーンタイプは _Canvas zone_ です（[Graphics と Canvas システム](../graphics-and-the-canvas-system/) を参照）。
 
 {% hint style="danger" %}
-**警告 - レーザー動作中にゾーンを移動するときは、細心の注意を払い**、明るさを可能な限り低くしてください。レーザーを安全に有効化し、ゾーニングするための詳しい手順については、[setting-up-lasers.md](../setting-up/setting-up-lasers.md) を参照してください。
+**警告 - レーザー動作中にゾーンを移動するときは、細心の注意を払い**、明るさを可能な限り低くしてください。レーザーを安全に有効化し、ゾーニングするための詳しい手順については、[Laser セットアップ手順の概要](../setting-up/setting-up-lasers.md) を参照してください。
 {% endhint %}
 
 ゾーンはマウスでクリックしてドラッグできます。テストパターンをオンにすると、そのゾーンがどこに出力されるか確認できます。
@@ -19,16 +19,16 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-便利なヒント：複数のレーザー間でゾーン設定をすばやくコピーできます。[copy-laser-settings.md](../setting-up/copy-laser-settings.md) を参照してください。
+便利なヒント：複数のレーザー間でゾーン設定をすばやくコピーできます。[レーザー間で設定をコピーする](../setting-up/copy-laser-settings.md) を参照してください。
 {% endhint %}
 
 ### 新しい Beam zone を追加する
 
-ツールバー上部の _Add a new beam zone_ ボタンをクリックすると、新しいゾーンが表示されます。Beam zone は追加した順に並びますが、並べ替えることもできます。[re-ordering-beam-zones.md](re-ordering-beam-zones.md) を参照してください。
+ツールバー上部の _Add a new beam zone_ ボタンをクリックすると、新しいゾーンが表示されます。Beam zone は追加した順に並びますが、並べ替えることもできます。[ビームゾーンの並べ替え](re-ordering-beam-zones.md) を参照してください。
 
 ### 既存の Canvas zone を追加する
 
-_Add existing canvas zone_ ボタンをクリックすると、利用可能な Canvas zone の一覧が表示され、このレーザーで使用するかどうかをオン／オフできます。[graphics-and-the-canvas-system](../graphics-and-the-canvas-system/) を参照してください。
+_Add existing canvas zone_ ボタンをクリックすると、利用可能な Canvas zone の一覧が表示され、このレーザーで使用するかどうかをオン／オフできます。[Graphics と Canvas システム](../graphics-and-the-canvas-system/) を参照してください。
 
 ### ゾーンのシェイプタイプ
 
@@ -47,7 +47,7 @@ _Add existing canvas zone_ ボタンをクリックすると、利用可能な C
 * デフォルト位置にリセットする
 * シェイプタイプ固有の設定にアクセスする
 * 削除する
-* _Alt Zone_ を追加する（[alt-zone-system.md](alt-zone-system.md) を参照）
+* _Alt Zone_ を追加する（[Alt zone system](alt-zone-system.md) を参照）
 
 {% hint style="danger" %}
 **警告 -** レーザーがアクティブな状態でゾーンタイプを変更するときは、十分に注意してください。ゾーンはそのシェイプで最後に使用した位置／サイズに戻るため、出力が突然変わる場合があります。ゾーンタイプを変更する前に、レーザーをオフにすることをおすすめします。

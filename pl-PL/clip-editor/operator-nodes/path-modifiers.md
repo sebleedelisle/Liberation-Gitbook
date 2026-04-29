@@ -11,11 +11,11 @@ metaLinks:
 
 Ten węzeł zastępuje linie i kształty równomiernie rozmieszczonymi kropkami (istniejące kropki pozostają bez zmian).
 
-* **Colour** – kolor kropek. Ignorowany, jeśli włączono _Inherit Colour_, patrz niżej. _Zobacz też_ [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md)
+* **Colour** – kolor kropek. Ignorowany, jeśli włączono _Inherit Colour_, patrz niżej. _Zobacz też_ [Ustawienia koloru i HSB](../fundamentals/colour-settings-and-hsb.md)
 * **Spacing** – odległość między kropkami, mierzona w pikselach. Mniejsze wartości = więcej kropek, większe wartości = mniej.
 * **Offset** – przesuwa pozycję początkową kropek jako procent wartości spacing. Można animować (np. za pomocą węzła Oscillator Node z przebiegiem piłokształtnym), aby tworzyć efekty „wędrujących” kropek.
 * **Keep Original** – jeśli włączone, oryginalne linie/kształty są zachowane, a kropki są rysowane na wierzchu.
-* **Render Profile** – wybiera jakość renderowania. _Zobacz_ [render-profile.md](../fundamentals/render-profile.md)
+* **Render Profile** – wybiera jakość renderowania. _Zobacz_ [Profil renderowania](../fundamentals/render-profile.md)
 * **Length Auto Divisible by Spacing** – automatycznie dostosowuje odstępy, tak aby długość ścieżki dzieliła się równomiernie.
 * **Fade Out Ends** – stopniowo zmniejsza jasność kropek w kierunku początku i końca ścieżki. Przydatne podczas animowania **Offset** za pomocą węzła Oscillator Node z przebiegiem piłokształtnym, dzięki czemu kropki płynnie pojawiają się i znikają, gdy przesuwają się do końca kształtu.
 
@@ -28,5 +28,5 @@ Ten węzeł przycina widoczną długość linii i kształtów, pozwalając je od
 * **Loop** – traktuje kształt jako ciągłą pętlę, więc koniec łączy się z początkiem zamiast znikać.
 * **All Shapes** – łączy wszystkie kształty wejściowe i przycina je tak, jakby były jedną ścieżką. Jeśli wyłączone, każdy kształt jest przycinany osobno.
 * **Add Dot at Start / Add Dot at End** – dodaje kropkę w wybranym kolorze w punktach przycięcia. (Jeśli nie zastosowano przycięcia, kropki nie są dodawane).
-* **Colour** – kolor kropek przycięcia. _Zobacz też_ [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md)
-* **Render Profile** – wybiera profil renderowania dla kropek. _Zobacz_ [render-profile.md](../fundamentals/render-profile.md)
+* **Colour** – kolor kropek przycięcia. _Zobacz też_ [Ustawienia koloru i HSB](../fundamentals/colour-settings-and-hsb.md)
+* **Render Profile** – wybiera profil renderowania dla kropek. _Zobacz_ [Profil renderowania](../fundamentals/render-profile.md)

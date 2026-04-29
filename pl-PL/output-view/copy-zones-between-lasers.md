@@ -21,4 +21,4 @@ Wybierz opcję _Copy output zone settings_, a następnie kliknij przycisk _COPY 
 Pamiętaj, że ten proces nie dodaje ani nie usuwa stref w laserach. Kopiuje jedynie pozycję i typ strefy dla każdej strefy, która istnieje w laserach docelowych.
 {% endhint %}
 
-Zobacz także [copy-laser-settings.md](../setting-up/copy-laser-settings.md), aby uzyskać pełny opis pozostałych funkcji tego systemu.
+Zobacz także [Kopiowanie ustawień między laserami](../setting-up/copy-laser-settings.md), aby uzyskać pełny opis pozostałych funkcji tego systemu.

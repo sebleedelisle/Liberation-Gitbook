@@ -27,7 +27,7 @@ Voit lisäksi tuoda ja viedä preset-tiedostoja preset-pudotusvalikon vieressä 
 Jos muokkaat preset-asetusta, esimerkiksi scanner-asetusta nimeltä _Default_, huomaa, että muut laserit eivät päivity automaattisesti. Sen sijaan kunkin laserin scanner-asetusten nimeksi tulee nyt _Default(edited)_. Päivitä asetus uuteen _Default_-presetiin valitsemalla se uudelleen pudotusvalikosta.
 
 {% hint style="info" %}
-Jos sinulla on paljon lasereita ja haluat päivittää kaikkien scanner-asetukset, käytä _COPY LASER SETTINGS_ -järjestelmää. Katso [copy-laser-settings.md](../setting-up/copy-laser-settings.md)
+Jos sinulla on paljon lasereita ja haluat päivittää kaikkien scanner-asetukset, käytä _COPY LASER SETTINGS_ -järjestelmää. Katso [Kopioi asetukset lasereiden välillä](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 Jos poistat presetin, jota käytetään muualla, et menetä asetusta, vaan näet sen merkinnällä _(deleted)._

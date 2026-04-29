@@ -14,7 +14,7 @@ Vous pouvez toutefois exporter votre configuration pour la sauvegarder ou la tra
 
 Le fichier Project stocke presque tous les éléments de votre configuration actuelle, notamment :
 
-* Tout ce qui est détaillé dans [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention") ci-dessous
+* Tout ce qui est détaillé dans [Chargement et enregistrement](loading-and-saving.md#laser-settings-import-export "mention") ci-dessous
 * Les clips, effets et réglages de groupes
 * Toutes vos timelines (hors médias audio et vidéo)
 * La configuration ArtNet
@@ -30,7 +30,7 @@ Actuellement, il n’enregistre et ne recharge pas :
 * Les polices utilisées dans le nœud Text
 
 {% hint style="danger" %}
-Les fichiers audio et vidéo de la timeline ne sont pas enregistrés avec les fichiers de projet. Veillez donc à les enregistrer séparément si vous voulez les transférer vers un autre ordinateur. Voir [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Les fichiers audio et vidéo de la timeline ne sont pas enregistrés avec les fichiers de projet. Veillez donc à les enregistrer séparément si vous voulez les transférer vers un autre ordinateur. Voir [Chargement et enregistrement](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Import / Export des Laser settings
@@ -67,7 +67,7 @@ Vous pouvez ajouter des clips depuis un fichier de Clip Deck exporté à votre p
 Tous les clips actuellement sélectionnés seront exportés dans un fichier. Les réglages de groupes et les effets ne seront pas enregistrés, seuls les clips le seront. Notez que les clips actifs en cours de lecture ne sont pas exportés, sauf s’ils sont également sélectionnés.
 
 {% hint style="info" %}
-Option/Alt - shift - click sur les clips pour les sélectionner (ou utilisez le lasso). Les clips sélectionnés sont reconnaissables à leur épais contour blanc. Voir [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+Option/Alt - shift - click sur les clips pour les sélectionner (ou utilisez le lasso). Les clips sélectionnés sont reconnaissables à leur épais contour blanc. Voir [Démarrer / arrêter des clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Import / Export des effets
@@ -82,12 +82,12 @@ Pour importer uniquement les effets d’un projet, sélectionnez _**Effects->Imp
 
 ### Export de timeline
 
-Exportez un fichier de timeline contenant une ou plusieurs timelines. Notez que le Clip Deck est toujours inclus dans les fichiers de timeline exportés (même si vous pouvez choisir quels clips réimporter, voir [#timeline-import](loading-and-saving.md#timeline-import "mention") ci-dessous).
+Exportez un fichier de timeline contenant une ou plusieurs timelines. Notez que le Clip Deck est toujours inclus dans les fichiers de timeline exportés (même si vous pouvez choisir quels clips réimporter, voir [Chargement et enregistrement](loading-and-saving.md#timeline-import "mention") ci-dessous).
 
 Si votre fichier de projet contient plusieurs timelines, un panneau s’ouvrira pour vous permettre de sélectionner celles que vous voulez exporter.
 
 {% hint style="danger" %}
-Les fichiers audio et vidéo de la timeline ne sont pas enregistrés avec les fichiers de timeline. Veillez donc à les enregistrer séparément si vous voulez transférer votre contenu vers un autre ordinateur. Voir [#important-note-about-timeline-media-files](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Les fichiers audio et vidéo de la timeline ne sont pas enregistrés avec les fichiers de timeline. Veillez donc à les enregistrer séparément si vous voulez transférer votre contenu vers un autre ordinateur. Voir [Chargement et enregistrement](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Import de timeline

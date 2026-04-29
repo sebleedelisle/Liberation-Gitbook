@@ -11,7 +11,7 @@ metaLinks:
 
 Beskrivning
 
-* **hue, saturation, brightness** - färgvärdena, se [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - färgvärdena, se [Färginställningar och HSB](../fundamentals/colour-settings-and-hsb.md "mention")
 * **hue mode** -
   * OFF - färgtonen ändras inte
   * FIXED - elementens färgton ställs in på värdet hue

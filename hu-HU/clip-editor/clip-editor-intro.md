@@ -37,7 +37,7 @@ Ha nem látsz kimenetet a 3D visualiser nézetben, lehet, hogy a zone gombokkal 
 
 ### Clip készítése
 
-Általában egy vagy több [creator node](creator-nodes.md) elemmel kezdesz, majd balról jobbra [operators](operator-nodes/) elemeket kapcsolsz hozzájuk, amelyek feldolgozzák a tartalmat. Amikor a creatorokat és/vagy operatorokat egymáshoz közel mozgatod, észreveszed, hogy automatikusan összekapcsolódnak. Ha ismét szét szeretnéd választani őket, húzd őket távolabb egymástól.
+Általában egy vagy több [creator node](creator-nodes.md) elemmel kezdesz, majd balról jobbra [Operátor csomópontok](operator-nodes/) elemeket kapcsolsz hozzájuk, amelyek feldolgozzák a tartalmat. Amikor a creatorokat és/vagy operatorokat egymáshoz közel mozgatod, észreveszed, hogy automatikusan összekapcsolódnak. Ha ismét szét szeretnéd választani őket, húzd őket távolabb egymástól.
 
 ### Node-ok hozzáadása a cliphez
 
@@ -63,7 +63,7 @@ Egynél több node-ot is csatlakoztathatsz a következő node bemenetére. Ez ak
 
 Minden node alján socketek sora található, és mindegyik a node egy-egy tulajdonságát jelöli, például fényerőt, pozíciót, skálázást, forgatást stb.
 
-Az [Oscillator nodes](oscillators/) alulról csatlakoztathatók ezekhez a socketekhez, és ezekkel animálhatók a beállítások. Az Oscillator node-ok kimenete felül található; kattints és húzd ki a kapcsolatot, majd engedd rá valamelyik másik node tulajdonság-socketjére.
+Az [Oscillator node-ok](oscillators/) alulról csatlakoztathatók ezekhez a socketekhez, és ezekkel animálhatók a beállítások. Az Oscillator node-ok kimenete felül található; kattints és húzd ki a kapcsolatot, majd engedd rá valamelyik másik node tulajdonság-socketjére.
 
 ### Oscillator node-ok
 
@@ -75,7 +75,7 @@ Ha használtál már analóg szintetizátort, ismerős lesz az oszcillátorok fo
 **Érdekesség:** a _Liberation_ név a Moog Liberation szintetizátorról kapta az ihletet. Ez egy 1980-ban megjelent „keytar” volt, amelyet Herbie Hancock, Jean-Michel Jarre, sőt James Brown is ismertté tett!
 {% endhint %}
 
-Az Oscillatoroknak mindig vannak _range_ beállításaik, amelyek a módosítandó tulajdonság minimális és maximális értékét szabályozzák. A _Wave Oscillators_ elemeknek pedig mindig van _duration_ beállításuk, amely meghatározza, milyen gyorsan változtatja az oscillator az értéket. További információ: [wave-oscillators.md](oscillators/wave-oscillators.md).
+Az Oscillatoroknak mindig vannak _range_ beállításaik, amelyek a módosítandó tulajdonság minimális és maximális értékét szabályozzák. A _Wave Oscillators_ elemeknek pedig mindig van _duration_ beállításuk, amely meghatározza, milyen gyorsan változtatja az oscillator az értéket. További információ: [Hullámoszcillátorok](oscillators/wave-oscillators.md).
 
 ### Clip editor panel
 

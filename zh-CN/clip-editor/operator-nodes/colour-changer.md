@@ -4,7 +4,7 @@
 
 说明
 
-* **hue, saturation, brightness** - 颜色数值，见 [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - 颜色数值，见 [颜色设置与 HSB](../fundamentals/colour-settings-and-hsb.md "mention")
 * **hue mode** -
   * OFF - 不改变 hue
   * FIXED - 将 hue 固定为指定值

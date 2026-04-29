@@ -24,7 +24,7 @@ Voit käynnistää uuden clipin pysäyttämättä muita clippejä jommallakummal
 * Pidä `Shift`-näppäintä (tai APC40:n Shift-painiketta) painettuna, kun käynnistät uuden clipin; tai
 * Paina parhaillaan käynnissä olevia clippejä uudelleen samalla, kun käynnistät uuden clipin.
 
-Clip-ryhmät ovat toisistaan riippumattomia, joten clipin käynnistäminen yhdessä ryhmässä ei vaikuta muiden ryhmien clippeihin. Katso [groups.md](groups.md)
+Clip-ryhmät ovat toisistaan riippumattomia, joten clipin käynnistäminen yhdessä ryhmässä ei vaikuta muiden ryhmien clippeihin. Katso [Clip-ryhmät](groups.md)
 
 ### Flash mode
 

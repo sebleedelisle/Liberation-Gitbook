@@ -20,7 +20,7 @@ Tidlige LaserCube-enheter styres via USB, men alle nåværende modeller har en i
 
 ### USB LaserCube
 
-Koble LaserCube til datamaskinen med en micro-USB-kabel, og se deretter etter den i _Controller Assignment_-panelet (se [controller-assignment.md](../setting-up/controller-assignment.md "mention")). Hvis den ikke vises automatisk, trykker du på _REFRESH_-knappen.
+Koble LaserCube til datamaskinen med en micro-USB-kabel, og se deretter etter den i _Controller Assignment_-panelet (se [Kontrollertildeling](../setting-up/controller-assignment.md "mention")). Hvis den ikke vises automatisk, trykker du på _REFRESH_-knappen.
 
 ### Network LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ Selv om «Wifi»-kubene er laget for å brukes over et trådløst nettverk, anbe
 
 Koble LaserCube til det kablede nettverket.
 
-Sett LaserCube i «LAN Client»-modus, og sørg for at det finnes en ruter på nettverket. LaserCube får en IP-adresse fra ruteren, og skal deretter dukke opp i _Controller Assignment_-panelet. (Se [controller-assignment.md](../setting-up/controller-assignment.md "mention")).
+Sett LaserCube i «LAN Client»-modus, og sørg for at det finnes en ruter på nettverket. LaserCube får en IP-adresse fra ruteren, og skal deretter dukke opp i _Controller Assignment_-panelet. (Se [Kontrollertildeling](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Det er mulig å sette opp et nettverk uten ruter og gi alle enhetene faste IP-adresser, og dette er veldig vanlig i eventbransjen. Personlig foretrekker jeg å legge til en ruter på nettverket, og jeg anbefaler dette alternativet til alle som har mindre erfaring med nettverk.

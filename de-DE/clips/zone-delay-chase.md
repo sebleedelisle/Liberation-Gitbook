@@ -14,7 +14,7 @@ Das Zone-delay-System ist eine einfache, aber wirkungsvolle Methode, um Abwechsl
 
 _Zone delay_ verzögert das Timing des Clips pro Zone und erzeugt dadurch eine Art Wischbewegung über die Zonen.
 
-Besonders wirkungsvoll ist es, _Zone delay_ bei einem bereits laufenden Clip hinzuzufügen. Verwende dazu den entsprechenden Regler auf der APC40, um Stärke und Pattern anzupassen. (Siehe [apc40-reference.md](../reference/apc40-reference.md "mention")). Alternativ kannst du das _Clip Settings_-Panel verwenden.
+Besonders wirkungsvoll ist es, _Zone delay_ bei einem bereits laufenden Clip hinzuzufügen. Verwende dazu den entsprechenden Regler auf der APC40, um Stärke und Pattern anzupassen. (Siehe [APC40-Referenz](../reference/apc40-reference.md "mention")). Alternativ kannst du das _Clip Settings_-Panel verwenden.
 
 Zone-delay-Einstellungen:
 
@@ -39,7 +39,7 @@ Das Pattern arbeitet mit den Zonennummern und geht davon aus, dass deine Zonen v
 Zone delay wird auch auf alle aktiven Effekte angewendet. Ein Flashing-Effekt wird zum Beispiel ebenso über die Zonen verzögert wie die Animation im Clip selbst.
 {% endhint %}
 
-Wenn ein Clip irgendeine Art von _Zone delay_ verwendet, siehst du oben rechts im Clip ein Drei-Punkte-Symbol. Diese Punkte sind animiert und zeigen dir den _Zone delay_-Stil dieses Clips. Weitere Details findest du unter [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention").
+Wenn ein Clip irgendeine Art von _Zone delay_ verwendet, siehst du oben rechts im Clip ein Drei-Punkte-Symbol. Diese Punkte sind animiert und zeigen dir den _Zone delay_-Stil dieses Clips. Weitere Details findest du unter [Was bedeuten die kleinen Symbole auf den Clip-Buttons?](what-are-the-small-icons-on-the-clip-buttons.md "mention").
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Das Drei-Punkte-Symbol zeigt an, dass ein Clip einen Zone delay hat, und zeigt dessen Modus</p></figcaption></figure>
 

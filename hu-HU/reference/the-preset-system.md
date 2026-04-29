@@ -27,7 +27,7 @@ Preset fájlokat külön is importálhatsz és exportálhatsz a preset legördü
 Ha szerkesztesz egy presetet, például a _Default_ nevű scanner settinget, vedd figyelembe, hogy a többi lézer nem frissül automatikusan. Ehelyett mindegyik scanner settings címkéje _Default(edited)_ lesz. Ha ezt az új _Default_ presetre szeretnéd frissíteni, válaszd ki újra a legördülő listából.
 
 {% hint style="info" %}
-Ha sok lézered van, és mindegyik scanner settings értékét frissíteni szeretnéd, használd a _COPY LASER SETTINGS_ rendszert. Lásd: [copy-laser-settings.md](../setting-up/copy-laser-settings.md)
+Ha sok lézered van, és mindegyik scanner settings értékét frissíteni szeretnéd, használd a _COPY LASER SETTINGS_ rendszert. Lásd: [Beállítások másolása lézerek között](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 Ha törölsz egy máshol használt presetet, a beállítás nem veszik el, hanem _(deleted)_ címkével jelenik meg.

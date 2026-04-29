@@ -23,7 +23,7 @@ Høyreklikk på sonen og slå tallknappene av eller på for å velge hvilken ell
 ADVARSEL – hvis laseren er aktivert, kan du plutselig begynne å projisere innhold i en standard canvas zone. Det er best å deaktivere laseren før du tilordner canvas zones til den.
 {% endhint %}
 
-Hvis du nå går til _OUTPUT_-visningen for den laseren, ser du canvas zone der. Den kan nå redigeres på samme måte som en hvilken som helst beam zone. Se [zones.md](../output-view/zones.md "mention").
+Hvis du nå går til _OUTPUT_-visningen for den laseren, ser du canvas zone der. Den kan nå redigeres på samme måte som en hvilken som helst beam zone. Se [Soner](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Du kan også legge til en canvas zone på en laser direkte fra _OUTPUT_-visningen – klikk på knappen _Add existing canvas zone_ i verktøylinjen til venstre.

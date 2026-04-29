@@ -20,7 +20,7 @@ Os primeiros LaserCubes são controlados por USB, mas os modelos atuais têm um 
 
 ### USB LaserCube
 
-Conecte seu LaserCube ao computador com um cabo micro USB e procure por ele no painel _Controller Assignment_ (veja [controller-assignment.md](../setting-up/controller-assignment.md)). Se ele não aparecer automaticamente, pressione o botão _REFRESH_.
+Conecte seu LaserCube ao computador com um cabo micro USB e procure por ele no painel _Controller Assignment_ (veja [Atribuição de controladores](../setting-up/controller-assignment.md)). Se ele não aparecer automaticamente, pressione o botão _REFRESH_.
 
 ### Network LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ Embora os cubos "Wifi" tenham sido projetados para operar em uma rede sem fio, i
 
 Conecte seu LaserCube à sua rede cabeada.
 
-Coloque seu LaserCube no modo "LAN Client" e verifique se há um roteador na rede. O LaserCube receberá um endereço IP do roteador e então deverá aparecer no painel _Controller Assignment_. (Veja [controller-assignment.md](../setting-up/controller-assignment.md)).
+Coloque seu LaserCube no modo "LAN Client" e verifique se há um roteador na rede. O LaserCube receberá um endereço IP do roteador e então deverá aparecer no painel _Controller Assignment_. (Veja [Atribuição de controladores](../setting-up/controller-assignment.md)).
 
 {% hint style="info" %}
 É possível configurar uma rede sem roteador e atribuir endereços IP fixos a todos os dispositivos, e isso é muito comum na indústria de eventos. Pessoalmente, prefiro adicionar um roteador à rede e recomendo essa opção para qualquer pessoa com menos experiência em redes.

@@ -26,7 +26,7 @@ O nó Randomise está no centro do efeito Randomise!
 
 Cria ecos do seu conteúdo, deixando cópias que desaparecem ou mudam de escala atrás do original conforme ele se move.
 
-* **change render profile for trail** – se estiver ativado, todas as cópias da trilha usam o **render profile** selecionado. _Consulte_ [render-profile.md](../fundamentals/render-profile.md).
+* **change render profile for trail** – se estiver ativado, todas as cópias da trilha usam o **render profile** selecionado. _Consulte_ [Render Profile](../fundamentals/render-profile.md).
 * **render profile** – o perfil usado para as cópias da trilha quando a opção acima está ativada. É comum usar isso quando o conteúdo principal está definido como **DETAIL**, mas os ecos são renderizados como **FAST**, o que mantém detalhes nítidos nas formas principais enquanto renderiza as trilhas com mais eficiência.
 * **delay** – define o espaçamento entre as cópias da trilha em tempo musical, medido em **passos de nota de 1/64**.\
   Para referência:

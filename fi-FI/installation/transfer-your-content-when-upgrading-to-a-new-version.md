@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Siirrä sisältösi, kun päivität uuteen versioon
 
-Liberation tallentaa sisällön työkansioonsa (katso [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md)), ja tämä kansio vaihtuu jokaisen uuden version julkaisun yhteydessä. Jos haluat säilyttää työtiedostosi vanhasta versiosta uuteen:&#x20;
+Liberation tallentaa sisällön työkansioonsa (katso [Mistä työkansio löytyy](../troubleshooting/where-to-find-the-working-folder.md)), ja tämä kansio vaihtuu jokaisen uuden version julkaisun yhteydessä. Jos haluat säilyttää työtiedostosi vanhasta versiosta uuteen:&#x20;
 
 1. Avaa Liberationin alkuperäinen versio
 2. Käytä toimintoa _File->Project->Export Project_. Tämä tallentaa kaiken Liberationistasi: laser-asetukset, aikajanat, Clip Deckin, kaiken!&#x20;

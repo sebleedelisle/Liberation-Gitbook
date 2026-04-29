@@ -26,7 +26,7 @@ Le nœud randomise est au cœur de l’effet Randomise !
 
 Crée des échos de votre contenu, en laissant derrière l’original des copies qui s’estompent ou changent d’échelle pendant son déplacement.
 
-* **change render profile for trail** – si activé, toutes les copies de traînée utilisent le **render profile** sélectionné. _Voir_ [render-profile.md](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – si activé, toutes les copies de traînée utilisent le **render profile** sélectionné. _Voir_ [Render Profile](../fundamentals/render-profile.md "mention").
 * **render profile** – profil à utiliser pour les copies de traînée lorsque l’option ci-dessus est activée. Il est souvent utilisé lorsque le contenu principal est réglé sur **DETAIL**, mais que les échos sont rendus en **FAST** : vous conservez ainsi des détails nets sur les formes principales tout en rendant les traînées plus efficacement.
 * **delay** – définit l’espacement entre les copies de traînée en temps musical, mesuré par pas de **1/64 de note**.\
   À titre de repère :

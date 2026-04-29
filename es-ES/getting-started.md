@@ -20,17 +20,17 @@ Liberation es lo bastante flexible como para que puedas configurar láseres y vi
 Puedes configurar y visualizar tantos láseres como quieras dentro de Liberation; los niveles de licencia (Hobbyist, Pro, etc.) solo limitan el número de láseres que puedes _armar._ Esto significa que puedes diseñar espectáculos láser con 100 láseres incluso con una licencia gratuita. Solo necesitas actualizar la licencia cuando vayas a ejecutarlo realmente en láseres físicos.
 {% endhint %}
 
-La configuración predeterminada tiene 8 láseres distribuidos horizontalmente, pero puedes personalizarla como quieras. Probablemente sea mejor mantener este valor predeterminado mientras te familiarizas con el software y, más adelante, ajustarlo para que coincida con tu configuración de hardware. Consulta [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention").
+La configuración predeterminada tiene 8 láseres distribuidos horizontalmente, pero puedes personalizarla como quieras. Probablemente sea mejor mantener este valor predeterminado mientras te familiarizas con el software y, más adelante, ajustarlo para que coincida con tu configuración de hardware. Consulta [Configurar tu proyecto](setting-up/setting-up-your-project.md "mention").
 
 {% hint style="warning" %}
-Importante: antes de armar cualquier láser, asegúrate de entender los riesgos implicados y revisa cuidadosamente el capítulo [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention").
+Importante: antes de armar cualquier láser, asegúrate de entender los riesgos implicados y revisa cuidadosamente el capítulo [Resumen del proceso de configuración de láseres](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Vista general del software
 
 ### Parada de seguridad
 
-Siempre que trabajes con láseres debes tener a mano un **botón físico de parada de emergencia** (consulta [emergency-stop-interlocks.md](hardware/emergency-stop-interlocks.md "mention")), pero si quieres desarmarlo todo sin tanta urgencia puedes usar el botón _**DISARM ALL**_ o la tecla `Escape` (o la tecla _**SESSION**_ en el APC40). También puedes reducir el brillo global usando el deslizador en pantalla o el fader principal del APC40.
+Siempre que trabajes con láseres debes tener a mano un **botón físico de parada de emergencia** (consulta [Parada de emergencia / enclavamientos](hardware/emergency-stop-interlocks.md "mention")), pero si quieres desarmarlo todo sin tanta urgencia puedes usar el botón _**DISARM ALL**_ o la tecla `Escape` (o la tecla _**SESSION**_ en el APC40). También puedes reducir el brillo global usando el deslizador en pantalla o el fader principal del APC40.
 
 ### Elementos deslizantes
 
@@ -42,7 +42,7 @@ Haz `Cmd / Ctrl`-clic en un deslizador para escribir un valor nuevo si necesitas
 
 ### Atajos de teclado
 
-Puedes encontrar una lista completa de atajos de teclado aquí: [keyboard-shortcuts.md](reference/keyboard-shortcuts.md "mention")
+Puedes encontrar una lista completa de atajos de teclado aquí: [Atajos de teclado](reference/keyboard-shortcuts.md "mention")
 
 ### Distribución de la pantalla
 
@@ -74,7 +74,7 @@ La zona grande situada en la parte superior izquierda de la pantalla puede mostr
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-La vista 3D te muestra cómo se verán tus láseres y puede configurarse para que coincida con tu propia instalación. Haz clic y arrastra para girar la cámara; usa la rueda del ratón para avanzar y retroceder. Encontrarás muchas otras opciones en el panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Consulta [3d-visualiser.md](setting-up/3d-visualiser.md "mention").
+La vista 3D te muestra cómo se verán tus láseres y puede configurarse para que coincida con tu propia instalación. Haz clic y arrastra para girar la cámara; usa la rueda del ratón para avanzar y retroceder. Encontrarás muchas otras opciones en el panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Consulta [3D Visualiser](setting-up/3d-visualiser.md "mention").
 
 #### Vista Output
 
@@ -106,11 +106,11 @@ Haz clic en una zona para seleccionarla y ajusta sus puntos de esquina con el ra
 
 A la izquierda hay una barra con una serie de botones de icono; pasa el ratón sobre cualquier botón para obtener una descripción de lo que hace. Estos botones te permiten añadir zonas beam, zonas canvas y máscaras. También hay opciones para definir un patrón de prueba solo para este láser, junto con ajustes de cuadrícula y ajuste magnético.
 
-Para más detalles, consulta [output-view](output-view/ "mention").
+Para más detalles, consulta [Vista Output](output-view/ "mention").
 
 #### Canvas
 
-El sistema Canvas se usa principalmente para gráficos y mapeado arquitectónico. Puedes distribuir imágenes complejas entre varios láseres y corregir la perspectiva de cada sección. Consulta [graphics-and-the-canvas-system](graphics-and-the-canvas-system/ "mention").
+El sistema Canvas se usa principalmente para gráficos y mapeado arquitectónico. Puedes distribuir imágenes complejas entre varios láseres y corregir la perspectiva de cada sección. Consulta [Gráficos y el sistema Canvas](graphics-and-the-canvas-system/ "mention").
 
 ### Controlador MIDI APC40
 
@@ -118,7 +118,7 @@ El sistema Canvas se usa principalmente para gráficos y mapeado arquitectónico
 
 Aunque es posible controlar Liberation con ratón y teclado, es mucho mejor usar una interfaz de control MIDI APC40 (Mark 2 es la mejor opción, pero Mark 1 también funciona).
 
-Consulta también: [apc40-reference.md](reference/apc40-reference.md "mention")
+Consulta también: [Referencia de APC40](reference/apc40-reference.md "mention")
 
 Ahora también hemos implementado compatibilidad con APC Mini Mark 2 y MIDI Fighter Twister, y hay más controladores en desarrollo. Pero APC40 Mark 2 es la mejor opción en la mayoría de los casos.
 
@@ -146,7 +146,7 @@ Puedes desplazar el clip deck a izquierda y derecha usando:
 * Rueda de desplazamiento del APC40
 * Botones _<- DEVICE ->_ del APC40
 
-Para ayudarte a orientarte, hay un minivisualizador del clip deck en la parte superior. Consulta también [clips](clips/ "mention").
+Para ayudarte a orientarte, hay un minivisualizador del clip deck en la parte superior. Consulta también [Clips y Clip deck](clips/ "mention").
 
 #### Iniciar y detener clips
 
@@ -168,7 +168,7 @@ Dos filas por debajo de los botones de zona verás los botones de inversión X/Y
 Ten en cuenta que estas asignaciones de zona y los ajustes de inversión X/Y están conectados al propio clip; se conservan la próxima vez que ejecutes ese clip. No son un ajuste global.
 {% endhint %}
 
-Haz clic derecho en un clip para editar más ajustes del clip. Consulta también [clip-settings.md](clips/clip-settings.md "mention").
+Haz clic derecho en un clip para editar más ajustes del clip. Consulta también [Ajustes de Clip](clips/clip-settings.md "mention").
 
 ### Grupos
 
@@ -190,7 +190,7 @@ Cambiar los ajustes de zona para todos los clips de un grupo
 
 Con el APC40, pulsa el botón de grupo y, _mientras lo mantienes pulsado,_ usa los botones de zona y X/Y para activar o desactivar los ajustes de zona de todos los clips de ese grupo.
 
-Consulta también [groups.md](clips/groups.md "mention").
+Consulta también [Grupos de Clip](clips/groups.md "mention").
 
 ### Efectos
 
@@ -208,7 +208,7 @@ Usa los controladores rotatorios 1-8\* para ajustar el _parámetro_ de cada efec
 Los números pequeños que ves en los botones de efecto hacen referencia al _level_ y al _parameter_ del efecto. El _level_ se controla con el fader del APC40, o puedes hacer clic y arrastrar sobre el botón. El parámetro se ajusta con los rotatorios del APC40, o puedes hacer clic derecho para ajustarlo con el ratón.
 {% endhint %}
 
-_\*Los controladores rotatorios 1-8 están en la parte superior del APC40 Mk2 y en la parte superior derecha del Mk1. Consulta también:_ [apc40-reference.md](reference/apc40-reference.md "mention")
+_\*Los controladores rotatorios 1-8 están en la parte superior del APC40 Mk2 y en la parte superior derecha del Mk1. Consulta también:_ [Referencia de APC40](reference/apc40-reference.md "mention")
 
 #### Efectos predeterminados
 
@@ -303,10 +303,10 @@ Haz clic en el botón _Assign Laser Controllers_ para abrir el panel _Controller
 
 Aquí puedes elegir qué salidas láser van a qué controladores láser. Arrastra y suelta controladores desde la lista de la derecha a las ranuras de la izquierda. Puedes renombrar tus controladores para que coincidan con el láser al que están asociados (usa el botón con el icono de lápiz).
 
-Lee el capítulo [controller-assignment.md](setting-up/controller-assignment.md "mention") para obtener más detalles.
+Lee el capítulo [Asignación de controladores](setting-up/controller-assignment.md "mention") para obtener más detalles.
 
 {% hint style="danger" %}
-Antes de armar cualquier láser, asegúrate de revisar el capítulo [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention").
+Antes de armar cualquier láser, asegúrate de revisar el capítulo [Resumen del proceso de configuración de láseres](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Panel Laser Output
@@ -337,10 +337,10 @@ Si estás acostumbrado a software láser más antiguo que depende de flujos de p
 Los ajustes básicos de escáner son:
 
 * **Speed** es la velocidad del escáner, es decir, lo rápido que se mueve el láser para dibujar formas. Equivale a ajustar la tasa de puntos en software láser tradicional, pero en Liberation puedes cambiar la velocidad a la que se mueve el láser _independientemente de la tasa de puntos._ No deberías necesitar ajustarlo.
-* **Scanner sync** (a veces conocido como _blank shift_, antes Colour Shift) Los escáneres mueven el láser muy rápido, pero normalmente el cambio de brillo y color no está sincronizado con el movimiento. Esto aparece como pequeñas "colas" de luz parpadeantes en el borde de haces y líneas. Usa este ajuste para sincronizar el movimiento y el color entre sí. Consulta [laser-settings.md](setting-up/laser-settings.md "mention")
+* **Scanner sync** (a veces conocido como _blank shift_, antes Colour Shift) Los escáneres mueven el láser muy rápido, pero normalmente el cambio de brillo y color no está sincronizado con el movimiento. Esto aparece como pequeñas "colas" de luz parpadeantes en el borde de haces y líneas. Usa este ajuste para sincronizar el movimiento y el color entre sí. Consulta [Panel de ajustes de Laser output](setting-up/laser-settings.md "mention")
 
-Los demás ajustes avanzados de escáner se tratan en el capítulo [advanced](advanced/ "mention").
+Los demás ajustes avanzados de escáner se tratan en el capítulo [Avanzado](advanced/ "mention").
 
 ### Zonificación
 
-Para una guía completa sobre cómo configurar y zonificar láseres, consulta: [setting-up-lasers.md](setting-up/setting-up-lasers.md "mention")
+Para una guía completa sobre cómo configurar y zonificar láseres, consulta: [Resumen del proceso de configuración de láseres](setting-up/setting-up-lasers.md "mention")

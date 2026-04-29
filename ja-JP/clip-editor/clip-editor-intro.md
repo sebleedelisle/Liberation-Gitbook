@@ -37,7 +37,7 @@ Clip Editor には次のものが表示されます。
 
 ### Clip を作成する
 
-通常は、1つ以上の [creator nodes](creator-nodes.md) から開始し、コンテンツを処理する [operators](operator-nodes/) を左から右へ接続していきます。Creator や Operator を近づけると、自動的に互いに接続されます。また、離すようにドラッグすると再び切断できます。
+通常は、1つ以上の [creator nodes](creator-nodes.md) から開始し、コンテンツを処理する [Operator nodes](operator-nodes/) を左から右へ接続していきます。Creator や Operator を近づけると、自動的に互いに接続されます。また、離すようにドラッグすると再び切断できます。
 
 ### Clip にノードを追加する
 
@@ -63,7 +63,7 @@ Clip Editor には次のものが表示されます。
 
 各ノードの下部には複数のソケットが並んでおり、それぞれが brightness、position、scale、rotation など、ノード内のプロパティを表します。
 
-[Oscillator nodes](oscillators/) は下側からこれらのソケットに接続し、設定をアニメーションさせるために使用できます。Oscillator node には上部に出力があります。クリックしてドラッグすると接続を引き出せるので、他のノードの property sockets にドロップします。
+[Oscillatorノード](oscillators/) は下側からこれらのソケットに接続し、設定をアニメーションさせるために使用できます。Oscillator node には上部に出力があります。クリックしてドラッグすると接続を引き出せるので、他のノードの property sockets にドロップします。
 
 ### Oscillator nodes
 
@@ -75,7 +75,7 @@ Oscillator nodes は、時間の経過に合わせてプロパティを変化さ
 **豆知識:** _Liberation_ という名前は、1980年に発売され、Herbie Hancock、Jean-Michel Jarre、さらには James Brown によって有名になったシンセサイザーの「キーター」、Moog Liberation に着想を得ています。
 {% endhint %}
 
-Oscillator には必ず _range_ 設定があり、調整するプロパティの最小値と最大値を制御します。また、_Wave Oscillators_ には必ず _duration_ 設定があり、Oscillator が値を変化させる速さを決定します。詳しくは [wave-oscillators.md](oscillators/wave-oscillators.md "mention") を参照してください。
+Oscillator には必ず _range_ 設定があり、調整するプロパティの最小値と最大値を制御します。また、_Wave Oscillators_ には必ず _duration_ 設定があり、Oscillator が値を変化させる速さを決定します。詳しくは [Wave oscillators](oscillators/wave-oscillators.md "mention") を参照してください。
 
 ### Clip editor panel
 

@@ -80,7 +80,7 @@
 * [✅ 타임코드](timecode.md)
 * [🟧 DMX / Artnet](dmx-control/README.md)
   * [✅ 소개](dmx-control/introduction.md)
-  * [◼️ DMX Zones](dmx-control/dmx-zones.md)
+  * [◼️ DMX 존](dmx-control/dmx-zones.md)
   * [◼️ Artnet 노드에 연결](dmx-control/connecting-to-an-artnet-node.md)
   * [◼️ DMX Zones 만들기](dmx-control/creating-dmx-zones/README.md)
     * [◼️ 예제](dmx-control/creating-dmx-zones/examples.md)

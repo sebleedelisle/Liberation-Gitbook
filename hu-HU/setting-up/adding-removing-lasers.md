@@ -15,12 +15,12 @@ vagy a _+_ gombbal az _Output_ nézetben.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Amikor új lézert adsz hozzá, automatikusan létrejön hozzá egy beam zone. Fontos, hogy a lézerek és a zónák abban a sorrendben jelennek meg, ahogyan hozzáadod őket. Lásd: [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md).
+Amikor új lézert adsz hozzá, automatikusan létrejön hozzá egy beam zone. Fontos, hogy a lézerek és a zónák abban a sorrendben jelennek meg, ahogyan hozzáadod őket. Lásd: [Nyalábzónák átrendezése](../output-view/re-ordering-beam-zones.md).
 
 Lézer eltávolításához kattints a piros "-" gombra a _Laser overview_ panelen. Fontos, hogy ezzel az adott lézer összes beállítása elvész!
 
 {% hint style="info" %}
-Ha zónákat vagy más beállításokat szeretnél átmásolni más lézerekről, használd ezt: [copy-laser-settings.md](copy-laser-settings.md)
+Ha zónákat vagy más beállításokat szeretnél átmásolni más lézerekről, használd ezt: [Beállítások másolása lézerek között](copy-laser-settings.md)
 {% endhint %}
 
 {% hint style="info" %}

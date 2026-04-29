@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Verschiebt alle Inhalte entlang der x-, y- und/oder z-Achse. Beachte, dass das Koordinatensystem zentriert ist und sich auf der x- und y-Achse bis +/-200 erstreckt. Siehe [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Verschiebt alle Inhalte entlang der x-, y- und/oder z-Achse. Beachte, dass das Koordinatensystem zentriert ist und sich auf der x- und y-Achse bis +/-200 erstreckt. Siehe [Koordinatensystem](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - die Distanz, um die entlang der x-Achse verschoben wird (links - rechts).
 * **y** - die Distanz, um die entlang der y-Achse verschoben wird (oben - unten).
@@ -20,7 +20,7 @@ Verschiebt alle Inhalte entlang der x-, y- und/oder z-Achse. Beachte, dass das K
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Dreht alle Inhalte. Werte werden in Grad angegeben. Siehe [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Dreht alle Inhalte. Werte werden in Grad angegeben. Siehe [Koordinatensystem](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - der Betrag, um den der Inhalt im Uhrzeigersinn gedreht wird, in Grad. Alles wird um den Ursprung (0,0), also die Mitte, gedreht.
 * **pivot point x / pivot point y** - Verwende diese Werte, um den Ursprung der Drehung zu verschieben.

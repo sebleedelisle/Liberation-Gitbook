@@ -35,7 +35,7 @@ Notez que les corrections d’orientation / miroir ne changent rien dans le 3D V
 
 ### Copier les paramètres du laser
 
-Voir [#copy-laser-settings](./#copy-laser-settings "mention").
+Voir [Panneau des paramètres de sortie laser](./#copy-laser-settings "mention").
 
 ### Paramètres des scanners
 
@@ -50,7 +50,7 @@ Même si les réglages par défaut sont assez prudents, vous pouvez tout de mêm
 {% endhint %}
 
 {% hint style="info" %}
-Ce réglage de vitesse ne change pas le débit de points ; il ajuste plutôt l’espacement entre ces points. Pour plus d’informations, consultez [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+Ce réglage de vitesse ne change pas le débit de points ; il ajuste plutôt l’espacement entre ces points. Pour plus d’informations, consultez [◼️ Comment Liberation génère du contenu laser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Si vous voyez de petites « queues » sur la sortie de votre laser, c’est prob
 
 #### Préréglages des scanners
 
-Utilisez ce réglage pour choisir un paramètre de scanner prédéfini. L’option par défaut convient généralement, vous ne devriez donc pas avoir besoin de modifier ce réglage, sauf si vos scanners sont particulièrement mauvais (ou particulièrement bons). Si vous souhaitez aller plus loin, consultez [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Utilisez ce réglage pour choisir un paramètre de scanner prédéfini. L’option par défaut convient généralement, vous ne devriez donc pas avoir besoin de modifier ce réglage, sauf si vos scanners sont particulièrement mauvais (ou particulièrement bons). Si vous souhaitez aller plus loin, consultez [◼️ Préréglages de scanner et profils de rendu](../../advanced/scanner-presets.md "mention")
 
 #### Calibration des couleurs
 
-Vous pouvez utiliser ce système pour corriger la courbe de luminosité et la balance des blancs de votre laser. Voir [colour-calibration.md](../../advanced/colour-calibration.md "mention")
+Vous pouvez utiliser ce système pour corriger la courbe de luminosité et la balance des blancs de votre laser. Voir [Étalonnage des couleurs](../../advanced/colour-calibration.md "mention")
 
 #### Paramètres avancés
 
-Vous ne devriez pas avoir besoin de modifier ces réglages, mais si vous êtes curieux, consultez [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")
+Vous ne devriez pas avoir besoin de modifier ces réglages, mais si vous êtes curieux, consultez [◼️ Paramètres laser avancés](../../advanced/advanced-laser-settings.md "mention")

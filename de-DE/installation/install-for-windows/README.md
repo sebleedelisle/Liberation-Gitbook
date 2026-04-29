@@ -61,4 +61,4 @@ Liberation benötigt die Berechtigung, auf Dateien und das Netzwerk zuzugreifen.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation sollte jetzt laufen! Um Laser auszugeben, musst du nun den [Autorisierungsprozess](../authorising-and-de-authorising.md) durchlaufen.
+Liberation sollte jetzt laufen! Um Laser auszugeben, musst du nun den [Autorisieren und Deautorisieren](../authorising-and-de-authorising.md) durchlaufen.

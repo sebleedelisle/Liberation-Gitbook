@@ -32,12 +32,12 @@ W Clip Editor zobaczysz:
 Podczas edycji będziesz też widzieć wygląd klipu w tle, w 3D Visualiser.
 
 {% hint style="info" %}
-Jeśli nie widzisz żadnego wyjścia w 3D Visualiser, może być konieczne użycie przycisków stref, aby włączyć wybrane strefy. Upewnij się też, że opcja _Preview to lasers_ jest włączona; zobacz [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel) poniżej.
+Jeśli nie widzisz żadnego wyjścia w 3D Visualiser, może być konieczne użycie przycisków stref, aby włączyć wybrane strefy. Upewnij się też, że opcja _Preview to lasers_ jest włączona; zobacz [Wprowadzenie do Clip Editor](clip-editor-intro.md#clip-editor-panel) poniżej.
 {% endhint %}
 
 ### Tworzenie klipu
 
-Zwykle zaczyna się od jednego lub kilku [creator nodes](creator-nodes.md), a następnie łączy [operators](operator-nodes/) od lewej do prawej, aby przetwarzać treść. Gdy przesuwasz węzły Creator i/lub Operator blisko siebie, zauważysz, że automatycznie się łączą. Możesz je ponownie rozdzielić, przeciągając je od siebie.
+Zwykle zaczyna się od jednego lub kilku [Węzły Creator](creator-nodes.md), a następnie łączy [Węzły operatorów](operator-nodes/) od lewej do prawej, aby przetwarzać treść. Gdy przesuwasz węzły Creator i/lub Operator blisko siebie, zauważysz, że automatycznie się łączą. Możesz je ponownie rozdzielić, przeciągając je od siebie.
 
 ### Dodawanie węzłów do klipu
 
@@ -63,7 +63,7 @@ Możesz podłączyć więcej niż jeden węzeł do wejścia następnego węzła.
 
 Każdy węzeł ma na dole zestaw gniazd, a każde z nich reprezentuje jedną właściwość węzła, taką jak jasność, pozycja, skala, obrót itp.
 
-[Oscillator nodes](oscillators/) można podłączać do tych gniazd od dołu i używać ich do animowania tych ustawień. Węzły Oscillator mają wyjście u góry — kliknij i przeciągnij, aby wyciągnąć połączenie, a następnie upuść je na jednym z gniazd właściwości innego węzła.
+[Węzły Oscillator](oscillators/) można podłączać do tych gniazd od dołu i używać ich do animowania tych ustawień. Węzły Oscillator mają wyjście u góry — kliknij i przeciągnij, aby wyciągnąć połączenie, a następnie upuść je na jednym z gniazd właściwości innego węzła.
 
 ### Węzły Oscillator
 
@@ -75,7 +75,7 @@ Jeśli kiedykolwiek używałeś syntezatora analogowego, znasz koncepcję oscyla
 **Ciekawostka:** nazwa _Liberation_ została zainspirowana instrumentem Moog Liberation — syntezatorem typu „keytar” wydanym w 1980 roku i rozsławionym przez Herbiego Hancocka, Jeana-Michela Jarre’a, a nawet Jamesa Browna!
 {% endhint %}
 
-Oscylatory zawsze mają ustawienia _range_, które kontrolują minimalną i maksymalną wartość regulowanej właściwości. Z kolei _Wave Oscillators_ zawsze mają ustawienie _duration_, które określa, jak szybko oscylator zmienia wartość. Więcej informacji znajdziesz w [wave-oscillators.md](oscillators/wave-oscillators.md).
+Oscylatory zawsze mają ustawienia _range_, które kontrolują minimalną i maksymalną wartość regulowanej właściwości. Z kolei _Wave Oscillators_ zawsze mają ustawienie _duration_, które określa, jak szybko oscylator zmienia wartość. Więcej informacji znajdziesz w [Oscylatory falowe](oscillators/wave-oscillators.md).
 
 ### Panel Clip Editor
 

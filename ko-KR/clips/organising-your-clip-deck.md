@@ -9,7 +9,7 @@ metaLinks:
 
 ### 클립 이동/복제
 
-클립을 클릭한 상태로 드래그하여 이동합니다. 여러 클립이 선택되어 있으면([starting-stopping-clips.md](starting-stopping-clips.md) 참조) 선택된 클립이 모두 함께 이동합니다. 복제하려면 `Alt / Option`을 누른 상태로 드래그합니다. 클립을 빈 공간에 놓으면 됩니다.
+클립을 클릭한 상태로 드래그하여 이동합니다. 여러 클립이 선택되어 있으면([Clip 시작 / 중지](starting-stopping-clips.md) 참조) 선택된 클립이 모두 함께 이동합니다. 복제하려면 `Alt / Option`을 누른 상태로 드래그합니다. 클립을 빈 공간에 놓으면 됩니다.
 
 {% hint style="info" %}
 많은 수의 클립을 선택해야 하는 경우, 클릭/드래그로 lasso를 만든 다음 계속 드래그한 상태에서 Clip Deck을 스크롤할 수 있습니다(커서 키, APC 40, 또는 터치패드/마우스의 가로 스크롤 사용). lasso는 Clip Deck의 가장자리 밖까지 확장됩니다.

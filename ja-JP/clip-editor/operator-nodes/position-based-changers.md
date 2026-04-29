@@ -32,7 +32,7 @@ metaLinks:
 
 **Colour Modes**
 
-これらは、色調整のどの要素をコンテンツに適用するかを決定します。関連項目: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")。
+これらは、色調整のどの要素をコンテンツに適用するかを決定します。関連項目: [カラー設定と HSB](../fundamentals/colour-settings-and-hsb.md "mention")。
 
 * **hue mode**
   * _OFF_ – hue は変更されません。

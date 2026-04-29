@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Suggerimenti per caricare file Graphics / SVG
 
-Consulta lo Shape Creator Node per informazioni sull’importazione di forme vettoriali, loghi ecc. [creator-nodes.md](clip-editor/creator-nodes.md)
+Consulta lo Shape Creator Node per informazioni sull’importazione di forme vettoriali, loghi ecc. [Nodi Creator](clip-editor/creator-nodes.md)

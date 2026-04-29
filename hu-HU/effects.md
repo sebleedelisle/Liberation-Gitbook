@@ -8,7 +8,7 @@ metaLinks:
 
 A Liberation effekt rendszere szórakoztató és sokoldalú módot ad arra, hogy valós időben módosítsd a klipek kimenetét. Az effektek teljesen rugalmasak: villogtathatsz velük mindent, ki-be kapcsolhatod, forgathatod, megváltoztathatod a színeket, vagy akár véletlenszerűen mozgatva „röptetheted” is a tartalmat.
 
-Bármi, amit a klipszerkesztőben meg tudsz csinálni, effektként is használható. Sőt, az effektek pontosan ugyanazzal a nodeszerkesztővel szerkeszthetők, mint a klipek. Lásd: [#editing-effects](effects.md#editing-effects). A kreatív lehetőségek gyakorlatilag végtelenek.
+Bármi, amit a klipszerkesztőben meg tudsz csinálni, effektként is használható. Sőt, az effektek pontosan ugyanazzal a nodeszerkesztővel szerkeszthetők, mint a klipek. Lásd: [Effektek](effects.md#editing-effects). A kreatív lehetőségek gyakorlatilag végtelenek.
 
 Az alapértelmezett 1–8-as effektgombok a zónagombok alatt találhatók, a 9–24-es effektek pedig az alsó sorban lévő kis gombok.
 
@@ -32,12 +32,12 @@ Szerintem ez a Liberation egyik legszórakoztatóbb és legkreatívabb beépíte
 
 #### Effektparaméterek
 
-Adj paramétert az effektedhez egy _Parameter node_ segítségével. A Parameter rendszerrel az effekten belüli több beállítást kívülről is módosíthatsz. További információ: [parameter-control.md](clip-editor/oscillators/parameter-control.md).
+Adj paramétert az effektedhez egy _Parameter node_ segítségével. A Parameter rendszerrel az effekten belüli több beállítást kívülről is módosíthatsz. További információ: [Parameter Control](clip-editor/oscillators/parameter-control.md).
 
 Az 1–8-as forgóvezérlőkkel állíthatod az egyes effektek _parameter_ értékét. Vagy kattints jobb gombbal az effektgombra, és állítsd a paramétercsúszkákat. A paraméter módosítása attól függően más-más dolgot csinál, hogyan van felépítve az effekt. Az alábbi listában láthatod az alapértelmezett effekteket és azt, hogy mit csinálnak a paramétereik.
 
 {% hint style="info" %}
-Az 1–8-as forgóvezérlők az APC40 Mk2 felső részén, az Mk1 esetén pedig jobb felül találhatók. Lásd még: [apc40-reference.md](reference/apc40-reference.md)
+Az 1–8-as forgóvezérlők az APC40 Mk2 felső részén, az Mk1 esetén pedig jobb felül találhatók. Lásd még: [APC40 referencia](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Ez a funkció le van tiltva, ha az _MX Group_ beállítás értéke 0.
 
 Kattints jobb gombbal bármelyik effektre, majd kattints az _EDIT EFFECT_ gombra az effektszerkesztő megnyitásához. Láthatod, hogy ez a szerkesztő megegyezik a klipszerkesztővel.
 
-Az effektet ugyanúgy szerkesztheted, mint bármelyik klipet. Lásd: [clip-editor](clip-editor/).
+Az effektet ugyanúgy szerkesztheted, mint bármelyik klipet. Lásd: [A Clip Editor](clip-editor/).
 
 Legalább egy creator node szükséges; ez bármi lehet (vonal, kör, alakzat, akár szöveg is), de érdemes olyat választani, ami az effektgomb előnézetében a legérthetőbb.
 

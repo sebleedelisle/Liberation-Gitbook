@@ -61,4 +61,4 @@ Liberation behöver behörighet att komma åt filer och nätverket, så Windows 
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation bör nu köras! För att skicka utdata till lasrar behöver du nu gå igenom [auktoriseringsprocessen.](../authorising-and-de-authorising.md)
+Liberation bör nu köras! För att skicka utdata till lasrar behöver du nu gå igenom [Auktorisera och avauktorisera](../authorising-and-de-authorising.md)

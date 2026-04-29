@@ -17,7 +17,7 @@ Na maior parte do tempo, talvez você só precise de uma Canvas target area e de
 
 ### Enviando clips para Canvas target areas
 
-Se você olhar no Clip Deck, ao lado dos botões de zona de feixe, verá os botões das Canvas target areas. Talvez seja necessário rolar os botões de Output para vê-los; use `Shift + Left / Right Arrow`, os botões ZONE PAGE na tela ou os botões do APC40 (veja [apc40-reference.md](../reference/apc40-reference.md)).
+Se você olhar no Clip Deck, ao lado dos botões de zona de feixe, verá os botões das Canvas target areas. Talvez seja necessário rolar os botões de Output para vê-los; use `Shift + Left / Right Arrow`, os botões ZONE PAGE na tela ou os botões do APC40 (veja [Referência do APC40](../reference/apc40-reference.md)).
 
 Atribua clips às Canvas target areas ativando esses botões exatamente da mesma forma que você faria com os botões de zona de feixe.
 

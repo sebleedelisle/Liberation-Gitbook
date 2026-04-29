@@ -21,4 +21,4 @@ Välj alternativet _Copy output zone settings_ och klicka sedan på knappen _COP
 Observera att den här processen inte lägger till eller tar bort zoner från lasrar. Den kopierar endast positionen och typen av zon för varje zon som redan finns i mållasrarna.
 {% endhint %}
 
-Se även [copy-laser-settings.md](../setting-up/copy-laser-settings.md "mention") för en fullständig beskrivning av de övriga funktionerna i det här systemet.
+Se även [Kopiera inställningar mellan lasrar](../setting-up/copy-laser-settings.md "mention") för en fullständig beskrivning av de övriga funktionerna i det här systemet.

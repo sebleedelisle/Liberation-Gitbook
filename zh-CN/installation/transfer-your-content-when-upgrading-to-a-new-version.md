@@ -1,6 +1,6 @@
 # 🟩 升级到新版本时迁移内容
 
-Liberation 会把内容存放在工作文件夹中（见 [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md "mention")），且每次新版本发布时该路径都会变化。如果你想把旧版本的工作文件保留到新版本：&#x20;
+Liberation 会把内容存放在工作文件夹中（见 [如何找到工作文件夹](../troubleshooting/where-to-find-the-working-folder.md "mention")），且每次新版本发布时该路径都会变化。如果你想把旧版本的工作文件保留到新版本：&#x20;
 
 1. 打开旧版本的 Liberation
 2. 使用 _File->Project->Export Project_。这会保存你在 Liberation 中的所有内容：激光设置、Timeline、Clip Deck 等。&#x20;

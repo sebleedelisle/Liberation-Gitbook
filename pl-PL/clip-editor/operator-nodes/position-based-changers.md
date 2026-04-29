@@ -32,7 +32,7 @@ Ten węzeł stosuje zmiany koloru w zawartości na podstawie pozycji. Domyślnie
 
 **Tryby koloru**
 
-Określają, które aspekty korekcji koloru są stosowane do zawartości. Zobacz też: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md).
+Określają, które aspekty korekcji koloru są stosowane do zawartości. Zobacz też: [Ustawienia koloru i HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – odcień pozostaje bez zmian.

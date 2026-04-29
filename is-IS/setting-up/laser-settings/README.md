@@ -71,8 +71,8 @@ Notaðu þetta til að velja fyrirfram hannaða skannastillingu. Sjálfgefni val
 
 #### Colour calibration
 
-Þú getur notað þetta kerfi til að leiðrétta birtukúrfu og hvítjöfnun leysisins. Sjá [Colour calibration](../../advanced/colour-calibration.md)
+Þú getur notað þetta kerfi til að leiðrétta birtukúrfu og hvítjöfnun leysisins. Sjá [Litkvörðun](../../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Þú ættir ekki að þurfa að fikta í þessum stillingum, en ef þú ert forvitin(n), sjá [Advanced laser settings](../../advanced/advanced-laser-settings.md)
+Þú ættir ekki að þurfa að fikta í þessum stillingum, en ef þú ert forvitin(n), sjá [◼️ Ítarlegar leysistillingar](../../advanced/advanced-laser-settings.md)

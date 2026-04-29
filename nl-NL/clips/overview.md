@@ -12,7 +12,7 @@ Alle lasercontent in Liberation wordt opgeslagen in clips.
 
 Clips kunnen atmosferische beameffecten of grafische animaties bevatten en vormen meestal een herhalende cyclus. Je kunt ze naar elke zone (of Canvas Target Area) sturen en je activeert ze met de clipknoppen in de Clip Deck.
 
-Clipcontent maak je met het veelzijdige node-gebaseerde clipeditorsysteem. (Zie [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention") voor meer details)
+Clipcontent maak je met het veelzijdige node-gebaseerde clipeditorsysteem. (Zie [Introductie tot de Clip Editor](../clip-editor/clip-editor-intro.md "mention") voor meer details)
 
 ### De Clip Deck
 

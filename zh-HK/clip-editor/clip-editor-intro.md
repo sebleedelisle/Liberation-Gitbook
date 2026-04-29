@@ -75,7 +75,7 @@ Oscillator 節點用來隨時間改變屬性。它們通常代表鋸齒波或正
 **趣聞：** _Liberation_ 這個名稱的靈感來自 Moog Liberation，一款於 1980 年推出的合成器「keytar」，並由 Herbie Hancock、Jean-Michel Jarre，甚至 James Brown 等人使用而聞名！
 {% endhint %}
 
-Oscillator 一定有 _range_ 設定，用來控制要調整的屬性的最小值和最大值。而 _Wave Oscillators_ 一定有 _duration_ 設定，用來決定 Oscillator 改變數值的速度。詳情請參閱 [Wave Oscillators](oscillators/wave-oscillators.md)。
+Oscillator 一定有 _range_ 設定，用來控制要調整的屬性的最小值和最大值。而 _Wave Oscillators_ 一定有 _duration_ 設定，用來決定 Oscillator 改變數值的速度。詳情請參閱 [波形振盪器](oscillators/wave-oscillators.md)。
 
 ### Clip Editor 面板
 

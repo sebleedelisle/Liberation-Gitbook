@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMXノード
 
-DMXノードは、DMXフィクスチャをより細かく制御するための特別なノードです。詳しくは [dmx-control](../dmx-control/ "mention") を参照してください。
+DMXノードは、DMXフィクスチャをより細かく制御するための特別なノードです。詳しくは [DMX / Artnet](../dmx-control/ "mention") を参照してください。

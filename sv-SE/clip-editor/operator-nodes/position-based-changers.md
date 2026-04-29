@@ -32,7 +32,7 @@ Den här noden applicerar färgändringar över ditt innehåll baserat på posit
 
 **Colour Modes**
 
-Dessa avgör vilka delar av färgjusteringarna som appliceras på innehållet. Se även: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+Dessa avgör vilka delar av färgjusteringarna som appliceras på innehållet. Se även: [Färginställningar och HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – hue ändras inte.

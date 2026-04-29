@@ -11,7 +11,7 @@ metaLinks:
 
 説明
 
-* **hue, saturation, brightness** - 色の値です。[colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention")を参照してください。
+* **hue, saturation, brightness** - 色の値です。[カラー設定と HSB](../fundamentals/colour-settings-and-hsb.md "mention")を参照してください。
 * **hue mode** -
   * OFF - hue は変更されません。
   * FIXED - 要素の hue を hue の値に設定します。

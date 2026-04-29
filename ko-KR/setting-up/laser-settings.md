@@ -56,7 +56,7 @@ Speed 설정은 스캐너가 움직이는 속도를 결정합니다.
 {% endhint %}
 
 {% hint style="info" %}
-이 Speed 설정은 point rate를 변경하지 않습니다. 대신 포인트들이 얼마나 넓게 분포되는지를 조정합니다. 자세한 내용은 [how-liberation-generates-laser-content.md](../advanced/how-liberation-generates-laser-content.md)를 참조하세요.
+이 Speed 설정은 point rate를 변경하지 않습니다. 대신 포인트들이 얼마나 넓게 분포되는지를 조정합니다. 자세한 내용은 [◼️ Liberation이 레이저 콘텐츠를 생성하는 방식](../advanced/how-liberation-generates-laser-content.md)를 참조하세요.
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,12 +73,12 @@ Speed 설정은 스캐너가 움직이는 속도를 결정합니다.
 
 #### Scanner presets
 
-미리 설계된 스캐너 설정을 선택할 때 사용합니다. 기본 옵션은 보통 충분하므로, 스캐너 성능이 특히 나쁘거나(또는 좋은) 경우가 아니라면 이 설정을 변경할 필요가 없습니다. 더 자세히 알아보려면 [scanner-presets.md](../advanced/scanner-presets.md)를 참조하세요.
+미리 설계된 스캐너 설정을 선택할 때 사용합니다. 기본 옵션은 보통 충분하므로, 스캐너 성능이 특히 나쁘거나(또는 좋은) 경우가 아니라면 이 설정을 변경할 필요가 없습니다. 더 자세히 알아보려면 [◼️ 스캐너 프리셋 및 렌더 프로필](../advanced/scanner-presets.md)를 참조하세요.
 
 #### Colour calibration
 
-이 시스템을 사용해 레이저의 밝기 커브와 화이트 밸런스를 보정할 수 있습니다. [colour-calibration.md](../advanced/colour-calibration.md)를 참조하세요.
+이 시스템을 사용해 레이저의 밝기 커브와 화이트 밸런스를 보정할 수 있습니다. [색상 보정](../advanced/colour-calibration.md)를 참조하세요.
 
 #### Advanced settings
 
-일반적으로 이 설정을 건드릴 필요는 없지만, 궁금하다면 [advanced-laser-settings.md](../advanced/advanced-laser-settings.md)를 참조하세요.
+일반적으로 이 설정을 건드릴 필요는 없지만, 궁금하다면 [◼️ 고급 레이저 설정](../advanced/advanced-laser-settings.md)를 참조하세요.

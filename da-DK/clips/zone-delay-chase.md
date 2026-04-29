@@ -14,7 +14,7 @@ Zone delay-systemet er en enkel, men effektiv måde at skabe variation på tvær
 
 _Zone delay_ tilføjer en forsinkelse til clip’ens timing på tværs af hver zone, så der opstår en slags sweep gennem zonerne.
 
-Det er meget effektivt at tilføje zone delay til en clip, der allerede kører. Brug den relevante kontrol på APC40 til at justere niveau og mønster. (Se [apc40-reference.md](../reference/apc40-reference.md "mention")). Du kan også bruge panelet _Clip Settings_.
+Det er meget effektivt at tilføje zone delay til en clip, der allerede kører. Brug den relevante kontrol på APC40 til at justere niveau og mønster. (Se [APC40-reference](../reference/apc40-reference.md "mention")). Du kan også bruge panelet _Clip Settings_.
 
 Zone delay-indstillinger:
 
@@ -39,7 +39,7 @@ Mønsteret bruger zonenumrene og antager, at dine zoner er ordnet fra venstre mo
 Zone delay anvendes også på alle aktive effekter. For eksempel bliver en blinkende effekt forsinket på tværs af zonerne, ligesom animationen i selve clip’en.
 {% endhint %}
 
-Når en clip har en eller anden form for _Zone delay_, vises et ikon med tre prikker øverst til højre på clip’en. Prikkerne er animerede for at vise typen af _Zone delay_ for den pågældende clip. Se [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention") for flere detaljer.
+Når en clip har en eller anden form for _Zone delay_, vises et ikon med tre prikker øverst til højre på clip’en. Prikkerne er animerede for at vise typen af _Zone delay_ for den pågældende clip. Se [Hvad betyder de små ikoner på clip-knapperne?](what-are-the-small-icons-on-the-clip-buttons.md "mention") for flere detaljer.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Symbolet med tre prikker, som viser, at en clip har zone delay og hvilken tilstand den bruger</p></figcaption></figure>
 

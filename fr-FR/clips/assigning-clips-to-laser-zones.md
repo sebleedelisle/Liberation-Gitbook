@@ -28,4 +28,4 @@ Vous n’avez pas besoin de créer une nouvelle zone pour avoir des réglages de
 
 ### Affecter des zones à plusieurs clips à la fois
 
-Vous pouvez affecter des zones et ajuster X/Y pour tous les clips d’une zone. Consultez [groups.md](groups.md "mention") pour plus d’informations.
+Vous pouvez affecter des zones et ajuster X/Y pour tous les clips d’une zone. Consultez [Groupes de Clips](groups.md "mention") pour plus d’informations.

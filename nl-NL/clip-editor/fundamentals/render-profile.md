@@ -16,7 +16,7 @@ Anders dan de meeste lasersoftware genereert Liberation in realtime een puntenst
 
 Dit betekent ook dat je dezelfde content per laser kunt afstemmen op verschillende scannertypen, zonder de clips zelf te hoeven aanpassen.
 
-Zie voor meer informatie [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+Zie voor meer informatie [◼️ Hoe Liberation lasercontent genereert](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 Er zijn drie vooraf ingestelde _Render Profiles_: _DEFAULT_, _FAST_ en _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ als je clip veel content bevat en een deel daarvan uit heel eenvoud
 _**DETAIL**_ - gebruik deze optie als je iets tekent dat scherpe hoeken nodig heeft. Houd er wel rekening mee dat je scanners langzamer bewegen, waardoor de output flikkeriger wordt.
 
 {% hint style="info" %}
-In de clip editor kun je creators aan verschillende render profiles toewijzen, maar elke laser verwerkt deze profielen afhankelijk van de scanner settings. Zie [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+In de clip editor kun je creators aan verschillende render profiles toewijzen, maar elke laser verwerkt deze profielen afhankelijk van de scanner settings. Zie [◼️ Scannerpresets & renderprofielen](../../advanced/scanner-presets.md "mention")
 {% endhint %}

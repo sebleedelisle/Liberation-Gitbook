@@ -25,6 +25,6 @@ A _BOTH_ beállítást körültekintően használd. A MIDI-eszközök és szoftv
 
 ### MIDI-kiosztás
 
-Lásd: [midi-send-receive-default-mapping.md](../reference/midi-send-receive-default-mapping.md)
+Lásd: [MIDI küldés/fogadás alapértelmezett leképezése](../reference/midi-send-receive-default-mapping.md)
 
 A jövőben sokkal jobban testreszabható MIDI-kiosztást tervezek hozzáadni, de addig is használhatsz olyan alkalmazásokat, mint a [BOME](https://www.bome.com/products/miditranslator) és a [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en), hogy fordítsanak a Liberation és az egyedi hardvered között.

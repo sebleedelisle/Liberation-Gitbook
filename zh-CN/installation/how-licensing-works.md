@@ -6,7 +6,7 @@
 _demo mode_ 除了不能输出到激光硬件外没有任何限制。你可以排练演出、搭建 Timeline、保存和加载文件，均不受限制。你可以在任意数量的电脑上安装 _demo mode_ 的 Liberation，只有在你准备使用激光时才需要授权！
 {% endhint %}
 
-除了可 arm 的激光数量，你也可以使用 DMX 设备。见 [dmx-control](../dmx-control/ "mention")。
+除了可 arm 的激光数量，你也可以使用 DMX 设备。见 [DMX / Art-Net](../dmx-control/ "mention")。
 
 你可授权的电脑数量也取决于订阅档位。
 

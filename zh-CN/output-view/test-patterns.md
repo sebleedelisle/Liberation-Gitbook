@@ -13,7 +13,7 @@
 3. Horizontal green lines - 4 条均匀分布的水平线。
 4. Vertical green lines - 4 条均匀分布的垂直线。
 
-Colour calibration patterns 5-8。这些图案可配合激光设置中的颜色校正系统使用。见 [colour-calibration.md](../advanced/colour-calibration.md "mention")。这些图案不会填满整个输出范围。&#x20;
+Colour calibration patterns 5-8。这些图案可配合激光设置中的颜色校正系统使用。见 [颜色校准](../advanced/colour-calibration.md "mention")。这些图案不会填满整个输出范围。&#x20;
 
 5. Colour calibration pattern - red.&#x20;
 6. Colour calibration pattern - green.

@@ -16,7 +16,7 @@ Canvas zone 在 Canvas 视图中以粉色轮廓矩形显示。它用于在 Canva
 警告 - 如果激光已 arm，默认 Canvas zone 可能会突然开始投射内容。最好在分配 Canvas zones 前先 disarm。&#x20;
 {% endhint %}
 
-切换到该激光的 _OUTPUT_ 视图后，会看到该 Canvas zone 出现，并且可以像 beam zone 一样编辑。见 [zones.md](../output-view/zones.md "mention")。&#x20;
+切换到该激光的 _OUTPUT_ 视图后，会看到该 Canvas zone 出现，并且可以像 beam zone 一样编辑。见 [Zones](../output-view/zones.md "mention")。&#x20;
 
 {% hint style="info" %}
 你也可以直接在 _OUTPUT_ 视图中为激光添加 Canvas zone——点击左侧工具栏的 _Add existing canvas zone_ 按钮。&#x20;

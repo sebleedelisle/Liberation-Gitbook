@@ -14,7 +14,7 @@ Systemet för Zone delay är ett enkelt men effektivt sätt att skapa variation 
 
 _Zone delay_ lägger till en fördröjning i klippets timing för varje zon, vilket skapar en slags svepning över zonerna.
 
-Det är väldigt effektivt att lägga till Zone delay i ett klipp som redan spelas. Använd motsvarande kontroll på APC40 för att justera nivå och mönster. (Se [apc40-reference.md](../reference/apc40-reference.md "mention")). Du kan också använda panelen _Clip Settings_.
+Det är väldigt effektivt att lägga till Zone delay i ett klipp som redan spelas. Använd motsvarande kontroll på APC40 för att justera nivå och mönster. (Se [APC40-referens](../reference/apc40-reference.md "mention")). Du kan också använda panelen _Clip Settings_.
 
 Inställningar för Zone delay:
 
@@ -39,7 +39,7 @@ Mönstret baseras på zonnumren och förutsätter att dina zoner ligger i ordnin
 Zone delay tillämpas även på alla aktiva effekter. Till exempel kommer en blinkande effekt att fördröjas över zonerna, precis som animationen i själva klippet.
 {% endhint %}
 
-När ett klipp har någon form av _Zone delay_ visas en ikon med tre punkter längst upp till höger på klippet. Punkterna är animerade för att visa vilken typ av _Zone delay_ klippet använder. Se [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention") för mer information.
+När ett klipp har någon form av _Zone delay_ visas en ikon med tre punkter längst upp till höger på klippet. Punkterna är animerade för att visa vilken typ av _Zone delay_ klippet använder. Se [Vad betyder de små ikonerna på clip-knapparna?](what-are-the-small-icons-on-the-clip-buttons.md "mention") för mer information.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Symbolen med tre punkter som visar att ett klipp har Zone delay och vilket läge det använder</p></figcaption></figure>
 

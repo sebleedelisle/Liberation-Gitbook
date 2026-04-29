@@ -14,7 +14,7 @@ Modifiez la taille de sortie du Clip avec _Scale X_ et _Scale Y_. Ces deux param
 
 Modifiez la position horizontale et verticale du Clip avec _Shift X_ et _Shift Y_.
 
-_Zone Delay/Chase_ est une fonctionnalité tellement intéressante qu’elle a droit à sa propre section. [zone-delay-chase.md](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ est une fonctionnalité tellement intéressante qu’elle a droit à sa propre section. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Verrouiller des Clips
 
@@ -27,7 +27,7 @@ Si un Clip est verrouillé, il ne peut pas être déplacé ni supprimé. Pour ve
 
 ### Menu du clic droit
 
-Si vous faites un clic droit sur un Clip, un menu apparaît avec certaines options propres à ce Clip. Consultez [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [clip-settings.md](clip-settings.md "mention") et [groups.md](groups.md "mention") pour en savoir plus sur les premiers éléments de ce menu.
+Si vous faites un clic droit sur un Clip, un menu apparaît avec certaines options propres à ce Clip. Consultez [Introduction au Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Paramètres de Clip](clip-settings.md "mention") et [Groupes de Clips](groups.md "mention") pour en savoir plus sur les premiers éléments de ce menu.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Le menu du clic droit des paramètres de Clip</p></figcaption></figure>
 

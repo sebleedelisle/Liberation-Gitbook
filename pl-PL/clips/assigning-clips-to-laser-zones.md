@@ -28,4 +28,4 @@ Nie musisz tworzyć nowej strefy, aby użyć innych ustawień lustrzanego odbici
 
 ### Przypisywanie stref do wielu klipów naraz
 
-Możesz przypisywać strefy i dostosowywać X/Y dla wszystkich klipów w grupie. Więcej informacji znajdziesz w [groups.md](groups.md).
+Możesz przypisywać strefy i dostosowywać X/Y dla wszystkich klipów w grupie. Więcej informacji znajdziesz w [Grupy klipów](groups.md).

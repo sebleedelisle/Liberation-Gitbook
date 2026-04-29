@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Trasferire i tuoi contenuti quando aggiorni a una nuova versione
 
-Liberation salva i contenuti nella sua cartella di lavoro (vedi [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md)) e questa cambia a ogni nuova versione rilasciata. Se vuoi mantenere i file di lavoro dalla vecchia versione alla nuova:&#x20;
+Liberation salva i contenuti nella sua cartella di lavoro (vedi [Dove trovare la cartella di lavoro](../troubleshooting/where-to-find-the-working-folder.md)) e questa cambia a ogni nuova versione rilasciata. Se vuoi mantenere i file di lavoro dalla vecchia versione alla nuova:&#x20;
 
 1. Apri la versione originale di Liberation
 2. Usa _File->Project->Export Project_. Questo salva tutto ciò che hai in Liberation: configurazione laser, timeline, Clip Deck, tutto!&#x20;

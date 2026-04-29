@@ -140,7 +140,7 @@ Clip er ílát fyrir hvers kyns laser efni í Liberation. Clips geta innihaldið
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ hnöppum
 
-Til að hjálpa þér að átta þig er lítill visualiser fyrir Clip Deck efst. Sjá einnig [Clips](../clips/)
+Til að hjálpa þér að átta þig er lítill visualiser fyrir Clip Deck efst. Sjá einnig [Clips og Clip Deck](../clips/)
 
 #### Að ræsa og stöðva Clips
 
@@ -297,7 +297,7 @@ Smelltu á _Assign Laser Controllers_ hnappinn til að opna _Controller Assignme
 
 Hér geturðu valið hvaða laser outputs fara í hvaða laser controllers. Dragðu controllers af listanum til hægri og slepptu þeim í reitina til vinstri. Þú getur endurnefnt controllers þannig að nöfnin passi við leysinn sem þeir eru paraðir við (notaðu hnappinn með pennatákninu).
 
-Lestu kaflann [Controller Assignment](../setting-up/controller-assignment.md) fyrir nánari upplýsingar.
+Lestu kaflann [Úthlutun laser controller](../setting-up/controller-assignment.md) fyrir nánari upplýsingar.
 
 {% hint style="danger" %}
 Áður en þú setur einhverja leysa í arm skaltu fara yfir kaflann [Uppsetning leysa](../setting-up/setting-up-lasers.md).

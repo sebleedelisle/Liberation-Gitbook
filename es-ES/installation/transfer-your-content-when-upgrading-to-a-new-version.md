@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transfiere tu contenido al actualizar a una nueva versión
 
-Liberation guarda el contenido en su carpeta de trabajo (consulta [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md "mention")), y esta cambia con cada nueva versión. Si quieres conservar tus archivos de trabajo de la versión anterior en la nueva:&#x20;
+Liberation guarda el contenido en su carpeta de trabajo (consulta [Dónde encontrar la carpeta de trabajo](../troubleshooting/where-to-find-the-working-folder.md "mention")), y esta cambia con cada nueva versión. Si quieres conservar tus archivos de trabajo de la versión anterior en la nueva:&#x20;
 
 1. Abre la versión original de Liberation
 2. Usa _File->Project->Export Project_. Esto guarda todo lo que tienes en Liberation: la configuración láser, las líneas de tiempo, el Clip Deck, ¡todo!&#x20;

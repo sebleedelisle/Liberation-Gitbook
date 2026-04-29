@@ -19,7 +19,7 @@ Poniżej znajduje się pełna lista wzorów testowych. O ile nie podano inaczej,
 3. Poziome zielone linie — 4 poziome linie rozmieszczone równomiernie.
 4. Pionowe zielone linie — 4 pionowe linie rozmieszczone równomiernie.
 
-Wzory kalibracji kolorów 5–8. Można ich używać razem z systemem korekcji kolorów w ustawieniach lasera. Zobacz [colour-calibration.md](../advanced/colour-calibration.md). Te wzory nie wypełniają całego obszaru wyjściowego.
+Wzory kalibracji kolorów 5–8. Można ich używać razem z systemem korekcji kolorów w ustawieniach lasera. Zobacz [Kalibracja kolorów](../advanced/colour-calibration.md). Te wzory nie wypełniają całego obszaru wyjściowego.
 
 5. Wzór kalibracji kolorów — czerwony.
 6. Wzór kalibracji kolorów — zielony.

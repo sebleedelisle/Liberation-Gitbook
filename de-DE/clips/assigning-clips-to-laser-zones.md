@@ -28,4 +28,4 @@ Du musst keine neue Zone erstellen, nur um andere Spiegelungseinstellungen zu ve
 
 ### Zonen mehreren Clips gleichzeitig zuweisen
 
-Du kannst Zonen zuweisen und X/Y für alle Clips in einer Zone anpassen. Weitere Informationen findest du unter [groups.md](groups.md "mention").
+Du kannst Zonen zuweisen und X/Y für alle Clips in einer Zone anpassen. Weitere Informationen findest du unter [Clip-Gruppen](groups.md "mention").

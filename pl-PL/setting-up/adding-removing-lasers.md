@@ -15,12 +15,12 @@ lub przycisk _+_ w widoku _Output_.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Gdy dodasz nowy laser, automatycznie zostanie do niego dodana strefa wiązki. Pamiętaj, że lasery i strefy są sortowane w kolejności ich dodawania. Zobacz [re-ordering-beam-zones.md](../output-view/re-ordering-beam-zones.md).
+Gdy dodasz nowy laser, automatycznie zostanie do niego dodana strefa wiązki. Pamiętaj, że lasery i strefy są sortowane w kolejności ich dodawania. Zobacz [Zmiana kolejności stref wiązek](../output-view/re-ordering-beam-zones.md).
 
 Usuń laser, klikając czerwony przycisk "-" w panelu _Laser overview_. Pamiętaj, że utracisz wszystkie ustawienia tego lasera!
 
 {% hint style="info" %}
-Jeśli chcesz skopiować strefy lub inne ustawienia z innych laserów, użyj [copy-laser-settings.md](copy-laser-settings.md)
+Jeśli chcesz skopiować strefy lub inne ustawienia z innych laserów, użyj [Kopiowanie ustawień między laserami](copy-laser-settings.md)
 {% endhint %}
 
 {% hint style="info" %}

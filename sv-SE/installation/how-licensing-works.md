@@ -13,7 +13,7 @@ När du har installerat Liberation på din dator körs programmet i _demoläge_ 
 Det finns inga begränsningar i _demoläge_ förutom att du inte kan skicka Output till laserhårdvara. Du kan öva på shower, bygga timelines samt spara och läsa in dina filer utan begränsningar. Du kan installera Liberation i _demoläge_ på så många datorer du vill, och du behöver bara auktorisera installationen när du är redo att använda lasrar!
 {% endhint %}
 
-Utöver hur många lasrar som kan vara armed kan du också använda DMX-enheter. Se [DMX-styrning](../dmx-control/).
+Utöver hur många lasrar som kan vara armed kan du också använda DMX-enheter. Se [DMX / ArtNet](../dmx-control/).
 
 Det finns också en gräns för hur många datorer du kan auktorisera Liberation på, beroende på din abonnemangsnivå.
 

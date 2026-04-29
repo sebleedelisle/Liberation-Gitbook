@@ -25,4 +25,4 @@ Klicke auf _Download latest for Mac_ (die Versionsnummern ändern sich im Laufe 
 
 Ziehe das Liberation-Symbol links in den Ordner Applications rechts (möglicherweise benötigst du dafür ein Administratorpasswort). Du findest Liberation jetzt in deinem Applications-Ordner und kannst es per Doppelklick öffnen.
 
-Liberation sollte jetzt laufen! Um Laser auszugeben, musst du nun den [Autorisierungsprozess](authorising-and-de-authorising.md) durchlaufen.
+Liberation sollte jetzt laufen! Um Laser auszugeben, musst du nun den [Autorisieren und Deautorisieren](authorising-and-de-authorising.md) durchlaufen.

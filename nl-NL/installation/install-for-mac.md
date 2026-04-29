@@ -25,4 +25,4 @@ Klik op _Download latest for Mac_ (de versienummers veranderen na verloop van ti
 
 Sleep het Liberation-pictogram links naar de Applications-map rechts (mogelijk heb je een beheerderswachtwoord nodig). Je kunt Liberation nu vinden in je Applications-map; dubbelklik om het te openen.
 
-Liberation zou nu moeten starten. Om output naar lasers te sturen, moet je nu het [autorisatieproces](authorising-and-de-authorising.md) doorlopen.
+Liberation zou nu moeten starten. Om output naar lasers te sturen, moet je nu het [Autoriseren en de-autoriseren](authorising-and-de-authorising.md) doorlopen.

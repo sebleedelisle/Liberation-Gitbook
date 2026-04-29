@@ -25,4 +25,4 @@ Klikk på _Download latest for Mac_ (versjonsnumrene vil endre seg over tid), s�
 
 Dra Liberation-ikonet til venstre inn i Applications-mappen til høyre (du kan trenge administratorpassord). Du finner nå Liberation i Applications-mappen. Dobbeltklikk for å åpne det.
 
-Liberation skal nå kjøre! For å sende ut til lasere må du nå gå gjennom [autoriseringsprosessen.](authorising-and-de-authorising.md)
+Liberation skal nå kjøre! For å sende ut til lasere må du nå gå gjennom [Autorisere og deautorisere](authorising-and-de-authorising.md)

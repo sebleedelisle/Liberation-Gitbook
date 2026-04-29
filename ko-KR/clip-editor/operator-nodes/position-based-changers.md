@@ -32,7 +32,7 @@ metaLinks:
 
 **색상 모드**
 
-이 설정들은 색상 조정의 어떤 요소를 콘텐츠에 적용할지 결정합니다. 참고: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md).
+이 설정들은 색상 조정의 어떤 요소를 콘텐츠에 적용할지 결정합니다. 참고: [색상 설정 및 HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue가 변경되지 않습니다.

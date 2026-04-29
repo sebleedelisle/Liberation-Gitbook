@@ -100,7 +100,7 @@ Kattints egy zone elemre a kijelöléséhez, majd az egérrel igazítsd a sarokp
 
 Bal oldalt egy ikongombokból álló sávot találsz. Vidd az egeret bármelyik gomb fölé, és megjelenik, mire való. Ezekkel a gombokkal beam zones, canvas zones és masks adhatók hozzá. Itt találod az adott lézerre vonatkozó test pattern, rács- és igazítási beállításokat is.
 
-További részletek: [Output view](../output-view/).
+További részletek: [Output nézet](../output-view/).
 
 #### Canvas
 
@@ -140,7 +140,7 @@ A Clip Deck balra és jobbra görgethető:
 * APC40 görgetőgombbal
 * APC40 _<- DEVICE ->_ gombokkal
 
-A tájékozódást felül egy mini Clip Deck megjelenítő segíti. Lásd még: [Clips](../clips/)
+A tájékozódást felül egy mini Clip Deck megjelenítő segíti. Lásd még: [Clipek és Clip Deck](../clips/)
 
 #### Clips indítása és leállítása
 
@@ -184,7 +184,7 @@ Zone beállítások módosítása egy csoport összes Clip eleméhez
 
 APC40 használatakor nyomd meg a csoport gombját, majd _amíg lenyomva tartod_, a zone és X/Y gombokkal kapcsolhatod az adott csoport összes Clip elemének zone beállításait.
 
-Lásd még: [Csoportok](../clips/groups.md)
+Lásd még: [Clipcsoportok](../clips/groups.md)
 
 ### Effektek
 
@@ -297,7 +297,7 @@ Kattints az _Assign Laser Controllers_ gombra a _Controller Assignment_ panel me
 
 Itt választhatod ki, mely lézerkimenetek mely laser controller eszközökhöz tartozzanak. Húzd át a controller elemeket a jobb oldali listából a bal oldali helyekre. A controller eszközöket át is nevezheted, hogy illeszkedjenek ahhoz a lézerhez, amellyel párosítva vannak (használd a toll ikonú gombot).
 
-További részletekért olvasd el a [Controller Assignment](../setting-up/controller-assignment.md) fejezetet.
+További részletekért olvasd el a [Vezérlő-hozzárendelés](../setting-up/controller-assignment.md) fejezetet.
 
 {% hint style="danger" %}
 Mielőtt bármelyik lézert armed állapotba tennéd, mindenképp menj végig a [Lézerek beállítása](../setting-up/setting-up-lasers.md) fejezeten.

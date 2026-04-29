@@ -8,7 +8,7 @@ metaLinks:
 
 Il sistema di effetti di Liberation è un modo divertente e versatile per modificare l’output dei clip in tempo reale. Gli effetti sono completamente flessibili e possono essere usati per far lampeggiare tutto, far ruotare gli elementi, cambiare i colori o persino farli muovere in modo casuale!
 
-Qualsiasi cosa tu possa fare nell’editor dei clip può essere usata come effetto. Infatti, gli effetti si modificano con lo stesso identico editor a nodi usato per i clip! Vedi [#editing-effects](effects.md#editing-effects). Le possibilità creative sono praticamente infinite.
+Qualsiasi cosa tu possa fare nell’editor dei clip può essere usata come effetto. Infatti, gli effetti si modificano con lo stesso identico editor a nodi usato per i clip! Vedi [Effetti](effects.md#editing-effects). Le possibilità creative sono praticamente infinite.
 
 I pulsanti degli effetti predefiniti 1-8 si trovano sotto i pulsanti delle zone, mentre gli effetti 9-24 sono i piccoli pulsanti in basso.
 
@@ -32,12 +32,12 @@ Direi che è uno degli strumenti più divertenti e creativi integrati in Liberat
 
 #### Parametri degli effetti
 
-Aggiungi un parametro al tuo effetto con un _Parameter node._ Il sistema Parameter è un modo per regolare dall’esterno più impostazioni all’interno dell’effetto. Vedi [parameter-control.md](clip-editor/oscillators/parameter-control.md) per maggiori informazioni.
+Aggiungi un parametro al tuo effetto con un _Parameter node._ Il sistema Parameter è un modo per regolare dall’esterno più impostazioni all’interno dell’effetto. Vedi [Parameter Control](clip-editor/oscillators/parameter-control.md) per maggiori informazioni.
 
 Usa i controller rotativi 1-8 per regolare il _parameter_ di ogni effetto. Oppure fai clic destro sul pulsante dell’effetto e regola gli slider dei parametri. La modifica del parametro produce risultati diversi a seconda di come è configurato l’effetto. Vedi l’elenco qui sotto per gli effetti predefiniti e per sapere cosa fanno i loro parametri.
 
 {% hint style="info" %}
-I controller rotativi 1-8 si trovano lungo la parte superiore di un APC40 Mk2 e in alto a destra su un Mk1. Vedi anche: [apc40-reference.md](reference/apc40-reference.md)
+I controller rotativi 1-8 si trovano lungo la parte superiore di un APC40 Mk2 e in alto a destra su un Mk1. Vedi anche: [Riferimento APC40](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Questa funzionalità è disattivata se l’impostazione _MX Group_ è 0.
 
 Fai clic destro su un effetto qualsiasi e clicca sul pulsante _EDIT EFFECT_ per aprire l’editor degli effetti. Nota che questo editor è identico all’editor dei clip!
 
-Modifica il tuo effetto nello stesso modo in cui modificheresti qualsiasi clip. Vedi [clip-editor](clip-editor/).
+Modifica il tuo effetto nello stesso modo in cui modificheresti qualsiasi clip. Vedi [Il Clip Editor](clip-editor/).
 
 Devi avere almeno un creator node; può essere qualsiasi cosa (linea, cerchio, forma, persino testo!), ma probabilmente conviene scegliere qualcosa che abbia più senso nell’anteprima del pulsante dell’effetto.
 

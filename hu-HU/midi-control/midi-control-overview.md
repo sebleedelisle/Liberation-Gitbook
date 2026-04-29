@@ -9,7 +9,7 @@ metaLinks:
 
 A Liberation többféleképpen használja a MIDI-t:
 
-* Élő vezérlőként, az APC 40 használatával. Lásd: [live-control-with-the-apc40.md](live-control-with-the-apc40.md).
+* Élő vezérlőként, az APC 40 használatával. Lásd: [Élő vezérlés az APC40-nel](live-control-with-the-apc40.md).
 * Órajel-szinkronforrásként, MIDI clock és MIDI song position üzenetekkel. Lásd: [#midi-clock](../tempo-synchronisation.md#midi-clock)
-* Interaktív bemenetként a MIDI notes node-on, „laser harp” jellegű effektek létrehozásához. Lásd: [midi-notes.md](../clip-editor/operator-nodes/midi-notes.md)
-* Általánosabb bemeneti/kimeneti rendszerként, a MIDI Send/Receive rendszer használatával. Lásd: [midi-send-receive.md](midi-send-receive.md)
+* Interaktív bemenetként a MIDI notes node-on, „laser harp” jellegű effektek létrehozásához. Lásd: [MIDI notes](../clip-editor/operator-nodes/midi-notes.md)
+* Általánosabb bemeneti/kimeneti rendszerként, a MIDI Send/Receive rendszer használatával. Lásd: [MIDI Send/Receive](midi-send-receive.md)

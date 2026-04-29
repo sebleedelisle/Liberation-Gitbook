@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-すべてのコンテンツを x、y、または z 軸方向に移動します。座標系は中央を原点とし、x 軸と y 軸は +/-200 まで広がります。[co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention") を参照してください。
+すべてのコンテンツを x、y、または z 軸方向に移動します。座標系は中央を原点とし、x 軸と y 軸は +/-200 まで広がります。[座標系](../fundamentals/co-ordinate-system.md "mention") を参照してください。
 
 * **x** - x 軸方向（左 - 右）に移動する距離。
 * **y** - y 軸方向（上 - 下）に移動する距離。
@@ -20,7 +20,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-すべてのコンテンツを回転します。値は度数です。[co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention") を参照してください。
+すべてのコンテンツを回転します。値は度数です。[座標系](../fundamentals/co-ordinate-system.md "mention") を参照してください。
 
 * **rotation** - コンテンツを時計回りに回転する角度（度）。すべては原点 (0,0)、つまり中心を軸に回転します。
 * **pivot point x / pivot point y** - これらの値を使用して、回転の原点をオフセットします。

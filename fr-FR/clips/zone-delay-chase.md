@@ -14,7 +14,7 @@ Le système de zone delay est une méthode simple mais efficace pour introduire 
 
 Le _Zone delay_ ajoute un délai au timing du clip pour chaque zone, ce qui crée une sorte de balayage entre les zones.
 
-Il est particulièrement efficace d’appliquer un zone delay à un clip déjà en cours de lecture, puis d’utiliser la commande correspondante sur l’APC40 pour ajuster le niveau et le motif. (Voir [apc40-reference.md](../reference/apc40-reference.md "mention")). Vous pouvez aussi utiliser le panneau _Clip Settings_.
+Il est particulièrement efficace d’appliquer un zone delay à un clip déjà en cours de lecture, puis d’utiliser la commande correspondante sur l’APC40 pour ajuster le niveau et le motif. (Voir [Référence APC40](../reference/apc40-reference.md "mention")). Vous pouvez aussi utiliser le panneau _Clip Settings_.
 
 Paramètres de Zone delay :
 
@@ -39,7 +39,7 @@ Le pattern fonctionne à partir des numéros de zone et suppose que vos zones so
 Zone delay s’applique aussi à tous les effets actifs. Par exemple, un effet de clignotement sera retardé entre les zones, tout comme l’animation à l’intérieur du clip lui-même.
 {% endhint %}
 
-Lorsqu’un clip utilise un _Zone delay_, vous verrez une icône à trois points en haut à droite du clip. Ces points sont animés pour vous indiquer le style de _Zone delay_ utilisé par ce clip. Voir [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention") pour plus de détails.
+Lorsqu’un clip utilise un _Zone delay_, vous verrez une icône à trois points en haut à droite du clip. Ces points sont animés pour vous indiquer le style de _Zone delay_ utilisé par ce clip. Voir [Que signifient les petites icônes sur les boutons de clip ?](what-are-the-small-icons-on-the-clip-buttons.md "mention") pour plus de détails.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Le symbole à trois points qui indique qu’un clip utilise un zone delay, ainsi que son mode</p></figcaption></figure>
 

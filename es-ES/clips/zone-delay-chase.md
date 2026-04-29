@@ -14,7 +14,7 @@ El sistema de Zone delay es un método sencillo pero muy eficaz para introducir 
 
 _Zone delay_ añade un retardo al tiempo del clip en cada zona, creando una especie de barrido entre las zonas.
 
-Es muy eficaz aplicar Zone delay a un clip que ya está en reproducción y usar el control correspondiente del APC40 para ajustar el nivel y el patrón. Consulta [apc40-reference.md](../reference/apc40-reference.md "mention"). También puedes usar el panel _Clip Settings_.
+Es muy eficaz aplicar Zone delay a un clip que ya está en reproducción y usar el control correspondiente del APC40 para ajustar el nivel y el patrón. Consulta [Referencia de APC40](../reference/apc40-reference.md "mention"). También puedes usar el panel _Clip Settings_.
 
 Ajustes de Zone delay:
 
@@ -39,7 +39,7 @@ El patrón funciona con los números de zona y presupone que tus zonas están or
 Zone delay también se aplica a cualquier efecto activo. Por ejemplo, un efecto de parpadeo se retrasará entre las zonas, además de la propia animación dentro del clip.
 {% endhint %}
 
-Cuando un clip tiene cualquier tipo de _Zone delay_, verás un icono de tres puntos en la esquina superior derecha del clip. Estos puntos están animados para mostrarte el estilo de _Zone delay_ de ese clip. Consulta [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention") para obtener más detalles.
+Cuando un clip tiene cualquier tipo de _Zone delay_, verás un icono de tres puntos en la esquina superior derecha del clip. Estos puntos están animados para mostrarte el estilo de _Zone delay_ de ese clip. Consulta [¿Qué son los pequeños iconos de los botones de clip?](what-are-the-small-icons-on-the-clip-buttons.md "mention") para obtener más detalles.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>El símbolo de tres puntos que indica que un clip tiene Zone delay y muestra su modo</p></figcaption></figure>
 

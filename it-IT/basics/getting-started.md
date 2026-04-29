@@ -100,7 +100,7 @@ Fai click su una zone per selezionarla, poi regola i suoi punti d’angolo con i
 
 A sinistra c’è una barra con una serie di pulsanti a icona: passa sopra un pulsante per vedere la descrizione di ciò che fa. I pulsanti qui permettono di aggiungere beam zones, canvas zones e masks. Sono disponibili anche opzioni per impostare un test pattern solo per questo laser, oltre alle impostazioni di griglia e snapping.
 
-Per maggiori dettagli vedi [Output view](../output-view/).
+Per maggiori dettagli vedi [Vista Output](../output-view/).
 
 #### Canvas
 
@@ -140,7 +140,7 @@ Puoi scorrere il Clip Deck a sinistra e a destra usando:
 * Manopola di scroll dell’APC40
 * Pulsanti APC40 _<- DEVICE ->_
 
-Per aiutarti a orientarti, in alto c’è un mini visualiser del Clip Deck. Vedi anche [Clips](../clips/)
+Per aiutarti a orientarti, in alto c’è un mini visualiser del Clip Deck. Vedi anche [Clip e Clip deck](../clips/)
 
 #### Avviare e fermare i Clips
 
@@ -184,7 +184,7 @@ Modificare le impostazioni delle zone per tutti i Clips di un gruppo
 
 Con l’APC40, premi il pulsante del gruppo, poi _mentre lo tieni ancora premuto_ usa i pulsanti zone e X/Y per attivare o disattivare le impostazioni delle zone per tutti i Clips di quel gruppo.
 
-Vedi anche [Gruppi](../clips/groups.md)
+Vedi anche [Gruppi di Clip](../clips/groups.md)
 
 ### Effetti
 

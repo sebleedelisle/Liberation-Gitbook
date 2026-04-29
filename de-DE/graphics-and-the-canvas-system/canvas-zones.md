@@ -23,7 +23,7 @@ Klicke mit der rechten Maustaste auf die Zone und schalte die Zahlen-Buttons um,
 WARNUNG: Wenn der Laser aktiviert ist, könntest du plötzlich Inhalte in einer Standard-Canvas-Zone projizieren. Am besten deaktivierst du den Laser, bevor du ihm Canvas-Zonen zuweist.
 {% endhint %}
 
-Wenn du jetzt zur _OUTPUT_-Ansicht dieses Lasers wechselst, siehst du dort die Canvas-Zone. Sie kann nun genau wie jede Beam-Zone bearbeitet werden. Siehe [zones.md](../output-view/zones.md "mention").
+Wenn du jetzt zur _OUTPUT_-Ansicht dieses Lasers wechselst, siehst du dort die Canvas-Zone. Sie kann nun genau wie jede Beam-Zone bearbeitet werden. Siehe [Zonen](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Du kannst eine Canvas-Zone auch direkt aus der _OUTPUT_-Ansicht zu einem Laser hinzufügen: Klicke dazu in der linken Werkzeugleiste auf den Button _Add existing canvas zone_.

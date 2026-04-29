@@ -25,4 +25,4 @@ Klik på _Download latest for Mac_ (versionsnumrene ændrer sig over tid), og Li
 
 Træk Liberation-ikonet til venstre ind i Applications-mappen til højre (du skal muligvis bruge en administratoradgangskode). Du kan nu finde Liberation i din Applications-mappe. Dobbeltklik for at åbne det.
 
-Liberation skulle nu køre! For at sende output til lasere skal du nu gennemføre [godkendelsesprocessen.](authorising-and-de-authorising.md)
+Liberation skulle nu køre! For at sende output til lasere skal du nu gennemføre [Autorisering og deautorisering](authorising-and-de-authorising.md)

@@ -35,7 +35,7 @@ Observera att korrigeringar för orientering/spegling inte ändrar något i 3D V
 
 ### Kopiera laserinställningar
 
-Se [#copy-laser-settings](./#copy-laser-settings "mention").
+Se [Panelen Laser output settings](./#copy-laser-settings "mention").
 
 ### Skannerinställningar
 
@@ -50,7 +50,7 @@ Inställningen för hastighet avgör hur snabbt skannrarna rör sig.
 {% endhint %}
 
 {% hint style="info" %}
-Den här hastighetsinställningen ändrar inte punktfrekvensen, utan justerar i stället hur utspridda punkterna är. Mer information finns i [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+Den här hastighetsinställningen ändrar inte punktfrekvensen, utan justerar i stället hur utspridda punkterna är. Mer information finns i [◼️ Så genererar Liberation laserinnehåll](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Om du ser små ”svansar” i laserutgången beror det troligen på att scanner
 
 #### Scanner presets
 
-Använd detta för att välja en fördesignad skannerinställning. Standardalternativet fungerar vanligtvis bra, så du ska inte behöva ändra den här inställningen om du inte har särskilt dåliga (eller bra) skannrar. Om du vill fördjupa dig, se [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Använd detta för att välja en fördesignad skannerinställning. Standardalternativet fungerar vanligtvis bra, så du ska inte behöva ändra den här inställningen om du inte har särskilt dåliga (eller bra) skannrar. Om du vill fördjupa dig, se [◼️ Skannerförinställningar och renderprofiler](../../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Du kan använda detta system för att korrigera ljusstyrkekurvan och vitbalansen för din laser. Se [colour-calibration.md](../../advanced/colour-calibration.md "mention")
+Du kan använda detta system för att korrigera ljusstyrkekurvan och vitbalansen för din laser. Se [Färgkalibrering](../../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Du ska normalt inte behöva ändra dessa, men om du är nyfiken kan du läsa [advanced-laser-settings.md](../../advanced/advanced-laser-settings.md "mention")
+Du ska normalt inte behöva ändra dessa, men om du är nyfiken kan du läsa [◼️ Avancerade laserinställningar](../../advanced/advanced-laser-settings.md "mention")

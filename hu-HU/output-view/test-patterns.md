@@ -19,7 +19,7 @@ Az alábbiakban a tesztábrák teljes listája található. Ha nincs másként j
 3. Vízszintes zöld vonalak - 4 egyenletesen elosztott vízszintes vonal.
 4. Függőleges zöld vonalak - 4 egyenletesen elosztott függőleges vonal.
 
-Színkalibrációs ábrák 5-8. Ezek a lézerbeállításokban található színkorrekciós rendszerrel együtt használhatók. Lásd: [colour-calibration.md](../advanced/colour-calibration.md). Ezek az ábrák nem töltik ki a teljes kimeneti területet.
+Színkalibrációs ábrák 5-8. Ezek a lézerbeállításokban található színkorrekciós rendszerrel együtt használhatók. Lásd: [Színkalibrálás](../advanced/colour-calibration.md). Ezek az ábrák nem töltik ki a teljes kimeneti területet.
 
 5. Színkalibrációs ábra - piros.
 6. Színkalibrációs ábra - zöld.

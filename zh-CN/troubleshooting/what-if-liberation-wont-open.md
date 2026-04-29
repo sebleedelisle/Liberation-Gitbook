@@ -43,7 +43,7 @@
 
 ***
 
-#### Step 1 – 安全重置 settings 文件
+#### 步骤 1 – 安全重置 settings 文件
 
 在你的版本文件夹中打开：
 
@@ -60,7 +60,7 @@ data/liberation/
 
 ***
 
-#### Step 2 – 检查是否是某个 Clip 导致问题
+#### 步骤 2 – 检查是否是某个 Clip 导致问题
 
 如果 Liberation 在编辑某个 Clip 时崩溃，可能是该 Clip 文件导致的问题。
 
@@ -72,9 +72,9 @@ data/liberation/
 
 ***
 
-#### Step 3 - 备份后删除整个工作文件夹
+#### 步骤 3 - 备份后删除整个工作文件夹
 
-如果 Step 1 和 Step 2 都无效：
+如果步骤 1 和步骤 2 都无效：
 
 1. **备份**整个版本文件夹：
    * macOS：右键 `1.0.0` 文件夹并选择 **Compress** 生成 zip，或复制到桌面等安全位置。
@@ -82,22 +82,22 @@ data/liberation/
 2. 备份完成后，**删除** Liberation 工作目录中的原 `1.0.0` 文件夹。
 3. 重新启动 Liberation。它会自动创建新的工作文件夹。
 
-如果 Liberation 现在能打开，请继续 Step 4。
+如果 Liberation 现在能打开，请继续步骤 4。
 
 ***
 
-#### Step 4 - 将备份发送给我们
+#### 步骤 4 - 将备份发送给我们
 
 这有助于我们定位问题并在后续版本中避免它。
 
-如果还没压缩，请先将 Step 3 的**备份**打包为 zip，然后发送邮件给我们：
+如果还没压缩，请先将步骤 3 的**备份**打包为 zip，然后发送邮件给我们：
 
 * **收件人**： [info@liberationlaser.com](mailto:info@liberationlaser.com)
 * **主题**：Liberation start-up fix - working folder backup
 * **邮件正文**：请包含以下信息
   * 操作系统与版本（例如 macOS 14.6 或 Windows 11 23H2）
   * Liberation 版本（例如 1.0.0）
-  * 哪一步解决了问题（Step 1、Step 2 或 Step 3）
+  * 哪一步解决了问题（步骤 1、步骤 2 或步骤 3）
   * 问题发生前的简要描述
 * **附件**：`1.0.0` 工作文件夹的压缩备份
 
@@ -105,7 +105,7 @@ data/liberation/
 
 ***
 
-#### Step 3 之后仍无法启动？
+#### 步骤 3 之后仍无法启动？
 
 如果删除工作文件夹后 Liberation 仍无法打开：
 
@@ -116,9 +116,9 @@ data/liberation/
 
 ***
 
-#### Summary
+#### 总结
 
 1. 删除版本工作文件夹中的 `data/liberation/settings.json`。
 2. 如果你正在编辑 Clip，备份并删除 `data/liberation/clipEdit.json`。
 3. 如果仍无法打开，备份并删除整个 `1.0.0`（或你的版本号）文件夹。
-4. 如果 Step 3 修复了问题（或没有修复），将备份打包后发送到 [**info@liberationlaser.com**](mailto:info@liberationlaser.com)，并注明系统与版本信息。
+4. 如果步骤 3 修复了问题（或没有修复），将备份打包后发送到 [**info@liberationlaser.com**](mailto:info@liberationlaser.com)，并注明系统与版本信息。

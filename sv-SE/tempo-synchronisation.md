@@ -60,7 +60,7 @@ Använd _METRONOME_-knappen för att **återställa takten**. (Observera att _ME
 
 Vrid _TEMPO_-ratten ett ”tick” åt höger eller vänster för att **avrunda tempot** uppåt eller nedåt till ett helt BPM-tal.
 
-Se även [apc40-reference.md](reference/apc40-reference.md "mention")
+Se även [APC40-referens](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 

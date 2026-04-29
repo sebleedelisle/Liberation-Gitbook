@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Graphics / SVG ファイルを読み込むためのヒント
 
-ベクターシェイプやロゴなどのインポートについては、Shape Creator Node を参照してください。[creator-nodes.md](clip-editor/creator-nodes.md)
+ベクターシェイプやロゴなどのインポートについては、Shape Creator Node を参照してください。[Creator nodes](clip-editor/creator-nodes.md)

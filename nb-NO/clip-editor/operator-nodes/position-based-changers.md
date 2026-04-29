@@ -32,7 +32,7 @@ Denne noden legger på fargeendringer over innholdet basert på posisjon. Som st
 
 **Colour Modes**
 
-Disse bestemmer hvilke deler av fargejusteringene som brukes på innholdet. Se også: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+Disse bestemmer hvilke deler av fargejusteringene som brukes på innholdet. Se også: [Fargeinnstillinger og HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – hue endres ikke.

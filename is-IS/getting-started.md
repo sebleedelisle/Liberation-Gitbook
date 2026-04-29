@@ -146,7 +146,7 @@ Clip er ílát fyrir hvers konar laser-efni innan Liberation. Clips geta innihal
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ hnöppunum
 
-Til að auðvelda þér að átta þig er lítið visualiser af Clip Deck efst. Sjá einnig [Clips](clips/)
+Til að auðvelda þér að átta þig er lítið visualiser af Clip Deck efst. Sjá einnig [Clips og Clip Deck](clips/)
 
 #### Að ræsa og stöðva Clips
 
@@ -168,7 +168,7 @@ Tveimur röðum fyrir neðan zone hnappana sérðu X/Y flip hnappana. Kveiktu e�
 Athugaðu að þessar zone úthlutanir og X/Y flip stillingar tengjast Clip sjálfu. Þær haldast næst þegar þú keyrir það Clip. Þetta er ekki global stilling.
 {% endhint %}
 
-Hægrismelltu á Clip til að breyta fleiri stillingum fyrir það. Sjá einnig [Clip Settings](clips/clip-settings.md)
+Hægrismelltu á Clip til að breyta fleiri stillingum fyrir það. Sjá einnig [Clip stillingar](clips/clip-settings.md)
 
 ### Groups
 
@@ -190,7 +190,7 @@ Breyta zone stillingum fyrir öll Clips innan group
 
 Með APC40 ýtirðu á group hnappinn og notar síðan, _á meðan honum er enn haldið niðri,_ zone og X/Y hnappana til að kveikja eða slökkva á zone stillingum fyrir öll Clips í þeim group.
 
-Sjá einnig [Groups](clips/groups.md)
+Sjá einnig [Hópar fyrir Clips](clips/groups.md)
 
 ### Effects
 
@@ -303,7 +303,7 @@ Smelltu á _Assign Laser Controllers_ hnappinn til að opna _Controller Assignme
 
 Hér geturðu valið hvaða laser Outputs fara til hvaða laser controllers. Dragðu controllers úr listanum hægra megin yfir í reitina vinstra megin. Þú getur endurnefnt controllers til að passa við leysinn sem þeir eru paraðir við (notaðu pennatákn-hnappinn).
 
-Lestu kaflann [Controller Assignment](setting-up/controller-assignment.md) fyrir nánari upplýsingar.
+Lestu kaflann [Úthlutun laser controller](setting-up/controller-assignment.md) fyrir nánari upplýsingar.
 
 {% hint style="danger" %}
 Áður en þú setur nokkra leysa í armed stöðu skaltu fara yfir kaflann [Uppsetning leysa](setting-up/setting-up-lasers.md).

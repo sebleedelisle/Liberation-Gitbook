@@ -38,7 +38,7 @@ VARNING – om lasern är armerad kan du plötsligt börja projicera innehåll i
 {% endhint %}
 
 {% hint style="info" %}
-Du kan också tilldela en Canvas-zon till en laser genom att klicka på knappen _add canvas zone_ i _OUTPUT_-vyn. Se [zones.md](../output-view/zones.md "mention").
+Du kan också tilldela en Canvas-zon till en laser genom att klicka på knappen _add canvas zone_ i _OUTPUT_-vyn. Se [Zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Guidebilder

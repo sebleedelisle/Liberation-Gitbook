@@ -61,4 +61,4 @@ Liberation tarvitsee oikeuden käyttää tiedostoja ja verkkoa, joten Windows n�
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberationin pitäisi nyt käynnistyä. Jotta voit lähettää ulostuloa lasereille, sinun täytyy seuraavaksi käydä läpi [valtuutusprosessi.](../authorising-and-de-authorising.md)
+Liberationin pitäisi nyt käynnistyä. Jotta voit lähettää ulostuloa lasereille, sinun täytyy seuraavaksi käydä läpi [Valtuutus ja valtuutuksen poistaminen](../authorising-and-de-authorising.md)

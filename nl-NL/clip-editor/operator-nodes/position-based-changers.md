@@ -32,7 +32,7 @@ Deze node past kleurwijzigingen toe op je content op basis van positie. Standaar
 
 **Colour Modes**
 
-Deze bepalen welke onderdelen van de kleuraanpassingen op de content worden toegepast. Zie ook: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+Deze bepalen welke onderdelen van de kleuraanpassingen op de content worden toegepast. Zie ook: [Kleurinstellingen en HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – hue blijft ongewijzigd.

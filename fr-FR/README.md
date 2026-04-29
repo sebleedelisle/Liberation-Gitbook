@@ -28,8 +28,8 @@ Ce guide vous aidera à prendre vos repères dans Liberation, depuis l’install
 ## Comment utiliser ce guide
 
 * Commencez par [**Important ! À lire en premier**](important.md) pour consulter les notes essentielles sur la sécurité et les licences avant de connecter du matériel.
-* Suivez le [**Guide de démarrage rapide**](getting-started.md) si vous voulez obtenir une sortie rapidement, puis approfondissez la configuration avec [**Hardware**](hardware/) et [**Setting up**](setting-up/).
-* Utilisez les titres de section pour accéder directement aux sujets voulus (par exemple [**Clips et Clip Deck**](clips/), [**Output view**](output-view/), **etc.**) et revenez à [**Reference**](reference/) ou [**Troubleshooting**](troubleshooting/) lorsque vous avez besoin de réponses précises.
+* Suivez le [**Guide de démarrage rapide**](getting-started.md) si vous voulez obtenir une sortie rapidement, puis approfondissez la configuration avec [**Matériel**](hardware/) et [**Configuration**](setting-up/).
+* Utilisez les titres de section pour accéder directement aux sujets voulus (par exemple [**Clips et Clip Deck**](clips/), [**Vue Output**](output-view/), **etc.**) et revenez à [**Référence**](reference/) ou [**Dépannage**](troubleshooting/) lorsque vous avez besoin de réponses précises.
 
 ## Conventions et conseils
 
@@ -37,4 +37,4 @@ Ce guide vous aidera à prendre vos repères dans Liberation, depuis l’install
 * Les liens correspondent à la version actuelle ; les captures d’écran et les menus peuvent différer légèrement si vous utilisez une version plus ancienne.
 * Les étapes liées au matériel signalent les réglages par défaut axés sur la sécurité : ne contournez jamais les verrouillages de sécurité et gardez les faisceaux à l’écart du public.
 
-Si vous êtes bloqué, consultez la [**FAQ**](faq.md), puis la section [**Troubleshooting**](troubleshooting/) pour trouver des corrections ciblées avant de contacter le support.
+Si vous êtes bloqué, consultez la [**FAQ**](faq.md), puis la section [**Dépannage**](troubleshooting/) pour trouver des corrections ciblées avant de contacter le support.

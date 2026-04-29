@@ -17,7 +17,7 @@ Ibland kan du vilja ha flera canvas target areas för olika delar av en byggnad,
 
 ### Skicka clips till canvas target areas
 
-Om du tittar i clip deck, bredvid knapparna för beam zone, ser du knapparna för canvas target area. Du kan behöva bläddra bland output-knapparna för att se dem. Använd `Shift + Left / Right Arrow`, eller ZONE PAGE-knapparna på skärmen, eller APC40-knapparna (se [apc40-reference.md](../reference/apc40-reference.md "mention"))
+Om du tittar i clip deck, bredvid knapparna för beam zone, ser du knapparna för canvas target area. Du kan behöva bläddra bland output-knapparna för att se dem. Använd `Shift + Left / Right Arrow`, eller ZONE PAGE-knapparna på skärmen, eller APC40-knapparna (se [APC40-referens](../reference/apc40-reference.md "mention"))
 
 Tilldela clips till canvas target areas genom att slå på eller av de här knapparna på exakt samma sätt som du gör med knapparna för beam zone.
 

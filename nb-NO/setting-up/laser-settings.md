@@ -56,7 +56,7 @@ Selv om standardinnstillingene er ganske forsiktige, kan du fortsatt skade skann
 {% endhint %}
 
 {% hint style="info" %}
-Denne Speed-innstillingen endrer ikke punktraten. I stedet justerer den hvor spredt punktene er. Se [how-liberation-generates-laser-content.md](../advanced/how-liberation-generates-laser-content.md "mention") for mer informasjon.
+Denne Speed-innstillingen endrer ikke punktraten. I stedet justerer den hvor spredt punktene er. Se [◼️ Hvordan Liberation genererer laserinnhold](../advanced/how-liberation-generates-laser-content.md "mention") for mer informasjon.
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,12 +73,12 @@ Hvis du ser små «haler» i laser-outputen, skyldes det sannsynligvis at Scanne
 
 #### Scanner presets
 
-Bruk dette for å velge en forhåndsdefinert scanner-innstilling. Standardvalget er som regel fint, så du skal normalt ikke trenge å endre denne innstillingen med mindre du har spesielt dårlige (eller gode) skannere. Hvis du vil gå dypere, se [scanner-presets.md](../advanced/scanner-presets.md "mention")
+Bruk dette for å velge en forhåndsdefinert scanner-innstilling. Standardvalget er som regel fint, så du skal normalt ikke trenge å endre denne innstillingen med mindre du har spesielt dårlige (eller gode) skannere. Hvis du vil gå dypere, se [◼️ Scanner-forhåndsinnstillinger og renderprofiler](../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Du kan bruke dette systemet til å korrigere lysstyrkekurven og hvitbalansen til laseren. Se [colour-calibration.md](../advanced/colour-calibration.md "mention")
+Du kan bruke dette systemet til å korrigere lysstyrkekurven og hvitbalansen til laseren. Se [Fargekalibrering](../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Du skal normalt ikke trenge å tukle med disse, men hvis du er nysgjerrig, se [advanced-laser-settings.md](../advanced/advanced-laser-settings.md "mention")
+Du skal normalt ikke trenge å tukle med disse, men hvis du er nysgjerrig, se [◼️ Avanserte laserinnstillinger](../advanced/advanced-laser-settings.md "mention")

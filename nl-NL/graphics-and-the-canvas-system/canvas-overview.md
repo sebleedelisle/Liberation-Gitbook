@@ -38,7 +38,7 @@ WAARSCHUWING - als de laser armed is, kun je ineens content gaan projecteren in 
 {% endhint %}
 
 {% hint style="info" %}
-Je kunt ook een canvas-zone aan een laser toewijzen door in de _OUTPUT_-weergave op de knop _add canvas zone_ te klikken. Zie [zones.md](../output-view/zones.md "mention").
+Je kunt ook een canvas-zone aan een laser toewijzen door in de _OUTPUT_-weergave op de knop _add canvas zone_ te klikken. Zie [Zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Guide images

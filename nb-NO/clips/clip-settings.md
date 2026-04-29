@@ -14,7 +14,7 @@ Endre utgangsstørrelsen på klippet med _Scale X_ og _Scale Y_. De er låst sam
 
 Endre den horisontale og vertikale plasseringen av klippet med _Shift X_ og _Shift Y_.
 
-_Zone Delay/Chase_ er en så morsom funksjon at den får sin egen seksjon. [zone-delay-chase.md](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ er en så morsom funksjon at den får sin egen seksjon. [Soneforsinkelse / chase](zone-delay-chase.md "mention")
 
 ### Låse klipp
 
@@ -27,7 +27,7 @@ Hvis et klipp er låst, kan det ikke flyttes eller slettes. For å låse et klip
 
 ### Høyreklikkmeny
 
-Hvis du høyreklikker på et klipp, vises en meny med noen av valgene for det klippet. Se [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [clip-settings.md](clip-settings.md "mention") og [groups.md](groups.md "mention") for mer om de første elementene i denne menyen.
+Hvis du høyreklikker på et klipp, vises en meny med noen av valgene for det klippet. Se [Introduksjon til Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip settings](clip-settings.md "mention") og [Clip-grupper](groups.md "mention") for mer om de første elementene i denne menyen.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Høyreklikkmenyen for clip settings</p></figcaption></figure>
 

@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transférer votre contenu lors de la mise à niveau vers une nouvelle version
 
-Liberation stocke le contenu dans son dossier de travail (voir [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md "mention")), et celui-ci change à chaque nouvelle version. Si vous souhaitez conserver vos fichiers de travail de l’ancienne version vers la nouvelle :&#x20;
+Liberation stocke le contenu dans son dossier de travail (voir [Où trouver le dossier de travail](../troubleshooting/where-to-find-the-working-folder.md "mention")), et celui-ci change à chaque nouvelle version. Si vous souhaitez conserver vos fichiers de travail de l’ancienne version vers la nouvelle :&#x20;
 
 1. Ouvrez la version d’origine de Liberation
 2. Utilisez _File->Project->Export Project_. Cela enregistre tout ce qui se trouve dans votre Liberation : la configuration laser, les timelines, le Clip Deck, tout !&#x20;

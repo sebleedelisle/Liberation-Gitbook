@@ -19,7 +19,7 @@ Voici la liste complète des mires de test. Sauf indication contraire, les motif
 3. Lignes vertes horizontales : 4 lignes horizontales, régulièrement espacées.
 4. Lignes vertes verticales : 4 lignes verticales, régulièrement espacées.
 
-Mires d’étalonnage des couleurs 5 à 8. Elles peuvent être utilisées avec le système de correction des couleurs dans les réglages du laser. Voir [colour-calibration.md](../advanced/colour-calibration.md "mention"). Ces mires ne remplissent pas tout l’espace de sortie.
+Mires d’étalonnage des couleurs 5 à 8. Elles peuvent être utilisées avec le système de correction des couleurs dans les réglages du laser. Voir [Étalonnage des couleurs](../advanced/colour-calibration.md "mention"). Ces mires ne remplissent pas tout l’espace de sortie.
 
 5. Mire d’étalonnage des couleurs : rouge.
 6. Mire d’étalonnage des couleurs : vert.

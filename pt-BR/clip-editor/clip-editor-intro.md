@@ -32,12 +32,12 @@ O que você verá no clip editor:
 Enquanto você estiver editando, também verá a aparência do clip no 3D visualiser em segundo plano.
 
 {% hint style="info" %}
-Se você não vir nenhuma saída no 3D visualiser, talvez seja necessário usar os botões de zone para ativar as zones desejadas. Você também precisa garantir que _Preview to lasers_ esteja ativado; veja [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel) abaixo.
+Se você não vir nenhuma saída no 3D visualiser, talvez seja necessário usar os botões de zone para ativar as zones desejadas. Você também precisa garantir que _Preview to lasers_ esteja ativado; veja [Introdução ao Clip Editor](clip-editor-intro.md#clip-editor-panel) abaixo.
 {% endhint %}
 
 ### Criando um clip
 
-Normalmente, você começa com um ou mais [nós Creator](creator-nodes.md) e conecta [Operators](operator-nodes/) da esquerda para a direita para processar o conteúdo. Ao mover Creators e/ou Operators próximos uns dos outros, você perceberá que eles se conectam automaticamente. E você pode arrastá-los para longe para desconectá-los novamente.
+Normalmente, você começa com um ou mais [nós Creator](creator-nodes.md) e conecta [Nós de operador](operator-nodes/) da esquerda para a direita para processar o conteúdo. Ao mover Creators e/ou Operators próximos uns dos outros, você perceberá que eles se conectam automaticamente. E você pode arrastá-los para longe para desconectá-los novamente.
 
 ### Adicionando nós ao seu clip
 
@@ -75,7 +75,7 @@ Se você já usou um sintetizador analógico, estará familiarizado com o concei
 **Curiosidade:** o nome _Liberation_ foi inspirado no Moog Liberation, um sintetizador "keytar" lançado em 1980 e tornado famoso por Herbie Hancock, Jean-Michel Jarre e até James Brown!
 {% endhint %}
 
-Oscillators sempre têm configurações de _range_ que controlam o valor mínimo e máximo da propriedade a ser ajustada. E _Wave Oscillators_ sempre têm uma configuração de _duration_ que determina a velocidade com que o oscilador altera o valor. Veja [wave-oscillators.md](oscillators/wave-oscillators.md) para mais informações.
+Oscillators sempre têm configurações de _range_ que controlam o valor mínimo e máximo da propriedade a ser ajustada. E _Wave Oscillators_ sempre têm uma configuração de _duration_ que determina a velocidade com que o oscilador altera o valor. Veja [Osciladores de onda](oscillators/wave-oscillators.md) para mais informações.
 
 ### Painel Clip Editor
 

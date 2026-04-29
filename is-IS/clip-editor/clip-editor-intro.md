@@ -37,7 +37,7 @@ Ef þú sérð ekkert Output í 3D-sýninni gætirðu þurft að nota zone-hnapp
 
 ### Að byggja clip
 
-Yfirleitt byrjarðu með einn eða fleiri [Creator nodes](creator-nodes.md) og tengir síðan [Operator nodes](operator-nodes/) frá vinstri til hægri til að vinna úr efninu. Þegar þú færir Creator og/eða Operator nær saman sérðu að þau tengjast sjálfkrafa. Þú getur svo dregið þau í sundur aftur til að aftengja þau.
+Yfirleitt byrjarðu með einn eða fleiri [Creator nodes](creator-nodes.md) og tengir síðan [Nodes fyrir aðgerðir](operator-nodes/) frá vinstri til hægri til að vinna úr efninu. Þegar þú færir Creator og/eða Operator nær saman sérðu að þau tengjast sjálfkrafa. Þú getur svo dregið þau í sundur aftur til að aftengja þau.
 
 ### Að bæta nodes við clip
 
@@ -75,7 +75,7 @@ Ef þú hefur einhvern tíma notað analog synth þekkirðu hugmyndina um oscill
 **Skemmtileg staðreynd:** nafnið _Liberation_ var innblásið af Moog Liberation, „keytar“-hljóðgervli sem kom út árið 1980 og varð frægur í höndum Herbie Hancock, Jean-Michel Jarre og jafnvel James Brown!
 {% endhint %}
 
-Oscillators hafa alltaf _range_-stillingar sem stjórna lágmarks- og hámarksgildi þess property sem á að breyta. _Wave Oscillators_ hafa líka alltaf _duration_-stillingu sem ákvarðar hversu hratt oscillator breytir gildinu. Sjá [Wave Oscillators](oscillators/wave-oscillators.md) fyrir nánari upplýsingar.
+Oscillators hafa alltaf _range_-stillingar sem stjórna lágmarks- og hámarksgildi þess property sem á að breyta. _Wave Oscillators_ hafa líka alltaf _duration_-stillingu sem ákvarðar hversu hratt oscillator breytir gildinu. Sjá [Bylgjusveiflar](oscillators/wave-oscillators.md) fyrir nánari upplýsingar.
 
 ### Clip Editor-spjaldið
 

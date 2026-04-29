@@ -8,7 +8,7 @@ metaLinks:
 
 Het effects-systeem in Liberation is een leuke en veelzijdige manier om de clip-output in realtime aan te passen. Effecten zijn volledig flexibel en kunnen worden gebruikt om alles aan en uit te laten knipperen, te laten draaien, kleuren te veranderen of zelfs willekeurig rond te laten vliegen!
 
-Alles wat je in de clip-editor kunt doen, kun je als effect gebruiken. Effecten worden zelfs bewerkt met exact dezelfde node-editor als clips! Zie [#editing-effects](effects.md#editing-effects "mention"). De creatieve mogelijkheden zijn vrijwel onbeperkt.
+Alles wat je in de clip-editor kunt doen, kun je als effect gebruiken. Effecten worden zelfs bewerkt met exact dezelfde node-editor als clips! Zie [Effecten](effects.md#editing-effects "mention"). De creatieve mogelijkheden zijn vrijwel onbeperkt.
 
 De standaard effectknoppen 1-8 staan onder de zoneknoppen, en effecten 9-24 zijn de kleine knoppen onderaan.
 
@@ -32,12 +32,12 @@ Ik zou zeggen dat dit een van de leukste en meest creatieve tools is die in Libe
 
 #### Effectparameters
 
-Voeg een parameter toe aan je effect met een _Parameter node._ Het Parameter-systeem is een manier om meerdere instellingen binnen je effect van buitenaf aan te passen. Zie [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention") voor meer informatie.
+Voeg een parameter toe aan je effect met een _Parameter node._ Het Parameter-systeem is een manier om meerdere instellingen binnen je effect van buitenaf aan te passen. Zie [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") voor meer informatie.
 
 Gebruik de draaiknoppen 1-8 om de _parameter_ voor elk effect aan te passen. Of klik met de rechtermuisknop op de effectknop en pas de parameter-slider(s) aan. Wat de parameterwijziging doet, hangt af van hoe het effect is opgebouwd. Zie de lijst hieronder voor de standaardeffecten en wat hun parameters doen.
 
 {% hint style="info" %}
-Draaiknoppen 1-8 zitten langs de bovenrand van een APC40 Mk2 en rechtsboven op de Mk1. Zie ook: [apc40-reference.md](reference/apc40-reference.md "mention")
+Draaiknoppen 1-8 zitten langs de bovenrand van een APC40 Mk2 en rechtsboven op de Mk1. Zie ook: [APC40-referentie](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Deze functionaliteit is uitgeschakeld als de instelling _MX Group_ op 0 staat.
 
 Klik met de rechtermuisknop op een effect en klik op de knop _EDIT EFFECT_ om de effect-editor te openen. Let op dat deze editor identiek is aan de clip-editor!
 
-Bewerk je effect op dezelfde manier als je een clip zou bewerken. Zie [clip-editor](clip-editor/ "mention").
+Bewerk je effect op dezelfde manier als je een clip zou bewerken. Zie [De Clip Editor](clip-editor/ "mention").
 
 Je hebt minstens één creator node nodig; dit kan van alles zijn (lijn, cirkel, vorm, zelfs tekst!), maar je kiest waarschijnlijk het best iets dat logisch is in de preview van de effectknop.
 

@@ -140,7 +140,7 @@ Clip Deck は、次の方法で左右にスクロールできます。
 * APC40 のスクロールノブ
 * APC40 の _<- DEVICE ->_ ボタン
 
-現在位置を把握しやすいように、上部には Clip Deck のミニビジュアライザーがあります。関連項目：[Clips](../clips/)
+現在位置を把握しやすいように、上部には Clip Deck のミニビジュアライザーがあります。関連項目：[Clips & Clip deck](../clips/)
 
 #### Clip の開始と停止
 
@@ -297,7 +297,7 @@ _Assign Laser Controllers_ ボタンをクリックすると、_Controller Assig
 
 ここでは、どの laser 出力をどの laser controller に送るかを選択できます。右側の一覧から controller をドラッグ＆ドロップして、左側のスロットに入れます。controller には、ペアになっている laser に合わせた名前を付けられます（ペンアイコンボタンを使用します）。
 
-詳しくは、[Controller Assignment](../setting-up/controller-assignment.md)の章をお読みください。
+詳しくは、[コントローラーの割り当て](../setting-up/controller-assignment.md)の章をお読みください。
 
 {% hint style="danger" %}
 laser を arm 状態にする前に、必ず[レーザーの設定](../setting-up/setting-up-lasers.md)の章を確認してください。

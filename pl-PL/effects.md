@@ -8,7 +8,7 @@ metaLinks:
 
 System efektów w Liberation to przyjemny i wszechstronny sposób zmieniania wyjścia klipu w czasie rzeczywistym. Efekty są całkowicie elastyczne — możesz dzięki nim sprawić, że wszystko będzie migać, obracać się, zmieniać kolory, a nawet poruszać się losowo!
 
-Wszystko, co możesz zrobić w edytorze klipów, może zostać użyte jako efekt. Efekty edytuje się dokładnie w tym samym edytorze węzłów co klipy! Zobacz [#editing-effects](effects.md#editing-effects). Możliwości twórcze są praktycznie nieograniczone.
+Wszystko, co możesz zrobić w edytorze klipów, może zostać użyte jako efekt. Efekty edytuje się dokładnie w tym samym edytorze węzłów co klipy! Zobacz [Efekty](effects.md#editing-effects). Możliwości twórcze są praktycznie nieograniczone.
 
 Domyślne przyciski efektów 1–8 znajdują się pod przyciskami stref, a efekty 9–24 to małe przyciski na dole.
 
@@ -32,12 +32,12 @@ Moim zdaniem to jedno z najciekawszych i najbardziej kreatywnych narzędzi wbudo
 
 #### Parametry efektu
 
-Dodaj parametr do efektu za pomocą _Parameter node._ System parametrów pozwala regulować wiele ustawień wewnątrz efektu z zewnątrz. Więcej informacji znajdziesz w [parameter-control.md](clip-editor/oscillators/parameter-control.md).
+Dodaj parametr do efektu za pomocą _Parameter node._ System parametrów pozwala regulować wiele ustawień wewnątrz efektu z zewnątrz. Więcej informacji znajdziesz w [Parameter Control](clip-editor/oscillators/parameter-control.md).
 
 Użyj kontrolerów obrotowych 1–8, aby regulować _parameter_ dla każdego efektu. Możesz też kliknąć przycisk efektu prawym przyciskiem myszy i dostosować suwaki parametrów. Zmiana parametru robi różne rzeczy w zależności od tego, jak skonfigurowany jest efekt. Poniżej znajdziesz listę domyślnych efektów oraz opis działania ich parametrów.
 
 {% hint style="info" %}
-Kontrolery obrotowe 1–8 znajdują się u góry APC40 Mk2 oraz w prawym górnym rogu APC40 Mk1. Zobacz też: [apc40-reference.md](reference/apc40-reference.md)
+Kontrolery obrotowe 1–8 znajdują się u góry APC40 Mk2 oraz w prawym górnym rogu APC40 Mk1. Zobacz też: [Referencja APC40](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Ta funkcja jest wyłączona, jeśli ustawienie _MX Group_ ma wartość 0.
 
 Kliknij dowolny efekt prawym przyciskiem myszy i kliknij przycisk _EDIT EFFECT_, aby otworzyć edytor efektów. Zauważ, że ten edytor jest identyczny jak edytor klipów!
 
-Edytuj efekt tak samo, jak edytujesz dowolny klip. Zobacz [clip-editor](clip-editor/).
+Edytuj efekt tak samo, jak edytujesz dowolny klip. Zobacz [Edytor Clipów](clip-editor/).
 
 Musisz mieć co najmniej jeden węzeł typu creator; może to być cokolwiek (linia, okrąg, kształt, a nawet tekst!), ale najlepiej wybrać coś, co ma sens w podglądzie przycisku efektu.
 

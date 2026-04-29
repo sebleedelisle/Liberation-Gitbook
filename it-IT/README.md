@@ -29,7 +29,7 @@ Questa guida ti aiuterà a prendere confidenza con Liberation: dall’installazi
 
 * Inizia da [**Importante! Leggi prima questo**](important.md) per rivedere le note critiche su sicurezza e licenze prima di collegare l’hardware.
 * Segui la [**Guida rapida**](getting-started.md) se vuoi ottenere rapidamente un Output, poi passa a [**Hardware**](hardware/) e [**Configurazione**](setting-up/) per una configurazione più approfondita.
-* Usa i titoli delle sezioni per saltare direttamente agli argomenti (ad esempio [**Clips e Clip Deck**](clips/), [**Output view**](output-view/), **ecc.**) e torna a [**Riferimento**](reference/) o [**Risoluzione dei problemi**](troubleshooting/) quando ti servono risposte precise.
+* Usa i titoli delle sezioni per saltare direttamente agli argomenti (ad esempio [**Clips e Clip Deck**](clips/), [**Vista Output**](output-view/), **ecc.**) e torna a [**Riferimento**](reference/) o [**Risoluzione dei problemi**](troubleshooting/) quando ti servono risposte precise.
 
 ## Convenzioni e suggerimenti
 

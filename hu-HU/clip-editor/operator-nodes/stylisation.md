@@ -26,7 +26,7 @@ A randomise node a Randomise effekt alapja!
 
 Visszhangokat hoz létre a tartalomból: az eredeti mögött elhalványuló vagy átméretezett másolatokat hagy, miközben az mozog.
 
-* **change render profile for trail** – ha be van kapcsolva, minden trail másolat a kiválasztott **render profile** beállítást használja. _Lásd:_ [render-profile.md](../fundamentals/render-profile.md).
+* **change render profile for trail** – ha be van kapcsolva, minden trail másolat a kiválasztott **render profile** beállítást használja. _Lásd:_ [Render profile](../fundamentals/render-profile.md).
 * **render profile** – az a profil, amelyet a trail másolatok használnak, ha a fenti kapcsoló be van kapcsolva. Gyakori használat, hogy a fő tartalom **DETAIL** módban van, a visszhangok pedig **FAST** módban renderelődnek. Így a fő alakzatok részletesek maradnak, a trail-ek renderelése pedig hatékonyabb.
 * **delay** – a trail másolatok közti távolságot állítja be zenei időben, **1/64 hangjegyes lépésekben** mérve.\
   Tájékoztatásként:

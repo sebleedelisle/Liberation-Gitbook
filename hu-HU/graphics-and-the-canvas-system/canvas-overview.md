@@ -38,7 +38,7 @@ FIGYELMEZTETÉS – ha a lézer élesítve van, előfordulhat, hogy hirtelen tar
 {% endhint %}
 
 {% hint style="info" %}
-Canvas zónát úgy is hozzárendelhetsz egy lézerhez, hogy az _OUTPUT_ nézetben az _add canvas zone_ gombra kattintasz. Lásd: [zones.md](../output-view/zones.md).
+Canvas zónát úgy is hozzárendelhetsz egy lézerhez, hogy az _OUTPUT_ nézetben az _add canvas zone_ gombra kattintasz. Lásd: [Zónák](../output-view/zones.md).
 {% endhint %}
 
 ### Segédképek

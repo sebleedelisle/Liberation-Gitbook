@@ -11,11 +11,11 @@ metaLinks:
 
 Tämä solmu korvaa viivojen ja muotojen sisällön tasavälein sijoitetuilla pisteillä (olemassa olevat pisteet pysyvät ennallaan).
 
-* **Colour** – pisteiden väri. Ohitetaan, jos _Inherit Colour_ on käytössä, katso alla. _Katso myös_ [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md)
+* **Colour** – pisteiden väri. Ohitetaan, jos _Inherit Colour_ on käytössä, katso alla. _Katso myös_ [Väriasetukset ja HSB](../fundamentals/colour-settings-and-hsb.md)
 * **Spacing** – pisteiden välinen etäisyys pikseleinä. Pienemmät arvot = enemmän pisteitä, suuremmat arvot = vähemmän.
 * **Offset** – siirtää pisteiden aloituskohtaa prosenttiosuutena pistevälistä. Voidaan animoida (esim. sahahammasmuotoisella Oscillator Node -solmulla) liikkuvien piste-efektien luomiseksi.
 * **Keep Original** – jos käytössä, alkuperäiset viivat/muodot säilytetään ja pisteet piirretään niiden päälle.
-* **Render Profile** – valitsee renderöinnin laadun. _Katso_ [render-profile.md](../fundamentals/render-profile.md)
+* **Render Profile** – valitsee renderöinnin laadun. _Katso_ [Render Profile](../fundamentals/render-profile.md)
 * **Length Auto Divisible by Spacing** – säätää pisteväliä automaattisesti niin, että polun pituus jakautuu tasan.
 * **Fade Out Ends** – vähentää pisteiden kirkkautta asteittain polun alku- ja loppupäätä kohti. Hyödyllinen, kun **Offset** animoidaan sahahammasmuotoisella Oscillator Node -solmulla, jolloin pisteet häipyvät pehmeästi sisään/ulos liikkuessaan muodon loppuun.
 
@@ -28,5 +28,5 @@ Tämä solmu rajaa viivojen ja muotojen näkyvää pituutta, jolloin voit paljas
 * **Loop** – käsittelee muotoa jatkuvana silmukkana, jolloin loppu yhdistyy takaisin alkuun katoamisen sijaan.
 * **All Shapes** – yhdistää kaikki syötemuodot ja rajaa ne kuin ne olisivat yksi polku. Jos asetus ei ole käytössä, jokainen muoto rajataan erikseen.
 * **Add Dot at Start / Add Dot at End** – lisää valitun värisen pisteen rajauskohtiin. (Jos rajausta ei käytetä, pisteitä ei lisätä.)
-* **Colour** – rajauspisteiden väri. _Katso myös_ [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md)
-* **Render Profile** – valitsee pisteiden renderöintiprofiilin. _Katso_ [render-profile.md](../fundamentals/render-profile.md)
+* **Colour** – rajauspisteiden väri. _Katso myös_ [Väriasetukset ja HSB](../fundamentals/colour-settings-and-hsb.md)
+* **Render Profile** – valitsee pisteiden renderöintiprofiilin. _Katso_ [Render Profile](../fundamentals/render-profile.md)
