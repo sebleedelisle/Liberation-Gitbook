@@ -17,7 +17,10 @@
     "check:links": "python3 scripts/check_links.py && python3 scripts/check_link_texts.py",
     "check:link-texts": "python3 scripts/check_link_texts.py",
     "check:translations": "python3 scripts/check_translations.py",
+    "check:translations:strict": "python3 scripts/check_translations.py --strict",
     "translate:docs": "python3 scripts/translate_docs.py",
+    "translate:stale": "for lang in zh-CN de-DE nl-NL fr-FR es-ES da-DK nb-NO sv-SE ja-JP is-IS fi-FI hu-HU it-IT pl-PL pt-BR ko-KR zh-HK; do python3 scripts/translate_docs.py \"$lang\" --mode stale; done",
+    "translate:stale:dry-run": "for lang in zh-CN de-DE nl-NL fr-FR es-ES da-DK nb-NO sv-SE ja-JP is-IS fi-FI hu-HU it-IT pl-PL pt-BR ko-KR zh-HK; do python3 scripts/translate_docs.py \"$lang\" --mode stale --dry-run; done",
     "translate:de": "python3 scripts/translate_docs.py de-DE --language-name German --update-langs",
     "translate:de:stale": "python3 scripts/translate_docs.py de-DE --language-name German --mode stale",
     "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 -S node_modules,_book,zh-CN,zh-HK,de-DE,nl-NL,fr-FR,es-ES,da-DK,nb-NO,sv-SE,ja-JP,is-IS,fi-FI,hu-HU,it-IT,pl-PL,pt-BR,ko-KR -L Sie,te || python3 -m codespell -q 3 -S node_modules,_book,zh-CN,zh-HK,de-DE,nl-NL,fr-FR,es-ES,da-DK,nb-NO,sv-SE,ja-JP,is-IS,fi-FI,hu-HU,it-IT,pl-PL,pt-BR,ko-KR -L Sie,te"

@@ -27,7 +27,6 @@
   * [✅ Asetusten kopiointi laserien välillä](setting-up/copy-laser-settings.md)
   * [✅ Latenssiasetus](setting-up/latency-setting.md)
 * [🟩 Output-näkymä / vyöhykkeet](output-view/README.md)
-  * [Sivu](output-view/page.md)
   * [Yleiskatsaus](output-view/overview.md)
   * [🟩 Vyöhykkeet](output-view/zones.md)
   * [🟩 Vyöhykkeiden kopiointi laserien välillä](output-view/copy-zones-between-lasers.md)

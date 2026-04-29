@@ -27,7 +27,6 @@
   * [✅ 레이저 간 설정 복사](setting-up/copy-laser-settings.md)
   * [✅ 지연 시간 설정](setting-up/latency-setting.md)
 * [🟩 Output 보기 / Zones](output-view/README.md)
-  * [페이지](output-view/page.md)
   * [✅ 개요](output-view/overview.md)
   * [🟩 Zones](output-view/zones.md)
   * [🟩 레이저 간 Zones 복사](output-view/copy-zones-between-lasers.md)

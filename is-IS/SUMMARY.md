@@ -27,7 +27,6 @@
   * [✅ Afrita stillingar milli leysitækja](setting-up/copy-laser-settings.md)
   * [✅ Stilling fyrir töf](setting-up/latency-setting.md)
 * [🟩 Output-sýn / Zones](output-view/README.md)
-  * [Síða](output-view/page.md)
   * [✅ Yfirlit](output-view/overview.md)
   * [🟩 Zones](output-view/zones.md)
   * [🟩 Afrita zones á milli leysitækja](output-view/copy-zones-between-lasers.md)

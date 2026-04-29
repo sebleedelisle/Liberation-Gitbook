@@ -27,7 +27,6 @@
   * [✅ Copiar ajustes entre láseres](setting-up/copy-laser-settings.md)
   * [✅ Ajuste de latencia](setting-up/latency-setting.md)
 * [🟩 Vista Output / Zonas](output-view/README.md)
-  * [Página](output-view/page.md)
   * [Vista general](output-view/overview.md)
   * [🟩 Zonas](output-view/zones.md)
   * [🟩 Copiar zonas entre láseres](output-view/copy-zones-between-lasers.md)

@@ -68,7 +68,21 @@ Check translation freshness from git history:
 npm run check:translations
 ```
 
-Update only missing or stale German pages:
+Update all stale translations:
+
+```sh
+npm run translate:stale
+```
+
+Preview the stale files that would be sent to the translation API:
+
+```sh
+npm run translate:stale:dry-run
+```
+
+By default, stale mode uses git history to compare the current English file with the English version from the last commit where the matching translated file was touched. For existing stale files, the translator receives that English diff plus the current translation, and is instructed to update only the affected translated passages while preserving unchanged translated text. To force a fresh full-file translation instead, use `--stale-strategy full`.
+
+Update only stale German pages:
 
 ```sh
 npm run translate:docs -- de-DE --language-name German --mode stale
@@ -83,7 +97,7 @@ npm run translate:docs -- de-DE --language-name German --path setting-up/laser-s
 Run the normal checks after translating:
 
 ```sh
-npm run check:translations
+npm run check:translations:strict
 npm run check:links
 npm run build:site
 ```
