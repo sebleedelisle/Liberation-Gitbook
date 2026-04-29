@@ -5,22 +5,22 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/operator-nodes/colour-changer
 ---
 
-# 🟩 Colour change
+# 🟩 Litabreyting
 
-## <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> Colour change
+## <img src="../../.gitbook/assets/image.png" alt="" data-size="line"> Litabreyting
 
 Lýsing
 
-* **hue, saturation, brightness** - litagildin, sjá [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md)
+* **hue, saturation, brightness** - litagildin, sjá [Litastillingar og HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
-  * OFF - litblærnum er ekki breytt
-  * FIXED - litblær eininga er stilltur á hue-gildið
-  * SHIFT - litblær eininga er hliðraður um gildið, þannig að einingar í mismunandi litum haldast áfram mismunandi, en færast bara til eftir hue-gildinu.
+  * OFF - litblænum er ekki breytt
+  * FIXED - litblær eininga er stilltur á gildið sem er valið fyrir hue
+  * SHIFT - litblær eininga færist um gildið, þannig að einingar í mismunandi litum halda áfram að vera mismunandi, en færast bara eftir hue-gildinu.
 * **saturation mode** -
   * OFF - mettun er ekki breytt
   * FIXED - mettun er föst á tilgreinda gildinu.
 * **brightness mode** -
-  * OFF - birtu er ekki breytt
-  * FIXED - birta eininga er stillt á brightness-gildið
-  * MULTIPLY - birta eininga er margfölduð með brightness-gildinu, þannig að ef þær blikka halda þær áfram að blikka, en aðeins upp að birtunni sem er tilgreind hér.
-* **blend** - hversu sterkt litabreytirinn er notaður; 0% er alls ekki, 100% er að fullu og 50% er blanda af núverandi lit og nýju gildunum.
+  * OFF - birtustigi er ekki breytt
+  * FIXED - birtustig eininga er stillt á gildið sem er valið fyrir brightness
+  * MULTIPLY - birtustig eininga er sameinað gildinu fyrir brightness, þannig að ef þær blikka halda þær áfram að blikka, en aðeins upp að birtustiginu sem er tilgreint hér.
+* **blend** - hversu sterkt litabreytingin er notuð; 0% þýðir ekkert, 100% er full virkni og 50% er blanda af núverandi lit og nýju gildunum.

@@ -6,31 +6,31 @@ metaLinks:
 
 # 🟩 Yfirlit
 
-### Hvað er clip?
+### Hvað er Clip?
 
-Allt laserefni í Liberation er vistað í clips.
+Allt efni fyrir leysa í Liberation er geymt í Clips.
 
-Clips geta innihaldið geislaáhrif fyrir rými eða grafískar hreyfimyndir og eru yfirleitt endurtekin lykkja. Hægt er að beina þeim í hvaða zone sem er (eða Canvas Target Area) og þau eru ræst með clip-hnöppunum í clipdeck.
+Clips geta innihaldið geislaáhrif í rými eða grafískar hreyfimyndir og eru yfirleitt endurtekin lykkja. Hægt er að beina þeim í hvaða zone sem er (eða Canvas Target Area) og kveikja á þeim með Clip hnöppunum í Clip Deck.
 
-Clip-efni er búið til í fjölhæfa clip-ritlinum sem byggir á nóðum. (Sjá [clip-editor-intro.md](../clip-editor/clip-editor-intro.md) fyrir nánari upplýsingar)
+Efni í Clips er búið til með fjölhæfu Clip Editor kerfi sem byggir á nodes. (Sjá [clip-editor-intro.md](../clip-editor/clip-editor-intro.md) fyrir nánari upplýsingar)
 
-### Clip deck
+### Clip Deck
 
-<figure><img src="../.gitbook/assets/clips-clip-deck" alt=""><figcaption><p>Sjálfgefið clip deck</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/clips-clip-deck" alt=""><figcaption><p>Sjálfgefið Clip Deck</p></figcaption></figure>
 
-Clip deck er grindin af clips sem birtist á skjánum og hún nær yfirleitt út fyrir sýnilega svæðið sem þú sérð.
+Clip Deck er grid af Clips á skjánum og nær yfirleitt út fyrir sýnilega svæðið sem þú sérð.
 
-Skrunaðu clip deck til vinstri og hægri með:
+Flettu Clip Deck til vinstri og hægri með:
 
-* Vinstri og hægri örvalyklum
-* Tveggja fingra strok á trackpad (eða músarskruni til vinstri og hægri ef músin styður það!)
-* Skrunhjólinu _Cue Level_ á APC40
+* Vinstri og hægri örvalyklunum
+* Tveggja fingra stroku á snertiborði (eða músarskrolli til vinstri og hægri ef músin þín styður það!)
+* _Cue Level_ skrunhjólinu á APC40
 
-Skrunaðu clip deck um heila síðu til vinstri og hægri með:
+Flettu Clip Deck um heila síðu til vinstri og hægri með:
 
 * `Cmd / Ctrl + Left / Right Arrow`
-* Hnöppunum _Device <- and ->_ á APC40
+* _Device <- and ->_ hnöppunum á APC40
 
-#### Mini clip visualiser
+#### Litli Clip myndvísirinn
 
-Efst á clip deck sérðu litla mynd af öllu clip deck. Upplýsti hlutinn sýnir þau clips sem eru sýnileg núna.
+Efst á Clip Deck sérðu litla framsetningu á öllu Clip Deck. Upplýsti hlutinn sýnir þau Clips sem eru sýnileg núna.

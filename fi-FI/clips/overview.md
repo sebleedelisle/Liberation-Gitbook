@@ -6,31 +6,31 @@ metaLinks:
 
 # 🟩 Yleiskatsaus
 
-### Mikä on klippi?
+### Mikä Clip on?
 
-Kaikki Liberationin lasersisältö tallennetaan klippeihin.
+Kaikki Liberationin lasersistältö tallennetaan kohteina, joiden nimi on Clip.
 
-Klipit voivat sisältää ilmakehätehosteita tai graafisia animaatioita, ja ne ovat yleensä toistuvia silmukoita. Ne voidaan ohjata mihin tahansa zoneen (tai Canvas Target Area -alueeseen), ja ne käynnistetään Clip Deckin klippipainikkeilla.
+Clip-kohteet voivat sisältää ilmassa näkyviä beam-tehosteita tai graafisia animaatioita, ja ne ovat yleensä toistuvia silmukoita. Ne voidaan ohjata mihin tahansa zone-alueeseen (tai Canvas Target Area -alueelle), ja ne käynnistetään Clip Deck -näkymän Clip-painikkeilla.
 
-Klippien sisältö luodaan monipuolisella node-pohjaisella klippieditorilla. (Katso lisätietoja kohdasta [clip-editor-intro.md](../clip-editor/clip-editor-intro.md))
+Clip-sisältö luodaan monipuolisella node-pohjaisella Clip Editor -järjestelmällä. (Lisätietoja: [Clip Editor – esittely](../clip-editor/clip-editor-intro.md))
 
 ### Clip Deck
 
 <figure><img src="../.gitbook/assets/clips-clip-deck" alt=""><figcaption><p>Oletusarvoinen Clip Deck</p></figcaption></figure>
 
-Clip Deck on näytöllä näkyvä klippiruudukko, ja se jatkuu yleensä näkyvän alueen ulkopuolelle.
+Clip Deck on näytöllä näkyvä Clip-ruudukko, joka jatkuu yleensä näkyvän alueen ulkopuolelle.
 
-Vieritä Clip Deckiä vasemmalle ja oikealle käyttämällä:
+Vieritä Clip Deck -näkymää vasemmalle ja oikealle seuraavilla tavoilla:
 
-* vasenta ja oikeaa nuolinäppäintä
-* ohjauslevyn kahden sormen pyyhkäisyä (tai hiiren vaakavieritystä, jos hiiresi tukee sitä!)
-* APC40:n _Cue Level_ -vierityspyörää
+* Vasen ja oikea nuolinäppäin
+* Ohjauslevyn kahden sormen pyyhkäisy (tai hiiren vieritys vasemmalle ja oikealle, jos hiiri tukee sitä!)
+* APC40:n _Cue Level_ -vierityspyörä
 
-Vieritä Clip Deckiä kokonaisen sivun verran vasemmalle ja oikealle käyttämällä:
+Vieritä Clip Deck kokonaisen sivun verran vasemmalle tai oikealle seuraavilla tavoilla:
 
 * `Cmd / Ctrl + Left / Right Arrow`
-* APC40:n _Device <- and ->_ -painikkeita
+* APC40:n _Device <- and ->_ -painikkeet
 
-#### Pieni klippivisualisointi
+#### Clip Deck -pienoisnäkymä
 
-Clip Deckin yläreunassa näkyy pieni esitys koko Clip Deckistä. Valaistu alue näyttää klipit, jotka ovat tällä hetkellä näkyvissä.
+Clip Deck -näkymän yläreunassa näkyy pieni esitys koko Clip Deck -sisällöstä. Valaistu osa näyttää tällä hetkellä näkyvissä olevat Clips.

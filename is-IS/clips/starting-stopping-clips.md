@@ -5,53 +5,53 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/starting-stopping-clips
 ---
 
-# ✅ Ræsa / stöðva clips
+# ✅ Að ræsa / stöðva Clips
 
 {% hint style="info" %}
-Þú getur notað hnappana á skjánum til að ræsa og stöðva clips, en það er miklu betra að nota APC40 MIDI-stýringuna. Liberation hefur verið fínstillt til að virka vel með þessum búnaði og ætti að teljast mikilvægur hluti af fjárfestingu þinni í leysum.
+Þú getur notað hnappana á skjánum til að ræsa og stöðva Clips, en það er mun betra að nota APC40 MIDI controller. Liberation hefur verið fínstillt til að virka vel með þessum búnaði og hann ætti að teljast mikilvægur hluti af fjárfestingu þinni í laserbúnaði.
 {% endhint %}
 
-### Að ræsa og stöðva clips
+### Að ræsa og stöðva Clips
 
-Til að ræsa clip skaltu ýta á hnappinn fyrir það clip (annaðhvort á skjánum eða á MIDI-stýringunni þinni).
+Til að ræsa Clip skaltu ýta á hnappinn fyrir það Clip, annaðhvort á skjánum eða á MIDI controller.
 
-Til að stöðva clipið skaltu ýta aftur á sama hnapp.
+Til að stöðva Clip skaltu ýta aftur á sama hnapp.
 
-Ef þú ræsir nýtt clip (í sama hópi) stöðvast fyrsta clipið sjálfkrafa.
+Ef þú ræsir nýtt Clip í sama hópi stöðvast fyrsta Clip sjálfkrafa.
 
-Til að ræsa nýtt clip án þess að stöðva önnur clips geturðu annaðhvort
+Til að ræsa nýtt Clip án þess að stöðva önnur Clips geturðu annaðhvort
 
-* Haldið `Shift`-lyklinum inni (eða APC40 Shift-hnappinum) á meðan þú ræsir nýja clipið; eða
-* Ýtt aftur á clipið eða clipin sem eru í gangi á meðan þú ræsir nýja clipið.
+* Haldið `Shift` inni (eða Shift-hnappinum á APC40) á meðan þú ræsir nýja Clip; eða
+* Ýtt aftur á þau Clips sem eru þegar í gangi á meðan þú ræsir nýja Clip.
 
-Clip-hóparnir eru óháðir hver öðrum, þannig að ef þú ræsir clip í einum hópi hefur það ekki áhrif á clips í öðrum hópum. Sjá [groups.md](groups.md)
+Hóparnir eru óháðir hver öðrum, þannig að það að ræsa Clip í einum hópi hefur ekki áhrif á Clips í öðrum hópum. Sjá [hópar](groups.md)
 
 ### Flash mode
 
-Ef clip er í hópi sem er stilltur á _flash mode_ hegðar það sér aðeins öðruvísi; clipið heldur aðeins áfram að keyra á meðan þú heldur clip-hnappinum inni. Um leið og þú sleppir honum stöðvast það. (Sjálfgefið er clip-hópur 3 — sá rauði — stilltur á _flash mode.)_
+Ef Clip er í hópi sem er stilltur á _flash mode_, hegðar það sér aðeins öðruvísi; Clip heldur aðeins áfram að keyra á meðan þú heldur Clip-hnappinum inni. Um leið og þú sleppir stöðvast það. (Sjálfgefið er Clip group 3 — rauði hópurinn — stilltur á _flash mode.)_
 
-### Stöðva öll clips
+### Stöðva öll Clips
 
-Til að **stöðva öll clips sem eru í gangi** skaltu ýta á **STOP**-hnappinn.
+Til að **stöðva öll Clips sem eru í gangi** skaltu ýta á **STOP** hnappinn.
 
 {% hint style="info" %}
-Ýttu **tvisvar** á **STOP**-hnappinn til að fara fram hjá fade out-tíma clipanna og slökkva strax á þeim.
+Ýttu **tvisvar** á **STOP** hnappinn til að fara fram hjá fade out tíma Clips og slökkva strax á þeim.
 {% endhint %}
 
-Til að stöðva öll clips sem eru í gangi í tilteknum hópi skaltu ýta á hóphnappinn hans og síðan á **STOP**-hnappinn.
+Til að stöðva öll Clips sem eru í gangi í tilteknum hópi skaltu ýta á hóphnappinn og síðan á **STOP** hnappinn.
 
-Til að stöðva öll clips nema eitt skaltu ýta á clipið sem er í gangi og þú vilt halda, og á meðan hnappurinn er niðri skaltu einnig ýta á **STOP**-hnappinn. Slepptu síðan clip-hnappinum. (Þetta virkar líka með mörg clips, eins mörg og þú getur haldið inni í einu!)
+Til að stöðva öll Clips nema eitt skaltu ýta á það Clip sem er í gangi og þú vilt halda áfram að nota. Á meðan þú heldur því inni skaltu einnig ýta á **STOP** hnappinn. Slepptu síðan Clip-hnappinum. (Þetta virkar líka með mörgum Clips, eins mörgum og þú getur haldið inni í einu!)
 
-### Clipið sem er valið núna
+### Clip sem er valið núna
 
-<figure><img src="../.gitbook/assets/clips-selected-active.png" alt="" width="269"><figcaption><p>Tvö clips sem eru í gangi núna. Hvíti ramminn sýnir að clipið hægra megin er <em>clipið sem er valið núna.</em></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/clips-selected-active.png" alt="" width="269"><figcaption><p>Tvö Clips sem eru í gangi. Hvíti ramminn sýnir að Clip hægra megin er <em>Clip sem er valið núna.</em></p></figcaption></figure>
 
-Clipið lýsist upp á skjánum þegar það er í gangi (og smámynd þess í clip visualiser blikkar). Þú sérð líka að síðasta clipið sem þú ýttir á er með hvítan ramma utan um sig. Þetta sýnir að það er _clipið sem er valið núna._
+Clip lýsist upp á skjánum þegar það er í gangi (og smámynd þess í Clip visualiser blikkar). Þú tekur líka eftir því að síðasta Clip sem þú ýttir á er með hvítan ramma utan um sig. Þetta sýnir að það er _Clip sem er valið núna._
 
-`Alt / Option`-smelltu á clip til að velja það án þess að virkja það. Notaðu `Alt / Option + Shift`-smell til að velja mörg clips.
+`Alt / Option`-smelltu á Clip til að velja það án þess að virkja það. Notaðu `Alt / Option + Shift`-smell til að velja mörg Clips.
 
-Þú getur líka smellt og dregið lasso á clip deck til að velja mörg clips.
+Þú getur líka smellt og dregið lasso á Clip Deck til að velja mörg Clips.
 
 {% hint style="info" %}
-APC40 er líka með `Alt`- og `Shift`-hnappa til að velja.
+APC40 er einnig með `Alt` og `Shift` hnappa til að velja Clips.
 {% endhint %}

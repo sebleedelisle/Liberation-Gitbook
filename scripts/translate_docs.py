@@ -109,7 +109,8 @@ LANGUAGE_STYLE_GUIDANCE = {
     ),
     "is-IS": (
         "For Icelandic, use informal 'þú' consistently when addressing the reader. "
-        "Use natural Icelandic technical-manual prose and avoid overly literal English sentence structure."
+        "Use natural Icelandic technical-manual prose and avoid overly literal English sentence structure. "
+        "Avoid clunky gender-parenthetical forms such as tilbúin(n); rephrase neutrally where possible."
     ),
     "fi-FI": (
         "For Finnish, use natural direct technical-manual prose. "
@@ -117,6 +118,7 @@ LANGUAGE_STYLE_GUIDANCE = {
     ),
     "hu-HU": (
         "For Hungarian, use natural direct technical-manual prose. "
+        "Use informal tegezés consistently, not formal magázás. "
         "Prefer concise instructions and avoid overly literal English sentence structure."
     ),
     "it-IT": (
@@ -147,6 +149,48 @@ DEFAULT_OPENAI_MODEL = "gpt-5.5"
 DEFAULT_ANTHROPIC_MODEL = "claude-sonnet-4-6"
 RETRYABLE_HTTP_STATUS_CODES = {408, 409, 425, 429, 500, 502, 503, 504}
 REQUEST_TIMEOUT_SECONDS = int(os.environ.get("TRANSLATE_REQUEST_TIMEOUT", "600"))
+CURRENT_APP_TERMS = [
+    "Liberation",
+    "Clip",
+    "Clips",
+    "Clip Deck",
+    "Clip Editor",
+    "Creator",
+    "Creators",
+    "node",
+    "nodes",
+    "zone",
+    "zones",
+    "beam zone",
+    "canvas zone",
+    "DMX zone",
+    "mask",
+    "masks",
+    "Canvas",
+    "Output",
+    "3D",
+    "Output view",
+    "Canvas view",
+    "3D view",
+    "Laser Overview",
+    "Laser Settings",
+    "Global Brightness",
+    "test pattern",
+    "arm",
+    "disarm",
+    "armed",
+    "disarmed",
+    "controller",
+    "laser controller",
+    "APC40",
+    "LaserCube",
+    "DMX",
+    "MIDI",
+    "OSC",
+    "ILDA",
+    "DAC",
+    "ArtNet",
+]
 
 
 MARKDOWN_TARGET_PATTERN = re.compile(r"!?\[[^\]]*\]\(([^)\s]+(?:\s+\"[^\"]*\")?)\)")
@@ -375,6 +419,7 @@ def strip_wrapper(text):
 
 def system_prompt(target_language, language_name):
     style_guidance = LANGUAGE_STYLE_GUIDANCE.get(target_language, "")
+    app_terms = ", ".join(CURRENT_APP_TERMS)
     return " ".join(
         part
         for part in [
@@ -389,14 +434,21 @@ def system_prompt(target_language, language_name):
             "Translate visible Markdown link text when it is natural-language text, while preserving each link target exactly.",
             "When a Markdown link points to another manual page or section, make the visible link text match",
             "the translated title or heading for that destination instead of leaving the English source title.",
+            "Current app terminology: because the app UI is currently in English, keep these app concepts and UI terms",
+            f"in English when they refer to Liberation features: {app_terms}.",
+            "This glossary applies to Liberation UI and app concepts, not to generic hardware, safety, or operating-system terms.",
+            "Translate generic terms such as laser, laser output, emergency stop button, aperture cover, hardware, software,",
+            "desktop, and file explorer naturally unless they are exact on-screen labels.",
+            "Translate the surrounding sentence naturally and use local articles, descriptors, or short explanations when needed",
+            "to make the English app term fit the target-language grammar.",
+            "Do not create awkward hybrid forms by adding target-language verb or case endings directly to English app terms;",
+            "rewrite the sentence around the English term instead.",
+            "If the app UI is localized in the future, this glossary should be updated to the localized UI terms.",
             style_guidance,
             "Return only the translated Markdown document.",
             "Preserve Markdown structure, heading levels, tables, frontmatter keys, YAML indentation,",
             "GitBook directives, HTML tags, image paths, Markdown link targets, anchors, file paths,",
             "code fences, inline code, keyboard shortcuts, UI labels, and product names.",
-            "Keep product and protocol names such as Liberation, APC40, LaserCube, DMX, MIDI, OSC,",
-            "ILDA, DAC, ArtNet, Canvas, Output, 3D Visualiser, Clip, and Clip Deck unchanged unless",
-            "the surrounding sentence naturally needs a translated explanation.",
         ]
         if part
     )

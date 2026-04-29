@@ -173,7 +173,7 @@ To opóźnienie ramki, czyli maksymalny czas między wygenerowaniem ramki a jej 
 
 #### Jak dostosować strefy i ustawienia klipu bez jego uruchamiania?
 
-Kliknij z przytrzymanym `Alt / Option`, aby ustawić go jako _currently selected clip_, ale bez aktywowania. Zobacz też [starting-stopping-clips.md](clips/starting-stopping-clips.md)
+Kliknij z przytrzymanym `Alt / Option`, aby ustawić go jako _aktualnie zaznaczony Clip_, ale bez aktywowania. Zobacz też [starting-stopping-clips.md](clips/starting-stopping-clips.md)
 
 #### Jak kopiować klipy?
 

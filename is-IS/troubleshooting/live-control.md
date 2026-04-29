@@ -5,8 +5,8 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/live-control
 ---
 
-# ✅ Stýring í beinni
+# ✅ Live-stýring
 
-### Clip eru hætt að hreyfast
+### Hreyfing í Clips hefur stöðvast
 
-Þú hefur líklega stöðvað taktkerfið eða breytt taktgjafanum. Gakktu úr skugga um að _Live_ sé valið sem taktgjafi og ýttu á spilunarhnappinn. (Ef taktgjafinn er _Timeline_ geturðu ræst og stöðvað með bilstönginni).
+Þú hefur líklega stöðvað tempókerfið eða breytt tempóuppsprettunni. Gakktu úr skugga um að tempóuppsprettan _Live_ sé valin og ýttu á spilunarhnappinn. (Ef tempóuppsprettan er _Timeline_ getur þú ræst og stöðvað með bilslánni).

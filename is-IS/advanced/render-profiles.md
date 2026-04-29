@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/advanced/render-profiles
 ---
 
-# ◼️ Render profiles
+# ◼️ Render-snið

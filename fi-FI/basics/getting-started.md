@@ -2,339 +2,339 @@
 
 ## Johdanto
 
-Tervetuloa **Liberationiin** – seuraavan sukupolven laser show -ohjelmistoon.
+Tervetuloa käyttämään **Liberation**-ohjelmistoa – uuden sukupolven lasershow-ohjelmistoa.
 
-Liberation on tehokas ja monipuolinen nykyaikainen ohjelmisto. Se on rakennettu käytettävyyden ja luotettavuuden perusperiaatteiden varaan, jotta voit ilmaista luovuuttasi vapaasti. Se on nopea, tehokas ja sujuva; tämän _pika-aloitusoppaan_ avulla pääset alkuun nopeasti!
+Liberation on tehokas ja monipuolinen moderni ohjelmisto. Se perustuu käytettävyyteen ja luotettavuuteen, jotta voit toteuttaa luovuuttasi vapaasti. Se on nopea, tehokas ja sujuva. Tämän _pika-aloitusoppaan_ avulla pääset alkuun nopeasti!
 
-### Laserien hallinta
+### Lasereiden hallinta
 
-Liberation on niin joustava, että voit määrittää lasereita ja visualisoida niitä ilman, että yhtään oikeaa laseria on kytketty. Kun olet valmis, voit liittää jokaisen ulostulon saumattomasti laserohjaimeen.
+Liberation on niin joustava, että voit määrittää lasereita ja visualisoida niitä ilman, että yhtään oikeaa laseria on kytketty. Kun olet valmis käyttämään oikeita lasereita, voit määrittää jokaisen Output-kanavan laser controller -laitteelle sujuvasti.
 
 {% hint style="info" %}
-Voit määrittää ja visualisoida Liberationissa niin monta laseria kuin haluat. Lisenssitasot (Hobbyist, Pro jne.) rajoittavat vain niiden laserien määrää, jotka voit _aktivoida_. Tämä tarkoittaa, että voit suunnitella 100 laserin laser shown jopa ilmaisella lisenssillä. Päivitys tarvitaan vasta, kun haluat ajaa shown oikeilla lasereilla.
+Voit määrittää ja visualisoida Liberationissa niin monta laseria kuin haluat. Lisenssitasot (Hobbyist, Pro jne.) rajoittavat vain sitä, kuinka monta laseria voi olla _armed_-tilassa. Tämä tarkoittaa, että voit suunnitella lasershow’n 100 laserilla myös ilmaisella lisenssillä. Päivitystä tarvitaan vasta, kun show ajetaan oikeilla lasereilla.
 {% endhint %}
 
-Oletuksena käytössä on 8 laseria vaakasuoraan levitettynä, mutta voit mukauttaa tämän haluamallasi tavalla. Aluksi on luultavasti parasta pitää tämä oletus, kun tutustut ohjelmistoon. Myöhemmin voit säätää sen vastaamaan omaa laitteistoasi. (Katso [setting-up-your-project.md](../setting-up/setting-up-your-project.md))&#x20;
+Oletusasetuksessa on 8 laseria vaakasuorassa rivissä, mutta voit muokata tätä haluamallasi tavalla. Aluksi tämä oletus kannattaa todennäköisesti pitää käytössä, kun tutustut ohjelmistoon. Myöhemmin voit säätää sen vastaamaan omaa laitteistoasi. (Katso [Projektin määrittäminen](../setting-up/setting-up-your-project.md))&#x20;
 
 {% hint style="warning" %}
-Tärkeää: ennen kuin aktivoit yhtään laseria, varmista että ymmärrät niihin liittyvät riskit ja käy huolellisesti läpi luku [setting-up-lasers.md](../setting-up/setting-up-lasers.md).
+Tärkeää: ennen kuin asetat mitään lasereita armed-tilaan, varmista, että ymmärrät riskit, ja käy huolellisesti läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ## Ohjelmiston yleiskuva
 
 ### Turvakatkaisu
 
-Aina kun käytät lasereita, sinulla täytyy olla käsillä **laitteistopohjainen hätäpysäytyspainike** (katso [emergency-stop-interlocks.md](../hardware/emergency-stop-interlocks.md)). Jos haluat poistaa kaiken käytöstä vähemmän kiireellisesti, voit käyttää _**DISARM ALL**_ -painiketta tai `Escape`-näppäintä (tai APC40:n _**SESSION**_-näppäintä). Voit myös pienentää yleiskirkkautta näytön liukusäätimellä tai APC40:n pääfaderilla.
+Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys ja lukitukset](../hardware/emergency-stop-interlocks.md)). Jos haluat poistaa kaikkien lasereiden armed-tilan vähemmän kiireellisesti, käytä _**DISARM ALL**_ -painiketta, `Escape`-näppäintä tai APC40-laitteen _**SESSION**_-näppäintä. Voit myös pienentää Global Brightness -tasoa näytön liukusäätimellä tai APC40:n pääfaderilla.
 
 ### Liukusäätimet
 
-Liberationissa on useita liukusäätimiä ja ohjaimia.
+Liberationissa on erilaisia liukusäätimiä ja ohjaimia.
 
 {% hint style="info" %}
-`Cmd / Ctrl`-klikkaa liukusäädintä, jos haluat kirjoittaa uuden arvon tarkempaa säätöä varten.
+`Cmd / Ctrl`-klikkaa liukusäädintä, jos haluat syöttää uuden arvon käsin ja tarvitset tarkempaa säätöä kuin liukusäädin antaa.
 {% endhint %}
 
 ### Pikanäppäimet
 
-Täydellinen pikanäppäinluettelo löytyy täältä: [keyboard-shortcuts.md](../reference/keyboard-shortcuts.md)
+Täysi pikanäppäinluettelo löytyy täältä: [Pikanäppäimet](../reference/keyboard-shortcuts.md)
 
 ### Näytön asettelu
 
 <figure><img src="../.gitbook/assets/screen-layout.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Etkö ole varma, mitä jokin painike tekee? Vie hiiri sen päälle, niin näet kuvauksen!
+Etkö ole varma, mitä jokin painike tekee? Vie hiiri painikkeen päälle, niin näet kuvauksen!
 {% endhint %}
 
 #### Valikko
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Valikosta löydät kaikki tiedostojen tuonti- ja vientitoiminnot sekä paneelien avaamisen. Täältä löytyy myös toiminto, jolla voit valtuuttaa tietokoneen tilauksellesi (_Liberation -> Authorise/Deauthorise this computer_).
+Valikosta löydät kaikki tiedostojen tuonti- ja vientitoiminnot sekä paneelien avaamisen. Täältä löytyy myös vaihtoehto, jolla tietokone valtuutetaan tilauksellesi (_Liberation -> Authorise/Deauthorise this computer_).
 
 #### Kuvakepalkki
 
 <figure><img src="../.gitbook/assets/icon-bar.png" alt=""><figcaption></figcaption></figure>
 
-Täältä löytyvät yleiset toiminnot, kuten kaikkien laserien aktivointi ja käytöstä poisto, yleiskirkkaus, testikuvio sekä 3D-, Canvas- ja Output-näkymien välillä vaihtaminen.
+Täältä löydät yleiset toiminnot, kuten kaikkien lasereiden asettamisen armed- tai disarmed-tilaan, Global Brightness -säädön, test pattern -toiminnon sekä vaihtamisen 3D view-, Canvas view- ja Output view -näkymien välillä.
 
 ### Näkymät
 
-Näytön vasemmassa yläkulmassa oleva suuri alue voi näyttää jonkin kolmesta päänäkymästä: **3D**, **CANVAS** tai **OUTPUT.** Vaihda niiden välillä kuvakepalkin painikkeilla (tai käytä `Tab`-näppäintä vaihtaaksesi 3D- ja OUTPUT-näkymien välillä ja jatka sitten sarkaimella laserulostulosta toiseen).
+Näytön vasemmassa yläkulmassa oleva suuri alue voi näyttää yhden kolmesta päänäkymästä: **3D**, **CANVAS** tai **OUTPUT.** Vaihda niiden välillä kuvakepalkin painikkeilla. Voit myös käyttää `Tab`-näppäintä vaihtaaksesi 3D view- ja OUTPUT view -näkymien välillä ja jatkaa sitten siirtymistä vuorotellen jokaisen laserin Output-kanavan läpi.
 
 <figure><img src="../.gitbook/assets/qs-icon-bar-views.png" alt="" width="154"><figcaption></figcaption></figure>
 
-#### 3D View
+#### 3D view
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D-näkymä näyttää, miltä laserit näyttävät, ja sen voi määrittää vastaamaan omaa laserkokoonpanoasi. Kierrä kameraa klikkaamalla ja vetämällä. Liiku eteen- ja taaksepäin hiiren rullalla. Lisää asetuksia löytyy _3D Visualiser settings_ -paneelista (_View -> 3D Visualiser Settings_). Katso [3d-visualiser.md](../setting-up/3d-visualiser.md).
+3D view näyttää, miltä laserit näyttävät, ja sen voi määrittää vastaamaan omaa laseriasetustasi. Klikkaa ja vedä kiertääksesi kameraa. Käytä hiiren rullaa siirtyäksesi eteen- ja taaksepäin. Lisää asetuksia löytyy _3D Visualiser settings_ -paneelista (_View -> 3D Visualiser Settings_). Katso [3D-visualisointi](../setting-up/3d-visualiser.md).
 
-#### Output View
+#### Output view
 
 <figure><img src="../.gitbook/assets/qs-view-output.png" alt=""><figcaption></figcaption></figure>
 
-Output-näkymää käytetään kunkin laserin alueiden ja maskien määrittämiseen. (Huomaa vasemman yläkulman suuri numero, josta näet helposti, mitä laseria käsittelet!)
+Output view -näkymässä määritetään kunkin laserin zones ja masks. Huomaa vasemman yläkulman suuri numero, josta näet helposti, mitä laseria käsittelet.
 
-Tämä näkymä kuvaa kyseisen laserin koko ulostuloa ja sitä, missä kukin alue sijaitsee sen sisällä. Oletuksena jokaisella laserilla on vain yksi alue, mutta voit lisätä niin monta aluetta kuin on käytännössä järkevää. Kaikki alueet näkyvät tässä näkymässä.
+Tämä näkymä kuvaa laserin koko Output-aluetta ja sitä, missä kukin zone sijaitsee sen sisällä. Oletuksena jokaisella laserilla on vain yksi zone, mutta voit lisätä niin monta zone-kohdetta kuin käytännössä on järkevää, ja näet ne kaikki tässä näkymässä.
 
 {% hint style="info" %}
-**Mikä on alue?**
+**Mikä on zone?**
 
-Alue on laserin ulostulossa oleva tila, johon voit ohjata lasersisältöä. Yhdellä laserilla voi olla useampi kuin yksi alue. Yksinkertaisin aluetyyppi on _beam_-alue, mutta käytössä on myös _canvas_-alueita ja _DMX_-alueita. Tässä oppaassa keskitymme pääasiassa beam-alueisiin, joita käytetään yleensä ilmakehään piirtyvien säde-efektien luomiseen.
+Zone on laserin Output-alueen sisällä oleva tila, johon voit ohjata lasersisältöä. Yhdellä laserilla voi olla useampi kuin yksi zone. Yksinkertaisin zone-tyyppi on _beam_ zone, mutta käytettävissä on myös _canvas_ zones ja _DMX_ zones. Tässä oppaassa keskitymme enimmäkseen beam zones -kohteisiin, joita käytetään yleensä ilmassa näkyvien säde-efektien luomiseen.
 {% endhint %}
 
 Voit valita muokattavan laserin jollakin näistä tavoista:
 
-* yläpalkin numeroiduilla painikkeilla
+* yläreunan palkin numeropainikkeilla
 * painamalla haluamasi laserin numeronäppäintä _(1-9_ keys\_)\_
-* `Tab`-näppäimellä, jolla siirryt laserista seuraavaan
+* siirtymällä laserista toiseen `Tab`-näppäimellä
 
-Lisää uusi laser kokoonpanoon painamalla _+_-painiketta. (Myös _Laser Overview_ -paneelissa on _ADD LASER_ -painike)
+Lisää uusi laser asetukseen painamalla _+_-painiketta. (_Laser Overview_ -paneelissa on myös _ADD LASER_ -painike.)
 
-Poista laser kokoonpanosta painamalla punaista ⊖-painiketta _Laser Overview_ -paneelissa.
+Poista laser asetuksesta painamalla punaista ⊖-painiketta _Laser Overview_ -paneelissa.
 
-Voit lähentää ja loitontaa hiiren vieritysrullalla. Siirrä näkymää klikkaamalla ja vetämällä kohtaa, jossa ei ole aluetta.
+Voit lähentää ja loitontaa hiiren rullalla. Voit siirtää näkymää klikkaamalla ja vetämällä kohdassa, jossa ei ole zone-kohdetta.
 
-Valitse alue klikkaamalla sitä ja säädä sen kulmapisteitä hiirellä. Kun vedät kulmaa, käytä `Alt / Option`-näppäintä, jos haluat tehdä säädöstä epäsuhteisen. Näet lisää asetuksia, kuten aluetyypin vaihtamisen, klikkaamalla aluetta hiiren oikealla painikkeella.
+Valitse zone klikkaamalla sitä ja säädä sen kulmapisteitä hiirellä. Pidä `Alt / Option`-näppäin painettuna kulmaa vetäessäsi, jos haluat tehdä säädöstä epäyhtenäisen. Avaa lisää vaihtoehtoja klikkaamalla zone-kohdetta hiiren oikealla painikkeella; vaihtoehtoihin kuuluu myös zone-tyypin vaihtaminen.
 
-Vasemmalla on palkki, jossa on joukko kuvakepainikkeita. Vie hiiri minkä tahansa painikkeen päälle, niin näet kuvauksen sen toiminnosta. Näillä painikkeilla voit lisätä beam-alueita, canvas-alueita ja maskeja. Lisäksi voit määrittää testikuvion vain tälle laserille sekä säätää ruudukko- ja tartunta-asetuksia.
+Vasemmalla on palkki, jossa on useita kuvakepainikkeita. Vie hiiri minkä tahansa painikkeen päälle, niin näet kuvauksen sen toiminnosta. Näillä painikkeilla voit lisätä beam zones, canvas zones ja masks. Lisäksi käytettävissä on asetuksia, joilla test pattern asetetaan vain tälle laserille, sekä ruudukko- ja tartunta-asetuksia.
 
-Lisätietoja on kohdassa [output-view](../output-view/).
+Lisätietoja: [Output view](../output-view/).
 
 #### Canvas
 
-Canvas-järjestelmää käytetään pääasiassa grafiikkaan ja arkkitehtoniseen mappaukseen. Voit jakaa monimutkaisia kuvia useille lasereille ja tehdä perspektiivikorjauksen jokaiselle osalle. Katso [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/).
+Canvas-järjestelmää käytetään pääasiassa grafiikkaan ja arkkitehtoniseen mappingiin. Voit jakaa monimutkaisia kuvia useille lasereille ja korjata jokaisen osan perspektiivin. Katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/).
 
-### APC40 MIDI -ohjain
+### APC40 MIDI controller
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
-Liberationia voi ohjata hiirellä ja näppäimistöllä, mutta paljon parempi tapa on käyttää APC40 MIDI -ohjainta (Mark 2 on paras vaihtoehto, mutta myös Mark 1 toimii).
+Liberationia voi ohjata hiirellä ja näppäimistöllä, mutta APC40 MIDI control interface tekee käytöstä huomattavasti paremman. Mark 2 on paras vaihtoehto, mutta myös Mark 1 toimii.
 
-Katso myös: [apc40-reference.md](../reference/apc40-reference.md)
+Katso myös: [APC40-viite](../reference/apc40-reference.md)
 
-Olemme nyt toteuttaneet tuen myös APC Mini Mark 2:lle ja MIDI Fighter Twisterille, ja lisää ohjaimia on kehitteillä. APC40 Mark 2 on kuitenkin useimmissa tapauksissa paras vaihtoehto.&#x20;
+Tuki APC Mini Mark 2- ja MIDI Fighter Twister -laitteille on nyt myös toteutettu, ja lisää on kehitteillä. APC40 Mark 2 on kuitenkin useimmissa tapauksissa paras vaihtoehto.&#x20;
 
-### Clipit ja efektit
+### Clips ja tehosteet
 
 {% hint style="info" %}
-**Mikä on clip?**
+**Mikä on Clip?**
 
-Clip on säiliö mille tahansa lasersisällölle Liberationissa. Clipit voivat sisältää säteitä tai graafisia animaatioita, ja ne ovat yleensä toistuvia silmukoita. Ne voidaan ohjata mille tahansa alueelle (tai _Canvas target area_ -kohdealueelle), ja ne käynnistetään Clip Deckin clip-painikkeilla.
+Clip on säiliö mille tahansa lasersisällölle Liberationissa. Clips voivat sisältää säteitä tai graafisia animaatioita, ja ne ovat yleensä toistuvia silmukoita. Ne voidaan ohjata mihin tahansa zone-kohteeseen tai _Canvas target area_ -alueelle, ja ne käynnistetään Clip Deck -alueen Clip-painikkeilla.
 {% endhint %}
 
-#### Clip deckin yleiskuva
+#### Clip Deckin yleiskuva
 
 <figure><img src="../.gitbook/assets/qs-clipdeck.png" alt=""><figcaption></figcaption></figure>
 
-Tätä ruudukkoa kutsutaan _clip deckiksi_, ja siihen tallennetaan kaikki laserclipit. Se on suunniteltu vastaamaan suoraan APC40:n 8 x 5 -painikeruudukkoa.
+Tämä ruudukko tunnetaan nimellä _Clip Deck_, ja siihen tallennetaan kaikki laserin Clips. Se on suunniteltu vastaamaan suoraan APC40-laitteen 8 x 5 -painikeruudukkoa.
 
-**Clip deckissä liikkuminen.**
+**Clip Deckissä liikkuminen.**
 
-Voit vierittää clip deckiä vasemmalle ja oikealle seuraavilla tavoilla:
+Voit vierittää Clip Deck -aluetta vasemmalle ja oikealle seuraavilla tavoilla:
 
 * Vasen ja oikea nuolinäppäin. Lisää `Cmd / Ctrl`, jos haluat vierittää kokonaisen sivun kerrallaan.
-* Ohjauslevy: pyyhkäise
-* Hiiri: jos hiiressäsi on sivusuuntainen vieritys, voit käyttää sitä, kun osoitin on clip deckin päällä
+* Ohjauslevy: pyyhkäisy
+* Hiiri: jos hiiressäsi on vaakavieritys, voit käyttää sitä, kun osoitin on Clip Deck -alueen päällä
 * APC40:n vieritysnuppi
 * APC40:n _<- DEVICE ->_ -painikkeet
 
-Jotta hahmotat sijaintisi paremmin, yläreunassa on clip deckin minivisualisointi. Katso myös [clips](../clips/)
+Yläreunassa oleva Clip Deck -alueen pienoisvisualisointi auttaa hahmottamaan sijaintisi. Katso myös [Clips](../clips/)
 
-#### Clippien käynnistäminen ja pysäyttäminen
+#### Clips käynnistäminen ja pysäyttäminen
 
-Käynnistä clip painamalla clip-painiketta joko hiirellä tai APC40:llä. Pysäytä se painamalla painiketta uudelleen. Kun käynnistät clipin, kaikki muut samanväriset clipit pysähtyvät automaattisesti, ellet pidä _shift_-näppäintä pohjassa.
+Käynnistä Clip painamalla Clip-painiketta joko hiirellä tai APC40-laitteella. Pysäytä se painamalla painiketta uudelleen. Kun käynnistät Clip-sisällön, kaikki muut samanväriset Clips pysähtyvät automaattisesti, ellet pidä _shift_-näppäintä painettuna.
 
-Jotkin clipit ovat _Flash mode_ -tilassa (oletuksena punaiset), jolloin ne pysähtyvät heti, kun vapautat clip-painikkeen.
+Osa Clips-sisällöistä on _Flash mode_ -tilassa (oletuksena punaiset). Tällöin ne pysähtyvät heti, kun vapautat Clip-painikkeen.
 
-_STOP_-painike pysäyttää kaikki tällä hetkellä käynnissä olevat clipit.
+_STOP_-painike pysäyttää kaikki parhaillaan käynnissä olevat Clips.
 
-#### Clipin ulostuloalueiden määrittäminen
+#### Output zones -määritys Clip-sisällölle
 
-Clip-painikkeiden alla näet aluepainikkeet, oletuksena beam-alueet 1–8 (_BEAM 1_, _BEAM 2_ jne.). Aluepainikkeet syttyvät osoittamaan, mitkä alueet on määritetty valittuna olevalle clipille.
+Clip-painikkeiden alapuolella näkyvät zone-painikkeet, oletuksena beam zones 1–8 (_BEAM 1_, _BEAM 2_ jne.). Zone-painikkeet syttyvät osoittamaan, mitkä zones on määritetty valitulle Clip-sisällölle.
 
 <figure><img src="../.gitbook/assets/qs-zone-buttons.png" alt=""><figcaption></figcaption></figure>
 
-Kaksi riviä aluepainikkeiden alapuolella näet X/Y-kääntöpainikkeet. Niillä voit kääntää clipin vaaka- ja pystysuunnassa.
+Kaksi riviä zone-painikkeiden alapuolella näkyvät X/Y flip -painikkeet. Niillä voit kääntää Clip-sisällön vaaka- ja pystysuunnassa.
 
 {% hint style="info" %}
-Huomaa, että nämä aluekohdistukset ja X/Y-kääntöasetukset liittyvät itse clipiin. Ne säilyvät seuraavalla kerralla, kun ajat kyseisen clipin. Ne eivät ole yleisiä asetuksia.
+Huomaa, että nämä zone-määritykset ja X/Y flip -asetukset liittyvät itse Clip-sisältöön. Ne säilyvät seuraavaan kertaan, kun käynnistät kyseisen Clip-sisällön. Ne eivät ole globaaleja asetuksia.
 {% endhint %}
 
-Muokkaa clipin muita asetuksia klikkaamalla clipiä hiiren oikealla painikkeella. Katso myös [clip-settings.md](../clips/clip-settings.md)
+Muokkaa Clip-sisällön lisäasetuksia klikkaamalla Clip-kohdetta hiiren oikealla painikkeella. Katso myös [Clip-asetukset](../clips/clip-settings.md)
 
 ### Ryhmät
 
-Huomaat, että jokaisella clipillä on värillinen reunus, ja tämä väri kertoo, mihin _ryhmään_ se kuuluu. Myös APC40:n clip-painikkeet syttyvät tällä värillä.
+Huomaat, että jokaisella Clip-kohteella on värillinen reunus, ja tämä väri kertoo, mihin _ryhmään_ se kuuluu. Myös APC40:n Clip-painikkeet syttyvät tällä värillä.
 
-<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Group 1</td><td>Syaani</td></tr><tr><td>Group 2</td><td>Oranssi</td></tr><tr><td>Group 3</td><td>Punainen</td></tr><tr><td>Group 4</td><td>Indigo</td></tr><tr><td>Group 5</td><td>Vihreä</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Ryhmä 1</td><td>Syaani</td></tr><tr><td>Ryhmä 2</td><td>Oranssi</td></tr><tr><td>Ryhmä 3</td><td>Punainen</td></tr><tr><td>Ryhmä 4</td><td>Indigo</td></tr><tr><td>Ryhmä 5</td><td>Vihreä</td></tr></tbody></table>
 
-Ryhmäjärjestelmä on erittäin joustava, ja sen avulla voit:
+Ryhmäjärjestelmä on hyvin joustava, ja sen avulla voit:
 
-* Pitää yhden ryhmän clipit käynnissä samalla, kun vaihdat toisen ryhmän tilaa
-* Määrittää alueet ja X/Y-käännöt nopeasti kaikille ryhmän clipeille
-* Asettaa clipille _Flash mode_ -tilan (Group 3 on oletuksena _Flash mode_ -tilassa)
+* pitää yhden ryhmän Clips käynnissä samalla, kun kytket toisen ryhmän sisältöjä päälle ja pois
+* määrittää zones ja X/Y flip -asetukset nopeasti kaikille ryhmän Clips-sisällöille
+* asettaa Clip-sisällön _Flash mode_ -tilaan (Ryhmä 3 on oletuksena _Flash mode_ -tilassa)
 
-Ryhmillä on myös sisään- ja ulossiirtymien asetuksia, jotka clipit voivat periä tai ohittaa.
+Ryhmillä on myös siirtymäasetukset sisään- ja ulosmenolle. Ryhmän Clips voivat periä nämä asetukset tai ohittaa ne.
 
-Voit määrittää clipin ryhmän oikean klikkauksen valikon painikkeilla. APC40:llä voit painaa ryhmäpainiketta ja _pitää sen edelleen pohjassa_ samalla, kun painat clip-painikkeita.
+Voit määrittää Clip-sisällön ryhmän hiiren oikean painikkeen valikon painikkeilla. APC40-laitteella voit painaa ryhmäpainiketta ja _sen ollessa edelleen painettuna_ painaa Clip-painikkeita.
 
-Muuta kaikkien ryhmän clippien alueasetuksia
+Muuta zone-asetuksia kaikille ryhmän Clips-sisällöille
 
-Paina APC40:llä ryhmäpainiketta ja käytä sitten alue- ja X/Y-painikkeita _sen ollessa edelleen pohjassa_ vaihtaaksesi kaikkien kyseisen ryhmän clippien alueasetuksia.
+APC40-laitteella paina ryhmäpainiketta ja käytä sitten zone- ja X/Y-painikkeita _sen ollessa edelleen painettuna_, jotta voit vaihtaa zone-asetuksia kaikille kyseisen ryhmän Clips-sisällöille.
 
-Katso myös [groups.md](../clips/groups.md)
+Katso myös [Ryhmät](../clips/groups.md)
 
-### Efektit
+### Tehosteet
 
-Liberationin efektijärjestelmä on tehokas ja monipuolinen tapa muuttaa clipin ulostuloa reaaliajassa. Oletusefektipainikkeet 1–8 ovat aluepainikkeiden alla.
+Liberationin tehostejärjestelmä on tehokas ja monipuolinen tapa muuttaa Clip-sisällön Output-signaalia reaaliajassa. Oletustehostepainikkeet 1–8 ovat zone-painikkeiden alla.
 
-#### Efektin käyttäminen
+#### Tehosteen käyttäminen
 
-Kytke efekti päälle tai pois painamalla efektipainiketta. Vielä parempi tapa on käyttää APC40:n liukusäätimiä 1–8 efektien häivyttämiseen sisään ja ulos.
+Kytke tehoste päälle tai pois painamalla tehostepainiketta. Vielä parempi tapa on käyttää APC40:n liukusäätimiä 1–8 tehosteiden häivyttämiseen sisään ja ulos.
 
-#### Efektiparametrit
+#### Tehosteparametrit
 
-Säädä kunkin efektin _parametria_ kiertosäätimillä 1–8\*. (Voit myös klikata hiiren oikealla painikkeella ja säätää tasoa ja parametria hiirellä.) Parametrin muutos tekee eri asioita sen mukaan, miten efekti on määritetty. Alla on luettelo oletusefekteistä.
+Säädä kunkin tehosteen _parameter_-arvoa kiertosäätimillä 1–8\*. Voit säätää tasoa ja parametria myös klikkaamalla hiiren oikealla painikkeella. Parametrin muutos tekee eri asioita sen mukaan, miten tehoste on määritetty. Alla on luettelo oletustehosteista.
 
 {% hint style="info" %}
-Efektipainikkeissa näkyvät pienet numerot viittaavat efektin _tasoon_ ja _parametriin_. _Tasoa_ ohjataan APC40:n faderilla, tai voit klikata ja vetää painikkeessa. Parametria säädetään APC40:n kiertosäätimillä, tai voit säätää sitä hiirellä klikkaamalla oikealla painikkeella.
+Tehostepainikkeissa näkyvät pienet numerot viittaavat tehosteen _level_- ja _parameter_-arvoihin. _Level_-arvoa ohjataan APC40:n faderilla, tai voit klikata ja vetää painiketta. Parameter-arvoa säädetään APC40:n kiertosäätimillä, tai voit säätää sitä hiirellä klikkaamalla oikealla painikkeella.
 {% endhint %}
 
-_\*Kiertosäätimet 1–8 ovat APC40 Mk2:n yläreunassa ja Mk1:n oikeassa yläkulmassa. Katso myös:_ [apc40-reference.md](../reference/apc40-reference.md)
+_\*Kiertosäätimet 1–8 ovat APC40 Mk2:n yläreunassa ja Mk1:n oikeassa yläkulmassa. Katso myös:_ [APC40-viite](../reference/apc40-reference.md)
 
-#### Oletusefektit
+#### Oletustehosteet
 
 <figure><img src="../.gitbook/assets/qs-default-effects.png" alt=""><figcaption></figcaption></figure>
 
 1. **Randomiser** :\
-   Lisää clipin ulostuloon kaoottista liikettä. Parametri säätää kaaoksen määrää/nopeutta.
+   Lisää kaoottista liikettä Clip-sisällön Output-signaaliin. Parameter säätää kaaoksen määrää/nopeutta.
 2. **Sine wave** :\
-   Vääristää kaiken sisällön liikkuvan siniaallon yli. Parametri säätää aallonpituutta.
+   Vääristää kaiken sisällön liikkuvan siniaallon mukaan. Parameter säätää aallonpituutta.
 3. **Rotation** :\
-   Pyörittää kaikkea ympäri. Parametri säätää pyörimisnopeutta.
+   Pyörittää kaikkea. Parameter säätää pyörimisnopeutta.
 4. **Horizontal flip** :\
-   Litistää ja venyttää kaikkea vaakasuunnassa. Parametri säätää nopeutta.
+   Litistää ja venyttää kaikkea vaakasuunnassa. Parameter säätää nopeutta.
 5. **Scale** :\
-   Skaalaa kaikkea toistuvasti täydestä koosta nollaan. Parametri säätää nopeutta.
+   Skaalaa kaiken toistuvasti täydestä koosta nollaan. Parameter säätää nopeutta.
 6. **Hue** :\
-   Muuttaa kaiken sävyä, mutta ei muuta kylläisyyttä (eli kaikki valkoinen pysyy valkoisena). Parametri säätää sävyä.
+   Muuttaa kaiken sävyä, mutta ei muuta kylläisyyttä (eli valkoinen pysyy valkoisena). Parameter säätää sävyä.
 7. **Saturation and hue** :\
-   Muuttaa kaiken sävyä ja kyllästää värin täysin (eli kaikki valkoinen muuttuu väriksi). Parametri säätää sävyä.
+   Muuttaa kaiken sävyä ja kyllästää värin täysin (eli valkoinen muuttuu väriksi). Parameter säätää sävyä.
 8. **Flash** :\
-   Väläyttää kaiken kirkkauden toistuvasti täydestä nollaan. Parametri säätää välähdysnopeutta.
+   Väläyttää kaiken kirkkauden toistuvasti täydestä nollaan. Parameter säätää välähdysnopeutta.
 
 <figure><img src="../.gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-Alarivillä on lisäksi 16 väriefektiä, joilla voi käyttää valmiita sävy- ja kylläisyysarvoja.
+Alarivillä on lisäksi 16 väritehostetta, joilla voi käyttää valmiita sävy- ja kylläisyysarvoja.
 
-Huomaa, että nämä ovat oletusefektejä, mutta niitä voi muokata tekemään lähes mitä tahansa!
+Huomaa, että nämä ovat oletustehosteita, mutta niitä voi muokata tekemään lähes mitä tahansa!
 
-#### Mikä on _"currently selected clip"_?
+#### Mikä on _tällä hetkellä valittu Clip_?
 
-Kun käynnistät clipin, se syttyy osoittamaan, että se on aktiivinen. Sen ympärillä on myös valkoinen reunus, joka kertoo, että tämä on tällä hetkellä _valittu_ clip. Kun vaihdat aluepainikkeita tai säädät clipin asetuksia, muutokset kohdistuvat _currently selected clip_ -clipiin.
+Kun käynnistät Clip-sisällön, se syttyy osoittamaan, että se on aktiivinen. Sen ympärillä on myös valkoinen reunus, joka kertoo, että tämä on tällä hetkellä valittu Clip. Aina kun vaihdat zone-painikkeita tai säädät Clip-asetuksia, muutokset kohdistuvat _tällä hetkellä valittuun Clip-kohteeseen_.
 
 {% hint style="info" %}
-Jos haluat valita clipin käynnistämättä sitä, paina `Alt / Option`-näppäintä ennen clip-painikkeen painamista. Tämä on hyvä tapa säätää sen alueita ja muita asetuksia ajamatta sitä.
+Jos haluat valita Clip-kohteen käynnistämättä sitä, paina `Alt / Option`-näppäintä ennen Clip-painikkeen painamista. Tämä on hyvä tapa säätää zones ja muita asetuksia ilman, että Clip käynnistyy.
 {% endhint %}
 
-### Clip settings -paneeli
+### Clip Settings -paneeli
 
-Käytä _Clip Settings_ -paneelia skaalauksen ja X/Y-sijainnin muokkaamiseen sekä tehokkaan alueviivejärjestelmän käyttämiseen.
+Käytä _Clip Settings_ -paneelia skaalauksen ja X/Y-sijainnin muokkaamiseen sekä tehokkaan zone delay -järjestelmän käyttöön.
 
 <figure><img src="../.gitbook/assets/qs-clip-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
-### Global settings -paneeli
+### Global Settings -paneeli
 
-_Global Settings_ -paneelissa voit säätää yleisiä ulostuloasetuksia, jotka vaikuttavat kaikkeen ulostuloon kaikilla alueilla.
+_Global Settings_ -paneelissa voit säätää globaaleja Output-asetuksia, jotka vaikuttavat kaikkeen Output-signaaliin kaikissa zones-kohteissa.
 
 <figure><img src="../.gitbook/assets/qs-global-settings-panel.png" alt="" width="362"><figcaption></figcaption></figure>
 
-Ota AUTO RESET käyttöön, jos haluat palauttaa kaikki _Global settings_ -asetukset automaattisesti aina, kun yksikään clip ei ole käynnissä.&#x20;
+Ota AUTO RESET käyttöön, jos haluat palauttaa kaikki _Global settings_ -asetukset automaattisesti aina, kun yhtään Clip-sisältöä ei ole käynnissä.&#x20;
 
 ### Ajoitus
 
-Lähes kaikissa laseresityksissä on jonkinlainen musiikkiraita, joten Liberationin ajoitusjärjestelmä perustuu tempoon iskuina minuutissa. _Tempo Panel_ -paneelissa näet ajan esityksen: jokainen neliö vastaa yhtä iskua, ja näet niiden vilkkuvan tahdissa.
+Lähes kaikissa lasershow’ssa on jonkinlainen musiikkiraita, joten Liberationin ajoitusjärjestelmä perustuu tempoon iskuina minuutissa. _Tempo Panel_ -paneelissa näet ajan esityksen: jokainen neliö vastaa yhtä iskua, ja näet niiden välähtävän tahdissa.
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Käytössä on useita synkronointivaihtoehtoja, kuten MIDI clock ja Ableton Link. Jos tiedät musiikin tempon, voit säätää sitä manuaalisesti näytön liukusäätimellä tai APC40:n Tempo-nupilla. Voit myös pysyä musiikin tahdissa _Tap Tempo_ -järjestelmän avulla\_.\_
+Käytettävissä on useita synkronointivaihtoehtoja, kuten MIDI clock ja Ableton Link. Jos tiedät musiikin tempon, voit säätää sitä käsin näytön liukusäätimellä tai APC40:n Tempo-nupilla. Voit myös pysyä musiikin tahdissa _Tap Tempo_ -järjestelmän avulla\_.\_
 
 #### Tap Tempo
 
-_Tap Tempo_ on musiikkisovelluksissa yleisesti käytetty termi. Sen avulla voit naputtaa tahdin musiikin soidessa ja asettaa tempon sen perusteella. Voit käyttää näytön painiketta, mutta suositeltavaa on käyttää _T_-näppäintä tai APC40:n _Tap Tempo_ -painiketta (tai halutessasi vaikka jalkakytkintä).
+_Tap Tempo_ on musiikkisovelluksissa yleisesti käytetty termi. Sen avulla voit naputtaa tahdin musiikin soidessa ja asettaa tempon sen mukaan. Voit käyttää näytön painiketta, mutta suositeltavaa on käyttää _T_-näppäintä tai APC40:n _Tap Tempo_ -painiketta. Voit halutessasi käyttää myös jalkakytkintä.
 
-Palauta tempo tahdin alkuun painamalla _R_-näppäintä tai _Metronome_-painiketta (APC40).
+Paina _R_-näppäintä tai APC40:n _Metronome_-painiketta palauttaaksesi tempon tahdin alkuun.
 
-Pyöristä tempo kokonaisluvuksi painamalla _Y_-näppäintä tai kääntämällä _Tempo_-nuppia (APC40). Tämä voi olla hyödyllistä elektronisessa musiikissa, jossa tempo on usein pyöreä BPM-luku.
+Paina _Y_-näppäintä tai käännä APC40:n _Tempo_-nuppia pyöristääksesi tempon kokonaisluvuksi. Tästä voi olla hyötyä elektronisessa musiikissa, jossa iskujen määrä minuutissa on usein kokonaisluku.
 
-### Clip deckin järjestäminen
+### Clip Deckin järjestäminen
 
-Siirrä clip clip deckissä klikkaamalla ja vetämällä se uuteen sijaintiin. Vedon aikana voit vierittää vasemmalle ja oikealle nuolinäppäimillä (tai APC40:n vieritysrullalla/painikkeilla).
+Siirrä Clip uuteen paikkaan Clip Deck -alueella klikkaamalla ja vetämällä. Vedon aikana voit vierittää vasemmalle ja oikealle nuolinäppäimillä tai APC40:n vieritysrullalla/painikkeilla.
 
-Pidä `Alt / Option`-näppäintä pohjassa vetämisen aikana, jos haluat tehdä kopion.
+Pidä `Alt / Option`-näppäin painettuna vedon aikana, jos haluat tehdä kopion.
 
-`Alt / Option`-klikkaa clipiä valitaksesi sen käynnistämättä sitä.
+`Alt / Option`-klikkaa Clip-kohdetta valitaksesi sen käynnistämättä sitä.
 
-`Alt / Option + Shift`-klikkaa clipiä monivalintaa varten, tai klikkaa ja vedä clipin ulkopuolelta valitaksesi useita clippejä "lasso"-valinnalla.&#x20;
+`Alt / Option + Shift`-klikkaa Clip-kohdetta monivalintaa varten, tai klikkaa ja vedä Clip-kohteen ulkopuolelta tehdäksesi “lasso”-valinnan.&#x20;
 
-Klikkaus ja veto vetää KAIKKIA valittuja clippejä.
+Klikkaus ja veto siirtää KAIKKI valitut Clips.
 
-Poista yksi tai useampi clip joko vetämällä ne pois clip deckistä (roskakorikuvake tulee näkyviin) tai käyttämällä clipin oikean klikkauksen valikon DELETE-painiketta.
+Voit poistaa yhden tai useamman Clip-kohteen joko vetämällä ne pois Clip Deck -alueelta (roskakorikuvake tulee näkyviin) tai käyttämällä DELETE-painiketta Clip-kohteen hiiren oikean painikkeen valikossa.
 
-### Laser overview -paneeli
+### Laser Overview -paneeli
 
 <figure><img src="../.gitbook/assets/qs-laser-overview.png" alt="" width="375"><figcaption></figcaption></figure>
 
-_Laser overview panel_ näyttää nopeasti tällä hetkellä käynnissä olevien laserien tilan. Oikealla oleva vihreä neliö kertoo, että laserohjain toimii normaalisti. Jos se muuttuu oranssiksi, yhteydessä on satunnaisia katkoksia, ja jos se muuttuu punaiseksi, yhteys on katkennut. Jos se on harmaa, laseria ei ole kytketty ohjaimeen lainkaan.&#x20;
+_Laser overview panel_ antaa nopean katsauksen parhaillaan käytössä olevien lasereiden tilaan. Oikealla oleva vihreä neliö kertoo, että laser controller toimii hyvin. Jos se muuttuu oranssiksi, esiintyy satunnaisia katkoksia. Jos se on punainen, yhteys on katkennut. Jos se on harmaa, laseria ei ole kytketty controller-laitteeseen lainkaan.&#x20;
 
-Keskellä oleva kuvaaja näyttää ruutupituuksien historian, ja oikealla oleva numero kertoo nykyisen kuvataajuuden. Mitä monimutkaisempaa sisältö on, sitä hitaampi kuvataajuus on (eli sitä enemmän välkkymistä). Noin alle 25 fps alkaa yleensä näyttää hieman välkkyvältä.&#x20;
+Keskellä oleva kaavio näyttää kuvapituuksien historian, ja oikealla oleva numero on nykyinen kuvataajuus. Mitä monimutkaisempaa sisältö on, sitä hitaampi kuvataajuus on (eli sitä enemmän välkkymistä näkyy). Alle noin 25 fps alkaa näyttää hieman välkkyvältä.&#x20;
 
-### Yhdistäminen lasereihin – Controller Assignment -paneeli
+### Lasereihin yhdistäminen – Controller Assignment -paneeli
 
-Avaa _Controller Assignment_ -paneeli klikkaamalla _Assign Laser Controllers_ -painiketta. (Tähän paneeliin pääsee myös valikkopalkista kohdasta _View -> Controller Assignment_.)
+Avaa _Controller Assignment_ -paneeli klikkaamalla _Assign Laser Controllers_ -painiketta. Paneelin voi avata myös valikkoriviltä kohdasta _View -> Controller Assignment_.
 
-Täällä voit valita, mitkä laserulostulot lähetetään millekin laserohjaimelle. Vedä ja pudota ohjaimia oikeanpuoleisesta luettelosta vasemmanpuoleisiin paikkoihin. Voit nimetä ohjaimet uudelleen sen mukaan, minkä laserin kanssa ne on paritettu (käytä kynäkuvakepainiketta).
+Tässä voit valita, mitkä laserin Output-kanavat lähetetään millekin laser controller -laitteelle. Vedä ja pudota controller-laitteita oikeanpuoleisesta luettelosta vasemmanpuoleisiin paikkoihin. Voit nimetä controller-laitteet uudelleen sen mukaan, minkä laserin parina ne ovat. Käytä kynäkuvakkeen painiketta.
 
-Lue lisätietoja luvusta [controller-assignment.md](../setting-up/controller-assignment.md).
+Lue lisätietoja luvusta [Controller Assignment](../setting-up/controller-assignment.md).
 
 {% hint style="danger" %}
-Ennen kuin aktivoit yhtään laseria, käy läpi luku [setting-up-lasers.md](../setting-up/setting-up-lasers.md).
+Ennen kuin asetat mitään lasereita armed-tilaan, käy läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md).
 {% endhint %}
 
-### Laser output -paneeli
+### Laser Output -paneeli
 
 <figure><img src="../.gitbook/assets/qs-laser-settings.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Tässä paneelissa näkyvät _currently selected laser_ -laserin asetukset (yläreunan numero osoittaa kyseisen laserin). Vaihda valittua laseria _tab_-näppäimellä, painamalla numeronäppäintä, klikkaamalla laserin numeroa _Laser Overview_ -paneelissa tai _output view_ -näkymässä.
+Tämä paneeli näyttää _currently selected laser_ -kohteen asetukset. Valittu laser näkyy yläreunan numerona. Vaihda valittua laseria _tab_-näppäimellä, painamalla numeronäppäintä, klikkaamalla laserin numeroa _Laser Overview_ -paneelissa tai _Output view_ -näkymässä.
 
-* **Number button** aktivoi laserin ja poistaa sen käytöstä. Jos se on punainen, laser on aktivoitu.
-* **Brightness** säätää laserin kirkkautta muista lasereista riippumatta (ja se yhdistetään _global brightness_ -asetukseen – eli jos molemmat ovat 50 %, laserisi on 25 %:ssa).
-* **Test Pattern** ottaa testikuvion käyttöön vain tälle laserille (ohittaa yleisen testikuvioasetuksen)
+* **Number button** asettaa laserin armed- tai disarmed-tilaan. Jos painike on punainen, laser on armed-tilassa.
+* **Brightness** säätää laserin kirkkautta muista lasereista riippumatta. Se yhdistetään _global brightness_ -asetukseen: jos molemmat ovat 50 %, laserin teho on 25 %.
+* **Test Pattern** ottaa test pattern -kuvion käyttöön vain tälle laserille ja ohittaa globaalin test pattern -asetuksen.
 * **Orientation** korjaa sivuttain tai ylösalaisin ripustetut laserit.
-* **Flip Horizontal and Flip Vertical** kääntää laserin ulostulon. Hyödyllinen ulostulon korjaamiseen, jos laserien johdotukset poikkeavat toisistaan.
-* **Copy Laser Settings** avaa paneelin, jolla voit kopioida erilaisia asetuksia tältä laserilta muille.
+* **Flip Horizontal and Flip Vertical** kääntää laserin Output-signaalin. Tästä on hyötyä Output-korjauksessa, jos lasereiden johdotus ei ole yhdenmukainen.
+* **Copy Laser Settings** avaa paneelin, jonka avulla voit kopioida erilaisia asetuksia tästä laserista muihin.
 
-### Scanner settings
+### Scanner-asetukset
 
-Näyttölaserit toimivat liikuttamalla yhtä lasersädettä erittäin nopeasti ja kytkemällä sitä päälle ja pois, jotta ilmaan voidaan piirtää muotoja. Se, minkä näet viivoina, muotoina ja kuvina, on todellisuudessa säde, joka seuraa reittejä nopeammin kuin silmäsi ehtivät seurata.
+Näyttölaserien toiminta perustuu siihen, että yksittäistä lasersädettä liikutetaan erittäin nopeasti ja se kytketään päälle ja pois, jotta ilmaan voidaan piirtää muotoja. Viivoina, muotoina ja kuvina näkemäsi sisältö on todellisuudessa säde, joka seuraa reittejä nopeammin kuin silmä ehtii havaita.
 
-Pistevirta on dataa, joka kertoo laserille, minne sen pitää liikkua seuraavaksi ja milloin säteen pitää olla päällä tai pois päältä. Liberationissa clipit muunnetaan tähän pistevirtaan reaaliajassa samalla, kun ne lähetetään lasereille.
+Point stream on data, joka kertoo laserille, minne sen pitää siirtyä seuraavaksi ja milloin säteen pitää olla päällä tai pois päältä. Liberationissa Clips muunnetaan tähän point stream -muotoon reaaliajassa, kun ne lähetetään lasereille.
 
-Liberation antaa tarkat säätömahdollisuudet siihen, miten pistevirta luodaan. Näin voit tasapainottaa kunkin laserin pehmeyden, kirkkauden ja suorituskyvyn.
+Liberation antaa tarkan hallinnan siihen, miten tämä point stream luodaan. Näin voit tasapainottaa tasaisuuden, kirkkauden ja suorituskyvyn jokaiselle laserille erikseen.
 
 {% hint style="info" %}
-Jos olet tottunut vanhempiin laserohjelmistoihin, jotka käyttävät ennalta laskettuja pistevirtoja, tämä toimintatapa voi tuntua aluksi erilaiselta. Reaaliaikainen pisteiden luonti mahdollistaa kuitenkin saman sisällön optimoinnin eri tavoin eri lasereille. Tämä helpottaa työskentelyä useiden laserien kanssa, joilla on erilaiset skannerinopeudet tai laatu, ilman että sisältöä täytyy monistaa tai rakentaa uudelleen. Se myös pitää clip-tiedostot erittäin pieninä, minkä vuoksi koko Liberationin oletus-clip deck on vain muutaman megatavun kokoinen gigatavujen sijaan.
+Jos olet tottunut vanhempaan lasero-ohjelmistoon, joka perustuu ennalta laskettuihin point stream -tietoihin, tämä lähestymistapa voi aluksi tuntua erilaiselta. Reaaliaikainen pisteiden luonti kuitenkin mahdollistaa saman sisällön optimoinnin eri tavalla jokaiselle laserille. Tämä helpottaa työskentelyä useiden lasereiden kanssa, joilla on eri scanner-nopeudet tai -laatu, ilman että sisältöä tarvitsee monistaa tai rakentaa uudelleen. Se pitää myös Clip-tiedostot hyvin pieninä, minkä vuoksi koko Liberationin oletus-Clip Deck vie vain muutamia megatavuja eikä gigatavuja.
 {% endhint %}
 
-Scanner settings -perusasetukset ovat:
+Scanner-perusasetukset ovat:
 
-* **Speed** on skannerin nopeus eli se, kuinka nopeasti laser liikkuu piirtäessään muotoja. Tämä vastaa perinteisen laserohjelmiston pistearvon säätämistä, mutta Liberationissa voit muuttaa laserin liikkumisnopeutta _pistearvosta riippumatta_. Tätä ei yleensä tarvitse säätää.
-* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Skannerit liikuttavat laseria erittäin nopeasti, mutta kirkkauden ja värin muutos on yleensä epäsynkassa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon "häntinä" säteiden ja viivojen reunoilla. Käytä tätä säätöä saadaksesi liikkeen ja värin synkronoitua keskenään. Katso [laser-settings](../setting-up/laser-settings/)
+* **Speed** on scanner-nopeus, eli se kuinka nopeasti laser liikkuu piirtäessään muotoja. Tämä vastaa perinteisessä lasero-ohjelmistossa point rate -arvon säätöä, mutta Liberationissa voit muuttaa laserin liikkumisnopeutta _point rate -arvosta riippumatta._ Tätä ei yleensä tarvitse säätää.
+* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Scanner liikuttaa laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon “häntinä” säteiden ja viivojen reunoilla. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laser Settings](../setting-up/laser-settings/)
 
-Muut edistyneet Scanner settings -asetukset käsitellään luvussa [advanced](../advanced/).
+Muut edistyneet scanner-asetukset käsitellään luvussa [Lisäasetukset](../advanced/).
 
 ### Zoning
 
-Täydellinen opas laserien määrittämiseen ja alueiden asettamiseen löytyy täältä: [setting-up-lasers.md](../setting-up/setting-up-lasers.md)
+Täysi opas lasereiden määrittämiseen ja zoning-asetusten tekemiseen: [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md)

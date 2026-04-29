@@ -237,9 +237,9 @@ Det finns ytterligare 16 färgeffekter längs den nedersta raden för att applic
 
 Observera att detta är standardeffekterna, men de kan redigeras för att göra nästan vad du vill!
 
-#### Vad är _"currently selected clip"_?
+#### Vad är _det Clip som är valt just nu_?
 
-När du startar ett Clip tänds det för att visa att det är aktivt. Det har också en vit kontur runt sig, vilket visar att detta är det Clip som är _selected_ för tillfället. När du växlar zonknappar eller justerar clip-inställningarna tillämpas dessa på det _currently selected clip_.
+När du startar ett Clip tänds det för att visa att det är aktivt. Det har också en vit kontur runt sig, vilket visar att detta är det Clip som är valt just nu. När du växlar zonknappar eller justerar clip-inställningarna tillämpas dessa på _det Clip som är valt just nu_.
 
 {% hint style="info" %}
 För att välja ett Clip utan att trigga det, tryck på tangenten `Alt / Option` innan du trycker på clip-knappen. Det är ett bra sätt att justera zoner och andra inställningar utan att köra det.

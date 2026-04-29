@@ -5,34 +5,34 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/organising-your-clip-deck
 ---
 
-# 🟩 Skipuleggja Clip Deck-ið þitt
+# 🟩 Skipuleggja Clip Deck
 
-### Færa/afrita Clip
+### Færa eða afrita Clips
 
-Smelltu og dragðu til að færa Clip. Ef fleiri en eitt Clip er valið (sjá [starting-stopping-clips.md](starting-stopping-clips.md)) færast þau öll. Haltu `Alt / Option` niðri til að afrita þau. Slepptu Clip-inu/Clip-unum á autt svæði.
+Smelltu og dragðu til að færa Clip. Ef fleiri en eitt Clip er valið (sjá [Ræsa og stöðva Clips](starting-stopping-clips.md)) færast öll völdu atriðin. Haltu `Alt / Option` inni til að afrita þau. Slepptu Clip á autt svæði.
 
 {% hint style="info" %}
-Ef þú þarft að velja mikinn fjölda Clip-a geturðu smellt og dregið valramma og síðan skrunað í Clip Deck-inu á meðan þú heldur áfram að draga (annaðhvort með örvatökkum, APC 40 eða hliðarskrolli á snertiplatta/mús). Valramminn teygist út fyrir brún Clip Deck-ins.
+Ef þú þarft að velja mikinn fjölda Clips geturðu smellt og dregið valramma (lasso) og síðan skrunað í Clip Deck á meðan þú heldur áfram að draga (annaðhvort með örvatökkum, APC 40 eða láréttri skrunun á snertiplatta/mús). Valramminn framlengist út fyrir jaðar Clip Deck.
 {% endhint %}
 
-### Eyða Clip-um
+### Eyða Clips
 
 Til að eyða einu Clip skaltu nota hægrismellsvalmyndina.
 
-Til að eyða mörgum Clip-um skaltu velja þau (annaðhvort með `Alt / Option + Shift`-smelli eða með því að draga valrammann) og draga þau út af Clip Deck-inu.
+Til að eyða mörgum Clips skaltu velja þau (annaðhvort með `Alt / Option + Shift`-click eða með því að draga valrammann) og draga þau út af Clip Deck.
 
 ### Bæta við auðu svæði
 
-Þú getur hægrismellt á Clip-hnapp og ýtt á _ADD EMPTY COLUMN TO RIGHT_ til að bæta auðri dálkaröð við Clip Deck-ið.
+Þú getur hægrismellt á Clip hnapp og ýtt á _ADD EMPTY COLUMN TO RIGHT_ til að bæta auðri dálkaröð við Clip Deck.
 
 ### Sameina mörg Clip Deck
 
-Þú getur flutt inn fyrirliggjandi Clip Deck og bætt því aftan við núverandi Clip Deck. Notaðu valmyndina _File -> Clips/Effects -> Append Clip Deck._
+Þú getur flutt inn fyrirliggjandi Clip Deck og bætt því við aftast í núverandi Clip Deck. Notaðu valmyndina _File -> Clips/Effects -> Append Clip Deck._
 
-Veldu Clip (annaðhvort með valrammanum eða `Alt / Option + Shift`-smelli) og farðu svo í _File -> Clips/Effects -> Export Selected Clips._ Þetta flytur út Clip Deck sem inniheldur aðeins þessi Clip og síðan er hægt að bæta því við annað Clip Deck.
+Veldu nokkur Clips (annaðhvort með valrammanum eða `Alt / Option + Shift`-click) og farðu síðan í _File -> Clips/Effects -> Export Selected Clips._ Þetta flytur út Clip Deck sem inniheldur aðeins þessi Clips og hægt er að bæta því við annað Clip Deck.
 
-### Skipuleggja Clip eftir tímalínu
+### Skipuleggja Clips eftir timeline
 
-Þegar þú flytur inn tímalínu færðu einnig nokkra valkosti fyrir Clip. Þú getur annaðhvort skipt út núverandi Clip Deck-i, bætt öllu Clip Deck-i tímalínunnar aftan við eða aðeins þeim Clip-um sem hún notar.
+Þegar þú flytur inn timeline færðu einnig nokkra valkosti fyrir Clips. Þú getur annaðhvort skipt út núverandi Clip Deck, bætt öllu Clip Deck frá timeline við, eða aðeins þeim Clips sem það notar.
 
-Ef þú ert með margar tímalínur í verkefninu geturðu endurskipulagt Clip-in eftir tímalínu. Opnaðu _Timeline selection_ spjaldið og smelltu á _ORGANISE CLIPS BY TIMELINE_. Nú sérðu öll Clip-in þín í hópum eftir tímalínu. Ef Clip er notað í mörgum tímalínum verður það afritað fyrir hvern hóp.
+Ef verkefnið þitt inniheldur mörg timeline geturðu endurskipulagt Clips eftir timeline. Opnaðu _Timeline selection_ panel og smelltu á _ORGANISE CLIPS BY TIMELINE_. Nú sérðu öll Clips í hópum eftir því hvaða timeline þau tilheyra. Ef Clip er notað í mörgum timeline verður það afritað fyrir hvern hóp.

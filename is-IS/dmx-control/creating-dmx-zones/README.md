@@ -5,4 +5,4 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/creating-dmx-zones
 ---
 
-# ◼️ Að búa til DMX-svæði
+# ◼️ Að búa til DMX zones

@@ -173,7 +173,7 @@ Tämä on kuvaviive eli suurin aika kuvan luomisen ja sen laseriin lähettämise
 
 #### Miten säädän clipin zoneja ja asetuksia käynnistämättä sitä?
 
-`Alt / Option`-napsauta, jotta siitä tulee _currently selected clip_, mutta sitä ei aktivoida. Katso myös [starting-stopping-clips.md](clips/starting-stopping-clips.md)
+`Alt / Option`-napsauta, jotta siitä tulee _tällä hetkellä valittu Clip_, mutta sitä ei aktivoida. Katso myös [starting-stopping-clips.md](clips/starting-stopping-clips.md)
 
 #### Miten kopioin clippejä?
 

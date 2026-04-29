@@ -5,70 +5,70 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/timeline/synchronising-tempo-to-an-audio-track
 ---
 
-# 🟩 Samstilling tempós við hljóðrás
+# 🟩 Að samstilla tempó við hljóðrás
 
 <iframe src="https://www.youtube.com/embed/sL0SsuTf7Pc" title="Synchronising tempo to an audio track" style="width: 100%; aspect-ratio: 16 / 9; border: 0;" allowfullscreen></iframe>
 
-Timeline í Liberation er hannað til að vinna bæði með föst og breytileg tempó, en áreiðanleg samstilling byrjar alltaf á því að finna tempóið og stilla hljóðið rétt upp. Þessi hluti lýsir ráðlögðu vinnuferli.
+Timeline í Liberation er hannað til að vinna með bæði föst og breytileg tempó, en áreiðanleg samstilling byrjar alltaf á því að finna rétt tempó og staðsetja hljóðið nákvæmlega. Þessi hluti lýsir ráðlögðu vinnuferli.
 
-#### 1. Stilltu fyrsta áhersluslagið af
+#### 1. Samstilltu fyrsta áhersluslagið
 
-Bættu hljóðrásinni við timeline og gakktu úr skugga um að hún smelli á slag þannig að **fyrsta tónlistarlega áhersluslag** lagsins lendi nákvæmlega við upphaf takts.
+Bættu hljóðrásinni við timeline og gakktu úr skugga um að hún smelli á slag, þannig að **fyrsta tónlistarlega áhersluslagið** í hljóðrásinni lendi nákvæmlega á byrjun takts.
 
-Þetta skref er mjög mikilvægt.
+Þetta skref skiptir miklu máli.
 
-Ef hljóðið byrjar ekki sjálfkrafa á áhersluslagi hefurðu tvo valkosti:
+Ef hljóðið byrjar ekki eðlilega á áhersluslagi hefurðu tvo valkosti:
 
-* **Stilltu seinkun clipsins**\
-  Hægrismelltu á audio clip og stilltu Delay gildið þar til fyrsta áhersluslagið lendir á slag- eða taktvísimarki.
-* **Klippu hljóðið utan Liberation**\
-  Breyttu hljóðskránni í utanaðkomandi ritli, til dæmis Audacity, þannig að skráin byrji nákvæmlega á fyrsta áhersluslaginu, og flyttu hana síðan inn aftur.
+* **Stilltu seinkun á clip**\
+  Hægrismelltu á hljóð-clip og stilltu Delay-gildið þar til fyrsta áhersluslagið lendir á slagmerki eða taktmörkum.
+* **Klipptu hljóðið til utan Liberation**\
+  Breyttu hljóðskránni í utanaðkomandi hljóðvinnsluforriti, til dæmis Audacity, þannig að skráin byrji nákvæmlega á fyrsta áhersluslaginu, og flyttu hana svo aftur inn.
 
 {% hint style="info" %}
 **Mikilvægt:**\
-Ef byrjun hljóðsins er ekki stillt af við slag eða takt mun skynjuð upphafsstaða tónlistarinnar færast fram og til baka þegar þú breytir tempóinu. Þetta gerir nákvæma tempósamstillingu mjög erfiða.
+Ef byrjun hljóðsins er ekki samstillt við slag eða takt mun upplifuð upphafsstaða tónlistarinnar færast fram og til baka þegar þú breytir tempóinu. Þetta gerir nákvæma tempósamstillingu mjög erfiða.
 {% endhint %}
 
 #### 2. Stilltu upphafstempó
 
-Ef þú hefur grófa hugmynd um BPM skaltu slá það inn í tempo-stýringu timeline og hefja spilun frá byrjun.
+Ef þú hefur grófa hugmynd um BPM skaltu slá það inn í tempóstýringu timeline og hefja spilun frá byrjun.
 
-Fylgstu vel með slag- og taktvísum á meðan lagið spilast.
+Fylgstu vel með slagmerkjum og taktmörkum á meðan hljóðrásin spilar.
 
-* Ef vísarnir reka á undan tónlistinni skaltu lækka tempóið örlítið.
-* Ef þeir dragast aftur úr skaltu hækka tempóið örlítið.
+* Ef merkin reka á undan tónlistinni skaltu lækka tempóið lítillega.
+* Ef þau dragast aftur úr skaltu hækka tempóið lítillega.
 * Stöðvaðu spilun, stilltu tempóið og reyndu aftur.
 
-Í flestum nútímatónlist er tempóið fast BPM í heilli tölu. Þegar þú finnur rétta gildið ætti það að haldast læst út allt lagið.
+Í flestum nútímatónlist er tempóið fast heiltölu-BPM. Þegar þú finnur rétta gildið ætti það að haldast samstillt alla hljóðrásina.
 
 #### 3. Notaðu bylgjuformið sem sjónræna leiðsögn
 
-Bylgjuform hljóðsins er gagnleg viðmiðun þegar þú samstillir tempó.
+Bylgjuform hljóðsins er gagnlegt viðmið þegar þú samstillir tempó.
 
-* Áhersluhljóð og toppar ættu að lenda á lóðréttu taktvísunum.
-* Þysjaðu vel inn til að athuga afstillinguna yfir marga takta.
+* Snögg hljóðhögg og toppar ættu að lenda á lóðréttu taktmörkunum.
+* Þysjaðu vel inn til að athuga samstillingu yfir marga takta.
 
 **Ábending:**\
-Notaðu músarhjólið eða bendingu á snertiflöt til að þysja timeline. Notaðu lárétta skrunhjólið eða bendingu til að færa þig til vinstri og hægri. Það er mun auðveldara að gera smávægilegar stillingar þegar unnið er með mikinn aðdrátt.
+Notaðu músarhjólið eða bendingu á snertiplatta til að þysja timeline. Notaðu lárétta skrunhjólið eða bendingu til að færa þig til vinstri og hægri. Það er mun auðveldara að gera litlar stillingar þegar þú vinnur vel innþysjað.
 
 #### 4. Lög með BPM sem er ekki heiltala
 
-Ef lagið notar ekki BPM í heilli tölu verður rekið hægfara.
+Ef lagið notar ekki heiltölu-BPM verður rekið hægfara.
 
 * Þysjaðu lengra inn.
-* Notaðu smærri tempóstillingar.
-* Athugaðu afstillingu yfir lengri hluta lagsins í stað þess að horfa aðeins á fyrstu taktana.
+* Gerðu minni breytingar á tempóinu.
+* Athugaðu samstillingu yfir lengri kafla í laginu, ekki aðeins fyrstu taktana.
 
 #### 5. Tónlist með tempóbreytingum
 
 Ef tónlistin hraðar á sér eða hægir á sér skaltu nota Tempo Map:
 
-* Spilaðu lagið og fylgstu með slagvísunum.
+* Spilaðu hljóðrásina og fylgstu með slagmerkjunum.
 * Þegar rek verður greinilegt skaltu bæta við tempóbreytingu á þeim stað.
-* Stilltu tempóið fyrir nýja hlutann þar til það læsist aftur.
+* Stilltu tempóið fyrir nýja kaflann þar til hann læsist aftur í samstillingu.
 
 Endurtaktu þetta ferli fyrir hverja tempóbreytingu í tónlistinni.
 
 #### 6. Ytri tempógreining (valfrjálst)
 
-Til þrautavara geturðu greint lagið í DAW eins og Logic Pro og búið til tempo map sjálfkrafa. Hafðu í huga að þetta býr oft til mikinn fjölda tempóbreytinga, stundum eina á hvern takt, sem getur verið ítarlegra en nauðsynlegt er fyrir flestar sýningar.
+Sem síðasta úrræði geturðu greint hljóðrásina í DAW, til dæmis Logic Pro, og látið búa til Tempo Map sjálfkrafa. Hafðu í huga að þetta skilar oft mjög mörgum tempóbreytingum, stundum einni í hverjum takti, sem getur verið meiri nákvæmni en flest sýningarverkefni þurfa.

@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/timeline/recording-a-show
 ---
 
-# ◼️ Að taka upp sýningu
+# ◼️ Upptaka á sýningu

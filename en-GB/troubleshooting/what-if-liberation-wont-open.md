@@ -58,7 +58,7 @@ Inside your version folder, open:
 data/liberation/
 ```
 
-Inside the liberation folder you should find a file called se`ttings.json`. Delete this file.
+Inside the liberation folder you should find a file called `settings.json`. Delete this file.
 
 * **macOS example**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
 * **Windows example**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
@@ -71,7 +71,7 @@ Now try launching Liberation. If it opens, you are done.
 
 If Liberation crashed while you were editing a clip, it’s possible that something about that clip file is causing the problem.
 
-In the same folder as your settings.json file you should find a file called clipEdit`.json`
+In the same folder as your settings.json file you should find a file called `clipEdit.json`
 
 Back up this file somewhere safe (for example, your Desktop), then delete it from the Liberation working folder.
 

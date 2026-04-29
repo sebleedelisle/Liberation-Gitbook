@@ -4,21 +4,21 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/masks
 ---
 
-# 🟩 Maskit
+# 🟩 Masks
 
 {% hint style="danger" %}
 **TURVALLISUUSHUOMAUTUS**
 
-Ohjelmistomaskeja EI KOSKAAN pidä käyttää ainoana tapana suojata ihmisiä lasersäteilyltä. Laserin ja mahdollisen ihmisiin kohdistuvan altistuksen välissä tulee aina olla fyysisiä esteitä tai maskaus. Käytä tätä järjestelmää toissijaisena varmistustasona tai sovelluksissa, jotka eivät ole turvallisuuskriittisiä (kuten kameroiden tai projektorien suojaamiseen), mutta muista, että mikä tahansa ohjelmisto voi vikaantua.
+Ohjelmistopohjaisten masks-toimintojen EI KOSKAAN pidä olla ainoa tapa suojata ihmisiä laserin lähtösäteilyltä. Laserin ja mahdollisen ihmisiin kohdistuvan altistuksen välissä on aina oltava fyysisiä esteitä tai fyysinen maskaus. Käsittele tätä järjestelmää toissijaisena varmistuksena tai käytä sitä sovelluksissa, joissa turvallisuuskriittisyys ei ole yhtä suuri, kuten kameroiden tai projektorien suojaamiseen. Muista kuitenkin, että mikä tahansa ohjelmisto voi vikaantua.
 {% endhint %}
 
 ***
 
-Voit lisätä yhden tai useamman virtuaalisen maskin poistamaan (tai vähentämään) laserin ulostuloa tietyissä kohdissa.
+Voit lisätä yhden tai useamman virtuaalisen mask-kohteen, jolla laserin lähtö poistetaan tai sitä vähennetään tietyissä kohdissa.
 
-Lisää maski napsauttamalla työkalupalkin kuvaketta. Output-näkymään ilmestyy punainen neliö, joka on uusi maskisi. Voit siirtää sitä napsauttamalla ja vetämällä, ja muuttaa sen kokoa vetämällä kulmista. Jos haluat epäsäännöllisen muodon, pidä `Alt / Option` painettuna kulmaa vetäessäsi. (Kun maski on muutettu epäsäännölliseksi, `Alt / Option`-näppäintä ei enää tarvitse painaa.)
+Lisää mask napsauttamalla työkalurivin kuvaketta. Output view -näkymään ilmestyy punainen neliö, joka on uusi mask. Voit siirtää sitä napsauttamalla ja vetämällä. Muuta kokoa vetämällä kulmista. Jos haluat epäsäännöllisen muodon, pidä `Alt / Option` painettuna samalla kun vedät kulmaa. Kun muoto ei enää ole säännöllinen, `Alt / Option`-näppäintä ei tarvitse enää pitää painettuna.
 
-Avaa lisäasetukset napsauttamalla maskia hiiren oikealla painikkeella:
+Avaa lisäasetukset napsauttamalla mask-kohdetta hiiren kakkospainikkeella:
 
-* Reduction percentage – tämä määrittää laserin tehon vähennyksen maskin sisällä. Oletuksena se on 100 %, eli maskin sisällä laser pimennetään kokonaan. Voit kuitenkin vähentää laserin tehoa haluamasi määrän. Huomaa, että jos vähennys ei ole täydellinen, maskin väri muuttuu oranssiksi.
-* DELETE MASK -painike on myös tässä hiiren oikean painikkeen valikossa.
+* Reduction percentage – tämä määrittää laserin tehon vähennyksen mask-alueella. Oletuksena arvo on 100 %, eli alue pimennetään kokonaan. Voit kuitenkin vähentää laserin tehoa haluamasi määrän. Huomaa, että jos vähennys ei ole täysi, mask muuttuu oranssiksi.
+* DELETE MASK -painike löytyy myös tästä hiiren kakkospainikkeen valikosta.

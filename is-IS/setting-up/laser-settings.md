@@ -4,81 +4,81 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/laser-settings
 ---
 
-# ✅ Stillingaspjaldið Laser output
+# ✅ Stillingaspjald fyrir Laser Output
 
-Opnaðu stillingaspjaldið _Laser output_ í valmyndinni _View -> Laser Output Settings._
+Opnaðu stillingaspjaldið _Laser output_ með valmyndinni _View -> Laser Output Settings._
 
 <figure><img src="../.gitbook/assets/Copy Laser Setting in Laser Output.png" alt="" width="326"><figcaption></figcaption></figure>
 
-Þá birtast stillingar fyrir þann laser sem er valinn hverju sinni og þú getur breytt honum:
+Þá sérðu stillingar fyrir þann leysi sem er valinn. Þú getur skipt um valinn leysi:
 
-* með númerahnappinum hans í spjaldinu _Laser overview_
-* með númeralykli á lyklaborðinu; lyklar 1 til 0 opna laser 1 - 10
-* með `Tab` lyklinum til að fletta á milli lasera (`Shift + Tab` fer til baka).
+* með númerahnappi hans á spjaldinu _Laser Overview_
+* með talnatakka á lyklaborðinu; takkarnir 1 til 0 opna leysa 1 - 10
+* með `Tab` til að fletta á milli leysa (`Shift + Tab` fer til baka).
 
 Efst á þessu spjaldi sérðu:
 
-* númerahnapp - smelltu á hann til að virkja/afvirkja þennan laser. Hann er rauður þegar laserinn er virkjaður.
-* _Brightness_ sleða eingöngu fyrir þennan laser. Athugaðu að þetta leggst saman við almenna birtustillingu.
-* _Test Pattern_ rofa og mynsturval. Þetta gerir þér kleift að velja sérstakt prófunarmynstur eingöngu fyrir þennan laser. (Þessar stýringar eru einnig speglaðar á tækjastikunni í Output view).
+* númerahnapp - smelltu á hann til að velja arm eða disarm fyrir þennan leysi. Hann er rauður þegar leysirinn er armed.
+* _Brightness_ renna sem gildir aðeins fyrir þennan leysi. Athugaðu að hún er notuð ásamt Global Brightness.
+* _Test Pattern_ rofa og val fyrir mynstur. Þetta gerir þér kleift að velja sérstakt test pattern aðeins fyrir þennan leysi. (Þessi stjórntæki sjást líka á tækjastikunni í Output view).
 
 ### Leiðrétting á stefnu úttaks / speglun
 
-Næstu atriði eru til að leiðrétta uppsetningu lasersins svo hann hegði sér á samræmdan hátt í Liberation.
+Næstu atriði eru til að leiðrétta uppsetningu leysisins þannig að hann hegði sér samræmt í Liberation.
 
-* **Flip horizontal / vertical** - þessir valkostir gera þér kleift að leiðrétta úttak lasersins
-
-{% hint style="info" %}
-Þú ættir ekki að þurfa að breyta horizontal / vertical flip stillingunum nema laserinn sé rangt tengdur eða hann sé með X/Y flip hnappa aftan á sem eru ekki rétt stilltir. Ef þú vilt spegla úttak fyrir tiltekið clip er hægt að gera það á clip-inu sjálfu.
-{% endhint %}
-
-* **Orientation** - ef laserinn hefur verið festur á hlið eða á hvolfi geturðu leiðrétt snúninginn með þessari stillingu.
-* **Fine position adjustments** - má nota til að leiðrétta mjög smávægilega tilfærslu/snúning. Þetta er hannað til að leiðrétta rek eða smávægilega hreyfingu ef laser hefur staðið yfir nótt eða í langan tíma.
+* **Flip horizontal / vertical** - þessir valkostir gera þér kleift að leiðrétta úttak leysisins
 
 {% hint style="info" %}
-Athugaðu að leiðréttingar á stefnu / speglun breyta engu í 3D Visualiser. Þær á að nota til að leiðrétta úttak raunverulega lasersins þannig að það passi við það sem sést í 3D Visualiser!
+Þú ættir ekki að þurfa að breyta stillingunum Flip horizontal / vertical nema leysirinn sé rangt víraður eða hann sé með X/Y flip hnappa á bakhliðinni sem eru ekki rétt stilltir. Ef þú vilt spegla úttak fyrir tiltekinn Clip er hægt að gera það í viðkomandi Clip.
 {% endhint %}
 
-### Afrita laserstillingar
+* **Orientation** - ef leysirinn hefur verið riggaður á hlið eða á hvolfi geturðu leiðrétt snúninginn með þessari stillingu.
+* **Fine position adjustments** - má nota til að leiðrétta mjög smávægilega hliðrun/snúning. Þetta er ætlað til að leiðrétta rek eða sig ef leysir hefur verið skilinn eftir yfir nótt eða í langan tíma.
 
-Sjá [#copy-laser-settings](laser-settings.md#copy-laser-settings).
+{% hint style="info" %}
+Athugaðu að leiðréttingar á stefnu / speglun breyta engu í 3D Visualiser. Þær á að nota til að leiðrétta úttak raunverulega leysisins þannig að það passi við það sem sést í 3D Visualiser!
+{% endhint %}
 
-### Scanner stillingar
+### Afrita Laser Settings
+
+Sjá [Afrita Laser Settings](laser-settings.md#copy-laser-settings).
+
+### Stillingar skanna
 
 <figure><img src="../.gitbook/assets/Laser output scanner settings.png" alt=""><figcaption></figcaption></figure>
 
 #### **Speed**
 
-Speed stillingin ákvarðar hversu hratt scanner-arnir hreyfast.
+Stillingin Speed ræður því hversu hratt skannarnir hreyfast.
 
 {% hint style="danger" %}
-Þótt sjálfgefnu stillingarnar séu nokkuð varfærnar geturðu samt skemmt scanner-ana ef þú keyrir þá of hratt. Farðu varlega, sérstaklega þegar þú hækkar hraðann.
+Þótt sjálfgefnu stillingarnar séu frekar varfærnar geturðu samt skemmt skannana ef þú keyrir þá of hratt. Farðu varlega, sérstaklega þegar þú hækkar hraðann.
 {% endhint %}
 
 {% hint style="info" %}
-Þessi Speed stilling breytir ekki punktahraðanum, heldur stillir hún hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [how-liberation-generates-laser-content.md](../advanced/how-liberation-generates-laser-content.md)
+Þessi Speed stilling breytir ekki punktatíðninni. Hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [Hvernig Liberation býr til laserefni](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
 
-Geislinn skiptir um lit og kveikir og slekkur á sér á meðan scanner-arnir færa hann til, og þessi tvö atriði eru yfirleitt ekki fullkomlega samstillt. Stilltu þetta til að koma þeim aftur í takt.
+Geislinn skiptir um lit og kveikir og slekkur á sér á meðan skannarnir færa hann til, og þessir tveir þættir eru yfirleitt ekki fullkomlega samstilltir. Stilltu þetta til að fá þá aftur í takt.
 
 {% hint style="info" %}
-Þetta er stundum kallað _blank shift_ en mér finnst heitið _scanner sync_ betra - það er aðeins nákvæmara þar sem það stillir tímasetningu allra litabreytinga miðað við hreyfingu scanner-anna.
+Þetta er stundum kallað _blank shift_, en mér finnst hugtakið _scanner sync_ betra - það er aðeins nákvæmara, því stillingin breytir tímasetningu allra litabreytinga miðað við hreyfingu skannanna.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser „halar“ - Colour shift er ekki rétt stillt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Engir laser „halar“! Colour shift er gott!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>„Halar“ í leysinum - Colour shift er ekki rétt stillt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Engir „halar“ í leysinum! Colour shift er í lagi!</p></figcaption></figure></div>
 
-Ef þú sérð litla „hala“ í úttaki lasersins er líklegt að stilla þurfi scanner sync. Ef halarnir birtast áfram sama hvað þú stillir, ertu líklega að keyra scanner-ana/laser driver-ana hraðar en þeir ráða við. Prófaðu að lækka scanner speed.
+Ef þú sérð litla „hala“ í úttaki leysisins þarf líklega að stilla Scanner sync. Ef halarnir sjást áfram sama hvað þú stillir, ertu líklega að keyra skannana eða drifbúnað leysisins hraðar en þeir ráða við. Prófaðu að lækka hraða skannanna.
 
-#### Scanner forstillingar
+#### Forstillingar skanna
 
-Notaðu þetta til að velja fyrirfram hannaða scanner stillingu. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema þú sért með sérstaklega lélega (eða góða) scanner-a. Ef þú vilt kafa dýpra, sjá [scanner-presets.md](../advanced/scanner-presets.md)
+Notaðu þetta til að velja fyrirfram hannaða stillingu fyrir skannana. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema þú sért með sérstaklega lélega (eða góða) skanna. Ef þú vilt skoða þetta nánar, sjá [Forstillingar skanna](../advanced/scanner-presets.md)
 
 #### Litakvörðun
 
-Þú getur notað þetta kerfi til að leiðrétta birtuferil og hvítjafnvægi lasersins. Sjá [colour-calibration.md](../advanced/colour-calibration.md)
+Þú getur notað þetta kerfi til að leiðrétta birtuferil og hvítjöfnun leysisins. Sjá [Litakvörðun](../advanced/colour-calibration.md)
 
 #### Ítarlegar stillingar
 
-Þú ættir ekki að þurfa að fikta í þessu, en ef þú ert forvitinn, sjá [advanced-laser-settings.md](../advanced/advanced-laser-settings.md)
+Þú ættir ekki að þurfa að fikta í þessu, en ef þú ert forvitin/n, sjá [Ítarlegar Laser Settings](../advanced/advanced-laser-settings.md)

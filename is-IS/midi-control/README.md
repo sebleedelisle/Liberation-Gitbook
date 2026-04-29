@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control
 ---
 
-# 🟩 MIDI-stýring
+# 🟩 MIDI control

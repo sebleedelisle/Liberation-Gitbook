@@ -4,4 +4,4 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/operator-nodes
 ---
 
-# 🟩 Operator-hnútar
+# 🟩 Nodes fyrir aðgerðir

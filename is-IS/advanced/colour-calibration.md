@@ -6,18 +6,18 @@ metaLinks:
 
 # 🟩 Litkvörðun
 
-Litkvörðun tryggir að rauðir, grænir og bláir leysar skjávarpans gefi frá sér ljós á mjúkan og fyrirsjáanlegan hátt á öllum birtustigum. Mismunandi skjávarpar geta haft ólínulegar birtukúrfur, sem þýðir að 50% rautt getur virst mun bjartara eða daufara en helmingurinn af styrk 100% rauðs. Kvörðun leiðréttir þetta svo litir blandist hreint, litstiglar verði mjúkir og hvítur litur sé í jafnvægi.
+Litkvörðun tryggir að rauðir, grænir og bláir leysar í skjávarpanum gefi frá sér ljós á mjúkan og fyrirsjáanlegan hátt á öllum birtustigum. Mismunandi skjávarpar geta haft ólínulegar birtukúrfur, sem þýðir að 50% rautt getur virst mun bjartara eða dekkra en helmingur af styrk 100% rauðs. Kvörðun leiðréttir þetta svo litir blandist hreint, litaskalar verði mjúkir og hvítur litur haldist í jafnvægi.
 
-#### Að hita skjávarpann upp
+#### Að hita upp skjávarpann
 
-Leysidíóður breyta hegðun sinni þegar þær hitna. Leyfðu skjávarpanum alltaf að ná stöðugleika áður en þú kvarðar:
+Leysisdíóður breyta hegðun sinni þegar þær hitna. Láttu skjávarpann alltaf ná stöðugu ástandi áður en þú kvarðar:
 
 * Varpaðu björtum ramma, til dæmis **White rectangle test pattern (11)**, í að minnsta kosti **15–20 mínútur**.
-* Þetta tryggir að litajafnvægið sem þú stillir haldist stöðugt meðan á sýningu stendur.
+* Þannig helst litajafnvægið sem þú stillir stöðugt meðan á sýningu stendur.
 
 #### Hvernig kvörðunarprófið virkar
 
-Notaðu prófmynstrin fyrir kvörðun (sjá [test-patterns.md](../output-view/test-patterns.md))
+Notaðu test pattern fyrir kvörðun (sjá [Test patterns](../output-view/test-patterns.md))
 
 * **5** – Red
 * **6** – Green
@@ -31,25 +31,25 @@ Hvert þeirra sýnir fjórar hreyfanlegar línur:
 * **Þriðja lína** – 50% birta á 50% hraða
 * **Fjórða lína** – 25% birta á 25% hraða
 
-Þar sem bæði birta _og hraði_ eru sköluð saman ættu allar línurnar að virðast jafn bjartar. Ef ein virðist ljósari eða dekkri skaltu stilla samsvarandi sleða þar til þær passa saman.
+Þar sem bæði birta _og hraði_ eru sköluð saman ættu allar línurnar að virðast jafn bjartar. Ef ein þeirra virðist ljósari eða dekkri skaltu stilla samsvarandi sleða þar til þær passa saman.
 
-Hvert prófmynstur hefur einnig fimmtu línu við **0% birtu** sem ætti ekki að sjást. Þetta er notað til að leiðrétta leysigeisla sem gefa ekkert ljós frá sér við mjög lágt stig. Ef leysigeislinn þinn er enn ósýnilegur við lága birtu skaltu hækka **0% setting** smám saman þar til línan rétt sést, og lækka síðan örlítið þar til hún hverfur aftur. Markmiðið er að finna þröskuldinn þar sem leysigeislinn byrjar að lýsa, og vera svo rétt fyrir neðan hann - þannig byrja dofnanir eðlilega án þess að neðsti hluti sviðsins sé skorinn af.
+Hvert test pattern hefur einnig fimmtu línu við **0% birtu** sem ætti ekki að sjást. Hún er notuð til að leiðrétta leysa sem gefa ekki frá sér neitt ljós við mjög lágt stig. Ef leysirinn sést ekki við lága birtu skaltu hækka **0% stillinguna** smám saman þar til línan rétt sést, og lækka hana svo örlítið þar til hún hverfur aftur. Markmiðið er að finna þröskuldinn þar sem leysirinn byrjar að lýsa og vera rétt fyrir neðan hann — svo dofnanir byrji eðlilega án þess að neðsta sviðið klippist af.
 
-#### Að nota Colour Calibration panel
+#### Notkun Colour Calibration spjaldsins
 
-Spjaldið gefur þér sjálfstæðar stýringar fyrir hverja rás (rauða, græna, bláa) við 100, 75, 50, 25 og 0% stig.
+Spjaldið gefur þér sjálfstæðar stillingar fyrir hverja rás (rauða, græna og bláa) við 100, 75, 50, 25 og 0% stig.
 
-1. **Veldu prófmynstur** (byrjaðu á rauðu).
+1. **Veldu test pattern** (byrjaðu á rauðu).
 2. **Stilltu sleðana** þannig að 100, 75, 50 og 25% línurnar virðist jafn bjartar.
-3. **Fínstilltu 0% sleðann** ef „slökkt“ línan sést enn mjög dauft.
+3. **Fínstilltu 0% sleðann** ef “off” línan sést ennþá mjög dauft.
 4. **Endurtaktu fyrir grænt og blátt.**
 5. Skiptu yfir í **White test pattern (8)**. Allar fjórar línurnar ættu að virðast jafnar og hvíti liturinn ætti að vera hlutlaus (ekki litaður).
 
 #### Að stilla hvítjöfnun
 
-Þú getur einnig notað þetta kerfi til að stilla **hvítjöfnun**. Eftir að hafa kvarðað hverja rás fyrir sig skaltu skipta yfir í **White test pattern (8)**. Ef úttakið virðist litað (til dæmis of grænt eða of blátt) skaltu stilla hlutfallsleg stig rauðu, grænu og bláu rásanna þar til línurnar virðast hlutlausar hvítar. Jafnvel þótt aflstyrkur leysigeislanna sé nokkuð misjafn hjálpar kvörðun samt við að færa þá nær hver öðrum og skila hreinni og betur jafnaðri litablöndu.
+Þú getur líka notað þetta kerfi til að stilla **hvítjöfnun**. Þegar þú hefur kvarðað hverja rás fyrir sig skaltu skipta yfir í **White test pattern (8)**. Ef úttakið virðist litað (til dæmis of grænt eða of blátt) skaltu stilla hlutfallsleg stig rauðu, grænu og bláu rásanna þar til línurnar virðast hlutlaust hvítar. Jafnvel þó leysarnir séu mjög ólíkir að afli hjálpar kvörðunin samt til við að færa þá nær hver öðrum og búa til hreinni og betur jafnvægta litablöndu.
 
 #### Að vista kvörðunina
 
-* Notaðu **Store** til að skrifa yfir núverandi forstillingu.
-* Notaðu **Store As** til að búa til nýja forstillingu (gagnlegt ef þú vinnur með marga leysigeisla).
+* Notaðu **Store** til að skrifa yfir núverandi preset.
+* Notaðu **Store As** til að búa til nýtt preset (gagnlegt ef þú vinnur með marga leysa).

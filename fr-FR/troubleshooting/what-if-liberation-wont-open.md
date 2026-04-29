@@ -58,7 +58,7 @@ Dans le dossier de votre version, ouvrez :
 data/liberation/
 ```
 
-Dans le dossier liberation, vous devriez trouver un fichier appelé se`ttings.json`. Supprimez ce fichier.
+Dans le dossier liberation, vous devriez trouver un fichier appelé `settings.json`. Supprimez ce fichier.
 
 * **Exemple macOS** : `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
 * **Exemple Windows** : `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
@@ -71,7 +71,7 @@ Essayez maintenant de lancer Liberation. S’il s’ouvre, c’est terminé.
 
 Si Liberation a planté pendant que vous modifiiez un clip, il est possible qu’un élément de ce fichier de clip soit à l’origine du problème.
 
-Dans le même dossier que votre fichier settings.json, vous devriez trouver un fichier appelé clipEdit`.json`
+Dans le même dossier que votre fichier settings.json, vous devriez trouver un fichier appelé `clipEdit.json`
 
 Sauvegardez ce fichier dans un emplacement sûr (par exemple sur votre Desktop), puis supprimez-le du dossier de travail de Liberation.
 

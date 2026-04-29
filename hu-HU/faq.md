@@ -173,7 +173,7 @@ Ez a frame-késleltetés, vagyis a maximális idő aközött, hogy egy frame lé
 
 #### Hogyan módosíthatom egy clip zónáit és beállításait anélkül, hogy elindítanám?
 
-`Alt / Option`-kattintással teheted _currently selected clip_ állapotba anélkül, hogy aktiválnád. Lásd még: [starting-stopping-clips.md](clips/starting-stopping-clips.md)
+`Alt / Option`-kattintással teheted _aktuálisan kijelölt Clip_ állapotba anélkül, hogy aktiválnád. Lásd még: [starting-stopping-clips.md](clips/starting-stopping-clips.md)
 
 #### Hogyan másolhatok clipecet?
 

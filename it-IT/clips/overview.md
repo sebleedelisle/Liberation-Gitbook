@@ -6,31 +6,31 @@ metaLinks:
 
 # 🟩 Panoramica
 
-### Che cos'è una clip?
+### Che cos’è un Clip?
 
-Tutti i contenuti laser in Liberation sono memorizzati all'interno di clip.
+Tutti i contenuti laser in Liberation sono memorizzati all’interno dei Clip.
 
-Le clip possono contenere effetti beam atmosferici o animazioni grafiche e di solito sono cicli in loop. Possono essere indirizzate a qualsiasi zona (o Canvas Target Area) e vengono attivate usando i pulsanti delle clip all'interno del clip deck.
+I Clip possono contenere effetti atmosferici con fasci laser o animazioni grafiche e, di solito, funzionano in loop. Possono essere indirizzati verso qualsiasi zone (o Canvas Target Area) e vengono avviati usando i pulsanti Clip all’interno del Clip Deck.
 
-Il contenuto delle clip viene creato con il versatile sistema di editor di clip basato su nodi. (Vedi [clip-editor-intro.md](../clip-editor/clip-editor-intro.md) per maggiori dettagli)
+Il contenuto dei Clip viene creato con il versatile sistema del Clip Editor basato su nodes. (Vedi [Introduzione al Clip Editor](../clip-editor/clip-editor-intro.md) per maggiori dettagli)
 
-### Il clip deck
+### Il Clip Deck
 
-<figure><img src="../.gitbook/assets/clips-clip-deck" alt=""><figcaption><p>Il clip deck predefinito</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/clips-clip-deck" alt=""><figcaption><p>Il Clip Deck predefinito</p></figcaption></figure>
 
-Il clip deck è la griglia di clip mostrata sullo schermo e di solito si estende oltre l'area visibile.
+Il Clip Deck è la griglia di Clips visualizzata sullo schermo e di solito si estende oltre l’area visibile.
 
-Scorri il clip deck a sinistra e a destra usando:
+Scorri il Clip Deck a sinistra e a destra usando:
 
 * I tasti freccia sinistra e destra
-* Scorrimento con due dita sul trackpad (o scorrimento orizzontale del mouse, se il tuo mouse lo supporta!)
-* La rotella di scorrimento _Cue Level_ sull'APC40
+* Swipe con 2 dita sul trackpad (oppure scorrimento a sinistra e a destra con il mouse, se il tuo mouse lo supporta!)
+* La rotella _Cue Level_ sull’APC40
 
-Scorri il clip deck di una pagina intera a sinistra e a destra usando:
+Scorri il Clip Deck di una pagina intera a sinistra e a destra usando:
 
 * `Cmd / Ctrl + Left / Right Arrow`
-* I pulsanti _Device <- and ->_ sull'APC40
+* I pulsanti _Device <- and ->_ sull’APC40
 
-#### Il mini visualizzatore delle clip
+#### Il mini visualizzatore dei Clip
 
-Nella parte superiore del clip deck vedrai una piccola rappresentazione dell'intero clip deck. La sezione illuminata rappresenta le clip attualmente visibili.
+Nella parte superiore del Clip Deck vedrai una piccola rappresentazione dell’intero Clip Deck. La sezione illuminata rappresenta i Clips attualmente visibili.

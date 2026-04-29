@@ -173,7 +173,7 @@ Dette er frame-latency, eller den maksimale tid mellem at en frame genereres og 
 
 #### Hvordan justerer jeg zoner og indstillinger for en clip uden at køre den?
 
-`Alt / Option`-klik for at gøre den til den _currently selected clip_, men uden at aktivere den. Se også [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-klik for at gøre den til det _aktuelt valgte Clip_, men uden at aktivere den. Se også [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
 
 #### Hvordan kopierer jeg clips?
 

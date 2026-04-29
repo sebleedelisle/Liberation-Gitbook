@@ -173,7 +173,7 @@ Detta är bildrutelatensen, eller den maximala tiden mellan att en bildruta gene
 
 #### Hur justerar jag zoner och inställningar för en Clip utan att köra den?
 
-`Alt / Option`-klicka för att göra den till _currently selected clip_ utan att aktivera den. Se även [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-klicka för att göra den till _det Clip som är valt just nu_ utan att aktivera den. Se även [starting-stopping-clips.md](clips/starting-stopping-clips.md "mention")
 
 #### Hur kopierar jag Clips?
 

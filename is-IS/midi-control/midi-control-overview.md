@@ -9,7 +9,7 @@ metaLinks:
 
 Liberation notar MIDI á nokkra vegu:
 
-* Sem lifandi stýringu með APC 40. Sjá [live-control-with-the-apc40.md](live-control-with-the-apc40.md).
-* Sem uppruna fyrir klukkusamstillingu, með MIDI clock og MIDI song position skilaboðum. Sjá [#midi-clock](../tempo-synchronisation.md#midi-clock)
-* Sem gagnvirkt inntak á MIDI notes node til að búa til „laser harp“ áhrif. Sjá [midi-notes.md](../clip-editor/operator-nodes/midi-notes.md)
-* Sem almennara inntaks-/úttakskerfi með MIDI Send/Receive kerfinu. Sjá [midi-send-receive.md](midi-send-receive.md)
+* Sem live controller, með APC 40. Sjá [Stýring í rauntíma með APC40](live-control-with-the-apc40.md).
+* Sem uppruna fyrir klukkusamstillingu, með MIDI clock og MIDI song position skilaboðum. Sjá [MIDI clock](../tempo-synchronisation.md#midi-clock)
+* Sem gagnvirkt inntak í MIDI notes node til að búa til áhrif í stíl við „laser harp“. Sjá [MIDI notes](../clip-editor/operator-nodes/midi-notes.md)
+* Sem almennara inntaks-/úttakskerfi með MIDI Send/Receive kerfinu. Sjá [MIDI Send/Receive](midi-send-receive.md)

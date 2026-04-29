@@ -237,7 +237,7 @@ Alarivillä on lisäksi 16 väritehostetta, joilla käytetään valmiita sävy- 
 
 Huomaa, että nämä ovat oletusefektejä, mutta niitä voi muokata tekemään lähes mitä tahansa haluat!
 
-#### Mikä on _"currently selected clip"_?
+#### Mikä on _tällä hetkellä valittu Clip_?
 
 Kun käynnistät clipin, se syttyy osoittamaan, että se on aktiivinen. Sen ympärillä on myös valkoinen reunus, joka osoittaa, että kyseessä on tällä hetkellä _valittu_ clip. Kun vaihdat aluepainikkeita tai säädät clipin asetuksia, muutokset kohdistuvat _tällä hetkellä valittuun clipiin._
 

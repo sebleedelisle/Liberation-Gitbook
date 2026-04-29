@@ -7,50 +7,50 @@ metaLinks:
 
 # 🟩 Litastillingar og HSB
 
-Litir í Liberation eru skilgreindir sem HSB frekar en RGB. Þetta kann að vera óvant í fyrstu, en þegar þú venst því er þetta mun innsæislegra kerfi.
+Litur í Liberation er skilgreindur sem HSB frekar en RGB. Þetta kann að vera framandi í fyrstu, en þegar þú venst því er þetta að mínu mati mun innsæiskerfi.
 
 {% hint style="info" %}
-Ef þú vilt frekar nota RGB geturðu smellt á litareitinn í hvaða litastillingu sem er. Þá opnast litavinnsluspjald þar sem þú færð valkosti fyrir RGB og HSB.
+Ef þú kýst að nota RGB geturðu smellt á litareitinn í hvaða litastillingu sem er. Þá opnast litastjórnborðið, þar sem þú færð valkosti fyrir bæði RGB og HSB.
 {% endhint %}
 
 ### HSB - Hue, Saturation og Brightness
 
 #### Hue
 
-Litblærinn nær frá 0 til 255. 0 er rautt og eftir því sem þú hækkar gildið ferðu í gegnum alla litina í regnboganum: appelsínugult, gult, grænt, blágrænt, blátt, fjólublátt, bleikfjólublátt og svo aftur í rautt við 255.
+Hue-gildið er á bilinu 0 til 255. 0 er rautt og þegar þú hækkar gildið ferðu í gegnum alla liti regnbogans: appelsínugult, gult, grænt, blágrænt, blátt, fjólublátt, magenta og svo aftur í rautt við 255.
 
-Þar sem þetta er lykkja geturðu notað triangle wave til að fara í hring í gegnum alla litina.
+Þar sem þetta er hringrás geturðu notað triangle wave til að fara í gegnum alla litina.
 
 #### Saturation
 
-Þessi stilling stjórnar litmettuninni eða hversu skær liturinn er. Með öðrum orðum hversu _litríkur_ hann er, á bilinu 0 til 255. Stilltu Saturation á 0 fyrir gráa tóna og 255 fyrir fulla regnbogaliti. Einhvers staðar í miðjunni færðu pastelkennda, útþvegna liti.
+Þessi stilling stjórnar mettun eða skærleika litarins. Með öðrum orðum hversu _litríkur_ hann er, á bilinu 0 til 255. Settu Saturation á 0 fyrir gráa tóna og 255 fyrir fulla regnbogaliti. Gildi einhvers staðar þar á milli gefur þér mjúka, útþvegna pastelliti.
 
 {% hint style="info" %}
-Afsakið við bandaríska vini mína fyrir aukasérhljóðann í orðinu colour. Liberation er þróað í Englandi, þannig að bresk enska er sjálfgefið mál. Í framtíðinni vonast ég til að geta boðið upp á þýðingar á frönsku, spænsku, þýsku, ítölsku, einfaldaðri kínversku og já, jafnvel bandarískri ensku. :innocent:
+Afsakið, bandarísku vinir mínir, auka sérhljóðann í orðinu colour. Liberation er þróað í Englandi, þannig að bresk enska er sjálfgefið mál. Í framtíðinni vonast ég til að geta boðið þýðingar á frönsku, spænsku, þýsku, ítölsku, einfaldaðri kínversku og já, meira að segja bandarískri ensku. :innocent:
 {% endhint %}
 
 #### Brightness
 
-Sennilega einfaldasta stillingin að skilja: 0 er alveg svart og 255 er full birta.
+Líklega auðveldast að skilja: 0 er alveg svart og 255 er full birta.
 
 ### Dæmi um notkun
 
 #### Regnbogahringrás :
 
-Stilltu _Brightness_ og _Saturation_ á 255. Tengdu _Sawtooth_ oscillator við _Hue_ tengið og stilltu sviðið hans frá 0 til 255.
+Settu _Brightness_ og _Saturation_ á 255. Tengdu _Sawtooth_ oscillator við _Hue_ tengið og stilltu sviðið frá 0 til 255.
 
 #### Púlsandi birta :
 
-Tengdu _Sawtooth_ oscillator við _Brightness_ tengið og stilltu sviðið hans frá 255 til 0. Þú getur svo stillt clamp min og max til að stjórna lengd breytingarinnar. Notaðu síðan easing functions til að fínstilla hreyfinguna enn frekar.
+Tengdu _Sawtooth_ oscillator við _Brightness_ tengið og stilltu sviðið frá 255 til 0. Þú getur svo stillt clamp min og max til að stjórna tímalengd breytingarinnar. Notaðu síðan easing functions til að fínstilla animation enn frekar.
 
-#### Skarpur blikkur / strobe :
+#### Snöggt flash / strobe :
 
-Veldu lit með _Hue_ og _Saturation_ eða með því að smella á litaveljarann. Tengdu _Square Wave_ oscillator við _Brightness_ tengið og stilltu sviðið hans frá 255 til 0.
+Veldu lit með _Hue_ og _Saturation_ eða með því að smella á colour picker. Tengdu _Square Wave_ oscillator við _Brightness_ tengið og stilltu sviðið frá 255 til 0.
 
-#### Hringrás yfir sérvalið svið litblæja :
+#### Hringrás yfir sérsniðið Hue-svið :
 
-Stilltu _Brightness_ og _Saturation_ á 255. Tengdu _Triangle Wave_ oscillator við _Hue_ tengið og stilltu sviðið :
+Settu _Brightness_ og _Saturation_ á 255. Tengdu _Triangle Wave_ oscillator við _Hue_ tengið og stilltu sviðið :
 
-* fyrir blátt yfir í blágrænt skaltu nota sviðið 70 til 128
-* fyrir rautt yfir í gult skaltu nota sviðið 0 til 40
-* fyrir rautt yfir í bleikfjólublátt skaltu nota sviðið 255 til 220
+* fyrir blátt yfir í blágrænt skaltu nota svið frá 70 til 128
+* fyrir rautt yfir í gult skaltu nota svið frá 0 til 40
+* fyrir rautt yfir í magenta skaltu nota svið frá 255 til 220

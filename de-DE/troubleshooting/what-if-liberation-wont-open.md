@@ -58,7 +58,7 @@ Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispie
 data/liberation/
 ```
 
-Im liberation-Ordner solltest du eine Datei namens se`ttings.json` finden. Lösche diese Datei.
+Im liberation-Ordner solltest du eine Datei namens `settings.json` finden. Lösche diese Datei.
 
 * **macOS-Beispiel**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
 * **Windows-Beispiel**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
@@ -71,7 +71,7 @@ Versuche nun, Liberation zu starten. Wenn es sich öffnet, bist du fertig.
 
 Wenn Liberation abgestürzt ist, während du einen Clip bearbeitet hast, kann es sein, dass etwas an dieser Clip-Datei das Problem verursacht.
 
-Im selben Ordner wie deine settings.json-Datei solltest du eine Datei namens clipEdit`.json` finden.
+Im selben Ordner wie deine settings.json-Datei solltest du eine Datei namens `clipEdit.json` finden.
 
 Sichere diese Datei an einem sicheren Ort (zum Beispiel auf deinem Desktop) und lösche sie anschließend aus dem Liberation-Arbeitsordner.
 

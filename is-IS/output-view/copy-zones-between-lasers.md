@@ -5,20 +5,20 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/copy-zones-between-lasers
 ---
 
-# 🟩 Afrita svæði milli leysa
+# 🟩 Afrita zones milli leysitækja
 
-Smelltu á hnappinn _COPY LASER SETTINGS_ í _Laser Output_ og nýtt spjald opnast.
+Smelltu á hnappinn _COPY LASER SETTINGS_ í _Laser Output_ og þá opnast nýr panel.
 
-Þetta er mjög gagnlegur eiginleiki sem sparar mikinn tíma þegar þú vilt afrita svæði og aðrar stillingar fljótt frá einum leysi yfir á hina.
+Þetta er mjög gagnlegur eiginleiki sem sparar mikinn tíma þegar þú vilt afrita zones og aðrar stillingar hratt frá einu leysitæki yfir á önnur.
 
-Gakktu úr skugga um að þú hafir valið leysinn sem þú vilt afrita stillingar _frá._
+Gakktu úr skugga um að þú hafir valið leysitækið sem þú vilt afrita stillingar _frá._
 
-Kveiktu á öllum hinum leysunum sem þú vilt afrita stillingar _til_. (Notaðu _ALL_ og _NONE_ til að flýta fyrir þessu ef þú ert með marga leysa)
+Kveiktu á öllum hinum leysitækjunum sem þú vilt afrita stillingar _til_. (Notaðu _ALL_ og _NONE_ til að flýta fyrir ef þú ert með mörg leysitæki)
 
 Veldu valkostinn _Copy output zone settings_ og smelltu síðan á hnappinn _COPY SETTINGS_ til að ljúka ferlinu.
 
 {% hint style="info" %}
-Athugaðu að þetta ferli bætir ekki við svæðum á leysa og fjarlægir þau ekki heldur. Það afritar aðeins staðsetningu og gerð svæðis fyrir hvert svæði sem þegar er til á markleysunum.
+Athugaðu að þetta ferli bætir ekki zones við leysitæki og fjarlægir þau ekki heldur. Það afritar aðeins staðsetningu og gerð fyrir hvert zone sem er til staðar í markleysitækjunum.
 {% endhint %}
 
-Sjá einnig [copy-laser-settings.md](../setting-up/copy-laser-settings.md) fyrir ítarlega lýsingu á öðrum eiginleikum þessa kerfis.
+Sjá einnig [Afrita Laser Settings](../setting-up/copy-laser-settings.md) fyrir fulla lýsingu á öðrum eiginleikum þessa kerfis.
