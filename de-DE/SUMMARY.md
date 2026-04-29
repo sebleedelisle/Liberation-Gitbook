@@ -15,7 +15,7 @@
 * [✅ Schnellstartanleitung](getting-started.md)
 * [✅ Hardware](hardware/README.md)
   * [✅ Kompatible Laser und Controller (DACs)](hardware/compatible-lasers-and-controllers-dacs.md)
-  * [✅ Not-Aus / Sicherheitsverriegelungen](hardware/emergency-stop-interlocks.md)
+  * [✅ Not-Aus / Interlocks](hardware/emergency-stop-interlocks.md)
   * [✅ LaserCube](hardware/lasercube.md)
 * [✅ Einrichtung](setting-up/README.md)
   * [✅ Überblick über die Einrichtung von Lasern](setting-up/setting-up-lasers.md)

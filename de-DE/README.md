@@ -35,6 +35,6 @@ Dieses Handbuch hilft dir, dich mit Liberation vertraut zu machen – von Instal
 
 * Status-Emojis zeigen den Fertigstellungsgrad: ✅ fertig, 🟧 teilweise fertig, 🟩 Bilder benötigt, ◼️ Platzhalter.
 * Links beziehen sich auf die aktuelle Version; Screenshots und Menüs können leicht abweichen, wenn du eine ältere Build verwendest.
-* Hardware-Schritte weisen auf sicherheitsorientierte Standardeinstellungen hin – umgehe niemals Sicherheitsverriegelungen und halte Strahlen von Personen fern.
+* Hardware-Schritte weisen auf sicherheitsorientierte Standardeinstellungen hin – umgehe niemals Interlocks und halte Strahlen von Personen fern.
 
 Wenn du nicht weiterkommst, sieh zuerst in der [**FAQ**](faq.md) nach und anschließend im Abschnitt [**Fehlerbehebung**](troubleshooting/) nach gezielten Lösungen, bevor du den Support kontaktierst.

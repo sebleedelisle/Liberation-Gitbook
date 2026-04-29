@@ -30,7 +30,7 @@ Wichtig: Bevor du Laser aktivierst, stelle sicher, dass du die damit verbundenen
 
 ### Sicherheitsabschaltung
 
-Immer wenn du Laser betreibst, musst du einen **Hardware-Not-Aus-Taster** griffbereit haben (siehe [Not-Aus / Sicherheitsverriegelungen](hardware/emergency-stop-interlocks.md "mention")). Wenn du jedoch weniger dringend alles deaktivieren möchtest, kannst du den Button _**DISARM ALL**_, die Taste `Escape` oder die Taste _**SESSION**_ auf dem APC40 verwenden. Du kannst außerdem die globale Helligkeit mit dem Bildschirm-Slider oder dem Main-Fader auf dem APC40 reduzieren.
+Immer wenn du Laser betreibst, musst du einen **Hardware-Not-Aus-Taster** griffbereit haben (siehe [Not-Aus / Interlocks](hardware/emergency-stop-interlocks.md "mention")). Wenn du jedoch weniger dringend alles deaktivieren möchtest, kannst du den Button _**DISARM ALL**_, die Taste `Escape` oder die Taste _**SESSION**_ auf dem APC40 verwenden. Du kannst außerdem die globale Helligkeit mit dem Bildschirm-Slider oder dem Main-Fader auf dem APC40 reduzieren.
 
 ### Slider-Elemente
 

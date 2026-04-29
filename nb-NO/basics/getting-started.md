@@ -24,7 +24,7 @@ Viktig: Før du setter noen lasere i _armed_-tilstand, må du sørge for at du f
 
 ### Sikkerhetsstopp
 
-Når du kjører lasere, må du alltid ha en **fysisk nødstoppknapp** tilgjengelig (se [Nødstopp / sikkerhetslåser](../hardware/emergency-stop-interlocks.md)). Hvis du vil sette alt til disarmed uten at det haster like mye, kan du bruke knappen _**DISARM ALL**_, `Escape`-tasten eller _**SESSION**_-tasten på APC40. Du kan også redusere Global Brightness med skjermskyveknappen eller hovedfaderen på APC40.
+Når du kjører lasere, må du alltid ha en **fysisk nødstoppknapp** tilgjengelig (se [Nødstopp / sikkerhetsinterlocks](../hardware/emergency-stop-interlocks.md)). Hvis du vil sette alt til disarmed uten at det haster like mye, kan du bruke knappen _**DISARM ALL**_, `Escape`-tasten eller _**SESSION**_-tasten på APC40. Du kan også redusere Global Brightness med skjermskyveknappen eller hovedfaderen på APC40.
 
 ### Skyveknapper
 
