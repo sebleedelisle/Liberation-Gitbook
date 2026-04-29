@@ -60,6 +60,8 @@ Visible Markdown link text should be translated when it is natural-language text
 
 GitBook mention links must not keep visible labels as filenames, paths, slugs, or English titles such as `setting-up-lasers.md`, `output-view`, or `Quick start guide`. Use the translated destination title or heading as the visible link text.
 
+In `SUMMARY.md`, preserve leading status emoji prefixes such as `✅`, `🟩`, `🟧`, and `◼️` exactly. Translate the page title after the emoji, but do not remove or change the emoji marker.
+
 ## Keeping translations current
 
 Check translation freshness from git history:
@@ -103,3 +105,4 @@ npm run build:site
 ```
 
 `npm run check:links` also checks translated internal link labels so stale English page titles and filename-style mention labels cannot be reintroduced silently.
+It also checks translated `SUMMARY.md` files against the English sidebar so missing or changed status emoji prefixes cannot be reintroduced silently.
