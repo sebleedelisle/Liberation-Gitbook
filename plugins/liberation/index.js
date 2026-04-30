@@ -32,6 +32,7 @@ var branchCache;
 var languagesCache;
 var summaryCache = {};
 var outputTitleCache;
+var DEFAULT_FATHOM_SITE_ID = "EZLFZMQT";
 
 function escapeHtml(value) {
   return String(value || "")
@@ -472,6 +473,18 @@ function renderFaviconLinks(file, root) {
   ].join("\n    ");
 }
 
+function renderFathomScript(siteId) {
+  if (!siteId) return "";
+
+  return '<script defer src="https://cdn.usefathom.com/script.js" data-site="' +
+    escapeHtml(siteId) + '" data-spa="auto"></script>';
+}
+
+function getFathomSiteId(context) {
+  var config = getPluginConfig(context);
+  return getConfigValue(config, "fathomSiteId", DEFAULT_FATHOM_SITE_ID);
+}
+
 function renderRootLanguageRedirectScript(languages, defaultLanguageRoot) {
   var languageIds = languages.map(function(language) {
     return language.id;
@@ -546,6 +559,9 @@ function cleanGeneratedHtml(context) {
   if (!context.output || context.output.name !== "website") return;
 
   var root = context.output.root();
+  var fathomSiteId = getFathomSiteId(context);
+  var fathomScript = renderFathomScript(fathomSiteId);
+
   walkHtmlFiles(root).forEach(function(file) {
     var html = fs.readFileSync(file, "utf8");
     var next = html.replace(/<title>([\s\S]*?)<\/title>/, function(match, title) {
@@ -556,6 +572,10 @@ function cleanGeneratedHtml(context) {
       .replace(/\s*<link rel="apple-touch-icon-precomposed"[^>]*>\n?/g, "\n")
       .replace(/\s*<link rel="shortcut icon"[^>]*>\n?/g, "\n")
       .replace(/<\/head>/, "    " + renderFaviconLinks(file, root) + "\n</head>");
+
+    if (fathomScript && !/cdn\.usefathom\.com\/script\.js/.test(next)) {
+      next = next.replace(/<\/head>/, "    " + fathomScript + "\n</head>");
+    }
 
     next = cleanGeneratedLinks(next, file, root);
 
@@ -575,6 +595,7 @@ function writeDefaultLanguageIndex(context) {
   var href = defaultLanguageRoot.replace(/\/+$/, "") + "/";
   var indexPath = path.join(root, "index.html");
   var languages = getLanguages();
+  var fathomScript = renderFathomScript(getFathomSiteId(context));
   if (!fs.existsSync(path.join(root, defaultLanguageRoot, "index.html"))) return;
 
   fs.writeFileSync(indexPath, [
@@ -591,6 +612,7 @@ function writeDefaultLanguageIndex(context) {
     "<noscript>",
     '<meta http-equiv="refresh" content="0; url=' + escapeHtml(href) + '">',
     "</noscript>",
+    fathomScript ? "    " + fathomScript : "",
     "</head>",
     "<body>",
     "<p>Open the manual:</p>",
@@ -605,9 +627,10 @@ function writeDefaultLanguageIndex(context) {
   ].join("\n"));
 }
 
-function renderRedirectPage(href, title) {
+function renderRedirectPage(href, title, fathomSiteId) {
   var escapedHref = escapeHtml(href);
   var escapedTitle = escapeHtml(title || "Liberation User Manual");
+  var fathomScript = renderFathomScript(fathomSiteId);
 
   return [
     "<!doctype html>",
@@ -623,6 +646,7 @@ function renderRedirectPage(href, title) {
     "var target = " + escapeJsonForScript(href) + " + window.location.search + window.location.hash;",
     "window.location.replace(target);",
     "</script>",
+    fathomScript ? "    " + fathomScript : "",
     "</head>",
     "<body>",
     '<p><a href="' + escapedHref + '">' + escapedTitle + "</a></p>",
@@ -636,6 +660,7 @@ function writeLegacyEnglishRedirects(context) {
 
   var root = context.output.root();
   var defaultLanguageRoot = getDefaultLanguageRoot();
+  var fathomSiteId = getFathomSiteId(context);
   if (!defaultLanguageRoot) return;
 
   var languageOutputRoot = path.join(root, defaultLanguageRoot);
@@ -650,7 +675,7 @@ function writeLegacyEnglishRedirects(context) {
     var title = getOutputTitleMap()[posixPath.join(defaultLanguageRoot, rel)] || "Liberation User Manual";
 
     fs.mkdirSync(path.dirname(legacyPath), { recursive: true });
-    fs.writeFileSync(legacyPath, renderRedirectPage(href, title));
+    fs.writeFileSync(legacyPath, renderRedirectPage(href, title, fathomSiteId));
   });
 }
 
