@@ -1389,6 +1389,33 @@ html[dir="rtl"] .lib-search-subresults {
     display: none;
   }
 
+  .lib-search-open .lib-menu-button,
+  .lib-search-open .lib-brand,
+  .lib-search-open .lib-language-switcher {
+    visibility: hidden;
+  }
+
+  .lib-search-dialog,
+  html[dir="rtl"] .lib-search-dialog {
+    left: 16px;
+    max-width: none;
+    right: 16px;
+    top: 10px;
+    width: auto;
+  }
+
+  .lib-search-form,
+  html[dir="rtl"] .lib-search-form {
+    background: var(--lib-panel);
+    height: 44px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .lib-search-results {
+    max-height: calc(100vh - 72px);
+  }
+
   .book-summary {
     border-radius: 0;
     bottom: 0;
