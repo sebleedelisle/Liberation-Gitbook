@@ -472,6 +472,76 @@ function renderFaviconLinks(file, root) {
   ].join("\n    ");
 }
 
+function renderRootLanguageRedirectScript(languages, defaultLanguageRoot) {
+  var languageIds = languages.map(function(language) {
+    return language.id;
+  }).filter(Boolean);
+
+  return [
+    "(function() {",
+    "  var storageKey = \"liberation.manual.language\";",
+    "  var languages = " + escapeJsonForScript(languageIds) + ";",
+    "  var fallback = " + escapeJsonForScript(defaultLanguageRoot) + ";",
+    "  var lookup = {};",
+    "  languages.forEach(function(language) {",
+    "    lookup[normalise(language)] = language;",
+    "  });",
+    "",
+    "  function normalise(language) {",
+    "    return String(language || \"\").trim().replace(/_/g, \"-\").toLowerCase();",
+    "  }",
+    "",
+    "  function savedLanguage() {",
+    "    try {",
+    "      return window.localStorage.getItem(storageKey) || \"\";",
+    "    } catch (error) {",
+    "      return \"\";",
+    "    }",
+    "  }",
+    "",
+    "  function matchChinese(language) {",
+    "    var code = normalise(language);",
+    "    if (!/^zh(?:-|$)/.test(code)) return \"\";",
+    "    if (lookup[code]) return lookup[code];",
+    "    if (/(?:^|-)hk(?:-|$)|(?:^|-)mo(?:-|$)/.test(code)) return lookup[\"zh-hk\"] || lookup[\"zh-tw\"] || lookup[\"zh-cn\"] || \"\";",
+    "    if (/(?:^|-)tw(?:-|$)|(?:^|-)hant(?:-|$)/.test(code)) return lookup[\"zh-tw\"] || lookup[\"zh-hk\"] || lookup[\"zh-cn\"] || \"\";",
+    "    if (/(?:^|-)cn(?:-|$)|(?:^|-)sg(?:-|$)|(?:^|-)hans(?:-|$)/.test(code)) return lookup[\"zh-cn\"] || \"\";",
+    "    return lookup[\"zh-cn\"] || lookup[\"zh-hk\"] || lookup[\"zh-tw\"] || \"\";",
+    "  }",
+    "",
+    "  function matchLanguage(language) {",
+    "    var code = normalise(language);",
+    "    var chinese = matchChinese(code);",
+    "    var base = code.split(\"-\")[0];",
+    "    if (!code) return \"\";",
+    "    if (lookup[code]) return lookup[code];",
+    "    if (chinese) return chinese;",
+    "    if (base === \"no\" && lookup[\"nb-no\"]) return lookup[\"nb-no\"];",
+    "    for (var i = 0; i < languages.length; i += 1) {",
+    "      if (normalise(languages[i]).split(\"-\")[0] === base) return languages[i];",
+    "    }",
+    "    return \"\";",
+    "  }",
+    "",
+    "  function browserLanguage() {",
+    "    var preferred = [];",
+    "    if (navigator.languages && navigator.languages.length) preferred = preferred.concat(navigator.languages);",
+    "    if (navigator.language) preferred.push(navigator.language);",
+    "    if (navigator.userLanguage) preferred.push(navigator.userLanguage);",
+    "    for (var i = 0; i < preferred.length; i += 1) {",
+    "      var match = matchLanguage(preferred[i]);",
+    "      if (match) return match;",
+    "    }",
+    "    return \"\";",
+    "  }",
+    "",
+    "  var target = matchLanguage(savedLanguage()) || browserLanguage() || fallback;",
+    "  target = String(target || fallback).replace(/\\/+$/, \"\") + \"/\";",
+    "  window.location.replace(target + window.location.search + window.location.hash);",
+    "}());"
+  ].join("\n");
+}
+
 function cleanGeneratedHtml(context) {
   if (!context.output || context.output.name !== "website") return;
 
@@ -504,6 +574,7 @@ function writeDefaultLanguageIndex(context) {
 
   var href = defaultLanguageRoot.replace(/\/+$/, "") + "/";
   var indexPath = path.join(root, "index.html");
+  var languages = getLanguages();
   if (!fs.existsSync(path.join(root, defaultLanguageRoot, "index.html"))) return;
 
   fs.writeFileSync(indexPath, [
@@ -512,12 +583,23 @@ function writeDefaultLanguageIndex(context) {
     "<head>",
     '<meta charset="utf-8">',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
-    '<meta http-equiv="refresh" content="0; url=' + escapeHtml(href) + '">',
+    '<meta name="robots" content="noindex">',
     '<title>Liberation User Manual</title>',
-    '<script>window.location.replace(' + escapeJsonForScript(href) + ');</script>',
+    "<script>",
+    renderRootLanguageRedirectScript(languages, defaultLanguageRoot),
+    "</script>",
+    "<noscript>",
+    '<meta http-equiv="refresh" content="0; url=' + escapeHtml(href) + '">',
+    "</noscript>",
     "</head>",
     "<body>",
-    '<p><a href="' + escapeHtml(href) + '">Open the English manual</a></p>',
+    "<p>Open the manual:</p>",
+    "<ul>",
+    languages.map(function(language) {
+      var languageHref = language.id.replace(/\/+$/, "") + "/";
+      return '<li><a href="' + escapeHtml(languageHref) + '">' + escapeHtml(language.title) + "</a></li>";
+    }).join("\n"),
+    "</ul>",
     "</body>",
     "</html>"
   ].join("\n"));
