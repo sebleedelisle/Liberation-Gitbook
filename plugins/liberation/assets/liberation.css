@@ -20,6 +20,52 @@
   --lib-success: #00c950;
   --lib-sidebar: 284px;
   --lib-header: 64px;
+  --lib-font-latin: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --lib-font-arabic: "Noto Sans Arabic", "Segoe UI", Tahoma, Arial, sans-serif;
+  --lib-font-zh-cn: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", "Hiragino Sans GB", sans-serif;
+  --lib-font-zh-tc: "PingFang TC", "PingFang HK", "Microsoft JhengHei", "Noto Sans CJK TC", "Source Han Sans TC", "Heiti TC", sans-serif;
+  --lib-font-ja: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", YuGothic, Meiryo, "Noto Sans JP", sans-serif;
+  --lib-font-ko: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", "Nanum Gothic", sans-serif;
+  --lib-font-body: var(--lib-font-latin);
+  --lib-body-line-height: 1.65;
+  --lib-heading-line-height: 1.18;
+  --lib-description-line-height: 1.45;
+}
+
+html:lang(ar) {
+  --lib-font-body: var(--lib-font-arabic);
+  --lib-body-line-height: 1.78;
+  --lib-heading-line-height: 1.28;
+  --lib-description-line-height: 1.56;
+}
+
+html:lang(zh-CN) {
+  --lib-font-body: var(--lib-font-zh-cn);
+  --lib-body-line-height: 1.78;
+  --lib-heading-line-height: 1.24;
+  --lib-description-line-height: 1.56;
+}
+
+html:lang(zh-HK),
+html:lang(zh-TW) {
+  --lib-font-body: var(--lib-font-zh-tc);
+  --lib-body-line-height: 1.78;
+  --lib-heading-line-height: 1.24;
+  --lib-description-line-height: 1.56;
+}
+
+html:lang(ja) {
+  --lib-font-body: var(--lib-font-ja);
+  --lib-body-line-height: 1.78;
+  --lib-heading-line-height: 1.24;
+  --lib-description-line-height: 1.56;
+}
+
+html:lang(ko) {
+  --lib-font-body: var(--lib-font-ko);
+  --lib-body-line-height: 1.76;
+  --lib-heading-line-height: 1.24;
+  --lib-description-line-height: 1.54;
 }
 
 html,
@@ -27,12 +73,12 @@ body {
   background: var(--lib-bg) !important;
   color-scheme: dark;
   color: var(--lib-text);
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--lib-font-body);
 }
 
 body {
   font-size: 16px;
-  line-height: 1.65;
+  line-height: var(--lib-body-line-height);
 }
 
 .book {
@@ -332,6 +378,7 @@ body::-webkit-scrollbar-thumb:hover,
   font-size: 14px;
   font-weight: 500;
   line-height: 1.35;
+  overflow-wrap: anywhere;
   padding: 9px 12px;
 }
 
@@ -386,9 +433,9 @@ body::-webkit-scrollbar-thumb:hover,
 
 .markdown-section {
   color: var(--lib-text);
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--lib-font-body);
   font-size: 16px;
-  line-height: 1.65;
+  line-height: var(--lib-body-line-height);
   max-width: 768px;
   position: relative;
 }
@@ -400,7 +447,8 @@ body::-webkit-scrollbar-thumb:hover,
   color: var(--lib-text);
   font-weight: 800;
   letter-spacing: 0;
-  line-height: 1.18;
+  line-height: var(--lib-heading-line-height);
+  overflow-wrap: anywhere;
 }
 
 .markdown-section h1 {
@@ -420,7 +468,7 @@ body::-webkit-scrollbar-thumb:hover,
 .lib-page-description {
   color: var(--lib-muted) !important;
   font-size: 22px;
-  line-height: 1.45;
+  line-height: var(--lib-description-line-height);
   margin: 0 0 32px !important;
 }
 
@@ -433,6 +481,8 @@ body::-webkit-scrollbar-thumb:hover,
 .markdown-section ul,
 .markdown-section ol {
   color: var(--lib-text);
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
 
 .markdown-section p {
@@ -463,13 +513,22 @@ body::-webkit-scrollbar-thumb:hover,
   background: rgba(var(--lib-accent-rgb), 0.1);
   border-radius: 5px;
   color: var(--lib-text);
+  direction: ltr;
   padding: 0.14em 0.35em;
+  unicode-bidi: isolate;
 }
 
 .markdown-section pre {
   background: var(--lib-panel);
   border: 1px solid var(--lib-border);
   border-radius: 8px;
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: isolate;
+}
+
+.markdown-section pre code {
+  unicode-bidi: normal;
 }
 
 .markdown-section table {
@@ -636,6 +695,7 @@ body::-webkit-scrollbar-thumb:hover,
   font-size: 16px;
   font-weight: 500;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .lib-child-page-arrow {
@@ -729,6 +789,7 @@ body::-webkit-scrollbar-thumb:hover,
   font-size: 14px;
   line-height: 1.35;
   margin-left: -1px;
+  overflow-wrap: anywhere;
   padding: 7px 0 7px 12px;
   text-decoration: none;
 }
@@ -938,6 +999,7 @@ body::-webkit-scrollbar-thumb:hover,
   letter-spacing: 0;
   line-height: 1.2;
   margin-bottom: 4px;
+  overflow-wrap: anywhere;
   text-transform: uppercase;
 }
 
@@ -946,6 +1008,7 @@ body::-webkit-scrollbar-thumb:hover,
   font-size: 18px;
   font-weight: 800;
   line-height: 1.22;
+  overflow-wrap: anywhere;
 }
 
 .lib-search-result-arrow {
@@ -971,6 +1034,7 @@ body::-webkit-scrollbar-thumb:hover,
   font-size: 15px;
   font-weight: 800;
   line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .lib-search-subresult-excerpt {
@@ -979,6 +1043,7 @@ body::-webkit-scrollbar-thumb:hover,
   font-size: 14px;
   line-height: 1.35;
   margin-top: 2px;
+  overflow-wrap: break-word;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
@@ -1000,7 +1065,7 @@ body::-webkit-scrollbar-thumb:hover,
   --pagefind-ui-border-width: 1px;
   --pagefind-ui-border-radius: 10px;
   --pagefind-ui-image-border-radius: 6px;
-  --pagefind-ui-font: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --pagefind-ui-font: var(--lib-font-body);
 }
 
 .pagefind-ui__form::before {
@@ -1023,6 +1088,73 @@ body::-webkit-scrollbar-thumb:hover,
 
 .navigation:hover {
   color: rgba(255, 255, 255, 0.55);
+}
+
+html:lang(ar) .book-summary ul.summary li a,
+html:lang(ar) .book-summary ul.summary li span,
+html:lang(ar) .lib-page-toc a,
+html:lang(ar) .lib-search-subresult-excerpt {
+  line-height: 1.5;
+}
+
+html:lang(ar) .lib-search-result-title {
+  line-height: 1.32;
+}
+
+html:lang(ar) .lib-search-input,
+html:lang(ar) .lib-language-select {
+  font-family: var(--lib-font-body);
+}
+
+html:lang(zh-CN),
+html:lang(zh-HK),
+html:lang(zh-TW),
+html:lang(ja) {
+  line-break: loose;
+}
+
+html:lang(ko) {
+  word-break: keep-all;
+}
+
+html:lang(zh-CN) .markdown-section p,
+html:lang(zh-CN) .markdown-section ul,
+html:lang(zh-CN) .markdown-section ol,
+html:lang(zh-HK) .markdown-section p,
+html:lang(zh-HK) .markdown-section ul,
+html:lang(zh-HK) .markdown-section ol,
+html:lang(zh-TW) .markdown-section p,
+html:lang(zh-TW) .markdown-section ul,
+html:lang(zh-TW) .markdown-section ol,
+html:lang(ja) .markdown-section p,
+html:lang(ja) .markdown-section ul,
+html:lang(ja) .markdown-section ol,
+html:lang(ko) .markdown-section p,
+html:lang(ko) .markdown-section ul,
+html:lang(ko) .markdown-section ol {
+  hyphens: manual;
+  overflow-wrap: anywhere;
+}
+
+html:lang(zh-CN) .book-summary ul.summary li a,
+html:lang(zh-CN) .book-summary ul.summary li span,
+html:lang(zh-HK) .book-summary ul.summary li a,
+html:lang(zh-HK) .book-summary ul.summary li span,
+html:lang(zh-TW) .book-summary ul.summary li a,
+html:lang(zh-TW) .book-summary ul.summary li span,
+html:lang(ja) .book-summary ul.summary li a,
+html:lang(ja) .book-summary ul.summary li span,
+html:lang(ko) .book-summary ul.summary li a,
+html:lang(ko) .book-summary ul.summary li span {
+  line-height: 1.45;
+}
+
+html:lang(zh-CN) .lib-search-result-section,
+html:lang(zh-HK) .lib-search-result-section,
+html:lang(zh-TW) .lib-search-result-section,
+html:lang(ja) .lib-search-result-section,
+html:lang(ko) .lib-search-result-section {
+  text-transform: none;
 }
 
 html[dir="rtl"] body {
