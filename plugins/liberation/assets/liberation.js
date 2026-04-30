@@ -5,6 +5,35 @@
   var searchRun = 0;
   var searchOpenedFromQuery = false;
   var languageStorageKey = "liberation.manual.language";
+  var uiLabels = {
+    suggestEdit: {
+      "en-GB": "Suggest edit",
+      "zh-CN": "建议修改",
+      "de-DE": "Änderung vorschlagen",
+      "nl-NL": "Wijziging voorstellen",
+      "fr-FR": "Suggérer une modification",
+      "es-ES": "Sugerir una edición",
+      "da-DK": "Foreslå ændring",
+      "nb-NO": "Foreslå endring",
+      "sv-SE": "Föreslå ändring",
+      "ja-JP": "編集を提案",
+      "is-IS": "Leggja til breytingu",
+      "fi-FI": "Ehdota muokkausta",
+      "hu-HU": "Javasolj módosítást",
+      "it-IT": "Suggerisci modifica",
+      "pl-PL": "Zaproponuj zmianę",
+      "pt-BR": "Sugerir edição",
+      "ko-KR": "수정 제안",
+      "zh-HK": "建議修改",
+      "vi-VN": "Đề xuất chỉnh sửa",
+      "tr-TR": "Düzenleme öner",
+      "cs-CZ": "Navrhnout úpravu",
+      "hr-HR": "Predloži izmjenu",
+      "ru-RU": "Предложить правку",
+      "ar": "اقتراح تعديل",
+      "zh-TW": "建議修改"
+    }
+  };
 
   function currentScriptBase() {
     var scripts = document.getElementsByTagName("script");
@@ -79,6 +108,13 @@
     } catch (error) {
       // Ignore storage failures in private browsing or locked-down environments.
     }
+  }
+
+  function uiText(key, meta) {
+    var labels = uiLabels[key] || {};
+    var language = meta && meta.currentLanguage;
+    var base = String(language || "").split("-")[0];
+    return labels[language] || labels[base] || labels["en-GB"] || "";
   }
 
   function stripStatus(value) {
@@ -520,11 +556,12 @@
 
     if (meta.editUrl) {
       var edit = document.createElement("a");
+      var editLabel = uiText("suggestEdit", meta);
       edit.className = "lib-edit-link";
       edit.href = meta.editUrl;
       edit.target = "_blank";
       edit.rel = "noopener";
-      edit.textContent = "Edit on GitHub";
+      edit.textContent = editLabel;
       tools.appendChild(edit);
     }
 
