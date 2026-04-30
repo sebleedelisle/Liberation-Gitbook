@@ -1503,15 +1503,6 @@ html[dir="rtl"] .lib-search-subresults {
     position: static;
   }
 
-  .lib-edit-link {
-    font-size: 0;
-  }
-
-  .lib-edit-link::before {
-    content: "Edit";
-    font-size: 14px;
-  }
-
   .lib-page-description {
     font-size: 22px;
     margin-bottom: 34px !important;
