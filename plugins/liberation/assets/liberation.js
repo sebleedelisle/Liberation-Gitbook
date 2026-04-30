@@ -4,6 +4,7 @@
   var searchTimer = null;
   var searchRun = 0;
   var searchOpenedFromQuery = false;
+  var languageStorageKey = "liberation.manual.language";
 
   function currentScriptBase() {
     var scripts = document.getElementsByTagName("script");
@@ -69,6 +70,15 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function rememberLanguage(language) {
+    if (!language) return;
+    try {
+      window.localStorage.setItem(languageStorageKey, language);
+    } catch (error) {
+      // Ignore storage failures in private browsing or locked-down environments.
+    }
   }
 
   function stripStatus(value) {
@@ -175,7 +185,8 @@
     var select = switcher.querySelector(".lib-language-select");
     select.innerHTML = meta.languages.map(function(language) {
       var selected = language.id === meta.currentLanguage ? " selected" : "";
-      return '<option value="' + escapeHtml(siteUrl(language.targetPath, meta)) + '"' + selected + ">" +
+      return '<option value="' + escapeHtml(siteUrl(language.targetPath, meta)) + '"' +
+        ' data-language-id="' + escapeHtml(language.id) + '"' + selected + ">" +
         escapeHtml(language.title) +
         "</option>";
     }).join("");
@@ -239,6 +250,8 @@
 
     header.querySelector(".lib-search-button").addEventListener("click", openSearch);
     header.querySelector(".lib-language-select").addEventListener("change", function(event) {
+      var option = event.target.options[event.target.selectedIndex];
+      if (option) rememberLanguage(option.getAttribute("data-language-id"));
       if (event.target.value) window.location.href = event.target.value;
     });
     updateLanguageSwitcher(header, meta);
