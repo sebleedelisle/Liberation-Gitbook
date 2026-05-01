@@ -20,7 +20,7 @@ Klik op de knop _Add a new canvas zone_ in de werkbalk.
 Klik met de rechtermuisknop op de zone en schakel de nummerknoppen in of uit om te selecteren aan welke laser(s) deze canvas zone is toegewezen.
 
 {% hint style="danger" %}
-WAARSCHUWING - als de laser armed is, kun je plotseling content gaan projecteren in een standaard canvas zone. Je kunt de laser het beste disarmen voordat je canvas zones eraan toewijst.
+WAARSCHUWING - als de laser voor output geactiveerd is, kun je plotseling content gaan projecteren in een standaard canvas zone. Je kunt de laser het beste deactiveren voordat je canvas zones eraan toewijst.
 {% endhint %}
 
 Als je nu naar de _OUTPUT_-weergave voor die laser gaat, zie je daar de canvas zone. Deze kun je nu precies zo bewerken als elke beam zone. Zie [Zones](../output-view/zones.md "mention").

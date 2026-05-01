@@ -35,9 +35,9 @@ Deze pagina geeft je een overzicht van het proces om lasers veilig op te starten
 
 ### Liberation instellen :
 
-1. **Zet alle lasers op disarmed** en zoek en verbind de controller in Liberation
+1. **Zorg dat alle lasers niet voor output geactiveerd zijn** en zoek en verbind de controller in Liberation
 2. **Zet de instelling&#x20;**_**Global Brightness**_**&#x20;op 0** (gebruik de slider in de icon bar of de _Master Fader_ op de APC40)
-3. **Zet de laser op armed** - laat de afdekking van de laseropening nog gesloten, zorg dat er geen clips actief zijn en zet de laser op armed (gebruik de knop _Arm_ in het paneel _Laser Overview_)
+3. **Activeer de laser voor output** - laat de afdekking van de laseropening nog gesloten, zorg dat er geen clips actief zijn en activeer de laser voor output (gebruik de knop _Arm_ in het paneel _Laser Overview_)
 4. **Schakel het test pattern in** (gebruik de knop ☒ in de icon bar, kies pattern 1: het groene vierkant met een kruis erdoor)
 5. **Pas de outputzone aan** - maak een inschatting van de veiligste grootte en positie van de zone (bijvoorbeeld hoog tegen het plafond, maar dit hangt af van jouw specifieke omgeving)
 6. **Controleer of de laser werkt** - verhoog de brightness langzaam totdat je licht achter het venster van de laseropening ziet. Zet de brightness daarna weer terug naar nul.

@@ -11,20 +11,20 @@ Liberation is krachtige en complexe moderne software. Het is gebouwd op basispri
 Liberation is flexibel genoeg om lasers in te stellen en te visualiseren zonder dat er echte lasers zijn aangesloten. Zodra je klaar bent om te starten, kun je elke output naadloos toewijzen aan een lasercontroller.
 
 {% hint style="info" %}
-Je kunt binnen Liberation zoveel lasers instellen en visualiseren als je wilt. De licentieniveaus (Hobbyist, Pro, enz.) beperken alleen het aantal lasers dat je kunt _armen._ Dit betekent dat je zelfs met een gratis licentie lasershows met 100 lasers kunt ontwerpen. Je hoeft pas te upgraden wanneer je de show daadwerkelijk op echte lasers wilt draaien.
+Je kunt binnen Liberation zoveel lasers instellen en visualiseren als je wilt. De licentieniveaus (Hobbyist, Pro, enz.) beperken alleen het aantal lasers dat je voor output kunt activeren. Dit betekent dat je zelfs met een gratis licentie lasershows met 100 lasers kunt ontwerpen. Je hoeft pas te upgraden wanneer je de show daadwerkelijk op echte lasers wilt draaien.
 {% endhint %}
 
 Standaard staan er 8 lasers horizontaal naast elkaar, maar je kunt dit volledig aanpassen zoals je wilt. Het is waarschijnlijk het beste om deze standaardinstelling te behouden terwijl je de software leert kennen. Later kun je dit aanpassen aan je hardware-opstelling. (Zie [Je project instellen](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Belangrijk: voordat je lasers armt, moet je zorgen dat je de risico’s begrijpt en het hoofdstuk [Overzicht van het instelproces voor lasers](../setting-up/setting-up-lasers.md "mention") zorgvuldig doornemen.
+Belangrijk: voordat je lasers voor output activeert, moet je zorgen dat je de risico’s begrijpt en het hoofdstuk [Overzicht van het instelproces voor lasers](../setting-up/setting-up-lasers.md "mention") zorgvuldig doornemen.
 {% endhint %}
 
 ## Overzicht van de software
 
 ### Veiligheidsuitschakeling
 
-Wanneer je lasers gebruikt, moet je altijd een **hardware-noodstopknop** bij de hand hebben (zie [Noodstop / veiligheidsinterlocks](../hardware/emergency-stop-interlocks.md "mention")). Als je alles minder dringend wilt disarmen, kun je de knop _**DISARM ALL**_ gebruiken, of de `Escape`-toets (of de _**SESSION**_-toets op de APC40). Je kunt ook de globale helderheid verlagen met de slider op het scherm of met de main fader op de APC40.
+Wanneer je lasers gebruikt, moet je altijd een **hardware-noodstopknop** bij de hand hebben (zie [Noodstop / veiligheidsinterlocks](../hardware/emergency-stop-interlocks.md "mention")). Als je alles minder dringend wilt deactiveren, kun je de knop _**DISARM ALL**_ gebruiken, of de `Escape`-toets (of de _**SESSION**_-toets op de APC40). Je kunt ook de globale helderheid verlagen met de slider op het scherm of met de main fader op de APC40.
 
 ### Slider-elementen
 
@@ -56,7 +56,7 @@ In het menu vind je alle opties voor file import / export en kun je panels opene
 
 <figure><img src="../.gitbook/assets/icon-bar.png" alt=""><figcaption></figcaption></figure>
 
-Hier vind je veelgebruikte taken, zoals alle lasers armen/disarmen, de globale helderheid, test pattern, en schakelen tussen de 3D-, Canvas- en Output-weergaven.
+Hier vind je veelgebruikte taken, zoals alle lasers voor output activeren/deactiveren, de globale helderheid, het test pattern, en schakelen tussen de 3D-, Canvas- en Output-weergaven.
 
 ### Views
 
@@ -121,7 +121,7 @@ We hebben inmiddels ook ondersteuning geïmplementeerd voor APC Mini Mark 2 en d
 {% hint style="info" %}
 **Wat is een clip?**
 
-Een clip is een container voor lasercontent binnen Liberation. Clips kunnen beams of grafische animaties bevatten en zijn meestal een herhalende cyclus. Ze kunnen naar elke zone (of _Canvas target area_) worden gestuurd en worden getriggerd met de clip buttons in het Clip Deck.
+Een clip is een container voor lasercontent binnen Liberation. Clips kunnen beams of grafische animaties bevatten en zijn meestal een herhalende cyclus. Ze kunnen naar elke zone (of _Canvas target area_) worden gestuurd en worden getriggerd met de clipknoppen in het Clip Deck.
 {% endhint %}
 
 #### Overzicht van het Clip Deck
@@ -144,19 +144,19 @@ Om je te helpen je weg te vinden, staat er bovenaan een mini-visualiser van het 
 
 #### Clips starten en stoppen
 
-Druk op een clip button (met de muis of met de APC40) om een clip te starten. Druk er nogmaals op om deze te stoppen. Wanneer je een clip start, stoppen alle andere clips met dezelfde kleur automatisch, tenzij je _shift_ ingedrukt houdt.
+Druk op een clipknop (met de muis of met de APC40) om een clip te starten. Druk er nogmaals op om deze te stoppen. Wanneer je een clip start, stoppen alle andere clips met dezelfde kleur automatisch, tenzij je _shift_ ingedrukt houdt.
 
-Sommige clips staan in _Flash mode_ (standaard de rode clips). In dat geval stoppen ze zodra je de clip button loslaat.
+Sommige clips staan in _Flash mode_ (standaard de rode clips). In dat geval stoppen ze zodra je de clipknop loslaat.
 
 De knop _STOP_ stopt alle clips die op dat moment draaien.
 
 #### Output-zones instellen voor de clip
 
-Onder de clip buttons zie je de zone buttons, standaard beam-zones 1 tot 8 (_BEAM 1_, _BEAM 2_, enz.). De zone buttons lichten op om aan te geven welke zones aan de momenteel geselecteerde clip zijn toegewezen.
+Onder de clipknoppen zie je de zoneknoppen, standaard beam-zones 1 tot 8 (_BEAM 1_, _BEAM 2_, enz.). De zoneknoppen lichten op om aan te geven welke zones aan de momenteel geselecteerde clip zijn toegewezen.
 
 <figure><img src="../.gitbook/assets/qs-zone-buttons.png" alt=""><figcaption></figcaption></figure>
 
-Twee rijen onder de zone buttons zie je de X/Y flip buttons. Zet deze aan of uit om de clip horizontaal en verticaal te spiegelen.
+Twee rijen onder de zoneknoppen zie je de X/Y flip-knoppen. Zet deze aan of uit om de clip horizontaal en verticaal te spiegelen.
 
 {% hint style="info" %}
 Let op: deze zone-toewijzingen en X/Y flip-instellingen zijn gekoppeld aan de clip zelf; ze worden bewaard voor de volgende keer dat je die clip draait. Het is geen globale instelling.
@@ -166,7 +166,7 @@ Rechtsklik op een clip om meer instellingen voor de clip te bewerken. Zie ook [C
 
 ### Groepen
 
-Je zult zien dat elke clip een gekleurde rand heeft. Deze kleur geeft aan in welke _groep_ de clip zit. De APC40 clip buttons lichten ook op in deze kleur.
+Je zult zien dat elke clip een gekleurde rand heeft. Deze kleur geeft aan in welke _groep_ de clip zit. De APC40-clipknoppen lichten ook op in deze kleur.
 
 <table data-header-hidden><thead><tr><th width="108"></th><th></th></tr></thead><tbody><tr><td>Groep 1</td><td>Cyaan</td></tr><tr><td>Groep 2</td><td>Oranje</td></tr><tr><td>Groep 3</td><td>Rood</td></tr><tr><td>Groep 4</td><td>Indigo</td></tr><tr><td>Groep 5</td><td>Groen</td></tr></tbody></table>
 
@@ -178,28 +178,28 @@ Het groepssysteem is erg flexibel en maakt het mogelijk om:
 
 Groepen hebben ook instellingen voor transition in/out die door de clips kunnen worden overgenomen, of overschreven.
 
-Je kunt de groep van de clip toewijzen met de knoppen in het rechtsklikmenu, of met de APC40: druk op de group button en druk _terwijl je deze ingedrukt houdt_ op de clip buttons.
+Je kunt de groep van de clip toewijzen met de knoppen in het rechtsklikmenu, of met de APC40: druk op de group-knop en druk _terwijl je deze ingedrukt houdt_ op de clipknoppen.
 
 Zone-instellingen wijzigen voor alle clips binnen een groep
 
-Druk op de APC40 op de group button en gebruik daarna _terwijl je deze ingedrukt houdt_ de zone- en X/Y-buttons om zone-instellingen voor alle clips binnen die groep te togglen.
+Druk op de APC40 op de group-knop en gebruik daarna _terwijl je deze ingedrukt houdt_ de zone- en X/Y-knoppen om zone-instellingen voor alle clips binnen die groep te togglen.
 
 Zie ook [Clipgroepen](../clips/groups.md "mention")
 
 ### Effecten
 
-Het effects-systeem in Liberation is een krachtige en veelzijdige manier om de clip output in realtime te veranderen. De standaard effects buttons 1-8 staan onder de zone buttons.
+Het effects-systeem in Liberation is een krachtige en veelzijdige manier om de clip output in realtime te veranderen. De standaard effectknoppen 1-8 staan onder de zoneknoppen.
 
 #### Een effect toepassen
 
-Druk op een effect button om het effect aan of uit te zetten, of nog beter: gebruik de APC40 sliders 1-8 om effecten in en uit te faden.
+Druk op een effectknop om het effect aan of uit te zetten, of nog beter: gebruik de APC40-sliders 1-8 om effecten in en uit te faden.
 
 #### Effectparameters
 
 Gebruik de rotary controllers 1-8\* om de _parameter_ voor elk effect aan te passen. (Of je kunt rechtsklikken met de muis om het level en de parameter aan te passen). De parameterwijziging doet verschillende dingen, afhankelijk van hoe het effect is ingesteld. Zie de lijst hieronder voor de standaardeffecten.
 
 {% hint style="info" %}
-De kleine cijfers die je op de effect buttons ziet, verwijzen naar het _level_ en de _parameter_ van het effect. Het _level_ wordt geregeld door de fader op de APC40, of je kunt op de knop klikken en slepen. De parameter wordt aangepast met de rotaries op de APC40, of je kunt rechtsklikken om deze met de muis aan te passen.
+De kleine cijfers die je op de effectknoppen ziet, verwijzen naar het _level_ en de _parameter_ van het effect. Het _level_ wordt geregeld door de fader op de APC40, of je kunt op de knop klikken en slepen. De parameter wordt aangepast met de rotaries op de APC40, of je kunt rechtsklikken om deze met de muis aan te passen.
 {% endhint %}
 
 _\*Rotary controllers 1-8 zitten bovenaan op een APC40 Mk2 en rechtsboven op de Mk1. Zie ook:_ [APC40-referentie](../reference/apc40-reference.md "mention")
@@ -231,12 +231,12 @@ Er staan nog 16 extra kleureffecten op de onderste rij om vooraf ingestelde hue-
 
 Let op: dit zijn de standaardeffecten, maar ze kunnen worden bewerkt om bijna alles te doen wat je wilt!
 
-#### Wat is de _"currently selected clip"_?
+#### Wat is de _momenteel geselecteerde clip_?
 
-Wanneer je een clip start, licht deze op om aan te geven dat hij actief is. Er staat ook een witte rand omheen, die aangeeft dat dit de momenteel _geselecteerde_ clip is. Wanneer je zone buttons togglet of clip-instellingen aanpast, worden deze toegepast op de _currently selected clip._
+Wanneer je een clip start, licht deze op om aan te geven dat hij actief is. Er staat ook een witte rand omheen, die aangeeft dat dit de momenteel _geselecteerde_ clip is. Wanneer je zoneknoppen in- of uitschakelt of clip-instellingen aanpast, worden deze toegepast op de _momenteel geselecteerde clip_.
 
 {% hint style="info" %}
-Als je een clip wilt selecteren zonder deze te triggeren, druk je op de `Alt / Option`-toets voordat je op de clip button drukt. Dit is een handige manier om zones en andere instellingen aan te passen zonder de clip te draaien.
+Als je een clip wilt selecteren zonder deze te triggeren, druk je op de `Alt / Option`-toets voordat je op de clipknop drukt. Dit is een handige manier om zones en andere instellingen aan te passen zonder de clip te draaien.
 {% endhint %}
 
 ### Clip settings panel
@@ -300,17 +300,17 @@ Hier kun je kiezen welke laser outputs naar welke lasercontrollers gaan. Sleep c
 Lees het hoofdstuk [Controllertoewijzing](../setting-up/controller-assignment.md "mention") voor meer details.
 
 {% hint style="danger" %}
-Voordat je lasers armt, moet je het hoofdstuk [Overzicht van het instelproces voor lasers](../setting-up/setting-up-lasers.md "mention") doornemen.
+Voordat je lasers voor output activeert, moet je het hoofdstuk [Overzicht van het instelproces voor lasers](../setting-up/setting-up-lasers.md "mention") doornemen.
 {% endhint %}
 
 ### Laser output panel
 
 <figure><img src="../.gitbook/assets/qs-laser-settings.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Dit panel toont de instellingen voor de _currently selected laser_ (aangegeven door het nummer bovenaan). Wijzig welke laser momenteel geselecteerd is met de _tab_-toets, door op een cijfertoets te drukken, door op een lasernummer in het panel _Laser Overview_ te klikken of in de _output view._
+Dit panel toont de instellingen voor de _momenteel geselecteerde laser_ (aangegeven door het nummer bovenaan). Wijzig welke laser momenteel geselecteerd is met de _tab_-toets, door op een cijfertoets te drukken, door op een lasernummer in het panel _Laser Overview_ te klikken of in de _output view._
 
-* **Number button** armt en disarmt de laser; als deze rood is, is de laser armed.
-* **Brightness** past de laserhelderheid aan, onafhankelijk van de andere lasers (en wordt gecombineerd met de instelling _global brightness_ - dus als beide op 50% staan, staat je laser op 25%).
+* **Nummerknop** activeert/deactiveert de laser voor output; als deze rood is, is de laser voor output geactiveerd.
+* **Brightness** past de laserhelderheid aan, onafhankelijk van de andere lasers (en wordt gecombineerd met de instelling _Global Brightness_ - dus als beide op 50% staan, staat je laser op 25%).
 * **Test Pattern** schakelt alleen voor deze laser een test pattern in (overschrijft de globale test pattern-instelling)
 * **Orientation** corrigeert lasers die zijwaarts of ondersteboven zijn opgehangen.
 * **Flip Horizontal and Flip Vertical** keert de output van de laser om. Handig voor output-correctie bij lasers die inconsistent bedraad zijn.

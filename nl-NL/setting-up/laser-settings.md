@@ -18,8 +18,8 @@ Hier zie je de instellingen voor de momenteel geselecteerde laser. Je kunt een a
 
 Bovenaan dit paneel zie je:
 
-* een nummerknop - klik hierop om deze laser te armen/disarmen. De knop is rood wanneer de laser armed is.
-* een _Brightness_-schuifregelaar, alleen voor deze laser. Let op: deze wordt gecombineerd met de globale brightness.
+* een nummerknop - klik hierop om deze laser voor output te activeren/deactiveren. De knop is rood wanneer de laser voor output geactiveerd is.
+* een _Brightness_-schuifregelaar, alleen voor deze laser. Let op: deze wordt gecombineerd met de globale helderheid.
 * een _Test Pattern_-schakelaar en patroonselectie. Hiermee kies je een specifiek testpatroon voor alleen deze laser. (Deze bedieningselementen worden gespiegeld in de werkbalk van de Output-weergave).
 
 ### Output-oriëntatie / correctie van spiegeling

@@ -102,7 +102,14 @@ LANGUAGE_STYLE_GUIDANCE = {
     ),
     "nl-NL": (
         "For Dutch, use informal 'je/jij' consistently when addressing the reader. "
-        "Use natural Dutch technical-manual prose and avoid overly literal English sentence structure."
+        "Use natural Dutch technical-manual prose and avoid overly literal English sentence structure. "
+        "Translate normal headings into Dutch, for example use Licenties rather than Licences unless "
+        "referring to an exact UI label. Keep exact UI labels in English, but translate explanatory prose "
+        "around them. Avoid awkward English/Dutch hybrids such as arm-en; for prose actions and states "
+        "like arm/disarm/armed/disarmed, use natural Dutch wording such as activeren, deactiveren, "
+        "inschakelen voor output, or voor output activeren depending on context. Do not leave explanatory "
+        "phrases such as currently selected clip in English in running Dutch prose; use natural Dutch such "
+        "as momenteel geselecteerde clip."
     ),
     "fr-FR": (
         "For French, use 'vous' consistently when addressing the reader. "

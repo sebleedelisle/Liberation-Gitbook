@@ -12,7 +12,7 @@ Het MIDI Send/Receive-systeem staat los van de APC40-bediening en is een manier 
 {% hint style="info" %}
 Het MIDI Send/Receive-systeem is oorspronkelijk gebouwd voordat Liberation Timeline-functionaliteit had. Het was een workaround waarmee je een show kon opnemen en afspelen in muzieksoftware zoals Logic Pro of Cubase.
 
-Het geeft je directe controle over clips, effecten en instellingen, ongeacht de weergave en de scrollpositie van het clip deck. Meer systemische live-bedieningsmogelijkheden zoals tap tempo, zones toewijzen en arming/disarming zijn niet geïmplementeerd.
+Het geeft je directe controle over clips, effecten en instellingen, ongeacht de weergave en de scrollpositie van het clip deck. Meer systemische live-bedieningsmogelijkheden zoals tap tempo, zones toewijzen en lasers voor output activeren/deactiveren zijn niet geïmplementeerd.
 {% endhint %}
 
 ### MIDI Send/Receive-instellingen
