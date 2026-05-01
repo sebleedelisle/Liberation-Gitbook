@@ -9,7 +9,7 @@ metaLinks:
 
 ### Compatibility
 
-Windows 10 or 11 64 bit machines. High spec machines recommended if you want to run large shows. The faster your computer is, the smoother the animated laser output will be.
+Windows 10 or 11 64-bit machines. High-spec machines recommended if you want to run large shows. The faster your computer is, the smoother the animated laser output will be.
 
 ### Installation process
 
@@ -57,7 +57,7 @@ The installer is done! Click _Finish_ to close it and launch Liberation.
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation needs permission to access files and the network so Windows will probably pop up a bunch of requesters. Make sure to accept everything or Liberation may not work properly.
+Liberation needs permission to access files and the network so Windows will probably show a few permission prompts. Make sure to accept everything or Liberation may not work properly.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

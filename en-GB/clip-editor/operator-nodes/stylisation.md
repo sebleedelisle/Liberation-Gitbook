@@ -84,7 +84,7 @@ Liberation uses **Euler angles** to describe orientation in 3D space. These are 
 
 * **X** – tilt forward/back (like nodding your head)
 * **Y** – turn left/right (like shaking your head “no”)
-* **Z** – roll clockwise/counter-clockwise (like tilting your head sideways)
+* **Z** – roll clockwise/anti-clockwise (like tilting your head sideways)
 
 By adjusting these three values, you can point particles in any direction.
 {% endhint %}

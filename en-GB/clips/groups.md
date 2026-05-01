@@ -33,7 +33,7 @@ To activate the _group_ button :
 * Press and hold the _group_ button on the APC40
 * Mouse click the on screen _group_ button. Click again to toggle off.
 
-You can easily assign clips to the group by pressing them while the _group_ button is active. (Another way to assign a group is with the clip's right click menu).
+You can easily assign clips to the group by pressing them while the _group_ button is active. (Another way to assign a group is with the clip's right-click menu).
 
 ### Change zone settings for all clips within a group
 

@@ -18,7 +18,7 @@ All of your content should now be in the new version.
 
 #### Keeping multiple versions of Liberation
 
-Before installing a new version, rename the old version - I usually use its version number ie Liberation103.app (or .exe on Windows) You can keep as many versions of Liberation as you like, but can only run one at a time. <br>
+Before installing a new version, rename the old version - I usually use its version number i.e. Liberation103.app (or .exe on Windows) You can keep as many versions of Liberation as you like, but can only run one at a time. <br>
 
 #### If you overwrote your old version of Liberation with a newer version
 

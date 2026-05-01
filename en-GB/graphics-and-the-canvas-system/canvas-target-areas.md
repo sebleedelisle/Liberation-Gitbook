@@ -17,7 +17,7 @@ And sometimes you may want multiple canvas target areas for different parts of a
 
 ### Sending clips to canvas target areas
 
-If you look in the clip deck, along side the beam zone buttons, you'll see the canvas target area buttons. You may need to scroll the output buttons to see them, use `Shift + Left / Right Arrow`, or the ZONE PAGE buttons on screen, or the APC40 buttons (see [apc40-reference.md](../reference/apc40-reference.md "mention"))
+If you look in the clip deck, alongside the beam zone buttons, you'll see the canvas target area buttons. You may need to scroll the output buttons to see them, use `Shift + Left / Right Arrow`, or the ZONE PAGE buttons on screen, or the APC40 buttons (see [apc40-reference.md](../reference/apc40-reference.md "mention"))
 
 Assign clips to canvas target areas by toggling these buttons in exactly the same way as you would with the beam zone buttons.
 
@@ -29,7 +29,7 @@ And at the top there is the _ADD CANVAS TARGET AREA_ button.
 
 Delete a canvas target area using the red button with a minus sign.
 
-Adjust the size and position using the sliders. Double click a slider to type a value.
+Adjust the size and position using the sliders. Double-click a slider to type a value.
 
 ### Scale mode
 

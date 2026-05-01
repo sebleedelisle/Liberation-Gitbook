@@ -1,6 +1,7 @@
 # Languages
 
-* [English](en-GB)
+* [English (UK)](en-GB)
+* [English (US)](en-US)
 * [Deutsch](de-DE)
 * [Français](fr-FR)
 * [Español](es-ES)

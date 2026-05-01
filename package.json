@@ -17,6 +17,8 @@
     "check:links": "python3 scripts/check_links.py && python3 scripts/check_link_texts.py && python3 scripts/check_summary_icons.py",
     "check:link-texts": "python3 scripts/check_link_texts.py",
     "check:summary-icons": "python3 scripts/check_summary_icons.py",
+    "check:english-style": "python3 scripts/check_english_style.py",
+    "fix:english-style": "python3 scripts/check_english_style.py --fix",
     "check:translations": "python3 scripts/check_translations.py",
     "check:translations:strict": "python3 scripts/check_translations.py --strict",
     "translate:docs": "python3 scripts/translate_docs.py",
@@ -24,6 +26,7 @@
     "translate:stale:dry-run": "for lang in zh-CN de-DE nl-NL fr-FR es-ES da-DK nb-NO sv-SE ja-JP is-IS fi-FI hu-HU it-IT pl-PL pt-BR ko-KR zh-HK vi-VN tr-TR cs-CZ hr-HR ru-RU ar zh-TW; do python3 scripts/translate_docs.py \"$lang\" --mode stale --dry-run; done",
     "translate:de": "python3 scripts/translate_docs.py de-DE --language-name German --update-langs",
     "translate:de:stale": "python3 scripts/translate_docs.py de-DE --language-name German --mode stale",
-    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 en-GB LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te || python3 -m codespell -q 3 en-GB LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te"
+    "localize:en-us": "python3 scripts/localize_en_us.py",
+    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 en-GB en-US LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te,co-ordinate,co-ordinates || python3 -m codespell -q 3 en-GB en-US LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te,co-ordinate,co-ordinates"
   }
 }

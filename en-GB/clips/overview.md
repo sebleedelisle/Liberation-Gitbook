@@ -10,7 +10,7 @@ metaLinks:
 
 All laser content within Liberation is stored inside of clips.
 
-Clips can contain atmospheric beam effects or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the clipdeck.
+Clips can contain atmospheric beam effects or graphical animations and they are usually a looping cycle. They can be directed into any zone (or Canvas Target Area) and are triggered using the clip buttons inside the clip deck.
 
 Clip content is created using the versatile node-based clip editor system. (See [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention") for more details)
 

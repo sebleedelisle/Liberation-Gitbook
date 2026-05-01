@@ -8,22 +8,22 @@ metaLinks:
 
 Liberation constantly saves its state to disk so you can be sure that if you have a power outage or system issue, it will start up right where it left off, you shouldn't ever lose your zones, timeline or other content.
 
-However you can export your set up for backup and transferring to another computer.
+However you can export your setup for backup and transferring to another computer.
 
 ### Project Import/Export
 
-The Project file stores almost everything in your current set up, including :
+The Project file stores almost everything in your current setup, including :
 
 * Everything detailed in [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention")below
 * Clips, effects and group settings
 * All of your timelines (not including audio and video media)
-* Art-Net set up
+* Art-Net setup
 * MIDI send/receive settings
 * Tempo / synchronisation settings
 
 It doesn't currently save and load :
 
-* Sound and Midi input settings as used in the MIDI notes node and the Sound Input Oscillator (it _does_ save MIDI send/receive settings as well as the timecode sound input)
+* Sound and MIDI input settings as used in the MIDI notes node and the Sound Input Oscillator (it _does_ save MIDI send/receive settings as well as the timecode sound input)
 * Interface scaling
 * Media for Canvas guide images
 * Sound and Video media for timelines
@@ -82,7 +82,7 @@ To import just the effects from a project, select _**Effects->Import Effects**_,
 
 ### Timeline Export
 
-Export a timeline file with one or more timelines. Note that the clipdeck is always included with exported timeline files (although you can be selective about which clips you import back in, see [#timeline-import](loading-and-saving.md#timeline-import "mention")below)
+Export a timeline file with one or more timelines. Note that the clip deck is always included with exported timeline files (although you can be selective about which clips you import back in, see [#timeline-import](loading-and-saving.md#timeline-import "mention")below)
 
 If you have more than one timeline in your project file, a panel will open allowing you to select which timeilnes you want to export.
 

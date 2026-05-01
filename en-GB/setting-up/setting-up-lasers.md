@@ -9,7 +9,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/setting-up-lasers
 ---
 
-# ✅ Laser set up process overview
+# ✅ Laser setup process overview
 
 ### Overview of the process for safely turning on lasers
 
@@ -53,7 +53,7 @@ This page is designed to give you an overview of the process of powering up lase
 6. **Add software masks** - the software masks within Liberation can be used to protect cameras and projectors, but should **never** be used in place of physical masking for protecting humans. Note that no software or hardware is infallible so make sure you understand the risks before using software masks.
 
 {% hint style="warning" %}
-Note that this guide assumes an indoor set up. If you are working outdoors, additional steps must be taken to ensure aircraft safety, including but not limited to :
+Note that this guide assumes an indoor setup. If you are working outdoors, additional steps must be taken to ensure aircraft safety, including but not limited to :
 
 * Getting necessary permissions from aviation authorities such as FAA or CAA
 * Liaising with nearby airports and airfields

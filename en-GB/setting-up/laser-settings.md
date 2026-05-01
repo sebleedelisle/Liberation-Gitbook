@@ -24,7 +24,7 @@ At the top of this panel you'll see :
 
 ### Output orientation / mirroring correction
 
-The next elements are for correcting the set up of your laser so that it behaves consistently in Liberation.
+The next elements are for correcting the setup of your laser so that it behaves consistently in Liberation.
 
 * **Flip horizontal / vertical** - these options allow you to correct your laser's output
 

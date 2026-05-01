@@ -1,0 +1,98 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/zones
+---
+
+# 🟩 Zones
+
+The main type of zone you will use for most of your projects is the _Beam zone_. This is a zone designed for atmospheric beam effects through the air. The other type of zone is a _Canvas zone_ (See [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")).
+
+{% hint style="danger" %}
+**WARNING - Use extreme caution when moving zones while the laser is running** and turn the brightness down as low as it can go. See [Laser setup process overview](../setting-up/setting-up-lasers.md "mention") for a comprehensive guide for activating and zoning lasers safely
+{% endhint %}
+
+You can click and drag the zones around with the mouse. Turn on a test pattern to see where that zone goes.
+
+{% hint style="info" %}
+Use the arrow keys to **nudge** the currently selected zone/point. Press the `Shift` key to nudge in larger steps.
+{% endhint %}
+
+{% hint style="info" %}
+Top tip : you can quickly copy zone settings across multiple lasers! See [Copy settings between lasers](../setting-up/copy-laser-settings.md "mention")
+{% endhint %}
+
+### Adding a new beam zone
+
+Click the _Add a new beam zone_ button at the top of the toolbar and a new zone will appear. Note that beam zones are sorted in the order that you add them but you can reorder them. See [Reordering beam zones](re-ordering-beam-zones.md "mention")
+
+### Adding an existing canvas zone
+
+Click on the _Add existing canvas zone_ button and you'll see a list of available canvas zones and you can toggle them on and off for this laser. See [graphics-and-the-canvas-system](../graphics-and-the-canvas-system/ "mention")
+
+### Zone shape types
+
+There are 3 zone shape types :
+
+* **Quad** - the default rectangle zone shape which can be uniform (axis aligned) or distorted. Best for larger rectangular zones or canvas zones that require perspective correction.
+* **Line/Curve** - A zone defined by 2 or more points and a thickness. Ideal for thin zones or for terminating on balconies, bridges or other curved shapes.
+* **Segmented** - A zone that can be subdivided into smaller quads. Ideal for architectural mapping.
+
+Right-click on any zone to open up its settings. From this right-click menu you can :
+
+* Rename the zone (this can be helpful to identify it in the clip deck, especially if you have a lot of zones!)
+* Enable/disable the zone
+* Lock its position
+* Change its shape type
+* Reset it to the default position
+* Access settings specific to the shape type
+* Delete it
+* Add an _Alt Zone_ (See [Alt zone system](alt-zone-system.md "mention"))
+
+{% hint style="danger" %}
+**WARNING -** be very careful when changing the zone type while the laser is active. The zone will return to the last position / size for that shape so the output could change suddenly. It's best to turn the laser off before changing the zone type.
+{% endhint %}
+
+### Quad zone shape
+
+You can move each corner of the quad with the mouse. `Alt / Option`-click a corner to move it independently from the others and distort the quad. Once the quad is distorted, all the corners can move freely.
+
+You can remove the distortion and return it to an axis-aligned rectangle using the _REMOVE DISTORTION_ button in the right-click menu.
+
+#### Perspective correction
+
+This option can be set using the toggle button in the right-click menu and it determines the distortion method. It's best to keep this turned off for beams but If this zone is projecting graphics on to a flat plane, turn it on and the output will be perspective corrected.
+
+{% hint style="info" %}
+If _Perspective correction_ is turned off, content is distorted using _bi-linear interpolation_. In other words, content is spaced evenly across the quad. That's why it's best for beams.
+
+With perspective correction turned on, content is distorted using perspective warping which adjusts for foreshortening. So if you're projecting graphics onto a wall at an oblique angle, you can use this to undistort the output and fix the projection distortion.
+{% endhint %}
+
+### Line / Curve zone shape
+
+The Line / Curve zone shape has become my go-to option in recent shows, and it could be argued that this should be the default for beam zones.
+
+More often than not, my zones have to be thin to fit into awkward thin spaces at venues or between windows on buildings, and I found that it could be super tricky to adjust four corners of a quad when they're so close together. And so the Line / Curve zone was born!
+
+For straight lines, all you need is two points, and then adjust the _Zone thickness_ in the right-click menu. It's the fastest way to create simple zones.
+
+`Alt / Option`-click on the line to create additional points. These points are automatically smoothed to create a flowing shape, and you can adjust the _Smooth level_ to iron out any kinks.
+
+`Alt / Option`-click on a point to delete it.
+
+Or if you're experienced with vector graphics apps (Inkscape, Illustrator etc) you can use the _Manually adjust bezier curves_ option to give yourself fine ajdustment of all the control points.
+
+### Segmented zone shape
+
+This subdivided zone lets you make extremely detailed corrections and is useful for when you are mapping onto complex shapes. You can add or remove subdivisions using the + and - buttons in the right-click menu.
+
+### How to edit a zone that is entirely covered by another zone
+
+Right-click on the zone on top, and click the padlock button to lock it. You should now be able to edit and adjust the zone underneath.
+
+<br>
+
+{% hint style="info" %}
+Once you add a Beam zone to your output it will be available to add to a clip in the clip deck.
+{% endhint %}

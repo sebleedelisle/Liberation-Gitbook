@@ -18,7 +18,7 @@
   * [✅ Emergency stop / interlocks](hardware/emergency-stop-interlocks.md)
   * [✅ LaserCube](hardware/lasercube.md)
 * [✅ Setting up](setting-up/README.md)
-  * [✅ Laser set up process overview](setting-up/setting-up-lasers.md)
+  * [✅ Laser setup process overview](setting-up/setting-up-lasers.md)
   * [✅ Setting up your project](setting-up/setting-up-your-project.md)
   * [✅ Adding / removing lasers](setting-up/adding-removing-lasers.md)
   * [✅ Controller assignment](setting-up/controller-assignment.md)

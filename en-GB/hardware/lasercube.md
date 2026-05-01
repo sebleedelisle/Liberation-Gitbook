@@ -43,7 +43,7 @@ Unlike the Ether Dream, _**LaserCubes DO NOT BLANK THE LASER**_ if they encounte
 
 Instead, they just carry on from where they left off, and in some cases this can cause a live beam to cross areas that are not within zones, and even worse, will cut across software masks.
 
-I am talking to the designers/coders of LaserCube and I’m hoping this is something that they address in future with a firmware update but in the meantime, you must ensure that you physically mask anywhere that you don’t want the laser to go.
+I am talking to the designers/coders of LaserCube and I’m hoping this is something that they address in the future with a firmware update but in the meantime, you must ensure that you physically mask anywhere that you don’t want the laser to go.
 
 To be fair, you should probably do this anyway, but I myself use software masks for protecting cameras and projectors. So just be aware that it’s more dangerous to do this using the LaserCube network protocol than it is with the Ether Dream (which goes into a safety stop mode as soon as there is any error or missing data).
 

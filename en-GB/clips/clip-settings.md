@@ -25,11 +25,11 @@ If a clip is locked, it can't be moved or deleted. To lock a clip, use the _Lock
 * _LOCKED CLIPS ZONES_ - if this is on then you can't change the zones for any locked clip
 * _LOCKED CLIPS PARAMS_ - if this is on then you can't change the parameters (scale, shift etc) for any locked clip.
 
-### Right click menu
+### Right-click menu
 
-If you right click on a clip, a menu appears with some of the options for that clip. See [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [clip-settings.md](clip-settings.md "mention") and [groups.md](groups.md "mention")for more about the first few items in this menu.
+If you right-click on a clip, a menu appears with some of the options for that clip. See [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [clip-settings.md](clip-settings.md "mention") and [groups.md](groups.md "mention")for more about the first few items in this menu.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right click menu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 
@@ -47,6 +47,6 @@ Clips are often designed to loop forever but you can design them in such a way t
 
 ### Transition in/out time (fade)
 
-Clips can be set to fade in and out with a duration measured in seconds. By default the fade time will be inherited by its group settings (and can be changed by right clicking on the group button).
+Clips can be set to fade in and out with a duration measured in seconds. By default the fade time will be inherited by its group settings (and can be changed by right-clicking on the group button).
 
 If you want a different fade duration from the clip's group, first toggle off the _USE GROUP DEFAULT_ button, then adjust the clip's _In time_ and _Out time_ sliders.

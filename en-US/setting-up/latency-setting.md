@@ -1,0 +1,22 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/latency-setting
+---
+
+# ✅ Latency setting
+
+In the _Settings_ panel (_Liberation->Settings_ or CMD/CTRL ,) you'll see a slider labeled _Latency(ms)._ (In older versions of Liberation this was in the Laser Overview panel)
+
+{% hint style="info" %}
+The default latency setting of 150ms should be fine for most cases but if you are having network issues you may want to try to increase it.
+{% endhint %}
+
+### The complicated explanation
+
+This "frame latency" setting is the maximum time between Liberation creating a frame, and the laser starting to output it. If you increase this value then you may notice a slight delay between Liberation and your laser output.
+
+The benefit of a longer frame latency is that Liberation can fill up the laser controllers' buffers with content as soon as possible; if there is congestion on the network the controller is less likely to run out of points.
+
+This usually only applies to network DACs and a setting of 100ms should be a good balance between speed and protection against network delays. If you have a really strong network you should be able to reduce it to 50ms.&#x20;
+

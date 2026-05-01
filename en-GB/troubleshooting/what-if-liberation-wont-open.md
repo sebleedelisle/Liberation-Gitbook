@@ -84,8 +84,8 @@ Try launching Liberation again. If it now opens normally, please email the backe
 If Step 1 and Step 2 did not help:
 
 1. **Back up** the entire version folder:
-   * macOS: Right click the `1.0.0` folder and choose **Compress** to make a zip, or copy it somewhere safe like Desktop.
-   * Windows: Right click the `1.0.0` folder and choose **Send to > Compressed (zipped) folder**, or copy it somewhere safe like Desktop.
+   * macOS: Right-click the `1.0.0` folder and choose **Compress** to make a zip, or copy it somewhere safe like Desktop.
+   * Windows: Right-click the `1.0.0` folder and choose **Send to > Compressed (zipped) folder**, or copy it somewhere safe like Desktop.
 2. After backing up, **delete** the original `1.0.0` folder from the Liberation working location.
 3. Launch Liberation again. It will recreate a fresh working folder.
 

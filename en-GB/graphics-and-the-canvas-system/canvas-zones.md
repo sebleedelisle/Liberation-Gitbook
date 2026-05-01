@@ -31,4 +31,4 @@ You can also add a canvas zone to a laser directly from the _OUTPUT_ view - clic
 
 ### Right-click menu
 
-Right click on the zone and you'll see options to delete this canvas zone, move it to the back and lock it.
+Right-click on the zone and you'll see options to delete this canvas zone, move it to the back and lock it.

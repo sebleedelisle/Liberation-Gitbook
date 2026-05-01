@@ -12,7 +12,7 @@ If you have experience with music or lighting software then this process will be
 
 ## Tempo panel
 
-The _Tempo_ panel will always be on screen and contains all the synchronisation settings. At the top you'll see the current bar/beat counter and a transport with play/pause and rewind/fastforward buttons.
+The _Tempo_ panel will always be on screen and contains all the synchronisation settings. At the top you'll see the current bar/beat counter and a transport with play/pause and rewind/fast-forward buttons.
 
 Below that you'll see the beat marker; four squares that "pulse" to the beat. This _beat marker_ is an extremely useful visualisation and you will constantly refer to it while using the _Live_ tempo system.
 
@@ -22,7 +22,7 @@ You have options for setting the tempo :
 
 * Click and drag on the _Tempo_ slider
 * Shift-click and drag on the _Tempo_ slider to change the tempo in 0.1 increments
-* Double click on the _Tempo_ slider and manually type the number
+* Double-click on the _Tempo_ slider and manually type the number
 * Use the _Tempo_ knob on the APC40 (Press shift for 0.1 increments)
 * Tap Tempo
 
@@ -37,7 +37,7 @@ Set the tempo automatically by clicking the _TAP_ button in time with the beat. 
 {% hint style="info" %}
 The Tap Tempo system is smart enough to know if you have taken a break from tapping for a while, or if you've missed a couple of beats. If you start tapping in double time, it will understand that you want to double the tempo, the same goes if you tap in half time.
 
-It's also smart enough to work out if there are two people both tapping tempo at the same time (ie one on the keyboard and one on the APC40). Liberation will average out the double taps.
+It's also smart enough to work out if there are two people both tapping tempo at the same time (i.e. one on the keyboard and one on the APC40). Liberation will average out the double taps.
 {% endhint %}
 
 #### Keyboard commands :
@@ -82,13 +82,13 @@ Use the _÷2_ and _x2_ buttons to half and double the tempo permanently. Unlike 
 
 The _Tempo Multiplier_ system lets you temporarily adjust the tempo before returning to what it was before.
 
-Toggle the _Tempo Multiplier_ by hitting the _TEMPO MULTIPLIER_ button or the _BANK_ button on the APC40. Adjust using the on screen slider or by using the APC40 A-B slider. Or use the _25%, 50%, 100% 200%_ preset buttons.
+Toggle the _Tempo Multiplier_ by hitting the _TEMPO MULTIPLIER_ button or the _BANK_ button on the APC40. Adjust using the on-screen slider or by using the APC40 A-B slider. Or use the _25%, 50%, 100% 200%_ preset buttons.
 
 ## External tempo sources
 
 ### MIDI Clock
 
-To sync to an external MIDI clock signal, select the _MIDI CLOCK_ radio button and choose the MIDI device from the drop down menu. Note the coloured status light next to the dropdown menus :
+To sync to an external MIDI clock signal, select the _MIDI CLOCK_ radio button and choose the MIDI device from the drop-down menu. Note the coloured status light next to the drop-down menus :
 
 * Green - receiving a MIDI clock signal
 * Orange - can connect to the MIDI device but there is no clock signed currently

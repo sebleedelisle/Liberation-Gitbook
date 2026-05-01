@@ -17,7 +17,7 @@ Liberation's 3D visualiser is an incredibly useful feature - you can design and 
 * Click and drag to rotate the view around the orbit point
 * Mouse wheel to move backwards and forwards towards the orbit point
 * Click and drag while keeping the shift key pressed to move the camera around laterally (strafe) left, right, up and down along the XY plane
-* Double click anywhere on the visualiser to reset the camera position
+* Double-click anywhere on the visualiser to reset the camera position
 
 ### Settings
 
@@ -32,17 +32,17 @@ Open the _3D Visualiser Settings_ panel via the _Window_ menu.
 
 ### Camera settings
 
-These settings mostly relate to the virtual camera in 3D space. You can see a drop down with presets for these settings that you can save and reload.
+These settings mostly relate to the virtual camera in 3D space. You can see a drop-down with presets for these settings that you can save and reload.
 
 * **Camera distance -** The camera is always pointed at its _Orbit point_. The camera distance is how far away it is from this point. You can also adjust this setting using the mouse scroll wheel.
 * **FOV -** Field of view - determines how wide angle / zoomed in the camera is.
 * **Orbit position** - describes the current rotation around the orbit point. The first value is the rotation around the X axis (pitch) and the second value is the rotation around the Y axis (yaw).
 * **Orbit centre point** - the position of the orbit point in 3D space, x, y, z.
-* **Grid height** - the height of the grid from the "ground" (ie where y = 0).
+* **Grid height** - the height of the grid from the "ground" (i.e. where y = 0).
 
 ### Content settings
 
-These settings determine where the lasers (and canvas) are placed within the 3D environment. You can see a drop down with presets for these settings that you can save and reload.
+These settings determine where the lasers (and canvas) are placed within the 3D environment. You can see a drop-down with presets for these settings that you can save and reload.
 
 #### Lasers
 

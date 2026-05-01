@@ -38,7 +38,7 @@ There are 3 zone shape types :
 * **Line/Curve** - A zone defined by 2 or more points and a thickness. Ideal for thin zones or for terminating on balconies, bridges or other curved shapes.
 * **Segmented** - A zone that can be subdivided into smaller quads. Ideal for architectural mapping.
 
-Right click on any zone to open up its settings. From this right click menu you can :
+Right-click on any zone to open up its settings. From this right-click menu you can :
 
 * Rename the zone (this can be helpful to identify it in the clip deck, especially if you have a lot of zones!)
 * Enable/disable the zone
@@ -57,11 +57,11 @@ Right click on any zone to open up its settings. From this right click menu you 
 
 You can move each corner of the quad with the mouse. `Alt / Option`-click a corner to move it independently from the others and distort the quad. Once the quad is distorted, all the corners can move freely.
 
-You can remove the distortion and return it to an axis-aligned rectangle using the _REMOVE DISTORTION_ button in the right click menu.
+You can remove the distortion and return it to an axis-aligned rectangle using the _REMOVE DISTORTION_ button in the right-click menu.
 
 #### Perspective correction
 
-This option can be set using the toggle button in the right click menu and it determines the distortion method. It's best to keep this turned off for beams but If this zone is projecting graphics on to a flat plane, turn it on and the output will be perspective corrected.
+This option can be set using the toggle button in the right-click menu and it determines the distortion method. It's best to keep this turned off for beams but If this zone is projecting graphics on to a flat plane, turn it on and the output will be perspective corrected.
 
 {% hint style="info" %}
 If _Perspective correction_ is turned off, content is distorted using _bi-linear interpolation_. In other words, content is spaced evenly across the quad. That's why it's best for beams.
@@ -75,7 +75,7 @@ The Line / Curve zone shape has become my go-to option in recent shows, and it c
 
 More often than not, my zones have to be thin to fit into awkward thin spaces at venues or between windows on buildings, and I found that it could be super fiddly to adjust four corners of a quad when they're so close together. And so the Line / Curve zone was born!
 
-For straight lines, all you need is two points, and then adjust the _Zone thickness_ in the right click menu. It's the fastest way to create simple zones.
+For straight lines, all you need is two points, and then adjust the _Zone thickness_ in the right-click menu. It's the fastest way to create simple zones.
 
 `Alt / Option`-click on the line to create additional points. These points are automatically smoothed to create a flowing shape, and you can adjust the _Smooth level_ to iron out any kinks.
 
@@ -85,11 +85,11 @@ Or if you're experienced with vector graphics apps (Inkscape, Illustrator etc) y
 
 ### Segmented zone shape
 
-This subdivided zone lets you make extremely detailed corrections and is useful for when you are mapping onto complex shapes. You can add or remove subdivisions using the + and - buttons in the right click menu.
+This subdivided zone lets you make extremely detailed corrections and is useful for when you are mapping onto complex shapes. You can add or remove subdivisions using the + and - buttons in the right-click menu.
 
 ### How to edit a zone that is entirely covered by another zone
 
-Right click on the zone on top, and click the padlock button to lock it. You should now be able to edit and adjust the zone underneath.
+Right-click on the zone on top, and click the padlock button to lock it. You should now be able to edit and adjust the zone underneath.
 
 <br>
 

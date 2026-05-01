@@ -14,7 +14,7 @@ Liberation is flexible enough that you can set up lasers and visualise them with
 You can set up and visualise as many lasers as you want within Liberation, the licence tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design laser shows with 100 lasers even with a free licence. You only need to upgrade when it comes to actually running it on real lasers.
 {% endhint %}
 
-The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware set up. (See [setting-up-your-project.md](../setting-up/setting-up-your-project.md "mention"))&#x20;
+The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware setup. (See [setting-up-your-project.md](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
 Important : Before you arm any lasers make sure you understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") chapter.
@@ -68,7 +68,7 @@ The large area in the top left of the screen can be one of 3 main views; **3D**,
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-The 3D view shows you what your lasers will look like and can be configured to match your own laser set up. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_View -> 3D Visualiser Settings_). See [3d-visualiser.md](../setting-up/3d-visualiser.md "mention").
+The 3D view shows you what your lasers will look like and can be configured to match your own laser setup. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_View -> 3D Visualiser Settings_). See [3d-visualiser.md](../setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -90,9 +90,9 @@ You can select the laser you want to edit using either :
 * pressing the number key for the laser you want _(1-9_ keys\_)\_
 * the `Tab` key to cycle through from one to the next
 
-Add a new laser to the set up by pressing the _+_ button. (There is also an _ADD LASER_ button in the _Laser Overview_ panel)
+Add a new laser to the setup by pressing the _+_ button. (There is also an _ADD LASER_ button in the _Laser Overview_ panel)
 
-Delete a laser from the set up by hitting the red ⊖ button in the _Laser Overview_ panel.
+Delete a laser from the setup by hitting the red ⊖ button in the _Laser Overview_ panel.
 
 You can zoom in and out using the mouse scroll wheel, and click and drag anywhere there isn't a zone to move the view.
 
@@ -162,7 +162,7 @@ Two rows below the zone buttons, you'll see the X/Y flip buttons, toggle these t
 Note that these zone allocations and X/Y flip settings are connected to the clip itself; they are retained next time you run that clip. They are not a global setting.
 {% endhint %}
 
-Right click on a clip to edit more settings for the clip. Also see [clip-settings.md](../clips/clip-settings.md "mention")
+Right-click on a clip to edit more settings for the clip. Also see [clip-settings.md](../clips/clip-settings.md "mention")
 
 ### Groups
 
@@ -199,7 +199,7 @@ Press an effect button to toggle the effect, or even better, using the APC40 sli
 Use the rotary controllers 1-8\* to adjust the _parameter_ for each effect. (Or you can right-click with the mouse to adjust the level and parameter). The parameter change does different things dependent on how the effect is set up. See the list below for the default effects.
 
 {% hint style="info" %}
-The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect. The _level_ is controlled by the fader on the APC40 or you can click-drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.
+The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect. The _level_ is controlled by the fader on the APC40 or you can click and drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.
 {% endhint %}
 
 _\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also:_ [apc40-reference.md](../reference/apc40-reference.md "mention")
@@ -219,15 +219,15 @@ _\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right
 5. **Scale** :\
    Repeatedly scales everything from full to zero. The parameter adjusts the speed.
 6. **Hue** :\
-   Changes the hue of everything, but doesn't change the saturation (ie anything white stays white). The parameter adjusts the hue.
+   Changes the hue of everything, but doesn't change the saturation (i.e. anything white stays white). The parameter adjusts the hue.
 7. **Saturation and hue** :\
-   Changes the hue of everything and also fully saturates the colour (ie anything white changes to the colour). The parameter adjusts the hue.
+   Changes the hue of everything and also fully saturates the colour (i.e. anything white changes to the colour). The parameter adjusts the hue.
 8. **Flash** :\
    Repeatedly flashes the brightness of everything from full to zero. The parameter adjusts the flash speed.
 
 <figure><img src="../.gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-There are a further 16 colour effects along the bottom row to apply pre-set hue and saturation values.
+There are a further 16 colour effects along the bottom row to apply preset hue and saturation values.
 
 Note that these are the default effects but they can be edited to do almost whatever you want!
 
@@ -281,7 +281,7 @@ Press the `Alt / Option` key while you're dragging to make a copy.
 
 Click and drag will drag ALL selected clips.
 
-To delete one or more clips either drag them off the clip deck (a trash can icon will appear) or use the DELETE button from the clip right click menu.
+To delete one or more clips either drag them off the clip deck (a trash can icon will appear) or use the DELETE button from the clip right-click menu.
 
 ### Laser overview panel
 
@@ -289,7 +289,7 @@ To delete one or more clips either drag them off the clip deck (a trash can icon
 
 The _Laser overview panel_ gives you a quick look into the status of your currently running lasers. The green square on the right shows you that the laser controller is happy. If it goes orange, you have occasional drop-outs, and if it's red it has disconnected. If it's grey, then it's not connected to a controller at all.&#x20;
 
-The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (ie more flickery). Anything below about 25fps will start to look a bit flickery.&#x20;
+The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (i.e. more flickery). Anything below about 25fps will start to look a bit flickery.&#x20;
 
 ### Connecting to lasers - Controller Assignment panel
 
@@ -310,7 +310,7 @@ Before you arm any lasers make sure to go through the [setting-up-lasers.md](../
 This panel shows you the settings for the _currently selected laser_ (represented by the number at the top). Change which laser is currently selected using the _tab_ key, hitting a number key, clicking a laser number in the _Laser Overview_ panel or in the _output view._
 
 * **Number button** arm and disarm the laser, if it's red then the laser is armed.
-* **Brightness** adjust laser brightness independent of the other lasers (and it's combined with the _global brightness_ setting - ie, if they're both at 50%, you're laser will be at 25%).
+* **Brightness** adjust laser brightness independent of the other lasers (and it's combined with the _global brightness_ setting - i.e., if they're both at 50%, your laser will be at 25%).
 * **Test Pattern** turns on a test pattern for this laser only (overrides the global test pattern setting)
 * **Orientation** corrects for lasers rigged sideways or upside-down.
 * **Flip Horizontal and Flip Vertical** reverses the output of the laser. Useful for output correction on inconsistently wired lasers.
@@ -330,8 +330,8 @@ If you are used to older laser software that relies on pre-calculated point stre
 
 The basic scanner settings are:
 
-* **Speed** is the scanner speed, ie how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
-* **Scanner sync** (sometimes known as _blank shift, previously Colour Shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in synch with each other. See [laser-settings](../setting-up/laser-settings/ "mention")
+* **Speed** is the scanner speed, i.e. how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
+* **Scanner sync** (sometimes known as _blank shift, previously Colour Shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in sync with each other. See [laser-settings](../setting-up/laser-settings/ "mention")
 
 The other advanced scanner settings are covered in the [advanced](../advanced/ "mention")chapter.
 

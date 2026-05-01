@@ -14,10 +14,10 @@ The default effects buttons 1-8 are under the zone buttons, and effects 9-24 are
 
 #### Applying an effect
 
-Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out. To fade in an effect without an APC40, click and drag up and down on the button. Or right click on the effect button and adjust the level slider.
+Press an effect button to toggle the effect, or even better, using the APC40 sliders 1-8 to fade effects in and out. To fade in an effect without an APC40, click and drag up and down on the button. Or right-click on the effect button and adjust the level slider.
 
 {% hint style="warning" %}
-Pressing the effect button will immediately activate that effect. However, note that if the level is set to zero, nothing will happen! Click/drag the button to change the level, or right click and use the _level_ slider, or use the APC40 faders.
+Pressing the effect button will immediately activate that effect. However, note that if the level is set to zero, nothing will happen! Click and drag the button to change the level, or right-click and use the _level_ slider, or use the APC40 faders.
 {% endhint %}
 
 #### Effects and the clip's zone delay
@@ -27,7 +27,7 @@ Effects pick up the zone delay setting for each currently running clip. So if yo
 {% hint style="info" %}
 How the clip's zone delay is inherited by effects is one of those things that is extremely hard to describe but obvious when you try it!
 
-I would argue that it is one of the most fun and creative tools built in to Liberation. Give it a try and you'll see what I mean!
+I would argue that it is one of the most fun and creative tools built into Liberation. Give it a try and you'll see what I mean!
 {% endhint %}
 
 #### Effect parameters
@@ -41,7 +41,7 @@ Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on
 {% endhint %}
 
 {% hint style="info" %}
-The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect. The _level_ is controlled by the fader on the APC40 or you can click-drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.
+The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect. The _level_ is controlled by the fader on the APC40 or you can click and drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.
 {% endhint %}
 
 #### The default effects
@@ -59,21 +59,21 @@ The small numbers you see on the effect buttons refer to the _level_ and _parame
 5. **Scale** :\
    Repeatedly scales everything from full to zero. The parameter adjusts the speed.
 6. **Hue** :\
-   Changes the hue of everything, but doesn't change the saturation (ie anything white stays white). The parameter adjusts the hue.
+   Changes the hue of everything, but doesn't change the saturation (i.e. anything white stays white). The parameter adjusts the hue.
 7. **Saturation and hue** :\
-   Changes the hue of everything and also fully saturates the colour (ie anything white changes to the colour). The parameter adjusts the hue.
+   Changes the hue of everything and also fully saturates the colour (i.e. anything white changes to the colour). The parameter adjusts the hue.
 8. **Flash** :\
    Repeatedly flashes the brightness of everything from full to zero. The parameter adjusts the flash speed.
 
 <figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-There are a further 16 colour effects along the bottom row to apply pre-set hue and saturation values.
+There are a further 16 colour effects along the bottom row to apply preset hue and saturation values.
 
 Note that these are the default effects but they can be edited to do almost whatever you want!
 
 ### Apply to groups
 
-You can choose which groups are affected by the effect. Right click and toggle the group check boxes labelled _Apply to groups._
+You can choose which groups are affected by the effect. Right-click and toggle the group checkboxes labelled _Apply to groups._
 
 I primarily use this setup when working with canvas graphics and laser beams separately. I assign all canvas clips to group 5 and then exclude this group from effects that I don't want to affect these graphical clips.
 
@@ -87,7 +87,7 @@ This functionality is disabled if the _MX Group_ setting is 0.
 
 ### Editing effects
 
-Right click on any effect, and click the _EDIT EFFECT_ button to open the effect editor. Notice that this editor is identical to the clip editor!
+Right-click on any effect, and click the _EDIT EFFECT_ button to open the effect editor. Notice that this editor is identical to the clip editor!
 
 Edit your effect in the same way that you would edit any clip. See [clip-editor](clip-editor/ "mention").
 
@@ -96,5 +96,5 @@ You need to have at least one creator node; this can be anything (line, circle, 
 When effects are applied, all creator nodes in the effect are substituted with the output of the currently running clips.
 
 {% hint style="warning" %}
-For extremely tedious technical reasons, the "trails" nodes are not enabled when inside a effect. The same applies for the "delay" setting inside pattern nodes (they use the same system). This will be fixed in future revisions.
+For extremely tedious technical reasons, the "trails" nodes are not enabled when inside an effect. The same applies for the "delay" setting inside pattern nodes (they use the same system). This will be fixed in future revisions.
 {% endhint %}

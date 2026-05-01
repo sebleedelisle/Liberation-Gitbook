@@ -17,7 +17,7 @@ Although it seems simple, it's quite a complex system to build, but by the start
 
 It's a node based visual editor (or [node graph architecture](https://en.wikipedia.org/wiki/Node_graph_architecture#Node_graph)) that will be familiar if you have used products like TouchDesigner, MaxMSP or VVVV. Although the clip editor is a little different and somewhat simpler as it's been designed specifically for vector graphics.
 
-You can open the Clip Editor by right clicking on the clip button and selecting _EDIT CLIP_. Or right click on an empty clip button and select _CREATE AND EDIT CLIP_.
+You can open the Clip Editor by right-clicking on the clip button and selecting _EDIT CLIP_. Or right-click on an empty clip button and select _CREATE AND EDIT CLIP_.
 
 ### Overview
 
