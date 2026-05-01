@@ -8,8 +8,7 @@
   ],
   "pluginsConfig": {
     "liberation": {
-      "repo": "https://github.com/sebleedelisle/Liberation-Gitbook",
-      "branch": "main"
+      "repo": "https://github.com/sebleedelisle/Liberation-Gitbook"
     }
   }
 }

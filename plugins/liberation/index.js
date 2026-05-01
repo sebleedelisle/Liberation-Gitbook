@@ -28,7 +28,6 @@ var STYLE_ICONS = {
 };
 
 var lastUpdatedCache = {};
-var branchCache;
 var languagesCache;
 var summaryCache = {};
 var outputTitleCache;
@@ -114,13 +113,6 @@ function git(args) {
   }
 }
 
-function getBranch(config) {
-  if (process.env.GITHUB_REF_NAME) return process.env.GITHUB_REF_NAME;
-  if (branchCache) return branchCache;
-  branchCache = git(["rev-parse", "--abbrev-ref", "HEAD"]);
-  return branchCache || getConfigValue(config, "branch", "main");
-}
-
 function getLastUpdated(path) {
   if (!path) return "";
   if (lastUpdatedCache[path] !== undefined) return lastUpdatedCache[path];
@@ -128,16 +120,9 @@ function getLastUpdated(path) {
   return lastUpdatedCache[path];
 }
 
-function buildEditUrl(repo, branch, path) {
-  if (!repo || !path) return "";
-  return repo.replace(/\/$/, "") + "/edit/" + encodeUrlPath(branch) + "/" + encodeUrlPath(path);
-}
-
-function encodeUrlPath(value) {
-  return String(value || "")
-    .split("/")
-    .map(encodeURIComponent)
-    .join("/");
+function buildSuggestIssueBaseUrl(repo) {
+  if (!repo) return "";
+  return repo.replace(/\/$/, "") + "/issues/new";
 }
 
 function normalizeDocPath(value) {
@@ -763,14 +748,13 @@ module.exports = {
     page: function(page) {
       var config = getPluginConfig(this);
       var repo = getConfigValue(config, "repo", "");
-      var branch = getBranch(config);
       var languageRoot = getLanguageRoot(this.config);
       var sourcePath = page.path || "";
       var repoPath = sourcePathForRepo(languageRoot, sourcePath);
       var title = cleanTitle(page.title || "");
       var metadata = {
         sourcePath: repoPath,
-        editUrl: buildEditUrl(repo, branch, repoPath),
+        suggestIssueBaseUrl: buildSuggestIssueBaseUrl(repo),
         lastUpdated: getLastUpdated(repoPath) || (languageRoot === "en-GB" ? getLastUpdated(sourcePath) : ""),
         title: title,
         currentLanguage: languageRoot,
