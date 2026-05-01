@@ -23,7 +23,7 @@ Zodra je de lasers in Liberation hebt ingesteld, kun je elke laser toewijzen aan
 <figure><img src="../.gitbook/assets/controller-assignment-laser-list" alt="" width="338"><figcaption><p>Een Ether Dream en een Helios DAC die respectievelijk aan lasers 2 en 3 zijn toegewezen</p></figcaption></figure>
 
 {% hint style="info" %}
-Let op: telkens wanneer je verbinding maakt met een controller, wordt de laser automatisch disarmed.
+Let op: telkens wanneer je verbinding maakt met een controller, wordt de laser automatisch gedeactiveerd voor output.
 {% endhint %}
 
 * Een oranje vierkant 🟧 betekent dat de controller af en toe verbindingsproblemen heeft. Dit wordt meestal veroorzaakt door een netwerkprobleem; zie [Probleemoplossing](../troubleshooting/ "mention").

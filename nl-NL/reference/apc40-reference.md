@@ -28,7 +28,7 @@ metaLinks:
 18. Tempo Multiplier Fader (0% - 200%)
 19. Play / Pause
 20. Toggle Record Timeline
-21. Arm / Disarm (je moet Shift indrukken om te armen)
+21. Arm / Disarm (je moet Shift indrukken om te activeren)
 22. Tempo bar reset
 23. Tap Tempo
 24. Toggle Zone Delay (gebruik met Shift om door Delay/Chase te schakelen, of met Alt om Retrigger in of uit te schakelen)

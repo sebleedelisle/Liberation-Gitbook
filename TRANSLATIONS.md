@@ -39,7 +39,7 @@ The translation prompt asks for a clear, friendly, practical technical-manual to
 Language-specific reader address:
 
 * German: informal `du`, not formal `Sie`.
-* Dutch: informal `je/jij`.
+* Dutch: informal `je/jij`; use natural Dutch technical-manual prose. Translate normal headings such as `Licences` to `Licenties` unless they are exact UI labels. Keep exact UI labels in English, but translate explanatory prose around them. Avoid awkward English/Dutch hybrids such as `arm-en`; for prose actions and states like `arm`, `disarm`, `armed`, and `disarmed`, use natural Dutch wording such as `activeren`, `deactiveren`, `inschakelen voor output`, or `voor output activeren` depending on context. Do not leave explanatory phrases such as `currently selected clip` in English in running Dutch prose; use natural Dutch such as `momenteel geselecteerde clip`.
 * French: `vous`.
 * Spanish: European Spanish with informal `tu`.
 * Danish, Norwegian Bokmål, Swedish, Icelandic, Italian, and Brazilian Portuguese: informal direct address.

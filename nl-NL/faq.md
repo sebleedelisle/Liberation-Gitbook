@@ -75,7 +75,7 @@ Zie [Compatibele lasers en controllers (DACs)](hardware/compatible-lasers-and-co
 
 Ja, Liberation werkt rechtstreeks met elke LaserCube. Zie [LaserCube](hardware/lasercube.md "mention")
 
-## Licences
+## Licenties
 
 #### **Wat is de prijs van een licentie?**
 
@@ -85,7 +85,7 @@ Zie de [shop](https://liberationlaser.com/shop)-pagina voor de huidige prijzen.
 
 Zie de [shop](https://liberationlaser.com/shop)-pagina voor de huidige licentieopties.
 
-Let op: je kunt op **elk** niveau, zelfs het gratis niveau, shows instellen, previewen en ontwerpen met zoveel lasers als je wilt. Er zijn verder helemaal geen beperkingen, behalve het aantal lasers dat je kunt _arm-en_. Alle andere functies van Liberation zijn voor iedereen beschikbaar.
+Let op: je kunt op **elk** niveau, zelfs het gratis niveau, shows instellen, previewen en ontwerpen met zoveel lasers als je wilt. Er zijn verder helemaal geen beperkingen, behalve het aantal lasers dat je voor output kunt activeren. Alle andere functies van Liberation zijn voor iedereen beschikbaar.
 
 #### **Kan ik upgraden naar een nieuw niveau?**
 
@@ -173,7 +173,7 @@ Dit is de frame-latency, oftewel de maximale tijd tussen het genereren van een f
 
 #### Hoe pas ik zones en instellingen voor een clip aan zonder die clip te starten?
 
-`Alt / Option`-klik om de clip de _currently selected clip_ te maken, maar zonder hem te activeren. Zie ook [Clips starten / stoppen](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-klik op een clip om die als _momenteel geselecteerde clip_ te selecteren, zonder hem te activeren. Zie ook [Clips starten / stoppen](clips/starting-stopping-clips.md "mention")
 
 #### Hoe kopieer ik clips?
 

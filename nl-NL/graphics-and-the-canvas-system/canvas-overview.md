@@ -34,7 +34,7 @@ Als je de canvas-knoppen in het clip deck niet ziet, probeer dan door de beam zo
 Canvas-zones zijn gebieden binnen de canvas die je naar een laser kunt sturen. Ze worden in de canvas-weergave weergegeven als roze rechthoeken met alleen een rand. Je kunt met de rechtermuisknop op elke zone klikken en de lasers selecteren waaraan je die zone wilt toewijzen. Als je nu overschakelt naar de _OUTPUT_-weergave voor die laser, zie je dat er een nieuwe zone is verschenen.
 
 {% hint style="danger" %}
-WAARSCHUWING - als de laser armed is, kun je ineens content gaan projecteren in een standaard canvas-zone. Je kunt de laser het beste disarmen voordat je er canvas-zones aan toewijst.
+WAARSCHUWING - als de laser voor output geactiveerd is, kun je ineens content gaan projecteren in een standaard canvas-zone. Je kunt de laser het beste deactiveren voordat je er canvas-zones aan toewijst.
 {% endhint %}
 
 {% hint style="info" %}

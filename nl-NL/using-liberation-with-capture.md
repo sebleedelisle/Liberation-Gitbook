@@ -26,21 +26,21 @@ Alle geconfigureerde lasers in Liberation verschijnen in Capture als beschikbare
 
 Om daadwerkelijk output te zien:
 
-* De laser moet in Liberation armed zijn
+* De laser moet in Liberation voor output geactiveerd zijn
 * De bron moet in Capture aan een laser fixture gekoppeld zijn
 
-Zodra de laser armed is, visualiseert Capture de live outputstream van Liberation. Als een laser in Liberation disarmed is, blijft deze in Capture zichtbaar als bron, maar wordt er niets uitgevoerd.
+Zodra de laser voor output geactiveerd is, visualiseert Capture de live outputstream van Liberation. Als een laser in Liberation niet voor output geactiveerd is, blijft deze in Capture zichtbaar als bron, maar wordt er niets uitgevoerd.
 
 Zie de documentatie op [capture.se](https://www.capture.se/) voor meer instructies en ondersteuning bij het instellen van lasers in Capture. <br>
 
-### Licentielimieten en armed lasers
+### Licentielimieten en voor output geactiveerde lasers
 
 Capture-verbindingen worden precies hetzelfde behandeld als fysieke laser-outputs.
 
 Dat betekent:
 
-* Je kunt slechts zoveel lasers armen als je licentieniveau toestaat
-* Alleen armed lasers sturen actief data naar Capture
+* Je kunt slechts zoveel lasers voor output activeren als je licentieniveau toestaat
+* Alleen voor output geactiveerde lasers sturen actief data naar Capture
 
 ### Heb ik Capture nodig?
 
@@ -56,4 +56,4 @@ Als lasers niet in Capture verschijnen:
 
 * Controleer of beide applicaties zich op hetzelfde netwerk bevinden
 * Controleer je firewallinstellingen
-* Zorg dat de laser in Liberation armed is
+* Zorg dat de laser in Liberation voor output geactiveerd is
