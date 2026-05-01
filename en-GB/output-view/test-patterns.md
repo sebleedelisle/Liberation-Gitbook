@@ -8,7 +8,7 @@ metaLinks:
 
 While editing and adjusting your zone, it's useful to output a test pattern. You can turn on a test pattern across every enabled zone using the toggle button in the top icon bar, and choose the test pattern using the slider to the right of it.
 
-If you want a test pattern only on the laser you're currently zoning, use the toggle button on the toolbar on the left of the _Output_ view. Click/drag the number beneath it to select the test pattern.
+If you want a test pattern only on the laser you're currently zoning, use the toggle button on the toolbar on the left of the _Output_ view. Click and drag the number beneath it to select the test pattern.
 
 ### Test pattern list
 

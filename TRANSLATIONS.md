@@ -2,6 +2,20 @@
 
 English in `en-GB` is the source of truth. Other language folders mirror the same Markdown paths.
 
+Keep the English source consistent with [STYLE_GUIDE.md](STYLE_GUIDE.md). Before translating English edits, run:
+
+```sh
+npm run check:english-style
+```
+
+`en-US` is a generated English variant rather than an AI translation. Regenerate it from `en-GB` after English edits:
+
+```sh
+npm run localize:en-us
+```
+
+The generator applies conservative UK-to-US spelling and terminology substitutions while preserving Markdown link targets, image paths, URLs, code, keyboard shortcuts, and the underlying file structure.
+
 ## API keys
 
 For OpenAI:
@@ -102,6 +116,8 @@ npm run translate:docs -- de-DE --language-name German --path setting-up/laser-s
 Run the normal checks after translating:
 
 ```sh
+npm run check:english-style
+npm run localize:en-us
 npm run check:translations:strict
 npm run check:links
 npm run build:site

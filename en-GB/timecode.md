@@ -22,7 +22,7 @@ SMPTE stands for Society of Motion Picture and Television Engineers, who defined
 
 You can receive an LTC timecode signal through any sound interface on your computer, but it's recommended to use a professional interface with at least one adjustable XLR input, and a monitoring capability.
 
-I've had good experience with the [M-Audio 192/6](https://www.m-audio.com/audio-midi-interfaces/air-192-6.html) as it has headphone monitoring, 2 XLR inputs and it doesn't need any special drivers (on macOS at least). If you're only ever going to use it for timecode you can get the slightly cheaper [M-Audio 192/4](https://www.m-audio.com/audio-midi-interfaces/air-192-4.html) (which only has one input and no MIDI), but honestly any half decent sound interface should work.
+I've had good experience with the [M-Audio 192/6](https://www.m-audio.com/audio-midi-interfaces/air-192-6.html) as it has headphone monitoring, 2 XLR inputs and it doesn't need any special drivers (on macOS at least). If you're only ever going to use it for timecode you can get the slightly cheaper [M-Audio 192/4](https://www.m-audio.com/audio-midi-interfaces/air-192-4.html) (which only has one input and no MIDI), but honestly any half-decent sound interface should work.
 
 {% hint style="info" %}
 LTC timecode signals are typically distributed via balanced XLR cables as they are robust enough to transmit low level audio signals across long distances. (XLR is the barrel jack connector usually used with microphones)
@@ -49,7 +49,7 @@ If your sound interface doesn't have any kind of input monitoring you can check 
 ![](.gitbook/assets/timecode-panel.png)
 
 {% hint style="info" %}
-Note that there are separate options in the drop down menu for each input channel in your sound interface
+Note that there are separate options in the drop-down menu for each input channel in your sound interface
 
 <img src=".gitbook/assets/m-audio.png" alt="" data-size="original">
 {% endhint %}
@@ -64,9 +64,9 @@ Notice the square on the left, if you are receiving a valid timecode signal, thi
 4. Adjust the start offset (in hours, minutes, seconds, frames) to match the start of the song. If you have multiple timelines, you'll need to set these options for each one separately.
 
 {% hint style="info" %}
-It's a common convention in the touring world to have each song start at a different hour ie 01:00:00:00 for the first song, 02:00:00:00 for the second song and so on.
+It's a common convention in the touring world to have each song start at a different hour i.e. 01:00:00:00 for the first song, 02:00:00:00 for the second song and so on.
 
 Liberation will automatically switch to the timeline dependent on the timecode, so you never need to manually change timelines during a show.
 {% endhint %}
 
-Note that unlike MIDI Clock and Ableton Link, SMPTE is an _absolute_ time system, measured in hours, minutes, seconds and frames. Liberation's core time system is based on beats and bars, so when you receive timecode, it will use the tempo set up in the timeline. You'll need to make sure that this tempo is in sync with whatever music is also synced to the timecode.
+Note that unlike MIDI Clock and Ableton Link, SMPTE is an _absolute_ time system, measured in hours, minutes, seconds and frames. Liberation's core time system is based on beats and bars, so when you receive timecode, it will use the tempo set in the timeline. You'll need to make sure that this tempo is in sync with whatever music is also synced to the timecode.

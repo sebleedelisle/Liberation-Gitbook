@@ -1,0 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/connecting-to-an-artnet-node
+---
+
+# ◼️ Connecting to an Art-Net node
+

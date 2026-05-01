@@ -34,13 +34,13 @@ Liberation has been designed and optimised around the popular APC40 Mk2 MIDI con
 
 We are slowly adding more MIDI controllers as we go and currently also support the APC Mini Mk2 and the MIDI Fighter Twister.
 
-There is also the MIDI Send/Receive system that offers additional MIDI control. See [midi-send-receive.md](midi-control/midi-send-receive.md "mention")
+There is also the MIDI Send/Receive system that offers additional MIDI control. See [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
-See [midi-control](midi-control/ "mention")for more information.
+See [MIDI control](midi-control/ "mention")for more information.
 
 #### **Can I use it with any MIDI controller?**
 
-We are currently working on a configurable MIDI system that will allow this in future. In the meantime, some users have had success using a MIDI interpreter that can convert any MIDI messages for the MIDI Send/Receive system, but this is a fiddly and advanced process. Search the [forum](https://forum.liberationlaser.com) for advice on this set up but realistically the APC40 is the best option.
+We are currently working on a configurable MIDI system that will allow this in the future. In the meantime, some users have had success using a MIDI interpreter that can convert any MIDI messages for the MIDI Send/Receive system, but this is a fiddly and advanced process. Search the [forum](https://forum.liberationlaser.com) for advice on this setup but realistically the APC40 is the best option.
 
 ## Laser controllers
 
@@ -137,7 +137,7 @@ If not, the deauthorisation will take effect when the subscription renews or whe
 
 ### Using Liberation
 
-#### The default set up has 8 lasers - how do I change this?
+#### The default setup has 8 lasers - how do I change this?
 
 See [setting-up-your-project.md](setting-up/setting-up-your-project.md "mention") and [adding-removing-lasers.md](setting-up/adding-removing-lasers.md "mention")
 

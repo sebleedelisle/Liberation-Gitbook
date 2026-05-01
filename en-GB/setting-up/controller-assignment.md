@@ -30,10 +30,10 @@ Note that whenever you connect to a controller, the laser will be automatically 
 * A red square 🟥 means that the controller cannot be reached, see [troubleshooting](../troubleshooting/ "mention").
 * The _disconnect button_ (X) disconnects the controller but doesn't clear it from the laser assignment. You can then use the _reconnect button_ (refresh arrow icon) to reconnect it or instead click the _disconnect button_ again to clear the assignment.
 * _Advanced feature :_ Open the controller analytics panel by clicking the button that looks like a chart. This is an advanced feature that gives you detailed information about the data stream and can help to troubleshoot problems. (This option may not available for some controller types.)
-* You can use the _rename button_ (pencil) to rename this controller to whatever you want. It makes sense to name it in a way that makes it easy to associate it with particular hardware. If it's built in to a laser you may want to name it accordingly, ie _LaserCube Ultra #1_ or _Triton T5 #3._ These names will be saved with your Liberation installation and will appear from now on; it can be really helpful for you to quickly identify your lasers.
+* You can use the _rename button_ (pencil) to rename this controller to whatever you want. It makes sense to name it in a way that makes it easy to associate it with particular hardware. If it's built into a laser you may want to name it accordingly, i.e. _LaserCube Ultra #1_ or _Triton T5 #3._ These names will be saved with your Liberation installation and will appear from now on; it can be really helpful for you to quickly identify your lasers.
 
 {% hint style="info" %}
-Pro tip - **double click** on a controller on the right to automatically assign it to the next available laser on the left. This can be a real time saver if you have lots of lasers to assign!
+Pro tip - **double-click** on a controller on the right to automatically assign it to the next available laser on the left. This can be a real time saver if you have lots of lasers to assign!
 {% endhint %}
 
 You can use the _DISCONNECT ALL_ and _RECONNECT ALL_ buttons to quickly reset all the connections. This is useful if you are having network issues.

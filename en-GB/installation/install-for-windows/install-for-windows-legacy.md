@@ -9,7 +9,7 @@ metaLinks:
 
 ### Compatibility
 
-Windows 10 or 11 64 bit machines. High spec machines recommended if you want to run large shows. The faster your computer is, the smoother the animated laser output will be.
+Windows 10 or 11 64-bit machines. High-spec machines recommended if you want to run large shows. The faster your computer is, the smoother the animated laser output will be.
 
 ### Installation process
 
@@ -23,7 +23,7 @@ Click _Download latest for Windows_ (the version numbers may change) and you'll 
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-This will open your downloads folder. Find the downloaded file (usually at the top), right click, and select "Extract all"
+This will open your Downloads folder. Find the downloaded file (usually at the top), right-click, and select "Extract all"
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -31,11 +31,11 @@ A new panel will open asking you where you would like to install Liberation - yo
 
 <figure><img src="../../.gitbook/assets/windows-select-destination.png" alt="" width="375"><figcaption></figcaption></figure>
 
-After Windows has finished unzipping it will show you the install file. Double click Liberation.exe to run the app.
+After Windows has finished unzipping it will show you the install file. Double-click Liberation.exe to run the app.
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation needs permission to access files and the network so Windows will probably pop up a bunch of requesters. Make sure to accept everything or Liberation may not work properly.
+Liberation needs permission to access files and the network so Windows will probably show a few permission prompts. Make sure to accept everything or Liberation may not work properly.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -12,12 +12,12 @@ metaLinks:
 Click and drag to move a clip. If more than one clip is selected (see [starting-stopping-clips.md](starting-stopping-clips.md "mention")) they will all be moved. Hold down `Alt / Option` to duplicate them. Drop the clip(s) onto an empty space.
 
 {% hint style="info" %}
-If you need to select a large number of clips, you can click / drag a lasso, and then scroll the clipdeck while still dragging (either using cursor keys, the APC 40 or sideways touchpad/mouse scroll). The lasso will be extended off the edge of the clip deck.
+If you need to select a large number of clips, you can click and drag a lasso, and then scroll the clip deck while still dragging (either using cursor keys, the APC40 or sideways touchpad/mouse scroll). The lasso will be extended off the edge of the clip deck.
 {% endhint %}
 
 ### Deleting clips
 
-To delete a single clip, use the right click menu.
+To delete a single clip, use the right-click menu.
 
 To delete multiple clips, select them (either with `Alt / Option + Shift`-click or by dragging the lasso) and drag them off the clip deck.
 

@@ -9,13 +9,13 @@ metaLinks:
 
 **Clip on and off are triggered by MIDI note on / off on channels 1 to 14**
 
-Clips have an horizontal (x) and vertical (y) position, right-click on a clip and you’ll see its position. Midi can trigger clips starting at 0,0.
+Clips have a horizontal (x) and vertical (y) position, right-click on a clip and you’ll see its position. MIDI can trigger clips starting at 0,0.
 
 {% hint style="info" %}
 Note that clip control with this system is absolute and the clip positions do not change as you scroll the clip deck.
 {% endhint %}
 
-Midi channel 1, note 1 is clip 0,0, note 2 is clip 0,1 note 3 is clip 0,2 moving down in rows and along in columns. Once it gets to 128 it moves to the next channel and starts again. So you have a total of 128 x 14 = 1792 clips that are accessible via MIDI.
+MIDI channel 1, note 1 is clip 0,0, note 2 is clip 0,1 note 3 is clip 0,2 moving down in rows and along in columns. Once it gets to 128 it moves to the next channel and starts again. So you have a total of 128 x 14 = 1792 clips that are accessible via MIDI.
 
 MIDI note for clip coordinates :
 
@@ -48,4 +48,4 @@ CC 9 : Rotation 2D (Z)
 And importantly :\
 CC 15 : Global brightness
 
-Please note that this system was originally designed for recording and playback, allowing you to use Logic, Ableton or other DAW to create timeline animations. Although you can use it for live control, it has not been optimised for that use, and some functions for live control are missing compared to the APC40 set up.
+Please note that this system was originally designed for recording and playback, allowing you to use Logic, Ableton or other DAW to create timeline animations. Although you can use it for live control, it has not been optimised for that use, and some functions for live control are missing compared to the APC40 setup.

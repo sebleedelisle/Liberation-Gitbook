@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ Setting up your project
 
-When you open Liberation for the first time, it will be set up with its default configuration. But you'll likely want to adjust this to more closely match your own set up.
+When you open Liberation for the first time, it will be set up with its default configuration. But you'll likely want to adjust this to more closely match your own setup.
 
 Here is an overview of the process :
 
@@ -26,7 +26,7 @@ Here is an overview of the process :
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Change each clip's zones :**\
-    Trigger each clip by clicking its button, and then toggle the zones and the X and Y flip using the on screen buttons. See [clips](../clips/ "mention").
+    Trigger each clip by clicking its button, and then toggle the zones and the X and Y flip using the on-screen buttons. See [clips](../clips/ "mention").
 
     \\
 

@@ -25,4 +25,4 @@ But it works really well and gives the illusion of a black filled shape.
 
 ### Depth sorting
 
-As some shapes can _cover over_ other shapes, Liberation has to sort them by their depth. And by default, elements are depth sorted by their z position. If they are at the same z position they are sorted by their layer position which can be changed using the _MOVE TO FRONT_ and _MOVE TO BACK_ buttons inside each creator.
+As some shapes can _cover_ other shapes, Liberation has to sort them by their depth. And by default, elements are depth sorted by their z position. If they are at the same z position they are sorted by their layer position which can be changed using the _MOVE TO FRONT_ and _MOVE TO BACK_ buttons inside each creator.

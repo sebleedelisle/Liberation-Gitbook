@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Moves all content along the x, y, and/or z axes. Note that the coordinate system is centered, and extends to +/-200 in the x and y axes. See [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Moves all content along the x, y, and/or z axes. Note that the coordinate system is centred, and extends to +/-200 in the x and y axes. See [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - the distance to move along the x axis (left - right).
 * **y** - the distance to move along the y axis (top - bottom).

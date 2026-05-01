@@ -15,7 +15,7 @@ The Alt zone system lets you create an alternate zone for any existing zone, and
 
 ### Adding an alternate zone
 
-In the output view, right click on a zone and click _ADD ALT ZONE_. Notice that a new green coloured zone appears. You can edit and adjust this in exactly the same way as any of your zones. You'll need to enable Alt zones in the top icon bar in order to see the test patterns.
+In the output view, right-click on a zone and click _ADD ALT ZONE_. Notice that a new green coloured zone appears. You can edit and adjust this in exactly the same way as any of your zones. You'll need to enable Alt zones in the top icon bar in order to see the test patterns.
 
 ### Switching to your Alt zones
 
@@ -23,4 +23,4 @@ As soon as you add any alt zone a toggle button appears in the top icon bar labe
 
 ### How to disable instead of move a zone
 
-Add an Alt zone, right click on it and click the _Disable output_ button (circle with a line through it). Now when you enable Alt zones, content will be redirected to this now disabled alt zone.
+Add an Alt zone, right-click on it and click the _Disable output_ button (circle with a line through it). Now when you enable Alt zones, content will be redirected to this now disabled alt zone.

@@ -31,7 +31,7 @@ If you can't see the canvas buttons in the clip deck, try scrolling the beam zon
 
 ### Canvas zones
 
-Canvas zones are areas within the canvas that you choose to send to a laser. They are represented as pink outline rectangles in the canvas view. You can right click on each zone and select the lasers you want it to be assigned to. If you now switch to the _OUTPUT_ view for that laser you'll see a new zone has appeared.
+Canvas zones are areas within the canvas that you choose to send to a laser. They are represented as pink outline rectangles in the canvas view. You can right-click on each zone and select the lasers you want it to be assigned to. If you now switch to the _OUTPUT_ view for that laser you'll see a new zone has appeared.
 
 {% hint style="danger" %}
 WARNING - if the laser is armed you could suddenly start projecting content in a default canvas zone. It's best to disarm the laser before assigning canvas zones to it.
@@ -43,7 +43,7 @@ You can also assign a canvas zone to a laser by clicking the _add canvas zone_ b
 
 ### Guide images
 
-You can add a guide image into the canvas, and use this as a template for your graphics. It's advisable to adjust the colour tint on the guide image (right click menu) and darken it down to more easily see your content over it.
+You can add a guide image into the canvas, and use this as a template for your graphics. It's advisable to adjust the colour tint on the guide image (right-click menu) and darken it down to more easily see your content over it.
 
 {% hint style="info" %}
 For architectural mapping I've found it helpful to produce an 'unwrapped' visual of the building that represents all surfaces on the building as a flat undistorted image. The perspective correction for the various sections can be done using the canvas zone in the _OUTPUT_ view.
@@ -55,7 +55,7 @@ For architectural mapping I've found it helpful to produce an 'unwrapped' visual
 
 ### Canvas in the 3D visualiser
 
-It would probably be fiddly (to say the least) to recreate your complicated multi laser projection system in the 3D visualiser! So instead, you have the option to place your canvas within the 3D space. Activate the _Show canvas_ checkbox in the _3D visualiser settings_ panel. (Any guide images you have in the canvas will also show up in the visualiser.)
+It would probably be fiddly (to say the least) to recreate your complicated multi-laser projection system in the 3D visualiser! So instead, you have the option to place your canvas within the 3D space. Activate the _Show canvas_ checkbox in the _3D visualiser settings_ panel. (Any guide images you have in the canvas will also show up in the visualiser.)
 
 {% hint style="info" %}
 Note that the visualiser will still show the canvas projections as atmospheric effects coming from the lasers. You can either just move them out the view or, if you're fancy, you can line them up with the canvas!

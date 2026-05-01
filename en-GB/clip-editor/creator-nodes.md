@@ -67,7 +67,7 @@ Liberation is compatible with the _SVGTiny_ format. InkScape is recommended but 
 Once an SVG is loaded, the content is converted and saved within the clip, so you don't need to maintain a reference to the file, unless you later want to change the mask settings.
 {% endhint %}
 
-* **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. This will be set automatically if your SVG has any filled shapes. If it has no filled shapes, it will be disabled. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** - will process any filled shape as a mask, i.e. filled in with black. This will be set automatically if your SVG has any filled shapes. If it has no filled shapes, it will be disabled. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - if the shapes in your SVG don't have an outline, then we can't draw them! This option adds an outline (or _stroke_) to any filled shape. If your SVG doesn't have any stroked shapes, It is set automatically. If it doesn't have any filled shapes, it's disabled.
 * **Invert black lines** - if all of the lines in your SVG are black then you can't see them! This option turns them white. It's set automatically if your SVG only has black shapes, but it's disabled if you don't have any.
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
@@ -87,7 +87,7 @@ Creates an animation from a sequence of SVG files.
 Once the SVG sequence is loaded, the content is converted and saved within the clip, so you don't need to maintain a reference to the files, unless you later want to change the mask settings.
 {% endhint %}
 
-* **Use fills as masks** - will process any filled shape as a mask, ie filled in with black. This will be set automatically if any of your SVGs have filled shapes. If none have any filled shapes, it will be disabled. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** - will process any filled shape as a mask, i.e. filled in with black. This will be set automatically if any of your SVGs have filled shapes. If none have any filled shapes, it will be disabled. See [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - if the shapes in your SVGs don't have any outlines, then we can't draw them! This option adds an outline (or _stroke_) to any filled shape. If your SVGs don't have any stroked shapes, It is set automatically. If none have any filled shapes, it's disabled.
 * **Invert black lines** - if all of the lines in your SVGs are black then you can't see them! This option turns them white. It's set automatically if your SVGs only have black shapes, but it's disabled if you don't have any.
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")

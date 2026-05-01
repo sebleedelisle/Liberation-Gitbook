@@ -13,14 +13,14 @@ Creates “laser harp” style effects where incoming MIDI notes trigger beams o
 
 You can choose which MIDI interface Liberation listens to in **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – which MIDI channel to listen to (0 = all channels, 1–16 = specific channel)
+* **MIDI channel** – which MIDI channel to listen to (0 = all channels, 1–16 = specific channel)
 * **width** – total width that the notes spread across.
-* **midi note min / max** – the lowest and highest MIDI note values in the range.
+* **MIDI note min / max** – the lowest and highest MIDI note values in the range.
 * **ignore out of range notes** – filters out any notes beyond the set range. If disabled, out-of-range notes are "clamped" to the nearest available note (high notes trigger the top of the range, low notes trigger the bottom).
 * **auto extend range** – automatically widens the range if notes are played outside of it.
 
 {% hint style="info" %}
-Not sure what range of notes you’re getting? Switch on **auto extend range**, set **midi note min** really high and **midi note max** really low, then play through your notes. The system will catch them all and expand the range for you. Once you’ve got everything, just turn **auto extend range** off to lock it in.
+Not sure what range of notes you’re getting? Switch on **auto extend range**, set **MIDI note min** really high and **MIDI note max** really low, then play through your notes. The system will catch them all and expand the range for you. Once you’ve got everything, just turn **auto extend range** off to lock it in.
 {% endhint %}
 
 * **leave all notes visible** – creates beams or shapes for all notes in the range whether or not they’re playing, giving you a “laser harp” effect.

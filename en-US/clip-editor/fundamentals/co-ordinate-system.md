@@ -1,0 +1,25 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/fundamentals/co-ordinate-system
+---
+
+# 🟩 Coordinate system
+
+Clip content uses an x/y coordinate system where the origin (0,0) is at the center of the screen.
+
+* In the horizontal axis x, left is negative, right is positive.
+* In the vertical axis y, up is negative, down is positive.
+
+The clip has a width and height of 400 pixels, so the visible area coordinates range from -200 to 200.
+
+{% hint style="info" %}
+The clip editor creates _vector_ shapes. This means that they are not stored as pixels but as sets of coordinates that define how the shapes are drawn. This is similar to how Inkscape or Illustrator defines content, as opposed to Photoshop.
+{% endhint %}
+
+### 3D
+
+Additionally you can move around in 3D space, forwards and backwards along the z axis. By default everything is at the z position of 0.
+
+* In the z axis, backwards away from you is negative, forwards towards you is positive.
