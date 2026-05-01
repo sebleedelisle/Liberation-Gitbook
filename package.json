@@ -24,6 +24,6 @@
     "translate:stale:dry-run": "for lang in zh-CN de-DE nl-NL fr-FR es-ES da-DK nb-NO sv-SE ja-JP is-IS fi-FI hu-HU it-IT pl-PL pt-BR ko-KR zh-HK vi-VN tr-TR cs-CZ hr-HR ru-RU ar zh-TW; do python3 scripts/translate_docs.py \"$lang\" --mode stale --dry-run; done",
     "translate:de": "python3 scripts/translate_docs.py de-DE --language-name German --update-langs",
     "translate:de:stale": "python3 scripts/translate_docs.py de-DE --language-name German --mode stale",
-    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 -S node_modules,_book,zh-CN,zh-HK,zh-TW,de-DE,nl-NL,fr-FR,es-ES,da-DK,nb-NO,sv-SE,ja-JP,is-IS,fi-FI,hu-HU,it-IT,pl-PL,pt-BR,ko-KR,vi-VN,tr-TR,cs-CZ,hr-HR,ru-RU,ar -L Sie,te,tekst,titel,adres,thay,oder,remplacement || python3 -m codespell -q 3 -S node_modules,_book,zh-CN,zh-HK,zh-TW,de-DE,nl-NL,fr-FR,es-ES,da-DK,nb-NO,sv-SE,ja-JP,is-IS,fi-FI,hu-HU,it-IT,pl-PL,pt-BR,ko-KR,vi-VN,tr-TR,cs-CZ,hr-HR,ru-RU,ar -L Sie,te,tekst,titel,adres,thay,oder,remplacement"
+    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 en-GB LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te || python3 -m codespell -q 3 en-GB LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te"
   }
 }
