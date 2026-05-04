@@ -14,7 +14,13 @@ Change the output size of the clip using _Scale X_ and _Scale Y_. They are locke
 
 Change the horizontal and vertical position of the clip using _Shift X_ and _Shift Y_.
 
-_Zone Delay/Chase_ is such an fun feature it gets its own section. [zone-delay-chase.md](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ is such a fun feature it gets its own section. [zone-delay-chase.md](zone-delay-chase.md "mention")
+
+### Parameters panel
+
+The panel to the right of the clip deck shows eight contextual parameters. With a clip selected, the first controls are the selected clip's _Shift X_, _Shift Y_ and _Zone Delay_, followed by the global _Spin_ and _Scale_ controls.
+
+These same parameters are mirrored to supported MIDI controllers. If no clip is selected, the clip-specific slots are blank. If you hold a group button, the first two controls change to that group's fade in and fade out times.
 
 ### Locking clips
 

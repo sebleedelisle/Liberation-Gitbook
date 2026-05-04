@@ -19,7 +19,7 @@ metaLinks:
 9. Group Buttons
 10. Stop All Clips (Press twice to immediately stop all clips without their fade settings)
 11. Clip deck Scroll
-12. Clip / global parameters
+12. Contextual Parameters panel controls
 13. Clip Page Left/Right
 14. Zone Page Left/Right
 15. Alt button (allows for clip selection)
@@ -35,3 +35,5 @@ metaLinks:
 25. Nudge tempo + and -
 26. Tempo Scroll
 27. Foot Pedal, Tap Tempo
+
+The Device Control knobs follow the same contextual parameters shown in the on-screen Parameters panel. With a clip selected they control clip shift, zone delay, global spin and global scale. If a group button is held, the first controls switch to that group's fade in and fade out times.

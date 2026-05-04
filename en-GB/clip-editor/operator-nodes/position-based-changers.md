@@ -9,7 +9,7 @@ metaLinks:
 
 This family of nodes modifies content according to position. By default, the effect is applied along a horizontal axis (left to right), but you can rotate this axis to any angle. Each node also includes a _radial_ mode, where the effect is driven by the angle of each point relative to the centre.
 
-* **Colour Changer by Position** – shifts colours across the chosen axis or around the radial angle.\
+* **Colour Changer by Position** – applies a gradient across the chosen axis or around the radial angle.\
   \&#xNAN;_Example: Create a rainbow gradient sweeping across a line, or use radial mode on a circle to produce a colour wheel effect._
 * **Wave Shift by Position** – applies a sine wave distortion, offsetting the content vertically (or perpendicular to the chosen axis).\
   \&#xNAN;_Example: Make a line ripple like water, or use radial mode to make a circle pulse outward from the centre._
@@ -29,6 +29,7 @@ This node applies colour changes across your content based on position. By defau
 * **linear angle** – rotates the axis of the effect. 0° = horizontal.
 * **radial** – switches to radial mode, applying colours based on the angle from the centre.
 * **radial smooth loop** – automatically adjusts the wavelength so it divides evenly into 100% of the circle, preventing a visible seam where the cycle wraps.
+* **legacy mode** – switches back to the older start/end HSB sliders. Leave this off to use the newer gradient editor.
 
 **Colour Modes**
 
@@ -46,17 +47,32 @@ These determine which aspects of the colour adjustments are applied to the conte
   * _FIXED_ – brightness is set to the specified value.
   * _MULTIPLY_ – brightness is scaled by the specified value. This preserves dynamics (e.g. flashing elements still flash, but within the limited brightness range).
 
-**Start / End Values**
+**Gradient editor**
 
-These sliders define the colour range applied across the chosen axis (or radial sweep).
+Uses the same gradient editor as [colour-changer.md](colour-changer.md "mention"), but it maps the gradient across the content by position.
 
-* **start hue** – the hue at the beginning of the gradient.
-* **end hue** – the hue at the end of the gradient.
-* **start saturation** – saturation at the beginning.
-* **end saturation** – saturation at the end.
-* **start brightness** – brightness at the beginning.
-* **end brightness** – brightness at the end.
+* Click the gradient bar to add a colour stop.
+* Left-click a stop to select it, then drag it sideways to move it.
+* Drag a selected stop down away from the bar, or press Delete/Backspace, to remove it. A gradient always keeps at least two stops.
+* Right-click a stop to edit it with the colour picker.
+* Use **Position**, **Hue**, **Saturation** and **Brightness** to edit the selected stop precisely.
+* **interpolation** chooses how colours are blended between stops:
+  * **HSB** – blends hue, saturation and brightness. This is best for smooth rainbow-style movement around the colour wheel.
+  * **RGB** – blends red, green and blue values directly. This often feels more like a screen or lighting console colour fade.
+  * **NONE** – jumps from one stop to the next with no blend.
+* **hue direction** is available in HSB interpolation:
+  * **AUTO** – takes the shortest route around the hue wheel.
+  * **FORWARDS** – always travels forwards through hue values.
+  * **BACKWARDS** – always travels backwards through hue values.
 * **blend** – mixes the colour change with the original colours. At 100%, the effect fully replaces the original colours.
+
+**Legacy start / end values**
+
+If **legacy mode** is on, the gradient editor is replaced with the older controls:
+
+* **start hue / end hue** – hue at the beginning and end of the range.
+* **start saturation / end saturation** – saturation at the beginning and end of the range.
+* **start brightness / end brightness** – brightness at the beginning and end of the range.
 
 **Example 1: Sliding Rainbow Gradient**
 
@@ -64,7 +80,7 @@ Starting with default settings :
 
 1. Leave the node in **Linear** mode (0° angle = horizontal).
 2. Leave **wavelength** at 100% (spans the full width, and should be the default).
-3. Leave the start and end values as default.
+3. Leave the default gradient in place.
 4. Enable **repeat**.
 5. Add a **Sawtooth Oscillator** to the **offset** setting that goes from 0% to 100%.
 
@@ -77,13 +93,12 @@ Starting with default settings :
 1. Leave the node in **Linear** mode (0° angle = horizontal).
 2. Leave **wavelength** at 100% (spans the full width, and should be the default).
 3. Turn **repeat** off.
-4. Set **start brightness** to 0 (black).
-5. Set **end brightness** to 100 (white).
-6. Set **start saturation** and **end saturation** to 0 (converts to greyscale).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Enable **pingpong**.
+4. Set the first gradient stop to black.
+5. Set the final gradient stop to white.
+6. Set **hue mode** OFF.
+7. Set **saturation mode** FIXED if you want to force the result to greyscale.
+8. Set **brightness mode** FIXED.
+9. Enable **pingpong**.
 
 _Result: the gradient fades from black to white, then back to black across the width._\
 Note that if you want the content to keep its hue and saturation, turn OFF Saturation mode. \\
@@ -127,5 +142,6 @@ This node distorts content using a noise field (like turbulence), shifting point
 * **Depth Offset** – moves through the 3D noise field, creating variation over time. This is especially effective when animated with an Oscillator Node.
 * **Depth Detail** – controls how detailed the variation is across the depth dimension.
 * **Absolute** – takes the absolute value of the noise, folding negative values into positives (producing only one-sided displacement).
+* **Angle** – rotates the axis of the noise in linear mode. 0° = horizontal.
 * **Radial** – switches from linear to radial mode, so displacement is based on angle from the centre.
 * **Radial Smooth Loop** – adjusts wavelength so it divides evenly into 100% of the circle, preventing visible seams in radial mode.

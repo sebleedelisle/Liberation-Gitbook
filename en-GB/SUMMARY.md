@@ -92,7 +92,7 @@
   * [🟩 Canvas target areas](graphics-and-the-canvas-system/canvas-target-areas.md)
 * [🟩 MIDI control](midi-control/README.md)
   * [🟩 MIDI control overview](midi-control/midi-control-overview.md)
-  * [🟩 Live control with the APC40](midi-control/live-control-with-the-apc40.md)
+  * [🟩 Live MIDI Controllers](midi-control/live-control-with-the-apc40.md)
   * [🟩 MIDI Send/Receive](midi-control/midi-send-receive.md)
 * [🟩 Loading and saving](loading-and-saving.md)
 * [✅ Tips for loading Graphics / SVG files](tips-for-loading-svg-files.md)

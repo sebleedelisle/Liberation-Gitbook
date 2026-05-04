@@ -113,19 +113,29 @@ Creates text using a TrueType or OpenType font.
 * **Font** - choose the font that you want
 
 {% hint style="info" %}
-To add more fonts to Liberation copy the .ttf or .otf files into the data/resources/fonts folder.
+To add more fonts to Liberation, copy the .ttf or .otf files into the `data/fonts` folder inside the Liberation working folder, then restart Liberation.
 {% endhint %}
 
 * **Render profile** - see [render-profile.md](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - choose _LEFT_, _CENTRE_, or _RIGHT_ to select the text alignment.
 * **Fill state** - see [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - the text size
+* **monospace** - draws every character with the same width. This is useful for timers and counters because the text does not shuffle sideways as the numbers change.
+* **character spacing** - adjusts the spacing between characters. Increase it for wider tracking, or reduce it to tighten the text.
 * **colour -** see [colour-settings-and-hsb.md](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - see [co-ordinate-system.md](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - the rotated angle of the image, in degrees
 * **resolution** - see [resolution.md](fundamentals/resolution.md "mention")
 * **reveal** - use this to gradually reveal the text, one character at a time. When this is between 0 and 50% the text will gradually appear from left to right. When between 50% and 100% the text will disappear from left to right. You can connect an oscillator to this socket to make animations.
 * **reveal by word** - when set, the _reveal_ will work on a word by word basis rather than by character.
-* **countdown** - a (hurriedly implemented!) countdown system. Will change every 2 beats so if you want seconds make sure you're at 120bpm.
-* **countdown start** - the number that you want the countdown to start from
+* **countdown** - replaces the typed text with a countdown. When the countdown reaches zero, the normal **Text** value is shown.
+* **use seconds** - counts in real seconds. When this is off, the countdown is beat-based: two beats count as one second, so 120bpm matches real seconds.
+* **show minutes/seconds** - shows the time remaining in minutes and seconds. If it’s over an hour, it includes hours as well.
+* **countdown to date/time** - counts down to a specific UTC date and time instead of counting down from a number.
+* **countdown datetime** - sets the UTC target date/time when **countdown to date/time** is on.
+* **start number** - the starting number when **countdown to date/time** is off.
 * _MOVE TO FRONT / MOVE TO BACK_ - see [fills-masks-and-depth-sorting.md](fundamentals/fills-masks-and-depth-sorting.md "mention")
+
+{% hint style="info" %}
+If the font drop-down menu is open, the up and down arrow keys step through the available fonts.
+{% endhint %}

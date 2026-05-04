@@ -16,7 +16,7 @@ Note that Global Transformations do not affect anything in the canvas, only Beam
 
 ### Scale X/Y
 
-Horizontal and vertical scale, these values are locked together unless you press `Shift`. By default these are also mapped onto APC40 Device Control knobs 4 and 8 and appear in the panel to the right of the clip deck.
+Horizontal and vertical scale, these values are locked together unless you press `Shift`. By default these are also mapped onto APC40 Device Control knobs 4 and 8, and appear in the contextual Parameters panel to the right of the clip deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Horizontal and vertical shift. Translates everything horizontally / vertically.
 
 ### Spin
 
-Spins all content around the centre. A positive value spin in the clockwise direction, a negative value spins anti-clockwise. You'll see that this setting affects the _Rotation_ transformation. By default this is mapped to the APC40 Device Control knob 3 and appears in the panel to the right of the clip deck.
+Spins all content around the centre. A positive value spins in the clockwise direction, a negative value spins anti-clockwise. You'll see that this setting affects the _Rotation_ transformation. By default this is mapped to APC40 Device Control knob 3, and appears in the contextual Parameters panel to the right of the clip deck.
 
 ### Spin 3D
 
-Spins all content around the Y axis (which is a vertical line in the centre). You'll see that this setting affects the _Rotation3D_ transformation. By default this is mapped to the APC40 Device Control knob 7 and appears in the panel to the right of the clip deck.
+Spins all content around the Y axis (which is a vertical line in the centre). You'll see that this setting affects the _Rotation3D_ transformation. By default this is mapped to APC40 Device Control knob 7, and appears in the contextual Parameters panel to the right of the clip deck.
 
 ### Rotation
 

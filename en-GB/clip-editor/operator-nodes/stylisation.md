@@ -36,6 +36,7 @@ Creates echoes of your content, leaving fading or scaling copies behind the orig
   * 128 = 1/2 bar (half note)
   * 256 = 1 bar
 * **trail size** – how many trail copies to draw behind the live content.
+* **prefill trails** – fills the trail history immediately when the clip starts, instead of waiting for the echoes to build up over the first few beats.
 * **freeze trails** – turns smoothly flowing trails into a sequence of frozen snapshots. Useful for creating staccato, beat-synced trail effects.
 * **brightness start / brightness end** – applies brightness across the trail from the freshest copy (**start**) to the oldest copy (**end**). Typically set **brightness start** at 100% and **brightness end** to 0% and the echoes will fade out.
 * **scale start / scale end** – applies scaling across the trail from the freshest copy (start) to the oldest copy (end). For trails that shrink to nothing set **scale start** to 100% and **scale end** to 0%.
