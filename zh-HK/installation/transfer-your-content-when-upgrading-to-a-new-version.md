@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 升級至新版本時轉移你的內容
 
-Liberation 會將內容儲存在其 working folder（請參閱[工作資料夾的位置](../troubleshooting/where-to-find-the-working-folder.md)），而每次發佈新版本時，此資料夾都會更改。如果你想將舊版本的工作檔案保留到新版本：&#x20;
+Liberation 會將內容儲存在其 working folder（請參閱[工作資料夾的位置](../troubleshooting/where-to-find-the-working-folder.md "mention")），而每次發佈新版本時，此資料夾都會更改。如果你想將舊版本的工作檔案保留到新版本：&#x20;
 
 1. 開啟原本版本的 Liberation
 2. 使用 _File->Project->Export Project_。這會儲存你 Liberation 內的所有內容，包括 laser setup、timelines、Clip Deck，全部都會儲存！&#x20;

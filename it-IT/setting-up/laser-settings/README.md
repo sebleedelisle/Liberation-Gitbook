@@ -35,7 +35,7 @@ Nota che le correzioni di orientamento / mirroring non modificano nulla nel 3D V
 
 ### Copy laser settings
 
-Vedi [#copy-laser-settings](./#copy-laser-settings).
+Vedi [#copy-laser-settings](./#copy-laser-settings "mention").
 
 ### Impostazioni degli scanner
 
@@ -50,7 +50,7 @@ Anche se le impostazioni predefinite sono piuttosto conservative, puoi comunque 
 {% endhint %}
 
 {% hint style="info" %}
-Questa impostazione di velocità non modifica il point rate; regola invece quanto sono distanziati i punti tra loro. Per maggiori informazioni, vedi [◼️ Come Liberation genera contenuti laser](../../advanced/how-liberation-generates-laser-content.md)
+Questa impostazione di velocità non modifica il point rate; regola invece quanto sono distanziati i punti tra loro. Per maggiori informazioni, vedi [◼️ Come Liberation genera contenuti laser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Se vedi piccole “code” nell’output del laser, è probabile che lo scanner 
 
 #### Scanner presets
 
-Usa questa impostazione per scegliere una configurazione scanner predefinita. L’opzione di default di solito va bene, quindi non dovresti aver bisogno di cambiarla, a meno che tu non abbia scanner particolarmente scadenti (o particolarmente buoni). Se vuoi approfondire, vedi [◼️ Preset scanner e profili di rendering](../../advanced/scanner-presets.md)
+Usa questa impostazione per scegliere una configurazione scanner predefinita. L’opzione di default di solito va bene, quindi non dovresti aver bisogno di cambiarla, a meno che tu non abbia scanner particolarmente scadenti (o particolarmente buoni). Se vuoi approfondire, vedi [◼️ Preset scanner e profili di rendering](../../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Puoi usare questo sistema per correggere la curva di luminosità e il bilanciamento del bianco del laser. Vedi [Calibrazione del colore](../../advanced/colour-calibration.md)
+Puoi usare questo sistema per correggere la curva di luminosità e il bilanciamento del bianco del laser. Vedi [Calibrazione del colore](../../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Non dovresti aver bisogno di modificare queste impostazioni, ma se sei curioso, vedi [◼️ Impostazioni laser avanzate](../../advanced/advanced-laser-settings.md)
+Non dovresti aver bisogno di modificare queste impostazioni, ma se sei curioso, vedi [◼️ Impostazioni laser avanzate](../../advanced/advanced-laser-settings.md "mention")

@@ -52,7 +52,7 @@ _clamp_-konseptet er litt vanskelig å forklare, men se for deg at bølgeformen 
 
 * **ease function** - Sawtooth- og Triangle-bølgene har også en ease function som subtilt endrer animasjonskurven, og kan gjøre animasjonene dine svært uttrykksfulle!
   * **LINEAR** - standardvalget, ingen easing, bare lineær bevegelse mellom min- og maksverdiene.
-  * **EASE OUT** - starter raskt og bremser ned mot slutten. Veldig nyttig for å simulere fysikk, dvs. å bremse ned til stopp.
+* **EASE OUT** - starter raskt og bremser ned mot slutten. Veldig nyttig for å simulere fysikk, dvs. å bremse ned til stopp.
   * **EASE IN** - starter langsomt og øker gradvis i hastighet. Nyttig for å simulere at momentum bygger seg opp.
   * **EASE IN/OUT** - en kombinasjon av begge, og gir en svært organisk bevegelse.
 

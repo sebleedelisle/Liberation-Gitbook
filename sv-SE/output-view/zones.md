@@ -38,7 +38,7 @@ Det finns 3 zonformtyper:
 * **Line/Curve** – en zon som definieras av 2 eller fler punkter och en tjocklek. Idealisk för smala zoner eller för avgränsning mot balkonger, broar eller andra böjda former.
 * **Segmented** – en zon som kan delas upp i mindre quads. Idealisk för arkitektonisk mapping.
 
-Högerklicka på en zon för att öppna dess inställningar. I den här högerklicksmenyn kan du:
+Högerklicka på en zone för att öppna dess inställningar. I den här högerklicksmenyn kan du:
 
 * Byta namn på zonen (det kan vara praktiskt för att identifiera den i Clip Deck, särskilt om du har många zoner!)
 * Aktivera/inaktivera zonen
@@ -61,7 +61,7 @@ Du kan ta bort förvrängningen och återställa den till en axeljusterad rektan
 
 #### Perspektivkorrigering
 
-Det här alternativet kan ställas in med växlingsknappen i högerklicksmenyn och avgör vilken förvrängningsmetod som används. Det är bäst att ha detta avstängt för beams, men om den här zonen projicerar grafik på ett plant underlag kan du slå på det så perspektivkorrigeras outputen.
+Det här alternativet kan ställas in med växlingsknappen i högerklicksmenyn och avgör vilken förvrängningsmetod som används. Det är bäst att ha detta avstängt för beams, men om denna zone projicerar grafik på ett plant underlag kan du slå på det så perspektivkorrigeras outputen.
 
 {% hint style="info" %}
 Om _Perspective correction_ är avstängt förvrängs innehållet med _bilinjär interpolering_. Med andra ord fördelas innehållet jämnt över quaden. Det är därför det passar bäst för beams.
@@ -75,7 +75,7 @@ Zonformen Line / Curve har blivit mitt standardval i senare shower, och man skul
 
 Ofta behöver mina zoner vara smala för att passa in i besvärliga, smala utrymmen på spelplatser eller mellan fönster på byggnader, och jag märkte att det kunde vara riktigt pilligt att justera fyra hörn på en quad när de ligger så nära varandra. Så föddes Line / Curve-zonen!
 
-För raka linjer behöver du bara två punkter och justerar sedan _Zone thickness_ i högerklicksmenyn. Det är det snabbaste sättet att skapa enkla zoner.
+För raka linjer behöver du bara två punkter och justerar sedan _Zone thickness_ i högerklicksmenyn. Det är det snabbaste sättet att skapa enkla zones.
 
 `Alt / Option`-klicka på linjen för att skapa fler punkter. Dessa punkter jämnas automatiskt ut för att skapa en flytande form, och du kan justera _Smooth level_ för att släta ut eventuella knyckar.
 

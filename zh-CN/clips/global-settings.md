@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/global-settings
+---
+
 # 🟩 全局变换
 
 除了 Clip 变换（shift x/y、scale x/y）之外，还有作用于所有运行中 Clips 的 Global Transformations。打开 _Global Transformations_ 面板即可查看（该面板通常与 _Clip Settings_ 在同一标签页中）。&#x20;
@@ -10,7 +16,7 @@
 
 ### Scale X/Y
 
-水平与垂直缩放。除非按住 `Shift`，否则两者联动。默认映射到 APC40 Device Control 旋钮 4 和 8，并显示在 Clip Deck 右侧面板中。
+水平与垂直缩放。除非按住 `Shift`，否则两者联动。默认映射到 APC40 Device Control 旋钮 4 和 8，并显示在 Clip Deck 右侧的上下文 Parameters 面板中。
 
 ### Shift X/Y
 
@@ -18,11 +24,11 @@
 
 ### Spin
 
-围绕中心旋转所有内容。正值顺时针，负值逆时针。该设置会影响 _Rotation_ 变换。默认映射到 APC40 Device Control 旋钮 3，并显示在 Clip Deck 右侧面板中。&#x20;
+围绕中心旋转所有内容。正值顺时针，负值逆时针。该设置会影响 _Rotation_ 变换。默认映射到 APC40 Device Control 旋钮 3，并显示在 Clip Deck 右侧的上下文 Parameters 面板中。
 
 ### Spin 3D
 
-围绕 Y 轴（中心垂直线）旋转所有内容。该设置会影响 _Rotation3D_ 变换。默认映射到 APC40 Device Control 旋钮 7，并显示在 Clip Deck 右侧面板中。&#x20;
+围绕 Y 轴（中心垂直线）旋转所有内容。该设置会影响 _Rotation3D_ 变换。默认映射到 APC40 Device Control 旋钮 7，并显示在 Clip Deck 右侧的上下文 Parameters 面板中。
 
 ### Rotation
 

@@ -113,19 +113,29 @@ Maakt tekst met een TrueType- of OpenType-lettertype.
 * **Font** - kies het gewenste lettertype
 
 {% hint style="info" %}
-Als je meer lettertypen aan Liberation wilt toevoegen, kopieer je de .ttf- of .otf-bestanden naar de map data/resources/fonts.
+Als je meer lettertypen aan Liberation wilt toevoegen, kopieer je de .ttf- of .otf-bestanden naar de map `data/fonts` in de werkmap van Liberation en start je Liberation daarna opnieuw.
 {% endhint %}
 
 * **Render profile** - zie [Render Profile](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - kies _LEFT_, _CENTRE_ of _RIGHT_ om de tekstuitlijning te selecteren.
 * **Fill state** - zie [Vullingen, maskers en dieptesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - de tekstgrootte
+* **monospace** - tekent elk teken met dezelfde breedte. Dit is handig voor timers en tellers, omdat de tekst niet zijwaarts verspringt wanneer de cijfers veranderen.
+* **character spacing** - past de afstand tussen tekens aan. Verhoog dit voor ruimere letterspatiëring, of verlaag het om de tekst compacter te maken.
 * **colour -** zie [Kleurinstellingen en HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- en **y**-positie - zie [Coördinatensysteem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - de rotatiehoek van de afbeelding, in graden
 * **resolution** - zie [Resolutie](fundamentals/resolution.md "mention")
 * **reveal** - gebruik dit om de tekst geleidelijk te tonen, één teken per keer. Tussen 0 en 50% verschijnt de tekst geleidelijk van links naar rechts. Tussen 50% en 100% verdwijnt de tekst van links naar rechts. Je kunt een oscillator met deze socket verbinden om animaties te maken.
 * **reveal by word** - wanneer dit is ingesteld, werkt _reveal_ per woord in plaats van per teken.
-* **countdown** - een (haastig geïmplementeerd!) countdown-systeem. Verandert elke 2 beats, dus als je seconden wilt, zorg dan dat je op 120 bpm zit.
-* **countdown start** - het getal waarmee je de countdown wilt laten beginnen
+* **countdown** - vervangt de ingevoerde tekst door een countdown. Wanneer de countdown nul bereikt, wordt de normale waarde voor **Text** getoond.
+* **use seconds** - telt in echte seconden. Wanneer dit uit staat, is de countdown beat-gebaseerd: twee beats tellen als één seconde, dus 120 bpm komt overeen met echte seconden.
+* **show minutes/seconds** - toont de resterende tijd in minuten en seconden. Als het meer dan een uur is, worden ook uren weergegeven.
+* **countdown to date/time** - telt af naar een specifieke UTC-datum en -tijd in plaats van af te tellen vanaf een getal.
+* **countdown datetime** - stelt de UTC-doeldatum/-tijd in wanneer **countdown to date/time** aan staat.
+* **start number** - het startgetal wanneer **countdown to date/time** uit staat.
 * _MOVE TO FRONT / MOVE TO BACK_ - zie [Vullingen, maskers en dieptesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+
+{% hint style="info" %}
+Als het keuzemenu voor lettertypen open is, blader je met de pijltoetsen omhoog en omlaag door de beschikbare lettertypen.
+{% endhint %}

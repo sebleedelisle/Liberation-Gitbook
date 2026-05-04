@@ -19,7 +19,7 @@ metaLinks:
 9. Tlačítka skupin
 10. Stop All Clips (stiskněte dvakrát, chcete-li okamžitě zastavit všechny Clips bez použití jejich nastavení fade)
 11. Posun v Clip Deck
-12. Parametry Clip / globální parametry
+12. Ovládací prvky panelu Contextual Parameters
 13. Stránka Clip doleva/doprava
 14. Stránka zone doleva/doprava
 15. Tlačítko Alt (umožňuje výběr Clip)
@@ -35,3 +35,5 @@ metaLinks:
 25. Posun tempa + a -
 26. Posun tempa
 27. Nožní pedál, Tap Tempo
+
+Knoby Device Control odpovídají stejným kontextovým parametrům, které jsou zobrazené v panelu Parameters na obrazovce. Když je vybraný Clip, ovládají posun Clip, zpoždění zone, globální rotaci a globální měřítko. Pokud podržíte tlačítko skupiny, první ovládací prvky se přepnou na časy fade in a fade out dané skupiny.

@@ -41,7 +41,7 @@ Hvis ingenting av dette fungerer, bør du vurdere å oppgradere datamaskinen.
 
 Da er det sannsynligvis et maskinvareproblem. Dette ligger utenfor omfanget av denne manualen, men du kan prøve følgende tiltak:
 
-* Deaktiver SFS-systemet (Scan Fail Safety). Noen lasere har en funksjon som deaktiverer output hvis skannerne slutter å bevege seg, altså hvis de lager en kraftig statisk stråle. De kan være litt overforsiktige / upålitelige.
+* Deaktiver SFS-systemet (Scan Fail Safety). Noen lasere har en funksjon som deaktiverer utgangssignalet hvis skannerne slutter å bevege seg, altså hvis de lager en kraftig statisk stråle. De kan være litt overforsiktige / upålitelige.
 
 {% hint style="danger" %}
 Vær ekstremt forsiktig når du deaktiverer Scan Fail Safety-systemet. Kraftige statiske stråler kan forårsake brannskader! Sørg for at du har en stoppknapp og et brannslukningsapparat tilgjengelig.

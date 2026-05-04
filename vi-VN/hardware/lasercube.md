@@ -20,7 +20,7 @@ Các LaserCube đời đầu được điều khiển qua USB, nhưng các mẫu
 
 ### USB LaserCube
 
-Kết nối LaserCube với máy tính bằng cáp micro USB, sau đó tìm thiết bị trong panel _Controller Assignment_ (xem [Controller Assignment](../setting-up/controller-assignment.md)). Nếu thiết bị không tự động xuất hiện, hãy nhấn nút _REFRESH_.
+Kết nối LaserCube với máy tính bằng cáp micro USB, sau đó tìm thiết bị trong panel _Controller Assignment_ (xem [Controller Assignment](../setting-up/controller-assignment.md "mention")). Nếu thiết bị không tự động xuất hiện, hãy nhấn nút _REFRESH_.
 
 ### Network LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ Mặc dù các thiết bị “Wifi” được thiết kế để vận hành q
 
 Kết nối LaserCube vào mạng có dây của bạn.
 
-Đặt LaserCube ở chế độ “LAN Client” và đảm bảo trong mạng có router. LaserCube sẽ nhận địa chỉ IP từ router, sau đó thiết bị sẽ xuất hiện trong panel _Controller Assignment_. (Xem [Controller Assignment](../setting-up/controller-assignment.md)).
+Đặt LaserCube ở chế độ “LAN Client” và đảm bảo trong mạng có router. LaserCube sẽ nhận địa chỉ IP từ router, sau đó thiết bị sẽ xuất hiện trong panel _Controller Assignment_. (Xem [Controller Assignment](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Bạn có thể thiết lập mạng không cần router và gán địa chỉ IP tĩnh cho tất cả thiết bị; cách này rất phổ biến trong ngành sự kiện. Cá nhân tôi vẫn thích thêm một router vào mạng và khuyến nghị lựa chọn này cho những ai chưa có nhiều kinh nghiệm về mạng.

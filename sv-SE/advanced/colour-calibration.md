@@ -24,16 +24,18 @@ Använd testmönstren för kalibrering (se [Testmönster](../output-view/test-pa
 * **7** – Blå
 * **8** – Vit
 
-Varje testmönster visar fyra rörliga linjer:
+Varje testmönster visar fyra rörliga linjer. Ljusstyrkan i ett lasersystem påverkas inte bara av effektnivån, utan också av hur länge strålen stannar på en plats. När skannrarna rör sig snabbare stannar strålen kortare tid på varje punkt och upplevs som svagare.
+
+För att ta hänsyn till detta skalar testmönstren både ljusstyrka och hastighet tillsammans:
 
 * **Översta linjen** – 100 % ljusstyrka vid full hastighet
 * **Andra linjen** – 75 % ljusstyrka vid 75 % hastighet
 * **Tredje linjen** – 50 % ljusstyrka vid 50 % hastighet
 * **Fjärde linjen** – 25 % ljusstyrka vid 25 % hastighet
 
-Eftersom både ljusstyrka _och hastighet_ skalas tillsammans ska alla linjer se lika ljusstarka ut. Om någon ser ljusare eller mörkare ut justerar du motsvarande reglage tills de matchar.
+Eftersom både ljusstyrka _och hastighet_ skalas tillsammans ska alla linjer se lika ljusstarka ut. Om en linje ser ljusare eller svagare ut justerar du motsvarande reglage tills de matchar.
 
-Varje testmönster har också en femte linje vid **0 % ljusstyrka** som inte ska synas. Den används för att korrigera lasrar som inte avger något ljus alls vid mycket låga nivåer. Om lasern fortfarande är osynlig vid låg ljusstyrka ökar du gradvis **0% setting** tills linjen precis syns, och sänker sedan något tills den försvinner igen. Målet är att hitta tröskeln där lasern börjar lysa, och sedan ligga precis under den – så att toningar startar naturligt utan att den nedre delen av området kapas.
+Varje testmönster har också en femte linje vid **0 % ljusstyrka**, som inte ska synas. Den används för att korrigera lasrar som inte avger något ljus alls vid mycket låga nivåer. Om lasern fortfarande är osynlig vid låg ljusstyrka ökar du gradvis **0% setting** tills linjen precis syns, och sänker sedan något tills den försvinner igen. Målet är att hitta tröskeln där lasern börjar lysa, och sedan ligga precis under den – så att toningar startar naturligt utan att den nedre delen av området kapas.
 
 #### Använda panelen Colour Calibration
 

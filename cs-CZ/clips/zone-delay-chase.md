@@ -8,13 +8,13 @@ metaLinks:
 
 Všichni se shodneme, že více laserů znamená více zábavy. Pokud ale všechny dělají přesně totéž, přicházíte o kreativní možnosti.
 
-Systém Zone delay je jednoduchý, ale účinný způsob, jak přidat mezi zones více rozmanitosti a opravdu využít sestavu s více lasery. Dá se použít také k vytvoření tradičnějšího chase efektu.
+Systém Zone delay je jednoduchý, ale účinný způsob, jak přidat rozmanitost napříč jednotlivými zone a opravdu využít sestavu s více lasery. Dá se použít také k vytvoření tradičnějšího efektu chase.
 
 #### Jak to funguje
 
 _Zone delay_ přidává zpoždění do časování Clip pro každou zone a vytváří tak určitý průběh napříč zones.
 
-Zone delay je velmi účinné přidat do již běžícího Clip. Pomocí příslušného ovládacího prvku na APC40 upravte úroveň a pattern. (Viz [Referenční přehled APC40](../reference/apc40-reference.md)). Nebo můžete použít panel _Clip Settings_.
+Zone delay je velmi účinné přidat do již běžícího Clip. Pomocí příslušného ovládacího prvku na APC40 upravte úroveň a pattern. (Viz [Referenční přehled APC40](../reference/apc40-reference.md "mention")). Nebo můžete použít panel _Clip Settings_.
 
 Nastavení Zone delay:
 
@@ -39,7 +39,7 @@ Pattern pracuje s čísly zone a předpokládá, že vaše zones jsou seřazené
 Zone delay se použije také na všechny aktivní efekty. Například blikající efekt bude zpožděný napříč zones stejně jako animace uvnitř samotného Clip.
 {% endhint %}
 
-Když má Clip jakýkoli typ _Zone delay_, v pravém horním rohu Clip uvidíte ikonu se třemi tečkami. Tyto tečky jsou animované a ukazují styl _Zone delay_ pro daný Clip. Další informace najdete v části [Co znamenají malé ikony na tlačítkách Clip](what-are-the-small-icons-on-the-clip-buttons.md).
+Když má Clip jakýkoli typ _Zone delay_, v pravém horním rohu Clip uvidíte ikonu se třemi tečkami. Tyto tečky jsou animované a ukazují styl _Zone delay_ pro daný Clip. Další informace najdete v části [Co znamenají malé ikony na tlačítkách Clip](what-are-the-small-icons-on-the-clip-buttons.md "mention").
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Symbol se třemi tečkami, který označuje, že Clip má Zone delay, a ukazuje jeho režim</p></figcaption></figure>
 

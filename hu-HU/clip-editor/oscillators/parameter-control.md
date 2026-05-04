@@ -16,5 +16,5 @@ A _Parameter Control_ módszerrel egy effektuson vagy clipen belüli különböz
 * **parameter number** - minden _parameter control_ kaphat egy számot, és ez jelenik meg a clipen kívüli vezérlőkön is. Több parameter control is használhatja ugyanazt a számot; ilyenkor mindegyik egyszerre módosul.
 
 {% hint style="warning" %}
-Jelenleg APC40-nel csak az effektusok 1-es paramétere vezérelhető. Az effektusok és clipek összes paramétere elérhető a jobb kattintásos menüben. A jövőben ezek közül több paraméter is hozzárendelhető lesz MIDI-vezérlőkhöz.
+Az APC40 és a támogatott live controller eszközök alapértelmezés szerint minden effektushely 1-es paraméterét vezérlik. Az effektusok és Clips összes paramétere a jobb kattintásos menüben is elérhető.
 {% endhint %}

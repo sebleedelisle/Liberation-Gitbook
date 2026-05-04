@@ -24,7 +24,7 @@ Diğer Clip öğelerini durdurmadan yeni bir Clip başlatmak için şunlardan bi
 * Yeni Clip başlatılırken `Shift` tuşuna (veya APC40 üzerindeki Shift düğmesine) basılı tutun; ya da
 * Yeni Clip öğesini başlatırken o anda çalışan Clip öğelerine tekrar basın.
 
-Clip grupları birbirinden bağımsızdır; bu nedenle bir grupta Clip başlatmak diğer gruplardaki Clip öğelerini etkilemez. Bkz. [Clip grupları](groups.md)
+Clip grupları birbirinden bağımsızdır; bu nedenle bir grupta Clip başlatmak diğer gruplardaki Clip öğelerini etkilemez. Bkz. [Clip grupları](groups.md "mention")
 
 ### Flash mode
 

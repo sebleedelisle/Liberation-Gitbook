@@ -33,7 +33,7 @@ Per attivare il pulsante _Group_:
 * Tieni premuto il pulsante _Group_ sull’APC40
 * Fai clic con il mouse sul pulsante _Group_ a schermo. Fai di nuovo clic per disattivarlo.
 
-Puoi assegnare facilmente le Clip al Group premendole mentre il pulsante _Group_ è attivo. Un altro modo per assegnare un Group è usare il menu tasto destro della Clip.
+Puoi assegnare facilmente le Clip al Group premendole mentre il pulsante _group_ è attivo. Un altro modo per assegnare un Group è usare il menu del tasto destro della Clip.
 
 ### Modificare le impostazioni delle zone per tutte le Clip di un Group
 

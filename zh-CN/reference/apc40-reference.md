@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/reference/apc40-reference
+---
+
 # ✅ APC40 参考
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
@@ -13,7 +19,7 @@
 9. Group Buttons
 10. Stop All Clips（按两次立即停止所有 Clips，不受淡出设置影响）
 11. Clip Deck Scroll
-12. Clip / global parameters
+12. Contextual Parameters panel 控件
 13. Clip Page Left/Right
 14. Zone Page Left/Right
 15. Alt button（用于 Clip 选择）
@@ -29,3 +35,5 @@
 25. Nudge tempo + and -
 26. Tempo Scroll
 27. Foot Pedal, Tap Tempo
+
+Device Control 旋钮会跟随屏幕上 Parameters panel 中显示的相同上下文参数。选中某个 Clip 时，它们用于控制 Clip shift、zone delay、global spin 和 global scale。如果按住某个组按钮，前几个控制项会切换为该组的淡入和淡出时间。

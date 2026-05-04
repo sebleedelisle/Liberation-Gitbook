@@ -8,7 +8,7 @@ metaLinks:
 
 Mientras editas y ajustas tu zona, resulta útil emitir un patrón de prueba. Puedes activar un patrón de prueba en todas las zonas habilitadas usando el botón de activación de la barra superior de iconos, y elegir el patrón de prueba con el deslizador situado a su derecha.
 
-Si quieres mostrar un patrón de prueba solo en el láser cuya zona estás configurando en ese momento, usa el botón de activación de la barra de herramientas situada a la izquierda de la vista _Output_. Haz clic o arrastra el número que hay debajo para seleccionar el patrón de prueba.
+Si quieres mostrar un patrón de prueba solo en el láser cuya zona estás configurando en ese momento, usa el botón de activación de la barra de herramientas situada a la izquierda de la vista _Output_. Haz clic y arrastra el número que hay debajo para seleccionar el patrón de prueba.
 
 ### Lista de patrones de prueba
 

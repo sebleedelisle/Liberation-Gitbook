@@ -23,7 +23,7 @@ Project-filen gemmer næsten alt i din aktuelle opsætning, herunder:
 
 Den gemmer og indlæser i øjeblikket ikke:
 
-* Sound- og MIDI input-indstillinger, som bruges i MIDI notes-noden og Sound Input Oscillator (den gemmer _dog_ MIDI send/receive settings samt timecode sound input)
+* Lyd- og MIDI input-indstillinger, som bruges i MIDI notes-noden og Sound Input Oscillator (den gemmer _dog_ MIDI send/receive settings samt timecode sound input)
 * Interface-skalering
 * Medier til Canvas guide images
 * Sound- og videomedier til timelines
@@ -82,7 +82,7 @@ Hvis du kun vil importere effects fra et projekt, skal du vælge _**Effects->Imp
 
 ### Eksport af Timeline
 
-Eksportér en timeline-fil med én eller flere timelines. Bemærk, at Clip Deck altid inkluderes i eksporterede timeline-filer (selvom du kan vælge præcist, hvilke clips du importerer igen, se [Indlæsning og lagring](loading-and-saving.md#timeline-import "mention") nedenfor).
+Eksportér en timeline-fil med én eller flere timelines. Bemærk, at Clip Deck altid inkluderes i eksporterede timeline-filer (selvom du kan vælge præcist, hvilke clips du importerer igen, se [Indlæsning og lagring](loading-and-saving.md#timeline-import "mention")nedenfor)
 
 Hvis du har mere end én timeline i din project file, åbnes et panel, hvor du kan vælge, hvilke timelines du vil eksportere.
 

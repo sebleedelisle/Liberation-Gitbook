@@ -78,4 +78,4 @@ For optimal ytelse bør du plassere USB-DAC-er nær datamaskinen og koble dem ti
 
 Hvis du bruker Ether Dream, kan du fortsatt ha dem samlet og koble til laserne med lange ILDA-kabler, eller du kan rigge dem nær laserne og bruke lengre nettverkskabler.
 
-Det ideelle oppsettet er å ha Ether Dream (eller andre kontrollere) installert direkte inne i laserne dine (Rob hos Stanwax Laser kan gjøre dette for deg i Storbritannia)
+Det ideelle oppsettet er å ha Ether Dreams (eller andre kontrollere) installert direkte inne i laserne dine (Rob hos Stanwax Laser kan gjøre dette for deg i Storbritannia)

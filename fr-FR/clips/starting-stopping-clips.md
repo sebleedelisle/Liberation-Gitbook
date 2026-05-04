@@ -8,7 +8,7 @@ metaLinks:
 # ✅ Démarrer / arrêter des clips
 
 {% hint style="info" %}
-Vous pouvez utiliser les boutons à l’écran pour démarrer et arrêter les clips, mais il est nettement préférable d’utiliser le contrôleur MIDI APC40. Liberation a été optimisé pour bien fonctionner avec ce matériel, qui doit être considéré comme une partie importante de votre investissement dans les lasers.
+Vous pouvez utiliser les boutons à l’écran pour démarrer et arrêter les Clips, mais il est nettement préférable d’utiliser le contrôleur MIDI APC40. Liberation a été optimisé pour bien fonctionner avec ce matériel, qui doit être considéré comme une partie importante de votre investissement dans les lasers.
 {% endhint %}
 
 ### Démarrer et arrêter des clips

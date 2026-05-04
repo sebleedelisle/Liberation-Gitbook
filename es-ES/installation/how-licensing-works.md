@@ -7,10 +7,10 @@ metaLinks:
 
 # ✅ Cómo funciona la licencia
 
-Una vez instalado Liberation en tu ordenador, se ejecutará en _modo demo_ hasta que lo _autorices_.
+Una vez instalado Liberation en tu ordenador, se ejecutará en _modo gratuito_ hasta que lo _autorices_.
 
 {% hint style="info" %}
-En _modo demo_ no hay restricciones, salvo la salida a hardware láser. Puedes practicar shows, crear timelines, y guardar y cargar tus archivos sin limitaciones. Puedes instalar Liberation en _modo demo_ en tantos ordenadores como quieras, y solo necesitas autorizar la instalación cuando estés listo para usar láseres.
+En _modo gratuito_ no hay restricciones, salvo la salida a hardware láser. Puedes practicar shows, crear timelines, y guardar y cargar tus archivos sin limitaciones. Puedes instalar Liberation en _modo gratuito_ en tantos ordenadores como quieras, y solo necesitas autorizar la instalación cuando estés listo para usar láseres.
 {% endhint %}
 
 Además del número de láseres que puedes armar, también puedes usar fixtures DMX. Consulta [DMX / Art-Net](../dmx-control/ "mention").
@@ -28,3 +28,5 @@ Cada licencia es para un solo usuario y un solo show a la vez. Puedes tener más
 La licencia y la autorización de Liberation funcionan a través de Internet; la aplicación se conecta a nuestro servidor para asociar una instalación a tu suscripción.
 
 Una vez autorizada la instalación, no necesita volver a estar online hasta que se renueve tu suscripción. Puedes ver la fecha de renovación en el panel _About_. Hay un breve periodo de gracia (7 días para las suscripciones mensuales), pero se recomienda conectarse a Internet lo antes posible después de la fecha de renovación para asegurarte de que tu autorización se renueva y sigue activa.
+
+El nivel de licencia actual también se muestra en la barra superior. Haz clic en el nombre del nivel, o en _FREE MODE_ si no hay licencia, para abrir el panel About.

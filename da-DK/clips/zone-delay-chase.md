@@ -8,7 +8,7 @@ metaLinks:
 
 Vi er vist alle enige om, at flere lasere giver mere sjov, men hvis de alle gør præcis det samme, går du glip af kreative muligheder.
 
-Zone delay-systemet er en enkel, men effektiv måde at skabe variation på tværs af zoner og kan virkelig udnytte et setup med flere lasere. Det kan også bruges til at lave en mere traditionel chase-effekt.
+Zone delay-systemet er en enkel, men effektiv måde at skabe variation på tværs af zones og kan virkelig udnytte et setup med flere lasere. Det kan også bruges til at lave en mere traditionel chase-effekt.
 
 #### Sådan fungerer det
 

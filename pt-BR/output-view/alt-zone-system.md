@@ -15,7 +15,7 @@ O sistema de zonas Alt permite criar uma zona alternativa para qualquer zona exi
 
 ### Adicionando uma zona alternativa
 
-Na visualização Output, clique com o botão direito em uma zona e clique em _ADD ALT ZONE_. Observe que uma nova zona verde aparece. Você pode editar e ajustar essa zona exatamente da mesma forma que qualquer uma das suas zonas. Você precisará ativar as zonas Alt na barra de ícones superior para ver os padrões de teste.
+Na visualização Output, clique com o botão direito em uma zone e clique em _ADD ALT ZONE_. Observe que uma nova zone verde aparece. Você pode editar e ajustar essa zone exatamente da mesma forma que qualquer uma das suas zones. Você precisará ativar as Alt zones na barra de ícones superior para ver os padrões de teste.
 
 ### Alternando para suas zonas Alt
 
@@ -23,4 +23,4 @@ Assim que você adiciona qualquer zona Alt, um botão de alternância aparece na
 
 ### Como desativar uma zona em vez de movê-la
 
-Adicione uma zona Alt, clique nela com o botão direito e clique no botão _Disable output_ (círculo com uma linha atravessando). Agora, quando você ativar as zonas Alt, o conteúdo será redirecionado para essa zona Alt, que agora está desativada.
+Adicione uma Alt zone, clique nela com o botão direito e clique no botão _Disable output_ (círculo com uma linha atravessando). Agora, quando você ativar as Alt zones, o conteúdo será redirecionado para essa Alt zone, que agora está desativada.

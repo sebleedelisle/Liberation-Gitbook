@@ -9,7 +9,7 @@ metaLinks:
 
 Encender tus láseres puede ser divertido, pero es de vital importancia que también puedas _detenerlos_. El hardware y el software láser suelen ser muy fiables, pero cualquier cosa puede fallar. Y, en la rara ocasión en que ocurra, agradecerás muchísimo tener ese botón de parada remota.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Botón de parada remota para un Laser Cube. El hardware más importante que tienes.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Las herramientas eléctricas y la maquinaria pesada tienen botones de parada que simplemente interrumpen la alimentación principal, pero **nunca** debes hacer esto con equipos láser. Los láseres siempre tardan un momento en dejar de emitir, y un corte repentino de alimentación puede hacer que los escáneres del láser lleguen a sus extremos. Así que es probable que acabes con un haz potente en lugares inesperados.

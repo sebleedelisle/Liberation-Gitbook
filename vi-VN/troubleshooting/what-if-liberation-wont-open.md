@@ -20,10 +20,10 @@ Rất may là bạn có thể khắc phục dễ dàng bằng cách đặt lại
 
 #### Tìm thư mục làm việc ở đâu
 
-Mỗi phiên bản Liberation có thư mục làm việc riêng. Ví dụ, nếu bạn đang chạy phiên bản 1.0.0, tên thư mục sẽ là 1.0.0.
+Mỗi phiên bản Liberation có thư mục làm việc riêng. Ví dụ, nếu bạn đang chạy phiên bản 1.0.3, tên thư mục sẽ là 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Cách mở nhanh thư mục**
 
@@ -35,7 +35,7 @@ Mỗi phiên bản Liberation có thư mục làm việc riêng. Ví dụ, nếu
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Mở thư mục khớp với số phiên bản của bạn, ví dụ `1.0.0`.
+3. Mở thư mục khớp với số phiên bản của bạn, ví dụ `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Mỗi phiên bản Liberation có thư mục làm việc riêng. Ví dụ, nếu
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Mở thư mục khớp với số phiên bản của bạn, ví dụ `1.0.0`.
+2. Mở thư mục khớp với số phiên bản của bạn, ví dụ `1.0.3`.
 
 > **Mẹo cho Windows**: Nếu bạn duyệt bằng Trình quản lý tệp, hãy bật hiển thị mục ẩn: **Xem > Hiển thị > Mục ẩn**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 Trong thư mục liberation, bạn sẽ thấy một tệp có tên `settings.json`. Hãy xóa tệp này.
 
-* **Ví dụ trên macOS**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Ví dụ trên Windows**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **Ví dụ trên macOS**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Ví dụ trên Windows**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Bây giờ hãy thử khởi chạy Liberation. Nếu ứng dụng mở được, bạn đã hoàn tất.
 
@@ -84,9 +84,9 @@ Thử khởi chạy Liberation lại. Nếu ứng dụng mở bình thường, v
 Nếu Bước 1 và Bước 2 không giúp khắc phục:
 
 1. **Sao lưu** toàn bộ thư mục phiên bản:
-   * macOS: Nhấp chuột phải vào thư mục `1.0.0` và chọn **Compress** để tạo tệp zip, hoặc sao chép thư mục đó đến nơi an toàn như Desktop.
-   * Windows: Nhấp chuột phải vào thư mục `1.0.0` và chọn **Send to > Compressed (zipped) folder**, hoặc sao chép thư mục đó đến nơi an toàn như Desktop.
-2. Sau khi sao lưu, **xóa** thư mục `1.0.0` gốc khỏi vị trí thư mục làm việc của Liberation.
+* macOS: Nhấp chuột phải vào thư mục `1.0.3` và chọn **Compress** để tạo tệp zip, hoặc sao chép thư mục đó đến nơi an toàn như Desktop.
+* Windows: Nhấp chuột phải vào thư mục `1.0.3` và chọn **Send to > Compressed (zipped) folder**, hoặc sao chép thư mục đó đến nơi an toàn như Desktop.
+2. Sau khi sao lưu, **xóa** thư mục `1.0.3` gốc khỏi vị trí thư mục làm việc của Liberation.
 3. Khởi chạy Liberation lại. Ứng dụng sẽ tạo lại một thư mục làm việc mới.
 
 Nếu Liberation mở được, hãy chuyển sang Bước 4.
@@ -103,10 +103,10 @@ Nén **bản sao lưu** từ Bước 3 thành tệp zip nếu bạn chưa làm, 
 * **Subject**: Sửa lỗi khởi động Liberation - bản sao lưu thư mục làm việc
 * **Body**: Vui lòng bao gồm:
   * Hệ điều hành và phiên bản (ví dụ: macOS 14.6 hoặc Windows 11 23H2)
-  * Phiên bản Liberation (ví dụ: 1.0.0)
+* Phiên bản Liberation (ví dụ: 1.0.3)
   * Bước nào đã khắc phục được lỗi, nếu có (Bước 1, Bước 2 hoặc Bước 3)
   * Mô tả ngắn gọn về việc đã xảy ra trước khi sự cố bắt đầu
-* **Attachment**: bản sao lưu đã nén của thư mục làm việc `1.0.0`.
+* **Attachment**: bản sao lưu đã nén của thư mục làm việc `1.0.3`.
 
 > Nếu tệp zip quá lớn để gửi qua email, hãy tải lên dịch vụ lưu trữ đám mây và chia sẻ liên kết.
 
@@ -127,5 +127,5 @@ Nếu Liberation vẫn không mở được sau khi xóa thư mục làm việc:
 
 1. Xóa `data/liberation/settings.json` trong thư mục làm việc theo phiên bản của bạn.
 2. Nếu bạn đang chỉnh sửa một Clip, hãy sao lưu rồi xóa `data/liberation/clipEdit.json`.
-3. Nếu vẫn không mở được, hãy sao lưu rồi xóa toàn bộ thư mục `1.0.0` (hoặc phiên bản của bạn).
+3. Nếu vẫn không mở được, hãy sao lưu rồi xóa toàn bộ thư mục `1.0.3` (hoặc phiên bản của bạn).
 4. Nếu Bước 3 khắc phục được lỗi (hoặc nếu không), hãy nén bản sao lưu thành tệp zip và gửi đến [**info@liberationlaser.com**](mailto:info@liberationlaser.com) kèm hệ điều hành và phiên bản Liberation của bạn.

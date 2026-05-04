@@ -38,7 +38,7 @@ UPOZORENJE - ako je laser u stanju armed, mogli biste iznenada početi projicira
 {% endhint %}
 
 {% hint style="info" %}
-Canvas zone možete dodijeliti laseru i klikom na gumb _add canvas zone_ u prikazu _OUTPUT_. Pogledajte [zones](../output-view/zones.md).
+Canvas zone možete dodijeliti laseru i klikom na gumb _add canvas zone_ u prikazu _OUTPUT_. Pogledajte [zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Referentne slike

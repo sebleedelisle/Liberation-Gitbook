@@ -9,10 +9,10 @@ metaLinks:
 
 #### Onde encontrar a pasta de trabalho
 
-Cada versão do Liberation tem sua própria pasta de trabalho. Por exemplo, se você estiver usando a versão 1.0.0, o nome da pasta será 1.0.0.
+Cada versão do Liberation tem sua própria pasta de trabalho. Por exemplo, se você estiver usando a versão 1.0.3, o nome da pasta será 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Como abrir a pasta rapidamente**
 
@@ -24,7 +24,7 @@ Cada versão do Liberation tem sua própria pasta de trabalho. Por exemplo, se v
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Abra a pasta correspondente ao número da sua versão, por exemplo `1.0.0`.
+3. Abra a pasta correspondente ao número da sua versão, por exemplo `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Cada versão do Liberation tem sua própria pasta de trabalho. Por exemplo, se v
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Abra a pasta correspondente ao número da sua versão, por exemplo `1.0.0`.
+2. Abra a pasta correspondente ao número da sua versão, por exemplo `1.0.3`.
 
 > **Dica para Windows**: Se você navegar pelo File Explorer, ative os itens ocultos: **View > Show > Hidden items**.

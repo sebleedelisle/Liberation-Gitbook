@@ -9,7 +9,7 @@ metaLinks:
 
 ### Autorisering af Liberation
 
-Når du åbner Liberation første gang, kører programmet i _demotilstand_, og du får vist _About panel:_
+Når du åbner Liberation første gang, kører programmet i _free mode_, og du får vist _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -25,4 +25,4 @@ Men det fungerar riktigt bra och ger illusionen av en svart fylld form.
 
 ### Djupsortering
 
-Eftersom vissa former kan _täcka över_ andra former måste Liberation sortera dem efter djup. Som standard djupsorteras element efter sin z-position. Om de har samma z-position sorteras de efter sin lagerposition, som kan ändras med knapparna _MOVE TO FRONT_ och _MOVE TO BACK_ i varje creator.
+Eftersom vissa former kan _täcka_ andra former måste Liberation sortera dem efter djup. Som standard djupsorteras element efter sin z-position. Om de har samma z-position sorteras de efter sin lagerposition, som kan ändras med knapparna _MOVE TO FRONT_ och _MOVE TO BACK_ i varje Creator.

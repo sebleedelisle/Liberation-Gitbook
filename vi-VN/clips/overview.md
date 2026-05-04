@@ -12,7 +12,7 @@ Tất cả nội dung laser trong Liberation đều được lưu trong các Cli
 
 Clip có thể chứa hiệu ứng tia laser trong không gian hoặc hoạt ảnh đồ họa, và thường chạy theo vòng lặp. Bạn có thể đưa chúng vào bất kỳ zone nào (hoặc Canvas Target Area) và kích hoạt bằng các nút Clip trong Clip Deck.
 
-Nội dung Clip được tạo bằng hệ thống Clip Editor linh hoạt dựa trên node. (Xem [Giới thiệu Clip Editor](../clip-editor/clip-editor-intro.md) để biết thêm chi tiết)
+Nội dung Clip được tạo bằng hệ thống Clip Editor linh hoạt dựa trên node. (Xem [Giới thiệu Clip Editor](../clip-editor/clip-editor-intro.md "mention") để biết thêm chi tiết)
 
 ### Clip Deck
 

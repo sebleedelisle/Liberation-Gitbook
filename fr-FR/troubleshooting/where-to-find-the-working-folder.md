@@ -9,10 +9,10 @@ metaLinks:
 
 #### Où trouver le dossier de travail
 
-Chaque version de Liberation possède son propre dossier de travail. Par exemple, si vous utilisez la version 1.0.0, le dossier s’appellera 1.0.0.
+Chaque version de Liberation possède son propre dossier de travail. Par exemple, si vous utilisez la version 1.0.3, le dossier s’appellera 1.0.3.
 
-* **macOS** : `~/Library/Application Support/Liberation/1.0.0`
-* **Windows** : `AppData\Local\Liberation\1.0.0`
+* **macOS** : `~/Library/Application Support/Liberation/1.0.3`
+* **Windows** : `AppData\Local\Liberation\1.0.3`
 
 **Comment ouvrir rapidement le dossier**
 
@@ -24,7 +24,7 @@ Chaque version de Liberation possède son propre dossier de travail. Par exemple
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Ouvrez le dossier correspondant à votre numéro de version, par exemple `1.0.0`.
+3. Ouvrez le dossier correspondant à votre numéro de version, par exemple `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Chaque version de Liberation possède son propre dossier de travail. Par exemple
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Ouvrez le dossier correspondant à votre numéro de version, par exemple `1.0.0`.
+2. Ouvrez le dossier correspondant à votre numéro de version, par exemple `1.0.3`.
 
 > **Astuce pour Windows** : si vous parcourez les dossiers avec File Explorer, activez plutôt les éléments masqués : **View > Show > Hidden items**.

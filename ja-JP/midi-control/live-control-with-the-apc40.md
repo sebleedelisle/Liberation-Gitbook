@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
 ---
 
-# 🟩 APC40でのライブコントロール
+# 🟩 Live MIDI Controllers
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -27,4 +27,12 @@ _大変！ショーの途中でUSBプラグが抜けてしまいました！_
 初代APC40 Mark 1は2009年に登場しました（！）。金属製ボディと、コンソールのような頑丈なフォームファクターを理由に、今でも好んで使う人がいます。改良版のMark 2は2014年に登場し、2024年にいったん生産終了となりましたが、ビジュアルアーティスト（Resolumeなど）やレーザーアーティストからの需要により、2025年に生産が再開される予定です。
 {% endhint %}
 
-APC40で使用できるコントロールの一覧は、[APC40 リファレンス](../reference/apc40-reference.md)を参照してください。
+APC40で使用できるコントロールの一覧は、[APC40 リファレンス](../reference/apc40-reference.md "mention")を参照してください。
+
+### APC Mini
+
+Liberation 1.0.3には、APC Mini用のプロファイルも含まれています。8x5のClipグリッド、zoneボタン、zoneのX/Y反転コントロール、グループボタン、すべてのClipの停止、Clipページの移動、zoneページの移動、タップテンポ、小節リセット、テンポの微調整がマッピングされています。フェーダーではエフェクトレベルを操作し、Shift使用時のフェーダーではエフェクトパラメーターを操作します。最後のフェーダーはGlobal Brightnessを操作します。
+
+### MIDI Fighter Twister
+
+MIDI Fighter Twisterプロファイルは、Clipの起動ではなく、エンコーダーを多用したコントロール向けです。エンコーダーの1行はエフェクトスロット1〜8のパラメーター1を操作し、別の1行はParametersパネルの8つのコンテキスト依存コントロールに対応します。これにはClip shift、zone delay、global spin/scale、group fadesが含まれます。

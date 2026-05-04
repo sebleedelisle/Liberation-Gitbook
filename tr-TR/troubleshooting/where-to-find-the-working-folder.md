@@ -9,10 +9,10 @@ metaLinks:
 
 #### Çalışma klasörünü nerede bulabilirsiniz
 
-Liberation’ın her sürümünün kendi çalışma klasörü vardır. Örneğin 1.0.0 sürümünü kullanıyorsanız klasör adı 1.0.0 olur.
+Liberation’ın her sürümünün kendi çalışma klasörü vardır. Örneğin 1.0.3 sürümünü kullanıyorsanız klasör adı 1.0.3 olur.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Klasörü hızlıca açma**
 
@@ -24,7 +24,7 @@ Liberation’ın her sürümünün kendi çalışma klasörü vardır. Örneğin
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Sürüm numaranızla eşleşen klasörü açın; örneğin `1.0.0`.
+3. Sürüm numaranızla eşleşen klasörü açın; örneğin `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Liberation’ın her sürümünün kendi çalışma klasörü vardır. Örneğin
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Sürüm numaranızla eşleşen klasörü açın; örneğin `1.0.0`.
+2. Sürüm numaranızla eşleşen klasörü açın; örneğin `1.0.3`.
 
 > **Windows için ipucu**: Bunun yerine Dosya Gezgini ile göz atıyorsanız gizli öğeleri etkinleştirin: **Görünüm > Göster > Gizli öğeler**.

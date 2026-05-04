@@ -32,7 +32,7 @@ Node-byggði ritillinn var fyrsti hlutinn af Liberation sem var búinn til! Hugm
 Á meðan þú ert að breyta sérðu einnig hvernig clip lítur út í 3D-sýninni í bakgrunni.
 
 {% hint style="info" %}
-Ef þú sérð ekkert Output í 3D-sýninni gætirðu þurft að nota zone-hnappana til að kveikja á þeim zones sem þú vilt nota. Þú þarft líka að ganga úr skugga um að _Preview to lasers_ sé virkt; sjá [Clip Editor-spjaldið](clip-editor-intro.md#clip-editor-panel) hér fyrir neðan.
+Ef þú sérð ekkert Output í 3D-sýninni gætirðu þurft að nota zone-hnappana til að kveikja á þeim zones sem þú vilt nota. Þú þarft líka að ganga úr skugga um að _Preview to lasers_ sé virkt; sjá [Clip Editor-spjaldið](clip-editor-intro.md#clip-editor-panel "mention") hér fyrir neðan.
 {% endhint %}
 
 ### Að byggja clip
@@ -75,7 +75,7 @@ Ef þú hefur einhvern tíma notað analog synth þekkirðu hugmyndina um oscill
 **Skemmtileg staðreynd:** nafnið _Liberation_ var innblásið af Moog Liberation, „keytar“-hljóðgervli sem kom út árið 1980 og varð frægur í höndum Herbie Hancock, Jean-Michel Jarre og jafnvel James Brown!
 {% endhint %}
 
-Oscillators hafa alltaf _range_-stillingar sem stjórna lágmarks- og hámarksgildi þess property sem á að breyta. _Wave Oscillators_ hafa líka alltaf _duration_-stillingu sem ákvarðar hversu hratt oscillator breytir gildinu. Sjá [Bylgjusveiflar](oscillators/wave-oscillators.md) fyrir nánari upplýsingar.
+Oscillators hafa alltaf _range_-stillingar sem stjórna lágmarks- og hámarksgildi þess property sem á að breyta. _Wave Oscillators_ hafa líka alltaf _duration_-stillingu sem ákvarðar hversu hratt oscillator breytir gildinu. Sjá [Bylgjusveiflar](oscillators/wave-oscillators.md "mention") fyrir nánari upplýsingar.
 
 ### Clip Editor-spjaldið
 

@@ -25,6 +25,6 @@ Hãy thận trọng khi dùng thiết lập _BOTH_. Thiết bị và phần mề
 
 ### Ánh xạ MIDI
 
-Xem [Ánh xạ mặc định gửi/nhận MIDI](../reference/midi-send-receive-default-mapping.md)
+Xem [Ánh xạ mặc định gửi/nhận MIDI](../reference/midi-send-receive-default-mapping.md "mention")
 
 Tôi dự định bổ sung khả năng ánh xạ MIDI tùy chỉnh linh hoạt hơn trong tương lai, nhưng hiện tại bạn có thể dùng các ứng dụng như [BOME](https://www.bome.com/products/miditranslator) và [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) để chuyển đổi giữa Liberation và phần cứng tùy chỉnh của bạn.

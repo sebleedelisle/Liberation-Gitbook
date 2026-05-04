@@ -14,7 +14,13 @@ Muuta clipin ulostulon kokoa asetuksilla _Scale X_ ja _Scale Y_. Ne on lukittu y
 
 Muuta clipin vaaka- ja pystysijaintia asetuksilla _Shift X_ ja _Shift Y_.
 
-_Zone Delay/Chase_ on niin hauska ominaisuus, että sille on oma osionsa. [Zone delay / chase](zone-delay-chase.md)
+_Zone Delay/Chase_ on niin hauska ominaisuus, että sille on oma osionsa. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Parameters-paneeli
+
+Clip Deckin oikealla puolella oleva paneeli näyttää kahdeksan kontekstikohtaista parametria. Kun Clip on valittuna, ensimmäiset säätimet ovat valitun Clipin _Shift X_, _Shift Y_ ja _Zone Delay_, ja niiden jälkeen tulevat yleiset _Spin_- ja _Scale_-säätimet.
+
+Samat parametrit peilataan tuetuille MIDI-ohjaimille. Jos Clip ei ole valittuna, Clip-kohtaiset paikat ovat tyhjiä. Jos pidät ryhmäpainiketta painettuna, kaksi ensimmäistä säädintä vaihtuvat kyseisen ryhmän sisään- ja ulosfeidauksen ajoiksi.
 
 ### Clipien lukitseminen
 
@@ -27,9 +33,9 @@ Jos clip on lukittu, sitä ei voi siirtää tai poistaa. Lukitse clip oikean pai
 
 ### Oikean painikkeen valikko
 
-Kun napsautat clipiä oikealla painikkeella, näkyviin tulee valikko, jossa on kyseisen clipin asetuksia. Katso lisätietoja valikon ensimmäisistä kohdista: [Johdanto Clip Editoriin](../clip-editor/clip-editor-intro.md), [Clip settings](clip-settings.md) ja [Clip-ryhmät](groups.md).
+Kun napsautat Clipiä oikealla painikkeella, näkyviin tulee valikko, jossa on kyseisen Clipin asetuksia. Katso lisätietoja valikon ensimmäisistä kohdista: [Johdanto Clip Editoriin](../clip-editor/clip-editor-intro.md "mention"), [Clip settings](clip-settings.md "mention") ja [Clip-ryhmät](groups.md "mention").
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Clip settings -valikko oikealla painikkeella</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 
@@ -47,6 +53,6 @@ Clipit on usein suunniteltu looppamaan loputtomasti, mutta voit suunnitella ne m
 
 ### Sisään-/ulos-siirtymän aika (fade)
 
-Clipeille voidaan määrittää sisään- ja ulosfeidaus, jonka kesto mitataan sekunneissa. Oletusarvoisesti fade-aika periytyy ryhmän asetuksista (ja sitä voi muuttaa napsauttamalla ryhmäpainiketta oikealla painikkeella).
+Clipille voidaan määrittää sisään- ja ulosfeidaus, jonka kesto mitataan sekunteina. Oletusarvoisesti fade-aika periytyy ryhmän asetuksista (ja sitä voi muuttaa napsauttamalla ryhmäpainiketta oikealla painikkeella).
 
 Jos haluat clipille eri fade-keston kuin sen ryhmällä, poista ensin _USE GROUP DEFAULT_ -painike käytöstä ja säädä sitten clipin _In time_- ja _Out time_ -liukusäätimiä.

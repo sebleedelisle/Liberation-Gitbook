@@ -22,12 +22,12 @@ Tất cả preset đều được lưu cùng với project của bạn (hoặc L
 
 Bạn cũng có thể nhập và xuất file preset bằng nút tải/lưu (biểu tượng đĩa mềm) nằm cạnh danh sách preset thả xuống. Nút này mở một cửa sổ pop-up có các nút import/export, đồng thời có tùy chọn xóa một hoặc nhiều preset của bạn.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>Menu pop-up mở ra khi bạn nhấp vào biểu tượng tải/lưu</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Nếu bạn chỉnh sửa một preset, ví dụ thiết lập scanner có tên _Default_, hãy lưu ý rằng các laser khác sẽ không được tự động cập nhật. Thay vào đó, thiết lập scanner của từng laser đó sẽ được gắn nhãn _Default(edited)_. Để cập nhật sang preset _Default_ mới, hãy chọn lại preset đó trong danh sách thả xuống.
 
 {% hint style="info" %}
-Nếu bạn có nhiều laser và muốn cập nhật thiết lập scanner cho tất cả, hãy dùng hệ thống _COPY LASER SETTINGS_. Xem [Sao chép cài đặt laser](../setting-up/copy-laser-settings.md)
+Nếu bạn có nhiều laser và muốn cập nhật thiết lập scanner cho tất cả, hãy dùng hệ thống _COPY LASER SETTINGS_. Xem [Sao chép cài đặt laser](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Nếu bạn xóa một preset đang được dùng ở nơi khác, bạn sẽ không mất thiết lập đó; thay vào đó, thiết lập sẽ được gắn nhãn là _(deleted)._

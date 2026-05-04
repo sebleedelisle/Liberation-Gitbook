@@ -12,7 +12,7 @@ Tutti i contenuti laser in Liberation sono memorizzati all’interno dei Clip.
 
 I Clip possono contenere effetti atmosferici con fasci laser o animazioni grafiche e, di solito, funzionano in loop. Possono essere indirizzati verso qualsiasi zone (o Canvas Target Area) e vengono avviati usando i pulsanti Clip all’interno del Clip Deck.
 
-Il contenuto dei Clip viene creato con il versatile sistema del Clip Editor basato su nodes. (Vedi [Introduzione al Clip Editor](../clip-editor/clip-editor-intro.md) per maggiori dettagli)
+Il contenuto dei Clip viene creato con il versatile sistema del Clip Editor basato su nodes. (Vedi [Introduzione al Clip Editor](../clip-editor/clip-editor-intro.md "mention") per maggiori dettagli)
 
 ### Il Clip Deck
 

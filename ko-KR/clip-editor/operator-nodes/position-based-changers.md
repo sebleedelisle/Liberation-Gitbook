@@ -9,7 +9,7 @@ metaLinks:
 
 이 계열의 노드는 위치에 따라 콘텐츠를 변경합니다. 기본적으로 효과는 가로 축(왼쪽에서 오른쪽) 방향으로 적용되지만, 이 축을 원하는 각도로 회전할 수 있습니다. 각 노드에는 _radial_ 모드도 포함되어 있으며, 이 모드에서는 중심을 기준으로 각 포인트가 이루는 각도에 따라 효과가 적용됩니다.
 
-* **Colour Changer by Position** – 선택한 축을 따라 또는 radial 각도 주변으로 색상을 이동합니다.\
+* **Colour Changer by Position** – 선택한 축을 따라 또는 방사형 각도 주변에 그라디언트를 적용합니다.\
   \&#xNAN;_예: 선을 가로지르는 무지개 그라디언트를 만들거나, 원에 radial 모드를 사용해 컬러 휠 효과를 만들 수 있습니다._
 * **Wave Shift by Position** – 사인파 왜곡을 적용하여 콘텐츠를 세로 방향(또는 선택한 축에 수직인 방향)으로 오프셋합니다.\
   \&#xNAN;_예: 선이 물결처럼 흔들리게 만들거나, radial 모드를 사용해 원이 중심에서 바깥쪽으로 맥동하게 만들 수 있습니다._
@@ -29,10 +29,11 @@ metaLinks:
 * **linear angle** – 효과의 축을 회전합니다. 0° = 가로.
 * **radial** – radial 모드로 전환하여 중심으로부터의 각도를 기준으로 색상을 적용합니다.
 * **radial smooth loop** – wavelength가 원의 100%에 균등하게 나누어지도록 자동 조정하여, 주기가 감기는 지점에 보이는 이음새가 생기지 않게 합니다.
+* **legacy mode** – 이전 방식의 시작/끝 HSB 슬라이더로 되돌립니다. 새 gradient editor를 사용하려면 이 옵션을 꺼 둡니다.
 
 **색상 모드**
 
-이 설정들은 색상 조정의 어떤 요소를 콘텐츠에 적용할지 결정합니다. 참고: [색상 설정 및 HSB](../fundamentals/colour-settings-and-hsb.md).
+이 설정들은 색상 조정의 어떤 요소를 콘텐츠에 적용할지 결정합니다. 참고: [색상 설정 및 HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – hue가 변경되지 않습니다.
@@ -46,17 +47,32 @@ metaLinks:
   * _FIXED_ – brightness가 지정한 값으로 설정됩니다.
   * _MULTIPLY_ – brightness가 지정한 값에 따라 스케일됩니다. 이 방식은 동적인 변화를 유지합니다. 예를 들어 깜박이는 요소는 계속 깜박이지만, 제한된 밝기 범위 안에서 동작합니다.
 
-**시작 / 끝 값**
+**Gradient editor**
 
-이 슬라이더들은 선택한 축(또는 radial 스윕)을 따라 적용되는 색상 범위를 정의합니다.
+[Colour Changer](colour-changer.md "mention")와 같은 gradient editor를 사용하지만, 위치를 기준으로 콘텐츠 전체에 그라디언트를 매핑합니다.
 
-* **start hue** – 그라디언트 시작 지점의 hue입니다.
-* **end hue** – 그라디언트 끝 지점의 hue입니다.
-* **start saturation** – 시작 지점의 saturation입니다.
-* **end saturation** – 끝 지점의 saturation입니다.
-* **start brightness** – 시작 지점의 brightness입니다.
-* **end brightness** – 끝 지점의 brightness입니다.
+* 그라디언트 바를 클릭하여 색상 스톱을 추가합니다.
+* 스톱을 왼쪽 클릭하여 선택한 다음, 좌우로 드래그하여 이동합니다.
+* 선택한 스톱을 바에서 아래쪽으로 끌어내리거나 Delete/Backspace를 눌러 제거합니다. 그라디언트에는 항상 최소 두 개의 스톱이 유지됩니다.
+* 스톱을 오른쪽 클릭하면 colour picker로 편집할 수 있습니다.
+* **Position**, **Hue**, **Saturation**, **Brightness**를 사용하여 선택한 스톱을 정확하게 편집합니다.
+* **interpolation**은 스톱 사이의 색상을 어떻게 혼합할지 선택합니다.
+* **HSB** – hue, saturation, brightness를 혼합합니다. 색상환을 따라 부드러운 무지개 스타일 움직임을 만들 때 가장 적합합니다.
+* **RGB** – 빨강, 초록, 파랑 값을 직접 혼합합니다. 화면이나 조명 콘솔의 색상 페이드에 더 가까운 느낌을 주는 경우가 많습니다.
+* **NONE** – 혼합 없이 한 스톱에서 다음 스톱으로 바로 전환합니다.
+* **hue direction**은 HSB interpolation에서 사용할 수 있습니다.
+* **AUTO** – hue 휠에서 가장 짧은 경로를 사용합니다.
+* **FORWARDS** – 항상 hue 값을 정방향으로 이동합니다.
+* **BACKWARDS** – 항상 hue 값을 역방향으로 이동합니다.
 * **blend** – 색상 변화를 원래 색상과 혼합합니다. 100%에서는 효과가 원래 색상을 완전히 대체합니다.
+
+**Legacy start / end values**
+
+**legacy mode**가 켜져 있으면 gradient editor가 이전 컨트롤로 대체됩니다.
+
+* **start hue / end hue** – 범위의 시작과 끝에서의 hue입니다.
+* **start saturation / end saturation** – 범위의 시작과 끝에서의 saturation입니다.
+* **start brightness / end brightness** – 범위의 시작과 끝에서의 brightness입니다.
 
 **예제 1: 슬라이딩 무지개 그라디언트**
 
@@ -64,7 +80,7 @@ metaLinks:
 
 1. 노드를 **Linear** 모드로 둡니다(0° angle = 가로).
 2. **wavelength**를 100%로 둡니다(전체 너비에 걸치며, 기본값이어야 합니다).
-3. 시작값과 끝값은 기본값으로 둡니다.
+3. 기본 그라디언트를 그대로 둡니다.
 4. **repeat**를 활성화합니다.
 5. 0%에서 100%까지 이동하는 **Sawtooth Oscillator**를 **offset** 설정에 추가합니다.
 
@@ -77,13 +93,12 @@ metaLinks:
 1. 노드를 **Linear** 모드로 둡니다(0° angle = 가로).
 2. **wavelength**를 100%로 둡니다(전체 너비에 걸치며, 기본값이어야 합니다).
 3. **repeat**를 끕니다.
-4. **start brightness**를 0(검정)으로 설정합니다.
-5. **end brightness**를 100(흰색)으로 설정합니다.
-6. **start saturation**과 **end saturation**을 0으로 설정합니다(그레이스케일로 변환).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. **pingpong**을 활성화합니다.
+4. 첫 번째 그라디언트 스톱을 검정으로 설정합니다.
+5. 마지막 그라디언트 스톱을 흰색으로 설정합니다.
+6. **hue mode**를 OFF로 설정합니다.
+7. 결과를 그레이스케일로 강제하려면 **saturation mode**를 FIXED로 설정합니다.
+8. **brightness mode**를 FIXED로 설정합니다.
+9. **pingpong**을 활성화합니다.
 
 _결과: 그라디언트가 너비를 따라 검정에서 흰색으로, 다시 검정으로 페이드됩니다._\
 콘텐츠의 hue와 saturation을 유지하려면 Saturation mode를 OFF로 설정하세요. \\
@@ -127,5 +142,6 @@ _결과: 원 주위를 계속 회전하는 이음새 없는 컬러 휠이 만들
 * **Depth Offset** – 3D noise field를 따라 이동하여 시간에 따른 변화를 만듭니다. Oscillator Node로 애니메이션할 때 특히 효과적입니다.
 * **Depth Detail** – depth 차원에서 변화가 얼마나 디테일하게 나타나는지 제어합니다.
 * **Absolute** – noise의 절댓값을 사용하여 음수 값을 양수로 접습니다(한쪽 방향의 displacement만 생성).
+* **Angle** – linear mode에서 노이즈의 축을 회전합니다. 0° = 수평입니다.
 * **Radial** – linear 모드에서 radial 모드로 전환하여, 중심으로부터의 각도를 기준으로 displacement가 적용되도록 합니다.
 * **Radial Smooth Loop** – wavelength가 원의 100%에 균등하게 나누어지도록 조정하여, radial 모드에서 보이는 이음새가 생기지 않게 합니다.

@@ -17,7 +17,7 @@ Bár egyszerűnek tűnik, valójában meglehetősen összetett rendszer megépí
 
 Ez egy csomópont-alapú vizuális editor (vagy [node graph architecture](https://en.wikipedia.org/wiki/Node_graph_architecture#Node_graph)), amely ismerős lehet, ha használtál már olyan termékeket, mint a TouchDesigner, a MaxMSP vagy a VVVV. A clip editor azonban kicsit más, és valamivel egyszerűbb is, mivel kifejezetten vektorgrafikához készült.
 
-A Clip Editor megnyitásához kattints jobb gombbal a clip gombra, és válaszd az _EDIT CLIP_ lehetőséget. Vagy kattints jobb gombbal egy üres clip gombra, és válaszd a _CREATE AND EDIT CLIP_ lehetőséget.
+A Clip Editor megnyitásához kattints jobb gombbal a Clip gombra, és válaszd az _EDIT CLIP_ lehetőséget. Vagy kattints jobb gombbal egy üres Clip gombra, és válaszd a _CREATE AND EDIT CLIP_ lehetőséget.
 
 ### Áttekintés
 
@@ -32,7 +32,7 @@ A clip editorban a következőket látod:
 Szerkesztés közben a háttérben a 3D visualiser nézetben is látod, hogyan néz ki a clip.
 
 {% hint style="info" %}
-Ha nem látsz kimenetet a 3D visualiser nézetben, lehet, hogy a zone gombokkal be kell kapcsolnod a kívánt zónákat. Emellett győződj meg róla, hogy a _Preview to lasers_ engedélyezve van; lásd lent: [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel).
+Ha nem látsz kimenetet a 3D visualiser nézetben, lehet, hogy a zone gombokkal be kell kapcsolnod a kívánt zónákat. Emellett győződj meg róla, hogy a _Preview to lasers_ engedélyezve van; lásd lent: [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel "mention").
 {% endhint %}
 
 ### Clip készítése
@@ -75,7 +75,7 @@ Ha használtál már analóg szintetizátort, ismerős lesz az oszcillátorok fo
 **Érdekesség:** a _Liberation_ név a Moog Liberation szintetizátorról kapta az ihletet. Ez egy 1980-ban megjelent „keytar” volt, amelyet Herbie Hancock, Jean-Michel Jarre, sőt James Brown is ismertté tett!
 {% endhint %}
 
-Az Oscillatoroknak mindig vannak _range_ beállításaik, amelyek a módosítandó tulajdonság minimális és maximális értékét szabályozzák. A _Wave Oscillators_ elemeknek pedig mindig van _duration_ beállításuk, amely meghatározza, milyen gyorsan változtatja az oscillator az értéket. További információ: [Hullámoszcillátorok](oscillators/wave-oscillators.md).
+Az Oscillatoroknak mindig vannak _range_ beállításaik, amelyek a módosítandó tulajdonság minimális és maximális értékét szabályozzák. A _Wave Oscillators_ elemeknek pedig mindig van _duration_ beállításuk, amely meghatározza, milyen gyorsan változtatja az oscillator az értéket. További információ: [Hullámoszcillátorok](oscillators/wave-oscillators.md "mention").
 
 ### Clip editor panel
 

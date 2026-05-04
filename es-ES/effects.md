@@ -59,9 +59,9 @@ Los números pequeños que ves en los botones de efectos se refieren al _level_ 
 5. **Scale** :\
    Escala repetidamente todo desde tamaño completo hasta cero. El parámetro ajusta la velocidad.
 6. **Hue** :\
-   Cambia el tono de todo, pero no cambia la saturación (es decir, todo lo que sea blanco sigue siendo blanco). El parámetro ajusta el tono.
+Cambia el tono de todo, pero no cambia la saturación (es decir, todo lo que sea blanco sigue siendo blanco). El parámetro ajusta el tono.
 7. **Saturation and hue** :\
-   Cambia el tono de todo y también satura completamente el color (es decir, todo lo que sea blanco cambia al color). El parámetro ajusta el tono.
+Cambia el tono de todo y también satura completamente el color (es decir, todo lo que sea blanco cambia al color). El parámetro ajusta el tono.
 8. **Flash** :\
    Hace parpadear repetidamente el brillo de todo desde máximo hasta cero. El parámetro ajusta la velocidad de parpadeo.
 
@@ -96,5 +96,5 @@ Necesitas tener al menos un nodo creador; puede ser cualquier cosa (línea, cír
 Cuando se aplican los efectos, todos los nodos creadores del efecto se sustituyen por la salida de los clips que se estén ejecutando en ese momento.
 
 {% hint style="warning" %}
-Por motivos técnicos extremadamente tediosos, los nodos "trails" no están habilitados dentro de un efecto. Lo mismo ocurre con el ajuste "delay" dentro de los nodos de patrón (usan el mismo sistema). Esto se corregirá en futuras revisiones.
+Por motivos técnicos extremadamente tediosos, los nodes "trails" no están habilitados dentro de un efecto. Lo mismo ocurre con el ajuste "delay" dentro de los nodes de patrón (usan el mismo sistema). Esto se corregirá en futuras revisiones.
 {% endhint %}

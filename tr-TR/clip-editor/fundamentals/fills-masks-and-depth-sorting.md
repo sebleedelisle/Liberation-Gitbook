@@ -25,4 +25,4 @@ Yine de çok iyi çalışır ve siyah dolgulu bir şekil yanılsaması verir.
 
 ### Derinlik sıralaması
 
-Bazı şekiller diğer şekillerin _üzerini kapatabildiği_ için Liberation bunları derinliklerine göre sıralamak zorundadır. Varsayılan olarak öğeler, z konumlarına göre derinlik sıralamasına alınır. Aynı z konumundalarsa, layer konumlarına göre sıralanırlar; bu konum her creator içindeki _MOVE TO FRONT_ ve _MOVE TO BACK_ düğmeleriyle değiştirilebilir.
+Bazı şekiller diğer şekilleri _kapatabildiği_ için Liberation bunları derinliklerine göre sıralamak zorundadır. Varsayılan olarak öğeler, z konumlarına göre derinlik sıralamasına alınır. Aynı z konumundalarsa, layer konumlarına göre sıralanırlar; bu konum her Creator içindeki _MOVE TO FRONT_ ve _MOVE TO BACK_ düğmeleriyle değiştirilebilir.

@@ -23,7 +23,7 @@ Klikněte na zone pravým tlačítkem a pomocí číselných tlačítek vyberte,
 VAROVÁNÍ – pokud je laser ve stavu armed, může se náhle začít promítat obsah ve výchozí canvas zone. Před přiřazením canvas zones k laseru je nejlepší přepnout laser do stavu disarmed.
 {% endhint %}
 
-Když teď přejdete do zobrazení _OUTPUT_ pro daný laser, uvidíte tam canvas zone. Tu nyní můžete upravovat přesně stejně jako jakoukoli beam zone. Viz [Zones](../output-view/zones.md).
+Když teď přejdete do zobrazení _OUTPUT_ pro daný laser, uvidíte tam canvas zone. Tu nyní můžete upravovat přesně stejně jako jakoukoli beam zone. Viz [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Canvas zone můžete k laseru přidat také přímo ze zobrazení _OUTPUT_ – klikněte na tlačítko _Add existing canvas zone_ v levém panelu nástrojů.

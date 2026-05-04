@@ -14,7 +14,13 @@ Velikost výstupu pro Clip změníte pomocí _Scale X_ a _Scale Y_. Tyto hodnoty
 
 Vodorovnou a svislou pozici Clip změníte pomocí _Shift X_ a _Shift Y_.
 
-_Zone Delay/Chase_ je tak zábavná funkce, že má vlastní část. [Zone Delay/Chase](zone-delay-chase.md)
+_Zone Delay/Chase_ je tak zábavná funkce, že má vlastní část. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Panel Parameters
+
+Panel napravo od Clip Deck zobrazuje osm kontextových parametrů. Když je vybraný Clip, první ovládací prvky jsou _Shift X_, _Shift Y_ a _Zone Delay_ pro vybraný Clip, za nimi následují globální ovládací prvky _Spin_ a _Scale_.
+
+Tyto stejné parametry se zrcadlí i na podporované MIDI kontrolery. Pokud není vybraný žádný Clip, pozice určené pro konkrétní Clip zůstanou prázdné. Pokud podržíte tlačítko skupiny, první dva ovládací prvky se změní na časy náběhu a doběhu dané skupiny.
 
 ### Zamykání Clip
 
@@ -27,9 +33,9 @@ Když je Clip zamčený, nelze ho přesunout ani smazat. Clip zamknete pomocí z
 
 ### Nabídka po kliknutí pravým tlačítkem
 
-Když na Clip kliknete pravým tlačítkem, zobrazí se nabídka s některými možnostmi pro daný Clip. Více k prvním položkám v této nabídce najdete v částech [Úvod do Clip Editor](../clip-editor/clip-editor-intro.md), [Nastavení Clip](clip-settings.md) a [Skupiny Clips](groups.md).
+Když na Clip kliknete pravým tlačítkem, zobrazí se nabídka s některými možnostmi pro daný Clip. Více k prvním položkám v této nabídce najdete v částech [Úvod do Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Nastavení Clip](clip-settings.md "mention") a [Skupiny Clips](groups.md "mention").
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Nabídka Clip settings po kliknutí pravým tlačítkem</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 
@@ -47,6 +53,6 @@ Clips jsou často navržené tak, aby se opakovaly donekonečna, ale můžete je
 
 ### Doba fade-in/fade-out
 
-U Clip lze nastavit náběh a doběh s délkou v sekundách. Ve výchozím stavu se doba fade dědí z nastavení skupiny, do které Clip patří (a lze ji změnit kliknutím pravým tlačítkem na tlačítko skupiny).
+Pro Clip lze nastavit náběh a doběh s délkou v sekundách. Ve výchozím stavu se doba fade dědí z nastavení skupiny, do které Clip patří (a lze ji změnit kliknutím pravým tlačítkem na tlačítko skupiny).
 
 Pokud chcete použít jinou dobu fade než u skupiny, do které Clip patří, nejprve vypněte tlačítko _USE GROUP DEFAULT_ a potom upravte posuvníky _In time_ a _Out time_ pro daný Clip.

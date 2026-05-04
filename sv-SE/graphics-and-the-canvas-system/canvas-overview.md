@@ -55,7 +55,7 @@ För arkitekturmappning har jag märkt att det är hjälpsamt att skapa en ”ut
 
 ### Canvas i 3D visualiser
 
-Det skulle förmodligen vara ganska pilligt (minst sagt) att återskapa ditt komplicerade projektionssystem med flera lasrar i 3D visualiser! Därför har du i stället möjlighet att placera din Canvas i 3D-rymden. Aktivera kryssrutan _Show canvas_ i panelen _3D visualiser settings_. (Alla guidebilder du har i Canvas visas också i visualiseraren.)
+Det skulle förmodligen vara ganska pilligt (minst sagt) att återskapa ditt komplicerade projektionssystem med flera lasrar i 3D-visualiseraren! Därför har du i stället möjlighet att placera din Canvas i 3D-rymden. Aktivera kryssrutan _Show canvas_ i panelen _3D visualiser settings_. (Alla guidebilder du har i Canvas visas också i visualiseraren.)
 
 {% hint style="info" %}
 Observera att visualiseraren fortfarande visar Canvas-projektionerna som atmosfäriska effekter från lasrarna. Du kan antingen bara flytta dem ur vyn, eller, om du vill vara extra noggrann, linjera dem med Canvas!

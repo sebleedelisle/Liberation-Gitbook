@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
 ---
 
-# 🟩 使用 APC40 進行即時控制
+# 🟩 Live MIDI Controllers
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -27,4 +27,12 @@ _糟了！演出途中 USB 插頭被拔走了！_
 最初的 APC40 Mark 1 於 2009 年推出（！），至今仍有人偏好它的金屬機身結構，以及堅固、類似控制台的外形。更新版 Mark 2 於 2014 年推出，雖然在 2024 年停產，但因應視覺藝術家（Resolume 等）及 laserists 的需求，將於 2025 年重新投產。
 {% endhint %}
 
-如要查看 APC40 上可用控制項的完整列表，請參閱 [APC40 參考](../reference/apc40-reference.md)
+如要查看 APC40 上可用控制項的完整列表，請參閱 [APC40 參考](../reference/apc40-reference.md "mention")
+
+### APC Mini
+
+Liberation 1.0.3 亦包含 APC Mini profile。它會對應 8x5 Clip 網格、zone 按鈕、zone X/Y 翻轉控制、group 按鈕、停止所有 Clips、Clip 頁面移動、zone 頁面移動、tap tempo、bar reset 及 tempo nudge。它的推桿用於控制效果 levels，而按住 shift 後使用推桿則可控制效果參數。最後一支推桿控制 global brightness。
+
+### MIDI Fighter Twister
+
+MIDI Fighter Twister profile 著重以編碼器控制，而不是啟動 Clip。其中一排編碼器控制效果 slot 1 至 8 的參數 1，另一排則跟隨 Parameters panel 的八個情境控制項，包括 Clip shift、zone delay、global spin/scale 及 group fades。

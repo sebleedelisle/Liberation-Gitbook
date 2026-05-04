@@ -8,7 +8,7 @@ metaLinks:
 # ✅ Clipien käynnistäminen ja pysäyttäminen
 
 {% hint style="info" %}
-Voit käynnistää ja pysäyttää clippejä näytön painikkeilla, mutta APC40 MIDI -ohjaimen käyttö on huomattavasti parempi tapa. Liberation on optimoitu toimimaan hyvin tämän laitteen kanssa, ja sitä kannattaa pitää tärkeänä osana laserinvestointiasi.
+Voit käynnistää ja pysäyttää Clips näytön painikkeilla, mutta APC40 MIDI -ohjaimen käyttö on huomattavasti parempi tapa. Liberation on optimoitu toimimaan hyvin tämän laitteen kanssa, ja sitä kannattaa pitää tärkeänä osana laserinvestointiasi.
 {% endhint %}
 
 ### Clipien käynnistäminen ja pysäyttäminen
@@ -24,7 +24,7 @@ Voit käynnistää uuden clipin pysäyttämättä muita clippejä jommallakummal
 * Pidä `Shift`-näppäintä (tai APC40:n Shift-painiketta) painettuna, kun käynnistät uuden clipin; tai
 * Paina parhaillaan käynnissä olevia clippejä uudelleen samalla, kun käynnistät uuden clipin.
 
-Clip-ryhmät ovat toisistaan riippumattomia, joten clipin käynnistäminen yhdessä ryhmässä ei vaikuta muiden ryhmien clippeihin. Katso [Clip-ryhmät](groups.md)
+Clip-ryhmät ovat toisistaan riippumattomia, joten clipin käynnistäminen yhdessä ryhmässä ei vaikuta muiden ryhmien clippeihin. Katso [Clip-ryhmät](groups.md "mention")
 
 ### Flash mode
 

@@ -16,7 +16,7 @@ Global Transformations は Canvas 内の要素には影響せず、Beam と DMX 
 
 ### Scale X/Y
 
-水平および垂直方向のスケールです。`Shift` を押さない限り、これらの値は連動します。デフォルトでは APC40 Device Control ノブ 4 と 8 にもマッピングされており、Clip Deck の右側のパネルに表示されます。
+水平および垂直方向のスケールです。`Shift` を押さない限り、これらの値は連動します。デフォルトでは APC40 Device Control ノブ 4 と 8 にもマッピングされており、Clip Deck の右側にあるコンテキスト Parameters パネルに表示されます。
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Global Transformations は Canvas 内の要素には影響せず、Beam と DMX 
 
 ### Spin
 
-すべてのコンテンツを中心の周りで回転させます。正の値では時計回りに、負の値では反時計回りに回転します。この設定が _Rotation_ 変形に影響することが分かります。デフォルトでは APC40 Device Control ノブ 3 にマッピングされており、Clip Deck の右側のパネルに表示されます。
+すべてのコンテンツを中心の周りで回転させます。正の値では時計回りに、負の値では反時計回りに回転します。この設定が _Rotation_ 変形に影響することが分かります。デフォルトでは APC40 Device Control ノブ 3 にマッピングされており、Clip Deck の右側にあるコンテキスト Parameters パネルに表示されます。
 
 ### Spin 3D
 
-すべてのコンテンツを Y 軸（中心を通る垂直線）の周りで回転させます。この設定が _Rotation3D_ 変形に影響することが分かります。デフォルトでは APC40 Device Control ノブ 7 にマッピングされており、Clip Deck の右側のパネルに表示されます。
+すべてのコンテンツを Y 軸（中心を通る垂直線）の周りで回転させます。この設定が _Rotation3D_ 変形に影響することが分かります。デフォルトでは APC40 Device Control ノブ 7 にマッピングされており、Clip Deck の右側にあるコンテキスト Parameters パネルに表示されます。
 
 ### Rotation
 

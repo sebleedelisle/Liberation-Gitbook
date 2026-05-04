@@ -1,6 +1,8 @@
 ---
 description: >-
-  雷射可能具有危險性，因此遵循最佳實務與安全準則非常重要。本頁提供實用的總覽，協助你安全地完成雷射架設流程。
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

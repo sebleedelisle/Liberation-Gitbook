@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/intermittent-flashing-output
+---
+
 # ✅ 间歇 / 闪烁输出
 
 打开 _Laser Overview_ 面板，查看出现问题的激光旁边的连接指示灯。&#x20;
@@ -34,7 +41,7 @@
 
 则更可能是硬件问题。本手册不涵盖硬件排障，但可尝试：
 
-* 禁用 SFS（Scan Fail Safety）系统。有些激光在扫描器停止移动（产生强静态光束）时会关闭输出，但可能过于敏感/不稳定。
+* 禁用 SFS（Scan Fail Safety）系统。有些激光在扫描器停止移动（即产生强静态光束）时会关闭输出，但可能过于敏感/不稳定。
 
 {% hint style="danger" %}
 禁用 scan fail safety 系统时要极度谨慎。强静态光束可能导致灼烧！确保有停止按钮和灭火器。&#x20;

@@ -9,7 +9,7 @@ metaLinks:
 
 開啟激光設備當然令人興奮，但你同樣必須能夠把它們_停止_！激光硬件及軟件一般都非常可靠，但任何東西都有可能故障。萬一真的發生問題，你一定會慶幸自己有那個遙距停止按鈕。
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Laser Cube 的遙距停止按鈕。這是你最重要的硬件。</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 電動工具及重型設備的停止按鈕，通常只是切斷主電源；但在激光設備上，你**絕對不應該**這樣做！激光總會需要一點時間才停止發射，而突然斷電可能令激光掃描器撞到極限位置。因此，你很可能會在意想不到的位置得到一道強光束！

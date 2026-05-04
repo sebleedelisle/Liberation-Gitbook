@@ -25,4 +25,4 @@ Mas funciona muito bem e cria a ilusão de uma forma preenchida em preto.
 
 ### Ordenação por profundidade
 
-Como algumas formas podem _cobrir_ outras formas, o Liberation precisa ordená-las pela profundidade. Por padrão, os elementos são ordenados por profundidade de acordo com a posição z. Se estiverem na mesma posição z, eles são ordenados pela posição de camada, que pode ser alterada usando os botões _MOVE TO FRONT_ e _MOVE TO BACK_ dentro de cada creator.
+Como algumas formas podem _cobrir_ outras formas, o Liberation precisa ordená-las pela profundidade. Por padrão, os elementos são ordenados por profundidade de acordo com a posição z. Se estiverem na mesma posição z, eles são ordenados pela posição de camada, que pode ser alterada usando os botões _MOVE TO FRONT_ e _MOVE TO BACK_ dentro de cada Creator.

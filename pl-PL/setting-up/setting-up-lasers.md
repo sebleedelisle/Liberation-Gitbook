@@ -1,8 +1,8 @@
 ---
 description: >-
-  Lasery mogą być niebezpieczne, dlatego ważne jest przestrzeganie dobrych
-  praktyk i zasad bezpieczeństwa. Ta strona zawiera przydatny przegląd, który
-  pomoże Ci bezpiecznie przejść przez proces konfiguracji laserów.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

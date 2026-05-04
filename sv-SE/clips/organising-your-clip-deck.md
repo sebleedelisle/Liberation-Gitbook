@@ -12,12 +12,12 @@ metaLinks:
 Klicka och dra för att flytta ett klipp. Om fler än ett klipp är markerat (se [Starta/stoppa clips](starting-stopping-clips.md "mention")) flyttas alla. Håll ned `Alt / Option` för att duplicera dem. Släpp klippet eller klippen på en tom plats.
 
 {% hint style="info" %}
-Om du behöver markera många klipp kan du klicka och dra ett markeringslasso och sedan rulla i Clip Deck medan du fortfarande drar (antingen med piltangenterna, APC 40 eller sidscrollning på pekplatta/mus). Lassot förlängs utanför kanten på Clip Deck.
+Om du behöver markera många Clips kan du klicka och dra ett markeringslasso och sedan rulla i Clip Deck medan du fortfarande drar (antingen med piltangenterna, APC40 eller sidscrollning på pekplatta/mus). Lassot förlängs utanför kanten på Clip Deck.
 {% endhint %}
 
 ### Ta bort klipp
 
-Använd högerklicksmenyn för att ta bort ett enskilt klipp.
+Använd högerklicksmenyn för att ta bort ett enskilt Clip.
 
 För att ta bort flera klipp markerar du dem (antingen med `Alt / Option + Shift`-klick eller genom att dra lassot) och drar dem ut från Clip Deck.
 

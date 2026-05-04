@@ -9,7 +9,7 @@ metaLinks:
 
 Þessi flokkur inniheldur node sem breyta efni út frá staðsetningu. Sjálfgefið er áhrifinu beitt eftir láréttum ási, frá vinstri til hægri, en þú getur snúið ásnum í hvaða horn sem er. Hver node er líka með _radial_ stillingu, þar sem áhrifin ráðast af horni hvers punkts miðað við miðju.
 
-* **Colour Changer by Position** – hliðrar litum eftir völdum ási eða í kringum radial hornið.\
+* **Colour Changer by Position** – beitir stigli eftir völdum ási eða í kringum radial hornið.\
   \&#xNAN;_Dæmi: Búðu til regnbogastigul sem fer yfir línu, eða notaðu radial stillingu á hring til að fá litahringsáhrif._
 * **Wave Shift by Position** – beitir sinusbylgju-aflögun og hliðrar efninu lóðrétt, eða hornrétt á valinn ás.\
   \&#xNAN;_Dæmi: Láttu línu gára eins og vatn, eða notaðu radial stillingu til að láta hring púlsa út frá miðjunni._
@@ -29,10 +29,11 @@ metaLinks:
 * **linear angle** – snýr ási áhrifanna. 0° = lárétt.
 * **radial** – skiptir yfir í radial stillingu og beitir litum út frá horni frá miðju.
 * **radial smooth loop** – lagar wavelength sjálfkrafa þannig að hún gangi jafnt upp í 100% af hringnum og kemur í veg fyrir sýnilega samskeytalínu þar sem lotan vefst um.
+* **legacy mode** – skiptir aftur yfir í eldri HSB-rennana fyrir upphaf og enda. Hafðu þetta slökkt til að nota nýrri stigulritilinn.
 
 **Litastillingar**
 
-Þessar stillingar ákvarða hvaða þættir litabreytinganna eru notaðir á efnið. Sjá einnig: [Litastillingar og HSB](../fundamentals/colour-settings-and-hsb.md).
+Þessar stillingar ákvarða hvaða þættir litabreytinganna eru notaðir á efnið. Sjá einnig: [Litastillingar og HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – litblær helst óbreyttur.
@@ -46,17 +47,32 @@ metaLinks:
   * _FIXED_ – birta er stillt á tilgreint gildi.
   * _MULTIPLY_ – birta er sköluð með tilgreindu gildi. Þetta varðveitir hreyfingu í birtu, t.d. halda blikkandi einingar áfram að blikka, en innan takmarkaðra birtumarka.
 
-**Upphafs- og endagildi**
+**Stigulritill**
 
-Þessir rennar skilgreina litasviðið sem er beitt eftir völdum ási, eða radial sveip.
+Notar sama stigulritil og [Colour Changer](colour-changer.md "mention"), en varpar stiglinum yfir efnið eftir staðsetningu.
 
-* **start hue** – litblær í upphafi stigulsins.
-* **end hue** – litblær við enda stigulsins.
-* **start saturation** – mettun í upphafi.
-* **end saturation** – mettun við enda.
-* **start brightness** – birta í upphafi.
-* **end brightness** – birta við enda.
+* Smelltu á stigulstikuna til að bæta við litastoppi.
+* Vinstrismelltu á stopp til að velja það og dragðu það síðan til hliðar til að færa það.
+* Dragðu valið stopp niður frá stikunni, eða ýttu á Delete/Backspace, til að fjarlægja það. Stigull heldur alltaf að minnsta kosti tveimur stoppum.
+* Hægrismelltu á stopp til að breyta því með litavalinu.
+* Notaðu **Position**, **Hue**, **Saturation** og **Brightness** til að breyta völdu stoppi nákvæmlega.
+* **interpolation** velur hvernig litir blandast milli stoppa:
+* **HSB** – blandar litblæ, mettun og birtu. Þetta hentar best fyrir mjúka regnbogalíka hreyfingu um litahjólið.
+* **RGB** – blandar rauðum, grænum og bláum gildum beint. Þetta minnir oft meira á litaflökt á skjá eða ljósaborði.
+* **NONE** – hoppar frá einu stoppi í það næsta án blöndunar.
+* **hue direction** er í boði í HSB-blöndun:
+* **AUTO** – fer stystu leiðina um litblæshjólið.
+* **FORWARDS** – fer alltaf áfram í gegnum litblæsgildin.
+* **BACKWARDS** – fer alltaf afturábak í gegnum litblæsgildin.
 * **blend** – blandar litabreytingunni við upprunalegu litina. Við 100% kemur áhrifin alveg í stað upprunalegu litanna.
+
+**Eldri upphafs- og endagildi**
+
+Ef **legacy mode** er kveikt kemur eldri stýring í stað stigulritilsins:
+
+* **start hue / end hue** – litblær við upphaf og enda sviðsins.
+* **start saturation / end saturation** – mettun við upphaf og enda sviðsins.
+* **start brightness / end brightness** – birta við upphaf og enda sviðsins.
 
 **Dæmi 1: Rennandi regnbogastigull**
 
@@ -64,7 +80,7 @@ Byrjaðu með sjálfgefnum stillingum:
 
 1. Hafðu node áfram í **Linear** mode (0° angle = lárétt).
 2. Hafðu **wavelength** á 100% (nær yfir alla breiddina og ætti að vera sjálfgefið).
-3. Hafðu upphafs- og endagildin óbreytt.
+3. Láttu sjálfgefna stigulinn vera óbreyttan.
 4. Virkjaðu **repeat**.
 5. Bættu **Sawtooth Oscillator** við **offset** stillinguna sem fer frá 0% til 100%.
 
@@ -77,13 +93,12 @@ Byrjaðu með sjálfgefnum stillingum:
 1. Hafðu node áfram í **Linear** mode (0° angle = lárétt).
 2. Hafðu **wavelength** á 100% (nær yfir alla breiddina og ætti að vera sjálfgefið).
 3. Slökktu á **repeat**.
-4. Stilltu **start brightness** á 0 (svart).
-5. Stilltu **end brightness** á 100 (hvítt).
-6. Stilltu **start saturation** og **end saturation** á 0 (breytir yfir í grátóna).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Virkjaðu **pingpong**.
+4. Stilltu fyrsta stopp stigulsins á svart.
+5. Stilltu síðasta stopp stigulsins á hvítt.
+6. Slökktu á **hue mode**.
+7. Stilltu **saturation mode** á FIXED ef þú vilt þvinga niðurstöðuna í grátóna.
+8. Stilltu **brightness mode** á FIXED.
+9. Kveiktu á **pingpong**.
 
 _Niðurstaða: stigullinn dofnar frá svörtu yfir í hvítt og síðan aftur yfir í svart yfir breiddina._\
 Athugaðu að ef þú vilt að efnið haldi litblæ og mettun skaltu slökkva á Saturation mode. \\
@@ -127,5 +142,6 @@ _Niðurstaða: saumlaust litahjól sem snýst stöðugt í kringum hringinn._
 * **Depth Offset** – færist í gegnum 3D noise sviðið og býr til breytileika yfir tíma. Þetta er sérstaklega áhrifaríkt þegar það er hreyft með Oscillator Node.
 * **Depth Detail** – stjórnar hversu ítarlegur breytileikinn er eftir dýptarvíddinni.
 * **Absolute** – notar algildi noise og fellir neikvæð gildi yfir í jákvæð gildi, sem skapar aðeins einhliða tilfærslu.
+* **Angle** – snýr ás suðsins í linear mode. 0° = lárétt.
 * **Radial** – skiptir úr linear yfir í radial stillingu, þannig að tilfærslan byggist á horninu frá miðju.
 * **Radial Smooth Loop** – lagar wavelength þannig að hún gangi jafnt upp í 100% af hringnum og kemur í veg fyrir sýnileg samskeyti í radial stillingu.

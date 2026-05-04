@@ -9,7 +9,7 @@ metaLinks:
 
 Lazerlerinizi çalıştırmak keyifli olabilir, ancak onları _durdurabilmeniz_ de kritik derecede önemlidir! Lazer donanımı ve yazılımı genel olarak çok güvenilirdir, ama her şey arızalanabilir. Böyle nadir bir durumda, o uzaktan durdurma butonuna sahip olduğunuz için çok memnun olursunuz.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Laser Cube için uzaktan durdurma butonu. Sahip olduğunuz en önemli donanım.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Elektrikli aletlerde ve ağır ekipmanlarda ana güç beslemesini kesen durdurma butonları bulunur, ancak lazer ekipmanlarında bunu **asla** yapmamalısınız! Lazerlerin ışık yaymayı durdurması her zaman kısa bir süre alır ve ani bir güç kesintisi lazer tarayıcılarının hareket sınırlarına çarpmasına neden olabilir. Bu yüzden beklenmedik yerlere güçlü bir ışın gönderebilirsiniz!

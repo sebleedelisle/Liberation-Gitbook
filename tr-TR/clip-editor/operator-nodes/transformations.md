@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Tüm içeriği x, y ve/veya z eksenleri boyunca taşır. Koordinat sisteminin merkezli olduğunu ve x ile y eksenlerinde +/-200 aralığına uzandığını unutmayın. Bkz. [koordinat sistemi](../fundamentals/co-ordinate-system.md).
+Tüm içeriği x, y ve/veya z eksenleri boyunca taşır. Koordinat sisteminin merkezli olduğunu ve x ile y eksenlerinde +/-200 aralığına uzandığını unutmayın. Bkz. [koordinat sistemi](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - x ekseni boyunca taşınacak mesafe (sol - sağ).
 * **y** - y ekseni boyunca taşınacak mesafe (üst - alt).
@@ -20,7 +20,7 @@ Tüm içeriği x, y ve/veya z eksenleri boyunca taşır. Koordinat sisteminin me
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Tüm içeriği döndürür. Değerler derece cinsindendir. Bkz. [koordinat sistemi](../fundamentals/co-ordinate-system.md).
+Tüm içeriği döndürür. Değerler derece cinsindendir. Bkz. [koordinat sistemi](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - içeriğin saat yönünde kaç derece döndürüleceği. Her şey başlangıç noktası (0,0), yani merkez etrafında döner.
 * **pivot point x / pivot point y** - Döndürme başlangıç noktasını kaydırmak için bu değerleri kullanın.

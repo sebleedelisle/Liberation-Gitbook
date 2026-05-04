@@ -57,7 +57,7 @@ Instalátor je hotový. Kliknutím na _Finish_ ho zavřete a spustíte Liberatio
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation potřebuje oprávnění k přístupu k souborům a k síti, takže Windows pravděpodobně zobrazí několik žádostí. Nezapomeňte vše povolit, jinak Liberation nemusí fungovat správně.
+Liberation potřebuje oprávnění k přístupu k souborům a k síti, takže Windows pravděpodobně zobrazí několik výzev k povolení. Nezapomeňte vše povolit, jinak Liberation nemusí fungovat správně.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

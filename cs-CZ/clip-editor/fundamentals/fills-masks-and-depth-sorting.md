@@ -25,4 +25,4 @@ Funguje to ale velmi dobře a vytváří iluzi černě vyplněného tvaru.
 
 ### Řazení podle hloubky
 
-Protože některé tvary mohou _překrýt_ jiné tvary, Liberation je musí seřadit podle hloubky. Ve výchozím nastavení se prvky řadí podle hloubky podle své polohy na ose Z. Pokud jsou na stejné poloze Z, řadí se podle své pozice ve vrstvě, kterou lze změnit pomocí tlačítek _MOVE TO FRONT_ a _MOVE TO BACK_ uvnitř každého Creator.
+Protože některé tvary mohou _překrýt_ jiné tvary, Liberation je musí seřadit podle hloubky. Ve výchozím nastavení se prvky podle hloubky řadí podle své polohy na ose Z. Pokud jsou ve stejné poloze na ose Z, řadí se podle své pozice ve vrstvě, kterou lze změnit pomocí tlačítek _MOVE TO FRONT_ a _MOVE TO BACK_ v každém Creator.

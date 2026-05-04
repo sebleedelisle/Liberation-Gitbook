@@ -35,7 +35,7 @@ orientation / mirroring 보정은 3D Visualiser의 내용을 변경하지 않습
 
 ### Copy laser settings
 
-[#copy-laser-settings](./#copy-laser-settings)를 참고하세요.
+[#copy-laser-settings](./#copy-laser-settings "mention")를 참고하세요.
 
 ### Scanner settings
 
@@ -50,7 +50,7 @@ Speed 설정은 스캐너가 얼마나 빠르게 움직이는지 결정합니다
 {% endhint %}
 
 {% hint style="info" %}
-이 Speed 설정은 point rate를 변경하지 않습니다. 대신 포인트 사이의 간격을 조정합니다. 자세한 내용은 [◼️ Liberation이 레이저 콘텐츠를 생성하는 방식](../../advanced/how-liberation-generates-laser-content.md)를 참고하세요.
+이 Speed 설정은 point rate를 변경하지 않습니다. 대신 포인트 사이의 간격을 조정합니다. 자세한 내용은 [◼️ Liberation이 레이저 콘텐츠를 생성하는 방식](../../advanced/how-liberation-generates-laser-content.md "mention")를 참고하세요.
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Speed 설정은 스캐너가 얼마나 빠르게 움직이는지 결정합니다
 
 #### Scanner presets
 
-미리 설계된 스캐너 설정을 선택할 때 사용합니다. 기본 옵션으로도 대부분 문제없으므로, 스캐너가 특히 나쁘거나(또는 좋은) 경우가 아니라면 이 설정을 변경할 필요는 없습니다. 더 자세히 알고 싶다면 [◼️ 스캐너 프리셋 및 렌더 프로필](../../advanced/scanner-presets.md)를 참고하세요.
+미리 설계된 스캐너 설정을 선택할 때 사용합니다. 기본 옵션으로도 대부분 문제없으므로, 스캐너가 특히 나쁘거나(또는 좋은) 경우가 아니라면 이 설정을 변경할 필요는 없습니다. 더 자세히 알고 싶다면 [◼️ 스캐너 프리셋 및 렌더 프로필](../../advanced/scanner-presets.md "mention")를 참고하세요.
 
 #### Colour calibration
 
-이 시스템을 사용해 레이저의 밝기 곡선과 화이트 밸런스를 보정할 수 있습니다. [색상 보정](../../advanced/colour-calibration.md)를 참고하세요.
+이 시스템을 사용해 레이저의 밝기 곡선과 화이트 밸런스를 보정할 수 있습니다. [색상 보정](../../advanced/colour-calibration.md "mention")를 참고하세요.
 
 #### Advanced settings
 
-일반적으로 이 설정을 건드릴 필요는 없지만, 궁금하다면 [◼️ 고급 레이저 설정](../../advanced/advanced-laser-settings.md)를 참고하세요.
+일반적으로 이 설정을 건드릴 필요는 없지만, 궁금하다면 [◼️ 고급 레이저 설정](../../advanced/advanced-laser-settings.md "mention")를 참고하세요.

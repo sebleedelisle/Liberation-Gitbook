@@ -38,7 +38,7 @@ VIÐVÖRUN - ef leysirinn er armed gætirðu skyndilega byrjað að varpa efni �
 {% endhint %}
 
 {% hint style="info" %}
-Þú getur líka úthlutað canvas zone á leysi með því að smella á _add canvas zone_ hnappinn í _OUTPUT_ view. Sjá [Zones](../output-view/zones.md).
+Þú getur líka úthlutað canvas zone á leysi með því að smella á _add canvas zone_ hnappinn í _OUTPUT_ view. Sjá [Zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Leiðarmyndir

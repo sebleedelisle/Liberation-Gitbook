@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
 ---
 
-# 🟩 Controllo live con APC40
+# 🟩 Controller MIDI live
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -27,4 +27,12 @@ In breve, è consigliato il Mark 2 perché ha pulsanti a colori completi, che co
 L’APC40 Mark 1 originale è uscito nel 2009(!) e alcune persone lo preferiscono ancora per il corpo in metallo e per il formato robusto, simile a una console. Il Mark 2 aggiornato è uscito nel 2014 e, anche se è stato dismesso nel 2024, tornerà in produzione nel 2025 grazie alla richiesta di visual artist (Resolume ecc.) e laserist.
 {% endhint %}
 
-Per l’elenco completo dei controlli disponibili sull’APC40, vedi [Riferimento APC40](../reference/apc40-reference.md)
+Per l’elenco completo dei controlli disponibili sull’APC40, vedi [Riferimento APC40](../reference/apc40-reference.md "mention")
+
+### APC Mini
+
+Liberation 1.0.3 include anche un profilo per APC Mini. Mappa la griglia Clips 8x5, i pulsanti delle zone, i controlli di inversione X/Y delle zone, i pulsanti dei gruppi, l’arresto di tutti i Clips, lo spostamento tra le pagine dei Clips, lo spostamento tra le pagine delle zone, tap tempo, reset della battuta e regolazione fine del tempo. I suoi fader controllano i livelli degli effetti, mentre i fader con shift controllano i parametri degli effetti. L’ultimo fader controlla la luminosità globale.
+
+### MIDI Fighter Twister
+
+Il profilo MIDI Fighter Twister è pensato per un controllo basato soprattutto sugli encoder, più che per l’avvio dei Clips. Una fila di encoder controlla il parametro 1 per gli slot effetti 1-8, mentre un’altra fila segue gli otto controlli contestuali del pannello Parameters, inclusi lo shift dei Clip, il ritardo delle zone, spin/scale globali e le dissolvenze dei gruppi.

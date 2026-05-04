@@ -9,10 +9,10 @@ metaLinks:
 
 #### Gdje pronaći radnu mapu
 
-Svaka verzija Liberation ima vlastitu radnu mapu. Na primjer, ako koristite verziju 1.0.0, naziv mape bit će 1.0.0.
+Svaka verzija Liberation ima vlastitu radnu mapu. Na primjer, ako koristite verziju 1.0.3, naziv mape bit će 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Kako brzo otvoriti mapu**
 
@@ -24,7 +24,7 @@ Svaka verzija Liberation ima vlastitu radnu mapu. Na primjer, ako koristite verz
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Otvorite mapu koja odgovara broju vaše verzije, na primjer `1.0.0`.
+3. Otvorite mapu koja odgovara broju vaše verzije, na primjer `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Svaka verzija Liberation ima vlastitu radnu mapu. Na primjer, ako koristite verz
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Otvorite mapu koja odgovara broju vaše verzije, na primjer `1.0.0`.
+2. Otvorite mapu koja odgovara broju vaše verzije, na primjer `1.0.3`.
 
 > **Savjet za Windows**: Ako mapu tražite preko Eksplorera za datoteke, omogućite skrivene stavke: **Prikaz > Prikaži > Skrivene stavke**.

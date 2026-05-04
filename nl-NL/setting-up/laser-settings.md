@@ -24,7 +24,7 @@ Bovenaan dit paneel zie je:
 
 ### Output-oriëntatie / correctie van spiegeling
 
-De volgende opties zijn bedoeld om de set-up van je laser te corrigeren, zodat deze zich consistent gedraagt in Liberation.
+De volgende opties zijn bedoeld om de setup van je laser te corrigeren, zodat deze zich consistent gedraagt in Liberation.
 
 * **Flip horizontal / vertical** - met deze opties kun je de output van je laser corrigeren
 

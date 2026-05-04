@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Move todo o conteúdo ao longo dos eixos x, y e/ou z. Observe que o sistema de coordenadas é centralizado e se estende até +/-200 nos eixos x e y. Consulte [Sistema de coordenadas](../fundamentals/co-ordinate-system.md).
+Move todo o conteúdo ao longo dos eixos x, y e/ou z. Observe que o sistema de coordenadas é centralizado e se estende até +/-200 nos eixos x e y. Consulte [Sistema de coordenadas](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - a distância para mover ao longo do eixo x (esquerda - direita).
 * **y** - a distância para mover ao longo do eixo y (cima - baixo).
@@ -20,7 +20,7 @@ Move todo o conteúdo ao longo dos eixos x, y e/ou z. Observe que o sistema de c
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Gira todo o conteúdo. Os valores são em graus. Consulte [Sistema de coordenadas](../fundamentals/co-ordinate-system.md).
+Gira todo o conteúdo. Os valores são em graus. Consulte [Sistema de coordenadas](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - a quantidade de rotação do conteúdo no sentido horário, em graus. Tudo é girado em torno da origem (0,0), o centro.
 * **pivot point x / pivot point y** - use esses valores para deslocar a origem da rotação.

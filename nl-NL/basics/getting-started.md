@@ -68,7 +68,7 @@ Het grote gebied linksboven in het scherm kan een van de 3 hoofdweergaven zijn: 
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-De 3D-weergave laat zien hoe je lasers eruit zullen zien en kan worden ingesteld zodat deze overeenkomt met je eigen laseropstelling. Klik en sleep om de camera te draaien, en gebruik het muiswiel om naar voren en achteren te bewegen. Je vindt veel andere opties in het panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Zie [3D Visualiser](../setting-up/3d-visualiser.md "mention").
+De 3D view laat zien hoe je lasers eruit zullen zien en kan worden ingesteld zodat deze overeenkomt met je eigen laseropstelling. Klik en sleep om de camera te draaien, en gebruik het muiswiel om naar voren en achteren te bewegen. Je vindt veel andere opties in het panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Zie [3D Visualiser](../setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -87,12 +87,12 @@ Een zone is een ruimte binnen de output van een laser waar je lasercontent naart
 Je kunt de laser die je wilt bewerken selecteren met:
 
 * de genummerde knoppen in de balk bovenaan
-* de cijfertoets voor de gewenste laser _(1-9_-toetsen\_)\_
+* de cijfertoets voor de gewenste laser indrukken (_1-9 keys_)
 * de `Tab`-toets om van de ene naar de volgende te gaan
 
-Voeg een nieuwe laser toe aan de set-up door op de _+_-knop te drukken. (Er is ook een knop _ADD LASER_ in het panel _Laser Overview_)
+Voeg een nieuwe laser toe aan de setup door op de _+_-knop te drukken. (Er is ook een knop _ADD LASER_ in het panel _Laser Overview_)
 
-Verwijder een laser uit de set-up door op de rode ⊖-knop in het panel _Laser Overview_ te drukken.
+Verwijder een laser uit de setup door op de rode ⊖-knop in het panel _Laser Overview_ te drukken.
 
 Je kunt in- en uitzoomen met het scrollwiel van de muis, en klikken en slepen op elke plek waar geen zone staat om de weergave te verplaatsen.
 
@@ -114,7 +114,7 @@ Hoewel het mogelijk is om Liberation met muis en toetsenbord te bedienen, werkt 
 
 Zie ook: [APC40-referentie](../reference/apc40-reference.md "mention")
 
-We hebben inmiddels ook ondersteuning geïmplementeerd voor APC Mini Mark 2 en de MIDI Fighter Twister, en er zijn meer controllers in ontwikkeling. Maar de APC40 Mark 2 is in de meeste gevallen de beste optie.&#x20;
+Liberation ondersteunt ook APC Mini en MIDI Fighter Twister. De APC40 Mark 2 is nog steeds in de meeste gevallen de beste optie.&#x20;
 
 ### Clips en effecten
 
@@ -162,7 +162,7 @@ Twee rijen onder de zoneknoppen zie je de X/Y flip-knoppen. Zet deze aan of uit 
 Let op: deze zone-toewijzingen en X/Y flip-instellingen zijn gekoppeld aan de clip zelf; ze worden bewaard voor de volgende keer dat je die clip draait. Het is geen globale instelling.
 {% endhint %}
 
-Rechtsklik op een clip om meer instellingen voor de clip te bewerken. Zie ook [Clip settings](../clips/clip-settings.md "mention")
+Rechtsklik op een Clip om meer instellingen voor de Clip te bewerken. Zie ook [Clip settings](../clips/clip-settings.md "mention")
 
 ### Groepen
 
@@ -219,15 +219,15 @@ _\*Rotary controllers 1-8 zitten bovenaan op een APC40 Mk2 en rechtsboven op de 
 5. **Scale** :\
    Schaalt alles herhaaldelijk van volledig naar nul. De parameter past de snelheid aan.
 6. **Hue** :\
-   Verandert de tint van alles, maar verandert de verzadiging niet (dus alles wat wit is blijft wit). De parameter past de tint aan.
+Verandert de tint van alles, maar verandert de verzadiging niet (dus alles wat wit is blijft wit). De parameter past de tint aan.
 7. **Saturation and hue** :\
-   Verandert de tint van alles en verzadigt de kleur ook volledig (dus alles wat wit is verandert naar de kleur). De parameter past de tint aan.
+Verandert de tint van alles en verzadigt de kleur ook volledig (dus alles wat wit is verandert naar de kleur). De parameter past de tint aan.
 8. **Flash** :\
    Laat de helderheid van alles herhaaldelijk flitsen van volledig naar nul. De parameter past de flitssnelheid aan.
 
 <figure><img src="../.gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-Er staan nog 16 extra kleureffecten op de onderste rij om vooraf ingestelde hue- en saturation-waarden toe te passen.
+Er staan nog 16 extra kleureffecten op de onderste rij om vooraf ingestelde waarden voor tint en verzadiging toe te passen.
 
 Let op: dit zijn de standaardeffecten, maar ze kunnen worden bewerkt om bijna alles te doen wat je wilt!
 
@@ -259,7 +259,7 @@ Bijna alle lasershows hebben een muzikale soundtrack, dus het timingsysteem in L
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Er zijn meerdere synchronisatieopties, waaronder MIDI clock en Ableton Link. Als je het tempo van de muziek weet, kun je het handmatig aanpassen met de slider op het scherm of de APC40 Tempo knob, maar je kunt ook in de maat blijven met de muziek via het _Tap Tempo_-systeem\_.\_
+Er zijn meerdere synchronisatieopties, waaronder MIDI clock en Ableton Link. Als je het tempo van de muziek weet, kun je het handmatig aanpassen met de slider op het scherm of de APC40 Tempo knob, maar je kunt ook in de maat blijven met de muziek via het _Tap Tempo_-systeem.
 
 #### Tap Tempo
 
@@ -281,7 +281,7 @@ Houd de `Alt / Option`-toets ingedrukt terwijl je sleept om een kopie te maken.
 
 Klikken en slepen verplaatst ALLE geselecteerde clips.
 
-Om één of meer clips te verwijderen, sleep je ze van het Clip Deck af (er verschijnt een prullenbakpictogram) of gebruik je de DELETE-knop in het rechtsklikmenu van de clip.
+Om één of meer Clips te verwijderen, sleep je ze van het Clip Deck af (er verschijnt een prullenbakpictogram) of gebruik je de DELETE-knop in het rechtsklikmenu van de Clip.
 
 ### Laser overview panel
 
@@ -289,7 +289,7 @@ Om één of meer clips te verwijderen, sleep je ze van het Clip Deck af (er vers
 
 Het panel _Laser Overview_ geeft je snel inzicht in de status van de lasers die momenteel draaien. Het groene vierkant rechts geeft aan dat de lasercontroller goed werkt. Als het oranje wordt, heb je af en toe drop-outs, en als het rood wordt is de verbinding verbroken. Als het grijs is, is er helemaal geen controller verbonden.&#x20;
 
-De grafiek in het midden toont de historie van frame lengths, en het getal rechts is de huidige frame rate. Hoe complexer de content, hoe lager de frame rate zal zijn (dus hoe meer flicker). Alles onder ongeveer 25fps begint wat flickery te ogen.&#x20;
+De grafiek in het midden toont de historie van framelengtes, en het getal rechts is de huidige framesnelheid. Hoe complexer de content, hoe lager de framesnelheid zal zijn (dus hoe meer flikkering). Alles onder ongeveer 25fps begint wat flikkerend te ogen.&#x20;
 
 ### Verbinden met lasers - Controller Assignment panel
 
@@ -330,7 +330,7 @@ Als je gewend bent aan oudere lasersoftware die afhankelijk is van vooraf bereke
 
 De basisinstellingen voor scanners zijn:
 
-* **Speed** is de scanner speed, dus hoe snel de laser beweegt om vormen te tekenen. Dit komt overeen met het aanpassen van de point rate in traditionele lasersoftware, maar in Liberation kun je wijzigen hoe snel de laser beweegt _onafhankelijk van de point rate._ Je zou dit niet hoeven aan te passen.
+* **Speed** is de scannersnelheid, dus hoe snel de laser beweegt om vormen te tekenen. Dit komt overeen met het aanpassen van de point rate in traditionele lasersoftware, maar in Liberation kun je wijzigen hoe snel de laser beweegt _onafhankelijk van de point rate._ Je zou dit niet hoeven aan te passen.
 * **Scanner sync** (soms bekend als _blank shift, previously Colour Shift_) De scanners bewegen de laser heel snel rond, maar meestal loopt de verandering in helderheid en kleur niet synchroon met de beweging. Dit zie je als kleine flikkerende “staarten” van licht aan de rand van beams en lijnen. Gebruik deze instelling om beweging en kleur met elkaar te synchroniseren. Zie [Paneel Laser output settings](../setting-up/laser-settings/ "mention")
 
 De andere geavanceerde scanner-instellingen worden behandeld in het hoofdstuk [Geavanceerd](../advanced/ "mention").

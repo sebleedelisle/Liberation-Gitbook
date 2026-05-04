@@ -25,4 +25,4 @@ Ale działa bardzo dobrze i tworzy iluzję kształtu wypełnionego czernią.
 
 ### Sortowanie głębokości
 
-Ponieważ niektóre kształty mogą _zasłaniać_ inne, Liberation musi sortować je według głębokości. Domyślnie elementy są sortowane według ich pozycji z. Jeśli znajdują się na tej samej pozycji z, są sortowane według pozycji na warstwie, którą można zmienić za pomocą przycisków _MOVE TO FRONT_ i _MOVE TO BACK_ w każdym creatorze.
+Ponieważ niektóre kształty mogą _zasłaniać_ inne, Liberation musi sortować je według głębokości. Domyślnie elementy są sortowane według ich pozycji z. Jeśli znajdują się na tej samej pozycji z, są sortowane według pozycji na warstwie, którą można zmienić za pomocą przycisków _MOVE TO FRONT_ i _MOVE TO BACK_ w każdym Creator.

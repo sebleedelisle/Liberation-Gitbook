@@ -9,10 +9,10 @@ metaLinks:
 
 #### Hol található a munkamappa
 
-A Liberation minden verziójának saját munkamappája van. Ha például az 1.0.0 verziót futtatod, a mappa neve 1.0.0 lesz.
+A Liberation minden verziójának saját munkamappája van. Ha például az 1.0.3 verziót futtatod, a mappa neve 1.0.3 lesz.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **A mappa gyors megnyitása**
 
@@ -24,7 +24,7 @@ A Liberation minden verziójának saját munkamappája van. Ha például az 1.0.
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Nyisd meg a verziószámodnak megfelelő mappát, például: `1.0.0`.
+3. Nyisd meg a verziószámodnak megfelelő mappát, például: `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ A Liberation minden verziójának saját munkamappája van. Ha például az 1.0.
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Nyisd meg a verziószámodnak megfelelő mappát, például: `1.0.0`.
+2. Nyisd meg a verziószámodnak megfelelő mappát, például: `1.0.3`.
 
 > **Tipp Windows esetén**: Ha inkább a File Explorerben tallózol, kapcsold be a rejtett elemek megjelenítését: **View > Show > Hidden items**.

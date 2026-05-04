@@ -9,7 +9,7 @@ metaLinks:
 
 ### Kompatibilitet
 
-Windows 10- eller 11-maskiner med 64-biters system. Maskiner med høy ytelse anbefales hvis du vil kjøre store show. Jo raskere datamaskinen din er, desto jevnere blir den animerte laseroutputen.
+Windows 10- eller 11-maskiner med 64-biters system. Maskiner med høy ytelse anbefales hvis du vil kjøre store show. Jo raskere datamaskinen din er, desto jevnere blir den animerte laserutgangen.
 
 ### Installasjonsprosess
 
@@ -23,7 +23,7 @@ Klikk på _Download latest for Windows_ (versjonsnumrene kan endre seg), så ser
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Dette åpner nedlastingsmappen din. Finn den nedlastede filen (vanligvis øverst), høyreklikk og velg "Extract all".
+Dette åpner Downloads-mappen din. Finn den nedlastede filen (vanligvis øverst), høyreklikk og velg "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Når Windows er ferdig med å pakke ut filene, viser den installasjonsfilen. Dob
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation trenger tillatelse til å få tilgang til filer og nettverket, så Windows vil sannsynligvis vise flere dialogbokser. Sørg for å godta alt, ellers kan det hende at Liberation ikke fungerer som den skal.
+Liberation trenger tillatelse til å få tilgang til filer og nettverket, så Windows vil sannsynligvis vise noen tillatelsesforespørsler. Sørg for å godta alt, ellers kan det hende at Liberation ikke fungerer som den skal.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

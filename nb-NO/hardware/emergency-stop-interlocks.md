@@ -9,7 +9,7 @@ metaLinks:
 
 Det kan være gøy å slå på laserne, men det er helt avgjørende at du også kan _stoppe_ dem! Lasermaskinvare og programvare er som regel svært pålitelig, men alt kan feile. Og de sjeldne gangene det skjer, kommer du til å være veldig glad for den fjernstyrte stoppknappen.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Fjernstoppknapp for en Laser Cube. Den viktigste maskinvaren du eier.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Elektroverktøy og tungt utstyr har stoppknapper som bare bryter hovedstrømmen, men dette bør du **aldri** gjøre med laserutstyr! Laserne vil alltid bruke et øyeblikk på å slutte å sende ut lys, og et plutselig strømbrudd kan føre til at laserskannerne går til ytterposisjonene sine. Da kan du få en kraftig stråle på uventede steder!

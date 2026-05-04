@@ -8,7 +8,7 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
-1. 8x5 Clipdeck
+1. 8x5 Clip deck
 2. Zone On/Off
 3. Effects 1-8 On/Off
 4. Zone X/Y Flip
@@ -18,8 +18,8 @@ metaLinks:
 8. Effect 1-8 Parameter Adjustment
 9. Group Buttons
 10. Stop All Clips (paina kahdesti, jos haluat pysäyttää kaikki klipit heti ilman niiden fade-asetuksia)
-11. Clipdeck Scroll
-12. Clip / global parameters
+11. Clip deck Scroll
+12. Kontekstikohtaiset Parameters panel -säätimet
 13. Clip Page Left/Right
 14. Zone Page Left/Right
 15. Alt-painike (mahdollistaa klipin valinnan)
@@ -35,3 +35,5 @@ metaLinks:
 25. Nudge tempo + and -
 26. Tempo Scroll
 27. Foot Pedal, Tap Tempo
+
+Device Control -nupit seuraavat samoja kontekstikohtaisia parametreja, jotka näkyvät näytön Parameters panel -paneelissa. Kun Clip on valittuna, ne säätävät seuraavia: Clip shift, zone delay, global spin ja global scale. Jos ryhmäpainiketta pidetään painettuna, ensimmäiset säätimet vaihtuvat kyseisen ryhmän sisään- ja uloshäivytyksen aikoihin.

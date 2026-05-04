@@ -9,10 +9,10 @@ metaLinks:
 
 #### Mistä työkansio löytyy
 
-Jokaisella Liberation-versiolla on oma työkansionsa. Jos käytössäsi on esimerkiksi versio 1.0.0, kansion nimi on 1.0.0.
+Jokaisella Liberation-versiolla on oma työkansionsa. Jos käytössäsi on esimerkiksi versio 1.0.3, kansion nimi on 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Kansion avaaminen nopeasti**
 
@@ -24,7 +24,7 @@ Jokaisella Liberation-versiolla on oma työkansionsa. Jos käytössäsi on esime
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Avaa kansio, joka vastaa versionumeroasi, esimerkiksi `1.0.0`.
+3. Avaa kansio, joka vastaa versionumeroasi, esimerkiksi `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Jokaisella Liberation-versiolla on oma työkansionsa. Jos käytössäsi on esime
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Avaa kansio, joka vastaa versionumeroasi, esimerkiksi `1.0.0`.
+2. Avaa kansio, joka vastaa versionumeroasi, esimerkiksi `1.0.3`.
 
 > **Vinkki Windowsille**: Jos selaat kansiota File Explorerin kautta, ota piilotetut kohteet käyttöön: **View > Show > Hidden items**.

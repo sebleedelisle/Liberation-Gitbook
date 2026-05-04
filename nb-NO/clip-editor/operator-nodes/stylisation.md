@@ -36,6 +36,7 @@ Lager ekkoer av innholdet ditt, med kopier som toner ut eller skaleres bak origi
   * 128 = 1/2 takt (halvnote)
   * 256 = 1 takt
 * **trail size** – hvor mange trail-kopier som tegnes bak det aktive innholdet.
+* **prefill trails** – fyller sporhistorikken med én gang når Clip starter, i stedet for å vente på at ekkoene bygges opp over de første taktene.
 * **freeze trails** – gjør jevnt flytende trails om til en serie frosne øyeblikksbilder. Nyttig for å lage stakkato, taktsynkroniserte trail-effekter.
 * **brightness start / brightness end** – legger lysstyrke over trailen fra den nyeste kopien (**start**) til den eldste kopien (**end**). Vanligvis setter du **brightness start** til 100 % og **brightness end** til 0 %, slik at ekkoene toner ut.
 * **scale start / scale end** – legger skalering over trailen fra den nyeste kopien (start) til den eldste kopien (end). For trails som krymper helt bort, setter du **scale start** til 100 % og **scale end** til 0 %.

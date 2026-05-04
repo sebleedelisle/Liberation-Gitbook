@@ -1,8 +1,8 @@
 ---
 description: >-
-  Leysar geta verið hættulegir og því er mikilvægt að fylgja viðurkenndum
-  starfsvenjum og öryggisleiðbeiningum. Þessi síða gefur gagnlegt yfirlit sem
-  leiðir þig í gegnum ferlið við að setja leysa upp á öruggan hátt.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

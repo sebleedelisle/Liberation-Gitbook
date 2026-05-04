@@ -25,6 +25,6 @@ _BOTH_ 설정은 주의해서 사용하세요. MIDI 장치와 소프트웨어는
 
 ### MIDI 매핑
 
-[MIDI 송수신 기본 매핑](../reference/midi-send-receive-default-mapping.md)를 참조하세요.
+[MIDI 송수신 기본 매핑](../reference/midi-send-receive-default-mapping.md "mention")을 참조하세요.
 
 앞으로 훨씬 더 사용자 지정이 가능한 MIDI 매핑을 추가할 계획입니다. 그전까지는 [BOME](https://www.bome.com/products/miditranslator) 및 [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) 같은 앱을 사용해 Liberation과 사용자 지정 하드웨어 사이의 MIDI 데이터를 변환할 수 있습니다.

@@ -9,10 +9,10 @@ metaLinks:
 
 ### Movendo/duplicando Clips
 
-Clique e arraste para mover um Clip. Se mais de um Clip estiver selecionado (consulte [Iniciar / parar clips](starting-stopping-clips.md)), todos eles serão movidos. Mantenha `Alt / Option` pressionado para duplicá-los. Solte o(s) Clip(s) em um espaço vazio.
+Clique e arraste para mover um Clip. Se mais de um Clip estiver selecionado (consulte [Iniciar / parar clips](starting-stopping-clips.md "mention")), todos eles serão movidos. Mantenha `Alt / Option` pressionado para duplicá-los. Solte o(s) Clip(s) em um espaço vazio.
 
 {% hint style="info" %}
-Se você precisar selecionar muitos Clips, pode clicar/arrastar para criar um laço de seleção e, em seguida, rolar o Clip Deck enquanto ainda estiver arrastando (usando as teclas de seta, o APC 40 ou a rolagem lateral do touchpad/mouse). O laço será estendido para fora da borda do Clip Deck.
+Se você precisar selecionar muitos Clips, pode clicar e arrastar para criar um laço de seleção e, em seguida, rolar o Clip Deck enquanto ainda estiver arrastando (usando as teclas de seta, o APC40 ou a rolagem lateral do touchpad/mouse). O laço será estendido para fora da borda do Clip Deck.
 {% endhint %}
 
 ### Excluindo Clips

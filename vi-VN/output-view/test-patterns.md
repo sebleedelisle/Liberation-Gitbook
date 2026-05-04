@@ -8,7 +8,7 @@ metaLinks:
 
 Khi chỉnh sửa và căn chỉnh zone, việc xuất một test pattern sẽ rất hữu ích. Bạn có thể bật test pattern trên mọi zone đang được bật bằng nút gạt trên thanh biểu tượng phía trên, rồi chọn test pattern bằng thanh trượt ở bên phải nút đó.
 
-Nếu bạn chỉ muốn hiển thị test pattern trên laser mà bạn đang thiết lập zone, hãy dùng nút gạt trên thanh công cụ ở bên trái của _Output_ view. Nhấp/kéo con số bên dưới nút đó để chọn test pattern.
+Nếu bạn chỉ muốn hiển thị test pattern trên laser mà bạn đang thiết lập zone, hãy dùng nút gạt trên thanh công cụ ở bên trái của _Output_ view. Nhấp và kéo con số bên dưới nút đó để chọn test pattern.
 
 ### Danh sách test pattern
 
@@ -19,7 +19,7 @@ Dưới đây là danh sách đầy đủ các test pattern. Trừ khi có ghi c
 3. Các đường ngang màu xanh lá - 4 đường ngang, cách đều nhau.
 4. Các đường dọc màu xanh lá - 4 đường dọc, cách đều nhau.
 
-Các pattern hiệu chuẩn màu 5-8. Có thể dùng các pattern này cùng với hệ thống hiệu chỉnh màu trong Laser Settings. Xem [Hiệu chuẩn màu](../advanced/colour-calibration.md). Các pattern này không phủ kín toàn bộ không gian Output.
+Các pattern hiệu chuẩn màu 5-8. Có thể dùng các pattern này cùng với hệ thống hiệu chỉnh màu trong Laser Settings. Xem [Hiệu chuẩn màu](../advanced/colour-calibration.md "mention"). Các pattern này không phủ kín toàn bộ không gian Output.
 
 5. Pattern hiệu chuẩn màu - đỏ.
 6. Pattern hiệu chuẩn màu - xanh lá.

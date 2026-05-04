@@ -35,7 +35,7 @@ Observe que as correções de orientação / espelhamento não alteram nada no 3
 
 ### Copy laser settings
 
-Veja [#copy-laser-settings](./#copy-laser-settings).
+Veja [#copy-laser-settings](./#copy-laser-settings "mention").
 
 ### Scanner settings
 
@@ -50,7 +50,7 @@ Embora as configurações padrão sejam bastante conservadoras, você ainda pode
 {% endhint %}
 
 {% hint style="info" %}
-Esta configuração Speed não altera a taxa de pontos; em vez disso, ela ajusta o quão espaçados esses pontos ficam. Para mais informações, veja [◼️ Como o Liberation gera conteúdo laser](../../advanced/how-liberation-generates-laser-content.md)
+Esta configuração Speed não altera a taxa de pontos; em vez disso, ela ajusta o quão espaçados esses pontos ficam. Para mais informações, veja [◼️ Como o Liberation gera conteúdo laser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Se você vir pequenas “caudas” na saída do laser, provavelmente o scanner s
 
 #### Scanner presets
 
-Use isto para escolher uma configuração de scanner pré-definida. A opção padrão geralmente funciona bem, então você não deve precisar alterar esta configuração, a menos que tenha scanners especialmente ruins (ou bons). Se quiser se aprofundar, veja [◼️ Predefinições de scanner e perfis de renderização](../../advanced/scanner-presets.md)
+Use isto para escolher uma configuração de scanner pré-definida. A opção padrão geralmente funciona bem, então você não deve precisar alterar esta configuração, a menos que tenha scanners especialmente ruins (ou bons). Se quiser se aprofundar, veja [◼️ Predefinições de scanner e perfis de renderização](../../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Você pode usar este sistema para corrigir a curva de brilho e o balanço de branco do seu laser. Veja [Calibração de cores](../../advanced/colour-calibration.md)
+Você pode usar este sistema para corrigir a curva de brilho e o balanço de branco do seu laser. Veja [Calibração de cores](../../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Você não deve precisar mexer nisso, mas, se tiver curiosidade, veja [◼️ Configurações avançadas do laser](../../advanced/advanced-laser-settings.md)
+Você não deve precisar mexer nisso, mas, se tiver curiosidade, veja [◼️ Configurações avançadas do laser](../../advanced/advanced-laser-settings.md "mention")

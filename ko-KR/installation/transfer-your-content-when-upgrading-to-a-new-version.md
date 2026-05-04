@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 새 버전으로 업그레이드할 때 콘텐츠 이전하기
 
-Liberation은 콘텐츠를 작업 폴더에 저장하며([작업 폴더 위치 찾기](../troubleshooting/where-to-find-the-working-folder.md) 참조), 이 폴더는 새 버전이 릴리스될 때마다 변경됩니다. 이전 버전의 작업 파일을 새 버전에서도 유지하려면:&#x20;
+Liberation은 콘텐츠를 작업 폴더에 저장하며([작업 폴더 위치 찾기](../troubleshooting/where-to-find-the-working-folder.md "mention") 참조), 이 폴더는 새 버전이 릴리스될 때마다 변경됩니다. 이전 버전의 작업 파일을 새 버전에서도 유지하려면:&#x20;
 
 1. 기존 버전의 Liberation을 엽니다.
 2. _File->Project->Export Project_ 를 사용합니다. 이렇게 하면 Liberation의 모든 항목, 즉 레이저 설정, 타임라인, Clip Deck 등 모든 것이 저장됩니다!&#x20;

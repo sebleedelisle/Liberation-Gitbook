@@ -23,7 +23,7 @@ Nhấp chuột phải vào zone và bật/tắt các nút số để chọn máy
 CẢNH BÁO - nếu máy laser đang ở trạng thái armed, bạn có thể bất ngờ bắt đầu chiếu nội dung trong một canvas zone mặc định. Tốt nhất là disarm máy laser trước khi gán canvas zones cho nó.
 {% endhint %}
 
-Nếu bây giờ bạn chuyển đến _OUTPUT_ view của máy laser đó, bạn sẽ thấy canvas zone ở đó và có thể chỉnh sửa nó giống như bất kỳ beam zone nào. Xem [Zones](../output-view/zones.md).
+Nếu bây giờ bạn chuyển đến _OUTPUT_ view của máy laser đó, bạn sẽ thấy canvas zone ở đó và có thể chỉnh sửa nó giống như bất kỳ beam zone nào. Xem [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Bạn cũng có thể thêm canvas zone vào máy laser trực tiếp từ _OUTPUT_ view - nhấp nút _Add existing canvas zone_ trên thanh công cụ bên trái.

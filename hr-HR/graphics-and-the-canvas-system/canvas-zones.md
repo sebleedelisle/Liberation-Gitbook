@@ -23,7 +23,7 @@ Desnom tipkom miša kliknite zone i uključite ili isključite gumbe s brojevima
 UPOZORENJE - ako je laser armed, mogli biste iznenada početi projicirati sadržaj u zadanoj Canvas zone. Najbolje je disarm laser prije nego što mu dodijelite Canvas zones.
 {% endhint %}
 
-Ako sada otvorite prikaz _OUTPUT_ za taj laser, vidjet ćete Canvas zone, koju zatim možete uređivati potpuno isto kao bilo koju beam zone. Pogledajte [Zones](../output-view/zones.md).
+Ako sada otvorite prikaz _OUTPUT_ za taj laser, vidjet ćete Canvas zone, koju zatim možete uređivati potpuno isto kao bilo koju beam zone. Pogledajte [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Canvas zone možete dodati laseru i izravno iz prikaza _OUTPUT_ - kliknite gumb _Add existing canvas zone_ na lijevoj alatnoj traci.

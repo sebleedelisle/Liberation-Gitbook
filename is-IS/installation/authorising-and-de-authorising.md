@@ -9,7 +9,7 @@ metaLinks:
 
 ### Að veita Liberation heimild
 
-Þegar þú opnar Liberation í fyrsta sinn keyrir það í _kynningarham_ og þú sérð _About panel:_
+Þegar þú opnar Liberation í fyrsta sinn keyrir það í _ókeypis ham_ og þú sérð _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Ef þú hefur þegar veitt hámarksfjölda tölva heimild fyrir áskriftina þí
 Ef þú ert með fleiri en eina áskrift verður þú beðin/n um að velja áskriftina sem þú vilt tengja tölvuna við.
 {% endhint %}
 
-Til hamingju! Liberation uppsetningin þín hefur nú fengið heimild og þú getur sent út í leysa! Lestu samt [Að byrja](../getting-started.md) og [Uppsetning leysa](../setting-up/setting-up-lasers.md) áður en þú notar arm á leysunum.
+Til hamingju! Liberation uppsetningin þín hefur nú fengið heimild og þú getur sent út í leysa! Lestu samt [Að byrja](../getting-started.md "mention") og [Uppsetning leysa](../setting-up/setting-up-lasers.md "mention") áður en þú notar arm á leysunum.
 
 {% hint style="info" %}
 Þú getur opnað _About panel_ hvenær sem er í valmyndinni _Liberation -> About Liberation_ eða _Liberation -> Authorise/Deauthorise this computer_

@@ -32,7 +32,7 @@ Clip Editor에서 볼 수 있는 항목은 다음과 같습니다.
 편집하는 동안에는 배경의 3D visualiser에서도 Clip이 어떻게 보이는지 확인할 수 있습니다.
 
 {% hint style="info" %}
-3D visualiser에 출력이 보이지 않는다면 zone 버튼을 사용해 원하는 zone을 켜야 할 수 있습니다. 또한 _Preview to lasers_ 가 활성화되어 있는지도 확인해야 합니다. 아래 [Clip Editor 소개](clip-editor-intro.md#clip-editor-panel)을 참고하세요.
+3D visualiser에 출력이 보이지 않는다면 zone 버튼을 사용해 원하는 zone을 켜야 할 수 있습니다. 또한 _Preview to lasers_ 가 활성화되어 있는지도 확인해야 합니다. 아래 [Clip Editor 소개](clip-editor-intro.md#clip-editor-panel "mention")을 참고하세요.
 {% endhint %}
 
 ### Clip 만들기
@@ -75,7 +75,7 @@ Oscillator 노드는 시간에 따라 속성을 변경하는 데 사용됩니다
 **재미있는 사실:** _Liberation_ 이라는 이름은 1980년에 출시된 신디사이저 “키타”인 Moog Liberation에서 영감을 받았습니다. 이 악기는 Herbie Hancock, Jean-Michel Jarre, 심지어 James Brown을 통해 유명해졌습니다!
 {% endhint %}
 
-Oscillator에는 조정할 속성의 최소값과 최대값을 제어하는 _range_ 설정이 항상 있습니다. 또한 _Wave Oscillators_ 에는 Oscillator가 값을 얼마나 빠르게 변경할지 결정하는 _duration_ 설정이 항상 있습니다. 자세한 내용은 [Wave oscillators](oscillators/wave-oscillators.md)를 참고하세요.
+Oscillator에는 조정할 속성의 최소값과 최대값을 제어하는 _range_ 설정이 항상 있습니다. 또한 _Wave Oscillators_ 에는 Oscillator가 값을 얼마나 빠르게 변경할지 결정하는 _duration_ 설정이 항상 있습니다. 자세한 내용은 [Wave oscillators](oscillators/wave-oscillators.md "mention")를 참고하세요.
 
 ### Clip Editor 패널
 

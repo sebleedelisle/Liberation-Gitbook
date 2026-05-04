@@ -8,7 +8,7 @@ metaLinks:
 
 Ao editar e ajustar sua zona, é útil enviar um padrão de teste para a saída. Você pode ativar um padrão de teste em todas as zonas habilitadas usando o botão de alternância na barra superior de ícones e escolher o padrão de teste usando o controle deslizante à direita dele.
 
-Se quiser um padrão de teste apenas no laser que você está zoneando no momento, use o botão de alternância na barra de ferramentas à esquerda da visualização _Output_. Clique/arraste o número abaixo dele para selecionar o padrão de teste.
+Se quiser um padrão de teste apenas no laser que você está zoneando no momento, use o botão de alternância na barra de ferramentas à esquerda da visualização _Output_. Clique e arraste o número abaixo dele para selecionar o padrão de teste.
 
 ### Lista de padrões de teste
 
@@ -19,7 +19,7 @@ Veja abaixo a lista completa dos padrões de teste. Os padrões preenchem todo o
 3. Linhas verdes horizontais - 4 linhas horizontais, espaçadas uniformemente.
 4. Linhas verdes verticais - 4 linhas verticais, espaçadas uniformemente.
 
-Padrões de calibração de cor 5 a 8. Eles podem ser usados junto com o sistema de correção de cor nas configurações do laser. Consulte [Calibração de cores](../advanced/colour-calibration.md). Esses padrões não preenchem todo o espaço de saída.
+Padrões de calibração de cor 5 a 8. Eles podem ser usados junto com o sistema de correção de cor nas configurações do laser. Consulte [Calibração de cores](../advanced/colour-calibration.md "mention"). Esses padrões não preenchem todo o espaço de saída.
 
 5. Padrão de calibração de cor - vermelho.
 6. Padrão de calibração de cor - verde.

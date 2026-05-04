@@ -17,21 +17,23 @@ Os diodos laser mudam de comportamento conforme aquecem. Sempre deixe o projetor
 
 #### Como o teste de calibração funciona
 
-Use os padrões de teste para calibração (veja [Padrões de teste](../output-view/test-patterns.md))
+Use os padrões de teste para calibração (veja [Padrões de teste](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green
 * **7** – Blue
 * **8** – White
 
-Cada um deles mostra quatro linhas em movimento:
+Cada um deles mostra quatro linhas em movimento. Em um sistema laser, o brilho é afetado não apenas pelo nível de potência, mas também pelo tempo que o feixe passa em um só lugar. Quando os scanners se movem mais rápido, o feixe passa menos tempo em cada ponto e parece mais fraco.
+
+Para levar isso em conta, os padrões de teste ajustam brilho e velocidade juntos:
 
 * **Linha superior** – 100% de brilho em velocidade total
 * **Segunda linha** – 75% de brilho a 75% da velocidade
 * **Terceira linha** – 50% de brilho a 50% da velocidade
 * **Quarta linha** – 25% de brilho a 25% da velocidade
 
-Como o brilho _e a velocidade_ são ajustados juntos, todas as linhas devem parecer ter o mesmo brilho. Se uma parecer mais clara ou mais escura, ajuste o controle deslizante correspondente até que elas fiquem iguais.
+Como o brilho _e a velocidade_ são ajustados juntos, todas as linhas devem parecer ter o mesmo brilho. Se uma linha parecer mais brilhante ou mais fraca, ajuste o controle deslizante correspondente até que elas fiquem iguais.
 
 Cada padrão de teste também tem uma quinta linha em **0% de brilho**, que não deve ficar visível. Ela é usada para corrigir lasers que não emitem nenhuma luz em níveis muito baixos. Se o laser continuar invisível em baixo brilho, aumente gradualmente o **0% setting** até que a linha fique apenas visível e, em seguida, reduza um pouco até ela desaparecer novamente. O objetivo é encontrar o limite em que o laser começa a acender e ficar logo abaixo dele, para que os fades comecem de forma natural sem cortar a parte inferior da faixa.
 

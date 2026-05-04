@@ -9,7 +9,7 @@ metaLinks:
 
 ### Premještanje/dupliciranje Clips
 
-Kliknite i povucite za premještanje Clip. Ako je odabrano više od jednog Clip (pogledajte [pokretanje i zaustavljanje Clips](starting-stopping-clips.md)), premjestit će se svi. Držite pritisnuto `Alt / Option` kako biste ih duplicirali. Ispustite Clip na prazno mjesto.
+Kliknite i povucite za premještanje Clip. Ako je odabrano više od jednog Clip (pogledajte [pokretanje i zaustavljanje Clips](starting-stopping-clips.md "mention")), premjestit će se svi. Držite pritisnuto `Alt / Option` kako biste ih duplicirali. Ispustite Clip na prazno mjesto.
 
 {% hint style="info" %}
 Ako trebate odabrati velik broj Clips, možete kliknuti i povući laso, a zatim se pomicati kroz Clip Deck dok još uvijek povlačite (tipkama sa strelicama, pomoću APC40 ili bočnim pomicanjem na dodirnoj plohi/mišu). Laso će se proširiti izvan ruba Clip Deck.

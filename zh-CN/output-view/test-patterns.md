@@ -1,8 +1,14 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/test-patterns
+---
+
 # 🟩 Test patterns
 
 在编辑和调整 Zone 时，输出测试图案很有帮助。你可以使用顶部图标栏的开关按钮为所有已启用的 Zones 打开测试图案，并通过右侧滑块选择图案。&#x20;
 
-如果你只想在当前正在设置的激光上显示测试图案，请使用 _Output_ 视图左侧工具栏中的开关按钮。点击/拖动其下方数字选择测试图案。&#x20;
+如果你只想在当前正在设置 zone 的激光上显示测试图案，请使用 _Output_ view 左侧工具栏中的开关按钮。点击并拖动其下方的数字来选择测试图案。
 
 ### Test pattern 列表
 

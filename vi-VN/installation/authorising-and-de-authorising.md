@@ -9,7 +9,7 @@ metaLinks:
 
 ### Cấp quyền cho Liberation
 
-Khi mở Liberation lần đầu, phần mềm sẽ chạy ở _chế độ demo_ và bạn sẽ thấy _About panel:_
+Khi mở Liberation lần đầu, phần mềm sẽ chạy ở _chế độ miễn phí_ và bạn sẽ thấy _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Nếu bạn đã cấp quyền cho số lượng máy tính tối đa trong gói
 Nếu bạn có nhiều gói đăng ký, hệ thống sẽ yêu cầu bạn chọn gói đăng ký muốn gán cho máy tính này.
 {% endhint %}
 
-Chúc mừng! Bản cài đặt Liberation của bạn hiện đã được cấp quyền và bạn có thể Output ra laser! Nhưng vui lòng đọc [Bắt đầu](../getting-started.md) và [Thiết lập laser](../setting-up/setting-up-lasers.md) trước khi arm laser.
+Chúc mừng! Bản cài đặt Liberation của bạn hiện đã được cấp quyền và bạn có thể Output ra laser! Nhưng vui lòng đọc [Bắt đầu](../getting-started.md "mention") và [Thiết lập laser](../setting-up/setting-up-lasers.md "mention") trước khi arm laser.
 
 {% hint style="info" %}
 Bạn có thể mở _About panel_ bất kỳ lúc nào qua menu _Liberation -> About Liberation_ hoặc _Liberation -> Authorise/Deauthorise this computer_

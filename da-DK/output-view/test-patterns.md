@@ -8,7 +8,7 @@ metaLinks:
 
 Når du redigerer og justerer din zone, er det nyttigt at sende et testmønster til output. Du kan slå et testmønster til på tværs af alle aktiverede zoner med til/fra-knappen i den øverste ikonbjælke og vælge testmønsteret med skyderen til højre for den.
 
-Hvis du kun vil have et testmønster på den laser, du aktuelt zoner, skal du bruge til/fra-knappen på værktøjslinjen til venstre i _Output_-visningen. Klik/træk tallet under den for at vælge testmønsteret.
+Hvis du kun vil have et testmønster på den laser, du aktuelt zoner, skal du bruge til/fra-knappen på værktøjslinjen til venstre i _Output_-visningen. Klik og træk tallet under den for at vælge testmønsteret.
 
 ### Liste over testmønstre
 

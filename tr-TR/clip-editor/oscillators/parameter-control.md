@@ -16,5 +16,5 @@ _Parametre Kontrolü_, bir efekt veya Clip içindeki çeşitli ayarları Clip Ed
 * **parameter number** - her _parameter control_ için bir numara atanabilir ve bu numara Clip dışındaki kontrollerde gösterilir. Aynı numaraya sahip birden fazla parameter control kullanabilirsiniz; hepsi aynı anda ayarlanır.
 
 {% hint style="warning" %}
-Şu anda bir efektin yalnızca 1. parametresi APC40 ile kontrol edilebilir. Efektler ve Clips içindeki tüm parametrelere sağ tıklama menüsünden erişilebilir. Gelecekte bu parametrelerin daha fazlası MIDI controller cihazlarıyla eşlenebilir hale gelecek.
+APC40 ve desteklenen canlı controller cihazları, varsayılan olarak her efekt yuvası için 1. parametreyi kontrol eder. Efektler ve Clips içindeki tüm parametrelere sağ tıklama menüsünden de erişilebilir.
 {% endhint %}

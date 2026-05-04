@@ -30,17 +30,17 @@ Liberation 可以在一台電腦上執行多台雷射；我們已測試超過 10
 
 #### **我可以使用哪些 MIDI controllers？**
 
-Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化，也可搭配 APC40 Mk1 使用。請參閱[使用 APC40 進行現場控制](midi-control/live-control-with-the-apc40.md)
+Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化，也可搭配 APC40 Mk1 使用。請參閱[使用 APC40 進行現場控制](midi-control/live-control-with-the-apc40.md "mention")
 
-我們也正在逐步加入更多 MIDI controllers，目前也支援 APC Mini Mk2 和 MIDI Fighter Twister。
+Liberation 也支援 APC Mini 和 MIDI Fighter Twister。APC40 Mk2 仍是功能最完整的參考 controller。
 
-另外還有 MIDI Send/Receive 系統，可提供額外的 MIDI 控制。請參閱 [MIDI Send/Receive](midi-control/midi-send-receive.md)
+另外還有 MIDI Send/Receive 系統，可提供額外的 MIDI 控制。請參閱 [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
-更多資訊請參閱 [MIDI 控制](midi-control/)。
+更多資訊請參閱 [MIDI 控制](midi-control/ "mention")。
 
 #### **我可以使用任何 MIDI controller 嗎？**
 
-我們目前正在開發可設定的 MIDI 系統，未來會支援這種用法。在此之前，有些使用者透過 MIDI 轉譯器，將任意 MIDI 訊息轉換給 MIDI Send/Receive 系統使用，也取得了一些成果；但這是相當繁瑣且進階的流程。你可以在[論壇](https://forum.liberationlaser.com)搜尋相關設定建議，不過實際上 APC40 仍是最佳選擇。
+若使用其他 controller，請使用 MIDI Send/Receive 系統，或使用可傳送 Liberation 預設 MIDI 訊息的 MIDI 轉譯器。你可以在[論壇](https://forum.liberationlaser.com)搜尋這項設定的相關建議，不過實際上對多數現場演出來說，APC40 Mk2 仍是最佳選擇。
 
 ## Laser controllers
 
@@ -53,7 +53,7 @@ Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化
 * LaserCube 網路通訊協定（需使用有線連線）
 * [LASollinger 雷射設備](https://laseranimation.com/en/)所使用的 AVB（目前僅限 macOS，測試中）
 
-更多資訊請參閱[相容的雷射與 controllers / DACs](hardware/compatible-lasers-and-controllers-dacs.md)
+更多資訊請參閱[相容的雷射與 controllers / DACs](hardware/compatible-lasers-and-controllers-dacs.md "mention")
 
 #### **為什麼不支援［其他品牌的］laser controller？**
 
@@ -69,11 +69,11 @@ Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化
 * **內建 Mercury 系統的 X-Laser 設備**（以 Ether Dream 模式）。
 * **內建 AVB 的 LaserAnimation Sollinger 雷射投影機**（僅限 macOS，需要 AVB 相容的網路裝置，目前測試中）。
 
-更多資訊請參閱[相容的雷射與 controllers / DACs](hardware/compatible-lasers-and-controllers-dacs.md)
+更多資訊請參閱[相容的雷射與 controllers / DACs](hardware/compatible-lasers-and-controllers-dacs.md "mention")
 
 #### **我可以將 Liberation 搭配我的 LaserCube 使用嗎？**
 
-可以，Liberation 可直接搭配任何 LaserCube 使用。請參閱 [LaserCube](hardware/lasercube.md)
+可以，Liberation 可直接搭配任何 LaserCube 使用。請參閱 [LaserCube](hardware/lasercube.md "mention")
 
 ## 授權
 
@@ -89,15 +89,15 @@ Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化
 
 #### **我可以升級到新的等級嗎？**
 
-你可以隨時升級到更高等級。系統會依照目前授權剩餘時間提供部分退款，新的方案會立即開始。請參閱[升級或降級你的授權](installation/upgrade-downgrade-your-license.md)
+你可以隨時升級到更高等級。系統會依照目前授權剩餘時間提供部分退款，新的方案會立即開始。請參閱[升級或降級你的授權](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **我可以降級我的授權嗎？**
 
-你可以隨時降級，但變更會在目前授權期間結束後生效。請參閱[升級或降級你的授權](installation/upgrade-downgrade-your-license.md)
+你可以隨時降級，但變更會在目前授權期間結束後生效。請參閱[升級或降級你的授權](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **我要如何用授權啟用我的電腦？**
 
-購買授權後，你可以在 Liberation 軟體內授權這台電腦。在 _About_ 畫面上會看到 _Authorise_ 按鈕，按下後會提示你登入網站。依照畫面上的指示完成授權流程。請參閱[授權與取消授權](installation/authorising-and-de-authorising.md)
+購買授權後，你可以在 Liberation 軟體內授權這台電腦。在 _About_ 畫面上會看到 _Authorise_ 按鈕，按下後會提示你登入網站。依照畫面上的指示完成授權流程。請參閱[授權與取消授權](installation/authorising-and-de-authorising.md "mention")
 
 #### **我的電腦多久需要連線到網際網路一次？**
 
@@ -117,7 +117,7 @@ Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化
 
 #### **我可以在幾台電腦上安裝 Liberation？**
 
-你可以在任意數量的電腦上安裝 Liberation。只有在啟用雷射 / DMX 輸出時才需要授權；你的授權等級會決定同一時間可授權輸出的電腦數量。請參閱[授權機制如何運作](installation/how-licensing-works.md)
+你可以在任意數量的電腦上安裝 Liberation。只有在啟用雷射 / DMX 輸出時才需要授權；你的授權等級會決定同一時間可授權輸出的電腦數量。請參閱[授權機制如何運作](installation/how-licensing-works.md "mention")
 
 #### **我要如何將授權從一台電腦移到另一台電腦？**
 
@@ -127,7 +127,7 @@ Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化
 * 在 _About_ 畫面點擊 _Authorise this computer_ 按鈕。
 * 網站會開啟；登入後依照畫面上的指示完成授權
 
-你也可以遠端取消授權一台已無法存取的電腦（有部分限制）。請參閱[授權與取消授權](installation/authorising-and-de-authorising.md)
+你也可以遠端取消授權一台已無法存取的電腦（有部分限制）。請參閱[授權與取消授權](installation/authorising-and-de-authorising.md "mention")
 
 #### **如果電腦遺失或被竊，我可以取消該電腦上的 Liberation 授權嗎？**
 
@@ -139,11 +139,11 @@ Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化
 
 #### 預設設定有 8 台雷射，我要如何變更？
 
-請參閱[設定你的專案](setting-up/setting-up-your-project.md)和[新增與移除雷射](setting-up/adding-removing-lasers.md)
+請參閱[設定你的專案](setting-up/setting-up-your-project.md "mention")和[新增與移除雷射](setting-up/adding-removing-lasers.md "mention")
 
 #### 我可以把一台雷射的 zone 設定複製到其他雷射嗎？
 
-可以！請參閱[在雷射之間複製 zones](output-view/copy-zones-between-lasers.md)
+可以！請參閱[在雷射之間複製 zones](output-view/copy-zones-between-lasers.md "mention")
 
 #### 我可以輸入數字，而不是使用滑桿嗎？
 
@@ -151,42 +151,42 @@ Liberation 是以常見的 APC40 Mk2 MIDI controller 為核心設計並最佳化
 
 #### **我要如何讓 Liberation 與音樂同步？**
 
-它具備智慧型「tap tempo」系統，用法如你預期；你也可以使用外部 MIDI clock 或 Ableton Link。請參閱[節拍同步](tempo-synchronisation.md)。Timeline 可與透過任何音訊介面輸入的 LTC/SMPTE timecode 同步。請參閱 [Timecode（時間碼）](timecode.md)。
+它具備智慧型「tap tempo」系統，用法如你預期；你也可以使用外部 MIDI clock 或 Ableton Link。請參閱[節拍同步](tempo-synchronisation.md "mention")。Timeline 可與透過任何音訊介面輸入的 LTC/SMPTE timecode 同步。請參閱 [Timecode（時間碼）](timecode.md "mention")。
 
 #### 我需要調整哪些設定，才能讓雷射輸出達到最佳效果？
 
-主要設定是 _Colour Shift_，它會補償掃描鏡移動與雷射亮度變化之間的輕微延遲。如果你的雷射點或光束有一點「尾巴」，就需要調整這個設定。（請參閱 [Laser Settings](setting-up/laser-settings.md)頁面上的照片，了解「尾巴」的範例）
+主要設定是 _Colour Shift_，它會補償掃描鏡移動與雷射亮度變化之間的輕微延遲。如果你的雷射點或光束有一點「尾巴」，就需要調整這個設定。（請參閱 [Laser Settings](setting-up/laser-settings.md "mention")頁面上的照片，了解「尾巴」的範例）
 
 你也可以嘗試變更掃描器速度。如果你的掃描器較基本，就調慢一點；如果品質較好，可以調快一點。但**請謹慎使用，因為過度驅動可能會損壞掃描器。**
 
 另外也有一些預設掃描器設定。預設選項較保守，適用於大多數雷射光束需求。如果你有更好的掃描器，也可以使用其他 preset；也有針對圖形調校的 preset。
 
-更多資訊請參閱 [Laser Settings](setting-up/laser-settings.md)；若要了解如何建立自己的 preset，請參閱[掃描器 presets](advanced/scanner-presets.md)（進階，撰寫中）
+更多資訊請參閱 [Laser Settings](setting-up/laser-settings.md "mention")；若要了解如何建立自己的 preset，請參閱[掃描器 presets](advanced/scanner-presets.md "mention")（進階，撰寫中）
 
-你也可以使用 _Colour calibration_ 設定修正色彩平衡。請參閱[色彩校正](advanced/colour-calibration.md)（進階技巧）
+你也可以使用 _Colour calibration_ 設定修正色彩平衡。請參閱[色彩校正](advanced/colour-calibration.md "mention")（進階技巧）
 
 #### _Latency(ms)_ 設定的作用是什麼？
 
-這是影格延遲，也就是從產生影格到隨後送到雷射之間的最大時間。通常不需要調整，但如果遇到網路問題，可以嘗試增加此數值。更多細節請參閱[延遲設定](setting-up/latency-setting.md)。
+這是影格延遲，也就是從產生影格到隨後送到雷射之間的最大時間。通常不需要調整，但如果遇到網路問題，可以嘗試增加此數值。更多細節請參閱[延遲設定](setting-up/latency-setting.md "mention")。
 
 ### Clips
 
 #### 不執行 Clip 時，要如何調整它的 zones 和設定？
 
-按住 `Alt / Option` 並點擊，可讓它成為目前選取的 Clip，但不啟動它。另請參閱[啟動與停止 Clips](clips/starting-stopping-clips.md)
+按住 `Alt / Option` 並點擊，可讓它成為目前選取的 Clip，但不啟動它。另請參閱[啟動與停止 Clips](clips/starting-stopping-clips.md "mention")
 
 #### 我要如何複製 Clips？
 
-按住 `Alt / Option` 鍵並點擊拖曳。另請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md)
+按住 `Alt / Option` 鍵並點擊拖曳。另請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### 我要如何刪除 Clips？
 
-點擊並把它們拖出 Clip Deck。另請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md)
+點擊並把它們拖出 Clip Deck。另請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### 我要如何多選、刪除、合併 Clip Deck 等？
 
-請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md)
+請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Clip 上的小麥克風符號和其他圖示代表什麼？
 
-它們用來表示該 Clip 會接收聲音或 MIDI 輸入；3 個點則表示有 zone delay。請參閱 [Clip 按鈕上的小圖示是什麼？](clips/what-are-the-small-icons-on-the-clip-buttons.md)
+它們用來表示該 Clip 會接收聲音或 MIDI 輸入；3 個點則表示有 zone delay。請參閱 [Clip 按鈕上的小圖示是什麼？](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

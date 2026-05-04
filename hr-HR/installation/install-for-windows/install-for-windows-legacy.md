@@ -23,7 +23,7 @@ Kliknite _Download latest for Windows_ (brojevi verzija mogu se promijeniti) i v
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Otvorit će se mapa s preuzimanjima. Pronađite preuzetu datoteku (obično je pri vrhu), kliknite je desnom tipkom miša i odaberite "Extract all"
+Otvorit će se mapa Downloads. Pronađite preuzetu datoteku (obično je pri vrhu), kliknite je desnom tipkom miša i odaberite "Extract all"
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Nakon što Windows završi raspakiravanje, prikazat će instalacijsku datoteku. 
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation treba dopuštenje za pristup datotekama i mreži, pa će Windows vjerojatno prikazati nekoliko zahtjeva za dopuštenje. Svakako prihvatite sve, inače Liberation možda neće ispravno raditi.
+Liberation treba dopuštenje za pristup datotekama i mreži, pa će Windows vjerojatno prikazati nekoliko upita za dopuštenje. Svakako prihvatite sve, inače Liberation možda neće ispravno raditi.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

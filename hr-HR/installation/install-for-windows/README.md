@@ -57,7 +57,7 @@ Instalacijski program je završio! Kliknite _Finish_ da ga zatvorite i pokrenete
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation treba dopuštenje za pristup datotekama i mreži, pa će Windows vjerojatno prikazati nekoliko zahtjeva. Obavezno prihvatite sve, inače Liberation možda neće raditi ispravno.
+Liberation treba dopuštenje za pristup datotekama i mreži, pa će Windows vjerojatno prikazati nekoliko upita za dopuštenje. Obavezno prihvatite sve, inače Liberation možda neće raditi ispravno.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

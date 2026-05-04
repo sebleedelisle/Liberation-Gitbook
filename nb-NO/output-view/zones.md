@@ -38,7 +38,7 @@ Det finnes 3 typer soneform:
 * **Line/Curve** – en sone definert av 2 eller flere punkter og en tykkelse. Ideell for smale soner eller for avgrensing mot balkonger, broer eller andre buede former.
 * **Segmented** – en sone som kan deles opp i mindre quads. Ideell for arkitektonisk mapping.
 
-Høyreklikk på en hvilken som helst sone for å åpne innstillingene. Fra denne høyreklikkmenyen kan du:
+Høyreklikk på en hvilken som helst zone for å åpne innstillingene. Fra denne høyreklikkmenyen kan du:
 
 * Gi sonen nytt navn (dette kan være nyttig for å identifisere den i Clip Deck, spesielt hvis du har mange soner!)
 * Aktivere/deaktivere sonen
@@ -61,7 +61,7 @@ Du kan fjerne forvrengningen og sette den tilbake til et aksejustert rektangel m
 
 #### Perspective correction
 
-Dette alternativet kan settes med veksleknappen i høyreklikkmenyen, og det bestemmer forvrengningsmetoden. Det er best å ha dette avslått for beams, men hvis denne sonen projiserer grafikk på en flat flate, slår du det på, så blir output perspektivkorrigert.
+Dette alternativet kan settes med veksleknappen i høyreklikkmenyen, og det bestemmer forvrengningsmetoden. Det er best å ha dette avslått for beam zones, men hvis denne zone projiserer grafikk på en flat flate, slår du det på, så blir Output perspektivkorrigert.
 
 {% hint style="info" %}
 Hvis _Perspective correction_ er slått av, forvrenges innholdet med _bi-lineær interpolasjon_. Med andre ord fordeles innholdet jevnt over quad-en. Derfor egner det seg best for beams.
@@ -75,7 +75,7 @@ Line / Curve-soneformen har blitt mitt førstevalg i nyere show, og det kan argu
 
 Ofte må sonene mine være smale for å få plass i vanskelige, smale områder på spillesteder eller mellom vinduer på bygninger, og jeg oppdaget at det kunne være veldig plundrete å justere fire hjørner på en quad når de ligger så tett. Slik ble Line / Curve-soneformen til!
 
-For rette linjer trenger du bare to punkter, og deretter justerer du _Zone thickness_ i høyreklikkmenyen. Det er den raskeste måten å lage enkle soner på.
+For rette linjer trenger du bare to punkter, og deretter justerer du _Zone thickness_ i høyreklikkmenyen. Det er den raskeste måten å lage enkle zones på.
 
 `Alt / Option`-klikk på linjen for å opprette flere punkter. Disse punktene glattes automatisk for å lage en flytende form, og du kan justere _Smooth level_ for å jevne ut eventuelle knekk.
 
@@ -85,11 +85,11 @@ Hvis du har erfaring med vektorgrafikkprogrammer (Inkscape, Illustrator osv.), k
 
 ### Segmented-soneform
 
-Denne oppdelte sonen lar deg gjøre svært detaljerte korrigeringer og er nyttig når du mapper på komplekse former. Du kan legge til eller fjerne inndelinger med + og - knappene i høyreklikkmenyen.
+Denne oppdelte zone lar deg gjøre svært detaljerte korrigeringer og er nyttig når du mapper på komplekse former. Du kan legge til eller fjerne inndelinger med + og - knappene i høyreklikkmenyen.
 
 ### Slik redigerer du en sone som er helt dekket av en annen sone
 
-Høyreklikk på sonen som ligger øverst, og klikk på hengelåsknappen for å låse den. Nå skal du kunne redigere og justere sonen under.
+Høyreklikk på zone som ligger øverst, og klikk på hengelåsknappen for å låse den. Nå skal du kunne redigere og justere zone under.
 
 <br>
 

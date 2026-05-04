@@ -57,7 +57,7 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-يحتاج Liberation إلى إذن للوصول إلى الملفات والشبكة، لذلك من المحتمل أن يعرض Windows عدة طلبات. تأكد من قبولها كلها، وإلا فقد لا يعمل Liberation بشكل صحيح.
+يحتاج Liberation إلى إذن للوصول إلى الملفات والشبكة، لذلك من المحتمل أن يعرض Windows بعض مطالبات الأذونات. تأكد من قبولها كلها، وإلا فقد لا يعمل Liberation بشكل صحيح.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

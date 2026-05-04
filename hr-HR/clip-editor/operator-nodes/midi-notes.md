@@ -13,14 +13,14 @@ Stvara efekte u stilu „laserske harfe”, gdje dolazne MIDI note pokreću zrak
 
 MIDI sučelje koje Liberation sluša možete odabrati u **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – MIDI kanal koji se sluša (0 = svi kanali, 1–16 = određeni kanal)
+* **MIDI channel** – MIDI kanal koji se sluša (0 = svi kanali, 1–16 = određeni kanal)
 * **width** – ukupna širina preko koje se note raspoređuju.
-* **midi note min / max** – najniža i najviša vrijednost MIDI note u rasponu.
+* **MIDI note min / max** – najniža i najviša vrijednost MIDI note u rasponu.
 * **ignore out of range notes** – filtrira sve note izvan postavljenog raspona. Ako je isključeno, note izvan raspona „prikvačuju” se na najbližu dostupnu notu (visoke note pokreću vrh raspona, niske note pokreću dno).
 * **auto extend range** – automatski proširuje raspon ako se odsviraju note izvan njega.
 
 {% hint style="info" %}
-Niste sigurni koji raspon nota dobivate? Uključite **auto extend range**, postavite **midi note min** vrlo visoko, a **midi note max** vrlo nisko, zatim odsvirajte svoje note. Sustav će ih sve uhvatiti i proširiti raspon umjesto vas. Kada dobijete sve što trebate, samo isključite **auto extend range** da biste ga zaključali.
+Niste sigurni koji raspon nota dobivate? Uključite **auto extend range**, postavite **MIDI note min** vrlo visoko, a **MIDI note max** vrlo nisko, zatim odsvirajte svoje note. Sustav će ih sve uhvatiti i proširiti raspon umjesto vas. Kada dobijete sve što trebate, samo isključite **auto extend range** da biste ga zaključali.
 {% endhint %}
 
 * **leave all notes visible** – stvara zrake ili oblike za sve note u rasponu, bez obzira na to sviraju li se ili ne, čime dobivate efekt „laserske harfe”.

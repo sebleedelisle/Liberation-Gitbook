@@ -22,12 +22,12 @@ Svi presetovi spremaju se zajedno s vašim projektom (ili postavkama lasera), be
 
 Preset datoteke možete i uvoziti i izvoziti pomoću gumba za učitavanje/spremanje (ikona diskete) pokraj padajućeg popisa preseta. Time se otvara skočni prozor s gumbima za uvoz/izvoz, kao i mogućnošću brisanja jednog ili više preseta.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>Skočni izbornik koji se otvara kad kliknete ikonu za učitavanje/spremanje</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Ako uredite preset, recimo postavku skenera pod nazivom _Default_, imajte na umu da se ostali laseri neće automatski ažurirati. Umjesto toga, njihove će postavke skenera sada imati oznaku _Default(edited)_. Da biste ih ažurirali na novi preset _Default_, ponovno ga odaberite s padajućeg popisa.
 
 {% hint style="info" %}
-Ako imate mnogo lasera i želite ažurirati postavke skenera za sve njih, upotrijebite sustav _COPY LASER SETTINGS_. Pogledajte [Kopiranje postavki lasera](../setting-up/copy-laser-settings.md)
+Ako imate mnogo lasera i želite ažurirati postavke skenera za sve njih, upotrijebite sustav _COPY LASER SETTINGS_. Pogledajte [Kopiranje postavki lasera](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Ako izbrišete preset koji se koristi drugdje, nećete izgubiti postavku, nego će se prikazati s oznakom _(deleted)._

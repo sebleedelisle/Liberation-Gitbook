@@ -24,7 +24,7 @@ metaLinks:
 * 在開始新 Clip 時按住 `Shift` 鍵（或 APC40 的 Shift 按鈕）；或
 * 在開始新 Clip 時，同時再次按住目前正在運行的 Clip。
 
-各個 Clip 群組互相獨立，所以在其中一個群組開始 Clip，不會影響其他群組中的 Clip。請參閱[群組](groups.md)
+各個 Clip 群組互相獨立，所以在其中一個群組開始 Clip，不會影響其他群組中的 Clip。請參閱[群組](groups.md "mention")
 
 ### Flash mode
 

@@ -9,10 +9,10 @@ metaLinks:
 
 #### Hvar finnurðu vinnumöppuna
 
-Hver útgáfa af Liberation hefur sína eigin vinnumöppu. Ef þú ert til dæmis að keyra útgáfu 1.0.0 heitir mappan 1.0.0.
+Hver útgáfa af Liberation hefur sína eigin vinnumöppu. Ef þú ert til dæmis að keyra útgáfu 1.0.3 heitir mappan 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Svona opnarðu möppuna fljótt**
 
@@ -24,7 +24,7 @@ Hver útgáfa af Liberation hefur sína eigin vinnumöppu. Ef þú ert til dæmi
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Opnaðu möppuna sem samsvarar útgáfunúmerinu þínu, til dæmis `1.0.0`.
+3. Opnaðu möppuna sem samsvarar útgáfunúmerinu þínu, til dæmis `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Hver útgáfa af Liberation hefur sína eigin vinnumöppu. Ef þú ert til dæmi
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Opnaðu möppuna sem samsvarar útgáfunúmerinu þínu, til dæmis `1.0.0`.
+2. Opnaðu möppuna sem samsvarar útgáfunúmerinu þínu, til dæmis `1.0.3`.
 
 > **Ábending fyrir Windows**: Ef þú vafrar með File Explorer í staðinn skaltu kveikja á földum atriðum: **View > Show > Hidden items**.

@@ -9,7 +9,7 @@ metaLinks:
 
 Ova skupina node elemenata mijenja sadržaj prema položaju. Prema zadanim postavkama efekt se primjenjuje duž vodoravne osi (slijeva nadesno), ali tu os možete rotirati na bilo koji kut. Svaki node uključuje i _radial_ način rada, u kojem efekt ovisi o kutu svake točke u odnosu na središte.
 
-* **Colour Changer by Position** – pomiče boje duž odabrane osi ili oko radijalnog kuta.\
+* **Colour Changer by Position** – primjenjuje gradijent duž odabrane osi ili oko radijalnog kuta.\
   \&#xNAN;_Primjer: stvorite dugin gradijent koji prelazi preko linije ili upotrijebite radial način na krugu za efekt kotača boja._
 * **Wave Shift by Position** – primjenjuje izobličenje sinusnim valom, pomičući sadržaj okomito (ili okomito na odabranu os).\
   \&#xNAN;_Primjer: neka linija valovito titra poput vode ili upotrijebite radial način kako bi krug pulsirao prema van iz središta._
@@ -29,10 +29,11 @@ Ovaj node primjenjuje promjene boje na sadržaj prema položaju. Prema zadanim p
 * **linear angle** – rotira os efekta. 0° = vodoravno.
 * **radial** – prebacuje u radial način, primjenjujući boje prema kutu od središta.
 * **radial smooth loop** – automatski prilagođava wavelength tako da se ravnomjerno dijeli u 100% kruga, čime se sprječava vidljiv spoj na mjestu gdje se ciklus zatvara.
+* **legacy mode** – vraća se na starije početne/završne HSB klizače. Ostavite ovu opciju isključenu za upotrebu novijeg uređivača gradijenta.
 
 **Načini boje**
 
-Ove postavke određuju koji se aspekti prilagodbi boje primjenjuju na sadržaj. Vidi također: [Postavke boje i HSB](../fundamentals/colour-settings-and-hsb.md).
+Ove postavke određuju koji se aspekti prilagodbi boje primjenjuju na sadržaj. Vidi također: [Postavke boje i HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – nijansa se ne mijenja.
@@ -46,17 +47,32 @@ Ove postavke određuju koji se aspekti prilagodbi boje primjenjuju na sadržaj. 
   * _FIXED_ – svjetlina se postavlja na zadanu vrijednost.
   * _MULTIPLY_ – svjetlina se skalira prema zadanoj vrijednosti. Time se zadržava dinamika (npr. elementi koji bljeskaju i dalje bljeskaju, ali unutar ograničenog raspona svjetline).
 
-**Početne / završne vrijednosti**
+**Uređivač gradijenta**
 
-Ovi klizači definiraju raspon boje koji se primjenjuje duž odabrane osi (ili radijalnog pomaka).
+Koristi isti uređivač gradijenta kao [Colour change](colour-changer.md "mention"), ali mapira gradijent preko sadržaja prema položaju.
 
-* **start hue** – nijansa na početku gradijenta.
-* **end hue** – nijansa na kraju gradijenta.
-* **start saturation** – zasićenost na početku.
-* **end saturation** – zasićenost na kraju.
-* **start brightness** – svjetlina na početku.
-* **end brightness** – svjetlina na kraju.
+* Kliknite traku gradijenta za dodavanje točke boje.
+* Lijevim klikom odaberite točku, zatim je povucite bočno za pomicanje.
+* Povucite odabranu točku prema dolje, dalje od trake, ili pritisnite Delete/Backspace da biste je uklonili. Gradijent uvijek zadržava najmanje dvije točke.
+* Desnom tipkom miša kliknite točku da biste je uredili pomoću birača boje.
+* Upotrijebite **Position**, **Hue**, **Saturation** i **Brightness** za precizno uređivanje odabrane točke.
+* **interpolation** odabire kako se boje stapaju između točaka:
+* **HSB** – stapa nijansu, zasićenost i svjetlinu. To je najbolje za glatko kretanje u stilu duge oko kotača boja.
+* **RGB** – izravno stapa vrijednosti crvene, zelene i plave. To često djeluje sličnije prijelazu boja na zaslonu ili rasvjetnoj konzoli.
+* **NONE** – skače s jedne točke na sljedeću bez stapanja.
+* **hue direction** dostupno je pri HSB interpolaciji:
+* **AUTO** – bira najkraći put oko kotača nijansi.
+* **FORWARDS** – uvijek se kreće prema naprijed kroz vrijednosti nijanse.
+* **BACKWARDS** – uvijek se kreće prema natrag kroz vrijednosti nijanse.
 * **blend** – miješa promjenu boje s izvornim bojama. Pri 100% efekt potpuno zamjenjuje izvorne boje.
+
+**Naslijeđene početne / završne vrijednosti**
+
+Ako je **legacy mode** uključen, uređivač gradijenta zamjenjuje se starijim kontrolama:
+
+* **start hue / end hue** – nijansa na početku i kraju raspona.
+* **start saturation / end saturation** – zasićenost na početku i kraju raspona.
+* **start brightness / end brightness** – svjetlina na početku i kraju raspona.
 
 **Primjer 1: Klizni dugin gradijent**
 
@@ -64,7 +80,7 @@ Počevši od zadanih postavki:
 
 1. Ostavite node u **Linear** načinu (kut 0° = vodoravno).
 2. Ostavite **wavelength** na 100% (obuhvaća punu širinu i to bi trebala biti zadana vrijednost).
-3. Ostavite početne i završne vrijednosti na zadanim postavkama.
+3. Ostavite zadani gradijent.
 4. Omogućite **repeat**.
 5. Dodajte **Sawtooth Oscillator** na postavku **offset**, s rasponom od 0% do 100%.
 
@@ -77,13 +93,12 @@ Počevši od zadanih postavki:
 1. Ostavite node u **Linear** načinu (kut 0° = vodoravno).
 2. Ostavite **wavelength** na 100% (obuhvaća punu širinu i to bi trebala biti zadana vrijednost).
 3. Isključite **repeat**.
-4. Postavite **start brightness** na 0 (crno).
-5. Postavite **end brightness** na 100 (bijelo).
-6. Postavite **start saturation** i **end saturation** na 0 (pretvara u nijanse sive).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Omogućite **pingpong**.
+4. Postavite prvu točku gradijenta na crnu.
+5. Postavite završnu točku gradijenta na bijelu.
+6. Postavite **hue mode** na OFF.
+7. Postavite **saturation mode** na FIXED ako želite prisiliti rezultat na nijanse sive.
+8. Postavite **brightness mode** na FIXED.
+9. Omogućite **pingpong**.
 
 _Rezultat: gradijent prelazi iz crne u bijelu, zatim natrag u crnu preko širine._\
 Imajte na umu da, ako želite da sadržaj zadrži svoju nijansu i zasićenost, isključite Saturation mode. \\
@@ -127,5 +142,6 @@ Ovaj node izobličuje sadržaj pomoću polja šuma (poput turbulencije), pomiču
 * **Depth Offset** – pomiče kroz 3D polje šuma, stvarajući varijacije tijekom vremena. To je posebno učinkovito kada se animira s Oscillator Node.
 * **Depth Detail** – kontrolira koliko je detaljna varijacija kroz dimenziju dubine.
 * **Absolute** – uzima apsolutnu vrijednost šuma, presavijajući negativne vrijednosti u pozitivne (stvara samo jednostrani pomak).
+* **Angle** – rotira os šuma u linearnom načinu rada. 0° = vodoravno.
 * **Radial** – prebacuje iz linear na radial način, tako da se pomak temelji na kutu od središta.
 * **Radial Smooth Loop** – prilagođava wavelength tako da se ravnomjerno dijeli u 100% kruga, čime se sprječavaju vidljivi spojevi u radial načinu.

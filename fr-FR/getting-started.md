@@ -93,7 +93,7 @@ Une zone est un espace dans la sortie d’un laser vers lequel vous pouvez envoy
 Vous pouvez sélectionner le laser à modifier de l’une des manières suivantes :
 
 * les boutons numérotés dans la barre en haut
-* en appuyant sur la touche numérique du laser souhaité _(touches 1-9_ \_)\_
+* en appuyant sur la touche numérique du laser souhaité (_touches 1-9_)
 * la touche `Tab` pour passer d’un laser au suivant
 
 Ajoutez un nouveau laser à la configuration en appuyant sur le bouton _+_. (Il existe également un bouton _ADD LASER_ dans le panneau _Laser Overview_)
@@ -120,7 +120,7 @@ Même s’il est possible de contrôler Liberation avec la souris et le clavier,
 
 Voir aussi : [Référence APC40](reference/apc40-reference.md "mention")
 
-Nous avons également ajouté la prise en charge de l’APC Mini Mark 2 et du MIDI Fighter Twister, et d’autres contrôleurs sont en cours de développement. Mais l’APC40 Mark 2 reste la meilleure option dans la plupart des cas.
+Liberation prend également en charge l’APC Mini et le MIDI Fighter Twister. L’APC40 Mark 2 reste la meilleure option dans la plupart des cas.
 
 ### Clips et effets
 
@@ -205,7 +205,7 @@ Appuyez sur un bouton d’effet pour activer ou désactiver l’effet, ou mieux 
 Utilisez les contrôleurs rotatifs 1-8\* pour régler le _parameter_ de chaque effet. (Vous pouvez aussi faire un clic droit avec la souris pour ajuster le niveau et le paramètre). Le changement de paramètre a des effets différents selon la façon dont l’effet est configuré. Voir la liste ci-dessous pour les effets par défaut.
 
 {% hint style="info" %}
-Les petits nombres que vous voyez sur les boutons d’effet correspondent au _level_ et au _parameter_ de l’effet. Le _level_ est contrôlé par le fader de l’APC40, ou vous pouvez cliquer-glisser sur le bouton. Le paramètre est ajusté avec les rotatifs de l’APC40, ou vous pouvez faire un clic droit pour l’ajuster avec la souris.
+Les petits nombres que vous voyez sur les boutons d’effet correspondent au _level_ et au _parameter_ de l’effet. Le _level_ est contrôlé par le fader de l’APC40, ou vous pouvez cliquer et faire glisser sur le bouton. Le paramètre est ajusté avec les rotatifs de l’APC40, ou vous pouvez faire un clic droit pour l’ajuster avec la souris.
 {% endhint %}
 
 _\*Les contrôleurs rotatifs 1-8 se trouvent en haut de l’APC40 Mk2 et en haut à droite sur la Mk1. Voir aussi :_ [Référence APC40](reference/apc40-reference.md "mention")
@@ -225,9 +225,9 @@ _\*Les contrôleurs rotatifs 1-8 se trouvent en haut de l’APC40 Mk2 et en haut
 5. **Scale** :\
    Met tout à l’échelle de manière répétée, du plein format à zéro. Le paramètre ajuste la vitesse.
 6. **Hue** :\
-   Modifie la teinte de tout le contenu, sans changer la saturation (c.-à-d. que tout ce qui est blanc reste blanc). Le paramètre ajuste la teinte.
+Modifie la teinte de tout le contenu, sans changer la saturation (c.-à-d. que tout ce qui est blanc reste blanc). Le paramètre ajuste la teinte.
 7. **Saturation and hue** :\
-   Modifie la teinte de tout le contenu et sature aussi complètement la couleur (c.-à-d. que tout ce qui est blanc devient coloré). Le paramètre ajuste la teinte.
+Modifie la teinte de tout le contenu et sature aussi complètement la couleur (c.-à-d. que tout ce qui est blanc devient coloré). Le paramètre ajuste la teinte.
 8. **Flash** :\
    Fait clignoter de manière répétée la luminosité de tout le contenu, du maximum à zéro. Le paramètre ajuste la vitesse de clignotement.
 
@@ -265,7 +265,7 @@ Presque tous les shows laser ont une forme de bande-son musicale ; le système d
 
 <figure><img src=".gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Plusieurs options de synchronisation sont disponibles, notamment MIDI clock et Ableton Link. Si vous connaissez le tempo de la musique, vous pouvez l’ajuster manuellement avec le curseur à l’écran ou le bouton Tempo de l’APC40, mais vous pouvez aussi rester en rythme avec la musique grâce au système _Tap Tempo_\_.\_
+Plusieurs options de synchronisation sont disponibles, notamment MIDI clock et Ableton Link. Si vous connaissez le tempo de la musique, vous pouvez l’ajuster manuellement avec le curseur à l’écran ou le bouton Tempo de l’APC40, mais vous pouvez aussi rester en rythme avec la musique grâce au système _Tap Tempo_.
 
 #### Tap Tempo
 
@@ -287,7 +287,7 @@ Faites `Alt / Option + Shift`-clic sur un clip pour effectuer une sélection mul
 
 Un clic-glisser déplacera TOUS les clips sélectionnés.
 
-Pour supprimer un ou plusieurs clips, faites-les glisser hors du clip deck (une icône de corbeille apparaîtra) ou utilisez le bouton DELETE dans le menu contextuel du clip.
+Pour supprimer un ou plusieurs clips, faites-les glisser hors du Clip Deck (une icône de corbeille apparaîtra) ou utilisez le bouton DELETE dans le menu contextuel du clip.
 
 ### Panneau Laser Overview
 

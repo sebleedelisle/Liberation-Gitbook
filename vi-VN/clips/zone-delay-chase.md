@@ -14,7 +14,7 @@ Hệ thống zone delay là một cách đơn giản nhưng hiệu quả để t
 
 _Zone delay_ thêm độ trễ vào thời gian của Clip trên từng zone, tạo ra một kiểu quét qua các zones.
 
-Zone delay đặc biệt hiệu quả khi được đưa vào một Clip đang chạy. Hãy dùng control tương ứng trên APC40 để điều chỉnh mức và pattern. (Xem [Tham khảo APC40](../reference/apc40-reference.md)). Hoặc bạn có thể dùng panel _Clip Settings_.
+Zone delay đặc biệt hiệu quả khi được đưa vào một Clip đang chạy. Hãy dùng control tương ứng trên APC40 để điều chỉnh mức và pattern. (Xem [Tham khảo APC40](../reference/apc40-reference.md "mention")). Hoặc bạn có thể dùng panel _Clip Settings_.
 
 Cài đặt zone delay:
 
@@ -39,7 +39,7 @@ Pattern hoạt động dựa trên số thứ tự zone và giả định rằng
 Zone delay cũng được áp dụng cho mọi hiệu ứng đang hoạt động. Ví dụ, hiệu ứng nhấp nháy cũng sẽ bị trễ giữa các zones, giống như animation bên trong chính Clip.
 {% endhint %}
 
-Khi một Clip có bất kỳ kiểu _Zone delay_ nào, bạn sẽ thấy biểu tượng ba chấm ở góc trên bên phải của Clip. Các chấm này được animate để cho biết kiểu _Zone delay_ của Clip đó. Xem [Các biểu tượng nhỏ trên các nút Clip là gì?](what-are-the-small-icons-on-the-clip-buttons.md) để biết thêm chi tiết.
+Khi một Clip có bất kỳ kiểu _Zone delay_ nào, bạn sẽ thấy biểu tượng ba chấm ở góc trên bên phải của Clip. Các chấm này được animate để cho biết kiểu _Zone delay_ của Clip đó. Xem [Các biểu tượng nhỏ trên các nút Clip là gì?](what-are-the-small-icons-on-the-clip-buttons.md "mention") để biết thêm chi tiết.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Biểu tượng ba chấm cho biết một Clip có zone delay và chế độ của nó</p></figcaption></figure>
 

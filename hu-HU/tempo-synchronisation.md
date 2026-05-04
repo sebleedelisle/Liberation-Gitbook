@@ -12,7 +12,7 @@ Ha van tapasztalatod zenei vagy világítástechnikai szoftverekkel, ez a folyam
 
 ## Tempo panel
 
-A _Tempo_ panel mindig látható a képernyőn, és az összes szinkronizálási beállítást tartalmazza. Felül az aktuális ütem/ütés számláló, valamint a lejátszásvezérlő látható play/pause és rewind/fastforward gombokkal.
+A _Tempo_ panel mindig látható a képernyőn, és az összes szinkronizálási beállítást tartalmazza. Felül az aktuális ütem/ütés számláló, valamint a lejátszásvezérlő látható play/pause és rewind/fast-forward gombokkal.
 
 Alatta található az ütemjelző: négy négyzet, amelyek az ütemre „pulzálnak”. Ez a _beat marker_ rendkívül hasznos vizuális visszajelzés, és a _Live_ tempó rendszer használata közben folyamatosan erre fogsz támaszkodni.
 
@@ -60,7 +60,7 @@ A _METRONOME_ gombbal **visszaállíthatod az ütemet**. (A _METRONOME_ gomb az 
 
 A _TEMPO_ tekerőgombot egy „kattanással” jobbra vagy balra elfordítva **kerekítheted a tempót** felfelé vagy lefelé egész BPM értékre.
 
-Lásd még: [APC40 referencia](reference/apc40-reference.md)
+Lásd még: [APC40 referencia](reference/apc40-reference.md "mention")
 
 ### Tempó igazítása
 
@@ -101,6 +101,12 @@ A Liberation MIDI Clock tempóforrás a **MIDI Machine Control (MMC)** üzenetek
 {% endhint %}
 
 
+
+### Ableton Link
+
+Az Ableton Linkkel való szinkronizáláshoz válaszd az _ABLETON LINK_ tempóforrást. A Liberation csatlakozik a helyi hálózaton futó Link munkamenethez, és követi a többi Link-kompatibilis alkalmazás közös tempóját és ütésfázisát.
+
+Az Ableton Link nem használ MIDI portot, és nem továbbít abszolút dalpozíciót. Ha azt szeretnéd, hogy a Liberation ütemkezdete a show egy adott pillanatához igazodjon, használd az ütem-visszaállítási vezérlőket.
 
 ### Timeline
 

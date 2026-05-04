@@ -16,7 +16,7 @@ Beachte, dass Global Transformations nichts im Canvas beeinflussen, sondern nur 
 
 ### Scale X/Y
 
-Horizontale und vertikale Skalierung. Diese Werte sind miteinander gekoppelt, außer du drückst `Shift`. Standardmäßig sind sie außerdem den APC40 Device Control-Reglern 4 und 8 zugewiesen und erscheinen im Panel rechts neben dem Clip Deck.
+Horizontale und vertikale Skalierung. Diese Werte sind miteinander gekoppelt, außer du drückst `Shift`. Standardmäßig sind sie außerdem den APC40 Device Control-Reglern 4 und 8 zugewiesen und erscheinen im kontextbezogenen Parameters-Panel rechts neben dem Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Horizontale und vertikale Verschiebung. Verschiebt alles horizontal bzw. vertika
 
 ### Spin
 
-Dreht alle Inhalte um die Mitte. Ein positiver Wert dreht im Uhrzeigersinn, ein negativer Wert gegen den Uhrzeigersinn. Du wirst sehen, dass diese Einstellung die Transformation _Rotation_ beeinflusst. Standardmäßig ist sie dem APC40 Device Control-Regler 3 zugewiesen und erscheint im Panel rechts neben dem Clip Deck.
+Dreht alle Inhalte um die Mitte. Ein positiver Wert dreht im Uhrzeigersinn, ein negativer Wert gegen den Uhrzeigersinn. Du wirst sehen, dass diese Einstellung die Transformation _Rotation_ beeinflusst. Standardmäßig ist sie dem APC40 Device Control-Regler 3 zugewiesen und erscheint im kontextbezogenen Parameters-Panel rechts neben dem Clip Deck.
 
 ### Spin 3D
 
-Dreht alle Inhalte um die Y-Achse (eine vertikale Linie in der Mitte). Du wirst sehen, dass diese Einstellung die Transformation _Rotation3D_ beeinflusst. Standardmäßig ist sie dem APC40 Device Control-Regler 7 zugewiesen und erscheint im Panel rechts neben dem Clip Deck.
+Dreht alle Inhalte um die Y-Achse (eine vertikale Linie in der Mitte). Du wirst sehen, dass diese Einstellung die Transformation _Rotation3D_ beeinflusst. Standardmäßig ist sie dem APC40 Device Control-Regler 7 zugewiesen und erscheint im kontextbezogenen Parameters-Panel rechts neben dem Clip Deck.
 
 ### Rotation
 

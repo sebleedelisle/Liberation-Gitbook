@@ -9,7 +9,7 @@ metaLinks:
 
 Esta família de nodes modifica o conteúdo de acordo com a posição. Por padrão, o efeito é aplicado ao longo de um eixo horizontal (da esquerda para a direita), mas você pode girar esse eixo para qualquer ângulo. Cada node também inclui um modo _radial_, em que o efeito é controlado pelo ângulo de cada ponto em relação ao centro.
 
-* **Colour Changer by Position** – desloca as cores ao longo do eixo escolhido ou ao redor do ângulo radial.\
+* **Colour Changer by Position** – aplica um gradiente ao longo do eixo escolhido ou ao redor do ângulo radial.\
   \&#xNAN;_Exemplo: crie um gradiente arco-íris percorrendo uma linha, ou use o modo radial em um círculo para produzir um efeito de roda de cores._
 * **Wave Shift by Position** – aplica uma distorção de onda senoidal, deslocando o conteúdo verticalmente (ou perpendicularmente ao eixo escolhido).\
   \&#xNAN;_Exemplo: faça uma linha ondular como água, ou use o modo radial para fazer um círculo pulsar para fora a partir do centro._
@@ -29,10 +29,11 @@ Este node aplica mudanças de cor ao seu conteúdo com base na posição. Por pa
 * **linear angle** – gira o eixo do efeito. 0° = horizontal.
 * **radial** – alterna para o modo radial, aplicando cores com base no ângulo a partir do centro.
 * **radial smooth loop** – ajusta automaticamente o wavelength para que ele divida 100% do círculo de forma uniforme, evitando uma emenda visível onde o ciclo se fecha.
+* **legacy mode** – volta para os sliders antigos de HSB inicial/final. Deixe desativado para usar o editor de gradiente mais recente.
 
 **Modos de cor**
 
-Eles determinam quais aspectos dos ajustes de cor são aplicados ao conteúdo. Veja também: [Configurações de cor e HSB](../fundamentals/colour-settings-and-hsb.md).
+Eles determinam quais aspectos dos ajustes de cor são aplicados ao conteúdo. Veja também: [Configurações de cor e HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – o hue não é alterado.
@@ -46,17 +47,32 @@ Eles determinam quais aspectos dos ajustes de cor são aplicados ao conteúdo. V
   * _FIXED_ – o brightness é definido para o valor especificado.
   * _MULTIPLY_ – o brightness é escalado pelo valor especificado. Isso preserva a dinâmica (por exemplo, elementos piscando continuam piscando, mas dentro da faixa de brilho limitada).
 
-**Valores iniciais / finais**
+**Editor de gradiente**
 
-Estes sliders definem a faixa de cor aplicada ao longo do eixo escolhido (ou da varredura radial).
+Usa o mesmo editor de gradiente de [Colour change](colour-changer.md "mention"), mas mapeia o gradiente pelo conteúdo com base na posição.
 
-* **start hue** – o hue no início do gradiente.
-* **end hue** – o hue no fim do gradiente.
-* **start saturation** – a saturation no início.
-* **end saturation** – a saturation no fim.
-* **start brightness** – o brightness no início.
-* **end brightness** – o brightness no fim.
+* Clique na barra de gradiente para adicionar uma parada de cor.
+* Clique com o botão esquerdo em uma parada para selecioná-la e arraste-a para os lados para movê-la.
+* Arraste uma parada selecionada para baixo, afastando-a da barra, ou pressione Delete/Backspace para removê-la. Um gradiente sempre mantém pelo menos duas paradas.
+* Clique com o botão direito em uma parada para editá-la com o seletor de cores.
+* Use **Position**, **Hue**, **Saturation** e **Brightness** para editar a parada selecionada com precisão.
+* **interpolation** escolhe como as cores são misturadas entre as paradas:
+* **HSB** – mistura hue, saturation e brightness. É a melhor opção para um movimento suave em estilo arco-íris ao redor da roda de cores.
+* **RGB** – mistura diretamente os valores de vermelho, verde e azul. Isso muitas vezes se parece mais com um fade de cor de uma tela ou console de iluminação.
+* **NONE** – salta de uma parada para a próxima, sem mistura.
+* **hue direction** fica disponível na interpolação HSB:
+* **AUTO** – usa o caminho mais curto ao redor da roda de hue.
+* **FORWARDS** – sempre avança pelos valores de hue.
+* **BACKWARDS** – sempre retrocede pelos valores de hue.
 * **blend** – mistura a alteração de cor com as cores originais. Em 100%, o efeito substitui totalmente as cores originais.
+
+**Valores iniciais / finais legados**
+
+Se **legacy mode** estiver ativado, o editor de gradiente será substituído pelos controles antigos:
+
+* **start hue / end hue** – hue no início e no fim da faixa.
+* **start saturation / end saturation** – saturation no início e no fim da faixa.
+* **start brightness / end brightness** – brightness no início e no fim da faixa.
 
 **Exemplo 1: gradiente arco-íris deslizante**
 
@@ -64,7 +80,7 @@ Começando com as configurações padrão:
 
 1. Deixe o node no modo **Linear** (ângulo de 0° = horizontal).
 2. Deixe **wavelength** em 100% (ocupa toda a largura e deve ser o padrão).
-3. Deixe os valores inicial e final como padrão.
+3. Mantenha o gradiente padrão.
 4. Ative **repeat**.
 5. Adicione um **Sawtooth Oscillator** à configuração **offset**, indo de 0% a 100%.
 
@@ -77,13 +93,12 @@ Começando com as configurações padrão:
 1. Deixe o node no modo **Linear** (ângulo de 0° = horizontal).
 2. Deixe **wavelength** em 100% (ocupa toda a largura e deve ser o padrão).
 3. Desative **repeat**.
-4. Defina **start brightness** como 0 (preto).
-5. Defina **end brightness** como 100 (branco).
-6. Defina **start saturation** e **end saturation** como 0 (converte para escala de cinza).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Ative **pingpong**.
+4. Defina a primeira parada do gradiente como preto.
+5. Defina a parada final do gradiente como branco.
+6. Defina **hue mode** como OFF.
+7. Defina **saturation mode** como FIXED se quiser forçar o resultado para escala de cinza.
+8. Defina **brightness mode** como FIXED.
+9. Ative **pingpong**.
 
 _Resultado: o gradiente passa de preto para branco e depois volta para preto ao longo da largura._\
 Observe que, se você quiser que o conteúdo mantenha seu hue e sua saturation, desative Saturation mode. \\
@@ -127,5 +142,6 @@ Este node distorce o conteúdo usando um campo de ruído (como turbulência), de
 * **Depth Offset** – percorre o campo de ruído 3D, criando variação ao longo do tempo. Isso é especialmente eficaz quando animado com um Oscillator Node.
 * **Depth Detail** – controla o nível de detalhe da variação na dimensão de profundidade.
 * **Absolute** – usa o valor absoluto do ruído, dobrando valores negativos para positivos (produzindo deslocamento em apenas um lado).
+* **Angle** – gira o eixo do ruído no modo linear. 0° = horizontal.
 * **Radial** – alterna do modo linear para o modo radial, fazendo com que o deslocamento seja baseado no ângulo a partir do centro.
 * **Radial Smooth Loop** – ajusta o wavelength para que ele divida 100% do círculo de forma uniforme, evitando emendas visíveis no modo radial.

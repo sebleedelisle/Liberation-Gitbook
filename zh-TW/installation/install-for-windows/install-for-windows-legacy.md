@@ -23,7 +23,7 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-這會開啟您的下載資料夾。找到下載的檔案（通常在最上方），按右鍵，然後選擇 "Extract all"。
+這會開啟您的 Downloads 資料夾。找到下載的檔案（通常在最上方），按一下右鍵，然後選擇 "Extract all"。
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -31,11 +31,11 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-select-destination.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Windows 解壓縮完成後，會顯示安裝檔。請雙擊 Liberation.exe 來執行應用程式。
+Windows 解壓縮完成後，會顯示安裝檔。請按兩下 Liberation.exe 來執行應用程式。
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation 需要存取檔案與網路的權限，因此 Windows 可能會跳出多個要求確認的視窗。請務必全部允許，否則 Liberation 可能無法正常運作。
+Liberation 需要存取檔案與網路的權限，因此 Windows 可能會顯示幾個權限提示。請務必全部允許，否則 Liberation 可能無法正常運作。
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

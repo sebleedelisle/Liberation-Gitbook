@@ -18,7 +18,7 @@ Możesz dodać jeden lub więcej wirtualnych elementów typu mask, aby usunąć 
 
 Dodaj element typu mask, klikając ikonę na pasku narzędzi; w Output view pojawi się czerwony kwadrat — to nowy mask. Możesz go przesuwać, klikając i przeciągając, oraz przeciągać rogi, aby zmienić jego rozmiar. Jeśli chcesz uzyskać nieregularny kształt, przytrzymaj `Alt / Option` podczas przeciągania rogu. (Gdy mask ma już nieregularny kształt, nie trzeba dalej przytrzymywać klawisza `Alt / Option`.)
 
-Kliknij element mask prawym przyciskiem myszy, aby zobaczyć dodatkowe ustawienia:
+Kliknij mask prawym przyciskiem myszy, aby zobaczyć dodatkowe ustawienia:
 
 * Reduction percentage — określa zmniejszenie mocy lasera w obszarze mask. Domyślnie ustawione jest 100%, czyli pełne wygaszenie w obszarze mask. Możesz jednak zmniejszyć moc lasera o dowolnie wybraną wartość. Pamiętaj, że jeśli redukcja nie jest pełna, kolor elementu mask zmienia się na pomarańczowy.
 * Przycisk DELETE MASK znajduje się również w tym menu otwieranym prawym przyciskiem myszy.

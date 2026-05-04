@@ -60,7 +60,7 @@ Użyj przycisku _METRONOME_, aby **zresetować takt**. (Pamiętaj, że przycisk 
 
 Obróć pokrętło _TEMPO_ o jeden „klik” w prawo lub w lewo, aby **zaokrąglić tempo** w górę lub w dół do pełnej wartości BPM.
 
-Zobacz także [Referencja APC40](reference/apc40-reference.md)
+Zobacz także [Referencja APC40](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 
@@ -101,6 +101,12 @@ MIDI Clock nadaje serię ramek (24 na ćwierćnutę), ale komunikaty nie zawiera
 {% endhint %}
 
 
+
+### Ableton Link
+
+Aby zsynchronizować się z Ableton Link, wybierz _ABLETON LINK_ jako źródło tempa. Liberation dołączy do sesji Link w Twojej sieci lokalnej i będzie podążać za wspólnym tempem oraz fazą uderzeń z innych aplikacji obsługujących Link.
+
+Ableton Link nie używa portu MIDI i nie przenosi bezwzględnej pozycji utworu. Jeśli chcesz wyrównać początek taktu w Liberation z konkretnym momentem pokazu, użyj kontrolek resetowania taktów.
 
 ### Timeline
 

@@ -25,6 +25,6 @@ Farðu varlega með stillinguna _BOTH_. MIDI-tæki og hugbúnaður geta verið s
 
 ### MIDI-vörpun
 
-Sjá [Sjálfgefin MIDI-vörpun fyrir sendingu/móttöku](../reference/midi-send-receive-default-mapping.md)
+Sjá [Sjálfgefin MIDI-vörpun fyrir sendingu/móttöku](../reference/midi-send-receive-default-mapping.md "mention")
 
 Ég stefni á að bæta við mun sérsniðnari MIDI-vörpun í framtíðinni, en þangað til geturðu notað forrit eins og [BOME](https://www.bome.com/products/miditranslator) og [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) til að þýða milli Liberation og sérsniðna vélbúnaðarins þíns.

@@ -12,7 +12,7 @@ Jos sinulla on kokemusta musiikki- tai valo-ohjelmistoista, tämä prosessi on t
 
 ## Tempo-paneeli
 
-_Tempo_-paneeli on aina näkyvissä ja sisältää kaikki synkronointiasetukset. Yläosassa näkyy nykyinen tahti-/iskulaskuri sekä transport-ohjaimet, joissa on play/pause- ja rewind/fastforward-painikkeet.
+_Tempo_-paneeli on aina näkyvissä ja sisältää kaikki synkronointiasetukset. Yläosassa näkyy nykyinen tahti-/iskulaskuri sekä transport-ohjaimet, joissa on play/pause- ja rewind/fast-forward-painikkeet.
 
 Sen alapuolella näkyy iskumerkki: neljä neliötä, jotka “sykkivät” iskun mukana. Tämä _beat marker_ on erittäin hyödyllinen visuaalinen apu, ja siihen tulee viitattua jatkuvasti _Live_-tempotoimintoa käytettäessä.
 
@@ -60,7 +60,7 @@ Käytä _METRONOME_-painiketta **tahdin nollaamiseen**. (Huomaa, että _METRONOM
 
 Käännä _TEMPO_-nuppia yhden “pykälän” oikealle tai vasemmalle, jos haluat **pyöristää tempon** ylös- tai alaspäin kokonaiseksi BPM-arvoksi.
 
-Katso myös [APC40-viite](reference/apc40-reference.md)
+Katso myös [APC40-viite](reference/apc40-reference.md "mention")
 
 ### Tempon nudge-säätö
 
@@ -101,6 +101,12 @@ Liberationin MIDI Clock -tempolähde reagoi myös **MIDI Machine Control (MMC)**
 {% endhint %}
 
 
+
+### Ableton Link
+
+Jos haluat synkronoida Ableton Linkin kanssa, valitse tempolähteeksi _ABLETON LINK_. Liberation liittyy paikallisverkkosi Link-istuntoon ja seuraa muiden Link-yhteensopivien sovellusten yhteistä tempoa ja iskukohtaa.
+
+Ableton Link ei käytä MIDI-porttia eikä välitä absoluuttista kappalepositiota. Käytä tahdin nollausohjaimia, jos Liberationin tahdin alun pitää osua tiettyyn hetkeen esityksessä.
 
 ### Timeline
 

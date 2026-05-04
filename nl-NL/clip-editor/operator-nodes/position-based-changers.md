@@ -9,7 +9,7 @@ metaLinks:
 
 Deze familie nodes past content aan op basis van positie. Standaard wordt het effect toegepast langs een horizontale as (van links naar rechts), maar je kunt deze as naar elke gewenste hoek draaien. Elke node heeft ook een _radial_ modus, waarbij het effect wordt bepaald door de hoek van elk punt ten opzichte van het midden.
 
-* **Colour Changer by Position** – verschuift kleuren over de gekozen as of rond de radiale hoek.\
+* **Colour Changer by Position** – past een verloop toe over de gekozen as of rond de radiale hoek.\
   \&#xNAN;_Voorbeeld: maak een regenboogverloop dat over een lijn beweegt, of gebruik radial mode op een cirkel voor een kleurenwiel-effect._
 * **Wave Shift by Position** – past een sinusgolfvervorming toe, waarbij de content verticaal wordt verschoven (of loodrecht op de gekozen as).\
   \&#xNAN;_Voorbeeld: laat een lijn rimpelen als water, of gebruik radial mode om een cirkel vanuit het midden naar buiten te laten pulseren._
@@ -29,6 +29,7 @@ Deze node past kleurwijzigingen toe op je content op basis van positie. Standaar
 * **linear angle** – draait de as van het effect. 0° = horizontaal.
 * **radial** – schakelt over naar radial mode, waarbij kleuren worden toegepast op basis van de hoek vanaf het midden.
 * **radial smooth loop** – past de wavelength automatisch aan zodat deze gelijkmatig in 100% van de cirkel past. Zo voorkom je een zichtbare naad waar de cyclus rondloopt.
+* **legacy mode** – schakelt terug naar de oudere HSB-sliders voor begin/einde. Laat dit uit om de nieuwere verloopeditor te gebruiken.
 
 **Colour Modes**
 
@@ -46,17 +47,32 @@ Deze bepalen welke onderdelen van de kleuraanpassingen op de content worden toeg
   * _FIXED_ – brightness wordt ingesteld op de opgegeven waarde.
   * _MULTIPLY_ – brightness wordt geschaald met de opgegeven waarde. Dit behoudt dynamiek (bijvoorbeeld: knipperende elementen blijven knipperen, maar binnen het beperkte helderheidsbereik).
 
-**Start / End Values**
+**Verloopeditor**
 
-Deze sliders bepalen het kleurbereik dat over de gekozen as wordt toegepast (of over de radiale sweep).
+Gebruikt dezelfde verloopeditor als [Colour Changer](colour-changer.md "mention"), maar koppelt het verloop op basis van positie aan de inhoud.
 
-* **start hue** – de hue aan het begin van het verloop.
-* **end hue** – de hue aan het einde van het verloop.
-* **start saturation** – saturation aan het begin.
-* **end saturation** – saturation aan het einde.
-* **start brightness** – brightness aan het begin.
-* **end brightness** – brightness aan het einde.
+* Klik op de verloopbalk om een kleurstop toe te voegen.
+* Klik met de linkermuisknop op een stop om deze te selecteren en sleep deze daarna zijwaarts om hem te verplaatsen.
+* Sleep een geselecteerde stop omlaag, weg van de balk, of druk op Delete/Backspace om deze te verwijderen. Een verloop behoudt altijd minstens twee stops.
+* Klik met de rechtermuisknop op een stop om deze met de kleurkiezer te bewerken.
+* Gebruik **Position**, **Hue**, **Saturation** en **Brightness** om de geselecteerde stop nauwkeurig te bewerken.
+* **interpolation** bepaalt hoe kleuren tussen stops worden gemengd:
+* **HSB** – mengt hue, saturation en brightness. Dit is het meest geschikt voor vloeiende regenboogachtige bewegingen rond het kleurenwiel.
+* **RGB** – mengt waarden voor rood, groen en blauw rechtstreeks. Dit voelt vaak meer als een kleurovergang op een scherm of lichttafel.
+* **NONE** – springt zonder overgang van de ene stop naar de volgende.
+* **hue direction** is beschikbaar bij HSB-interpolatie:
+* **AUTO** – neemt de kortste route rond het hue-wiel.
+* **FORWARDS** – loopt altijd vooruit door de hue-waarden.
+* **BACKWARDS** – loopt altijd achteruit door de hue-waarden.
 * **blend** – mengt de kleurwijziging met de oorspronkelijke kleuren. Bij 100% vervangt het effect de oorspronkelijke kleuren volledig.
+
+**Verouderde start-/eindwaarden**
+
+Als **legacy mode** aan staat, wordt de verloopeditor vervangen door de oudere bedieningselementen:
+
+* **start hue / end hue** – hue aan het begin en einde van het bereik.
+* **start saturation / end saturation** – saturation aan het begin en einde van het bereik.
+* **start brightness / end brightness** – brightness aan het begin en einde van het bereik.
 
 **Voorbeeld 1: verschuivend regenboogverloop**
 
@@ -64,7 +80,7 @@ Begin met de standaardinstellingen:
 
 1. Laat de node in **Linear** mode staan (hoek van 0° = horizontaal).
 2. Laat **wavelength** op 100% staan (beslaat de volledige breedte en zou de standaardwaarde moeten zijn).
-3. Laat de start- en eindwaarden op hun standaardinstelling staan.
+3. Laat het standaardverloop staan.
 4. Schakel **repeat** in.
 5. Voeg een **Sawtooth Oscillator** toe aan de instelling **offset**, die van 0% naar 100% loopt.
 
@@ -77,13 +93,12 @@ Begin met de standaardinstellingen:
 1. Laat de node in **Linear** mode staan (hoek van 0° = horizontaal).
 2. Laat **wavelength** op 100% staan (beslaat de volledige breedte en zou de standaardwaarde moeten zijn).
 3. Schakel **repeat** uit.
-4. Zet **start brightness** op 0 (zwart).
-5. Zet **end brightness** op 100 (wit).
-6. Zet **start saturation** en **end saturation** op 0 (zet om naar grijswaarden).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Schakel **pingpong** in.
+4. Zet de eerste verloopstop op zwart.
+5. Zet de laatste verloopstop op wit.
+6. Zet **hue mode** OFF.
+7. Zet **saturation mode** op FIXED als je het resultaat naar grijswaarden wilt forceren.
+8. Zet **brightness mode** op FIXED.
+9. Schakel **pingpong** in.
 
 _Resultaat: het verloop gaat over de breedte van zwart naar wit en daarna terug naar zwart._\
 Let op: als je wilt dat de content zijn hue en saturation behoudt, zet Saturation mode dan op OFF. \\
@@ -127,5 +142,6 @@ Deze node vervormt content met een noise field (zoals turbulentie), waarbij punt
 * **Depth Offset** – beweegt door het 3D-noiseveld en creëert variatie in de tijd. Dit is vooral effectief wanneer je het animeert met een Oscillator Node.
 * **Depth Detail** – bepaalt hoe gedetailleerd de variatie is over de dieptedimensie.
 * **Absolute** – neemt de absolute waarde van de noise, waardoor negatieve waarden naar positieve waarden worden gevouwen (dit geeft alleen eenzijdige verplaatsing).
+* **Angle** – roteert de as van de noise in lineaire modus. 0° = horizontaal.
 * **Radial** – schakelt van linear naar radial mode, zodat de verplaatsing wordt gebaseerd op de hoek vanaf het midden.
 * **Radial Smooth Loop** – past de wavelength aan zodat deze gelijkmatig in 100% van de cirkel past. Zo voorkom je zichtbare naden in radial mode.

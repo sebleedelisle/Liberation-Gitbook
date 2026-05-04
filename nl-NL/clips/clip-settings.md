@@ -16,6 +16,12 @@ Wijzig de horizontale en verticale positie van de clip met _Shift X_ en _Shift Y
 
 _Zone Delay/Chase_ is zo’n leuke functie dat die een eigen sectie krijgt. [Zone delay / chase](zone-delay-chase.md "mention")
 
+### Parameters panel
+
+Het paneel rechts van het Clip Deck toont acht contextuele parameters. Als er een Clip is geselecteerd, zijn de eerste regelaars _Shift X_, _Shift Y_ en _Zone Delay_ van de geselecteerde Clip, gevolgd door de globale regelaars _Spin_ en _Scale_.
+
+Dezezelfde parameters worden ook gespiegeld naar ondersteunde MIDI-controllers. Als er geen Clip is geselecteerd, blijven de Clip-specifieke posities leeg. Als je een groepsknop ingedrukt houdt, veranderen de eerste twee regelaars naar de fade-in- en fade-outtijden van die groep.
+
 ### Clips vergrendelen
 
 Als een clip vergrendeld is, kan die niet worden verplaatst of verwijderd. Gebruik het selectievakje _Locked_ in het rechtsklikmenu om een clip te vergrendelen. In het paneel Clip settings krijg je nog wat extra opties.
@@ -27,9 +33,9 @@ Als een clip vergrendeld is, kan die niet worden verplaatst of verwijderd. Gebru
 
 ### Rechtsklikmenu
 
-Als je met de rechtermuisknop op een clip klikt, verschijnt er een menu met enkele opties voor die clip. Zie [Introductie tot de Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip settings](clip-settings.md "mention") en [Clipgroepen](groups.md "mention") voor meer informatie over de eerste items in dit menu.
+Als je met de rechtermuisknop op een Clip klikt, verschijnt er een menu met enkele opties voor die Clip. Zie [Introductie tot de Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip settings](clip-settings.md "mention") en [Clipgroepen](groups.md "mention") voor meer informatie over de eerste items in dit menu.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Het rechtsklikmenu voor Clip settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 

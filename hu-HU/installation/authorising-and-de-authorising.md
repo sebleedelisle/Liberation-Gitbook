@@ -9,7 +9,7 @@ metaLinks:
 
 ### Liberation engedélyezése
 
-Amikor először megnyitod a Liberationt, _demo mode_ módban indul el, és megjelenik az _About panel:_
+Amikor először megnyitod a Liberationt, _free mode_ módban indul el, és megjelenik az _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Ha már engedélyezted az előfizetésedhez tartozó maximális számú számít
 Ha több előfizetésed van, a rendszer megkér, hogy válaszd ki, melyik előfizetéshez szeretnéd hozzárendelni a számítógépet.
 {% endhint %}
 
-Gratulálunk! A Liberation telepítésed most már engedélyezve van, és küldhetsz kimenetet a lézerekre. A lézerek élesítése előtt azonban olvasd el a [Gyors kezdési útmutató](../getting-started.md) és a [A lézerbeállítási folyamat áttekintése](../setting-up/setting-up-lasers.md) részt.
+Gratulálunk! A Liberation telepítésed most már engedélyezve van, és küldhetsz kimenetet a lézerekre. A lézerek élesítése előtt azonban olvasd el a [Gyors kezdési útmutató](../getting-started.md "mention") és a [A lézerbeállítási folyamat áttekintése](../setting-up/setting-up-lasers.md "mention") részt.
 
 {% hint style="info" %}
 Az _About panel_ bármikor megnyitható a _Liberation -> About Liberation_ vagy a _Liberation -> Authorise/Deauthorise this computer_ menüből.

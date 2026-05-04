@@ -113,19 +113,29 @@ Erzeugt Text mit einer TrueType- oder OpenType-Schriftart.
 * **Font** - wähle die gewünschte Schriftart aus
 
 {% hint style="info" %}
-Um Liberation weitere Schriftarten hinzuzufügen, kopiere die .ttf- oder .otf-Dateien in den Ordner data/resources/fonts.
+Um Liberation weitere Schriftarten hinzuzufügen, kopiere die .ttf- oder .otf-Dateien in den Ordner `data/fonts` im Liberation-Arbeitsordner und starte Liberation anschließend neu.
 {% endhint %}
 
 * **Render profile** - siehe [Render profile](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - wähle _LEFT_, _CENTRE_ oder _RIGHT_, um die Textausrichtung festzulegen.
 * **Fill state** - siehe [Füllungen, Masken und Tiefensortierung](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - die Textgröße
+* **monospace** - zeichnet jedes Zeichen mit derselben Breite. Das ist nützlich für Timer und Zähler, weil der Text beim Wechsel der Zahlen nicht seitlich hin- und herspringt.
+* **character spacing** - passt den Abstand zwischen den Zeichen an. Erhöhe den Wert für eine größere Laufweite oder verringere ihn, um den Text enger zu setzen.
 * **colour -** siehe [Farbeinstellungen und HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- und **y**-Position - siehe [Koordinatensystem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - der Drehwinkel des Bildes in Grad
 * **resolution** - siehe [Resolution](fundamentals/resolution.md "mention")
 * **reveal** - damit kannst du den Text schrittweise einblenden, jeweils ein Zeichen nach dem anderen. Wenn der Wert zwischen 0 und 50 % liegt, erscheint der Text schrittweise von links nach rechts. Zwischen 50 % und 100 % verschwindet der Text von links nach rechts. Du kannst einen Oszillator mit diesem Anschluss verbinden, um Animationen zu erstellen.
 * **reveal by word** - wenn aktiviert, arbeitet _reveal_ wortweise statt zeichenweise.
-* **countdown** - ein (schnell implementiertes!) Countdown-System. Es ändert sich alle 2 Schläge. Wenn du also Sekunden möchtest, stelle sicher, dass du bei 120 bpm bist.
-* **countdown start** - die Zahl, bei der der Countdown starten soll
+* **countdown** - ersetzt den eingegebenen Text durch einen Countdown. Wenn der Countdown null erreicht, wird wieder der normale **Text**-Wert angezeigt.
+* **use seconds** - zählt in echten Sekunden. Wenn diese Option ausgeschaltet ist, basiert der Countdown auf Beats: Zwei Beats zählen als eine Sekunde, sodass 120 bpm echten Sekunden entsprechen.
+* **show minutes/seconds** - zeigt die verbleibende Zeit in Minuten und Sekunden an. Wenn sie über einer Stunde liegt, werden auch Stunden angezeigt.
+* **countdown to date/time** - zählt bis zu einem bestimmten UTC-Datum und einer bestimmten UTC-Uhrzeit herunter, statt von einer Zahl herunterzuzählen.
+* **countdown datetime** - legt das UTC-Zieldatum und die UTC-Zielzeit fest, wenn **countdown to date/time** aktiviert ist.
+* **start number** - die Startzahl, wenn **countdown to date/time** ausgeschaltet ist.
 * _MOVE TO FRONT / MOVE TO BACK_ - siehe [Füllungen, Masken und Tiefensortierung](fundamentals/fills-masks-and-depth-sorting.md "mention")
+
+{% hint style="info" %}
+Wenn das Dropdown-Menü für die Schriftart geöffnet ist, wechselst du mit den Pfeiltasten nach oben und unten durch die verfügbaren Schriftarten.
+{% endhint %}

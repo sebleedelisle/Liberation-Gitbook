@@ -8,7 +8,7 @@ metaLinks:
 
 Áhrifakerfið í Liberation er skemmtileg og fjölhæf leið til að breyta úttaki frá Clip í rauntíma. Áhrif eru fullkomlega sveigjanleg og má nota til að láta allt blikka, snúast, skipta um lit eða jafnvel fljúga tilviljanakennt um!
 
-Allt sem þú getur gert í Clip Editor má nota sem áhrif. Í raun eru áhrif breytt með nákvæmlega sama node editor og Clips! Sjá [Breyta áhrifum](effects.md#editing-effects). Sköpunarmöguleikarnir eru nánast endalausir.
+Allt sem þú getur gert í Clip Editor má nota sem áhrif. Í raun eru áhrif breytt með nákvæmlega sama node editor og Clips! Sjá [Breyta áhrifum](effects.md#editing-effects "mention"). Sköpunarmöguleikarnir eru nánast endalausir.
 
 Sjálfgefnu áhrifahnapparnir 1–8 eru undir zone-hnöppunum og áhrif 9–24 eru litlu hnapparnir neðst.
 
@@ -32,12 +32,12 @@ Sjálfgefnu áhrifahnapparnir 1–8 eru undir zone-hnöppunum og áhrif 9–24 e
 
 #### Færibreytur áhrifa
 
-Bættu færibreytu við áhrifin með _Parameter node._ Parameter-kerfið er leið til að stilla margar stillingar inni í áhrifinu utan frá. Sjá [Parameter-stýring](clip-editor/oscillators/parameter-control.md) fyrir nánari upplýsingar.
+Bættu færibreytu við áhrifin með _Parameter node._ Parameter-kerfið er leið til að stilla margar stillingar inni í áhrifinu utan frá. Sjá [Parameter-stýring](clip-editor/oscillators/parameter-control.md "mention") fyrir nánari upplýsingar.
 
 Notaðu snúningsstýringar 1–8 til að stilla _parameter_ fyrir hvert áhrif. Þú getur líka hægrismellt á áhrifahnappinn og stillt parameter-sleðann eða sleðana. Breyting á parameter gerir mismunandi hluti eftir því hvernig áhrifin eru sett upp. Sjá listann hér fyrir neðan yfir sjálfgefnu áhrifin og hvað færibreytur þeirra gera.
 
 {% hint style="info" %}
-Snúningsstýringar 1–8 eru efst á APC40 Mk2 og efst til hægri á Mk1. Sjá einnig: [APC40 tilvísun](reference/apc40-reference.md)
+Snúningsstýringar 1–8 eru efst á APC40 Mk2 og efst til hægri á Mk1. Sjá einnig: [APC40 tilvísun](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,9 +59,9 @@ Litlu tölurnar sem þú sérð á áhrifahnöppunum vísa til _level_ og _param
 5. **Scale** :\
    Skalar allt endurtekið frá fullri stærð niður í núll. Færibreytan stillir hraðann.
 6. **Hue** :\
-   Breytir litblæ alls, en breytir ekki litmettuninni (þ.e. allt sem er hvítt helst hvítt). Færibreytan stillir litblæinn.
+Breytir litblæ alls, en breytir ekki litmettuninni (þ.e. allt sem er hvítt helst hvítt). Færibreytan stillir litblæinn.
 7. **Saturation and hue** :\
-   Breytir litblæ alls og mettar litinn líka að fullu (þ.e. allt sem er hvítt breytist í litinn). Færibreytan stillir litblæinn.
+Breytir litblæ alls og mettar litinn líka að fullu (þ.e. allt sem er hvítt breytist í litinn). Færibreytan stillir litblæinn.
 8. **Flash** :\
    Lætur birtu alls blikka endurtekið frá fullri birtu niður í núll. Færibreytan stillir blikkhraðann.
 
@@ -89,7 +89,7 @@ MX er stytting á _Mutually Exclusive_. Þetta er leið til að hópa áhrif sam
 
 Hægrismelltu á hvaða áhrif sem er og smelltu á _EDIT EFFECT_ hnappinn til að opna effect editor. Athugaðu að þessi editor er eins og Clip Editor!
 
-Breyttu áhrifunum á sama hátt og þú myndir breyta hvaða Clip sem er. Sjá [Clip Editor](clip-editor/).
+Breyttu áhrifunum á sama hátt og þú myndir breyta hvaða Clip sem er. Sjá [Clip Editor](clip-editor/ "mention").
 
 Þú þarft að hafa að minnsta kosti einn Creator node; það getur verið hvað sem er (lína, hringur, shape, jafnvel texti!), en þú ættir líklega að velja eitthvað sem birtist á skýran hátt í forskoðuninni á áhrifahnappnum.
 

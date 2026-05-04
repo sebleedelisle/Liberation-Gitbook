@@ -26,7 +26,7 @@ O nó Randomise está no centro do efeito Randomise!
 
 Cria ecos do seu conteúdo, deixando cópias que desaparecem ou mudam de escala atrás do original conforme ele se move.
 
-* **change render profile for trail** – se estiver ativado, todas as cópias da trilha usam o **render profile** selecionado. _Consulte_ [Render Profile](../fundamentals/render-profile.md).
+* **change render profile for trail** – se estiver ativado, todas as cópias da trilha usam o **render profile** selecionado. _Consulte_ [Render Profile](../fundamentals/render-profile.md "mention").
 * **render profile** – o perfil usado para as cópias da trilha quando a opção acima está ativada. É comum usar isso quando o conteúdo principal está definido como **DETAIL**, mas os ecos são renderizados como **FAST**, o que mantém detalhes nítidos nas formas principais enquanto renderiza as trilhas com mais eficiência.
 * **delay** – define o espaçamento entre as cópias da trilha em tempo musical, medido em **passos de nota de 1/64**.\
   Para referência:
@@ -36,6 +36,7 @@ Cria ecos do seu conteúdo, deixando cópias que desaparecem ou mudam de escala 
   * 128 = 1/2 compasso (mínima)
   * 256 = 1 compasso
 * **trail size** – quantas cópias de trilha serão desenhadas atrás do conteúdo ao vivo.
+* **prefill trails** – preenche o histórico dos rastros imediatamente quando o Clip começa, em vez de esperar os ecos se acumularem ao longo das primeiras batidas.
 * **freeze trails** – transforma trilhas de fluxo suave em uma sequência de instantâneos congelados. Útil para criar efeitos de trilha em staccato, sincronizados com a batida.
 * **brightness start / brightness end** – aplica brilho ao longo da trilha, da cópia mais recente (**start**) até a cópia mais antiga (**end**). Normalmente, defina **brightness start** em 100% e **brightness end** em 0% para que os ecos desapareçam.
 * **scale start / scale end** – aplica escala ao longo da trilha, da cópia mais recente (start) até a cópia mais antiga (end). Para trilhas que encolhem até desaparecer, defina **scale start** em 100% e **scale end** em 0%.

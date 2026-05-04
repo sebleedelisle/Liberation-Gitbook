@@ -17,23 +17,25 @@ Laserske diode mijenjaju ponašanje dok se zagrijavaju. Prije kalibracije uvijek
 
 #### Kako radi kalibracijski test
 
-Za kalibraciju upotrijebite test pattern (pogledajte [Testni uzorci](../output-view/test-patterns.md))
+Za kalibraciju upotrijebite test pattern (pogledajte [Testni uzorci](../output-view/test-patterns.md "mention"))
 
 * **5** – Crvena
 * **6** – Zelena
 * **7** – Plava
 * **8** – Bijela
 
-Svaki od njih prikazuje četiri pokretne linije:
+Svaki od njih prikazuje četiri pokretne linije. Na svjetlinu u laserskom sustavu ne utječe samo razina snage, nego i vrijeme koje zraka provede na jednom mjestu. Kad se skeneri kreću brže, zraka provodi manje vremena na svakoj točki i izgleda tamnije.
+
+Kako bi se to uzelo u obzir, testni uzorci zajedno skaliraju i svjetlinu i brzinu:
 
 * **Gornja linija** – 100% svjetline pri punoj brzini
 * **Druga linija** – 75% svjetline pri 75% brzine
 * **Treća linija** – 50% svjetline pri 50% brzine
 * **Četvrta linija** – 25% svjetline pri 25% brzine
 
-Budući da se zajedno skaliraju i svjetlina _i brzina_, sve bi linije trebale izgledati jednako svijetlo. Ako neka izgleda svjetlije ili tamnije, prilagodite odgovarajući klizač dok se ne izjednače.
+Budući da se zajedno skaliraju i svjetlina _i brzina_, sve bi linije trebale izgledati jednako svijetlo. Ako jedna linija izgleda svjetlije ili tamnije, prilagodite odgovarajući klizač dok se ne izjednače.
 
-Svaki test pattern ima i petu liniju na **0% svjetline**, koja ne bi trebala biti vidljiva. Ona se koristi za korekciju lasera koji ne emitiraju svjetlo na vrlo niskim razinama. Ako laser pri niskoj svjetlini ostaje nevidljiv, postupno povećavajte **postavku 0%** dok linija ne postane tek vidljiva, a zatim je malo smanjite dok ponovno ne nestane. Cilj je pronaći prag na kojem se laser počinje paliti, a zatim ostati neposredno ispod njega - kako bi vaši fadeovi počinjali prirodno, bez odsijecanja donjeg raspona.
+Svaki testni uzorak ima i petu liniju na **0% svjetline**, koja ne bi trebala biti vidljiva. Ona se koristi za korekciju lasera koji ne emitiraju svjetlo na vrlo niskim razinama. Ako laser pri niskoj svjetlini ostaje nevidljiv, postupno povećavajte **postavku 0%** dok linija ne postane tek vidljiva, a zatim je malo smanjite dok ponovno ne nestane. Cilj je pronaći prag na kojem se laser počinje paliti, a zatim ostati neposredno ispod njega - kako bi prijelazi svjetline počinjali prirodno, bez odsijecanja donjeg raspona.
 
 #### Upotreba panela Colour Calibration
 

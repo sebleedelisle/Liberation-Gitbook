@@ -14,7 +14,13 @@ _Scale X_ と _Scale Y_ を使って、Clip の出力サイズを変更します
 
 _Shift X_ と _Shift Y_ を使って、Clip の水平位置と垂直位置を変更します。
 
-_Zone Delay/Chase_ はとても便利で楽しい機能なので、専用のセクションで説明します。[Zone delay / chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ はとても便利で楽しい機能なので、専用のセクションで説明します。[Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Parameters panel
+
+Clip Deck の右側にあるパネルには、状況に応じた 8 つのパラメーターが表示されます。Clip を選択している場合、最初のコントロールは選択中の Clip の _Shift X_、_Shift Y_、_Zone Delay_ で、その後にグローバルの _Spin_ と _Scale_ コントロールが続きます。
+
+これらと同じパラメーターは、対応する MIDI コントローラーにも反映されます。Clip が選択されていない場合、Clip 固有のスロットは空欄になります。グループボタンを押し続けている間は、最初の 2 つのコントロールがそのグループのフェードイン時間とフェードアウト時間に切り替わります。
 
 ### Clip のロック
 
@@ -27,9 +33,9 @@ Clip がロックされている場合、移動や削除はできません。Cli
 
 ### 右クリックメニュー
 
-Clip を右クリックすると、その Clip に関する一部のオプションを含むメニューが表示されます。このメニューの最初のいくつかの項目については、[Clip Editor の概要](../clip-editor/clip-editor-intro.md "mention")、[Clip settings](clip-settings.md "mention")、[Clip グループ](groups.md "mention")を参照してください。
+Clip を右クリックすると、その Clip に関する一部のオプションを含むメニューが表示されます。このメニューの最初のいくつかの項目については、[Clip Editor の概要](../clip-editor/clip-editor-intro.md "mention")、[Clip Settings](clip-settings.md "mention")、[Clip グループ](groups.md "mention")を参照してください。
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Clip settings の右クリックメニュー</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 

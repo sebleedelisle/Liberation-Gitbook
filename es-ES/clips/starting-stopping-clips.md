@@ -8,7 +8,7 @@ metaLinks:
 # ✅ Iniciar / detener clips
 
 {% hint style="info" %}
-Puedes usar los botones en pantalla para iniciar y detener clips, pero es mucho mejor usar el controlador MIDI APC40. Liberation está optimizado para funcionar bien con este hardware y debería considerarse una parte importante de tu inversión en láseres.
+Puedes usar los botones en pantalla para iniciar y detener Clips, pero es mucho mejor usar el controlador MIDI APC40. Liberation está optimizado para funcionar bien con este hardware y debería considerarse una parte importante de tu inversión en láseres.
 {% endhint %}
 
 ### Iniciar y detener clips

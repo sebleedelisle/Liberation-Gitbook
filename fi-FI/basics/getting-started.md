@@ -14,17 +14,17 @@ Liberation on niin joustava, että voit määrittää lasereita ja visualisoida 
 Voit määrittää ja visualisoida Liberationissa niin monta laseria kuin haluat. Lisenssitasot (Hobbyist, Pro jne.) rajoittavat vain sitä, kuinka monta laseria voi olla _armed_-tilassa. Tämä tarkoittaa, että voit suunnitella lasershow’n 100 laserilla myös ilmaisella lisenssillä. Päivitystä tarvitaan vasta, kun show ajetaan oikeilla lasereilla.
 {% endhint %}
 
-Oletusasetuksessa on 8 laseria vaakasuorassa rivissä, mutta voit muokata tätä haluamallasi tavalla. Aluksi tämä oletus kannattaa todennäköisesti pitää käytössä, kun tutustut ohjelmistoon. Myöhemmin voit säätää sen vastaamaan omaa laitteistoasi. (Katso [Projektin määrittäminen](../setting-up/setting-up-your-project.md))&#x20;
+Oletusasetuksessa on 8 laseria vaakasuorassa rivissä, mutta voit muokata tätä haluamallasi tavalla. Aluksi tämä oletus kannattaa todennäköisesti pitää käytössä, kun tutustut ohjelmistoon. Myöhemmin voit säätää sen vastaamaan omaa laitteistoasi. (Katso [Projektin määrittäminen](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Tärkeää: ennen kuin asetat mitään lasereita armed-tilaan, varmista, että ymmärrät riskit, ja käy huolellisesti läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md).
+Tärkeää: ennen kuin asetat mitään lasereita armed-tilaan, varmista, että ymmärrät riskit, ja käy huolellisesti läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Ohjelmiston yleiskuva
 
 ### Turvakatkaisu
 
-Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / turvalukitukset](../hardware/emergency-stop-interlocks.md)). Jos haluat poistaa kaikkien lasereiden armed-tilan vähemmän kiireellisesti, käytä _**DISARM ALL**_ -painiketta, `Escape`-näppäintä tai APC40-laitteen _**SESSION**_-näppäintä. Voit myös pienentää Global Brightness -tasoa näytön liukusäätimellä tai APC40:n pääfaderilla.
+Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / turvalukitukset](../hardware/emergency-stop-interlocks.md "mention")). Jos haluat poistaa kaikkien lasereiden armed-tilan vähemmän kiireellisesti, käytä _**DISARM ALL**_ -painiketta, `Escape`-näppäintä tai APC40-laitteen _**SESSION**_-näppäintä. Voit myös pienentää Global Brightness -tasoa näytön liukusäätimellä tai APC40:n pääfaderilla.
 
 ### Liukusäätimet
 
@@ -36,7 +36,7 @@ Liberationissa on erilaisia liukusäätimiä ja ohjaimia.
 
 ### Pikanäppäimet
 
-Täysi pikanäppäinluettelo löytyy täältä: [Pikanäppäimet](../reference/keyboard-shortcuts.md)
+Täysi pikanäppäinluettelo löytyy täältä: [Pikanäppäimet](../reference/keyboard-shortcuts.md "mention")
 
 ### Näytön asettelu
 
@@ -68,7 +68,7 @@ Näytön vasemmassa yläkulmassa oleva suuri alue voi näyttää yhden kolmesta 
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view näyttää, miltä laserit näyttävät, ja sen voi määrittää vastaamaan omaa laseriasetustasi. Klikkaa ja vedä kiertääksesi kameraa. Käytä hiiren rullaa siirtyäksesi eteen- ja taaksepäin. Lisää asetuksia löytyy _3D Visualiser settings_ -paneelista (_View -> 3D Visualiser Settings_). Katso [3D Visualiser](../setting-up/3d-visualiser.md).
+3D view näyttää, miltä laserit näyttävät, ja sen voi määrittää vastaamaan omaa laseriasetustasi. Klikkaa ja vedä kiertääksesi kameraa. Käytä hiiren rullaa siirtyäksesi eteen- ja taaksepäin. Lisää asetuksia löytyy _3D Visualiser settings_ -paneelista (_View -> 3D Visualiser Settings_). Katso [3D Visualiser](../setting-up/3d-visualiser.md "mention").
 
 #### Output view
 
@@ -87,7 +87,7 @@ Zone on laserin Output-alueen sisällä oleva tila, johon voit ohjata lasersisä
 Voit valita muokattavan laserin jollakin näistä tavoista:
 
 * yläreunan palkin numeropainikkeilla
-* painamalla haluamasi laserin numeronäppäintä _(1-9_ keys\_)\_
+* painamalla haluamasi laserin numeronäppäintä (_1-9 keys_)
 * siirtymällä laserista toiseen `Tab`-näppäimellä
 
 Lisää uusi laser asetukseen painamalla _+_-painiketta. (_Laser Overview_ -paneelissa on myös _ADD LASER_ -painike.)
@@ -100,11 +100,11 @@ Valitse zone klikkaamalla sitä ja säädä sen kulmapisteitä hiirellä. Pidä 
 
 Vasemmalla on palkki, jossa on useita kuvakepainikkeita. Vie hiiri minkä tahansa painikkeen päälle, niin näet kuvauksen sen toiminnosta. Näillä painikkeilla voit lisätä beam zones, canvas zones ja masks. Lisäksi käytettävissä on asetuksia, joilla test pattern asetetaan vain tälle laserille, sekä ruudukko- ja tartunta-asetuksia.
 
-Lisätietoja: [Output-näkymä](../output-view/).
+Lisätietoja: [Output-näkymä](../output-view/ "mention").
 
 #### Canvas
 
-Canvas-järjestelmää käytetään pääasiassa grafiikkaan ja arkkitehtoniseen mappingiin. Voit jakaa monimutkaisia kuvia useille lasereille ja korjata jokaisen osan perspektiivin. Katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/).
+Canvas-järjestelmää käytetään pääasiassa grafiikkaan ja arkkitehtoniseen mappingiin. Voit jakaa monimutkaisia kuvia useille lasereille ja korjata jokaisen osan perspektiivin. Katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/ "mention").
 
 ### APC40 MIDI controller
 
@@ -112,9 +112,9 @@ Canvas-järjestelmää käytetään pääasiassa grafiikkaan ja arkkitehtoniseen
 
 Liberationia voi ohjata hiirellä ja näppäimistöllä, mutta APC40 MIDI control interface tekee käytöstä huomattavasti paremman. Mark 2 on paras vaihtoehto, mutta myös Mark 1 toimii.
 
-Katso myös: [APC40-viite](../reference/apc40-reference.md)
+Katso myös: [APC40-viite](../reference/apc40-reference.md "mention")
 
-Tuki APC Mini Mark 2- ja MIDI Fighter Twister -laitteille on nyt myös toteutettu, ja lisää on kehitteillä. APC40 Mark 2 on kuitenkin useimmissa tapauksissa paras vaihtoehto.&#x20;
+Liberation tukee myös APC Mini- ja MIDI Fighter Twister -laitteita. APC40 Mark 2 on edelleen useimmissa tapauksissa paras vaihtoehto.&#x20;
 
 ### Clips ja tehosteet
 
@@ -140,7 +140,7 @@ Voit vierittää Clip Deck -aluetta vasemmalle ja oikealle seuraavilla tavoilla:
 * APC40:n vieritysnuppi
 * APC40:n _<- DEVICE ->_ -painikkeet
 
-Yläreunassa oleva Clip Deck -alueen pienoisvisualisointi auttaa hahmottamaan sijaintisi. Katso myös [Clips ja Clip Deck](../clips/)
+Yläreunassa oleva Clip Deck -alueen pienoisvisualisointi auttaa hahmottamaan sijaintisi. Katso myös [Clips ja Clip Deck](../clips/ "mention")
 
 #### Clips käynnistäminen ja pysäyttäminen
 
@@ -162,7 +162,7 @@ Kaksi riviä zone-painikkeiden alapuolella näkyvät X/Y flip -painikkeet. Niill
 Huomaa, että nämä zone-määritykset ja X/Y flip -asetukset liittyvät itse Clip-sisältöön. Ne säilyvät seuraavaan kertaan, kun käynnistät kyseisen Clip-sisällön. Ne eivät ole globaaleja asetuksia.
 {% endhint %}
 
-Muokkaa Clip-sisällön lisäasetuksia klikkaamalla Clip-kohdetta hiiren oikealla painikkeella. Katso myös [Clip settings](../clips/clip-settings.md)
+Muokkaa Clip-sisällön lisäasetuksia klikkaamalla Clip-kohdetta hiiren oikealla painikkeella. Katso myös [Clip settings](../clips/clip-settings.md "mention")
 
 ### Ryhmät
 
@@ -184,7 +184,7 @@ Muuta zone-asetuksia kaikille ryhmän Clips-sisällöille
 
 APC40-laitteella paina ryhmäpainiketta ja käytä sitten zone- ja X/Y-painikkeita _sen ollessa edelleen painettuna_, jotta voit vaihtaa zone-asetuksia kaikille kyseisen ryhmän Clips-sisällöille.
 
-Katso myös [Ryhmät](../clips/groups.md)
+Katso myös [Ryhmät](../clips/groups.md "mention")
 
 ### Tehosteet
 
@@ -199,10 +199,10 @@ Kytke tehoste päälle tai pois painamalla tehostepainiketta. Vielä parempi tap
 Säädä kunkin tehosteen _parameter_-arvoa kiertosäätimillä 1–8\*. Voit säätää tasoa ja parametria myös klikkaamalla hiiren oikealla painikkeella. Parametrin muutos tekee eri asioita sen mukaan, miten tehoste on määritetty. Alla on luettelo oletustehosteista.
 
 {% hint style="info" %}
-Tehostepainikkeissa näkyvät pienet numerot viittaavat tehosteen _level_- ja _parameter_-arvoihin. _Level_-arvoa ohjataan APC40:n faderilla, tai voit klikata ja vetää painiketta. Parameter-arvoa säädetään APC40:n kiertosäätimillä, tai voit säätää sitä hiirellä klikkaamalla oikealla painikkeella.
+Tehostepainikkeissa näkyvät pienet numerot viittaavat tehosteen _level_- ja _parameter_-arvoihin. _Level_-arvoa ohjataan APC40:n faderilla, tai voit klikata painiketta ja vetää. Parameter-arvoa säädetään APC40:n kiertosäätimillä, tai voit säätää sitä hiirellä klikkaamalla oikealla painikkeella.
 {% endhint %}
 
-_\*Kiertosäätimet 1–8 ovat APC40 Mk2:n yläreunassa ja Mk1:n oikeassa yläkulmassa. Katso myös:_ [APC40-viite](../reference/apc40-reference.md)
+_\*Kiertosäätimet 1–8 ovat APC40 Mk2:n yläreunassa ja Mk1:n oikeassa yläkulmassa. Katso myös:_ [APC40-viite](../reference/apc40-reference.md "mention")
 
 #### Oletustehosteet
 
@@ -219,9 +219,9 @@ _\*Kiertosäätimet 1–8 ovat APC40 Mk2:n yläreunassa ja Mk1:n oikeassa yläku
 5. **Scale** :\
    Skaalaa kaiken toistuvasti täydestä koosta nollaan. Parameter säätää nopeutta.
 6. **Hue** :\
-   Muuttaa kaiken sävyä, mutta ei muuta kylläisyyttä (eli valkoinen pysyy valkoisena). Parameter säätää sävyä.
+Muuttaa kaiken sävyä, mutta ei muuta kylläisyyttä (eli valkoinen pysyy valkoisena). Parameter säätää sävyä.
 7. **Saturation and hue** :\
-   Muuttaa kaiken sävyä ja kyllästää värin täysin (eli valkoinen muuttuu väriksi). Parameter säätää sävyä.
+Muuttaa kaiken sävyä ja kyllästää värin täysin (eli valkoinen muuttuu väriksi). Parameter säätää sävyä.
 8. **Flash** :\
    Väläyttää kaiken kirkkauden toistuvasti täydestä nollaan. Parameter säätää välähdysnopeutta.
 
@@ -259,7 +259,7 @@ Lähes kaikissa lasershow’ssa on jonkinlainen musiikkiraita, joten Liberationi
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Käytettävissä on useita synkronointivaihtoehtoja, kuten MIDI clock ja Ableton Link. Jos tiedät musiikin tempon, voit säätää sitä käsin näytön liukusäätimellä tai APC40:n Tempo-nupilla. Voit myös pysyä musiikin tahdissa _Tap Tempo_ -järjestelmän avulla\_.\_
+Käytettävissä on useita synkronointivaihtoehtoja, kuten MIDI clock ja Ableton Link. Jos tiedät musiikin tempon, voit säätää sitä käsin näytön liukusäätimellä tai APC40:n Tempo-nupilla. Voit myös pysyä musiikin tahdissa _Tap Tempo_ -järjestelmän avulla.
 
 #### Tap Tempo
 
@@ -297,10 +297,10 @@ Avaa _Controller Assignment_ -paneeli klikkaamalla _Assign Laser Controllers_ -p
 
 Tässä voit valita, mitkä laserin Output-kanavat lähetetään millekin laser controller -laitteelle. Vedä ja pudota controller-laitteita oikeanpuoleisesta luettelosta vasemmanpuoleisiin paikkoihin. Voit nimetä controller-laitteet uudelleen sen mukaan, minkä laserin parina ne ovat. Käytä kynäkuvakkeen painiketta.
 
-Lue lisätietoja luvusta [Ohjaimen määritys](../setting-up/controller-assignment.md).
+Lue lisätietoja luvusta [Ohjaimen määritys](../setting-up/controller-assignment.md "mention").
 
 {% hint style="danger" %}
-Ennen kuin asetat mitään lasereita armed-tilaan, käy läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md).
+Ennen kuin asetat mitään lasereita armed-tilaan, käy läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser Output -paneeli
@@ -330,11 +330,11 @@ Jos olet tottunut vanhempaan lasero-ohjelmistoon, joka perustuu ennalta laskettu
 
 Scanner-perusasetukset ovat:
 
-* **Speed** on scanner-nopeus, eli se kuinka nopeasti laser liikkuu piirtäessään muotoja. Tämä vastaa perinteisessä lasero-ohjelmistossa point rate -arvon säätöä, mutta Liberationissa voit muuttaa laserin liikkumisnopeutta _point rate -arvosta riippumatta._ Tätä ei yleensä tarvitse säätää.
-* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Scanner liikuttaa laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon “häntinä” säteiden ja viivojen reunoilla. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laser Settings](../setting-up/laser-settings/)
+* **Speed** on scanner-nopeus, eli se kuinka nopeasti laser liikkuu piirtäessään muotoja. Tämä vastaa perinteisessä laserohjelmistossa point rate -arvon säätöä, mutta Liberationissa voit muuttaa laserin liikkumisnopeutta _point rate -arvosta riippumatta._ Tätä ei yleensä tarvitse säätää.
+* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Scanner liikuttaa laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon “häntinä” säteiden ja viivojen reunoilla. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laser Settings](../setting-up/laser-settings/ "mention")
 
-Muut edistyneet scanner-asetukset käsitellään luvussa [Lisäasetukset](../advanced/).
+Muut edistyneet scanner-asetukset käsitellään luvussa [Lisäasetukset](../advanced/ "mention").
 
 ### Zoning
 
-Täysi opas lasereiden määrittämiseen ja zoning-asetusten tekemiseen: [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md)
+Täysi opas lasereiden määrittämiseen ja zoning-asetusten tekemiseen: [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md "mention")

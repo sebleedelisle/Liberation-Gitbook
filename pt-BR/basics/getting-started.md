@@ -14,17 +14,17 @@ O Liberation é flexível o suficiente para você configurar lasers e visualizá
 Você pode configurar e visualizar quantos lasers quiser dentro do Liberation; os níveis de licença (Hobbyist, Pro etc.) limitam apenas o número de lasers que você pode colocar em _armed._ Isso significa que você pode criar shows de laser com 100 lasers mesmo com uma licença gratuita. Você só precisa fazer upgrade quando for realmente executar o show em lasers reais.
 {% endhint %}
 
-O padrão vem com 8 lasers distribuídos horizontalmente, mas você pode personalizar isso como quiser. Provavelmente é melhor manter esse padrão enquanto você está conhecendo o software e, depois, ajustar para corresponder à sua configuração de hardware. (Veja [Configuração do seu projeto](../setting-up/setting-up-your-project.md))&#x20;
+O padrão vem com 8 lasers distribuídos horizontalmente, mas você pode personalizar isso como quiser. Provavelmente é melhor manter esse padrão enquanto você está conhecendo o software e, depois, ajustar para corresponder à sua configuração de hardware. (Veja [Configuração do seu projeto](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Importante: antes de colocar qualquer laser em armed, entenda os riscos envolvidos e leia com atenção o capítulo [Configuração de lasers](../setting-up/setting-up-lasers.md).
+Importante: antes de colocar qualquer laser em armed, entenda os riscos envolvidos e leia com atenção o capítulo [Configuração de lasers](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Visão geral do software
 
 ### Desligamento de segurança
 
-Sempre que você estiver operando lasers, é obrigatório ter à mão um **botão físico de parada de emergência** (veja [Parada de emergência / intertravamentos](../hardware/emergency-stop-interlocks.md)). Mas, se você quiser colocar tudo em disarmed sem tanta urgência, use o botão _**DISARM ALL**_, a tecla `Escape` ou a tecla _**SESSION**_ no APC40. Você também pode reduzir o Global Brightness usando o controle deslizante na tela ou o fader principal no APC40.
+Sempre que você estiver operando lasers, é obrigatório ter à mão um **botão físico de parada de emergência** (veja [Parada de emergência / intertravamentos](../hardware/emergency-stop-interlocks.md "mention")). Mas, se você quiser colocar tudo em disarmed sem tanta urgência, use o botão _**DISARM ALL**_, a tecla `Escape` ou a tecla _**SESSION**_ no APC40. Você também pode reduzir o Global Brightness usando o controle deslizante na tela ou o fader principal no APC40.
 
 ### Controles deslizantes
 
@@ -36,7 +36,7 @@ Clique em um controle deslizante com `Cmd / Ctrl` pressionado para digitar um no
 
 ### Atalhos de teclado
 
-Uma lista completa de atalhos de teclado pode ser encontrada aqui: [Atalhos de teclado](../reference/keyboard-shortcuts.md)
+Uma lista completa de atalhos de teclado pode ser encontrada aqui: [Atalhos de teclado](../reference/keyboard-shortcuts.md "mention")
 
 ### Layout da tela
 
@@ -68,7 +68,7 @@ A grande área no canto superior esquerdo da tela pode mostrar uma das 3 views p
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-A 3D view mostra como seus lasers vão aparecer e pode ser configurada para corresponder à sua própria configuração de lasers. Clique e arraste para girar a câmera; use a roda do mouse para avançar e recuar. Você encontra várias outras opções no painel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Veja [Visualizador 3D](../setting-up/3d-visualiser.md).
+A 3D view mostra como seus lasers vão aparecer e pode ser configurada para corresponder à sua própria configuração de lasers. Clique e arraste para girar a câmera; use a roda do mouse para avançar e recuar. Você encontra várias outras opções no painel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Veja [Visualizador 3D](../setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -87,7 +87,7 @@ Uma zone é um espaço dentro do Output de um laser para o qual você pode direc
 Você pode selecionar o laser que quer editar de uma destas formas:
 
 * usando os botões numerados na barra superior
-* pressionando a tecla numérica do laser desejado _(teclas 1-9_ keys\_)\_
+* pressionando a tecla numérica do laser desejado (_teclas 1-9_)
 * usando a tecla `Tab` para percorrer de um laser para o próximo
 
 Adicione um novo laser à configuração pressionando o botão _+_. (Também existe um botão _ADD LASER_ no painel _Laser Overview_)
@@ -100,11 +100,11 @@ Clique em uma zone para selecioná-la e ajuste seus pontos de canto com o mouse.
 
 À esquerda, há uma barra com uma série de botões de ícone; passe o mouse sobre qualquer botão para ver uma descrição do que ele faz. Os botões aqui permitem adicionar beam zones, canvas zones e masks. Também há opções para definir um test pattern apenas para este laser, além de configurações de grade e encaixe.
 
-Para mais detalhes, veja [Visualização Output](../output-view/).
+Para mais detalhes, veja [Visualização Output](../output-view/ "mention").
 
 #### Canvas
 
-O sistema Canvas é usado principalmente para gráficos e mapeamento arquitetônico. Você pode distribuir imagens complexas por vários lasers e corrigir a perspectiva de cada seção. Veja [Gráficos e o sistema Canvas](../graphics-and-the-canvas-system/).
+O sistema Canvas é usado principalmente para gráficos e mapeamento arquitetônico. Você pode distribuir imagens complexas por vários lasers e corrigir a perspectiva de cada seção. Veja [Gráficos e o sistema Canvas](../graphics-and-the-canvas-system/ "mention").
 
 ### APC40 MIDI controller
 
@@ -112,9 +112,9 @@ O sistema Canvas é usado principalmente para gráficos e mapeamento arquitetôn
 
 Embora seja possível controlar o Liberation usando mouse e teclado, é muito melhor usar uma interface de controle MIDI APC40 (a Mark 2 é a melhor, mas a Mark 1 também funciona).
 
-Veja também: [Referência do APC40](../reference/apc40-reference.md)
+Veja também: [Referência do APC40](../reference/apc40-reference.md "mention")
 
-Agora também implementamos suporte para o APC Mini Mark 2 e o MIDI Fighter Twister, e mais controladores estão em desenvolvimento. Mas o APC40 Mark 2 é a melhor opção na maioria dos casos.&#x20;
+O Liberation também é compatível com APC Mini e MIDI Fighter Twister. O APC40 Mark 2 continua sendo a melhor opção na maioria dos casos.&#x20;
 
 ### Clips e efeitos
 
@@ -140,7 +140,7 @@ Você pode rolar o Clip Deck para a esquerda e para a direita usando:
 * Knob de rolagem do APC40
 * Botões _<- DEVICE ->_ do APC40
 
-Para ajudar você a se orientar, há um minivisualizador do Clip Deck na parte superior. Veja também [Clips e Clip Deck](../clips/)
+Para ajudar você a se orientar, há um minivisualizador do Clip Deck na parte superior. Veja também [Clips e Clip Deck](../clips/ "mention")
 
 #### Iniciando e parando Clips
 
@@ -162,7 +162,7 @@ Duas linhas abaixo dos botões de zone, você verá os botões de inversão X/Y;
 Observe que essas alocações de zone e configurações de inversão X/Y estão ligadas ao próprio Clip; elas serão mantidas na próxima vez que você executar esse Clip. Elas não são uma configuração global.
 {% endhint %}
 
-Clique com o botão direito em um Clip para editar mais configurações dele. Veja também [Configurações de Clip](../clips/clip-settings.md)
+Clique com o botão direito em um Clip para editar mais configurações dele. Veja também [Configurações de Clip](../clips/clip-settings.md "mention")
 
 ### Grupos
 
@@ -184,7 +184,7 @@ Altere as configurações de zone de todos os Clips dentro de um grupo
 
 Usando o APC40, pressione o botão do grupo e, _enquanto ele ainda estiver pressionado,_ use os botões de zone e X/Y para alternar as configurações de zone de todos os Clips desse grupo.
 
-Veja também [Grupos de Clip](../clips/groups.md)
+Veja também [Grupos de Clip](../clips/groups.md "mention")
 
 ### Efeitos
 
@@ -202,7 +202,7 @@ Use os rotary controllers 1-8\* para ajustar o _parâmetro_ de cada efeito. (Ou 
 Os números pequenos nos botões de efeito indicam o _level_ e o _parâmetro_ do efeito. O _level_ é controlado pelo fader no APC40, ou você pode clicar e arrastar no botão. O parâmetro é ajustado pelos rotaries no APC40, ou você pode clicar com o botão direito para ajustar com o mouse.
 {% endhint %}
 
-_\*Os rotary controllers 1-8 ficam na parte superior do APC40 Mk2 e no canto superior direito do Mk1. Veja também:_ [Referência do APC40](../reference/apc40-reference.md)
+_\*Os rotary controllers 1-8 ficam na parte superior do APC40 Mk2 e no canto superior direito do Mk1. Veja também:_ [Referência do APC40](../reference/apc40-reference.md "mention")
 
 #### Os efeitos padrão
 
@@ -219,9 +219,9 @@ _\*Os rotary controllers 1-8 ficam na parte superior do APC40 Mk2 e no canto sup
 5. **Scale** :\
    Redimensiona tudo repetidamente de 100% até zero. O parâmetro ajusta a velocidade.
 6. **Hue** :\
-   Altera o matiz de tudo, mas não altera a saturação (ou seja, tudo que é branco continua branco). O parâmetro ajusta o matiz.
+Altera o matiz de tudo, mas não altera a saturação (ou seja, tudo que é branco continua branco). O parâmetro ajusta o matiz.
 7. **Saturation and hue** :\
-   Altera o matiz de tudo e também satura totalmente a cor (ou seja, tudo que é branco muda para a cor). O parâmetro ajusta o matiz.
+Altera o matiz de tudo e também satura totalmente a cor (ou seja, tudo que é branco muda para a cor). O parâmetro ajusta o matiz.
 8. **Flash** :\
    Faz o brilho de tudo piscar repetidamente de 100% até zero. O parâmetro ajusta a velocidade do flash.
 
@@ -259,7 +259,7 @@ Quase todas as apresentações de laser têm algum tipo de trilha musical, entã
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Há várias opções de sincronização, incluindo MIDI clock e Ableton Link. Se você souber o tempo da música, pode ajustá-lo manualmente usando o controle deslizante na tela ou o knob Tempo do APC40, mas também pode acompanhar o ritmo da música usando o sistema _Tap Tempo_\_.\_
+Há várias opções de sincronização, incluindo MIDI clock e Ableton Link. Se você souber o tempo da música, pode ajustá-lo manualmente usando o controle deslizante na tela ou o knob Tempo do APC40, mas também pode acompanhar o ritmo da música usando o sistema _Tap Tempo_.
 
 #### Tap Tempo
 
@@ -297,10 +297,10 @@ Clique no botão _Assign Laser Controllers_ para abrir o painel _Controller Assi
 
 Aqui você pode escolher quais Outputs de laser vão para quais laser controllers. Arraste e solte controllers da lista à direita para os slots à esquerda. Você pode renomear seus controllers para corresponder ao laser com o qual estão pareados usando o botão de ícone de caneta.
 
-Leia o capítulo [Atribuição de controller](../setting-up/controller-assignment.md) para mais detalhes.
+Leia o capítulo [Atribuição de controller](../setting-up/controller-assignment.md "mention") para mais detalhes.
 
 {% hint style="danger" %}
-Antes de colocar qualquer laser em armed, leia o capítulo [Configuração de lasers](../setting-up/setting-up-lasers.md).
+Antes de colocar qualquer laser em armed, leia o capítulo [Configuração de lasers](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Painel Laser Settings
@@ -331,10 +331,10 @@ Se você está acostumado com softwares de laser mais antigos que dependem de fl
 As configurações básicas de scanner são:
 
 * **Speed** é a velocidade do scanner, ou seja, a rapidez com que o laser se move para desenhar formas. Isso equivale a ajustar a taxa de pontos em softwares de laser tradicionais, mas no Liberation você pode alterar a velocidade de movimento do laser _independentemente da taxa de pontos._ Você não deve precisar ajustar isso.
-* **Scanner sync** (às vezes conhecido como _blank shift, anteriormente Colour Shift_) Os scanners movem o laser muito rápido, mas geralmente a mudança de brilho e cor fica fora de sincronia com o movimento. Isso aparece como pequenas "caudas" de luz piscando nas bordas de beams e linhas. Use este ajuste para sincronizar o movimento e a cor. Veja [Configurações de laser](../setting-up/laser-settings/)
+* **Scanner sync** (às vezes conhecido como _blank shift, anteriormente Colour Shift_) Os scanners movem o laser muito rápido, mas geralmente a mudança de brilho e cor fica fora de sincronia com o movimento. Isso aparece como pequenas "caudas" de luz piscando nas bordas de beams e linhas. Use este ajuste para sincronizar o movimento e a cor. Veja [Configurações de laser](../setting-up/laser-settings/ "mention")
 
-As outras configurações avançadas de scanner são abordadas no capítulo [Avançado](../advanced/).
+As outras configurações avançadas de scanner são abordadas no capítulo [Avançado](../advanced/ "mention").
 
 ### Zoning
 
-Para um guia completo sobre configuração e zoning de lasers, veja: [Configuração de lasers](../setting-up/setting-up-lasers.md)
+Para um guia completo sobre configuração e zoning de lasers, veja: [Configuração de lasers](../setting-up/setting-up-lasers.md "mention")

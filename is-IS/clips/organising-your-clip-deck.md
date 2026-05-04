@@ -9,10 +9,10 @@ metaLinks:
 
 ### Færa eða afrita Clips
 
-Smelltu og dragðu til að færa Clip. Ef fleiri en eitt Clip er valið (sjá [Ræsa og stöðva Clips](starting-stopping-clips.md)) færast öll völdu atriðin. Haltu `Alt / Option` inni til að afrita þau. Slepptu Clip á autt svæði.
+Smelltu og dragðu til að færa Clip. Ef fleiri en eitt Clip er valið (sjá [Ræsa og stöðva Clips](starting-stopping-clips.md "mention")) færast öll völdu atriðin. Haltu `Alt / Option` inni til að afrita þau. Slepptu Clip á autt svæði.
 
 {% hint style="info" %}
-Ef þú þarft að velja mikinn fjölda Clips geturðu smellt og dregið valramma (lasso) og síðan skrunað í Clip Deck á meðan þú heldur áfram að draga (annaðhvort með örvatökkum, APC 40 eða láréttri skrunun á snertiplatta/mús). Valramminn framlengist út fyrir jaðar Clip Deck.
+Ef þú þarft að velja mikinn fjölda Clips geturðu smellt og dregið valramma (lasso) og síðan skrunað í Clip Deck á meðan þú heldur áfram að draga (annaðhvort með örvatökkum, APC40 eða láréttri skrunun á snertiplatta/mús). Valramminn framlengist út fyrir jaðar Clip Deck.
 {% endhint %}
 
 ### Eyða Clips

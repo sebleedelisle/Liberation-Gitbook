@@ -9,7 +9,7 @@ metaLinks:
 
 ### Liberation kurulumunu yetkilendirme
 
-Liberation uygulamasını ilk kez açtığınızda _demo modu_nda çalışır ve _About panel_ görünür:
+Liberation uygulamasını ilk kez açtığınızda _free mode_ içinde çalışır ve _About panel_ görünür:
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Aboneliğiniz için izin verilen en fazla bilgisayar sayısını zaten yetkilend
 Birden fazla aboneliğiniz varsa, bilgisayarı hangi aboneliğe atamak istediğiniz sorulur.
 {% endhint %}
 
-Tebrikler! Liberation kurulumunuz artık yetkilendirildi ve lazerlere çıkış verebilirsiniz! Ancak lazerleriniz için arm durumuna geçmeden önce lütfen [Başlarken](../getting-started.md) ve [Lazerleri ayarlama](../setting-up/setting-up-lasers.md) bölümlerini okuyun.
+Tebrikler! Liberation kurulumunuz artık yetkilendirildi ve lazerlere çıkış verebilirsiniz! Ancak lazerleriniz için arm durumuna geçmeden önce lütfen [Başlarken](../getting-started.md "mention") ve [Lazerleri ayarlama](../setting-up/setting-up-lasers.md "mention") bölümlerini okuyun.
 
 {% hint style="info" %}
 _About panel_ öğesini istediğiniz zaman _Liberation -> About Liberation_ veya _Liberation -> Authorise/Deauthorise this computer_ menüsünden açabilirsiniz.

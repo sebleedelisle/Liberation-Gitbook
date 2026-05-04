@@ -82,7 +82,7 @@ Om du bara vill importera effekterna från ett projekt väljer du _**Effects->Im
 
 ### Timeline-export
 
-Exportera en timeline-fil med en eller flera timelines. Observera att Clip Deck alltid inkluderas i exporterade timeline-filer (även om du kan välja vilka clips du vill importera tillbaka, se [#timeline-import](loading-and-saving.md#timeline-import "mention") nedan).
+Exportera en timeline-fil med en eller flera timelines. Observera att Clip Deck alltid inkluderas i exporterade timeline-filer (även om du kan välja vilka Clips du vill importera tillbaka, se [#timeline-import](loading-and-saving.md#timeline-import "mention") nedan).
 
 Om du har fler än en timeline i projektfilen öppnas en panel där du kan välja vilka timelines du vill exportera.
 

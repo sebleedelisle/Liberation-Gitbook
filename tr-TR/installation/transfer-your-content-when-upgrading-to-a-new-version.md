@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Yeni bir sürüme yükseltirken içeriğinizi aktarın
 
-Liberation, içeriği çalışma klasöründe saklar (bkz. [Çalışma klasörünü nerede bulabilirsiniz](../troubleshooting/where-to-find-the-working-folder.md)) ve bu klasör her yeni sürümde değişir. Eski sürümdeki çalışma dosyalarınızı yeni sürüme taşımak istiyorsanız:&#x20;
+Liberation, içeriği çalışma klasöründe saklar (bkz. [Çalışma klasörünü nerede bulabilirsiniz](../troubleshooting/where-to-find-the-working-folder.md "mention")) ve bu klasör her yeni sürümde değişir. Eski sürümdeki çalışma dosyalarınızı yeni sürüme taşımak istiyorsanız:&#x20;
 
 1. Liberation uygulamasının orijinal sürümünü açın
 2. _File->Project->Export Project_ seçeneğini kullanın. Bu işlem Liberation içindeki her şeyi kaydeder: lazer kurulumu, zaman çizelgeleri, Clip Deck, her şey!&#x20;

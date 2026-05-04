@@ -17,7 +17,7 @@ Máskor több canvas célterületre lehet szükséged egy épület különböző
 
 ### Klipek küldése canvas célterületekre
 
-Ha megnézed a Clip Decket, a beam zone gombok mellett látni fogod a canvas célterület gombjait. Előfordulhat, hogy görgetned kell az output gombokat, hogy látszódjanak: használd a `Shift + Left / Right Arrow` billentyűkombinációt, a képernyőn lévő ZONE PAGE gombokat, vagy az APC40 gombjait (lásd: [APC40 referencia](../reference/apc40-reference.md)).
+Ha megnézed a Clip Decket, a beam zone gombok mellett látni fogod a canvas célterület gombjait. Előfordulhat, hogy görgetned kell az output gombokat, hogy látszódjanak: használd a `Shift + Left / Right Arrow` billentyűkombinációt, a képernyőn lévő ZONE PAGE gombokat, vagy az APC40 gombjait (lásd: [APC40 referencia](../reference/apc40-reference.md "mention")).
 
 A klipeket pontosan ugyanúgy rendelheted canvas célterületekhez ezeknek a gomboknak a be- és kikapcsolásával, mint a beam zone gombok esetében.
 

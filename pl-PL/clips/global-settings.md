@@ -16,7 +16,7 @@ Pamiętaj, że Global Transformations nie wpływają na nic w Canvas, a jedynie 
 
 ### Scale X/Y
 
-Skala pozioma i pionowa. Te wartości są ze sobą powiązane, chyba że naciśniesz `Shift`. Domyślnie są też przypisane do pokręteł APC40 Device Control 4 i 8 oraz widoczne w panelu po prawej stronie Clip Deck.
+Skala pozioma i pionowa. Te wartości są ze sobą powiązane, chyba że naciśniesz `Shift`. Domyślnie są też przypisane do pokręteł APC40 Device Control 4 i 8 oraz widoczne w kontekstowym panelu Parameters po prawej stronie Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Przesunięcie poziome i pionowe. Przesuwa całą zawartość w poziomie / pionie
 
 ### Spin
 
-Obraca całą zawartość wokół środka. Wartość dodatnia obraca zgodnie z ruchem wskazówek zegara, a wartość ujemna przeciwnie do ruchu wskazówek zegara. Zobaczysz, że to ustawienie wpływa na transformację _Rotation_. Domyślnie jest przypisane do pokrętła APC40 Device Control 3 i widoczne w panelu po prawej stronie Clip Deck.
+Obraca całą zawartość wokół środka. Wartość dodatnia obraca zgodnie z ruchem wskazówek zegara, a wartość ujemna przeciwnie do ruchu wskazówek zegara. Zobaczysz, że to ustawienie wpływa na transformację _Rotation_. Domyślnie jest przypisane do pokrętła APC40 Device Control 3 i widoczne w kontekstowym panelu Parameters po prawej stronie Clip Deck.
 
 ### Spin 3D
 
-Obraca całą zawartość wokół osi Y (czyli pionowej linii pośrodku). Zobaczysz, że to ustawienie wpływa na transformację _Rotation3D_. Domyślnie jest przypisane do pokrętła APC40 Device Control 7 i widoczne w panelu po prawej stronie Clip Deck.
+Obraca całą zawartość wokół osi Y (czyli pionowej linii pośrodku). Zobaczysz, że to ustawienie wpływa na transformację _Rotation3D_. Domyślnie jest przypisane do pokrętła APC40 Device Control 7 i widoczne w kontekstowym panelu Parameters po prawej stronie Clip Deck.
 
 ### Rotation
 

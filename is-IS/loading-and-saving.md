@@ -14,7 +14,7 @@ Liberation vistar stöðuna sína stöðugt á disk. Þannig geturðu treyst þv
 
 Verkefnisskráin geymir nánast allt í núverandi uppsetningu, þar á meðal:
 
-* Allt sem er lýst í [Innflutningur / útflutningur á Laser Settings](loading-and-saving.md#laser-settings-import-export) hér að neðan
+* Allt sem er lýst í [Innflutningur / útflutningur á Laser Settings](loading-and-saving.md#laser-settings-import-export "mention") hér að neðan
 * Clips, áhrif og hópstillingar
 * Allar tímalínurnar þínar (ekki hljóð- og myndmiðlun)
 * Uppsetning fyrir Art-Net
@@ -30,7 +30,7 @@ Hún vistar og hleður sem stendur ekki:
 * Leturgerðir sem Text node notar
 
 {% hint style="danger" %}
-Hljóð- og myndskrár á tímalínunni eru ekki vistaðar með verkefnisskrám, svo vistaðu þær sérstaklega ef þú vilt færa þær yfir á aðra tölvu. Sjá [Mikilvæg athugasemd um miðlunarskrár í tímalínum](loading-and-saving.md#important-note-about-timeline-media-files)
+Hljóð- og myndskrár á tímalínunni eru ekki vistaðar með verkefnisskrám, svo vistaðu þær sérstaklega ef þú vilt færa þær yfir á aðra tölvu. Sjá [Mikilvæg athugasemd um miðlunarskrár í tímalínum](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Innflutningur / útflutningur á Laser Settings
@@ -67,7 +67,7 @@ Til að flytja aðeins inn Clips úr verkefni skaltu velja _**Clips->Import Clip
 Öll Clips sem eru valin verða flutt út í skrá. Hópstillingar og áhrif verða ekki vistuð, aðeins Clips. Athugaðu að virk Clips sem eru í gangi eru ekki flutt út nema þau séu líka valin.
 
 {% hint style="info" %}
-Haltu inni Option/Alt - shift og smelltu á Clips til að velja þau (eða notaðu lasso). Þú sérð hvaða Clips eru valin á þykkri hvítri útlínu í kringum þau. Sjá [Ræsa og stöðva Clips](clips/starting-stopping-clips.md)
+Haltu inni Option/Alt - shift og smelltu á Clips til að velja þau (eða notaðu lasso). Þú sérð hvaða Clips eru valin á þykkri hvítri útlínu í kringum þau. Sjá [Ræsa og stöðva Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Innflutningur / útflutningur á áhrifum
@@ -82,12 +82,12 @@ Til að flytja aðeins inn áhrif úr verkefni skaltu velja _**Effects->Import E
 
 ### Útflutningur tímalínu
 
-Flyttu út tímalínuskrá með einni eða fleiri tímalínum. Athugaðu að Clip Deck fylgir alltaf með útfluttum tímalínuskrám (þó þú getir valið hvaða Clips þú flytur aftur inn, sjá [Innflutningur tímalína](loading-and-saving.md#timeline-import) hér að neðan).
+Flyttu út tímalínuskrá með einni eða fleiri tímalínum. Athugaðu að Clip Deck fylgir alltaf með útfluttum tímalínuskrám (þó þú getir valið hvaða Clips þú flytur aftur inn, sjá [Innflutningur tímalína](loading-and-saving.md#timeline-import "mention") hér að neðan).
 
 Ef verkefnisskráin þín inniheldur fleiri en eina tímalínu opnast panel þar sem þú getur valið hvaða tímalínur þú vilt flytja út.
 
 {% hint style="danger" %}
-Hljóð- og myndskrár á tímalínunni eru ekki vistaðar með tímalínuskrám, svo vistaðu þær sérstaklega ef þú vilt færa efnið þitt yfir á aðra tölvu. Sjá [Mikilvæg athugasemd um miðlunarskrár í tímalínum](loading-and-saving.md#important-note-about-timeline-media-files)
+Hljóð- og myndskrár á tímalínunni eru ekki vistaðar með tímalínuskrám, svo vistaðu þær sérstaklega ef þú vilt færa efnið þitt yfir á aðra tölvu. Sjá [Mikilvæg athugasemd um miðlunarskrár í tímalínum](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Innflutningur tímalína

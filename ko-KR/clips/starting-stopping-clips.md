@@ -24,7 +24,7 @@ Clip을 중지하려면 같은 버튼을 다시 누르세요.
 * 새 Clip을 시작하는 동안 `Shift` 키(또는 APC40 Shift 버튼)를 누릅니다. 또는
 * 새 Clip을 시작하는 동안 현재 실행 중인 Clip을 다시 누릅니다.
 
-Clip group들은 서로 독립적이므로, 한 group에서 Clip을 시작해도 다른 group의 Clip에는 영향을 주지 않습니다. [Clip 그룹](groups.md)를 참고하세요.
+Clip group들은 서로 독립적이므로, 한 group에서 Clip을 시작해도 다른 group의 Clip에는 영향을 주지 않습니다. [Clip 그룹](groups.md "mention")를 참고하세요.
 
 ### Flash mode
 

@@ -9,7 +9,7 @@ metaLinks:
 
 ### 互換性
 
-Windows 10 または 11 の 64 bit マシンに対応しています。大規模なショーを実行する場合は、高スペックなマシンを推奨します。コンピューターが高速であるほど、アニメーションのレーザー出力はより滑らかになります。
+Windows 10 または 11 の 64-bit マシンに対応しています。大規模なショーを実行する場合は、高スペックなマシンを推奨します。コンピューターが高速であるほど、アニメーションのレーザー出力はより滑らかになります。
 
 ### インストール手順
 
@@ -57,7 +57,7 @@ Liberation のインストールが完了するまで少し待ちます。
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation がファイルとネットワークにアクセスするには権限が必要なため、Windows がいくつかの確認ダイアログを表示することがあります。Liberation が正しく動作しない可能性があるため、すべて許可してください。
+Liberation がファイルとネットワークにアクセスするには権限が必要なため、Windows がいくつかの権限確認プロンプトを表示することがあります。Liberation が正しく動作しない可能性があるため、すべて許可してください。
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

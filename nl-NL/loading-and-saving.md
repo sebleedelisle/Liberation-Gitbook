@@ -82,7 +82,7 @@ Als je alleen de effecten uit een project wilt importeren, selecteer je _**Effec
 
 ### Tijdlijn exporteren
 
-Exporteer een tijdlijnbestand met één of meer tijdlijnen. Let op: de Clip Deck wordt altijd opgenomen in geëxporteerde tijdlijnbestanden (hoewel je kunt kiezen welke clips je later weer importeert, zie [Laden en opslaan](loading-and-saving.md#timeline-import "mention") hieronder).
+Exporteer een tijdlijnbestand met één of meer tijdlijnen. Let op: de Clip Deck wordt altijd opgenomen in geëxporteerde tijdlijnbestanden (hoewel je kunt kiezen welke Clips je later weer importeert, zie [tijdlijn importeren](loading-and-saving.md#timeline-import "mention") hieronder).
 
 Als je projectbestand meer dan één tijdlijn bevat, wordt er een paneel geopend waarin je kunt selecteren welke tijdlijnen je wilt exporteren.
 

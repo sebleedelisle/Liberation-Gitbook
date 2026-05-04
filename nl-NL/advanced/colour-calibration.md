@@ -24,16 +24,18 @@ Gebruik de testpatronen voor kalibratie (zie [Testpatronen](../output-view/test-
 * **7** – Blue
 * **8** – White
 
-Elk van deze patronen toont vier bewegende lijnen:
+Elk van deze patronen toont vier bewegende lijnen. De helderheid in een lasersysteem wordt niet alleen beïnvloed door het vermogensniveau, maar ook door hoe lang de straal op één plek blijft. Wanneer de scanners sneller bewegen, blijft de straal minder lang op elk punt en lijkt deze minder helder.
+
+Om hiermee rekening te houden, schalen de testpatronen helderheid en snelheid tegelijk:
 
 * **Bovenste lijn** – 100% helderheid op volledige snelheid
 * **Tweede lijn** – 75% helderheid op 75% snelheid
 * **Derde lijn** – 50% helderheid op 50% snelheid
 * **Vierde lijn** – 25% helderheid op 25% snelheid
 
-Omdat zowel de helderheid _als de snelheid_ samen worden geschaald, zouden alle lijnen even helder moeten lijken. Als een lijn lichter of donkerder lijkt, pas je de bijbehorende slider aan totdat ze overeenkomen.
+Omdat zowel de helderheid _als de snelheid_ samen worden geschaald, zouden alle lijnen even helder moeten lijken. Als een lijn helderder of minder helder lijkt, pas je de bijbehorende slider aan totdat ze overeenkomen.
 
-Elk testpatroon heeft ook een vijfde lijn op **0% helderheid** die niet zichtbaar zou moeten zijn. Deze wordt gebruikt om lasers te corrigeren die op zeer lage niveaus nog geen licht geven. Als je laser bij lage helderheid onzichtbaar blijft, verhoog dan geleidelijk de **0% setting** totdat de lijn net zichtbaar is. Zet hem daarna iets terug totdat de lijn weer verdwijnt. Het doel is om de drempel te vinden waarop de laser begint op te lichten, en daar net onder te blijven - zodat je fades natuurlijk beginnen zonder het onderste bereik af te kappen.
+Elk testpatroon heeft ook een vijfde lijn op **0% helderheid**, die niet zichtbaar zou moeten zijn. Deze wordt gebruikt om lasers te corrigeren die op zeer lage niveaus geen licht geven. Als je laser bij lage helderheid onzichtbaar blijft, verhoog dan geleidelijk de **0% setting** totdat de lijn net zichtbaar is. Zet hem daarna iets terug totdat de lijn weer verdwijnt. Het doel is om de drempel te vinden waarop de laser begint op te lichten, en daar net onder te blijven - zodat je fades natuurlijk beginnen zonder het onderste bereik af te kappen.
 
 #### Het paneel Colour Calibration gebruiken
 

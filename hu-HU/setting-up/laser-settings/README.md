@@ -18,7 +18,7 @@ A panel tetején a következőket látod:
 
 ### Kimeneti tájolás / tükrözés korrekciója
 
-A következő elemekkel a lézer beállítását korrigálhatod, hogy az következetesen működjön a Liberationben.
+A következő elemekkel a lézer beállítását korrigálhatod, hogy következetesen működjön a Liberationben.
 
 * **Flip horizontal / vertical** – ezekkel az opciókkal korrigálhatod a lézer kimenetét
 
@@ -35,7 +35,7 @@ Fontos, hogy az orientation / mirroring korrekciók semmit nem változtatnak a 3
 
 ### Lézerbeállítások másolása
 
-Lásd: [Laser output settings panel](./#copy-laser-settings).
+Lásd: [Laser output settings panel](./#copy-laser-settings "mention").
 
 ### Scanner beállítások
 
@@ -50,7 +50,7 @@ Bár az alapértelmezett beállítások meglehetősen óvatosak, a scannerek akk
 {% endhint %}
 
 {% hint style="info" %}
-Ez a sebességbeállítás nem a pontsebességet módosítja, hanem azt, hogy a pontok mennyire legyenek szétterítve. További információ: [◼️ Hogyan generál a Liberation lézeres tartalmat](../../advanced/how-liberation-generates-laser-content.md)
+Ez a sebességbeállítás nem a pontsebességet módosítja, hanem azt, hogy a pontok mennyire legyenek szétterítve. További információ: [◼️ Hogyan generál a Liberation lézeres tartalmat](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Ha kis „csóvákat” látsz a lézerkimeneten, valószínűleg a scanner sync
 
 #### Scanner presetek
 
-Ezzel előre elkészített scanner beállítást választhatsz. Az alapértelmezett opció általában megfelelő, ezért ezt a beállítást nem kell módosítanod, kivéve ha különösen gyenge (vagy jó) scannereid vannak. Ha mélyebben is érdekel, lásd: [◼️ Scanner presets és renderprofilok](../../advanced/scanner-presets.md)
+Ezzel előre elkészített scanner beállítást választhatsz. Az alapértelmezett opció általában megfelelő, ezért ezt a beállítást nem kell módosítanod, kivéve ha különösen gyenge (vagy jó) scannereid vannak. Ha mélyebben is érdekel, lásd: [◼️ Scanner presets és renderprofilok](../../advanced/scanner-presets.md "mention")
 
 #### Színkalibráció
 
-Ezzel a rendszerrel korrigálhatod a lézer fényerőgörbéjét és fehéregyensúlyát. Lásd: [Színkalibrálás](../../advanced/colour-calibration.md)
+Ezzel a rendszerrel korrigálhatod a lézer fényerőgörbéjét és fehéregyensúlyát. Lásd: [Színkalibrálás](../../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Ezekhez általában nem kell hozzányúlnod, de ha kíváncsi vagy, lásd: [◼️ Speciális lézerbeállítások](../../advanced/advanced-laser-settings.md)
+Ezekhez általában nem kell hozzányúlnod, de ha kíváncsi vagy, lásd: [◼️ Speciális lézerbeállítások](../../advanced/advanced-laser-settings.md "mention")

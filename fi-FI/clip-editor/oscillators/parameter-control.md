@@ -16,5 +16,5 @@ _Parameter Control_ on menetelmä, jolla voit ohjata efektin tai klipin eri aset
 * **parameter number** - jokaiselle _parameter control_ -ohjaukselle voidaan määrittää numero, ja tämä näkyy klipin ulkopuolisissa ohjaimissa. Samalla numerolla voi olla useita parameter control -ohjauksia, ja niitä kaikkia säädetään samanaikaisesti.
 
 {% hint style="warning" %}
-Tällä hetkellä vain efektin parametri 1 on ohjattavissa APC40:llä. Kaikki efektien ja klippien parametrit ovat käytettävissä oikean napsautuksen valikossa. Tulevaisuudessa useampia näistä parametreista voidaan määrittää MIDI-ohjaimille.
+APC40 ja tuetut live-ohjaimet ohjaavat oletusarvoisesti kunkin efektipaikan parametria 1. Kaikki efektien ja Clips-kohteiden parametrit ovat käytettävissä myös oikean napsautuksen valikossa.
 {% endhint %}

@@ -23,7 +23,7 @@ Clique em _Download latest for Windows_ (os números de versão podem mudar) e v
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Isso abrirá sua pasta de downloads. Encontre o arquivo baixado (normalmente no topo), clique com o botão direito e selecione "Extract all".
+Isso abrirá sua pasta Downloads. Encontre o arquivo baixado (normalmente no topo), clique com o botão direito e selecione "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Depois que o Windows terminar de descompactar, ele mostrará o arquivo de instal
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-O Liberation precisa de permissão para acessar arquivos e a rede, então o Windows provavelmente exibirá várias solicitações. Aceite tudo, caso contrário o Liberation pode não funcionar corretamente.
+O Liberation precisa de permissão para acessar arquivos e a rede, então o Windows provavelmente exibirá algumas solicitações de permissão. Aceite tudo, caso contrário o Liberation pode não funcionar corretamente.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

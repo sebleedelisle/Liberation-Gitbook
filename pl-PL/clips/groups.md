@@ -33,7 +33,7 @@ Aby aktywować przycisk _group_:
 * Naciśnij i przytrzymaj przycisk _group_ na APC40
 * Kliknij myszą ekranowy przycisk _group_. Kliknij ponownie, aby go wyłączyć.
 
-Możesz łatwo przypisywać klipy do grupy, naciskając je, gdy przycisk _group_ jest aktywny. (Innym sposobem przypisania grupy jest użycie menu prawego przycisku myszy klipu).
+Możesz łatwo przypisywać Clips do grupy, naciskając je, gdy przycisk _group_ jest aktywny. (Innym sposobem przypisania grupy jest użycie menu prawego przycisku myszy dla danego Clip).
 
 ### Zmiana ustawień stref dla wszystkich klipów w grupie
 

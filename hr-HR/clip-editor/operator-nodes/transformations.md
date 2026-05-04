@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Pomiče sav sadržaj duž osi x, y i/ili z. Imajte na umu da je koordinatni sustav centriran i proteže se od +/-200 po osima x i y. Pogledajte [Koordinatni sustav](../fundamentals/co-ordinate-system.md).
+Pomiče sav sadržaj duž osi x, y i/ili z. Imajte na umu da je koordinatni sustav centriran i proteže se od +/-200 po osima x i y. Pogledajte [Koordinatni sustav](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - udaljenost pomaka duž osi x (lijevo - desno).
 * **y** - udaljenost pomaka duž osi y (gore - dolje).
@@ -20,7 +20,7 @@ Pomiče sav sadržaj duž osi x, y i/ili z. Imajte na umu da je koordinatni sust
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Rotira sav sadržaj. Vrijednosti su u stupnjevima. Pogledajte [Koordinatni sustav](../fundamentals/co-ordinate-system.md).
+Rotira sav sadržaj. Vrijednosti su u stupnjevima. Pogledajte [Koordinatni sustav](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - iznos za koji se sadržaj rotira u smjeru kazaljke na satu, u stupnjevima. Sve se rotira oko ishodišta (0,0), odnosno središta.
 * **pivot point x / pivot point y** - upotrijebite ove vrijednosti za pomak ishodišta rotacije.

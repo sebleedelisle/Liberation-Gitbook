@@ -17,7 +17,7 @@ Phần lớn thời gian, bạn có thể chỉ cần một vùng đích Canvas,
 
 ### Gửi Clips đến vùng đích Canvas
 
-Nếu nhìn trong Clip Deck, bên cạnh các nút beam zone, bạn sẽ thấy các nút vùng đích Canvas. Bạn có thể cần cuộn các nút Output để thấy chúng; dùng `Shift + Left / Right Arrow`, hoặc các nút ZONE PAGE trên màn hình, hoặc các nút APC40 (xem [Tham khảo APC40](../reference/apc40-reference.md)).
+Nếu nhìn trong Clip Deck, bên cạnh các nút beam zone, bạn sẽ thấy các nút vùng đích Canvas. Bạn có thể cần cuộn các nút Output để thấy chúng; dùng `Shift + Left / Right Arrow`, hoặc các nút ZONE PAGE trên màn hình, hoặc các nút APC40 (xem [Tham khảo APC40](../reference/apc40-reference.md "mention")).
 
 Gán Clips cho vùng đích Canvas bằng cách bật/tắt các nút này, giống hệt như khi bạn dùng các nút beam zone.
 

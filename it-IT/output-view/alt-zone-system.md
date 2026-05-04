@@ -15,7 +15,7 @@ Il sistema Alt zone ti permette di creare una zona alternativa per qualsiasi zon
 
 ### Aggiungere una zona alternativa
 
-Nella output view, fai clic destro su una zona e clicca su _ADD ALT ZONE_. Vedrai comparire una nuova zona di colore verde. Puoi modificarla e regolarla esattamente come qualsiasi altra zona. Per vedere i pattern di test, devi abilitare le Alt zones nella barra delle icone in alto.
+Nella Output view, fai clic destro su una zone e clicca su _ADD ALT ZONE_. Vedrai comparire una nuova zone di colore verde. Puoi modificarla e regolarla esattamente come qualsiasi altra zone. Per vedere i test pattern, devi abilitare le Alt zones nella barra delle icone in alto.
 
 ### Passare alle tue Alt zones
 
@@ -23,4 +23,4 @@ Non appena aggiungi una qualsiasi alt zone, nella barra delle icone in alto comp
 
 ### Come disattivare una zona invece di spostarla
 
-Aggiungi una Alt zone, fai clic destro su di essa e clicca sul pulsante _Disable output_ (cerchio attraversato da una linea). Ora, quando abiliti le Alt zones, il contenuto verrà reindirizzato a questa alt zone ora disattivata.
+Aggiungi una Alt zone, fai clic destro su di essa e clicca sul pulsante _Disable output_ (cerchio attraversato da una linea). Ora, quando abiliti le Alt zones, il contenuto verrà reindirizzato a questa Alt zone ora disattivata.

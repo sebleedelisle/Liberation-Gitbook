@@ -32,7 +32,7 @@ U Clip Editor vidjet ćete:
 Dok uređujete, u pozadini ćete vidjeti i kako Clip izgleda u 3D vizualizatoru.
 
 {% hint style="info" %}
-Ako u 3D vizualizatoru ne vidite nikakav izlaz, možda trebate upotrijebiti gumbe za zone kako biste uključili željene zones. Također provjerite je li omogućena opcija _Preview to lasers_; više o tome pogledajte u odjeljku [Panel Clip Editor](clip-editor-intro.md#clip-editor-panel) u nastavku.
+Ako u 3D vizualizatoru ne vidite nikakav izlaz, možda trebate upotrijebiti gumbe za zone kako biste uključili željene zones. Također provjerite je li omogućena opcija _Preview to lasers_; više o tome pogledajte u odjeljku [Panel Clip Editor](clip-editor-intro.md#clip-editor-panel "mention") u nastavku.
 {% endhint %}
 
 ### Izrada Clip
@@ -75,7 +75,7 @@ Ako ste ikada koristili analogni sintesajzer, bit će vam poznat koncept oscilat
 **Zanimljivost:** naziv _Liberation_ nadahnut je Moog Liberationom, sintesajzerom tipa „keytar” predstavljenim 1980., koji su proslavili Herbie Hancock, Jean-Michel Jarre pa čak i James Brown!
 {% endhint %}
 
-Oscillators uvijek imaju postavke _range_ koje određuju minimalnu i maksimalnu vrijednost svojstva koje se podešava. A _Wave Oscillators_ uvijek imaju postavku _duration_ koja određuje koliko brzo Oscillator mijenja vrijednost. Više informacija potražite u odjeljku [Valni oscilatori](oscillators/wave-oscillators.md).
+Oscillators uvijek imaju postavke _range_ koje određuju minimalnu i maksimalnu vrijednost svojstva koje se podešava. A _Wave Oscillators_ uvijek imaju postavku _duration_ koja određuje koliko brzo Oscillator mijenja vrijednost. Više informacija potražite u odjeljku [Valni oscilatori](oscillators/wave-oscillators.md "mention").
 
 ### Panel Clip Editor
 

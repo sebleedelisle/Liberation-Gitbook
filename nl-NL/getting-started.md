@@ -74,7 +74,7 @@ Het grote gebied linksboven in het scherm kan een van 3 hoofdweergaven zijn: **3
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-De 3D-weergave laat zien hoe je lasers eruitzien en kan worden ingesteld zodat deze overeenkomt met je eigen laseropstelling. Klik en sleep om de camera te draaien, en gebruik het muiswiel om naar voren en naar achteren te bewegen. Veel andere opties vind je in het panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Zie [3D Visualiser](setting-up/3d-visualiser.md "mention").
+De 3D view laat zien hoe je lasers eruitzien en kan worden ingesteld zodat deze overeenkomt met je eigen laseropstelling. Klik en sleep om de camera te draaien, en gebruik het muiswiel om naar voren en naar achteren te bewegen. Veel andere opties vind je in het panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Zie [3D Visualiser](setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -93,7 +93,7 @@ Een zone is een ruimte binnen de output van een laser waar je lasercontent naart
 Je kunt de laser selecteren die je wilt bewerken met:
 
 * de genummerde knoppen in de balk bovenaan
-* de cijfertoets voor de laser die je wilt _(1-9-toetsen)_
+* de cijfertoets indrukken voor de laser die je wilt (_1-9-toetsen_)
 * de `Tab`-toets om van de ene naar de volgende te bladeren
 
 Voeg een nieuwe laser aan de opstelling toe door op de knop _+_ te drukken. (Er is ook een knop _ADD LASER_ in het panel _Laser Overview_)
@@ -120,7 +120,7 @@ Hoewel het mogelijk is om Liberation met muis en toetsenbord te bedienen, is het
 
 Zie ook: [APC40-referentie](reference/apc40-reference.md "mention")
 
-We hebben nu ook ondersteuning toegevoegd voor APC Mini Mark 2 en de MIDI Fighter Twister, en er zijn meer controllers in ontwikkeling. Maar de APC40 Mark 2 is voor de meeste situaties de beste optie.
+Liberation ondersteunt ook APC Mini en MIDI Fighter Twister. De APC40 Mark 2 is voor de meeste situaties nog steeds de beste optie.
 
 ### Clips en effects
 
@@ -168,7 +168,7 @@ Twee rijen onder de zoneknoppen zie je de X/Y flip-knoppen. Schakel deze in of u
 Let op: deze zonetoewijzingen en X/Y flip-instellingen zijn gekoppeld aan de clip zelf; ze blijven behouden wanneer je die clip de volgende keer start. Het is geen globale instelling.
 {% endhint %}
 
-Klik met de rechtermuisknop op een clip om meer instellingen voor de clip te bewerken. Zie ook [Clip settings](clips/clip-settings.md "mention")
+Klik met de rechtermuisknop op een Clip om meer instellingen voor die Clip te bewerken. Zie ook [Clip settings](clips/clip-settings.md "mention")
 
 ### Groepen
 
@@ -225,15 +225,15 @@ _\*Rotary controllers 1-8 zitten bovenaan op een APC40 Mk2 en rechtsboven op de 
 5. **Scale** :\
    Schaalt alles herhaaldelijk van volledig naar nul. De parameter past de snelheid aan.
 6. **Hue** :\
-   Verandert de hue van alles, maar verandert de saturation niet (dus alles wat wit is, blijft wit). De parameter past de hue aan.
+Verandert de tint van alles, maar verandert de verzadiging niet (dus alles wat wit is, blijft wit). De parameter past de tint aan.
 7. **Saturation and hue** :\
-   Verandert de hue van alles en verzadigt de kleur ook volledig (dus alles wat wit is, verandert naar de kleur). De parameter past de hue aan.
+Verandert de tint van alles en verzadigt de kleur ook volledig (dus alles wat wit is, verandert naar de kleur). De parameter past de tint aan.
 8. **Flash** :\
    Laat de brightness van alles herhaaldelijk flitsen van volledig naar nul. De parameter past de flash-snelheid aan.
 
 <figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-Er zijn nog 16 kleur-effects langs de onderste rij om vooraf ingestelde hue- en saturation-waarden toe te passen.
+Er zijn nog 16 kleureffecten langs de onderste rij om vooraf ingestelde waarden voor tint en verzadiging toe te passen.
 
 Let op: dit zijn de standaard effects, maar ze kunnen worden bewerkt om bijna alles te doen wat je wilt!
 
@@ -265,7 +265,7 @@ Bijna alle lasershows hebben een soort muzikale soundtrack, dus het timing-syste
 
 <figure><img src=".gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Er zijn meerdere synchronisatie-opties, waaronder MIDI clock en Ableton Link. Als je het tempo van de muziek kent, kun je dit handmatig aanpassen met de schuifregelaar op het scherm of met de APC40 Tempo knob, maar je kunt ook met de muziek in de maat blijven met het _Tap Tempo_-systeem\_.\_
+Er zijn meerdere synchronisatie-opties, waaronder MIDI clock en Ableton Link. Als je het tempo van de muziek kent, kun je dit handmatig aanpassen met de schuifregelaar op het scherm of met de APC40 Tempo knob, maar je kunt ook met de muziek in de maat blijven met het _Tap Tempo_-systeem.
 
 #### Tap Tempo
 
@@ -287,7 +287,7 @@ Klik met `Alt / Option + Shift` ingedrukt op een clip om meerdere clips te selec
 
 Met klikken en slepen sleep je ALLE geselecteerde clips.
 
-Om één of meer clips te verwijderen, sleep je ze van het clip deck af (er verschijnt een prullenbakpictogram) of gebruik je de knop DELETE in het rechtermuisknopmenu van de clip.
+Om één of meer Clips te verwijderen, sleep je ze van het Clip Deck af (er verschijnt een prullenbakpictogram) of gebruik je de knop DELETE in het rechtermuisknopmenu van de Clip.
 
 ### Laser overview panel
 
@@ -295,7 +295,7 @@ Om één of meer clips te verwijderen, sleep je ze van het clip deck af (er vers
 
 Het panel _Laser overview panel_ geeft je snel inzicht in de status van je lasers die op dat moment draaien. Het groene vierkant rechts laat zien dat de lasercontroller goed werkt. Als het oranje wordt, heb je af en toe drop-outs, en als het rood is, is de controller losgekoppeld. Als het grijs is, is deze helemaal niet met een controller verbonden.
 
-De grafiek in het midden is een geschiedenis van frame lengths, en het getal rechts is de huidige frame rate. Hoe complexer de content, hoe lager de frame rate wordt (dus hoe meer flicker). Alles onder ongeveer 25 fps begint er wat flickery uit te zien.
+De grafiek in het midden toont de geschiedenis van framelengtes, en het getal rechts is de huidige framerate. Hoe complexer de content, hoe lager de framerate wordt (dus hoe meer flikkering). Alles onder ongeveer 25 fps begint er wat flikkerend uit te zien.
 
 ### Verbinden met lasers - Controller Assignment panel
 

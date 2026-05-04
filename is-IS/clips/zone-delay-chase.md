@@ -14,7 +14,7 @@ Zone delay kerfið er einföld en áhrifarík leið til að skapa fjölbreytni m
 
 _Zone delay_ bætir seinkun við tímasetningu Clip fyrir hvert zone og skapar þannig eins konar sveip yfir zones.
 
-Það er mjög áhrifaríkt að bæta zone delay við Clip sem er þegar í gangi og nota viðeigandi stjórnun á APC40 til að stilla styrk og mynstur. (Sjá [APC40 tilvísun](../reference/apc40-reference.md)). Einnig geturðu notað _Clip Settings_ panel.
+Það er mjög áhrifaríkt að bæta zone delay við Clip sem er þegar í gangi og nota viðeigandi stjórnun á APC40 til að stilla styrk og mynstur. (Sjá [APC40 tilvísun](../reference/apc40-reference.md "mention")). Einnig geturðu notað _Clip Settings_ panel.
 
 Zone delay stillingar:
 
@@ -39,7 +39,7 @@ Mynstrið byggir á númerum zones og gerir ráð fyrir að zones séu í röð 
 Zone delay er einnig beitt á öll virk effects. Til dæmis seinkar blikkandi effect líka milli zones, rétt eins og animation innan Clip.
 {% endhint %}
 
-Þegar Clip er með einhvers konar _Zone delay_ sérðu tákn með þremur punktum efst til hægri á Clip. Punktarnir hreyfast til að sýna hvaða gerð af _Zone delay_ er notuð fyrir viðkomandi Clip. Sjá [Hvað merkja litlu táknin á Clip-hnöppunum?](what-are-the-small-icons-on-the-clip-buttons.md) fyrir nánari upplýsingar.
+Þegar Clip er með einhvers konar _Zone delay_ sérðu tákn með þremur punktum efst til hægri á Clip. Punktarnir hreyfast til að sýna hvaða gerð af _Zone delay_ er notuð fyrir viðkomandi Clip. Sjá [Hvað merkja litlu táknin á Clip-hnöppunum?](what-are-the-small-icons-on-the-clip-buttons.md "mention") fyrir nánari upplýsingar.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Tákn með þremur punktum sem sýnir að Clip er með zone delay og hvaða hamur er notaður</p></figcaption></figure>
 

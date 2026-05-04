@@ -17,7 +17,7 @@ Někdy ale můžete chtít více cílových oblastí Canvas pro různé části 
 
 ### Odesílání Clips do cílových oblastí Canvas
 
-V Clip Deck vedle tlačítek pro beam zone uvidíte také tlačítka cílových oblastí Canvas. Možná budete muset tlačítka Output posunout, abyste je viděli. Použijte `Shift + Left / Right Arrow`, tlačítka ZONE PAGE na obrazovce nebo tlačítka na APC40 (viz [Referenční přehled APC40](../reference/apc40-reference.md)).
+V Clip Deck vedle tlačítek pro beam zone uvidíte také tlačítka cílových oblastí Canvas. Možná budete muset tlačítka Output posunout, abyste je viděli. Použijte `Shift + Left / Right Arrow`, tlačítka ZONE PAGE na obrazovce nebo tlačítka na APC40 (viz [Referenční přehled APC40](../reference/apc40-reference.md "mention")).
 
 Clips přiřadíte k cílovým oblastem Canvas přepínáním těchto tlačítek úplně stejným způsobem jako u tlačítek pro beam zone.
 

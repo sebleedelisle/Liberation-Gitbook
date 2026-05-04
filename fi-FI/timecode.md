@@ -69,4 +69,4 @@ Kiertuekäytössä yleinen käytäntö on, että jokainen kappale alkaa eri tunn
 Liberation vaihtaa automaattisesti timelineen timecoden perusteella, joten timelineja ei tarvitse vaihtaa esityksen aikana käsin.
 {% endhint %}
 
-Huomaa, että toisin kuin MIDI Clock ja Ableton Link, SMPTE on _absoluuttinen_ aikajärjestelmä, joka mitataan tunteina, minuutteina, sekunteina ja frameina. Liberationin ydinaikajärjestelmä perustuu iskuihin ja tahteihin, joten timecodea vastaanotettaessa se käyttää timelineen määritettyä tempoa. Varmista, että tämä tempo on synkassa sen musiikin kanssa, joka on myös synkronoitu timecodeen.
+Huomaa, että toisin kuin MIDI Clock ja Ableton Link, SMPTE on _absoluuttinen_ aikajärjestelmä, joka mitataan tunteina, minuutteina, sekunteina ja frameina. Liberationin ydinaikajärjestelmä perustuu iskuihin ja tahteihin, joten timecodea vastaanotettaessa se käyttää timelineen asetettua tempoa. Varmista, että tämä tempo on synkassa sen musiikin kanssa, joka on myös synkronoitu timecodeen.

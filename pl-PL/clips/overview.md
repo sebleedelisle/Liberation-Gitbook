@@ -12,7 +12,7 @@ Cała treść laserowa w Liberation jest przechowywana w Clips.
 
 Clips mogą zawierać atmosferyczne efekty beam albo animacje graficzne i zwykle działają jako zapętlona sekwencja. Można kierować je do dowolnej zone (lub Canvas Target Area) i uruchamiać za pomocą przycisków Clip w Clip Deck.
 
-Treść Clip powstaje w elastycznym systemie Clip Editor, w którym buduje się ją z elementów typu node. (Więcej informacji znajdziesz w sekcji [Wprowadzenie do Clip Editor](../clip-editor/clip-editor-intro.md))
+Treść Clip powstaje w elastycznym systemie Clip Editor, w którym buduje się ją z elementów typu node. (Więcej informacji znajdziesz w sekcji [Wprowadzenie do Clip Editor](../clip-editor/clip-editor-intro.md "mention"))
 
 ### Clip Deck
 

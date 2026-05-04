@@ -20,7 +20,7 @@ A korai LaserCube modellek USB-n keresztül vezérelhetők, de a jelenlegi model
 
 ### USB LaserCube
 
-Csatlakoztasd a LaserCube-ot a számítógéphez micro USB kábellel, majd keresd meg a _Controller Assignment_ panelen (lásd: [Vezérlő-hozzárendelés](../setting-up/controller-assignment.md)). Ha nem jelenik meg automatikusan, kattints a _REFRESH_ gombra.
+Csatlakoztasd a LaserCube-ot a számítógéphez micro USB kábellel, majd keresd meg a _Controller Assignment_ panelen (lásd: [Vezérlő-hozzárendelés](../setting-up/controller-assignment.md "mention")). Ha nem jelenik meg automatikusan, kattints a _REFRESH_ gombra.
 
 ### Hálózati LaserCube „Wifi”
 
@@ -30,7 +30,7 @@ Bár a „Wifi” kockákat vezeték nélküli hálózaton való használatra te
 
 Csatlakoztasd a LaserCube-ot a vezetékes hálózatodhoz.
 
-Állítsd a LaserCube-ot „LAN Client” módba, és győződj meg róla, hogy van router a hálózaton. A LaserCube IP-címet kap a routertől, ezután meg kell jelennie a _Controller Assignment_ panelen. (Lásd: [Vezérlő-hozzárendelés](../setting-up/controller-assignment.md)).
+Állítsd a LaserCube-ot „LAN Client” módba, és győződj meg róla, hogy van router a hálózaton. A LaserCube IP-címet kap a routertől, ezután meg kell jelennie a _Controller Assignment_ panelen. (Lásd: [Vezérlő-hozzárendelés](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Router nélkül is létrehozható hálózat, ahol minden eszköz fix IP-címet kap, és ez nagyon gyakori a rendezvényiparban. Én személy szerint jobban szeretem, ha van router a hálózaton, és ezt ajánlom mindenkinek, akinek kevesebb tapasztalata van hálózatokkal.

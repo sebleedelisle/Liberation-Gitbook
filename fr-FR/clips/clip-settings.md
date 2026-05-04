@@ -14,7 +14,13 @@ Modifiez la taille de sortie du Clip avec _Scale X_ et _Scale Y_. Ces deux param
 
 Modifiez la position horizontale et verticale du Clip avec _Shift X_ et _Shift Y_.
 
-_Zone Delay/Chase_ est une fonctionnalité tellement intéressante qu’elle a droit à sa propre section. [Zone delay / chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ est une fonctionnalité tellement intéressante qu’elle a droit à sa propre section. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Panneau Parameters
+
+Le panneau situé à droite du Clip Deck affiche huit paramètres contextuels. Lorsqu’un Clip est sélectionné, les premières commandes sont _Shift X_, _Shift Y_ et _Zone Delay_ pour le Clip sélectionné, suivies des commandes globales _Spin_ et _Scale_.
+
+Ces mêmes paramètres sont aussi repris sur les contrôleurs MIDI compatibles. Si aucun Clip n’est sélectionné, les emplacements propres au Clip restent vides. Si vous maintenez un bouton de groupe enfoncé, les deux premières commandes deviennent les durées de fondu en entrée et de fondu en sortie de ce groupe.
 
 ### Verrouiller des Clips
 
@@ -29,7 +35,7 @@ Si un Clip est verrouillé, il ne peut pas être déplacé ni supprimé. Pour ve
 
 Si vous faites un clic droit sur un Clip, un menu apparaît avec certaines options propres à ce Clip. Consultez [Introduction au Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Paramètres de Clip](clip-settings.md "mention") et [Groupes de Clips](groups.md "mention") pour en savoir plus sur les premiers éléments de ce menu.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Le menu du clic droit des paramètres de Clip</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 

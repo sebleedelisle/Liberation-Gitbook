@@ -1,8 +1,8 @@
 ---
 description: >-
-  Laser có thể nguy hiểm, vì vậy việc tuân thủ các phương pháp thực hành tốt
-  nhất và hướng dẫn an toàn là rất quan trọng. Trang này cung cấp phần tổng quan
-  hữu ích để hỗ trợ bạn trong quá trình thiết lập laser một cách an toàn.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

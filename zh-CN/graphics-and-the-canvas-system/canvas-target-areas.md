@@ -1,33 +1,38 @@
-# 🟩 Canvas target areas
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/graphics-and-the-canvas-system/canvas-target-areas
+---
 
-我们已经知道如何将 Canvas 的部分内容发送到每台激光的 zones，但要让内容进入 Canvas，本身需要（名字虽有些绕但确实准确的） _Canvas target areas_。&#x20;
+# 🟩 Canvas 目标区域
 
-_Canvas target areas_ 是你可以绘制 Clip 内容的 Canvas 区域，在 _CANVAS_ 视图中以蓝色轮廓矩形显示。&#x20;
+我们已经了解了如何把 Canvas 的不同部分发送到每台激光器内的 zone 中；但如果想先把内容放到 Canvas 上，就需要使用（名字有点容易混淆，但确实准确的）_Canvas target areas_。
 
-很多时候你只需要一个 Canvas target area，然后把它拆分成多个 zones 发送到不同激光。&#x20;
+_Canvas target areas_ 是 Canvas 上可供 Clip 绘制到其中的区域，在 _CANVAS_ view 中以蓝色描边矩形显示。
 
-有时你也会需要多个 Canvas target areas，用于建筑的不同部分，或利用它们之间的 zone delay。（没错！Zone delay 在 Canvas target areas 之间依然有效。）&#x20;
+很多时候，你可能只需要一个 Canvas target area，然后再把它拆分成多个 zone，分别发送到不同的激光器。
 
-### 将 Clips 发送到 Canvas target areas
+有时你也可能希望为建筑物的不同部分使用多个 Canvas target area，或者利用它们之间的 zone 延迟。（没错！zone 延迟在不同 Canvas target area 之间仍然有效！）
 
-在 Clip Deck 中，beam zone 按钮旁边就是 Canvas target area 按钮。你可能需要滚动输出按钮才能看到它们：使用 `Shift + Left / Right Arrow`，或屏幕上的 ZONE PAGE 按钮，或 APC40 按钮（见 [APC40 参考](../reference/apc40-reference.md "mention")）。
+### 将 Clip 发送到 Canvas target area
 
-像使用 beam zone 按钮一样，通过切换这些按钮将 Clips 分配给 Canvas target areas。&#x20;
+查看 Clip Deck 时，在 beam zone 按钮旁边会看到 Canvas target area 按钮。你可能需要滚动 output 按钮才能看到它们，可以使用 `Shift + Left / Right Arrow`，或屏幕上的 ZONE PAGE 按钮，或 APC40 按钮（参见 [APC40 参考](../reference/apc40-reference.md "mention")）。
 
-### 添加 / 编辑 Canvas target areas
+分配 Clip 到 Canvas target area 的方式与使用 beam zone 按钮完全相同：切换这些按钮即可。
 
-在顶部菜单选择 _View -> Canvas Target Areas_，你会看到项目中每个 Canvas target area 的所有设置。&#x20;
+### 添加 / 编辑 Canvas target area
 
-顶部有 _ADD CANVAS TARGET AREA_ 按钮。&#x20;
+在顶部菜单栏中选择 _View -> Canvas Target Areas_，你会看到项目中每个 Canvas target area 的全部设置。
 
-点击带减号的红色按钮可删除 Canvas target area。&#x20;
+顶部有 _ADD CANVAS TARGET AREA_ 按钮。
 
-使用滑块调整大小和位置。双击滑块可输入数值。&#x20;
+使用带减号的红色按钮可以删除 Canvas target area。
 
-### Scale mode
+使用滑块调整大小和位置。双击滑块可输入数值。
 
-* **FIT TO AREA** - 在保持纵横比的前提下缩小内容，使其完全适配 Canvas target area。（默认）
-* **FILL AREA** - 在保持纵横比的前提下拉伸内容以填满 Canvas target area，可能会裁切边缘。&#x20;
-* **STRETCH TO FIT** - 拉伸内容以填满 Canvas target area，忽略纵横比。
+### 缩放模式
 
-###
+* **FIT TO AREA** - 将内容缩小，使其完整放入 Canvas target area 内，同时保持宽高比。（这是默认设置）
+* **FILL AREA** - 将内容拉伸以填满 Canvas target area，同时保持宽高比。内容可能会在边缘被裁切。
+* **STRETCH TO FIT** - 将内容拉伸以填满整个 Canvas target area，忽略宽高比。

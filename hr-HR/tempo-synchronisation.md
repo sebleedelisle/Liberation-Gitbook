@@ -60,7 +60,7 @@ Upotrijebite gumb _METRONOME_ za **reset takta**. (Imajte na umu da gumb _METRON
 
 Okrenite gumb _TEMPO_ za jedan „klik” udesno ili ulijevo kako biste **zaokružili tempo** gore ili dolje na cijeli BPM broj.
 
-Pogledajte i [Referenca za APC40](reference/apc40-reference.md)
+Pogledajte i [Referenca za APC40](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 
@@ -101,6 +101,12 @@ Izvor tempa MIDI Clock u Liberationu također reagira na poruke **MIDI Machine C
 {% endhint %}
 
 
+
+### Ableton Link
+
+Za sinkronizaciju s Ableton Link odaberite _ABLETON LINK_ kao izvor tempa. Liberation se pridružuje Link sesiji na vašoj lokalnoj mreži i prati zajednički tempo i fazu dobe iz drugih aplikacija koje podržavaju Link.
+
+Ableton Link ne upotrebljava MIDI priključak i ne prenosi apsolutnu poziciju u pjesmi. Upotrijebite kontrole za resetiranje takta ako početak takta u Liberation treba uskladiti s određenim trenutkom u showu.
 
 ### Vremenska linija
 

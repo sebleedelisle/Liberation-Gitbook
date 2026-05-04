@@ -26,7 +26,7 @@ Este es un resumen del proceso:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Cambia las zonas de cada clip:**\
-    Lanza cada clip haciendo clic en su botón y, después, activa o desactiva las zonas y el volteo X e Y usando los botones en pantalla. Consulta [Clips y Clip deck](../clips/ "mention").
+Lanza cada clip haciendo clic en su botón y, después, activa o desactiva las zonas y el volteo X e Y usando los botones en pantalla. Consulta [Clips y Clip deck](../clips/ "mention").
 
     \\
 

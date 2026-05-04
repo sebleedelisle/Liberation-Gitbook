@@ -9,7 +9,7 @@ metaLinks:
 
 Diese Node-Familie verändert Inhalte abhängig von ihrer Position. Standardmäßig wird der Effekt entlang einer horizontalen Achse angewendet (von links nach rechts), du kannst diese Achse aber auf einen beliebigen Winkel drehen. Jeder Node enthält außerdem einen _radial_-Modus, bei dem der Effekt durch den Winkel jedes Punkts relativ zur Mitte gesteuert wird.
 
-* **Colour Changer by Position** – verschiebt Farben entlang der gewählten Achse oder um den radialen Winkel.\
+* **Colour Changer by Position** – wendet einen Verlauf entlang der gewählten Achse oder um den radialen Winkel an.\
   \&#xNAN;_Beispiel: Erzeuge einen Regenbogenverlauf, der über eine Linie wandert, oder nutze den radialen Modus auf einem Kreis, um einen Farbrad-Effekt zu erzeugen._
 * **Wave Shift by Position** – wendet eine Sinuswellen-Verzerrung an und verschiebt den Inhalt vertikal (oder senkrecht zur gewählten Achse).\
   \&#xNAN;_Beispiel: Lass eine Linie wie Wasser kräuseln, oder nutze den radialen Modus, um einen Kreis von der Mitte aus nach außen pulsieren zu lassen._
@@ -29,6 +29,7 @@ Dieser Node wendet Farbänderungen positionsabhängig auf deinen Inhalt an. Stan
 * **linear angle** – dreht die Achse des Effekts. 0° = horizontal.
 * **radial** – schaltet in den radialen Modus und wendet Farben basierend auf dem Winkel von der Mitte an.
 * **radial smooth loop** – passt die wavelength automatisch so an, dass sie gleichmäßig in 100% des Kreises passt. Dadurch wird eine sichtbare Naht an der Stelle verhindert, an der der Zyklus umspringt.
+* **legacy mode** – schaltet zurück auf die älteren HSB-Slider für Start und Ende. Lass diese Option ausgeschaltet, um den neueren Verlaufseditor zu verwenden.
 
 **Farbmodi**
 
@@ -46,17 +47,32 @@ Diese bestimmen, welche Aspekte der Farbanpassungen auf den Inhalt angewendet we
   * _FIXED_ – die Helligkeit wird auf den angegebenen Wert gesetzt.
   * _MULTIPLY_ – die Helligkeit wird mit dem angegebenen Wert skaliert. Dadurch bleiben Dynamiken erhalten (z. B. blinken blinkende Elemente weiterhin, aber innerhalb des begrenzten Helligkeitsbereichs).
 
-**Start- / Endwerte**
+**Verlaufseditor**
 
-Diese Slider definieren den Farbbereich, der entlang der gewählten Achse (oder des radialen Sweeps) angewendet wird.
+Verwendet denselben Verlaufseditor wie [Colour Changer](colour-changer.md "mention"), ordnet den Verlauf aber anhand der Position über den Inhalt zu.
 
-* **start hue** – der Farbton am Anfang des Verlaufs.
-* **end hue** – der Farbton am Ende des Verlaufs.
-* **start saturation** – die Sättigung am Anfang.
-* **end saturation** – die Sättigung am Ende.
-* **start brightness** – die Helligkeit am Anfang.
-* **end brightness** – die Helligkeit am Ende.
+* Klicke auf die Verlaufsleiste, um einen Farbstopp hinzuzufügen.
+* Klicke mit der linken Maustaste auf einen Stopp, um ihn auszuwählen, und ziehe ihn dann seitlich, um ihn zu verschieben.
+* Ziehe einen ausgewählten Stopp nach unten von der Leiste weg oder drücke Delete/Backspace, um ihn zu entfernen. Ein Verlauf behält immer mindestens zwei Stopps.
+* Klicke mit der rechten Maustaste auf einen Stopp, um ihn mit dem Farbwähler zu bearbeiten.
+* Verwende **Position**, **Hue**, **Saturation** und **Brightness**, um den ausgewählten Stopp präzise zu bearbeiten.
+* **interpolation** legt fest, wie Farben zwischen Stopps überblendet werden:
+* **HSB** – überblendet Farbton, Sättigung und Helligkeit. Das eignet sich am besten für fließende, regenbogenartige Bewegungen um den Farbkreis.
+* **RGB** – überblendet Rot-, Grün- und Blauwerte direkt. Das wirkt oft eher wie ein Farb-Fade auf einem Bildschirm oder Lichtpult.
+* **NONE** – springt ohne Überblendung von einem Stopp zum nächsten.
+* **hue direction** ist bei HSB-Interpolation verfügbar:
+* **AUTO** – nimmt den kürzesten Weg um den Farbtonkreis.
+* **FORWARDS** – läuft immer vorwärts durch die Farbtonwerte.
+* **BACKWARDS** – läuft immer rückwärts durch die Farbtonwerte.
 * **blend** – mischt die Farbänderung mit den Originalfarben. Bei 100% ersetzt der Effekt die Originalfarben vollständig.
+
+**Ältere Start- / Endwerte**
+
+Wenn **legacy mode** aktiviert ist, wird der Verlaufseditor durch die älteren Bedienelemente ersetzt:
+
+* **start hue / end hue** – Farbton am Anfang und Ende des Bereichs.
+* **start saturation / end saturation** – Sättigung am Anfang und Ende des Bereichs.
+* **start brightness / end brightness** – Helligkeit am Anfang und Ende des Bereichs.
 
 **Beispiel 1: Gleitender Regenbogenverlauf**
 
@@ -64,7 +80,7 @@ Ausgehend von den Standardeinstellungen:
 
 1. Lass den Node im **Linear**-Modus (0° Winkel = horizontal).
 2. Lass **wavelength** auf 100% (erstreckt sich über die volle Breite und sollte der Standardwert sein).
-3. Lass die Start- und Endwerte auf ihren Standardwerten.
+3. Lass den Standardverlauf unverändert.
 4. Aktiviere **repeat**.
 5. Füge der Einstellung **offset** einen **Sawtooth Oscillator** hinzu, der von 0% bis 100% läuft.
 
@@ -77,13 +93,12 @@ Ausgehend von den Standardeinstellungen:
 1. Lass den Node im **Linear**-Modus (0° Winkel = horizontal).
 2. Lass **wavelength** auf 100% (erstreckt sich über die volle Breite und sollte der Standardwert sein).
 3. Schalte **repeat** aus.
-4. Setze **start brightness** auf 0 (Schwarz).
-5. Setze **end brightness** auf 100 (Weiß).
-6. Setze **start saturation** und **end saturation** auf 0 (wandelt zu Graustufen um).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Aktiviere **pingpong**.
+4. Setze den ersten Verlaufsstopp auf Schwarz.
+5. Setze den letzten Verlaufsstopp auf Weiß.
+6. Setze **hue mode** auf OFF.
+7. Setze **saturation mode** auf FIXED, wenn du das Ergebnis auf Graustufen beschränken möchtest.
+8. Setze **brightness mode** auf FIXED.
+9. Aktiviere **pingpong**.
 
 _Ergebnis: Der Verlauf blendet über die Breite von Schwarz zu Weiß und dann zurück zu Schwarz._\
 Wenn der Inhalt seinen Farbton und seine Sättigung behalten soll, schalte Saturation mode auf OFF. \\
@@ -127,5 +142,6 @@ Dieser Node verzerrt Inhalte mit einem Noise-Feld (ähnlich wie Turbulenz) und v
 * **Depth Offset** – bewegt sich durch das 3D-Noise-Feld und erzeugt Variation über die Zeit. Das ist besonders effektiv, wenn es mit einem Oscillator Node animiert wird.
 * **Depth Detail** – steuert, wie detailliert die Variation entlang der Tiefendimension ist.
 * **Absolute** – verwendet den Absolutwert des Noise und klappt negative Werte in positive um (dadurch entsteht nur eine einseitige Verschiebung).
+* **Angle** – dreht die Achse des Rauschens im linearen Modus. 0° = horizontal.
 * **Radial** – wechselt vom linearen in den radialen Modus, sodass die Verschiebung auf dem Winkel von der Mitte basiert.
 * **Radial Smooth Loop** – passt die Wellenlänge so an, dass sie gleichmäßig in 100% des Kreises passt. Dadurch werden sichtbare Nähte im radialen Modus verhindert.

@@ -102,6 +102,12 @@ De Liberation MIDI Clock-tempo-bron reageert ook op **MIDI Machine Control (MMC)
 
 
 
+### Ableton Link
+
+Om te synchroniseren met Ableton Link, kies je _ABLETON LINK_ als tempobron. Liberation neemt deel aan de Link-sessie op je lokale netwerk en volgt het gedeelde tempo en de beatfase van andere apps die Link ondersteunen.
+
+Ableton Link gebruikt geen MIDI-poort en geeft geen absolute songpositie door. Gebruik de bediening voor het resetten van de maat als je het begin van de maat in Liberation wilt laten samenvallen met een specifiek moment in de show.
+
 ### Timeline
 
 Elke timeline heeft een eigen tempo. Dit kan een vaste waarde zijn of een _Tempo Map_. Met de _Tempo Map_ kun je het tempo op specifieke momenten binnen de timeline aanpassen.

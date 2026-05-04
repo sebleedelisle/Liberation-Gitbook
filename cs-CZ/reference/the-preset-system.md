@@ -22,12 +22,12 @@ Všechny presety se ukládají spolu s projektem (nebo nastavením laseru), bez 
 
 Soubory presetů můžete také importovat a exportovat pomocí tlačítka pro načtení/uložení (ikona diskety) vedle rozbalovacího seznamu presetů. Otevře se vyskakovací okno s tlačítky pro import/export a také s možností odstranit jeden nebo více presetů.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>Vyskakovací nabídka, která se otevře po kliknutí na ikonu načtení/uložení</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Pokud upravíte preset, například nastavení skenerů s názvem _Default_, mějte na paměti, že ostatní lasery se automaticky neaktualizují. Místo toho bude každé jejich nastavení skenerů označeno jako _Default(edited)_. Chcete-li ho aktualizovat na nový preset _Default_, znovu ho vyberte v rozbalovacím seznamu.
 
 {% hint style="info" %}
-Pokud máte hodně laserů a chcete aktualizovat nastavení skenerů u všech, použijte systém _COPY LASER SETTINGS_. Viz [Kopírování nastavení laserů](../setting-up/copy-laser-settings.md)
+Pokud máte hodně laserů a chcete aktualizovat nastavení skenerů u všech, použijte systém _COPY LASER SETTINGS_. Viz [Kopírování nastavení laserů](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Pokud odstraníte preset, který se používá jinde, o dané nastavení nepřijdete. Uvidíte ho pouze označené jako _(deleted)._

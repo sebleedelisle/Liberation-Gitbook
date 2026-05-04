@@ -57,7 +57,7 @@ Het installatieprogramma is klaar! Klik op _Finish_ om het te sluiten en Liberat
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation heeft toestemming nodig om bestanden en het netwerk te openen, dus Windows zal waarschijnlijk een aantal meldingen tonen. Zorg dat je alles accepteert, anders werkt Liberation mogelijk niet goed.
+Liberation heeft toestemming nodig om bestanden en het netwerk te openen, dus Windows zal waarschijnlijk enkele toestemmingsmeldingen tonen. Zorg dat je alles accepteert, anders werkt Liberation mogelijk niet goed.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

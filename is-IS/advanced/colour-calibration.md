@@ -17,23 +17,25 @@ Leysisdíóður breyta hegðun sinni þegar þær hitna. Láttu skjávarpann all
 
 #### Hvernig kvörðunarprófið virkar
 
-Notaðu test pattern fyrir kvörðun (sjá [Test patterns](../output-view/test-patterns.md))
+Notaðu test pattern fyrir kvörðun (sjá [Test patterns](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green
 * **7** – Blue
 * **8** – White
 
-Hvert þeirra sýnir fjórar hreyfanlegar línur:
+Hvert þeirra sýnir fjórar hreyfanlegar línur. Birta í leysikerfi ræðst ekki aðeins af aflstigi, heldur líka af því hversu lengi geislinn dvelur á sama stað. Þegar skannarnir hreyfast hraðar dvelur geislinn skemur á hverjum punkti og virðist daufari.
+
+Til að taka tillit til þessa skala prófunarmynstrin bæði birtu og hraða saman:
 
 * **Efsta lína** – 100% birta á fullum hraða
 * **Önnur lína** – 75% birta á 75% hraða
 * **Þriðja lína** – 50% birta á 50% hraða
 * **Fjórða lína** – 25% birta á 25% hraða
 
-Þar sem bæði birta _og hraði_ eru sköluð saman ættu allar línurnar að virðast jafn bjartar. Ef ein þeirra virðist ljósari eða dekkri skaltu stilla samsvarandi sleða þar til þær passa saman.
+Þar sem bæði birta _og hraði_ eru sköluð saman ættu allar línurnar að virðast jafn bjartar. Ef ein lína virðist bjartari eða daufari skaltu stilla samsvarandi sleða þar til þær passa saman.
 
-Hvert test pattern hefur einnig fimmtu línu við **0% birtu** sem ætti ekki að sjást. Hún er notuð til að leiðrétta leysa sem gefa ekki frá sér neitt ljós við mjög lágt stig. Ef leysirinn sést ekki við lága birtu skaltu hækka **0% stillinguna** smám saman þar til línan rétt sést, og lækka hana svo örlítið þar til hún hverfur aftur. Markmiðið er að finna þröskuldinn þar sem leysirinn byrjar að lýsa og vera rétt fyrir neðan hann — svo dofnanir byrji eðlilega án þess að neðsta sviðið klippist af.
+Hvert prófunarmynstur hefur einnig fimmtu línu við **0% birtu**, sem ætti ekki að sjást. Hún er notuð til að leiðrétta leysa sem gefa ekki frá sér neitt ljós við mjög lágt stig. Ef leysirinn sést ekki við lága birtu skaltu hækka **0% stillinguna** smám saman þar til línan rétt sést, og lækka hana svo örlítið þar til hún hverfur aftur. Markmiðið er að finna þröskuldinn þar sem leysirinn byrjar að lýsa og vera rétt fyrir neðan hann — svo dofnanir byrji eðlilega án þess að neðsta sviðið klippist af.
 
 #### Notkun Colour Calibration spjaldsins
 

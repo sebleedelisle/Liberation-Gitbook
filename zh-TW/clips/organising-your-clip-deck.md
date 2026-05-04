@@ -9,10 +9,10 @@ metaLinks:
 
 ### 移動／複製 Clips
 
-按住並拖曳即可移動 Clip。如果已選取多個 Clip（請參閱 [啟動／停止 Clips](starting-stopping-clips.md)），它們會一起移動。按住 `Alt / Option` 可複製它們。將 Clip 放到空白位置即可。
+按住並拖曳即可移動 Clip。如果已選取多個 Clip（請參閱 [啟動／停止 Clips](starting-stopping-clips.md "mention")），它們會一起移動。按住 `Alt / Option` 可複製它們。將 Clip 放到空白位置即可。
 
 {% hint style="info" %}
-如果需要選取大量 Clips，可以按住並拖曳套索框選，然後在仍然拖曳的狀態下捲動 Clip Deck（可使用方向鍵、APC 40，或觸控板／滑鼠的橫向捲動）。套索會延伸到 Clip Deck 邊緣之外。
+如果需要選取大量 Clips，可以按住並拖曳套索框選，然後在仍然拖曳的狀態下捲動 Clip Deck（可使用方向鍵、APC40，或觸控板／滑鼠的橫向捲動）。套索會延伸到 Clip Deck 邊緣之外。
 {% endhint %}
 
 ### 刪除 Clips

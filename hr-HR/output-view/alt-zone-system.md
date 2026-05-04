@@ -15,7 +15,7 @@ Sustav Alt zone omogućuje da za bilo koji postojeći zone izradite zamjenski zo
 
 ### Dodavanje zamjenskog zone
 
-U Output view desnom tipkom kliknite zone i kliknite _ADD ALT ZONE_. Primijetit ćete da se pojavljuje novi zone zelene boje. Možete ga uređivati i prilagođavati na potpuno isti način kao i bilo koji drugi zone. Da biste vidjeli test pattern, trebate omogućiti Alt zones na gornjoj traci s ikonama.
+U Output view desnom tipkom kliknite zone i kliknite _ADD ALT ZONE_. Primijetit ćete da se pojavljuje nova zone zelene boje. Možete je uređivati i prilagođavati na potpuno isti način kao i bilo koju drugu zone. Da biste vidjeli test patterns, trebate omogućiti Alt zones na gornjoj traci s ikonama.
 
 ### Prebacivanje na Alt zones
 
@@ -23,4 +23,4 @@ U Output view desnom tipkom kliknite zone i kliknite _ADD ALT ZONE_. Primijetit 
 
 ### Kako onemogućiti zone umjesto da ga premjestite
 
-Dodajte Alt zone, desnom tipkom kliknite na njega i kliknite gumb _Disable output_ (krug s crtom kroz njega). Kada sada omogućite Alt zones, sadržaj će se preusmjeriti na taj sada onemogućeni alt zone.
+Dodajte Alt zone, desnom tipkom kliknite na nju i kliknite gumb _Disable output_ (krug s crtom kroz njega). Kada sada omogućite Alt zones, sadržaj će se preusmjeriti na tu sada onemogućenu Alt zone.

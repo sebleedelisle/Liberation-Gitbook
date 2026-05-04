@@ -28,7 +28,7 @@ Ef þú ert með gamla eða afllitla tölvu getur hún verið of hæg til að ke
 
 Eftirfarandi aðgerðir geta hjálpað:
 
-* fjarlægðu ónotaða laser-a, þ.e. ef þú ert aðeins með einn laser tengdan skaltu eyða hinum.
+* fjarlægðu ónotaða lasera, þ.e. ef þú ert aðeins með einn laser tengdan skaltu eyða hinum.
 * Skiptu yfir í Output view eða Canvas view
 * Lokaðu öllum öðrum forritum, athugaðu stillingar fyrir neteldvegg, lokaðu vírusvörn, Dropbox o.s.frv.
 * Lækkaðu skjáupplausnina og minnkaðu Liberation gluggann
@@ -41,7 +41,7 @@ Ef ekkert af þessu virkar skaltu íhuga að uppfæra tölvuna.
 
 Þá er líklegt að um vélbúnaðarvandamál sé að ræða. Það er utan umfangs þessarar handbókar, en þú getur prófað eftirfarandi:
 
-* Slökktu á SFS (Scan Fail Safety) kerfinu. Sumir laser-ar hafa virkni sem slekkur á úttaki ef skannarnir hætta að hreyfast, þ.e. ef þeir mynda sterkan kyrrstæðan geisla. Slík kerfi geta verið aðeins of varfærin / óáreiðanleg.
+* Slökktu á SFS-kerfinu (Scan Fail Safety). Sumir laserar hafa virkni sem slekkur á úttaki ef skannarnir hætta að hreyfast, þ.e. ef þeir mynda sterkan kyrrstæðan geisla. Slík kerfi geta verið aðeins of varfærin / óáreiðanleg.
 
 {% hint style="danger" %}
 Farðu mjög varlega þegar þú slekkur á scan fail safety kerfinu. Sterkir kyrrstæðir geislar geta valdið bruna! Gakktu úr skugga um að þú hafir stopp-hnapp og slökkvitæki við höndina.

@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Vyöhykkeet
 
-Useimmissa projekteissa käytät pääasiassa _Beam zone_ -vyöhykkeitä. Tämä vyöhyke on tarkoitettu ilmassa näkyville säde-efekteille. Toinen vyöhyketyyppi on _Canvas zone_ (katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/)).
+Useimmissa projekteissa käytät pääasiassa _Beam zone_ -vyöhykkeitä. Tämä vyöhyke on tarkoitettu ilmassa näkyville säde-efekteille. Toinen vyöhyketyyppi on _Canvas zone_ (katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**VAROITUS - Ole erittäin varovainen, kun siirrät vyöhykkeitä laserin ollessa käynnissä**, ja laske kirkkaus mahdollisimman alas. Katso kattava opas laserien turvalliseen aktivointiin ja vyöhykkeiden määrittämiseen kohdasta [Lasereiden käyttöönoton prosessin yleiskatsaus](../setting-up/setting-up-lasers.md)
+**VAROITUS - Ole erittäin varovainen, kun siirrät vyöhykkeitä laserin ollessa käynnissä**, ja laske kirkkaus mahdollisimman alas. Katso kattava opas laserien turvalliseen aktivointiin ja vyöhykkeiden määrittämiseen kohdasta [Lasereiden käyttöönoton prosessin yleiskatsaus](../setting-up/setting-up-lasers.md "mention")
 {% endhint %}
 
 Voit siirtää vyöhykkeitä napsauttamalla ja vetämällä niitä hiirellä. Ota testikuvio käyttöön, jotta näet, mihin vyöhyke osuu.
@@ -19,16 +19,16 @@ Käytä nuolinäppäimiä valittuna olevan vyöhykkeen/pisteen hienosäätöön.
 {% endhint %}
 
 {% hint style="info" %}
-Vinkki: voit kopioida vyöhykeasetuksia nopeasti useille lasereille! Katso [Kopioi asetukset lasereiden välillä](../setting-up/copy-laser-settings.md)
+Vinkki: voit kopioida vyöhykeasetuksia nopeasti useille lasereille! Katso [Kopioi asetukset lasereiden välillä](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Uuden beam zone -vyöhykkeen lisääminen
 
-Napsauta työkalupalkin yläosassa olevaa _Add a new beam zone_ -painiketta, jolloin uusi vyöhyke tulee näkyviin. Huomaa, että beam zone -vyöhykkeet lajitellaan lisäysjärjestyksen mukaan, mutta voit muuttaa niiden järjestystä. Katso [Sädealueiden järjestyksen muuttaminen](re-ordering-beam-zones.md)
+Napsauta työkalupalkin yläosassa olevaa _Add a new beam zone_ -painiketta, jolloin uusi vyöhyke tulee näkyviin. Huomaa, että beam zone -vyöhykkeet lajitellaan lisäysjärjestyksen mukaan, mutta voit muuttaa niiden järjestystä. Katso [Sädealueiden järjestyksen muuttaminen](re-ordering-beam-zones.md "mention")
 
 ### Olemassa olevan canvas zone -vyöhykkeen lisääminen
 
-Napsauta _Add existing canvas zone_ -painiketta. Näet luettelon käytettävissä olevista canvas zone -vyöhykkeistä, ja voit ottaa niitä käyttöön tai poistaa käytöstä tälle laserille. Katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/)
+Napsauta _Add existing canvas zone_ -painiketta. Näet luettelon käytettävissä olevista canvas zone -vyöhykkeistä, ja voit ottaa niitä käyttöön tai poistaa käytöstä tälle laserille. Katso [Grafiikka ja Canvas-järjestelmä](../graphics-and-the-canvas-system/ "mention")
 
 ### Vyöhykkeen muototyypit
 
@@ -38,7 +38,7 @@ Vyöhykkeillä on 3 muototyyppiä:
 * **Line/Curve** - vyöhyke, joka määritetään vähintään 2 pisteellä ja paksuudella. Sopii erinomaisesti kapeille vyöhykkeille tai rajaukseen parvekkeisiin, siltoihin tai muihin kaareviin muotoihin.
 * **Segmented** - vyöhyke, joka voidaan jakaa pienempiin nelikulmioihin. Sopii erinomaisesti arkkitehtoniseen mappaukseen.
 
-Avaa vyöhykkeen asetukset napsauttamalla mitä tahansa vyöhykettä hiiren oikealla painikkeella. Tästä oikean painikkeen valikosta voit:
+Avaa zone-asetukset napsauttamalla mitä tahansa zone hiiren oikealla painikkeella. Tästä oikean painikkeen valikosta voit:
 
 * Nimetä vyöhykkeen uudelleen (tästä voi olla apua sen tunnistamisessa Clip Deckissä, varsinkin jos vyöhykkeitä on paljon!)
 * Ottaa vyöhykkeen käyttöön tai poistaa sen käytöstä
@@ -47,7 +47,7 @@ Avaa vyöhykkeen asetukset napsauttamalla mitä tahansa vyöhykettä hiiren oike
 * Palauttaa sen oletussijaintiin
 * Käyttää muototyyppikohtaisia asetuksia
 * Poistaa sen
-* Lisätä _Alt Zone_ -vyöhykkeen (katso [Alt-vyöhykejärjestelmä](alt-zone-system.md))
+* Lisätä _Alt Zone_ -vyöhykkeen (katso [Alt-vyöhykejärjestelmä](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **VAROITUS -** ole erittäin varovainen, kun vaihdat vyöhyketyyppiä laserin ollessa aktiivinen. Vyöhyke palaa kyseisen muodon viimeiseen sijaintiin/kokoon, joten ulostulo voi muuttua äkillisesti. Laser kannattaa sammuttaa ennen vyöhyketyypin vaihtamista.
@@ -61,7 +61,7 @@ Voit poistaa vääristymän ja palauttaa muodon akselien suuntaiseksi suorakulmi
 
 #### Perspektiivikorjaus
 
-Tämä asetus voidaan määrittää oikean painikkeen valikon vaihtopainikkeella, ja se määrittää vääristysmenetelmän. Beam-sisällössä tämä kannattaa yleensä pitää pois päältä, mutta jos tämä vyöhyke projisoi grafiikkaa tasaiselle pinnalle, ota se käyttöön, jolloin ulostuloon tehdään perspektiivikorjaus.
+Tämä asetus voidaan määrittää oikean painikkeen valikon vaihtopainikkeella, ja se määrittää vääristysmenetelmän. Beam-sisällössä tämä kannattaa yleensä pitää pois päältä, mutta jos tämä zone projisoi grafiikkaa tasaiselle pinnalle, ota se käyttöön, jolloin Output korjataan perspektiivin mukaan.
 
 {% hint style="info" %}
 Jos _Perspective correction_ on pois päältä, sisältö vääristetään _bi-linear interpolation_ -menetelmällä. Toisin sanoen sisältö sijoittuu tasaisesti koko quad-muodon alueelle. Siksi se sopii parhaiten säteille.
@@ -75,7 +75,7 @@ Line / Curve -vyöhykemuodosta on tullut oma vakio valintani viimeaikaisissa sho
 
 Usein vyöhykkeideni täytyy olla kapeita, jotta ne mahtuvat hankaliin kapeisiin kohtiin tapahtumapaikoissa tai rakennusten ikkunoiden väliin. Huomasin, että quad-muodon neljän kulman säätäminen voi olla todella hankalaa, kun kulmat ovat hyvin lähellä toisiaan. Näin syntyi Line / Curve -vyöhyke!
 
-Suoriin linjoihin tarvitset vain kaksi pistettä. Säädä sen jälkeen _Zone thickness_ oikean painikkeen valikosta. Tämä on nopein tapa luoda yksinkertaisia vyöhykkeitä.
+Suoriin linjoihin tarvitset vain kaksi pistettä. Säädä sen jälkeen _Zone thickness_ oikean painikkeen valikosta. Tämä on nopein tapa luoda yksinkertaisia zoneja.
 
 Luo lisää pisteitä napsauttamalla linjaa `Alt / Option` -näppäin painettuna. Nämä pisteet pehmennetään automaattisesti sulavan muodon luomiseksi, ja voit säätää _Smooth level_ -arvoa mahdollisten mutkien tasoittamiseksi.
 
@@ -85,11 +85,11 @@ Jos sinulla on kokemusta vektorigrafiikkasovelluksista (Inkscape, Illustrator jn
 
 ### Segmented-vyöhykemuoto
 
-Tämän jaetun vyöhykkeen avulla voit tehdä erittäin tarkkoja korjauksia, ja se on hyödyllinen, kun mappaat monimutkaisiin muotoihin. Voit lisätä tai poistaa jakoja oikean painikkeen valikon + ja - -painikkeilla.
+Tämän jaetun zone avulla voit tehdä erittäin tarkkoja korjauksia, ja se on hyödyllinen, kun mappaat monimutkaisiin muotoihin. Voit lisätä tai poistaa jakoja oikean painikkeen valikon + ja - -painikkeilla.
 
 ### Kokonaan toisen vyöhykkeen peittämän vyöhykkeen muokkaaminen
 
-Napsauta päällä olevaa vyöhykettä hiiren oikealla painikkeella ja lukitse se napsauttamalla lukkopainiketta. Tämän jälkeen voit muokata ja säätää alla olevaa vyöhykettä.
+Napsauta päällä olevaa zone hiiren oikealla painikkeella ja lukitse se napsauttamalla lukkopainiketta. Tämän jälkeen voit muokata ja säätää alla olevaa zone.
 
 <br>
 

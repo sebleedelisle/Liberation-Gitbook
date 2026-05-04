@@ -52,7 +52,7 @@ Hugtakið _clamp_ er frekar erfitt að útskýra, en ímyndaðu þér að bylgju
 
 * **ease function** - sagtennta bylgjan og þríhyrningsbylgjan hafa einnig mýkingarfall sem breytir hreyfikúrfunni á fíngerðan hátt og getur gert hreyfimyndirnar mun tjáningarríkari!
   * **LINEAR** - sjálfgefið, engin mýking; hreyfist einfaldlega línulega á milli lágmarks- og hámarksgilda.
-  * **EASE OUT** - byrjar hratt og hægir síðan á sér þegar komið er að endanum. Mjög gott til að líkja eftir eðlisfræði, t.d. að hægja á sér þar til stöðvast.
+* **EASE OUT** - byrjar hratt og hægir síðan á sér þegar komið er að endanum. Mjög gott til að líkja eftir eðlisfræði, t.d. að hægja á sér þar til stöðvast.
   * **EASE IN** - byrjar hægt og eykur hraðann smám saman. Hentar vel til að líkja eftir vaxandi skriðþunga.
   * **EASE IN/OUT** - blanda af báðu, með mjög lífrænni hreyfingu.
 

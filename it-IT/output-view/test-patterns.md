@@ -8,7 +8,7 @@ metaLinks:
 
 Durante la modifica e la regolazione della zona, è utile inviare in uscita un pattern di test. Puoi attivare un pattern di test su tutte le zone abilitate usando il pulsante di attivazione nella barra delle icone in alto, e scegliere il pattern con lo slider alla sua destra.
 
-Se vuoi un pattern di test solo sul laser che stai configurando, usa il pulsante di attivazione nella barra degli strumenti a sinistra della vista _Output_. Fai clic/trascina il numero sotto al pulsante per selezionare il pattern di test.
+Se vuoi un pattern di test solo sul laser che stai configurando, usa il pulsante di attivazione nella barra degli strumenti a sinistra della vista _Output_. Fai clic e trascina il numero sotto al pulsante per selezionare il pattern di test.
 
 ### Elenco dei pattern di test
 
@@ -19,7 +19,7 @@ Ecco l'elenco completo dei pattern di test. I pattern riempiono l'intero spazio 
 3. Linee verdi orizzontali - 4 linee orizzontali, distribuite in modo uniforme.
 4. Linee verdi verticali - 4 linee verticali, distribuite in modo uniforme.
 
-Pattern di calibrazione del colore 5-8. Possono essere usati insieme al sistema di correzione del colore nelle impostazioni del laser. Vedi [Calibrazione del colore](../advanced/colour-calibration.md). Questi pattern non riempiono l'intero spazio di output.
+Pattern di calibrazione del colore 5-8. Possono essere usati insieme al sistema di correzione del colore nelle impostazioni del laser. Vedi [Calibrazione del colore](../advanced/colour-calibration.md "mention"). Questi pattern non riempiono l'intero spazio di output.
 
 5. Pattern di calibrazione del colore - rosso.
 6. Pattern di calibrazione del colore - verde.

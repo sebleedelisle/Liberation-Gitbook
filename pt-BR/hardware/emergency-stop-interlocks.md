@@ -9,7 +9,7 @@ metaLinks:
 
 Ligar seus lasers pode ser divertido, mas é extremamente importante que você também consiga _pará-los_! O hardware e o software de laser geralmente são muito confiáveis, mas qualquer coisa pode falhar. E, nas raras vezes em que isso acontece, você vai agradecer muito por ter aquele botão de parada remota.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Botão de parada remota para um Laser Cube. O hardware mais importante que você tem.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Ferramentas elétricas e equipamentos pesados têm botões de parada que simplesmente interrompem a alimentação principal, mas você **nunca** deve fazer isso em equipamentos de laser! Os lasers sempre levam um momento para parar de emitir, e uma queda repentina de energia pode fazer os scanners do laser atingirem seus limites extremos. Então é bem provável que você tenha um feixe forte em lugares inesperados!

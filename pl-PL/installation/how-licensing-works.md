@@ -7,13 +7,13 @@ metaLinks:
 
 # ✅ Jak działa licencjonowanie
 
-Po zainstalowaniu Liberation na komputerze program będzie działać w _trybie demo_, dopóki go nie _autoryzujesz_.
+Po zainstalowaniu Liberation na komputerze program będzie działać w _trybie bezpłatnym_, dopóki go nie _autoryzujesz_.
 
 {% hint style="info" %}
-W _trybie demo_ nie ma żadnych ograniczeń poza wysyłaniem sygnału do sprzętu laserowego. Możesz ćwiczyć pokazy, tworzyć osie czasu oraz zapisywać i wczytywać pliki bez ograniczeń. Liberation możesz zainstalować w _trybie demo_ na dowolnej liczbie komputerów, a instalację musisz autoryzować dopiero wtedy, gdy chcesz użyć laserów!
+W _trybie bezpłatnym_ nie ma żadnych ograniczeń poza wysyłaniem sygnału do sprzętu laserowego. Możesz ćwiczyć pokazy, tworzyć osie czasu oraz zapisywać i wczytywać pliki bez ograniczeń. Liberation możesz zainstalować w _trybie bezpłatnym_ na dowolnej liczbie komputerów, a instalację musisz autoryzować dopiero wtedy, gdy chcesz użyć laserów!
 {% endhint %}
 
-Oprócz limitu laserów, które możesz przełączyć w stan armed, możesz także używać urządzeń DMX. Zobacz [Sterowanie DMX](../dmx-control/).
+Oprócz limitu laserów, które możesz przełączyć w stan armed, możesz także używać urządzeń DMX. Zobacz [Sterowanie DMX](../dmx-control/ "mention").
 
 Obowiązuje również limit liczby komputerów, na których możesz autoryzować Liberation, zależny od Twojego planu subskrypcji.
 
@@ -28,3 +28,5 @@ Każda licencja jest przeznaczona tylko dla jednego użytkownika i jednego pokaz
 Licencjonowanie i autoryzacja Liberation działają przez internet; aplikacja łączy się z naszym serwerem, aby powiązać instalację z Twoją subskrypcją.
 
 Po autoryzacji instalacja nie musi ponownie łączyć się z internetem aż do odnowienia subskrypcji. Datę odnowienia możesz sprawdzić w panelu _About_. Dostępny jest krótki okres karencji (7 dni dla subskrypcji miesięcznych), ale zalecamy połączenie z internetem jak najszybciej po dacie odnowienia, aby upewnić się, że autoryzacja zostanie odnowiona i pozostanie aktywna.
+
+Bieżący poziom licencji jest także widoczny na górnym pasku. Kliknij nazwę poziomu albo _FREE MODE_, gdy program nie ma licencji, aby otworzyć panel About.

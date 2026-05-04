@@ -59,15 +59,15 @@ Die kleinen Zahlen auf den Effekttasten beziehen sich auf _level_ und _parameter
 5. **Scale** :\
    Skaliert alles wiederholt von voll auf null. Der Parameter passt die Geschwindigkeit an.
 6. **Hue** :\
-   Ändert den Farbton von allem, verändert aber nicht die Sättigung (d. h. alles Weiße bleibt weiß). Der Parameter passt den Farbton an.
+Ändert den Farbton von allem, verändert aber nicht die Sättigung (d. h. alles Weiße bleibt weiß). Der Parameter passt den Farbton an.
 7. **Saturation and hue** :\
-   Ändert den Farbton von allem und sättigt die Farbe außerdem vollständig (d. h. alles Weiße wird zur jeweiligen Farbe). Der Parameter passt den Farbton an.
+Ändert den Farbton von allem und sättigt die Farbe außerdem vollständig (d. h. alles Weiße wird zur jeweiligen Farbe). Der Parameter passt den Farbton an.
 8. **Flash** :\
    Lässt die Helligkeit von allem wiederholt von voll auf null blinken. Der Parameter passt die Blinkgeschwindigkeit an.
 
 <figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-In der unteren Reihe gibt es weitere 16 Farbeffekte, mit denen du voreingestellte Hue- und Saturation-Werte anwenden kannst.
+In der unteren Reihe gibt es weitere 16 Farbeffekte, mit denen du voreingestellte Farbton- und Sättigungswerte anwenden kannst.
 
 Beachte, dass dies die Standard-Effekte sind, sie aber so bearbeitet werden können, dass sie fast alles tun, was du möchtest!
 

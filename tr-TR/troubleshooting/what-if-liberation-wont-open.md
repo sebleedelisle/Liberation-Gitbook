@@ -20,10 +20,10 @@ Neyse ki yerel ayarlarınızı sıfırlayarak bunu kolayca düzeltebilirsiniz. m
 
 #### Çalışma klasörünü nerede bulabilirsiniz?
 
-Liberation’ın her sürümünün kendi çalışma klasörü vardır. Örneğin 1.0.0 sürümünü çalıştırıyorsanız klasör adı 1.0.0 olur.
+Liberation’ın her sürümünün kendi çalışma klasörü vardır. Örneğin 1.0.3 sürümünü çalıştırıyorsanız klasör adı 1.0.3 olur.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Klasörü hızlıca açma**
 
@@ -35,7 +35,7 @@ Liberation’ın her sürümünün kendi çalışma klasörü vardır. Örneğin
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Sürüm numaranızla eşleşen klasörü açın; örneğin `1.0.0`.
+3. Sürüm numaranızla eşleşen klasörü açın; örneğin `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Liberation’ın her sürümünün kendi çalışma klasörü vardır. Örneğin
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Sürüm numaranızla eşleşen klasörü açın; örneğin `1.0.0`.
+2. Sürüm numaranızla eşleşen klasörü açın; örneğin `1.0.3`.
 
 > **Windows için ipucu**: Bunun yerine Dosya Gezgini ile göz atıyorsanız gizli öğeleri etkinleştirin: **Görünüm > Göster > Gizli öğeler**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 liberation klasörünün içinde `settings.json` adlı bir dosya bulmanız gerekir. Bu dosyayı silin.
 
-* **macOS örneği**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Windows örneği**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **macOS örneği**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Windows örneği**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Şimdi Liberation’ı başlatmayı deneyin. Açılırsa işlem tamamdır.
 
@@ -84,9 +84,9 @@ Liberation’ı tekrar başlatmayı deneyin. Şimdi normal şekilde açılıyors
 Adım 1 ve Adım 2 işe yaramadıysa:
 
 1. Sürüm klasörünün tamamını **yedekleyin**:
-   * macOS: `1.0.0` klasörüne sağ tıklayın ve zip oluşturmak için **Compress** seçeneğini seçin ya da Masaüstü gibi güvenli bir yere kopyalayın.
-   * Windows: `1.0.0` klasörüne sağ tıklayın ve **Send to > Compressed (zipped) folder** seçeneğini seçin ya da Masaüstü gibi güvenli bir yere kopyalayın.
-2. Yedek aldıktan sonra, özgün `1.0.0` klasörünü Liberation çalışma konumundan **silin**.
+* macOS: `1.0.3` klasörüne sağ tıklayın ve zip oluşturmak için **Compress** seçeneğini seçin ya da Masaüstü gibi güvenli bir yere kopyalayın.
+* Windows: `1.0.3` klasörüne sağ tıklayın ve **Send to > Compressed (zipped) folder** seçeneğini seçin ya da Masaüstü gibi güvenli bir yere kopyalayın.
+2. Yedek aldıktan sonra, özgün `1.0.3` klasörünü Liberation çalışma konumundan **silin**.
 3. Liberation’ı tekrar başlatın. Yeni bir çalışma klasörü otomatik olarak oluşturulur.
 
 Liberation şimdi açılıyorsa Adım 4’e geçin.
@@ -103,10 +103,10 @@ Adım 3’teki **yedeğinizi** henüz zip yapmadıysanız sıkıştırın, ardı
 * **Konu**: Liberation başlangıç düzeltmesi - çalışma klasörü yedeği
 * **Gövde**: Lütfen şunları ekleyin:
   * İşletim sistemi ve sürümü (örn. macOS 14.6 veya Windows 11 23H2)
-  * Liberation sürümü (örn. 1.0.0)
+* Liberation sürümü (örn. 1.0.3)
   * Varsa hangi adımın sorunu çözdüğü (Adım 1, Adım 2 veya Adım 3)
   * Sorun başlamadan önce ne olduğuna dair kısa bir açıklama
-* **Ek**: `1.0.0` çalışma klasörünüzün ziplenmiş yedeği.
+* **Ek**: `1.0.3` çalışma klasörünüzün ziplenmiş yedeği.
 
 > Zip dosyası e-posta için çok büyükse bir bulut sürücüsüne yükleyin ve bağlantı paylaşın.
 
@@ -127,5 +127,5 @@ Adım 3’teki **yedeğinizi** henüz zip yapmadıysanız sıkıştırın, ardı
 
 1. Sürüme ait çalışma klasörünüzdeki `data/liberation/settings.json` dosyasını silin.
 2. Bir Clip düzenliyorduysanız `data/liberation/clipEdit.json` dosyasını yedekleyin, ardından silin.
-3. Hâlâ açılmıyorsa `1.0.0` klasörünün (veya kendi sürüm klasörünüzün) tamamını yedekleyin, ardından silin.
+3. Hâlâ açılmıyorsa `1.0.3` klasörünün (veya kendi sürüm klasörünüzün) tamamını yedekleyin, ardından silin.
 4. Adım 3 sorunu çözerse (veya çözmezse), yedeği zipleyip işletim sisteminiz ve Liberation sürümünüzle birlikte [**info@liberationlaser.com**](mailto:info@liberationlaser.com) adresine gönderin.

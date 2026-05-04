@@ -1,8 +1,8 @@
 ---
 description: >-
-  Lasere kan være farlige, så det er vigtigt at følge bedste praksis og
-  sikkerhedsretningslinjer. Denne side giver et nyttigt overblik, som hjælper
-  dig gennem processen med at sætte lasere sikkert op.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-
@@ -15,7 +15,7 @@ metaLinks:
 
 Denne manual erstatter ikke formel træning i lasersikkerhed, som du helt sikkert skal have, før du bruger lasere offentligt. Nogle områder har yderligere lovkrav, men under alle omstændigheder bør du altid følge bedste praksis for sikkerhed og professionalisme.
 
-PLASA har en gratis laser-sikkerhedsvejledning, som kan downloades, og som generelt er accepteret som bedste praksis: [https://www.plasa.org/guidance-for-display-lasere/](https://www.plasa.org/guidance-for-display-lasere/)
+PLASA har en gratis laser-sikkerhedsvejledning, som kan downloades, og som generelt er accepteret som bedste praksis: [https://www.plasa.org/guidance-for-display-lasere/](https://www.plasa.org/guidance-for-display-lasers/)
 
 Sørg for, at du forstår de sikkerhedsmæssige konsekvenser ved brug af lasere, før du går i gang!
 

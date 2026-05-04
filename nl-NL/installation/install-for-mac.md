@@ -19,7 +19,7 @@ Je ziet dan deze pagina:
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klik op _Download latest for Mac_ (de versienummers veranderen na verloop van tijd). Het Liberation DMG-installatiebestand wordt dan opgeslagen in je downloadmap. Zoek het bestand en dubbelklik erop om het te openen.
+Klik op _Download latest for Mac_ (de versienummers veranderen na verloop van tijd). Het Liberation DMG-installatiebestand wordt dan opgeslagen in je Downloads-map. Zoek het bestand en dubbelklik erop om het te openen.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

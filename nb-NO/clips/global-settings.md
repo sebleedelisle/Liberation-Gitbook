@@ -16,7 +16,7 @@ Merk at Global Transformations ikke påvirker noe i Canvas, bare Beam- og DMX-so
 
 ### Scale X/Y
 
-Horisontal og vertikal skalering. Disse verdiene er låst sammen med mindre du holder inne `Shift`. Som standard er de også mappet til APC40 Device Control-knottene 4 og 8, og vises i panelet til høyre for Clip Deck.
+Horisontal og vertikal skalering. Disse verdiene er låst sammen med mindre du holder inne `Shift`. Som standard er de også mappet til APC40 Device Control-knottene 4 og 8, og vises i det kontekstuelle Parameters-panelet til høyre for Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Horisontal og vertikal forskyvning. Flytter alt horisontalt/vertikalt.
 
 ### Spin
 
-Spinner alt innhold rundt sentrum. En positiv verdi spinner med klokken, en negativ verdi spinner mot klokken. Du vil se at denne innstillingen påvirker transformasjonen _Rotation_. Som standard er den mappet til APC40 Device Control-knott 3, og vises i panelet til høyre for Clip Deck.
+Spinner alt innhold rundt sentrum. En positiv verdi spinner med klokken, en negativ verdi spinner mot klokken. Du vil se at denne innstillingen påvirker transformasjonen _Rotation_. Som standard er den mappet til APC40 Device Control-knott 3, og vises i det kontekstuelle Parameters-panelet til høyre for Clip Deck.
 
 ### Spin 3D
 
-Spinner alt innhold rundt Y-aksen (som er en vertikal linje i sentrum). Du vil se at denne innstillingen påvirker transformasjonen _Rotation3D_. Som standard er den mappet til APC40 Device Control-knott 7, og vises i panelet til høyre for Clip Deck.
+Spinner alt innhold rundt Y-aksen (som er en vertikal linje i sentrum). Du vil se at denne innstillingen påvirker transformasjonen _Rotation3D_. Som standard er den mappet til APC40 Device Control-knott 7, og vises i det kontekstuelle Parameters-panelet til høyre for Clip Deck.
 
 ### Rotation
 

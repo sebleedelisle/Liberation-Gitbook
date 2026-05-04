@@ -8,7 +8,7 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
-1. Clipdeck 8x5
+1. Clip Deck 8x5
 2. Zone On/Off
 3. Effects 1-8 On/Off
 4. Zone X/Y Flip
@@ -18,8 +18,8 @@ metaLinks:
 8. Ajuste de parâmetros dos efeitos 1-8
 9. Group Buttons
 10. Stop All Clips (pressione duas vezes para parar imediatamente todos os clips sem usar as configurações de fade)
-11. Rolagem do Clipdeck
-12. Parâmetros do Clip / globais
+11. Rolagem do Clip Deck
+12. Controles do painel Contextual Parameters
 13. Clip Page Left/Right
 14. Zone Page Left/Right
 15. Botão Alt (permite selecionar clips)
@@ -35,3 +35,5 @@ metaLinks:
 25. Ajuste fino de tempo + e -
 26. Rolagem de tempo
 27. Pedal, Tap Tempo
+
+Os knobs Device Control seguem os mesmos parâmetros contextuais exibidos no painel Parameters na tela. Com um Clip selecionado, eles controlam o deslocamento do Clip, o atraso da zone, o giro global e a escala global. Se um botão de grupo for mantido pressionado, os primeiros controles passam a controlar os tempos de fade in e fade out desse grupo.

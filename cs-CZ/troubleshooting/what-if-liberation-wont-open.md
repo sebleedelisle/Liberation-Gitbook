@@ -20,10 +20,10 @@ Naštěstí se to dá snadno opravit resetováním místních nastavení. Níže
 
 #### Kde najít pracovní složku
 
-Každá verze Liberation má vlastní pracovní složku. Pokud například používáte verzi 1.0.0, název složky bude 1.0.0.
+Každá verze Liberation má vlastní pracovní složku. Pokud například používáte verzi 1.0.3, název složky bude 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Jak složku rychle otevřít**
 
@@ -35,7 +35,7 @@ Každá verze Liberation má vlastní pracovní složku. Pokud například použ
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Otevřete složku, která odpovídá číslu vaší verze, například `1.0.0`.
+3. Otevřete složku, která odpovídá číslu vaší verze, například `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Každá verze Liberation má vlastní pracovní složku. Pokud například použ
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Otevřete složku, která odpovídá číslu vaší verze, například `1.0.0`.
+2. Otevřete složku, která odpovídá číslu vaší verze, například `1.0.3`.
 
 > **Tip pro Windows**: Pokud složku procházíte přes Průzkumníka souborů, zapněte skryté položky: **Zobrazení > Zobrazit > Skryté položky**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 Ve složce liberation by měl být soubor s názvem `settings.json`. Tento soubor smažte.
 
-* **Příklad pro macOS**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Příklad pro Windows**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **Příklad pro macOS**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Příklad pro Windows**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Teď zkuste Liberation spustit. Pokud se otevře, máte hotovo.
 
@@ -84,9 +84,9 @@ Zkuste Liberation spustit znovu. Pokud se teď otevře normálně, pošlete nám
 Pokud Krok 1 ani Krok 2 nepomohl:
 
 1. **Zálohujte** celou složku verze:
-   * macOS: Klikněte pravým tlačítkem na složku `1.0.0` a zvolte **Compress**, čímž vytvoříte zip, nebo ji zkopírujte na bezpečné místo, například na plochu.
-   * Windows: Klikněte pravým tlačítkem na složku `1.0.0` a zvolte **Send to > Compressed (zipped) folder**, nebo ji zkopírujte na bezpečné místo, například na plochu.
-2. Po vytvoření zálohy **smažte** původní složku `1.0.0` z pracovního umístění Liberation.
+* macOS: Klikněte pravým tlačítkem na složku `1.0.3` a zvolte **Compress**, čímž vytvoříte zip, nebo ji zkopírujte na bezpečné místo, například na plochu.
+* Windows: Klikněte pravým tlačítkem na složku `1.0.3` a zvolte **Send to > Compressed (zipped) folder**, nebo ji zkopírujte na bezpečné místo, například na plochu.
+2. Po vytvoření zálohy **smažte** původní složku `1.0.3` z pracovního umístění Liberation.
 3. Spusťte Liberation znovu. Vytvoří si novou čistou pracovní složku.
 
 Pokud se Liberation teď otevře, pokračujte na Krok 4.
@@ -103,10 +103,10 @@ Pokud jste svou **zálohu** z Kroku 3 ještě nezazipovali, zazipujte ji a pošl
 * **Předmět**: Oprava spuštění Liberation – záloha pracovní složky
 * **Text zprávy**: Uveďte prosím:
   * Operační systém a verzi (např. macOS 14.6 nebo Windows 11 23H2)
-  * Verzi Liberation (např. 1.0.0)
+* Verzi Liberation (např. 1.0.3)
   * Který krok problém vyřešil, pokud některý (Krok 1, Krok 2 nebo Krok 3)
   * Stručný popis toho, co se stalo před začátkem problému
-* **Příloha**: zazipovaná záloha vaší pracovní složky `1.0.0`.
+* **Příloha**: zazipovaná záloha vaší pracovní složky `1.0.3`.
 
 > Pokud je zip pro e-mail příliš velký, nahrajte ho na cloudové úložiště a sdílejte odkaz.
 
@@ -127,5 +127,5 @@ Pokud se Liberation po smazání pracovní složky stále neotevře:
 
 1. Smažte `data/liberation/settings.json` ve své verzované pracovní složce.
 2. Pokud jste upravovali některý Clip, zálohujte a potom smažte `data/liberation/clipEdit.json`.
-3. Pokud se Liberation stále neotevře, zálohujte a potom smažte celou složku `1.0.0` (nebo složku své verze).
+3. Pokud se Liberation stále neotevře, zálohujte a potom smažte celou složku `1.0.3` (nebo složku své verze).
 4. Pokud Krok 3 problém vyřeší (nebo i pokud ne), zazipujte zálohu a pošlete ji na [**info@liberationlaser.com**](mailto:info@liberationlaser.com) spolu s informací o operačním systému a verzi Liberation.

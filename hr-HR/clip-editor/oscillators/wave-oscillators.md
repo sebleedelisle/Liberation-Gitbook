@@ -52,7 +52,7 @@ Koncept _clamp_ prilično je teško objasniti, ali zamislite da valni oblik izla
 
 * **ease function** - pilasti i trokutasti val također imaju ease function, koja suptilno mijenja krivulju animacije i može animacije učiniti mnogo izražajnijima!
   * **LINEAR** - zadano, bez easing efekta; samo se linearno pomiče između minimalne i maksimalne vrijednosti.
-  * **EASE OUT** - počinje brzo, a zatim usporava kako se približava kraju. Vrlo dobro za simulaciju fizike, npr. usporavanje do zaustavljanja.
+* **EASE OUT** - počinje brzo, a zatim usporava kako se približava kraju. Vrlo dobro za simulaciju fizike, npr. usporavanje do zaustavljanja.
   * **EASE IN** - počinje polako i postupno ubrzava. Dobro za simulaciju nakupljanja zamaha.
   * **EASE IN/OUT** - kombinacija oba pristupa, s vrlo organskim kretanjem.
 

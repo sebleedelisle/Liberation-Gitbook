@@ -19,7 +19,7 @@ Näet tämän sivun:
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Napsauta _Download latest for Mac_ (versionumerot muuttuvat ajan myötä), ja Liberationin DMG-asennustiedosto tallennetaan latauskansioosi. Etsi tiedosto ja avaa se kaksoisnapsauttamalla.
+Napsauta _Download latest for Mac_ (versionumerot muuttuvat ajan myötä), ja Liberationin DMG-asennustiedosto tallennetaan Lataukset-kansioosi. Etsi tiedosto ja avaa se kaksoisnapsauttamalla.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

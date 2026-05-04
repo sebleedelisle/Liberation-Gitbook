@@ -9,7 +9,7 @@ metaLinks:
 
 レーザーの電源を入れるのは楽しいものですが、同じくらい、いやそれ以上に重要なのは、レーザーを_停止_できることです。レーザーハードウェアとソフトウェアは一般的に非常に信頼性が高いものの、どんなものでも故障する可能性はあります。万一そのような事態が起きたとき、リモート停止ボタンがあることに心から感謝するはずです。
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Laser Cube 用のリモート停止ボタン。所有するハードウェアの中で最も重要なものです。</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 電動工具や重機には、主電源を遮断するだけの停止ボタンがありますが、レーザー機器ではこれを**絶対に行わないでください**。レーザーは発光を停止するまでに必ずわずかな時間がかかります。また、突然電源が落ちると、レーザースキャナーが可動範囲の端まで振り切れることがあります。その結果、予期しない場所に強いビームが出る可能性があります。

@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/masks
+---
+
 # 🟩 Masks
 
 {% hint style="danger" %}

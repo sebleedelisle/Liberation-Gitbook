@@ -24,7 +24,7 @@ Nếu bạn bắt đầu một Clip mới (trong cùng một nhóm), Clip đầu
 * Nhấn phím `Shift` (hoặc nút Shift trên APC40) trong khi bắt đầu Clip mới; hoặc
 * Nhấn lại Clip/những Clip đang chạy trong khi bạn bắt đầu Clip mới.
 
-Các nhóm Clip hoạt động độc lập với nhau, vì vậy bắt đầu một Clip trong một nhóm sẽ không ảnh hưởng đến Clip trong các nhóm khác. Xem [Nhóm](groups.md)
+Các nhóm Clip hoạt động độc lập với nhau, vì vậy bắt đầu một Clip trong một nhóm sẽ không ảnh hưởng đến Clip trong các nhóm khác. Xem [Nhóm](groups.md "mention")
 
 ### Chế độ flash
 

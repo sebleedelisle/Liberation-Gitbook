@@ -14,7 +14,13 @@ Altere o tamanho de saída do Clip usando _Scale X_ e _Scale Y_. Eles ficam vinc
 
 Altere a posição horizontal e vertical do Clip usando _Shift X_ e _Shift Y_.
 
-_Zone Delay/Chase_ é um recurso tão divertido que ganhou uma seção própria. [Zone delay / chase](zone-delay-chase.md)
+_Zone Delay/Chase_ é um recurso tão divertido que ganhou uma seção própria. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Painel Parameters
+
+O painel à direita do Clip Deck mostra oito parâmetros contextuais. Com um Clip selecionado, os primeiros controles são _Shift X_, _Shift Y_ e _Zone Delay_ do Clip selecionado, seguidos pelos controles globais _Spin_ e _Scale_.
+
+Esses mesmos parâmetros são espelhados para controladores MIDI compatíveis. Se nenhum Clip estiver selecionado, os espaços específicos de Clip ficam em branco. Se você mantiver pressionado um botão de grupo, os dois primeiros controles mudam para os tempos de fade in e fade out desse grupo.
 
 ### Bloqueio de Clips
 
@@ -27,9 +33,9 @@ Se um Clip estiver bloqueado, ele não pode ser movido nem excluído. Para bloqu
 
 ### Menu de clique com o botão direito
 
-Se você clicar com o botão direito em um Clip, aparecerá um menu com algumas opções para esse Clip. Consulte [Introdução ao Clip Editor](../clip-editor/clip-editor-intro.md), [Configurações do Clip](clip-settings.md) e [Grupos de Clip](groups.md) para saber mais sobre os primeiros itens desse menu.
+Se você clicar com o botão direito em um Clip, aparecerá um menu com algumas opções para esse Clip. Consulte [Introdução ao Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Configurações do Clip](clip-settings.md "mention") e [Grupos de Clip](groups.md "mention") para saber mais sobre os primeiros itens desse menu.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>O menu de clique com o botão direito de Clip settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 

@@ -26,7 +26,7 @@ A randomise node a Randomise effekt alapja!
 
 Visszhangokat hoz létre a tartalomból: az eredeti mögött elhalványuló vagy átméretezett másolatokat hagy, miközben az mozog.
 
-* **change render profile for trail** – ha be van kapcsolva, minden trail másolat a kiválasztott **render profile** beállítást használja. _Lásd:_ [Render profile](../fundamentals/render-profile.md).
+* **change render profile for trail** – ha be van kapcsolva, minden trail másolat a kiválasztott **render profile** beállítást használja. _Lásd:_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – az a profil, amelyet a trail másolatok használnak, ha a fenti kapcsoló be van kapcsolva. Gyakori használat, hogy a fő tartalom **DETAIL** módban van, a visszhangok pedig **FAST** módban renderelődnek. Így a fő alakzatok részletesek maradnak, a trail-ek renderelése pedig hatékonyabb.
 * **delay** – a trail másolatok közti távolságot állítja be zenei időben, **1/64 hangjegyes lépésekben** mérve.\
   Tájékoztatásként:
@@ -36,6 +36,7 @@ Visszhangokat hoz létre a tartalomból: az eredeti mögött elhalványuló vagy
   * 128 = 1/2 ütem (fél)
   * 256 = 1 ütem
 * **trail size** – hány trail másolat rajzolódjon ki az élő tartalom mögött.
+* **prefill trails** – a Clip indulásakor azonnal feltölti a trail előzményeket, ahelyett hogy megvárná, amíg az echók az első néhány ütem alatt felépülnek.
 * **freeze trails** – a folyamatosan áramló trail-eket rögzített pillanatképek sorozatává alakítja. Hasznos staccato jellegű, ütemhez szinkronizált trail effektekhez.
 * **brightness start / brightness end** – a fényerőt a trail mentén alkalmazza a legfrissebb másolattól (**start**) a legrégebbi másolatig (**end**). Általában a **brightness start** 100%, a **brightness end** pedig 0%, így a visszhangok fokozatosan elhalványulnak.
 * **scale start / scale end** – a méretezést a trail mentén alkalmazza a legfrissebb másolattól (start) a legrégebbi másolatig (end). Ha azt szeretné, hogy a trail-ek eltűnésig zsugorodjanak, állítsa a **scale start** értékét 100%-ra, a **scale end** értékét pedig 0%-ra.
@@ -84,7 +85,7 @@ A Liberation **Euler angles** értékeket használ a 3D térbeli orientáció le
 
 * **X** – előre/hátra billentés (mint amikor bólint)
 * **Y** – balra/jobbra fordítás (mint amikor „nem”-et int a fejével)
-* **Z** – görgetés az óramutató járásával megegyező/ellentétes irányba (mint amikor oldalra billenti a fejét)
+* **Z** – forgatás az óramutató járásával megegyező/ellentétes irányba (mint amikor oldalra billented a fejed)
 
 E három érték módosításával a részecskéket bármilyen irányba állíthatja.
 {% endhint %}

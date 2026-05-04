@@ -8,7 +8,7 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
-1. 8x5 Clipdeck
+1. 8x5 Clip Deck
 2. Zone On/Off
 3. Effects 1-8 On/Off
 4. Zone X/Y Flip
@@ -18,8 +18,8 @@ metaLinks:
 8. Parameterjustering för Effect 1-8
 9. Group Buttons
 10. Stop All Clips (tryck två gånger för att omedelbart stoppa alla clips utan deras fade-inställningar)
-11. Clipdeck Scroll
-12. Clip / globala parametrar
+11. Clip Deck Scroll
+12. Reglage för den kontextuella Parameters-panelen
 13. Clip Page Left/Right
 14. Zone Page Left/Right
 15. Alt-knapp (möjliggör val av clip)
@@ -35,3 +35,5 @@ metaLinks:
 25. Nudge tempo + och -
 26. Tempo Scroll
 27. Foot Pedal, Tap Tempo
+
+Device Control-rattarna följer samma kontextuella parametrar som visas i Parameters-panelen på skärmen. När en Clip är vald styr de clip shift, zone delay, global spin och global scale. Om en gruppknapp hålls ned växlar de första reglagen till gruppens tider för fade in och fade out.

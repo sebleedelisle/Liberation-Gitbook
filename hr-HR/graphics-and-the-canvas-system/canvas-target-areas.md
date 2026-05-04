@@ -17,7 +17,7 @@ Ponekad ćete možda htjeti više ciljnih područja Canvas za različite dijelov
 
 ### Slanje Clips u ciljna područja Canvas
 
-Ako pogledate u Clip Deck, uz gumbe za beam zone vidjet ćete i gumbe za ciljna područja Canvas. Možda ćete morati pomaknuti gumbe Output kako biste ih vidjeli; upotrijebite `Shift + Left / Right Arrow`, gumbe ZONE PAGE na zaslonu ili gumbe na APC40 (pogledajte [APC40 referenca](../reference/apc40-reference.md))
+Ako pogledate u Clip Deck, uz gumbe za beam zone vidjet ćete i gumbe za ciljna područja Canvas. Možda ćete morati pomaknuti gumbe Output kako biste ih vidjeli; upotrijebite `Shift + Left / Right Arrow`, gumbe ZONE PAGE na zaslonu ili gumbe na APC40 (pogledajte [APC40 referenca](../reference/apc40-reference.md "mention"))
 
 Dodijelite Clips ciljnim područjima Canvas uključivanjem ili isključivanjem ovih gumba na potpuno isti način kao i kod gumba za beam zone.
 

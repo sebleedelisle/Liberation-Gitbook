@@ -1,8 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/operator-nodes/position-based-changers
+---
+
 # 🟩 基于位置的变换
 
 这一类 nodes 会根据位置来修改内容。默认效果沿水平轴（从左到右）应用，但你可以将该轴旋转到任意角度。每个 node 还包含 _radial_ 模式，效果由点相对于中心的角度驱动。
 
-* **Colour Changer by Position** – 沿所选轴或径向角度改变颜色。\
+* **Colour Changer by Position** – 沿所选轴或围绕径向角度应用渐变。\
   _示例：让彩虹渐变沿线扫过，或在圆形上使用径向模式形成色环。_
 * **Wave Shift by Position** – 应用正弦波形扭曲，使内容在垂直方向（或所选轴的垂直方向）偏移。\
   _示例：让线条像水面一样起伏，或使用径向模式让圆形从中心向外脉动。_
@@ -22,6 +29,7 @@
 * **linear angle** – 旋转效果轴，0° 为水平。
 * **radial** – 切换到径向模式，根据角度应用颜色。
 * **radial smooth loop** – 自动调整 wavelength 以整除圆周的 100%，避免循环处出现明显接缝。
+* **legacy mode** – 切换回较旧的起始/结束 HSB 滑块。保持关闭即可使用较新的渐变编辑器。
 
 **Colour Modes**
 
@@ -39,17 +47,32 @@
   * _FIXED_ – brightness 固定为指定值。
   * _MULTIPLY_ – brightness 与指定值相乘，保留动态（例如闪烁仍闪烁，但亮度受限制）。
 
-**Start / End Values**
+**Gradient editor**
 
-这些滑块定义所选轴（或径向扫过）的颜色范围。
+使用与 [Colour Changer](colour-changer.md "mention") 相同的渐变编辑器，但会按位置将渐变映射到内容上。
 
-* **start hue** – 渐变起点的 hue。
-* **end hue** – 渐变终点的 hue。
-* **start saturation** – 起点 saturation。
-* **end saturation** – 终点 saturation。
-* **start brightness** – 起点 brightness。
-* **end brightness** – 终点 brightness。
+* 点击渐变条可添加一个颜色停止点。
+* 左键点击停止点将其选中，然后横向拖动即可移动。
+* 将选中的停止点向下拖离渐变条，或按 Delete/Backspace，即可删除。渐变始终至少保留两个停止点。
+* 右键点击停止点，可使用颜色选择器编辑。
+* 使用 **Position**、**Hue**、**Saturation** 和 **Brightness** 精确编辑所选停止点。
+* **interpolation** 用于选择停止点之间的颜色混合方式：
+* **HSB** – 混合 hue、saturation 和 brightness。最适合在色相环上实现平滑的彩虹式变化。
+* **RGB** – 直接混合红、绿、蓝数值。通常更像屏幕或灯光控制台中的颜色淡变。
+* **NONE** – 从一个停止点直接跳到下一个停止点，不进行混合。
+* **hue direction** 在 HSB 插值模式下可用：
+* **AUTO** – 沿色相环选择最短路径。
+* **FORWARDS** – 始终按 hue 数值的正向前进。
+* **BACKWARDS** – 始终按 hue 数值的反向前进。
 * **blend** – 将颜色变化与原始颜色混合。100% 时完全替换原色。
+
+**旧版起始/结束值**
+
+如果开启 **legacy mode**，渐变编辑器会替换为较旧的控件：
+
+* **start hue / end hue** – 范围起点和终点的 hue。
+* **start saturation / end saturation** – 范围起点和终点的 saturation。
+* **start brightness / end brightness** – 范围起点和终点的 brightness。
 
 **示例 1：滑动彩虹渐变**
 
@@ -57,7 +80,7 @@
 
 1. 保持 **Linear** 模式（0° = 水平）。
 2. **wavelength** 设为 100%（覆盖全宽，默认值）。
-3. 保持起始/结束值为默认。
+3. 保持默认渐变不变。
 4. 启用 **repeat**。
 5. 将 **Sawtooth Oscillator** 连接到 **offset**，范围设为 0% 到 100%。
 
@@ -70,13 +93,12 @@
 1. 保持 **Linear** 模式（0° = 水平）。
 2. **wavelength** 设为 100%（覆盖全宽，默认值）。
 3. 关闭 **repeat**。
-4. **start brightness** 设为 0（黑）。
-5. **end brightness** 设为 100（白）。
-6. **start saturation** 与 **end saturation** 设为 0（转为灰度）。
-7. **hue mode** 设为 OFF。
-8. **saturation mode** 设为 FIXED。
-9. **brightness mode** 设为 FIXED。
-10. 启用 **pingpong**。
+4. 将第一个渐变停止点设为黑色。
+5. 将最后一个渐变停止点设为白色。
+6. 将 **hue mode** 设为 OFF。
+7. 如果要强制结果为灰度，请将 **saturation mode** 设为 FIXED。
+8. 将 **brightness mode** 设为 FIXED。
+9. 启用 **pingpong**。
 
 _结果：渐变从黑到白，再从白回黑。_\
 注意：如果想保留原有 hue 与 saturation，请关闭 Saturation mode。
@@ -120,5 +142,6 @@ _结果：无缝旋转的色轮。_
 * **Depth Offset** – 在 3D 噪声场中移动，产生时间变化。用 Oscillator Node 动画化时效果尤佳。
 * **Depth Detail** – 控制深度维度上的变化细节。
 * **Absolute** – 取噪声绝对值，将负值折叠为正值（产生单向位移）。
+* **Angle** – 在线性模式下旋转噪声的轴向。0° = 水平。
 * **Radial** – 切换为径向模式，根据角度位移。
 * **Radial Smooth Loop** – 调整 wavelength 使其整除圆周的 100%，避免径向模式的可见接缝。

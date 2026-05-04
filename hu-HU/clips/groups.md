@@ -33,7 +33,7 @@ A _group_ gomb aktiválása:
 * Tartsd lenyomva a _group_ gombot az APC40-en
 * Kattints az egérrel a képernyőn lévő _group_ gombra. Az újbóli kattintással kikapcsolhatod.
 
-Könnyen hozzárendelhetsz clipeket a csoporthoz: nyomd meg őket, amíg a _group_ gomb aktív. (Csoportot a clip jobb kattintásos menüjében is hozzárendelhetsz.)
+Könnyen hozzárendelhetsz Clip elemeket a csoporthoz: nyomd meg őket, amíg a _group_ gomb aktív. (Csoportot a Clip jobb kattintásos menüjében is hozzárendelhetsz.)
 
 ### Zónabeállítások módosítása egy csoport összes clipjénél
 

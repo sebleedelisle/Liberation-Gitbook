@@ -9,7 +9,7 @@ metaLinks:
 
 قد يكون تشغيل أجهزة الليزر ممتعًا، لكن من المهم جدًا أن تتمكن أيضًا من _إيقافها_! تكون أجهزة الليزر وبرامجها موثوقة جدًا في العادة، لكن أي شيء قد يتعطل. وفي تلك الحالات النادرة، ستكون ممتنًا جدًا لوجود زر الإيقاف عن بُعد.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>زر الإيقاف عن بُعد لجهاز LaserCube. أهم قطعة عتاد تملكها.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 تحتوي الأدوات الكهربائية والمعدات الثقيلة على أزرار إيقاف تقطع مصدر الطاقة الرئيسي مباشرة، لكن يجب **ألا** تفعل ذلك أبدًا مع معدات الليزر! سيستغرق الليزر دائمًا لحظة قبل أن يتوقف عن الإرسال، وقد يؤدي انقطاع الطاقة المفاجئ إلى دفع ماسحات الليزر إلى حدود حركتها القصوى. لذلك من المحتمل أن تحصل على شعاع قوي في أماكن غير متوقعة!

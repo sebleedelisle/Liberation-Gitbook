@@ -15,7 +15,7 @@ Alt zone-systemet lar deg opprette en alternativ sone for en eksisterende sone, 
 
 ### Legge til en alternativ sone
 
-I Output-visningen høyreklikker du på en sone og klikker på _ADD ALT ZONE_. Legg merke til at en ny grønn sone vises. Du kan redigere og justere denne på nøyaktig samme måte som de andre sonene dine. Du må aktivere Alt zones i den øverste ikonlinjen for å se testmønstrene.
+I Output view høyreklikker du på en zone og klikker på _ADD ALT ZONE_. Legg merke til at en ny grønn zone vises. Du kan redigere og justere denne på nøyaktig samme måte som de andre zones. Du må aktivere Alt zones i den øverste ikonlinjen for å se testmønstrene.
 
 ### Bytte til Alt zones
 
@@ -23,4 +23,4 @@ Så snart du legger til en alt zone, vises en veksleknapp i den øverste ikonlin
 
 ### Slik deaktiverer du en sone i stedet for å flytte den
 
-Legg til en Alt zone, høyreklikk på den og klikk på knappen _Disable output_ (sirkel med en strek gjennom). Når du nå aktiverer Alt zones, blir innholdet omdirigert til denne alternative sonen, som nå er deaktivert.
+Legg til en Alt zone, høyreklikk på den og klikk på knappen _Disable output_ (sirkel med en strek gjennom). Når du nå aktiverer Alt zones, blir innholdet omdirigert til denne alternative zonen, som nå er deaktivert.

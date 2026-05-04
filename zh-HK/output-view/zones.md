@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones（區域）
 
-在大部分項目中，你最常使用的 zone 類型是 _Beam zone_。這種 zone 是為空氣中的大氣光束效果而設計。另一種 zone 是 _Canvas zone_（請參閱[圖形與 Canvas 系統](../graphics-and-the-canvas-system/)）。
+在大部分項目中，你最常使用的 zone 類型是 _Beam zone_。這種 zone 是為空氣中的大氣光束效果而設計。另一種 zone 是 _Canvas zone_（請參閱[圖形與 Canvas 系統](../graphics-and-the-canvas-system/ "mention")）。
 
 {% hint style="danger" %}
-**警告 - Laser 運行時移動 zone 必須極度小心**，並將亮度調到最低。關於如何安全啟用 laser 及設定 zone，請參閱[設定 Laser](../setting-up/setting-up-lasers.md)的完整指南。
+**警告 - Laser 運行時移動 zone 必須極度小心**，並將亮度調到最低。關於如何安全啟用 laser 及設定 zone，請參閱[設定 Laser](../setting-up/setting-up-lasers.md "mention")的完整指南。
 {% endhint %}
 
 你可以用滑鼠點擊並拖曳 zone。開啟測試圖案即可查看該 zone 的投射位置。
@@ -19,16 +19,16 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-小貼士：你可以快速將 zone 設定複製到多部 laser！請參閱[複製 Laser 設定](../setting-up/copy-laser-settings.md)
+小貼士：你可以快速將 zone 設定複製到多部 laser！請參閱[複製 Laser 設定](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### 新增 beam zone
 
-點擊工具列頂部的 _Add a new beam zone_ 按鈕，新的 zone 便會出現。請注意，beam zone 會按新增次序排序，但你可以重新排列它們。請參閱[重新排序 Beam zone](re-ordering-beam-zones.md)
+點擊工具列頂部的 _Add a new beam zone_ 按鈕，新的 zone 便會出現。請注意，beam zone 會按新增次序排序，但你可以重新排列它們。請參閱[重新排序 Beam zone](re-ordering-beam-zones.md "mention")
 
 ### 新增現有 canvas zone
 
-點擊 _Add existing canvas zone_ 按鈕後，你會看到可用的 canvas zone 清單，並可為這部 laser 開啟或關閉它們。請參閱[圖形與 Canvas 系統](../graphics-and-the-canvas-system/)
+點擊 _Add existing canvas zone_ 按鈕後，你會看到可用的 canvas zone 清單，並可為這部 laser 開啟或關閉它們。請參閱[圖形與 Canvas 系統](../graphics-and-the-canvas-system/ "mention")
 
 ### Zone 形狀類型
 
@@ -47,7 +47,7 @@ Zone 形狀共有 3 種：
 * 重設為預設位置
 * 存取該形狀類型專用的設定
 * 刪除它
-* 新增 _Alt Zone_（請參閱[Alt Zone 系統](alt-zone-system.md)）
+* 新增 _Alt Zone_（請參閱[Alt Zone 系統](alt-zone-system.md "mention")）
 
 {% hint style="danger" %}
 **警告 -** Laser 啟用時更改 zone 類型必須非常小心。Zone 會回到該形狀上一次的位置／大小，因此輸出可能會突然改變。最好先關閉 laser，才更改 zone 類型。

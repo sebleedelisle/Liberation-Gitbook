@@ -9,7 +9,7 @@ metaLinks:
 
 Ta grupa węzłów modyfikuje zawartość na podstawie pozycji. Domyślnie efekt jest stosowany wzdłuż osi poziomej (od lewej do prawej), ale możesz obrócić tę oś pod dowolnym kątem. Każdy węzeł zawiera też tryb _radial_, w którym efekt zależy od kąta każdego punktu względem środka.
 
-* **Colour Changer by Position** – przesuwa kolory wzdłuż wybranej osi lub wokół kąta radialnego.\
+* **Colour Changer by Position** – stosuje gradient wzdłuż wybranej osi lub wokół kąta radialnego.\
   \&#xNAN;_Przykład: utwórz tęczowy gradient przesuwający się po linii albo użyj trybu radial na okręgu, aby uzyskać efekt koła barw._
 * **Wave Shift by Position** – stosuje zniekształcenie falą sinusoidalną, przesuwając zawartość pionowo (lub prostopadle do wybranej osi).\
   \&#xNAN;_Przykład: spraw, aby linia falowała jak woda, albo użyj trybu radial, aby okrąg pulsował na zewnątrz od środka._
@@ -29,10 +29,11 @@ Ten węzeł stosuje zmiany koloru w zawartości na podstawie pozycji. Domyślnie
 * **linear angle** – obraca oś efektu. 0° = poziomo.
 * **radial** – przełącza w tryb radial, stosując kolory na podstawie kąta od środka.
 * **radial smooth loop** – automatycznie dostosowuje wavelength tak, aby równo dzieliła 100% okręgu, zapobiegając widocznemu szwowi w miejscu zapętlenia cyklu.
+* **legacy mode** – przełącza na starsze suwaki HSB dla początku i końca. Zostaw tę opcję wyłączoną, aby używać nowszego edytora gradientu.
 
 **Tryby koloru**
 
-Określają, które aspekty korekcji koloru są stosowane do zawartości. Zobacz też: [Ustawienia koloru i HSB](../fundamentals/colour-settings-and-hsb.md).
+Określają, które aspekty korekcji koloru są stosowane do zawartości. Zobacz też: [Ustawienia koloru i HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – odcień pozostaje bez zmian.
@@ -46,17 +47,32 @@ Określają, które aspekty korekcji koloru są stosowane do zawartości. Zobacz
   * _FIXED_ – jasność jest ustawiana na określoną wartość.
   * _MULTIPLY_ – jasność jest skalowana określoną wartością. Zachowuje to dynamikę (np. migające elementy nadal migają, ale w ograniczonym zakresie jasności).
 
-**Wartości Start / End**
+**Edytor gradientu**
 
-Te suwaki definiują zakres koloru stosowany wzdłuż wybranej osi (lub przejścia radialnego).
+Używa tego samego edytora gradientu co [Colour Changer](colour-changer.md "mention"), ale mapuje gradient na zawartość według położenia.
 
-* **start hue** – odcień na początku gradientu.
-* **end hue** – odcień na końcu gradientu.
-* **start saturation** – nasycenie na początku.
-* **end saturation** – nasycenie na końcu.
-* **start brightness** – jasność na początku.
-* **end brightness** – jasność na końcu.
+* Kliknij pasek gradientu, aby dodać punkt koloru.
+* Kliknij punkt lewym przyciskiem myszy, aby go zaznaczyć, a następnie przeciągnij go na boki, aby go przesunąć.
+* Aby usunąć punkt, przeciągnij zaznaczony punkt w dół, z dala od paska, albo naciśnij Delete/Backspace. Gradient zawsze zachowuje co najmniej dwa punkty.
+* Kliknij punkt prawym przyciskiem myszy, aby edytować go za pomocą selektora koloru.
+* Użyj **Position**, **Hue**, **Saturation** i **Brightness**, aby precyzyjnie edytować zaznaczony punkt.
+* **interpolation** określa, jak kolory są mieszane między punktami:
+* **HSB** – miesza odcień, nasycenie i jasność. To najlepszy wybór do płynnego ruchu w stylu tęczy wokół koła barw.
+* **RGB** – miesza bezpośrednio wartości czerwonego, zielonego i niebieskiego. Często daje efekt bardziej podobny do przejścia kolorów na ekranie lub konsolecie oświetleniowej.
+* **NONE** – przechodzi skokowo z jednego punktu do następnego, bez mieszania.
+* **hue direction** jest dostępne przy interpolacji HSB:
+* **AUTO** – wybiera najkrótszą drogę po kole odcieni.
+* **FORWARDS** – zawsze przechodzi do przodu przez wartości odcienia.
+* **BACKWARDS** – zawsze przechodzi do tyłu przez wartości odcienia.
 * **blend** – miesza zmianę koloru z oryginalnymi kolorami. Przy 100% efekt całkowicie zastępuje oryginalne kolory.
+
+**Starsze wartości początku i końca**
+
+Jeśli **legacy mode** jest włączone, edytor gradientu zostaje zastąpiony starszymi kontrolkami:
+
+* **start hue / end hue** – odcień na początku i końcu zakresu.
+* **start saturation / end saturation** – nasycenie na początku i końcu zakresu.
+* **start brightness / end brightness** – jasność na początku i końcu zakresu.
 
 **Przykład 1: Przesuwający się tęczowy gradient**
 
@@ -64,7 +80,7 @@ Zaczynając od ustawień domyślnych:
 
 1. Pozostaw węzeł w trybie **Linear** (kąt 0° = poziomo).
 2. Pozostaw **wavelength** na 100% (obejmuje całą szerokość i powinno to być ustawienie domyślne).
-3. Pozostaw wartości początkowe i końcowe bez zmian.
+3. Pozostaw domyślny gradient bez zmian.
 4. Włącz **repeat**.
 5. Dodaj **Sawtooth Oscillator** do ustawienia **offset**, tak aby przechodził od 0% do 100%.
 
@@ -77,13 +93,12 @@ Zaczynając od ustawień domyślnych:
 1. Pozostaw węzeł w trybie **Linear** (kąt 0° = poziomo).
 2. Pozostaw **wavelength** na 100% (obejmuje całą szerokość i powinno to być ustawienie domyślne).
 3. Wyłącz **repeat**.
-4. Ustaw **start brightness** na 0 (czarny).
-5. Ustaw **end brightness** na 100 (biały).
-6. Ustaw **start saturation** i **end saturation** na 0 (konwersja do skali szarości).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Włącz **pingpong**.
+4. Ustaw pierwszy punkt gradientu na czarny.
+5. Ustaw końcowy punkt gradientu na biały.
+6. Ustaw **hue mode** na OFF.
+7. Ustaw **saturation mode** na FIXED, jeśli chcesz wymusić wynik w skali szarości.
+8. Ustaw **brightness mode** na FIXED.
+9. Włącz **pingpong**.
 
 _Wynik: gradient przechodzi od czerni do bieli, a następnie z powrotem do czerni na całej szerokości._\
 Pamiętaj, że jeśli zawartość ma zachować swój odcień i nasycenie, wyłącz Saturation mode. \\
@@ -127,5 +142,6 @@ Ten węzeł zniekształca zawartość za pomocą pola szumu (podobnego do turbul
 * **Depth Offset** – przesuwa przez pole szumu 3D, tworząc zmienność w czasie. Jest to szczególnie skuteczne po animowaniu za pomocą Oscillator Node.
 * **Depth Detail** – steruje szczegółowością zmienności w wymiarze głębi.
 * **Absolute** – przyjmuje wartość bezwzględną szumu, zawijając wartości ujemne na dodatnie (co daje przemieszczenie tylko w jedną stronę).
+* **Angle** – obraca oś szumu w trybie liniowym. 0° = poziomo.
 * **Radial** – przełącza z trybu liniowego na radialny, dzięki czemu przemieszczenie zależy od kąta względem środka.
 * **Radial Smooth Loop** – dostosowuje wavelength tak, aby równo dzieliła 100% okręgu, zapobiegając widocznym szwom w trybie radial.

@@ -13,14 +13,14 @@ Tworzy efekty w stylu „laserowej harfy”, w których przychodzące nuty MIDI 
 
 Interfejs MIDI, którego ma nasłuchiwać Liberation, możesz wybrać w **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – kanał MIDI, którego należy nasłuchiwać (0 = wszystkie kanały, 1–16 = konkretny kanał)
+* **MIDI channel** – kanał MIDI, którego należy nasłuchiwać (0 = wszystkie kanały, 1–16 = konkretny kanał)
 * **width** – całkowita szerokość, na której rozłożone są nuty.
-* **midi note min / max** – najniższa i najwyższa wartość nuty MIDI w zakresie.
+* **MIDI note min / max** – najniższa i najwyższa wartość nuty MIDI w zakresie.
 * **ignore out of range notes** – filtruje wszystkie nuty poza ustawionym zakresem. Jeśli ta opcja jest wyłączona, nuty spoza zakresu są „przycinane” do najbliższej dostępnej nuty (wysokie nuty wyzwalają górną granicę zakresu, niskie nuty — dolną).
 * **auto extend range** – automatycznie rozszerza zakres, jeśli zostaną zagrane nuty spoza niego.
 
 {% hint style="info" %}
-Nie masz pewności, jaki zakres nut otrzymujesz? Włącz **auto extend range**, ustaw **midi note min** bardzo wysoko, a **midi note max** bardzo nisko, a następnie zagraj swoje nuty. System przechwyci je wszystkie i rozszerzy zakres za Ciebie. Gdy masz już wszystko, po prostu wyłącz **auto extend range**, aby zablokować ustawienie.
+Nie masz pewności, jaki zakres nut otrzymujesz? Włącz **auto extend range**, ustaw **MIDI note min** bardzo wysoko, a **MIDI note max** bardzo nisko, a następnie zagraj swoje nuty. System przechwyci je wszystkie i rozszerzy zakres za Ciebie. Gdy masz już wszystko, po prostu wyłącz **auto extend range**, aby zablokować ustawienie.
 {% endhint %}
 
 * **leave all notes visible** – tworzy wiązki lub kształty dla wszystkich nut w zakresie, niezależnie od tego, czy są aktualnie odtwarzane, dając efekt „laserowej harfy”.

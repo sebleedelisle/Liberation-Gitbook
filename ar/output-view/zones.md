@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-النوع الرئيسي من zone الذي ستستخدمه في معظم مشاريعك هو _Beam zone_. وهذا نوع من zone مخصص لتأثيرات الحزم في الهواء والجو المحيط. النوع الآخر هو _Canvas zone_ (راجع [الرسومات ونظام Canvas](../graphics-and-the-canvas-system/)).
+النوع الرئيسي من zone الذي ستستخدمه في معظم مشاريعك هو _Beam zone_. وهذا نوع من zone مخصص لتأثيرات الحزم في الهواء والجو المحيط. النوع الآخر هو _Canvas zone_ (راجع [الرسومات ونظام Canvas](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**تحذير - توخَّ أقصى درجات الحذر عند تحريك zones أثناء تشغيل الليزر** وخفّض السطوع إلى أدنى مستوى ممكن. راجع [إعداد أجهزة الليزر](../setting-up/setting-up-lasers.md) للحصول على دليل شامل حول تفعيل أجهزة الليزر وتقسيمها إلى zones بأمان
+**تحذير - توخَّ أقصى درجات الحذر عند تحريك zones أثناء تشغيل الليزر** وخفّض السطوع إلى أدنى مستوى ممكن. راجع [إعداد أجهزة الليزر](../setting-up/setting-up-lasers.md "mention") للحصول على دليل شامل حول تفعيل أجهزة الليزر وتقسيمها إلى zones بأمان
 {% endhint %}
 
 يمكنك النقر على zones وسحبها بالماوس. فعّل test pattern لترى إلى أين تمتد تلك zone.
@@ -19,16 +19,16 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-نصيحة مفيدة: يمكنك نسخ إعدادات zone بسرعة عبر عدة أجهزة ليزر! راجع [نسخ إعدادات الليزر](../setting-up/copy-laser-settings.md)
+نصيحة مفيدة: يمكنك نسخ إعدادات zone بسرعة عبر عدة أجهزة ليزر! راجع [نسخ إعدادات الليزر](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### إضافة beam zone جديدة
 
-انقر زر _Add a new beam zone_ في أعلى شريط الأدوات، وستظهر zone جديدة. لاحظ أن beam zones تُرتَّب حسب ترتيب إضافتها، لكن يمكنك إعادة ترتيبها. راجع [إعادة ترتيب beam zones](re-ordering-beam-zones.md)
+انقر زر _Add a new beam zone_ في أعلى شريط الأدوات، وستظهر zone جديدة. لاحظ أن beam zones تُرتَّب حسب ترتيب إضافتها، لكن يمكنك إعادة ترتيبها. راجع [إعادة ترتيب beam zones](re-ordering-beam-zones.md "mention")
 
 ### إضافة canvas zone موجودة
 
-انقر زر _Add existing canvas zone_ وستظهر لك قائمة بـ canvas zones المتاحة، ويمكنك تفعيلها أو إيقافها لهذا الليزر. راجع [الرسومات ونظام Canvas](../graphics-and-the-canvas-system/)
+انقر زر _Add existing canvas zone_ وستظهر لك قائمة بـ canvas zones المتاحة، ويمكنك تفعيلها أو إيقافها لهذا الليزر. راجع [الرسومات ونظام Canvas](../graphics-and-the-canvas-system/ "mention")
 
 ### أنواع أشكال zone
 
@@ -47,7 +47,7 @@ metaLinks:
 * إعادتها إلى الموضع الافتراضي
 * الوصول إلى الإعدادات الخاصة بنوع الشكل
 * حذفها
-* إضافة _Alt Zone_ (راجع [نظام Alt Zone](alt-zone-system.md))
+* إضافة _Alt Zone_ (راجع [نظام Alt Zone](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **تحذير -** كن حذرًا جدًا عند تغيير نوع zone أثناء نشاط الليزر. ستعود zone إلى آخر موضع/حجم لذلك الشكل، لذلك قد يتغير Output فجأة. من الأفضل إيقاف الليزر قبل تغيير نوع zone.

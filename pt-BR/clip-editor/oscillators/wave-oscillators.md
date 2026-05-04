@@ -52,7 +52,7 @@ O conceito de _clamp_ é um pouco difícil de explicar, mas imagine a forma de o
 
 * **ease function** - as ondas dente de serra e triangular também têm uma função de easing, que altera sutilmente a curva da animação e pode deixar suas animações muito mais expressivas!
   * **LINEAR** - o padrão, sem easing; apenas se move de forma linear entre os valores mínimo e máximo.
-  * **EASE OUT** - começa rápido e depois desacelera ao chegar ao final. Muito bom para simular física, por exemplo, desacelerar até parar.
+* **EASE OUT** - começa rápido e depois desacelera ao chegar ao final. Muito bom para simular física, por exemplo, desacelerar até parar.
   * **EASE IN** - começa devagar e acelera gradualmente. Bom para simular ganho de impulso.
   * **EASE IN/OUT** - uma combinação dos dois, gerando um movimento bem orgânico.
 

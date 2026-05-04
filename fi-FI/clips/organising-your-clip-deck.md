@@ -9,10 +9,10 @@ metaLinks:
 
 ### Clipien siirtäminen ja monistaminen
 
-Siirrä Clip klikkaamalla ja vetämällä. Jos valittuna on useampi kuin yksi Clip (katso [Clipien käynnistäminen ja pysäyttäminen](starting-stopping-clips.md)), ne kaikki siirretään. Monista ne pitämällä `Alt / Option` painettuna. Pudota Clip tai Clipit tyhjään kohtaan.
+Siirrä Clip klikkaamalla ja vetämällä. Jos valittuna on useampi kuin yksi Clip (katso [Clipien käynnistäminen ja pysäyttäminen](starting-stopping-clips.md "mention")), ne kaikki siirretään. Monista ne pitämällä `Alt / Option` painettuna. Pudota Clip tai Clipit tyhjään kohtaan.
 
 {% hint style="info" %}
-Jos sinun täytyy valita suuri määrä Clipejä, voit klikata ja vetää valintalasson ja vierittää Clip Deckiä samalla, kun vedät edelleen (joko nuolinäppäimillä, APC 40:llä tai kosketuslevyn/hiiren sivuttaisvierityksellä). Lasso jatkuu Clip Deckin reunan yli.
+Jos sinun täytyy valita suuri määrä Clip-kohteita, voit klikata ja vetää valintalasson ja vierittää Clip Deckiä samalla, kun jatkat vetämistä (joko nuolinäppäimillä, APC40:llä tai kosketuslevyn/hiiren sivuttaisvierityksellä). Lasso jatkuu Clip Deckin reunan yli.
 {% endhint %}
 
 ### Clipien poistaminen

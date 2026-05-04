@@ -8,7 +8,7 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
-1. 8x5 Clipdeck
+1. 8x5 Clip Deck
 2. Zone be-/kikapcsolása
 3. Effects 1-8 be-/kikapcsolása
 4. Zone X/Y Flip
@@ -18,8 +18,8 @@ metaLinks:
 8. Effect 1-8 paraméterállítás
 9. Group gombok
 10. Stop All Clips (nyomd meg kétszer az összes Clip azonnali leállításához, a fade beállításaik figyelmen kívül hagyásával)
-11. Clipdeck görgetése
-12. Clip / globális paraméterek
+11. Clip Deck görgetése
+12. Contextual Parameters panel vezérlői
 13. Clip Page balra/jobbra
 14. Zone Page balra/jobbra
 15. Alt gomb (Clip kijelöléséhez)
@@ -35,3 +35,5 @@ metaLinks:
 25. Tempo finomhangolása + és -
 26. Tempo görgetése
 27. Foot Pedal, Tap Tempo
+
+A Device Control tekerőgombok ugyanazokat a kontextusfüggő paramétereket követik, amelyek a képernyőn látható Parameters panelen jelennek meg. Ha ki van választva egy Clip, a Clip eltolását, a zone késleltetését, a globális forgatást és a globális méretezést vezérlik. Ha nyomva tartasz egy csoportgombot, az első vezérlők az adott csoport fade in és fade out idejére váltanak.

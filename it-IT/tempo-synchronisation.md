@@ -12,7 +12,7 @@ Se hai esperienza con software musicali o per luci, questo processo ti sarà fam
 
 ## Pannello Tempo
 
-Il pannello _Tempo_ è sempre visibile sullo schermo e contiene tutte le impostazioni di sincronizzazione. In alto trovi il contatore corrente di battuta/beat e un transport con i pulsanti play/pause e rewind/fastforward.
+Il pannello _Tempo_ è sempre visibile sullo schermo e contiene tutte le impostazioni di sincronizzazione. In alto trovi il contatore corrente di battuta/beat e un transport con i pulsanti play/pause e rewind/fast-forward.
 
 Sotto trovi il beat marker: quattro quadrati che “pulsano” a tempo. Questo _beat marker_ è una visualizzazione estremamente utile e lo consulterai continuamente quando usi il sistema di tempo _Live_.
 
@@ -60,7 +60,7 @@ Usa il pulsante _METRONOME_ per **resettare la battuta**. Nota che anche il puls
 
 Ruota la manopola _TEMPO_ di uno “scatto” a destra o a sinistra per **arrotondare il tempo** verso l’alto o verso il basso a un valore intero di BPM.
 
-Vedi anche [Riferimento APC40](reference/apc40-reference.md)
+Vedi anche [Riferimento APC40](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 
@@ -101,6 +101,12 @@ La sorgente tempo MIDI Clock di Liberation risponde anche ai messaggi **MIDI Mac
 {% endhint %}
 
 
+
+### Ableton Link
+
+Per sincronizzarti con Ableton Link, scegli _ABLETON LINK_ come sorgente del tempo. Liberation entra nella sessione Link sulla tua rete locale e segue il tempo condiviso e la fase del beat dalle altre app compatibili con Link.
+
+Ableton Link non usa una porta MIDI e non trasmette la posizione assoluta del brano. Usa i controlli di reset della battuta se hai bisogno che l’inizio della battuta in Liberation si allinei a un momento specifico dello show.
 
 ### Timeline
 

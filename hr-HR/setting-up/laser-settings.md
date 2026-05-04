@@ -24,7 +24,7 @@ Na vrhu ovog panela vidjet ćete:
 
 ### Ispravak orijentacije izlaza / zrcaljenja
 
-Sljedeći elementi služe za ispravljanje postava lasera kako bi se u Liberation ponašao dosljedno.
+Sljedeći elementi služe za ispravljanje postavljanja lasera kako bi se u Liberation ponašao dosljedno.
 
 * **Flip horizontal / vertical** — ove opcije omogućuju ispravak izlaza vašeg lasera
 
@@ -41,7 +41,7 @@ Imajte na umu da ispravci orijentacije/zrcaljenja ne mijenjaju ništa u 3D Visua
 
 ### Kopiranje postavki lasera
 
-Pogledajte [Kopiranje postavki lasera](laser-settings.md#copy-laser-settings).
+Pogledajte [Kopiranje postavki lasera](laser-settings.md#copy-laser-settings "mention").
 
 ### Postavke skenera
 
@@ -56,7 +56,7 @@ Iako su zadane postavke prilično konzervativne, skenere i dalje možete ošteti
 {% endhint %}
 
 {% hint style="info" %}
-Ova postavka brzine ne mijenja učestalost točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [Kako Liberation generira laserski sadržaj](../advanced/how-liberation-generates-laser-content.md)
+Ova postavka brzine ne mijenja učestalost točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [Kako Liberation generira laserski sadržaj](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (pomak boje / blank shift)**
@@ -73,12 +73,12 @@ Ako na izlazu lasera vidite male „repove”, vjerojatno je potrebno podesiti s
 
 #### Unaprijed definirane postavke skenera
 
-Ovdje odaberite unaprijed pripremljenu postavku skenera. Zadana opcija obično je u redu, pa ovu postavku ne biste trebali mijenjati osim ako imate posebno loše (ili dobre) skenere. Ako želite ići dublje, pogledajte [Unaprijed definirane postavke skenera](../advanced/scanner-presets.md)
+Ovdje odaberite unaprijed pripremljenu postavku skenera. Zadana opcija obično je u redu, pa ovu postavku ne biste trebali mijenjati osim ako imate posebno loše (ili dobre) skenere. Ako želite ići dublje, pogledajte [Unaprijed definirane postavke skenera](../advanced/scanner-presets.md "mention")
 
 #### Kalibracija boja
 
-Ovim sustavom možete ispraviti krivulju svjetline i balans bijele boje vašeg lasera. Pogledajte [Kalibracija boja](../advanced/colour-calibration.md)
+Ovim sustavom možete ispraviti krivulju svjetline i balans bijele boje vašeg lasera. Pogledajte [Kalibracija boja](../advanced/colour-calibration.md "mention")
 
 #### Napredne postavke
 
-Ne biste se trebali morati baviti ovim postavkama, ali ako vas zanima, pogledajte [Napredne postavke lasera](../advanced/advanced-laser-settings.md)
+Ne biste se trebali morati baviti ovim postavkama, ali ako vas zanima, pogledajte [Napredne postavke lasera](../advanced/advanced-laser-settings.md "mention")

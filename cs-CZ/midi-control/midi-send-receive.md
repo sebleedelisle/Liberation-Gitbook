@@ -25,6 +25,6 @@ Nastavení _BOTH_ používejte opatrně. MIDI zařízení a software mohou být 
 
 ### MIDI mapování
 
-Viz [Výchozí mapování odesílání a příjmu MIDI](../reference/midi-send-receive-default-mapping.md)
+Viz [výchozí mapování odesílání a příjmu MIDI](../reference/midi-send-receive-default-mapping.md "mention")
 
 Do budoucna plánuji přidat mnohem lépe přizpůsobitelné MIDI mapování. Mezitím ale můžete použít aplikace jako [BOME](https://www.bome.com/products/miditranslator) a [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) k převodu mezi Liberation a vaším vlastním hardwarem.

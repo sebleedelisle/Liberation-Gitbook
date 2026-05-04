@@ -26,7 +26,7 @@ Her er en oversikt over prosessen:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Endre sonene for hver Clip:**\
-    Utløs hver Clip ved å klikke på knappen for den, og slå deretter sonene og X- og Y-flipp av eller på med knappene på skjermen. Se [Clips og Clip Deck](../clips/ "mention").
+Utløs hver Clip ved å klikke på knappen for den, og slå deretter sonene og X- og Y-flipp av eller på med knappene på skjermen. Se [Clips og Clip Deck](../clips/ "mention").
 
     \\
 

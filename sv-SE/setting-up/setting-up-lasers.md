@@ -1,8 +1,8 @@
 ---
 description: >-
-  Lasrar kan vara farliga, så det är viktigt att följa bästa praxis och
-  säkerhetsriktlinjer. Den här sidan ger en praktisk översikt som hjälper dig
-  genom processen att konfigurera lasrar på ett säkert sätt.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

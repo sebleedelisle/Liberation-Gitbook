@@ -7,13 +7,13 @@ metaLinks:
 
 # ✅ Kako funkcionira licenciranje
 
-Nakon što instalirate Liberation na računalo, program će raditi u _demo načinu_ dok ga ne _autorizirate_.
+Nakon što instalirate Liberation na računalo, program će raditi u _besplatnom načinu_ dok ga ne _autorizirate_.
 
 {% hint style="info" %}
-U _demo načinu_ nema ograničenja osim slanja izlaza na laserski hardver. Možete vježbati predstave, izrađivati timelineove te spremati i učitavati datoteke bez ograničenja. Liberation možete instalirati u _demo načinu_ na koliko god računala želite, a instalaciju trebate autorizirati tek kada ste spremni koristiti lasere!
+U _besplatnom načinu_ nema ograničenja osim slanja izlaza na laserski hardver. Možete vježbati predstave, izrađivati timelineove te spremati i učitavati datoteke bez ograničenja. Liberation možete instalirati u _besplatnom načinu_ na koliko god računala želite, a instalaciju trebate autorizirati tek kada ste spremni koristiti lasere!
 {% endhint %}
 
-Osim broja lasera koji mogu biti u stanju armed, možete koristiti i DMX uređaje. Pogledajte [DMX upravljanje](../dmx-control/).
+Osim broja lasera koji mogu biti u stanju armed, možete koristiti i DMX uređaje. Pogledajte [DMX upravljanje](../dmx-control/ "mention").
 
 Postoji i ograničenje broja računala na kojima možete autorizirati Liberation, ovisno o vašem pretplatničkom paketu.
 
@@ -28,3 +28,5 @@ Svaka licenca namijenjena je samo jednom korisniku i jednoj predstavi u isto vri
 Licenciranje i autorizacija u Liberation rade putem interneta; aplikacija se povezuje s našim poslužiteljem kako bi povezala instalaciju s vašom pretplatom.
 
 Nakon što je instalacija autorizirana, ne mora ponovno biti online sve do obnove pretplate. Datum obnove možete vidjeti u panelu _About_. Postoji kratko razdoblje odgode (7 dana za mjesečne pretplate), ali preporučuje se povezati se s internetom što prije nakon datuma obnove kako biste bili sigurni da se autorizacija obnavlja i ostaje aktivna.
+
+Trenutačna razina licence prikazana je i na gornjoj traci. Kliknite naziv razine ili _FREE MODE_ kada nema licence da biste otvorili panel About.

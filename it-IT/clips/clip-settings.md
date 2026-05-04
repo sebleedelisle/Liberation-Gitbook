@@ -14,7 +14,13 @@ Modifica la dimensione di output della clip con _Scale X_ e _Scale Y_. Sono coll
 
 Modifica la posizione orizzontale e verticale della clip con _Shift X_ e _Shift Y_.
 
-_Zone Delay/Chase_ è una funzione così divertente che ha una sezione tutta sua. [Zone delay / chase](zone-delay-chase.md)
+_Zone Delay/Chase_ è una funzione così divertente che ha una sezione tutta sua. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Pannello Parameters
+
+Il pannello a destra del Clip Deck mostra otto parametri contestuali. Quando è selezionato un Clip, i primi controlli sono _Shift X_, _Shift Y_ e _Zone Delay_ del Clip selezionato, seguiti dai controlli globali _Spin_ e _Scale_.
+
+Gli stessi parametri sono replicati sui controller MIDI supportati. Se non è selezionato alcun Clip, gli slot specifici del Clip restano vuoti. Se tieni premuto un pulsante di gruppo, i primi due controlli diventano i tempi di fade in e fade out di quel gruppo.
 
 ### Bloccare le clip
 
@@ -27,9 +33,9 @@ Se una clip è bloccata, non può essere spostata o eliminata. Per bloccare una 
 
 ### Menu del clic destro
 
-Se fai clic destro su una clip, appare un menu con alcune opzioni relative a quella clip. Vedi [Introduzione al Clip Editor](../clip-editor/clip-editor-intro.md), [Impostazioni delle clip](clip-settings.md) e [Gruppi di Clip](groups.md) per maggiori informazioni sulle prime voci di questo menu.
+Se fai clic destro su un Clip, appare un menu con alcune opzioni relative a quel Clip. Vedi [Introduzione al Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Impostazioni dei Clip](clip-settings.md "mention") e [Gruppi di Clip](groups.md "mention") per maggiori informazioni sulle prime voci di questo menu.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Il menu del clic destro delle impostazioni clip</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 
@@ -47,6 +53,6 @@ Le clip sono spesso progettate per andare in loop all’infinito, ma puoi crearl
 
 ### Tempo di transizione in/out (fade)
 
-Le clip possono essere impostate per entrare e uscire con un fade, con una durata misurata in secondi. Per impostazione predefinita, il tempo di fade viene ereditato dalle impostazioni del gruppo (e può essere modificato facendo clic destro sul pulsante del gruppo).
+I Clip possono essere impostati per entrare e uscire con un fade, con una durata misurata in secondi. Per impostazione predefinita, il tempo di fade viene ereditato dalle impostazioni del gruppo (e può essere modificato facendo clic destro sul pulsante del gruppo).
 
 Se vuoi una durata di fade diversa da quella del gruppo della clip, prima disattiva il pulsante _USE GROUP DEFAULT_, poi regola gli slider _In time_ e _Out time_ della clip.

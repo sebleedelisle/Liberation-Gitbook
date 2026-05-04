@@ -14,7 +14,13 @@ Promijenite veličinu izlaza za Clip pomoću _Scale X_ i _Scale Y_. Te su vrijed
 
 Promijenite vodoravni i okomiti položaj za Clip pomoću _Shift X_ i _Shift Y_.
 
-_Zone Delay/Chase_ toliko je zabavna značajka da ima vlastiti odjeljak. [Zone Delay/Chase](zone-delay-chase.md)
+_Zone Delay/Chase_ toliko je zabavna značajka da ima vlastiti odjeljak. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Panel Parameters
+
+Panel desno od Clip Deck prikazuje osam kontekstualnih parametara. Kada je odabran Clip, prve kontrole su _Shift X_, _Shift Y_ i _Zone Delay_ odabranog Clip, nakon čega slijede globalne kontrole _Spin_ i _Scale_.
+
+Ti isti parametri preslikavaju se na podržane MIDI kontrolere. Ako nije odabran nijedan Clip, mjesta specifična za Clip ostaju prazna. Ako držite pritisnut gumb grupe, prve dvije kontrole mijenjaju se u vremena fade in i fade out za tu grupu.
 
 ### Zaključavanje Clips
 
@@ -27,9 +33,9 @@ Ako je Clip zaključan, ne može se premjestiti ni izbrisati. Da biste zaključa
 
 ### Izbornik desnog klika
 
-Ako desnom tipkom miša kliknete Clip, prikazat će se izbornik s nekim opcijama za taj Clip. Pogledajte [Uvod u Clip Editor](../clip-editor/clip-editor-intro.md), [Postavke za Clip](clip-settings.md) i [Clip grupe](groups.md) za više informacija o prvih nekoliko stavki u ovom izborniku.
+Ako desnom tipkom miša kliknete Clip, prikazat će se izbornik s nekim opcijama za taj Clip. Pogledajte [Uvod u Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Postavke za Clip](clip-settings.md "mention") i [Clip grupe](groups.md "mention") za više informacija o prvih nekoliko stavki u ovom izborniku.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Izbornik desnog klika za postavke za Clip</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 

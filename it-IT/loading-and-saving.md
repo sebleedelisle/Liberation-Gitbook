@@ -14,7 +14,7 @@ Puoi comunque esportare la tua configurazione per crearne un backup o trasferirl
 
 Il file di progetto salva quasi tutto ciò che è presente nella configurazione corrente, tra cui:
 
-* Tutto ciò che è descritto in [Caricamento e salvataggio](loading-and-saving.md#laser-settings-import-export) più sotto
+* Tutto ciò che è descritto in [Caricamento e salvataggio](loading-and-saving.md#laser-settings-import-export "mention") più sotto
 * Clip, effetti e impostazioni dei gruppi
 * Tutte le tue timeline (esclusi i media audio e video)
 * Configurazione Art-Net
@@ -23,14 +23,14 @@ Il file di progetto salva quasi tutto ciò che è presente nella configurazione 
 
 Al momento non salva e carica:
 
-* Impostazioni di ingresso audio e MIDI usate nel nodo MIDI notes e nel Sound Input Oscillator (_salva_ invece le impostazioni di invio/ricezione MIDI e l’ingresso audio per il timecode)
+* Impostazioni di ingresso audio e MIDI usate nel node MIDI notes e nel Sound Input Oscillator (_salva_ invece le impostazioni di invio/ricezione MIDI e l’ingresso audio per il timecode)
 * Ridimensionamento dell’interfaccia
 * Media per le immagini guida di Canvas
 * Media audio e video per le timeline
 * Font usati nel nodo Text
 
 {% hint style="danger" %}
-I file audio e video nella timeline non vengono salvati con i file di progetto, quindi assicurati di salvarli separatamente se vuoi trasferirli su un altro computer. Vedi [Caricamento e salvataggio](loading-and-saving.md#important-note-about-timeline-media-files)
+I file audio e video nella timeline non vengono salvati con i file di progetto, quindi assicurati di salvarli separatamente se vuoi trasferirli su un altro computer. Vedi [Caricamento e salvataggio](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Importazione/esportazione delle impostazioni laser
@@ -67,7 +67,7 @@ Puoi aggiungere Clip da un file Clip Deck esportato al progetto corrente usando 
 Tutte le Clip attualmente selezionate verranno esportate in un file. Le impostazioni dei gruppi e gli effetti non verranno salvati, ma solo le Clip. Nota che le Clip attive in esecuzione non vengono esportate, a meno che non siano anche selezionate.
 
 {% hint style="info" %}
-Fai Option/Alt - shift - clic sulle Clip per selezionarle (oppure usa il lazo). Puoi riconoscere le Clip selezionate dal bordo bianco spesso intorno a esse. Vedi [Avviare / fermare le clip](clips/starting-stopping-clips.md)
+Fai Option/Alt - shift - clic sulle Clip per selezionarle (oppure usa il lazo). Puoi riconoscere le Clip selezionate dal bordo bianco spesso intorno a esse. Vedi [Avviare / fermare le clip](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Importazione/esportazione degli effetti
@@ -82,12 +82,12 @@ Per importare solo gli effetti da un progetto, seleziona _**Effects->Import Effe
 
 ### Esportazione della timeline
 
-Esporta un file timeline con una o più timeline. Nota che il Clip Deck è sempre incluso nei file timeline esportati (anche se puoi scegliere in modo selettivo quali Clip reimportare; vedi [Caricamento e salvataggio](loading-and-saving.md#timeline-import) più sotto).
+Esporta un file timeline con una o più timeline. Nota che il Clip Deck è sempre incluso nei file timeline esportati (anche se puoi scegliere in modo selettivo quali Clip reimportare; vedi [Caricamento e salvataggio](loading-and-saving.md#timeline-import "mention") più sotto).
 
 Se nel file di progetto è presente più di una timeline, si aprirà un pannello che ti permette di selezionare quali timeline vuoi esportare.
 
 {% hint style="danger" %}
-I file audio e video nella timeline non vengono salvati con i file timeline, quindi assicurati di salvarli separatamente se vuoi trasferire i contenuti su un altro computer. Vedi [Caricamento e salvataggio](loading-and-saving.md#important-note-about-timeline-media-files)
+I file audio e video nella timeline non vengono salvati con i file timeline, quindi assicurati di salvarli separatamente se vuoi trasferire i contenuti su un altro computer. Vedi [Caricamento e salvataggio](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Importazione della timeline

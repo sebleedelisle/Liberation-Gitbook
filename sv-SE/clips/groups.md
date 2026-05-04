@@ -33,7 +33,7 @@ Så här aktiverar du _group_-knappen:
 * Tryck och håll ned _group_-knappen på APC40
 * Klicka med musen på _group_-knappen på skärmen. Klicka igen för att stänga av den.
 
-Du kan enkelt tilldela clips till gruppen genom att trycka på dem medan _group_-knappen är aktiv. (Ett annat sätt att tilldela en grupp är via clip:ets högerklicksmeny).
+Du kan enkelt tilldela Clips till gruppen genom att trycka på dem medan _group_-knappen är aktiv. (Ett annat sätt att tilldela en grupp är via högerklicksmenyn för Clip).
 
 ### Ändra zoninställningar för alla clips i en grupp
 

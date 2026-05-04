@@ -23,7 +23,7 @@ El archivo de proyecto almacena casi todo lo que hay en tu configuración actual
 
 Actualmente no guarda ni carga:
 
-* Ajustes de entrada de sonido y MIDI usados en el nodo MIDI notes y en Sound Input Oscillator (sí guarda los ajustes de envío/recepción MIDI, así como la entrada de sonido de timecode)
+* Ajustes de entrada de sonido y MIDI usados en el node MIDI notes y en Sound Input Oscillator (sí guarda los ajustes de envío/recepción MIDI, así como la entrada de sonido de timecode)
 * Escalado de la interfaz
 * Medios para imágenes guía de Canvas
 * Medios de sonido y vídeo para líneas de tiempo
@@ -82,7 +82,7 @@ Para importar solo los efectos de un proyecto, selecciona _**Effects->Import Eff
 
 ### Exportación de línea de tiempo
 
-Exporta un archivo de línea de tiempo con una o más líneas de tiempo. Ten en cuenta que el Clip Deck siempre se incluye con los archivos de línea de tiempo exportados (aunque puedes elegir qué clips vuelves a importar; consulta [Cargar y guardar](loading-and-saving.md#timeline-import "mention") más abajo).
+Exporta un archivo de línea de tiempo con una o más líneas de tiempo. Ten en cuenta que el Clip Deck siempre se incluye con los archivos de línea de tiempo exportados (aunque puedes elegir qué Clips vuelves a importar; consulta [Importación de líneas de tiempo](loading-and-saving.md#timeline-import "mention") más abajo).
 
 Si tienes más de una línea de tiempo en tu archivo de proyecto, se abrirá un panel que te permitirá seleccionar qué líneas de tiempo quieres exportar.
 

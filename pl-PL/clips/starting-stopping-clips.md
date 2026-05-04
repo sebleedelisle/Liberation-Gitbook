@@ -8,7 +8,7 @@ metaLinks:
 # ✅ Uruchamianie / zatrzymywanie klipów
 
 {% hint style="info" %}
-Do uruchamiania i zatrzymywania klipów możesz używać przycisków na ekranie, ale znacznie lepiej sprawdza się kontroler MIDI APC40. Liberation zostało zoptymalizowane pod kątem pracy z tym sprzętem i warto traktować go jako ważną część inwestycji w lasery.
+Do uruchamiania i zatrzymywania Clips możesz używać przycisków na ekranie, ale znacznie lepiej sprawdza się kontroler MIDI APC40. Liberation zostało zoptymalizowane pod kątem pracy z tym sprzętem i warto traktować go jako ważną część inwestycji w lasery.
 {% endhint %}
 
 ### Uruchamianie i zatrzymywanie klipów
@@ -24,7 +24,7 @@ Aby uruchomić nowy klip bez zatrzymywania innych klipów, możesz:
 * przytrzymać klawisz `Shift` (albo przycisk Shift na APC40) podczas uruchamiania nowego klipu; albo
 * ponownie nacisnąć aktualnie odtwarzane klipy podczas uruchamiania nowego klipu.
 
-Grupy klipów są od siebie niezależne, więc uruchomienie klipu w jednej grupie nie wpływa na klipy w pozostałych grupach. Zobacz [Grupy klipów](groups.md)
+Grupy klipów są od siebie niezależne, więc uruchomienie klipu w jednej grupie nie wpływa na klipy w pozostałych grupach. Zobacz [Grupy klipów](groups.md "mention")
 
 ### Flash mode
 

@@ -16,7 +16,7 @@ Fontos, hogy a Global Transformations nem érint semmit a Canvas területén, cs
 
 ### Scale X/Y
 
-Vízszintes és függőleges skálázás. Ezek az értékek össze vannak kapcsolva, kivéve, ha lenyomva tartod a `Shift` billentyűt. Alapértelmezés szerint ezek az APC40 Device Control 4-es és 8-as tekerőjére is hozzá vannak rendelve, és a Clip Deck jobb oldalán lévő panelen jelennek meg.
+Vízszintes és függőleges skálázás. Ezek az értékek össze vannak kapcsolva, kivéve, ha lenyomva tartod a `Shift` billentyűt. Alapértelmezés szerint ezek az APC40 Device Control 4-es és 8-as tekerőjére is hozzá vannak rendelve, és a Clip Deck jobb oldalán lévő kontextuális Parameters panelen jelennek meg.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Vízszintes és függőleges eltolás. Mindent vízszintesen / függőlegesen mo
 
 ### Spin
 
-Az összes tartalmat a középpont körül forgatja. A pozitív érték az óramutató járásával megegyező irányba, a negatív érték azzal ellentétes irányba forgat. Látható, hogy ez a beállítás hatással van a _Rotation_ transzformációra. Alapértelmezés szerint ez az APC40 Device Control 3-as tekerőjére van hozzárendelve, és a Clip Deck jobb oldalán lévő panelen jelenik meg.
+Az összes tartalmat a középpont körül forgatja. A pozitív érték az óramutató járásával megegyező irányba, a negatív érték azzal ellentétes irányba forgat. Látható, hogy ez a beállítás hatással van a _Rotation_ transzformációra. Alapértelmezés szerint ez az APC40 Device Control 3-as tekerőjére van hozzárendelve, és a Clip Deck jobb oldalán lévő kontextuális Parameters panelen jelenik meg.
 
 ### Spin 3D
 
-Az összes tartalmat az Y tengely körül forgatja (ez a középen lévő függőleges vonal). Látható, hogy ez a beállítás hatással van a _Rotation3D_ transzformációra. Alapértelmezés szerint ez az APC40 Device Control 7-es tekerőjére van hozzárendelve, és a Clip Deck jobb oldalán lévő panelen jelenik meg.
+Az összes tartalmat az Y tengely körül forgatja (ez a középen lévő függőleges vonal). Látható, hogy ez a beállítás hatással van a _Rotation3D_ transzformációra. Alapértelmezés szerint ez az APC40 Device Control 7-es tekerőjére van hozzárendelve, és a Clip Deck jobb oldalán lévő kontextuális Parameters panelen jelenik meg.
 
 ### Rotation
 

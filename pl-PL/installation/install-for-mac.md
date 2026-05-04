@@ -19,7 +19,7 @@ Zobaczysz tę stronę:
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Kliknij _Download latest for Mac_ (numery wersji będą się z czasem zmieniać), a plik instalacyjny Liberation DMG zostanie zapisany w folderze pobranych plików. Znajdź plik i kliknij go dwukrotnie, aby go otworzyć.
+Kliknij _Download latest for Mac_ (numery wersji będą się z czasem zmieniać), a plik instalacyjny Liberation DMG zostanie zapisany w folderze Downloads. Znajdź plik i kliknij go dwukrotnie, aby go otworzyć.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -8,7 +8,7 @@ metaLinks:
 
 Vi är nog alla överens om att fler lasrar betyder roligare shower, men om alla gör exakt samma sak går du miste om kreativa möjligheter.
 
-Systemet för Zone delay är ett enkelt men effektivt sätt att skapa variation mellan zoner och kan verkligen utnyttja en uppsättning med flera lasrar. Det kan också användas för att skapa en mer traditionell chase-effekt.
+Systemet för Zone delay är ett enkelt men effektivt sätt att skapa variation mellan zones och kan verkligen utnyttja en uppsättning med flera lasrar. Det kan också användas för att skapa en mer traditionell chase-effekt.
 
 #### Så fungerar det
 

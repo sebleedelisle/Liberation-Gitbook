@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 import argparse
 import difflib
+import hashlib
+import json
 import subprocess
 from pathlib import Path
 
 
 SOURCE_ROOT = Path("en-GB")
+TRANSLATION_STATUS_PATH = Path(".translation-status.json")
 DEFAULT_TARGETS = [Path("zh-CN")]
 
 
@@ -50,6 +53,25 @@ def content_at(commit, path):
     return git_bytes("show", f"{commit}:{path}")
 
 
+def source_sha256(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def load_translation_status():
+    if not TRANSLATION_STATUS_PATH.exists():
+        return {"entries": {}}
+    return json.loads(TRANSLATION_STATUS_PATH.read_text(encoding="utf-8"))
+
+
+def marked_current(status, target, source):
+    entry = status.get("entries", {}).get(str(target))
+    return bool(
+        entry
+        and entry.get("source") == str(source)
+        and entry.get("source_sha256") == source_sha256(source)
+    )
+
+
 def markdown_files(root):
     return sorted(path for path in root.rglob("*.md") if path.is_file())
 
@@ -81,6 +103,7 @@ def classify(target_root):
     missing = []
     stale = []
     untracked = []
+    translation_status = load_translation_status()
 
     for source in markdown_files(SOURCE_ROOT):
         rel = source.relative_to(SOURCE_ROOT)
@@ -93,6 +116,10 @@ def classify(target_root):
         commit = last_commit(target)
         if not commit:
             untracked.append(rel)
+            continue
+
+        if marked_current(translation_status, target, source):
+            current.append(rel)
             continue
 
         if not path_exists_at(commit, source):

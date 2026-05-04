@@ -41,7 +41,7 @@ metaLinks:
 
 ### 複製激光機設定
 
-請參閱 [複製激光機設定](laser-settings.md#copy-laser-settings)。
+請參閱 [複製激光機設定](laser-settings.md#copy-laser-settings "mention")。
 
 ### 掃描器設定
 
@@ -56,7 +56,7 @@ Speed 設定決定掃描器移動的速度。
 {% endhint %}
 
 {% hint style="info" %}
-此 Speed 設定不會改變 point rate，而是調整這些點之間的分佈距離。如需更多資料，請參閱 [Liberation 如何產生激光內容](../advanced/how-liberation-generates-laser-content.md)
+此 Speed 設定不會改變 point rate，而是調整這些點之間的分佈距離。如需更多資料，請參閱 [Liberation 如何產生激光內容](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,12 +73,12 @@ Speed 設定決定掃描器移動的速度。
 
 #### 掃描器預設設定
 
-使用此項選擇預先設計好的掃描器設定。預設選項通常已經足夠，所以除非你的掃描器特別差（或特別好），否則不應需要更改此設定。如果你想深入了解，請參閱 [掃描器預設設定](../advanced/scanner-presets.md)
+使用此項選擇預先設計好的掃描器設定。預設選項通常已經足夠，所以除非你的掃描器特別差（或特別好），否則不應需要更改此設定。如果你想深入了解，請參閱 [掃描器預設設定](../advanced/scanner-presets.md "mention")
 
 #### 色彩校準
 
-你可以使用此系統校正激光機的亮度曲線和白平衡。請參閱 [色彩校準](../advanced/colour-calibration.md)
+你可以使用此系統校正激光機的亮度曲線和白平衡。請參閱 [色彩校準](../advanced/colour-calibration.md "mention")
 
 #### 進階設定
 
-你應該不需要調整這些設定，但如果你好奇，可參閱 [進階激光設定](../advanced/advanced-laser-settings.md)
+你應該不需要調整這些設定，但如果你好奇，可參閱 [進階激光設定](../advanced/advanced-laser-settings.md "mention")

@@ -14,7 +14,7 @@ Sustav zone delay jednostavan je, ali učinkovit način za uvođenje raznolikost
 
 _Zone delay_ dodaje kašnjenje u vremenski tijek za Clip kroz svaku zone, stvarajući neku vrstu prelaska preko zona.
 
-Vrlo je učinkovito dodati zone delay na Clip koji već radi, a zatim odgovarajućom kontrolom na APC40 prilagoditi razinu i pattern. (Pogledajte [Referenca za APC40](../reference/apc40-reference.md)). Možete upotrijebiti i panel _Clip Settings_.
+Vrlo je učinkovito dodati zone delay na Clip koji već radi, a zatim odgovarajućom kontrolom na APC40 prilagoditi razinu i pattern. (Pogledajte [Referenca za APC40](../reference/apc40-reference.md "mention")). Možete upotrijebiti i panel _Clip Settings_.
 
 Postavke za zone delay:
 
@@ -39,7 +39,7 @@ Pattern radi na temelju brojeva zone i pretpostavlja da su vaše zone poredane s
 Zone delay primjenjuje se i na sve aktivne efekte. Na primjer, efekt treperenja također će se odgoditi kroz zone, jednako kao i animacija unutar samog Clip.
 {% endhint %}
 
-Kada Clip ima bilo koju vrstu _Zone delay_, u gornjem desnom kutu Clip vidjet ćete ikonu s tri točke. Te su točke animirane kako bi prikazale stil _Zone delay_ za taj Clip. Za više detalja pogledajte [Što znače male ikone na gumbima za Clips?](what-are-the-small-icons-on-the-clip-buttons.md).
+Kada Clip ima bilo koju vrstu _Zone delay_, u gornjem desnom kutu Clip vidjet ćete ikonu s tri točke. Te su točke animirane kako bi prikazale stil _Zone delay_ za taj Clip. Za više detalja pogledajte [Što znače male ikone na gumbima za Clips?](what-are-the-small-icons-on-the-clip-buttons.md "mention").
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Simbol s tri točke koji označava da Clip ima zone delay i prikazuje njegov način rada</p></figcaption></figure>
 

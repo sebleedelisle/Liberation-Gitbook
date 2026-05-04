@@ -42,7 +42,7 @@ Nämä asetukset liittyvät pääasiassa 3D-tilan virtuaalikameraan. Näet pudot
 
 ### Sisällön asetukset
 
-Nämä asetukset määrittävät, mihin laserit (ja canvas) sijoitetaan 3D-ympäristössä. Näet pudotusvalikon, jossa on näiden asetusten esiasetuksia. Voit tallentaa ja ladata niitä uudelleen.
+Nämä asetukset määrittävät, mihin laserit (ja Canvas) sijoitetaan 3D-ympäristössä. Näet pudotusvalikon, jossa on näiden asetusten esiasetuksia. Voit tallentaa ja ladata niitä uudelleen.
 
 #### Lasers
 

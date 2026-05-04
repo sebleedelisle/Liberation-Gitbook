@@ -38,7 +38,7 @@ Canvas zone은 Canvas 안에서 레이저로 보낼 영역입니다. Canvas view
 {% endhint %}
 
 {% hint style="info" %}
-_OUTPUT_ view에서 _add canvas zone_ 버튼을 클릭해 Canvas zone을 레이저에 할당할 수도 있습니다. [Zones](../output-view/zones.md)를 참조하세요.
+_OUTPUT_ view에서 _add canvas zone_ 버튼을 클릭해 Canvas zone을 레이저에 할당할 수도 있습니다. [Zones](../output-view/zones.md "mention")를 참조하세요.
 {% endhint %}
 
 ### Guide image

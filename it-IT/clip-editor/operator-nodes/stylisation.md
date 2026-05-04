@@ -26,7 +26,7 @@ Il nodo Randomise è alla base dell’effetto Randomise!
 
 Crea echi del tuo contenuto, lasciando dietro all’originale copie che sfumano o cambiano scala mentre si muove.
 
-* **change render profile for trail** – se attivo, tutte le copie della scia usano il **render profile** selezionato. _Vedi_ [Render profile](../fundamentals/render-profile.md).
+* **change render profile for trail** – se attivo, tutte le copie della scia usano il **render profile** selezionato. _Vedi_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – il profilo da usare per le copie della scia quando l’interruttore sopra è attivo. Si usa spesso quando il contenuto principale è impostato su **DETAIL**, ma gli echi vengono renderizzati come **FAST**: in questo modo mantieni dettagli chiari sulle forme principali e renderizzi le scie in modo più efficiente.
 * **delay** – imposta la distanza tra le copie della scia in tempo musicale, misurata in **passi da 1/64 di nota**.\
   Per riferimento:
@@ -36,6 +36,7 @@ Crea echi del tuo contenuto, lasciando dietro all’originale copie che sfumano 
   * 128 = 1/2 battuta (minima)
   * 256 = 1 battuta
 * **trail size** – quante copie della scia disegnare dietro al contenuto live.
+* **prefill trails** – riempie subito la cronologia delle scie quando il Clip inizia, invece di attendere che gli echi si accumulino durante i primi beat.
 * **freeze trails** – trasforma scie fluide in una sequenza di istantanee congelate. Utile per creare effetti scia staccati e sincronizzati al beat.
 * **brightness start / brightness end** – applica la luminosità lungo la scia, dalla copia più recente (**start**) a quella più vecchia (**end**). In genere, imposta **brightness start** a 100% e **brightness end** a 0% per far svanire gli echi.
 * **scale start / scale end** – applica la scala lungo la scia, dalla copia più recente (start) a quella più vecchia (end). Per scie che si riducono fino a sparire, imposta **scale start** a 100% e **scale end** a 0%.

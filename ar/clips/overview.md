@@ -12,7 +12,7 @@ metaLinks:
 
 يمكن أن تحتوي Clips على مؤثرات حزم جوية أو رسوم متحركة رسومية، وعادةً تكون على شكل دورة متكررة. يمكن توجيهها إلى أي zone (أو Canvas Target Area)، ويتم تشغيلها باستخدام أزرار Clips داخل Clip Deck.
 
-يتم إنشاء محتوى Clip باستخدام نظام Clip Editor المرن المعتمد على nodes. (راجع [مقدمة إلى Clip Editor](../clip-editor/clip-editor-intro.md) لمزيد من التفاصيل)
+يتم إنشاء محتوى Clip باستخدام نظام Clip Editor المرن المعتمد على nodes. (راجع [مقدمة إلى Clip Editor](../clip-editor/clip-editor-intro.md "mention") لمزيد من التفاصيل)
 
 ### Clip Deck
 

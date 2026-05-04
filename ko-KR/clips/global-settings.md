@@ -16,7 +16,7 @@ Global Transformations는 Canvas에는 영향을 주지 않으며, Beam 및 DMX 
 
 ### Scale X/Y
 
-가로 및 세로 스케일입니다. `Shift`를 누르지 않는 한 두 값은 함께 잠겨 있습니다. 기본적으로 APC40 Device Control 노브 4와 8에도 매핑되어 있으며, Clip Deck 오른쪽 패널에 표시됩니다.
+가로 및 세로 스케일입니다. `Shift`를 누르지 않는 한 두 값은 함께 잠겨 있습니다. 기본적으로 APC40 Device Control 노브 4와 8에도 매핑되어 있으며, Clip Deck 오른쪽의 상황별 Parameters 패널에 표시됩니다.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Global Transformations는 Canvas에는 영향을 주지 않으며, Beam 및 DMX 
 
 ### Spin
 
-모든 콘텐츠를 중심 기준으로 회전시킵니다. 양수 값은 시계 방향으로, 음수 값은 반시계 방향으로 회전합니다. 이 설정이 _Rotation_ 변환에 영향을 주는 것을 확인할 수 있습니다. 기본적으로 APC40 Device Control 노브 3에 매핑되어 있으며, Clip Deck 오른쪽 패널에 표시됩니다.
+모든 콘텐츠를 중심 기준으로 회전시킵니다. 양수 값은 시계 방향으로, 음수 값은 반시계 방향으로 회전합니다. 이 설정이 _Rotation_ 변환에 영향을 주는 것을 확인할 수 있습니다. 기본적으로 APC40 Device Control 노브 3에 매핑되어 있으며, Clip Deck 오른쪽의 상황별 Parameters 패널에 표시됩니다.
 
 ### Spin 3D
 
-모든 콘텐츠를 Y축(중앙의 세로선)을 기준으로 회전시킵니다. 이 설정이 _Rotation3D_ 변환에 영향을 주는 것을 확인할 수 있습니다. 기본적으로 APC40 Device Control 노브 7에 매핑되어 있으며, Clip Deck 오른쪽 패널에 표시됩니다.
+모든 콘텐츠를 Y축(중앙의 세로선)을 기준으로 회전시킵니다. 이 설정이 _Rotation3D_ 변환에 영향을 주는 것을 확인할 수 있습니다. 기본적으로 APC40 Device Control 노브 7에 매핑되어 있으며, Clip Deck 오른쪽의 상황별 Parameters 패널에 표시됩니다.
 
 ### Rotation
 

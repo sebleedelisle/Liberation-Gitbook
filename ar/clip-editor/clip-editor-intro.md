@@ -32,7 +32,7 @@ metaLinks:
 أثناء التحرير، سترى أيضًا شكل Clip في عارض 3D في الخلفية.
 
 {% hint style="info" %}
-إذا لم ترَ أي خرج في عارض 3D، فقد تحتاج إلى استخدام أزرار zone لتشغيل zones المطلوبة. وستحتاج أيضًا إلى التأكد من تفعيل _Preview to lasers_، راجع [لوحة Clip Editor](clip-editor-intro.md#clip-editor-panel) أدناه.
+إذا لم ترَ أي خرج في عارض 3D، فقد تحتاج إلى استخدام أزرار zone لتشغيل zones المطلوبة. وستحتاج أيضًا إلى التأكد من تفعيل _Preview to lasers_، راجع [لوحة Clip Editor](clip-editor-intro.md#clip-editor-panel "mention") أدناه.
 {% endhint %}
 
 ### إنشاء Clip
@@ -75,7 +75,7 @@ metaLinks:
 **معلومة ممتعة:** استُلهم اسم _Liberation_ من Moog Liberation، وهو مُركّب صوت من نوع "keytar" صدر عام 1980 واشتهر بفضل Herbie Hancock و Jean-Michel Jarre وحتى James Brown!
 {% endhint %}
 
-تحتوي Oscillators دائمًا على إعدادات _range_ تتحكم في الحد الأدنى والحد الأقصى لقيمة الخاصية التي سيتم ضبطها. وتحتوي _Wave Oscillators_ دائمًا على إعداد _duration_ يحدد مدى سرعة تغيير Oscillator للقيمة. راجع [Wave Oscillators](oscillators/wave-oscillators.md) لمزيد من المعلومات.
+تحتوي Oscillators دائمًا على إعدادات _range_ تتحكم في الحد الأدنى والحد الأقصى لقيمة الخاصية التي سيتم ضبطها. وتحتوي _Wave Oscillators_ دائمًا على إعداد _duration_ يحدد مدى سرعة تغيير Oscillator للقيمة. راجع [Wave Oscillators](oscillators/wave-oscillators.md "mention") لمزيد من المعلومات.
 
 ### لوحة Clip Editor
 

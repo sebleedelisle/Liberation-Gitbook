@@ -25,6 +25,6 @@ _BOTH_ ayarını dikkatli kullanın. MIDI cihazları ve yazılımları, aldıkla
 
 ### MIDI eşlemesi
 
-Bkz. [MIDI gönderme/alma varsayılan eşlemesi](../reference/midi-send-receive-default-mapping.md)
+Bkz. [MIDI gönderme/alma varsayılan eşlemesi](../reference/midi-send-receive-default-mapping.md "mention")
 
 Gelecekte çok daha özelleştirilebilir MIDI eşlemesi eklemeyi planlıyorum. Şimdilik Liberation ile özel donanımınız arasında dönüşüm yapmak için [BOME](https://www.bome.com/products/miditranslator) ve [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) gibi uygulamaları kullanabilirsiniz.

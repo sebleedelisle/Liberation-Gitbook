@@ -9,7 +9,7 @@ metaLinks:
 
 ### Auktorisera Liberation
 
-När du öppnar Liberation för första gången körs det i _demoläge_ och du ser panelen _About panel:_
+När du öppnar Liberation för första gången körs det i _free mode_ och du ser panelen _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 

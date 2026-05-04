@@ -9,10 +9,10 @@ metaLinks:
 
 #### Dónde encontrar la carpeta de trabajo
 
-Cada versión de Liberation tiene su propia carpeta de trabajo. Por ejemplo, si estás usando la versión 1.0.0, el nombre de la carpeta será 1.0.0.
+Cada versión de Liberation tiene su propia carpeta de trabajo. Por ejemplo, si estás usando la versión 1.0.3, el nombre de la carpeta será 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Cómo abrir la carpeta rápidamente**
 
@@ -24,7 +24,7 @@ Cada versión de Liberation tiene su propia carpeta de trabajo. Por ejemplo, si 
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Abre la carpeta que coincida con tu número de versión, por ejemplo `1.0.0`.
+3. Abre la carpeta que coincida con tu número de versión, por ejemplo `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Cada versión de Liberation tiene su propia carpeta de trabajo. Por ejemplo, si 
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Abre la carpeta que coincida con tu número de versión, por ejemplo `1.0.0`.
+2. Abre la carpeta que coincida con tu número de versión, por ejemplo `1.0.3`.
 
 > **Consejo para Windows**: Si navegas con File Explorer, activa los elementos ocultos: **View > Show > Hidden items**.

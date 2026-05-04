@@ -16,7 +16,7 @@ metaLinks:
 
 ### Scale X/Y
 
-水平及垂直縮放。除非你按住 `Shift`，否則這兩個數值會鎖定在一起。預設情況下，這些設定亦會對應到 APC40 Device Control 旋鈕 4 和 8，並顯示在 Clip Deck 右側的面板中。
+水平及垂直縮放。除非你按住 `Shift`，否則這兩個數值會鎖定在一起。預設情況下，這些設定亦會對應到 APC40 Device Control 旋鈕 4 和 8，並顯示在 Clip Deck 右側的情境 Parameters 面板中。
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ metaLinks:
 
 ### Spin
 
-將所有內容圍繞中心旋轉。正數值會順時針旋轉，負數值會逆時針旋轉。你會看到此設定會影響 _Rotation_ 變換。預設情況下，此設定會對應到 APC40 Device Control 旋鈕 3，並顯示在 Clip Deck 右側的面板中。
+將所有內容圍繞中心旋轉。正數值會順時針旋轉，負數值會逆時針旋轉。你會看到此設定會影響 _Rotation_ 變換。預設情況下，此設定會對應到 APC40 Device Control 旋鈕 3，並顯示在 Clip Deck 右側的情境 Parameters 面板中。
 
 ### Spin 3D
 
-將所有內容圍繞 Y 軸旋轉（即位於中心的垂直線）。你會看到此設定會影響 _Rotation3D_ 變換。預設情況下，此設定會對應到 APC40 Device Control 旋鈕 7，並顯示在 Clip Deck 右側的面板中。
+將所有內容圍繞 Y 軸旋轉（即位於中心的垂直線）。你會看到此設定會影響 _Rotation3D_ 變換。預設情況下，此設定會對應到 APC40 Device Control 旋鈕 7，並顯示在 Clip Deck 右側的情境 Parameters 面板中。
 
 ### Rotation
 

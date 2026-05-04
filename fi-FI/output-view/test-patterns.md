@@ -8,7 +8,7 @@ metaLinks:
 
 Kun muokkaat ja säädät vyöhykettä, testikuvion näyttäminen on hyödyllistä. Voit ottaa testikuvion käyttöön kaikissa käytössä olevissa vyöhykkeissä yläosan kuvakepalkin vaihtopainikkeella ja valita testikuvion sen oikealla puolella olevalla liukusäätimellä.
 
-Jos haluat testikuvion vain siihen laseriin, jonka vyöhykettä parhaillaan määrität, käytä _Output_-näkymän vasemman reunan työkalurivin vaihtopainiketta. Valitse testikuvio napsauttamalla tai vetämällä sen alla olevaa numeroa.
+Jos haluat testikuvion vain siihen laseriin, jonka vyöhykettä parhaillaan määrität, käytä _Output_-näkymän vasemman reunan työkalurivin vaihtopainiketta. Valitse testikuvio napsauttamalla ja vetämällä sen alla olevaa numeroa.
 
 ### Testikuvioiden luettelo
 
@@ -19,7 +19,7 @@ Tässä on täydellinen luettelo testikuvioista. Kuviot täyttävät kunkin vyö
 3. Vihreät vaakaviivat – 4 vaakaviivaa tasavälein.
 4. Vihreät pystyviivat – 4 pystyviivaa tasavälein.
 
-Värikalibrointikuviot 5–8. Näitä voidaan käyttää laserin asetuksissa olevan värinkorjausjärjestelmän kanssa. Katso [Värikalibrointi](../advanced/colour-calibration.md). Nämä kuviot eivät täytä koko lähtöaluetta.
+Värikalibrointikuviot 5–8. Näitä voidaan käyttää laserin asetuksissa olevan värinkorjausjärjestelmän kanssa. Katso [Värikalibrointi](../advanced/colour-calibration.md "mention"). Nämä kuviot eivät täytä koko lähtöaluetta.
 
 5. Värikalibrointikuvio – punainen.
 6. Värikalibrointikuvio – vihreä.

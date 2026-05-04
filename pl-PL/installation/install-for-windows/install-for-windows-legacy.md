@@ -23,7 +23,7 @@ Kliknij _Download latest for Windows_ (numery wersji mogą się zmieniać). Zoba
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Otworzy się folder pobranych plików. Znajdź pobrany plik (zwykle na samej górze), kliknij go prawym przyciskiem myszy i wybierz „Extract all”.
+Otworzy się folder Downloads. Znajdź pobrany plik (zwykle na samej górze), kliknij go prawym przyciskiem myszy i wybierz „Extract all”.
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Po zakończeniu rozpakowywania Windows pokaże plik instalacyjny. Kliknij dwukro
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation potrzebuje uprawnień dostępu do plików i sieci, więc Windows prawdopodobnie wyświetli kilka komunikatów z prośbą o zgodę. Zaakceptuj wszystkie, w przeciwnym razie Liberation może nie działać poprawnie.
+Liberation potrzebuje uprawnień dostępu do plików i sieci, więc Windows prawdopodobnie wyświetli kilka próśb o uprawnienia. Zaakceptuj wszystkie, w przeciwnym razie Liberation może nie działać poprawnie.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

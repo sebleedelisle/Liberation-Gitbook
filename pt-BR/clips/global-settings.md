@@ -16,7 +16,7 @@ Observe que as Global Transformations não afetam nada no Canvas, apenas zonas B
 
 ### Scale X/Y
 
-Escala horizontal e vertical. Esses valores ficam vinculados entre si, a menos que você pressione `Shift`. Por padrão, eles também são mapeados para os knobs 4 e 8 de Device Control do APC40 e aparecem no painel à direita do Clip Deck.
+Escala horizontal e vertical. Esses valores ficam vinculados entre si, a menos que você pressione `Shift`. Por padrão, eles também são mapeados para os knobs 4 e 8 de Device Control do APC40 e aparecem no painel contextual Parameters à direita do Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Deslocamento horizontal e vertical. Move tudo horizontalmente / verticalmente.
 
 ### Spin
 
-Gira todo o conteúdo ao redor do centro. Um valor positivo gira no sentido horário; um valor negativo gira no sentido anti-horário. Você verá que essa configuração afeta a transformação _Rotation_. Por padrão, ela é mapeada para o knob 3 de Device Control do APC40 e aparece no painel à direita do Clip Deck.
+Gira todo o conteúdo ao redor do centro. Um valor positivo gira no sentido horário; um valor negativo gira no sentido anti-horário. Você verá que essa configuração afeta a transformação _Rotation_. Por padrão, ela é mapeada para o knob 3 de Device Control do APC40 e aparece no painel contextual Parameters à direita do Clip Deck.
 
 ### Spin 3D
 
-Gira todo o conteúdo ao redor do eixo Y (que é uma linha vertical no centro). Você verá que essa configuração afeta a transformação _Rotation3D_. Por padrão, ela é mapeada para o knob 7 de Device Control do APC40 e aparece no painel à direita do Clip Deck.
+Gira todo o conteúdo ao redor do eixo Y (que é uma linha vertical no centro). Você verá que essa configuração afeta a transformação _Rotation3D_. Por padrão, ela é mapeada para o knob 7 de Device Control do APC40 e aparece no painel contextual Parameters à direita do Clip Deck.
 
 ### Rotation
 

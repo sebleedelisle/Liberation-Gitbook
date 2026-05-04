@@ -9,7 +9,7 @@ metaLinks:
 
 레이저 전원을 켜는 것은 즐거운 일이지만, 그만큼 레이저를 _정지_할 수 있는 것도 매우 중요합니다! 레이저 하드웨어와 소프트웨어는 일반적으로 매우 안정적이지만, 어떤 장비든 고장 날 수 있습니다. 그리고 드물게 그런 상황이 발생했을 때, 원격 정지 버튼이 있다는 사실에 크게 안도하게 될 것입니다.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Laser Cube용 원격 정지 버튼. 보유한 하드웨어 중 가장 중요한 장치입니다.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 전동 공구와 중장비에는 주 전원 공급을 차단하는 방식의 정지 버튼이 있지만, 레이저 장비에서는 **절대** 이렇게 하면 안 됩니다! 레이저는 항상 발광을 멈추기까지 약간의 시간이 걸리며, 갑작스러운 전원 차단은 레이저 스캐너가 동작 한계 지점까지 움직이게 만들 수 있습니다. 그 결과 예상치 못한 위치에 강한 빔이 나갈 수 있습니다!

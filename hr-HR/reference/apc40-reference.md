@@ -19,7 +19,7 @@ metaLinks:
 9. Gumbi grupa
 10. Zaustavi sve Clips (pritisnite dvaput za trenutačno zaustavljanje svih Clips bez njihovih postavki zatamnjenja)
 11. Pomicanje kroz Clip Deck
-12. Parametri za Clip / globalni parametri
+12. Kontrole kontekstualne ploče Parameters
 13. Stranica Clips lijevo/desno
 14. Stranica zones lijevo/desno
 15. Gumb Alt (omogućuje odabir Clip)
@@ -35,3 +35,5 @@ metaLinks:
 25. Fino pomicanje tempa + i -
 26. Pomicanje tempa
 27. Nožna pedala, Tap Tempo
+
+Regulatori Device Control prate iste kontekstualne parametre prikazane u zaslonskoj ploči Parameters. Kada je odabran Clip, upravljaju pomakom za Clip, kašnjenjem zone, globalnom rotacijom i globalnim skaliranjem. Ako držite pritisnutu tipku grupe, prve kontrole prebacuju se na vrijeme postupnog pojavljivanja i postupnog zatamnjivanja te grupe.

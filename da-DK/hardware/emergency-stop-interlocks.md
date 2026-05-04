@@ -9,7 +9,7 @@ metaLinks:
 
 Det kan være sjovt at tænde dine lasere, men det er helt afgørende, at du også kan _stoppe_ dem! Laserhardware og -software er generelt meget driftssikkert, men alt kan fejle. Og hvis det en sjælden gang sker, vil du være meget taknemmelig for den fjernbetjente stopknap.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Fjernbetjent stopknap til en Laser Cube. Det vigtigste stykke hardware, du ejer.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Elværktøj og tungt udstyr har stopknapper, der blot afbryder hovedstrømmen, men det må du **aldrig** gøre på laserudstyr! Laserne vil altid bruge et øjeblik på at stoppe emissionen, og et pludseligt strømsvigt kan få laserscannerne til at ramme deres yderpositioner. Derfor kan du ende med en kraftig stråle på uventede steder!

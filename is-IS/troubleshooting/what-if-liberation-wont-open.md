@@ -20,10 +20,10 @@ Sem betur fer er auðvelt að laga þetta með því að endurstilla staðbundnu
 
 #### Hvar finnurðu vinnumöppuna?
 
-Hver útgáfa af Liberation hefur sína eigin vinnumöppu. Ef þú ert til dæmis að nota útgáfu 1.0.0 heitir mappan 1.0.0.
+Hver útgáfa af Liberation hefur sína eigin vinnumöppu. Ef þú ert til dæmis að nota útgáfu 1.0.3 heitir mappan 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Fljótleg leið til að opna möppuna**
 
@@ -35,7 +35,7 @@ Hver útgáfa af Liberation hefur sína eigin vinnumöppu. Ef þú ert til dæmi
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Opnaðu möppuna sem samsvarar útgáfunúmerinu þínu, til dæmis `1.0.0`.
+3. Opnaðu möppuna sem samsvarar útgáfunúmerinu þínu, til dæmis `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Hver útgáfa af Liberation hefur sína eigin vinnumöppu. Ef þú ert til dæmi
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Opnaðu möppuna sem samsvarar útgáfunúmerinu þínu, til dæmis `1.0.0`.
+2. Opnaðu möppuna sem samsvarar útgáfunúmerinu þínu, til dæmis `1.0.3`.
 
 > **Ábending fyrir Windows**: Ef þú flettir í gegnum File Explorer í staðinn skaltu virkja falin atriði: **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 Í liberation-möppunni ættirðu að finna skrá sem heitir `settings.json`. Eyddu þessari skrá.
 
-* **Dæmi fyrir macOS**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Dæmi fyrir Windows**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **Dæmi fyrir macOS**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Dæmi fyrir Windows**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Reyndu nú að ræsa Liberation. Ef forritið opnast er þessu lokið.
 
@@ -84,9 +84,9 @@ Reyndu að ræsa Liberation aftur. Ef forritið opnast nú eðlilega skaltu send
 Ef skref 1 og skref 2 hjálpuðu ekki:
 
 1. **Taktu afrit** af allri útgáfumöppunni:
-   * macOS: Hægrismelltu á `1.0.0` möppuna og veldu **Compress** til að búa til zip-skrá, eða afritaðu hana á öruggan stað eins og Desktop.
-   * Windows: Hægrismelltu á `1.0.0` möppuna og veldu **Send to > Compressed (zipped) folder**, eða afritaðu hana á öruggan stað eins og Desktop.
-2. Þegar afritið er tilbúið skaltu **eyða** upprunalegu `1.0.0` möppunni úr Liberation vinnusvæðinu.
+* macOS: Hægrismelltu á `1.0.3` möppuna og veldu **Compress** til að búa til zip-skrá, eða afritaðu hana á öruggan stað eins og Desktop.
+* Windows: Hægrismelltu á `1.0.3` möppuna og veldu **Send to > Compressed (zipped) folder**, eða afritaðu hana á öruggan stað eins og Desktop.
+2. Þegar afritið er tilbúið skaltu **eyða** upprunalegu `1.0.3` möppunni úr Liberation vinnusvæðinu.
 3. Ræstu Liberation aftur. Forritið býr þá til nýja vinnumöppu.
 
 Ef Liberation opnast nú skaltu halda áfram í skref 4.
@@ -103,10 +103,10 @@ Ef Liberation opnast nú skaltu halda áfram í skref 4.
 * **Efni**: Liberation start-up fix - working folder backup
 * **Meginmál**: Láttu eftirfarandi fylgja:
   * Stýrikerfi og útgáfu (t.d. macOS 14.6 eða Windows 11 23H2)
-  * Liberation útgáfu (t.d. 1.0.0)
+* Liberation útgáfu (t.d. 1.0.3)
   * Hvaða skref lagaði vandann, ef eitthvað þeirra gerði það (skref 1, skref 2 eða skref 3)
   * Stutta lýsingu á því hvað gerðist áður en vandinn kom upp
-* **Viðhengi**: zip-skráin með afritinu af `1.0.0` vinnumöppunni þinni.
+* **Viðhengi**: zip-skráin með afritinu af `1.0.3` vinnumöppunni þinni.
 
 > Ef zip-skráin er of stór fyrir tölvupóst skaltu hlaða henni upp á skýjadrif og deila hlekk.
 
@@ -127,5 +127,5 @@ Ef Liberation opnast enn ekki eftir að vinnumöppunni hefur verið eytt:
 
 1. Eyddu `data/liberation/settings.json` í útgáfumerktu vinnumöppunni þinni.
 2. Ef þú varst að breyta Clip skaltu taka afrit og eyða síðan `data/liberation/clipEdit.json`.
-3. Ef forritið opnast enn ekki skaltu taka afrit og eyða síðan allri `1.0.0` möppunni (eða möppunni fyrir þína útgáfu).
+3. Ef forritið opnast enn ekki skaltu taka afrit og eyða síðan allri `1.0.3` möppunni (eða möppunni fyrir þína útgáfu).
 4. Ef skref 3 lagar vandann (eða ef það lagar hann ekki), þjappaðu afritinu í zip-skrá og sendu hana á [**info@liberationlaser.com**](mailto:info@liberationlaser.com) ásamt stýrikerfi og Liberation útgáfu.

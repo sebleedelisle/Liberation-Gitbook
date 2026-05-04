@@ -15,7 +15,7 @@ Hệ thống Alt zone cho phép bạn tạo một zone thay thế cho bất kỳ
 
 ### Thêm zone thay thế
 
-Trong Output view, nhấp chuột phải vào một zone rồi nhấp _ADD ALT ZONE_. Bạn sẽ thấy một zone mới màu xanh lá xuất hiện. Bạn có thể chỉnh sửa và điều chỉnh zone này giống hệt như các zones khác của mình. Bạn cần bật Alt zones trên thanh biểu tượng phía trên để xem các test pattern.
+Trong Output view, nhấp chuột phải vào một zone rồi nhấp _ADD ALT ZONE_. Bạn sẽ thấy một zone mới màu xanh lá xuất hiện. Bạn có thể chỉnh sửa và điều chỉnh zone này giống hệt như các zone khác của mình. Bạn cần bật Alt zones trên thanh biểu tượng phía trên để xem các test pattern.
 
 ### Chuyển sang Alt zones
 

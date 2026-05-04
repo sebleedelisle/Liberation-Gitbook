@@ -7,13 +7,13 @@ metaLinks:
 
 # ✅ Sådan fungerer licensering
 
-Når du har installeret Liberation på din computer, kører programmet i _demotilstand_, indtil du _autoriserer_ det.
+Når du har installeret Liberation på din computer, kører programmet i _free mode_, indtil du _autoriserer_ det.
 
 {% hint style="info" %}
-Der er ingen begrænsninger i _demotilstand_ ud over output til laserhardware. Du kan øve shows, opbygge tidslinjer og gemme og indlæse dine filer uden begrænsninger. Du kan installere Liberation i _demotilstand_ på så mange computere, du vil, og du behøver først at autorisere din installation, når du er klar til at bruge lasere!
+Der er ingen begrænsninger i _free mode_ ud over output til laserhardware. Du kan øve shows, opbygge tidslinjer og gemme og indlæse dine filer uden begrænsninger. Du kan installere Liberation i _free mode_ på så mange computere, du vil, og du behøver først at autorisere din installation, når du er klar til at bruge lasere!
 {% endhint %}
 
-Ud over antallet af lasere, du kan markere som armed, kan du også bruge DMX-fixtures. Se [DMX / Art-Net](../dmx-control/).
+Ud over antallet af lasere, du kan markere som armed, kan du også bruge DMX-fixtures. Se [DMX / Art-Net](../dmx-control/ "mention").
 
 Der er også en grænse for, hvor mange computere du kan autorisere Liberation på, afhængigt af dit abonnementsniveau.
 
@@ -28,3 +28,5 @@ Hver licens er kun til én bruger og ét show ad gangen. Du må have mere end é
 Licensering og autorisation i Liberation foregår via internettet; appen opretter forbindelse til vores server for at knytte en installation til dit abonnement.
 
 Når din installation er autoriseret, behøver den ikke være online igen, før dit abonnement fornys. Du kan se fornyelsesdatoen i _About panel_. Der er en kort henstandsperiode (7 dage for månedsabonnementer), men det anbefales at gå online så hurtigt som muligt efter fornyelsesdatoen for at sikre, at din autorisation fornyes og forbliver aktiv.
+
+Det aktuelle licensniveau vises også i topbjælken. Klik på niveauets navn, eller på _FREE MODE_, når der ikke er licens, for at åbne About panel.

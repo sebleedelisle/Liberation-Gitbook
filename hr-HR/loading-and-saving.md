@@ -14,7 +14,7 @@ Ipak, svoju konfiguraciju možete izvesti radi sigurnosne kopije ili prijenosa n
 
 Datoteka projekta sprema gotovo sve iz vaše trenutačne konfiguracije, uključujući:
 
-* Sve što je opisano u odjeljku [Uvoz/izvoz Laser Settings](loading-and-saving.md#laser-settings-import-export) u nastavku
+* Sve što je opisano u odjeljku [Uvoz/izvoz Laser Settings](loading-and-saving.md#laser-settings-import-export "mention") u nastavku
 * Clips, efekte i postavke grupa
 * Sve vaše vremenske crte (bez audio i video medija)
 * Art-Net postavke
@@ -30,7 +30,7 @@ Trenutačno ne sprema i ne učitava:
 * Fontove koji se upotrebljavaju u node Text
 
 {% hint style="danger" %}
-Zvučne i videodatoteke na vremenskoj crti ne spremaju se s datotekama projekta, zato ih obavezno spremite zasebno ako ih želite prenijeti na drugo računalo. Pogledajte [Važna napomena o medijskim datotekama vremenske crte](loading-and-saving.md#important-note-about-timeline-media-files)
+Zvučne i videodatoteke na vremenskoj crti ne spremaju se s datotekama projekta, zato ih obavezno spremite zasebno ako ih želite prenijeti na drugo računalo. Pogledajte [Važna napomena o medijskim datotekama vremenske crte](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Uvoz/izvoz Laser Settings
@@ -67,7 +67,7 @@ Možete dodati Clips iz izvezene datoteke Clip Deck u trenutačni projekt pomoć
 Svi trenutačno odabrani Clips izvest će se u datoteku. Postavke grupa i efekti neće se spremiti, nego samo Clips. Imajte na umu da se trenutačno aktivni Clips ne izvoze osim ako su također odabrani.
 
 {% hint style="info" %}
-Za odabir Clips pritisnite Option/Alt - shift i kliknite na njih (ili upotrijebite laso). Odabrane Clips prepoznat ćete po debelom bijelom obrubu oko njih. Pogledajte [Pokretanje i zaustavljanje Clips](clips/starting-stopping-clips.md)
+Za odabir Clips pritisnite Option/Alt - shift i kliknite na njih (ili upotrijebite laso). Odabrane Clips prepoznat ćete po debelom bijelom obrubu oko njih. Pogledajte [Pokretanje i zaustavljanje Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Uvoz/izvoz efekata
@@ -82,12 +82,12 @@ Da biste iz projekta uvezli samo efekte, odaberite _**Effects->Import Effects**_
 
 ### Izvoz vremenske crte
 
-Izvezite datoteku vremenske crte s jednom ili više vremenskih crta. Imajte na umu da je Clip Deck uvijek uključen u izvezene datoteke vremenske crte (iako možete odabrati koje ćete Clips ponovno uvesti; pogledajte [Uvoz vremenske crte](loading-and-saving.md#timeline-import) u nastavku).
+Izvezite datoteku vremenske crte s jednom ili više vremenskih crta. Imajte na umu da je Clip Deck uvijek uključen u izvezene datoteke vremenske crte (iako možete odabrati koje ćete Clips ponovno uvesti; pogledajte [Uvoz vremenske crte](loading-and-saving.md#timeline-import "mention") u nastavku).
 
 Ako u datoteci projekta imate više od jedne vremenske crte, otvorit će se panel u kojem možete odabrati koje vremenske crte želite izvesti.
 
 {% hint style="danger" %}
-Zvučne i videodatoteke na vremenskoj crti ne spremaju se s datotekama vremenske crte, zato ih obavezno spremite zasebno ako sadržaj želite prenijeti na drugo računalo. Pogledajte [Važna napomena o medijskim datotekama vremenske crte](loading-and-saving.md#important-note-about-timeline-media-files)
+Zvučne i videodatoteke na vremenskoj crti ne spremaju se s datotekama vremenske crte, zato ih obavezno spremite zasebno ako sadržaj želite prenijeti na drugo računalo. Pogledajte [Važna napomena o medijskim datotekama vremenske crte](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Uvoz vremenske crte

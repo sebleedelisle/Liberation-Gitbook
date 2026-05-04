@@ -7,13 +7,13 @@ metaLinks:
 
 # ✅ Hvernig leyfisveiting virkar
 
-Þegar þú hefur sett Liberation upp á tölvunni keyrir forritið í _kynningarham_ þar til þú _virkjar_ það.
+Þegar þú hefur sett Liberation upp á tölvunni keyrir forritið í _ókeypis ham_ þar til þú _virkjar_ það.
 
 {% hint style="info" %}
-Engar takmarkanir eru í _kynningarham_ nema að ekki er hægt að senda Output í laserbúnað. Þú getur æft sýningar, byggt timelines og vistað og hlaðið skrám án takmarkana. Þú getur sett Liberation upp í _kynningarham_ á eins mörgum tölvum og þú vilt, og þarft aðeins að virkja uppsetninguna þegar þú ætlar að nota leysa!
+Engar takmarkanir eru í _ókeypis ham_ nema að ekki er hægt að senda Output í laserbúnað. Þú getur æft sýningar, byggt timelines og vistað og hlaðið skrám án takmarkana. Þú getur sett Liberation upp í _ókeypis ham_ á eins mörgum tölvum og þú vilt, og þarft aðeins að virkja uppsetninguna þegar þú ætlar að nota leysa!
 {% endhint %}
 
-Auk fjölda lasera sem þú getur sett á arm geturðu einnig notað DMX-ljós. Sjá [DMX-stýring](../dmx-control/).
+Auk fjölda lasera sem þú getur sett á arm geturðu einnig notað DMX-ljós. Sjá [DMX-stýring](../dmx-control/ "mention").
 
 Einnig eru takmörk á því á hversu mörgum tölvum þú getur virkjað Liberation, eftir því hvaða áskriftarleið þú ert með.
 
@@ -28,3 +28,5 @@ Hvert leyfi er aðeins fyrir einn notanda og eina sýningu í einu. Þú getur h
 Leyfisveiting og virkjun Liberation fer fram yfir internetið; appið tengist þjóninum okkar til að tengja uppsetningu við áskriftina þína.
 
 Þegar uppsetningin hefur verið virkjuð þarf hún ekki að vera nettengd aftur fyrr en áskriftin endurnýjast. Þú sérð endurnýjunardagsetninguna í _About panel_. Það er stuttur frestur eftir endurnýjun (7 dagar fyrir mánaðaráskriftir), en mælt er með að fara á netið eins fljótt og hægt er eftir endurnýjunardag til að tryggja að virkjunin endurnýjist og haldist virk.
+
+Núverandi leyfisþrep sést líka á efstu stikunni. Smelltu á heiti þrepsins, eða _FREE MODE_ þegar ekkert leyfi er virkt, til að opna About panel.

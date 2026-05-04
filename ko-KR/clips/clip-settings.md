@@ -14,7 +14,13 @@ _Scale X_ 및 _Scale Y_를 사용해 Clip의 출력 크기를 변경합니다. _
 
 _Shift X_ 및 _Shift Y_를 사용해 Clip의 가로 및 세로 위치를 변경합니다.
 
-_Zone Delay/Chase_는 별도 섹션이 필요할 만큼 재미있는 기능입니다. [Zone delay / chase](zone-delay-chase.md)
+_Zone Delay/Chase_는 별도 섹션이 필요할 만큼 재미있는 기능입니다. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Parameters 패널
+
+Clip Deck 오른쪽의 패널에는 상황에 따라 달라지는 8개의 파라미터가 표시됩니다. Clip을 선택하면 처음 컨트롤은 선택한 Clip의 _Shift X_, _Shift Y_, _Zone Delay_이고, 그다음에 전역 _Spin_ 및 _Scale_ 컨트롤이 이어집니다.
+
+이 동일한 파라미터는 지원되는 MIDI 컨트롤러에도 미러링됩니다. 선택된 Clip이 없으면 Clip별 슬롯은 비어 있습니다. 그룹 버튼을 누르고 있으면 처음 두 컨트롤이 해당 그룹의 페이드 인 및 페이드 아웃 시간으로 변경됩니다.
 
 ### Clip 잠금
 
@@ -27,9 +33,9 @@ Clip이 잠겨 있으면 이동하거나 삭제할 수 없습니다. Clip을 잠
 
 ### 오른쪽 클릭 메뉴
 
-Clip을 오른쪽 클릭하면 해당 Clip에 대한 몇 가지 옵션이 포함된 메뉴가 나타납니다. 이 메뉴의 처음 몇 항목에 대한 자세한 내용은 [Clip Editor 소개](../clip-editor/clip-editor-intro.md), [Clip settings](clip-settings.md) 및 [Clip 그룹](groups.md)를 참고하세요.
+Clip을 오른쪽 클릭하면 해당 Clip에 대한 몇 가지 옵션이 포함된 메뉴가 나타납니다. 이 메뉴의 처음 몇 항목에 대한 자세한 내용은 [Clip Editor 소개](../clip-editor/clip-editor-intro.md "mention"), [Clip 설정](clip-settings.md "mention") 및 [Clip 그룹](groups.md "mention")를 참고하세요.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Clip settings 오른쪽 클릭 메뉴</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/graphics-and-the-canvas-system/canvas-settings
+---
+
 # 🟩 Canvas 设置
 
 点击左侧工具栏顶部的 _Canvas settings_ 按钮打开 _Canvas settings_ 面板。&#x20;
@@ -6,7 +13,7 @@
 
 使用这些可拖动滑块调整整个 Canvas 的宽度和高度。这些尺寸可理解为像素大小，但本质是相对的。&#x20;
 
-双击滑块可输入数值。&#x20;
+双击滑块可输入数值。
 
 {% hint style="info" %}
 补充一点技术细节：激光的移动是相对于 Canvas 分辨率计算的，而不是相对于 Zone 大小。这是因为 Canvas 中较大的 zone 往往会投射到现实中更大的区域。&#x20;

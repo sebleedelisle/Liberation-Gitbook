@@ -8,7 +8,7 @@ metaLinks:
 
 zone düzenlerken ve ayarlarken bir test pattern çıkışı almak kullanışlıdır. Üstteki simge çubuğundaki toggle düğmesini kullanarak etkin olan tüm zone için test pattern açabilir, sağındaki slider ile test pattern seçebilirsiniz.
 
-Sadece o anda zone ayarı yaptığınız lazerde test pattern görmek istiyorsanız _Output_ view öğesinin solundaki araç çubuğundaki toggle düğmesini kullanın. test pattern seçmek için altındaki sayıya tıklayın/sürükleyin.
+Sadece o anda zone ayarı yaptığınız lazerde test pattern görmek istiyorsanız _Output_ view öğesinin solundaki araç çubuğunda bulunan toggle düğmesini kullanın. Test pattern seçmek için altındaki sayıya tıklayıp sürükleyin.
 
 ### Test pattern listesi
 
@@ -19,7 +19,7 @@ Aşağıda test pattern listesinin tamamı yer alır. Aksi belirtilmedikçe patt
 3. Yatay yeşil çizgiler - eşit aralıklı 4 yatay çizgi.
 4. Dikey yeşil çizgiler - eşit aralıklı 4 dikey çizgi.
 
-Renk kalibrasyonu pattern öğeleri 5-8. Bunlar Laser Settings içindeki renk düzeltme sistemiyle birlikte kullanılabilir. Bkz. [renk kalibrasyonu](../advanced/colour-calibration.md). Bu pattern öğeleri çıkış alanının tamamını doldurmaz.
+Renk kalibrasyonu pattern öğeleri 5-8. Bunlar Laser Settings içindeki renk düzeltme sistemiyle birlikte kullanılabilir. Bkz. [renk kalibrasyonu](../advanced/colour-calibration.md "mention"). Bu pattern öğeleri çıkış alanının tamamını doldurmaz.
 
 5. Renk kalibrasyonu pattern - kırmızı.
 6. Renk kalibrasyonu pattern - yeşil.

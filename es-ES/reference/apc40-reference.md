@@ -8,7 +8,7 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
-1. Clipdeck 8x5
+1. Clip Deck 8x5
 2. Activar/desactivar zonas
 3. Activar/desactivar efectos 1-8
 4. Invertir X/Y de la zona
@@ -18,8 +18,8 @@ metaLinks:
 8. Ajuste de parámetros de los efectos 1-8
 9. Botones de grupo
 10. Detener todos los clips (pulsa dos veces para detener inmediatamente todos los clips sin aplicar sus ajustes de fundido)
-11. Desplazamiento del Clipdeck
-12. Parámetros del clip / globales
+11. Scroll de Clip Deck
+12. Controles del panel Contextual Parameters
 13. Página de clips izquierda/derecha
 14. Página de zonas izquierda/derecha
 15. Botón Alt (permite seleccionar clips)
@@ -35,3 +35,5 @@ metaLinks:
 25. Ajuste fino de tempo + y -
 26. Desplazamiento del tempo
 27. Pedal de pie, Tap Tempo
+
+Los controles giratorios Device Control siguen los mismos parámetros contextuales que se muestran en el panel Parameters en pantalla. Con un Clip seleccionado, controlan el desplazamiento del Clip, el retardo de zone, el giro global y la escala global. Si se mantiene pulsado un botón de grupo, los primeros controles pasan a controlar los tiempos de fundido de entrada y fundido de salida de ese grupo.

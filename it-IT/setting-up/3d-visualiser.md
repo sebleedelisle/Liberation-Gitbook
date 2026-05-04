@@ -42,7 +42,7 @@ Queste impostazioni riguardano principalmente la camera virtuale nello spazio 3D
 
 ### Content settings
 
-Queste impostazioni determinano dove vengono posizionati i laser (e il canvas) all’interno dell’ambiente 3D. È disponibile un menu a discesa con preset per queste impostazioni, che puoi salvare e ricaricare.
+Queste impostazioni determinano dove vengono posizionati i laser (e il Canvas) all’interno dell’ambiente 3D. È disponibile un menu a discesa con preset per queste impostazioni, che puoi salvare e ricaricare.
 
 #### Lasers
 

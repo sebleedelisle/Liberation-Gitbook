@@ -52,7 +52,7 @@ _clamp_-käsitettä on melko vaikea selittää, mutta ajattele aaltomuotoa, joka
 
 * **ease function** - Sawtooth- ja Triangle-aalloissa on myös ease function, joka muuttaa animaatiokäyrää hienovaraisesti ja voi tehdä animaatioistasi paljon ilmaisuvoimaisempia.
   * **LINEAR** - oletus, ei easingia, vaan liikkuu lineaarisesti minimi- ja maksimiarvojen välillä.
-  * **EASE OUT** - alkaa nopeasti ja hidastuu loppua kohti. Erittäin hyvä fysiikan simulointiin, esimerkiksi pysähdykseen hidastumiseen.
+* **EASE OUT** - alkaa nopeasti ja hidastuu loppua kohti. Erittäin hyvä fysiikan simulointiin, esimerkiksi pysähdykseen hidastumiseen.
   * **EASE IN** - alkaa hitaasti ja nopeutuu vähitellen. Hyvä kasvavan liike-energian simulointiin.
   * **EASE IN/OUT** - näiden yhdistelmä, joka tuottaa hyvin orgaanisen liikkeen.
 

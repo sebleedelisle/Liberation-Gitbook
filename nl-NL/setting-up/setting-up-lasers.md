@@ -1,8 +1,8 @@
 ---
 description: >-
-  Lasers kunnen gevaarlijk zijn, dus het is belangrijk om best practices en
-  veiligheidsrichtlijnen te volgen. Deze pagina geeft een nuttig overzicht dat je
-  helpt bij het veilig instellen van lasers.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-
@@ -53,7 +53,7 @@ Deze pagina geeft je een overzicht van het proces om lasers veilig op te starten
 6. **Voeg softwarematige masks toe** - de softwarematige masks in Liberation kunnen worden gebruikt om camera’s en projectoren te beschermen, maar mogen **nooit** worden gebruikt in plaats van fysieke maskering om mensen te beschermen. Let op: geen enkele software of hardware is onfeilbaar, dus zorg dat je de risico’s begrijpt voordat je softwarematige masks gebruikt.
 
 {% hint style="warning" %}
-Let op: deze gids gaat uit van een indoor opstelling. Werk je buiten, dan zijn extra stappen nodig om de veiligheid van luchtvaart te waarborgen, waaronder maar niet beperkt tot :
+Let op: deze gids gaat uit van een indoor opstelling. Werk je buiten, dan zijn extra stappen nodig om de veiligheid van de luchtvaart te waarborgen, waaronder maar niet beperkt tot :
 
 * De benodigde toestemmingen verkrijgen van luchtvaartautoriteiten zoals FAA of CAA
 * Afstemmen met nabijgelegen luchthavens en vliegvelden

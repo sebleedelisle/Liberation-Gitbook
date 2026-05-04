@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/graphics-and-the-canvas-system/canvas-zones
+---
+
 # 🟩 Canvas zones
 
 Canvas zone 在 Canvas 视图中以粉色轮廓矩形显示。它用于在 Canvas 中选择一个矩形区域，并将内容发送到一台或多台激光。&#x20;

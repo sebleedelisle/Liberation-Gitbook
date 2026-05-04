@@ -20,10 +20,10 @@ Zum Glück lässt sich das leicht beheben, indem du deine lokalen Einstellungen 
 
 #### Wo du den Arbeitsordner findest
 
-Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispiel Version 1.0.0 verwendest, heißt der Ordner 1.0.0.
+Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispiel Version 1.0.3 verwendest, heißt der Ordner 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **So öffnest du den Ordner schnell**
 
@@ -35,7 +35,7 @@ Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispie
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Öffne den Ordner, der zu deiner Versionsnummer passt, zum Beispiel `1.0.0`.
+3. Öffne den Ordner, der zu deiner Versionsnummer passt, zum Beispiel `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispie
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Öffne den Ordner, der zu deiner Versionsnummer passt, zum Beispiel `1.0.0`.
+2. Öffne den Ordner, der zu deiner Versionsnummer passt, zum Beispiel `1.0.3`.
 
 > **Tipp für Windows**: Wenn du stattdessen über den File Explorer navigierst, aktiviere ausgeblendete Elemente: **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 Im liberation-Ordner solltest du eine Datei namens `settings.json` finden. Lösche diese Datei.
 
-* **macOS-Beispiel**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Windows-Beispiel**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **macOS-Beispiel**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Windows-Beispiel**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Versuche nun, Liberation zu starten. Wenn es sich öffnet, bist du fertig.
 
@@ -84,9 +84,9 @@ Versuche erneut, Liberation zu starten. Wenn es jetzt normal startet, sende die 
 Wenn Schritt 1 und Schritt 2 nicht geholfen haben:
 
 1. **Sichere** den gesamten Versionsordner:
-   * macOS: Klicke mit der rechten Maustaste auf den Ordner `1.0.0` und wähle **Compress**, um eine ZIP-Datei zu erstellen, oder kopiere ihn an einen sicheren Ort, zum Beispiel auf den Desktop.
-   * Windows: Klicke mit der rechten Maustaste auf den Ordner `1.0.0` und wähle **Send to > Compressed (zipped) folder**, oder kopiere ihn an einen sicheren Ort, zum Beispiel auf den Desktop.
-2. Nachdem du die Sicherung erstellt hast, **lösche** den ursprünglichen Ordner `1.0.0` aus dem Liberation-Arbeitsordner.
+* macOS: Klicke mit der rechten Maustaste auf den Ordner `1.0.3` und wähle **Compress**, um eine ZIP-Datei zu erstellen, oder kopiere ihn an einen sicheren Ort, zum Beispiel auf den Desktop.
+* Windows: Klicke mit der rechten Maustaste auf den Ordner `1.0.3` und wähle **Send to > Compressed (zipped) folder**, oder kopiere ihn an einen sicheren Ort, zum Beispiel auf den Desktop.
+2. Nachdem du die Sicherung erstellt hast, **lösche** den ursprünglichen Ordner `1.0.3` aus dem Liberation-Arbeitsordner.
 3. Starte Liberation erneut. Es erstellt automatisch einen neuen Arbeitsordner.
 
 Wenn Liberation jetzt startet, fahre mit Schritt 4 fort.
@@ -103,10 +103,10 @@ Komprimiere deine **Sicherung** aus Schritt 3 als ZIP-Datei, falls du das noch n
 * **Betreff**: Liberation start-up fix - working folder backup
 * **Nachricht**: Bitte gib Folgendes an:
   * Betriebssystem und Version (z. B. macOS 14.6 oder Windows 11 23H2)
-  * Liberation-Version (z. B. 1.0.0)
+* Liberation-Version (z. B. 1.0.3)
   * Welcher Schritt das Problem behoben hat, falls einer geholfen hat (Schritt 1, Schritt 2 oder Schritt 3)
   * Eine kurze Beschreibung, was passiert ist, bevor das Problem aufgetreten ist
-* **Anhang**: die gezippte Sicherung deines `1.0.0`-Arbeitsordners.
+* **Anhang**: die gezippte Sicherung deines `1.0.3`-Arbeitsordners.
 
 > Wenn die ZIP-Datei zu groß für eine E-Mail ist, lade sie in einen Cloud-Speicher hoch und teile einen Link.
 
@@ -127,5 +127,5 @@ Wenn Liberation nach dem Löschen des Arbeitsordners immer noch nicht startet:
 
 1. Lösche `data/liberation/settings.json` in deinem versionierten Arbeitsordner.
 2. Wenn du einen Clip bearbeitet hast, sichere `data/liberation/clipEdit.json` und lösche die Datei anschließend.
-3. Wenn Liberation immer noch nicht startet, sichere den gesamten Ordner `1.0.0` (oder den Ordner deiner Version) und lösche ihn anschließend.
+3. Wenn Liberation immer noch nicht startet, sichere den gesamten Ordner `1.0.3` (oder den Ordner deiner Version) und lösche ihn anschließend.
 4. Wenn Schritt 3 das Problem behebt (oder auch wenn nicht), zippe die Sicherung und sende sie mit deinem Betriebssystem und deiner Liberation-Version an [**info@liberationlaser.com**](mailto:info@liberationlaser.com).

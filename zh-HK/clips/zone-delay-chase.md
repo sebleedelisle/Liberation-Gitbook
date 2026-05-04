@@ -8,13 +8,13 @@ metaLinks:
 
 大家都同意，Laser 越多就越好玩；但如果所有 Laser 都做完全相同的動作，就會錯過很多創作可能性。
 
-Zone delay 系統是一個簡單但有效的方法，可在不同 zone 之間加入變化，充分發揮多 Laser 設定的效果。它亦可用來製作較傳統的 chase 效果。
+Zone delay 系統是一個簡單但有效的方法，可在不同 zone 之間加入變化，充分發揮多部激光設定的效果。它亦可用來製作較傳統的 chase 效果。
 
 #### 運作方式
 
 _Zone delay_ 會在各個 zone 之間為 clip 的時間加入延遲，形成一種橫掃各 zone 的效果。
 
-在 clip 已經播放時加入 Zone delay 會非常有效；你可以使用 APC40 上的相關控制來調整程度和 pattern。（請參閱 [APC40 參考](../reference/apc40-reference.md)）。你亦可以使用 _Clip Settings_ panel。
+在 clip 已經播放時加入 Zone delay 會非常有效；你可以使用 APC40 上的相關控制來調整程度和 pattern。（請參閱 [APC40 參考](../reference/apc40-reference.md "mention")）。你亦可以使用 _Clip Settings_ panel。
 
 Zone delay 設定：
 
@@ -39,7 +39,7 @@ Pattern 會根據 zone 編號運作，並假設你的 zone 是由左至右順序
 Zone delay 亦會套用到任何正在啟用的 effect。例如，閃爍效果會在各個 zone 之間延遲，clip 內的動畫本身亦一樣會延遲。
 {% endhint %}
 
-當 clip 有任何形式的 _Zone delay_ 時，你會在 clip 右上角看到一個三點圖示。這些點會以動畫顯示該 clip 的 _Zone delay_ 類型。詳情請參閱 [Clip 按鈕上的小圖示是甚麼？](what-are-the-small-icons-on-the-clip-buttons.md)。
+當 clip 有任何形式的 _Zone delay_ 時，你會在 clip 右上角看到一個三點圖示。這些點會以動畫顯示該 clip 的 _Zone delay_ 類型。詳情請參閱 [Clip 按鈕上的小圖示是甚麼？](what-are-the-small-icons-on-the-clip-buttons.md "mention")。
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>表示 clip 設有 zone delay 及其模式的三點符號</p></figcaption></figure>
 

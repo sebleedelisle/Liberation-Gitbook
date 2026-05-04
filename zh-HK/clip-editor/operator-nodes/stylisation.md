@@ -26,7 +26,7 @@ Randomise 節點是 Randomise effect 的核心！
 
 為你的內容建立回聲，在原始內容移動時，在其後方留下會淡出或縮放的複本。
 
-* **change render profile for trail** – 開啟後，所有 trail 複本都會使用所選的 **render profile**。_請參閱_ [渲染設定檔](../fundamentals/render-profile.md)。
+* **change render profile for trail** – 開啟後，所有 trail 複本都會使用所選的 **render profile**。_請參閱_ [渲染設定檔](../fundamentals/render-profile.md "mention")。
 * **render profile** – 當上方開關開啟時，trail 複本使用的 profile。常見用法是主內容設為 **DETAIL**，而回聲以 **FAST** 渲染；這樣主形狀可以保持清晰細節，同時更有效率地渲染 trails。
 * **delay** – 以音樂時間設定 trail 複本之間的間距，單位為 **1/64 音符步距**。\
   參考值：
@@ -36,6 +36,7 @@ Randomise 節點是 Randomise effect 的核心！
   * 128 = 1/2 小節（二分音符）
   * 256 = 1 小節
 * **trail size** – 在即時內容後方繪製多少個 trail 複本。
+* **prefill trails** – Clip 開始時立即填滿 trail history，而不是等回聲在最初幾拍逐漸建立。
 * **freeze trails** – 將平滑流動的 trails 變成一連串凍結的快照。適合建立斷奏、與拍子同步的 trail 效果。
 * **brightness start / brightness end** – 在 trail 上套用亮度，由最新的複本（**start**）到最舊的複本（**end**）。通常將 **brightness start** 設為 100%，並將 **brightness end** 設為 0%，回聲便會淡出。
 * **scale start / scale end** – 在 trail 上套用縮放，由最新的複本（start）到最舊的複本（end）。如要 trails 縮小至消失，請將 **scale start** 設為 100%，並將 **scale end** 設為 0%。

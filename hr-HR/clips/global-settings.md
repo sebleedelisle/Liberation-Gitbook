@@ -16,7 +16,7 @@ Imajte na umu da Globalne transformacije ne utječu ni na što u Canvas, nego sa
 
 ### Scale X/Y
 
-Horizontalno i vertikalno skaliranje. Te su vrijednosti povezane osim ako pritisnete `Shift`. Prema zadanim postavkama, mapirane su i na APC40 Device Control knob 4 i 8 te se prikazuju u panelu desno od Clip Deck.
+Horizontalno i vertikalno skaliranje. Te su vrijednosti povezane osim ako pritisnete `Shift`. Prema zadanim postavkama, mapirane su i na APC40 Device Control knob 4 i 8 te se prikazuju u kontekstualnom panelu Parameters desno od Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Horizontalni i vertikalni pomak. Pomiče sve horizontalno/vertikalno.
 
 ### Spin
 
-Okreće sav sadržaj oko središta. Pozitivna vrijednost okreće u smjeru kazaljke na satu, a negativna vrijednost u suprotnom smjeru. Vidjet ćete da ova postavka utječe na transformaciju _Rotation_. Prema zadanim postavkama mapirana je na APC40 Device Control knob 3 i prikazuje se u panelu desno od Clip Deck.
+Okreće sav sadržaj oko središta. Pozitivna vrijednost okreće u smjeru kazaljke na satu, a negativna vrijednost u suprotnom smjeru. Vidjet ćete da ova postavka utječe na transformaciju _Rotation_. Prema zadanim postavkama mapirana je na APC40 Device Control knob 3 i prikazuje se u kontekstualnom panelu Parameters desno od Clip Deck.
 
 ### Spin 3D
 
-Okreće sav sadržaj oko osi Y (to je vertikalna linija u središtu). Vidjet ćete da ova postavka utječe na transformaciju _Rotation3D_. Prema zadanim postavkama mapirana je na APC40 Device Control knob 7 i prikazuje se u panelu desno od Clip Deck.
+Okreće sav sadržaj oko osi Y (to je vertikalna linija u središtu). Vidjet ćete da ova postavka utječe na transformaciju _Rotation3D_. Prema zadanim postavkama mapirana je na APC40 Device Control knob 7 i prikazuje se u kontekstualnom panelu Parameters desno od Clip Deck.
 
 ### Rotation
 

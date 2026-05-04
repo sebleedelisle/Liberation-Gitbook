@@ -1,7 +1,14 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/starting-stopping-clips
+---
+
 # ✅ 启动 / 停止 Clips
 
 {% hint style="info" %}
-你可以用屏幕上的按钮启动和停止 Clips，但更好的方式是使用 APC40 MIDI 控制器。Liberation 针对该硬件进行了优化，应把它视为激光系统的重要投入。&#x20;
+你可以用屏幕上的按钮启动和停止 Clips，但更好的方式是使用 APC40 MIDI 控制器。Liberation 针对这款硬件进行了优化，应将其视为激光系统的重要投入。
 {% endhint %}
 
 ### 启动与停止 Clips
@@ -34,8 +41,6 @@
 要停止某个特定 Group 中的所有 Clips，先按该 Group 按钮，再按 **STOP** 按钮。&#x20;
 
 要停止除一个之外的所有 Clips，按住你想保留的 Clip，然后同时按 **STOP**，再松开 Clip 按钮。（也适用于多个 Clip，只要你按得住！）
-
-
 
 ### 当前选中的 Clip
 

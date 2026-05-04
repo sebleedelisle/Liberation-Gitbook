@@ -17,7 +17,7 @@ Le 3D Visualiser de Liberation est une fonction extrêmement utile : vous pouvez
 * Cliquez et faites glisser pour faire pivoter la vue autour du point d’orbite
 * Utilisez la molette de la souris pour avancer ou reculer par rapport au point d’orbite
 * Cliquez et faites glisser tout en maintenant la touche Shift enfoncée pour déplacer la caméra latéralement (strafe) vers la gauche, la droite, le haut et le bas sur le plan XY
-* Double-cliquez n’importe où dans le visualiser pour réinitialiser la position de la caméra
+* Double-cliquez n’importe où dans le visualiseur pour réinitialiser la position de la caméra
 
 ### Settings
 
@@ -42,7 +42,7 @@ Ces réglages concernent principalement la caméra virtuelle dans l’espace 3D.
 
 ### Content settings
 
-Ces réglages déterminent où les lasers (et le canvas) sont placés dans l’environnement 3D. Un menu déroulant propose des préréglages pour ces réglages, que vous pouvez enregistrer et recharger.
+Ces réglages déterminent où les lasers (et le Canvas) sont placés dans l’environnement 3D. Un menu déroulant propose des préréglages pour ces réglages, que vous pouvez enregistrer et recharger.
 
 #### Lasers
 

@@ -14,7 +14,7 @@ Voit kuitenkin viedä kokoonpanosi varmuuskopioksi tai siirtää sen toiseen tie
 
 Projektitiedosto tallentaa lähes kaiken nykyisestä kokoonpanostasi, mukaan lukien:
 
-* Kaikki, mitä on kuvattu kohdassa [Lataaminen ja tallentaminen](loading-and-saving.md#laser-settings-import-export) alla
+* Kaikki, mitä on kuvattu kohdassa [Lataaminen ja tallentaminen](loading-and-saving.md#laser-settings-import-export "mention") alla
 * Clips, efektit ja ryhmäasetukset
 * Kaikki aikajanasi (ei sisällä ääni- ja videomediaa)
 * Art-Net-kokoonpano
@@ -23,14 +23,14 @@ Projektitiedosto tallentaa lähes kaiken nykyisestä kokoonpanostasi, mukaan luk
 
 Se ei tällä hetkellä tallenna eikä lataa:
 
-* Ääni- ja MIDI-syöteasetuksia, joita käytetään MIDI notes -nodessa ja Sound Input Oscillatorissa (se _tallentaa_ kuitenkin MIDI-lähetys- ja vastaanottoasetukset sekä timecode-äänisyötteen)
+* Ääni- ja MIDI-syöteasetuksia, joita käytetään MIDI notes -node-kohdassa ja Sound Input Oscillatorissa (se _tallentaa_ kuitenkin MIDI-lähetys- ja vastaanottoasetukset sekä aikakoodin äänisyötteen)
 * Käyttöliittymän skaalausta
 * Canvas-opaskuvien mediaa
 * Aikajanojen ääni- ja videomediaa
 * Text-nodessa käytettyjä fontteja
 
 {% hint style="danger" %}
-Aikajanan ääni- ja videotiedostoja ei tallenneta projektitiedostojen mukana, joten tallenna ne erikseen, jos haluat siirtää ne toiseen tietokoneeseen. Katso [Lataaminen ja tallentaminen](loading-and-saving.md#important-note-about-timeline-media-files)
+Aikajanan ääni- ja videotiedostoja ei tallenneta projektitiedostojen mukana, joten tallenna ne erikseen, jos haluat siirtää ne toiseen tietokoneeseen. Katso [Lataaminen ja tallentaminen](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Laserasetusten tuonti/vienti
@@ -67,7 +67,7 @@ Voit lisätä Clips viedystä Clip Deck -tiedostosta nykyiseen projektiisi käyt
 Kaikki tällä hetkellä valitut Clips viedään tiedostoon. Ryhmäasetuksia ja efektejä ei tallenneta, vain Clips. Huomaa, että parhaillaan käynnissä olevia aktiivisia Clips ei viedä, elleivät ne ole myös valittuina.
 
 {% hint style="info" %}
-Valitse Clips käyttämällä Option/Alt–Shift–napsautusta (tai lasso-valintaa). Valitut Clips tunnistaa niiden ympärillä olevasta paksusta valkoisesta reunuksesta. Katso [Clipien käynnistäminen ja pysäyttäminen](clips/starting-stopping-clips.md)
+Valitse Clips käyttämällä Option/Alt–Shift–napsautusta (tai lasso-valintaa). Valitut Clips tunnistaa niiden ympärillä olevasta paksusta valkoisesta reunuksesta. Katso [Clipien käynnistäminen ja pysäyttäminen](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Efektien tuonti/vienti
@@ -82,12 +82,12 @@ Jos haluat tuoda projektista vain efektit, valitse _**Effects->Import Effects**_
 
 ### Aikajanan vienti
 
-Vie aikajanatiedoston, jossa on yksi tai useampi aikajana. Huomaa, että Clip Deck sisällytetään aina vietyihin aikajanatiedostoihin (voit kuitenkin valita, mitkä Clips tuot takaisin, katso [Lataaminen ja tallentaminen](loading-and-saving.md#timeline-import) alla).
+Vie aikajanatiedosto, jossa on yksi tai useampi aikajana. Huomaa, että Clip Deck sisällytetään aina vietyihin aikajanatiedostoihin (voit kuitenkin valita, mitkä Clip-kohteet tuot takaisin, katso [Aikajanan tuonti](loading-and-saving.md#timeline-import "mention") alla).
 
 Jos projektitiedostossasi on useampi kuin yksi aikajana, avautuu paneeli, jossa voit valita vietävät aikajanat.
 
 {% hint style="danger" %}
-Aikajanan ääni- ja videotiedostoja ei tallenneta aikajanatiedostojen mukana, joten tallenna ne erikseen, jos haluat siirtää sisältösi toiseen tietokoneeseen. Katso [Lataaminen ja tallentaminen](loading-and-saving.md#important-note-about-timeline-media-files)
+Aikajanan ääni- ja videotiedostoja ei tallenneta aikajanatiedostojen mukana, joten tallenna ne erikseen, jos haluat siirtää sisältösi toiseen tietokoneeseen. Katso [Lataaminen ja tallentaminen](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Aikajanan tuonti

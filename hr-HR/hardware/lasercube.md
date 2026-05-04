@@ -20,7 +20,7 @@ Rani modeli LaserCube upravljaju se putem USB-a, ali svi trenutačni modeli imaj
 
 ### USB LaserCube
 
-Povežite LaserCube s računalom pomoću micro USB kabela, a zatim ga potražite u panelu _Controller Assignment_ (pogledajte [Dodjela kontrolera](../setting-up/controller-assignment.md)). Ako se ne prikaže automatski, pritisnite gumb _REFRESH_.
+Povežite LaserCube s računalom pomoću micro USB kabela, a zatim ga potražite u panelu _Controller Assignment_ (pogledajte [Dodjela kontrolera](../setting-up/controller-assignment.md "mention")). Ako se ne prikaže automatski, pritisnite gumb _REFRESH_.
 
 ### Mrežni LaserCube „Wifi”
 
@@ -30,7 +30,7 @@ Iako su „Wifi” jedinice zamišljene za rad preko bežične mreže, to se ne 
 
 Povežite LaserCube sa svojom žičanom mrežom.
 
-Postavite LaserCube u način rada „LAN Client” i provjerite postoji li usmjerivač u mreži. LaserCube će dobiti IP adresu od usmjerivača i zatim bi se trebao prikazati u panelu _Controller Assignment_. (Pogledajte [Dodjela kontrolera](../setting-up/controller-assignment.md)).
+Postavite LaserCube u način rada „LAN Client” i provjerite postoji li usmjerivač u mreži. LaserCube će dobiti IP adresu od usmjerivača i zatim bi se trebao prikazati u panelu _Controller Assignment_. (Pogledajte [Dodjela kontrolera](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Moguće je postaviti mrežu bez usmjerivača i svim uređajima dodijeliti fiksne IP adrese, što je vrlo uobičajeno u industriji događanja. Osobno radije dodajem usmjerivač u mrežu i tu opciju preporučujem svima koji imaju manje iskustva s mrežama.

@@ -22,7 +22,7 @@ Alle Presets werden zusammen mit deinem Projekt (oder deinen Lasereinstellungen)
 
 Zusätzlich kannst du Preset-Dateien über den Load/Save-Button (ein Diskettensymbol) neben der Preset-Dropdown-Liste importieren und exportieren. Dadurch öffnet sich ein Pop-up mit Import-/Export-Buttons und der Möglichkeit, eines oder mehrere deiner Presets zu löschen.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>Das Pop-up-Menü, das sich öffnet, wenn du auf das Load/Save-Symbol klickst</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Wenn du ein Preset bearbeitest, zum Beispiel die Scanner-Einstellung namens _Default_, beachte, dass die anderen Laser nicht automatisch aktualisiert werden. Stattdessen werden ihre Scanner-Einstellungen nun als _Default(edited)_ gekennzeichnet. Um sie auf das neue _Default_-Preset zu aktualisieren, wähle es erneut in der Dropdown-Liste aus.
 

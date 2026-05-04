@@ -17,7 +17,7 @@ Vaikka se vaikuttaa yksinkertaiselta, kyseessä on melko monimutkainen järjeste
 
 Se on solmupohjainen visuaalinen editori (eli [node graph architecture](https://en.wikipedia.org/wiki/Node_graph_architecture#Node_graph)), joka tuntuu tutulta, jos olet käyttänyt esimerkiksi TouchDesigneria, MaxMSP:tä tai VVVV:tä. Clip editor on kuitenkin hieman erilainen ja jonkin verran yksinkertaisempi, koska se on suunniteltu nimenomaan vektorigrafiikkaa varten.
 
-Voit avata Clip Editorin napsauttamalla clip-painiketta hiiren oikealla painikkeella ja valitsemalla _EDIT CLIP_. Voit myös napsauttaa tyhjää clip-painiketta hiiren oikealla painikkeella ja valita _CREATE AND EDIT CLIP_.
+Voit avata Clip Editorin napsauttamalla Clip-painiketta hiiren oikealla painikkeella ja valitsemalla _EDIT CLIP_. Voit myös napsauttaa tyhjää Clip-painiketta hiiren oikealla painikkeella ja valita _CREATE AND EDIT CLIP_.
 
 ### Yleiskuva
 
@@ -32,7 +32,7 @@ Clip editorissa näet seuraavat asiat:
 Muokkauksen aikana näet myös taustalla 3D visualiserissa, miltä clip näyttää.
 
 {% hint style="info" %}
-Jos et näe 3D visualiserissa mitään ulostuloa, sinun täytyy ehkä ottaa haluamasi zonet käyttöön zone-painikkeilla. Varmista myös, että _Preview to lasers_ on käytössä. Katso alempaa [Johdanto Clip Editoriin](clip-editor-intro.md#clip-editor-panel).
+Jos et näe 3D visualiserissa mitään ulostuloa, sinun täytyy ehkä ottaa haluamasi zonet käyttöön zone-painikkeilla. Varmista myös, että _Preview to lasers_ on käytössä. Katso alempaa [Johdanto Clip Editoriin](clip-editor-intro.md#clip-editor-panel "mention").
 {% endhint %}
 
 ### Clipin rakentaminen
@@ -75,7 +75,7 @@ Jos olet joskus käyttänyt analogista syntetisaattoria, oskillaattorien käsite
 **Hauska fakta:** nimi _Liberation_ sai inspiraationsa Moog Liberationista, vuonna 1980 julkaistusta "keytar"-syntetisaattorista, jonka tekivät tunnetuksi Herbie Hancock, Jean-Michel Jarre ja jopa James Brown!
 {% endhint %}
 
-Oscillator-solmuilla on aina _range_-asetukset, joilla määritetään säädettävän ominaisuuden minimi- ja maksimiarvo. _Wave Oscillators_ -solmuilla on lisäksi aina _duration_-asetus, joka määrittää, kuinka nopeasti oscillator muuttaa arvoa. Lisätietoja on kohdassa [Wave-oskillaattorit](oscillators/wave-oscillators.md).
+Oscillator-solmuilla on aina _range_-asetukset, joilla määritetään säädettävän ominaisuuden minimi- ja maksimiarvo. _Wave Oscillators_ -solmuilla on lisäksi aina _duration_-asetus, joka määrittää, kuinka nopeasti oscillator muuttaa arvoa. Lisätietoja on kohdassa [Wave-oskillaattorit](oscillators/wave-oscillators.md "mention").
 
 ### Clip editor -paneeli
 

@@ -16,6 +16,12 @@ Endre den horisontale og vertikale plasseringen av klippet med _Shift X_ og _Shi
 
 _Zone Delay/Chase_ er en så morsom funksjon at den får sin egen seksjon. [Soneforsinkelse / chase](zone-delay-chase.md "mention")
 
+### Parameters panel
+
+Panelet til høyre for Clip Deck viser åtte kontekstbaserte parametere. Når en Clip er valgt, er de første kontrollene _Shift X_, _Shift Y_ og _Zone Delay_ for den valgte Clip, etterfulgt av de globale kontrollene _Spin_ og _Scale_.
+
+De samme parameterne speiles til støttede MIDI-kontrollere. Hvis ingen Clip er valgt, er plassene for Clip-spesifikke kontroller tomme. Hvis du holder inne en gruppeknapp, endres de to første kontrollene til gruppens fade inn- og fade ut-tider.
+
 ### Låse klipp
 
 Hvis et klipp er låst, kan det ikke flyttes eller slettes. For å låse et klipp bruker du avkrysningsboksen _Locked_ i høyreklikkmenyen. I Clip settings-panelet får du noen flere valg.
@@ -27,9 +33,9 @@ Hvis et klipp er låst, kan det ikke flyttes eller slettes. For å låse et klip
 
 ### Høyreklikkmeny
 
-Hvis du høyreklikker på et klipp, vises en meny med noen av valgene for det klippet. Se [Introduksjon til Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip settings](clip-settings.md "mention") og [Clip-grupper](groups.md "mention") for mer om de første elementene i denne menyen.
+Hvis du høyreklikker på en Clip, vises en meny med noen av valgene for den Clip. Se [Introduksjon til Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip settings](clip-settings.md "mention") og [Clip-grupper](groups.md "mention") for mer om de første elementene i denne menyen.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Høyreklikkmenyen for clip settings</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 
@@ -47,6 +53,6 @@ Klipp er ofte laget for å loope for alltid, men du kan utforme dem slik at de b
 
 ### Transition in/out time (fade)
 
-Klipp kan settes til å fade inn og ut med en varighet målt i sekunder. Som standard arves fade-tiden fra gruppeinnstillingene (og kan endres ved å høyreklikke på gruppeknappen).
+Clips kan settes til å fade inn og ut med en varighet målt i sekunder. Som standard arves fade-tiden fra gruppeinnstillingene (og kan endres ved å høyreklikke på gruppeknappen).
 
 Hvis du vil ha en annen fade-varighet enn den som er satt for klippets gruppe, slår du først av _USE GROUP DEFAULT_-knappen og justerer deretter sliderne _In time_ og _Out time_ for klippet.

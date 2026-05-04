@@ -13,14 +13,14 @@ Crée des effets de type « harpe laser », où les notes MIDI entrantes déclen
 
 Vous pouvez choisir l’interface MIDI que Liberation écoute dans **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – le canal MIDI à écouter (0 = tous les canaux, 1–16 = canal spécifique)
+* **MIDI channel** – le canal MIDI à écouter (0 = tous les canaux, 1–16 = canal spécifique)
 * **width** – largeur totale sur laquelle les notes se répartissent.
-* **midi note min / max** – les valeurs de note MIDI la plus basse et la plus haute de la plage.
+* **MIDI note min / max** – les valeurs de note MIDI la plus basse et la plus haute de la plage.
 * **ignore out of range notes** – filtre toutes les notes situées en dehors de la plage définie. Si cette option est désactivée, les notes hors plage sont « limitées » à la note disponible la plus proche (les notes aiguës déclenchent le haut de la plage, les notes graves déclenchent le bas).
 * **auto extend range** – élargit automatiquement la plage si des notes sont jouées en dehors de celle-ci.
 
 {% hint style="info" %}
-Vous ne savez pas quelle plage de notes vous recevez ? Activez **auto extend range**, réglez **midi note min** sur une valeur très élevée et **midi note max** sur une valeur très basse, puis jouez vos notes. Le système les détectera toutes et étendra la plage pour vous. Une fois toutes les notes capturées, désactivez simplement **auto extend range** pour verrouiller la plage.
+Vous ne savez pas quelle plage de notes vous recevez ? Activez **auto extend range**, réglez **MIDI note min** sur une valeur très élevée et **MIDI note max** sur une valeur très basse, puis jouez vos notes. Le système les détectera toutes et étendra la plage pour vous. Une fois toutes les notes capturées, désactivez simplement **auto extend range** pour verrouiller la plage.
 {% endhint %}
 
 * **leave all notes visible** – crée des faisceaux ou des formes pour toutes les notes de la plage, qu’elles soient jouées ou non, ce qui donne un effet de « harpe laser ».

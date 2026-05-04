@@ -17,7 +17,7 @@ Stundum getur líka verið gagnlegt að nota fleiri en eitt marksvæði á Canva
 
 ### Að senda Clips á marksvæði á Canvas
 
-Ef þú skoðar Clip Deck sérðu hnappana fyrir marksvæði á Canvas við hliðina á beam zone-hnöppunum. Þú gætir þurft að fletta output-hnöppunum til að sjá þá. Notaðu `Shift + Left / Right Arrow`, ZONE PAGE-hnappana á skjánum eða APC40-hnappana (sjá [APC40 tilvísun](../reference/apc40-reference.md)).
+Ef þú skoðar Clip Deck sérðu hnappana fyrir marksvæði á Canvas við hliðina á beam zone-hnöppunum. Þú gætir þurft að fletta output-hnöppunum til að sjá þá. Notaðu `Shift + Left / Right Arrow`, ZONE PAGE-hnappana á skjánum eða APC40-hnappana (sjá [APC40 tilvísun](../reference/apc40-reference.md "mention")).
 
 Úthlutaðu Clips á marksvæði á Canvas með því að kveikja eða slökkva á þessum hnöppum, nákvæmlega eins og þú gerir með beam zone-hnappana.
 

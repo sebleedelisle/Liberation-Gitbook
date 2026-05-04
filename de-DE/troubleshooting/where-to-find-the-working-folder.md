@@ -9,10 +9,10 @@ metaLinks:
 
 #### Wo du den Arbeitsordner findest
 
-Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispiel Version 1.0.0 verwendest, heißt der Ordner `1.0.0`.
+Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispiel Version 1.0.3 verwendest, heißt der Ordner `1.0.3`.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **So öffnest du den Ordner schnell**
 
@@ -24,7 +24,7 @@ Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispie
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Öffne den Ordner, der zu deiner Versionsnummer passt, zum Beispiel `1.0.0`.
+3. Öffne den Ordner, der zu deiner Versionsnummer passt, zum Beispiel `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Jede Version von Liberation hat ihren eigenen Arbeitsordner. Wenn du zum Beispie
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Öffne den Ordner, der zu deiner Versionsnummer passt, zum Beispiel `1.0.0`.
+2. Öffne den Ordner, der zu deiner Versionsnummer passt, zum Beispiel `1.0.3`.
 
 > **Tipp für Windows**: Wenn du stattdessen über den File Explorer navigierst, aktiviere versteckte Elemente: **View > Show > Hidden items**.

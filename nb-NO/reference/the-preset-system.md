@@ -22,7 +22,7 @@ Alle presets lagres sammen med prosjektet ditt (eller laserinnstillingene), ente
 
 Du kan også importere og eksportere preset-filer med load/save-knappen (et diskettikon) ved siden av nedtrekkslisten for presets. Dette åpner et popup-vindu med import/export-knapper, samt mulighet til å slette ett eller flere av presetsene dine.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>Popup-menyen som åpnes når du klikker på load/save-ikonet</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Hvis du redigerer et preset, for eksempel scanner-innstillingen som heter _Default_, må du være klar over at de andre laserne ikke oppdateres automatisk. I stedet vil hver av scanner-innstillingene deres nå merkes som _Default(edited)_. For å oppdatere dette til det nye _Default_-presetet velger du det på nytt fra nedtrekkslisten.
 

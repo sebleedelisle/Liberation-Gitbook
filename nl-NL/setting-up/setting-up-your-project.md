@@ -26,7 +26,7 @@ Hier is een overzicht van het proces:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Wijzig de zones van elke clip:**\
-    Trigger elke clip door op de bijbehorende knop te klikken en schakel daarna de zones en de X- en Y-flip in of uit met de knoppen op het scherm. Zie [Clips & Clip Deck](../clips/ "mention").
+Trigger elke Clip door op de bijbehorende knop te klikken en schakel daarna de zones en de X- en Y-flip in of uit met de knoppen op het scherm. Zie [Clips & Clip Deck](../clips/ "mention").
 
     \\
 

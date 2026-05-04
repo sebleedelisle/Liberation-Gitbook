@@ -33,7 +33,7 @@ Zo activeer je de _group_-knop:
 * Houd de _group_-knop op de APC40 ingedrukt
 * Klik met de muis op de _group_-knop op het scherm. Klik nogmaals om deze uit te schakelen.
 
-Je kunt clips eenvoudig aan de group toewijzen door erop te drukken terwijl de _group_-knop actief is. (Een andere manier om een group toe te wijzen is via het rechtermuisknopmenu van de clip).
+Je kunt Clips eenvoudig aan de group toewijzen door erop te drukken terwijl de _group_-knop actief is. (Een andere manier om een group toe te wijzen is via het rechtermuisknopmenu van de Clip).
 
 ### Zone-instellingen wijzigen voor alle clips binnen een group
 

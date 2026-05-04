@@ -26,7 +26,7 @@ Węzeł Randomise jest podstawą efektu Randomise!
 
 Tworzy echa zawartości, pozostawiając za poruszającym się oryginałem zanikające lub skalowane kopie.
 
-* **change render profile for trail** – jeśli włączone, wszystkie kopie śladu używają wybranego **render profile**. _Zobacz_ [Profil renderowania](../fundamentals/render-profile.md).
+* **change render profile for trail** – jeśli włączone, wszystkie kopie śladu używają wybranego **render profile**. _Zobacz_ [Profil renderowania](../fundamentals/render-profile.md "mention").
 * **render profile** – profil używany dla kopii śladu, gdy powyższy przełącznik jest włączony. Często używane, gdy główna zawartość jest ustawiona na **DETAIL**, a echa są renderowane jako **FAST**. Dzięki temu główne kształty zachowują wyraźne detale, a ślady są renderowane wydajniej.
 * **delay** – ustawia odstęp między kopiami śladu w czasie muzycznym, mierzony w **krokach 1/64 nuty**.\
   Dla orientacji:
@@ -36,6 +36,7 @@ Tworzy echa zawartości, pozostawiając za poruszającym się oryginałem zanika
   * 128 = 1/2 taktu (półnuta)
   * 256 = 1 takt
 * **trail size** – ile kopii śladu ma być rysowanych za bieżącą zawartością.
+* **prefill trails** – od razu wypełnia historię śladu po uruchomieniu Clip, zamiast czekać, aż echa narosną przez pierwsze kilka taktów.
 * **freeze trails** – zamienia płynnie poruszające się ślady w sekwencję zamrożonych migawek. Przydatne do tworzenia efektów śladu typu staccato, zsynchronizowanych z beatem.
 * **brightness start / brightness end** – stosuje jasność wzdłuż śladu, od najnowszej kopii (**start**) do najstarszej (**end**). Zwykle ustaw **brightness start** na 100%, a **brightness end** na 0%, aby echa stopniowo zanikały.
 * **scale start / scale end** – stosuje skalowanie wzdłuż śladu, od najnowszej kopii (start) do najstarszej (end). Aby ślady kurczyły się do zera, ustaw **scale start** na 100%, a **scale end** na 0%.

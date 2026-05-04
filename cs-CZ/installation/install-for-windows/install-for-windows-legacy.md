@@ -35,7 +35,7 @@ Jakmile Windows dokončí rozbalování, zobrazí instalační soubor. Aplikaci 
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation potřebuje oprávnění k přístupu k souborům a síti, takže Windows pravděpodobně zobrazí několik žádostí o povolení. Nezapomeňte vše povolit, jinak Liberation nemusí fungovat správně.
+Liberation potřebuje oprávnění k přístupu k souborům a síti, takže Windows pravděpodobně zobrazí několik výzev k povolení. Nezapomeňte vše povolit, jinak Liberation nemusí fungovat správně.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

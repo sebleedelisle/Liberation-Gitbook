@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/laser-settings
+---
+
 # ✅ 激光输出设置面板
 
 通过菜单 _View -> Laser Output Settings_ 打开 _Laser output_ 设置面板。
@@ -18,7 +24,7 @@
 
 ### 输出方向 / 镜像修正
 
-以下设置用于修正激光的安装方向，使其在 Liberation 中表现一致。
+以下设置用于修正激光的设置，使其在 Liberation 中表现一致。
 
 * **Flip horizontal / vertical** - 用于校正激光输出方向
 

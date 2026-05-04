@@ -12,7 +12,7 @@ Alt laserinnhold i Liberation lagres i Clips.
 
 Clips kan inneholde atmosfæriske beam-effekter eller grafiske animasjoner, og de er vanligvis en loop. De kan sendes til en hvilken som helst zone (eller Canvas Target Area) og utløses med knappene i Clip Deck.
 
-Innhold i Clips lages med det fleksible node-baserte Clip Editor-systemet. (Se [Introduksjon til Clip Editor](../clip-editor/clip-editor-intro.md) for mer informasjon)
+Innhold i Clips lages med det fleksible node-baserte Clip Editor-systemet. (Se [Introduksjon til Clip Editor](../clip-editor/clip-editor-intro.md "mention") for mer informasjon)
 
 ### Clip Deck
 

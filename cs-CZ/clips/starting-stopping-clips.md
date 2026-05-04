@@ -24,7 +24,7 @@ Pokud chcete spustit nový Clip bez zastavení ostatních Clip, můžete buď
 * při spouštění nového Clip držet klávesu `Shift` (nebo tlačítko Shift na APC40), nebo
 * při spouštění nového Clip znovu stisknout aktuálně běžící Clip.
 
-Skupiny Clip jsou na sobě nezávislé, takže spuštění Clip v jedné skupině neovlivní Clip v žádné jiné skupině. Viz [Skupiny Clips](groups.md)
+Skupiny Clip jsou na sobě nezávislé, takže spuštění Clip v jedné skupině neovlivní Clip v žádné jiné skupině. Viz [Skupiny Clips](groups.md "mention")
 
 ### Režim flash
 

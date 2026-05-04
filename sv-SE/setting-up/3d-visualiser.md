@@ -42,7 +42,7 @@ De här inställningarna gäller främst den virtuella kameran i 3D-utrymmet. Du
 
 ### Innehållsinställningar
 
-De här inställningarna avgör var lasrarna (och canvas) placeras i 3D-miljön. Du ser en rullgardinsmeny med förinställningar för dessa inställningar som du kan spara och läsa in igen.
+De här inställningarna avgör var lasrarna (och Canvas) placeras i 3D-miljön. Du ser en rullgardinsmeny med förinställningar för dessa inställningar som du kan spara och läsa in igen.
 
 #### Lasers
 

@@ -9,7 +9,7 @@ metaLinks:
 
 Lasereiden käynnistäminen voi olla hauskaa, mutta on äärimmäisen tärkeää, että voit myös _pysäyttää_ ne! Laserlaitteisto ja -ohjelmisto ovat yleensä hyvin luotettavia, mutta mikä tahansa voi vikaantua. Ja jos niin harvoin tapahtuu, olet todella kiitollinen etäpysäytyspainikkeesta.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Laser Cuben etäpysäytyspainike. Tärkein omistamasi laite.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Sähkötyökaluissa ja raskaissa laitteissa on pysäytyspainikkeita, jotka vain katkaisevat päävirran, mutta laserlaiteissa näin ei pidä tehdä **koskaan**! Lasereilta kestää aina hetki lopettaa säteily, ja äkillinen virrankatkaisu voi saada laserskannerit iskeytymään ääriasentoihinsa. Tällöin voimakas säde voi päätyä odottamattomiin paikkoihin!

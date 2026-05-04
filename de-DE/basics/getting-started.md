@@ -87,7 +87,7 @@ Eine Zone ist ein Bereich innerhalb des Outputs eines Lasers, in den du Laser-Co
 Du kannst den Laser, den du bearbeiten möchtest, auf eine der folgenden Arten auswählen:
 
 * über die nummerierten Buttons in der Leiste oben
-* durch Drücken der Zifferntaste für den gewünschten Laser _(Tasten 1-9\_)\_
+* durch Drücken der Zifferntaste für den gewünschten Laser (_Tasten 1-9_)
 * mit der Taste `Tab`, um nacheinander durch die Laser zu wechseln
 
 Füge dem Setup einen neuen Laser hinzu, indem du den Button _+_ drückst. (Es gibt außerdem einen Button _ADD LASER_ im Panel _Laser Overview_)
@@ -114,7 +114,7 @@ Obwohl du Liberation mit Maus und Tastatur steuern kannst, ist es deutlich besse
 
 Siehe auch: [APC40-Referenz](../reference/apc40-reference.md "mention")
 
-Wir haben inzwischen auch Unterstützung für APC Mini Mark 2 und den MIDI Fighter Twister implementiert, weitere Controller sind in Entwicklung. Für die meisten Fälle ist die APC40 Mark 2 aber die beste Option.&#x20;
+Liberation unterstützt außerdem APC Mini und MIDI Fighter Twister. Für die meisten Fälle ist die APC40 Mark 2 weiterhin die beste Option.&#x20;
 
 ### Clips und Effekte
 
@@ -219,9 +219,9 @@ _\*Die Drehregler 1-8 befinden sich bei einer APC40 Mk2 oben und bei der Mk1 obe
 5. **Scale** :\
    Skaliert alles wiederholt von vollständig bis null. Der Parameter passt die Geschwindigkeit an.
 6. **Hue** :\
-   Ändert den Farbton von allem, aber nicht die Sättigung (d. h. alles Weiße bleibt weiß). Der Parameter passt den Farbton an.
+Ändert den Farbton von allem, aber nicht die Sättigung (d. h. alles Weiße bleibt weiß). Der Parameter passt den Farbton an.
 7. **Saturation and hue** :\
-   Ändert den Farbton von allem und sättigt die Farbe außerdem vollständig (d. h. alles Weiße ändert sich zur Farbe). Der Parameter passt den Farbton an.
+Ändert den Farbton von allem und sättigt die Farbe außerdem vollständig (d. h. alles Weiße ändert sich zur Farbe). Der Parameter passt den Farbton an.
 8. **Flash** :\
    Lässt die Helligkeit von allem wiederholt von vollständig bis null blinken. Der Parameter passt die Blinkgeschwindigkeit an.
 
@@ -259,7 +259,7 @@ Fast alle Lasershows haben irgendeine Art von musikalischem Soundtrack. Deshalb 
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Es gibt mehrere Synchronisationsoptionen, darunter MIDI-Clock und Ableton Link. Wenn du das Tempo der Musik kennst, kannst du es manuell über den Bildschirm-Slider oder den APC40-Tempo-Regler anpassen. Du kannst aber auch mit dem _Tap Tempo_-System\_ im Takt der Musik bleiben.\_
+Es gibt mehrere Synchronisationsoptionen, darunter MIDI-Clock und Ableton Link. Wenn du das Tempo der Musik kennst, kannst du es manuell über den Bildschirm-Slider oder den APC40-Tempo-Regler anpassen. Du kannst aber auch mit dem _Tap Tempo_-System im Takt der Musik bleiben.
 
 #### Tap Tempo
 

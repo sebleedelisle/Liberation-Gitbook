@@ -17,7 +17,7 @@ Standard effektknapper 1–8 ligger under soneknappene, og effektene 9–24 er d
 Trykk på en effektknapp for å slå effekten av eller på, eller enda bedre: bruk APC40-sliderne 1–8 til å fade effekter inn og ut. For å fade inn en effekt uten APC40 klikker du og drar opp og ned på knappen. Du kan også høyreklikke på effektknappen og justere nivåslideren.
 
 {% hint style="warning" %}
-Når du trykker på effektknappen, aktiveres effekten umiddelbart. Men merk at hvis nivået er satt til null, skjer det ingenting! Klikk/dra på knappen for å endre nivået, eller høyreklikk og bruk _level_-slideren, eller bruk APC40-faderne.
+Når du trykker på effektknappen, aktiveres effekten umiddelbart. Men merk at hvis nivået er satt til null, skjer det ingenting! Klikk og dra på knappen for å endre nivået, eller høyreklikk og bruk _level_-slideren, eller bruk APC40-faderne.
 {% endhint %}
 
 #### Effekter og klippets zone delay
@@ -41,7 +41,7 @@ Rotary-kontrollerne 1–8 ligger langs toppen av en APC40 Mk2 og øverst til hø
 {% endhint %}
 
 {% hint style="info" %}
-De små tallene du ser på effektknappene, viser til effektens _level_ og _parameter_. _level_ styres av faderen på APC40, eller du kan klikk-dra på knappen. Parameteren justeres med rotary-kontrollerne på APC40, eller du kan høyreklikke for å justere med musen.
+De små tallene du ser på effektknappene, viser til effektens _level_ og _parameter_. _level_ styres av faderen på APC40, eller du kan klikke og dra på knappen. Parameteren justeres med rotary-kontrollerne på APC40, eller du kan høyreklikke for å justere med musen.
 {% endhint %}
 
 #### Standardeffektene
@@ -59,9 +59,9 @@ De små tallene du ser på effektknappene, viser til effektens _level_ og _param
 5. **Scale** :\
    Skalerer alt gjentatte ganger fra fullt til null. Parameteren justerer hastigheten.
 6. **Hue** :\
-   Endrer fargetonen på alt, men endrer ikke metningen (dvs. alt som er hvitt, forblir hvitt). Parameteren justerer fargetonen.
+Endrer fargetonen på alt, men endrer ikke metningen (dvs. alt som er hvitt, forblir hvitt). Parameteren justerer fargetonen.
 7. **Saturation and hue** :\
-   Endrer fargetonen på alt og metter også fargen helt (dvs. alt som er hvitt, endres til fargen). Parameteren justerer fargetonen.
+Endrer fargetonen på alt og metter også fargen helt (dvs. alt som er hvitt, endres til fargen). Parameteren justerer fargetonen.
 8. **Flash** :\
    Blinker gjentatte ganger lysstyrken på alt fra fullt til null. Parameteren justerer blinkehastigheten.
 
@@ -87,7 +87,7 @@ Denne funksjonen er deaktivert hvis innstillingen _MX Group_ er 0.
 
 ### Redigere effekter
 
-Høyreklikk på en effekt, og klikk på knappen _EDIT EFFECT_ for å åpne effekteditoren. Legg merke til at denne editoren er identisk med klippeditoren!
+Høyreklikk på en effekt, og klikk på knappen _EDIT EFFECT_ for å åpne effekteditoren. Legg merke til at denne editoren er identisk med Clip Editor!
 
 Rediger effekten på samme måte som du ville redigert et hvilket som helst klipp. Se [clip-editor](clip-editor/ "mention").
 

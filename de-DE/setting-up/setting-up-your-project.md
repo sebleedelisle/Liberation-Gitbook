@@ -26,7 +26,7 @@ Hier ist ein Überblick über den Ablauf:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Ändere die Zonen der einzelnen Clips:**\
-    Triggere jeden Clip, indem du auf seinen Button klickst, und schalte dann die Zonen sowie X- und Y-Flip über die On-Screen-Buttons um. Siehe [Clips & Clip Deck](../clips/ "mention").
+Triggere jeden Clip, indem du auf seinen Button klickst, und schalte dann die Zonen sowie X- und Y-Flip über die On-Screen-Buttons um. Siehe [Clips & Clip Deck](../clips/ "mention").
 
     \\
 

@@ -12,12 +12,12 @@ metaLinks:
 Klik og træk for at flytte et clip. Hvis mere end ét clip er valgt (se [Start / stop af clips](starting-stopping-clips.md "mention")), bliver de alle flyttet. Hold `Alt / Option` nede for at duplikere dem. Slip clippet/clippene på en tom plads.
 
 {% hint style="info" %}
-Hvis du har brug for at vælge mange clips, kan du klikke/trække en lasso og derefter scrolle i clip decket, mens du stadig trækker (enten med piletasterne, APC 40 eller sidelæns scroll på touchpad/mus). Lassoen udvides ud over kanten af clip decket.
+Hvis du har brug for at vælge mange Clips, kan du klikke og trække en lasso og derefter scrolle i Clip Deck, mens du stadig trækker (enten med piletasterne, APC40 eller sidelæns scroll på touchpad/mus). Lassoen udvides ud over kanten af Clip Deck.
 {% endhint %}
 
 ### Slette clips
 
-Brug højreklikmenuen for at slette et enkelt clip.
+Brug højreklikmenuen for at slette et enkelt Clip.
 
 For at slette flere clips skal du vælge dem (enten med `Alt / Option + Shift`-klik eller ved at trække lassoen) og trække dem væk fra clip decket.
 

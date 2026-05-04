@@ -7,13 +7,13 @@ metaLinks:
 
 # ✅ Miten lisensointi toimii
 
-Kun olet asentanut Liberationin tietokoneellesi, se toimii _demotilassa_, kunnes _valtuutat_ sen.
+Kun olet asentanut Liberationin tietokoneellesi, se toimii _ilmaistilassa_, kunnes _valtuutat_ sen.
 
 {% hint style="info" %}
-_Demotilassa_ ei ole muita rajoituksia kuin lähetys laser-laitteistoon. Voit harjoitella esityksiä, rakentaa aikajanoja sekä tallentaa ja ladata tiedostojasi ilman rajoituksia. Voit asentaa Liberationin _demotilassa_ niin monelle tietokoneelle kuin haluat, ja sinun tarvitsee valtuuttaa asennus vasta, kun olet valmis käyttämään lasereita!
+_Ilmaistilassa_ ei ole muita rajoituksia kuin lähetys laser-laitteistoon. Voit harjoitella esityksiä, rakentaa aikajanoja sekä tallentaa ja ladata tiedostojasi ilman rajoituksia. Voit asentaa Liberationin _ilmaistilassa_ niin monelle tietokoneelle kuin haluat, ja sinun tarvitsee valtuuttaa asennus vasta, kun olet valmis käyttämään lasereita!
 {% endhint %}
 
-Sen lisäksi, kuinka monta laseria voit ottaa käyttöön arm-toiminnolla, voit käyttää myös DMX-laitteita. Katso [DMX / Art-Net](../dmx-control/).
+Sen lisäksi, kuinka monta laseria voit ottaa käyttöön arm-toiminnolla, voit käyttää myös DMX-laitteita. Katso [DMX / Art-Net](../dmx-control/ "mention").
 
 Myös niiden tietokoneiden määrä, joihin voit valtuuttaa Liberationin, riippuu tilaustasostasi.
 
@@ -28,3 +28,5 @@ Jokainen lisenssi on tarkoitettu vain yhdelle käyttäjälle ja yhteen esityksee
 Liberationin lisensointi ja valtuutus toimivat internetin kautta. Sovellus muodostaa yhteyden palvelimeemme ja liittää asennuksen tilaukseesi.
 
 Kun asennuksesi on valtuutettu, sen ei tarvitse olla uudelleen verkossa ennen tilauksesi uusiutumista. Näet uusiutumispäivän _About panel_ -näkymässä. Käytettävissä on lyhyt lisäaika (kuukausitilauksissa 7 päivää), mutta suosittelemme muodostamaan internet-yhteyden mahdollisimman pian uusiutumispäivän jälkeen, jotta valtuutus uusiutuu ja pysyy aktiivisena.
+
+Nykyinen lisenssitaso näkyy myös yläpalkissa. Avaa About panel napsauttamalla lisenssitason nimeä tai lisensoimattomassa tilassa _FREE MODE_ -tekstiä.

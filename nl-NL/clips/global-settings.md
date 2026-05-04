@@ -16,7 +16,7 @@ Let op: Global Transformations hebben geen invloed op onderdelen in de Canvas, a
 
 ### Scale X/Y
 
-Horizontale en verticale schaal; deze waarden zijn aan elkaar gekoppeld, tenzij je `Shift` indrukt. Standaard zijn deze ook toegewezen aan APC40 Device Control-knoppen 4 en 8 en worden ze weergegeven in het paneel rechts van de Clip Deck.
+Horizontale en verticale schaal; deze waarden zijn aan elkaar gekoppeld, tenzij je `Shift` indrukt. Standaard zijn deze ook toegewezen aan APC40 Device Control-knoppen 4 en 8 en worden ze weergegeven in het contextuele Parameters-paneel rechts van de Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Horizontale en verticale verschuiving. Verplaatst alles horizontaal/verticaal.
 
 ### Spin
 
-Draait alle content rond het midden. Een positieve waarde draait met de klok mee, een negatieve waarde draait tegen de klok in. Je zult zien dat deze instelling de transformatie _Rotation_ beïnvloedt. Standaard is dit toegewezen aan APC40 Device Control-knop 3 en wordt het weergegeven in het paneel rechts van de Clip Deck.
+Draait alle content rond het midden. Een positieve waarde draait met de klok mee, een negatieve waarde draait tegen de klok in. Je zult zien dat deze instelling de transformatie _Rotation_ beïnvloedt. Standaard is dit toegewezen aan APC40 Device Control-knop 3 en wordt het weergegeven in het contextuele Parameters-paneel rechts van de Clip Deck.
 
 ### Spin 3D
 
-Draait alle content rond de Y-as (een verticale lijn in het midden). Je zult zien dat deze instelling de transformatie _Rotation3D_ beïnvloedt. Standaard is dit toegewezen aan APC40 Device Control-knop 7 en wordt het weergegeven in het paneel rechts van de Clip Deck.
+Draait alle content rond de Y-as (een verticale lijn in het midden). Je zult zien dat deze instelling de transformatie _Rotation3D_ beïnvloedt. Standaard is dit toegewezen aan APC40 Device Control-knop 7 en wordt het weergegeven in het contextuele Parameters-paneel rechts van de Clip Deck.
 
 ### Rotation
 

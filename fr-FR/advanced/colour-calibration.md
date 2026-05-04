@@ -24,14 +24,16 @@ Utilisez les motifs de test pour l’étalonnage (voir [Mires de test](../output
 * **7** – Blue
 * **8** – White
 
-Chacun affiche quatre lignes en mouvement :
+Chacun affiche quatre lignes en mouvement. Dans un système laser, la luminosité ne dépend pas seulement du niveau de puissance, mais aussi du temps pendant lequel le faisceau reste au même endroit. Lorsque les scanners se déplacent plus vite, le faisceau passe moins de temps sur chaque point et paraît moins lumineux.
+
+Pour en tenir compte, les motifs de test ajustent ensemble la luminosité et la vitesse :
 
 * **Ligne du haut** – luminosité à 100 % à vitesse maximale
 * **Deuxième ligne** – luminosité à 75 % à 75 % de la vitesse
 * **Troisième ligne** – luminosité à 50 % à 50 % de la vitesse
 * **Quatrième ligne** – luminosité à 25 % à 25 % de la vitesse
 
-Comme la luminosité _et la vitesse_ sont réduites ensemble, toutes les lignes devraient sembler avoir la même luminosité. Si l’une d’elles paraît plus claire ou plus sombre, ajustez le curseur correspondant jusqu’à ce qu’elles correspondent.
+Comme la luminosité _et la vitesse_ sont ajustées ensemble, toutes les lignes devraient sembler avoir la même luminosité. Si une ligne paraît plus lumineuse ou moins lumineuse, ajustez le curseur correspondant jusqu’à ce qu’elles correspondent.
 
 Chaque motif de test comporte également une cinquième ligne à **0 % de luminosité**, qui ne devrait pas être visible. Elle sert à corriger les lasers qui n’émettent aucune lumière à très bas niveau. Si votre laser reste invisible à faible luminosité, augmentez progressivement le **réglage 0 %** jusqu’à ce que la ligne devienne tout juste visible, puis réduisez-le légèrement jusqu’à ce qu’elle disparaisse à nouveau. L’objectif est de trouver le seuil auquel le laser commence à s’allumer, puis de rester juste en dessous, afin que vos fondus commencent naturellement sans couper le bas de la plage.
 

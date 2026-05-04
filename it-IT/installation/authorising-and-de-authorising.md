@@ -9,7 +9,7 @@ metaLinks:
 
 ### Autorizzare Liberation
 
-Quando apri Liberation per la prima volta, verrà eseguito in _demo mode_ e vedrai il _About panel:_
+Quando apri Liberation per la prima volta, verrà eseguito in _free mode_ e vedrai il _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Se hai già autorizzato il numero massimo di computer previsto dal tuo abbonamen
 Se hai più abbonamenti, ti verrà chiesto di scegliere l'abbonamento a cui vuoi assegnare il computer.
 {% endhint %}
 
-Congratulazioni! La tua installazione di Liberation è ora autorizzata e puoi inviare l'output ai laser! Prima di armare i laser, però, leggi [Guida rapida](../getting-started.md) e [Panoramica del processo di configurazione dei laser](../setting-up/setting-up-lasers.md).
+Congratulazioni! La tua installazione di Liberation è ora autorizzata e puoi inviare l'output ai laser! Prima di armare i laser, però, leggi [Guida rapida](../getting-started.md "mention") e [Panoramica del processo di configurazione dei laser](../setting-up/setting-up-lasers.md "mention").
 
 {% hint style="info" %}
 Puoi aprire il _About panel_ in qualsiasi momento dal menu _Liberation -> About Liberation_ oppure _Liberation -> Authorise/Deauthorise this computer_

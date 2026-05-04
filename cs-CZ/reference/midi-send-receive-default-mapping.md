@@ -48,4 +48,4 @@ CC 9 : Rotation 2D (Z)
 A důležité:\
 CC 15 : Global Brightness
 
-Upozorňujeme, že tento systém byl původně navržen pro záznam a přehrávání, aby bylo možné používat Logic, Ableton nebo jiné DAW k vytváření animací na časové ose. I když jej můžete použít pro živé ovládání, není pro tento účel optimalizovaný a oproti nastavení APC40 mu některé funkce pro živé ovládání chybí.
+Upozorňujeme, že tento systém byl původně navržen pro záznam a přehrávání, aby bylo možné používat Logic, Ableton nebo jiné DAW k vytváření animací na časové ose. I když jej můžete použít pro živé ovládání, není pro tento účel optimalizovaný a oproti setupu APC40 mu některé funkce pro živé ovládání chybí.

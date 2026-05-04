@@ -9,7 +9,7 @@ metaLinks:
 
 ### Khả năng tương thích
 
-Máy tính chạy Windows 10 hoặc 11 bản 64 bit. Nên dùng máy có cấu hình cao nếu bạn muốn chạy các show lớn. Máy tính càng nhanh thì đầu ra laser dạng hoạt họa sẽ càng mượt.
+Máy tính chạy Windows 10 hoặc 11 bản 64-bit. Nên dùng máy có cấu hình cao nếu bạn muốn chạy các show lớn. Máy tính càng nhanh thì đầu ra laser dạng hoạt họa sẽ càng mượt.
 
 ### Quy trình cài đặt
 
@@ -57,7 +57,7 @@ Trình cài đặt đã hoàn tất! Nhấp _Finish_ để đóng trình cài đ
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation cần quyền truy cập tệp và mạng, nên Windows có thể sẽ bật lên một loạt hộp thoại yêu cầu quyền. Hãy đảm bảo chấp nhận tất cả, nếu không Liberation có thể hoạt động không đúng.
+Liberation cần quyền truy cập tệp và mạng, nên Windows có thể sẽ hiển thị một vài lời nhắc cấp quyền. Hãy đảm bảo chấp nhận tất cả, nếu không Liberation có thể hoạt động không đúng.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

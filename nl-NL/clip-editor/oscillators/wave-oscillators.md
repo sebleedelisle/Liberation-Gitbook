@@ -52,7 +52,7 @@ Het _clamp_-concept is best lastig uit te leggen, maar stel je voor dat de golfv
 
 * **ease function** - de Sawtooth- en Triangle-golven hebben ook een ease function die de animatiecurve subtiel verandert en je animaties veel expressiever kan maken!
   * **LINEAR** - de standaardinstelling, zonder easing; beweegt gewoon lineair tussen de min- en max-waarden.
-  * **EASE OUT** - begint snel en vertraagt daarna richting het einde. Erg geschikt om fysica te simuleren, bijvoorbeeld afremmen tot stilstand.
+* **EASE OUT** - begint snel en vertraagt daarna richting het einde. Erg geschikt om fysica te simuleren, bijvoorbeeld afremmen tot stilstand.
   * **EASE IN** - begint langzaam en versnelt geleidelijk. Goed om opbouwend momentum te simuleren.
   * **EASE IN/OUT** - een combinatie van beide, voor een heel organische beweging.
 

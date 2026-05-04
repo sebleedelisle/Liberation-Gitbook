@@ -57,7 +57,7 @@ Kurulum tamamlandı! Kapatmak ve Liberation’ı başlatmak için _Finish_ seçe
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation’ın dosyalara ve ağa erişim iznine ihtiyacı vardır; bu yüzden Windows muhtemelen birkaç izin isteği gösterecektir. Her şeyi kabul ettiğinizden emin olun, aksi halde Liberation düzgün çalışmayabilir.
+Liberation’ın dosyalara ve ağa erişim iznine ihtiyacı vardır; bu yüzden Windows muhtemelen birkaç izin istemi gösterecektir. Her şeyi kabul ettiğinizden emin olun, aksi halde Liberation düzgün çalışmayabilir.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

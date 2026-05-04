@@ -8,7 +8,7 @@ metaLinks:
 
 Wir sind uns alle einig: Mehr Laser bedeuten mehr Spaß. Wenn sie aber alle exakt dasselbe machen, lässt du viele kreative Möglichkeiten ungenutzt.
 
-Das Zone-delay-System ist eine einfache, aber wirkungsvolle Methode, um Abwechslung über mehrere Zonen hinweg zu erzeugen und ein Multi-Laser-Setup richtig auszunutzen. Du kannst es außerdem verwenden, um einen eher klassischen Chase-Effekt zu erzeugen.
+Das Zone Delay-System ist eine einfache, aber wirkungsvolle Methode, um Abwechslung über mehrere zones hinweg zu erzeugen und ein Multi-Laser-Setup richtig auszunutzen. Du kannst es außerdem verwenden, um einen eher klassischen Chase-Effekt zu erzeugen.
 
 #### So funktioniert es
 

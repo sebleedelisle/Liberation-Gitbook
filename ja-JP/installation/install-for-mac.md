@@ -19,7 +19,7 @@ macOS バージョン 12（Monterey）以降に対応しています。特に大
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-_Download latest for Mac_（バージョン番号は時間とともに変わります）をクリックすると、Liberation の DMG インストールファイルがダウンロードフォルダーに保存されます。ファイルを見つけて、ダブルクリックして開きます。
+_Download latest for Mac_（バージョン番号は時間とともに変わります）をクリックすると、Liberation の DMG インストールファイルが Downloads フォルダーに保存されます。ファイルを見つけて、ダブルクリックして開きます。
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

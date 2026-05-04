@@ -26,7 +26,7 @@ randomise 노드는 Randomise 효과의 핵심입니다!
 
 콘텐츠의 잔상을 만들어, 원본이 움직일 때 뒤쪽에 점점 사라지거나 크기가 변하는 복사본을 남깁니다.
 
-* **change render profile for trail** – 켜면 모든 trail 복사본이 선택한 **render profile**을 사용합니다. _참조:_ [Render profile](../fundamentals/render-profile.md).
+* **change render profile for trail** – 켜면 모든 trail 복사본이 선택한 **render profile**을 사용합니다. _참조:_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – 위 스위치가 켜져 있을 때 trail 복사본에 사용할 프로필입니다. 보통 메인 콘텐츠는 **DETAIL**로 설정하고 잔상은 **FAST**로 렌더링할 때 사용합니다. 이렇게 하면 메인 도형은 선명한 디테일을 유지하면서 trail은 더 효율적으로 렌더링할 수 있습니다.
 * **delay** – trail 복사본 사이의 간격을 음악적 시간으로 설정하며, **1/64 노트 단위**로 측정됩니다.\
   참고:
@@ -36,6 +36,7 @@ randomise 노드는 Randomise 효과의 핵심입니다!
   * 128 = 1/2 bar(2분음표)
   * 256 = 1 bar
 * **trail size** – 라이브 콘텐츠 뒤에 그릴 trail 복사본의 개수입니다.
+* **prefill trails** – Clip이 시작될 때 처음 몇 박자 동안 에코가 쌓이기를 기다리지 않고, 트레일 기록을 즉시 채웁니다.
 * **freeze trails** – 부드럽게 이어지는 trail을 고정된 스냅샷의 시퀀스로 바꿉니다. 스타카토 느낌이나 비트에 동기화된 trail 효과를 만들 때 유용합니다.
 * **brightness start / brightness end** – 가장 최근 복사본(**start**)부터 가장 오래된 복사본(**end**)까지 trail 전체에 밝기를 적용합니다. 일반적으로 **brightness start**를 100%, **brightness end**를 0%로 설정하면 잔상이 점점 사라집니다.
 * **scale start / scale end** – 가장 최근 복사본(start)부터 가장 오래된 복사본(end)까지 trail 전체에 스케일을 적용합니다. trail이 완전히 작아져 사라지게 하려면 **scale start**를 100%, **scale end**를 0%로 설정합니다.

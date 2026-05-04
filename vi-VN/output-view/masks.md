@@ -20,5 +20,5 @@ Thêm mask bằng cách nhấp vào biểu tượng trên thanh công cụ; bạ
 
 Nhấp chuột phải vào mask để xem các cài đặt bổ sung:
 
-* Reduction percentage - giá trị này biểu thị mức giảm công suất của tia laser trong mask. Theo mặc định, giá trị được đặt là 100%, tức là tắt hoàn toàn trong mask. Tuy nhiên, bạn có thể giảm công suất laser theo bất kỳ mức nào bạn chọn. Lưu ý rằng khi không phải giảm hoàn toàn, mask sẽ đổi màu sang cam.
+* Reduction percentage - giá trị này biểu thị mức giảm công suất của laser trong mask. Theo mặc định, giá trị được đặt là 100%, tức là tắt hoàn toàn trong mask. Tuy nhiên, bạn có thể giảm công suất laser theo bất kỳ mức nào bạn chọn. Lưu ý rằng khi không phải giảm hoàn toàn, mask sẽ đổi màu sang cam.
 * Nút DELETE MASK cũng nằm trong menu nhấp chuột phải này.

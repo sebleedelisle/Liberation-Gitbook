@@ -9,7 +9,7 @@ metaLinks:
 
 ### Samhæfni
 
-Windows 10 eða 11 á 64 bita vélum. Mælt er með öflugum tölvum ef þú ætlar að keyra stórar sýningar. Því hraðari sem tölvan er, því mýkri verður hreyft laserúttak.
+Windows 10 eða 11 á 64 bita tölvum. Mælt er með öflugum tölvum ef þú ætlar að keyra stórar sýningar. Því hraðari sem tölvan er, því mýkri verður hreyft laserúttak.
 
 ### Uppsetningarferli
 
@@ -57,7 +57,7 @@ Uppsetningarforritið er búið! Smelltu á _Finish_ til að loka því og ræsa
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation þarf leyfi til að fá aðgang að skrám og netinu, svo Windows mun líklega birta nokkra beiðniglugga. Gakktu úr skugga um að samþykkja allt, annars gæti Liberation ekki virkað rétt.
+Liberation þarf leyfi til að fá aðgang að skrám og netinu, svo Windows mun líklega birta nokkra leyfisglugga. Gakktu úr skugga um að samþykkja allt, annars gæti Liberation ekki virkað rétt.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

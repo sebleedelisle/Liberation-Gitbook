@@ -12,7 +12,7 @@ Müzik veya ışık yazılımlarıyla deneyiminiz varsa bu süreç size tanıdı
 
 ## Tempo paneli
 
-_Tempo_ paneli her zaman ekranda görünür ve tüm senkronizasyon ayarlarını içerir. Üst kısımda mevcut ölçü/vuruş sayacını ve play/pause ile rewind/fastforward düğmelerini içeren transport kontrollerini görürsünüz.
+_Tempo_ paneli her zaman ekranda görünür ve tüm senkronizasyon ayarlarını içerir. Üst kısımda mevcut ölçü/vuruş sayacını ve play/pause ile rewind/fast-forward düğmelerini içeren transport kontrollerini görürsünüz.
 
 Bunun altında vuruş göstergesi yer alır: vuruşa göre “nabız gibi atan” dört kare. Bu _vuruş göstergesi_ son derece kullanışlı bir görselleştirmedir ve _Live_ tempo sistemini kullanırken ona sık sık bakarsınız.
 
@@ -60,7 +60,7 @@ Ayarlamak için _TEMPO_ knob öğesini kullanın. Hassas ayar için _TEMPO_ knob
 
 **Tempoyu** yukarı veya aşağı doğru tam bir BPM değerine **yuvarlamak** için _TEMPO_ knob öğesini sağa veya sola bir “tık” çevirin.
 
-Ayrıca bkz. [APC40 referansı](reference/apc40-reference.md)
+Ayrıca bkz. [APC40 referansı](reference/apc40-reference.md "mention")
 
 ### Tempoyu kaydırma
 
@@ -101,6 +101,12 @@ Liberation MIDI Clock tempo kaynağı ayrıca **MIDI Machine Control (MMC)** mes
 {% endhint %}
 
 
+
+### Ableton Link
+
+Ableton Link ile senkronize etmek için tempo kaynağı olarak _ABLETON LINK_ seçin. Liberation, yerel ağınızdaki Link oturumuna katılır ve Link destekli diğer uygulamalardan paylaşılan tempo ile vuruş fazını takip eder.
+
+Ableton Link bir MIDI portu kullanmaz ve mutlak şarkı konumunu taşımaz. Liberation içindeki ölçü başlangıcının gösterideki belirli bir anla hizalanması gerekiyorsa bar reset kontrollerini kullanın.
 
 ### Timeline
 

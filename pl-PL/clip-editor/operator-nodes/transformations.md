@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Przesuwa całą zawartość wzdłuż osi x, y i/lub z. Pamiętaj, że układ współrzędnych jest wyśrodkowany i obejmuje zakres od +/-200 na osiach x i y. Zobacz [Układ współrzędnych](../fundamentals/co-ordinate-system.md).
+Przesuwa całą zawartość wzdłuż osi x, y i/lub z. Pamiętaj, że układ współrzędnych jest wyśrodkowany i obejmuje zakres od +/-200 na osiach x i y. Zobacz [Układ współrzędnych](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - odległość przesunięcia wzdłuż osi x (lewo - prawo).
 * **y** - odległość przesunięcia wzdłuż osi y (góra - dół).
@@ -20,7 +20,7 @@ Przesuwa całą zawartość wzdłuż osi x, y i/lub z. Pamiętaj, że układ wsp
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Obraca całą zawartość. Wartości są podawane w stopniach. Zobacz [Układ współrzędnych](../fundamentals/co-ordinate-system.md).
+Obraca całą zawartość. Wartości są podawane w stopniach. Zobacz [Układ współrzędnych](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - wartość obrotu zawartości zgodnie z ruchem wskazówek zegara, w stopniach. Wszystko jest obracane wokół początku układu (0,0), czyli środka.
 * **pivot point x / pivot point y** - użyj tych wartości, aby przesunąć punkt początkowy obrotu.

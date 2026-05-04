@@ -31,7 +31,7 @@ Als je de canvas-knoppen in het clip deck niet ziet, probeer dan door de beam zo
 
 ### Canvas-zones
 
-Canvas-zones zijn gebieden binnen de canvas die je naar een laser kunt sturen. Ze worden in de canvas-weergave weergegeven als roze rechthoeken met alleen een rand. Je kunt met de rechtermuisknop op elke zone klikken en de lasers selecteren waaraan je die zone wilt toewijzen. Als je nu overschakelt naar de _OUTPUT_-weergave voor die laser, zie je dat er een nieuwe zone is verschenen.
+Canvas-zones zijn gebieden binnen de Canvas die je naar een laser kunt sturen. Ze worden in de Canvas view weergegeven als roze rechthoeken met alleen een rand. Je kunt met de rechtermuisknop op elke zone klikken en de lasers selecteren waaraan je die zone wilt toewijzen. Als je nu overschakelt naar de _OUTPUT_-weergave voor die laser, zie je dat er een nieuwe zone is verschenen.
 
 {% hint style="danger" %}
 WAARSCHUWING - als de laser voor output geactiveerd is, kun je ineens content gaan projecteren in een standaard canvas-zone. Je kunt de laser het beste deactiveren voordat je er canvas-zones aan toewijst.
@@ -43,7 +43,7 @@ Je kunt ook een canvas-zone aan een laser toewijzen door in de _OUTPUT_-weergave
 
 ### Guide images
 
-Je kunt een guide image aan de canvas toevoegen en deze gebruiken als sjabloon voor je graphics. Het is aan te raden om de kleurtint van de guide image aan te passen (rechtermuisknopmenu) en deze donkerder te maken, zodat je je content er beter overheen kunt zien.
+Je kunt een guide image aan de Canvas toevoegen en deze gebruiken als sjabloon voor je graphics. Het is aan te raden om de kleurtint van de guide image aan te passen (rechtermuisknopmenu) en deze donkerder te maken, zodat je je content er beter overheen kunt zien.
 
 {% hint style="info" %}
 Voor architectural mapping vond ik het handig om een 'uitgevouwen' visual van het gebouw te maken, waarbij alle oppervlakken van het gebouw als een vlak, onvervormd beeld worden weergegeven. De perspectiefcorrectie voor de verschillende secties kun je doen met de canvas-zone in de _OUTPUT_-weergave.
@@ -55,7 +55,7 @@ Voor architectural mapping vond ik het handig om een 'uitgevouwen' visual van he
 
 ### Canvas in de 3D visualiser
 
-Het zou waarschijnlijk nogal omslachtig zijn (op z’n zachtst gezegd) om je complexe multi-laserprojectiesysteem opnieuw op te bouwen in de 3D visualiser. Daarom heb je in plaats daarvan de optie om je canvas binnen de 3D-ruimte te plaatsen. Activeer het selectievakje _Show canvas_ in het paneel _3D visualiser settings_. (Alle guide images die je in de canvas hebt, worden ook in de visualiser weergegeven.)
+Het zou waarschijnlijk nogal omslachtig zijn (op z’n zachtst gezegd) om je complexe multi-laserprojectiesysteem opnieuw op te bouwen in de 3D visualiser. Daarom heb je in plaats daarvan de optie om je Canvas binnen de 3D-ruimte te plaatsen. Activeer het selectievakje _Show canvas_ in het paneel _3D visualiser settings_. (Alle guide images die je in de Canvas hebt, worden ook in de visualiser weergegeven.)
 
 {% hint style="info" %}
 Let op: de visualiser toont de canvas-projecties nog steeds als atmosferische effecten die uit de lasers komen. Je kunt ze gewoon buiten beeld verplaatsen, of, als je het netjes wilt doen, ze uitlijnen met de canvas!

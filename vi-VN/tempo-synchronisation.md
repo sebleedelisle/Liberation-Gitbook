@@ -60,7 +60,7 @@ Dùng nút _METRONOME_ để **đặt lại ô nhịp**. (Lưu ý rằng nút _M
 
 Xoay núm _TEMPO_ một “nấc” sang phải hoặc trái để **làm tròn tempo** lên hoặc xuống về một số BPM nguyên.
 
-Xem thêm [Tham chiếu APC40](reference/apc40-reference.md)
+Xem thêm [Tham chiếu APC40](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 
@@ -101,6 +101,12 @@ Nguồn tempo MIDI Clock của Liberation cũng phản hồi các thông điệp
 {% endhint %}
 
 
+
+### Ableton Link
+
+Để đồng bộ với Ableton Link, chọn _ABLETON LINK_ làm nguồn tempo. Liberation sẽ tham gia phiên Link trên mạng cục bộ của bạn và chạy theo tempo cũng như pha phách được chia sẻ từ các ứng dụng hỗ trợ Link khác.
+
+Ableton Link không sử dụng cổng MIDI và không truyền vị trí bài hát tuyệt đối. Hãy dùng các điều khiển đặt lại ô nhịp nếu bạn cần thời điểm bắt đầu ô nhịp của Liberation khớp với một khoảnh khắc cụ thể trong chương trình.
 
 ### Timeline
 

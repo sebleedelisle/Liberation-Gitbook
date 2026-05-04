@@ -1,8 +1,8 @@
 ---
 description: >-
-  Les lasers peuvent être dangereux ; il est donc important de suivre les bonnes
-  pratiques et les consignes de sécurité. Cette page offre une vue d’ensemble
-  utile pour vous guider dans la mise en place des lasers en toute sécurité.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-
@@ -53,7 +53,7 @@ Cette page est conçue pour vous donner une vue d’ensemble du processus de mis
 6. **Ajoutez des masques logiciels** : les masques logiciels dans Liberation peuvent être utilisés pour protéger les caméras et les projecteurs, mais ne doivent **jamais** remplacer un masquage physique destiné à protéger les personnes. Gardez à l’esprit qu’aucun logiciel ni matériel n’est infaillible ; assurez-vous donc de bien comprendre les risques avant d’utiliser des masques logiciels.
 
 {% hint style="warning" %}
-Notez que ce guide suppose une installation en intérieur. Si vous travaillez en extérieur, des étapes supplémentaires doivent être prises pour garantir la sécurité aérienne, notamment, sans s’y limiter :
+Notez que ce guide suppose une installation en intérieur. Si vous travaillez en extérieur, des mesures supplémentaires doivent être prises pour garantir la sécurité aérienne, notamment, sans s’y limiter :
 
 * Obtenir les autorisations nécessaires auprès des autorités aéronautiques, telles que la FAA ou la CAA
 * Prendre contact avec les aéroports et aérodromes à proximité

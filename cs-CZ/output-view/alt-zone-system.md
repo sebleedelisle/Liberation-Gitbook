@@ -15,7 +15,7 @@ Systém Alt zones umožňuje vytvořit alternativní zone pro libovolnou existuj
 
 ### Přidání alternativní zone
 
-V Output view klikněte pravým tlačítkem na zone a klikněte na _ADD ALT ZONE_. Všimněte si, že se objeví nová zeleně zbarvená zone. Můžete ji upravovat a nastavovat přesně stejně jako kteroukoli jinou zone. Abyste viděli test patterns, musíte v horní liště ikon zapnout Alt zones.
+V Output view klikněte pravým tlačítkem na zone a klikněte na _ADD ALT ZONE_. Všimněte si, že se objeví nová zeleně zbarvená zone. Můžete ji upravovat a nastavovat přesně stejně jako kteroukoli jinou zone. Abyste viděli testovací obrazce, musíte v horní liště ikon zapnout Alt zones.
 
 ### Přepnutí na Alt zones
 
@@ -23,4 +23,4 @@ Jakmile přidáte jakoukoli Alt zone, v horní liště ikon se zobrazí přepín
 
 ### Jak zone deaktivovat místo přesunutí
 
-Přidejte Alt zone, klikněte na ni pravým tlačítkem a klikněte na tlačítko _Disable output_ (kruh s čárou). Když nyní zapnete Alt zones, obsah bude přesměrován do této nově deaktivované Alt zone.
+Přidejte Alt zone, klikněte na ni pravým tlačítkem a klikněte na tlačítko _Disable output_ (kruh s čárou). Když nyní zapnete Alt zones, obsah bude přesměrován do této nyní deaktivované Alt zone.

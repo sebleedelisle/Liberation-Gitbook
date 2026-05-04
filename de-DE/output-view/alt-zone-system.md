@@ -15,7 +15,7 @@ Mit dem Alt-Zonen-System kannst du für jede bestehende Zone eine alternative Zo
 
 ### Eine alternative Zone hinzufügen
 
-Klicke in der Output-Ansicht mit der rechten Maustaste auf eine Zone und dann auf _ADD ALT ZONE_. Du wirst sehen, dass eine neue grün gefärbte Zone erscheint. Du kannst sie genauso bearbeiten und anpassen wie jede andere Zone. Um die Testmuster zu sehen, musst du Alt-Zonen in der oberen Symbolleiste aktivieren.
+Klicke in der Output view mit der rechten Maustaste auf eine zone und dann auf _ADD ALT ZONE_. Du wirst sehen, dass eine neue grün gefärbte zone erscheint. Du kannst sie genauso bearbeiten und anpassen wie jede andere zone. Um die Testmuster zu sehen, musst du Alt zones in der oberen Symbolleiste aktivieren.
 
 ### Zu deinen Alt-Zonen wechseln
 
@@ -23,4 +23,4 @@ Sobald du eine Alt-Zone hinzufügst, erscheint in der oberen Symbolleiste eine U
 
 ### Eine Zone deaktivieren statt verschieben
 
-Füge eine Alt-Zone hinzu, klicke mit der rechten Maustaste darauf und klicke dann auf die Schaltfläche _Disable output_ (Kreis mit durchgezogener Linie). Wenn du jetzt Alt-Zonen aktivierst, wird der Inhalt auf diese nun deaktivierte Alt-Zone umgeleitet.
+Füge eine Alt zone hinzu, klicke mit der rechten Maustaste darauf und klicke dann auf die Schaltfläche _Disable output_ (Kreis mit durchgezogener Linie). Wenn du jetzt Alt zones aktivierst, wird der Inhalt auf diese nun deaktivierte Alt zone umgeleitet.

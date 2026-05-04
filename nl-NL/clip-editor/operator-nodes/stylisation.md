@@ -36,6 +36,7 @@ Maakt echo’s van je content, waarbij vervagende of schalende kopieën achter h
   * 128 = 1/2 maat (halve noot)
   * 256 = 1 maat
 * **trail size** – hoeveel trail-kopieën achter de live content worden getekend.
+* **prefill trails** – vult de trail-geschiedenis meteen wanneer de Clip start, in plaats van te wachten tot de echo’s zich tijdens de eerste paar beats opbouwen.
 * **freeze trails** – verandert vloeiend doorlopende trails in een reeks bevroren snapshots. Handig voor staccato, beat-gesynchroniseerde trail-effecten.
 * **brightness start / brightness end** – past de helderheid over de trail toe, van de nieuwste kopie (**start**) tot de oudste kopie (**end**). Meestal stel je **brightness start** in op 100% en **brightness end** op 0%, zodat de echo’s uitfaden.
 * **scale start / scale end** – past schaalverandering over de trail toe, van de nieuwste kopie (start) tot de oudste kopie (end). Voor trails die tot niets krimpen stel je **scale start** in op 100% en **scale end** op 0%.

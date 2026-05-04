@@ -20,10 +20,10 @@ Na szczęście łatwo to naprawić, resetując ustawienia lokalne. Poniżej opis
 
 #### Gdzie znaleźć folder roboczy
 
-Każda wersja Liberation ma własny folder roboczy. Na przykład jeśli używasz wersji 1.0.0, nazwa folderu będzie 1.0.0.
+Każda wersja Liberation ma własny folder roboczy. Na przykład jeśli używasz wersji 1.0.3, nazwa folderu będzie 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Jak szybko otworzyć folder**
 
@@ -35,7 +35,7 @@ Każda wersja Liberation ma własny folder roboczy. Na przykład jeśli używasz
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Otwórz folder odpowiadający numerowi Twojej wersji, na przykład `1.0.0`.
+3. Otwórz folder odpowiadający numerowi Twojej wersji, na przykład `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Każda wersja Liberation ma własny folder roboczy. Na przykład jeśli używasz
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Otwórz folder odpowiadający numerowi Twojej wersji, na przykład `1.0.0`.
+2. Otwórz folder odpowiadający numerowi Twojej wersji, na przykład `1.0.3`.
 
 > **Wskazówka dla Windows**: Jeśli przeglądasz foldery przez File Explorer, włącz ukryte elementy: **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 W folderze liberation powinien znajdować się plik o nazwie `settings.json`. Usuń ten plik.
 
-* **Przykład dla macOS**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Przykład dla Windows**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **Przykład dla macOS**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Przykład dla Windows**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Teraz spróbuj uruchomić Liberation. Jeśli program się otworzy, gotowe.
 
@@ -84,9 +84,9 @@ Spróbuj ponownie uruchomić Liberation. Jeśli program otworzy się normalnie, 
 Jeśli Krok 1 i Krok 2 nie pomogły:
 
 1. **Utwórz kopię zapasową** całego folderu wersji:
-   * macOS: Kliknij prawym przyciskiem folder `1.0.0` i wybierz **Compress**, aby utworzyć plik zip, albo skopiuj go w bezpieczne miejsce, na przykład na Desktop.
-   * Windows: Kliknij prawym przyciskiem folder `1.0.0` i wybierz **Send to > Compressed (zipped) folder**, albo skopiuj go w bezpieczne miejsce, na przykład na Desktop.
-2. Po utworzeniu kopii zapasowej **usuń** oryginalny folder `1.0.0` z lokalizacji roboczej Liberation.
+* macOS: Kliknij prawym przyciskiem folder `1.0.3` i wybierz **Compress**, aby utworzyć plik zip, albo skopiuj go w bezpieczne miejsce, na przykład na Desktop.
+* Windows: Kliknij prawym przyciskiem folder `1.0.3` i wybierz **Send to > Compressed (zipped) folder**, albo skopiuj go w bezpieczne miejsce, na przykład na Desktop.
+2. Po utworzeniu kopii zapasowej **usuń** oryginalny folder `1.0.3` z lokalizacji roboczej Liberation.
 3. Uruchom Liberation ponownie. Program utworzy nowy folder roboczy.
 
 Jeśli Liberation teraz się otwiera, przejdź do Kroku 4.
@@ -103,10 +103,10 @@ Spakuj swoją **kopię zapasową** z Kroku 3 do pliku zip, jeśli nie została j
 * **Temat**: Naprawa uruchamiania Liberation – kopia zapasowa folderu roboczego
 * **Treść**: Uwzględnij:
   * System operacyjny i wersję (np. macOS 14.6 albo Windows 11 23H2)
-  * Wersję Liberation (np. 1.0.0)
+* Wersję Liberation (np. 1.0.3)
   * Który krok rozwiązał problem, jeśli którykolwiek (Krok 1, Krok 2 albo Krok 3)
   * Krótki opis tego, co wydarzyło się przed wystąpieniem problemu
-* **Załącznik**: spakowana kopia zapasowa folderu roboczego `1.0.0`.
+* **Załącznik**: spakowana kopia zapasowa folderu roboczego `1.0.3`.
 
 > Jeśli plik zip jest za duży do wysłania e-mailem, prześlij go na dysk w chmurze i udostępnij link.
 
@@ -127,5 +127,5 @@ Jeśli Liberation nadal się nie otwiera po usunięciu folderu roboczego:
 
 1. Usuń `data/liberation/settings.json` w folderze roboczym swojej wersji.
 2. Jeśli edytowany był Clip, utwórz kopię zapasową, a następnie usuń `data/liberation/clipEdit.json`.
-3. Jeśli nadal się nie otwiera, utwórz kopię zapasową, a następnie usuń cały folder `1.0.0` (albo folder swojej wersji).
+3. Jeśli nadal się nie otwiera, utwórz kopię zapasową, a następnie usuń cały folder `1.0.3` (albo folder swojej wersji).
 4. Jeśli Krok 3 rozwiąże problem (albo jeśli go nie rozwiąże), spakuj kopię zapasową i wyślij ją na adres [**info@liberationlaser.com**](mailto:info@liberationlaser.com), podając system operacyjny i wersję Liberation.

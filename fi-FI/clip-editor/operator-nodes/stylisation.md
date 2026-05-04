@@ -26,7 +26,7 @@ Randomise-nodi on Randomise-efektin ytimessä!
 
 Luo sisällöstä kaikuja, eli jättää alkuperäisen liikkuessa sen perään himmeneviä tai skaalautuvia kopioita.
 
-* **change render profile for trail** – jos käytössä, kaikki trail-kopiot käyttävät valittua **render profile** -asetusta. _Katso_ [Render Profile](../fundamentals/render-profile.md).
+* **change render profile for trail** – jos käytössä, kaikki trail-kopiot käyttävät valittua **render profile** -asetusta. _Katso_ [Render Profile](../fundamentals/render-profile.md "mention").
 * **render profile** – profiili, jota käytetään trail-kopioille, kun yllä oleva kytkin on käytössä. Tätä käytetään usein, kun pääsisältö on asetettu tilaan **DETAIL**, mutta kaiut renderöidään tilassa **FAST**. Näin päämuodoissa säilyy selkeä yksityiskohtaisuus ja trail-kopiot renderöityvät tehokkaammin.
 * **delay** – asettaa trail-kopioiden välisen etäisyyden musiikillisessa ajassa, mitattuna **1/64-nuotin askelina**.\
   Vertailuksi:
@@ -36,6 +36,7 @@ Luo sisällöstä kaikuja, eli jättää alkuperäisen liikkuessa sen perään h
   * 128 = 1/2 tahtia (puolinuotti)
   * 256 = 1 tahti
 * **trail size** – kuinka monta trail-kopiota piirretään live-sisällön perään.
+* **prefill trails** – täyttää jälkihistorian heti, kun Clip alkaa, sen sijaan että odottaisi kaikujen muodostumista ensimmäisten muutaman iskun aikana.
 * **freeze trails** – muuttaa pehmeästi virtaavat trailit sarjaksi pysäytettyjä hetkikuvia. Hyödyllinen staccato-tyylisten, biittiin synkronoitujen trail-efektien luomiseen.
 * **brightness start / brightness end** – asettaa kirkkauden trailin matkalle uusimmasta kopiosta (**start**) vanhimpaan kopioon (**end**). Yleensä **brightness start** asetetaan arvoon 100% ja **brightness end** arvoon 0%, jolloin kaiut häipyvät pois.
 * **scale start / scale end** – asettaa skaalauksen trailin matkalle uusimmasta kopiosta (start) vanhimpaan kopioon (end). Jos haluat trailien kutistuvan pois, aseta **scale start** arvoon 100% ja **scale end** arvoon 0%.

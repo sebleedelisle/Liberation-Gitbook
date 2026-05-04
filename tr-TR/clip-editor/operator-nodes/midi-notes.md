@@ -13,14 +13,14 @@ Gelen MIDI notalarının belirli bir aralık boyunca ışınları veya şekiller
 
 Liberation uygulamasının hangi MIDI arayüzünü dinleyeceğini **Liberation → Settings** (`Cmd / Ctrl + ,`) bölümünden seçebilirsiniz.
 
-* **midi channel** – dinlenecek MIDI kanalı (0 = tüm kanallar, 1–16 = belirli kanal)
+* **MIDI channel** – dinlenecek MIDI kanalı (0 = tüm kanallar, 1–16 = belirli kanal)
 * **width** – notaların yayıldığı toplam genişlik.
-* **midi note min / max** – aralıktaki en düşük ve en yüksek MIDI nota değerleri.
+* **MIDI note min / max** – aralıktaki en düşük ve en yüksek MIDI nota değerleri.
 * **ignore out of range notes** – ayarlanan aralığın dışındaki notaları filtreler. Devre dışıysa aralık dışındaki notalar en yakın kullanılabilir notaya “sabitlenir” (yüksek notalar aralığın üstünü, düşük notalar aralığın altını tetikler).
 * **auto extend range** – aralığın dışında notalar çalınırsa aralığı otomatik olarak genişletir.
 
 {% hint style="info" %}
-Hangi nota aralığını aldığınızdan emin değil misiniz? **auto extend range** seçeneğini açın, **midi note min** değerini çok yüksek ve **midi note max** değerini çok düşük ayarlayın, ardından notalarınızı çalın. Sistem hepsini yakalar ve aralığı sizin için genişletir. Her şeyi yakaladıktan sonra aralığı kilitlemek için **auto extend range** seçeneğini kapatmanız yeterli.
+Hangi nota aralığını aldığınızdan emin değil misiniz? **auto extend range** seçeneğini açın, **MIDI note min** değerini çok yüksek ve **MIDI note max** değerini çok düşük ayarlayın, ardından notalarınızı çalın. Sistem hepsini yakalar ve aralığı sizin için genişletir. Her şeyi yakaladıktan sonra aralığı kilitlemek için **auto extend range** seçeneğini kapatmanız yeterli.
 {% endhint %}
 
 * **leave all notes visible** – aralıktaki tüm notalar için, çalınıp çalınmadıklarına bakmadan ışınlar veya şekiller oluşturur; böylece “lazer arpı” efekti verir.

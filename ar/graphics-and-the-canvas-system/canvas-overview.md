@@ -38,7 +38,7 @@ Canvas zones هي مناطق داخل Canvas تختار إرسالها إلى ل
 {% endhint %}
 
 {% hint style="info" %}
-يمكنك أيضًا إسناد Canvas zone إلى ليزر بالنقر على زر _add canvas zone_ في عرض _OUTPUT_. راجع [zones](../output-view/zones.md).
+يمكنك أيضًا إسناد Canvas zone إلى ليزر بالنقر على زر _add canvas zone_ في عرض _OUTPUT_. راجع [zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### صور الإرشاد

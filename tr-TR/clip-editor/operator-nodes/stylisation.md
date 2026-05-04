@@ -26,7 +26,7 @@ Randomise adlı node, Randomise efektinin merkezindedir!
 
 İçeriğinizin yankılarını oluşturur; orijinal hareket ederken arkasında solan veya ölçeklenen kopyalar bırakır.
 
-* **change render profile for trail** – açıksa, tüm trail kopyaları seçili **render profile** değerini kullanır. _Bkz._ [Render profili](../fundamentals/render-profile.md).
+* **change render profile for trail** – açıksa, tüm trail kopyaları seçili **render profile** değerini kullanır. _Bkz._ [Render profili](../fundamentals/render-profile.md "mention").
 * **render profile** – yukarıdaki anahtar açıkken trail kopyaları için kullanılacak profil. Genellikle ana içerik **DETAIL** olarak ayarlanmışken yankıların **FAST** olarak render edilmesi için kullanılır. Böylece ana şekillerde net ayrıntı korunur, trails ise daha verimli render edilir.
 * **delay** – trail kopyaları arasındaki aralığı müzikal zamanla ayarlar; **1/64 nota adımları** cinsinden ölçülür.\
   Referans olarak:
@@ -36,6 +36,7 @@ Randomise adlı node, Randomise efektinin merkezindedir!
   * 128 = 1/2 ölçü (ikilik nota)
   * 256 = 1 ölçü
 * **trail size** – canlı içeriğin arkasına çizilecek trail kopyası sayısı.
+* **prefill trails** – Clip başladığında iz geçmişini hemen doldurur; yankıların ilk birkaç vuruş boyunca oluşmasını beklemez.
 * **freeze trails** – akıcı şekilde ilerleyen trails görünümünü donmuş anlık görüntüler dizisine dönüştürür. Kesik, beat ile senkron trail efektleri oluşturmak için kullanışlıdır.
 * **brightness start / brightness end** – trail boyunca parlaklığı en yeni kopyadan (**start**) en eski kopyaya (**end**) uygular. Genellikle **brightness start** 100%, **brightness end** 0% olarak ayarlanır; böylece yankılar sönerek kaybolur.
 * **scale start / scale end** – trail boyunca ölçeklemeyi en yeni kopyadan (start) en eski kopyaya (end) uygular. Sıfıra kadar küçülen trails için **scale start** değerini 100%, **scale end** değerini 0% yapın.

@@ -14,17 +14,17 @@ Liberation je dostatečně flexibilní na to, abyste mohli nastavovat lasery a v
 V Liberation můžete nastavit a vizualizovat libovolný počet laserů. Licenční úrovně (Hobbyist, Pro atd.) omezují pouze počet laserů, které můžete _aktivovat pro výstup._ To znamená, že i s bezplatnou licencí můžete navrhovat laserové show se 100 lasery. Upgrade potřebujete až ve chvíli, kdy je chcete skutečně spustit na reálných laserech.
 {% endhint %}
 
-Výchozí nastavení obsahuje 8 laserů rozložených vodorovně, ale můžete si ho upravit podle potřeby. Než se se softwarem seznámíte, bude pravděpodobně nejlepší ponechat toto výchozí nastavení. Později ho můžete upravit tak, aby odpovídalo vaší hardwarové sestavě. (Viz [Nastavení projektu](../setting-up/setting-up-your-project.md))&#x20;
+Výchozí nastavení obsahuje 8 laserů rozložených vodorovně, ale můžete si ho upravit podle potřeby. Než se se softwarem seznámíte, bude pravděpodobně nejlepší ponechat toto výchozí nastavení. Později ho můžete upravit tak, aby odpovídalo vaší hardwarové sestavě. (Viz [Nastavení projektu](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Důležité: Než aktivujete jakékoli lasery pro výstup, ujistěte se, že rozumíte souvisejícím rizikům, a pečlivě si projděte kapitolu [Nastavení laserů](../setting-up/setting-up-lasers.md).
+Důležité: Než aktivujete jakékoli lasery pro výstup, ujistěte se, že rozumíte souvisejícím rizikům, a pečlivě si projděte kapitolu [Nastavení laserů](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Přehled softwaru
 
 ### Bezpečnostní vypnutí
 
-Kdykoli používáte lasery, musíte mít po ruce **hardwarové tlačítko nouzového zastavení** (viz [Nouzové zastavení a bezpečnostní blokování](../hardware/emergency-stop-interlocks.md)). Pokud ale chcete deaktivovat vše méně naléhavě, můžete použít tlačítko _**DISARM ALL**_, klávesu `Escape` nebo klávesu _**SESSION**_ na APC40. Globální jas můžete také snížit pomocí posuvníku na obrazovce nebo hlavního faderu na APC40.
+Kdykoli používáte lasery, musíte mít po ruce **hardwarové tlačítko nouzového zastavení** (viz [Nouzové zastavení a bezpečnostní blokování](../hardware/emergency-stop-interlocks.md "mention")). Pokud ale chcete deaktivovat vše méně naléhavě, můžete použít tlačítko _**DISARM ALL**_, klávesu `Escape` nebo klávesu _**SESSION**_ na APC40. Globální jas můžete také snížit pomocí posuvníku na obrazovce nebo hlavního faderu na APC40.
 
 ### Posuvníky
 
@@ -36,7 +36,7 @@ Pokud potřebujete přesnější ovládání, než umožňuje posuvník, klikně
 
 ### Klávesové zkratky
 
-Úplný seznam klávesových zkratek najdete zde: [Klávesové zkratky](../reference/keyboard-shortcuts.md)
+Úplný seznam klávesových zkratek najdete zde: [Klávesové zkratky](../reference/keyboard-shortcuts.md "mention")
 
 ### Rozložení obrazovky
 
@@ -68,7 +68,7 @@ Velká oblast vlevo nahoře na obrazovce může zobrazovat jedno ze 3 hlavních 
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view ukazuje, jak budou vaše lasery vypadat, a lze ho nastavit tak, aby odpovídal vaší vlastní laserové sestavě. Kliknutím a tažením otáčíte kameru, kolečkem myši se posouváte dopředu a dozadu. Mnoho dalších možností najdete v panelu _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Viz [3D Visualiser](../setting-up/3d-visualiser.md).
+3D view ukazuje, jak budou vaše lasery vypadat, a lze ho nastavit tak, aby odpovídal vaší vlastní laserové sestavě. Kliknutím a tažením otáčíte kameru, kolečkem myši se posouváte dopředu a dozadu. Mnoho dalších možností najdete v panelu _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Viz [3D Visualiser](../setting-up/3d-visualiser.md "mention").
 
 #### Output view
 
@@ -87,7 +87,7 @@ Zone je prostor v rámci výstupu laseru, do kterého můžete směrovat laserov
 Laser, který chcete upravovat, můžete vybrat jedním z těchto způsobů:
 
 * číselnými tlačítky v liště nahoře
-* stisknutím číselné klávesy požadovaného laseru _(klávesy 1–9)_
+* stisknutím číselné klávesy požadovaného laseru (_klávesy 1–9_)
 * klávesou `Tab`, která postupně přechází z jednoho laseru na další
 
 Nový laser do sestavy přidáte stisknutím tlačítka _+_. (V panelu _Laser Overview_ je také tlačítko _ADD LASER_.)
@@ -100,11 +100,11 @@ Kliknutím na zone ji vyberete a potom můžete myší upravit její rohové bod
 
 Vlevo je lišta s řadou ikonových tlačítek. Když na libovolné tlačítko najedete myší, zobrazí se popis jeho funkce. Tlačítka zde umožňují přidávat beam zones, canvas zones a masks. Najdete tu také možnosti nastavit Test Pattern pouze pro tento laser a nastavení mřížky a přichytávání.
 
-Další podrobnosti najdete v části [Output view](../output-view/).
+Další podrobnosti najdete v části [Output view](../output-view/ "mention").
 
 #### Canvas
 
-Systém Canvas se používá hlavně pro grafiku a architektonický mapping. Složité obrazy můžete rozdělit mezi více laserů a u každé části korigovat perspektivu. Viz [Grafika a systém Canvas](../graphics-and-the-canvas-system/).
+Systém Canvas se používá hlavně pro grafiku a architektonický mapping. Složité obrazy můžete rozdělit mezi více laserů a u každé části korigovat perspektivu. Viz [Grafika a systém Canvas](../graphics-and-the-canvas-system/ "mention").
 
 ### MIDI kontrolér APC40
 
@@ -112,9 +112,9 @@ Systém Canvas se používá hlavně pro grafiku a architektonický mapping. Slo
 
 Liberation je sice možné ovládat myší a klávesnicí, ale mnohem lepší je použít MIDI ovládací rozhraní APC40. Nejvhodnější je Mark 2, ale funguje i Mark 1.
 
-Viz také: [Referenční příručka APC40](../reference/apc40-reference.md)
+Viz také: [Referenční příručka APC40](../reference/apc40-reference.md "mention")
 
-Nově jsme implementovali také podporu pro APC Mini Mark 2 a MIDI Fighter Twister a další zařízení jsou ve vývoji. Pro většinu případů je ale nejlepší volbou APC40 Mark 2.&#x20;
+Liberation podporuje také APC Mini a MIDI Fighter Twister. Pro většinu případů je stále nejlepší volbou APC40 Mark 2.&#x20;
 
 ### Clips a efekty
 
@@ -140,7 +140,7 @@ V Clip Deck se můžete posouvat doleva a doprava pomocí:
 * otočný ovladač posunu na APC40
 * tlačítka APC40 _<- DEVICE ->_
 
-Pro lepší orientaci je nahoře miniaturní vizualizace Clip Deck. Viz také [Clips a Clip Deck](../clips/)
+Pro lepší orientaci je nahoře miniaturní vizualizace Clip Deck. Viz také [Clips a Clip Deck](../clips/ "mention")
 
 #### Spouštění a zastavování Clips
 
@@ -162,7 +162,7 @@ O dva řádky níže pod tlačítky zones najdete tlačítka X/Y flip. Těmi mů
 Tato přiřazení zones a nastavení X/Y flip jsou svázaná se samotným Clip. Při příštím spuštění tohoto Clip zůstanou zachovaná. Nejde o globální nastavení.
 {% endhint %}
 
-Kliknutím pravým tlačítkem na Clip upravíte další nastavení tohoto Clip. Viz také [Nastavení Clip](../clips/clip-settings.md)
+Kliknutím pravým tlačítkem na Clip upravíte další nastavení tohoto Clip. Viz také [Nastavení Clip](../clips/clip-settings.md "mention")
 
 ### Skupiny
 
@@ -184,7 +184,7 @@ Změna nastavení zones pro všechny Clips ve skupině
 
 Na APC40 stiskněte tlačítko skupiny a _zatímco ho stále držíte,_ použijte tlačítka zones a X/Y pro přepnutí nastavení zones u všech Clips v této skupině.
 
-Viz také [Skupiny Clips](../clips/groups.md)
+Viz také [Skupiny Clips](../clips/groups.md "mention")
 
 ### Efekty
 
@@ -202,7 +202,7 @@ Otočnými ovladači 1–8\* nastavujete _parameter_ jednotlivých efektů. (Př
 Malá čísla na tlačítkách efektů označují _level_ a _parameter_ efektu. _Level_ se ovládá faderem na APC40 nebo kliknutím a tažením na tlačítku. Parametr se nastavuje otočnými ovladači na APC40 nebo kliknutím pravým tlačítkem a úpravou myší.
 {% endhint %}
 
-_\*Otočné ovladače 1–8 jsou u APC40 Mk2 nahoře a u Mk1 vpravo nahoře. Viz také:_ [Referenční příručka APC40](../reference/apc40-reference.md)
+_\*Otočné ovladače 1–8 jsou u APC40 Mk2 nahoře a u Mk1 vpravo nahoře. Viz také:_ [Referenční příručka APC40](../reference/apc40-reference.md "mention")
 
 #### Výchozí efekty
 
@@ -219,9 +219,9 @@ _\*Otočné ovladače 1–8 jsou u APC40 Mk2 nahoře a u Mk1 vpravo nahoře. Viz
 5. **Scale**:\
    Opakovaně mění měřítko všeho od plné velikosti po nulu. Parametr upravuje rychlost.
 6. **Hue**:\
-   Mění odstín všeho, ale nemění sytost (tedy vše, co je bílé, zůstane bílé). Parametr upravuje odstín.
+Mění odstín všeho, ale nemění sytost (tedy vše, co je bílé, zůstane bílé). Parametr upravuje odstín.
 7. **Saturation and hue**:\
-   Mění odstín všeho a zároveň barvu plně nasytí (tedy vše, co je bílé, se změní na danou barvu). Parametr upravuje odstín.
+Mění odstín všeho a zároveň barvu plně nasytí (tedy vše, co je bílé, se změní na danou barvu). Parametr upravuje odstín.
 8. **Flash**:\
    Opakovaně bliká jasem všeho od plné hodnoty po nulu. Parametr upravuje rychlost blikání.
 
@@ -259,7 +259,7 @@ Téměř všechny laserové show mají nějaký hudební doprovod, takže systé
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-K dispozici je více možností synchronizace, včetně MIDI clock a Ableton Link. Pokud znáte tempo hudby, můžete ho ručně upravit pomocí posuvníku na obrazovce nebo ovladače Tempo na APC40. S hudbou ale můžete držet krok také pomocí systému _Tap Tempo_\_.\_
+K dispozici je více možností synchronizace, včetně MIDI clock a Ableton Link. Pokud znáte tempo hudby, můžete ho ručně upravit pomocí posuvníku na obrazovce nebo ovladače Tempo na APC40. S hudbou ale můžete držet krok také pomocí systému _Tap Tempo_.
 
 #### Tap Tempo
 
@@ -297,10 +297,10 @@ Kliknutím na tlačítko _Assign Laser Controllers_ otevřete panel _Controller 
 
 Zde můžete zvolit, které laserové výstupy půjdou do kterých laserových kontrolérů. Přetáhněte kontroléry ze seznamu vpravo do slotů vlevo. Kontroléry si můžete přejmenovat podle toho, se kterým laserem jsou spárované (použijte tlačítko s ikonou pera).
 
-Další podrobnosti najdete v kapitole [Controller Assignment](../setting-up/controller-assignment.md).
+Další podrobnosti najdete v kapitole [Controller Assignment](../setting-up/controller-assignment.md "mention").
 
 {% hint style="danger" %}
-Než aktivujete jakékoli lasery pro výstup, projděte si kapitolu [Nastavení laserů](../setting-up/setting-up-lasers.md).
+Než aktivujete jakékoli lasery pro výstup, projděte si kapitolu [Nastavení laserů](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Panel Laser Settings
@@ -331,10 +331,10 @@ Pokud jste zvyklí na starší laserový software, který spoléhá na předem v
 Základní nastavení skenerů jsou:
 
 * **Speed** je rychlost skenerů, tedy jak rychle se laser pohybuje při kreslení tvarů. Odpovídá to úpravě point rate v tradičním laserovém softwaru, ale v Liberation můžete měnit rychlost pohybu laseru _nezávisle na point rate._ Toto nastavení byste neměli potřebovat měnit.
-* **Scanner sync** (někdy označované jako _blank shift, dříve Colour Shift_) Skener pohybuje laserem opravdu rychle, ale změna jasu a barvy obvykle není synchronizovaná s pohybem. Projevuje se to jako malé blikající „ocásky“ světla na okrajích paprsků a čar. Tímto nastavením sladíte pohyb a barvu. Viz [Laser Settings](../setting-up/laser-settings/)
+* **Scanner sync** (někdy označované jako _blank shift, dříve Colour Shift_) Skener pohybuje laserem opravdu rychle, ale změna jasu a barvy obvykle není synchronizovaná s pohybem. Projevuje se to jako malé blikající „ocásky“ světla na okrajích paprsků a čar. Tímto nastavením sladíte pohyb a barvu. Viz [Laser Settings](../setting-up/laser-settings/ "mention")
 
-Další pokročilá nastavení skenerů jsou popsána v kapitole [Pokročilé](../advanced/).
+Další pokročilá nastavení skenerů jsou popsána v kapitole [Pokročilé](../advanced/ "mention").
 
 ### Zoning
 
-Úplného průvodce nastavením laserů a zoning najdete zde: [Nastavení laserů](../setting-up/setting-up-lasers.md)
+Úplného průvodce nastavením laserů a zoning najdete zde: [Nastavení laserů](../setting-up/setting-up-lasers.md "mention")

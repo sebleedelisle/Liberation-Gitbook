@@ -23,7 +23,7 @@ Canvas zone отображается в Canvas view как розовый пря
 ПРЕДУПРЕЖДЕНИЕ: если лазер находится в состоянии armed, вы можете внезапно начать проецировать содержимое в стандартной Canvas zone. Лучше перевести лазер в состояние disarmed перед назначением ему Canvas zones.
 {% endhint %}
 
-Если теперь перейти в _OUTPUT_ view для этого лазера, вы увидите там Canvas zone. Её можно редактировать точно так же, как любую beam zone. См. [Zones](../output-view/zones.md).
+Если теперь перейти в _OUTPUT_ view для этого лазера, вы увидите там Canvas zone. Её можно редактировать точно так же, как любую beam zone. См. [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Canvas zone также можно добавить к лазеру напрямую из _OUTPUT_ view: нажмите кнопку _Add existing canvas zone_ на левой панели инструментов.

@@ -30,17 +30,17 @@ Liberation može pokretati mnogo lasera na jednom računalu. Testiran je s više
 
 #### **Koje MIDI kontrolere mogu koristiti?**
 
-Liberation je osmišljen i optimiziran za popularni MIDI kontroler APC40 Mk2. Radi i s APC40 Mk1. Pogledajte [Upravljanje uživo s APC40](midi-control/live-control-with-the-apc40.md)
+Liberation je osmišljen i optimiziran za popularni MIDI kontroler APC40 Mk2. Radi i s APC40 Mk1. Pogledajte [Upravljanje uživo s APC40](midi-control/live-control-with-the-apc40.md "mention")
 
-Postupno dodajemo podršku za dodatne MIDI kontrolere, a trenutačno podržavamo i APC Mini Mk2 te MIDI Fighter Twister.
+Liberation podržava i APC Mini te MIDI Fighter Twister. APC40 Mk2 i dalje je najpotpuniji referentni kontroler.
 
-Postoji i sustav MIDI Send/Receive koji omogućuje dodatno MIDI upravljanje. Pogledajte [MIDI Send/Receive sustav](midi-control/midi-send-receive.md)
+Postoji i sustav MIDI Send/Receive koji omogućuje dodatno MIDI upravljanje. Pogledajte [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
-Za više informacija pogledajte [MIDI upravljanje](midi-control/).
+Za više informacija pogledajte [MIDI upravljanje](midi-control/ "mention").
 
 #### **Mogu li ga koristiti s bilo kojim MIDI kontrolerom?**
 
-Trenutačno radimo na podesivom MIDI sustavu koji će to omogućiti u budućnosti. U međuvremenu su neki korisnici uspješno koristili MIDI interpreter koji može pretvoriti bilo koje MIDI poruke za sustav MIDI Send/Receive, ali to je zahtjevan i napredan postupak. Potražite savjete za takvo postavljanje na [forumu](https://forum.liberationlaser.com), ali realno je APC40 najbolja opcija.
+Za druge kontrolere upotrijebite sustav MIDI Send/Receive ili MIDI translator koji može slati zadane MIDI poruke za Liberation. Potražite savjete za takvo postavljanje na [forumu](https://forum.liberationlaser.com), ali realno je APC40 Mk2 i dalje najbolja opcija za većinu nastupa uživo.
 
 ## Laserski kontroleri
 
@@ -53,7 +53,7 @@ Trenutačno radimo na podesivom MIDI sustavu koji će to omogućiti u budućnost
 * mrežni protokol LaserCube (uz žičanu vezu)
 * AVB kakav koriste [LASollinger laseri](https://laseranimation.com/en/) (trenutačno samo macOS, u fazi testiranja)
 
-Za više informacija pogledajte [Kompatibilni laseri i kontroleri (DAC-ovi)](hardware/compatible-lasers-and-controllers-dacs.md)
+Za više informacija pogledajte [Kompatibilni laseri i kontroleri (DAC-ovi)](hardware/compatible-lasers-and-controllers-dacs.md "mention")
 
 #### **Zašto ne podržavate laserski kontroler \[drugog proizvođača]?**
 
@@ -69,11 +69,11 @@ Ako vaš laser ima nešto od navedenog, možete ga koristiti s Liberation:
 * **X-Laser uređaj s ugrađenim sustavom Mercury** (u načinu Ether Dream).
 * **LaserAnimation Sollinger projektor s ugrađenim AVB-om** (samo macOS, zahtijeva AVB-kompatibilne mrežne uređaje, trenutačno u fazi testiranja).
 
-Za više informacija pogledajte [Kompatibilni laseri i kontroleri (DAC-ovi)](hardware/compatible-lasers-and-controllers-dacs.md)
+Za više informacija pogledajte [Kompatibilni laseri i kontroleri (DAC-ovi)](hardware/compatible-lasers-and-controllers-dacs.md "mention")
 
 #### **Mogu li koristiti Liberation sa svojim LaserCube?**
 
-Da, Liberation radi izravno s bilo kojim LaserCube. Pogledajte [LaserCube](hardware/lasercube.md)
+Da, Liberation radi izravno s bilo kojim LaserCube. Pogledajte [LaserCube](hardware/lasercube.md "mention")
 
 ## Licence
 
@@ -89,15 +89,15 @@ Imajte na umu da na **svakoj** razini, čak i besplatnoj, možete postavljati, p
 
 #### **Mogu li nadograditi licencu na novu razinu?**
 
-U bilo kojem trenutku možete prijeći na višu razinu. Dobit ćete djelomični povrat za preostalo vrijeme svoje trenutačne licence, a novi plan počinje odmah. Pogledajte [Nadogradnja i snižavanje licence](installation/upgrade-downgrade-your-license.md)
+U bilo kojem trenutku možete prijeći na višu razinu. Dobit ćete djelomični povrat za preostalo vrijeme svoje trenutačne licence, a novi plan počinje odmah. Pogledajte [Nadogradnja i snižavanje licence](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Mogu li sniziti razinu svoje licence?**
 
-Razinu možete sniziti u bilo kojem trenutku, ali promjena će stupiti na snagu na kraju trenutačnog licencijskog razdoblja. Pogledajte [Nadogradnja i snižavanje licence](installation/upgrade-downgrade-your-license.md)
+Razinu možete sniziti u bilo kojem trenutku, ali promjena će stupiti na snagu na kraju trenutačnog licencijskog razdoblja. Pogledajte [Nadogradnja i snižavanje licence](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Kako autorizirati računalo za svoju licencu?**
 
-Nakon kupnje licence računalo možete autorizirati izravno u softveru Liberation. Na zaslonu _About_ vidjet ćete gumb _Authorise_ koji će vas uputiti da se prijavite na web-mjesto. Slijedite upute na zaslonu kako biste dovršili postupak autorizacije. Pogledajte [Autorizacija i deautorizacija](installation/authorising-and-de-authorising.md)
+Nakon kupnje licence računalo možete autorizirati izravno u softveru Liberation. Na zaslonu _About_ vidjet ćete gumb _Authorise_ koji će vas uputiti da se prijavite na web-mjesto. Slijedite upute na zaslonu kako biste dovršili postupak autorizacije. Pogledajte [Autorizacija i deautorizacija](installation/authorising-and-de-authorising.md "mention")
 
 #### **Koliko često moram povezati računalo s internetom?**
 
@@ -117,7 +117,7 @@ Prijavite se na web-mjesto, otvorite stranicu _Your subscriptions_, odaberite pr
 
 #### **Na koliko računala mogu instalirati Liberation?**
 
-Liberation možete instalirati na koliko god računala želite. Autorizacije licence potrebne su samo za omogućavanje izlaza lasera / DMX-a, a vaša licencijska razina određuje koliko računala može istodobno biti autorizirano za izlaz. Pogledajte [Kako funkcionira licenciranje](installation/how-licensing-works.md)
+Liberation možete instalirati na koliko god računala želite. Autorizacije licence potrebne su samo za omogućavanje izlaza lasera / DMX-a, a vaša licencijska razina određuje koliko računala može istodobno biti autorizirano za izlaz. Pogledajte [Kako funkcionira licenciranje](installation/how-licensing-works.md "mention")
 
 #### **Kako premjestiti licencu s jednog računala na drugo?**
 
@@ -127,7 +127,7 @@ Liberation možete instalirati na koliko god računala želite. Autorizacije lic
 * Kliknite gumb _Authorise this computer_ na zaslonu _About_.
 * Otvorit će se web-mjesto; prijavite se i slijedite upute na zaslonu kako biste dovršili autorizaciju
 
-Možete i daljinski deautorizirati računalo kojem više nemate pristup (uz određena ograničenja). Pogledajte [Autorizacija i deautorizacija](installation/authorising-and-de-authorising.md)
+Možete i daljinski deautorizirati računalo kojem više nemate pristup (uz određena ograničenja). Pogledajte [Autorizacija i deautorizacija](installation/authorising-and-de-authorising.md "mention")
 
 #### **Mogu li deautorizirati Liberation na računalu koje je izgubljeno ili ukradeno?**
 
@@ -139,11 +139,11 @@ Ako nije tako, deautorizacija će stupiti na snagu kada se pretplata obnovi ili 
 
 #### Zadana postavka ima 8 lasera - kako to promijeniti?
 
-Pogledajte [Postavljanje projekta](setting-up/setting-up-your-project.md) i [Dodavanje i uklanjanje lasera](setting-up/adding-removing-lasers.md)
+Pogledajte [Postavljanje projekta](setting-up/setting-up-your-project.md "mention") i [Dodavanje i uklanjanje lasera](setting-up/adding-removing-lasers.md "mention")
 
 #### Mogu li kopirati postavke za zone s jednog lasera na ostale?
 
-Da! Pogledajte [Kopiranje postavki za zone između lasera](output-view/copy-zones-between-lasers.md)
+Da! Pogledajte [Kopiranje postavki za zone između lasera](output-view/copy-zones-between-lasers.md "mention")
 
 #### Mogu li upisati broj umjesto korištenja klizača?
 
@@ -151,42 +151,42 @@ Da. Kliknite klizač uz `Cmd / Ctrl` i možete unijeti vrijednost tipkovnicom.
 
 #### **Kako sinkronizirati Liberation s glazbom?**
 
-Ima inteligentan sustav "tap tempo" koji radi kako biste očekivali, ali možete koristiti i vanjski MIDI clock ili Ableton Link. Pogledajte [Sinkronizacija tempa](tempo-synchronisation.md). Timeline se može sinkronizirati s dolaznim LTC/SMPTE vremenskim kodom putem bilo kojeg audio sučelja. Pogledajte [Vremenski kod (timecode)](timecode.md).
+Ima inteligentan sustav "tap tempo" koji radi kako biste očekivali, ali možete koristiti i vanjski MIDI clock ili Ableton Link. Pogledajte [Sinkronizacija tempa](tempo-synchronisation.md "mention"). Timeline se može sinkronizirati s dolaznim LTC/SMPTE vremenskim kodom putem bilo kojeg audio sučelja. Pogledajte [Vremenski kod (timecode)](timecode.md "mention").
 
 #### Koje postavke trebam prilagoditi za najbolji izlaz iz lasera?
 
-Glavna postavka je _Colour Shift,_ koja kompenzira malo kašnjenje između pomicanja zrcala i promjene svjetline lasera. Ako točke/snopovi vašeg lasera imaju male 'repove', to trebate prilagoditi. (Primjer 'repova' pogledajte na fotografijama na stranici [Laser Settings](setting-up/laser-settings.md))
+Glavna postavka je _Colour Shift,_ koja kompenzira malo kašnjenje između pomicanja zrcala i promjene svjetline lasera. Ako točke/snopovi vašeg lasera imaju male 'repove', to trebate prilagoditi. (Primjer 'repova' pogledajte na fotografijama na stranici [Laser Settings](setting-up/laser-settings.md "mention"))
 
 Možete pokušati promijeniti i brzinu skenera: sporije ako su vaši skeneri osnovni, ili brže ako su kvalitetni. Ali **koristite s oprezom jer možete oštetiti skenere ako ih previše opteretite.**
 
 Postoje i neke unaprijed definirane postavke skenera. Zadana opcija je konzervativna i prikladna za većinu zahtjeva za laserske snopove. No postoje i drugi preseti za bolje skenere, kao i preseti podešeni za grafiku.
 
-Za više informacija pogledajte [Laser Settings](setting-up/laser-settings.md), a za informacije o stvaranju vlastitih preseta pogledajte [Preseti skenera](advanced/scanner-presets.md) (napredno, u izradi)
+Za više informacija pogledajte [Laser Settings](setting-up/laser-settings.md "mention"), a za informacije o stvaranju vlastitih preseta pogledajte [Preseti skenera](advanced/scanner-presets.md "mention") (napredno, u izradi)
 
-Ravnotežu boja možete ispraviti i pomoću postavki _Colour calibration_. Pogledajte [Kalibracija boje](advanced/colour-calibration.md)(napredna tehnika)
+Ravnotežu boja možete ispraviti i pomoću postavki _Colour calibration_. Pogledajte [Kalibracija boje](advanced/colour-calibration.md "mention")(napredna tehnika)
 
 #### Što radi postavka _Latency(ms)_?
 
-To je latencija framea, odnosno najveće vrijeme između generiranja framea i njegova slanja laseru. Ne biste je trebali morati podešavati, ali ako imate problema s mrežom, možete je pokušati povećati. Za više pojedinosti pogledajte [Postavka Latency(ms)](setting-up/latency-setting.md).
+To je latencija framea, odnosno najveće vrijeme između generiranja framea i njegova slanja laseru. Ne biste je trebali morati podešavati, ali ako imate problema s mrežom, možete je pokušati povećati. Za više pojedinosti pogledajte [Postavka Latency(ms)](setting-up/latency-setting.md "mention").
 
 ### Clips
 
 #### Kako prilagoditi zone i postavke za Clip bez njegova pokretanja?
 
-Kliknite uz `Alt / Option` kako bi postao _trenutačno odabrani Clip_, ali bez aktiviranja. Pogledajte i [Pokretanje i zaustavljanje Clips](clips/starting-stopping-clips.md)
+Kliknite uz `Alt / Option` kako bi postao _trenutačno odabrani Clip_, ali bez aktiviranja. Pogledajte i [Pokretanje i zaustavljanje Clips](clips/starting-stopping-clips.md "mention")
 
 #### Kako kopirati Clips?
 
-Kliknite i povucite držeći tipku `Alt / Option`. Pogledajte i [Organiziranje Clip Deck](clips/organising-your-clip-deck.md)
+Kliknite i povucite držeći tipku `Alt / Option`. Pogledajte i [Organiziranje Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Kako izbrisati Clips?
 
-Kliknite ih i povucite izvan Clip Deck. Pogledajte i [Organiziranje Clip Deck](clips/organising-your-clip-deck.md)
+Kliknite ih i povucite izvan Clip Deck. Pogledajte i [Organiziranje Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Kako napraviti višestruki odabir, brisanje, kombiniranje Clip Deck itd.?
 
-Pogledajte [Organiziranje Clip Deck](clips/organising-your-clip-deck.md)
+Pogledajte [Organiziranje Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Što označavaju mali simbol mikrofona i druge ikone na gumbu za Clip?
 
-One vam pokazuju da Clip koristi zvučni ili MIDI ulaz, a 3 točkice pokazuju da postoji kašnjenje za zone. Pogledajte [Što znače male ikone na gumbima Clip?](clips/what-are-the-small-icons-on-the-clip-buttons.md)
+One vam pokazuju da Clip koristi zvučni ili MIDI ulaz, a 3 točkice pokazuju da postoji kašnjenje za zone. Pogledajte [Što znače male ikone na gumbima Clip?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

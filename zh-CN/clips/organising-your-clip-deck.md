@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/organising-your-clip-deck
+---
+
 # 🟩 整理 Clip Deck
 
 ### 移动 / 复制 Clips
@@ -5,7 +12,7 @@
 点击并拖动可移动 Clip。如果选中了多个 Clips（见 [启动 / 停止 Clips](starting-stopping-clips.md "mention")），它们会一起移动。按住 `Alt / Option` 可复制，松开到空白位置即可。
 
 {% hint style="info" %}
-如果要选择大量 Clips，可以点击/拖拽套索，然后在保持拖拽的同时滚动 Clip Deck（使用方向键、APC40 或触控板/鼠标的横向滚动）。套索会延伸到 Clip Deck 边缘之外。
+如果要选择大量 Clips，可以点击并拖拽套索，然后在保持拖拽的同时滚动 Clip Deck（使用方向键、APC40 或触控板/鼠标的横向滚动）。套索会延伸到 Clip Deck 边缘之外。
 {% endhint %}
 
 ### 删除 Clips
