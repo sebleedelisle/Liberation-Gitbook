@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/creating-dmx-zones
 ---
 
-# ◼️ DMX-Zonen erstellen
+# 🟩 DMX-Zonen erstellen
 
 1. Verbinde deinen Art-Net-node und richte ihn wie in [Verbindung mit einem Art-Net-node herstellen](../connecting-to-an-artnet-node.md "mention") beschrieben ein.
 2. Öffne **DMX Zones** und klicke auf **ADD DMX ZONE**.

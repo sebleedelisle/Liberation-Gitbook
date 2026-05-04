@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/creating-dmx-zones
 ---
 
-# ◼️ 建立 DMX 區域
+# 🟩 建立 DMX 區域
 
 1. 連接你的 Art-Net node，並按照[連接至 Art-Net node](../connecting-to-an-artnet-node.md "mention")完成設定。
 2. 開啟 **DMX Zones**，然後按 **ADD DMX ZONE**。

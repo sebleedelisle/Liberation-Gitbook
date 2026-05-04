@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX zones
+# 🟩 DMX zones
 
 DMX zone là các zone Output của Liberation gửi Art-Net/DMX thay vì các điểm laser. Chúng xuất hiện cùng với beam zone và canvas zone, nên có thể gán Clip cho chúng theo cùng quy trình chọn zone.
 

@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/creating-dmx-zones
 ---
 
-# ◼️ DMX-zónák létrehozása
+# 🟩 DMX-zónák létrehozása
 
 1. Csatlakoztasd az Art-Net node eszközt, és állítsd be a [Csatlakozás Art-Net node-hoz](../connecting-to-an-artnet-node.md "mention") leírás szerint.
 2. Nyisd meg a **DMX Zones** részt, majd kattints az **ADD DMX ZONE** gombra.

@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/creating-dmx-zones
 ---
 
-# ◼️ Tạo DMX zone
+# 🟩 Tạo DMX zone
 
 1. Kết nối Art-Net node và thiết lập theo hướng dẫn trong [Kết nối với Art-Net node](../connecting-to-an-artnet-node.md "mention").
 2. Mở **DMX Zones** và nhấp **ADD DMX ZONE**.

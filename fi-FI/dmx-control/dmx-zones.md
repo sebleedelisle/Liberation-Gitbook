@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX-alueet
+# 🟩 DMX-alueet
 
 DMX zone on Liberationin Output zone, joka lähettää Art-Net/DMX-dataa laserpisteiden sijaan. Ne näkyvät beam zone- ja canvas zone -kohteiden rinnalla, joten Clips voidaan määrittää niihin samalla zone-valinnan työnkululla.
 

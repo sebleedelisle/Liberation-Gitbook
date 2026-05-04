@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX-soner
+# 🟩 DMX-soner
 
 DMX zones er Liberation output zones som sender Art-Net/DMX i stedet for laserpunkter. De vises sammen med beam zones og canvas zones, slik at Clips kan tilordnes dem med den samme arbeidsflyten i zone-velgeren.
 

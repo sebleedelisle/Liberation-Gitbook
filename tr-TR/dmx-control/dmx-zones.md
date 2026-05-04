@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX zones
+# 🟩 DMX zones
 
 DMX zone, lazer noktaları yerine Art-Net/DMX gönderen Liberation Output zone türleridir. Beam zone ve canvas zone ile birlikte görünürler; böylece Clip öğeleri aynı zone seçici iş akışıyla bunlara atanabilir.
 

@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/creating-dmx-zones
 ---
 
-# ◼️ Tworzenie stref DMX
+# 🟩 Tworzenie stref DMX
 
 1. Podłącz węzeł Art-Net i skonfiguruj go zgodnie z opisem w sekcji [Łączenie z węzłem Art-Net](../connecting-to-an-artnet-node.md "mention").
 2. Otwórz **DMX Zones** i kliknij **ADD DMX ZONE**.

@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX zones
+# 🟩 DMX zones
 
 DMX zones jsou výstupní zone v Liberation, které místo laserových bodů posílají Art-Net/DMX. Zobrazují se vedle beam zone a canvas zone, takže jim lze Clips přiřazovat stejným postupem ve výběru zone.
 

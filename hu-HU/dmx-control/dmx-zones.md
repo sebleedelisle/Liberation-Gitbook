@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX zónák
+# 🟩 DMX zónák
 
 A DMX zone a Liberation olyan kimeneti zone típusa, amely lézerpontok helyett Art-Net/DMX adatot küld. A beam zone és canvas zone mellett jelennek meg, így a Clips ugyanabban a zone-választási munkafolyamatban rendelhetők hozzájuk.
 
