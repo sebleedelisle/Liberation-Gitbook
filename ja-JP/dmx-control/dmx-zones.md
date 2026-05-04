@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX ゾーン
+# 🟩 DMX ゾーン
 
 DMX zone は、レーザーポイントの代わりに Art-Net/DMX を送信する Liberation の Output zone です。beam zone や canvas zone と並んで表示されるため、同じ zone セレクターのワークフローで Clip を割り当てられます。
 

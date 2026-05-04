@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX zones
+# 🟩 DMX zones
 
 DMX zones هي zones إخراج في Liberation تُرسل Art-Net/DMX بدلاً من نقاط الليزر. تظهر إلى جانب beam zones وcanvas zones، لذلك يمكن تعيين Clips إليها ضمن سير عمل اختيار zone نفسه.
 

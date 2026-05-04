@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ DMX zones
+# 🟩 DMX zones
 
 DMX zone 是 Liberation 的輸出 zone，會送出 Art-Net/DMX，而不是雷射點。它們會與 beam zone 和 canvas zone 一起顯示，因此 Clip 可以用相同的 zone 選擇流程指派給它們。
 

@@ -4,7 +4,7 @@ metaLinks:
     - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/dmx-zones
 ---
 
-# ◼️ Zonas DMX
+# 🟩 Zonas DMX
 
 Las DMX zone son zonas de Output de Liberation que envían Art-Net/DMX en lugar de puntos láser. Aparecen junto a las beam zone y canvas zone, por lo que puedes asignar Clips a ellas con el mismo flujo de trabajo del selector de zone.
 

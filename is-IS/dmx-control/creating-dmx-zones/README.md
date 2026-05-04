@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/dmx-control/creating-dmx-zones
 ---
 
-# ◼️ Að búa til DMX zones
+# 🟩 Að búa til DMX zones
 
 1. Tengdu Art-Net node og settu hann upp í [Tengjast Art-Net node](../connecting-to-an-artnet-node.md "mention").
 2. Opnaðu **DMX Zones** og smelltu á **ADD DMX ZONE**.
