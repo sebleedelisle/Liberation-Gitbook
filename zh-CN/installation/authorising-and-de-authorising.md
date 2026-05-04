@@ -1,8 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/installation/authorising-and-de-authorising
+---
+
 # ✅ 授权与取消授权
 
 ### 授权 Liberation
 
-首次打开 Liberation 时会以 _demo mode_ 运行，你会看到 _About panel_：
+首次打开 Liberation 时会以 _free mode_ 运行，你会看到 _About panel_：
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -24,7 +31,7 @@
 如果你有多个订阅，系统会提示你选择要分配给这台电脑的订阅。&#x20;
 {% endhint %}
 
-恭喜！你的 Liberation 安装已授权，现在可以输出到激光设备了。但在 arm 激光之前，请先阅读 [快速入门指南](../basics/getting-started.md "mention") 和 [激光设置流程概览](../setting-up/setting-up-lasers.md "mention")。&#x20;
+恭喜！你的 Liberation 安装已授权，现在可以输出到激光设备了。但在 arm 激光之前，请先阅读 [快速入门指南](../getting-started.md "mention") 和 [激光设置流程概览](../setting-up/setting-up-lasers.md "mention")。&#x20;
 
 {% hint style="info" %}
 你可以随时通过菜单 _Liberation -> About Liberation_ 或 _Liberation -> Authorise/Deauthorise this computer_ 打开 _About panel_。

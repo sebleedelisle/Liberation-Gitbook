@@ -16,7 +16,7 @@ Ten en cuenta que Global Transformations no afecta a nada en el canvas, solo a l
 
 ### Scale X/Y
 
-Escala horizontal y vertical. Estos valores están bloqueados entre sí salvo que pulses `Shift`. De forma predeterminada, también están asignados a los knobs 4 y 8 de APC40 Device Control y aparecen en el panel situado a la derecha del Clip Deck.
+Escala horizontal y vertical. Estos valores están bloqueados entre sí salvo que pulses `Shift`. De forma predeterminada, también están asignados a los knobs 4 y 8 de APC40 Device Control y aparecen en el panel contextual Parameters situado a la derecha del Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Desplazamiento horizontal y vertical. Traslada todo horizontal o verticalmente.
 
 ### Spin
 
-Gira todo el contenido alrededor del centro. Un valor positivo gira en sentido horario; un valor negativo gira en sentido antihorario. Verás que este ajuste afecta a la transformación _Rotation_. De forma predeterminada, está asignado al knob 3 de APC40 Device Control y aparece en el panel situado a la derecha del Clip Deck.
+Gira todo el contenido alrededor del centro. Un valor positivo gira en sentido horario; un valor negativo gira en sentido antihorario. Verás que este ajuste afecta a la transformación _Rotation_. De forma predeterminada, está asignado al knob 3 de APC40 Device Control y aparece en el panel contextual Parameters situado a la derecha del Clip Deck.
 
 ### Spin 3D
 
-Gira todo el contenido alrededor del eje Y (que es una línea vertical en el centro). Verás que este ajuste afecta a la transformación _Rotation3D_. De forma predeterminada, está asignado al knob 7 de APC40 Device Control y aparece en el panel situado a la derecha del Clip Deck.
+Gira todo el contenido alrededor del eje Y (que es una línea vertical en el centro). Verás que este ajuste afecta a la transformación _Rotation3D_. De forma predeterminada, está asignado al knob 7 de APC40 Device Control y aparece en el panel contextual Parameters situado a la derecha del Clip Deck.
 
 ### Rotation
 

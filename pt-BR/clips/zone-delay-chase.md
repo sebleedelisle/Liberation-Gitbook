@@ -8,13 +8,13 @@ metaLinks:
 
 Todos concordamos que mais lasers significam mais diversão, mas, se todos estiverem fazendo exatamente a mesma coisa, você deixa de aproveitar muitas possibilidades criativas.
 
-O sistema de zone delay é um método simples e eficaz para criar variedade entre as zonas e aproveitar melhor uma configuração com vários lasers. Ele também pode ser usado para criar um efeito de chase mais tradicional.
+O sistema de zone delay é um método simples e eficaz para criar variedade entre as zones e aproveitar melhor uma configuração com vários lasers. Ele também pode ser usado para criar um efeito de chase mais tradicional.
 
 #### Como funciona
 
 _Zone delay_ adiciona um atraso ao tempo do clip em cada zona, criando uma espécie de varredura entre as zonas.
 
-É muito eficaz aplicar zone delay a um clip que já está em execução, usando o controle correspondente no APC40 para ajustar o nível e o padrão. (Veja [Referência do APC40](../reference/apc40-reference.md)). Ou você pode usar o painel _Clip Settings_.
+É muito eficaz aplicar zone delay a um clip que já está em execução, usando o controle correspondente no APC40 para ajustar o nível e o padrão. (Veja [Referência do APC40](../reference/apc40-reference.md "mention")). Ou você pode usar o painel _Clip Settings_.
 
 Configurações de Zone delay:
 
@@ -39,7 +39,7 @@ O padrão funciona com base nos números das zonas e assume que suas zonas estã
 O Zone delay também é aplicado a qualquer efeito ativo. Por exemplo, um efeito de flash também será atrasado entre as zonas, assim como a animação dentro do próprio clip.
 {% endhint %}
 
-Quando um clip tem qualquer tipo de _Zone delay_, você verá um ícone de três pontos no canto superior direito do clip. Esses pontos são animados para mostrar o estilo de _Zone delay_ daquele clip. Veja [O que são os pequenos ícones nos botões de clip?](what-are-the-small-icons-on-the-clip-buttons.md) para mais detalhes.
+Quando um clip tem qualquer tipo de _Zone delay_, você verá um ícone de três pontos no canto superior direito do clip. Esses pontos são animados para mostrar o estilo de _Zone delay_ daquele clip. Veja [O que são os pequenos ícones nos botões de clip?](what-are-the-small-icons-on-the-clip-buttons.md "mention") para mais detalhes.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>O símbolo de três pontos que indica que um clip tem zone delay e mostra seu modo</p></figcaption></figure>
 

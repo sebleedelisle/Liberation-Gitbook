@@ -23,7 +23,7 @@ Haz clic en _Download latest for Windows_ (los números de versión pueden cambi
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Esto abrirá tu carpeta de descargas. Busca el archivo descargado (normalmente estará arriba), haz clic derecho y selecciona "Extract all".
+Esto abrirá tu carpeta Downloads. Busca el archivo descargado (normalmente estará arriba), haz clic derecho y selecciona "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Cuando Windows haya terminado de descomprimirlo, te mostrará el archivo de inst
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation necesita permiso para acceder a archivos y a la red, así que es probable que Windows muestre varias solicitudes. Asegúrate de aceptarlas todas o puede que Liberation no funcione correctamente.
+Liberation necesita permiso para acceder a archivos y a la red, así que es probable que Windows muestre algunas solicitudes de permiso. Asegúrate de aceptarlas todas o puede que Liberation no funcione correctamente.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

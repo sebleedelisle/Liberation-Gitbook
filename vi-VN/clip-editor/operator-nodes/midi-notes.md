@@ -13,14 +13,14 @@ Tạo các hiệu ứng kiểu “đàn hạc laser”, trong đó các nốt MI
 
 Bạn có thể chọn MIDI interface mà Liberation lắng nghe trong **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – kênh MIDI cần lắng nghe (0 = tất cả kênh, 1–16 = kênh cụ thể)
+* **MIDI channel** – kênh MIDI cần lắng nghe (0 = tất cả kênh, 1–16 = kênh cụ thể)
 * **width** – tổng chiều rộng mà các nốt sẽ trải ra.
-* **midi note min / max** – giá trị nốt MIDI thấp nhất và cao nhất trong dải.
+* **MIDI note min / max** – giá trị nốt MIDI thấp nhất và cao nhất trong dải.
 * **ignore out of range notes** – lọc bỏ mọi nốt nằm ngoài dải đã đặt. Nếu tắt, các nốt ngoài dải sẽ được “kẹp” vào nốt khả dụng gần nhất (nốt cao kích hoạt phần trên của dải, nốt thấp kích hoạt phần dưới).
 * **auto extend range** – tự động mở rộng dải nếu có nốt được chơi nằm ngoài dải hiện tại.
 
 {% hint style="info" %}
-Không chắc bạn đang nhận được dải nốt nào? Bật **auto extend range**, đặt **midi note min** thật cao và **midi note max** thật thấp, rồi chơi qua các nốt của bạn. Hệ thống sẽ bắt tất cả và tự mở rộng dải cho bạn. Khi đã có đủ, chỉ cần tắt **auto extend range** để khóa dải lại.
+Không chắc bạn đang nhận được dải nốt nào? Bật **auto extend range**, đặt **MIDI note min** thật cao và **MIDI note max** thật thấp, rồi chơi qua các nốt của bạn. Hệ thống sẽ bắt tất cả và tự mở rộng dải cho bạn. Khi đã có đủ, chỉ cần tắt **auto extend range** để khóa dải lại.
 {% endhint %}
 
 * **leave all notes visible** – tạo tia hoặc hình dạng cho tất cả nốt trong dải, dù chúng có đang được chơi hay không, tạo hiệu ứng “đàn hạc laser”.

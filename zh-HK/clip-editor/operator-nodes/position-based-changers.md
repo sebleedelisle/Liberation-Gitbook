@@ -9,7 +9,7 @@ metaLinks:
 
 這一系列節點會根據位置修改內容。預設情況下，效果會沿水平軸套用（由左至右），但你可以將這條軸旋轉至任何角度。每個節點亦包含 _radial_ 模式，效果會由每個點相對於中心的角度驅動。
 
-* **Colour Changer by Position** – 沿所選軸或圍繞徑向角度偏移顏色。\
+* **Colour Changer by Position** – 沿所選軸或圍繞徑向角度套用漸變。\
   \&#xNAN;_範例：建立一道橫掃直線的彩虹漸變，或在圓形上使用 radial 模式，製作色輪效果。_
 * **Wave Shift by Position** – 套用正弦波扭曲，將內容垂直偏移（或沿所選軸的垂直方向偏移）。\
   \&#xNAN;_範例：令直線像水面一樣起伏，或使用 radial 模式令圓形由中心向外脈動。_
@@ -29,10 +29,11 @@ metaLinks:
 * **linear angle** – 旋轉效果的軸向。0° = 水平。
 * **radial** – 切換至 radial 模式，根據相對中心的角度套用顏色。
 * **radial smooth loop** – 自動調整 wavelength，使其可平均分割圓周的 100%，避免循環接合位置出現明顯接縫。
+* **legacy mode** – 切換回較舊的 start/end HSB 滑桿。保持關閉即可使用較新的漸變編輯器。
 
 **Colour Modes**
 
-這些設定決定哪些顏色調整會套用到內容上。另見：[顏色設定與 HSB](../fundamentals/colour-settings-and-hsb.md)。
+這些設定決定哪些顏色調整會套用到內容上。另見：[顏色設定與 HSB](../fundamentals/colour-settings-and-hsb.md "mention")。
 
 * **hue mode**
   * _OFF_ – hue 不變。
@@ -46,17 +47,32 @@ metaLinks:
   * _FIXED_ – brightness 設為指定值。
   * _MULTIPLY_ – brightness 按指定值縮放。這會保留動態變化（例如閃爍元素仍會閃爍，但會限制在指定亮度範圍內）。
 
-**Start / End Values**
+**Gradient editor**
 
-這些滑桿定義沿所選軸（或徑向掃描）套用的顏色範圍。
+使用與 [顏色變更](colour-changer.md "mention") 相同的漸變編輯器，但會按位置將漸變映射到內容上。
 
-* **start hue** – 漸變起點的 hue。
-* **end hue** – 漸變終點的 hue。
-* **start saturation** – 起點的 saturation。
-* **end saturation** – 終點的 saturation。
-* **start brightness** – 起點的 brightness。
-* **end brightness** – 終點的 brightness。
+* 按一下漸變列即可加入顏色停點。
+* 左鍵按一下停點即可選取，然後向左右拖曳來移動。
+* 將已選取的停點向下拖離漸變列，或按 Delete/Backspace，即可移除。漸變最少會保留兩個停點。
+* 右鍵按一下停點，即可使用取色器編輯。
+* 使用 **Position**、**Hue**、**Saturation** 和 **Brightness** 精確編輯已選取的停點。
+* **interpolation** 選擇停點之間的顏色混合方式：
+* **HSB** – 混合 hue、saturation 和 brightness。最適合在色相環上製作平滑的彩虹式移動。
+* **RGB** – 直接混合紅、綠、藍數值。這通常較像螢幕或燈光控制台的顏色淡變。
+* **NONE** – 不作混合，直接由一個停點跳到下一個停點。
+* **hue direction** 可在 HSB interpolation 中使用：
+* **AUTO** – 沿色相環採用最短路徑。
+* **FORWARDS** – 一律沿 hue 數值向前移動。
+* **BACKWARDS** – 一律沿 hue 數值向後移動。
 * **blend** – 將顏色變化與原本顏色混合。100% 時，效果會完全取代原本顏色。
+
+**Legacy start / end values**
+
+如果開啟 **legacy mode**，漸變編輯器會由較舊的控制項取代：
+
+* **start hue / end hue** – 範圍起點和終點的 hue。
+* **start saturation / end saturation** – 範圍起點和終點的 saturation。
+* **start brightness / end brightness** – 範圍起點和終點的 brightness。
 
 **範例 1：滑動彩虹漸變**
 
@@ -64,7 +80,7 @@ metaLinks:
 
 1. 將節點保持在 **Linear** 模式（0° angle = 水平）。
 2. 將 **wavelength** 保持在 100%（橫跨整個寬度，亦應為預設值）。
-3. 保持 start 和 end 數值為預設。
+3. 保留預設漸變。
 4. 啟用 **repeat**。
 5. 在 **offset** 設定加入一個由 0% 到 100% 的 **Sawtooth Oscillator**。
 
@@ -77,13 +93,12 @@ metaLinks:
 1. 將節點保持在 **Linear** 模式（0° angle = 水平）。
 2. 將 **wavelength** 保持在 100%（橫跨整個寬度，亦應為預設值）。
 3. 關閉 **repeat**。
-4. 將 **start brightness** 設為 0（黑色）。
-5. 將 **end brightness** 設為 100（白色）。
-6. 將 **start saturation** 和 **end saturation** 設為 0（轉換為灰階）。
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. 啟用 **pingpong**。
+4. 將第一個漸變停點設為黑色。
+5. 將最後一個漸變停點設為白色。
+6. 將 **hue mode** 設為 OFF。
+7. 如要強制結果為灰階，將 **saturation mode** 設為 FIXED。
+8. 將 **brightness mode** 設為 FIXED。
+9. 啟用 **pingpong**。
 
 _結果：漸變會在寬度上由黑色淡入至白色，然後再返回黑色。_\
 請注意，如果你想內容保留原本的 hue 和 saturation，請將 Saturation mode 設為 OFF。 \\
@@ -127,5 +142,6 @@ _結果：一個無縫色輪會圍繞圓形持續旋轉。_
 * **Depth Offset** – 在 3D noise field 中移動，隨時間產生變化。配合 Oscillator Node 製作動畫時特別有效。
 * **Depth Detail** – 控制深度維度上的變化細節程度。
 * **Absolute** – 取 noise 的絕對值，將負值摺到正值（只產生單向位移）。
+* **Angle** – 在線性模式中旋轉 noise 的軸。0° = 水平。
 * **Radial** – 由 linear 切換至 radial 模式，使位移根據相對中心的角度計算。
 * **Radial Smooth Loop** – 調整 wavelength，使其可平均分割圓周的 100%，避免 radial 模式下出現可見接縫。

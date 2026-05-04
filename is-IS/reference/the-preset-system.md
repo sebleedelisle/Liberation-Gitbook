@@ -22,12 +22,12 @@ Allar forstillingar eru vistaðar með project-inu þínu (eða laser settings),
 
 Þú getur líka flutt inn og út forstillingarskrár með load/save hnappinum (táknmynd af disklingi) við hliðina á fellilistanum fyrir forstillingar. Þá opnast sprettigluggi með import/export hnöppum og möguleika á að eyða einni eða fleiri forstillingum.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>Sprettivalmyndin sem opnast þegar þú smellir á load/save táknmyndina</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Ef þú breytir forstillingu, til dæmis scanner setting sem heitir _Default_, hafðu í huga að hinir laserarnir uppfærast ekki sjálfkrafa. Þess í stað verða scanner settings hjá þeim merktar _Default(edited)_. Til að uppfæra þetta í nýju _Default_ forstillinguna skaltu velja hana aftur úr fellilistanum.
 
 {% hint style="info" %}
-Ef þú ert með marga lasera og vilt uppfæra scanner settings fyrir þá alla skaltu nota _COPY LASER SETTINGS_ kerfið. Sjá [COPY LASER SETTINGS](../setting-up/copy-laser-settings.md)
+Ef þú ert með marga lasera og vilt uppfæra scanner settings fyrir þá alla skaltu nota _COPY LASER SETTINGS_ kerfið. Sjá [COPY LASER SETTINGS](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Ef þú eyðir forstillingu sem er notuð annars staðar taparðu ekki stillingunni, en hún birtist í staðinn merkt sem _(deleted)._

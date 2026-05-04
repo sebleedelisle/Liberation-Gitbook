@@ -17,7 +17,7 @@ Noen ganger vil du kanskje ha flere Canvas-målområder for ulike deler av en by
 
 ### Sende Clip-er til Canvas-målområder
 
-Hvis du ser i Clip Deck, ved siden av knappene for strålesoner, ser du knappene for Canvas-målområder. Det kan hende du må bla gjennom Output-knappene for å se dem. Bruk `Shift + Left / Right Arrow`, eller ZONE PAGE-knappene på skjermen, eller APC40-knappene (se [APC40-referanse](../reference/apc40-reference.md "mention"))
+Hvis du ser i Clip Deck, ved siden av knappene for beam zone, ser du knappene for Canvas-målområder. Det kan hende du må bla gjennom Output-knappene for å se dem. Bruk `Shift + Left / Right Arrow`, eller ZONE PAGE-knappene på skjermen, eller APC40-knappene (se [APC40-referanse](../reference/apc40-reference.md "mention"))
 
 Tildel Clip-er til Canvas-målområder ved å slå disse knappene av og på på nøyaktig samme måte som du gjør med knappene for strålesoner.
 

@@ -12,7 +12,7 @@ Veškerý laserový obsah v Liberation je uložen jako Clips.
 
 Clips mohou obsahovat atmosférické paprskové efekty nebo grafické animace a obvykle se přehrávají ve smyčce. Lze je směrovat do libovolné zone (nebo Canvas Target Area) a spouštějí se pomocí tlačítek Clip v Clip Deck.
 
-Obsah Clip se vytváří pomocí všestranného systému Clip Editor založeného na nodes. (Další podrobnosti najdete v části [Úvod do Clip Editor](../clip-editor/clip-editor-intro.md))
+Obsah Clip se vytváří pomocí všestranného systému Clip Editor založeného na nodes. (Další podrobnosti najdete v části [Úvod do Clip Editor](../clip-editor/clip-editor-intro.md "mention"))
 
 ### Clip Deck
 

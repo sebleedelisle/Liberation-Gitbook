@@ -1,11 +1,18 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/where-to-find-the-working-folder
+---
+
 # ✅ 如何找到工作文件夹
 
 #### 工作文件夹在哪里
 
-每个版本的 Liberation 都有独立的工作文件夹。例如你运行的是 1.0.0，则文件夹名为 1.0.0。
+每个版本的 Liberation 都有独立的工作文件夹。例如你运行的是 1.0.3，则文件夹名为 1.0.3。
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **快速打开文件夹的方法**
 
@@ -17,7 +24,7 @@
     ```
     ~/Library/Application Support/Liberation
     ```
-3. 打开与你版本号对应的文件夹，例如 `1.0.0`。
+3. 打开与你版本号对应的文件夹，例如 `1.0.3`。
 
 **Windows**
 
@@ -26,6 +33,6 @@
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. 打开与你版本号对应的文件夹，例如 `1.0.0`。
+2. 打开与你版本号对应的文件夹，例如 `1.0.3`。
 
 > **Windows 小提示**：如果你通过文件资源管理器浏览，请启用隐藏项目：**View > Show > Hidden items**。

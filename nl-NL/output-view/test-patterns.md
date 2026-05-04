@@ -8,7 +8,7 @@ metaLinks:
 
 Tijdens het bewerken en afstellen van je zone is het handig om een testpatroon uit te sturen. Je kunt een testpatroon inschakelen voor elke ingeschakelde zone met de schakelknop in de bovenste pictogrambalk, en het testpatroon kiezen met de schuifregelaar rechts daarvan.
 
-Wil je alleen een testpatroon op de laser die je momenteel aan het zonen bent, gebruik dan de schakelknop op de werkbalk links in de _Output_-weergave. Klik/sleep het nummer eronder om het testpatroon te selecteren.
+Wil je alleen een testpatroon op de laser waarvoor je momenteel zones instelt, gebruik dan de schakelknop op de werkbalk links in de _Output view_. Klik en sleep het nummer eronder om het testpatroon te selecteren.
 
 ### Lijst met testpatronen
 

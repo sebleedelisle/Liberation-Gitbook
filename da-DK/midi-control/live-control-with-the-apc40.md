@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
 ---
 
-# 🟩 Live-styring med APC40
+# 🟩 Live MIDI Controllers
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -28,3 +28,11 @@ Den originale APC40 Mark 1 udkom i 2009(!), og nogle foretrækker den stadig på
 {% endhint %}
 
 Se den fulde liste over kontroller, der er tilgængelige på APC40, her: [APC40-reference](../reference/apc40-reference.md "mention")
+
+### APC Mini
+
+Liberation 1.0.3 indeholder også en APC Mini-profil. Den mapper 8x5 Clip-gitteret, zone-knapper, kontroller til X/Y-spejlvending af zone, gruppeknapper, stop af alle Clips, flytning mellem Clip-sider, flytning mellem zone-sider, tap tempo, takt-nulstilling og tempo nudge. Dens fadere styrer effektniveauer, og fadere med Shift styrer effektparametre. Den sidste fader styrer global lysstyrke.
+
+### MIDI Fighter Twister
+
+MIDI Fighter Twister-profilen er beregnet til encoder-baseret styring frem for start af Clips. Én række encodere styrer parameter 1 for effektplads 1-8, og en anden række følger de otte kontekstafhængige kontroller i Parameters-panelet, herunder Clip shift, zone delay, global spin/scale og gruppefades.

@@ -93,7 +93,7 @@ Una zona es un espacio dentro de la salida de un láser al que puedes dirigir co
 Puedes seleccionar el láser que quieres editar usando cualquiera de estas opciones:
 
 * los botones numerados de la barra superior
-* pulsando la tecla numérica del láser que quieras _(teclas 1-9\_)\_
+* pulsando la tecla numérica del láser que quieras (_teclas 1-9_)
 * la tecla `Tab` para recorrerlos uno tras otro
 
 Añade un nuevo láser a la configuración pulsando el botón _+_. También hay un botón _ADD LASER_ en el panel _Laser Overview_.
@@ -120,7 +120,7 @@ Aunque es posible controlar Liberation con ratón y teclado, es mucho mejor usar
 
 Consulta también: [Referencia de APC40](reference/apc40-reference.md "mention")
 
-Ahora también hemos implementado compatibilidad con APC Mini Mark 2 y MIDI Fighter Twister, y hay más controladores en desarrollo. Pero APC40 Mark 2 es la mejor opción en la mayoría de los casos.
+Liberation también es compatible con APC Mini y MIDI Fighter Twister. APC40 Mark 2 sigue siendo la mejor opción en la mayoría de los casos.
 
 ### Clips y efectos
 
@@ -225,9 +225,9 @@ _\*Los controladores rotatorios 1-8 están en la parte superior del APC40 Mk2 y 
 5. **Scale** :\
    Escala repetidamente todo desde tamaño completo hasta cero. El parámetro ajusta la velocidad.
 6. **Hue** :\
-   Cambia el tono de todo, pero no cambia la saturación (es decir, cualquier elemento blanco sigue siendo blanco). El parámetro ajusta el tono.
+Cambia el tono de todo, pero no cambia la saturación (es decir, cualquier elemento blanco sigue siendo blanco). El parámetro ajusta el tono.
 7. **Saturation and hue** :\
-   Cambia el tono de todo y también satura completamente el color (es decir, cualquier elemento blanco cambia a ese color). El parámetro ajusta el tono.
+Cambia el tono de todo y también satura completamente el color (es decir, cualquier elemento blanco cambia a ese color). El parámetro ajusta el tono.
 8. **Flash** :\
    Hace parpadear repetidamente el brillo de todo desde el máximo hasta cero. El parámetro ajusta la velocidad del parpadeo.
 
@@ -265,7 +265,7 @@ Casi todos los espectáculos láser tienen algún tipo de banda sonora musical, 
 
 <figure><img src=".gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Hay varias opciones de sincronización, incluyendo MIDI clock y Ableton Link. Si conoces el tempo de la música, puedes ajustarlo manualmente con el deslizador en pantalla o con el mando Tempo del APC40, pero también puedes mantenerte al ritmo de la música usando el sistema _Tap Tempo_\_.\_
+Hay varias opciones de sincronización, incluyendo MIDI clock y Ableton Link. Si conoces el tempo de la música, puedes ajustarlo manualmente con el deslizador en pantalla o con el mando Tempo del APC40, pero también puedes mantenerte al ritmo de la música usando el sistema _Tap Tempo_.
 
 #### Tap Tempo
 

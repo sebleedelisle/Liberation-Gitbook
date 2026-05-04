@@ -32,7 +32,7 @@ Liberation kann viele Laser auf einem Computer betreiben. Es wurde mit über 100
 
 Liberation wurde für den beliebten APC40 Mk2 MIDI-Controller entwickelt und optimiert. Es funktioniert auch mit dem APC40 Mk1. Siehe [Live-Steuerung mit dem APC40](midi-control/live-control-with-the-apc40.md "mention")
 
-Wir fügen nach und nach weitere MIDI-Controller hinzu und unterstützen derzeit außerdem den APC Mini Mk2 und den MIDI Fighter Twister.
+Liberation unterstützt außerdem APC Mini und MIDI Fighter Twister. Der APC40 Mk2 ist weiterhin der vollständigste Referenz-Controller.
 
 Zusätzlich gibt es das MIDI Send/Receive-System, das weitere MIDI-Steuerungsmöglichkeiten bietet. Siehe [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
@@ -40,7 +40,7 @@ Weitere Informationen findest du unter [MIDI-Steuerung](midi-control/ "mention")
 
 #### **Kann ich es mit jedem MIDI-Controller verwenden?**
 
-Wir arbeiten derzeit an einem konfigurierbaren MIDI-System, das dies in Zukunft ermöglichen wird. In der Zwischenzeit hatten einige Nutzer Erfolg mit einem MIDI-Interpreter, der beliebige MIDI-Nachrichten für das MIDI Send/Receive-System umwandeln kann. Das ist jedoch ein umständlicher und fortgeschrittener Vorgang. Suche im [forum](https://forum.liberationlaser.com) nach Hinweisen zu dieser Einrichtung – realistisch gesehen ist der APC40 aber die beste Option.
+Für andere Controller kannst du das MIDI Send/Receive-System oder einen MIDI-Translator verwenden, der die Standard-MIDI-Nachrichten von Liberation senden kann. Suche im [Forum](https://forum.liberationlaser.com) nach Hinweisen zu dieser Einrichtung – realistisch gesehen ist der APC40 Mk2 für die meisten Live-Shows aber weiterhin die beste Option.
 
 ## Laser-Controller
 

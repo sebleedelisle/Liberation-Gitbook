@@ -41,7 +41,7 @@ Als niets hiervan werkt, overweeg dan om je computer te upgraden.
 
 Dan is het waarschijnlijk een hardwareprobleem. Dit valt buiten de scope van deze handleiding, maar je kunt de volgende acties proberen :
 
-* Schakel het SFS-systeem (Scan Fail Safety) uit. Sommige lasers hebben een functie die de uitvoer uitschakelt als de scanners stoppen met bewegen, dus wanneer er een sterke statische bundel ontstaat. Deze systemen kunnen wat overvoorzichtig / onbetrouwbaar zijn.
+* Schakel het SFS-systeem (Scan Fail Safety) uit. Sommige lasers hebben een functie die de output uitschakelt als de scanners stoppen met bewegen, dus wanneer er een sterke statische bundel ontstaat. Deze systemen kunnen wat overvoorzichtig / onbetrouwbaar zijn.
 
 {% hint style="danger" %}
 Wees uiterst voorzichtig wanneer je het scan fail safety-systeem uitschakelt. Sterke statische bundels kunnen brand veroorzaken! Zorg dat je een stopknop en een brandblusser bij de hand hebt.

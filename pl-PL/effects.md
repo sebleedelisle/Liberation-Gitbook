@@ -8,7 +8,7 @@ metaLinks:
 
 System efektów w Liberation to przyjemny i wszechstronny sposób zmieniania wyjścia klipu w czasie rzeczywistym. Efekty są całkowicie elastyczne — możesz dzięki nim sprawić, że wszystko będzie migać, obracać się, zmieniać kolory, a nawet poruszać się losowo!
 
-Wszystko, co możesz zrobić w edytorze klipów, może zostać użyte jako efekt. Efekty edytuje się dokładnie w tym samym edytorze węzłów co klipy! Zobacz [Efekty](effects.md#editing-effects). Możliwości twórcze są praktycznie nieograniczone.
+Wszystko, co możesz zrobić w edytorze klipów, może zostać użyte jako efekt. Efekty edytuje się dokładnie w tym samym edytorze węzłów co klipy! Zobacz [Efekty](effects.md#editing-effects "mention"). Możliwości twórcze są praktycznie nieograniczone.
 
 Domyślne przyciski efektów 1–8 znajdują się pod przyciskami stref, a efekty 9–24 to małe przyciski na dole.
 
@@ -17,7 +17,7 @@ Domyślne przyciski efektów 1–8 znajdują się pod przyciskami stref, a efekt
 Naciśnij przycisk efektu, aby go włączyć lub wyłączyć. Jeszcze lepiej: użyj suwaków APC40 1–8, aby płynnie wprowadzać i wyciszać efekty. Aby wprowadzić efekt bez APC40, kliknij przycisk i przeciągnij w górę lub w dół. Możesz też kliknąć przycisk efektu prawym przyciskiem myszy i dostosować suwak poziomu.
 
 {% hint style="warning" %}
-Naciśnięcie przycisku efektu natychmiast aktywuje ten efekt. Pamiętaj jednak, że jeśli poziom jest ustawiony na zero, nic się nie stanie! Kliknij/przeciągnij przycisk, aby zmienić poziom, kliknij prawym przyciskiem i użyj suwaka _level_ albo użyj faderów APC40.
+Naciśnięcie przycisku efektu natychmiast aktywuje ten efekt. Pamiętaj jednak, że jeśli poziom jest ustawiony na zero, nic się nie stanie! Kliknij i przeciągnij przycisk, aby zmienić poziom, kliknij prawym przyciskiem myszy i użyj suwaka _level_ albo użyj faderów APC40.
 {% endhint %}
 
 #### Efekty i opóźnienie strefy klipu
@@ -32,12 +32,12 @@ Moim zdaniem to jedno z najciekawszych i najbardziej kreatywnych narzędzi wbudo
 
 #### Parametry efektu
 
-Dodaj parametr do efektu za pomocą _Parameter node._ System parametrów pozwala regulować wiele ustawień wewnątrz efektu z zewnątrz. Więcej informacji znajdziesz w [Parameter Control](clip-editor/oscillators/parameter-control.md).
+Dodaj parametr do efektu za pomocą _Parameter node._ System parametrów pozwala regulować wiele ustawień wewnątrz efektu z zewnątrz. Więcej informacji znajdziesz w [Parameter Control](clip-editor/oscillators/parameter-control.md "mention").
 
 Użyj kontrolerów obrotowych 1–8, aby regulować _parameter_ dla każdego efektu. Możesz też kliknąć przycisk efektu prawym przyciskiem myszy i dostosować suwaki parametrów. Zmiana parametru robi różne rzeczy w zależności od tego, jak skonfigurowany jest efekt. Poniżej znajdziesz listę domyślnych efektów oraz opis działania ich parametrów.
 
 {% hint style="info" %}
-Kontrolery obrotowe 1–8 znajdują się u góry APC40 Mk2 oraz w prawym górnym rogu APC40 Mk1. Zobacz też: [Referencja APC40](reference/apc40-reference.md)
+Kontrolery obrotowe 1–8 znajdują się u góry APC40 Mk2 oraz w prawym górnym rogu APC40 Mk1. Zobacz też: [Referencja APC40](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,9 +59,9 @@ Małe liczby widoczne na przyciskach efektów odnoszą się do _level_ i _parame
 5. **Scale** :\
    Wielokrotnie skaluje wszystko od pełnego rozmiaru do zera. Parametr reguluje prędkość.
 6. **Hue** :\
-   Zmienia odcień wszystkiego, ale nie zmienia nasycenia (czyli wszystko, co białe, pozostaje białe). Parametr reguluje odcień.
+Zmienia odcień wszystkiego, ale nie zmienia nasycenia (czyli wszystko, co białe, pozostaje białe). Parametr reguluje odcień.
 7. **Saturation and hue** :\
-   Zmienia odcień wszystkiego i jednocześnie w pełni nasyca kolor (czyli wszystko, co białe, zmienia się na dany kolor). Parametr reguluje odcień.
+Zmienia odcień wszystkiego i jednocześnie w pełni nasyca kolor (czyli wszystko, co białe, zmienia się na dany kolor). Parametr reguluje odcień.
 8. **Flash** :\
    Wielokrotnie zmienia jasność wszystkiego od pełnej do zera. Parametr reguluje prędkość błysku.
 
@@ -87,14 +87,14 @@ Ta funkcja jest wyłączona, jeśli ustawienie _MX Group_ ma wartość 0.
 
 ### Edycja efektów
 
-Kliknij dowolny efekt prawym przyciskiem myszy i kliknij przycisk _EDIT EFFECT_, aby otworzyć edytor efektów. Zauważ, że ten edytor jest identyczny jak edytor klipów!
+Kliknij dowolny efekt prawym przyciskiem myszy i kliknij przycisk _EDIT EFFECT_, aby otworzyć edytor efektów. Zauważ, że ten edytor jest identyczny jak edytor Clip!
 
-Edytuj efekt tak samo, jak edytujesz dowolny klip. Zobacz [Edytor Clipów](clip-editor/).
+Edytuj efekt tak samo, jak edytujesz dowolny klip. Zobacz [Edytor Clipów](clip-editor/ "mention").
 
 Musisz mieć co najmniej jeden węzeł typu creator; może to być cokolwiek (linia, okrąg, kształt, a nawet tekst!), ale najlepiej wybrać coś, co ma sens w podglądzie przycisku efektu.
 
 Gdy efekty są stosowane, wszystkie węzły creator w efekcie są zastępowane wyjściem aktualnie uruchomionych klipów.
 
 {% hint style="warning" %}
-Z wyjątkowo żmudnych powodów technicznych węzły "trails" nie są włączone wewnątrz efektu. To samo dotyczy ustawienia "delay" w węzłach pattern (korzystają z tego samego systemu). Zostanie to poprawione w przyszłych wersjach.
+Z wyjątkowo żmudnych powodów technicznych nodes "trails" nie są włączone wewnątrz efektu. To samo dotyczy ustawienia "delay" w nodes typu pattern (korzystają z tego samego systemu). Zostanie to poprawione w przyszłych wersjach.
 {% endhint %}

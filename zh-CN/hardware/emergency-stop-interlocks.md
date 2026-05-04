@@ -1,8 +1,15 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/hardware/emergency-stop-interlocks
+---
+
 # ✅ 急停 / 联锁
 
 给激光通电很有趣，但同样关键的是你要能随时 _stop_ 它们！激光硬件和软件通常很可靠，但任何东西都有可能故障。一旦真的出问题，你会非常庆幸自己有那个远程停止按钮。&#x20;
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>LaserCube 的远程停止按钮。你拥有的最重要的硬件。</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 电动工具和重型设备的停止按钮通常是直接切断主电源，但在激光设备上**绝不要**这样做！激光总会需要一点时间才停止出光，而突然断电可能导致扫描器打到极限位置，产生强光束射向意想不到的地方。

@@ -17,21 +17,23 @@ I diodi laser cambiano comportamento man mano che si riscaldano. Lascia sempre s
 
 #### Come funziona il test di calibrazione
 
-Usa i pattern di test per la calibrazione (vedi [Pattern di test](../output-view/test-patterns.md))
+Usa i pattern di test per la calibrazione (vedi [Pattern di test](../output-view/test-patterns.md "mention"))
 
 * **5** – Rosso
 * **6** – Verde
 * **7** – Blu
 * **8** – Bianco
 
-Ciascuno di questi mostra quattro linee in movimento:
+Ciascuno di questi mostra quattro linee in movimento. In un sistema laser, la luminosità non dipende solo dal livello di potenza, ma anche da quanto tempo il fascio resta in un punto. Quando gli scanner si muovono più velocemente, il fascio passa meno tempo su ciascun punto e appare meno luminoso.
+
+Per tenerne conto, i pattern di test scalano insieme luminosità e velocità:
 
 * **Linea superiore** – luminosità 100% alla massima velocità
 * **Seconda linea** – luminosità 75% al 75% della velocità
 * **Terza linea** – luminosità 50% al 50% della velocità
 * **Quarta linea** – luminosità 25% al 25% della velocità
 
-Poiché sia la luminosità _sia la velocità_ vengono scalate insieme, tutte le linee dovrebbero apparire con la stessa luminosità. Se una sembra più chiara o più scura, regola lo slider corrispondente finché coincidono.
+Poiché sia la luminosità _sia la velocità_ vengono scalate insieme, tutte le linee dovrebbero apparire con la stessa luminosità. Se una linea sembra più luminosa o più debole, regola lo slider corrispondente finché coincidono.
 
 Ogni pattern di test include anche una quinta linea a **0% di luminosità**, che non dovrebbe essere visibile. Serve a correggere i laser che non emettono luce ai livelli molto bassi. Se il laser rimane invisibile a bassa luminosità, aumenta gradualmente il **0% setting** finché la linea diventa appena visibile, poi riducilo leggermente finché scompare di nuovo. L’obiettivo è trovare la soglia in cui il laser inizia ad accendersi, poi restare appena sotto: così le dissolvenze partono in modo naturale senza tagliare la parte più bassa dell’intervallo.
 

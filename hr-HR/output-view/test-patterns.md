@@ -8,7 +8,7 @@ metaLinks:
 
 Dok uređujete i podešavate zone, korisno je prikazati test pattern. Test pattern možete uključiti za sve omogućene zones pomoću preklopnog gumba na gornjoj traci ikona, a zatim odabrati test pattern klizačem s njegove desne strane.
 
-Ako želite test pattern samo na laseru za koji trenutačno postavljate zone, upotrijebite preklopni gumb na alatnoj traci s lijeve strane prikaza _Output_ view. Kliknite/povucite broj ispod njega kako biste odabrali test pattern.
+Ako želite test pattern samo na laseru za koji trenutačno postavljate zone, upotrijebite preklopni gumb na alatnoj traci s lijeve strane prikaza _Output_ view. Kliknite i povucite broj ispod njega kako biste odabrali test pattern.
 
 ### Popis test patterns
 
@@ -19,7 +19,7 @@ Ovdje je potpuni popis test patterns. Uzorci ispunjavaju cijeli izlazni prostor 
 3. Vodoravne zelene linije – 4 vodoravne linije, ravnomjerno razmaknute.
 4. Okomite zelene linije – 4 okomite linije, ravnomjerno razmaknute.
 
-Uzorci za kalibraciju boja 5–8. Mogu se koristiti zajedno sa sustavom za korekciju boja u Laser Settings. Pogledajte [Kalibracija boja](../advanced/colour-calibration.md). Ovi uzorci ne ispunjavaju cijeli izlazni prostor.
+Uzorci za kalibraciju boja 5–8. Mogu se koristiti zajedno sa sustavom za korekciju boja u Laser Settings. Pogledajte [Kalibracija boja](../advanced/colour-calibration.md "mention"). Ovi uzorci ne ispunjavaju cijeli izlazni prostor.
 
 5. Uzorak za kalibraciju boje – crvena.
 6. Uzorak za kalibraciju boje – zelena.

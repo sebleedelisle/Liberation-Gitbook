@@ -12,7 +12,7 @@ Se você tem experiência com softwares de música ou iluminação, esse process
 
 ## Painel Tempo
 
-O painel _Tempo_ fica sempre visível na tela e contém todas as configurações de sincronização. Na parte superior, você verá o contador atual de compasso/beat e um transporte com botões de play/pause e rewind/fastforward.
+O painel _Tempo_ fica sempre visível na tela e contém todas as configurações de sincronização. Na parte superior, você verá o contador atual de compasso/beat e um transporte com botões de play/pause e rewind/fast-forward.
 
 Abaixo, você verá o marcador de beat: quatro quadrados que “pulsam” no beat. Esse _beat marker_ é uma visualização extremamente útil, e você o consultará constantemente ao usar o sistema de tempo _Live_.
 
@@ -60,7 +60,7 @@ Use o botão _METRONOME_ para **reset the bar**. (Observe que o botão _METRONOM
 
 Gire o knob _TEMPO_ um “tick” para a direita ou para a esquerda para **round the tempo** para cima ou para baixo até um valor inteiro de BPM.
 
-Veja também [Referência do APC40](reference/apc40-reference.md)
+Veja também [Referência do APC40](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 
@@ -101,6 +101,12 @@ A fonte de tempo MIDI Clock do Liberation também responde a mensagens **MIDI Ma
 {% endhint %}
 
 
+
+### Ableton Link
+
+Para sincronizar com o Ableton Link, escolha _ABLETON LINK_ como fonte de tempo. O Liberation entra na sessão Link na sua rede local e segue o tempo compartilhado e a fase do beat de outros aplicativos compatíveis com Link.
+
+O Ableton Link não usa uma porta MIDI e não transmite a posição absoluta da música. Use os controles de reinício de compasso se você precisar alinhar o início do compasso do Liberation a um momento específico do show.
 
 ### Timeline
 

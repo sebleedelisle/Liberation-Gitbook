@@ -1,4 +1,11 @@
-# 🟩 使用 APC40 进行现场控制
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
+---
+
+# 🟩 现场 MIDI 控制器
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -21,3 +28,11 @@ _糟了！演出中 USB 被拔掉了！_&#x20;
 {% endhint %}
 
 APC40 的完整控制列表见 [APC40 参考](../reference/apc40-reference.md "mention")。
+
+### APC Mini
+
+Liberation 1.0.3 还包含 APC Mini 配置文件。它映射了 8x5 Clip 网格、zone 按钮、zone X/Y 翻转控制、分组按钮、停止所有 Clip、Clip 页面移动、zone 页面移动、tap tempo、小节重置和速度微调。它的推子用于控制效果电平，按住 Shift 后的推子用于控制效果参数。最后一个推子用于控制 Global Brightness。
+
+### MIDI Fighter Twister
+
+MIDI Fighter Twister 配置文件更适合以编码器为主的控制，而不是启动 Clip。其中一排编码器控制效果槽 1–8 的参数 1，另一排则跟随 Parameters 面板中的八个上下文控制，包括 Clip 偏移、zone 延迟、全局旋转/缩放以及分组淡入淡出。

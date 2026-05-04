@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
 ---
 
-# 🟩 Live-ohjaus APC40:llä
+# 🟩 Live MIDI Controllers
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -27,4 +27,12 @@ Lyhyesti: Mark 2 on suositeltu, koska siinä on täysväriset painikkeet, jotka 
 Alkuperäinen APC40 Mark 1 julkaistiin vuonna 2009(!), ja jotkut suosivat sitä yhä metallirakenteen ja tukevan, konsolimaisen muodon vuoksi. Päivitetty Mark 2 julkaistiin vuonna 2014. Vaikka sen valmistus lopetettiin vuonna 2024, se palaa tuotantoon vuonna 2025 visuaalisten artistien (Resolume jne.) ja laserkäyttäjien kysynnän vuoksi.
 {% endhint %}
 
-Täydellinen luettelo APC40:n ohjaimista on kohdassa [APC40-viite](../reference/apc40-reference.md)
+Täydellinen luettelo APC40:n ohjaimista on kohdassa [APC40-viite](../reference/apc40-reference.md "mention")
+
+### APC Mini
+
+Liberation 1.0.3 sisältää myös APC Mini -profiilin. Se määrittää 8x5-kokoisen Clip-ruudukon, zone-painikkeet, zone X/Y -peilausohjaimet, ryhmäpainikkeet, kaikkien Clips-toistojen pysäytyksen, Clip-sivun siirron, zone-sivun siirron, tap tempon, tahdin nollauksen ja tempon hienosäädön. Sen liu’ut säätävät tehostetasoja, ja shift-tilassa liu’ut säätävät tehosteparametreja. Viimeinen liuku säätää Global Brightness -arvoa.
+
+### MIDI Fighter Twister
+
+MIDI Fighter Twister -profiili on tarkoitettu erityisesti enkoodereihin perustuvaan ohjaukseen Clipien käynnistämisen sijaan. Yksi enkooderirivi ohjaa parametria 1 tehostepaikoissa 1–8, ja toinen rivi seuraa Parameters-paneelin kahdeksaa kontekstikohtaista ohjainta, mukaan lukien Clip-siirto, zone-viive, globaali pyöritys/skaalaus ja ryhmähäivytykset.

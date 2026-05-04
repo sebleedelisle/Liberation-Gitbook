@@ -32,7 +32,7 @@ Abre el panel _3D Visualiser Settings_ desde el menú _Window_.
 
 ### Ajustes de cámara
 
-Estos ajustes están relacionados principalmente con la cámara virtual dentro del espacio 3D. Verás un desplegable con presets para estos ajustes, que puedes guardar y volver a cargar.
+Estos ajustes están relacionados principalmente con la cámara virtual dentro del espacio 3D. Verás un menú desplegable con presets para estos ajustes, que puedes guardar y volver a cargar.
 
 * **Camera distance -** La cámara siempre apunta a su _Orbit point_. La distancia de cámara indica lo lejos que está de ese punto. También puedes ajustar este valor con la rueda del ratón.
 * **FOV -** Field of view: determina si la cámara tiene un ángulo más amplio o está más ampliada.
@@ -42,7 +42,7 @@ Estos ajustes están relacionados principalmente con la cámara virtual dentro d
 
 ### Ajustes de contenido
 
-Estos ajustes determinan dónde se colocan los láseres (y el Canvas) dentro del entorno 3D. Verás un desplegable con presets para estos ajustes, que puedes guardar y volver a cargar.
+Estos ajustes determinan dónde se colocan los láseres (y el Canvas) dentro del entorno 3D. Verás un menú desplegable con presets para estos ajustes, que puedes guardar y volver a cargar.
 
 #### Láseres
 

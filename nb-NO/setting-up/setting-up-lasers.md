@@ -1,8 +1,8 @@
 ---
 description: >-
-  Lasere kan være farlige, så det er viktig å følge beste praksis og
-  sikkerhetsretningslinjer. Denne siden gir en nyttig oversikt som hjelper deg
-  gjennom prosessen med å sette opp lasere på en trygg måte.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-
@@ -53,7 +53,7 @@ Denne siden gir deg en oversikt over prosessen for å slå på lasere på en try
 6. **Legg til masks i programvaren** – masks i Liberation kan brukes til å beskytte kameraer og projektorer, men skal **aldri** brukes i stedet for fysisk maskering for å beskytte mennesker. Merk at ingen programvare eller maskinvare er ufeilbarlig, så sørg for at du forstår risikoene før du bruker masks i programvaren.
 
 {% hint style="warning" %}
-Merk at denne veiledningen forutsetter et innendørs oppsett. Hvis du arbeider utendørs, må du ta ytterligere steg for å sikre flysikkerhet, inkludert, men ikke begrenset til :
+Merk at denne veiledningen forutsetter et innendørs oppsett. Hvis du arbeider utendørs, må du ta ytterligere steg for å sikre flysikkerhet, inkludert, men ikke begrenset til:
 
 * Innhente nødvendige tillatelser fra luftfartsmyndigheter som FAA eller CAA
 * Samordne med flyplasser og flystriper i nærheten

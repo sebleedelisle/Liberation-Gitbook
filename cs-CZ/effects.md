@@ -8,7 +8,7 @@ metaLinks:
 
 Systém efektů v Liberation je zábavný a všestranný způsob, jak v reálném čase měnit výstup z Clip. Efekty jsou plně flexibilní a můžete je použít k tomu, aby vše blikalo, otáčelo se, měnilo barvy, nebo se dokonce náhodně pohybovalo v prostoru.
 
-Jako efekt můžete použít cokoli, co lze vytvořit v Clip Editor. Efekty se ve skutečnosti upravují ve stejném editoru nodes jako Clips! Viz [Úprava efektů](effects.md#editing-effects). Tvůrčí možnosti jsou prakticky neomezené.
+Jako efekt můžete použít cokoli, co lze vytvořit v Clip Editor. Efekty se ve skutečnosti upravují ve stejném editoru nodes jako Clips! Viz [Úprava efektů](effects.md#editing-effects "mention"). Tvůrčí možnosti jsou prakticky neomezené.
 
 Výchozí tlačítka efektů 1–8 jsou pod tlačítky zone a efekty 9–24 jsou malá tlačítka dole.
 
@@ -32,12 +32,12 @@ Podle mě je to jeden z nejzábavnějších a nejkreativnějších nástrojů, k
 
 #### Parametry efektů
 
-Parametr do efektu přidáte pomocí _Parameter node._ Systém parametrů umožňuje zvenku upravovat více nastavení uvnitř efektu. Další informace najdete v části [Ovládání parametrů](clip-editor/oscillators/parameter-control.md).
+Parametr do efektu přidáte pomocí _Parameter node._ Systém parametrů umožňuje zvenku upravovat více nastavení uvnitř efektu. Další informace najdete v části [Ovládání parametrů](clip-editor/oscillators/parameter-control.md "mention").
 
 Pomocí otočných ovladačů 1–8 upravíte _parameter_ pro každý efekt. Případně klikněte pravým tlačítkem na tlačítko efektu a upravte posuvníky parametrů. Změna parametru dělá různé věci podle toho, jak je efekt nastavený. Níže najdete seznam výchozích efektů a popis toho, co jejich parametry dělají.
 
 {% hint style="info" %}
-Otočné ovladače 1–8 jsou na APC40 Mk2 v horní řadě a na Mk1 vpravo nahoře. Viz také: [Referenční přehled APC40](reference/apc40-reference.md)
+Otočné ovladače 1–8 jsou na APC40 Mk2 v horní řadě a na Mk1 vpravo nahoře. Viz také: [Referenční přehled APC40](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,9 +59,9 @@ Malá čísla na tlačítkách efektů označují _level_ a _parameter_ daného 
 5. **Scale** :\
    Opakovaně mění měřítko všeho od plné velikosti po nulu. Parametr upravuje rychlost.
 6. **Hue** :\
-   Mění odstín všeho, ale nemění sytost (tj. vše, co je bílé, zůstane bílé). Parametr upravuje odstín.
+Mění odstín všeho, ale nemění sytost (tj. vše, co je bílé, zůstane bílé). Parametr upravuje odstín.
 7. **Saturation and hue** :\
-   Mění odstín všeho a zároveň barvu plně nasytí (tj. vše, co je bílé, se změní na danou barvu). Parametr upravuje odstín.
+Mění odstín všeho a zároveň barvu plně nasytí (tj. vše, co je bílé, se změní na danou barvu). Parametr upravuje odstín.
 8. **Flash** :\
    Opakovaně nechává jas všeho blikat od plné hodnoty po nulu. Parametr upravuje rychlost blikání.
 
@@ -89,7 +89,7 @@ Tato funkce je vypnutá, pokud je nastavení _MX Group_ nastaveno na 0.
 
 Klikněte pravým tlačítkem na libovolný efekt a kliknutím na tlačítko _EDIT EFFECT_ otevřete editor efektu. Všimněte si, že tento editor je totožný s Clip Editor!
 
-Efekt upravujete stejně, jako byste upravovali jakýkoli Clip. Viz [Clip Editor](clip-editor/).
+Efekt upravujete stejně, jako byste upravovali jakýkoli Clip. Viz [Clip Editor](clip-editor/ "mention").
 
 Musíte mít alespoň jeden node typu Creator. Může to být cokoli (čára, kruh, tvar, dokonce i text!), ale pravděpodobně byste měli vybrat něco, co dává v náhledu tlačítka efektu největší smysl.
 

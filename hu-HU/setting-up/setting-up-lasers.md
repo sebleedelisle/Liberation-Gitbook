@@ -1,8 +1,8 @@
 ---
 description: >-
-  A lézerek veszélyesek lehetnek, ezért fontos betartani a bevált gyakorlatokat
-  és a biztonsági irányelveket. Ez az oldal hasznos áttekintést ad, amely segít
-  a lézerek biztonságos beállításának folyamatában.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

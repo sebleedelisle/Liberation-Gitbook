@@ -9,10 +9,10 @@ metaLinks:
 
 #### Hvor du finder arbejdsmappen
 
-Hver version af Liberation har sin egen arbejdsmappe. Hvis du for eksempel kører version 1.0.0, hedder mappen 1.0.0.
+Hver version af Liberation har sin egen arbejdsmappe. Hvis du for eksempel kører version 1.0.3, hedder mappen 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Sådan åbner du hurtigt mappen**
 
@@ -24,7 +24,7 @@ Hver version af Liberation har sin egen arbejdsmappe. Hvis du for eksempel køre
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Åbn den mappe, der svarer til dit versionsnummer, for eksempel `1.0.0`.
+3. Åbn den mappe, der svarer til dit versionsnummer, for eksempel `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Hver version af Liberation har sin egen arbejdsmappe. Hvis du for eksempel køre
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Åbn den mappe, der svarer til dit versionsnummer, for eksempel `1.0.0`.
+2. Åbn den mappe, der svarer til dit versionsnummer, for eksempel `1.0.3`.
 
 > **Tip til Windows**: Hvis du i stedet navigerer via File Explorer, skal du aktivere skjulte elementer: **View > Show > Hidden items**.

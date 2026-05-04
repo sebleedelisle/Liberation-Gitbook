@@ -36,6 +36,7 @@ Crée des échos de votre contenu, en laissant derrière l’original des copies
   * 128 = 1/2 mesure (blanche)
   * 256 = 1 mesure
 * **trail size** – nombre de copies de traînée à dessiner derrière le contenu en direct.
+* **prefill trails** – remplit immédiatement l’historique de la traînée au démarrage du Clip, au lieu d’attendre que les échos se construisent pendant les premières mesures.
 * **freeze trails** – transforme des traînées fluides en une séquence d’instantanés figés. Utile pour créer des effets de traînée saccadés et synchronisés au beat.
 * **brightness start / brightness end** – applique la luminosité le long de la traînée, de la copie la plus récente (**start**) à la plus ancienne (**end**). En général, réglez **brightness start** sur 100% et **brightness end** sur 0% pour que les échos s’estompent.
 * **scale start / scale end** – applique l’échelle le long de la traînée, de la copie la plus récente (start) à la plus ancienne (end). Pour des traînées qui rétrécissent jusqu’à disparaître, réglez **scale start** sur 100% et **scale end** sur 0%.

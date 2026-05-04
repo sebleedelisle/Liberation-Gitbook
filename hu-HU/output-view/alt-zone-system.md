@@ -15,7 +15,7 @@ Az Alt zónarendszerrel bármely meglévő zónához létrehozhatsz egy alternat
 
 ### Alternatív zóna hozzáadása
 
-Az output nézetben kattints jobb gombbal egy zónára, majd kattints az _ADD ALT ZONE_ lehetőségre. Megjelenik egy új, zöld színű zóna. Ezt ugyanúgy szerkesztheted és állíthatod be, mint bármelyik másik zónádat. A tesztminták megjelenítéséhez engedélyezned kell az Alt zónákat a felső ikonsávban.
+Az Output view nézetben kattints jobb gombbal egy zone területre, majd kattints az _ADD ALT ZONE_ lehetőségre. Megjelenik egy új, zöld színű zone. Ezt ugyanúgy szerkesztheted és állíthatod be, mint bármelyik másik zone területet. A tesztminták megjelenítéséhez engedélyezned kell az Alt zone megjelenítését a felső ikonsávban.
 
 ### Átváltás az Alt zónákra
 
@@ -23,4 +23,4 @@ Amint hozzáadsz bármilyen Alt zónát, a felső ikonsávban megjelenik egy _AL
 
 ### Zóna letiltása áthelyezés helyett
 
-Adj hozzá egy Alt zónát, kattints rá jobb gombbal, majd kattints a _Disable output_ gombra (áthúzott kör ikon). Ha ezután engedélyezed az Alt zónákat, a tartalom erre a letiltott Alt zónára lesz átirányítva.
+Adj hozzá egy Alt zone területet, kattints rá jobb gombbal, majd kattints a _Disable output_ gombra (áthúzott kör ikon). Ha ezután engedélyezed az Alt zone megjelenítését, a tartalom erre a letiltott Alt zone területre lesz átirányítva.

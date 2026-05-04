@@ -69,4 +69,4 @@ Observe o quadrado à esquerda: se você estiver recebendo um sinal de timecode 
 O Liberation trocará automaticamente para a timeline correspondente ao timecode, então você nunca precisa mudar de timeline manualmente durante um show.
 {% endhint %}
 
-Observe que, ao contrário do MIDI Clock e do Ableton Link, SMPTE é um sistema de tempo _absoluto_, medido em horas, minutos, segundos e frames. O sistema de tempo central do Liberation é baseado em beats e bars, então, ao receber timecode, ele usará o tempo configurado na timeline. Você precisa garantir que esse tempo esteja sincronizado com a música que também estiver sincronizada ao timecode.
+Observe que, ao contrário do MIDI Clock e do Ableton Link, SMPTE é um sistema de tempo _absoluto_, medido em horas, minutos, segundos e frames. O sistema de tempo central do Liberation é baseado em beats e bars, então, ao receber timecode, ele usará o tempo definido na timeline. Você precisa garantir que esse tempo esteja sincronizado com a música que também estiver sincronizada ao timecode.

@@ -18,7 +18,7 @@
 
 ### 输出方向 / 镜像修正
 
-以下设置用于修正激光的安装方向，使其在 Liberation 中表现一致。
+以下设置用于修正激光的设置，使其在 Liberation 中表现一致。
 
 * **Flip horizontal / vertical** - 用于校正激光输出方向
 

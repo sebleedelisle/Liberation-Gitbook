@@ -8,7 +8,7 @@ metaLinks:
 # ✅ Avviare / fermare le clip
 
 {% hint style="info" %}
-Puoi usare i pulsanti sullo schermo per avviare e fermare le clip, ma è molto meglio usare il controller MIDI APC40. Liberation è stato ottimizzato per funzionare bene con questo hardware e dovrebbe essere considerato una parte importante del tuo investimento nei laser.
+Puoi usare i pulsanti sullo schermo per avviare e fermare i Clip, ma è molto meglio usare il controller MIDI APC40. Liberation è stato ottimizzato per funzionare bene con questo hardware e dovrebbe essere considerato una parte importante del tuo investimento nei laser.
 {% endhint %}
 
 ### Avviare e fermare le clip
@@ -24,7 +24,7 @@ Per avviare una nuova clip senza fermare le altre clip puoi:
 * premere il tasto `Shift` (o il pulsante Shift dell'APC40) mentre avvii la nuova clip; oppure
 * premere di nuovo la clip o le clip attualmente in esecuzione mentre avvii la nuova clip.
 
-I gruppi di clip sono indipendenti tra loro, quindi avviare una clip in un gruppo non influirà sulle clip degli altri gruppi. Vedi [Gruppi di Clip](groups.md)
+I gruppi di clip sono indipendenti tra loro, quindi avviare una clip in un gruppo non influirà sulle clip degli altri gruppi. Vedi [Gruppi di Clip](groups.md "mention")
 
 ### Flash mode
 

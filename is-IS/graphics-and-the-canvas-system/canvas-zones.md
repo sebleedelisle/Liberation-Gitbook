@@ -23,7 +23,7 @@ Hægrismelltu á zone og kveiktu eða slökktu á talnahnöppunum til að velja 
 WARNING - ef laserinn er í stöðunni armed gætirðu skyndilega byrjað að varpa efni úr sjálfgefinni canvas zone. Best er að setja laserinn í disarmed áður en þú úthlutar canvas zones á hann.
 {% endhint %}
 
-Ef þú ferð nú í _OUTPUT_ view fyrir þennan laser sérðu canvas zone þar, og þú getur breytt henni á nákvæmlega sama hátt og hverri annarri beam zone. Sjá [Zones](../output-view/zones.md).
+Ef þú ferð nú í _OUTPUT_ view fyrir þennan laser sérðu canvas zone þar, og þú getur breytt henni á nákvæmlega sama hátt og hverri annarri beam zone. Sjá [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Þú getur líka bætt canvas zone við laser beint úr _OUTPUT_ view - smelltu á hnappinn _Add existing canvas zone_ á tækjastikunni vinstra megin.

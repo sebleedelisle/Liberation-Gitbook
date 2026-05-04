@@ -7,13 +7,13 @@ metaLinks:
 
 # ✅ Hogyan működik a licencelés
 
-Miután telepítetted a Liberation alkalmazást a számítógépedre, _demo módban_ fut, amíg nem _engedélyezed_.
+Miután telepítetted a Liberation alkalmazást a számítógépedre, _free mode_ módban fut, amíg nem _engedélyezed_.
 
 {% hint style="info" %}
-_demo módban_ nincs korlátozás, kivéve a lézerhardverre történő kimenetet. Korlátozás nélkül gyakorolhatsz show-kat, építhetsz timeline-okat, valamint mentheted és betöltheted a fájljaidat. A Liberation _demo módban_ tetszőleges számú számítógépre telepíthető, és csak akkor kell engedélyezned a telepítést, amikor készen állsz lézereket használni!
+_free mode_ módban nincs korlátozás, kivéve a lézerhardverre történő kimenetet. Korlátozás nélkül gyakorolhatsz show-kat, építhetsz timeline-okat, valamint mentheted és betöltheted a fájljaidat. A Liberation _free mode_ módban tetszőleges számú számítógépre telepíthető, és csak akkor kell engedélyezned a telepítést, amikor készen állsz lézereket használni!
 {% endhint %}
 
-Az előfizetési csomagod azt is meghatározza, hány lézert tehetsz _armed_ állapotba, és hány DMX eszközt használhatsz. Lásd: [DMX vezérlés](../dmx-control/).
+Az előfizetési csomagod azt is meghatározza, hány lézert tehetsz _armed_ állapotba, és hány DMX eszközt használhatsz. Lásd: [DMX vezérlés](../dmx-control/ "mention").
 
 Azt is korlátozza az előfizetési csomagod, hogy hány számítógépen engedélyezheted a Liberation alkalmazást.
 
@@ -28,3 +28,5 @@ Minden licenc csak egy felhasználóra és egyszerre egy show-ra érvényes. Fel
 A Liberation licencelése és engedélyezése interneten keresztül működik; az alkalmazás a szerverünkhöz kapcsolódik, hogy a telepítést az előfizetésedhez társítsa.
 
 Miután engedélyezted a telepítést, nem kell újra online lennie az előfizetés megújulásáig. A megújulási dátumot az _About panel_ részen láthatod. Van egy rövid türelmi időszak (havi előfizetéseknél 7 nap), de javasolt a megújulási dátum után a lehető leghamarabb online kapcsolódni, hogy az engedélyezés megújuljon és aktív maradjon.
+
+Az aktuális licenccsomag a felső sávban is látható. Az About panel megnyitásához kattints a csomag nevére, vagy licenc nélkül a _FREE MODE_ feliratra.

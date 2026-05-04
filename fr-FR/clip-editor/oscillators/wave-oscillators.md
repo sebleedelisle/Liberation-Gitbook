@@ -52,7 +52,7 @@ Le concept de _clamp_ est assez difficile à expliquer, mais imaginez la forme d
 
 * **ease function** - les ondes Sawtooth et Triangle disposent aussi d’une fonction d’assouplissement qui modifie subtilement la courbe d’animation et peut rendre vos animations beaucoup plus expressives !
   * **LINEAR** - valeur par défaut, sans assouplissement : le mouvement est simplement linéaire entre les valeurs min et max.
-  * **EASE OUT** - démarre rapidement, puis ralentit en approchant de la fin. Très utile pour simuler la physique, par exemple un ralentissement jusqu’à l’arrêt.
+* **EASE OUT** - démarre rapidement, puis ralentit en approchant de la fin. Très utile pour simuler la physique, par exemple un ralentissement jusqu’à l’arrêt.
   * **EASE IN** - démarre lentement, puis accélère progressivement. Utile pour simuler une prise d’élan.
   * **EASE IN/OUT** - une combinaison des deux, pour un mouvement très organique.
 
@@ -183,7 +183,7 @@ Chaque step dispose des réglages suivants :
 
 * **Step** - le pas temporel dans la duration. 0 correspond au début et 64 à la fin.
 * **Level** - le niveau de l’onde à ce pas temporel. Le niveau est compris entre 0 et 1.
-* **Animation type** - le menu déroulant vous permet de choisir comment atteindre ce niveau depuis le step précédent.
+* **Animation type** - le menu déroulant vous permet de choisir comment atteindre ce niveau depuis l’étape précédente.
   * **None** - aucune transition : saut direct à ce niveau au moment indiqué.
   * **Linear** - un mouvement entièrement linéaire du niveau précédent vers celui-ci.
   * **Ease in / Ease out / Ease in/out** - applique un assouplissement entre le niveau précédent et celui-ci. Voir _ease function_ ci-dessus pour une description des types d’animation.

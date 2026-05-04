@@ -17,7 +17,7 @@ Bazen de bir binanın farklı bölümleri için birden fazla Canvas hedef alanı
 
 ### Clips’i Canvas hedef alanlarına gönderme
 
-Clip Deck’e bakarsanız, beam zone düğmelerinin yanında Canvas hedef alanı düğmelerini görürsünüz. Bunları görmek için Output düğmelerini kaydırmanız gerekebilir; `Shift + Left / Right Arrow` kullanabilir, ekrandaki ZONE PAGE düğmelerini veya APC40 düğmelerini kullanabilirsiniz (bkz. [APC40 referansı](../reference/apc40-reference.md))
+Clip Deck’e bakarsanız, beam zone düğmelerinin yanında Canvas hedef alanı düğmelerini görürsünüz. Bunları görmek için Output düğmelerini kaydırmanız gerekebilir; `Shift + Left / Right Arrow` kullanabilir, ekrandaki ZONE PAGE düğmelerini veya APC40 düğmelerini kullanabilirsiniz (bkz. [APC40 referansı](../reference/apc40-reference.md "mention"))
 
 Clips’i Canvas hedef alanlarına atamak için bu düğmeleri, beam zone düğmelerinde yaptığınızla tamamen aynı şekilde açıp kapatın.
 

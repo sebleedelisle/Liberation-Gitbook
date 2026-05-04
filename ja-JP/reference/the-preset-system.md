@@ -22,12 +22,12 @@ Liberation では、_プリセット_ のリストから複数の設定を選択
 
 プリセットのドロップダウンリストの横にある load/save ボタン（フロッピーディスクのアイコン）を使って、プリセットファイルをインポート／エクスポートすることもできます。このボタンを押すとポップアップが開き、インポート／エクスポートボタンのほか、1つ以上のプリセットを削除するオプションも表示されます。
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>load/save アイコンをクリックすると開くポップアップメニュー</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 たとえば _Default_ というスキャナー設定のプリセットを編集した場合、他のレーザーには自動的に反映されないことに注意してください。代わりに、それぞれのスキャナー設定には _Default(edited)_ というラベルが付きます。これを新しい _Default_ プリセットに更新するには、ドロップダウンリストから再度選択してください。
 
 {% hint style="info" %}
-多数のレーザーがあり、すべてのスキャナー設定を更新したい場合は、_COPY LASER SETTINGS_ システムを使用してください。[レーザー間で設定をコピーする](../setting-up/copy-laser-settings.md) を参照してください。
+多数のレーザーがあり、すべてのスキャナー設定を更新したい場合は、_COPY LASER SETTINGS_ システムを使用してください。[レーザー間で設定をコピーする](../setting-up/copy-laser-settings.md "mention") を参照してください。
 {% endhint %}
 
 他の場所で使用されているプリセットを削除しても、その設定は失われません。代わりに、_(deleted)._ というラベルが表示されます。

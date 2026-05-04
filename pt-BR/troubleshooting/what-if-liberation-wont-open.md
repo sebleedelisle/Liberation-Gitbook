@@ -20,10 +20,10 @@ Felizmente, é fácil resolver redefinindo suas configurações locais. Veja com
 
 #### Onde encontrar a pasta de trabalho
 
-Cada versão do Liberation tem sua própria pasta de trabalho. Por exemplo, se você estiver usando a versão 1.0.0, o nome da pasta será 1.0.0.
+Cada versão do Liberation tem sua própria pasta de trabalho. Por exemplo, se você estiver usando a versão 1.0.3, o nome da pasta será 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Como abrir a pasta rapidamente**
 
@@ -35,7 +35,7 @@ Cada versão do Liberation tem sua própria pasta de trabalho. Por exemplo, se v
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Abra a pasta correspondente ao número da sua versão, por exemplo `1.0.0`.
+3. Abra a pasta correspondente ao número da sua versão, por exemplo `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Cada versão do Liberation tem sua própria pasta de trabalho. Por exemplo, se v
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Abra a pasta correspondente ao número da sua versão, por exemplo `1.0.0`.
+2. Abra a pasta correspondente ao número da sua versão, por exemplo `1.0.3`.
 
 > **Dica para Windows**: se você navegar pelo Explorador de Arquivos, habilite os itens ocultos: **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 Dentro da pasta liberation, você deve encontrar um arquivo chamado `settings.json`. Exclua esse arquivo.
 
-* **Exemplo no macOS**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Exemplo no Windows**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **Exemplo no macOS**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Exemplo no Windows**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Agora tente iniciar o Liberation. Se ele abrir, está tudo resolvido.
 
@@ -84,9 +84,9 @@ Tente iniciar o Liberation novamente. Se ele agora abrir normalmente, envie o ar
 Se a Etapa 1 e a Etapa 2 não ajudaram:
 
 1. **Faça backup** da pasta inteira da versão:
-   * macOS: clique com o botão direito na pasta `1.0.0` e escolha **Compress** para criar um zip, ou copie-a para um local seguro, como a Área de Trabalho.
-   * Windows: clique com o botão direito na pasta `1.0.0` e escolha **Send to > Compressed (zipped) folder**, ou copie-a para um local seguro, como a Área de Trabalho.
-2. Depois de fazer o backup, **exclua** a pasta `1.0.0` original do local de trabalho do Liberation.
+* macOS: clique com o botão direito na pasta `1.0.3` e escolha **Compress** para criar um zip, ou copie-a para um local seguro, como a Área de Trabalho.
+* Windows: clique com o botão direito na pasta `1.0.3` e escolha **Send to > Compressed (zipped) folder**, ou copie-a para um local seguro, como a Área de Trabalho.
+2. Depois de fazer o backup, **exclua** a pasta `1.0.3` original do local de trabalho do Liberation.
 3. Inicie o Liberation novamente. Ele recriará uma nova pasta de trabalho.
 
 Se o Liberation agora abrir, siga para a Etapa 4.
@@ -103,10 +103,10 @@ Compacte seu **backup** da Etapa 3, se ainda não tiver feito isso, e envie-o po
 * **Assunto**: Liberation start-up fix - working folder backup
 * **Corpo**: inclua:
   * Sistema operacional e versão (por exemplo, macOS 14.6 ou Windows 11 23H2)
-  * Versão do Liberation (por exemplo, 1.0.0)
+* Versão do Liberation (por exemplo, 1.0.3)
   * Qual etapa resolveu o problema, se alguma resolveu (Etapa 1, Etapa 2 ou Etapa 3)
   * Uma breve descrição do que aconteceu antes de o problema começar
-* **Anexo**: o backup compactado da sua pasta de trabalho `1.0.0`.
+* **Anexo**: o backup compactado da sua pasta de trabalho `1.0.3`.
 
 > Se o zip for grande demais para e-mail, envie-o para um drive na nuvem e compartilhe um link.
 
@@ -127,5 +127,5 @@ Se o Liberation ainda não abrir depois de excluir a pasta de trabalho:
 
 1. Exclua `data/liberation/settings.json` na pasta de trabalho versionada.
 2. Se você estava editando um Clip, faça backup e depois exclua `data/liberation/clipEdit.json`.
-3. Se ainda não abrir, faça backup e depois exclua a pasta `1.0.0` inteira (ou a pasta da sua versão).
+3. Se ainda não abrir, faça backup e depois exclua a pasta `1.0.3` inteira (ou a pasta da sua versão).
 4. Se a Etapa 3 resolver (ou se não resolver), compacte o backup e envie-o para [**info@liberationlaser.com**](mailto:info@liberationlaser.com) com seu sistema operacional e a versão do Liberation.

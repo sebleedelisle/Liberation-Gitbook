@@ -9,7 +9,7 @@ metaLinks:
 
 ### Liberation autorisieren
 
-Wenn du Liberation zum ersten Mal öffnest, läuft es im _demo mode_ und du siehst das _About panel:_
+Wenn du Liberation zum ersten Mal öffnest, läuft es im _free mode_ und du siehst das _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 

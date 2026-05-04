@@ -57,7 +57,7 @@ Asennus on valmis. Sulje asennusohjelma ja käynnistä Liberation napsauttamalla
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation tarvitsee oikeuden käyttää tiedostoja ja verkkoa, joten Windows näyttää todennäköisesti useita pyyntöikkunoita. Hyväksy kaikki pyynnöt, muuten Liberation ei välttämättä toimi oikein.
+Liberation tarvitsee oikeuden käyttää tiedostoja ja verkkoa, joten Windows näyttää todennäköisesti muutaman käyttöoikeuspyynnön. Hyväksy kaikki pyynnöt, muuten Liberation ei välttämättä toimi oikein.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

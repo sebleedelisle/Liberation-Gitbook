@@ -52,7 +52,7 @@ El concepto de _clamp_ es un poco difícil de explicar, pero imagina que la form
 
 * **ease function** - las ondas Sawtooth y Triangle también tienen una función de suavizado que cambia sutilmente la curva de animación y puede hacer que tus animaciones sean mucho más expresivas.
   * **LINEAR** - el valor predeterminado, sin suavizado; simplemente se mueve de forma lineal entre los valores mínimo y máximo.
-  * **EASE OUT** - empieza rápido y luego reduce la velocidad al acercarse al final. Muy útil para simular física, por ejemplo, una desaceleración hasta detenerse.
+* **EASE OUT** - empieza rápido y luego reduce la velocidad al acercarse al final. Muy útil para simular física, por ejemplo, una desaceleración hasta detenerse.
   * **EASE IN** - empieza despacio y acelera gradualmente. Útil para simular acumulación de impulso.
   * **EASE IN/OUT** - una combinación de ambos, con un movimiento muy orgánico.
 

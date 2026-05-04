@@ -25,6 +25,6 @@ Opciju _BOTH_ koristite oprezno. MIDI uređaji i softver mogu se konfigurirati t
 
 ### MIDI mapiranje
 
-Pogledajte [Zadano mapiranje za MIDI slanje/primanje](../reference/midi-send-receive-default-mapping.md)
+Pogledajte [Zadano mapiranje za MIDI slanje/primanje](../reference/midi-send-receive-default-mapping.md "mention")
 
 U budućnosti planiram dodati mnogo prilagodljivije MIDI mapiranje, ali u međuvremenu možete koristiti aplikacije kao što su [BOME](https://www.bome.com/products/miditranslator) i [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) za prevođenje između Liberation i vašeg prilagođenog hardvera.

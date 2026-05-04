@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
 ---
 
-# 🟩 Beinstýring með APC40
+# 🟩 MIDI-stýringar fyrir beina notkun
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -27,4 +27,12 @@ Ekki örvænta — tengdu hana bara aftur. Liberation tengist sjálfkrafa aftur,
 Upprunalegi APC40 Mark 1 kom út árið 2009(!) og sumir kjósa hann enn vegna málmbyggingarinnar og trausts, stjórnborðslíks forms. Uppfærði Mark 2 kom út árið 2014 og þótt framleiðslu hans hafi verið hætt árið 2024 fer hann aftur í framleiðslu árið 2025 vegna eftirspurnar frá myndlistarfólki í visuals (Resolume o.fl.) og laseristum.
 {% endhint %}
 
-Sjá heildarlista yfir stjórntæki sem eru tiltæk á APC40 í [APC40-tilvísun](../reference/apc40-reference.md)
+Sjá heildarlista yfir stjórntæki sem eru tiltæk á APC40 í [APC40-tilvísun](../reference/apc40-reference.md "mention")
+
+### APC Mini
+
+Liberation 1.0.3 inniheldur einnig snið fyrir APC Mini. Það varpar 8x5 reitakerfinu fyrir Clip, hnöppum fyrir zone, X/Y flip-stýringum fyrir zone, hóphnöppum, stöðvun allra Clips, færslu milli Clip-síðna, færslu milli zone-síðna, tap tempo, endurstillingu takts og fínstillingu á tempói. Rennarnir stýra áhrifastigum og rennar með Shift stýra áhrifabreytum. Síðasti rennirinn stýrir Global Brightness.
+
+### MIDI Fighter Twister
+
+Sniðið fyrir MIDI Fighter Twister er ætlað fyrir stjórnun sem byggir mikið á encoder-stýringum frekar en að ræsa Clips. Ein röð af encoder-stýringum stýrir breytu 1 fyrir effect slots 1-8 og önnur röð fylgir átta samhengisbundnum stjórntækjum á Parameters spjaldinu, þar á meðal clip shift, seinkun fyrir zone, global spin/scale og dofnun hópa.

@@ -19,7 +19,7 @@ metaLinks:
 9. Group 按鈕
 10. Stop All Clips（按兩次即可立即停止所有 Clip，而不使用其淡出設定）
 11. Clip Deck 捲動
-12. Clip／全域參數
+12. Contextual Parameters panel 控制項
 13. Clip Page 左/右
 14. Zone Page 左/右
 15. Alt 按鈕（可用於選取 Clip）
@@ -35,3 +35,5 @@ metaLinks:
 25. 微調 tempo + 和 -
 26. Tempo 捲動
 27. Foot Pedal、Tap Tempo
+
+Device Control 旋鈕會跟隨螢幕上 Parameters panel 顯示的相同情境參數。選取 Clip 後，它們會控制 Clip shift、zone delay、global spin 及 global scale。如按住某個 group button，最前面的控制項會切換為該 group 的 fade in 及 fade out 時間。

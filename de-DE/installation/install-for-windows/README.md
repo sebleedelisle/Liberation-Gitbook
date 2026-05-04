@@ -57,7 +57,7 @@ Die Installation ist abgeschlossen! Klicke auf _Finish_, um das Installationspro
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation benötigt die Berechtigung, auf Dateien und das Netzwerk zuzugreifen. Windows wird daher wahrscheinlich mehrere Abfragen anzeigen. Achte darauf, alles zu akzeptieren, sonst funktioniert Liberation möglicherweise nicht richtig.
+Liberation benötigt die Berechtigung, auf Dateien und das Netzwerk zuzugreifen. Windows wird daher wahrscheinlich einige Berechtigungsabfragen anzeigen. Achte darauf, alles zu akzeptieren, sonst funktioniert Liberation möglicherweise nicht richtig.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

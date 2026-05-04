@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
 ---
 
-# 🟩 Contrôle en live avec l’APC40
+# 🟩 Contrôleurs MIDI en live
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -28,3 +28,11 @@ L’APC40 Mark 1 original est sorti en 2009 (!) et certaines personnes le préf�
 {% endhint %}
 
 Pour la liste complète des contrôles disponibles sur l’APC40, consultez [Référence APC40](../reference/apc40-reference.md "mention")
+
+### APC Mini
+
+Liberation 1.0.3 inclut également un profil APC Mini. Il associe la grille de Clips 8x5, les boutons de zone, les contrôles d’inversion X/Y des zones, les boutons de groupe, l’arrêt de tous les Clips, la navigation entre pages de Clips, la navigation entre pages de zones, le tap tempo, la réinitialisation de mesure et l’ajustement fin du tempo. Ses faders contrôlent les niveaux d’effet, et les faders utilisés avec Shift contrôlent les paramètres d’effet. Le dernier fader contrôle Global Brightness.
+
+### MIDI Fighter Twister
+
+Le profil MIDI Fighter Twister est conçu pour un contrôle centré sur les encodeurs plutôt que pour le lancement de Clips. Une rangée d’encodeurs contrôle le paramètre 1 des emplacements d’effet 1 à 8, tandis qu’une autre rangée suit les huit contrôles contextuels du panneau Parameters, notamment le décalage de Clip, le retard de zone, la rotation/mise à l’échelle globale et les fondus de groupe.

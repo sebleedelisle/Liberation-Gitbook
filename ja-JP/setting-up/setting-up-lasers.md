@@ -1,6 +1,8 @@
 ---
 description: >-
-  レーザーには危険が伴うため、ベストプラクティスと安全ガイドラインに従うことが重要です。このページでは、レーザーを安全にセットアップする手順の全体像を説明します。
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

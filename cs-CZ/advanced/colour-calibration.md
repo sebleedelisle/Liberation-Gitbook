@@ -17,21 +17,23 @@ Laserové diody mění své chování při zahřívání. Před kalibrací vždy
 
 #### Jak kalibrační test funguje
 
-Ke kalibraci použijte funkci test pattern (viz [Testovací obrazce](../output-view/test-patterns.md))
+Ke kalibraci použijte funkci test pattern (viz [Testovací obrazce](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green
 * **7** – Blue
 * **8** – White
 
-Každý z těchto obrazců zobrazuje čtyři pohybující se čáry:
+Každý z těchto obrazců zobrazuje čtyři pohybující se čáry. Jas v laserovém systému neovlivňuje jen úroveň výkonu, ale také doba, po kterou paprsek zůstává na jednom místě. Když se skenery pohybují rychleji, paprsek stráví na každém bodě méně času a působí méně jasně.
+
+Aby se to zohlednilo, testovací obrazce mění jas i rychlost společně:
 
 * **Horní čára** – 100% jas při plné rychlosti
 * **Druhá čára** – 75% jas při 75% rychlosti
 * **Třetí čára** – 50% jas při 50% rychlosti
 * **Čtvrtá čára** – 25% jas při 25% rychlosti
 
-Protože se společně mění jas _i rychlost_, měly by všechny čáry vypadat stejně jasně. Pokud některá působí světleji nebo tmavěji, upravte příslušný posuvník, dokud se nesrovnají.
+Protože se společně mění jas _i rychlost_, měly by všechny čáry vypadat stejně jasně. Pokud některá čára působí jasněji nebo méně jasně, upravte příslušný posuvník, dokud se nesrovnají.
 
 Každý test pattern má také pátou čáru při **0% jasu**, která by neměla být viditelná. Slouží ke korekci laserů, které při velmi nízkých úrovních nevydávají žádné světlo. Pokud laser při nízkém jasu zůstává neviditelný, postupně zvyšujte **nastavení 0 %**, dokud se čára právě neobjeví. Potom hodnotu mírně snižte, až znovu zmizí. Cílem je najít práh, při kterém laser začíná svítit, a zůstat těsně pod ním – aby stmívání začínalo přirozeně a neodřezávalo spodní rozsah.
 

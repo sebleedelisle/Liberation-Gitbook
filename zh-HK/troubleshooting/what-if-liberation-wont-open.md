@@ -20,10 +20,10 @@ metaLinks:
 
 #### 在哪裏找到工作資料夾
 
-每個 Liberation 版本都有自己的工作資料夾。例如，如果你正在使用 1.0.0 版本，資料夾名稱就會是 1.0.0。
+每個 Liberation 版本都有自己的工作資料夾。例如，如果你正在使用 1.0.3 版本，資料夾名稱就會是 1.0.3。
 
-* **macOS**：`~/Library/Application Support/Liberation/1.0.0`
-* **Windows**：`AppData\Local\Liberation\1.0.0`
+* **macOS**：`~/Library/Application Support/Liberation/1.0.3`
+* **Windows**：`AppData\Local\Liberation\1.0.3`
 
 **快速開啟資料夾的方法**
 
@@ -35,7 +35,7 @@ metaLinks:
     ```
     ~/Library/Application Support/Liberation
     ```
-3. 開啟與你版本號碼相符的資料夾，例如 `1.0.0`。
+3. 開啟與你版本號碼相符的資料夾，例如 `1.0.3`。
 
 **Windows**
 
@@ -44,7 +44,7 @@ metaLinks:
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. 開啟與你版本號碼相符的資料夾，例如 `1.0.0`。
+2. 開啟與你版本號碼相符的資料夾，例如 `1.0.3`。
 
 > **Windows 提示**：如果你改用 File Explorer 瀏覽，請啟用隱藏項目：**View > Show > Hidden items**。
 
@@ -60,8 +60,8 @@ data/liberation/
 
 在 liberation 資料夾內，你應該會找到一個名為 `settings.json` 的檔案。刪除此檔案。
 
-* **macOS 範例**：`~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Windows 範例**：`%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **macOS 範例**：`~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Windows 範例**：`%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 現在嘗試啟動 Liberation。如果能夠開啟，就完成了。
 
@@ -84,9 +84,9 @@ data/liberation/
 如果步驟 1 和步驟 2 都沒有幫助：
 
 1. **備份**整個版本資料夾：
-   * macOS：在 `1.0.0` 資料夾上按右鍵，選擇 **Compress** 以建立 zip 檔，或將它複製到安全位置，例如 Desktop。
-   * Windows：在 `1.0.0` 資料夾上按右鍵，選擇 **Send to > Compressed (zipped) folder**，或將它複製到安全位置，例如 Desktop。
-2. 備份後，從 Liberation 工作位置**刪除**原本的 `1.0.0` 資料夾。
+* macOS：在 `1.0.3` 資料夾上按右鍵，選擇 **Compress** 以建立 zip 檔，或將它複製到安全位置，例如 Desktop。
+* Windows：在 `1.0.3` 資料夾上按右鍵，選擇 **Send to > Compressed (zipped) folder**，或將它複製到安全位置，例如 Desktop。
+2. 備份後，從 Liberation 工作位置**刪除**原本的 `1.0.3` 資料夾。
 3. 再次啟動 Liberation。它會重新建立一個全新的工作資料夾。
 
 如果 Liberation 現在可以開啟，請繼續步驟 4。
@@ -103,10 +103,10 @@ data/liberation/
 * **主旨**：Liberation start-up fix - working folder backup
 * **內容**：請包括：
   * 作業系統及版本（例如 macOS 14.6 或 Windows 11 23H2）
-  * Liberation 版本（例如 1.0.0）
+* Liberation 版本（例如 1.0.3）
   * 哪個步驟解決了問題（如適用）：步驟 1、步驟 2 或步驟 3
   * 問題開始前發生了甚麼事的簡短描述
-* **附件**：你的 `1.0.0` 工作資料夾 zip 備份。
+* **附件**：你的 `1.0.3` 工作資料夾 zip 備份。
 
 > 如果 zip 檔案太大，無法透過電郵傳送，請上載到雲端硬碟並分享連結。
 
@@ -127,5 +127,5 @@ data/liberation/
 
 1. 在你的版本化工作資料夾中刪除 `data/liberation/settings.json`。
 2. 如果你當時正在編輯 Clip，請先備份，然後刪除 `data/liberation/clipEdit.json`。
-3. 如果仍然無法開啟，請先備份，然後刪除整個 `1.0.0`（或你的版本）資料夾。
+3. 如果仍然無法開啟，請先備份，然後刪除整個 `1.0.3`（或你的版本）資料夾。
 4. 如果步驟 3 解決了問題（或即使沒有解決），請將備份壓縮成 zip，並連同你的作業系統及 Liberation 版本傳送至 [**info@liberationlaser.com**](mailto:info@liberationlaser.com)。

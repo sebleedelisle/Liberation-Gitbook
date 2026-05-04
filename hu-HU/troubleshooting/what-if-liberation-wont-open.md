@@ -20,10 +20,10 @@ Szerencsére ez könnyen javítható a helyi beállítások alaphelyzetbe állí
 
 #### Hol találod a munkamappát?
 
-A Liberation minden verziójához külön munkamappa tartozik. Ha például az 1.0.0 verziót használod, a mappa neve 1.0.0 lesz.
+A Liberation minden verziójához külön munkamappa tartozik. Ha például az 1.0.3 verziót használod, a mappa neve 1.0.3 lesz.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **A mappa gyors megnyitása**
 
@@ -35,7 +35,7 @@ A Liberation minden verziójához külön munkamappa tartozik. Ha például az 1
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Nyisd meg a verziószámodnak megfelelő mappát, például: `1.0.0`.
+3. Nyisd meg a verziószámodnak megfelelő mappát, például: `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ A Liberation minden verziójához külön munkamappa tartozik. Ha például az 1
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Nyisd meg a verziószámodnak megfelelő mappát, például: `1.0.0`.
+2. Nyisd meg a verziószámodnak megfelelő mappát, például: `1.0.3`.
 
 > **Tipp Windowshoz**: Ha inkább File Explorerben keresed meg, kapcsold be a rejtett elemek megjelenítését: **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 A liberation mappában találnod kell egy `settings.json` nevű fájlt. Töröld ezt a fájlt.
 
-* **macOS példa**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Windows példa**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **macOS példa**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Windows példa**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Most próbáld meg elindítani a Liberation alkalmazást. Ha megnyílik, kész vagy.
 
@@ -84,9 +84,9 @@ Próbáld meg újra elindítani a Liberation alkalmazást. Ha most már rendben 
 Ha az 1. és 2. lépés nem segített:
 
 1. Készíts **biztonsági másolatot** a teljes verziómappáról:
-   * macOS: Kattints jobb gombbal a `1.0.0` mappára, és válaszd a **Compress** lehetőséget zip fájl készítéséhez, vagy másold át egy biztonságos helyre, például az Asztalra.
-   * Windows: Kattints jobb gombbal a `1.0.0` mappára, és válaszd a **Send to > Compressed (zipped) folder** lehetőséget, vagy másold át egy biztonságos helyre, például az Asztalra.
-2. A biztonsági mentés után **töröld** az eredeti `1.0.0` mappát a Liberation munkamappa helyéről.
+* macOS: Kattints jobb gombbal a `1.0.3` mappára, és válaszd a **Compress** lehetőséget zip fájl készítéséhez, vagy másold át egy biztonságos helyre, például az Asztalra.
+* Windows: Kattints jobb gombbal a `1.0.3` mappára, és válaszd a **Send to > Compressed (zipped) folder** lehetőséget, vagy másold át egy biztonságos helyre, például az Asztalra.
+2. A biztonsági mentés után **töröld** az eredeti `1.0.3` mappát a Liberation munkamappa helyéről.
 3. Indítsd el újra a Liberation alkalmazást. Létre fog hozni egy friss munkamappát.
 
 Ha a Liberation most megnyílik, folytasd a 4. lépéssel.
@@ -103,10 +103,10 @@ Ha még nem tetted meg, tömörítsd zip fájlba a 3. lépésben készült **biz
 * **Tárgy**: Liberation start-up fix - working folder backup
 * **Üzenet**: Kérjük, add meg:
   * Operációs rendszer és verzió (pl. macOS 14.6 vagy Windows 11 23H2)
-  * Liberation verzió (pl. 1.0.0)
+* Liberation verzió (pl. 1.0.3)
   * Melyik lépés oldotta meg, ha valamelyik (1., 2. vagy 3. lépés)
   * Rövid leírás arról, mi történt a probléma kezdete előtt
-* **Melléklet**: a `1.0.0` munkamappa zip formátumú biztonsági másolata.
+* **Melléklet**: a `1.0.3` munkamappa zip formátumú biztonsági másolata.
 
 > Ha a zip túl nagy e-mailhez, töltsd fel egy felhőmeghajtóra, és ossz meg egy linket.
 
@@ -127,5 +127,5 @@ Ha a Liberation a munkamappa törlése után sem nyílik meg:
 
 1. Töröld a `data/liberation/settings.json` fájlt a verziózott munkamappádból.
 2. Ha Clip szerkesztése közben voltál, készíts biztonsági másolatot a `data/liberation/clipEdit.json` fájlról, majd töröld.
-3. Ha továbbra sem nyílik meg, készíts biztonsági másolatot, majd töröld a teljes `1.0.0` mappát (vagy a saját verziód mappáját).
+3. Ha továbbra sem nyílik meg, készíts biztonsági másolatot, majd töröld a teljes `1.0.3` mappát (vagy a saját verziód mappáját).
 4. Ha a 3. lépés megoldja (vagy ha nem oldja meg), tömörítsd zip fájlba a biztonsági másolatot, és küldd el a [**info@liberationlaser.com**](mailto:info@liberationlaser.com) címre az operációs rendszered és a Liberation verzió megadásával.

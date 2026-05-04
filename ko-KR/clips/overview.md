@@ -12,7 +12,7 @@ Liberation의 모든 레이저 콘텐츠는 Clip 안에 저장됩니다.
 
 Clip 안에는 공중에 투사되는 beam 효과나 그래픽 애니메이션을 담을 수 있으며, 보통 반복 재생되는 루프 형태입니다. Clip은 어떤 zone 또는 Canvas Target Area로도 보낼 수 있고, Clip Deck 안의 Clip 버튼으로 트리거합니다.
 
-Clip 콘텐츠는 유연한 node 기반 Clip Editor 시스템으로 만듭니다. (자세한 내용은 [Clip Editor 소개](../clip-editor/clip-editor-intro.md)를 참조하세요)
+Clip 콘텐츠는 유연한 node 기반 Clip Editor 시스템으로 만듭니다. (자세한 내용은 [Clip Editor 소개](../clip-editor/clip-editor-intro.md "mention")를 참조하세요)
 
 ### Clip Deck
 

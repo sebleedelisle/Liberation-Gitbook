@@ -7,10 +7,10 @@ metaLinks:
 
 # ✅ Hoe licenties werken
 
-Zodra je Liberation op je computer hebt geïnstalleerd, draait het in _demomodus_ totdat je het _autoriseert_.
+Zodra je Liberation op je computer hebt geïnstalleerd, draait het in _free mode_ totdat je het _autoriseert_.
 
 {% hint style="info" %}
-In _demomodus_ zijn er geen beperkingen, behalve uitvoer naar laserhardware. Je kunt shows oefenen, timelines bouwen en je bestanden zonder beperkingen opslaan en laden. Je kunt Liberation in _demomodus_ op zoveel computers installeren als je wilt; je hoeft je installatie pas te autoriseren wanneer je klaar bent om lasers te gebruiken!
+In _free mode_ zijn er geen beperkingen, behalve uitvoer naar laserhardware. Je kunt shows oefenen, timelines bouwen en je bestanden zonder beperkingen opslaan en laden. Je kunt Liberation in _free mode_ op zoveel computers installeren als je wilt; je hoeft je installatie pas te autoriseren wanneer je klaar bent om lasers te gebruiken!
 {% endhint %}
 
 Naast het aantal lasers dat je kunt armeren, kun je ook DMX fixtures gebruiken. Zie [DMX / Art-Net](../dmx-control/ "mention").
@@ -28,3 +28,5 @@ Elke licentie is bedoeld voor één gebruiker en één show tegelijk. Je kunt pe
 De licentie- en autorisatiefunctie van Liberation werkt via internet; de app maakt verbinding met onze server om een installatie aan je abonnement te koppelen.
 
 Zodra je installatie is geautoriseerd, hoeft deze pas weer online te zijn wanneer je abonnement wordt verlengd. Je kunt de verlengingsdatum zien in het _About panel_. Er is een korte respijtperiode (7 dagen voor maandabonnementen), maar het is aan te raden om zo snel mogelijk na de verlengingsdatum online te gaan, zodat je autorisatie wordt vernieuwd en actief blijft.
+
+De huidige licentielaag wordt ook in de bovenbalk weergegeven. Klik op de naam van de laag, of op _FREE MODE_ wanneer er geen licentie actief is, om het About panel te openen.

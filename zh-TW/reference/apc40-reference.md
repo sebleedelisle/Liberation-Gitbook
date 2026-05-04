@@ -18,8 +18,8 @@ metaLinks:
 8. 效果 1-8 參數調整
 9. 群組按鈕
 10. 停止所有 Clips（按兩下可不套用淡入淡出設定，立即停止所有 Clips）
-11. Clip Deck 捲動
-12. Clip / 全域參數
+11. Clip Deck Scroll
+12. Contextual Parameters panel 控制項
 13. Clip 頁面左/右
 14. zone 頁面左/右
 15. Alt 按鈕（可用來選取 Clip）
@@ -35,3 +35,5 @@ metaLinks:
 25. 微調 tempo + 和 -
 26. Tempo 捲動
 27. 腳踏板，Tap Tempo
+
+Device Control 旋鈕會跟隨畫面上 Parameters panel 顯示的相同情境參數。選取 Clip 時，它們會控制 Clip shift、zone delay、global spin 與 global scale。若按住 group 按鈕，前幾個控制項會切換為該 group 的 fade in 與 fade out 時間。

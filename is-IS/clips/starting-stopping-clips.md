@@ -24,7 +24,7 @@ Til að ræsa nýtt Clip án þess að stöðva önnur Clips geturðu annaðhvor
 * Haldið `Shift` inni (eða Shift-hnappinum á APC40) á meðan þú ræsir nýja Clip; eða
 * Ýtt aftur á þau Clips sem eru þegar í gangi á meðan þú ræsir nýja Clip.
 
-Hóparnir eru óháðir hver öðrum, þannig að það að ræsa Clip í einum hópi hefur ekki áhrif á Clips í öðrum hópum. Sjá [hópar](groups.md)
+Hóparnir eru óháðir hver öðrum, þannig að það að ræsa Clip í einum hópi hefur ekki áhrif á Clips í öðrum hópum. Sjá [hópar](groups.md "mention")
 
 ### Flash mode
 

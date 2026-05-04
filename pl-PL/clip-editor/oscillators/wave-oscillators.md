@@ -52,7 +52,7 @@ Koncepcję _clamp_ dość trudno wyjaśnić, ale wyobraź sobie przebieg wychodz
 
 * **ease function** — fale Sawtooth i Triangle mają też funkcję easing, która subtelnie zmienia krzywą animacji i pozwala tworzyć znacznie bardziej ekspresyjne ruchy.
   * **LINEAR** — ustawienie domyślne, bez easing; ruch odbywa się liniowo między wartościami min i max.
-  * **EASE OUT** — zaczyna szybko, a następnie zwalnia przy końcu. Bardzo dobre do symulowania fizyki, np. wyhamowania do zatrzymania.
+* **EASE OUT** — zaczyna szybko, a następnie zwalnia przy końcu. Bardzo dobre do symulowania fizyki, np. wyhamowania do zatrzymania.
   * **EASE IN** — zaczyna powoli i stopniowo przyspiesza. Dobre do symulowania narastającego pędu.
   * **EASE IN/OUT** — połączenie obu efektów, dające bardzo organiczny ruch.
 

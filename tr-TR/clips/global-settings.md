@@ -16,7 +16,7 @@ Global Transformations, Canvas içindeki hiçbir şeyi etkilemez; yalnızca beam
 
 ### Scale X/Y
 
-Yatay ve dikey ölçek. `Shift` tuşuna basmadığınız sürece bu değerler birlikte kilitli kalır. Varsayılan olarak bunlar APC40 Device Control 4 ve 8 numaralı knob’larına da atanmıştır ve Clip Deck’in sağındaki panelde görünür.
+Yatay ve dikey ölçek. `Shift` tuşuna basmadığınız sürece bu değerler birlikte kilitli kalır. Varsayılan olarak bunlar APC40 Device Control 4 ve 8 numaralı knob’larına da atanmıştır ve Clip Deck’in sağındaki bağlamsal Parameters panelinde görünür.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Yatay ve dikey kaydırma. Her şeyi yatay / dikey olarak taşır.
 
 ### Spin
 
-Tüm içeriği merkez etrafında döndürür. Pozitif değer saat yönünde, negatif değer saat yönünün tersine döndürür. Bu ayarın _Rotation_ dönüşümünü etkilediğini göreceksiniz. Varsayılan olarak APC40 Device Control 3 numaralı knob’una atanmıştır ve Clip Deck’in sağındaki panelde görünür.
+Tüm içeriği merkez etrafında döndürür. Pozitif değer saat yönünde, negatif değer saat yönünün tersine döndürür. Bu ayarın _Rotation_ dönüşümünü etkilediğini göreceksiniz. Varsayılan olarak APC40 Device Control 3 numaralı knob’una atanmıştır ve Clip Deck’in sağındaki bağlamsal Parameters panelinde görünür.
 
 ### Spin 3D
 
-Tüm içeriği Y ekseni etrafında döndürür (bu eksen merkezdeki dikey bir çizgidir). Bu ayarın _Rotation3D_ dönüşümünü etkilediğini göreceksiniz. Varsayılan olarak APC40 Device Control 7 numaralı knob’una atanmıştır ve Clip Deck’in sağındaki panelde görünür.
+Tüm içeriği Y ekseni etrafında döndürür (bu eksen merkezdeki dikey bir çizgidir). Bu ayarın _Rotation3D_ dönüşümünü etkilediğini göreceksiniz. Varsayılan olarak APC40 Device Control 7 numaralı knob’una atanmıştır ve Clip Deck’in sağındaki bağlamsal Parameters panelinde görünür.
 
 ### Rotation
 

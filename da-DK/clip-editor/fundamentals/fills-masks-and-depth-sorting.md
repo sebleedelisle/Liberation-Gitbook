@@ -25,4 +25,4 @@ Men det fungerer rigtig godt og giver illusionen af en sort udfyldt form.
 
 ### Dybdesortering
 
-Da nogle former kan _dække_ andre former, skal Liberation sortere dem efter deres dybde. Som standard dybdesorteres elementer efter deres z-position. Hvis de har samme z-position, sorteres de efter deres lagposition, som kan ændres med knapperne _MOVE TO FRONT_ og _MOVE TO BACK_ inde i hver creator.
+Da nogle former kan _dække_ andre former, skal Liberation sortere dem efter deres dybde. Som standard dybdesorteres elementer efter deres z-position. Hvis de har samme z-position, sorteres de efter deres lagposition, som kan ændres med knapperne _MOVE TO FRONT_ og _MOVE TO BACK_ inde i hver Creator.

@@ -9,10 +9,10 @@ metaLinks:
 
 #### 在哪裡找到工作資料夾
 
-每個 Liberation 版本都有自己的工作資料夾。例如，如果你正在使用 1.0.0 版本，資料夾名稱會是 1.0.0。
+每個 Liberation 版本都有自己的工作資料夾。例如，如果你正在使用 1.0.3 版本，資料夾名稱會是 1.0.3。
 
-* **macOS**：`~/Library/Application Support/Liberation/1.0.0`
-* **Windows**：`AppData\Local\Liberation\1.0.0`
+* **macOS**：`~/Library/Application Support/Liberation/1.0.3`
+* **Windows**：`AppData\Local\Liberation\1.0.3`
 
 **快速開啟資料夾的方法**
 
@@ -24,7 +24,7 @@ metaLinks:
     ```
     ~/Library/Application Support/Liberation
     ```
-3. 開啟與你版本號碼相同的資料夾，例如 `1.0.0`。
+3. 開啟與你版本號碼相同的資料夾，例如 `1.0.3`。
 
 **Windows**
 
@@ -33,6 +33,6 @@ metaLinks:
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. 開啟與你版本號碼相同的資料夾，例如 `1.0.0`。
+2. 開啟與你版本號碼相同的資料夾，例如 `1.0.3`。
 
 > **Windows 提示**：如果你改用 File Explorer 瀏覽，請啟用隱藏項目：**View > Show > Hidden items**。

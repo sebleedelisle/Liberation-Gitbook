@@ -9,10 +9,10 @@ metaLinks:
 
 ### Di chuyển/sao chép Clips
 
-Nhấp và kéo để di chuyển một Clip. Nếu đang chọn nhiều Clip (xem [khởi chạy/dừng Clips](starting-stopping-clips.md)), tất cả các Clip đó sẽ được di chuyển. Giữ `Alt / Option` để sao chép chúng. Thả Clip vào một vị trí trống.
+Nhấp và kéo để di chuyển một Clip. Nếu đang chọn nhiều Clip (xem [khởi chạy/dừng Clips](starting-stopping-clips.md "mention")), tất cả các Clip đó sẽ được di chuyển. Giữ `Alt / Option` để sao chép chúng. Thả Clip vào một vị trí trống.
 
 {% hint style="info" %}
-Nếu cần chọn nhiều Clip, bạn có thể nhấp/kéo để tạo vùng chọn lasso, rồi cuộn Clip Deck trong khi vẫn đang kéo (bằng phím mũi tên, APC 40 hoặc cuộn ngang trên touchpad/chuột). Vùng chọn lasso sẽ được mở rộng ra ngoài mép của Clip Deck.
+Nếu cần chọn nhiều Clip, bạn có thể nhấp và kéo để tạo vùng chọn lasso, rồi cuộn Clip Deck trong khi vẫn đang kéo (bằng phím mũi tên, APC40 hoặc cuộn ngang trên touchpad/chuột). Vùng chọn lasso sẽ được mở rộng ra ngoài mép của Clip Deck.
 {% endhint %}
 
 ### Xóa Clips

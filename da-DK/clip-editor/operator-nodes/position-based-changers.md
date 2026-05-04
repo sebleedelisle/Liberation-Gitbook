@@ -9,7 +9,7 @@ metaLinks:
 
 Denne node-familie ændrer indhold ud fra position. Som standard anvendes effekten langs en vandret akse (fra venstre mod højre), men du kan rotere aksen til en hvilken som helst vinkel. Hver node har også en _radial_ mode, hvor effekten styres af vinklen for hvert punkt i forhold til centrum.
 
-* **Colour Changer by Position** – forskyder farver hen over den valgte akse eller rundt om den radiale vinkel.\
+* **Colour Changer by Position** – anvender en gradient hen over den valgte akse eller rundt om den radiale vinkel.\
   \&#xNAN;_Eksempel: Lav en regnbuegradient, der bevæger sig hen over en linje, eller brug radial mode på en cirkel for at skabe en farvehjul-effekt._
 * **Wave Shift by Position** – anvender en sinusbølge-forvrængning, som forskyder indholdet lodret (eller vinkelret på den valgte akse).\
   \&#xNAN;_Eksempel: Få en linje til at bølge som vand, eller brug radial mode til at få en cirkel til at pulsere udad fra centrum._
@@ -29,6 +29,7 @@ Denne node anvender farveændringer på dit indhold baseret på position. Som st
 * **linear angle** – roterer effektens akse. 0° = vandret.
 * **radial** – skifter til radial mode, hvor farver anvendes ud fra vinklen fra centrum.
 * **radial smooth loop** – justerer automatisk wavelength, så den går op i 100% af cirklen, hvilket forhindrer en synlig samling dér, hvor cyklussen looper.
+* **legacy mode** – skifter tilbage til de ældre start-/slutskydere for HSB. Lad den være slået fra for at bruge den nyere gradient-editor.
 
 **Farvetilstande**
 
@@ -46,17 +47,32 @@ Disse bestemmer, hvilke dele af farvejusteringerne der anvendes på indholdet. S
   * _FIXED_ – brightness sættes til den angivne værdi.
   * _MULTIPLY_ – brightness skaleres med den angivne værdi. Det bevarer dynamikken (f.eks. blinker blinkende elementer stadig, men inden for det begrænsede lysstyrkeområde).
 
-**Start-/slutværdier**
+**Gradient-editor**
 
-Disse skydere definerer det farveområde, der anvendes hen over den valgte akse (eller det radiale sweep).
+Bruger den samme gradient-editor som [Colour Changer](colour-changer.md "mention"), men mapper gradienten hen over indholdet efter position.
 
-* **start hue** – hue ved gradientens begyndelse.
-* **end hue** – hue ved gradientens slutning.
-* **start saturation** – saturation ved begyndelsen.
-* **end saturation** – saturation ved slutningen.
-* **start brightness** – brightness ved begyndelsen.
-* **end brightness** – brightness ved slutningen.
+* Klik på gradientbjælken for at tilføje et farvestop.
+* Venstreklik på et stop for at vælge det, og træk det derefter sidelæns for at flytte det.
+* Træk et valgt stop ned væk fra bjælken, eller tryk på Delete/Backspace, for at fjerne det. En gradient beholder altid mindst to stop.
+* Højreklik på et stop for at redigere det med farvevælgeren.
+* Brug **Position**, **Hue**, **Saturation** og **Brightness** til at finjustere det valgte stop.
+* **interpolation** vælger, hvordan farver blandes mellem stop:
+* **HSB** – blander hue, saturation og brightness. Det er bedst til jævn regnbueagtig bevægelse rundt på farvehjulet.
+* **RGB** – blander røde, grønne og blå værdier direkte. Det føles ofte mere som en farvefade på en skærm eller en lyscontroller.
+* **NONE** – springer fra ét stop til det næste uden blanding.
+* **hue direction** er tilgængelig ved HSB-interpolation:
+* **AUTO** – tager den korteste vej rundt på hue-hjulet.
+* **FORWARDS** – bevæger sig altid fremad gennem hue-værdierne.
+* **BACKWARDS** – bevæger sig altid baglæns gennem hue-værdierne.
 * **blend** – blander farveændringen med de oprindelige farver. Ved 100% erstatter effekten de oprindelige farver fuldt ud.
+
+**Ældre start-/slutværdier**
+
+Hvis **legacy mode** er slået til, erstattes gradient-editoren af de ældre kontroller:
+
+* **start hue / end hue** – hue ved begyndelsen og slutningen af området.
+* **start saturation / end saturation** – saturation ved begyndelsen og slutningen af området.
+* **start brightness / end brightness** – brightness ved begyndelsen og slutningen af området.
 
 **Eksempel 1: Glidende regnbuegradient**
 
@@ -64,7 +80,7 @@ Med udgangspunkt i standardindstillingerne:
 
 1. Lad noden være i **Linear** mode (0° vinkel = vandret).
 2. Lad **wavelength** stå på 100% (spænder over hele bredden og bør være standard).
-3. Lad start- og slutværdierne være som standard.
+3. Lad standardgradienten være uændret.
 4. Aktivér **repeat**.
 5. Tilføj en **Sawtooth Oscillator** til indstillingen **offset**, som går fra 0% til 100%.
 
@@ -77,13 +93,12 @@ Med udgangspunkt i standardindstillingerne:
 1. Lad noden være i **Linear** mode (0° vinkel = vandret).
 2. Lad **wavelength** stå på 100% (spænder over hele bredden og bør være standard).
 3. Slå **repeat** fra.
-4. Sæt **start brightness** til 0 (sort).
-5. Sæt **end brightness** til 100 (hvid).
-6. Sæt **start saturation** og **end saturation** til 0 (konverterer til gråtoner).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Aktivér **pingpong**.
+4. Sæt det første gradientstop til sort.
+5. Sæt det sidste gradientstop til hvid.
+6. Sæt **hue mode** til OFF.
+7. Sæt **saturation mode** til FIXED, hvis du vil tvinge resultatet til gråtoner.
+8. Sæt **brightness mode** til FIXED.
+9. Slå **pingpong** til.
 
 _Resultat: Gradientens lysstyrke går fra sort til hvid og derefter tilbage til sort hen over bredden._\
 Bemærk, at hvis indholdet skal bevare sin hue og saturation, skal du slå Saturation mode OFF. \\
@@ -127,5 +142,6 @@ Denne node forvrænger indhold ved hjælp af et noise-felt (som turbulens), hvor
 * **Depth Offset** – bevæger sig gennem 3D noise-feltet og skaber variation over tid. Dette er især effektivt, når det animeres med en Oscillator Node.
 * **Depth Detail** – styrer, hvor detaljeret variationen er på tværs af dybdedimensionen.
 * **Absolute** – tager den absolutte værdi af noise og folder negative værdier over i positive (så der kun opstår ensidig forskydning).
+* **Angle** – roterer støjens akse i lineær tilstand. 0° = vandret.
 * **Radial** – skifter fra linear til radial mode, så forskydningen baseres på vinklen fra centrum.
 * **Radial Smooth Loop** – justerer wavelength, så den går op i 100% af cirklen, hvilket forhindrer synlige samlinger i radial mode.

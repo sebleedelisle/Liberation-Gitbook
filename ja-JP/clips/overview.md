@@ -12,7 +12,7 @@ Liberation内のすべてのレーザーコンテンツは、Clipの中に保存
 
 Clipには空間的なビームエフェクトやグラフィックアニメーションを含めることができ、通常はループするサイクルとして再生されます。任意のzone（またはCanvas Target Area）へ送ることができ、Clip Deck内のClipボタンを使ってトリガーします。
 
-Clipの内容は、多機能なnodeベースのClip Editorシステムで作成します。（詳しくは[Clip Editorの概要](../clip-editor/clip-editor-intro.md)を参照してください）
+Clipの内容は、多機能なnodeベースのClip Editorシステムで作成します。（詳しくは[Clip Editorの概要](../clip-editor/clip-editor-intro.md "mention")を参照してください）
 
 ### Clip Deck
 

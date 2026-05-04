@@ -16,7 +16,7 @@ Observera att Global Transformations inte påverkar något på Canvas, utan bara
 
 ### Scale X/Y
 
-Horisontell och vertikal skala. Dessa värden är låsta tillsammans om du inte trycker på `Shift`. Som standard är de också mappade till APC40 Device Control-rattarna 4 och 8 och visas i panelen till höger om clip deck.
+Horisontell och vertikal skala. Dessa värden är låsta tillsammans om du inte trycker på `Shift`. Som standard är de också mappade till APC40 Device Control-rattarna 4 och 8 och visas i den kontextuella Parameters-panelen till höger om Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Horisontell och vertikal förskjutning. Flyttar allt horisontellt/vertikalt.
 
 ### Spin
 
-Snurrar allt innehåll runt mitten. Ett positivt värde snurrar medurs, ett negativt värde snurrar moturs. Du ser att den här inställningen påverkar transformationen _Rotation_. Som standard är den mappad till APC40 Device Control-ratt 3 och visas i panelen till höger om clip deck.
+Snurrar allt innehåll runt mitten. Ett positivt värde snurrar medurs, ett negativt värde snurrar moturs. Du ser att den här inställningen påverkar transformationen _Rotation_. Som standard är den mappad till APC40 Device Control-ratt 3 och visas i den kontextuella Parameters-panelen till höger om Clip Deck.
 
 ### Spin 3D
 
-Snurrar allt innehåll runt Y-axeln (som är en vertikal linje i mitten). Du ser att den här inställningen påverkar transformationen _Rotation3D_. Som standard är den mappad till APC40 Device Control-ratt 7 och visas i panelen till höger om clip deck.
+Snurrar allt innehåll runt Y-axeln (som är en vertikal linje i mitten). Du ser att den här inställningen påverkar transformationen _Rotation3D_. Som standard är den mappad till APC40 Device Control-ratt 7 och visas i den kontextuella Parameters-panelen till höger om Clip Deck.
 
 ### Rotation
 

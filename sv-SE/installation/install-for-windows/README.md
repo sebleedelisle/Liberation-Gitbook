@@ -9,7 +9,7 @@ metaLinks:
 
 ### Kompatibilitet
 
-Windows 10- eller 11-datorer med 64 bitar. Datorer med hög prestanda rekommenderas om du vill köra stora shower. Ju snabbare datorn är, desto mjukare blir den animerade laserutmatningen.
+Windows 10- eller 11-datorer med 64 bitar. Datorer med hög prestanda rekommenderas om du vill köra stora shower. Ju snabbare datorn är, desto jämnare blir den animerade laserutmatningen.
 
 ### Installationsprocess
 
@@ -57,7 +57,7 @@ Installationsprogrammet är klart! Klicka på _Finish_ för att stänga det och 
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation behöver behörighet att komma åt filer och nätverket, så Windows kommer troligen att visa flera förfrågningar. Se till att acceptera allt, annars kanske Liberation inte fungerar korrekt.
+Liberation behöver behörighet att komma åt filer och nätverket, så Windows kommer troligen att visa några behörighetsmeddelanden. Se till att acceptera allt, annars kanske Liberation inte fungerar korrekt.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

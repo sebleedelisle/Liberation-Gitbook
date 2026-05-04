@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Chuyển nội dung của bạn khi nâng cấp lên phiên bản mới
 
-Liberation lưu nội dung trong thư mục làm việc của nó (xem [Nơi tìm thư mục làm việc](../troubleshooting/where-to-find-the-working-folder.md)), và thư mục này thay đổi theo mỗi bản phát hành mới. Nếu bạn muốn giữ các tệp làm việc từ phiên bản cũ sang phiên bản mới:
+Liberation lưu nội dung trong thư mục làm việc của nó (xem [Nơi tìm thư mục làm việc](../troubleshooting/where-to-find-the-working-folder.md "mention")), và thư mục này thay đổi theo mỗi bản phát hành mới. Nếu bạn muốn giữ các tệp làm việc từ phiên bản cũ sang phiên bản mới:
 
 1. Mở phiên bản Liberation gốc
 2. Dùng _File->Project->Export Project_. Thao tác này lưu mọi thứ trong Liberation của bạn: thiết lập laser, timelines, Clip Deck, tất cả!

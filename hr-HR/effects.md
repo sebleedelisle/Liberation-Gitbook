@@ -8,7 +8,7 @@ metaLinks:
 
 Sustav efekata u aplikaciji Liberation zabavan je i svestran način za promjenu izlaza Clip sadržaja u stvarnom vremenu. Efekti su potpuno fleksibilni i mogu se koristiti za bljeskanje, uključivanje i isključivanje, vrtnju, promjenu boja ili čak nasumično kretanje!
 
-Sve što možete napraviti u Clip Editor može se koristiti kao efekt. Zapravo, efekti se uređuju istim node editorom kao i Clips! Pogledajte [Uređivanje efekata](effects.md#editing-effects). Kreativne mogućnosti praktički su beskonačne.
+Sve što možete napraviti u Clip Editor može se koristiti kao efekt. Zapravo, efekti se uređuju istim node editorom kao i Clips! Pogledajte [Uređivanje efekata](effects.md#editing-effects "mention"). Kreativne mogućnosti praktički su beskonačne.
 
 Zadani gumbi za efekte 1–8 nalaze se ispod gumba za zone, a efekti 9–24 mali su gumbi pri dnu.
 
@@ -17,7 +17,7 @@ Zadani gumbi za efekte 1–8 nalaze se ispod gumba za zone, a efekti 9–24 mali
 Pritisnite gumb efekta da biste ga uključili ili isključili, ili još bolje, koristite APC40 klizače 1–8 za postupno pojačavanje i smanjivanje efekata. Za postupno uvođenje efekta bez APC40, kliknite gumb i povlačite gore-dolje. Možete i kliknuti desnom tipkom miša na gumb efekta i podesiti klizač razine.
 
 {% hint style="warning" %}
-Pritiskom na gumb efekta taj će se efekt odmah aktivirati. Međutim, imajte na umu da se ništa neće dogoditi ako je razina postavljena na nulu! Kliknite/povucite gumb za promjenu razine, kliknite desnom tipkom miša i upotrijebite klizač _level_ ili upotrijebite APC40 fadere.
+Pritiskom na gumb efekta taj će se efekt odmah aktivirati. Međutim, imajte na umu da se ništa neće dogoditi ako je razina postavljena na nulu! Kliknite i povucite gumb za promjenu razine, kliknite desnom tipkom miša i upotrijebite klizač _level_ ili upotrijebite APC40 fadere.
 {% endhint %}
 
 #### Efekti i odgoda za zone u Clip
@@ -32,16 +32,16 @@ Rekao bih da je to jedan od najzabavnijih i najkreativnijih alata ugrađenih u L
 
 #### Parametri efekta
 
-Dodajte parametar svojem efektu pomoću _Parameter node_. Sustav Parameter način je za podešavanje više postavki unutar efekta izvana. Pogledajte [Upravljanje parametrima](clip-editor/oscillators/parameter-control.md) za više informacija.
+Dodajte parametar svojem efektu pomoću _Parameter node_. Sustav Parameter način je za podešavanje više postavki unutar efekta izvana. Pogledajte [Upravljanje parametrima](clip-editor/oscillators/parameter-control.md "mention") za više informacija.
 
 Upotrijebite rotacijske kontrolere 1–8 za podešavanje _parameter_ za svaki efekt. Možete i kliknuti desnom tipkom miša na gumb efekta i podesiti klizač ili klizače parametara. Promjena parametra radi različite stvari, ovisno o tome kako je efekt postavljen. U nastavku je popis zadanih efekata i objašnjenje što rade njihovi parametri.
 
 {% hint style="info" %}
-Rotacijski kontroleri 1–8 nalaze se uz gornji rub APC40 Mk2, a na Mk1 gore desno. Pogledajte i: [APC40 referenca](reference/apc40-reference.md)
+Rotacijski kontroleri 1–8 nalaze se uz gornji rub APC40 Mk2, a na Mk1 gore desno. Pogledajte i: [APC40 referenca](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
-Mali brojevi koje vidite na gumbima efekata odnose se na _level_ i _parameter_ efekta. _level_ se kontrolira faderom na APC40 ili klikom i povlačenjem po gumbu. Parameter se podešava rotacijskim kontrolerima na APC40 ili desnim klikom za podešavanje mišem.
+Mali brojevi koje vidite na gumbima efekata odnose se na _level_ i _parameter_ efekta. _level_ se kontrolira faderom na APC40 ili možete kliknuti i povlačiti po gumbu. Parametar se podešava rotacijskim kontrolerima na APC40 ili desnim klikom za podešavanje mišem.
 {% endhint %}
 
 #### Zadani efekti
@@ -59,9 +59,9 @@ Mali brojevi koje vidite na gumbima efekata odnose se na _level_ i _parameter_ e
 5. **Scale** :\
    Neprestano skalira sve elemente od pune veličine do nule. Parametar podešava brzinu.
 6. **Hue** :\
-   Mijenja nijansu svega, ali ne mijenja zasićenje (tj. sve što je bijelo ostaje bijelo). Parametar podešava nijansu.
+Mijenja nijansu svega, ali ne mijenja zasićenje (tj. sve što je bijelo ostaje bijelo). Parametar podešava nijansu.
 7. **Saturation and hue** :\
-   Mijenja nijansu svega i također potpuno zasićuje boju (tj. sve što je bijelo mijenja se u tu boju). Parametar podešava nijansu.
+Mijenja nijansu svega i također potpuno zasićuje boju (tj. sve što je bijelo mijenja se u tu boju). Parametar podešava nijansu.
 8. **Flash** :\
    Neprestano bljeska svjetlinom svega od pune vrijednosti do nule. Parametar podešava brzinu bljeskanja.
 
@@ -89,7 +89,7 @@ Ova je funkcionalnost onemogućena ako je postavka _MX Group_ postavljena na 0.
 
 Kliknite desnom tipkom miša na bilo koji efekt i kliknite gumb _EDIT EFFECT_ da biste otvorili editor efekta. Primijetite da je ovaj editor isti kao Clip Editor!
 
-Uređujte efekt na isti način na koji biste uređivali bilo koji Clip. Pogledajte [Clip Editor](clip-editor/).
+Uređujte efekt na isti način na koji biste uređivali bilo koji Clip. Pogledajte [Clip Editor](clip-editor/ "mention").
 
 Morate imati barem jedan node tipa Creator; to može biti bilo što (linija, krug, oblik, čak i tekst!), ali vjerojatno biste trebali odabrati nešto što ima najviše smisla u pretpregledu gumba efekta.
 

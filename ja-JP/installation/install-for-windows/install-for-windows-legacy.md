@@ -9,7 +9,7 @@ metaLinks:
 
 ### 互換性
 
-Windows 10 または 11 の 64 bit マシンに対応しています。大規模なショーを実行する場合は、高スペックなマシンを推奨します。コンピューターが高速であるほど、アニメーション付きのレーザー出力はより滑らかになります。
+Windows 10 または 11 の 64-bit マシンに対応しています。大規模なショーを実行する場合は、高スペックなマシンを推奨します。コンピューターが高速であるほど、アニメーション付きのレーザー出力はより滑らかになります。
 
 ### インストール手順
 
@@ -23,7 +23,7 @@ _Download latest for Windows_（バージョン番号は変わる場合があり
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-ダウンロードフォルダーが開きます。ダウンロードしたファイル（通常は一番上にあります）を見つけて右クリックし、"Extract all" を選択します。
+Downloads フォルダーが開きます。ダウンロードしたファイル（通常は一番上にあります）を見つけて右クリックし、"Extract all" を選択します。
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Windows による展開が完了すると、インストールファイルが表
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation はファイルとネットワークにアクセスする権限が必要なため、Windows がいくつかの確認ダイアログを表示する場合があります。すべて許可してください。許可しないと、Liberation が正しく動作しないことがあります。
+Liberation はファイルとネットワークにアクセスする権限が必要なため、Windows がいくつかの権限確認プロンプトを表示する場合があります。すべて許可してください。許可しないと、Liberation が正しく動作しないことがあります。
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

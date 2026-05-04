@@ -7,13 +7,13 @@ metaLinks:
 
 # ✅ Slik fungerer lisensiering
 
-Når du har installert Liberation på datamaskinen din, kjører programmet i _demomodus_ til du _autoriserer_ det.
+Når du har installert Liberation på datamaskinen din, kjører programmet i _gratismodus_ til du _autoriserer_ det.
 
 {% hint style="info" %}
-Det er ingen begrensninger i _demomodus_, bortsett fra utgang til laserutstyr. Du kan øve på show, bygge tidslinjer og lagre og åpne filer uten begrensninger. Du kan installere Liberation i _demomodus_ på så mange datamaskiner du vil, og du trenger først å autorisere installasjonen når du er klar til å bruke lasere!
+Det er ingen begrensninger i _gratismodus_, bortsett fra utgang til laserutstyr. Du kan øve på show, bygge tidslinjer og lagre og åpne filer uten begrensninger. Du kan installere Liberation i _gratismodus_ på så mange datamaskiner du vil, og du trenger først å autorisere installasjonen når du er klar til å bruke lasere!
 {% endhint %}
 
-I tillegg til hvor mange lasere som kan være armed, kan du også bruke DMX-armaturer. Se [DMX / Art-Net](../dmx-control/).
+I tillegg til hvor mange lasere som kan være armed, kan du også bruke DMX-armaturer. Se [DMX / Art-Net](../dmx-control/ "mention").
 
 Det finnes også en grense for hvor mange datamaskiner du kan autorisere Liberation på, avhengig av abonnementsnivået ditt.
 
@@ -28,3 +28,5 @@ Hver lisens er kun for én bruker og ett show om gangen. Du kan ha mer enn én i
 Lisensiering og autorisering i Liberation fungerer over internett. Appen kobler til serveren vår for å knytte en installasjon til abonnementet ditt.
 
 Når installasjonen er autorisert, trenger den ikke å være på nett igjen før abonnementet fornyes. Du kan se fornyelsesdatoen i _About_-panelet. Det finnes en kort fristperiode (7 dager for månedsabonnement), men vi anbefaler at du går på nett så snart som mulig etter fornyelsesdatoen for å sikre at autorisasjonen fornyes og forblir aktiv.
+
+Gjeldende lisensnivå vises også i topplinjen. Klikk på nivånavnet, eller _FREE MODE_ når programmet ikke er lisensiert, for å åpne About-panelet.

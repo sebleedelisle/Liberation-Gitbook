@@ -8,7 +8,7 @@ metaLinks:
 
 在編輯與調整 zone 時，輸出 test pattern 會很有幫助。你可以使用上方圖示列中的切換按鈕，在每個已啟用的 zone 上開啟 test pattern，並用其右側的滑桿選擇 test pattern。
 
-如果你只想在目前正在設定 zone 的雷射上顯示 test pattern，請使用 _Output_ view 左側工具列上的切換按鈕。點按或拖曳下方的數字即可選擇 test pattern。
+如果你只想在目前正在設定 zone 的雷射上顯示 test pattern，請使用 _Output_ view 左側工具列上的切換按鈕。點按並拖曳下方的數字即可選擇 test pattern。
 
 ### Test pattern 清單
 
@@ -19,7 +19,7 @@ metaLinks:
 3. 水平綠線：4 條等距的水平線。
 4. 垂直綠線：4 條等距的垂直線。
 
-色彩校正 pattern 5–8。這些 pattern 可搭配雷射設定中的色彩校正系統使用。請參閱[色彩校正](../advanced/colour-calibration.md)。這些 pattern 不會填滿整個輸出空間。
+色彩校正 pattern 5–8。這些 pattern 可搭配雷射設定中的色彩校正系統使用。請參閱[色彩校正](../advanced/colour-calibration.md "mention")。這些 pattern 不會填滿整個輸出空間。
 
 5. 色彩校正 pattern：紅色。
 6. 色彩校正 pattern：綠色。

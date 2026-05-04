@@ -12,7 +12,7 @@ A Liberation összes lézeres tartalma Clips formájában van tárolva.
 
 A Clip tartalmazhat atmoszférikus beam effektet vagy grafikus animációt, és általában ismétlődő ciklusként működik. Bármely zone területre (vagy Canvas Target Area területre) irányítható, és a Clip Deck felületén található Clip gombokkal indítható.
 
-A Clip tartalma a sokoldalú, node-alapú Clip Editor rendszerben készül. (További részletekért lásd: [Bevezetés a Clip Editor használatába](../clip-editor/clip-editor-intro.md))
+A Clip tartalma a sokoldalú, node-alapú Clip Editor rendszerben készül. (További részletekért lásd: [Bevezetés a Clip Editor használatába](../clip-editor/clip-editor-intro.md "mention"))
 
 ### A Clip Deck
 

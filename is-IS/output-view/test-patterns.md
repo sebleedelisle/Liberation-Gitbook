@@ -8,7 +8,7 @@ metaLinks:
 
 Þegar þú breytir og stillir zone er gagnlegt að senda út test pattern. Þú getur kveikt á test pattern fyrir öll virk zone með rofahnappnum á efri táknastikunni og valið test pattern með sleðanum hægra megin við hann.
 
-Ef þú vilt aðeins nota test pattern á þeim laser sem þú ert að stilla zone fyrir skaltu nota rofahnappinn á tækjastikunni vinstra megin í _Output_ view. Smelltu á töluna fyrir neðan hann eða dragðu hana til að velja test pattern.
+Ef þú vilt aðeins nota test pattern á þeim laser sem þú ert að stilla zone fyrir skaltu nota rofahnappinn á tækjastikunni vinstra megin í _Output_ view. Smelltu á töluna fyrir neðan hann og dragðu hana til að velja test pattern.
 
 ### Listi yfir test pattern
 
@@ -19,7 +19,7 @@ Hér er heildarlisti yfir test pattern. Mynstrin fylla allt úttakssvæði hvers
 3. Láréttar grænar línur - 4 láréttar línur með jöfnu millibili.
 4. Lóðréttar grænar línur - 4 lóðréttar línur með jöfnu millibili.
 
-Litakvörðunarmynstur 5-8. Hægt er að nota þau samhliða litaleiðréttingarkerfinu í Laser Settings. Sjá [Litakvörðun](../advanced/colour-calibration.md). Þessi mynstur fylla ekki allt úttakssvæðið.
+Litakvörðunarmynstur 5-8. Hægt er að nota þau samhliða litaleiðréttingarkerfinu í Laser Settings. Sjá [Litakvörðun](../advanced/colour-calibration.md "mention"). Þessi mynstur fylla ekki allt úttakssvæðið.
 
 5. Litakvörðunarmynstur - rautt.
 6. Litakvörðunarmynstur - grænt.

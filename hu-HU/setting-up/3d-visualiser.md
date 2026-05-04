@@ -42,7 +42,7 @@ Ezek a beállítások főként a 3D térben lévő virtuális kamerára vonatkoz
 
 ### Tartalombeállítások
 
-Ezek a beállítások határozzák meg, hogy a lézerek (és a canvas) hol helyezkednek el a 3D környezetben. Látsz egy legördülő menüt is ezekhez a beállításokhoz tartozó presetekkel, amelyeket elmenthetsz és újra betölthetsz.
+Ezek a beállítások határozzák meg, hogy a lézerek (és a Canvas) hol helyezkednek el a 3D környezetben. Látsz egy legördülő menüt is ezekhez a beállításokhoz tartozó presetekkel, amelyeket elmenthetsz és újra betölthetsz.
 
 #### Lézerek
 

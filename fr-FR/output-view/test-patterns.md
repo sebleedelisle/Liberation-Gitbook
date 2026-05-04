@@ -8,7 +8,7 @@ metaLinks:
 
 Lorsque vous modifiez et ajustez votre zone, il est utile d’envoyer une mire de test. Vous pouvez activer une mire de test sur toutes les zones activées avec le bouton bascule dans la barre d’icônes supérieure, puis choisir la mire de test avec le curseur situé à sa droite.
 
-Si vous voulez afficher une mire de test uniquement sur le laser dont vous êtes en train de configurer la zone, utilisez le bouton bascule de la barre d’outils à gauche de la vue _Output_. Cliquez/faites glisser le nombre situé en dessous pour sélectionner la mire de test.
+Si vous voulez afficher une mire de test uniquement sur le laser dont vous êtes en train de configurer la zone, utilisez le bouton bascule de la barre d’outils à gauche de la vue _Output_. Cliquez sur le nombre situé en dessous et faites-le glisser pour sélectionner la mire de test.
 
 ### Liste des mires de test
 

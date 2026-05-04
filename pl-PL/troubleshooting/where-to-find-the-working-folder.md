@@ -9,10 +9,10 @@ metaLinks:
 
 #### Gdzie znaleźć folder roboczy
 
-Każda wersja Liberation ma własny folder roboczy. Na przykład, jeśli używasz wersji 1.0.0, nazwa folderu będzie brzmieć 1.0.0.
+Każda wersja Liberation ma własny folder roboczy. Na przykład, jeśli używasz wersji 1.0.3, nazwa folderu będzie brzmieć 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Jak szybko otworzyć ten folder**
 
@@ -24,7 +24,7 @@ Każda wersja Liberation ma własny folder roboczy. Na przykład, jeśli używas
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Otwórz folder odpowiadający numerowi Twojej wersji, na przykład `1.0.0`.
+3. Otwórz folder odpowiadający numerowi Twojej wersji, na przykład `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Każda wersja Liberation ma własny folder roboczy. Na przykład, jeśli używas
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Otwórz folder odpowiadający numerowi Twojej wersji, na przykład `1.0.0`.
+2. Otwórz folder odpowiadający numerowi Twojej wersji, na przykład `1.0.3`.
 
 > **Wskazówka dla Windows**: Jeśli przeglądasz foldery w Eksploratorze plików, włącz elementy ukryte: **View > Show > Hidden items**.

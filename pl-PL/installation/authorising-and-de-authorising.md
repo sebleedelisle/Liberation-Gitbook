@@ -9,7 +9,7 @@ metaLinks:
 
 ### Autoryzacja Liberation
 
-Przy pierwszym uruchomieniu Liberation program będzie działać w _trybie demo_ i zobaczysz _About panel:_
+Przy pierwszym uruchomieniu Liberation program będzie działać w _trybie bezpłatnym_ i zobaczysz _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Jeśli autoryzowano już maksymalną liczbę komputerów dostępną w Twojej sub
 Jeśli masz wiele subskrypcji, pojawi się prośba o wybranie subskrypcji, do której chcesz przypisać komputer.
 {% endhint %}
 
-Gratulacje! Twoja instalacja Liberation została autoryzowana i możesz wysyłać sygnał do laserów. Przed uzbrojeniem laserów przeczytaj jednak [Szybki start](../getting-started.md) oraz [Przegląd procesu konfiguracji laserów](../setting-up/setting-up-lasers.md).
+Gratulacje! Twoja instalacja Liberation została autoryzowana i możesz wysyłać sygnał do laserów. Przed uzbrojeniem laserów przeczytaj jednak [Szybki start](../getting-started.md "mention") oraz [Przegląd procesu konfiguracji laserów](../setting-up/setting-up-lasers.md "mention").
 
 {% hint style="info" %}
 Możesz otworzyć _About panel_ w dowolnym momencie z menu _Liberation -> About Liberation_ albo _Liberation -> Authorise/Deauthorise this computer_

@@ -25,4 +25,4 @@ Se toimii kuitenkin erittäin hyvin ja luo vaikutelman mustalla täytetystä muo
 
 ### Syvyyslajittelu
 
-Koska jotkin muodot voivat _peittää_ muita muotoja, Liberationin on lajiteltava ne syvyyden mukaan. Oletuksena elementit lajitellaan syvyyden mukaan niiden z-sijainnin perusteella. Jos ne ovat samassa z-sijainnissa, ne lajitellaan tasosijainnin mukaan. Tätä voi muuttaa kunkin creatorin sisällä olevilla _MOVE TO FRONT_ ja _MOVE TO BACK_ -painikkeilla.
+Koska jotkin muodot voivat _peittää_ muita muotoja, Liberationin on lajiteltava ne syvyyden mukaan. Oletuksena elementit lajitellaan syvyyden mukaan niiden z-sijainnin perusteella. Jos ne ovat samassa z-sijainnissa, ne lajitellaan tasosijainnin mukaan. Tätä voi muuttaa kunkin Creatorin sisällä olevilla _MOVE TO FRONT_ ja _MOVE TO BACK_ -painikkeilla.

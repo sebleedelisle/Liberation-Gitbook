@@ -23,7 +23,7 @@ Kliknij strefę prawym przyciskiem myszy i przełącz przyciski z numerami, aby 
 OSTRZEŻENIE — jeśli laser jest uzbrojony, możesz nagle rozpocząć projekcję zawartości w domyślnej strefie Canvas. Najlepiej rozbroić laser przed przypisaniem do niego stref Canvas.
 {% endhint %}
 
-Jeśli przejdziesz teraz do widoku _OUTPUT_ dla tego lasera, zobaczysz tam strefę Canvas, którą można edytować dokładnie tak jak każdą strefę wiązki. Zobacz [Zones](../output-view/zones.md).
+Jeśli przejdziesz teraz do widoku _OUTPUT_ dla tego lasera, zobaczysz tam strefę Canvas, którą można edytować dokładnie tak jak każdą strefę wiązki. Zobacz [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Możesz też dodać strefę Canvas do lasera bezpośrednio z widoku _OUTPUT_ — kliknij przycisk _Add existing canvas zone_ na lewym pasku narzędzi.

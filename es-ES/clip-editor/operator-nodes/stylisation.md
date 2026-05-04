@@ -36,6 +36,7 @@ Crea ecos de tu contenido, dejando copias que se desvanecen o cambian de escala 
   * 128 = 1/2 compás (blanca)
   * 256 = 1 compás
 * **trail size** – cuántas copias de rastro se dibujan detrás del contenido en vivo.
+* **prefill trails** – rellena inmediatamente el historial de la estela cuando se inicia el Clip, en lugar de esperar a que los ecos se vayan acumulando durante los primeros beats.
 * **freeze trails** – convierte rastros de movimiento fluido en una secuencia de instantáneas congeladas. Útil para crear efectos de rastro staccato sincronizados al ritmo.
 * **brightness start / brightness end** – aplica brillo a lo largo del rastro, desde la copia más reciente (**start**) hasta la más antigua (**end**). Normalmente, si ajustas **brightness start** al 100% y **brightness end** al 0%, los ecos se desvanecerán.
 * **scale start / scale end** – aplica escala a lo largo del rastro, desde la copia más reciente (start) hasta la más antigua (end). Para rastros que se encogen hasta desaparecer, ajusta **scale start** al 100% y **scale end** al 0%.

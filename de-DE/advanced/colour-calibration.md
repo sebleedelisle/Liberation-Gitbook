@@ -24,7 +24,9 @@ Verwende die Testbilder für die Kalibrierung (siehe [Testmuster](../output-view
 * **7** – Blue
 * **8** – White
 
-Jedes dieser Testbilder zeigt vier bewegte Linien:
+Jedes dieser Testbilder zeigt vier bewegte Linien. Die Helligkeit in einem Lasersystem hängt nicht nur vom Leistungspegel ab, sondern auch davon, wie lange der Strahl an einer Stelle verweilt. Wenn sich die Scanner schneller bewegen, bleibt der Strahl kürzer auf jedem Punkt und wirkt dunkler.
+
+Um das zu berücksichtigen, skalieren die Testbilder Helligkeit und Geschwindigkeit gemeinsam:
 
 * **Obere Linie** – 100% Helligkeit bei voller Geschwindigkeit
 * **Zweite Linie** – 75% Helligkeit bei 75% Geschwindigkeit

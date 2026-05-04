@@ -24,14 +24,16 @@ Brug testmønstrene til kalibrering (se [Testmønstre](../output-view/test-patte
 * **7** – Blå
 * **8** – Hvid
 
-Hvert af disse viser fire bevægelige linjer:
+Hvert af disse viser fire bevægelige linjer. Lysstyrken i et lasersystem påvirkes ikke kun af effektniveauet, men også af hvor længe strålen opholder sig ét sted. Når scannerne bevæger sig hurtigere, bruger strålen mindre tid på hvert punkt og ser svagere ud.
+
+For at tage højde for dette skalerer testmønstrene både lysstyrke og hastighed sammen:
 
 * **Øverste linje** – 100 % lysstyrke ved fuld hastighed
 * **Anden linje** – 75 % lysstyrke ved 75 % hastighed
 * **Tredje linje** – 50 % lysstyrke ved 50 % hastighed
 * **Fjerde linje** – 25 % lysstyrke ved 25 % hastighed
 
-Fordi både lysstyrke _og hastighed_ skaleres sammen, bør alle linjerne se ud til at have samme lysstyrke. Hvis en linje ser lysere eller mørkere ud, skal du justere den tilsvarende skyder, indtil de matcher.
+Fordi både lysstyrke _og hastighed_ skaleres sammen, bør alle linjerne se ud til at have samme lysstyrke. Hvis en linje ser lysere eller svagere ud, skal du justere den tilsvarende skyder, indtil de matcher.
 
 Hvert testmønster har også en femte linje ved **0 % lysstyrke**, som ikke bør være synlig. Den bruges til at korrigere for lasere, der ikke udsender lys ved meget lave niveauer. Hvis din laser forbliver usynlig ved lav lysstyrke, skal du gradvist øge **0% setting**, indtil linjen lige akkurat bliver synlig, og derefter sænke den lidt igen, indtil den forsvinder. Målet er at finde tærsklen, hvor laseren begynder at lyse, og derefter holde sig lige under den – så dine fades starter naturligt uden at afskære det nederste område.
 

@@ -9,7 +9,7 @@ metaLinks:
 
 A lézerek bekapcsolása izgalmas lehet, de létfontosságú, hogy _le is tudd állítani_ őket! A lézeres hardver és szoftver általában nagyon megbízható, de bármi meghibásodhat. És ha ez ritkán meg is történik, nagyon hálás leszel azért a távoli leállítógombért.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Távoli leállítógomb egy Laser Cube-hoz. A legfontosabb hardvered.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Az elektromos szerszámokon és nehézgépeken olyan leállítógombok vannak, amelyek egyszerűen megszakítják a fő tápellátást, de lézeres berendezésnél ezt **soha** ne tedd! A lézereknek mindig kell egy kis idő, amíg megszűnik a kibocsátás, és egy hirtelen áramkimaradás miatt a lézerszkennerek a végállásaikba csapódhatnak. Így könnyen erős nyalábot kaphatsz váratlan helyeken!

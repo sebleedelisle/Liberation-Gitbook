@@ -16,7 +16,7 @@ Athugaðu að Global Transformations hafa engin áhrif á það sem er á Canvas
 
 ### Scale X/Y
 
-Láréttur og lóðréttur skali. Þessi gildi eru læst saman nema þú ýtir á `Shift`. Sjálfgefið eru þau einnig tengd við APC40 Device Control hnappana 4 og 8 og birtast á spjaldinu hægra megin við Clip Deck.
+Láréttur og lóðréttur skali. Þessi gildi eru læst saman nema þú ýtir á `Shift`. Sjálfgefið eru þau einnig tengd við APC40 Device Control hnappana 4 og 8 og birtast á samhengisbundna Parameters spjaldinu hægra megin við Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Lárétt og lóðrétt hliðrun. Færir allt til lárétt eða lóðrétt.
 
 ### Spin
 
-Snýr öllu efni um miðjuna. Jákvætt gildi snýr réttsælis, neikvætt gildi snýr rangsælis. Þú sérð að þessi stilling hefur áhrif á umbreytinguna _Rotation_. Sjálfgefið er hún tengd við APC40 Device Control hnapp 3 og birtist á spjaldinu hægra megin við Clip Deck.
+Snýr öllu efni um miðjuna. Jákvætt gildi snýr réttsælis, neikvætt gildi snýr rangsælis. Þú sérð að þessi stilling hefur áhrif á umbreytinguna _Rotation_. Sjálfgefið er hún tengd við APC40 Device Control hnapp 3 og birtist á samhengisbundna Parameters spjaldinu hægra megin við Clip Deck.
 
 ### Spin 3D
 
-Snýr öllu efni um Y-ásinn (sem er lóðrétt lína í miðjunni). Þú sérð að þessi stilling hefur áhrif á umbreytinguna _Rotation3D_. Sjálfgefið er hún tengd við APC40 Device Control hnapp 7 og birtist á spjaldinu hægra megin við Clip Deck.
+Snýr öllu efni um Y-ásinn (sem er lóðrétt lína í miðjunni). Þú sérð að þessi stilling hefur áhrif á umbreytinguna _Rotation3D_. Sjálfgefið er hún tengd við APC40 Device Control hnapp 7 og birtist á samhengisbundna Parameters spjaldinu hægra megin við Clip Deck.
 
 ### Rotation
 

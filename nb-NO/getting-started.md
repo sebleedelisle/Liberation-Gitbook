@@ -74,7 +74,7 @@ Det store området øverst til venstre på skjermen kan være én av 3 hovedvisn
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D-visningen viser hvordan laserne dine vil se ut, og kan konfigureres slik at den samsvarer med ditt eget laseroppsett. Klikk og dra for å rotere kameraet, og bruk musehjulet for å bevege deg fremover og bakover. Du finner mange andre alternativer i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](setting-up/3d-visualiser.md "mention").
+3D view viser hvordan laserne dine vil se ut, og kan konfigureres slik at den samsvarer med ditt eget laseroppsett. Klikk og dra for å rotere kameraet, og bruk musehjulet for å bevege deg fremover og bakover. Du finner mange andre alternativer i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](setting-up/3d-visualiser.md "mention").
 
 #### Output-visning
 
@@ -93,7 +93,7 @@ En sone er et område innenfor en lasers utgang som du kan sende laserinnhold ti
 Du kan velge laseren du vil redigere, på en av disse måtene:
 
 * de nummererte knappene i linjen øverst
-* trykke på talltasten for laseren du vil bruke _(1-9_-tastene\_)\_
+* trykke på talltasten for laseren du vil bruke (_1-9 keys_)
 * `Tab`-tasten for å gå videre fra én til den neste
 
 Legg til en ny laser i oppsettet ved å trykke på _+_-knappen. (Det finnes også en _ADD LASER_-knapp i panelet _Laser Overview_)
@@ -120,7 +120,7 @@ Selv om det er mulig å styre Liberation med mus og tastatur, er det mye bedre �
 
 Se også: [APC40-referanse](reference/apc40-reference.md "mention")
 
-Vi har nå også implementert støtte for APC Mini Mark 2 og MIDI Fighter Twister, og flere er under utvikling. Men APC40 Mark 2 er det beste alternativet i de fleste tilfeller.
+Liberation støtter også APC Mini og MIDI Fighter Twister. APC40 Mark 2 er fortsatt det beste alternativet i de fleste tilfeller.
 
 ### Clips og effekter
 
@@ -168,7 +168,7 @@ To rader under soneknappene ser du X/Y flip-knappene. Slå disse av eller på fo
 Merk at disse sonetildelingene og X/Y flip-innstillingene er knyttet til selve clipen. De beholdes neste gang du kjører den clipen. De er ikke en global innstilling.
 {% endhint %}
 
-Høyreklikk på en clip for å redigere flere innstillinger for clipen. Se også [Clip settings](clips/clip-settings.md "mention")
+Høyreklikk på en Clip for å redigere flere innstillinger for den. Se også [Clip settings](clips/clip-settings.md "mention")
 
 ### Grupper
 
@@ -225,9 +225,9 @@ _\*Dreiekontroller 1–8 ligger langs toppen av en APC40 Mk2 og øverst til høy
 5. **Scale** :\
    Skalerer alt gjentatte ganger fra fullt til null. Parameteren justerer hastigheten.
 6. **Hue** :\
-   Endrer nyansen på alt, men endrer ikke metningen (dvs. alt som er hvitt forblir hvitt). Parameteren justerer nyansen.
+Endrer nyansen på alt, men endrer ikke metningen (dvs. alt som er hvitt forblir hvitt). Parameteren justerer nyansen.
 7. **Saturation and hue** :\
-   Endrer nyansen på alt og metter også fargen helt (dvs. alt som er hvitt endres til fargen). Parameteren justerer nyansen.
+Endrer nyansen på alt og metter også fargen helt (dvs. alt som er hvitt endres til fargen). Parameteren justerer nyansen.
 8. **Flash** :\
    Blinker lysstyrken på alt gjentatte ganger fra fullt til null. Parameteren justerer blinkehastigheten.
 
@@ -265,7 +265,7 @@ Nesten alle laseroppsetninger har en form for musikalsk lydspor, så timingsyste
 
 <figure><img src=".gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Det finnes flere synkroniseringsalternativer, blant annet MIDI clock og Ableton Link. Hvis du kjenner tempoet på musikken, kan du justere det manuelt med skyvebryteren på skjermen eller APC40 Tempo-knotten, men du kan også holde takten med musikken ved å bruke _Tap Tempo_-systemet\_.\_
+Det finnes flere synkroniseringsalternativer, blant annet MIDI clock og Ableton Link. Hvis du kjenner tempoet på musikken, kan du justere det manuelt med skyvebryteren på skjermen eller APC40 Tempo-knotten, men du kan også holde takten med musikken ved å bruke _Tap Tempo_-systemet.
 
 #### Tap Tempo
 
@@ -287,7 +287,7 @@ Trykk på `Alt / Option`-tasten mens du drar for å lage en kopi.
 
 Klikk og dra vil dra ALLE valgte clips.
 
-For å slette én eller flere clips kan du enten dra dem ut av Clip Deck (et søppelbøtteikon vises) eller bruke DELETE-knappen fra høyreklikkmenyen for clipen.
+For å slette én eller flere Clips kan du enten dra dem ut av Clip Deck (et søppelbøtteikon vises) eller bruke DELETE-knappen fra høyreklikkmenyen for Clip-en.
 
 ### Laser Overview-panel
 

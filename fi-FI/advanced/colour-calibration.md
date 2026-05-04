@@ -17,23 +17,25 @@ Laserdiodien toiminta muuttuu niiden lämmetessä. Anna projektorin aina vakautu
 
 #### Kalibrointitestin toiminta
 
-Käytä kalibrointiin testikuvioita (katso [Testikuviot](../output-view/test-patterns.md))
+Käytä kalibrointiin testikuvioita (katso [Testikuviot](../output-view/test-patterns.md "mention"))
 
 * **5** – Punainen
 * **6** – Vihreä
 * **7** – Sininen
 * **8** – Valkoinen
 
-Jokainen näistä näyttää neljä liikkuvaa viivaa:
+Jokainen näistä näyttää neljä liikkuvaa viivaa. Laserjärjestelmässä kirkkauteen vaikuttaa tehotason lisäksi myös se, kuinka kauan säde viipyy yhdessä kohdassa. Kun skannerit liikkuvat nopeammin, säde viipyy kussakin pisteessä lyhyemmän ajan ja näyttää himmeämmältä.
+
+Tämän huomioimiseksi testikuviot skaalaavat kirkkautta ja nopeutta yhdessä:
 
 * **Ylin viiva** – 100 % kirkkaus täydellä nopeudella
 * **Toinen viiva** – 75 % kirkkaus 75 % nopeudella
 * **Kolmas viiva** – 50 % kirkkaus 50 % nopeudella
 * **Neljäs viiva** – 25 % kirkkaus 25 % nopeudella
 
-Koska sekä kirkkautta _että nopeutta_ skaalataan yhdessä, kaikkien viivojen pitäisi näyttää yhtä kirkkailta. Jos jokin viiva näyttää vaaleammalta tai tummemmalta, säädä vastaavaa liukusäädintä, kunnes viivat vastaavat toisiaan.
+Koska sekä kirkkautta _että nopeutta_ skaalataan yhdessä, kaikkien viivojen pitäisi näyttää yhtä kirkkailta. Jos jokin viiva näyttää kirkkaammalta tai himmeämmältä, säädä vastaavaa liukusäädintä, kunnes viivat vastaavat toisiaan.
 
-Jokaisessa testikuviossa on myös viides viiva **0 % kirkkaudella**, eikä sen pitäisi näkyä. Tätä käytetään korjaamaan lasereita, jotka eivät tuota lainkaan valoa hyvin matalilla tasoilla. Jos laser pysyy näkymättömänä matalalla kirkkaudella, nosta **0% setting** -arvoa vähitellen, kunnes viiva juuri tulee näkyviin, ja pienennä sitä sitten hieman, kunnes viiva katoaa uudelleen. Tavoitteena on löytää kynnys, jossa laser alkaa syttyä, ja pysyä juuri sen alapuolella – näin häivytykset alkavat luonnollisesti ilman, että alin säätöalue leikkautuu pois.
+Jokaisessa testikuviossa on myös viides viiva **0 % kirkkaudella**, eikä sen pitäisi näkyä. Tätä käytetään korjaamaan lasereita, jotka eivät tuota lainkaan valoa hyvin matalilla tasoilla. Jos laser pysyy näkymättömänä matalalla kirkkaudella, nosta **0% setting** -asetusta vähitellen, kunnes viiva juuri tulee näkyviin, ja pienennä sitä sitten hieman, kunnes viiva katoaa uudelleen. Tavoitteena on löytää kynnys, jossa laser alkaa syttyä, ja pysyä juuri sen alapuolella – näin häivytykset alkavat luonnollisesti ilman, että alin säätöalue leikkautuu pois.
 
 #### Colour Calibration -paneelin käyttö
 

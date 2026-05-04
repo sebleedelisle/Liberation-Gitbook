@@ -14,7 +14,13 @@ Cambia el tamaño de salida del clip con _Scale X_ y _Scale Y_. Están vinculado
 
 Cambia la posición horizontal y vertical del clip con _Shift X_ y _Shift Y_.
 
-_Zone Delay/Chase_ es una función tan divertida que tiene su propia sección. [Zone delay / chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ es una función tan divertida que tiene su propia sección. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Panel Parameters
+
+El panel situado a la derecha del Clip Deck muestra ocho parámetros contextuales. Con un Clip seleccionado, los primeros controles son _Shift X_, _Shift Y_ y _Zone Delay_ del Clip seleccionado, seguidos de los controles globales _Spin_ y _Scale_.
+
+Estos mismos parámetros se replican en los controladores MIDI compatibles. Si no hay ningún Clip seleccionado, los espacios específicos del Clip aparecen en blanco. Si mantienes pulsado un botón de grupo, los dos primeros controles cambian a los tiempos de fundido de entrada y fundido de salida de ese grupo.
 
 ### Bloquear clips
 
@@ -27,9 +33,9 @@ Si un clip está bloqueado, no se puede mover ni eliminar. Para bloquear un clip
 
 ### Menú contextual
 
-Si haces clic derecho en un clip, aparece un menú con algunas de las opciones de ese clip. Consulta [Introducción al Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Ajustes de Clip](clip-settings.md "mention") y [Grupos de Clip](groups.md "mention") para saber más sobre los primeros elementos de este menú.
+Si haces clic derecho en un Clip, aparece un menú con algunas de las opciones de ese Clip. Consulta [Introducción al Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Ajustes de Clip](clip-settings.md "mention") y [Grupos de Clip](groups.md "mention")para saber más sobre los primeros elementos de este menú.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>El menú contextual de ajustes del clip</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 
@@ -47,6 +53,6 @@ Los clips suelen estar diseñados para reproducirse en bucle indefinidamente, pe
 
 ### Tiempo de entrada/salida de transición (fundido)
 
-Los clips se pueden configurar para que hagan fundido de entrada y salida con una duración medida en segundos. De forma predeterminada, el tiempo de fundido se hereda de los ajustes de su grupo (y se puede cambiar haciendo clic derecho en el botón del grupo).
+Los Clips se pueden configurar para que hagan fundido de entrada y salida con una duración medida en segundos. De forma predeterminada, el tiempo de fundido se hereda de los ajustes de su grupo (y se puede cambiar haciendo clic derecho en el botón del grupo).
 
 Si quieres una duración de fundido distinta a la del grupo del clip, primero desactiva el botón _USE GROUP DEFAULT_ y después ajusta los deslizadores _In time_ y _Out time_ del clip.

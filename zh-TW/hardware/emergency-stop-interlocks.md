@@ -9,7 +9,7 @@ metaLinks:
 
 啟動雷射很有趣，但能夠把它們_停下來_更是至關重要！雷射硬體和軟體通常都非常可靠，但任何東西都有可能故障。而在少數真的發生故障的時候，你一定會很慶幸手邊有那顆遠端停止按鈕。
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>LaserCube 的遠端停止按鈕。這是你擁有的最重要硬體。</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 電動工具和重型設備上的停止按鈕，通常只是切斷主電源；但在雷射設備上，你**絕對不應該**這樣做！雷射停止發射一定會需要一點時間，而且突然斷電可能會讓雷射掃描器打到極限位置。這樣很可能會讓高強度光束出現在意想不到的位置！

@@ -23,7 +23,7 @@ Klik op _Download latest for Windows_ (de versienummers kunnen verschillen). Je 
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Hiermee wordt je downloadmap geopend. Zoek het gedownloade bestand (meestal bovenaan), klik er met de rechtermuisknop op en selecteer "Extract all".
+Hiermee wordt je map Downloads geopend. Zoek het gedownloade bestand (meestal bovenaan), klik er met de rechtermuisknop op en selecteer "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Nadat Windows klaar is met uitpakken, wordt het installatiebestand getoond. Dubb
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation heeft toestemming nodig om toegang te krijgen tot bestanden en het netwerk, dus Windows zal waarschijnlijk een aantal meldingen tonen. Zorg dat je alles accepteert, anders werkt Liberation mogelijk niet goed.
+Liberation heeft toestemming nodig om toegang te krijgen tot bestanden en het netwerk, dus Windows zal waarschijnlijk een paar toestemmingsmeldingen tonen. Zorg dat je alles accepteert, anders werkt Liberation mogelijk niet goed.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

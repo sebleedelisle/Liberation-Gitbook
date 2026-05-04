@@ -20,10 +20,10 @@ Heureusement, le problème se corrige facilement en réinitialisant vos paramèt
 
 #### Où trouver le dossier de travail
 
-Chaque version de Liberation possède son propre dossier de travail. Par exemple, si vous utilisez la version 1.0.0, le dossier s’appellera 1.0.0.
+Chaque version de Liberation possède son propre dossier de travail. Par exemple, si vous utilisez la version 1.0.3, le dossier s’appellera 1.0.3.
 
-* **macOS** : `~/Library/Application Support/Liberation/1.0.0`
-* **Windows** : `AppData\Local\Liberation\1.0.0`
+* **macOS** : `~/Library/Application Support/Liberation/1.0.3`
+* **Windows** : `AppData\Local\Liberation\1.0.3`
 
 **Comment ouvrir rapidement le dossier**
 
@@ -35,7 +35,7 @@ Chaque version de Liberation possède son propre dossier de travail. Par exemple
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Ouvrez le dossier correspondant à votre numéro de version, par exemple `1.0.0`.
+3. Ouvrez le dossier correspondant à votre numéro de version, par exemple `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Chaque version de Liberation possède son propre dossier de travail. Par exemple
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Ouvrez le dossier correspondant à votre numéro de version, par exemple `1.0.0`.
+2. Ouvrez le dossier correspondant à votre numéro de version, par exemple `1.0.3`.
 
 > **Astuce pour Windows** : si vous parcourez les dossiers avec File Explorer, activez les éléments masqués : **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 Dans le dossier liberation, vous devriez trouver un fichier appelé `settings.json`. Supprimez ce fichier.
 
-* **Exemple macOS** : `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Exemple Windows** : `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **Exemple macOS** : `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Exemple Windows** : `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Essayez maintenant de lancer Liberation. S’il s’ouvre, c’est terminé.
 
@@ -84,9 +84,9 @@ Essayez de relancer Liberation. S’il s’ouvre maintenant normalement, veuille
 Si l’étape 1 et l’étape 2 n’ont pas résolu le problème :
 
 1. **Sauvegardez** tout le dossier de version :
-   * macOS : faites un clic droit sur le dossier `1.0.0` et choisissez **Compress** pour créer un fichier zip, ou copiez-le dans un emplacement sûr comme le Desktop.
-   * Windows : faites un clic droit sur le dossier `1.0.0` et choisissez **Send to > Compressed (zipped) folder**, ou copiez-le dans un emplacement sûr comme le Desktop.
-2. Après la sauvegarde, **supprimez** le dossier `1.0.0` d’origine depuis l’emplacement de travail de Liberation.
+* macOS : faites un clic droit sur le dossier `1.0.3` et choisissez **Compress** pour créer un fichier zip, ou copiez-le dans un emplacement sûr comme le Desktop.
+* Windows : faites un clic droit sur le dossier `1.0.3` et choisissez **Send to > Compressed (zipped) folder**, ou copiez-le dans un emplacement sûr comme le Desktop.
+2. Après la sauvegarde, **supprimez** le dossier `1.0.3` d’origine depuis l’emplacement de travail de Liberation.
 3. Relancez Liberation. Il recréera un nouveau dossier de travail propre.
 
 Si Liberation s’ouvre maintenant, passez à l’étape 4.
@@ -103,10 +103,10 @@ Compressez votre **sauvegarde** de l’étape 3 si ce n’est pas déjà fait, p
 * **Objet** : Correction du démarrage de Liberation - sauvegarde du dossier de travail
 * **Message** : veuillez inclure :
   * Système d’exploitation et version (par exemple macOS 14.6 ou Windows 11 23H2)
-  * Version de Liberation (par exemple 1.0.0)
+* Version de Liberation (par exemple 1.0.3)
   * L’étape qui a résolu le problème, le cas échéant (étape 1, étape 2 ou étape 3)
   * Une brève description de ce qui s’est passé avant l’apparition du problème
-* **Pièce jointe** : la sauvegarde compressée de votre dossier de travail `1.0.0`.
+* **Pièce jointe** : la sauvegarde compressée de votre dossier de travail `1.0.3`.
 
 > Si le fichier zip est trop volumineux pour un e-mail, téléversez-le sur un service de stockage cloud et partagez un lien.
 
@@ -127,5 +127,5 @@ Si Liberation ne s’ouvre toujours pas après la suppression du dossier de trav
 
 1. Supprimez `data/liberation/settings.json` dans le dossier de travail correspondant à votre version.
 2. Si vous étiez en train de modifier un clip, sauvegardez puis supprimez `data/liberation/clipEdit.json`.
-3. S’il ne s’ouvre toujours pas, sauvegardez puis supprimez tout le dossier `1.0.0` (ou celui de votre version).
+3. S’il ne s’ouvre toujours pas, sauvegardez puis supprimez tout le dossier `1.0.3` (ou celui de votre version).
 4. Si l’étape 3 résout le problème (ou même si ce n’est pas le cas), compressez la sauvegarde et envoyez-la à [**info@liberationlaser.com**](mailto:info@liberationlaser.com) avec votre système d’exploitation et votre version de Liberation.

@@ -15,7 +15,7 @@ Alt-zone-systemet lader dig oprette en alternativ zone for en eksisterende zone 
 
 ### Tilføj en alternativ zone
 
-I Output view skal du højreklikke på en zone og klikke på _ADD ALT ZONE_. Bemærk, at der vises en ny grøn zone. Du kan redigere og justere den på præcis samme måde som dine andre zoner. Du skal aktivere Alt-zoner i den øverste ikonlinje for at se testmønstrene.
+I Output view skal du højreklikke på en zone og klikke på _ADD ALT ZONE_. Bemærk, at der vises en ny grøn zone. Du kan redigere og justere den på præcis samme måde som dine andre zones. Du skal aktivere Alt-zoner i den øverste ikonlinje for at se testmønstrene.
 
 ### Skift til dine Alt-zoner
 
@@ -23,4 +23,4 @@ Så snart du tilføjer en alt-zone, vises der en til/fra-knap i den øverste iko
 
 ### Sådan deaktiverer du en zone i stedet for at flytte den
 
-Tilføj en Alt-zone, højreklik på den, og klik på knappen _Disable output_ (cirkel med en streg igennem). Når du nu aktiverer Alt-zoner, bliver indhold omdirigeret til denne nu deaktiverede alt-zone.
+Tilføj en Alt-zone, højreklik på den, og klik på knappen _Disable output_ (cirkel med en streg igennem). Når du nu aktiverer Alt-zoner, bliver indhold omdirigeret til denne nu deaktiverede Alt-zone.

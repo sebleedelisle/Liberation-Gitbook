@@ -9,7 +9,7 @@ metaLinks:
 
 Bu node ailesi, içeriği konuma göre değiştirir. Varsayılan olarak efekt yatay bir eksen boyunca uygulanır (soldan sağa), ancak bu ekseni istediğin açıya döndürebilirsin. Her node ayrıca _radial_ modu içerir; bu modda efekt, her noktanın merkeze göre açısıyla belirlenir.
 
-* **Colour Changer by Position** – seçilen eksen boyunca veya radial açı çevresinde renkleri kaydırır.\
+* **Colour Changer by Position** – seçilen eksen boyunca veya radial açı çevresinde bir gradyan uygular.\
   \&#xNAN;_Örnek: Bir çizgi boyunca akan gökkuşağı gradyanı oluştur veya bir dairede radial modu kullanarak renk çarkı efekti üret._
 * **Wave Shift by Position** – sinüs dalgası bozulması uygular ve içeriği dikey olarak (veya seçilen eksene dik yönde) kaydırır.\
   \&#xNAN;_Örnek: Bir çizgiyi su gibi dalgalandır veya radial modu kullanarak bir dairenin merkezden dışa doğru nabız gibi atmasını sağla._
@@ -29,10 +29,11 @@ Bu node, içeriğinde konuma göre renk değişiklikleri uygular. Varsayılan ol
 * **linear angle** – efektin eksenini döndürür. 0° = yatay.
 * **radial** – radial moda geçer ve renkleri merkezden olan açıya göre uygular.
 * **radial smooth loop** – wavelength değerini dairenin 100% değerine eşit bölünecek şekilde otomatik ayarlar; böylece döngünün sarıldığı yerde görünür bir ek oluşmasını önler.
+* **legacy mode** – eski başlangıç/bitiş HSB kaydırıcılarına geri döner. Yeni gradyan düzenleyiciyi kullanmak için bunu kapalı bırak.
 
 **Renk Modları**
 
-Bunlar, renk ayarlarının hangi yönlerinin içeriğe uygulanacağını belirler. Ayrıca bkz.: [Renk ayarları ve HSB](../fundamentals/colour-settings-and-hsb.md).
+Bunlar, renk ayarlarının hangi yönlerinin içeriğe uygulanacağını belirler. Ayrıca bkz.: [Renk ayarları ve HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – hue değişmez.
@@ -46,17 +47,32 @@ Bunlar, renk ayarlarının hangi yönlerinin içeriğe uygulanacağını belirle
   * _FIXED_ – brightness belirtilen değere ayarlanır.
   * _MULTIPLY_ – brightness belirtilen değerle ölçeklenir. Bu, dinamikleri korur (ör. yanıp sönen öğeler yine yanıp söner, ancak sınırlı brightness aralığında kalır).
 
-**Başlangıç / Bitiş Değerleri**
+**Gradyan düzenleyici**
 
-Bu kaydırıcılar, seçilen eksen boyunca (veya radial tarama boyunca) uygulanacak renk aralığını tanımlar.
+[Colour Changer](colour-changer.md "mention") ile aynı gradyan düzenleyiciyi kullanır, ancak gradyanı içeriğe konuma göre eşler.
 
-* **start hue** – gradyanın başlangıcındaki hue.
-* **end hue** – gradyanın sonundaki hue.
-* **start saturation** – başlangıçtaki saturation.
-* **end saturation** – sondaki saturation.
-* **start brightness** – başlangıçtaki brightness.
-* **end brightness** – sondaki brightness.
+* Bir renk durağı eklemek için gradyan çubuğuna tıkla.
+* Bir durağı seçmek için sol tıkla, ardından taşımak için yana doğru sürükle.
+* Seçili bir durağı kaldırmak için çubuktan aşağı doğru uzağa sürükle veya Delete/Backspace tuşuna bas. Bir gradyanda her zaman en az iki durak kalır.
+* Bir durağı renk seçiciyle düzenlemek için sağ tıkla.
+* Seçili durağı hassas şekilde düzenlemek için **Position**, **Hue**, **Saturation** ve **Brightness** kullan.
+* **interpolation**, renklerin duraklar arasında nasıl karıştırılacağını seçer:
+* **HSB** – hue, saturation ve brightness değerlerini karıştırır. Renk çarkı etrafında yumuşak gökkuşağı tarzı hareket için en uygunudur.
+* **RGB** – kırmızı, yeşil ve mavi değerlerini doğrudan karıştırır. Bu genellikle ekran veya ışık konsolu renk geçişine daha çok benzer.
+* **NONE** – karıştırma yapmadan bir duraktan diğerine atlar.
+* **hue direction**, HSB interpolation içinde kullanılabilir:
+* **AUTO** – hue çarkı üzerinde en kısa yolu kullanır.
+* **FORWARDS** – hue değerleri içinde her zaman ileri yönde ilerler.
+* **BACKWARDS** – hue değerleri içinde her zaman geri yönde ilerler.
 * **blend** – renk değişimini orijinal renklerle karıştırır. 100% değerinde efekt, orijinal renklerin tamamen yerini alır.
+
+**Eski başlangıç / bitiş değerleri**
+
+**legacy mode** açıksa gradyan düzenleyicinin yerini eski kontroller alır:
+
+* **start hue / end hue** – aralığın başlangıcındaki ve sonundaki hue.
+* **start saturation / end saturation** – aralığın başlangıcındaki ve sonundaki saturation.
+* **start brightness / end brightness** – aralığın başlangıcındaki ve sonundaki brightness.
 
 **Örnek 1: Kayan Gökkuşağı Gradyanı**
 
@@ -64,7 +80,7 @@ Varsayılan ayarlarla başlayarak:
 
 1. Node için **Linear** modu açık bırak (0° açı = yatay).
 2. **wavelength** değerini 100% olarak bırak (tam genişliği kaplar ve varsayılan bu olmalıdır).
-3. Başlangıç ve bitiş değerlerini varsayılan olarak bırak.
+3. Varsayılan gradyanı olduğu gibi bırak.
 4. **repeat** seçeneğini etkinleştir.
 5. **offset** ayarına 0% ile 100% arasında giden bir **Sawtooth Oscillator** ekle.
 
@@ -77,13 +93,12 @@ Varsayılan ayarlarla başlayarak:
 1. Node için **Linear** modu açık bırak (0° açı = yatay).
 2. **wavelength** değerini 100% olarak bırak (tam genişliği kaplar ve varsayılan bu olmalıdır).
 3. **repeat** seçeneğini kapat.
-4. **start brightness** değerini 0 yap (siyah).
-5. **end brightness** değerini 100 yap (beyaz).
-6. **start saturation** ve **end saturation** değerlerini 0 yap (gri tonlamaya dönüştürür).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. **pingpong** seçeneğini etkinleştir.
+4. İlk gradyan durağını siyah yap.
+5. Son gradyan durağını beyaz yap.
+6. **hue mode** değerini OFF yap.
+7. Sonucu gri tonlamaya zorlamak istiyorsan **saturation mode** değerini FIXED yap.
+8. **brightness mode** değerini FIXED yap.
+9. **pingpong** özelliğini etkinleştir.
 
 _Sonuç: gradyan genişlik boyunca siyahtan beyaza, sonra tekrar siyaha döner._\
 İçeriğin kendi hue ve saturation değerlerini korumasını istiyorsan Saturation mode seçeneğini OFF yap. \\
@@ -127,5 +142,6 @@ Bu node, içeriği bir noise alanı (türbülans gibi) kullanarak bozar ve nokta
 * **Depth Offset** – 3D noise alanı içinde ilerler ve zaman içinde değişim oluşturur. Bir Oscillator Node ile canlandırıldığında özellikle etkilidir.
 * **Depth Detail** – derinlik boyutu boyunca değişimin ne kadar ayrıntılı olacağını kontrol eder.
 * **Absolute** – noise değerinin mutlak değerini alır ve negatif değerleri pozitiflere katlar (yalnızca tek taraflı yer değiştirme üretir).
+* **Angle** – linear mode içinde noise eksenini döndürür. 0° = yatay.
 * **Radial** – linear moddan radial moda geçer; böylece yer değiştirme merkezden olan açıya göre belirlenir.
 * **Radial Smooth Loop** – wavelength değerini dairenin 100% değerine eşit bölünecek şekilde ayarlar; radial modda görünür ek oluşmasını önler.

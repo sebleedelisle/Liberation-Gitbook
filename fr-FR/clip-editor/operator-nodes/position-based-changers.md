@@ -9,7 +9,7 @@ metaLinks:
 
 Cette famille de nodes modifie le contenu en fonction de la position. Par défaut, l’effet est appliqué le long d’un axe horizontal (de gauche à droite), mais vous pouvez faire pivoter cet axe à n’importe quel angle. Chaque node inclut aussi un mode _radial_, dans lequel l’effet est piloté par l’angle de chaque point par rapport au centre.
 
-* **Colour Changer by Position** – décale les couleurs le long de l’axe choisi, ou autour de l’angle radial.\
+* **Colour Changer by Position** – applique un dégradé le long de l’axe choisi, ou autour de l’angle radial.\
   \&#xNAN;_Exemple : créez un dégradé arc-en-ciel qui traverse une ligne, ou utilisez le mode radial sur un cercle pour produire un effet de roue chromatique._
 * **Wave Shift by Position** – applique une distorsion en onde sinusoïdale, en décalant le contenu verticalement (ou perpendiculairement à l’axe choisi).\
   \&#xNAN;_Exemple : faites onduler une ligne comme de l’eau, ou utilisez le mode radial pour faire pulser un cercle vers l’extérieur depuis le centre._
@@ -29,6 +29,7 @@ Ce node applique des changements de couleur à votre contenu en fonction de la p
 * **linear angle** – fait pivoter l’axe de l’effet. 0° = horizontal.
 * **radial** – passe en mode radial, en appliquant les couleurs selon l’angle depuis le centre.
 * **radial smooth loop** – ajuste automatiquement la longueur d’onde pour qu’elle se divise exactement dans 100 % du cercle, afin d’éviter une jointure visible à l’endroit où le cycle se referme.
+* **legacy mode** – revient aux anciens sliders HSB de début/fin. Laissez cette option désactivée pour utiliser le nouvel éditeur de dégradé.
 
 **Modes de couleur**
 
@@ -46,17 +47,32 @@ Ces modes déterminent quels aspects des ajustements de couleur sont appliqués 
   * _FIXED_ – la luminosité est définie sur la valeur indiquée.
   * _MULTIPLY_ – la luminosité est multipliée par la valeur indiquée. Cela préserve les dynamiques (par exemple, les éléments qui clignotent continuent de clignoter, mais dans la plage de luminosité limitée).
 
-**Valeurs de début / fin**
+**Éditeur de dégradé**
 
-Ces sliders définissent la plage de couleur appliquée le long de l’axe choisi (ou du balayage radial).
+Utilise le même éditeur de dégradé que [Colour Changer](colour-changer.md "mention"), mais applique le dégradé au contenu en fonction de la position.
 
-* **start hue** – la teinte au début du dégradé.
-* **end hue** – la teinte à la fin du dégradé.
-* **start saturation** – la saturation au début.
-* **end saturation** – la saturation à la fin.
-* **start brightness** – la luminosité au début.
-* **end brightness** – la luminosité à la fin.
+* Cliquez sur la barre de dégradé pour ajouter un arrêt de couleur.
+* Faites un clic gauche sur un arrêt pour le sélectionner, puis faites-le glisser horizontalement pour le déplacer.
+* Faites glisser un arrêt sélectionné vers le bas, à l’écart de la barre, ou appuyez sur Delete/Backspace pour le supprimer. Un dégradé conserve toujours au moins deux arrêts.
+* Faites un clic droit sur un arrêt pour le modifier avec le sélecteur de couleur.
+* Utilisez **Position**, **Hue**, **Saturation** et **Brightness** pour modifier précisément l’arrêt sélectionné.
+* **interpolation** choisit la manière dont les couleurs sont mélangées entre les arrêts :
+* **HSB** – mélange la teinte, la saturation et la luminosité. C’est le meilleur choix pour un mouvement fluide de type arc-en-ciel autour de la roue des couleurs.
+* **RGB** – mélange directement les valeurs rouge, verte et bleue. Le résultat ressemble souvent davantage à un fondu de couleur sur un écran ou une console lumière.
+* **NONE** – passe d’un arrêt au suivant sans mélange.
+* **hue direction** est disponible avec l’interpolation HSB :
+* **AUTO** – emprunte le chemin le plus court autour de la roue des teintes.
+* **FORWARDS** – parcourt toujours les valeurs de teinte vers l’avant.
+* **BACKWARDS** – parcourt toujours les valeurs de teinte vers l’arrière.
 * **blend** – mélange le changement de couleur avec les couleurs d’origine. À 100 %, l’effet remplace entièrement les couleurs d’origine.
+
+**Valeurs de début / fin héritées**
+
+Si **legacy mode** est activé, l’éditeur de dégradé est remplacé par les anciens contrôles :
+
+* **start hue / end hue** – teinte au début et à la fin de la plage.
+* **start saturation / end saturation** – saturation au début et à la fin de la plage.
+* **start brightness / end brightness** – luminosité au début et à la fin de la plage.
 
 **Exemple 1 : dégradé arc-en-ciel glissant**
 
@@ -64,7 +80,7 @@ En partant des réglages par défaut :
 
 1. Laissez le node en mode **Linear** (angle de 0° = horizontal).
 2. Laissez **wavelength** à 100 % (couvre toute la largeur, ce qui devrait être le réglage par défaut).
-3. Laissez les valeurs de début et de fin par défaut.
+3. Conservez le dégradé par défaut.
 4. Activez **repeat**.
 5. Ajoutez un **Sawtooth Oscillator** au réglage **offset**, allant de 0 % à 100 %.
 
@@ -77,13 +93,12 @@ En partant des réglages par défaut :
 1. Laissez le node en mode **Linear** (angle de 0° = horizontal).
 2. Laissez **wavelength** à 100 % (couvre toute la largeur, ce qui devrait être le réglage par défaut).
 3. Désactivez **repeat**.
-4. Réglez **start brightness** sur 0 (noir).
-5. Réglez **end brightness** sur 100 (blanc).
-6. Réglez **start saturation** et **end saturation** sur 0 (convertit en niveaux de gris).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Activez **pingpong**.
+4. Réglez le premier arrêt du dégradé sur noir.
+5. Réglez le dernier arrêt du dégradé sur blanc.
+6. Réglez **hue mode** sur OFF.
+7. Réglez **saturation mode** sur FIXED si vous voulez forcer le résultat en niveaux de gris.
+8. Réglez **brightness mode** sur FIXED.
+9. Activez **pingpong**.
 
 _Résultat : le dégradé passe du noir au blanc, puis revient au noir sur toute la largeur._\
 Notez que si vous voulez que le contenu conserve sa teinte et sa saturation, désactivez Saturation mode (OFF). \\
@@ -127,5 +142,6 @@ Ce node déforme le contenu à l’aide d’un champ de bruit (comme une turbule
 * **Depth Offset** – se déplace dans le champ de bruit 3D, en créant une variation dans le temps. C’est particulièrement efficace lorsqu’il est animé avec un Oscillator Node.
 * **Depth Detail** – contrôle le niveau de détail de la variation dans la dimension de profondeur.
 * **Absolute** – prend la valeur absolue du bruit, en repliant les valeurs négatives vers les positives (ce qui produit uniquement un déplacement d’un seul côté).
+* **Angle** – fait pivoter l’axe du bruit en mode linéaire. 0° = horizontal.
 * **Radial** – passe du mode linéaire au mode radial, afin que le déplacement soit basé sur l’angle depuis le centre.
 * **Radial Smooth Loop** – ajuste la longueur d’onde pour qu’elle se divise exactement dans 100 % du cercle, afin d’éviter les jointures visibles en mode radial.

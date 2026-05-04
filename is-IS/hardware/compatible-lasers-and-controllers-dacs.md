@@ -78,4 +78,4 @@ Til að fá sem besta afköst skaltu hafa USB DACs nálægt tölvunni og tengja 
 
 Ef þú notar Ether Dreams geturðu samt haft þau öll saman og tengt við leysitækin með löngum ILDA köplum, eða þú getur sett þau upp nálægt leysitækjunum og notað lengri netkapla.
 
-Besta uppsetningin er að hafa Ether Dreams (eða aðra controllers) innbyggða beint í leysitækin þín (Rob hjá Stanwax Laser getur gert þetta fyrir þig í Bretlandi)
+Besta uppsetningin er að hafa Ether Dreams (eða aðra laserstýringar) innbyggða beint í leysitækin þín (Rob hjá Stanwax Laser getur gert þetta fyrir þig í Bretlandi)

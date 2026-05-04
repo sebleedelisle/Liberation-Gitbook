@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Přenos obsahu při přechodu na novou verzi
 
-Liberation ukládá obsah do své pracovní složky (viz [Kde najít pracovní složku](../troubleshooting/where-to-find-the-working-folder.md)) a ta se mění s každou novou vydanou verzí. Pokud chcete zachovat své pracovní soubory ze staré verze i v nové:
+Liberation ukládá obsah do své pracovní složky (viz [Kde najít pracovní složku](../troubleshooting/where-to-find-the-working-folder.md "mention")) a ta se mění s každou novou vydanou verzí. Pokud chcete zachovat své pracovní soubory ze staré verze i v nové:
 
 1. Otevřete původní verzi Liberation.
 2. Použijte _File->Project->Export Project_. Tím se uloží vše v Liberation: nastavení laserů, timelines, Clip Deck, zkrátka všechno!

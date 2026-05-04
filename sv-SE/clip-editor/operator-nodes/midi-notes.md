@@ -13,14 +13,14 @@ Skapar effekter i stil med en “laserharpa”, där inkommande MIDI-noter trigg
 
 Du kan välja vilket MIDI-gränssnitt Liberation lyssnar på i **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – vilken MIDI-kanal som ska lyssnas på (0 = alla kanaler, 1–16 = specifik kanal)
+* **MIDI channel** – vilken MIDI-kanal som ska lyssnas på (0 = alla kanaler, 1–16 = specifik kanal)
 * **width** – den totala bredden som noterna sprids över.
-* **midi note min / max** – de lägsta och högsta MIDI-notvärdena i intervallet.
+* **MIDI note min / max** – de lägsta och högsta MIDI-notvärdena i intervallet.
 * **ignore out of range notes** – filtrerar bort alla noter utanför det angivna intervallet. Om detta är avstängt begränsas noter utanför intervallet till närmaste tillgängliga not (höga noter triggar överkanten av intervallet, låga noter triggar nederkanten).
 * **auto extend range** – breddar automatiskt intervallet om noter spelas utanför det.
 
 {% hint style="info" %}
-Osäker på vilket notintervall du får in? Slå på **auto extend range**, sätt **midi note min** riktigt högt och **midi note max** riktigt lågt, och spela sedan igenom dina noter. Systemet fångar upp dem alla och utökar intervallet åt dig. När du har fått med allt stänger du bara av **auto extend range** för att låsa intervallet.
+Osäker på vilket notintervall du får in? Slå på **auto extend range**, sätt **MIDI note min** riktigt högt och **MIDI note max** riktigt lågt, och spela sedan igenom dina noter. Systemet fångar upp dem alla och utökar intervallet åt dig. När du har fått med allt stänger du bara av **auto extend range** för att låsa intervallet.
 {% endhint %}
 
 * **leave all notes visible** – skapar strålar eller former för alla noter i intervallet, oavsett om de spelas eller inte, vilket ger en “laserharpa”-effekt.

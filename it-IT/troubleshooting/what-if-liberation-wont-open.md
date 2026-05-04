@@ -20,10 +20,10 @@ Per fortuna, si risolve facilmente reimpostando le impostazioni locali. Ecco com
 
 #### Dove trovare la cartella di lavoro
 
-Ogni versione di Liberation ha la propria cartella di lavoro. Per esempio, se stai usando la versione 1.0.0, il nome della cartella sarà 1.0.0.
+Ogni versione di Liberation ha la propria cartella di lavoro. Per esempio, se stai usando la versione 1.0.3, il nome della cartella sarà 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Come aprire rapidamente la cartella**
 
@@ -35,7 +35,7 @@ Ogni versione di Liberation ha la propria cartella di lavoro. Per esempio, se st
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Apri la cartella che corrisponde al numero della tua versione, per esempio `1.0.0`.
+3. Apri la cartella che corrisponde al numero della tua versione, per esempio `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Ogni versione di Liberation ha la propria cartella di lavoro. Per esempio, se st
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Apri la cartella che corrisponde al numero della tua versione, per esempio `1.0.0`.
+2. Apri la cartella che corrisponde al numero della tua versione, per esempio `1.0.3`.
 
 > **Suggerimento per Windows**: se navighi tramite File Explorer, abilita gli elementi nascosti: **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 Dentro la cartella liberation dovresti trovare un file chiamato `settings.json`. Elimina questo file.
 
-* **Esempio macOS**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Esempio Windows**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **Esempio macOS**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Esempio Windows**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Ora prova ad avviare Liberation. Se si apre, hai finito.
 
@@ -84,9 +84,9 @@ Prova ad avviare di nuovo Liberation. Se ora si apre normalmente, invia via emai
 Se il Passaggio 1 e il Passaggio 2 non hanno risolto il problema:
 
 1. Esegui un **backup** dell’intera cartella della versione:
-   * macOS: fai clic destro sulla cartella `1.0.0` e scegli **Compress** per creare uno zip, oppure copiala in un posto sicuro, per esempio sul Desktop.
-   * Windows: fai clic destro sulla cartella `1.0.0` e scegli **Send to > Compressed (zipped) folder**, oppure copiala in un posto sicuro, per esempio sul Desktop.
-2. Dopo aver creato il backup, **elimina** la cartella originale `1.0.0` dalla posizione di lavoro di Liberation.
+* macOS: fai clic destro sulla cartella `1.0.3` e scegli **Compress** per creare uno zip, oppure copiala in un posto sicuro, per esempio sul Desktop.
+* Windows: fai clic destro sulla cartella `1.0.3` e scegli **Send to > Compressed (zipped) folder**, oppure copiala in un posto sicuro, per esempio sul Desktop.
+2. Dopo aver creato il backup, **elimina** la cartella originale `1.0.3` dalla posizione di lavoro di Liberation.
 3. Avvia di nuovo Liberation. Verrà ricreata una nuova cartella di lavoro pulita.
 
 Se ora Liberation si apre, passa al Passaggio 4.
@@ -103,10 +103,10 @@ Comprimi in formato zip il **backup** del Passaggio 3, se non l’hai già fatto
 * **Oggetto**: Liberation start-up fix - working folder backup
 * **Corpo del messaggio**: includi:
   * Sistema operativo e versione (per esempio macOS 14.6 o Windows 11 23H2)
-  * Versione di Liberation (per esempio 1.0.0)
+* Versione di Liberation (per esempio 1.0.3)
   * Quale passaggio ha risolto il problema, se applicabile (Passaggio 1, Passaggio 2 o Passaggio 3)
   * Una breve descrizione di cosa è successo prima che iniziasse il problema
-* **Allegato**: il backup compresso in zip della tua cartella di lavoro `1.0.0`.
+* **Allegato**: il backup compresso in zip della tua cartella di lavoro `1.0.3`.
 
 > Se lo zip è troppo grande per l’email, caricalo su un cloud drive e condividi un link.
 
@@ -127,5 +127,5 @@ Se Liberation continua a non aprirsi dopo aver eliminato la cartella di lavoro:
 
 1. Elimina `data/liberation/settings.json` nella cartella di lavoro della tua versione.
 2. Se stavi modificando un Clip, esegui un backup e poi elimina `data/liberation/clipEdit.json`.
-3. Se continua a non aprirsi, esegui un backup e poi elimina l’intera cartella `1.0.0` (o quella della tua versione).
+3. Se continua a non aprirsi, esegui un backup e poi elimina l’intera cartella `1.0.3` (o quella della tua versione).
 4. Se il Passaggio 3 risolve il problema (o anche se non lo risolve), comprimi il backup in zip e invialo a [**info@liberationlaser.com**](mailto:info@liberationlaser.com) indicando il sistema operativo e la versione di Liberation.

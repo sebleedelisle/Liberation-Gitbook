@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Siirtää kaiken sisällön x-, y- ja/tai z-akselia pitkin. Huomaa, että koordinaatisto on keskitetty ja ulottuu x- ja y-akseleilla arvoihin +/-200. Katso [Koordinaatisto](../fundamentals/co-ordinate-system.md).
+Siirtää kaiken sisällön x-, y- ja/tai z-akselia pitkin. Huomaa, että koordinaatisto on keskitetty ja ulottuu x- ja y-akseleilla arvoihin +/-200. Katso [Koordinaatisto](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - etäisyys, jonka sisältö siirtyy x-akselilla (vasen–oikea).
 * **y** - etäisyys, jonka sisältö siirtyy y-akselilla (ylä–ala).
@@ -20,7 +20,7 @@ Siirtää kaiken sisällön x-, y- ja/tai z-akselia pitkin. Huomaa, että koordi
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Kiertää kaiken sisällön. Arvot ovat asteina. Katso [Koordinaatisto](../fundamentals/co-ordinate-system.md).
+Kiertää kaiken sisällön. Arvot ovat asteina. Katso [Koordinaatisto](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - määrä asteina, jonka sisältöä kierretään myötäpäivään. Kaikki kierretään origon (0,0) eli keskikohdan ympäri.
 * **pivot point x / pivot point y** - Näillä arvoilla voit siirtää kierron origopistettä.

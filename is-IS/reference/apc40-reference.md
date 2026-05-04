@@ -19,7 +19,7 @@ metaLinks:
 9. Hnappahópar
 10. Stoppa öll Clips (ýttu tvisvar til að stoppa öll Clips strax án fade-stillinga þeirra)
 11. Skruna í Clip Deck
-12. Clip / víðværar breytur
+12. Stýringar í Contextual Parameters panel
 13. Clip Page til vinstri/hægri
 14. Zone Page til vinstri/hægri
 15. Alt-hnappur (gerir kleift að velja Clip)
@@ -35,3 +35,5 @@ metaLinks:
 25. Hnika tempo + og -
 26. Skruna tempo
 27. Fótrofi, Tap Tempo
+
+Device Control-snúðarnir fylgja sömu samhengisbundnu breytunum og birtast í Parameters panel á skjánum. Þegar Clip er valið stjórna þeir clip shift, zone delay, global spin og global scale. Ef group-hnappi er haldið niðri skipta fyrstu stýringarnar yfir í fade in- og fade out-tíma þess hóps.

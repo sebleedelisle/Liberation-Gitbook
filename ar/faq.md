@@ -30,17 +30,17 @@ metaLinks:
 
 #### **ما MIDI controllers التي يمكنني استخدامها؟**
 
-تم تصميم Liberation وتحسينه حول MIDI controller الشائع APC40 Mk2. كما يعمل أيضًا مع APC40 Mk1. راجع [التحكم المباشر باستخدام APC40](midi-control/live-control-with-the-apc40.md)
+تم تصميم Liberation وتحسينه حول MIDI controller الشائع APC40 Mk2. كما يعمل أيضًا مع APC40 Mk1. راجع [التحكم المباشر باستخدام APC40](midi-control/live-control-with-the-apc40.md "mention")
 
-نضيف المزيد من MIDI controllers تدريجيًا مع الوقت، وندعم حاليًا أيضًا APC Mini Mk2 وMIDI Fighter Twister.
+يدعم Liberation أيضًا APC Mini وMIDI Fighter Twister. ولا يزال APC40 Mk2 هو وحدة التحكم المرجعية الأكثر اكتمالًا.
 
-يوجد أيضًا نظام MIDI Send/Receive الذي يوفر تحكمًا إضافيًا عبر MIDI. راجع [إرسال/استقبال MIDI](midi-control/midi-send-receive.md)
+يوجد أيضًا نظام MIDI Send/Receive الذي يوفر تحكمًا إضافيًا عبر MIDI. راجع [إرسال/استقبال MIDI](midi-control/midi-send-receive.md "mention")
 
-راجع [التحكم عبر MIDI](midi-control/) لمزيد من المعلومات.
+راجع [التحكم عبر MIDI](midi-control/ "mention") لمزيد من المعلومات.
 
 #### **هل يمكنني استخدامه مع أي MIDI controller؟**
 
-نعمل حاليًا على نظام MIDI قابل للتهيئة سيتيح ذلك مستقبلًا. في الوقت الحالي، نجح بعض المستخدمين في استخدام مفسّر MIDI يمكنه تحويل أي رسائل MIDI لتعمل مع نظام MIDI Send/Receive، لكن هذه عملية دقيقة ومتقدمة. ابحث في [المنتدى](https://forum.liberationlaser.com) للحصول على نصائح حول هذا الإعداد، لكن عمليًا يبقى APC40 هو الخيار الأفضل.
+بالنسبة إلى وحدات التحكم الأخرى، استخدم نظام MIDI Send/Receive أو مترجم MIDI يمكنه إرسال رسائل MIDI الافتراضية الخاصة بـ Liberation. ابحث في [المنتدى](https://forum.liberationlaser.com) للحصول على نصائح حول هذا الإعداد، لكن عمليًا لا يزال APC40 Mk2 هو الخيار الأفضل لمعظم العروض الحية.
 
 ## Laser controllers
 
@@ -53,7 +53,7 @@ metaLinks:
 * بروتوكول شبكة LaserCube (عبر اتصال سلكي)
 * AVB كما يُستخدم في [أجهزة ليزر LASollinger](https://laseranimation.com/en/) (حاليًا على macOS فقط وفي مرحلة الاختبار)
 
-راجع [أجهزة الليزر وlaser controllers وDACs المتوافقة](hardware/compatible-lasers-and-controllers-dacs.md) لمزيد من المعلومات
+راجع [أجهزة الليزر وlaser controllers وDACs المتوافقة](hardware/compatible-lasers-and-controllers-dacs.md "mention") لمزيد من المعلومات
 
 #### **لماذا لا تدعمون laser controller من \[علامة تجارية أخرى]؟**
 
@@ -69,11 +69,11 @@ metaLinks:
 * **وحدة X-Laser مزودة بنظام Mercury مدمج** (في وضع Ether Dream).
 * **جهاز عرض LaserAnimation Sollinger مزود بـ AVB مدمج** (macOS فقط، ويتطلب أجهزة شبكة متوافقة مع AVB، وهو حاليًا في مرحلة الاختبار).
 
-راجع [أجهزة الليزر وlaser controllers وDACs المتوافقة](hardware/compatible-lasers-and-controllers-dacs.md) لمزيد من المعلومات
+راجع [أجهزة الليزر وlaser controllers وDACs المتوافقة](hardware/compatible-lasers-and-controllers-dacs.md "mention") لمزيد من المعلومات
 
 #### **هل يمكنني استخدام Liberation مع LaserCube لدي؟**
 
-نعم، يعمل Liberation مباشرة مع أي LaserCube. راجع [LaserCube](hardware/lasercube.md)
+نعم، يعمل Liberation مباشرة مع أي LaserCube. راجع [LaserCube](hardware/lasercube.md "mention")
 
 ## الرخص
 
@@ -89,15 +89,15 @@ metaLinks:
 
 #### **هل يمكنني الترقية إلى مستوى جديد؟**
 
-يمكنك الترقية إلى مستوى أعلى في أي وقت. ستحصل على استرداد جزئي للمدة المتبقية في رخصتك الحالية، وستبدأ خطتك الجديدة فورًا. راجع [ترقية رخصتك أو تخفيضها](installation/upgrade-downgrade-your-license.md)
+يمكنك الترقية إلى مستوى أعلى في أي وقت. ستحصل على استرداد جزئي للمدة المتبقية في رخصتك الحالية، وستبدأ خطتك الجديدة فورًا. راجع [ترقية رخصتك أو تخفيضها](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **هل يمكنني تخفيض مستوى رخصتي؟**
 
-يمكنك تخفيض المستوى في أي وقت، لكن التغيير سيصبح نافذًا في نهاية فترة رخصتك الحالية. راجع [ترقية رخصتك أو تخفيضها](installation/upgrade-downgrade-your-license.md)
+يمكنك تخفيض المستوى في أي وقت، لكن التغيير سيصبح نافذًا في نهاية فترة رخصتك الحالية. راجع [ترقية رخصتك أو تخفيضها](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **كيف أفوّض جهاز الكمبيوتر باستخدام رخصتي؟**
 
-بعد شراء رخصة، يمكنك تفويض جهاز الكمبيوتر من داخل برنامج Liberation نفسه. سترى زر _Authorise_ في شاشة _About_، وسيطلب منك تسجيل الدخول إلى الموقع. اتبع التعليمات الظاهرة على الشاشة لإكمال عملية التفويض. راجع [التفويض وإلغاء التفويض](installation/authorising-and-de-authorising.md)
+بعد شراء رخصة، يمكنك تفويض جهاز الكمبيوتر من داخل برنامج Liberation نفسه. سترى زر _Authorise_ في شاشة _About_، وسيطلب منك تسجيل الدخول إلى الموقع. اتبع التعليمات الظاهرة على الشاشة لإكمال عملية التفويض. راجع [التفويض وإلغاء التفويض](installation/authorising-and-de-authorising.md "mention")
 
 #### **كم مرة أحتاج إلى توصيل جهاز الكمبيوتر بالإنترنت؟**
 
@@ -117,7 +117,7 @@ metaLinks:
 
 #### **على كم جهاز كمبيوتر يمكنني تثبيت Liberation؟**
 
-يمكنك تثبيت Liberation على أي عدد تريده من أجهزة الكمبيوتر. لا تكون تفويضات الرخصة مطلوبة إلا لتمكين خرج الليزر / DMX، ويحدد مستوى رخصتك عدد أجهزة الكمبيوتر التي يمكن تفويضها للخرج في الوقت نفسه. راجع [كيف يعمل الترخيص](installation/how-licensing-works.md)
+يمكنك تثبيت Liberation على أي عدد تريده من أجهزة الكمبيوتر. لا تكون تفويضات الرخصة مطلوبة إلا لتمكين خرج الليزر / DMX، ويحدد مستوى رخصتك عدد أجهزة الكمبيوتر التي يمكن تفويضها للخرج في الوقت نفسه. راجع [كيف يعمل الترخيص](installation/how-licensing-works.md "mention")
 
 #### **كيف أنقل رخصتي من جهاز كمبيوتر إلى آخر؟**
 
@@ -127,7 +127,7 @@ metaLinks:
 * انقر على زر _Authorise this computer_ في شاشة _About_.
 * سيفتح الموقع؛ سجّل الدخول واتبع التعليمات الظاهرة على الشاشة لإكمال التفويض
 
-يمكنك أيضًا إلغاء تفويض جهاز كمبيوتر عن بُعد إذا لم يعد بإمكانك الوصول إليه (مع بعض القيود). راجع [التفويض وإلغاء التفويض](installation/authorising-and-de-authorising.md)
+يمكنك أيضًا إلغاء تفويض جهاز كمبيوتر عن بُعد إذا لم يعد بإمكانك الوصول إليه (مع بعض القيود). راجع [التفويض وإلغاء التفويض](installation/authorising-and-de-authorising.md "mention")
 
 #### **هل يمكنني إلغاء تفويض Liberation على جهاز كمبيوتر مفقود أو مسروق؟**
 
@@ -139,11 +139,11 @@ metaLinks:
 
 #### يحتوي الإعداد الافتراضي على 8 أجهزة ليزر - كيف أغيّر ذلك؟
 
-راجع [إعداد مشروعك](setting-up/setting-up-your-project.md) و[إضافة أجهزة الليزر وإزالتها](setting-up/adding-removing-lasers.md)
+راجع [إعداد مشروعك](setting-up/setting-up-your-project.md "mention") و[إضافة أجهزة الليزر وإزالتها](setting-up/adding-removing-lasers.md "mention")
 
 #### هل يمكنني نسخ إعدادات zone من جهاز ليزر إلى الأجهزة الأخرى؟
 
-نعم! راجع [نسخ zones بين أجهزة الليزر](output-view/copy-zones-between-lasers.md)
+نعم! راجع [نسخ zones بين أجهزة الليزر](output-view/copy-zones-between-lasers.md "mention")
 
 #### هل يمكنني كتابة رقم بدلًا من استخدام شريط تمرير؟
 
@@ -151,42 +151,42 @@ metaLinks:
 
 #### **كيف أزامن Liberation مع الموسيقى؟**
 
-يحتوي على نظام "tap tempo" ذكي يعمل كما تتوقع، ويمكنك أيضًا استخدام ساعة MIDI خارجية أو Ableton Link. راجع [مزامنة الإيقاع](tempo-synchronisation.md). يمكن مزامنة الخط الزمني مع timecode وارد من نوع LTC/SMPTE عبر أي واجهة صوتية. راجع [timecode](timecode.md).
+يحتوي على نظام "tap tempo" ذكي يعمل كما تتوقع، ويمكنك أيضًا استخدام ساعة MIDI خارجية أو Ableton Link. راجع [مزامنة الإيقاع](tempo-synchronisation.md "mention"). يمكن مزامنة الخط الزمني مع timecode وارد من نوع LTC/SMPTE عبر أي واجهة صوتية. راجع [timecode](timecode.md "mention").
 
 #### ما الإعدادات التي أحتاج إلى ضبطها للحصول على أفضل خرج من جهاز الليزر؟
 
-الإعداد الرئيسي هو _Colour Shift_، وهو يعوض التأخير البسيط بين حركة المرايا وتغير سطوع الليزر. إذا كانت نقاط/حزم الليزر لديك تحتوي على "ذيول" صغيرة، فستحتاج إلى ضبط هذا الإعداد. (راجع الصور في صفحة [Laser Settings](setting-up/laser-settings.md) للاطلاع على مثال على "الذيول")
+الإعداد الرئيسي هو _Colour Shift_، وهو يعوض التأخير البسيط بين حركة المرايا وتغير سطوع الليزر. إذا كانت نقاط/حزم الليزر لديك تحتوي على "ذيول" صغيرة، فستحتاج إلى ضبط هذا الإعداد. (راجع الصور في صفحة [Laser Settings](setting-up/laser-settings.md "mention") للاطلاع على مثال على "الذيول")
 
 يمكنك أيضًا تجربة تغيير سرعة الماسح؛ اجعلها أبطأ إذا كانت الماسحات لديك أساسية، أو أسرع إذا كانت جيدة. لكن **استخدم ذلك بحذر، فقد تتلف الماسحات إذا دفعتها للعمل بقوة مفرطة.**
 
 توجد أيضًا بعض إعدادات الماسح المسبقة. الخيار الافتراضي محافظ ومناسب لمعظم متطلبات حزم الليزر. لكن توجد إعدادات مسبقة أخرى إذا كانت لديك ماسحات أفضل، كما توجد إعدادات مسبقة مضبوطة للرسومات.
 
-لمزيد من المعلومات، راجع [Laser Settings](setting-up/laser-settings.md)، وللحصول على معلومات حول كيفية إنشاء إعداداتك المسبقة، راجع [إعدادات الماسح المسبقة](advanced/scanner-presets.md) (متقدم، قيد العمل)
+لمزيد من المعلومات، راجع [Laser Settings](setting-up/laser-settings.md "mention")، وللحصول على معلومات حول كيفية إنشاء إعداداتك المسبقة، راجع [إعدادات الماسح المسبقة](advanced/scanner-presets.md "mention") (متقدم، قيد العمل)
 
-يمكنك أيضًا تصحيح توازن الألوان باستخدام إعدادات _Colour calibration_. راجع [معايرة الألوان](advanced/colour-calibration.md)(تقنية متقدمة)
+يمكنك أيضًا تصحيح توازن الألوان باستخدام إعدادات _Colour calibration_. راجع [معايرة الألوان](advanced/colour-calibration.md "mention")(تقنية متقدمة)
 
 #### ماذا يفعل إعداد _Latency(ms)_؟
 
-هذا هو زمن تأخير الإطار، أو الحد الأقصى للوقت بين إنشاء الإطار ثم إرساله إلى جهاز الليزر. لا ينبغي أن تحتاج إلى ضبطه، لكن إذا كنت تواجه مشكلات في الشبكة فيمكنك تجربة زيادته. راجع [إعداد Latency](setting-up/latency-setting.md) لمزيد من التفاصيل.
+هذا هو زمن تأخير الإطار، أو الحد الأقصى للوقت بين إنشاء الإطار ثم إرساله إلى جهاز الليزر. لا ينبغي أن تحتاج إلى ضبطه، لكن إذا كنت تواجه مشكلات في الشبكة فيمكنك تجربة زيادته. راجع [إعداد Latency](setting-up/latency-setting.md "mention") لمزيد من التفاصيل.
 
 ### Clips
 
 #### كيف أضبط zones والإعدادات الخاصة بـ Clip دون تشغيله؟
 
-انقر مع الضغط على `Alt / Option` لجعله _currently selected clip_ لكن دون تنشيطه. راجع أيضًا [بدء Clips وإيقافها](clips/starting-stopping-clips.md)
+انقر مع الضغط على `Alt / Option` لجعله _currently selected clip_ لكن دون تنشيطه. راجع أيضًا [بدء Clips وإيقافها](clips/starting-stopping-clips.md "mention")
 
 #### كيف أنسخ Clips؟
 
-انقر واسحب مع الضغط على مفتاح `Alt / Option`. راجع أيضًا [تنظيم Clip Deck](clips/organising-your-clip-deck.md)
+انقر واسحب مع الضغط على مفتاح `Alt / Option`. راجع أيضًا [تنظيم Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### كيف أحذف Clips؟
 
-انقر عليها واسحبها خارج Clip Deck. راجع أيضًا [تنظيم Clip Deck](clips/organising-your-clip-deck.md)
+انقر عليها واسحبها خارج Clip Deck. راجع أيضًا [تنظيم Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### كيف أحدد عناصر متعددة، أو أحذفها، أو أدمج Clip Decks، وما إلى ذلك؟
 
-راجع [تنظيم Clip Deck](clips/organising-your-clip-deck.md)
+راجع [تنظيم Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### ماذا تعني أيقونة الميكروفون الصغيرة والأيقونات الأخرى على Clip؟
 
-تُستخدم لتوضيح أن Clip يستقبل إدخالًا صوتيًا أو MIDI، وتشير النقاط الثلاث إلى وجود تأخير في zone. راجع [ماذا تعني الأيقونات الصغيرة على أزرار Clip؟](clips/what-are-the-small-icons-on-the-clip-buttons.md)
+تُستخدم لتوضيح أن Clip يستقبل إدخالًا صوتيًا أو MIDI، وتشير النقاط الثلاث إلى وجود تأخير في zone. راجع [ماذا تعني الأيقونات الصغيرة على أزرار Clip؟](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

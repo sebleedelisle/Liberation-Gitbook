@@ -57,7 +57,7 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation требуется доступ к файлам и сети, поэтому Windows, скорее всего, покажет несколько запросов. Обязательно разрешите всё, иначе Liberation может работать неправильно.
+Liberation требуется доступ к файлам и сети, поэтому Windows, скорее всего, покажет несколько запросов разрешений. Обязательно разрешите всё, иначе Liberation может работать неправильно.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

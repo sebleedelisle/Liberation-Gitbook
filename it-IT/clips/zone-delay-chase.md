@@ -14,7 +14,7 @@ Il sistema di zone delay è un metodo semplice ma efficace per introdurre variet
 
 _Zone delay_ aggiunge un ritardo al timing della clip su ogni zona, creando una sorta di movimento a onda tra le zone.
 
-È molto efficace applicare lo zone delay a una clip già in esecuzione: usa il controllo corrispondente sull’APC40 per regolare quantità e pattern. Vedi [Riferimento APC40](../reference/apc40-reference.md). In alternativa, puoi usare il pannello _Clip Settings_.
+È molto efficace applicare lo zone delay a una clip già in esecuzione: usa il controllo corrispondente sull’APC40 per regolare quantità e pattern. Vedi [Riferimento APC40](../reference/apc40-reference.md "mention"). In alternativa, puoi usare il pannello _Clip Settings_.
 
 Impostazioni di zone delay:
 
@@ -39,7 +39,7 @@ Il pattern funziona in base ai numeri delle zone e presuppone che le zone siano 
 Zone delay viene applicato anche a tutti gli effetti attivi. Per esempio, un effetto lampeggiante verrà ritardato tra le zone, così come l’animazione all’interno della clip stessa.
 {% endhint %}
 
-Quando una clip ha qualsiasi tipo di _Zone delay_, vedrai un’icona con tre puntini nell’angolo in alto a destra della clip. Questi puntini sono animati per mostrarti lo stile di _Zone delay_ usato da quella clip. Vedi [Cosa sono le piccole icone sui pulsanti delle clip?](what-are-the-small-icons-on-the-clip-buttons.md) per maggiori dettagli.
+Quando una clip ha qualsiasi tipo di _Zone delay_, vedrai un’icona con tre puntini nell’angolo in alto a destra della clip. Questi puntini sono animati per mostrarti lo stile di _Zone delay_ usato da quella clip. Vedi [Cosa sono le piccole icone sui pulsanti delle clip?](what-are-the-small-icons-on-the-clip-buttons.md "mention") per maggiori dettagli.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Il simbolo con tre puntini che indica che una clip ha uno zone delay e ne mostra la modalità</p></figcaption></figure>
 

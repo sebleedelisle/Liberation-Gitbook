@@ -93,7 +93,7 @@ En zone er et område i en lasers output, som du kan sende laserindhold ind i. D
 Du kan vælge den laser, du vil redigere, på en af disse måder:
 
 * de nummererede knapper i linjen øverst
-* tryk på taltasten for den laser, du vil vælge _(tasterne 1-9)_
+* tryk på taltasten for den laser, du vil vælge (_tasterne 1-9_)
 * `Tab`-tasten for at skifte fra den ene til den næste
 
 Tilføj en ny laser til opsætningen ved at trykke på _+_-knappen. (Der findes også en _ADD LASER_-knap i panelet _Laser Overview_)
@@ -120,7 +120,7 @@ Selvom det er muligt at styre Liberation med mus og tastatur, er det langt bedre
 
 Se også: [APC40-reference](reference/apc40-reference.md "mention")
 
-Vi har nu også implementeret understøttelse af APC Mini Mark 2 og MIDI Fighter Twister, og flere er under udvikling. Men APC40 Mark 2 er den bedste løsning i de fleste tilfælde.
+Liberation understøtter også APC Mini og MIDI Fighter Twister. APC40 Mark 2 er stadig den bedste løsning i de fleste tilfælde.
 
 ### Clips og effekter
 
@@ -168,7 +168,7 @@ To rækker under zoneknapperne kan du se X/Y flip-knapperne. Slå dem til eller 
 Bemærk, at disse zonetildelinger og X/Y flip-indstillinger er knyttet til selve clippet; de bevares, næste gang du kører det clip. De er ikke en global indstilling.
 {% endhint %}
 
-Højreklik på et clip for at redigere flere indstillinger for clippet. Se også [Clip-indstillinger](clips/clip-settings.md "mention")
+Højreklik på en Clip for at redigere flere indstillinger for den. Se også [Clip-indstillinger](clips/clip-settings.md "mention")
 
 ### Groups
 
@@ -205,7 +205,7 @@ Tryk på en effect-knap for at slå effekten til eller fra - eller endnu bedre: 
 Brug drejekontrollerne 1-8\* til at justere _parameter_ for hver effect. (Eller du kan højreklikke med musen for at justere level og parameter). Parameterændringen gør forskellige ting afhængigt af, hvordan effekten er sat op. Se listen nedenfor for standard effects.
 
 {% hint style="info" %}
-De små tal, du ser på effect-knapperne, henviser til effektens _level_ og _parameter_. _Level_ styres af faderen på APC40, eller du kan klik-trække på knappen. Parameteren justeres med drejekontrollerne på APC40, eller du kan højreklikke for at justere med musen.
+De små tal, du ser på effect-knapperne, henviser til effektens _level_ og _parameter_. _Level_ styres af faderen på APC40, eller du kan klikke og trække på knappen. Parameteren justeres med drejekontrollerne på APC40, eller du kan højreklikke for at justere med musen.
 {% endhint %}
 
 _\*Drejekontroller 1-8 sidder langs toppen af en APC40 Mk2 og øverst til højre på Mk1. Se også:_ [APC40-reference](reference/apc40-reference.md "mention")
@@ -225,9 +225,9 @@ _\*Drejekontroller 1-8 sidder langs toppen af en APC40 Mk2 og øverst til højre
 5. **Scale** :\
    Skalerer gentagne gange det hele fra fuld størrelse til nul. Parameteren justerer hastigheden.
 6. **Hue** :\
-   Ændrer hue for det hele, men ændrer ikke saturation (dvs. alt, der er hvidt, forbliver hvidt). Parameteren justerer hue.
+Ændrer hue for det hele, men ændrer ikke saturation (dvs. alt, der er hvidt, forbliver hvidt). Parameteren justerer hue.
 7. **Saturation and hue** :\
-   Ændrer hue for det hele og saturerer også farven fuldt ud (dvs. alt, der er hvidt, skifter til farven). Parameteren justerer hue.
+Ændrer hue for det hele og saturerer også farven fuldt ud (dvs. alt, der er hvidt, skifter til farven). Parameteren justerer hue.
 8. **Flash** :\
    Blinker gentagne gange lysstyrken for det hele fra fuld til nul. Parameteren justerer blinkhastigheden.
 
@@ -265,7 +265,7 @@ Næsten alle lasershows har en eller anden form for musikalsk soundtrack, så ti
 
 <figure><img src=".gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Der findes flere synkroniseringsmuligheder, herunder MIDI clock og Ableton Link. Hvis du kender musikkens tempo, kan du justere det manuelt med skyderen på skærmen eller APC40 Tempo-knappen, men du kan også holde takten med musikken ved hjælp af _Tap Tempo_-systemet\_.\_
+Der findes flere synkroniseringsmuligheder, herunder MIDI clock og Ableton Link. Hvis du kender musikkens tempo, kan du justere det manuelt med skyderen på skærmen eller APC40 Tempo-knappen, men du kan også holde takten med musikken ved hjælp af _Tap Tempo_-systemet.
 
 #### Tap Tempo
 
@@ -287,7 +287,7 @@ Tryk på `Alt / Option`-tasten, mens du trækker, for at lave en kopi.
 
 Klik og træk vil trække ALLE valgte clips.
 
-Hvis du vil slette et eller flere clips, kan du enten trække dem væk fra clip deck (der vises et skraldespandsikon) eller bruge DELETE-knappen fra clippets højreklik-menu.
+Hvis du vil slette en eller flere Clips, kan du enten trække dem væk fra Clip Deck (der vises et skraldespandsikon) eller bruge DELETE-knappen fra højreklik-menuen for den pågældende Clip.
 
 ### Laser Overview-panel
 

@@ -14,7 +14,7 @@ Zone delay -järjestelmä on yksinkertainen mutta tehokas tapa tuoda vaihtelua e
 
 _Zone delay_ lisää viiveen clipin ajoitukseen eri zoneissa ja luo eräänlaisen pyyhkäisyn zonejen yli.
 
-Zone delay toimii erityisen hyvin, kun lisäät sen jo käynnissä olevaan clipiin. Säädä määrää ja patternia APC40:n vastaavalla ohjaimella. (Katso [APC40-viite](../reference/apc40-reference.md)). Voit käyttää myös _Clip Settings_ -paneelia.
+Zone delay toimii erityisen hyvin, kun lisäät sen jo käynnissä olevaan clipiin. Säädä määrää ja patternia APC40:n vastaavalla ohjaimella. (Katso [APC40-viite](../reference/apc40-reference.md "mention")). Voit käyttää myös _Clip Settings_ -paneelia.
 
 Zone delay -asetukset:
 
@@ -39,7 +39,7 @@ Pattern toimii zone-numeroiden perusteella ja olettaa, että zonet ovat järjest
 Zone delay vaikuttaa myös kaikkiin aktiivisiin efekteihin. Esimerkiksi vilkkuva efekti viivästyy zonejen välillä samalla tavalla kuin clipin oma animaatio.
 {% endhint %}
 
-Kun clipissä on käytössä jonkinlainen _Zone delay_, clipin oikeassa yläkulmassa näkyy kolmen pisteen kuvake. Pisteet animoidaan niin, että ne näyttävät kyseisen clipin _Zone delay_ -tyylin. Lisätietoja: [Mitä clip-painikkeiden pienet kuvakkeet tarkoittavat?](what-are-the-small-icons-on-the-clip-buttons.md).
+Kun clipissä on käytössä jonkinlainen _Zone delay_, clipin oikeassa yläkulmassa näkyy kolmen pisteen kuvake. Pisteet animoidaan niin, että ne näyttävät kyseisen clipin _Zone delay_ -tyylin. Lisätietoja: [Mitä clip-painikkeiden pienet kuvakkeet tarkoittavat?](what-are-the-small-icons-on-the-clip-buttons.md "mention").
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Kolmen pisteen symboli ilmaisee, että clipissä on zone delay ja näyttää sen tilan</p></figcaption></figure>
 

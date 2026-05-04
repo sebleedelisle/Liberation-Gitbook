@@ -14,7 +14,13 @@ Zmień rozmiar wyjściowy klipu za pomocą _Scale X_ i _Scale Y_. Są one połą
 
 Zmień pozycję poziomą i pionową klipu za pomocą _Shift X_ i _Shift Y_.
 
-_Zone Delay/Chase_ to na tyle ciekawa funkcja, że ma własną sekcję. [Zone delay / chase](zone-delay-chase.md)
+_Zone Delay/Chase_ to na tyle ciekawa funkcja, że ma własną sekcję. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Panel parametrów
+
+Panel po prawej stronie Clip Deck pokazuje osiem parametrów kontekstowych. Gdy zaznaczony jest Clip, pierwsze kontrolki to _Shift X_, _Shift Y_ i _Zone Delay_ dla wybranego Clip, a po nich globalne kontrolki _Spin_ i _Scale_.
+
+Te same parametry są odzwierciedlane na obsługiwanych kontrolerach MIDI. Jeśli żaden Clip nie jest zaznaczony, miejsca przeznaczone na parametry konkretnego Clip pozostają puste. Jeśli przytrzymasz przycisk grupy, dwie pierwsze kontrolki zmienią się na czasy fade in i fade out tej grupy.
 
 ### Blokowanie klipów
 
@@ -27,9 +33,9 @@ Jeśli klip jest zablokowany, nie można go przenieść ani usunąć. Aby zablok
 
 ### Menu prawego przycisku myszy
 
-Jeśli klikniesz klip prawym przyciskiem myszy, pojawi się menu z wybranymi opcjami dla tego klipu. Zobacz [Wprowadzenie do Clip Editor](../clip-editor/clip-editor-intro.md), [Ustawienia Clip](clip-settings.md) i [Grupy klipów](groups.md), aby dowiedzieć się więcej o pierwszych pozycjach w tym menu.
+Jeśli klikniesz Clip prawym przyciskiem myszy, pojawi się menu z wybranymi opcjami dla tego Clip. Zobacz [Wprowadzenie do Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Ustawienia Clip](clip-settings.md "mention") i [Grupy klipów](groups.md "mention"), aby dowiedzieć się więcej o pierwszych pozycjach w tym menu.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Menu ustawień Clip wywoływane prawym przyciskiem myszy</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 
@@ -47,6 +53,6 @@ Klipy często projektuje się tak, aby zapętlały się bez końca, ale możesz 
 
 ### Czas przejścia in/out (fade)
 
-Klipy można ustawić tak, aby pojawiały się i znikały płynnie przez czas mierzony w sekundach. Domyślnie czas fade jest dziedziczony z ustawień grupy (można go zmienić, klikając prawym przyciskiem myszy przycisk grupy).
+Każdy Clip można skonfigurować tak, aby pojawiał się i znikał płynnie przez czas mierzony w sekundach. Domyślnie czas fade jest dziedziczony z ustawień grupy (można go zmienić, klikając prawym przyciskiem myszy przycisk grupy).
 
 Jeśli chcesz ustawić inny czas fade niż w grupie klipu, najpierw wyłącz przycisk _USE GROUP DEFAULT_, a następnie dostosuj suwaki _In time_ i _Out time_ klipu.

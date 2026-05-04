@@ -10,9 +10,9 @@ metaLinks:
 
 Liberation 中的所有雷射內容都儲存在 Clips 裡。
 
-Clips 可以包含空中光束效果或圖形動畫，通常會以循環方式播放。它們可以指定輸出到任何 zone（或 Canvas 目標區域），並透過 Clip Deck 內的 Clip 按鈕觸發。
+Clips 可以包含空中光束效果或圖形動畫，通常會以循環方式播放。它們可以指定輸出到任何 zone（或 Canvas Target Area），並透過 Clip Deck 內的 Clip 按鈕觸發。
 
-Clip 內容是使用功能完整、以 node 為基礎的 Clip Editor 系統建立的。（詳情請參閱 [Clip Editor 簡介](../clip-editor/clip-editor-intro.md)）
+Clip 內容是使用功能完整、以 node 為基礎的 Clip Editor 系統建立的。（詳情請參閱 [Clip Editor 簡介](../clip-editor/clip-editor-intro.md "mention")）
 
 ### Clip Deck
 

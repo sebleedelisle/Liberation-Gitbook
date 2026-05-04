@@ -22,7 +22,7 @@ Tous les préréglages sont enregistrés avec votre projet (ou vos paramètres l
 
 Vous pouvez également importer et exporter des fichiers de préréglages à l’aide du bouton load/save (une icône de disquette) situé à côté de la liste déroulante des préréglages. Cela ouvre une fenêtre contextuelle qui contient des boutons import/export, ainsi que l’option permettant de supprimer un ou plusieurs de vos préréglages.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>Le menu contextuel qui s’ouvre lorsque vous cliquez sur l’icône load/save</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Si vous modifiez un préréglage, par exemple le paramètre de scanner appelé _Default_, notez que les autres lasers ne seront pas mis à jour automatiquement. À la place, leurs paramètres de scanner seront désormais libellés _Default(edited)_. Pour les mettre à jour avec le nouveau préréglage _Default_, sélectionnez-le à nouveau dans la liste déroulante.
 

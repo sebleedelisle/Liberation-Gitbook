@@ -17,7 +17,7 @@ Standard-effektknapperne 1-8 ligger under zoneknapperne, og effekterne 9-24 er d
 Tryk på en effektknap for at slå effekten til eller fra – eller endnu bedre: brug APC40-skyderne 1-8 til at fade effekter ind og ud. Hvis du vil fade en effekt ind uden en APC40, kan du klikke og trække op og ned på knappen. Du kan også højreklikke på effektknappen og justere _level_-skyderen.
 
 {% hint style="warning" %}
-Når du trykker på effektknappen, aktiveres effekten med det samme. Bemærk dog, at hvis level er sat til nul, sker der ingenting! Klik/træk på knappen for at ændre level, eller højreklik og brug _level_-skyderen, eller brug APC40-faderne.
+Når du trykker på effektknappen, aktiveres effekten med det samme. Bemærk dog, at hvis level er sat til nul, sker der ingenting! Klik og træk på knappen for at ændre level, eller højreklik og brug _level_-skyderen, eller brug APC40-faderne.
 {% endhint %}
 
 #### Effekter og klippets zone delay
@@ -59,15 +59,15 @@ De små tal, du ser på effektknapperne, henviser til effektens _level_ og _para
 5. **Scale** :\
    Skalerer gentagne gange det hele fra fuld størrelse til nul. Parameteren justerer hastigheden.
 6. **Hue** :\
-   Ændrer farvetonen på det hele, men ændrer ikke mætningen (dvs. alt, der er hvidt, forbliver hvidt). Parameteren justerer farvetonen.
+Ændrer farvetonen på det hele, men ændrer ikke mætningen (dvs. alt, der er hvidt, forbliver hvidt). Parameteren justerer farvetonen.
 7. **Saturation and hue** :\
-   Ændrer farvetonen på det hele og mætter også farven helt (dvs. alt, der er hvidt, skifter til farven). Parameteren justerer farvetonen.
+Ændrer farvetonen på det hele og mætter også farven helt (dvs. alt, der er hvidt, skifter til farven). Parameteren justerer farvetonen.
 8. **Flash** :\
    Blinker gentagne gange lysstyrken på det hele fra fuld til nul. Parameteren justerer blinkhastigheden.
 
 <figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-Der er yderligere 16 farveeffekter langs den nederste række, som anvender forudindstillede hue- og saturation-værdier.
+Der er yderligere 16 farveeffekter langs den nederste række, som anvender forudindstillede værdier for hue og saturation.
 
 Bemærk, at dette er standardeffekterne, men de kan redigeres til at gøre næsten hvad som helst, du ønsker!
 
@@ -87,7 +87,7 @@ Denne funktionalitet er deaktiveret, hvis _MX Group_-indstillingen er 0.
 
 ### Redigering af effekter
 
-Højreklik på en effekt, og klik på knappen _EDIT EFFECT_ for at åbne effekt-editoren. Bemærk, at denne editor er identisk med Clip-editoren!
+Højreklik på en effekt, og klik på knappen _EDIT EFFECT_ for at åbne effekt-editoren. Bemærk, at denne editor er identisk med Clip Editor!
 
 Rediger din effekt på samme måde, som du ville redigere et hvilket som helst clip. Se [Clip Editoren](clip-editor/ "mention").
 
@@ -96,5 +96,5 @@ Du skal have mindst én creator-node; det kan være hvad som helst (linje, cirke
 Når effekter anvendes, erstattes alle creator-noder i effekten med outputtet fra de clips, der kører i øjeblikket.
 
 {% hint style="warning" %}
-Af ekstremt kedelige tekniske årsager er "trails"-noder ikke aktiveret inde i en effekt. Det samme gælder for "delay"-indstillingen inde i pattern-noder (de bruger det samme system). Dette bliver rettet i fremtidige revisioner.
+Af ekstremt kedelige tekniske årsager er "trails"-nodes ikke aktiveret inde i en effekt. Det samme gælder for "delay"-indstillingen inde i pattern-nodes (de bruger det samme system). Dette bliver rettet i fremtidige revisioner.
 {% endhint %}

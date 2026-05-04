@@ -13,14 +13,14 @@ Erzeugt Effekte im Stil einer „Laserharfe“, bei denen eingehende MIDI-Noten 
 
 Du kannst in **Liberation → Settings** (`Cmd / Ctrl + ,`) auswählen, auf welches MIDI-Interface Liberation hört.
 
-* **midi channel** – welcher MIDI-Kanal abgehört wird (0 = alle Kanäle, 1–16 = bestimmter Kanal)
+* **MIDI channel** – welcher MIDI-Kanal abgehört wird (0 = alle Kanäle, 1–16 = bestimmter Kanal)
 * **width** – die Gesamtbreite, über die die Noten verteilt werden.
-* **midi note min / max** – die niedrigsten und höchsten MIDI-Notenwerte im Bereich.
+* **MIDI note min / max** – die niedrigsten und höchsten MIDI-Notenwerte im Bereich.
 * **ignore out of range notes** – filtert alle Noten außerhalb des festgelegten Bereichs heraus. Wenn deaktiviert, werden Noten außerhalb des Bereichs auf die nächstverfügbare Note „geklemmt“: Hohe Noten lösen das obere Ende des Bereichs aus, niedrige Noten das untere Ende.
 * **auto extend range** – erweitert den Bereich automatisch, wenn Noten außerhalb davon gespielt werden.
 
 {% hint style="info" %}
-Nicht sicher, welchen Notenbereich du bekommst? Aktiviere **auto extend range**, setze **midi note min** sehr hoch und **midi note max** sehr niedrig, und spiele dann deine Noten durch. Das System erfasst sie alle und erweitert den Bereich für dich. Sobald du alles hast, schaltest du **auto extend range** einfach wieder aus, um den Bereich zu fixieren.
+Nicht sicher, welchen Notenbereich du bekommst? Aktiviere **auto extend range**, setze **MIDI note min** sehr hoch und **MIDI note max** sehr niedrig, und spiele dann deine Noten durch. Das System erfasst sie alle und erweitert den Bereich für dich. Sobald du alles hast, schaltest du **auto extend range** einfach wieder aus, um den Bereich zu fixieren.
 {% endhint %}
 
 * **leave all notes visible** – erzeugt Beams oder Formen für alle Noten im Bereich, unabhängig davon, ob sie gerade gespielt werden. Dadurch entsteht ein „Laserharfen“-Effekt.

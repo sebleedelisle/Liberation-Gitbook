@@ -15,7 +15,7 @@ Alt zone-systemet låter dig skapa en alternativ zon för valfri befintlig zon o
 
 ### Lägga till en alternativ zon
 
-I Output-vyn högerklickar du på en zon och klickar på _ADD ALT ZONE_. Observera att en ny grön zon visas. Du kan redigera och justera den på exakt samma sätt som dina andra zoner. Du behöver aktivera Alt zones i den övre ikonraden för att se testmönstren.
+I Output view högerklickar du på en zone och klickar på _ADD ALT ZONE_. Observera att en ny grön zone visas. Du kan redigera och justera den på exakt samma sätt som dina andra zones. Du behöver aktivera Alt zones i den övre ikonraden för att se testmönstren.
 
 ### Växla till dina Alt-zoner
 
@@ -23,4 +23,4 @@ Så snart du lägger till en Alt-zon visas en växlingsknapp i den övre ikonrad
 
 ### Så inaktiverar du en zon i stället för att flytta den
 
-Lägg till en Alt-zon, högerklicka på den och klicka på knappen _Disable output_ (cirkel med ett streck genom). När du nu aktiverar Alt zones dirigeras innehållet om till den här nu inaktiverade Alt-zonen.
+Lägg till en Alt zone, högerklicka på den och klicka på knappen _Disable output_ (cirkel med ett streck genom). När du nu aktiverar Alt zones dirigeras innehållet om till denna nu inaktiverade Alt zone.

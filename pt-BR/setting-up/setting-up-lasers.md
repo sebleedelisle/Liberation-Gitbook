@@ -1,8 +1,8 @@
 ---
 description: >-
-  Lasers podem ser perigosos, por isso é importante seguir boas práticas e
-  diretrizes de segurança. Esta página é uma visão geral útil que vai ajudar
-  você no processo de configurar lasers com segurança.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

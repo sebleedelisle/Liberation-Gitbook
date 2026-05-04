@@ -8,7 +8,7 @@ metaLinks:
 
 Beim Bearbeiten und Anpassen deiner Zone ist es hilfreich, ein Testmuster auszugeben. Du kannst ein Testmuster für alle aktivierten Zonen über den Umschalt-Button in der oberen Symbolleiste aktivieren und das Testmuster mit dem Schieberegler rechts daneben auswählen.
 
-Wenn du ein Testmuster nur auf dem Laser anzeigen möchtest, dessen Zone du gerade einrichtest, verwende den Umschalt-Button in der Werkzeugleiste links in der _Output_-Ansicht. Klicke auf die Zahl darunter bzw. ziehe daran, um das Testmuster auszuwählen.
+Wenn du ein Testmuster nur auf dem Laser anzeigen möchtest, dessen Zone du gerade einrichtest, verwende den Umschalt-Button in der Werkzeugleiste links in der _Output_-Ansicht. Klicke auf die Zahl darunter und ziehe daran, um das Testmuster auszuwählen.
 
 ### Testmusterliste
 

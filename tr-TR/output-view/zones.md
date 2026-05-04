@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-Projelerinizin çoğunda kullanacağınız ana zone türü _Beam zone_ olur. Bu zone, havadaki atmosferik beam efektleri için tasarlanmıştır. Diğer zone türü ise _Canvas zone_ türüdür (Bkz. [Grafikler ve Canvas sistemi](../graphics-and-the-canvas-system/)).
+Projelerinizin çoğunda kullanacağınız ana zone türü _Beam zone_ olur. Bu zone, havadaki atmosferik beam efektleri için tasarlanmıştır. Diğer zone türü ise _Canvas zone_ türüdür (Bkz. [Grafikler ve Canvas sistemi](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**UYARI - Lazer çalışırken zone öğelerini taşırken son derece dikkatli olun** ve parlaklığı mümkün olan en düşük seviyeye indirin. Lazerleri güvenli şekilde etkinleştirme ve zone ayarı yapma hakkında kapsamlı bir rehber için [Lazerleri ayarlama](../setting-up/setting-up-lasers.md) bölümüne bakın
+**UYARI - Lazer çalışırken zone öğelerini taşırken son derece dikkatli olun** ve parlaklığı mümkün olan en düşük seviyeye indirin. Lazerleri güvenli şekilde etkinleştirme ve zone ayarı yapma hakkında kapsamlı bir rehber için [Lazerleri ayarlama](../setting-up/setting-up-lasers.md "mention") bölümüne bakın
 {% endhint %}
 
 Zone öğelerini fareyle tıklayıp sürükleyerek taşıyabilirsiniz. Bu zone öğesinin nereye gittiğini görmek için bir test pattern açın.
@@ -19,16 +19,16 @@ Seçili zone/point öğesini **küçük adımlarla hareket ettirmek** için ok t
 {% endhint %}
 
 {% hint style="info" %}
-İpucu: zone ayarlarını birden fazla lazer arasında hızlıca kopyalayabilirsiniz! Bkz. [Laser Settings ayarlarını kopyalama](../setting-up/copy-laser-settings.md)
+İpucu: zone ayarlarını birden fazla lazer arasında hızlıca kopyalayabilirsiniz! Bkz. [Laser Settings ayarlarını kopyalama](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Yeni bir beam zone ekleme
 
-Araç çubuğunun üst kısmındaki _Add a new beam zone_ düğmesine tıklayın; yeni bir zone görünür. Beam zone öğeleri eklenme sırasına göre sıralanır, ancak bu sırayı değiştirebilirsiniz. Bkz. [Beam zone sırasını değiştirme](re-ordering-beam-zones.md)
+Araç çubuğunun üst kısmındaki _Add a new beam zone_ düğmesine tıklayın; yeni bir zone görünür. Beam zone öğeleri eklenme sırasına göre sıralanır, ancak bu sırayı değiştirebilirsiniz. Bkz. [Beam zone sırasını değiştirme](re-ordering-beam-zones.md "mention")
 
 ### Mevcut bir canvas zone ekleme
 
-_Add existing canvas zone_ düğmesine tıklayın. Kullanılabilir canvas zone öğelerinin listesini görürsünüz ve bu lazer için bunları açıp kapatabilirsiniz. Bkz. [Grafikler ve Canvas sistemi](../graphics-and-the-canvas-system/)
+_Add existing canvas zone_ düğmesine tıklayın. Kullanılabilir canvas zone öğelerinin listesini görürsünüz ve bu lazer için bunları açıp kapatabilirsiniz. Bkz. [Grafikler ve Canvas sistemi](../graphics-and-the-canvas-system/ "mention")
 
 ### Zone şekil türleri
 
@@ -47,7 +47,7 @@ Ayarlarını açmak için herhangi bir zone öğesine sağ tıklayın. Bu sağ t
 * Varsayılan konuma sıfırlama
 * Şekil türüne özel ayarlara erişme
 * Silme
-* Bir _Alt Zone_ ekleme (Bkz. [Alt Zone sistemi](alt-zone-system.md))
+* Bir _Alt Zone_ ekleme (Bkz. [Alt Zone sistemi](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **UYARI -** Lazer etkin durumdayken zone türünü değiştirirken çok dikkatli olun. Zone, o şekil için son kullanılan konuma / boyuta döner; bu nedenle Output aniden değişebilir. Zone türünü değiştirmeden önce lazeri kapatmanız en iyisidir.

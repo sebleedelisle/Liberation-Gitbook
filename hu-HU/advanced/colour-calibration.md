@@ -17,21 +17,23 @@ A lézerdiódák működése változik, ahogy bemelegszenek. Kalibrálás előtt
 
 #### Hogyan működik a kalibrációs teszt
 
-A kalibráláshoz használd a tesztmintákat (lásd: [Tesztábrák](../output-view/test-patterns.md))
+A kalibráláshoz használd a tesztmintákat (lásd: [Tesztábrák](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green
 * **7** – Blue
 * **8** – White
 
-Mindegyik minta négy mozgó vonalat jelenít meg:
+Mindegyik minta négy mozgó vonalat jelenít meg. Egy lézerrendszer fényerejét nemcsak a teljesítményszint befolyásolja, hanem az is, hogy a nyaláb mennyi időt tölt egy helyen. Ha a scanner gyorsabban mozog, a nyaláb kevesebb időt tölt az egyes pontokon, ezért halványabbnak látszik.
+
+Ennek figyelembevételéhez a tesztminták a fényerőt és a sebességet együtt skálázzák:
 
 * **Felső vonal** – 100% fényerő teljes sebességen
 * **Második vonal** – 75% fényerő 75% sebességen
 * **Harmadik vonal** – 50% fényerő 50% sebességen
 * **Negyedik vonal** – 25% fényerő 25% sebességen
 
-Mivel a fényerő _és a sebesség_ együtt skálázódik, a vonalaknak azonos fényerejűnek kell látszaniuk. Ha valamelyik világosabbnak vagy sötétebbnek tűnik, állítsd a megfelelő csúszkát, amíg egyezni nem fognak.
+Mivel a fényerő _és a sebesség_ együtt skálázódik, a vonalaknak azonos fényerejűnek kell látszaniuk. Ha valamelyik vonal világosabbnak vagy halványabbnak tűnik, állítsd a megfelelő csúszkát, amíg egyezni nem fognak.
 
 Minden tesztmintában van egy ötödik vonal is **0% fényerőn**, amelynek nem szabad látszania. Ez azoknak a lézereknek a korrigálására szolgál, amelyek nagyon alacsony szinteken még nem adnak ki fényt. Ha a lézer alacsony fényerőn továbbra sem látható, fokozatosan növeld a **0% setting** értékét, amíg a vonal éppen meg nem jelenik, majd vedd vissza kissé, amíg újra eltűnik. A cél annak a küszöbnek a megtalálása, ahol a lézer elkezd világítani, majd éppen ez alatt maradni – így az elhalványulások természetesen indulnak, anélkül hogy az alsó tartomány levágódna.
 

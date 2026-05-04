@@ -17,7 +17,7 @@ Hoewel het eenvoudig lijkt, is het een vrij complex systeem om te bouwen. Begin 
 
 Het is een node-gebaseerde visuele editor (of [node graph architecture](https://en.wikipedia.org/wiki/Node_graph_architecture#Node_graph)) die vertrouwd zal aanvoelen als je producten zoals TouchDesigner, MaxMSP of VVVV hebt gebruikt. De clipeditor is wel iets anders en eenvoudiger, omdat hij specifiek is ontworpen voor vectorafbeeldingen.
 
-Je kunt de Clip Editor openen door met de rechtermuisknop op de clipknop te klikken en _EDIT CLIP_ te selecteren. Of klik met de rechtermuisknop op een lege clipknop en selecteer _CREATE AND EDIT CLIP_.
+Je kunt de Clip Editor openen door met de rechtermuisknop op de Clip-knop te klikken en _EDIT CLIP_ te selecteren. Of klik met de rechtermuisknop op een lege Clip-knop en selecteer _CREATE AND EDIT CLIP_.
 
 ### Overzicht
 

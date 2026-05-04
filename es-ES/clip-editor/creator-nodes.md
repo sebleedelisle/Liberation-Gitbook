@@ -113,19 +113,29 @@ Crea texto usando una fuente TrueType u OpenType.
 * **Font** - elige la fuente que quieras
 
 {% hint style="info" %}
-Para añadir más fuentes a Liberation, copia los archivos .ttf u .otf en la carpeta data/resources/fonts.
+Para añadir más fuentes a Liberation, copia los archivos .ttf u .otf en la carpeta `data/fonts` dentro de la carpeta de trabajo de Liberation y, después, reinicia Liberation.
 {% endhint %}
 
 * **Render profile** - consulta [Render profile](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - elige _LEFT_, _CENTRE_ o _RIGHT_ para seleccionar la alineación del texto.
 * **Fill state** - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - el tamaño del texto
+* **monospace** - dibuja todos los caracteres con la misma anchura. Es útil para temporizadores y contadores, porque el texto no se desplaza lateralmente cuando cambian los números.
+* **character spacing** - ajusta el espacio entre caracteres. Auméntalo para un espaciado más amplio o redúcelo para compactar el texto.
 * **colour -** consulta [Ajustes de color y HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** y **y** position - consulta [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - el ángulo de rotación de la imagen, en grados
 * **resolution** - consulta [Resolución](fundamentals/resolution.md "mention")
 * **reveal** - úsalo para revelar gradualmente el texto, carácter a carácter. Cuando esté entre 0 y 50%, el texto aparecerá gradualmente de izquierda a derecha. Cuando esté entre 50% y 100%, el texto desaparecerá de izquierda a derecha. Puedes conectar un oscilador a este socket para crear animaciones.
 * **reveal by word** - si está activado, _reveal_ funcionará palabra a palabra en lugar de carácter a carácter.
-* **countdown** - un sistema de cuenta atrás (¡implementado con prisas!). Cambiará cada 2 beats, así que si quieres segundos, asegúrate de estar a 120 bpm.
-* **countdown start** - el número desde el que quieres que empiece la cuenta atrás
+* **countdown** - sustituye el texto escrito por una cuenta atrás. Cuando la cuenta atrás llega a cero, se muestra el valor normal de **Text**.
+* **use seconds** - cuenta en segundos reales. Cuando está desactivado, la cuenta atrás se basa en beats: dos beats cuentan como un segundo, así que 120 bpm coincide con segundos reales.
+* **show minutes/seconds** - muestra el tiempo restante en minutos y segundos. Si supera una hora, también incluye las horas.
+* **countdown to date/time** - cuenta atrás hasta una fecha y hora UTC específicas, en lugar de contar hacia atrás desde un número.
+* **countdown datetime** - define la fecha y hora UTC de destino cuando **countdown to date/time** está activado.
+* **start number** - número inicial cuando **countdown to date/time** está desactivado.
 * _MOVE TO FRONT / MOVE TO BACK_ - consulta [Rellenos, máscaras y ordenación por profundidad](fundamentals/fills-masks-and-depth-sorting.md "mention")
+
+{% hint style="info" %}
+Si el menú desplegable de fuentes está abierto, las teclas de flecha arriba y abajo recorren las fuentes disponibles.
+{% endhint %}

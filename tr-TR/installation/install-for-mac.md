@@ -19,7 +19,7 @@ Aktif bir aboneliğiniz olduğunda size bir bağlantı gönderilir veya [_My sub
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-_Download latest for Mac_ seçeneğine tıklayın (sürüm numaraları zamanla değişir). Liberation DMG kurulum dosyası indirilenler klasörünüze kaydedilir. Dosyayı bulun ve açmak için çift tıklayın.
+_Download latest for Mac_ seçeneğine tıklayın (sürüm numaraları zamanla değişir). Liberation DMG kurulum dosyası Downloads klasörünüze kaydedilir. Dosyayı bulun ve açmak için çift tıklayın.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

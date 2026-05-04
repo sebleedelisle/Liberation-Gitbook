@@ -25,4 +25,4 @@ De nagyon jól működik, és egy feketével kitöltött alakzat illúzióját k
 
 ### Mélységi rendezés
 
-Mivel egyes alakzatok _eltakarhatnak_ más alakzatokat, a Liberationnek mélység szerint kell rendeznie őket. Alapértelmezés szerint az elemek a z pozíciójuk alapján vannak mélység szerint rendezve. Ha ugyanazon a z pozíción vannak, akkor a rétegpozíciójuk alapján rendeződnek, amelyet az egyes creatorokon belül a _MOVE TO FRONT_ és _MOVE TO BACK_ gombokkal lehet módosítani.
+Mivel egyes alakzatok _eltakarhatnak_ más alakzatokat, a Liberationnek mélység szerint kell rendeznie őket. Alapértelmezés szerint az elemek a z pozíciójuk alapján vannak mélység szerint rendezve. Ha ugyanazon a z pozíción vannak, akkor a rétegpozíciójuk alapján rendeződnek, amelyet az egyes Creator elemen belül a _MOVE TO FRONT_ és _MOVE TO BACK_ gombokkal lehet módosítani.

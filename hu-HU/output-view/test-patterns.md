@@ -8,7 +8,7 @@ metaLinks:
 
 A zóna szerkesztése és beállítása közben hasznos lehet tesztábrát kiküldeni. Az összes engedélyezett zónán bekapcsolhatsz egy tesztábrát a felső ikonsáv kapcsológombjával, a tesztábrát pedig a mellette lévő csúszkával választhatod ki.
 
-Ha csak azon a lézeren szeretnél tesztábrát látni, amelynek a zónáját éppen beállítod, használd az _Output_ nézet bal oldalán lévő eszköztár kapcsológombját. Az alatta lévő számra kattintva, illetve azt húzva választhatod ki a tesztábrát.
+Ha csak azon a lézeren szeretnél tesztábrát látni, amelynek a zónáját éppen beállítod, használd az _Output_ nézet bal oldalán lévő eszköztár kapcsológombját. Az alatta lévő számra kattintva és azt húzva választhatod ki a tesztábrát.
 
 ### Tesztábrák listája
 
@@ -19,7 +19,7 @@ Az alábbiakban a tesztábrák teljes listája található. Ha nincs másként j
 3. Vízszintes zöld vonalak - 4 egyenletesen elosztott vízszintes vonal.
 4. Függőleges zöld vonalak - 4 egyenletesen elosztott függőleges vonal.
 
-Színkalibrációs ábrák 5-8. Ezek a lézerbeállításokban található színkorrekciós rendszerrel együtt használhatók. Lásd: [Színkalibrálás](../advanced/colour-calibration.md). Ezek az ábrák nem töltik ki a teljes kimeneti területet.
+Színkalibrációs ábrák 5-8. Ezek a lézerbeállításokban található színkorrekciós rendszerrel együtt használhatók. Lásd: [Színkalibrálás](../advanced/colour-calibration.md "mention"). Ezek az ábrák nem töltik ki a teljes kimeneti területet.
 
 5. Színkalibrációs ábra - piros.
 6. Színkalibrációs ábra - zöld.

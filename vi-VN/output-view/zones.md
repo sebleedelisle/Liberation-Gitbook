@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-Loại zone chính bạn sẽ dùng cho hầu hết dự án là _Beam zone_. Đây là zone được thiết kế cho các hiệu ứng tia sáng trong không khí. Loại zone còn lại là _Canvas zone_ (Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/)).
+Loại zone chính bạn sẽ dùng cho hầu hết dự án là _Beam zone_. Đây là zone được thiết kế cho các hiệu ứng tia sáng trong không khí. Loại zone còn lại là _Canvas zone_ (Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**CẢNH BÁO - Hãy cực kỳ thận trọng khi di chuyển zones trong lúc máy laser đang chạy** và giảm độ sáng xuống mức thấp nhất có thể. Xem [Thiết lập laser](../setting-up/setting-up-lasers.md) để biết hướng dẫn đầy đủ về cách kích hoạt và phân vùng laser an toàn
+**CẢNH BÁO - Hãy cực kỳ thận trọng khi di chuyển zones trong lúc máy laser đang chạy** và giảm độ sáng xuống mức thấp nhất có thể. Xem [Thiết lập laser](../setting-up/setting-up-lasers.md "mention") để biết hướng dẫn đầy đủ về cách kích hoạt và phân vùng laser an toàn
 {% endhint %}
 
 Bạn có thể nhấp và kéo zones bằng chuột. Bật một test pattern để xem zone đó sẽ đi tới đâu.
@@ -19,16 +19,16 @@ Dùng các phím mũi tên để **dịch nhẹ** zone/điểm đang được ch
 {% endhint %}
 
 {% hint style="info" %}
-Mẹo hay: bạn có thể nhanh chóng sao chép thiết lập zone sang nhiều laser! Xem [Sao chép Laser Settings](../setting-up/copy-laser-settings.md)
+Mẹo hay: bạn có thể nhanh chóng sao chép thiết lập zone sang nhiều laser! Xem [Sao chép Laser Settings](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Thêm beam zone mới
 
-Nhấp nút _Add a new beam zone_ ở đầu thanh công cụ và một zone mới sẽ xuất hiện. Lưu ý rằng beam zones được sắp xếp theo thứ tự bạn thêm, nhưng bạn có thể sắp xếp lại chúng. Xem [Sắp xếp lại beam zones](re-ordering-beam-zones.md)
+Nhấp nút _Add a new beam zone_ ở đầu thanh công cụ và một zone mới sẽ xuất hiện. Lưu ý rằng beam zones được sắp xếp theo thứ tự bạn thêm, nhưng bạn có thể sắp xếp lại chúng. Xem [Sắp xếp lại beam zones](re-ordering-beam-zones.md "mention")
 
 ### Thêm canvas zone hiện có
 
-Nhấp vào nút _Add existing canvas zone_ và bạn sẽ thấy danh sách các canvas zones có sẵn; bạn có thể bật hoặc tắt chúng cho laser này. Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/)
+Nhấp vào nút _Add existing canvas zone_ và bạn sẽ thấy danh sách các canvas zones có sẵn; bạn có thể bật hoặc tắt chúng cho laser này. Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/ "mention")
 
 ### Các kiểu hình dạng zone
 
@@ -47,7 +47,7 @@ Nhấp chuột phải vào bất kỳ zone nào để mở cài đặt của zon
 * Đặt lại về vị trí mặc định
 * Truy cập các cài đặt riêng cho từng kiểu hình dạng
 * Xóa zone
-* Thêm _Alt Zone_ (Xem [Hệ thống Alt Zone](alt-zone-system.md))
+* Thêm _Alt Zone_ (Xem [Hệ thống Alt Zone](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **CẢNH BÁO -** hãy rất cẩn thận khi thay đổi kiểu zone trong lúc laser đang hoạt động. Zone sẽ quay về vị trí / kích thước gần nhất của hình dạng đó, nên đầu ra có thể thay đổi đột ngột. Tốt nhất là tắt laser trước khi thay đổi kiểu zone.
@@ -61,7 +61,7 @@ Bạn có thể loại bỏ biến dạng và đưa nó về lại hình chữ n
 
 #### Hiệu chỉnh phối cảnh
 
-Tùy chọn này có thể được đặt bằng nút bật/tắt trong menu nhấp chuột phải và nó quyết định phương pháp biến dạng. Tốt nhất nên tắt tùy chọn này cho beams, nhưng nếu zone này đang chiếu đồ họa lên một mặt phẳng, hãy bật nó để đầu ra được hiệu chỉnh phối cảnh.
+Tùy chọn này có thể được đặt bằng nút bật/tắt trong menu nhấp chuột phải và nó quyết định phương pháp biến dạng. Tốt nhất nên tắt tùy chọn này cho beam, nhưng nếu zone này đang chiếu đồ họa lên một mặt phẳng, hãy bật nó để đầu ra được hiệu chỉnh phối cảnh.
 
 {% hint style="info" %}
 Nếu _Perspective correction_ bị tắt, nội dung sẽ được biến dạng bằng _nội suy song tuyến_. Nói cách khác, nội dung được phân bố đều trên quad. Đó là lý do phương pháp này phù hợp nhất cho beams.
@@ -75,7 +75,7 @@ Hình dạng Line / Curve zone đã trở thành lựa chọn tôi thường dù
 
 Thường thì zones của tôi phải rất mỏng để vừa với những khoảng hẹp khó xử lý tại địa điểm biểu diễn hoặc giữa các cửa sổ trên tòa nhà, và tôi nhận thấy việc chỉnh bốn góc của một quad khi chúng ở quá gần nhau có thể cực kỳ lắt léo. Vì vậy Line / Curve zone ra đời!
 
-Với đường thẳng, bạn chỉ cần hai điểm, sau đó chỉnh _Zone thickness_ trong menu nhấp chuột phải. Đây là cách nhanh nhất để tạo zones đơn giản.
+Với đường thẳng, bạn chỉ cần hai điểm, sau đó chỉnh _Zone thickness_ trong menu nhấp chuột phải. Đây là cách nhanh nhất để tạo zone đơn giản.
 
 Nhấp `Alt / Option` vào đường để tạo thêm điểm. Các điểm này được tự động làm mượt để tạo hình dạng liền mạch, và bạn có thể chỉnh _Smooth level_ để làm phẳng các đoạn gãy.
 
@@ -89,7 +89,7 @@ Zone được chia nhỏ này cho phép bạn thực hiện các hiệu chỉnh 
 
 ### Cách chỉnh sửa một zone bị một zone khác che phủ hoàn toàn
 
-Nhấp chuột phải vào zone nằm phía trên, rồi nhấp nút ổ khóa để khóa nó. Khi đó bạn sẽ có thể chỉnh sửa và điều chỉnh zone bên dưới.
+Nhấp chuột phải vào zone nằm phía trên, rồi nhấp nút ổ khóa để khóa zone đó. Khi đó bạn sẽ có thể chỉnh sửa và điều chỉnh zone bên dưới.
 
 <br>
 

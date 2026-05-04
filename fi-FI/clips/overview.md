@@ -12,7 +12,7 @@ Kaikki Liberationin lasersistältö tallennetaan kohteina, joiden nimi on Clip.
 
 Clip-kohteet voivat sisältää ilmassa näkyviä beam-tehosteita tai graafisia animaatioita, ja ne ovat yleensä toistuvia silmukoita. Ne voidaan ohjata mihin tahansa zone-alueeseen (tai Canvas Target Area -alueelle), ja ne käynnistetään Clip Deck -näkymän Clip-painikkeilla.
 
-Clip-sisältö luodaan monipuolisella node-pohjaisella Clip Editor -järjestelmällä. (Lisätietoja: [Clip Editor – esittely](../clip-editor/clip-editor-intro.md))
+Clip-sisältö luodaan monipuolisella node-pohjaisella Clip Editor -järjestelmällä. (Lisätietoja: [Clip Editor – esittely](../clip-editor/clip-editor-intro.md "mention"))
 
 ### Clip Deck
 

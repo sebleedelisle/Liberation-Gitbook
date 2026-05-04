@@ -8,7 +8,7 @@ metaLinks:
 
 Vi er alle enige om at flere lasere betyr mer moro, men hvis alle gjør nøyaktig det samme, går du glipp av kreative muligheter.
 
-Systemet for soneforsinkelse er en enkel, men effektiv måte å skape variasjon på tvers av soner, og kan virkelig utnytte et oppsett med flere lasere. Det kan også brukes til å lage en mer tradisjonell chase-effekt.
+Systemet for soneforsinkelse er en enkel, men effektiv måte å skape variasjon på tvers av zones, og kan virkelig utnytte et oppsett med flere lasere. Det kan også brukes til å lage en mer tradisjonell chase-effekt.
 
 #### Slik fungerer det
 

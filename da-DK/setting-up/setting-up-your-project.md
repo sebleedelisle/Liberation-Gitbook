@@ -26,7 +26,7 @@ Her er et overblik over processen:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Skift zonerne for hver clip:**\
-    Udløs hver clip ved at klikke på dens knap, og slå derefter zonerne samt X- og Y-flip til eller fra med knapperne på skærmen. Se [Clips og Clip Deck](../clips/ "mention").
+Udløs hver Clip ved at klikke på dens knap, og slå derefter zones samt X- og Y-flip til eller fra med knapperne på skærmen. Se [Clips og Clip Deck](../clips/ "mention").
 
     \\
 

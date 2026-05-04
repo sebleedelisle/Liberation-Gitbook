@@ -1,8 +1,8 @@
 ---
 description: >-
-  Laserit voivat olla vaarallisia, joten hyvien käytäntöjen ja
-  turvallisuusohjeiden noudattaminen on tärkeää. Tämä sivu antaa hyödyllisen
-  yleiskuvan, joka auttaa lasereiden turvallisessa käyttöönotossa.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

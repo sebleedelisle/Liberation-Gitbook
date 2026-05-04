@@ -25,4 +25,4 @@ Ma funziona molto bene e dà l’illusione di una forma riempita di nero.
 
 ### Ordinamento per profondità
 
-Dato che alcune forme possono _coprire_ altre forme, Liberation deve ordinarle in base alla profondità. Per impostazione predefinita, gli elementi vengono ordinati per profondità in base alla loro posizione z. Se si trovano alla stessa posizione z, vengono ordinati in base alla posizione del layer, che può essere modificata usando i pulsanti _MOVE TO FRONT_ e _MOVE TO BACK_ all’interno di ciascun creator.
+Dato che alcune forme possono _coprire_ altre forme, Liberation deve ordinarle in base alla profondità. Per impostazione predefinita, gli elementi vengono ordinati per profondità in base alla loro posizione z. Se si trovano alla stessa posizione z, vengono ordinati in base alla posizione del layer, che può essere modificata usando i pulsanti _MOVE TO FRONT_ e _MOVE TO BACK_ all’interno di ciascun Creator.

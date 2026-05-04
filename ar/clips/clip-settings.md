@@ -14,7 +14,13 @@ metaLinks:
 
 غيّر الموضع الأفقي والعمودي للـ Clip باستخدام _Shift X_ و _Shift Y_.
 
-تُعد _Zone Delay/Chase_ ميزة ممتعة بما يكفي لتستحق قسمًا خاصًا بها. [Zone Delay/Chase](zone-delay-chase.md)
+تُعد _Zone Delay/Chase_ ميزة ممتعة بما يكفي لتستحق قسمًا خاصًا بها. [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### لوحة Parameters
+
+تعرض اللوحة الموجودة إلى يمين Clip Deck ثمانية معاملات سياقية. عند تحديد Clip، تكون عناصر التحكم الأولى هي _Shift X_ و_Shift Y_ و_Zone Delay_ الخاصة بالـ Clip المحدد، ثم عناصر التحكم العامة _Spin_ و_Scale_.
+
+تُعكس هذه المعاملات نفسها على وحدات تحكم MIDI المدعومة. إذا لم يكن هناك Clip محدد، تبقى الخانات الخاصة بالـ Clip فارغة. إذا ضغطت باستمرار على زر مجموعة، يتغير أول عنصري تحكم إلى زمنَي fade in وfade out لتلك المجموعة.
 
 ### قفل Clips
 
@@ -27,9 +33,9 @@ metaLinks:
 
 ### قائمة النقر بزر الماوس الأيمن
 
-إذا نقرت بزر الماوس الأيمن على Clip، ستظهر قائمة تحتوي على بعض الخيارات الخاصة بذلك Clip. راجع [مقدمة إلى Clip Editor](../clip-editor/clip-editor-intro.md)، و[إعدادات Clip](clip-settings.md)، و[المجموعات](groups.md) لمزيد من المعلومات عن العناصر الأولى في هذه القائمة.
+إذا نقرت بزر الماوس الأيمن على Clip، ستظهر قائمة تحتوي على بعض الخيارات الخاصة بذلك Clip. راجع [مقدمة إلى Clip Editor](../clip-editor/clip-editor-intro.md "mention")، و[إعدادات Clip](clip-settings.md "mention")، و[المجموعات](groups.md "mention")لمزيد من المعلومات عن العناصر الأولى في هذه القائمة.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>قائمة إعدادات Clip عند النقر بزر الماوس الأيمن</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 

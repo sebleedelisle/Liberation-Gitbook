@@ -19,7 +19,7 @@ Ezt az oldalt fogod látni:
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Kattints a _Download latest for Mac_ gombra (a verziószámok idővel változni fognak), és a Liberation DMG telepítőfájl a letöltések mappádba kerül. Keresd meg a fájlt, majd dupla kattintással nyisd meg.
+Kattints a _Download latest for Mac_ gombra (a verziószámok idővel változni fognak), és a Liberation DMG telepítőfájl a Downloads mappádba kerül. Keresd meg a fájlt, majd dupla kattintással nyisd meg.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/oscillators/wave-oscillators
+---
 # ✅ Wave oscillators
 
 ## 本页包含：
@@ -12,7 +18,6 @@
 ## Wave oscillator 设置
 
 所有 Wave oscillators 都有以下设置：
-
 * **range min / range max** - 决定该 oscillator 控制的属性范围。波形位于最低点时取 _range min_，位于最高点时取 _range max_。
 
 {% hint style="info" %}
@@ -46,7 +51,7 @@ _clamp_ 概念比较难解释：可以想象波形超过图表上下边界，然
 * **ease function** - Sawtooth 和 Triangle waves 还带 easing，可微调动画曲线，让动作更有表现力！
   * **LINEAR** - 默认，无缓动，线性移动。
   * **EASE OUT** - 起步快，尾部减速。适合模拟逐渐停止的物理运动。
-  * **EASE IN** - 起步慢，逐渐加速。适合模拟动量建立。
+* **EASE OUT** - 起步快，接近结束时逐渐减速。非常适合模拟物理效果，例如减速直至停止。
   * **EASE IN/OUT** - 两者结合，动作更自然。
 
 {% hint style="warning" %}
@@ -56,10 +61,10 @@ _clamp_ 概念比较难解释：可以想象波形超过图表上下边界，然
 ## <img src="../../.gitbook/assets/sawtooth-wave-icon.png" alt="" data-size="line">  Sawtooth wave
 
 也称 _ramp waveform_，波形向上爬升并在周期末尾骤然下落。它是最常用的 oscillator 之一，因为适合循环 _hue_ 或 _rotation_ 等属性。
-
 相关设置见上文：
 
 * **range min / range max**
+
 * **duration**
 * **offset**
 * **steps**
@@ -70,16 +75,16 @@ _clamp_ 概念比较难解释：可以想象波形超过图表上下边界，然
 * **ease function**
 
 Sawtooth 特有：
-
 * **cycle range compensation** - 当 **steps** 开启时可用，适合循环数值（如 0 到 360 的旋转）。未开启时，起点和终点数值相同（0 与 360 同角度），可能导致起点“卡住”。开启后会减少最大范围以修正步进位置。
+
 
 ## <img src="../../.gitbook/assets/triangle-wave-icon.png" alt="" data-size="line">  Triangle wave
 
 与 _sawtooth wave_ 每周期回到起点不同，_triangle wave_ 会线性来回往返。
-
 相关设置见上文：
 
 * **range min / range max**
+
 * **duration**
 * **offset**
 * **steps**
@@ -92,10 +97,10 @@ Sawtooth 特有：
 ## <img src="../../.gitbook/assets/sine-wave-icon.png" alt="" data-size="line">  Sine wave
 
 最平滑的波形！像钟摆一样在两个值之间来回摆动。
-
 相关设置见上文：
 
 * **range min / range max**
+
 * **duration**
 * **offset**
 * **steps**
@@ -107,26 +112,26 @@ Sawtooth 特有：
 ## <img src="../../.gitbook/assets/square-wave-icon.png" alt="" data-size="line">  Square wave
 
 最简单的波形——只在两个值之间来回切换！
-
 相关设置见上文：
 
 * **range min / range max**
+
 * **duration**
 * **offset**
 * **repeat count**
 * **delay count**
 
 Square wave 特有：
-
 * **pulse width** - 波形处于最大值的持续时间占比。默认 50%，即一半时间为最大、一半时间为最小。若只想“亮”四分之一时间，可设为 25%。可通过 _offset_ 调整脉冲出现时间。
+
 
 ## <img src="../../.gitbook/assets/noise-wave-icon.png" alt="" data-size="line">  Noise
 
 Liberation 的强项之一是生成随机但可重复的效果。_noise_ oscillator 可生成有机、循环的随机运动，细节/抖动可自定义。
-
 相关设置见上文：
 
 * **range min / range max**
+
 * **duration**
 * **offset**
 * **steps**
@@ -136,14 +141,13 @@ Liberation 的强项之一是生成随机但可重复的效果。_noise_ oscilla
 * **delay count**
 
 Noise 特有：
-
 * **noise type** - 生成噪声的算法。
+
   * **SIMPLEX** - 默认，起伏变化并在循环中重复。
   * **RANDOM** - 传统随机算法，更混乱更不可预测。
 
 {% hint style="info" %}
 **Simplex noise** 由 Ken Perlin 于 2001 年提出，是他 1983 年开发的 “Perlin noise” 的改进（用于电影 _Tron_，因此获得奥斯卡奖！）
-
 这种所谓的“梯度噪声”源自他对早期“机器感”计算机图像的不满。在 CGI 领域，它特别适合生成云、水面，甚至真实地形高度图。
 
 在 Liberation 中，它适合做看似不可预测但仍平滑、有机的运动。&#x20;
@@ -160,10 +164,10 @@ Noise 特有：
 ## <img src="../../.gitbook/assets/custom-osc-icon.png" alt="" data-size="line">  Custom Oscillator
 
 创建完全自定义的波形，非常适合复杂动画。
-
 相关设置见上文：
 
 * **range min / range max**
+
 * **duration**
 * **offset**
 * **steps**
@@ -171,16 +175,15 @@ Noise 特有：
 * **delay count**
 
 下方列出位置和值。duration 被分为 64 步，你可以在任意步设置数值。
-
 每一步包含：
 
 * **Step** - 时间步，0 为开始，64 为结束。
+
 * **Level** - 该步的波形值，范围 0 到 1。
 * **Animation type** - 下拉菜单用于选择从上一步过渡到本步的方式。
-  * **None** - 无过渡，直接跳变。
+* **Animation type** - 下拉菜单可让你选择从上一步过渡到此电平的方式。
   * **Linear** - 线性过渡。
   * **Ease in / Ease out / Ease in/out** - 缓动过渡，见上文 _ease function_ 说明。
 
 ***
-
 ##

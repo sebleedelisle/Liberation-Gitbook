@@ -25,4 +25,4 @@ Pero funciona muy bien y crea la ilusión de una forma rellena de negro.
 
 ### Ordenación por profundidad
 
-Como algunas formas pueden _tapar_ otras, Liberation tiene que ordenarlas por su profundidad. De forma predeterminada, los elementos se ordenan por profundidad según su posición en z. Si están en la misma posición en z, se ordenan según su posición de capa, que puedes cambiar usando los botones _MOVE TO FRONT_ y _MOVE TO BACK_ dentro de cada creator.
+Como algunas formas pueden _tapar_ otras, Liberation tiene que ordenarlas por su profundidad. De forma predeterminada, los elementos se ordenan por profundidad según su posición en z. Si están en la misma posición en z, se ordenan según su posición de capa, que puedes cambiar usando los botones _MOVE TO FRONT_ y _MOVE TO BACK_ dentro de cada Creator.

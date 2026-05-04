@@ -12,7 +12,7 @@ Ef þú hefur reynslu af tónlistar- eða ljósahugbúnaði ætti þetta ferli a
 
 ## Spjaldið _Tempo_
 
-Spjaldið _Tempo_ er alltaf sýnilegt á skjánum og inniheldur allar stillingar fyrir samstillingu. Efst sérðu núverandi takta-/slagteljara og transport með hnöppum fyrir play/pause og rewind/fastforward.
+Spjaldið _Tempo_ er alltaf sýnilegt á skjánum og inniheldur allar stillingar fyrir samstillingu. Efst sérðu núverandi takta-/slagteljara og transport með hnöppum fyrir play/pause og rewind/fast-forward.
 
 Fyrir neðan það sérðu beat marker; fjóra ferninga sem „púlsa“ í takt við slögin. Þessi _beat marker_ er mjög gagnleg sjónræn vísbending og þú munt nota hana stöðugt þegar þú vinnur með _Live_ tempo-kerfið.
 
@@ -37,7 +37,7 @@ Stilltu tempo sjálfkrafa með því að smella á _TAP_ hnappinn í takt við s
 {% hint style="info" %}
 Tap Tempo-kerfið er nógu snjallt til að vita hvort þú hafir hætt að tappa í smá stund eða misst af nokkrum slögum. Ef þú byrjar að tappa í tvöföldum hraða skilur það að þú viljir tvöfalda tempo, og það sama gildir ef þú tappar á hálfum hraða.
 
-Það er líka nógu snjallt til að átta sig á því ef tveir einstaklingar eru að tappa tempo á sama tíma (t.d. annar á lyklaborði og hinn á APC40). Liberation tekur meðaltal af tvöföldu töppunum.
+Það er líka nógu snjallt til að átta sig á því ef tveir einstaklingar eru að tappa tempo á sama tíma (þ.e. annar á lyklaborði og hinn á APC40). Liberation tekur meðaltal af tvöföldu töppunum.
 {% endhint %}
 
 #### Lyklaborðsskipanir:
@@ -60,7 +60,7 @@ Notaðu _METRONOME_ hnappinn til að **endurstilla taktinn**. (Athugaðu að _ME
 
 Snúðu _TEMPO_ knob um eitt „tick“ til hægri eða vinstri til að **námunda tempo** upp eða niður að heilli BPM-tölu.
 
-Sjá einnig [Tilvísun fyrir APC40](reference/apc40-reference.md)
+Sjá einnig [Tilvísun fyrir APC40](reference/apc40-reference.md "mention")
 
 ### Hnika tempo
 
@@ -101,6 +101,12 @@ Liberation MIDI Clock tempo-gjafinn bregst einnig við **MIDI Machine Control (M
 {% endhint %}
 
 
+
+### Ableton Link
+
+Til að samstilla við Ableton Link skaltu velja _ABLETON LINK_ sem tempo-gjafa. Liberation tengist Link-lotunni á staðarnetinu þínu og fylgir sameiginlegu tempo og slagfasa frá öðrum öppum sem styðja Link.
+
+Ableton Link notar ekki MIDI tengi og flytur ekki nákvæma staðsetningu í lagi. Notaðu stýringar fyrir endurstillingu takta ef þú þarft að upphaf takts í Liberation falli að tilteknu augnabliki í sýningunni.
 
 ### Timeline
 

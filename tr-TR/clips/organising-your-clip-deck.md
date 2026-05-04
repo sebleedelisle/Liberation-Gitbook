@@ -9,7 +9,7 @@ metaLinks:
 
 ### Clip öğelerini taşıma/çoğaltma
 
-Bir Clip öğesini taşımak için tıklayıp sürükleyin. Birden fazla Clip öğesi seçiliyse (bkz. [Clip öğelerini başlatma/durdurma](starting-stopping-clips.md)) hepsi birlikte taşınır. Çoğaltmak için `Alt / Option` tuşunu basılı tutun. Clip öğelerini boş bir alana bırakın.
+Bir Clip öğesini taşımak için tıklayıp sürükleyin. Birden fazla Clip öğesi seçiliyse (bkz. [Clip öğelerini başlatma/durdurma](starting-stopping-clips.md "mention")) hepsi birlikte taşınır. Çoğaltmak için `Alt / Option` tuşunu basılı tutun. Clip öğelerini boş bir alana bırakın.
 
 {% hint style="info" %}
 Çok sayıda Clip öğesi seçmeniz gerekiyorsa tıklayıp sürükleyerek bir kement seçimi oluşturabilir, sürüklemeye devam ederken Clip Deck içinde kaydırma yapabilirsiniz (imleç tuşlarıyla, APC40 ile veya touchpad/fare yatay kaydırmasıyla). Kement seçimi Clip Deck kenarının dışına doğru genişler.

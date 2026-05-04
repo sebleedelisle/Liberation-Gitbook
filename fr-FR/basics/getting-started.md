@@ -87,7 +87,7 @@ Une zone est un espace dans la sortie d’un laser vers lequel vous pouvez envoy
 Vous pouvez sélectionner le laser à modifier avec :
 
 * les boutons numérotés dans la barre en haut
-* la touche numérique correspondant au laser souhaité _(touches 1-9_)\_
+* la touche numérique correspondant au laser souhaité (_touches 1-9_)
 * la touche `Tab` pour passer de l’un au suivant
 
 Ajoutez un nouveau laser à la configuration en appuyant sur le bouton _+_. (Un bouton _ADD LASER_ est également disponible dans le panneau _Laser Overview_)
@@ -114,7 +114,7 @@ Même s’il est possible de contrôler Liberation avec la souris et le clavier,
 
 Voir aussi : [Référence APC40](../reference/apc40-reference.md "mention")
 
-Nous avons désormais également ajouté la prise en charge de l’APC Mini Mark 2 et du MIDI Fighter Twister, et d’autres contrôleurs sont en développement. Mais l’APC40 Mark 2 reste la meilleure option dans la plupart des cas.&#x20;
+Liberation prend également en charge l’APC Mini et le MIDI Fighter Twister. L’APC40 Mark 2 reste la meilleure option dans la plupart des cas.&#x20;
 
 ### Clips et effets
 
@@ -162,7 +162,7 @@ Deux rangées sous les boutons de zone, vous trouverez les boutons d’inversion
 Notez que ces affectations de zones et ces réglages d’inversion X/Y sont liés au clip lui-même ; ils seront conservés la prochaine fois que vous lancerez ce clip. Ce ne sont pas des réglages globaux.
 {% endhint %}
 
-Faites un clic droit sur un clip pour modifier davantage de réglages du clip. Voir aussi [Paramètres de Clip](../clips/clip-settings.md "mention")
+Faites un clic droit sur un Clip pour modifier davantage de réglages du Clip. Voir aussi [Paramètres de Clip](../clips/clip-settings.md "mention")
 
 ### Groupes
 
@@ -199,7 +199,7 @@ Appuyez sur un bouton d’effet pour activer ou désactiver l’effet, ou mieux 
 Utilisez les contrôleurs rotatifs 1-8\* pour ajuster le _paramètre_ de chaque effet. (Vous pouvez aussi faire un clic droit avec la souris pour ajuster le niveau et le paramètre.) La modification du paramètre produit des résultats différents selon la configuration de l’effet. Voir la liste ci-dessous pour les effets par défaut.
 
 {% hint style="info" %}
-Les petits nombres affichés sur les boutons d’effet correspondent au _level_ et au _parameter_ de l’effet. Le _level_ est contrôlé par le fader de l’APC40, ou vous pouvez cliquer-glisser sur le bouton. Le paramètre est ajusté avec les rotatifs de l’APC40, ou vous pouvez faire un clic droit pour l’ajuster avec la souris.
+Les petits nombres affichés sur les boutons d’effet correspondent au _level_ et au _parameter_ de l’effet. Le _level_ est contrôlé par le fader de l’APC40, ou vous pouvez cliquer et faire glisser sur le bouton. Le paramètre est ajusté avec les rotatifs de l’APC40, ou vous pouvez faire un clic droit pour l’ajuster avec la souris.
 {% endhint %}
 
 _\*Les contrôleurs rotatifs 1-8 se trouvent en haut de l’APC40 Mk2 et en haut à droite sur la Mk1. Voir aussi :_ [Référence APC40](../reference/apc40-reference.md "mention")
@@ -219,9 +219,9 @@ _\*Les contrôleurs rotatifs 1-8 se trouvent en haut de l’APC40 Mk2 et en haut
 5. **Scale** :\
    Met l’ensemble à l’échelle de façon répétée, de la taille complète à zéro. Le paramètre ajuste la vitesse.
 6. **Hue** :\
-   Modifie la teinte de l’ensemble, sans modifier la saturation (c’est-à-dire que tout ce qui est blanc reste blanc). Le paramètre ajuste la teinte.
+Modifie la teinte de l’ensemble, sans modifier la saturation (c’est-à-dire que tout ce qui est blanc reste blanc). Le paramètre ajuste la teinte.
 7. **Saturation and hue** :\
-   Modifie la teinte de l’ensemble et sature aussi complètement la couleur (c’est-à-dire que tout ce qui est blanc prend la couleur). Le paramètre ajuste la teinte.
+Modifie la teinte de l’ensemble et sature aussi complètement la couleur (c’est-à-dire que tout ce qui est blanc prend la couleur). Le paramètre ajuste la teinte.
 8. **Flash** :\
    Fait clignoter de façon répétée la luminosité de l’ensemble, de la luminosité complète à zéro. Le paramètre ajuste la vitesse de clignotement.
 
@@ -259,7 +259,7 @@ Presque tous les spectacles laser utilisent une bande-son musicale ; le système
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Plusieurs options de synchronisation sont disponibles, notamment MIDI clock et Ableton Link. Si vous connaissez le tempo de la musique, vous pouvez l’ajuster manuellement avec le curseur à l’écran ou le bouton Tempo de l’APC40, mais vous pouvez aussi rester synchronisé avec la musique grâce au système _Tap Tempo_\_.\_
+Plusieurs options de synchronisation sont disponibles, notamment MIDI clock et Ableton Link. Si vous connaissez le tempo de la musique, vous pouvez l’ajuster manuellement avec le curseur à l’écran ou le bouton Tempo de l’APC40, mais vous pouvez aussi rester synchronisé avec la musique grâce au système _Tap Tempo_.
 
 #### Tap Tempo
 
@@ -281,7 +281,7 @@ Cliquez sur un clip avec `Alt / Option + Shift` enfoncé pour effectuer une sél
 
 Un clic-glisser déplacera TOUS les clips sélectionnés.
 
-Pour supprimer un ou plusieurs clips, faites-les glisser hors du clip deck (une icône de corbeille apparaîtra) ou utilisez le bouton DELETE dans le menu contextuel du clip.
+Pour supprimer un ou plusieurs Clips, faites-les glisser hors du Clip Deck (une icône de corbeille apparaîtra) ou utilisez le bouton DELETE dans le menu contextuel du Clip.
 
 ### Panneau Laser Overview
 

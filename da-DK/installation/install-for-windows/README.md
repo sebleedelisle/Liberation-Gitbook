@@ -57,7 +57,7 @@ Installationen er færdig! Klik på _Finish_ for at lukke installationsprogramme
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation skal have tilladelse til at tilgå filer og netværket, så Windows vil sandsynligvis vise en række dialogbokse. Sørg for at acceptere det hele, ellers fungerer Liberation muligvis ikke korrekt.
+Liberation skal have tilladelse til at tilgå filer og netværket, så Windows vil sandsynligvis vise nogle få tilladelsesprompter. Sørg for at acceptere det hele, ellers fungerer Liberation muligvis ikke korrekt.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -57,11 +57,11 @@ Haz clic derecho en cualquier zona para abrir su configuración. Desde este men�
 
 Puedes mover cada esquina del quad con el ratón. Haz `Alt / Option`-clic en una esquina para moverla de forma independiente respecto a las demás y distorsionar el quad. Una vez que el quad está distorsionado, todas las esquinas pueden moverse libremente.
 
-Puedes eliminar la distorsión y devolverlo a un rectángulo alineado a los ejes usando el botón _REMOVE DISTORTION_ del menú contextual.
+Puedes eliminar la distorsión y devolverla a un rectángulo alineado a los ejes usando el botón _REMOVE DISTORTION_ del menú contextual.
 
 #### Corrección de perspectiva
 
-Esta opción se puede ajustar con el botón de activación del menú contextual y determina el método de distorsión. Para haces, normalmente es mejor mantenerla desactivada, pero si esta zona proyecta gráficos sobre un plano plano, actívala y la salida se corregirá en perspectiva.
+Esta opción se puede ajustar con el botón de activación del menú contextual y determina el método de distorsión. Para haces, normalmente es mejor mantenerla desactivada, pero si esta zona proyecta gráficos sobre un plano, actívala y la salida se corregirá en perspectiva.
 
 {% hint style="info" %}
 Si _Perspective correction_ está desactivada, el contenido se distorsiona usando _interpolación bilineal_. En otras palabras, el contenido se distribuye de forma uniforme por todo el quad. Por eso es la mejor opción para haces.

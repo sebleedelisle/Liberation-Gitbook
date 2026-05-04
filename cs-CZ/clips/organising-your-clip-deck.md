@@ -9,7 +9,7 @@ metaLinks:
 
 ### Přesouvání a duplikování Clips
 
-Kliknutím a tažením přesunete Clip. Pokud je vybráno více Clips (viz [spouštění a zastavování Clips](starting-stopping-clips.md)), přesunou se všechny. Podržením `Alt / Option` je zduplikujete. Přetáhněte Clip nebo Clips na prázdné místo.
+Kliknutím a tažením přesunete Clip. Pokud je vybráno více Clips (viz [spouštění a zastavování Clips](starting-stopping-clips.md "mention")), přesunou se všechny. Podržením `Alt / Option` je zduplikujete. Přetáhněte Clip nebo Clips na prázdné místo.
 
 {% hint style="info" %}
 Pokud potřebujete vybrat větší počet Clips, můžete kliknutím a tažením vytvořit výběrové laso a potom během tažení posouvat Clip Deck (pomocí kurzorových kláves, APC40 nebo horizontálního posouvání na touchpadu či myši). Laso se prodlouží i za okraj Clip Deck.

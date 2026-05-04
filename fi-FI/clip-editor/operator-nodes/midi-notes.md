@@ -13,14 +13,14 @@ Luo “laserharppu”-tyylisiä efektejä, joissa saapuvat MIDI-nuotit laukaisev
 
 Voit valita, mitä MIDI-liitäntää Liberation kuuntelee kohdassa **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – mitä MIDI-kanavaa kuunnellaan (0 = kaikki kanavat, 1–16 = tietty kanava)
+* **MIDI channel** – mitä MIDI-kanavaa kuunnellaan (0 = kaikki kanavat, 1–16 = tietty kanava)
 * **width** – kokonaisleveys, jolle nuotit levittyvät.
-* **midi note min / max** – alueen alin ja ylin MIDI-nuottiarvo.
+* **MIDI note min / max** – alueen alin ja ylin MIDI-nuottiarvo.
 * **ignore out of range notes** – suodattaa pois nuotit, jotka ovat asetetun alueen ulkopuolella. Jos tämä ei ole käytössä, alueen ulkopuoliset nuotit “rajoitetaan” lähimpään käytettävissä olevaan nuottiin (korkeat nuotit laukaisevat alueen yläreunan, matalat nuotit alareunan).
 * **auto extend range** – laajentaa aluetta automaattisesti, jos soitetaan sen ulkopuolisia nuotteja.
 
 {% hint style="info" %}
-Etkö ole varma, mitä nuottialuetta saat? Ota **auto extend range** käyttöön, aseta **midi note min** hyvin korkeaksi ja **midi note max** hyvin matalaksi, ja soita sitten nuottisi läpi. Järjestelmä tunnistaa ne kaikki ja laajentaa alueen puolestasi. Kun kaikki on mukana, poista **auto extend range** käytöstä lukitaksesi alueen.
+Etkö ole varma, mitä nuottialuetta saat? Ota **auto extend range** käyttöön, aseta **MIDI note min** hyvin korkeaksi ja **MIDI note max** hyvin matalaksi, ja soita sitten nuottisi läpi. Järjestelmä tunnistaa ne kaikki ja laajentaa alueen puolestasi. Kun kaikki on mukana, poista **auto extend range** käytöstä lukitaksesi alueen.
 {% endhint %}
 
 * **leave all notes visible** – luo säteet tai muodot kaikille alueen nuoteille riippumatta siitä, soivatko ne, jolloin syntyy “laserharppu”-efekti.

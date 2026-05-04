@@ -8,7 +8,7 @@ metaLinks:
 # ✅ Starte / stoppe clips
 
 {% hint style="info" %}
-Du kan bruke knappene på skjermen til å starte og stoppe clips, men det er mye bedre å bruke APC40 MIDI-kontrolleren. Liberation er optimalisert for å fungere godt med denne maskinvaren, og den bør regnes som en viktig del av investeringen din i lasere.
+Du kan bruke knappene på skjermen til å starte og stoppe Clips, men det er mye bedre å bruke APC40 MIDI-kontrolleren. Liberation er optimalisert for å fungere godt med denne maskinvaren, og den bør regnes som en viktig del av investeringen din i lasere.
 {% endhint %}
 
 ### Starte og stoppe clips

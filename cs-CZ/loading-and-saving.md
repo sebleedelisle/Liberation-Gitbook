@@ -14,7 +14,7 @@ Své nastavení ale můžete exportovat pro zálohování nebo přenos do jinéh
 
 Soubor projektu ukládá téměř vše z aktuálního nastavení, včetně:
 
-* Všeho uvedeného níže v části [Načítání a ukládání](loading-and-saving.md#laser-settings-import-export)
+* Všeho uvedeného níže v části [Načítání a ukládání](loading-and-saving.md#laser-settings-import-export "mention")
 * Clips, efektů a nastavení skupin
 * Všech vašich časových os (bez zvukových a video médií)
 * Nastavení Art-Net
@@ -30,7 +30,7 @@ V současnosti neukládá ani nenačítá:
 * Fonty použité v Text node
 
 {% hint style="danger" %}
-Zvukové a video soubory v časové ose se neukládají do souborů projektu, proto je při přenosu do jiného počítače nezapomeňte uložit samostatně. Viz [Důležitá poznámka k mediálním souborům časové osy](loading-and-saving.md#important-note-about-timeline-media-files)
+Zvukové a video soubory v časové ose se neukládají do souborů projektu, proto je při přenosu do jiného počítače nezapomeňte uložit samostatně. Viz [Důležitá poznámka k mediálním souborům časové osy](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Import/export Laser Settings
@@ -67,7 +67,7 @@ Pomocí _Append Clip Deck_ můžete do aktuálního projektu přidat Clips z exp
 Všechny aktuálně vybrané Clips se exportují do souboru. Nastavení skupin a efekty se neuloží, uloží se pouze Clips. Pozor: aktuálně spuštěné aktivní Clips se neexportují, pokud zároveň nejsou vybrané.
 
 {% hint style="info" %}
-Clips vyberete pomocí Option/Alt - Shift - kliknutí (nebo použijte laso). Vybrané Clips poznáte podle silného bílého obrysu kolem nich. Viz [Spouštění a zastavování Clips](clips/starting-stopping-clips.md)
+Clips vyberete pomocí Option/Alt - Shift - kliknutí (nebo použijte laso). Vybrané Clips poznáte podle silného bílého obrysu kolem nich. Viz [Spouštění a zastavování Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Import/export efektů
@@ -82,12 +82,12 @@ Pokud chcete z projektu importovat pouze efekty, vyberte _**Effects->Import Effe
 
 ### Export časové osy
 
-Exportuje soubor časové osy s jednou nebo více časovými osami. Upozorňujeme, že Clip Deck je vždy součástí exportovaných souborů časové osy (i když při zpětném importu můžete vybrat, které Clips chcete importovat; viz níže [Import časové osy](loading-and-saving.md#timeline-import)).
+Exportuje soubor časové osy s jednou nebo více časovými osami. Upozorňujeme, že Clip Deck je vždy součástí exportovaných souborů časové osy (i když při zpětném importu můžete vybrat, které Clips chcete importovat; viz níže [Import časové osy](loading-and-saving.md#timeline-import "mention")).
 
 Pokud máte v souboru projektu více než jednu časovou osu, otevře se panel, ve kterém můžete vybrat, které časové osy chcete exportovat.
 
 {% hint style="danger" %}
-Zvukové a video soubory v časové ose se neukládají do souborů časové osy, proto je při přenosu obsahu do jiného počítače nezapomeňte uložit samostatně. Viz [Důležitá poznámka k mediálním souborům časové osy](loading-and-saving.md#important-note-about-timeline-media-files)
+Zvukové a video soubory v časové ose se neukládají do souborů časové osy, proto je při přenosu obsahu do jiného počítače nezapomeňte uložit samostatně. Viz [Důležitá poznámka k mediálním souborům časové osy](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Import časové osy

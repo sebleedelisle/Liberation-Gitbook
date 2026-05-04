@@ -19,7 +19,7 @@ Vidjet ćete ovu stranicu:
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Kliknite _Download latest for Mac_ (brojevi verzija mijenjat će se tijekom vremena) i instalacijska DMG datoteka za Liberation spremit će se u vašu mapu Preuzimanja. Pronađite datoteku i dvaput je kliknite da biste je otvorili.
+Kliknite _Download latest for Mac_ (brojevi verzija mijenjat će se tijekom vremena) i instalacijska DMG datoteka za Liberation spremit će se u vašu mapu Downloads. Pronađite datoteku i dvaput kliknite da biste je otvorili.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

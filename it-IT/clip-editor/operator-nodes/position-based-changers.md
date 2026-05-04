@@ -9,7 +9,7 @@ metaLinks:
 
 Questa famiglia di nodi modifica il contenuto in base alla posizione. Per impostazione predefinita, l’effetto viene applicato lungo un asse orizzontale, da sinistra a destra, ma puoi ruotare questo asse a qualsiasi angolo. Ogni nodo include anche una modalità _radial_, in cui l’effetto è determinato dall’angolo di ciascun punto rispetto al centro.
 
-* **Colour Changer by Position** – sposta i colori lungo l’asse scelto o attorno all’angolo radiale.\
+* **Colour Changer by Position** – applica un gradiente lungo l’asse scelto o attorno all’angolo radiale.\
   \&#xNAN;_Esempio: crea un gradiente arcobaleno che attraversa una linea, oppure usa la modalità radial su un cerchio per ottenere un effetto ruota dei colori._
 * **Wave Shift by Position** – applica una distorsione a onda sinusoidale, spostando il contenuto verticalmente, o in modo perpendicolare all’asse scelto.\
   \&#xNAN;_Esempio: fai increspare una linea come acqua, oppure usa la modalità radial per far pulsare un cerchio verso l’esterno dal centro._
@@ -29,10 +29,11 @@ Questo nodo applica variazioni di colore al contenuto in base alla posizione. Pe
 * **linear angle** – ruota l’asse dell’effetto. 0° = orizzontale.
 * **radial** – passa alla modalità radial, applicando i colori in base all’angolo rispetto al centro.
 * **radial smooth loop** – regola automaticamente la wavelength in modo che divida uniformemente il 100% del cerchio, evitando una giunzione visibile nel punto in cui il ciclo ricomincia.
+* **legacy mode** – torna ai vecchi slider HSB di inizio/fine. Lascialo disattivato per usare il nuovo editor del gradiente.
 
 **Modalità colore**
 
-Determinano quali aspetti delle regolazioni colore vengono applicati al contenuto. Vedi anche: [Impostazioni colore e HSB](../fundamentals/colour-settings-and-hsb.md).
+Determinano quali aspetti delle regolazioni colore vengono applicati al contenuto. Vedi anche: [Impostazioni colore e HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – la hue non viene modificata.
@@ -46,17 +47,32 @@ Determinano quali aspetti delle regolazioni colore vengono applicati al contenut
   * _FIXED_ – la brightness viene impostata sul valore specificato.
   * _MULTIPLY_ – la brightness viene scalata in base al valore specificato. Questo conserva le dinamiche: ad esempio gli elementi lampeggianti continuano a lampeggiare, ma entro l’intervallo di brightness limitato.
 
-**Valori iniziali / finali**
+**Editor del gradiente**
 
-Questi slider definiscono l’intervallo di colore applicato lungo l’asse scelto, o lungo la scansione radiale.
+Usa lo stesso editor del gradiente di [Colour Changer](colour-changer.md "mention"), ma mappa il gradiente sul contenuto in base alla posizione.
 
-* **start hue** – la hue all’inizio del gradiente.
-* **end hue** – la hue alla fine del gradiente.
-* **start saturation** – la saturation all’inizio.
-* **end saturation** – la saturation alla fine.
-* **start brightness** – la brightness all’inizio.
-* **end brightness** – la brightness alla fine.
+* Fai clic sulla barra del gradiente per aggiungere uno stop di colore.
+* Fai clic con il pulsante sinistro su uno stop per selezionarlo, quindi trascinalo lateralmente per spostarlo.
+* Trascina uno stop selezionato verso il basso, lontano dalla barra, oppure premi Delete/Backspace, per rimuoverlo. Un gradiente mantiene sempre almeno due stop.
+* Fai clic con il pulsante destro su uno stop per modificarlo con il selettore colore.
+* Usa **Position**, **Hue**, **Saturation** e **Brightness** per modificare con precisione lo stop selezionato.
+* **interpolation** sceglie come vengono miscelati i colori tra gli stop:
+* **HSB** – miscela hue, saturation e brightness. È l’opzione migliore per movimenti fluidi in stile arcobaleno attorno alla ruota dei colori.
+* **RGB** – miscela direttamente i valori di rosso, verde e blu. Spesso dà una sensazione più simile a una dissolvenza colore su uno schermo o su una console luci.
+* **NONE** – passa da uno stop al successivo senza miscelazione.
+* **hue direction** è disponibile con l’interpolazione HSB:
+* **AUTO** – segue il percorso più breve attorno alla ruota delle hue.
+* **FORWARDS** – procede sempre in avanti attraverso i valori di hue.
+* **BACKWARDS** – procede sempre all’indietro attraverso i valori di hue.
 * **blend** – miscela la variazione di colore con i colori originali. Al 100%, l’effetto sostituisce completamente i colori originali.
+
+**Valori iniziali / finali legacy**
+
+Se **legacy mode** è attivo, l’editor del gradiente viene sostituito dai controlli precedenti:
+
+* **start hue / end hue** – hue all’inizio e alla fine dell’intervallo.
+* **start saturation / end saturation** – saturation all’inizio e alla fine dell’intervallo.
+* **start brightness / end brightness** – brightness all’inizio e alla fine dell’intervallo.
 
 **Esempio 1: gradiente arcobaleno in scorrimento**
 
@@ -64,7 +80,7 @@ Partendo dalle impostazioni predefinite:
 
 1. Lascia il nodo in modalità **Linear** (angolo 0° = orizzontale).
 2. Lascia **wavelength** al 100%: copre l’intera larghezza e dovrebbe essere il valore predefinito.
-3. Lascia i valori iniziali e finali predefiniti.
+3. Lascia il gradiente predefinito così com’è.
 4. Attiva **repeat**.
 5. Aggiungi un **Sawtooth Oscillator** all’impostazione **offset**, da 0% a 100%.
 
@@ -77,13 +93,12 @@ Partendo dalle impostazioni predefinite:
 1. Lascia il nodo in modalità **Linear** (angolo 0° = orizzontale).
 2. Lascia **wavelength** al 100%: copre l’intera larghezza e dovrebbe essere il valore predefinito.
 3. Disattiva **repeat**.
-4. Imposta **start brightness** su 0 (nero).
-5. Imposta **end brightness** su 100 (bianco).
-6. Imposta **start saturation** e **end saturation** su 0: converte in scala di grigi.
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Attiva **pingpong**.
+4. Imposta il primo stop del gradiente su nero.
+5. Imposta lo stop finale del gradiente su bianco.
+6. Imposta **hue mode** su OFF.
+7. Imposta **saturation mode** su FIXED se vuoi forzare il risultato in scala di grigi.
+8. Imposta **brightness mode** su FIXED.
+9. Attiva **pingpong**.
 
 _Risultato: il gradiente sfuma da nero a bianco, poi di nuovo a nero lungo la larghezza._\
 Nota che, se vuoi che il contenuto mantenga la propria hue e saturation, imposta Saturation mode su OFF. \\
@@ -127,5 +142,6 @@ Questo nodo distorce il contenuto usando un campo di rumore, simile a una turbol
 * **Depth Offset** – si sposta attraverso il campo di rumore 3D, creando variazioni nel tempo. È particolarmente efficace se animato con un Oscillator Node.
 * **Depth Detail** – controlla quanto è dettagliata la variazione lungo la dimensione di profondità.
 * **Absolute** – usa il valore assoluto del rumore, ripiegando i valori negativi in positivi, e producendo quindi solo uno spostamento su un lato.
+* **Angle** – ruota l’asse del rumore in modalità lineare. 0° = orizzontale.
 * **Radial** – passa dalla modalità lineare alla modalità radial, così lo spostamento viene calcolato in base all’angolo rispetto al centro.
 * **Radial Smooth Loop** – regola la wavelength in modo che divida uniformemente il 100% del cerchio, evitando giunzioni visibili in modalità radial.

@@ -1,7 +1,8 @@
 ---
 description: >-
-  레이저는 위험할 수 있으므로 모범 사례와 안전 지침을 따르는 것이 중요합니다. 이 페이지는 레이저를 안전하게 설정하는
-  과정을 이해하는 데 도움이 되는 유용한 개요입니다.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

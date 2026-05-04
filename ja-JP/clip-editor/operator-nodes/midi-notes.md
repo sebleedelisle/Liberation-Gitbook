@@ -13,14 +13,14 @@ metaLinks:
 
 Liberation がリッスンする MIDI インターフェースは、**Liberation → Settings**（`Cmd / Ctrl + ,`）で選択できます。
 
-* **midi channel** – リッスンする MIDI チャンネル（0 = すべてのチャンネル、1–16 = 特定のチャンネル）。
+* **MIDI channel** – リッスンする MIDI チャンネル（0 = すべてのチャンネル、1–16 = 特定のチャンネル）。
 * **width** – ノートが広がる全体の幅。
-* **midi note min / max** – 範囲内の最低および最高 MIDI ノート値。
+* **MIDI note min / max** – 範囲内の最低および最高 MIDI ノート値。
 * **ignore out of range notes** – 設定範囲外のノートを除外します。無効にすると、範囲外のノートは最も近い使用可能なノートに「クランプ」されます（高いノートは範囲の上端を、低いノートは範囲の下端をトリガーします）。
 * **auto extend range** – 範囲外のノートが演奏された場合、自動的に範囲を広げます。
 
 {% hint style="info" %}
-受信しているノート範囲が分からない場合は、**auto extend range** をオンにし、**midi note min** をかなり高く、**midi note max** をかなり低く設定してから、ノートを一通り演奏してください。システムがすべてのノートを検出し、範囲を自動で拡張します。すべて取得できたら、**auto extend range** をオフにして範囲を固定します。
+受信しているノート範囲が分からない場合は、**auto extend range** をオンにし、**MIDI note min** をかなり高く、**MIDI note max** をかなり低く設定してから、ノートを一通り演奏してください。システムがすべてのノートを検出し、範囲を自動で拡張します。すべて取得できたら、**auto extend range** をオフにして範囲を固定します。
 {% endhint %}
 
 * **leave all notes visible** – 演奏中かどうかにかかわらず、範囲内のすべてのノートに対してビームまたはシェイプを作成し、「レーザーハープ」風の効果にします。

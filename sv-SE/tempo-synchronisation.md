@@ -12,7 +12,7 @@ Om du har erfarenhet av musik- eller ljusprogramvara kommer den här processen a
 
 ## Tempo panel
 
-_Tempo_-panelen visas alltid på skärmen och innehåller alla synkroniseringsinställningar. Längst upp ser du den aktuella takt-/slagräknaren och en transportkontroll med knappar för play/pause samt rewind/fastforward.
+_Tempo_-panelen visas alltid på skärmen och innehåller alla synkroniseringsinställningar. Längst upp ser du den aktuella takt-/slagräknaren och en transportkontroll med knappar för play/pause samt rewind/fast-forward.
 
 Under detta ser du taktslagsindikatorn: fyra rutor som ”pulserar” i takt med slaget. Den här _beat marker_ är en mycket användbar visualisering, och du kommer att titta på den ofta när du använder _Live_-temposystemet.
 
@@ -37,7 +37,7 @@ Ställ in tempot automatiskt genom att klicka på _TAP_-knappen i takt med slage
 {% hint style="info" %}
 Tap Tempo-systemet är smart nog att förstå om du har tagit en paus från att tappa en stund, eller om du har missat ett par slag. Om du börjar tappa i dubbel hastighet förstår det att du vill dubbla tempot, och samma sak gäller om du tappar i halv hastighet.
 
-Det är också smart nog att räkna ut om två personer tappar tempo samtidigt (t.ex. en på tangentbordet och en på APC40). Liberation jämnar ut de dubbla tappen.
+Det är också smart nog att räkna ut om två personer tappar tempo samtidigt (t.ex. en på tangentbordet och en på APC40). Liberation jämnar ut de dubbla tryckningarna.
 {% endhint %}
 
 #### Tangentbordskommandon:
@@ -101,6 +101,12 @@ Liberations MIDI Clock-tempokälla svarar också på **MIDI Machine Control (MMC
 {% endhint %}
 
 
+
+### Ableton Link
+
+För att synka med Ableton Link väljer du _ABLETON LINK_ som tempokälla. Liberation ansluter till Link-sessionen på ditt lokala nätverk och följer det delade tempot och slagfasen från andra appar med Link-stöd.
+
+Ableton Link använder ingen MIDI-port och överför ingen absolut song position. Använd kontrollerna för taktåterställning om du behöver att Liberations taktstart ska ligga i linje med ett visst ögonblick i showen.
 
 ### Timeline
 

@@ -57,7 +57,7 @@ Instalator zakończył pracę. Kliknij _Finish_, aby go zamknąć i uruchomić L
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation potrzebuje uprawnień dostępu do plików i sieci, więc Windows prawdopodobnie wyświetli kilka okien z prośbą o zgodę. Zaakceptuj wszystkie, w przeciwnym razie Liberation może nie działać poprawnie.
+Liberation potrzebuje uprawnień dostępu do plików i sieci, więc Windows prawdopodobnie wyświetli kilka monitów o zgodę. Zaakceptuj wszystkie, w przeciwnym razie Liberation może nie działać poprawnie.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

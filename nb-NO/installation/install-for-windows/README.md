@@ -57,7 +57,7 @@ Installasjonsprogrammet er ferdig! Klikk på _Finish_ for å lukke det og starte
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation trenger tillatelse til å få tilgang til filer og nettverket, så Windows vil sannsynligvis vise flere forespørselsvinduer. Pass på å godta alt, ellers kan det hende Liberation ikke fungerer som det skal.
+Liberation trenger tillatelse til å få tilgang til filer og nettverket, så Windows vil sannsynligvis vise noen tillatelsesforespørsler. Pass på å godta alt, ellers kan det hende Liberation ikke fungerer som det skal.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

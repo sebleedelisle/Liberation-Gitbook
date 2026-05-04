@@ -8,7 +8,7 @@ metaLinks:
 
 Při úpravách a nastavování zone je užitečné zobrazit test pattern. Test pattern můžete zapnout pro každou povolenou zone pomocí přepínače v horní liště ikon a vybrat jej posuvníkem napravo od něj.
 
-Pokud chcete test pattern zobrazit jen na laseru, pro který právě nastavujete zone, použijte přepínač na panelu nástrojů vlevo v _Output_ view. Kliknutím/tažením čísla pod ním vyberete test pattern.
+Pokud chcete testovací obrazec zobrazit jen na laseru, u kterého právě nastavujete zone, použijte přepínač na panelu nástrojů vlevo v _Output_ view. Testovací obrazec vyberete kliknutím a tažením čísla pod ním.
 
 ### Seznam test patterns
 
@@ -19,7 +19,7 @@ Níže je úplný seznam test patterns. Pokud není uvedeno jinak, vzory vyplní
 3. Vodorovné zelené čáry – 4 rovnoměrně rozmístěné vodorovné čáry.
 4. Svislé zelené čáry – 4 rovnoměrně rozmístěné svislé čáry.
 
-Vzory pro kalibraci barev 5–8. Lze je používat společně se systémem korekce barev v nastavení laseru. Viz [Kalibrace barev](../advanced/colour-calibration.md). Tyto vzory nevyplňují celý výstupní prostor.
+Vzory pro kalibraci barev 5–8. Lze je používat společně se systémem korekce barev v nastavení laseru. Viz [Kalibrace barev](../advanced/colour-calibration.md "mention"). Tyto vzory nevyplňují celý výstupní prostor.
 
 5. Vzor pro kalibraci barev – červená.
 6. Vzor pro kalibraci barev – zelená.

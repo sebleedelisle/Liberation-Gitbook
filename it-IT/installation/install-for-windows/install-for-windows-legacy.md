@@ -9,7 +9,7 @@ metaLinks:
 
 ### Compatibilità
 
-Computer Windows 10 o 11 a 64 bit. Se vuoi eseguire show di grandi dimensioni, sono consigliate macchine con specifiche elevate. Più veloce è il computer, più fluida sarà l'uscita laser animata.
+Computer Windows 10 o 11 a 64 bit. Se vuoi eseguire show di grandi dimensioni, sono consigliati computer con specifiche elevate. Più veloce è il computer, più fluida sarà l'uscita laser animata.
 
 ### Procedura di installazione
 
@@ -23,7 +23,7 @@ Clicca su _Download latest for Windows_ (i numeri di versione potrebbero cambiar
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Si aprirà la cartella dei download. Trova il file scaricato (di solito in alto), fai clic con il tasto destro e seleziona "Extract all"
+Si aprirà la cartella Downloads. Trova il file scaricato (di solito in alto), fai clic con il tasto destro e seleziona "Extract all"
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Dopo che Windows avrà terminato l'estrazione, ti mostrerà il file di installaz
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation ha bisogno dell'autorizzazione per accedere ai file e alla rete, quindi Windows probabilmente mostrerà diverse richieste. Assicurati di accettarle tutte, altrimenti Liberation potrebbe non funzionare correttamente.
+Liberation ha bisogno dell'autorizzazione per accedere ai file e alla rete, quindi Windows probabilmente mostrerà alcune richieste di autorizzazione. Assicurati di accettarle tutte, altrimenti Liberation potrebbe non funzionare correttamente.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

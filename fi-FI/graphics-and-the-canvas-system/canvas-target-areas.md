@@ -17,7 +17,7 @@ Joskus taas saatat haluta useita Canvas-kohdealueita rakennuksen eri osia varten
 
 ### Clippien lähettäminen Canvas-kohdealueisiin
 
-Clip deckissä beam zone -painikkeiden vieressä näkyvät Canvas-kohdealueiden painikkeet. Saatat joutua vierittämään output-painikkeita nähdäksesi ne. Käytä `Shift + Left / Right Arrow` -näppäimiä, näytön ZONE PAGE -painikkeita tai APC40-painikkeita (katso [APC40-viite](../reference/apc40-reference.md))
+Clip deckissä beam zone -painikkeiden vieressä näkyvät Canvas-kohdealueiden painikkeet. Saatat joutua vierittämään output-painikkeita nähdäksesi ne. Käytä `Shift + Left / Right Arrow` -näppäimiä, näytön ZONE PAGE -painikkeita tai APC40-painikkeita (katso [APC40-viite](../reference/apc40-reference.md "mention"))
 
 Määritä clipit Canvas-kohdealueisiin kytkemällä nämä painikkeet päälle tai pois täsmälleen samalla tavalla kuin beam zone -painikkeiden kanssa.
 

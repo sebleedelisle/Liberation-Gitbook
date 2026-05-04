@@ -16,7 +16,7 @@ Huomaa, että Global Transformations eivät vaikuta mihinkään Canvasissa, vaan
 
 ### Scale X/Y
 
-Vaaka- ja pystysuuntainen skaalaus. Nämä arvot on lukittu yhteen, ellet paina `Shift`. Oletuksena ne on myös määritetty APC40 Device Control -säätimiin 4 ja 8, ja ne näkyvät Clip Deckin oikealla puolella olevassa paneelissa.
+Vaaka- ja pystysuuntainen skaalaus. Nämä arvot on lukittu yhteen, ellet paina `Shift`. Oletuksena ne on myös määritetty APC40 Device Control -säätimiin 4 ja 8, ja ne näkyvät Clip Deckin oikealla puolella olevassa kontekstikohtaisessa Parameters-paneelissa.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Vaaka- ja pystysuuntainen siirto. Siirtää kaiken vaakasuunnassa / pystysuunnas
 
 ### Spin
 
-Pyörittää kaiken sisällön keskikohdan ympäri. Positiivinen arvo pyörittää myötäpäivään, negatiivinen arvo vastapäivään. Huomaat, että tämä asetus vaikuttaa _Rotation_-muunnokseen. Oletuksena tämä on määritetty APC40 Device Control -säätimeen 3, ja se näkyy Clip Deckin oikealla puolella olevassa paneelissa.
+Pyörittää kaiken sisällön keskikohdan ympäri. Positiivinen arvo pyörittää myötäpäivään, negatiivinen arvo vastapäivään. Huomaat, että tämä asetus vaikuttaa _Rotation_-muunnokseen. Oletuksena tämä on määritetty APC40 Device Control -säätimeen 3, ja se näkyy Clip Deckin oikealla puolella olevassa kontekstikohtaisessa Parameters-paneelissa.
 
 ### Spin 3D
 
-Pyörittää kaiken sisällön Y-akselin ympäri (pystysuora viiva keskellä). Huomaat, että tämä asetus vaikuttaa _Rotation3D_-muunnokseen. Oletuksena tämä on määritetty APC40 Device Control -säätimeen 7, ja se näkyy Clip Deckin oikealla puolella olevassa paneelissa.
+Pyörittää kaiken sisällön Y-akselin ympäri (pystysuora viiva keskellä). Huomaat, että tämä asetus vaikuttaa _Rotation3D_-muunnokseen. Oletuksena tämä on määritetty APC40 Device Control -säätimeen 7, ja se näkyy Clip Deckin oikealla puolella olevassa kontekstikohtaisessa Parameters-paneelissa.
 
 ### Rotation
 

@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/reference/midi-send-receive-default-mapping
+---
+
 # ✅ MIDI send/receive 默认映射
 
 **Clip 的开/关由通道 1 到 14 的 MIDI note on / off 触发**
@@ -41,4 +48,4 @@ CC 9：Rotation 2D（Z）
 最重要的是：\
 CC 15：Global brightness
 
-请注意：该系统最初为录制与回放设计，便于使用 Logic、Ableton 或其他 DAW 创建 Timeline 动画。虽然可用于现场控制，但并未针对现场优化，且部分现场控制功能不如 APC40 完整。
+请注意：该系统最初为录制与回放设计，便于使用 Logic、Ableton 或其他 DAW 创建 Timeline 动画。虽然可用于现场控制，但并未针对现场优化，且部分现场控制功能不如 APC40 setup 完整。

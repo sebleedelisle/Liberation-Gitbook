@@ -41,7 +41,7 @@ Athugaðu að leiðréttingar á stefnu / speglun breyta engu í 3D Visualiser. 
 
 ### Afrita Laser Settings
 
-Sjá [Afrita Laser Settings](laser-settings.md#copy-laser-settings).
+Sjá [Afrita Laser Settings](laser-settings.md#copy-laser-settings "mention").
 
 ### Stillingar skanna
 
@@ -56,7 +56,7 @@ Stillingin Speed ræður því hversu hratt skannarnir hreyfast.
 {% endhint %}
 
 {% hint style="info" %}
-Þessi Speed stilling breytir ekki punktatíðninni. Hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [Hvernig Liberation býr til laserefni](../advanced/how-liberation-generates-laser-content.md)
+Þessi Speed stilling breytir ekki punktatíðninni. Hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [Hvernig Liberation býr til laserefni](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,12 +73,12 @@ Ef þú sérð litla „hala“ í úttaki leysisins þarf líklega að stilla S
 
 #### Forstillingar skanna
 
-Notaðu þetta til að velja fyrirfram hannaða stillingu fyrir skannana. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema þú sért með sérstaklega lélega (eða góða) skanna. Ef þú vilt skoða þetta nánar, sjá [Forstillingar skanna](../advanced/scanner-presets.md)
+Notaðu þetta til að velja fyrirfram hannaða stillingu fyrir skannana. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema þú sért með sérstaklega lélega (eða góða) skanna. Ef þú vilt skoða þetta nánar, sjá [Forstillingar skanna](../advanced/scanner-presets.md "mention")
 
 #### Litakvörðun
 
-Þú getur notað þetta kerfi til að leiðrétta birtuferil og hvítjöfnun leysisins. Sjá [Litakvörðun](../advanced/colour-calibration.md)
+Þú getur notað þetta kerfi til að leiðrétta birtuferil og hvítjöfnun leysisins. Sjá [Litakvörðun](../advanced/colour-calibration.md "mention")
 
 #### Ítarlegar stillingar
 
-Þú ættir ekki að þurfa að fikta í þessu, en ef þú ert forvitin/n, sjá [Ítarlegar Laser Settings](../advanced/advanced-laser-settings.md)
+Þú ættir ekki að þurfa að fikta í þessu, en ef þú ert forvitin/n, sjá [Ítarlegar Laser Settings](../advanced/advanced-laser-settings.md "mention")

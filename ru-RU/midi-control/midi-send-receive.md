@@ -25,6 +25,6 @@ metaLinks:
 
 ### MIDI-маппинг
 
-См. [Стандартное сопоставление MIDI для отправки и приёма](../reference/midi-send-receive-default-mapping.md)
+См. [Стандартное сопоставление MIDI для отправки и приёма](../reference/midi-send-receive-default-mapping.md "mention")
 
 В будущем я планирую добавить гораздо более гибкую настройку MIDI-маппинга, но пока вы можете использовать приложения вроде [BOME](https://www.bome.com/products/miditranslator) и [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en), чтобы преобразовывать MIDI-данные между Liberation и вашим пользовательским оборудованием.

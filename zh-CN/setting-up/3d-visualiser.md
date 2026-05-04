@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/3d-visualiser
+---
+
 # ✅ 3D Visualiser
 
 ### 介绍
@@ -6,7 +12,7 @@ Liberation 的 3D visualiser 非常实用——你无需任何激光就能设计
 
 ### 在 3D 空间中导航
 
-<figure><img src="../.gitbook/assets/3D View RedWhite.png" alt=""><figcaption><p>3D Visualiser 视图</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/White.png" alt=""><figcaption><p>3D Visualiser 视图</p></figcaption></figure>
 
 * 点击并拖动以围绕轨道点旋转视角
 * 滚轮向前/向后移动至轨道点
@@ -32,7 +38,7 @@ Liberation 的 3D visualiser 非常实用——你无需任何激光就能设计
 * **FOV -** 视角（Field of view），决定相机视野宽度/缩放程度。
 * **Orbit position** - 描述围绕轨道点的当前旋转。第一个值为绕 X 轴（pitch），第二个值为绕 Y 轴（yaw）。
 * **Orbit centre point** - 轨道点在 3D 空间中的位置（x、y、z）。
-* **Grid height** - 网格相对 “地面”（即 y = 0）的高度。
+* **Grid height** - 网格相对“地面”（即 y = 0）的高度。
 
 ### Content settings
 

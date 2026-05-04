@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/installation/transfer-your-content-when-upgrading-to-a-new-version
+---
+
 # 🟩 升级到新版本时迁移内容
 
 Liberation 会把内容存放在工作文件夹中（见 [如何找到工作文件夹](../troubleshooting/where-to-find-the-working-folder.md "mention")），且每次新版本发布时该路径都会变化。如果你想把旧版本的工作文件保留到新版本：&#x20;

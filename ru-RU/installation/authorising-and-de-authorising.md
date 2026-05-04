@@ -9,7 +9,7 @@ metaLinks:
 
 ### Авторизация Liberation
 
-При первом запуске Liberation будет работать в _деморежиме_, и вы увидите _About panel:_
+При первом запуске Liberation будет работать в _бесплатном режиме_, и вы увидите _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ metaLinks:
 Если у вас несколько подписок, система предложит выбрать подписку, к которой нужно привязать компьютер.
 {% endhint %}
 
-Поздравляем! Ваша установка Liberation теперь авторизована, и вы можете выводить сигнал на лазеры. Но перед тем как переводить лазеры в состояние armed, пожалуйста, прочитайте [Начало работы](../getting-started.md) и [Настройка лазеров](../setting-up/setting-up-lasers.md).
+Поздравляем! Ваша установка Liberation теперь авторизована, и вы можете выводить сигнал на лазеры. Но перед тем как переводить лазеры в состояние armed, пожалуйста, прочитайте [Начало работы](../getting-started.md "mention") и [Настройка лазеров](../setting-up/setting-up-lasers.md "mention").
 
 {% hint style="info" %}
 Вы можете открыть _About panel_ в любой момент через меню _Liberation -> About Liberation_ или _Liberation -> Authorise/Deauthorise this computer_

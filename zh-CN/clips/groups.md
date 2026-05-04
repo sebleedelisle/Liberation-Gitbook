@@ -1,3 +1,9 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/groups
+---
+
 # 🟩 Clip 分组
 
 你会注意到每个 Clip 都有颜色轮廓，这代表它所属的 _group_。APC40 的 Clip 按钮也会以对应的组颜色点亮。&#x20;

@@ -35,7 +35,7 @@ Athugaðu að leiðréttingar á stefnu/speglun breyta engu í 3D Visualiser. Þ
 
 ### Afrita laser settings
 
-Sjá [Afrita laser settings](./#copy-laser-settings).
+Sjá [Afrita laser settings](./#copy-laser-settings "mention").
 
 ### Skannastillingar
 
@@ -50,7 +50,7 @@ Speed stillingin ræður því hversu hratt skannarnir hreyfast.
 {% endhint %}
 
 {% hint style="info" %}
-Þessi Speed stilling breytir ekki punktahraðanum; hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [Hvernig Liberation býr til leysiefni](../../advanced/how-liberation-generates-laser-content.md)
+Þessi Speed stilling breytir ekki punktahraðanum; hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [Hvernig Liberation býr til leysiefni](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Ef þú sérð litla „hala“ í Output frá leysinum þarf líklega að still
 
 #### Scanner presets
 
-Notaðu þetta til að velja fyrirfram hannaða skannastillingu. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema skannarnir þínir séu sérstaklega slæmir (eða góðir). Ef þú vilt skoða þetta nánar, sjá [Scanner presets](../../advanced/scanner-presets.md)
+Notaðu þetta til að velja fyrirfram hannaða skannastillingu. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema skannarnir þínir séu sérstaklega slæmir (eða góðir). Ef þú vilt skoða þetta nánar, sjá [Scanner presets](../../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Þú getur notað þetta kerfi til að leiðrétta birtukúrfu og hvítjöfnun leysisins. Sjá [Litkvörðun](../../advanced/colour-calibration.md)
+Þú getur notað þetta kerfi til að leiðrétta birtukúrfu og hvítjöfnun leysisins. Sjá [Litkvörðun](../../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Þú ættir ekki að þurfa að fikta í þessum stillingum, en ef þú ert forvitin(n), sjá [◼️ Ítarlegar leysistillingar](../../advanced/advanced-laser-settings.md)
+Þú ættir ekki að þurfa að fikta í þessum stillingum, en ef þú ert forvitin(n), sjá [◼️ Ítarlegar leysistillingar](../../advanced/advanced-laser-settings.md "mention")

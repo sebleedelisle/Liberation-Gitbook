@@ -69,4 +69,4 @@ I turnéverdenen er det en vanlig konvensjon å la hver låt starte på en ny ti
 Liberation bytter automatisk til riktig timeline basert på timecode, så du trenger aldri å bytte timelines manuelt under et show.
 {% endhint %}
 
-Merk at i motsetning til MIDI Clock og Ableton Link er SMPTE et _absolutt_ tidssystem, målt i timer, minutter, sekunder og frames. Liberation sitt kjernetidssystem er basert på beats og bars, så når du mottar timecode, brukes tempoet som er satt opp i timeline. Du må sørge for at dette tempoet er synkronisert med musikken som også er synkronisert til timecode.
+Merk at i motsetning til MIDI Clock og Ableton Link er SMPTE et _absolutt_ tidssystem, målt i timer, minutter, sekunder og frames. Liberation sitt kjernetidssystem er basert på beats og bars, så når du mottar timecode, brukes tempoet som er satt i timeline. Du må sørge for at dette tempoet er synkronisert med musikken som også er synkronisert til timecode.

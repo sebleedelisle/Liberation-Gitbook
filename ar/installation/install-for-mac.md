@@ -23,6 +23,6 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 
-اسحب أيقونة Liberation الموجودة على اليسار إلى مجلد Applications الموجود على اليمين (قد تحتاج إلى كلمة مرور مسؤول). يمكنك الآن العثور على Liberation في مجلد Applications، ثم النقر عليه نقرًا مزدوجًا لفتحه.
+اسحب أيقونة Liberation الموجودة على اليسار إلى مجلد Applications الموجود على اليمين (قد تحتاج إلى كلمة مرور مسؤول). يمكنك الآن العثور على Liberation في مجلد Applications، ثم انقر عليه نقرًا مزدوجًا لفتحه.
 
 يُفترض أن يعمل Liberation الآن! لإرسال الخرج إلى أجهزة الليزر، ستحتاج الآن إلى إكمال خطوات [التفويض وإلغاء التفويض](authorising-and-de-authorising.md).

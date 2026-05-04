@@ -38,7 +38,7 @@ UYARI - lazer armed durumdaysa, varsayılan bir canvas zone içinde aniden içer
 {% endhint %}
 
 {% hint style="info" %}
-Bir canvas zone öğesini bir lazere _OUTPUT_ view içindeki _add canvas zone_ düğmesine tıklayarak da atayabilirsiniz. Bkz. [Zones](../output-view/zones.md).
+Bir canvas zone öğesini bir lazere _OUTPUT_ view içindeki _add canvas zone_ düğmesine tıklayarak da atayabilirsiniz. Bkz. [Zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Kılavuz görseller

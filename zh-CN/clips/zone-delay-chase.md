@@ -1,8 +1,14 @@
+---
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clips/zone-delay-chase
+---
+
 # 🟩 Zone delay / chase
 
 大家都知道激光越多越好玩，但如果它们做的完全一样，就会错过不少创意可能。
 
-Zone delay 系统是一种简单但有效的方法，可在不同 Zones 之间制造变化，并充分发挥多激光设置的优势；它也可用于更传统的 chase 效果。
+Zone delay 系统是一种简单但有效的方法，可在不同 zone 之间制造变化，并充分发挥多激光设置的优势；它也可用于更传统的 chase 效果。
 
 #### 原理
 

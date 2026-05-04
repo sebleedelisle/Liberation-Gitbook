@@ -23,7 +23,7 @@ Klik på _Download latest for Windows_ (versionsnumrene kan ændre sig), og du v
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Det åbner din downloads-mappe. Find den downloadede fil (normalt øverst), højreklik, og vælg "Extract all".
+Det åbner din Downloads-mappe. Find den downloadede fil (normalt øverst), højreklik, og vælg "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Når Windows er færdig med at pakke filerne ud, vises installationsfilen. Dobbe
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation skal have tilladelse til at få adgang til filer og netværket, så Windows vil sandsynligvis vise en række anmodninger. Sørg for at acceptere det hele, ellers fungerer Liberation muligvis ikke korrekt.
+Liberation skal have tilladelse til at få adgang til filer og netværket, så Windows vil sandsynligvis vise nogle tilladelsesprompter. Sørg for at acceptere det hele, ellers fungerer Liberation muligvis ikke korrekt.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

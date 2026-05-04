@@ -9,7 +9,7 @@ metaLinks:
 
 Uruchamianie laserów może być świetną zabawą, ale równie ważne jest to, aby móc je _zatrzymać_! Sprzęt i oprogramowanie laserowe są zwykle bardzo niezawodne, ale awarii może ulec wszystko. A jeśli w rzadkim przypadku tak się stanie, bardzo docenisz zdalny przycisk awaryjnego zatrzymania.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Zdalny przycisk awaryjnego zatrzymania dla Laser Cube. Najważniejszy element sprzętu, jaki posiadasz.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Elektronarzędzia i ciężki sprzęt mają przyciski stop, które po prostu odcinają główne zasilanie, ale w przypadku sprzętu laserowego **nigdy** nie należy tego robić! Lasery zawsze potrzebują chwili, aby przestać emitować światło, a nagły zanik zasilania może spowodować, że skanery laserowe dojdą do skrajnych położeń. W efekcie możesz uzyskać silną wiązkę w zupełnie nieoczekiwanych miejscach!

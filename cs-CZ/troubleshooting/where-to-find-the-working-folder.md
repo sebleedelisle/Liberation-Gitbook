@@ -9,10 +9,10 @@ metaLinks:
 
 #### Kde najít pracovní složku
 
-Každá verze Liberation má vlastní pracovní složku. Pokud například používáte verzi 1.0.0, název složky bude 1.0.0.
+Každá verze Liberation má vlastní pracovní složku. Pokud například používáte verzi 1.0.3, název složky bude 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Jak složku rychle otevřít**
 
@@ -24,7 +24,7 @@ Každá verze Liberation má vlastní pracovní složku. Pokud například použ
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Otevřete složku, která odpovídá číslu vaší verze, například `1.0.0`.
+3. Otevřete složku, která odpovídá číslu vaší verze, například `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Každá verze Liberation má vlastní pracovní složku. Pokud například použ
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Otevřete složku, která odpovídá číslu vaší verze, například `1.0.0`.
+2. Otevřete složku, která odpovídá číslu vaší verze, například `1.0.3`.
 
 > **Tip pro Windows**: Pokud složku procházíte přes Průzkumníka souborů, zapněte zobrazení skrytých položek: **Zobrazení > Zobrazit > Skryté položky**.

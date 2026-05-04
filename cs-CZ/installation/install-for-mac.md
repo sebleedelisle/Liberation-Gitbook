@@ -19,7 +19,7 @@ Zobrazí se tato stránka:
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klikněte na _Download latest for Mac_ (čísla verzí se budou časem měnit) a instalační soubor DMG pro Liberation se uloží do složky se staženými soubory. Najděte soubor a otevřete ho dvojitým kliknutím.
+Klikněte na _Download latest for Mac_ (čísla verzí se budou časem měnit) a instalační soubor DMG pro Liberation se uloží do složky Stažené soubory. Najděte soubor a otevřete ho dvojitým kliknutím.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

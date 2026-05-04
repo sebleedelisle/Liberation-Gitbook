@@ -19,7 +19,7 @@ Du ser denne siden:
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klikk på _Download latest for Mac_ (versjonsnumrene vil endre seg over tid), så lagres Liberation DMG-installasjonsfilen i nedlastingsmappen din. Finn filen og dobbeltklikk for å åpne den.
+Klikk på _Download latest for Mac_ (versjonsnumrene vil endre seg over tid), så lagres Liberation DMG-installasjonsfilen i Nedlastinger-mappen din. Finn filen og dobbeltklikk for å åpne den.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

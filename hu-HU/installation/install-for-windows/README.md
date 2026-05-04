@@ -57,7 +57,7 @@ A telepítő elkészült. Kattints a _Finish_ gombra a bezárásához és a Libe
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-A Liberationnek engedélyre van szüksége a fájlok és a hálózat eléréséhez, ezért a Windows valószínűleg több kérést is megjelenít. Ügyelj rá, hogy mindent engedélyezz, különben a Liberation nem biztos, hogy megfelelően működik.
+A Liberationnek engedélyre van szüksége a fájlok és a hálózat eléréséhez, ezért a Windows valószínűleg néhány engedélykérést is megjelenít. Ügyelj rá, hogy mindent engedélyezz, különben a Liberation nem biztos, hogy megfelelően működik.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

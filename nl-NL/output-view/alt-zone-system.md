@@ -15,7 +15,7 @@ Met het Alt zone-systeem kun je voor elke bestaande zone een alternatieve zone m
 
 ### Een alternatieve zone toevoegen
 
-Klik in de output view met de rechtermuisknop op een zone en klik op _ADD ALT ZONE_. Je ziet dat er een nieuwe groene zone verschijnt. Je kunt deze op precies dezelfde manier bewerken en aanpassen als je andere zones. Je moet Alt zones inschakelen in de bovenste iconenbalk om de testpatronen te zien.
+Klik in de Output view met de rechtermuisknop op een zone en klik op _ADD ALT ZONE_. Je ziet dat er een nieuwe groene zone verschijnt. Je kunt deze op precies dezelfde manier bewerken en aanpassen als je andere zones. Je moet Alt zones inschakelen in de bovenste iconenbalk om de testpatronen te zien.
 
 ### Overschakelen naar je Alt zones
 

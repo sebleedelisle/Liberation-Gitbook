@@ -38,7 +38,7 @@ VAROVÁNÍ – pokud je laser armed, mohl by náhle začít promítat obsah ve v
 {% endhint %}
 
 {% hint style="info" %}
-Canvas zone můžete k laseru přiřadit také kliknutím na tlačítko _add canvas zone_ v zobrazení _OUTPUT_. Viz [Zones](../output-view/zones.md).
+Canvas zone můžete k laseru přiřadit také kliknutím na tlačítko _add canvas zone_ v zobrazení _OUTPUT_. Viz [Zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Pomocné obrázky

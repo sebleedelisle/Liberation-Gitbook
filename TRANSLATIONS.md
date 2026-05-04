@@ -46,6 +46,8 @@ npm run translate:docs -- de-DE --language-name German --provider anthropic --up
 
 Use `--model` to override the default model. The default OpenAI model is `gpt-5.5` for high-quality documentation translation.
 
+OpenAI translation calls default to `--reasoning-effort low`, which is usually enough for structured translation and keeps cost and latency down. Use `--reasoning-effort medium` for difficult pages or retries. The value can also be set with `TRANSLATE_REASONING_EFFORT`.
+
 ## Tone and terminology
 
 The translation prompt asks for a clear, friendly, practical technical-manual tone rather than marketing copy. It also asks the model to use native phrasing instead of literal word-for-word translation, while preserving Markdown structure, links, image paths, code, keyboard shortcuts, UI labels, and product names.
@@ -99,7 +101,30 @@ Preview the stale files that would be sent to the translation API:
 npm run translate:stale:dry-run
 ```
 
-By default, stale mode uses git history to compare the current English file with the English version from the last commit where the matching translated file was touched. For existing stale files, the translator receives that English diff plus the current translation, and is instructed to update only the affected translated passages while preserving unchanged translated text. To force a fresh full-file translation instead, use `--stale-strategy full`.
+By default, stale mode uses git history to compare the current English file with the English version from the last commit where the matching translated file was touched. Existing stale files use `--stale-strategy blocks`: the script splits the page into Markdown blocks, sends only changed translatable blocks to the translation API, and stitches the translated blocks back into the existing page locally. This keeps unchanged translated blocks out of the API request and avoids rewriting whole pages for small edits.
+
+The dry run includes a rough character estimate for the changed blocks that would be sent and returned:
+
+```sh
+npm run translate:stale:dry-run
+```
+
+To update only files changed in a specific commit or range:
+
+```sh
+npm run translate:docs -- de-DE --mode stale --paths-from-git bccdd22
+npm run translate:docs -- de-DE --mode stale --paths-from-git main~3..main
+```
+
+To update only files changed since a ref:
+
+```sh
+npm run translate:docs -- de-DE --mode stale --since origin/main
+```
+
+If a block-level patch cannot be safely applied, the command stops instead of silently retranslating the whole page. Add `--allow-full-fallback` if you want those failures to fall back to full-file translation. To force a fresh full-file translation for every selected stale page, use `--stale-strategy full`. The previous page-level diff behaviour is still available with `--stale-strategy diff`.
+
+The translator also updates `.translation-status.json`. This records pages that have been processed against the current English source even when the translated Markdown does not need any byte-level content change, so the strict freshness check can distinguish handled no-op translations from genuinely stale pages.
 
 Update only stale German pages:
 

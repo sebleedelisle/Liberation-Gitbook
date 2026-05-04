@@ -8,13 +8,13 @@ metaLinks:
 
 A Liberation folyamatosan menti az állapotát a lemezre, így áramkimaradás vagy rendszerhiba esetén is onnan indul újra, ahol abbahagyta. A zónák, timeline-ok és egyéb tartalmak normál esetben nem vesznek el.
 
-Ettől függetlenül exportálhatja a beállításait biztonsági mentéshez, vagy ha egy másik számítógépre szeretné áthelyezni őket.
+Ettől függetlenül exportálhatod a beállításaidat biztonsági mentéshez, vagy ha egy másik számítógépre szeretnéd áthelyezni őket.
 
 ### Projekt importálása/exportálása
 
 A Project fájl a jelenlegi beállítások szinte minden elemét tárolja, többek között:
 
-* Mindent, ami az alábbi részben szerepel: [Betöltés és mentés](loading-and-saving.md#laser-settings-import-export)
+* Mindent, ami az alábbi részben szerepel: [Betöltés és mentés](loading-and-saving.md#laser-settings-import-export "mention")
 * Klipeket, effekteket és csoportbeállításokat
 * Az összes timeline-t, az audio- és videomédia kivételével
 * Art-Net-beállításokat
@@ -30,7 +30,7 @@ Jelenleg nem menti és tölti be:
 * A Text node által használt betűtípusokat
 
 {% hint style="danger" %}
-A timeline-ban lévő hang- és videofájlok nem kerülnek mentésre a projektfájlokkal, ezért ha másik számítógépre szeretné áthelyezni őket, mindenképpen mentse el külön ezeket is. Lásd: [Betöltés és mentés](loading-and-saving.md#important-note-about-timeline-media-files)
+A timeline-ban lévő hang- és videofájlok nem kerülnek mentésre a projektfájlokkal, ezért ha másik számítógépre szeretné áthelyezni őket, mindenképpen mentse el külön ezeket is. Lásd: [Betöltés és mentés](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Laser settings importálása/exportálása
@@ -67,7 +67,7 @@ Az _Append Clip Deck_ használatával egy exportált clip deck fájlból klipeke
 A jelenleg kijelölt klipek egy fájlba lesznek exportálva. A csoportbeállítások és effektek nem kerülnek mentésre, csak a klipek. Fontos, hogy az éppen futó aktív klipek nem kerülnek exportálásra, hacsak nincsenek kijelölve.
 
 {% hint style="info" %}
-A klipek kijelöléséhez használja az Option/Alt - shift - click műveletet, vagy a lasszót. A kijelölt klipeket a körülöttük látható vastag fehér körvonal jelzi. Lásd: [Clipek indítása / leállítása](clips/starting-stopping-clips.md)
+A klipek kijelöléséhez használja az Option/Alt - shift - click műveletet, vagy a lasszót. A kijelölt klipeket a körülöttük látható vastag fehér körvonal jelzi. Lásd: [Clipek indítása / leállítása](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Effektek importálása/exportálása
@@ -82,12 +82,12 @@ Ha csak az effekteket szeretné importálni egy projektből, válassza az _**Eff
 
 ### Timeline exportálása
 
-Egy vagy több timeline-t tartalmazó timeline fájl exportálása. Fontos, hogy a clipdeck mindig bekerül az exportált timeline fájlokba, bár az importáláskor kiválaszthatja, mely klipeket szeretné visszaimportálni. Lásd: [Betöltés és mentés](loading-and-saving.md#timeline-import) alább.
+Egy vagy több timeline-t tartalmazó timeline fájl exportálása. Fontos, hogy a Clip Deck mindig bekerül az exportált timeline fájlokba, bár az importáláskor kiválaszthatod, mely Clip elemeket szeretnéd visszaimportálni. Lásd: [Betöltés és mentés](loading-and-saving.md#timeline-import "mention") alább.
 
 Ha a projektfájlban egynél több timeline található, megnyílik egy panel, ahol kiválaszthatja, mely timeline-okat szeretné exportálni.
 
 {% hint style="danger" %}
-A timeline-ban lévő hang- és videofájlok nem kerülnek mentésre a timeline fájlokkal, ezért ha a tartalmat másik számítógépre szeretné áthelyezni, mindenképpen mentse el külön ezeket is. Lásd: [Betöltés és mentés](loading-and-saving.md#important-note-about-timeline-media-files)
+A timeline-ban lévő hang- és videofájlok nem kerülnek mentésre a timeline fájlokkal, ezért ha a tartalmat másik számítógépre szeretné áthelyezni, mindenképpen mentse el külön ezeket is. Lásd: [Betöltés és mentés](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Timeline importálása

@@ -38,7 +38,7 @@ Canvas zones — это области внутри Canvas, которые вы 
 {% endhint %}
 
 {% hint style="info" %}
-Canvas zone также можно назначить лазеру, нажав кнопку _add canvas zone_ в _OUTPUT_ view. См. [Zones](../output-view/zones.md).
+Canvas zone также можно назначить лазеру, нажав кнопку _add canvas zone_ в _OUTPUT_ view. См. [Zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Направляющие изображения

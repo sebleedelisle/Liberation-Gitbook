@@ -9,7 +9,7 @@ metaLinks:
 
 ### Autorizacija programa Liberation
 
-Kada prvi put otvorite Liberation, pokrenut će se u _demo načinu rada_ i vidjet ćete _About panel:_
+Kada prvi put otvorite Liberation, pokrenut će se u _free mode_ i vidjet ćete _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ Ako ste već autorizirali najveći dopušteni broj računala za svoju pretplatu,
 Ako imate više pretplata, od vas će se tražiti da odaberete pretplatu kojoj želite dodijeliti računalo.
 {% endhint %}
 
-Čestitamo! Vaša instalacija programa Liberation sada je autorizirana i možete slati izlaz na lasere. No prije nego što u Liberation uključite stanje armed za lasere, pročitajte [Početak rada](../getting-started.md) i [Postavljanje lasera](../setting-up/setting-up-lasers.md).
+Čestitamo! Vaša instalacija programa Liberation sada je autorizirana i možete slati izlaz na lasere. No prije nego što u Liberation uključite stanje armed za lasere, pročitajte [Početak rada](../getting-started.md "mention") i [Postavljanje lasera](../setting-up/setting-up-lasers.md "mention").
 
 {% hint style="info" %}
 _About panel_ možete otvoriti u bilo kojem trenutku putem izbornika _Liberation -> About Liberation_ ili _Liberation -> Authorise/Deauthorise this computer_

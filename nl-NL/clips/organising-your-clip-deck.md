@@ -12,7 +12,7 @@ metaLinks:
 Klik en sleep om een Clip te verplaatsen. Als er meer dan één Clip is geselecteerd (zie [Clips starten / stoppen](starting-stopping-clips.md "mention")), worden ze allemaal verplaatst. Houd `Alt / Option` ingedrukt om ze te dupliceren. Laat de Clip(s) los op een lege plek.
 
 {% hint style="info" %}
-Als je een groot aantal Clips moet selecteren, kun je klikken en een lasso slepen, en daarna door de Clip Deck scrollen terwijl je nog steeds sleept (met de cursortoetsen, de APC 40 of horizontaal scrollen met touchpad/muis). De lasso wordt dan voorbij de rand van de Clip Deck uitgebreid.
+Als je een groot aantal Clips moet selecteren, kun je klikken en een lasso slepen, en daarna door de Clip Deck scrollen terwijl je nog steeds sleept (met de cursortoetsen, de APC40 of horizontaal scrollen met touchpad/muis). De lasso wordt dan voorbij de rand van de Clip Deck uitgebreid.
 {% endhint %}
 
 ### Clips verwijderen

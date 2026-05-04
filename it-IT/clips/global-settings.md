@@ -16,7 +16,7 @@ Tieni presente che le Global Transformations non influiscono su nulla nel Canvas
 
 ### Scale X/Y
 
-Scala orizzontale e verticale: questi valori sono collegati tra loro, a meno che tu non prema `Shift`. Per impostazione predefinita, sono anche mappati sulle manopole APC40 Device Control 4 e 8 e compaiono nel pannello a destra del Clip Deck.
+Scala orizzontale e verticale: questi valori sono collegati tra loro, a meno che tu non prema `Shift`. Per impostazione predefinita, sono anche mappati sulle manopole APC40 Device Control 4 e 8 e compaiono nel pannello contestuale Parameters a destra del Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Spostamento orizzontale e verticale. Trasla tutto in orizzontale / verticale.
 
 ### Spin
 
-Fa ruotare tutti i contenuti attorno al centro. Un valore positivo ruota in senso orario, un valore negativo ruota in senso antiorario. Vedrai che questa impostazione influisce sulla trasformazione _Rotation_. Per impostazione predefinita, è mappata sulla manopola APC40 Device Control 3 e compare nel pannello a destra del Clip Deck.
+Fa ruotare tutti i contenuti attorno al centro. Un valore positivo ruota in senso orario, un valore negativo ruota in senso antiorario. Vedrai che questa impostazione influisce sulla trasformazione _Rotation_. Per impostazione predefinita, è mappata sulla manopola APC40 Device Control 3 e compare nel pannello contestuale Parameters a destra del Clip Deck.
 
 ### Spin 3D
 
-Fa ruotare tutti i contenuti attorno all’asse Y (che è una linea verticale al centro). Vedrai che questa impostazione influisce sulla trasformazione _Rotation3D_. Per impostazione predefinita, è mappata sulla manopola APC40 Device Control 7 e compare nel pannello a destra del Clip Deck.
+Fa ruotare tutti i contenuti attorno all’asse Y (che è una linea verticale al centro). Vedrai che questa impostazione influisce sulla trasformazione _Rotation3D_. Per impostazione predefinita, è mappata sulla manopola APC40 Device Control 7 e compare nel pannello contestuale Parameters a destra del Clip Deck.
 
 ### Rotation
 

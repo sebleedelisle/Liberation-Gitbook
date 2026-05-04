@@ -57,7 +57,7 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation 需要存取檔案和網絡的權限，因此 Windows 很可能會彈出多個請求視窗。請確保全部接受，否則 Liberation 可能無法正常運作。
+Liberation 需要存取檔案和網絡的權限，因此 Windows 可能會顯示幾個權限提示。請確保全部接受，否則 Liberation 可能無法正常運作。
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

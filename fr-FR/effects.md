@@ -17,7 +17,7 @@ Les boutons d’effets par défaut 1 à 8 se trouvent sous les boutons de zone, 
 Appuyez sur un bouton d’effet pour activer ou désactiver l’effet, ou mieux encore, utilisez les faders 1 à 8 de l’APC40 pour faire entrer et sortir les effets progressivement. Pour faire apparaître progressivement un effet sans APC40, cliquez sur le bouton et faites glisser vers le haut ou vers le bas. Vous pouvez aussi faire un clic droit sur le bouton d’effet et ajuster le curseur de niveau.
 
 {% hint style="warning" %}
-Appuyer sur le bouton d’effet active immédiatement cet effet. Notez toutefois que si le niveau est réglé sur zéro, rien ne se passera ! Cliquez-glissez sur le bouton pour modifier le niveau, ou faites un clic droit et utilisez le curseur _level_, ou utilisez les faders de l’APC40.
+Appuyer sur le bouton d’effet active immédiatement cet effet. Notez toutefois que si le niveau est réglé sur zéro, rien ne se passera ! Cliquez sur le bouton et faites glisser pour modifier le niveau, ou faites un clic droit et utilisez le curseur _level_, ou utilisez les faders de l’APC40.
 {% endhint %}
 
 #### Effets et délai de zone du clip
@@ -41,7 +41,7 @@ Les contrôleurs rotatifs 1 à 8 se trouvent en haut de l’APC40 Mk2 et en haut
 {% endhint %}
 
 {% hint style="info" %}
-Les petits nombres affichés sur les boutons d’effet indiquent le _level_ et le _parameter_ de l’effet. Le _level_ est contrôlé par le fader de l’APC40, ou en cliquant-glissant sur le bouton. Le paramètre se règle avec les contrôleurs rotatifs de l’APC40, ou par clic droit pour l’ajuster à la souris.
+Les petits nombres affichés sur les boutons d’effet indiquent le _level_ et le _parameter_ de l’effet. Le _level_ est contrôlé par le fader de l’APC40, ou en cliquant sur le bouton et en faisant glisser. Le paramètre se règle avec les contrôleurs rotatifs de l’APC40, ou par clic droit pour l’ajuster à la souris.
 {% endhint %}
 
 #### Les effets par défaut
@@ -59,9 +59,9 @@ Les petits nombres affichés sur les boutons d’effet indiquent le _level_ et l
 5. **Scale** :\
    Redimensionne l’ensemble de la sortie de manière répétée, de la taille complète à zéro. Le paramètre ajuste la vitesse.
 6. **Hue** :\
-   Modifie la teinte de l’ensemble de la sortie, sans changer la saturation (c.-à-d. que tout ce qui est blanc reste blanc). Le paramètre ajuste la teinte.
+Modifie la teinte de l’ensemble de la sortie, sans changer la saturation (c.-à-d. que tout ce qui est blanc reste blanc). Le paramètre ajuste la teinte.
 7. **Saturation and hue** :\
-   Modifie la teinte de l’ensemble de la sortie et sature aussi entièrement la couleur (c.-à-d. que tout ce qui est blanc prend la couleur). Le paramètre ajuste la teinte.
+Modifie la teinte de l’ensemble de la sortie et sature aussi entièrement la couleur (c.-à-d. que tout ce qui est blanc prend la couleur). Le paramètre ajuste la teinte.
 8. **Flash** :\
    Fait clignoter de manière répétée la luminosité de l’ensemble de la sortie, du maximum à zéro. Le paramètre ajuste la vitesse de clignotement.
 
@@ -96,5 +96,5 @@ Vous devez avoir au moins un nœud de création ; cela peut être n’importe qu
 Lorsque des effets sont appliqués, tous les nœuds de création de l’effet sont remplacés par la sortie des clips actuellement en lecture.
 
 {% hint style="warning" %}
-Pour des raisons techniques extrêmement fastidieuses, les nœuds "trails" ne sont pas activés à l’intérieur d’un effet. Il en va de même pour le réglage "delay" à l’intérieur des nœuds pattern (ils utilisent le même système). Cela sera corrigé dans de futures versions.
+Pour des raisons techniques extrêmement fastidieuses, les nodes "trails" ne sont pas activés à l’intérieur d’un effet. Il en va de même pour le réglage "delay" à l’intérieur des nodes pattern (ils utilisent le même système). Cela sera corrigé dans de futures versions.
 {% endhint %}

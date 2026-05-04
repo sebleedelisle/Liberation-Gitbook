@@ -17,7 +17,7 @@ _Canvas 目標區域_ 是 Canvas 上可用來繪製 Clip 的區段，在 _CANVAS
 
 ### 將 Clip 送到 Canvas 目標區域
 
-如果你查看 Clip Deck，在 beam zone 按鈕旁邊會看到 Canvas 目標區域按鈕。你可能需要捲動 output 按鈕才看得到它們；可以使用 `Shift + Left / Right Arrow`、畫面上的 ZONE PAGE 按鈕，或 APC40 按鈕（見 [APC40 參考](../reference/apc40-reference.md)）。
+如果你查看 Clip Deck，在 beam zone 按鈕旁邊會看到 Canvas 目標區域按鈕。你可能需要捲動 output 按鈕才看得到它們；可以使用 `Shift + Left / Right Arrow`、畫面上的 ZONE PAGE 按鈕，或 APC40 按鈕（見 [APC40 參考](../reference/apc40-reference.md "mention")）。
 
 指定 Clip 到 Canvas 目標區域的方法，與使用 beam zone 按鈕完全相同，只需切換這些按鈕即可。
 

@@ -23,7 +23,7 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Откроется папка загрузок. Найдите загруженный файл (обычно он находится вверху), щёлкните по нему правой кнопкой мыши и выберите "Extract all".
+Откроется папка Downloads. Найдите загруженный файл (обычно он находится вверху), щёлкните по нему правой кнопкой мыши и выберите "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation нужны разрешения на доступ к файлам и сети, поэтому Windows, скорее всего, покажет несколько запросов. Обязательно разрешите всё, иначе Liberation может работать некорректно.
+Liberation нужны разрешения на доступ к файлам и сети, поэтому Windows, скорее всего, покажет несколько запросов на разрешение. Обязательно разрешите всё, иначе Liberation может работать некорректно.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

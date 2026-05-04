@@ -31,14 +31,14 @@ Jos et näe Canvas-painikkeita Clip Deckissä, kokeile vierittää beam zone -pa
 
 ### Canvas-alueet
 
-Canvas-alueet ovat Canvasin sisällä olevia alueita, jotka valitset lähetettäviksi laserille. Ne esitetään Canvas-näkymässä vaaleanpunaisina ääriviivasuorakulmioina. Voit napsauttaa kutakin aluetta hiiren oikealla painikkeella ja valita laserit, joille haluat määrittää sen. Jos vaihdat nyt kyseisen laserin _OUTPUT_-näkymään, näet, että uusi alue on ilmestynyt.
+Canvas-alueet ovat Canvasin sisällä olevia alueita, jotka valitset lähetettäviksi laserille. Ne esitetään Canvas view -näkymässä vaaleanpunaisina ääriviivasuorakulmioina. Voit napsauttaa kutakin aluetta hiiren oikealla painikkeella ja valita laserit, joille haluat määrittää sen. Jos vaihdat nyt kyseisen laserin _OUTPUT_-näkymään, näet, että uusi alue on ilmestynyt.
 
 {% hint style="danger" %}
 VAROITUS – jos laser on armed-tilassa, saatat yhtäkkiä alkaa projisoida sisältöä oletusarvoiselle Canvas-alueelle. Laser kannattaa poistaa armed-tilasta ennen Canvas-alueiden määrittämistä sille.
 {% endhint %}
 
 {% hint style="info" %}
-Voit myös määrittää Canvas-alueen laserille napsauttamalla _add canvas zone_ -painiketta _OUTPUT_-näkymässä. Katso [Vyöhykkeet](../output-view/zones.md).
+Voit myös määrittää Canvas-alueen laserille napsauttamalla _add canvas zone_ -painiketta _OUTPUT_-näkymässä. Katso [Vyöhykkeet](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Opaskuvat
@@ -55,7 +55,7 @@ Arkkitehtuurimappauksessa olen kokenut hyödylliseksi tehdä rakennuksesta ”au
 
 ### Canvas 3D Visualiserissa
 
-Monimutkaisen monilaserisen projisointijärjestelmän uudelleenluonti 3D Visualiserissa olisi todennäköisesti vähintäänkin hankalaa. Sen sijaan voit sijoittaa Canvasin 3D-tilaan. Ota _3D visualiser settings_ -paneelissa käyttöön _Show canvas_ -valintaruutu. (Myös Canvasilla olevat opaskuvat näkyvät visualiserissa.)
+Monimutkaisen usean laserin projisointijärjestelmän uudelleenluonti 3D-visualisointiin olisi todennäköisesti vähintäänkin hankalaa. Sen sijaan voit sijoittaa Canvasin 3D-tilaan. Ota _3D visualiser settings_ -paneelissa käyttöön _Show canvas_ -valintaruutu. (Myös Canvasilla olevat opaskuvat näkyvät visualisoinnissa.)
 
 {% hint style="info" %}
 Huomaa, että visualiser näyttää Canvas-projisoinnit edelleen lasereista tulevina ilmakehäefekteinä. Voit joko siirtää ne pois näkymästä tai, jos haluat hienosäätää, kohdistaa ne Canvasin kanssa.

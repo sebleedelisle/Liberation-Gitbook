@@ -23,7 +23,7 @@ Klicka på _Download latest for Windows_ (versionsnumren kan ändras) så ser du
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Detta öppnar din nedladdningsmapp. Leta upp den nedladdade filen (oftast högst upp), högerklicka och välj "Extract all".
+Detta öppnar mappen Downloads. Leta upp den nedladdade filen (oftast högst upp), högerklicka och välj "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ När Windows har packat upp filerna visas installationsfilen. Dubbelklicka på L
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation behöver behörighet att komma åt filer och nätverket, så Windows kommer troligen att visa flera förfrågningar. Se till att godkänna allt, annars kanske Liberation inte fungerar korrekt.
+Liberation behöver behörighet att komma åt filer och nätverket, så Windows kommer troligen att visa några behörighetsmeddelanden. Se till att godkänna allt, annars kanske Liberation inte fungerar korrekt.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

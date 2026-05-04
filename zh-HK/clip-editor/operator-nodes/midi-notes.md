@@ -13,14 +13,14 @@ metaLinks:
 
 你可以在 **Liberation → Settings** (`Cmd / Ctrl + ,`) 選擇 Liberation 要監聽的 MIDI 介面。
 
-* **midi channel** – 要監聽的 MIDI channel（0 = 所有 channel，1–16 = 指定 channel）
+* **MIDI channel** – 要監聽的 MIDI channel（0 = 所有 channel，1–16 = 指定 channel）
 * **width** – 音符分佈的總寬度。
-* **midi note min / max** – 範圍內最低及最高的 MIDI note 數值。
+* **MIDI note min / max** – 範圍內最低及最高的 MIDI note 數值。
 * **ignore out of range notes** – 過濾超出設定範圍的任何音符。如停用，超出範圍的音符會被「夾」到最接近的可用音符（高音會觸發範圍頂端，低音會觸發範圍底端）。
 * **auto extend range** – 如播放的音符超出範圍，會自動擴闊範圍。
 
 {% hint style="info" %}
-不確定收到的是哪個音符範圍？開啟 **auto extend range**，將 **midi note min** 設得很高，並將 **midi note max** 設得很低，然後逐一播放你的音符。系統會捕捉所有音符並為你擴展範圍。全部捕捉完成後，只需關閉 **auto extend range** 即可鎖定範圍。
+不確定收到的是哪個音符範圍？開啟 **auto extend range**，將 **MIDI note min** 設得很高，並將 **MIDI note max** 設得很低，然後逐一播放你的音符。系統會捕捉所有音符並為你擴展範圍。全部捕捉完成後，只需關閉 **auto extend range** 即可鎖定範圍。
 {% endhint %}
 
 * **leave all notes visible** – 無論音符是否正在播放，都會為範圍內所有音符建立光束或圖形，形成「激光豎琴」效果。

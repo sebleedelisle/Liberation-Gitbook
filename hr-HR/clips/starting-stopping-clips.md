@@ -24,7 +24,7 @@ Za pokretanje novog Clip bez zaustavljanja drugih Clips možete:
 * držati pritisnutu tipku `Shift` (ili tipku APC40 Shift) dok pokrećete novi Clip; ili
 * ponovno pritisnuti trenutačno pokrenute Clips dok pokrećete novi Clip.
 
-Grupe Clips neovisne su jedna o drugoj, pa pokretanje Clip u jednoj grupi neće utjecati na Clips u ostalim grupama. Pogledajte [Clip grupe](groups.md)
+Grupe Clips neovisne su jedna o drugoj, pa pokretanje Clip u jednoj grupi neće utjecati na Clips u ostalim grupama. Pogledajte [Clip grupe](groups.md "mention")
 
 ### Flash mode
 

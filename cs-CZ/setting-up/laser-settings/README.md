@@ -35,7 +35,7 @@ Korekce orientace a zrcadlení nemění nic ve 3D Visualiser. Slouží k tomu, a
 
 ### Kopírování nastavení laseru
 
-Viz [Kopírování nastavení laseru](./#copy-laser-settings).
+Viz [Kopírování nastavení laseru](./#copy-laser-settings "mention").
 
 ### Nastavení skenerů
 
@@ -50,7 +50,7 @@ I když jsou výchozí hodnoty poměrně konzervativní, při příliš rychlém
 {% endhint %}
 
 {% hint style="info" %}
-Toto nastavení rychlosti nemění rychlost bodů. Místo toho upravuje, jak daleko jsou body od sebe rozmístěné. Další informace najdete v části [Jak Liberation generuje laserový obsah](../../advanced/how-liberation-generates-laser-content.md)
+Toto nastavení rychlosti nemění rychlost bodů. Místo toho upravuje, jak daleko jsou body od sebe rozmístěné. Další informace najdete v části [Jak Liberation generuje laserový obsah](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Pokud na výstupu laseru vidíte malé „ocásky“, pravděpodobně je potřeb
 
 #### Předvolby skenerů
 
-Pomocí této volby vyberete předem připravené nastavení skenerů. Výchozí volba je obvykle v pořádku, takže toto nastavení byste neměli potřebovat měnit, pokud nemáte výrazně horší (nebo lepší) skenery. Pokud chcete jít více do hloubky, podívejte se na [Předvolby skenerů](../../advanced/scanner-presets.md)
+Pomocí této volby vyberete předem připravené nastavení skenerů. Výchozí volba je obvykle v pořádku, takže toto nastavení byste neměli potřebovat měnit, pokud nemáte výrazně horší (nebo lepší) skenery. Pokud chcete jít více do hloubky, podívejte se na [Předvolby skenerů](../../advanced/scanner-presets.md "mention")
 
 #### Kalibrace barev
 
-Tento systém můžete použít ke korekci křivky jasu a vyvážení bílé vašeho laseru. Viz [Kalibrace barev](../../advanced/colour-calibration.md)
+Tento systém můžete použít ke korekci křivky jasu a vyvážení bílé vašeho laseru. Viz [Kalibrace barev](../../advanced/colour-calibration.md "mention")
 
 #### Pokročilá nastavení
 
-S těmito nastaveními byste neměli potřebovat manipulovat, ale pokud vás zajímají podrobnosti, podívejte se na [Pokročilá nastavení laseru](../../advanced/advanced-laser-settings.md)
+S těmito nastaveními byste neměli potřebovat manipulovat, ale pokud vás zajímají podrobnosti, podívejte se na [Pokročilá nastavení laseru](../../advanced/advanced-laser-settings.md "mention")

@@ -19,7 +19,7 @@ metaLinks:
 9. Nút Group
 10. Dừng tất cả Clips (nhấn hai lần để dừng ngay tất cả Clips mà không dùng các thiết lập fade của chúng)
 11. Cuộn Clip Deck
-12. Tham số Clip / toàn cục
+12. Điều khiển Parameters panel theo ngữ cảnh
 13. Trang Clip trái/phải
 14. Trang zone trái/phải
 15. Nút Alt (cho phép chọn Clip)
@@ -35,3 +35,5 @@ metaLinks:
 25. Nudge tempo + và -
 26. Cuộn Tempo
 27. Foot Pedal, Tap Tempo
+
+Các núm Device Control bám theo cùng các tham số theo ngữ cảnh được hiển thị trong Parameters panel trên màn hình. Khi chọn một Clip, chúng điều khiển dịch chuyển Clip, độ trễ zone, xoay toàn cục và tỉ lệ toàn cục. Nếu giữ một nút nhóm, các điều khiển đầu tiên sẽ chuyển sang thời gian fade in và fade out của nhóm đó.

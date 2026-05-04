@@ -16,5 +16,5 @@ _Parameter Control_은 Clip Editor 외부에서 effect 또는 clip 내부의 다
 * **parameter number** - 각 _parameter control_에는 번호를 할당할 수 있으며, 이 번호는 clip 외부의 컨트롤에 반영됩니다. 동일한 번호를 가진 parameter control을 여러 개 둘 수 있으며, 모두 동시에 조정됩니다.
 
 {% hint style="warning" %}
-현재 APC40으로 제어할 수 있는 것은 effect의 parameter 1뿐입니다. effect와 clip 내부의 모든 parameter는 오른쪽 클릭 메뉴에서 사용할 수 있습니다. 향후에는 더 많은 parameter를 MIDI 컨트롤러에 매핑할 수 있게 될 예정입니다.
+APC40 및 지원되는 live controller는 기본적으로 각 effect slot의 parameter 1을 제어합니다. effect와 Clip 내부의 모든 parameter는 오른쪽 클릭 메뉴에서도 사용할 수 있습니다.
 {% endhint %}

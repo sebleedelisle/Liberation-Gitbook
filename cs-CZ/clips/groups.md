@@ -33,7 +33,7 @@ Aktivace tlačítka _group_:
 * Stiskněte a podržte tlačítko _group_ na APC40
 * Klikněte myší na tlačítko _group_ na obrazovce. Dalším kliknutím ho zase vypnete.
 
-Clips do skupiny snadno přiřadíte tak, že je stisknete, když je tlačítko _group_ aktivní. (Další možností přiřazení skupiny je nabídka pravým tlačítkem u daného Clip).
+Clips do skupiny snadno přiřadíte tak, že je stisknete, když je tlačítko _group_ aktivní. (Další možností přiřazení do skupiny je nabídka daného Clip vyvolaná pravým tlačítkem.)
 
 ### Změna nastavení zones pro všechny Clips ve skupině
 

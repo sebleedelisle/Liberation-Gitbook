@@ -14,17 +14,17 @@ Liberation er fleksibelt nok til, at du kan sætte lasere op og visualisere dem 
 Du kan sætte og visualisere så mange lasere op, du vil, i Liberation. Licenstrinnene (Hobbyist, Pro osv.) begrænser kun antallet af lasere, du kan sætte i _armed_-tilstand. Det betyder, at du kan designe lasershows med 100 lasere, selv med en gratis licens. Du behøver kun at opgradere, når du rent faktisk skal køre showet på rigtige lasere.
 {% endhint %}
 
-Som standard er der 8 lasere fordelt vandret, men du kan tilpasse det præcis, som du vil. Det er nok bedst at beholde denne standard, mens du lærer softwaren at kende, og så senere justere den, så den passer til dit hardware-setup. (Se [Opsætning af dit projekt](../setting-up/setting-up-your-project.md))&#x20;
+Som standard er der 8 lasere fordelt vandret, men du kan tilpasse det præcis, som du vil. Det er nok bedst at beholde denne standard, mens du lærer softwaren at kende, og så senere justere den, så den passer til dit hardware-setup. (Se [Opsætning af dit projekt](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Vigtigt: Før du sætter nogen lasere i _armed_-tilstand, skal du sikre dig, at du forstår de involverede risici, og gå omhyggeligt igennem kapitlet [Opsætning af lasere](../setting-up/setting-up-lasers.md).
+Vigtigt: Før du sætter nogen lasere i _armed_-tilstand, skal du sikre dig, at du forstår de involverede risici, og gå omhyggeligt igennem kapitlet [Opsætning af lasere](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Overblik over softwaren
 
 ### Sikkerhedsafbrydelse
 
-Når du kører lasere, skal du altid have en **fysisk nødstopknap** ved hånden (se [Nødstop / sikkerhedsinterlocks](../hardware/emergency-stop-interlocks.md)). Hvis du vil sætte alt i _disarmed_-tilstand uden samme hast, kan du bruge knappen _**DISARM ALL**_, `Escape`-tasten eller _**SESSION**_-tasten på APC40. Du kan også reducere Global Brightness med skyderen på skærmen eller hovedfaderen på APC40.
+Når du kører lasere, skal du altid have en **fysisk nødstopknap** ved hånden (se [Nødstop / sikkerhedsinterlocks](../hardware/emergency-stop-interlocks.md "mention")). Hvis du vil sætte alt i _disarmed_-tilstand uden samme hast, kan du bruge knappen _**DISARM ALL**_, `Escape`-tasten eller _**SESSION**_-tasten på APC40. Du kan også reducere Global Brightness med skyderen på skærmen eller hovedfaderen på APC40.
 
 ### Skyder-elementer
 
@@ -36,7 +36,7 @@ Rundt omkring i Liberation finder du forskellige skydere og kontroller.
 
 ### Tastaturgenveje
 
-En komplet liste over tastaturgenveje findes her: [Tastaturgenveje](../reference/keyboard-shortcuts.md)
+En komplet liste over tastaturgenveje findes her: [Tastaturgenveje](../reference/keyboard-shortcuts.md "mention")
 
 ### Skærmlayout
 
@@ -68,7 +68,7 @@ Det store område øverst til venstre på skærmen kan vise en af 3 hovedvisning
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view viser, hvordan dine lasere kommer til at se ud, og kan konfigureres, så det matcher dit eget laser-setup. Klik og træk for at rotere kameraet, og brug musehjulet til at bevæge dig frem og tilbage. Du finder mange andre muligheder i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](../setting-up/3d-visualiser.md).
+3D view viser, hvordan dine lasere kommer til at se ud, og kan konfigureres, så det matcher dit eget laser-setup. Klik og træk for at rotere kameraet, og brug musehjulet til at bevæge dig frem og tilbage. Du finder mange andre muligheder i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](../setting-up/3d-visualiser.md "mention").
 
 #### Output view
 
@@ -87,7 +87,7 @@ En zone er et område inden for en lasere output, som du kan sende laserindhold 
 Du kan vælge den laser, du vil redigere, på en af disse måder:
 
 * de nummererede knapper i linjen øverst
-* tryk på taltasten for den ønskede laser (_1-9_-tasterne)
+* tryk på taltasten for den ønskede laser (_1-9 keys_)
 * brug `Tab`-tasten til at gå videre fra den ene til den næste
 
 Tilføj en ny laser til setuppet ved at trykke på _+_-knappen. Der er også en _ADD LASER_-knap i panelet _Laser Overview_.
@@ -100,11 +100,11 @@ Klik på en zone for at vælge den, og juster derefter dens hjørnepunkter med m
 
 Langs venstre side er der en linje med en række ikonknapper. Hold musen over en knap for at få en beskrivelse af, hvad den gør. Knapperne her lader dig tilføje beam zones, canvas zones og masks. Der er også muligheder for kun at sætte en test pattern for denne laser samt indstillinger for grid og snapping.
 
-Se flere detaljer under [Output-visning](../output-view/).
+Se flere detaljer under [Output-visning](../output-view/ "mention").
 
 #### Canvas
 
-Canvas-systemet bruges mest til grafik og arkitektonisk mapping. Du kan fordele komplekse billeder på tværs af flere lasere og perspektivkorrigere hver sektion. Se [Grafik og Canvas-systemet](../graphics-and-the-canvas-system/).
+Canvas-systemet bruges mest til grafik og arkitektonisk mapping. Du kan fordele komplekse billeder på tværs af flere lasere og perspektivkorrigere hver sektion. Se [Grafik og Canvas-systemet](../graphics-and-the-canvas-system/ "mention").
 
 ### APC40 MIDI controller
 
@@ -112,9 +112,9 @@ Canvas-systemet bruges mest til grafik og arkitektonisk mapping. Du kan fordele 
 
 Selvom det er muligt at styre Liberation med mus og tastatur, er det langt bedre at bruge et APC40 MIDI control interface. Mark 2 er bedst, men Mark 1 virker også.
 
-Se også: [APC40-reference](../reference/apc40-reference.md)
+Se også: [APC40-reference](../reference/apc40-reference.md "mention")
 
-Vi har nu også implementeret understøttelse af APC Mini Mark 2 og MIDI Fighter Twister, og flere er under udvikling. APC40 Mark 2 er dog den bedste løsning i de fleste tilfælde.&#x20;
+Liberation understøtter også APC Mini og MIDI Fighter Twister. APC40 Mark 2 er stadig den bedste løsning i de fleste tilfælde.&#x20;
 
 ### Clips og effekter
 
@@ -140,7 +140,7 @@ Du kan rulle Clip Deck mod venstre og højre med:
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_-knapper
 
-For at hjælpe dig med at holde overblikket er der en mini-visualisering af Clip Deck langs toppen. Se også [Clips og Clip Deck](../clips/)
+For at hjælpe dig med at holde overblikket er der en mini-visualisering af Clip Deck langs toppen. Se også [Clips og Clip Deck](../clips/ "mention")
 
 #### Starte og stoppe clips
 
@@ -162,7 +162,7 @@ To rækker under zone-knapperne ser du X/Y flip-knapperne. Slå dem til eller fr
 Bemærk, at disse zone-tildelinger og X/Y flip-indstillinger er knyttet til selve clip. De bevares, næste gang du kører den clip. De er ikke en global indstilling.
 {% endhint %}
 
-Højreklik på en clip for at redigere flere indstillinger for clip. Se også [Clip-indstillinger](../clips/clip-settings.md)
+Højreklik på en Clip for at redigere flere indstillinger for den. Se også [Clip-indstillinger](../clips/clip-settings.md "mention")
 
 ### Grupper
 
@@ -184,7 +184,7 @@ Skift zone-indstillinger for alle clips i en gruppe
 
 Med APC40 skal du trykke på gruppeknappen og derefter, _mens den stadig holdes nede_, bruge zone- og X/Y-knapperne til at slå zone-indstillinger til eller fra for alle clips i den gruppe.
 
-Se også [Clip-grupper](../clips/groups.md)
+Se også [Clip-grupper](../clips/groups.md "mention")
 
 ### Effekter
 
@@ -202,7 +202,7 @@ Brug rotary controllers 1-8\* til at justere _parameteren_ for hver effekt. Du k
 De små tal, du ser på effektknapperne, henviser til effektens _level_ og _parameter_. _Level_ styres med faderen på APC40, eller du kan klikke og trække på knappen. Parameteren justeres med rotary controls på APC40, eller du kan højreklikke for at justere med musen.
 {% endhint %}
 
-_\*Rotary controllers 1-8 sidder langs toppen af en APC40 Mk2 og øverst til højre på Mk1. Se også:_ [APC40-reference](../reference/apc40-reference.md)
+_\*Rotary controllers 1-8 sidder langs toppen af en APC40 Mk2 og øverst til højre på Mk1. Se også:_ [APC40-reference](../reference/apc40-reference.md "mention")
 
 #### Standardeffekterne
 
@@ -219,9 +219,9 @@ _\*Rotary controllers 1-8 sidder langs toppen af en APC40 Mk2 og øverst til hø
 5. **Scale** :\
    Skalerer gentagne gange det hele fra fuld størrelse til nul. Parameteren justerer hastigheden.
 6. **Hue** :\
-   Ændrer farvetonen for det hele, men ændrer ikke mætningen, dvs. alt hvidt forbliver hvidt. Parameteren justerer farvetonen.
+Ændrer farvetonen for det hele, men ændrer ikke mætningen, dvs. alt hvidt forbliver hvidt. Parameteren justerer farvetonen.
 7. **Saturation and hue** :\
-   Ændrer farvetonen for det hele og mætter også farven fuldt ud, dvs. alt hvidt ændres til farven. Parameteren justerer farvetonen.
+Ændrer farvetonen for det hele og mætter også farven fuldt ud, dvs. alt hvidt ændres til farven. Parameteren justerer farvetonen.
 8. **Flash** :\
    Blinker gentagne gange lysstyrken for det hele fra fuld til nul. Parameteren justerer blinkhastigheden.
 
@@ -259,7 +259,7 @@ Næsten alle lasershows har en form for musikalsk lydspor, så timing-systemet i
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Der er flere synkroniseringsmuligheder, herunder MIDI clock og Ableton Link. Hvis du kender musikkens tempo, kan du justere det manuelt med skyderen på skærmen eller APC40 Tempo-knappen, men du kan også holde takt med musikken ved hjælp af _Tap Tempo_-systemet\_.\_
+Der er flere synkroniseringsmuligheder, herunder MIDI clock og Ableton Link. Hvis du kender musikkens tempo, kan du justere det manuelt med skyderen på skærmen eller APC40 Tempo-knappen, men du kan også holde takt med musikken ved hjælp af _Tap Tempo_-systemet.
 
 #### Tap Tempo
 
@@ -281,7 +281,7 @@ Hold `Alt / Option`-tasten nede, mens du trækker, for at lave en kopi.
 
 Klik og træk vil trække ALLE valgte clips.
 
-Hvis du vil slette en eller flere clips, kan du enten trække dem væk fra Clip Deck, så der vises et skraldespandsikon, eller bruge DELETE-knappen i clips højrekliksmenu.
+Hvis du vil slette en eller flere Clips, kan du enten trække dem væk fra Clip Deck, så der vises et skraldespandsikon, eller bruge DELETE-knappen i højrekliksmenuen for en Clip.
 
 ### Laser Overview-panel
 
@@ -297,10 +297,10 @@ Klik på knappen _Assign Laser Controllers_ for at åbne panelet _Controller Ass
 
 Her kan du vælge, hvilke laserudgange der skal gå til hvilke laser controllers. Træk og slip controllers fra listen til højre ind i pladserne til venstre. Du kan omdøbe dine controllers, så de matcher den laser, de er parret med. Brug knappen med pen-ikonet.
 
-Læs kapitlet [Tildeling af controllere](../setting-up/controller-assignment.md) for flere detaljer.
+Læs kapitlet [Tildeling af controllere](../setting-up/controller-assignment.md "mention") for flere detaljer.
 
 {% hint style="danger" %}
-Før du sætter nogen lasere i _armed_-tilstand, skal du sørge for at gennemgå kapitlet [Opsætning af lasere](../setting-up/setting-up-lasers.md).
+Før du sætter nogen lasere i _armed_-tilstand, skal du sørge for at gennemgå kapitlet [Opsætning af lasere](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser output-panel
@@ -331,10 +331,10 @@ Hvis du er vant til ældre lasersoftware, der bygger på forudberegnede point st
 De grundlæggende scanner-indstillinger er:
 
 * **Speed** er scannerhastigheden, dvs. hvor hurtigt laseren bevæger sig rundt for at tegne former. Det svarer til at justere point rate i traditionel lasersoftware, men i Liberation kan du ændre, hvor hurtigt laseren bevæger sig, _uafhængigt af point rate._ Du bør ikke have brug for at justere dette.
-* **Scanner sync** (nogle gange kendt som _blank shift_, tidligere Colour Shift) Scannerne bevæger laseren rundt meget hurtigt, men ændringen i lysstyrke og farve er normalt ikke synkron med bevægelsen. Det viser sig som små flimrende "haler" af lys i kanten af beams og linjer. Brug denne justering til at få bevægelse og farve synkroniseret med hinanden. Se [Laser Settings](../setting-up/laser-settings/)
+* **Scanner sync** (nogle gange kendt som _blank shift_, tidligere Colour Shift) Scannerne bevæger laseren rundt meget hurtigt, men ændringen i lysstyrke og farve er normalt ikke synkron med bevægelsen. Det viser sig som små flimrende "haler" af lys i kanten af beams og linjer. Brug denne justering til at få bevægelse og farve synkroniseret med hinanden. Se [Laser Settings](../setting-up/laser-settings/ "mention")
 
-De øvrige avancerede scanner-indstillinger gennemgås i kapitlet [Avanceret](../advanced/).
+De øvrige avancerede scanner-indstillinger gennemgås i kapitlet [Avanceret](../advanced/ "mention").
 
 ### Zoning
 
-Se en komplet guide til opsætning og zoning af lasere her: [Opsætning af lasere](../setting-up/setting-up-lasers.md)
+Se en komplet guide til opsætning og zoning af lasere her: [Opsætning af lasere](../setting-up/setting-up-lasers.md "mention")

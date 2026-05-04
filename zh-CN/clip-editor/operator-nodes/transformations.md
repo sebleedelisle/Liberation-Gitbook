@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/operator-nodes/transformations
+---
+
 # 🟩 Transformations
 
 ## &#x20;Translate
@@ -11,7 +18,7 @@
 
 * **z** - 沿 z 轴移动距离（向屏幕内/向屏幕外）。
 
-## <img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="line"> Rotate
+## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
 旋转所有内容。数值单位为度。见 [坐标系统](../fundamentals/co-ordinate-system.md "mention")。
 
@@ -24,7 +31,7 @@
 * **rotation y** - 绕 y 轴旋转（yaw）。
 * **pivot point z** - z 轴上的旋转偏移位置。
 
-## <img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="line"> Scale
+## <img src="../../.gitbook/assets/image (4).png" alt="" data-size="line"> Scale
 
 缩放所有内容。
 

@@ -13,14 +13,14 @@ Býr til áhrif eins og í „laser harp“, þar sem innkomandi MIDI-nótur kve
 
 Þú getur valið hvaða MIDI-viðmót Liberation hlustar á í **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – hvaða MIDI-rás á að hlusta á (0 = allar rásir, 1–16 = tiltekin rás)
+* **MIDI channel** – hvaða MIDI-rás á að hlusta á (0 = allar rásir, 1–16 = tiltekin rás)
 * **width** – heildarbreiddin sem nóturnar dreifast yfir.
-* **midi note min / max** – lægsta og hæsta MIDI-nótugildi á sviðinu.
+* **MIDI note min / max** – lægsta og hæsta MIDI-nótugildi á sviðinu.
 * **ignore out of range notes** – síar út allar nótur utan stillta sviðsins. Ef þetta er óvirkt eru nótur utan sviðs „klemmdar“ að næstu tiltæku nótu (háar nótur kveikja efst á sviðinu, lágar nótur neðst).
 * **auto extend range** – víkkar sviðið sjálfkrafa ef spilaðar eru nótur utan þess.
 
 {% hint style="info" %}
-Ertu ekki viss um hvaða nótusvið þú færð inn? Kveiktu á **auto extend range**, stilltu **midi note min** mjög hátt og **midi note max** mjög lágt og spilaðu svo í gegnum nóturnar. Kerfið grípur þær allar og víkkar sviðið fyrir þig. Þegar allt er komið inn slekkurðu einfaldlega á **auto extend range** til að festa sviðið.
+Ertu ekki viss um hvaða nótusvið þú færð inn? Kveiktu á **auto extend range**, stilltu **MIDI note min** mjög hátt og **MIDI note max** mjög lágt og spilaðu svo í gegnum nóturnar. Kerfið grípur þær allar og víkkar sviðið fyrir þig. Þegar allt er komið inn slekkurðu einfaldlega á **auto extend range** til að festa sviðið.
 {% endhint %}
 
 * **leave all notes visible** – býr til geisla eða form fyrir allar nótur á sviðinu, hvort sem þær eru í spilun eða ekki, sem gefur „laser harp“-áhrif.

@@ -33,7 +33,7 @@ Za aktiviranje gumba _Group_:
 * Pritisnite i držite gumb _Group_ na APC40
 * Kliknite mišem gumb _Group_ na zaslonu. Kliknite ponovno za isključivanje.
 
-Clip možete jednostavno dodijeliti grupi tako da ih pritisnete dok je gumb _Group_ aktivan. (Drugi način dodjele grupe jest putem izbornika koji se otvara desnim klikom na Clip).
+Svaki Clip možete jednostavno dodijeliti grupi tako da ga pritisnete dok je gumb _group_ aktivan. (Drugi način dodjele grupe jest putem izbornika za Clip koji se otvara desnim klikom).
 
 ### Promjena postavki zone za sve Clips unutar grupe
 

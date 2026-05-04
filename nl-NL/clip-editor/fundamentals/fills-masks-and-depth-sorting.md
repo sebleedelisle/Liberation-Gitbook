@@ -25,4 +25,4 @@ Maar het werkt heel goed en geeft de illusie van een zwart gevulde vorm.
 
 ### Dieptesortering
 
-Omdat sommige vormen andere vormen kunnen _afdekken_, moet Liberation ze sorteren op diepte. Standaard worden elementen op diepte gesorteerd op basis van hun z-positie. Als ze dezelfde z-positie hebben, worden ze gesorteerd op hun laagpositie. Die kun je wijzigen met de knoppen _MOVE TO FRONT_ en _MOVE TO BACK_ in elke creator.
+Omdat sommige vormen andere vormen kunnen _afdekken_, moet Liberation ze sorteren op diepte. Standaard worden elementen op diepte gesorteerd op basis van hun z-positie. Als ze dezelfde z-positie hebben, worden ze gesorteerd op hun laagpositie. Die kun je wijzigen met de knoppen _MOVE TO FRONT_ en _MOVE TO BACK_ in elke Creator.

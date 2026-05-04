@@ -23,7 +23,7 @@ metaLinks:
 تحذير - إذا كان الليزر في حالة armed، فقد يبدأ فجأة في عرض محتوى داخل canvas zone افتراضية. من الأفضل وضع الليزر في حالة disarmed قبل تعيين canvas zones إليه.
 {% endhint %}
 
-إذا انتقلت الآن إلى عرض _OUTPUT_ لذلك الليزر، فسترى canvas zone هناك، ويمكن تعديلها الآن تمامًا مثل أي beam zone. راجع [zones](../output-view/zones.md).
+إذا انتقلت الآن إلى عرض _OUTPUT_ لذلك الليزر، فسترى canvas zone هناك، ويمكن تعديلها الآن تمامًا مثل أي beam zone. راجع [zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 يمكنك أيضًا إضافة canvas zone إلى ليزر مباشرة من عرض _OUTPUT_ - انقر زر _Add existing canvas zone_ في شريط الأدوات الأيسر.

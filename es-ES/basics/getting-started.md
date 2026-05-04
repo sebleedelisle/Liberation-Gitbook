@@ -87,7 +87,7 @@ Una zona es un espacio dentro de la salida de un láser al que puedes dirigir co
 Puedes seleccionar el láser que quieres editar usando cualquiera de estas opciones:
 
 * los botones numerados de la barra superior
-* pulsando la tecla numérica del láser que quieras, teclas _1-9_
+* pulsando la tecla numérica del láser que quieras (_teclas 1-9_)
 * la tecla `Tab` para avanzar de uno al siguiente
 
 Añade un nuevo láser a la configuración pulsando el botón _+_. También hay un botón _ADD LASER_ en el panel _Laser Overview_.
@@ -114,7 +114,7 @@ Aunque es posible controlar Liberation con el ratón y el teclado, es mucho mejo
 
 Consulta también: [Referencia de APC40](../reference/apc40-reference.md "mention")
 
-También hemos implementado ya compatibilidad con APC Mini Mark 2 y MIDI Fighter Twister, y hay más controladores en desarrollo. Aun así, APC40 Mark 2 es la mejor opción en la mayoría de los casos.&#x20;
+Liberation también es compatible con APC Mini y MIDI Fighter Twister. APC40 Mark 2 sigue siendo la mejor opción en la mayoría de los casos.&#x20;
 
 ### Clips y efectos
 
@@ -162,7 +162,7 @@ Dos filas por debajo de los botones de zona verás los botones de inversión X/Y
 Ten en cuenta que estas asignaciones de zona y los ajustes de inversión X/Y están vinculados al propio clip; se conservarán la próxima vez que ejecutes ese clip. No son un ajuste global.
 {% endhint %}
 
-Haz clic derecho en un clip para editar más ajustes del clip. Consulta también [Ajustes de Clip](../clips/clip-settings.md "mention").
+Haz clic derecho en un Clip para editar más ajustes del Clip. Consulta también [Ajustes de Clip](../clips/clip-settings.md "mention").
 
 ### Grupos
 
@@ -219,9 +219,9 @@ _\*Los controles giratorios 1-8 están en la parte superior de un APC40 Mk2 y en
 5. **Scale**:\
    Escala repetidamente todo el contenido desde tamaño completo hasta cero. El parámetro ajusta la velocidad.
 6. **Hue**:\
-   Cambia el tono de todo el contenido, pero no cambia la saturación; es decir, todo lo que sea blanco sigue siendo blanco. El parámetro ajusta el tono.
+Cambia el tono de todo el contenido, pero no cambia la saturación; es decir, todo lo que sea blanco sigue siendo blanco. El parámetro ajusta el tono.
 7. **Saturation and hue**:\
-   Cambia el tono de todo el contenido y además satura completamente el color; es decir, todo lo que sea blanco cambia al color. El parámetro ajusta el tono.
+Cambia el tono de todo el contenido y además satura completamente el color; es decir, todo lo que sea blanco cambia al color. El parámetro ajusta el tono.
 8. **Flash**:\
    Hace parpadear repetidamente el brillo de todo el contenido desde máximo hasta cero. El parámetro ajusta la velocidad del parpadeo.
 
@@ -259,7 +259,7 @@ Casi todas las proyecciones láser tienen algún tipo de banda sonora, así que 
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Hay varias opciones de sincronización, incluidas MIDI clock y Ableton Link. Si conoces el tempo de la música, puedes ajustarlo manualmente con el deslizador en pantalla o con el mando Tempo del APC40, pero también puedes mantenerte a tiempo con la música usando el sistema _Tap Tempo_\_ .\_
+Hay varias opciones de sincronización, incluidas MIDI clock y Ableton Link. Si conoces el tempo de la música, puedes ajustarlo manualmente con el deslizador en pantalla o con el mando Tempo del APC40, pero también puedes mantenerte a tiempo con la música usando el sistema _Tap Tempo_.
 
 #### Tap Tempo
 
@@ -281,7 +281,7 @@ Haz clic en un clip con `Alt / Option + Shift` para seleccionar varios, o haz cl
 
 Al hacer clic y arrastrar, se arrastrarán TODOS los clips seleccionados.
 
-Para eliminar uno o varios clips, arrástralos fuera del Clip Deck —aparecerá un icono de papelera— o usa el botón DELETE del menú de clic derecho del clip.
+Para eliminar uno o varios Clips, arrástralos fuera del Clip Deck —aparecerá un icono de papelera— o usa el botón DELETE del menú de clic derecho del Clip.
 
 ### Panel Laser Overview
 

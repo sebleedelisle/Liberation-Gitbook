@@ -20,10 +20,10 @@ Srećom, to se lako može popraviti resetiranjem lokalnih postavki. Evo kako to 
 
 #### Gdje pronaći radnu mapu
 
-Svaka verzija aplikacije Liberation ima vlastitu radnu mapu. Na primjer, ako koristite verziju 1.0.0, naziv mape bit će 1.0.0.
+Svaka verzija aplikacije Liberation ima vlastitu radnu mapu. Na primjer, ako koristite verziju 1.0.3, naziv mape bit će 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Kako brzo otvoriti mapu**
 
@@ -35,7 +35,7 @@ Svaka verzija aplikacije Liberation ima vlastitu radnu mapu. Na primjer, ako kor
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Otvorite mapu koja odgovara broju vaše verzije, na primjer `1.0.0`.
+3. Otvorite mapu koja odgovara broju vaše verzije, na primjer `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Svaka verzija aplikacije Liberation ima vlastitu radnu mapu. Na primjer, ako kor
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Otvorite mapu koja odgovara broju vaše verzije, na primjer `1.0.0`.
+2. Otvorite mapu koja odgovara broju vaše verzije, na primjer `1.0.3`.
 
 > **Savjet za Windows**: Ako mapu pregledavate putem Eksplorera za datoteke, uključite prikaz skrivenih stavki: **Prikaz > Prikaži > Skrivene stavke**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 U mapi liberation trebali biste pronaći datoteku pod nazivom `settings.json`. Izbrišite tu datoteku.
 
-* **Primjer za macOS**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Primjer za Windows**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **Primjer za macOS**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Primjer za Windows**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Sada pokušajte pokrenuti Liberation. Ako se otvori, završili ste.
 
@@ -84,9 +84,9 @@ Ponovno pokušajte pokrenuti Liberation. Ako se sada otvara normalno, pošaljite
 Ako Korak 1 i Korak 2 nisu pomogli:
 
 1. **Izradite sigurnosnu kopiju** cijele mape verzije:
-   * macOS: Desnom tipkom kliknite mapu `1.0.0` i odaberite **Compress** kako biste napravili zip datoteku, ili je kopirajte na sigurno mjesto, primjerice na radnu površinu.
-   * Windows: Desnom tipkom kliknite mapu `1.0.0` i odaberite **Send to > Compressed (zipped) folder**, ili je kopirajte na sigurno mjesto, primjerice na radnu površinu.
-2. Nakon izrade sigurnosne kopije **izbrišite** izvornu mapu `1.0.0` s radne lokacije aplikacije Liberation.
+* macOS: Desnom tipkom kliknite mapu `1.0.3` i odaberite **Compress** kako biste napravili zip datoteku, ili je kopirajte na sigurno mjesto, primjerice na radnu površinu.
+* Windows: Desnom tipkom kliknite mapu `1.0.3` i odaberite **Send to > Compressed (zipped) folder**, ili je kopirajte na sigurno mjesto, primjerice na radnu površinu.
+2. Nakon izrade sigurnosne kopije **izbrišite** izvornu mapu `1.0.3` s radne lokacije aplikacije Liberation.
 3. Ponovno pokrenite Liberation. Aplikacija će ponovno stvoriti svježu radnu mapu.
 
 Ako se Liberation sada otvara, prijeđite na Korak 4.
@@ -103,10 +103,10 @@ Ako to već niste učinili, zapakirajte svoju **sigurnosnu kopiju** iz Koraka 3 
 * **Predmet**: Popravak pokretanja Liberation - sigurnosna kopija radne mape
 * **Poruka**: Uključite sljedeće:
   * Operacijski sustav i verziju (npr. macOS 14.6 ili Windows 11 23H2)
-  * Verziju aplikacije Liberation (npr. 1.0.0)
+* Verziju aplikacije Liberation (npr. 1.0.3)
   * Koji je korak riješio problem, ako jest (Korak 1, Korak 2 ili Korak 3)
   * Kratak opis onoga što se dogodilo prije nego što je problem počeo
-* **Privitak**: zip sigurnosne kopije vaše radne mape `1.0.0`.
+* **Privitak**: zip sigurnosne kopije vaše radne mape `1.0.3`.
 
 > Ako je zip datoteka prevelika za e-poštu, prenesite je na cloud disk i podijelite poveznicu.
 
@@ -127,5 +127,5 @@ Ako se Liberation i dalje ne otvara nakon brisanja radne mape:
 
 1. Izbrišite `data/liberation/settings.json` u radnoj mapi svoje verzije.
 2. Ako ste uređivali Clip, izradite sigurnosnu kopiju, zatim izbrišite `data/liberation/clipEdit.json`.
-3. Ako se i dalje ne otvara, izradite sigurnosnu kopiju, zatim izbrišite cijelu mapu `1.0.0` (ili mapu svoje verzije).
+3. Ako se i dalje ne otvara, izradite sigurnosnu kopiju, zatim izbrišite cijelu mapu `1.0.3` (ili mapu svoje verzije).
 4. Ako Korak 3 riješi problem (ili ako ga ne riješi), zapakirajte sigurnosnu kopiju u zip datoteku i pošaljite je na [**info@liberationlaser.com**](mailto:info@liberationlaser.com) uz svoj OS i verziju aplikacije Liberation.

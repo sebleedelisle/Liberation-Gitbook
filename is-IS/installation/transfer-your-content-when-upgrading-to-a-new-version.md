@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Flyttu efnið þitt þegar þú uppfærir í nýja útgáfu
 
-Liberation geymir efni í vinnumöppunni sinni (sjá [Hvar finnurðu vinnumöppuna](../troubleshooting/where-to-find-the-working-folder.md)) og sú mappa breytist með hverri nýrri útgáfu. Ef þú vilt flytja vinnuskrárnar þínar úr eldri útgáfunni yfir í þá nýju:&#x20;
+Liberation geymir efni í vinnumöppunni sinni (sjá [Hvar finnurðu vinnumöppuna](../troubleshooting/where-to-find-the-working-folder.md "mention")) og sú mappa breytist með hverri nýrri útgáfu. Ef þú vilt flytja vinnuskrárnar þínar úr eldri útgáfunni yfir í þá nýju:&#x20;
 
 1. Opnaðu upprunalegu útgáfuna af Liberation
 2. Notaðu _File->Project->Export Project_. Þetta vistar allt í Liberation hjá þér: uppsetningu leysanna, tímalínur, Clip Deck, allt!&#x20;

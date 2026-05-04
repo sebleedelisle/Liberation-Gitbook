@@ -74,7 +74,7 @@ Det stora området längst upp till vänster på skärmen kan visa en av 3 huvud
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D-vyn visar hur dina lasrar kommer att se ut och kan konfigureras så att den matchar din egen laseruppsättning. Klicka och dra för att rotera kameran, och använd mushjulet för att röra dig framåt och bakåt. Du hittar många fler alternativ i panelen _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](setting-up/3d-visualiser.md "mention").
+3D view visar hur dina lasrar kommer att se ut och kan konfigureras så att den matchar din egen laseruppsättning. Klicka och dra för att rotera kameran, och använd mushjulet för att röra dig framåt och bakåt. Du hittar många fler alternativ i panelen _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -93,7 +93,7 @@ En zon är ett utrymme inom en lasers output som du kan skicka laserinnehåll ti
 Du kan välja vilken laser du vill redigera på något av följande sätt:
 
 * de numrerade knapparna i listen högst upp
-* tryck på siffertangenten för den laser du vill använda _(tangenterna 1–9_)\_
+* tryck på siffertangenten för den laser du vill använda (_tangenterna 1–9_)
 * tangenten `Tab` för att gå igenom dem en i taget
 
 Lägg till en ny laser i uppsättningen genom att trycka på knappen _+_. (Det finns också en _ADD LASER_-knapp i panelen _Laser Overview_)
@@ -120,7 +120,7 @@ Canvas-systemet används främst för grafik och arkitektonisk mapping. Du kan f
 
 Se även: [APC40-referens](reference/apc40-reference.md "mention")
 
-Vi har nu även implementerat stöd för APC Mini Mark 2 och MIDI Fighter Twister, och fler är under utveckling. Men APC40 Mark 2 är det bästa alternativet i de flesta fall.
+Liberation har även stöd för APC Mini och MIDI Fighter Twister. APC40 Mark 2 är fortfarande det bästa alternativet i de flesta fall.
 
 ### Clips och effekter
 
@@ -205,7 +205,7 @@ Tryck på en effektknapp för att slå på eller av effekten, eller ännu hellre
 Använd rotary controllers 1–8\* för att justera _parameter_ för varje effekt. (Du kan också högerklicka med musen för att justera nivå och parameter.) Parameterändringen gör olika saker beroende på hur effekten är konfigurerad. Se listan nedan för standardeffekterna.
 
 {% hint style="info" %}
-De små siffrorna du ser på effektknapparna avser effektens _level_ och _parameter_. _Level_ styrs av fadern på APC40, eller så kan du klicka och dra på knappen. Parametern justeras med rotary controls på APC40, eller så kan du högerklicka för att justera med musen.
+De små siffrorna du ser på effektknapparna avser effektens _level_ och _parameter_. _Level_ styrs av fadern på APC40, eller så kan du klicka och dra på knappen. Parametern justeras med rattarna på APC40, eller så kan du högerklicka för att justera med musen.
 {% endhint %}
 
 _\*Rotary controllers 1–8 sitter längs ovankanten på en APC40 Mk2 och uppe till höger på Mk1. Se även:_ [APC40-referens](reference/apc40-reference.md "mention")
@@ -225,15 +225,15 @@ _\*Rotary controllers 1–8 sitter längs ovankanten på en APC40 Mk2 och uppe t
 5. **Scale** :\
    Skalar upprepade gånger allt från fullt till noll. Parametern justerar hastigheten.
 6. **Hue** :\
-   Ändrar nyansen på allt, men ändrar inte mättnaden (dvs. allt som är vitt förblir vitt). Parametern justerar nyansen.
+Ändrar nyansen på allt, men ändrar inte mättnaden (dvs. allt som är vitt förblir vitt). Parametern justerar nyansen.
 7. **Saturation and hue** :\
-   Ändrar nyansen på allt och mättar även färgen helt (dvs. allt som är vitt ändras till färgen). Parametern justerar nyansen.
+Ändrar nyansen på allt och mättar även färgen helt (dvs. allt som är vitt ändras till färgen). Parametern justerar nyansen.
 8. **Flash** :\
    Blinkar upprepade gånger ljusstyrkan på allt från fullt till noll. Parametern justerar blinkhastigheten.
 
 <figure><img src=".gitbook/assets/qs-colour-effects.png" alt=""><figcaption></figcaption></figure>
 
-Det finns ytterligare 16 färgeffekter längs den nedersta raden för att applicera förinställda värden för hue och saturation.
+Det finns ytterligare 16 färgeffekter längs den nedersta raden för att använda förinställda värden för hue och saturation.
 
 Observera att detta är standardeffekterna, men de kan redigeras för att göra nästan vad du vill!
 
@@ -265,7 +265,7 @@ Nästan alla laserframträdanden har någon form av musikspår, så timing-syste
 
 <figure><img src=".gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Det finns flera synkroniseringsalternativ, inklusive MIDI clock och Ableton Link. Om du känner till musikens tempo kan du justera det manuellt med skjutreglaget på skärmen eller APC40 Tempo-ratten, men du kan också hålla takten med musiken med hjälp av _Tap Tempo_-systemet\_.\_
+Det finns flera synkroniseringsalternativ, inklusive MIDI clock och Ableton Link. Om du känner till musikens tempo kan du justera det manuellt med skjutreglaget på skärmen eller APC40 Tempo-ratten, men du kan också hålla takten med musiken med hjälp av _Tap Tempo_-systemet.
 
 #### Tap Tempo
 
@@ -295,7 +295,7 @@ För att ta bort ett eller flera Clips drar du dem antingen bort från Clip Deck
 
 Panelen _Laser Overview_ ger dig en snabb överblick över statusen för de lasrar som körs för tillfället. Den gröna rutan till höger visar att laser controller fungerar som den ska. Om den blir orange har du tillfälliga drop-outs, och om den blir röd har den kopplats från. Om den är grå är den inte ansluten till någon controller alls.
 
-Grafen i mitten visar en historik över frame lengths, och numret till höger är aktuell frame rate. Ju mer komplicerat innehållet är, desto långsammare blir frame rate (dvs. mer flimmer). Allt under ungefär 25 fps börjar se lite flimrigt ut.
+Grafen i mitten visar en historik över bildrutornas längd, och numret till höger är aktuell bildfrekvens. Ju mer komplicerat innehållet är, desto långsammare blir bildfrekvensen (dvs. mer flimmer). Allt under ungefär 25 fps börjar se lite flimrigt ut.
 
 ### Ansluta till lasrar – Controller Assignment-panel
 

@@ -14,17 +14,17 @@ A Liberation elég rugalmas ahhoz, hogy lézereket állíts be és jeleníts meg
 A Liberationben annyi lézert állíthatsz be és jeleníthetsz meg, amennyit szeretnél. A licenccsomagok (Hobbyist, Pro stb.) csak azt korlátozzák, hány lézert tudsz _armed_ állapotba tenni. Ez azt jelenti, hogy akár ingyenes licenccel is tervezhetsz 100 lézeres show-t. Csak akkor kell frissítened, amikor valódi lézereken szeretnéd futtatni.
 {% endhint %}
 
-Az alapértelmezett beállítás 8, vízszintesen elrendezett lézert tartalmaz, de ezt tetszés szerint módosíthatod. Amíg ismerkedsz a szoftverrel, érdemes megtartani ezt az alapbeállítást, később pedig igazíthatod a saját hardveres felépítésedhez. (Lásd: [A projekt beállítása](../setting-up/setting-up-your-project.md))&#x20;
+Az alapértelmezett beállítás 8, vízszintesen elrendezett lézert tartalmaz, de ezt tetszés szerint módosíthatod. Amíg ismerkedsz a szoftverrel, érdemes megtartani ezt az alapbeállítást, később pedig igazíthatod a saját hardveres felépítésedhez. (Lásd: [A projekt beállítása](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Fontos: mielőtt bármelyik lézert armed állapotba tennéd, győződj meg róla, hogy érted a kockázatokat, és alaposan menj végig a [Lézerek beállítása](../setting-up/setting-up-lasers.md) fejezeten.
+Fontos: mielőtt bármelyik lézert armed állapotba tennéd, győződj meg róla, hogy érted a kockázatokat, és alaposan menj végig a [Lézerek beállítása](../setting-up/setting-up-lasers.md "mention") fejezeten.
 {% endhint %}
 
 ## A szoftver áttekintése
 
 ### Biztonsági leállítás
 
-Amikor lézereket működtetsz, mindig legyen kéznél egy **hardveres vészleállító gomb** (lásd: [Vészleállítás / reteszelések](../hardware/emergency-stop-interlocks.md)). Ha kevésbé sürgős helyzetben szeretnél mindent _disarmed_ állapotba kapcsolni, használhatod a _**DISARM ALL**_ gombot, az `Escape` billentyűt, vagy az APC40 _**SESSION**_ gombját. A Global Brightness értékét is csökkentheted a képernyőn látható csúszkával vagy az APC40 fő faderével.
+Amikor lézereket működtetsz, mindig legyen kéznél egy **hardveres vészleállító gomb** (lásd: [Vészleállítás / reteszelések](../hardware/emergency-stop-interlocks.md "mention")). Ha kevésbé sürgős helyzetben szeretnél mindent _disarmed_ állapotba kapcsolni, használhatod a _**DISARM ALL**_ gombot, az `Escape` billentyűt, vagy az APC40 _**SESSION**_ gombját. A Global Brightness értékét is csökkentheted a képernyőn látható csúszkával vagy az APC40 fő faderével.
 
 ### Csúszkaelemek
 
@@ -36,7 +36,7 @@ Ha a csúszka pontosságánál nagyobb kontrollra van szükséged, `Cmd / Ctrl`-
 
 ### Billentyűparancsok
 
-A billentyűparancsok teljes listája itt található: [Billentyűparancsok](../reference/keyboard-shortcuts.md)
+A billentyűparancsok teljes listája itt található: [Billentyűparancsok](../reference/keyboard-shortcuts.md "mention")
 
 ### Képernyőelrendezés
 
@@ -68,7 +68,7 @@ A képernyő bal felső részén lévő nagy terület a három fő nézet egyike
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-A 3D view megmutatja, hogyan fognak kinézni a lézereid, és beállítható úgy, hogy megfeleljen a saját lézeres elrendezésednek. Kattintással és húzással forgathatod a kamerát, az egérgörgővel pedig előre-hátra mozgathatod. Sok további opciót találsz a _3D Visualiser settings_ panelen (_View -> 3D Visualiser Settings_). Lásd: [3D megjelenítő](../setting-up/3d-visualiser.md).
+A 3D view megmutatja, hogyan fognak kinézni a lézereid, és beállítható úgy, hogy megfeleljen a saját lézeres elrendezésednek. Kattintással és húzással forgathatod a kamerát, az egérgörgővel pedig előre-hátra mozgathatod. Sok további opciót találsz a _3D Visualiser settings_ panelen (_View -> 3D Visualiser Settings_). Lásd: [3D megjelenítő](../setting-up/3d-visualiser.md "mention").
 
 #### Output view
 
@@ -87,7 +87,7 @@ A zone a lézer kimenetén belüli terület, ahová lézeres tartalmat irányít
 A szerkeszteni kívánt lézert többféleképpen választhatod ki:
 
 * a felső sáv számozott gombjaival
-* a kívánt lézer számának megfelelő billentyű megnyomásával _(1-9_ billentyűk\_)\_
+* a kívánt lézer számának megfelelő billentyű megnyomásával (_1-9 billentyűk_)
 * a `Tab` billentyűvel, amellyel sorban végiglépkedhetsz rajtuk
 
 Új lézert a _+_ gomb megnyomásával adhatsz a beállításhoz. (A _Laser Overview_ panelen is van egy _ADD LASER_ gomb.)
@@ -100,11 +100,11 @@ Kattints egy zone elemre a kijelöléséhez, majd az egérrel igazítsd a sarokp
 
 Bal oldalt egy ikongombokból álló sávot találsz. Vidd az egeret bármelyik gomb fölé, és megjelenik, mire való. Ezekkel a gombokkal beam zones, canvas zones és masks adhatók hozzá. Itt találod az adott lézerre vonatkozó test pattern, rács- és igazítási beállításokat is.
 
-További részletek: [Output nézet](../output-view/).
+További részletek: [Output nézet](../output-view/ "mention").
 
 #### Canvas
 
-A Canvas rendszer főként grafikákhoz és építészeti mappinghez használható. Összetett képeket oszthatsz szét több lézer között, és minden szakaszon perspektívakorrekciót alkalmazhatsz. Lásd: [Grafika és a Canvas rendszer](../graphics-and-the-canvas-system/).
+A Canvas rendszer főként grafikákhoz és építészeti mappinghez használható. Összetett képeket oszthatsz szét több lézer között, és minden szakaszon perspektívakorrekciót alkalmazhatsz. Lásd: [Grafika és a Canvas rendszer](../graphics-and-the-canvas-system/ "mention").
 
 ### APC40 MIDI controller
 
@@ -112,9 +112,9 @@ A Canvas rendszer főként grafikákhoz és építészeti mappinghez használhat
 
 Bár a Liberation egérrel és billentyűzettel is vezérelhető, sokkal jobb APC40 MIDI vezérlőfelületet használni. A Mark 2 a legjobb választás, de a Mark 1 is működik.
 
-Lásd még: [APC40 referencia](../reference/apc40-reference.md)
+Lásd még: [APC40 referencia](../reference/apc40-reference.md "mention")
 
-Már az APC Mini Mark 2 és a MIDI Fighter Twister támogatását is megvalósítottuk, és további eszközök fejlesztés alatt állnak. A legtöbb esetben azonban az APC40 Mark 2 a legjobb választás.&#x20;
+A Liberation az APC Mini és a MIDI Fighter Twister eszközöket is támogatja. A legtöbb esetben továbbra is az APC40 Mark 2 a legjobb választás.&#x20;
 
 ### Clips és effektek
 
@@ -140,7 +140,7 @@ A Clip Deck balra és jobbra görgethető:
 * APC40 görgetőgombbal
 * APC40 _<- DEVICE ->_ gombokkal
 
-A tájékozódást felül egy mini Clip Deck megjelenítő segíti. Lásd még: [Clipek és Clip Deck](../clips/)
+A tájékozódást felül egy mini Clip Deck megjelenítő segíti. Lásd még: [Clipek és Clip Deck](../clips/ "mention")
 
 #### Clips indítása és leállítása
 
@@ -162,7 +162,7 @@ Két sorral a zone gombok alatt találod az X/Y tükrözőgombokat. Ezekkel víz
 Fontos, hogy ezek a zone hozzárendelések és X/Y tükrözési beállítások magához a Clip elemhez tartoznak; a következő futtatáskor is megmaradnak. Nem globális beállítások.
 {% endhint %}
 
-Jobb kattintással további beállításokat szerkeszthetsz az adott Clip elemhez. Lásd még: [Clip beállításai](../clips/clip-settings.md)
+Jobb kattintással további beállításokat szerkeszthetsz az adott Clip elemhez. Lásd még: [Clip beállításai](../clips/clip-settings.md "mention")
 
 ### Csoportok
 
@@ -184,7 +184,7 @@ Zone beállítások módosítása egy csoport összes Clip eleméhez
 
 APC40 használatakor nyomd meg a csoport gombját, majd _amíg lenyomva tartod_, a zone és X/Y gombokkal kapcsolhatod az adott csoport összes Clip elemének zone beállításait.
 
-Lásd még: [Clipcsoportok](../clips/groups.md)
+Lásd még: [Clipcsoportok](../clips/groups.md "mention")
 
 ### Effektek
 
@@ -199,10 +199,10 @@ Nyomj meg egy effektgombot az effekt be- vagy kikapcsolásához, vagy még jobb,
 Az 1–8 rotary controller\* segítségével állíthatod az egyes effektek _parameter_ értékét. (Egérrel jobb kattintással is állíthatod a level és parameter értéket.) A parameter módosítása az effekt beállításától függően különböző dolgokat csinál. Az alapértelmezett effekteket az alábbi lista mutatja.
 
 {% hint style="info" %}
-Az effektgombokon látható kis számok az effekt _level_ és _parameter_ értékére utalnak. A _level_ értékét az APC40 faderével vezérelheted, vagy kattintással-húzással a gombon. A parameter az APC40 rotary vezérlőivel állítható, vagy jobb kattintással egérrel is módosítható.
+Az effektgombokon látható kis számok az effekt _level_ és _parameter_ értékére utalnak. A _level_ értékét az APC40 faderével vezérelheted, vagy a gombra kattintva és húzva módosíthatod. A parameter az APC40 rotary vezérlőivel állítható, vagy jobb kattintással egérrel is módosítható.
 {% endhint %}
 
-_\*Az 1–8 rotary controller az APC40 Mk2 felső részén, az Mk1 esetén pedig jobb felül található. Lásd még:_ [APC40 referencia](../reference/apc40-reference.md)
+_\*Az 1–8 rotary controller az APC40 Mk2 felső részén, az Mk1 esetén pedig jobb felül található. Lásd még:_ [APC40 referencia](../reference/apc40-reference.md "mention")
 
 #### Az alapértelmezett effektek
 
@@ -219,9 +219,9 @@ _\*Az 1–8 rotary controller az APC40 Mk2 felső részén, az Mk1 esetén pedig
 5. **Scale** :\
    Ismételten teljes méretről nullára méretez mindent. A parameter a sebességet állítja.
 6. **Hue** :\
-   Mindennek megváltoztatja a színárnyalatát, de a telítettséget nem módosítja (vagyis ami fehér, az fehér marad). A parameter a színárnyalatot állítja.
+Mindennek megváltoztatja a színárnyalatát, de a telítettséget nem módosítja (vagyis ami fehér, az fehér marad). A parameter a színárnyalatot állítja.
 7. **Saturation and hue** :\
-   Mindennek megváltoztatja a színárnyalatát, és teljesen telíti a színt is (vagyis ami fehér, az az adott színre változik). A parameter a színárnyalatot állítja.
+Mindennek megváltoztatja a színárnyalatát, és teljesen telíti a színt is (vagyis ami fehér, az az adott színre változik). A parameter a színárnyalatot állítja.
 8. **Flash** :\
    Ismételten teljes fényerőről nullára villogtat mindent. A parameter a villogás sebességét állítja.
 
@@ -259,7 +259,7 @@ Szinte minden lézeres megjelenítéshez tartozik valamilyen zenei hangsáv, ez�
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-Több szinkronizálási lehetőség is elérhető, köztük a MIDI clock és az Ableton Link. Ha ismered a zene tempóját, kézzel is beállíthatod a képernyőn látható csúszkával vagy az APC40 Tempo gombjával, de a _Tap Tempo_ rendszerrel is tarthatod az ütemet a zenével\_.\_
+Több szinkronizálási lehetőség is elérhető, köztük a MIDI clock és az Ableton Link. Ha ismered a zene tempóját, kézzel is beállíthatod a képernyőn látható csúszkával vagy az APC40 Tempo gombjával, de a _Tap Tempo_ rendszerrel is tarthatod az ütemet a zenével.
 
 #### Tap Tempo
 
@@ -297,10 +297,10 @@ Kattints az _Assign Laser Controllers_ gombra a _Controller Assignment_ panel me
 
 Itt választhatod ki, mely lézerkimenetek mely laser controller eszközökhöz tartozzanak. Húzd át a controller elemeket a jobb oldali listából a bal oldali helyekre. A controller eszközöket át is nevezheted, hogy illeszkedjenek ahhoz a lézerhez, amellyel párosítva vannak (használd a toll ikonú gombot).
 
-További részletekért olvasd el a [Vezérlő-hozzárendelés](../setting-up/controller-assignment.md) fejezetet.
+További részletekért olvasd el a [Vezérlő-hozzárendelés](../setting-up/controller-assignment.md "mention") fejezetet.
 
 {% hint style="danger" %}
-Mielőtt bármelyik lézert armed állapotba tennéd, mindenképp menj végig a [Lézerek beállítása](../setting-up/setting-up-lasers.md) fejezeten.
+Mielőtt bármelyik lézert armed állapotba tennéd, mindenképp menj végig a [Lézerek beállítása](../setting-up/setting-up-lasers.md "mention") fejezeten.
 {% endhint %}
 
 ### Laser Settings panel
@@ -331,10 +331,10 @@ Ha olyan régebbi lézerszoftverhez vagy szokva, amely előre kiszámított poin
 Az alapvető scanner beállítások:
 
 * **Speed** a scanner sebessége, vagyis az, milyen gyorsan mozog a lézer az alakzatok rajzolásához. Ez a hagyományos lézerszoftverek point rate állításának felel meg, de a Liberation lehetővé teszi, hogy a lézer mozgási sebességét _a point rate értékétől függetlenül_ módosítsd. Ezt általában nem kell állítanod.
-* **Scanner sync** (más néven _blank shift, korábban Colour Shift_) A scanners nagyon gyorsan mozgatják a lézert, de a fényerő- és színváltozás általában nincs szinkronban a mozgással. Ez apró, vibráló fény-„farokként” jelenik meg a beams és vonalak szélén. Ezzel a beállítással hozhatod szinkronba a mozgást és a színt. Lásd: [Laser Settings](../setting-up/laser-settings/)
+* **Scanner sync** (más néven _blank shift, korábban Colour Shift_) A scanner nagyon gyorsan mozgatja a lézert, de a fényerő- és színváltozás általában nincs szinkronban a mozgással. Ez apró, vibráló fény-„farokként” jelenik meg a nyalábok és vonalak szélén. Ezzel a beállítással hozhatod szinkronba a mozgást és a színt. Lásd: [Laser Settings](../setting-up/laser-settings/ "mention")
 
-A többi haladó scanner beállítást a [Haladó beállítások](../advanced/) fejezet tárgyalja.
+A többi haladó scanner beállítást a [Haladó beállítások](../advanced/ "mention") fejezet tárgyalja.
 
 ### Zoning
 
-A lézerek beállításának és zoning folyamatának teljes útmutatójához lásd: [Lézerek beállítása](../setting-up/setting-up-lasers.md)
+A lézerek beállításának és zoning folyamatának teljes útmutatójához lásd: [Lézerek beállítása](../setting-up/setting-up-lasers.md "mention")

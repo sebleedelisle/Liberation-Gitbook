@@ -19,7 +19,7 @@ macOS útgáfa 12 (Monterey) og nýrri. Mælt er með Apple Silicon, sérstakleg
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Smelltu á _Download latest for Mac_ (útgáfunúmerin breytast með tímanum) og Liberation DMG-uppsetningarskráin vistast í niðurhalsmöppunni þinni. Finndu skrána og tvísmelltu á hana til að opna hana.
+Smelltu á _Download latest for Mac_ (útgáfunúmerin breytast með tímanum) og Liberation DMG-uppsetningarskráin vistast í Downloads möppunni þinni. Finndu skrána og tvísmelltu á hana til að opna hana.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

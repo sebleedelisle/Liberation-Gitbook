@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-대부분의 프로젝트에서 주로 사용하게 될 zone 유형은 _Beam zone_입니다. 공기 중의 대기형 빔 효과를 위해 설계된 zone입니다. 다른 유형의 zone은 _Canvas zone_입니다([그래픽과 Canvas 시스템](../graphics-and-the-canvas-system/) 참조).
+대부분의 프로젝트에서 주로 사용하게 될 zone 유형은 _Beam zone_입니다. 공기 중의 대기형 빔 효과를 위해 설계된 zone입니다. 다른 유형의 zone은 _Canvas zone_입니다([그래픽과 Canvas 시스템](../graphics-and-the-canvas-system/ "mention") 참조).
 
 {% hint style="danger" %}
-**경고 - 레이저가 작동 중일 때 zone을 이동할 때는 극도로 주의하고** brightness를 가능한 한 낮게 줄이십시오. 레이저를 안전하게 활성화하고 zoning하는 전체 가이드는 [레이저 설정 절차 개요](../setting-up/setting-up-lasers.md)를 참조하십시오.
+**경고 - 레이저가 작동 중일 때 zone을 이동할 때는 극도로 주의하고** brightness를 가능한 한 낮게 줄이십시오. 레이저를 안전하게 활성화하고 zoning하는 전체 가이드는 [레이저 설정 절차 개요](../setting-up/setting-up-lasers.md "mention")를 참조하십시오.
 {% endhint %}
 
 마우스로 zone을 클릭하고 드래그하여 이동할 수 있습니다. test pattern을 켜서 해당 zone이 어디로 출력되는지 확인하십시오.
@@ -19,16 +19,16 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-팁: 여러 레이저에 zone 설정을 빠르게 복사할 수 있습니다! [레이저 간 설정 복사](../setting-up/copy-laser-settings.md)를 참조하십시오.
+팁: 여러 레이저에 zone 설정을 빠르게 복사할 수 있습니다! [레이저 간 설정 복사](../setting-up/copy-laser-settings.md "mention")를 참조하십시오.
 {% endhint %}
 
 ### 새 beam zone 추가하기
 
-toolbar 상단의 _Add a new beam zone_ 버튼을 클릭하면 새 zone이 나타납니다. beam zone은 추가한 순서대로 정렬되지만, 순서를 다시 정렬할 수 있습니다. [빔 존 재정렬](re-ordering-beam-zones.md)를 참조하십시오.
+toolbar 상단의 _Add a new beam zone_ 버튼을 클릭하면 새 zone이 나타납니다. beam zone은 추가한 순서대로 정렬되지만, 순서를 다시 정렬할 수 있습니다. [빔 존 재정렬](re-ordering-beam-zones.md "mention")를 참조하십시오.
 
 ### 기존 canvas zone 추가하기
 
-_Add existing canvas zone_ 버튼을 클릭하면 사용 가능한 canvas zone 목록이 표시되며, 이 레이저에서 각 zone을 켜거나 끌 수 있습니다. [그래픽과 Canvas 시스템](../graphics-and-the-canvas-system/)를 참조하십시오.
+_Add existing canvas zone_ 버튼을 클릭하면 사용 가능한 canvas zone 목록이 표시되며, 이 레이저에서 각 zone을 켜거나 끌 수 있습니다. [그래픽과 Canvas 시스템](../graphics-and-the-canvas-system/ "mention")를 참조하십시오.
 
 ### Zone shape 유형
 
@@ -47,7 +47,7 @@ Zone shape 유형은 3가지입니다.
 * 기본 위치로 재설정
 * shape type별 설정 접근
 * 삭제
-* _Alt Zone_ 추가([Alt zone 시스템](alt-zone-system.md) 참조)
+* _Alt Zone_ 추가([Alt zone 시스템](alt-zone-system.md "mention") 참조)
 
 {% hint style="danger" %}
 **경고 -** 레이저가 활성화된 상태에서 zone type을 변경할 때는 매우 주의하십시오. zone은 해당 shape의 마지막 위치/크기로 돌아가므로 output이 갑자기 바뀔 수 있습니다. zone type을 변경하기 전에는 레이저를 끄는 것이 가장 좋습니다.
@@ -57,11 +57,11 @@ Zone shape 유형은 3가지입니다.
 
 마우스로 quad의 각 모서리를 이동할 수 있습니다. 모서리를 `Alt / Option`-클릭하면 다른 모서리와 독립적으로 이동하여 quad를 왜곡할 수 있습니다. 한 번 quad가 왜곡되면 모든 모서리를 자유롭게 이동할 수 있습니다.
 
-오른쪽 클릭 메뉴의 _REMOVE DISTORTION_ 버튼을 사용하면 왜곡을 제거하고 axis-aligned 직사각형으로 되돌릴 수 있습니다.
+오른쪽 클릭 메뉴의 _REMOVE DISTORTION_ 버튼을 사용하면 왜곡을 제거하고 축에 정렬된 직사각형으로 되돌릴 수 있습니다.
 
 #### Perspective correction
 
-이 옵션은 오른쪽 클릭 메뉴의 toggle 버튼으로 설정할 수 있으며, 왜곡 방식을 결정합니다. 빔에는 이 옵션을 꺼 두는 것이 가장 좋지만, 이 zone이 평평한 면에 graphics를 투사하는 경우에는 켜면 output에 perspective correction이 적용됩니다.
+이 옵션은 오른쪽 클릭 메뉴의 toggle 버튼으로 설정할 수 있으며, 왜곡 방식을 결정합니다. beam에는 이 옵션을 꺼 두는 것이 가장 좋지만, 이 zone이 평평한 면에 그래픽을 투사하는 경우에는 켜면 Output에 원근 보정이 적용됩니다.
 
 {% hint style="info" %}
 _Perspective correction_이 꺼져 있으면 content는 _bi-linear interpolation_을 사용해 왜곡됩니다. 즉, content가 quad 전체에 균일하게 배치됩니다. 그래서 빔에 더 적합합니다.

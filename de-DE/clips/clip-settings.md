@@ -14,7 +14,13 @@ metaLinks:
 
 Ändere die horizontale und vertikale Position des Clips mit _Shift X_ und _Shift Y_.
 
-_Zone Delay/Chase_ ist ein so praktisches Feature, dass es einen eigenen Abschnitt bekommt: [Zone delay / Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ ist ein so praktisches Feature, dass es einen eigenen Abschnitt bekommt: [Zone Delay/Chase](zone-delay-chase.md "mention")
+
+### Parameters panel
+
+Das Panel rechts neben dem Clip Deck zeigt acht kontextbezogene Parameter. Wenn ein Clip ausgewählt ist, sind die ersten Bedienelemente _Shift X_, _Shift Y_ und _Zone Delay_ des ausgewählten Clips, gefolgt von den globalen Bedienelementen _Spin_ und _Scale_.
+
+Dieselben Parameter werden auf unterstützten MIDI-Controllern gespiegelt. Wenn kein Clip ausgewählt ist, bleiben die Clip-spezifischen Plätze leer. Wenn du einen Gruppen-Button gedrückt hältst, wechseln die ersten beiden Bedienelemente zu den Fade-in- und Fade-out-Zeiten dieser Gruppe.
 
 ### Clips sperren
 
@@ -29,7 +35,7 @@ Wenn ein Clip gesperrt ist, kann er nicht verschoben oder gelöscht werden. Um e
 
 Wenn du mit der rechten Maustaste auf einen Clip klickst, erscheint ein Menü mit einigen Optionen für diesen Clip. Siehe [Einführung in den Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip-Einstellungen](clip-settings.md "mention") und [Clip-Gruppen](groups.md "mention") für mehr Informationen zu den ersten Einträgen in diesem Menü.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>Das Rechtsklick-Menü für Clip-Einstellungen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 
 ### Retrigger
 
@@ -47,6 +53,6 @@ Clips sind oft so gestaltet, dass sie endlos loopen. Du kannst sie aber auch so 
 
 ### Transition in/out time (Fade)
 
-Clips können so eingestellt werden, dass sie mit einer in Sekunden gemessenen Dauer ein- und ausblenden. Standardmäßig wird die Fade-Zeit von den Gruppeneinstellungen übernommen (und kann per Rechtsklick auf den Gruppen-Button geändert werden).
+Clips können so eingestellt werden, dass sie mit einer in Sekunden gemessenen Dauer ein- und ausblenden. Standardmäßig wird die Fade-Zeit aus den Gruppeneinstellungen übernommen (und kann per Rechtsklick auf den Gruppen-Button geändert werden).
 
 Wenn du eine andere Fade-Dauer als die der Clip-Gruppe verwenden möchtest, deaktiviere zuerst den Button _USE GROUP DEFAULT_ und passe dann die Slider _In time_ und _Out time_ des Clips an.

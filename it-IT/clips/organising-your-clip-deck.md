@@ -9,10 +9,10 @@ metaLinks:
 
 ### Spostare/duplicare clip
 
-Clicca e trascina per spostare una clip. Se sono selezionate più clip (vedi [Avviare / fermare le clip](starting-stopping-clips.md)), verranno spostate tutte. Tieni premuto `Alt / Option` per duplicarle. Rilascia la clip o le clip in uno spazio vuoto.
+Clicca e trascina per spostare una clip. Se sono selezionate più clip (vedi [Avviare / fermare le clip](starting-stopping-clips.md "mention")), verranno spostate tutte. Tieni premuto `Alt / Option` per duplicarle. Rilascia la clip o le clip in uno spazio vuoto.
 
 {% hint style="info" %}
-Se devi selezionare un gran numero di clip, puoi cliccare e trascinare un lazo, quindi scorrere il Clip Deck mentre stai ancora trascinando (usando i tasti freccia, l'APC 40 oppure lo scorrimento laterale del touchpad/mouse). Il lazo verrà esteso oltre il bordo del Clip Deck.
+Se devi selezionare un gran numero di clip, puoi cliccare e trascinare un lazo, quindi scorrere il Clip Deck mentre stai ancora trascinando (usando i tasti freccia, l'APC40 oppure lo scorrimento laterale del touchpad/mouse). Il lazo verrà esteso oltre il bordo del Clip Deck.
 {% endhint %}
 
 ### Eliminare clip

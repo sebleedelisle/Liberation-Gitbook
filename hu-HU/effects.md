@@ -8,7 +8,7 @@ metaLinks:
 
 A Liberation effekt rendszere szórakoztató és sokoldalú módot ad arra, hogy valós időben módosítsd a klipek kimenetét. Az effektek teljesen rugalmasak: villogtathatsz velük mindent, ki-be kapcsolhatod, forgathatod, megváltoztathatod a színeket, vagy akár véletlenszerűen mozgatva „röptetheted” is a tartalmat.
 
-Bármi, amit a klipszerkesztőben meg tudsz csinálni, effektként is használható. Sőt, az effektek pontosan ugyanazzal a nodeszerkesztővel szerkeszthetők, mint a klipek. Lásd: [Effektek](effects.md#editing-effects). A kreatív lehetőségek gyakorlatilag végtelenek.
+Bármi, amit a klipszerkesztőben meg tudsz csinálni, effektként is használható. Sőt, az effektek pontosan ugyanazzal a nodeszerkesztővel szerkeszthetők, mint a klipek. Lásd: [Effektek](effects.md#editing-effects "mention"). A kreatív lehetőségek gyakorlatilag végtelenek.
 
 Az alapértelmezett 1–8-as effektgombok a zónagombok alatt találhatók, a 9–24-es effektek pedig az alsó sorban lévő kis gombok.
 
@@ -32,12 +32,12 @@ Szerintem ez a Liberation egyik legszórakoztatóbb és legkreatívabb beépíte
 
 #### Effektparaméterek
 
-Adj paramétert az effektedhez egy _Parameter node_ segítségével. A Parameter rendszerrel az effekten belüli több beállítást kívülről is módosíthatsz. További információ: [Parameter Control](clip-editor/oscillators/parameter-control.md).
+Adj paramétert az effektedhez egy _Parameter node_ segítségével. A Parameter rendszerrel az effekten belüli több beállítást kívülről is módosíthatsz. További információ: [Parameter Control](clip-editor/oscillators/parameter-control.md "mention").
 
 Az 1–8-as forgóvezérlőkkel állíthatod az egyes effektek _parameter_ értékét. Vagy kattints jobb gombbal az effektgombra, és állítsd a paramétercsúszkákat. A paraméter módosítása attól függően más-más dolgot csinál, hogyan van felépítve az effekt. Az alábbi listában láthatod az alapértelmezett effekteket és azt, hogy mit csinálnak a paramétereik.
 
 {% hint style="info" %}
-Az 1–8-as forgóvezérlők az APC40 Mk2 felső részén, az Mk1 esetén pedig jobb felül találhatók. Lásd még: [APC40 referencia](reference/apc40-reference.md)
+Az 1–8-as forgóvezérlők az APC40 Mk2 felső részén, az Mk1 esetén pedig jobb felül találhatók. Lásd még: [APC40 referencia](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,9 +59,9 @@ Az effektgombokon látható kis számok az effekt _level_ és _parameter_ érté
 5. **Scale** :\
    Ismételten teljes méretről nullára skáláz mindent. A paraméter a sebességet állítja.
 6. **Hue** :\
-   Megváltoztatja minden elem színárnyalatát, de a telítettséget nem módosítja (azaz ami fehér, az fehér marad). A paraméter a színárnyalatot állítja.
+Megváltoztatja minden elem színárnyalatát, de a telítettséget nem módosítja (azaz ami fehér, az fehér marad). A paraméter a színárnyalatot állítja.
 7. **Saturation and hue** :\
-   Megváltoztatja minden elem színárnyalatát, és teljesen telítetté teszi a színt (azaz ami fehér, az is az adott színre változik). A paraméter a színárnyalatot állítja.
+Megváltoztatja minden elem színárnyalatát, és teljesen telítetté teszi a színt (azaz ami fehér, az is az adott színre változik). A paraméter a színárnyalatot állítja.
 8. **Flash** :\
    Ismételten teljes fényerőről nullára villogtatja az összes tartalom fényerejét. A paraméter a villogás sebességét állítja.
 
@@ -87,9 +87,9 @@ Ez a funkció le van tiltva, ha az _MX Group_ beállítás értéke 0.
 
 ### Effektek szerkesztése
 
-Kattints jobb gombbal bármelyik effektre, majd kattints az _EDIT EFFECT_ gombra az effektszerkesztő megnyitásához. Láthatod, hogy ez a szerkesztő megegyezik a klipszerkesztővel.
+Kattints jobb gombbal bármelyik effektre, majd kattints az _EDIT EFFECT_ gombra az effektszerkesztő megnyitásához. Láthatod, hogy ez a szerkesztő megegyezik a Clip Editor felületével.
 
-Az effektet ugyanúgy szerkesztheted, mint bármelyik klipet. Lásd: [A Clip Editor](clip-editor/).
+Az effektet ugyanúgy szerkesztheted, mint bármelyik klipet. Lásd: [A Clip Editor](clip-editor/ "mention").
 
 Legalább egy creator node szükséges; ez bármi lehet (vonal, kör, alakzat, akár szöveg is), de érdemes olyat választani, ami az effektgomb előnézetében a legérthetőbb.
 

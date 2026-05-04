@@ -9,7 +9,7 @@ metaLinks:
 
 Denne nodefamilien endrer innhold ut fra posisjon. Som standard brukes effekten langs en horisontal akse (fra venstre mot høyre), men du kan rotere denne aksen til hvilken som helst vinkel. Hver node har også en _radial_ modus, der effekten styres av vinkelen til hvert punkt i forhold til sentrum.
 
-* **Colour Changer by Position** – forskyver farger langs den valgte aksen eller rundt den radiale vinkelen.\
+* **Colour Changer by Position** – legger en gradient langs den valgte aksen eller rundt den radiale vinkelen.\
   \&#xNAN;_Eksempel: Lag en regnbuegradient som beveger seg over en linje, eller bruk radial modus på en sirkel for å lage en fargehjuleffekt._
 * **Wave Shift by Position** – legger på en sinusbølgeforvrengning som forskyver innholdet vertikalt (eller vinkelrett på den valgte aksen).\
   \&#xNAN;_Eksempel: Få en linje til å bølge som vann, eller bruk radial modus for å få en sirkel til å pulsere utover fra sentrum._
@@ -29,6 +29,7 @@ Denne noden legger på fargeendringer over innholdet basert på posisjon. Som st
 * **linear angle** – roterer aksen for effekten. 0° = horisontal.
 * **radial** – bytter til radial modus, der farger legges på basert på vinkelen fra sentrum.
 * **radial smooth loop** – justerer automatisk wavelength slik at den går jevnt opp i 100% av sirkelen, og hindrer en synlig skjøt der syklusen går rundt.
+* **legacy mode** – bytter tilbake til de eldre HSB-glidebryterne for start/slutt. La denne være av for å bruke den nyere gradienteditoren.
 
 **Colour Modes**
 
@@ -46,17 +47,32 @@ Disse bestemmer hvilke deler av fargejusteringene som brukes på innholdet. Se o
   * _FIXED_ – brightness settes til den angitte verdien.
   * _MULTIPLY_ – brightness skaleres med den angitte verdien. Dette bevarer dynamikk (f.eks. vil blinkende elementer fortsatt blinke, men innenfor det begrensede lysstyrkeområdet).
 
-**Start / End Values**
+**Gradient editor**
 
-Disse glidebryterne definerer fargeområdet som brukes langs den valgte aksen (eller det radiale sveipet).
+Bruker samme gradienteditor som [Colour Changer](colour-changer.md "mention"), men mapper gradienten over innholdet etter posisjon.
 
-* **start hue** – hue ved starten av gradienten.
-* **end hue** – hue ved slutten av gradienten.
-* **start saturation** – saturation ved starten.
-* **end saturation** – saturation ved slutten.
-* **start brightness** – brightness ved starten.
-* **end brightness** – brightness ved slutten.
+* Klikk på gradientlinjen for å legge til et fargestopp.
+* Venstreklikk på et stopp for å velge det, og dra det deretter sideveis for å flytte det.
+* Dra et valgt stopp ned og bort fra linjen, eller trykk Delete/Backspace, for å fjerne det. En gradient beholder alltid minst to stopp.
+* Høyreklikk på et stopp for å redigere det med fargevelgeren.
+* Bruk **Position**, **Hue**, **Saturation** og **Brightness** for å redigere det valgte stoppet presist.
+* **interpolation** velger hvordan farger blandes mellom stopp:
+* **HSB** – blander hue, saturation og brightness. Dette passer best for jevn regnbuelignende bevegelse rundt fargehjulet.
+* **RGB** – blander verdier for rødt, grønt og blått direkte. Dette føles ofte mer som en fargetoning på en skjerm eller lyskonsoll.
+* **NONE** – hopper fra ett stopp til det neste uten blanding.
+* **hue direction** er tilgjengelig ved HSB-interpolering:
+* **AUTO** – tar den korteste veien rundt hue-hjulet.
+* **FORWARDS** – går alltid fremover gjennom hue-verdiene.
+* **BACKWARDS** – går alltid bakover gjennom hue-verdiene.
 * **blend** – blander fargeendringen med originalfargene. Ved 100% erstatter effekten originalfargene helt.
+
+**Eldre start-/sluttverdier**
+
+Hvis **legacy mode** er på, erstattes gradienteditoren med de eldre kontrollene:
+
+* **start hue / end hue** – hue ved starten og slutten av området.
+* **start saturation / end saturation** – saturation ved starten og slutten av området.
+* **start brightness / end brightness** – brightness ved starten og slutten av området.
 
 **Eksempel 1: Glidende regnbuegradient**
 
@@ -64,7 +80,7 @@ Med standardinnstillinger:
 
 1. La noden stå i **Linear** mode (0° angle = horizontal).
 2. La **wavelength** stå på 100% (dekker hele bredden, og bør være standard).
-3. La start- og sluttverdiene stå som standard.
+3. La standardgradienten stå.
 4. Aktiver **repeat**.
 5. Legg til en **Sawtooth Oscillator** på innstillingen **offset** som går fra 0% til 100%.
 
@@ -77,13 +93,12 @@ Med standardinnstillinger:
 1. La noden stå i **Linear** mode (0° angle = horizontal).
 2. La **wavelength** stå på 100% (dekker hele bredden, og bør være standard).
 3. Slå av **repeat**.
-4. Sett **start brightness** til 0 (svart).
-5. Sett **end brightness** til 100 (hvit).
-6. Sett **start saturation** og **end saturation** til 0 (konverterer til gråtoner).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Aktiver **pingpong**.
+4. Sett det første gradientstoppet til svart.
+5. Sett det siste gradientstoppet til hvitt.
+6. Sett **hue mode** til OFF.
+7. Sett **saturation mode** til FIXED hvis du vil tvinge resultatet til gråtoner.
+8. Sett **brightness mode** til FIXED.
+9. Aktiver **pingpong**.
 
 _Resultat: gradienten toner fra svart til hvitt, og deretter tilbake til svart over bredden._\
 Merk at hvis du vil at innholdet skal beholde hue og saturation, slår du av Saturation mode. \\
@@ -127,5 +142,6 @@ Denne noden forvrenger innhold ved hjelp av et noise-felt (som turbulens), og fo
 * **Depth Offset** – beveger seg gjennom 3D noise-feltet og skaper variasjon over tid. Dette er spesielt effektivt når det animeres med en Oscillator Node.
 * **Depth Detail** – styrer hvor detaljert variasjonen er langs dybdedimensjonen.
 * **Absolute** – bruker absoluttverdien av noise, slik at negative verdier brettes over til positive (gir bare ensidig forskyvning).
+* **Angle** – roterer aksen for støyen i lineær modus. 0° = horisontal.
 * **Radial** – bytter fra lineær til radial modus, slik at forskyvningen baseres på vinkelen fra sentrum.
 * **Radial Smooth Loop** – justerer wavelength slik at den går jevnt opp i 100% av sirkelen, og hindrer synlige skjøter i radial modus.

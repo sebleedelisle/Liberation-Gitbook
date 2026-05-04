@@ -33,7 +33,7 @@ Para activar el botón _Group_:
 * Mantén pulsado el botón _Group_ en el APC40
 * Haz clic con el ratón en el botón _Group_ en pantalla. Vuelve a hacer clic para desactivarlo.
 
-Puedes asignar Clip fácilmente al grupo pulsándolos mientras el botón _Group_ está activo. (Otra forma de asignar un grupo es usar el menú contextual del Clip).
+Puedes asignar Clip fácilmente al grupo pulsándolos mientras el botón _group_ está activo. (Otra forma de asignar un grupo es usar el menú contextual del Clip).
 
 ### Cambiar los ajustes de zona de todos los Clip de un grupo
 

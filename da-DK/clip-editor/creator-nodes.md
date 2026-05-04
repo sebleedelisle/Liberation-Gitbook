@@ -113,19 +113,29 @@ Opretter tekst med en TrueType- eller OpenType-skrifttype.
 * **Font** - vælg den skrifttype, du vil bruge
 
 {% hint style="info" %}
-Hvis du vil tilføje flere skrifttyper til Liberation, skal du kopiere .ttf- eller .otf-filerne til mappen data/resources/fonts.
+Hvis du vil tilføje flere skrifttyper til Liberation, skal du kopiere .ttf- eller .otf-filerne til mappen `data/fonts` i Liberation-arbejdsmappen og derefter genstarte Liberation.
 {% endhint %}
 
 * **Render profile** - se [Renderprofil](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - vælg _LEFT_, _CENTRE_ eller _RIGHT_ for at vælge tekstjusteringen.
 * **Fill state** - se [Fills, masks og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - tekststørrelsen
+* **monospace** - tegner hvert tegn med samme bredde. Det er nyttigt til timere og tællere, fordi teksten ikke rykker sidelæns, når tallene ændrer sig.
+* **character spacing** - justerer afstanden mellem tegn. Øg den for større tegnafstand, eller reducer den for at samle teksten tættere.
 * **colour -** se [Farveindstillinger og HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** og **y** position - se [Koordinatsystem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - billedets roterede vinkel i grader
 * **resolution** - se [Resolution](fundamentals/resolution.md "mention")
 * **reveal** - brug denne til gradvist at vise teksten, ét tegn ad gangen. Når den er mellem 0 og 50 %, vises teksten gradvist fra venstre mod højre. Når den er mellem 50 % og 100 %, forsvinder teksten fra venstre mod højre. Du kan tilslutte en oscillator til denne socket for at lave animationer.
 * **reveal by word** - når denne er aktiveret, arbejder _reveal_ ord for ord i stedet for tegn for tegn.
-* **countdown** - et (hurtigt implementeret!) nedtællingssystem. Skifter hver 2. beat, så hvis du vil have sekunder, skal du sørge for at være på 120 bpm.
-* **countdown start** - det tal, du vil starte nedtællingen fra
+* **countdown** - erstatter den indtastede tekst med en nedtælling. Når nedtællingen når nul, vises den normale **Text**-værdi.
+* **use seconds** - tæller i rigtige sekunder. Når dette er slået fra, er nedtællingen beat-baseret: to beats tæller som ét sekund, så 120 bpm svarer til rigtige sekunder.
+* **show minutes/seconds** - viser den resterende tid i minutter og sekunder. Hvis der er mere end en time tilbage, vises timer også.
+* **countdown to date/time** - tæller ned til en bestemt UTC-dato og et bestemt UTC-tidspunkt i stedet for at tælle ned fra et tal.
+* **countdown datetime** - angiver UTC-måldatoen/-tidspunktet, når **countdown to date/time** er slået til.
+* **start number** - starttallet, når **countdown to date/time** er slået fra.
 * _MOVE TO FRONT / MOVE TO BACK_ - se [Fills, masks og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+
+{% hint style="info" %}
+Hvis rullemenuen med skrifttyper er åben, går pil op- og pil ned-tasterne gennem de tilgængelige skrifttyper.
+{% endhint %}

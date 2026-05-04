@@ -18,7 +18,7 @@ Paneelin yläreunassa näet:
 
 ### Output orientation / mirroring correction
 
-Seuraavilla asetuksilla korjataan laserin asennus niin, että se toimii Liberationissa johdonmukaisesti.
+Seuraavilla asetuksilla korjataan laserin asetukset niin, että se toimii Liberationissa johdonmukaisesti.
 
 * **Flip horizontal / vertical** – näillä asetuksilla voit korjata laserin ulostuloa
 
@@ -35,7 +35,7 @@ Huomaa, että orientation / mirroring -korjaukset eivät muuta mitään 3D Visua
 
 ### Copy laser settings
 
-Katso [#copy-laser-settings](./#copy-laser-settings).
+Katso [#copy-laser-settings](./#copy-laser-settings "mention").
 
 ### Scanner settings
 
@@ -50,7 +50,7 @@ Vaikka oletusasetukset ovat melko varovaiset, voit silti vahingoittaa skannereit
 {% endhint %}
 
 {% hint style="info" %}
-Tämä Speed-asetus ei muuta pisteiden määrää sekunnissa, vaan säätää sitä, kuinka laajalle pisteet jakautuvat. Lisätietoja on kohdassa [◼️ Miten Liberation luo lasersisältöä](../../advanced/how-liberation-generates-laser-content.md)
+Tämä Speed-asetus ei muuta pisteiden määrää sekunnissa, vaan säätää sitä, kuinka laajalle pisteet jakautuvat. Lisätietoja on kohdassa [◼️ Miten Liberation luo lasersisältöä](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Jos laserin ulostulossa näkyy pieniä ”häntiä”, Scanner sync tarvitsee to
 
 #### Scanner presets
 
-Tällä valitaan valmiiksi suunniteltu skanneriasetus. Oletusasetus on yleensä sopiva, joten tätä ei pitäisi tarvita muuttaa, elleivät skannerisi ole poikkeuksellisen huonot (tai hyvät). Jos haluat perehtyä tarkemmin, katso [◼️ Skanneriesiasetukset ja renderöintiprofiilit](../../advanced/scanner-presets.md)
+Tällä valitaan valmiiksi suunniteltu skanneriasetus. Oletusasetus on yleensä sopiva, joten tätä ei pitäisi tarvita muuttaa, elleivät skannerisi ole poikkeuksellisen huonot (tai hyvät). Jos haluat perehtyä tarkemmin, katso [◼️ Skanneriesiasetukset ja renderöintiprofiilit](../../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
-Tällä järjestelmällä voit korjata laserin kirkkauskäyrää ja valkotasapainoa. Katso [Värikalibrointi](../../advanced/colour-calibration.md)
+Tällä järjestelmällä voit korjata laserin kirkkauskäyrää ja valkotasapainoa. Katso [Värikalibrointi](../../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 
-Näihin ei yleensä tarvitse koskea, mutta jos olet utelias, katso [◼️ Laserin lisäasetukset](../../advanced/advanced-laser-settings.md)
+Näihin ei yleensä tarvitse koskea, mutta jos olet utelias, katso [◼️ Laserin lisäasetukset](../../advanced/advanced-laser-settings.md "mention")

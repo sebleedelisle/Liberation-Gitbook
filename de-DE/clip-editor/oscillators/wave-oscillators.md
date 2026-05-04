@@ -52,7 +52,7 @@ Das _clamp_-Konzept ist etwas schwer zu erklären. Stell dir vor, die Wellenform
 
 * **ease function** - die Sawtooth- und Triangle-Wellen haben außerdem eine Ease-Funktion, die die Animationskurve subtil verändert und deine Animationen deutlich ausdrucksstärker machen kann.
   * **LINEAR** - Standardwert, kein Easing; bewegt sich einfach linear zwischen Minimal- und Maximalwert.
-  * **EASE OUT** - startet schnell und wird zum Ende hin langsamer. Sehr gut, um Physik zu simulieren, z. B. ein Abbremsen bis zum Stillstand.
+* **EASE OUT** - startet schnell und wird zum Ende hin langsamer. Sehr gut, um Physik zu simulieren, z. B. ein Abbremsen bis zum Stillstand.
   * **EASE IN** - startet langsam und wird allmählich schneller. Gut, um zunehmenden Schwung zu simulieren.
   * **EASE IN/OUT** - eine Kombination aus beidem, mit sehr organischer Bewegung.
 

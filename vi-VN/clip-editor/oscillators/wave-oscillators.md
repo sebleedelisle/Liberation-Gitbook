@@ -52,7 +52,7 @@ Khái niệm _clamp_ khá khó giải thích, nhưng hãy hình dung dạng són
 
 * **ease function** - sóng Sawtooth và Triangle cũng có ease function, giúp thay đổi nhẹ đường cong hoạt ảnh và có thể làm hoạt ảnh của bạn biểu cảm hơn nhiều!
   * **LINEAR** - mặc định, không có easing, chỉ di chuyển tuyến tính giữa giá trị min và max.
-  * **EASE OUT** - bắt đầu nhanh rồi chậm dần khi gần đến cuối. Rất phù hợp để mô phỏng vật lý, ví dụ như chậm dần đến khi dừng hẳn.
+* **EASE OUT** - bắt đầu nhanh rồi chậm dần khi gần đến cuối. Rất phù hợp để mô phỏng vật lý, ví dụ như chậm dần đến khi dừng hẳn.
   * **EASE IN** - bắt đầu chậm rồi tăng tốc dần. Phù hợp để mô phỏng việc tích lũy động lượng.
   * **EASE IN/OUT** - kết hợp cả hai, tạo chuyển động rất tự nhiên.
 

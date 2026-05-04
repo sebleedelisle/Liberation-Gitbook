@@ -8,7 +8,7 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
-1. 8x5 Clipdeck
+1. 8x5 Clip Deck
 2. Zone On/Off
 3. Effects 1-8 On/Off
 4. Zone X/Y Flip
@@ -18,8 +18,8 @@ metaLinks:
 8. Effect 1-8 Parameter Adjustment
 9. Group Buttons
 10. Stop All Clips (druk twee keer om alle clips direct te stoppen zonder hun fade-instellingen)
-11. Clipdeck Scroll
-12. Clip / global parameters
+11. Clip Deck Scroll
+12. Regelaars voor het Contextual Parameters panel
 13. Clip Page Left/Right
 14. Zone Page Left/Right
 15. Alt-knop (maakt clipselectie mogelijk)
@@ -35,3 +35,5 @@ metaLinks:
 25. Nudge tempo + en -
 26. Tempo Scroll
 27. Foot Pedal, Tap Tempo
+
+De knoppen van Device Control volgen dezelfde contextuele parameters die in het Parameters panel op het scherm worden weergegeven. Als er een Clip is geselecteerd, regelen ze clipverschuiving, zonevertraging, globale spin en globale schaal. Als je een groepsknop ingedrukt houdt, schakelen de eerste regelaars over naar de fade-in- en fade-out-tijden van die groep.

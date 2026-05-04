@@ -9,7 +9,7 @@ metaLinks:
 
 Uključivanje lasera može biti zabavno, ali iznimno je važno da ih možete i _zaustaviti_! Laserski hardver i softver općenito su vrlo pouzdani, ali sve može zakazati. A u rijetkom slučaju da se to dogodi, bit ćete vrlo zahvalni na toj tipki za daljinsko zaustavljanje.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Tipka za daljinsko zaustavljanje za LaserCube. Najvažniji dio opreme koji imate.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Električni alati i teška oprema imaju tipke za zaustavljanje koje samo prekidaju glavno napajanje, ali to **nikada** ne smijete raditi s laserskom opremom! Laserima uvijek treba trenutak da prestanu emitirati, a iznenadni prekid napajanja može dovesti do toga da laserski skeneri udare u svoje krajnje položaje. Zato biste mogli dobiti snažan snop na neočekivanim mjestima!

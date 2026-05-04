@@ -36,6 +36,7 @@ Skapar ekon av ditt innehåll, med kopior som tonar ut eller skalas bakom origin
   * 128 = 1/2 takt (halvnot)
   * 256 = 1 takt
 * **trail size** – hur många trail-kopior som ritas bakom det aktiva innehållet.
+* **prefill trails** – fyller spårhistoriken direkt när Clip startar, i stället för att vänta på att ekona byggs upp under de första taktslagen.
 * **freeze trails** – gör mjukt flytande trails till en sekvens av frysta ögonblicksbilder. Praktiskt för att skapa staccato-liknande, beat-synkade trail-effekter.
 * **brightness start / brightness end** – applicerar ljusstyrka över trailen från den nyaste kopian (**start**) till den äldsta kopian (**end**). Vanligtvis ställer du **brightness start** på 100% och **brightness end** på 0% så tonar ekona ut.
 * **scale start / scale end** – applicerar skalning över trailen från den nyaste kopian (start) till den äldsta kopian (end). För trails som krymper till ingenting ställer du **scale start** på 100% och **scale end** på 0%.

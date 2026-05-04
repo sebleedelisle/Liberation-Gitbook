@@ -20,7 +20,7 @@ metaLinks:
 
 ### LaserCube عبر USB
 
-وصّل LaserCube بالكمبيوتر باستخدام كابل micro USB، ثم ابحث عنه في لوحة _Controller Assignment_ (راجع [Controller Assignment](../setting-up/controller-assignment.md)). إذا لم يظهر تلقائيًا، اضغط زر _REFRESH_.
+وصّل LaserCube بالكمبيوتر باستخدام كابل micro USB، ثم ابحث عنه في لوحة _Controller Assignment_ (راجع [Controller Assignment](../setting-up/controller-assignment.md "mention")). إذا لم يظهر تلقائيًا، اضغط زر _REFRESH_.
 
 ### LaserCube "Wifi" عبر الشبكة
 
@@ -30,7 +30,7 @@ metaLinks:
 
 وصّل LaserCube بالشبكة السلكية.
 
-ضع LaserCube في وضع "LAN Client" وتأكد من وجود موجّه على شبكتك. سيحصل LaserCube على عنوان IP من الموجّه، وبعد ذلك يُفترض أن يظهر في لوحة _Controller Assignment_. (راجع [Controller Assignment](../setting-up/controller-assignment.md)).
+ضع LaserCube في وضع "LAN Client" وتأكد من وجود موجّه على شبكتك. سيحصل LaserCube على عنوان IP من الموجّه، وبعد ذلك يُفترض أن يظهر في لوحة _Controller Assignment_. (راجع [Controller Assignment](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 يمكن إعداد شبكة من دون موجّه ومنح جميع أجهزتك عناوين IP ثابتة، وهذا شائع جدًا في مجال الفعاليات. لكنني شخصيًا أفضل إضافة موجّه إلى الشبكة، وأوصي بهذا الخيار لأي شخص لديه خبرة أقل في الشبكات.

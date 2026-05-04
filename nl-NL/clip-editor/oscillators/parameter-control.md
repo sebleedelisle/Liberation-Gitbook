@@ -16,5 +16,5 @@ _De Parameter Control_ is een methode om verschillende instellingen binnen een e
 * **parameter number** - elke _parameter control_ kan een nummer krijgen, en dit zie je terug in de controls buiten de clip. Je kunt meerdere parameter controls met hetzelfde nummer hebben; ze worden dan allemaal tegelijk aangepast.
 
 {% hint style="warning" %}
-Momenteel is alleen parameter 1 van een effect beschikbaar om met de APC40 te bedienen. Alle parameters binnen effecten en clips zijn beschikbaar via het rechtermuisknopmenu. In de toekomst zullen meer van deze parameters met MIDI controllers te mappen zijn.
+De APC40 en ondersteunde live controllers bedienen standaard parameter 1 voor elke effectsleuf. Alle parameters binnen effecten en Clips zijn ook beschikbaar via het rechtermuisknopmenu.
 {% endhint %}

@@ -113,19 +113,29 @@ Crée du texte avec une police TrueType ou OpenType.
 * **Font** - choisissez la police souhaitée
 
 {% hint style="info" %}
-Pour ajouter d’autres polices à Liberation, copiez les fichiers .ttf ou .otf dans le dossier data/resources/fonts.
+Pour ajouter d’autres polices à Liberation, copiez les fichiers .ttf ou .otf dans le dossier `data/fonts` du dossier de travail de Liberation, puis redémarrez Liberation.
 {% endhint %}
 
 * **Render profile** - voir [Render Profile](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - choisissez _LEFT_, _CENTRE_ ou _RIGHT_ pour sélectionner l’alignement du texte.
 * **Fill state** - voir [Remplissages, masques et tri en profondeur](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - la taille du texte
+* **monospace** - affiche chaque caractère avec la même largeur. C’est utile pour les minuteurs et les compteurs, car le texte ne se décale pas latéralement lorsque les chiffres changent.
+* **character spacing** - ajuste l’espacement entre les caractères. Augmentez-le pour un interlettrage plus large, ou réduisez-le pour resserrer le texte.
 * **colour -** voir [Paramètres de couleur et HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - voir [Système de coordonnées](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - l’angle de rotation de l’image, en degrés
 * **resolution** - voir [Résolution](fundamentals/resolution.md "mention")
 * **reveal** - utilisez ce réglage pour révéler progressivement le texte, un caractère à la fois. Entre 0 et 50 %, le texte apparaît progressivement de gauche à droite. Entre 50 % et 100 %, il disparaît de gauche à droite. Vous pouvez connecter un oscillateur à cette entrée pour créer des animations.
 * **reveal by word** - lorsque cette option est activée, _reveal_ fonctionne mot par mot plutôt que caractère par caractère.
-* **countdown** - un système de compte à rebours (implémenté à la hâte !). Il change toutes les 2 pulsations ; si vous voulez des secondes, assurez-vous donc d’être à 120 bpm.
-* **countdown start** - le nombre à partir duquel vous souhaitez démarrer le compte à rebours
+* **countdown** - remplace le texte saisi par un compte à rebours. Lorsque le compte à rebours atteint zéro, la valeur **Text** normale s’affiche.
+* **use seconds** - compte en secondes réelles. Lorsque cette option est désactivée, le compte à rebours est basé sur le tempo : deux pulsations comptent comme une seconde, de sorte que 120 bpm correspond aux secondes réelles.
+* **show minutes/seconds** - affiche le temps restant en minutes et secondes. S’il dépasse une heure, les heures sont également incluses.
+* **countdown to date/time** - compte à rebours jusqu’à une date et une heure UTC précises, au lieu de compter à rebours à partir d’un nombre.
+* **countdown datetime** - définit la date et l’heure UTC cibles lorsque **countdown to date/time** est activé.
+* **start number** - nombre de départ lorsque **countdown to date/time** est désactivé.
 * _MOVE TO FRONT / MOVE TO BACK_ - voir [Remplissages, masques et tri en profondeur](fundamentals/fills-masks-and-depth-sorting.md "mention")
+
+{% hint style="info" %}
+Si le menu déroulant des polices est ouvert, les touches fléchées haut et bas permettent de parcourir les polices disponibles.
+{% endhint %}

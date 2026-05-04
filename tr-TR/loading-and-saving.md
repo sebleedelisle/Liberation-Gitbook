@@ -14,7 +14,7 @@ Bununla birlikte, yedek almak veya başka bir bilgisayara taşımak için kurulu
 
 Project dosyası mevcut kurulumunuzdaki neredeyse her şeyi saklar. Buna şunlar dahildir:
 
-* Aşağıdaki [Laser Settings içe/dışa aktarma](loading-and-saving.md#laser-settings-import-export) bölümünde açıklanan her şey
+* Aşağıdaki [Laser Settings içe/dışa aktarma](loading-and-saving.md#laser-settings-import-export "mention") bölümünde açıklanan her şey
 * Clips, efektler ve grup ayarları
 * Tüm timeline öğeleriniz (ses ve video medyaları hariç)
 * Art-Net kurulumu
@@ -30,7 +30,7 @@ Project dosyası mevcut kurulumunuzdaki neredeyse her şeyi saklar. Buna şunlar
 * Text node içinde kullanılan yazı tipleri
 
 {% hint style="danger" %}
-Timeline içindeki ses ve video dosyaları project dosyalarıyla birlikte kaydedilmez. Bu yüzden içeriği başka bir bilgisayara taşımak istiyorsanız bu dosyaları ayrıca kaydettiğinizden emin olun. Bkz. [Timeline medya dosyaları hakkında önemli not](loading-and-saving.md#important-note-about-timeline-media-files)
+Timeline içindeki ses ve video dosyaları project dosyalarıyla birlikte kaydedilmez. Bu yüzden içeriği başka bir bilgisayara taşımak istiyorsanız bu dosyaları ayrıca kaydettiğinizden emin olun. Bkz. [Timeline medya dosyaları hakkında önemli not](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Laser Settings içe/dışa aktarma
@@ -67,7 +67,7 @@ _Append Clip Deck_ kullanarak dışa aktarılmış bir clip deck dosyasındaki C
 O anda seçili olan Clips bir dosyaya dışa aktarılır. Grup ayarları ve efektler kaydedilmez; yalnızca Clips kaydedilir. Şu anda çalışan aktif Clips, ayrıca seçili değilse dışa aktarılmaz.
 
 {% hint style="info" %}
-Clips seçmek için Option/Alt - shift - tıklama kullanın (veya lasso kullanın). Hangi Clips öğelerinin seçili olduğunu, etraflarındaki kalın beyaz çerçeveden anlayabilirsiniz. Bkz. [Clip başlatma ve durdurma](clips/starting-stopping-clips.md)
+Clips seçmek için Option/Alt - shift - tıklama kullanın (veya lasso kullanın). Hangi Clips öğelerinin seçili olduğunu, etraflarındaki kalın beyaz çerçeveden anlayabilirsiniz. Bkz. [Clip başlatma ve durdurma](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Efektleri içe/dışa aktarma
@@ -82,12 +82,12 @@ Bir project içinden yalnızca efektleri içe aktarmak için _**Effects->Import 
 
 ### Timeline dışa aktarma
 
-Bir veya daha fazla timeline içeren bir timeline dosyası dışa aktarır. Clip Deck her zaman dışa aktarılan timeline dosyalarına dahil edilir (ancak içe aktarırken hangi Clips öğelerinin geri alınacağını seçebilirsiniz; aşağıdaki [Timeline içe aktarma](loading-and-saving.md#timeline-import) bölümüne bakın).
+Bir veya daha fazla timeline içeren bir timeline dosyası dışa aktarır. Clip Deck her zaman dışa aktarılan timeline dosyalarına dahil edilir (ancak içe aktarırken hangi Clips öğelerinin geri alınacağını seçebilirsiniz; aşağıdaki [Timeline içe aktarma](loading-and-saving.md#timeline-import "mention") bölümüne bakın).
 
 Project dosyanızda birden fazla timeline varsa, dışa aktarmak istediğiniz timeline öğelerini seçmenizi sağlayan bir panel açılır.
 
 {% hint style="danger" %}
-Timeline içindeki ses ve video dosyaları timeline dosyalarıyla birlikte kaydedilmez. Bu yüzden içeriğinizi başka bir bilgisayara taşımak istiyorsanız bu dosyaları ayrıca kaydettiğinizden emin olun. Bkz. [Timeline medya dosyaları hakkında önemli not](loading-and-saving.md#important-note-about-timeline-media-files)
+Timeline içindeki ses ve video dosyaları timeline dosyalarıyla birlikte kaydedilmez. Bu yüzden içeriğinizi başka bir bilgisayara taşımak istiyorsanız bu dosyaları ayrıca kaydettiğinizden emin olun. Bkz. [Timeline medya dosyaları hakkında önemli not](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Timeline içe aktarma

@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Prenesite svoj sadržaj pri nadogradnji na novu verziju
 
-Liberation sprema sadržaj u svoju radnu mapu (pogledajte [gdje pronaći radnu mapu](../troubleshooting/where-to-find-the-working-folder.md)), a ona se mijenja za svako novo izdanje. Ako želite zadržati radne datoteke iz stare verzije u novoj:&#x20;
+Liberation sprema sadržaj u svoju radnu mapu (pogledajte [gdje pronaći radnu mapu](../troubleshooting/where-to-find-the-working-folder.md "mention")), a ona se mijenja za svako novo izdanje. Ako želite zadržati radne datoteke iz stare verzije u novoj:&#x20;
 
 1. Otvorite izvornu verziju Liberation.
 2. Upotrijebite _File->Project->Export Project_. Time se sprema sve iz vašeg Liberation: postavke lasera, vremenske trake, Clip Deck, sve!&#x20;

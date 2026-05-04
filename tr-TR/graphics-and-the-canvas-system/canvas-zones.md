@@ -23,7 +23,7 @@ Zone üzerine sağ tıklayın ve bu canvas zone öğesinin atanacağı lazerleri
 UYARI - lazerin durumu armed ise, varsayılan bir canvas zone içinde içerik aniden projeksiyona başlayabilir. Canvas zones atamadan önce lazerin durumunu disarmed yapmanız önerilir.
 {% endhint %}
 
-Şimdi o lazer için _OUTPUT_ view bölümüne giderseniz canvas zone öğesini orada görürsünüz. Artık bu öğe, herhangi bir beam zone gibi düzenlenebilir. Bkz. [Zones](../output-view/zones.md).
+Şimdi o lazer için _OUTPUT_ view bölümüne giderseniz canvas zone öğesini orada görürsünüz. Artık bu öğe, herhangi bir beam zone gibi düzenlenebilir. Bkz. [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Bir lazere doğrudan _OUTPUT_ view üzerinden de canvas zone ekleyebilirsiniz. Sol araç çubuğundaki _Add existing canvas zone_ düğmesine tıklayın.

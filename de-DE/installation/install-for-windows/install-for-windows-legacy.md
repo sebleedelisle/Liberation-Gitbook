@@ -35,7 +35,7 @@ Nachdem Windows das Entpacken abgeschlossen hat, wird dir die Installationsdatei
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation benötigt Berechtigungen für den Zugriff auf Dateien und das Netzwerk. Daher wird Windows wahrscheinlich mehrere Abfragen anzeigen. Akzeptiere alles, sonst funktioniert Liberation möglicherweise nicht korrekt.
+Liberation benötigt Berechtigungen für den Zugriff auf Dateien und das Netzwerk. Daher wird Windows wahrscheinlich einige Berechtigungsabfragen anzeigen. Akzeptiere alles, sonst funktioniert Liberation möglicherweise nicht korrekt.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -22,7 +22,7 @@ Todos los presets se guardan junto con tu proyecto (o con los ajustes de láser)
 
 También puedes importar y exportar archivos de presets usando el botón de cargar/guardar (un icono de disquete) situado junto a la lista desplegable de presets. Esto abre una ventana emergente con botones para importar/exportar y también la opción de eliminar uno o varios de tus presets.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>El menú emergente que se abre al hacer clic en el icono de cargar/guardar</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Si editas un preset, por ejemplo el ajuste de escáner llamado _Default_, ten en cuenta que los demás láseres no se actualizarán automáticamente. En su lugar, los ajustes de escáner de cada uno aparecerán ahora etiquetados como _Default(edited)_. Para actualizarlos al nuevo preset _Default_, selecciónalo de nuevo en la lista desplegable.
 

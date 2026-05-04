@@ -52,7 +52,7 @@ _clamp_ kavramını açıklamak biraz zor; dalga formunun grafiğin üstünden y
 
 * **ease function** - Sawtooth ve Triangle dalgalarında ayrıca animasyon eğrisini hafifçe değiştiren ve animasyonlarınızı çok daha etkileyici hale getirebilen bir ease function bulunur.
   * **LINEAR** - varsayılandır; yumuşatma yoktur, min ve max değerler arasında doğrusal şekilde hareket eder.
-  * **EASE OUT** - hızlı başlar ve sona yaklaşırken yavaşlar. Fiziği simüle etmek, örneğin durana kadar yavaşlama efekti için çok iyidir.
+* **EASE OUT** - hızlı başlar ve sona yaklaşırken yavaşlar. Fiziği simüle etmek, örneğin durana kadar yavaşlama efekti için çok iyidir.
   * **EASE IN** - yavaş başlar ve kademeli olarak hızlanır. Momentum birikimini simüle etmek için uygundur.
   * **EASE IN/OUT** - ikisinin birleşimidir ve oldukça organik bir hareket verir.
 

@@ -9,7 +9,7 @@ metaLinks:
 
 Việc bật laser có thể rất thú vị, nhưng điều cực kỳ quan trọng là bạn cũng phải có thể _dừng_ chúng! Phần cứng và phần mềm laser nhìn chung rất đáng tin cậy, nhưng bất cứ thứ gì cũng có thể gặp lỗi. Và trong trường hợp hiếm hoi điều đó xảy ra, bạn sẽ rất biết ơn vì có nút dừng từ xa đó.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Nút dừng từ xa cho Laser Cube. Đây là phần cứng quan trọng nhất mà bạn sở hữu.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Dụng cụ điện và thiết bị hạng nặng thường có nút dừng chỉ đơn giản là ngắt nguồn điện chính, nhưng bạn **không bao giờ** nên làm như vậy với thiết bị laser! Laser luôn cần một khoảng thời gian ngắn để ngừng phát tia, và việc mất điện đột ngột có thể khiến các scanner laser chạy tới giới hạn cực hạn của chúng. Vì vậy, bạn rất có thể sẽ tạo ra một tia laser mạnh ở những vị trí không mong muốn!

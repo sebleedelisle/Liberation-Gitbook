@@ -26,7 +26,7 @@ Voici un aperçu du processus :
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Modifier les zones de chaque clip :**\
-    Déclenchez chaque clip en cliquant sur son bouton, puis activez ou désactivez les zones ainsi que les inversions X et Y à l’aide des boutons à l’écran. Voir [Clips et Clip Deck](../clips/ "mention").
+Déclenchez chaque clip en cliquant sur son bouton, puis activez ou désactivez les zones ainsi que les inversions X et Y à l’aide des boutons à l’écran. Voir [Clips et Clip Deck](../clips/ "mention").
 
     \\
 

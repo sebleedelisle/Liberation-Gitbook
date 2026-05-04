@@ -22,7 +22,7 @@ Alla förinställningar sparas tillsammans med ditt projekt (eller dina laserins
 
 Du kan även importera och exportera preset-filer med load/save-knappen (en diskettikon) bredvid preset-rullgardinslistan. Detta öppnar ett popup-fönster med knappar för import/export samt möjlighet att radera en eller flera av dina förinställningar.
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>Popup-menyn som öppnas när du klickar på load/save-ikonen</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 Om du redigerar en förinställning, till exempel scanner-inställningen som heter _Default_, uppdateras inte de andra lasrarna automatiskt. I stället får deras scanner-inställningar nu etiketten _Default(edited)_. För att uppdatera detta till den nya _Default_-förinställningen väljer du den igen i rullgardinslistan.
 

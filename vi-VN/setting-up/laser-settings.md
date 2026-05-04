@@ -41,7 +41,7 @@ Lưu ý rằng các hiệu chỉnh hướng / lật gương không thay đổi g
 
 ### Sao chép cài đặt laser
 
-Xem [Sao chép cài đặt laser](laser-settings.md#copy-laser-settings).
+Xem [Sao chép cài đặt laser](laser-settings.md#copy-laser-settings "mention").
 
 ### Cài đặt scanner
 
@@ -56,7 +56,7 @@ Mặc dù các cài đặt mặc định khá thận trọng, bạn vẫn có th
 {% endhint %}
 
 {% hint style="info" %}
-Cài đặt tốc độ này không thay đổi tốc độ điểm; thay vào đó, nó điều chỉnh mức độ giãn cách giữa các điểm. Để biết thêm thông tin, xem [Cách Liberation tạo nội dung laser](../advanced/how-liberation-generates-laser-content.md)
+Cài đặt tốc độ này không thay đổi tốc độ điểm; thay vào đó, nó điều chỉnh mức độ giãn cách giữa các điểm. Để biết thêm thông tin, xem [Cách Liberation tạo nội dung laser](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,12 +73,12 @@ Nếu bạn thấy các “đuôi” nhỏ trên đầu ra laser, nhiều khả 
 
 #### Preset scanner
 
-Dùng mục này để chọn một cài đặt scanner được thiết kế sẵn. Tùy chọn mặc định thường là phù hợp, nên bạn không cần thay đổi cài đặt này trừ khi scanner của bạn đặc biệt kém (hoặc đặc biệt tốt). Nếu muốn tìm hiểu sâu hơn, xem [Preset scanner](../advanced/scanner-presets.md)
+Dùng mục này để chọn một cài đặt scanner được thiết kế sẵn. Tùy chọn mặc định thường là phù hợp, nên bạn không cần thay đổi cài đặt này trừ khi scanner của bạn đặc biệt kém (hoặc đặc biệt tốt). Nếu muốn tìm hiểu sâu hơn, xem [Preset scanner](../advanced/scanner-presets.md "mention")
 
 #### Hiệu chuẩn màu
 
-Bạn có thể dùng hệ thống này để hiệu chỉnh đường cong độ sáng và cân bằng trắng của laser. Xem [Hiệu chuẩn màu](../advanced/colour-calibration.md)
+Bạn có thể dùng hệ thống này để hiệu chỉnh đường cong độ sáng và cân bằng trắng của laser. Xem [Hiệu chuẩn màu](../advanced/colour-calibration.md "mention")
 
 #### Cài đặt nâng cao
 
-Bạn không cần chỉnh các mục này, nhưng nếu muốn tìm hiểu, xem [Cài đặt laser nâng cao](../advanced/advanced-laser-settings.md)
+Bạn không cần chỉnh các mục này, nhưng nếu muốn tìm hiểu, xem [Cài đặt laser nâng cao](../advanced/advanced-laser-settings.md "mention")

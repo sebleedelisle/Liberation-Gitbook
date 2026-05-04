@@ -10,9 +10,9 @@ metaLinks:
 
 Sav laserski sadržaj u Liberation pohranjuje se unutar Clips.
 
-Clips mogu sadržavati atmosferske beam efekte ili grafičke animacije i obično se izvode kao petlja. Mogu se usmjeriti na bilo koje odredište tipa zone (ili Canvas Target Area) i pokreću se pomoću gumba za Clips unutar Clip Deck.
+Clips mogu sadržavati atmosferske beam efekte ili grafičke animacije i obično se izvode kao petlja. Mogu se usmjeriti u bilo koju zone (ili Canvas Target Area), a pokreću se pomoću gumba za Clip unutar Clip Deck.
 
-Sadržaj za Clips izrađuje se u svestranom sustavu Clip Editor, koji se temelji na radu s node elementima. (Za više pojedinosti pogledajte [Uvod u Clip Editor](../clip-editor/clip-editor-intro.md))
+Sadržaj za Clips izrađuje se u svestranom sustavu Clip Editor, koji se temelji na radu s node elementima. (Za više pojedinosti pogledajte [Uvod u Clip Editor](../clip-editor/clip-editor-intro.md "mention"))
 
 ### Clip Deck
 

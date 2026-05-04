@@ -9,7 +9,7 @@ metaLinks:
 
 ### Autorisere Liberation
 
-Når du åpner Liberation for første gang, kjører det i _demomodus_, og du ser _About_-panelet:
+Når du åpner Liberation for første gang, kjører det i _free mode_, og du ser _About_-panelet:
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 

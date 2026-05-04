@@ -8,7 +8,7 @@ metaLinks:
 
 Liberationin efektijärjestelmä on hauska ja monipuolinen tapa muuttaa klipin ulostuloa reaaliajassa. Efektit ovat täysin joustavia: voit saada kaiken vilkkumaan päälle ja pois, pyörimään, vaihtamaan väriä tai vaikka liikkumaan satunnaisesti ympäriinsä!
 
-Kaikkea, mitä voit tehdä klippieditorissa, voi käyttää efektinä. Itse asiassa efektejä muokataan täsmälleen samalla node-editorilla kuin klippejä! Katso [Efektit](effects.md#editing-effects). Luovat mahdollisuudet ovat käytännössä rajattomat.
+Kaikkea, mitä voit tehdä klippieditorissa, voi käyttää efektinä. Itse asiassa efektejä muokataan täsmälleen samalla node-editorilla kuin klippejä! Katso [Efektit](effects.md#editing-effects "mention"). Luovat mahdollisuudet ovat käytännössä rajattomat.
 
 Oletusarvoiset efektipainikkeet 1–8 ovat zone-painikkeiden alla, ja efektit 9–24 ovat alareunan pienet painikkeet.
 
@@ -32,12 +32,12 @@ Väittäisin, että se on yksi Liberationin hauskimmista ja luovimmista sisään
 
 #### Efektin parametrit
 
-Lisää efektiin parametri _Parameter node_ -nodella. Parameter-järjestelmän avulla voit säätää useita efektin sisäisiä asetuksia ulkopuolelta. Katso lisätietoja: [Parameter Control](clip-editor/oscillators/parameter-control.md).
+Lisää efektiin parametri _Parameter node_ -nodella. Parameter-järjestelmän avulla voit säätää useita efektin sisäisiä asetuksia ulkopuolelta. Katso lisätietoja: [Parameter Control](clip-editor/oscillators/parameter-control.md "mention").
 
 Säädä kunkin efektin _parameter_-arvoa rotary controller -säätimillä 1–8. Voit myös klikata efektipainiketta hiiren oikealla painikkeella ja säätää parameter-liukusäädintä tai -säätimiä. Parametrin muutos tekee eri asioita sen mukaan, miten efekti on rakennettu. Alla olevassa luettelossa kerrotaan oletusefektit ja mitä niiden parametrit tekevät.
 
 {% hint style="info" %}
-Rotary controllers 1-8 ovat APC40 Mk2:n yläreunassa ja Mk1:ssä oikeassa yläkulmassa. Katso myös: [APC40-viite](reference/apc40-reference.md)
+Rotary controllers 1-8 ovat APC40 Mk2:n yläreunassa ja Mk1:ssä oikeassa yläkulmassa. Katso myös: [APC40-viite](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,9 +59,9 @@ Efektipainikkeissa näkyvät pienet numerot viittaavat efektin _level_- ja _para
 5. **Scale** :\
    Skaalaa kaikkea toistuvasti täydestä koosta nollaan. Parametri säätää nopeutta.
 6. **Hue** :\
-   Muuttaa kaiken sävyä, mutta ei muuta kylläisyyttä (eli kaikki valkoinen pysyy valkoisena). Parametri säätää sävyä.
+Muuttaa kaiken sävyä, mutta ei muuta kylläisyyttä (eli kaikki valkoinen pysyy valkoisena). Parametri säätää sävyä.
 7. **Saturation and hue** :\
-   Muuttaa kaiken sävyä ja myös kyllästää värin täysin (eli kaikki valkoinen muuttuu kyseiseksi väriksi). Parametri säätää sävyä.
+Muuttaa kaiken sävyä ja myös kyllästää värin täysin (eli kaikki valkoinen muuttuu kyseiseksi väriksi). Parametri säätää sävyä.
 8. **Flash** :\
    Vilkuttaa kaiken kirkkautta toistuvasti täydestä nollaan. Parametri säätää vilkkumisnopeutta.
 
@@ -89,7 +89,7 @@ Tämä toiminto ei ole käytössä, jos _MX Group_ -asetus on 0.
 
 Klikkaa mitä tahansa efektiä hiiren oikealla painikkeella ja avaa efektieditori klikkaamalla _EDIT EFFECT_ -painiketta. Huomaa, että tämä editori on identtinen klippieditorin kanssa!
 
-Muokkaa efektiä samalla tavalla kuin mitä tahansa klippiä. Katso [clip-editor](clip-editor/).
+Muokkaa efektiä samalla tavalla kuin mitä tahansa klippiä. Katso [clip-editor](clip-editor/ "mention").
 
 Efektissä täytyy olla vähintään yksi creator-node. Se voi olla mikä tahansa (viiva, ympyrä, muoto, jopa teksti!), mutta yleensä kannattaa valita jokin, joka näyttää efektipainikkeen esikatselussa järkevältä.
 

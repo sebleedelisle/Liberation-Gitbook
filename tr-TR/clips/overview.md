@@ -12,7 +12,7 @@ Liberation içindeki tüm lazer içerikleri Clip öğelerinde saklanır.
 
 Clip öğeleri atmosferik huzme efektleri veya grafik animasyonlar içerebilir ve genellikle döngü halinde çalışır. Herhangi bir zone içine (veya Canvas Target Area’ya) yönlendirilebilir ve Clip Deck içindeki Clip düğmeleriyle tetiklenir.
 
-Clip içeriği, esnek node tabanlı Clip Editor sistemiyle oluşturulur. (Daha fazla ayrıntı için [Clip Editor ile tanışma](../clip-editor/clip-editor-intro.md) bölümüne bakın)
+Clip içeriği, esnek node tabanlı Clip Editor sistemiyle oluşturulur. (Daha fazla ayrıntı için [Clip Editor ile tanışma](../clip-editor/clip-editor-intro.md "mention") bölümüne bakın)
 
 ### Clip Deck
 

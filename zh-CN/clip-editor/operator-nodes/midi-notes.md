@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/clip-editor/operator-nodes/midi-notes
+---
+
 # 🟩 MIDI notes
 
 ## &#x20;MIDI notes
@@ -6,14 +13,14 @@
 
 你可以在 **Liberation → Settings**（`Cmd / Ctrl + ,`）中选择 Liberation 监听的 MIDI 接口。
 
-* **midi channel** – 监听的 MIDI 通道（0 = 所有通道，1–16 = 指定通道）
+* **MIDI channel** – 监听的 MIDI 通道（0 = 所有通道，1–16 = 指定通道）
 * **width** – 音符展开的总宽度。
-* **midi note min / max** – 范围内的最低与最高 MIDI 音符值。
+* **MIDI note min / max** – 范围内的最低与最高 MIDI 音符值。
 * **ignore out of range notes** – 过滤超出范围的音符。关闭时，超出范围的音符会被“夹紧”到最近的音符（高音触发上限，低音触发下限）。
 * **auto extend range** – 当演奏超出范围的音符时自动扩展范围。
 
 {% hint style="info" %}
-不确定自己能弹到哪些音域？打开 **auto extend range**，将 **midi note min** 设得很高、**midi note max** 设得很低，然后演奏你的音符。系统会捕捉并扩展范围。确认后关闭 **auto extend range** 以锁定范围。
+不确定自己能弹到哪些音域？打开 **auto extend range**，将 **MIDI note min** 设得很高、**MIDI note max** 设得很低，然后演奏你的音符。系统会捕捉并扩展范围。确认后关闭 **auto extend range** 以锁定范围。
 {% endhint %}
 
 * **leave all notes visible** – 为范围内所有音符创建光束/形状，不管它们是否在播放，从而形成“laser harp”效果。

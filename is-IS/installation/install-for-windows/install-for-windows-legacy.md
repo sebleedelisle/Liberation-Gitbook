@@ -9,7 +9,7 @@ metaLinks:
 
 ### Samhæfi
 
-Windows 10 eða 11 á 64 bita tölvum. Mælt er með öflugri tölvu ef þú vilt keyra stórar sýningar. Því hraðari sem tölvan er, því mýkra verður hreyft laser-Output.
+Windows 10 eða 11 á 64 bita tölvum. Mælt er með öflugri tölvu ef þú vilt keyra stórar sýningar. Því hraðari sem tölvan er, því mýkri verður hreyft laser-output.
 
 ### Uppsetningarferli
 
@@ -23,7 +23,7 @@ Smelltu á _Download latest for Windows_ (útgáfunúmerin geta breyst) og þá 
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Þetta opnar niðurhalsmöppuna þína. Finndu niðurhöluðu skrána (oftast efst), hægrismelltu og veldu "Extract all".
+Þetta opnar Downloads-möppuna þína. Finndu niðurhöluðu skrána (oftast efst), hægrismelltu og veldu "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Nýr gluggi opnast og spyr hvar þú viljir setja Liberation upp. Þú getur set
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation þarf heimild til að fá aðgang að skrám og netinu, þannig að Windows mun líklega birta nokkra heimildarglugga. Gakktu úr skugga um að samþykkja allt, annars gæti Liberation ekki virkað rétt.
+Liberation þarf heimild til að fá aðgang að skrám og netinu, þannig að Windows birtir líklega nokkrar beiðnir um heimildir. Gakktu úr skugga um að samþykkja allt, annars gæti Liberation ekki virkað rétt.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

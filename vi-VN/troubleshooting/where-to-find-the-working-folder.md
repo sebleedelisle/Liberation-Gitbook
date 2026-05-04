@@ -9,10 +9,10 @@ metaLinks:
 
 #### Nơi tìm thư mục làm việc
 
-Mỗi phiên bản Liberation có thư mục làm việc riêng. Ví dụ, nếu bạn đang chạy phiên bản 1.0.0, tên thư mục sẽ là 1.0.0.
+Mỗi phiên bản Liberation có thư mục làm việc riêng. Ví dụ, nếu bạn đang chạy phiên bản 1.0.3, tên thư mục sẽ là 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Cách mở nhanh thư mục**
 
@@ -24,7 +24,7 @@ Mỗi phiên bản Liberation có thư mục làm việc riêng. Ví dụ, nếu
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Mở thư mục khớp với số phiên bản của bạn, ví dụ `1.0.0`.
+3. Mở thư mục khớp với số phiên bản của bạn, ví dụ `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Mỗi phiên bản Liberation có thư mục làm việc riêng. Ví dụ, nếu
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Mở thư mục khớp với số phiên bản của bạn, ví dụ `1.0.0`.
+2. Mở thư mục khớp với số phiên bản của bạn, ví dụ `1.0.3`.
 
 > **Mẹo cho Windows**: Nếu bạn duyệt bằng Trình quản lý tệp, hãy bật hiển thị mục ẩn: **Xem > Hiển thị > Mục ẩn**.

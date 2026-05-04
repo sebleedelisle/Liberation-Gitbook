@@ -16,5 +16,5 @@ _Parameter Control_ je metoda za upravljanje raznim postavkama unutar efekta ili
 * **parameter number** - svakom _parameter control_ može se dodijeliti broj, a to se odražava na kontrolama izvan elementa Clip. Možete imati više od jednog parameter control s istim brojem i svi se podešavaju istovremeno.
 
 {% hint style="warning" %}
-Trenutačno je samo parametar 1 nekog efekta dostupan za upravljanje putem APC40. Svi parametri unutar efekata i elemenata Clips dostupni su u izborniku desnog klika. U budućnosti će se više tih parametara moći mapirati na MIDI controllers.
+APC40 i podržani live kontroleri prema zadanim postavkama upravljaju parametrom 1 za svaki slot efekta. Svi parametri unutar efekata i Clips također su dostupni u izborniku desnog klika.
 {% endhint %}

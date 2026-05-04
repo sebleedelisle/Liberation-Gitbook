@@ -8,7 +8,7 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Liberation_APC40_MK2_4.png" alt=""><figcaption></figcaption></figure>
 
-1. Clipdeck 8x5
+1. Clip Deck 8x5
 2. Zone On/Off
 3. Effects 1-8 On/Off
 4. Zone X/Y Flip
@@ -18,8 +18,8 @@ metaLinks:
 8. Réglage des paramètres Effects 1-8
 9. Group Buttons
 10. Stop All Clips (appuyez deux fois pour arrêter immédiatement tous les clips sans appliquer leurs réglages de fondu)
-11. Défilement du Clipdeck
-12. Paramètres du Clip / paramètres globaux
+11. Défilement du Clip Deck
+12. Contrôles du panneau Parameters contextuel
 13. Clip Page Left/Right
 14. Zone Page Left/Right
 15. Bouton Alt (permet la sélection de clips)
@@ -35,3 +35,5 @@ metaLinks:
 25. Nudge tempo + et -
 26. Défilement du tempo
 27. Foot Pedal, Tap Tempo
+
+Les potentiomètres Device Control suivent les mêmes paramètres contextuels que ceux affichés dans le panneau Parameters à l’écran. Lorsqu’un Clip est sélectionné, ils contrôlent le décalage du Clip, le délai de la zone, la rotation globale et l’échelle globale. Si vous maintenez un bouton de groupe enfoncé, les premiers contrôles passent aux temps de fade in et de fade out de ce groupe.

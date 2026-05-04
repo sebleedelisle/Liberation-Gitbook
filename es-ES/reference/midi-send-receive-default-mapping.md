@@ -9,13 +9,13 @@ metaLinks:
 
 **Los clips se activan y desactivan mediante MIDI note on / off en los canales 1 a 14**
 
-Los clips tienen una posición horizontal (x) y vertical (y). Haz clic derecho en un clip y verás su posición. MIDI puede disparar clips empezando en 0,0.
+Los Clips tienen una posición horizontal (x) y vertical (y). Haz clic derecho en un Clip y verás su posición. MIDI puede disparar Clips empezando en 0,0.
 
 {% hint style="info" %}
 Ten en cuenta que el control de clips con este sistema es absoluto y que las posiciones de los clips no cambian al desplazarte por el Clip Deck.
 {% endhint %}
 
-El canal MIDI 1, nota 1 corresponde al clip 0,0; la nota 2 al clip 0,1; la nota 3 al clip 0,2, avanzando hacia abajo por filas y a lo largo por columnas. Cuando llega a 128, pasa al siguiente canal y vuelve a empezar. Por tanto, tienes un total de 128 x 14 = 1792 clips accesibles mediante MIDI.
+El canal MIDI 1, nota 1 corresponde al Clip 0,0; la nota 2 al Clip 0,1; la nota 3 al Clip 0,2, avanzando hacia abajo por filas y a lo largo por columnas. Cuando llega a 128, pasa al siguiente canal y vuelve a empezar. Por tanto, tienes un total de 128 x 14 = 1792 Clips accesibles mediante MIDI.
 
 Nota MIDI para coordenadas de clip:
 

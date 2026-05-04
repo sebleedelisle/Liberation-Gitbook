@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/troubleshooting/what-if-liberation-wont-open
+---
+
 # ✅ Liberation 无法打开怎么办？
 
 这种情况不常见，但有时 Liberation 可能无法启动，或打开后立即崩溃。几乎都是因为本地配置文件损坏——通常发生在系统崩溃或电脑出现意外之后。
@@ -13,10 +20,10 @@
 
 #### 工作文件夹在哪里
 
-每个版本的 Liberation 都有独立的工作文件夹。例如你运行的是 1.0.0，则文件夹名为 1.0.0。
+每个版本的 Liberation 都有独立的工作文件夹。例如你运行的是 1.0.3，则文件夹名为 1.0.3。
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **快速打开文件夹的方法**
 
@@ -28,7 +35,7 @@
     ```
     ~/Library/Application Support/Liberation
     ```
-3. 打开与你版本号对应的文件夹，例如 `1.0.0`。
+3. 打开与你版本号对应的文件夹，例如 `1.0.3`。
 
 **Windows**
 
@@ -37,7 +44,7 @@
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. 打开与你版本号对应的文件夹，例如 `1.0.0`。
+2. 打开与你版本号对应的文件夹，例如 `1.0.3`。
 
 > **Windows 小提示**：如果你通过文件资源管理器浏览，请启用隐藏项目：**View > Show > Hidden items**。
 
@@ -53,8 +60,8 @@ data/liberation/
 
 在 liberation 文件夹中应该能看到 `settings.json`。删除该文件。&#x20;
 
-* **macOS 示例**：`~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Windows 示例**：`%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **macOS 示例**：`~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Windows 示例**：`%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 现在尝试启动 Liberation。如果能正常打开，完成。
 
@@ -77,9 +84,9 @@ data/liberation/
 如果步骤 1 和步骤 2 都无效：
 
 1. **备份**整个版本文件夹：
-   * macOS：右键 `1.0.0` 文件夹并选择 **Compress** 生成 zip，或复制到桌面等安全位置。
-   * Windows：右键 `1.0.0` 文件夹并选择 **Send to > Compressed (zipped) folder**，或复制到桌面等安全位置。
-2. 备份完成后，**删除** Liberation 工作目录中的原 `1.0.0` 文件夹。
+* macOS：右键 `1.0.3` 文件夹并选择 **Compress** 生成 zip，或复制到桌面等安全位置。
+* Windows：右键 `1.0.3` 文件夹并选择 **Send to > Compressed (zipped) folder**，或复制到桌面等安全位置。
+2. 备份完成后，**删除** Liberation 工作目录中的原 `1.0.3` 文件夹。
 3. 重新启动 Liberation。它会自动创建新的工作文件夹。
 
 如果 Liberation 现在能打开，请继续步骤 4。
@@ -96,10 +103,10 @@ data/liberation/
 * **主题**：Liberation start-up fix - working folder backup
 * **邮件正文**：请包含以下信息
   * 操作系统与版本（例如 macOS 14.6 或 Windows 11 23H2）
-  * Liberation 版本（例如 1.0.0）
+* Liberation 版本（例如 1.0.3）
   * 哪一步解决了问题（步骤 1、步骤 2 或步骤 3）
   * 问题发生前的简要描述
-* **附件**：`1.0.0` 工作文件夹的压缩备份
+* **附件**：`1.0.3` 工作文件夹的压缩备份
 
 > 如果 zip 过大，请上传到云盘并分享链接。
 
@@ -120,5 +127,5 @@ data/liberation/
 
 1. 删除版本工作文件夹中的 `data/liberation/settings.json`。
 2. 如果你正在编辑 Clip，备份并删除 `data/liberation/clipEdit.json`。
-3. 如果仍无法打开，备份并删除整个 `1.0.0`（或你的版本号）文件夹。
+3. 如果仍无法打开，备份并删除整个 `1.0.3`（或你的版本号）文件夹。
 4. 如果步骤 3 修复了问题（或没有修复），将备份打包后发送到 [**info@liberationlaser.com**](mailto:info@liberationlaser.com)，并注明系统与版本信息。

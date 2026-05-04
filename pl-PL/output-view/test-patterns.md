@@ -8,7 +8,7 @@ metaLinks:
 
 Podczas edycji i dostrajania strefy warto wyświetlić wzór testowy. Możesz włączyć wzór testowy we wszystkich aktywnych strefach za pomocą przełącznika na górnym pasku ikon, a następnie wybrać wzór suwakiem po jego prawej stronie.
 
-Jeśli chcesz wyświetlić wzór testowy tylko na laserze, dla którego aktualnie ustawiasz strefę, użyj przełącznika na pasku narzędzi po lewej stronie widoku _Output_. Kliknij/przeciągnij liczbę pod nim, aby wybrać wzór testowy.
+Jeśli chcesz wyświetlić wzór testowy tylko na laserze, dla którego aktualnie ustawiasz strefę, użyj przełącznika na pasku narzędzi po lewej stronie widoku _Output_. Kliknij i przeciągnij liczbę pod nim, aby wybrać wzór testowy.
 
 ### Lista wzorów testowych
 
@@ -19,7 +19,7 @@ Poniżej znajduje się pełna lista wzorów testowych. O ile nie podano inaczej,
 3. Poziome zielone linie — 4 poziome linie rozmieszczone równomiernie.
 4. Pionowe zielone linie — 4 pionowe linie rozmieszczone równomiernie.
 
-Wzory kalibracji kolorów 5–8. Można ich używać razem z systemem korekcji kolorów w ustawieniach lasera. Zobacz [Kalibracja kolorów](../advanced/colour-calibration.md). Te wzory nie wypełniają całego obszaru wyjściowego.
+Wzory kalibracji kolorów 5–8. Można ich używać razem z systemem korekcji kolorów w ustawieniach lasera. Zobacz [Kalibracja kolorów](../advanced/colour-calibration.md "mention"). Te wzory nie wypełniają całego obszaru wyjściowego.
 
 5. Wzór kalibracji kolorów — czerwony.
 6. Wzór kalibracji kolorów — zielony.

@@ -23,7 +23,7 @@ Le fichier Project stocke presque tous les éléments de votre configuration act
 
 Actuellement, il n’enregistre et ne recharge pas :
 
-* Les réglages d’entrée audio et MIDI utilisés dans le nœud MIDI notes et le Sound Input Oscillator (il enregistre bien les réglages d’envoi/réception MIDI ainsi que l’entrée audio de timecode)
+* Les réglages d’entrée audio et MIDI utilisés dans le node MIDI notes et le Sound Input Oscillator (il enregistre bien les réglages d’envoi/réception MIDI ainsi que l’entrée audio de timecode)
 * La mise à l’échelle de l’interface
 * Les médias des images guides du Canvas
 * Les médias audio et vidéo des timelines

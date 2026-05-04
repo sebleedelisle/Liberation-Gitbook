@@ -57,7 +57,7 @@ O instalador terminou! Clique em _Finish_ para fechá-lo e iniciar o Liberation.
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-O Liberation precisa de permissão para acessar arquivos e a rede, então o Windows provavelmente exibirá várias solicitações. Aceite tudo para garantir que o Liberation funcione corretamente.
+O Liberation precisa de permissão para acessar arquivos e a rede, então o Windows provavelmente exibirá alguns avisos de permissão. Aceite tudo para garantir que o Liberation funcione corretamente.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -23,7 +23,7 @@ Napsauta _Download latest for Windows_ (versionumerot voivat muuttua). Näet lat
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Tämä avaa latauskansion. Etsi ladattu tiedosto (yleensä ylimpänä), napsauta sitä hiiren kakkospainikkeella ja valitse "Extract all".
+Tämä avaa Downloads-kansion. Etsi ladattu tiedosto (yleensä ylimpänä), napsauta sitä hiiren kakkospainikkeella ja valitse "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Kun Windows on purkanut tiedoston, se näyttää asennustiedoston. Käynnistä s
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation tarvitsee luvan käyttää tiedostoja ja verkkoa, joten Windows näyttää todennäköisesti useita lupapyyntöjä. Hyväksy kaikki pyynnöt, muuten Liberation ei välttämättä toimi oikein.
+Liberation tarvitsee luvan käyttää tiedostoja ja verkkoa, joten Windows näyttää todennäköisesti muutamia lupakehotteita. Hyväksy kaikki pyynnöt, muuten Liberation ei välttämättä toimi oikein.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

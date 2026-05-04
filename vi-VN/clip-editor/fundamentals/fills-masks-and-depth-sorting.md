@@ -25,4 +25,4 @@ Nhưng nó hoạt động rất tốt và tạo cảm giác như hình đã đư
 
 ### Sắp xếp theo chiều sâu
 
-Vì một số hình có thể _che lên_ các hình khác, Liberation phải sắp xếp chúng theo chiều sâu. Theo mặc định, các phần tử được sắp xếp theo chiều sâu dựa trên vị trí z. Nếu chúng ở cùng vị trí z, chúng sẽ được sắp xếp theo vị trí layer; vị trí này có thể thay đổi bằng các nút _MOVE TO FRONT_ và _MOVE TO BACK_ bên trong từng Creator.
+Vì một số hình có thể _che_ các hình khác, Liberation phải sắp xếp chúng theo chiều sâu. Theo mặc định, các phần tử được sắp xếp theo chiều sâu dựa trên vị trí z. Nếu chúng ở cùng vị trí z, chúng sẽ được sắp xếp theo vị trí layer; vị trí này có thể thay đổi bằng các nút _MOVE TO FRONT_ và _MOVE TO BACK_ bên trong từng Creator.

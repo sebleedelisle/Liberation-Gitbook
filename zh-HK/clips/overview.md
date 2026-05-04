@@ -12,7 +12,7 @@ Liberation 內所有 laser 內容都儲存在 Clip 之中。
 
 Clip 可以包含空中光束效果或圖像動畫，通常會以循環方式播放。它們可以指向任何 zone（或 Canvas Target Area），並透過 Clip Deck 內的 Clip 按鈕觸發。
 
-Clip 內容是使用靈活的 node-based Clip Editor 系統建立。（詳情請參閱 [Clip Editor 簡介](../clip-editor/clip-editor-intro.md)）
+Clip 內容是使用靈活的 node-based Clip Editor 系統建立。（詳情請參閱 [Clip Editor 簡介](../clip-editor/clip-editor-intro.md "mention")）
 
 ### Clip Deck
 

@@ -26,7 +26,7 @@ Randomise node er kjarninn í Randomise-áhrifunum!
 
 Býr til bergmál af efninu þínu og skilur eftir dofnandi eða stækkandi/minnkandi afrit fyrir aftan upprunalega efnið þegar það hreyfist.
 
-* **change render profile for trail** – ef þetta er kveikt nota öll trail-afrit valið **render profile**. _Sjá_ [Render profile](../fundamentals/render-profile.md).
+* **change render profile for trail** – ef þetta er kveikt nota öll trail-afrit valið **render profile**. _Sjá_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – sniðið sem er notað fyrir trail-afrit þegar rofinn hér fyrir ofan er kveiktur. Þetta er oft notað þegar aðalefnið er stillt á **DETAIL** en bergmálin eru teiknuð sem **FAST**. Þannig færðu skýr smáatriði í aðalformunum en trails eru teiknuð á skilvirkari hátt.
 * **delay** – stillir bilið milli trail-afrita í tónlistarlegum tíma, mælt í **1/64-nótu skrefum**.\
   Til viðmiðunar:
@@ -36,6 +36,7 @@ Býr til bergmál af efninu þínu og skilur eftir dofnandi eða stækkandi/minn
   * 128 = 1/2 úr takti (hálfnóta)
   * 256 = 1 taktur
 * **trail size** – hversu mörg trail-afrit eru teiknuð á eftir lifandi efninu.
+* **prefill trails** – fyllir trail-ferilinn strax þegar Clip byrjar, í stað þess að bíða eftir að echo byggist upp yfir fyrstu slögin.
 * **freeze trails** – breytir mjúklega flæðandi trails í röð frosinna skyndimynda. Gagnlegt til að búa til stutt, taktsamstillt trail-áhrif.
 * **brightness start / brightness end** – beitir birtu yfir trail frá nýjasta afritinu (**start**) til elsta afritsins (**end**). Yfirleitt er **brightness start** stillt á 100% og **brightness end** á 0%, þannig að bergmálin dofni út.
 * **scale start / scale end** – beitir skölun yfir trail frá nýjasta afritinu (start) til elsta afritsins (end). Fyrir trails sem minnka niður í ekki neitt skaltu stilla **scale start** á 100% og **scale end** á 0%.

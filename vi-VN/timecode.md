@@ -69,4 +69,4 @@ Trong giới touring, một quy ước phổ biến là mỗi bài hát bắt đ
 Liberation sẽ tự động chuyển sang timeline tương ứng dựa trên timecode, nên bạn không bao giờ cần đổi timeline thủ công trong lúc show đang chạy.
 {% endhint %}
 
-Lưu ý rằng khác với MIDI Clock và Ableton Link, SMPTE là một hệ thống thời gian _tuyệt đối_, được đo bằng giờ, phút, giây và frame. Hệ thống thời gian lõi của Liberation dựa trên phách và ô nhịp, vì vậy khi nhận timecode, nó sẽ dùng tempo đã thiết lập trong timeline. Bạn cần đảm bảo tempo này đồng bộ với phần nhạc cũng đang được đồng bộ theo timecode.
+Lưu ý rằng khác với MIDI Clock và Ableton Link, SMPTE là một hệ thống thời gian _tuyệt đối_, được đo bằng giờ, phút, giây và frame. Hệ thống thời gian lõi của Liberation dựa trên phách và ô nhịp, vì vậy khi nhận timecode, nó sẽ dùng tempo đã đặt trong timeline. Bạn cần đảm bảo tempo này đồng bộ với phần nhạc cũng đang được đồng bộ theo timecode.

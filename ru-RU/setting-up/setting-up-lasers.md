@@ -1,8 +1,8 @@
 ---
 description: >-
-  Лазеры могут быть опасны, поэтому важно соблюдать лучшие практики и правила
-  безопасности. Эта страница даёт полезный обзор и поможет безопасно пройти
-  процесс настройки лазеров.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

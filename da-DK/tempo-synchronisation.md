@@ -12,7 +12,7 @@ Hvis du har erfaring med musik- eller lyssoftware, vil processen være velkendt.
 
 ## Tempo-panel
 
-_Tempo_-panelet vises altid på skærmen og indeholder alle synkroniseringsindstillinger. Øverst ser du den aktuelle takt-/beat-tæller og en transportsektion med knapper til play/pause og rewind/fastforward.
+_Tempo_-panelet vises altid på skærmen og indeholder alle synkroniseringsindstillinger. Øverst ser du den aktuelle takt-/beat-tæller og en transportsektion med knapper til play/pause og rewind/fast-forward.
 
 Nedenunder ser du beatmarkøren: fire firkanter, der “pulserer” i takt med beatet. Denne _beat marker_ er en meget nyttig visualisering, som du hele tiden vil bruge som reference, når du arbejder med _Live_-temposystemet.
 
@@ -37,7 +37,7 @@ Indstil tempoet automatisk ved at klikke på _TAP_-knappen i takt med beatet. In
 {% hint style="info" %}
 Tap Tempo-systemet er intelligent nok til at registrere, hvis du har holdt en pause fra at tappe i et stykke tid, eller hvis du har misset et par beats. Hvis du begynder at tappe i dobbelt tempo, forstår det, at du vil fordoble tempoet. Det samme gælder, hvis du tapper i halvt tempo.
 
-Det er også intelligent nok til at finde ud af, hvis to personer tapper tempo på samme tid (fx én på tastaturet og én på APC40). Liberation udjævner de dobbelte taps.
+Det er også intelligent nok til at finde ud af, hvis to personer tapper tempo på samme tid (dvs. én på tastaturet og én på APC40). Liberation udjævner de dobbelte taps.
 {% endhint %}
 
 #### Tastaturkommandoer:
@@ -101,6 +101,12 @@ Liberations MIDI Clock-tempokilde reagerer også på **MIDI Machine Control (MMC
 {% endhint %}
 
 
+
+### Ableton Link
+
+For at synkronisere med Ableton Link skal du vælge _ABLETON LINK_ som tempokilde. Liberation tilslutter sig Link-sessionen på dit lokale netværk og følger det delte tempo og beat-fasen fra andre apps med Link-understøttelse.
+
+Ableton Link bruger ikke en MIDI-port, og det overfører ikke absolut sangposition. Brug kontrollerne til nulstilling af takt, hvis du har brug for, at Liberation starter takten på et bestemt tidspunkt i showet.
 
 ### Timeline
 

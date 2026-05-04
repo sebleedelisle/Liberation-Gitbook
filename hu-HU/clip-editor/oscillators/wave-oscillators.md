@@ -52,7 +52,7 @@ A _clamp_ fogalmát elég nehéz elmagyarázni, de képzeld el, hogy a hullámfo
 
 * **ease function** - a Sawtooth és Triangle hullámoknál ease function is elérhető, amely finoman módosítja az animációs görbét, és sokkal kifejezőbbé teheti az animációkat.
   * **LINEAR** - az alapértelmezett beállítás, nincs easing; lineárisan mozog a min és max érték között.
-  * **EASE OUT** - gyorsan indul, majd a vége felé lelassul. Nagyon jó fizikai hatások szimulálásához, például megállásig lassuló mozgáshoz.
+* **EASE OUT** - gyorsan indul, majd a vége felé lelassul. Nagyon jó fizikai hatások szimulálásához, például megállásig lassuló mozgáshoz.
   * **EASE IN** - lassan indul, majd fokozatosan gyorsul. Jól használható lendület felépülésének szimulálására.
   * **EASE IN/OUT** - a kettő kombinációja, nagyon természetes mozgást eredményez.
 

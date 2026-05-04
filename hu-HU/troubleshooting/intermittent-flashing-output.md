@@ -41,7 +41,7 @@ Ha ezek egyike sem segít, érdemes megfontolni a számítógép fejlesztését 
 
 Akkor valószínűleg hardverproblémáról van szó. Ez kívül esik a kézikönyv hatókörén, de a következőket megpróbálhatod:
 
-* Tiltsd le az SFS (Scan Fail Safety) rendszert. Egyes lézereknél van olyan funkció, amely letiltja a kimenetet, ha a szkennerek leállnak, vagyis erős statikus nyalábot hoznának létre. Ezek néha túl óvatosak / megbízhatatlanok lehetnek.
+* Kapcsold ki az SFS (Scan Fail Safety) rendszert. Egyes lézereknél van olyan funkció, amely letiltja a kimenetet, ha a szkennerek leállnak, vagyis erős statikus nyalábot hoznának létre. Ezek néha túl óvatosak / megbízhatatlanok lehetnek.
 
 {% hint style="danger" %}
 A scan fail safety rendszer letiltásakor rendkívül óvatosan járj el. Az erős statikus nyalábok égést okozhatnak! Legyen kéznél vészleállító gomb és tűzoltó készülék.

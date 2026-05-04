@@ -18,8 +18,8 @@ metaLinks:
 8. Effect 1-8 parametre ayarı
 9. Group düğmeleri
 10. Tüm Clips öğelerini durdur (Clips öğelerini fade ayarlarını kullanmadan hemen durdurmak için iki kez basın)
-11. Clip Deck kaydırma
-12. Clip / global parametreler
+11. Clip Deck Scroll
+12. Contextual Parameters panel kontrolleri
 13. Clip sayfası sol/sağ
 14. Zone sayfası sol/sağ
 15. Alt düğmesi (Clip seçimi için kullanılır)
@@ -35,3 +35,5 @@ metaLinks:
 25. Tempoyu küçük adımlarla + ve - ayarla
 26. Tempo kaydırma
 27. Ayak pedalı, Tap Tempo
+
+Device Control düğmeleri, ekrandaki Parameters panelinde gösterilen aynı bağlamsal parametreleri izler. Bir Clip seçiliyken Clip kaydırma, zone gecikmesi, genel döndürme ve genel ölçek ayarlarını kontrol ederler. Bir grup düğmesi basılı tutulursa ilk kontroller, o grubun fade in ve fade out sürelerine geçer.

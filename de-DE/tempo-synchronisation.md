@@ -102,6 +102,12 @@ Die Liberation-MIDI-Clock-Tempoquelle reagiert außerdem auf **MIDI Machine Cont
 
 
 
+### Ableton Link
+
+Um mit Ableton Link zu synchronisieren, wähle _ABLETON LINK_ als Tempoquelle. Liberation tritt der Link-Session in deinem lokalen Netzwerk bei und folgt dem gemeinsamen Tempo und der gemeinsamen Beat-Phase anderer Link-fähiger Apps.
+
+Ableton Link verwendet keinen MIDI-Port und überträgt keine absolute Songposition. Verwende die Steuerungen zum Zurücksetzen des Takts, wenn der Taktanfang in Liberation auf einen bestimmten Moment in der Show ausgerichtet sein soll.
+
 ### Timeline
 
 Jede Timeline hat ihr eigenes Tempo. Dieses kann ein fester Wert oder eine _Tempo Map_ sein. Mit der _Tempo Map_ kannst du das Tempo zu bestimmten Zeitpunkten innerhalb der Timeline anpassen.

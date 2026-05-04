@@ -16,5 +16,5 @@ Il _Parameter Control_ è un metodo per controllare varie impostazioni di un eff
 * **parameter number** - a ogni _parameter control_ può essere assegnato un numero, che viene riportato sui controlli al di fuori del clip. Puoi avere più parameter control con lo stesso numero: verranno regolati tutti contemporaneamente.
 
 {% hint style="warning" %}
-Attualmente, con l’APC40 è possibile controllare solo il parametro 1 di un effetto. Tutti i parametri negli effetti e nei clip sono disponibili nel menu del tasto destro. In futuro un numero maggiore di questi parametri sarà mappabile con controller MIDI.
+L’APC40 e i controller live supportati controllano per impostazione predefinita il parametro 1 di ogni slot effetto. Tutti i parametri negli effetti e nei Clip sono disponibili anche nel menu del tasto destro.
 {% endhint %}

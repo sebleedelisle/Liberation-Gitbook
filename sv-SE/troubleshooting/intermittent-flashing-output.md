@@ -41,7 +41,7 @@ Om inget av detta fungerar bör du överväga att uppgradera datorn.
 
 Då är det troligen ett maskinvaruproblem. Detta ligger utanför den här manualens omfattning, men du kan prova följande åtgärder:
 
-* Inaktivera SFS-systemet (Scan Fail Safety). Vissa lasrar har en funktion som inaktiverar output om skannrarna slutar röra sig, dvs. om de skapar en stark statisk stråle. De kan vara lite för försiktiga / opålitliga.
+* Inaktivera SFS-systemet (Scan Fail Safety). Vissa lasrar har en funktion som inaktiverar utmatningen om skannrarna slutar röra sig, dvs. om de skapar en stark statisk stråle. De kan vara lite för försiktiga / opålitliga.
 
 {% hint style="danger" %}
 Var extremt försiktig när du inaktiverar scan fail safety-systemet. Starka statiska strålar kan orsaka brännskador! Se till att du har en stoppknapp och en brandsläckare till hands.

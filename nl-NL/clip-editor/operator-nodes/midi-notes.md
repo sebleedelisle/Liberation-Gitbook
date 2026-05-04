@@ -13,14 +13,14 @@ Maakt effecten in “laserharp”-stijl, waarbij inkomende MIDI-noten stralen of
 
 Je kunt kiezen naar welke MIDI-interface Liberation luistert via **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – naar welk MIDI-kanaal wordt geluisterd (0 = alle kanalen, 1–16 = specifiek kanaal)
+* **MIDI channel** – naar welk MIDI-kanaal wordt geluisterd (0 = alle kanalen, 1–16 = specifiek kanaal)
 * **width** – de totale breedte waarover de noten worden verdeeld.
-* **midi note min / max** – de laagste en hoogste MIDI-nootwaarden in het bereik.
+* **MIDI note min / max** – de laagste en hoogste MIDI-nootwaarden in het bereik.
 * **ignore out of range notes** – filtert alle noten buiten het ingestelde bereik weg. Als dit is uitgeschakeld, worden noten buiten het bereik “vastgezet” op de dichtstbijzijnde beschikbare noot (hoge noten triggeren de bovenkant van het bereik, lage noten de onderkant).
 * **auto extend range** – maakt het bereik automatisch groter als er noten buiten het bereik worden gespeeld.
 
 {% hint style="info" %}
-Weet je niet zeker welk notenbereik je binnenkrijgt? Schakel **auto extend range** in, zet **midi note min** heel hoog en **midi note max** heel laag, en speel daarna je noten. Het systeem vangt ze allemaal op en vergroot het bereik voor je. Zodra je alles hebt, schakel je **auto extend range** weer uit om het vast te zetten.
+Weet je niet zeker welk notenbereik je binnenkrijgt? Schakel **auto extend range** in, zet **MIDI note min** heel hoog en **MIDI note max** heel laag, en speel daarna je noten. Het systeem vangt ze allemaal op en vergroot het bereik voor je. Zodra je alles hebt, schakel je **auto extend range** weer uit om het vast te zetten.
 {% endhint %}
 
 * **leave all notes visible** – maakt stralen of vormen voor alle noten in het bereik, of ze nu spelen of niet, voor een “laserharp”-effect.

@@ -13,14 +13,14 @@ Cria efeitos no estilo “harpa laser”, em que notas MIDI recebidas disparam f
 
 Você pode escolher qual interface MIDI o Liberation deve escutar em **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – qual canal MIDI escutar (0 = todos os canais, 1–16 = canal específico)
+* **MIDI channel** – qual canal MIDI escutar (0 = todos os canais, 1–16 = canal específico)
 * **width** – largura total ao longo da qual as notas se distribuem.
-* **midi note min / max** – os valores da nota MIDI mais baixa e mais alta no intervalo.
+* **MIDI note min / max** – os valores da nota MIDI mais baixa e mais alta no intervalo.
 * **ignore out of range notes** – filtra qualquer nota fora do intervalo definido. Se desativado, notas fora do intervalo são “limitadas” à nota disponível mais próxima (notas altas disparam o topo do intervalo, notas baixas disparam a base).
 * **auto extend range** – amplia automaticamente o intervalo se forem tocadas notas fora dele.
 
 {% hint style="info" %}
-Não tem certeza de qual intervalo de notas você está recebendo? Ative **auto extend range**, defina **midi note min** bem alto e **midi note max** bem baixo e então toque suas notas. O sistema vai capturar todas elas e expandir o intervalo para você. Depois que tiver tudo, basta desativar **auto extend range** para fixar o intervalo.
+Não tem certeza de qual intervalo de notas você está recebendo? Ative **auto extend range**, defina **MIDI note min** bem alto e **MIDI note max** bem baixo e então toque suas notas. O sistema vai capturar todas elas e expandir o intervalo para você. Depois que tiver tudo, basta desativar **auto extend range** para fixar o intervalo.
 {% endhint %}
 
 * **leave all notes visible** – cria feixes ou formas para todas as notas no intervalo, estejam elas tocando ou não, gerando um efeito de “harpa laser”.

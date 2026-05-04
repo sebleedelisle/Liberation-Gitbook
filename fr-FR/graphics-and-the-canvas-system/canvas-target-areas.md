@@ -17,7 +17,7 @@ Dans certains cas, vous pouvez aussi vouloir plusieurs Canvas target areas pour 
 
 ### Envoyer des clips vers les Canvas target areas
 
-Si vous regardez dans le Clip Deck, à côté des boutons de zones de faisceaux, vous verrez les boutons des Canvas target areas. Vous devrez peut-être faire défiler les boutons de sortie pour les voir : utilisez `Shift + Left / Right Arrow`, les boutons ZONE PAGE à l’écran, ou les boutons de l’APC40 (voir [Référence APC40](../reference/apc40-reference.md "mention")).
+Si vous regardez dans le Clip Deck, à côté des boutons de beam zone, vous verrez les boutons des Canvas target areas. Vous devrez peut-être faire défiler les boutons de sortie pour les voir : utilisez `Shift + Left / Right Arrow`, les boutons ZONE PAGE à l’écran, ou les boutons de l’APC40 (voir [Référence APC40](../reference/apc40-reference.md "mention")).
 
 Assignez des clips aux Canvas target areas en activant ces boutons exactement comme vous le feriez avec les boutons de zones de faisceaux.
 

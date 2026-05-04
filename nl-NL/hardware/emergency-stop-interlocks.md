@@ -9,7 +9,7 @@ metaLinks:
 
 Je lasers inschakelen kan leuk zijn, maar het is cruciaal dat je ze ook kunt _stoppen_! Laserhardware en -software zijn over het algemeen erg betrouwbaar, maar alles kan defect raken. En als dat zeldzame moment zich voordoet, ben je heel blij met die externe stopknop.
 
-<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Externe stopknop voor een Laser Cube. De belangrijkste hardware die je hebt.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/laser-setup-lasercube-stop" alt=""><figcaption><p>Remote stop button for a LaserCube. The most important hardware you own.</p></figcaption></figure>
 
 {% hint style="danger" %}
 Elektrisch gereedschap en zware apparatuur hebben stopknoppen die simpelweg de hoofdvoeding onderbreken, maar doe dit **nooit** bij laserapparatuur! De lasers hebben altijd even nodig om te stoppen met uitstralen, en een plotselinge stroomuitval kan ervoor zorgen dat de laserscanners hun uiterste posities raken. Daardoor kun je een sterke straal op onverwachte plekken krijgen!

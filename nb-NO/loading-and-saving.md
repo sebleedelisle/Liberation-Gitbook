@@ -23,7 +23,7 @@ Prosjektfilen lagrer nesten alt i det gjeldende oppsettet, inkludert:
 
 Den lagrer og laster for øyeblikket ikke:
 
-* Lyd- og MIDI-inngangsinnstillinger som brukes i MIDI notes node og Sound Input Oscillator (den _lagrer_ MIDI-innstillinger for sending/mottak, samt lydinngang for timecode)
+* Lyd- og MIDI-inngangsinnstillinger slik de brukes i MIDI notes node og Sound Input Oscillator (den _lagrer_ også MIDI-innstillinger for sending/mottak, samt lydinngang for timecode)
 * Grensesnittskalering
 * Medier for Canvas guidebilder
 * Lyd- og videomedier for tidslinjer
@@ -82,7 +82,7 @@ For å importere bare effektene fra et prosjekt velger du _**Effects->Import Eff
 
 ### Eksport av tidslinje
 
-Eksporter en tidslinjefil med én eller flere tidslinjer. Merk at Clip Deck alltid inkluderes i eksporterte tidslinjefiler (selv om du kan velge hvilke klipp du vil importere tilbake, se [Laste inn og lagre](loading-and-saving.md#timeline-import "mention") nedenfor)
+Eksporter en tidslinjefil med én eller flere tidslinjer. Merk at Clip Deck alltid inkluderes i eksporterte tidslinjefiler (selv om du kan velge hvilke Clips du vil importere tilbake, se [Laste inn og lagre](loading-and-saving.md#timeline-import "mention") nedenfor)
 
 Hvis du har mer enn én tidslinje i prosjektfilen, åpnes et panel der du kan velge hvilke tidslinjer du vil eksportere.
 

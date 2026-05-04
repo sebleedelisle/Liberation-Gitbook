@@ -31,4 +31,4 @@ Du kan også tilføje en canvas-zone til en laser direkte fra _OUTPUT_-visningen
 
 ### Højrekliksmenu
 
-Højreklik på zonen, så vises der valgmuligheder til at slette denne canvas-zone, flytte den bagest og låse den.
+Højreklik på zonen, så vises der valgmuligheder til at slette denne canvas zone, flytte den bagest og låse den.

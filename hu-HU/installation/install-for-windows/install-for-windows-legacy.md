@@ -23,7 +23,7 @@ Kattints a _Download latest for Windows_ gombra (a verziószámok változhatnak)
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Ez megnyitja a letöltések mappáját. Keresd meg a letöltött fájlt (általában felül található), kattints rá jobb gombbal, majd válaszd az "Extract all" lehetőséget.
+Ez megnyitja a Downloads mappát. Keresd meg a letöltött fájlt (általában felül található), kattints rá jobb gombbal, majd válaszd az "Extract all" lehetőséget.
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Miután a Windows befejezte a kicsomagolást, megjeleníti a telepítőfájlt. A
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-A Liberationnek engedélyre van szüksége a fájlok és a hálózat eléréséhez, ezért a Windows valószínűleg több engedélykérő ablakot is megjelenít. Fogadj el mindent, különben a Liberation nem biztos, hogy megfelelően fog működni.
+A Liberationnek engedélyre van szüksége a fájlok és a hálózat eléréséhez, ezért a Windows valószínűleg megjelenít néhány engedélykérő ablakot. Fogadj el mindent, különben a Liberation nem biztos, hogy megfelelően fog működni.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -13,14 +13,14 @@ Vytváří efekty ve stylu „laserové harfy“, kde příchozí MIDI noty spou
 
 MIDI rozhraní, kterému má Liberation naslouchat, vyberete v **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – MIDI kanál, kterému se má naslouchat (0 = všechny kanály, 1–16 = konkrétní kanál)
+* **MIDI channel** – MIDI kanál, kterému se má naslouchat (0 = všechny kanály, 1–16 = konkrétní kanál)
 * **width** – celková šířka, přes kterou se noty rozprostřou.
-* **midi note min / max** – nejnižší a nejvyšší hodnota MIDI noty v rozsahu.
+* **MIDI note min / max** – nejnižší a nejvyšší hodnota MIDI noty v rozsahu.
 * **ignore out of range notes** – odfiltruje všechny noty mimo nastavený rozsah. Pokud je vypnuto, noty mimo rozsah se „omezí“ na nejbližší dostupnou notu (vysoké noty spustí horní část rozsahu, nízké noty spodní část).
 * **auto extend range** – automaticky rozšíří rozsah, pokud zahrajete noty mimo něj.
 
 {% hint style="info" %}
-Nejste si jistí, jaký rozsah not dostáváte? Zapněte **auto extend range**, nastavte **midi note min** opravdu vysoko a **midi note max** opravdu nízko a potom své noty zahrajte. Systém je všechny zachytí a rozsah vám rozšíří. Jakmile máte vše nastavené, stačí **auto extend range** vypnout a rozsah tím uzamknout.
+Nejste si jistí, jaký rozsah not dostáváte? Zapněte **auto extend range**, nastavte **MIDI note min** opravdu vysoko a **MIDI note max** opravdu nízko a potom své noty zahrajte. Systém je všechny zachytí a rozsah vám rozšíří. Jakmile máte vše nastavené, stačí **auto extend range** vypnout a rozsah tím uzamknout.
 {% endhint %}
 
 * **leave all notes visible** – vytvoří paprsky nebo tvary pro všechny noty v rozsahu bez ohledu na to, jestli právě hrají. Tím vznikne efekt „laserové harfy“.

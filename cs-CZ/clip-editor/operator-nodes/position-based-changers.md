@@ -9,7 +9,7 @@ metaLinks:
 
 Tato skupina nodes upravuje obsah podle pozice. Ve výchozím nastavení se efekt aplikuje podél vodorovné osy zleva doprava, ale osu můžete natočit na libovolný úhel. Každý node obsahuje také režim _radial_, ve kterém je efekt řízen úhlem každého bodu vůči středu.
 
-* **Colour Changer by Position** – posouvá barvy podél zvolené osy nebo kolem radiálního úhlu.\
+* **Colour Changer by Position** – aplikuje gradient podél zvolené osy nebo kolem radiálního úhlu.\
   \&#xNAN;_Příklad: Vytvořte duhový gradient, který přechází přes čáru, nebo použijte režim radial na kruhu a vytvořte efekt barevného kola._
 * **Wave Shift by Position** – aplikuje sinusové zkreslení a posouvá obsah svisle, případně kolmo ke zvolené ose.\
   \&#xNAN;_Příklad: Rozvlňte čáru jako vodní hladinu, nebo použijte režim radial a nechte kruh pulzovat směrem od středu._
@@ -29,10 +29,11 @@ Tento node aplikuje barevné změny na obsah podle pozice. Ve výchozím nastave
 * **linear angle** – natáčí osu efektu. 0° = vodorovně.
 * **radial** – přepne do režimu radial, ve kterém se barvy aplikují podle úhlu od středu.
 * **radial smooth loop** – automaticky upraví wavelength tak, aby se rovnoměrně vešla do 100 % kruhu, a zabrání tak viditelnému švu v místě, kde se cyklus uzavírá.
+* **legacy mode** – přepne zpět na starší slidery HSB pro začátek a konec. Nechte vypnuto, pokud chcete používat novější editor gradientu.
 
 **Režimy barev**
 
-Určují, které části barevných úprav se na obsah aplikují. Viz také: [Nastavení barev a HSB](../fundamentals/colour-settings-and-hsb.md).
+Určují, které části barevných úprav se na obsah aplikují. Viz také: [Nastavení barev a HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – odstín se nemění.
@@ -46,17 +47,32 @@ Určují, které části barevných úprav se na obsah aplikují. Viz také: [Na
   * _FIXED_ – jas se nastaví na zadanou hodnotu.
   * _MULTIPLY_ – jas se násobí zadanou hodnotou. Tím se zachová dynamika (např. blikající prvky stále blikají, ale v omezeném rozsahu jasu).
 
-**Počáteční a koncové hodnoty**
+**Editor gradientu**
 
-Tyto slidery určují barevný rozsah aplikovaný podél zvolené osy nebo radiálního průběhu.
+Používá stejný editor gradientu jako [Colour Changer](colour-changer.md "mention"), ale mapuje gradient na obsah podle pozice.
 
-* **start hue** – odstín na začátku gradientu.
-* **end hue** – odstín na konci gradientu.
-* **start saturation** – sytost na začátku.
-* **end saturation** – sytost na konci.
-* **start brightness** – jas na začátku.
-* **end brightness** – jas na konci.
+* Kliknutím na lištu gradientu přidáte barevný bod.
+* Kliknutím levým tlačítkem na bod jej vyberete; tažením do stran jej přesunete.
+* Vybraný bod odstraníte tak, že jej přetáhnete dolů mimo lištu, nebo stisknete Delete/Backspace. Gradient vždy zachovává alespoň dva body.
+* Kliknutím pravým tlačítkem na bod jej upravíte pomocí výběru barvy.
+* Pomocí **Position**, **Hue**, **Saturation** a **Brightness** můžete vybraný bod upravit přesně.
+* **interpolation** určuje, jak se barvy mezi body prolínají:
+* **HSB** – prolíná odstín, sytost a jas. Hodí se nejlépe pro plynulý duhový pohyb po barevném kruhu.
+* **RGB** – prolíná přímo hodnoty červené, zelené a modré. Často působí spíše jako barevný přechod na obrazovce nebo světelném pultu.
+* **NONE** – přeskakuje z jednoho bodu na další bez prolnutí.
+* **hue direction** je dostupné při interpolaci HSB:
+* **AUTO** – zvolí nejkratší cestu po kruhu odstínů.
+* **FORWARDS** – vždy postupuje vpřed přes hodnoty odstínu.
+* **BACKWARDS** – vždy postupuje zpět přes hodnoty odstínu.
 * **blend** – míchá barevnou změnu s původními barvami. Při 100 % efekt plně nahradí původní barvy.
+
+**Starší počáteční a koncové hodnoty**
+
+Pokud je **legacy mode** zapnutý, editor gradientu se nahradí staršími ovládacími prvky:
+
+* **start hue / end hue** – odstín na začátku a konci rozsahu.
+* **start saturation / end saturation** – sytost na začátku a konci rozsahu.
+* **start brightness / end brightness** – jas na začátku a konci rozsahu.
 
 **Příklad 1: Posuvný duhový gradient**
 
@@ -64,7 +80,7 @@ Výchozí nastavení:
 
 1. Nechte node v režimu **Linear** (úhel 0° = vodorovně).
 2. Nechte **wavelength** na 100 % (pokryje celou šířku a měla by to být výchozí hodnota).
-3. Nechte počáteční a koncové hodnoty ve výchozím stavu.
+3. Ponechte výchozí gradient.
 4. Zapněte **repeat**.
 5. Přidejte **Sawtooth Oscillator** k nastavení **offset**, který přechází od 0 % do 100 %.
 
@@ -77,13 +93,12 @@ Výchozí nastavení:
 1. Nechte node v režimu **Linear** (úhel 0° = vodorovně).
 2. Nechte **wavelength** na 100 % (pokryje celou šířku a měla by to být výchozí hodnota).
 3. Vypněte **repeat**.
-4. Nastavte **start brightness** na 0 (černá).
-5. Nastavte **end brightness** na 100 (bílá).
-6. Nastavte **start saturation** a **end saturation** na 0 (převede na stupně šedi).
-7. **hue mode** OFF
-8. **saturation mode** FIXED
-9. **brightness mode** FIXED
-10. Zapněte **pingpong**.
+4. Nastavte první bod gradientu na černou.
+5. Nastavte poslední bod gradientu na bílou.
+6. Nastavte **hue mode** na OFF.
+7. Pokud chcete výsledek vynutit do stupňů šedi, nastavte **saturation mode** na FIXED.
+8. Nastavte **brightness mode** na FIXED.
+9. Zapněte **pingpong**.
 
 _Výsledek: gradient přechází přes šířku z černé do bílé a potom zpět do černé._\
 Pokud chcete, aby si obsah zachoval svůj odstín a sytost, vypněte Saturation mode. \\
@@ -127,5 +142,6 @@ Tento node zkresluje obsah pomocí šumového pole podobného turbulenci a posou
 * **Depth Offset** – posouvá se 3D šumovým polem a vytváří změny v čase. Je obzvlášť účinné při animaci pomocí Oscillator Node.
 * **Depth Detail** – určuje detailnost změn v hloubkové dimenzi.
 * **Absolute** – použije absolutní hodnotu šumu a překlopí záporné hodnoty do kladných, takže vzniká pouze jednostranný posun.
+* **Angle** – v lineárním režimu otáčí osu šumu. 0° = vodorovně.
 * **Radial** – přepne z lineárního režimu do režimu radial, takže posun vychází z úhlu od středu.
 * **Radial Smooth Loop** – upraví wavelength tak, aby se rovnoměrně vešla do 100 % kruhu, a zabrání viditelným švům v režimu radial.

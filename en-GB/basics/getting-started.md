@@ -87,7 +87,7 @@ A zone is a space within a laser's output that you can direct laser content into
 You can select the laser you want to edit using either :
 
 * the numbered buttons in the bar at the top
-* pressing the number key for the laser you want _(1-9_ keys\_)\_
+* pressing the number key for the laser you want (_1-9 keys_)
 * the `Tab` key to cycle through from one to the next
 
 Add a new laser to the setup by pressing the _+_ button. (There is also an _ADD LASER_ button in the _Laser Overview_ panel)
@@ -259,7 +259,7 @@ Almost all laser displays have some kind of musical soundtrack, so the timing sy
 
 <figure><img src="../.gitbook/assets/qs-tempo-window.png" alt="" width="364"><figcaption></figcaption></figure>
 
-There are multiple synchronisation options, including MIDI clock and Ableton Link. If you know the tempo of the music you can manually adjust it using the on-screen slider or the APC40 Tempo knob, but you can also keep in time with the music using the _Tap Tempo_ system\_.\_
+There are multiple synchronisation options, including MIDI clock and Ableton Link. If you know the tempo of the music you can manually adjust it using the on-screen slider or the APC40 Tempo knob, but you can also keep in time with the music using the _Tap Tempo_ system.
 
 #### Tap Tempo
 

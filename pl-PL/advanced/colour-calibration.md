@@ -17,23 +17,25 @@ Diody laserowe zmieniają swoje zachowanie w miarę rozgrzewania. Przed kalibrac
 
 #### Jak działa test kalibracji
 
-Do kalibracji użyj wzorców testowych (zobacz [wzorce testowe](../output-view/test-patterns.md))
+Do kalibracji użyj wzorców testowych (zobacz [wzorce testowe](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green
 * **7** – Blue
 * **8** – White
 
-Każdy z nich wyświetla cztery poruszające się linie:
+Każdy z nich wyświetla cztery poruszające się linie. Na jasność w systemie laserowym wpływa nie tylko poziom mocy, ale też czas, przez jaki wiązka pozostaje w jednym miejscu. Gdy skanery poruszają się szybciej, wiązka spędza mniej czasu na każdym punkcie i wydaje się ciemniejsza.
+
+Aby to uwzględnić, wzorce testowe skalują jednocześnie jasność i prędkość:
 
 * **Górna linia** – 100% jasności przy pełnej prędkości
 * **Druga linia** – 75% jasności przy 75% prędkości
 * **Trzecia linia** – 50% jasności przy 50% prędkości
 * **Czwarta linia** – 25% jasności przy 25% prędkości
 
-Ponieważ jednocześnie skalowane są jasność _i prędkość_, wszystkie linie powinny wyglądać na tak samo jasne. Jeśli któraś wygląda jaśniej lub ciemniej, reguluj odpowiedni suwak, aż linie będą do siebie pasować.
+Ponieważ jednocześnie skalowane są jasność _i prędkość_, wszystkie linie powinny wyglądać na tak samo jasne. Jeśli jedna z linii wygląda jaśniej lub ciemniej, reguluj odpowiedni suwak, aż linie będą do siebie pasować.
 
-Każdy wzorzec testowy ma też piątą linię przy **0% jasności**, która nie powinna być widoczna. Służy ona do korekcji laserów, które nie emitują światła przy bardzo niskich poziomach. Jeśli laser pozostaje niewidoczny przy niskiej jasności, stopniowo zwiększaj **0% setting**, aż linia stanie się ledwo widoczna, a następnie lekko cofnij ustawienie, aż ponownie zniknie. Celem jest znalezienie progu, przy którym laser zaczyna świecić, i pozostanie tuż poniżej niego — tak aby przejścia fade zaczynały się naturalnie, bez odcinania dolnego zakresu.
+Każdy wzorzec testowy ma też piątą linię przy **0% jasności**, która nie powinna być widoczna. Służy ona do korekcji laserów, które nie emitują światła przy bardzo niskich poziomach. Jeśli laser pozostaje niewidoczny przy niskiej jasności, stopniowo zwiększaj **0% setting**, aż linia stanie się ledwo widoczna, a następnie lekko cofnij ustawienie, aż ponownie zniknie. Celem jest znalezienie progu, przy którym laser zaczyna świecić, i pozostanie tuż poniżej niego — tak aby wygaszanie zaczynało się naturalnie, bez odcinania dolnego zakresu.
 
 #### Korzystanie z panelu Colour Calibration
 

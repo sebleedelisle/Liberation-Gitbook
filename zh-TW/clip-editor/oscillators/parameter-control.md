@@ -16,5 +16,5 @@ _Parameter Control_ 是一種方法，可從 Clip Editor 外部控制 effect 或
 * **parameter number** - 每個 _Parameter Control_ 都可以指定一個編號，這個編號會反映在 Clip 外部的控制項上。你可以讓多個 Parameter Control 使用相同編號，它們會同時被調整。
 
 {% hint style="warning" %}
-目前只有 effect 的 parameter 1 可透過 APC40 控制。effect 與 Clip 內的所有參數都可在右鍵選單中使用。未來將會有更多這類參數可對應到 MIDI 控制器。
+APC40 與支援的 live controller 預設會控制每個 effect slot 的 parameter 1。effect 與 Clip 內的所有參數也都可在右鍵選單中使用。
 {% endhint %}

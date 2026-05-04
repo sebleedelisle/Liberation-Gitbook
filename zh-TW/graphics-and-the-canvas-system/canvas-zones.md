@@ -23,7 +23,7 @@ metaLinks:
 警告：如果雷射處於 armed 狀態，你可能會突然開始從預設 canvas zone 投射內容。建議先將雷射 disarm，再將 canvas zones 指派給它。
 {% endhint %}
 
-如果你現在前往該雷射的 _OUTPUT_ view，就會在其中看到這個 canvas zone；現在可以像編輯任何 beam zone 一樣編輯它。請參閱 [Zones](../output-view/zones.md)。
+如果你現在前往該雷射的 _OUTPUT_ view，就會在其中看到這個 canvas zone；現在可以像編輯任何 beam zone 一樣編輯它。請參閱 [Zones](../output-view/zones.md "mention")。
 
 {% hint style="info" %}
 你也可以直接從 _OUTPUT_ view 將 canvas zone 加入雷射：按一下左側工具列中的 _Add existing canvas zone_ 按鈕。

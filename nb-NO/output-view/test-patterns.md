@@ -8,7 +8,7 @@ metaLinks:
 
 Når du redigerer og justerer sonen din, er det nyttig å sende ut et testmønster. Du kan slå på et testmønster for alle aktiverte soner med av/på-knappen i ikonlinjen øverst, og velge testmønster med skyveknappen til høyre for den.
 
-Hvis du bare vil ha et testmønster på laseren du sonerer akkurat nå, bruker du av/på-knappen på verktøylinjen til venstre i _Output_-visningen. Klikk/dra tallet under den for å velge testmønster.
+Hvis du bare vil ha et testmønster på laseren du sonerer akkurat nå, bruker du av/på-knappen på verktøylinjen til venstre i _Output_-visningen. Klikk og dra tallet under den for å velge testmønster.
 
 ### Liste over testmønstre
 

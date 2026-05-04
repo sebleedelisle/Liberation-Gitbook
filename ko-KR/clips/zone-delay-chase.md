@@ -8,13 +8,13 @@ metaLinks:
 
 레이저가 많을수록 더 재미있다는 데는 모두 동의하겠지만, 모든 레이저가 정확히 같은 동작만 한다면 창의적인 가능성을 놓치게 됩니다.
 
-Zone delay 시스템은 존마다 변화를 주는 간단하면서도 효과적인 방법이며, 멀티 레이저 설정을 최대한 활용할 수 있게 해줍니다. 더 전통적인 chase 효과를 만드는 데도 사용할 수 있습니다.
+Zone delay 시스템은 zone마다 변화를 주는 간단하면서도 효과적인 방법이며, 멀티 레이저 설정을 최대한 활용할 수 있게 해줍니다. 더 전통적인 chase 효과를 만드는 데도 사용할 수 있습니다.
 
 #### 작동 방식
 
 _Zone delay_는 각 존에서 클립의 타이밍에 지연을 추가하여, 존 전체에 걸쳐 쓸려 지나가는 듯한 효과를 만듭니다.
 
-이미 실행 중인 클립에 zone delay를 적용하면 매우 효과적입니다. APC40의 관련 컨트롤을 사용해 레벨과 패턴을 조정할 수 있습니다. ([APC40 레퍼런스](../reference/apc40-reference.md) 참고). 또는 _Clip Settings_ 패널을 사용할 수도 있습니다.
+이미 실행 중인 클립에 zone delay를 적용하면 매우 효과적입니다. APC40의 관련 컨트롤을 사용해 레벨과 패턴을 조정할 수 있습니다. ([APC40 레퍼런스](../reference/apc40-reference.md "mention") 참고). 또는 _Clip Settings_ 패널을 사용할 수도 있습니다.
 
 Zone delay 설정:
 
@@ -39,7 +39,7 @@ Zone delay 설정:
 Zone delay는 활성화된 모든 효과에도 적용됩니다. 예를 들어 flashing 효과는 클립 자체의 애니메이션뿐 아니라 존 전체에 걸쳐서도 지연됩니다.
 {% endhint %}
 
-클립에 어떤 형태의 _Zone delay_라도 적용되어 있으면, 클립 오른쪽 위에 점 세 개 아이콘이 표시됩니다. 이 점들은 해당 클립의 _Zone delay_ 스타일을 보여주도록 애니메이션됩니다. 자세한 내용은 [클립 버튼의 작은 아이콘은 무엇인가요?](what-are-the-small-icons-on-the-clip-buttons.md)를 참고하세요.
+클립에 어떤 형태의 _Zone delay_라도 적용되어 있으면, 클립 오른쪽 위에 점 세 개 아이콘이 표시됩니다. 이 점들은 해당 클립의 _Zone delay_ 스타일을 보여주도록 애니메이션됩니다. 자세한 내용은 [클립 버튼의 작은 아이콘은 무엇인가요?](what-are-the-small-icons-on-the-clip-buttons.md "mention")를 참고하세요.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>클립에 zone delay가 적용되어 있으며 해당 모드를 나타내는 점 세 개 기호</p></figcaption></figure>
 

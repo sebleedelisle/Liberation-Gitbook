@@ -14,7 +14,7 @@ Liberation 會持續將狀態儲存到磁碟，因此即使遇到停電或系統
 
 Project 檔案會儲存目前設定中的幾乎所有內容，包括：
 
-* 下方 [Laser Settings 匯入 / 匯出](loading-and-saving.md#laser-settings-import-export)所列的所有內容
+* 下方 [Laser Settings 匯入 / 匯出](loading-and-saving.md#laser-settings-import-export "mention")所列的所有內容
 * Clips、效果和群組設定
 * 你的所有時間軸（不包含音訊和影片媒體）
 * Art-Net 設定
@@ -30,7 +30,7 @@ Project 檔案會儲存目前設定中的幾乎所有內容，包括：
 * Text node 使用的字型
 
 {% hint style="danger" %}
-時間軸中的音訊和影片檔不會隨 Project 檔案一起儲存，因此如果你要轉移到另一台電腦，請務必另外儲存這些檔案。請參閱[關於時間軸媒體檔案的重要注意事項](loading-and-saving.md#important-note-about-timeline-media-files)
+時間軸中的音訊和影片檔不會隨 Project 檔案一起儲存，因此如果你要轉移到另一台電腦，請務必另外儲存這些檔案。請參閱[關於時間軸媒體檔案的重要注意事項](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### Laser Settings 匯入 / 匯出
@@ -67,7 +67,7 @@ Project 檔案會儲存目前設定中的幾乎所有內容，包括：
 目前已選取的任何 Clips 都會匯出到檔案中。群組設定和效果不會儲存，只會儲存 Clips。請注意，目前正在執行的 active Clips 不會匯出，除非它們同時也被選取。
 
 {% hint style="info" %}
-按住 Option/Alt - Shift - 點擊 Clips 可選取它們（或使用套索）。你可以從 Clips 周圍的粗白色外框判斷哪些 Clips 已被選取。請參閱[啟動與停止 Clips](clips/starting-stopping-clips.md)
+按住 Option/Alt - Shift - 點擊 Clips 可選取它們（或使用套索）。你可以從 Clips 周圍的粗白色外框判斷哪些 Clips 已被選取。請參閱[啟動與停止 Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### 效果匯入 / 匯出
@@ -82,12 +82,12 @@ Project 檔案會儲存目前設定中的幾乎所有內容，包括：
 
 ### 時間軸匯出
 
-匯出包含一個或多個時間軸的時間軸檔案。請注意，匯出的時間軸檔案一定會包含 clipdeck（不過你可以選擇要匯回哪些 Clips，請參閱下方[時間軸匯入](loading-and-saving.md#timeline-import)）
+匯出包含一個或多個時間軸的時間軸檔案。請注意，匯出的時間軸檔案一定會包含 Clip Deck（不過你可以選擇要匯回哪些 Clips，請參閱下方[時間軸匯入](loading-and-saving.md#timeline-import "mention")）
 
 如果你的 Project 檔案中有多個時間軸，會開啟一個面板，讓你選擇要匯出的時間軸。
 
 {% hint style="danger" %}
-時間軸中的音訊和影片檔不會隨時間軸檔案一起儲存，因此如果你要將內容轉移到另一台電腦，請務必另外儲存這些檔案。請參閱[關於時間軸媒體檔案的重要注意事項](loading-and-saving.md#important-note-about-timeline-media-files)
+時間軸中的音訊和影片檔不會隨時間軸檔案一起儲存，因此如果你要將內容轉移到另一台電腦，請務必另外儲存這些檔案。請參閱[關於時間軸媒體檔案的重要注意事項](loading-and-saving.md#important-note-about-timeline-media-files "mention")
 {% endhint %}
 
 ### 時間軸匯入

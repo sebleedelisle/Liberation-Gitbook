@@ -13,14 +13,14 @@ metaLinks:
 
 Azt, hogy a Liberation melyik MIDI-interfészre figyeljen, itt választhatod ki: **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – melyik MIDI-csatornára figyeljen (0 = összes csatorna, 1–16 = adott csatorna)
+* **MIDI channel** – melyik MIDI-csatornára figyeljen (0 = összes csatorna, 1–16 = adott csatorna)
 * **width** – a hangok teljes szélessége, amelyen belül eloszlanak.
-* **midi note min / max** – a tartomány legalacsonyabb és legmagasabb MIDI-hangértéke.
+* **MIDI note min / max** – a tartomány legalacsonyabb és legmagasabb MIDI-hangértéke.
 * **ignore out of range notes** – kiszűri a beállított tartományon kívüli hangokat. Ha ki van kapcsolva, a tartományon kívüli hangokat a legközelebbi elérhető hangra „szorítja” (a magas hangok a tartomány tetejét, az alacsony hangok az alját indítják).
 * **auto extend range** – automatikusan bővíti a tartományt, ha azon kívüli hangokat játszol le.
 
 {% hint style="info" %}
-Nem tudod, milyen hangtartomány érkezik be? Kapcsold be az **auto extend range** beállítást, állítsd a **midi note min** értékét nagyon magasra, a **midi note max** értékét pedig nagyon alacsonyra, majd játszd végig a hangokat. A rendszer mindet felismeri, és kibővíti neked a tartományt. Ha minden megvan, egyszerűen kapcsold ki az **auto extend range** beállítást a rögzítéshez.
+Nem tudod, milyen hangtartomány érkezik be? Kapcsold be az **auto extend range** beállítást, állítsd a **MIDI note min** értékét nagyon magasra, a **MIDI note max** értékét pedig nagyon alacsonyra, majd játszd végig a hangokat. A rendszer mindet felismeri, és kibővíti neked a tartományt. Ha minden megvan, egyszerűen kapcsold ki az **auto extend range** beállítást a rögzítéshez.
 {% endhint %}
 
 * **leave all notes visible** – a tartomány összes hangjához létrehozza a nyalábokat vagy alakzatokat, függetlenül attól, hogy éppen szólnak-e; így „lézerhárfa” hatást kapsz.

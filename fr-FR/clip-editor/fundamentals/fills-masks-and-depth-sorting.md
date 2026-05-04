@@ -25,4 +25,4 @@ Mais cela fonctionne très bien et donne l’illusion d’une forme remplie de n
 
 ### Tri en profondeur
 
-Comme certaines formes peuvent _recouvrir_ d’autres formes, Liberation doit les trier selon leur profondeur. Par défaut, les éléments sont triés en profondeur selon leur position z. S’ils se trouvent à la même position z, ils sont triés selon leur position de calque, que vous pouvez modifier avec les boutons _MOVE TO FRONT_ et _MOVE TO BACK_ dans chaque creator.
+Comme certaines formes peuvent _recouvrir_ d’autres formes, Liberation doit les trier selon leur profondeur. Par défaut, les éléments sont triés en profondeur selon leur position z. S’ils se trouvent à la même position z, ils sont triés selon leur position de calque, que vous pouvez modifier avec les boutons _MOVE TO FRONT_ et _MOVE TO BACK_ dans chaque Creator.

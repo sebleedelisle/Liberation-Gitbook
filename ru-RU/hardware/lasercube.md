@@ -20,7 +20,7 @@ metaLinks:
 
 ### USB LaserCube
 
-Подключите LaserCube к компьютеру кабелем micro USB, затем найдите его в панели _Controller Assignment_ (см. [Назначение контроллеров](../setting-up/controller-assignment.md)). Если он не появился автоматически, нажмите кнопку _REFRESH_.
+Подключите LaserCube к компьютеру кабелем micro USB, затем найдите его в панели _Controller Assignment_ (см. [Назначение контроллеров](../setting-up/controller-assignment.md "mention")). Если он не появился автоматически, нажмите кнопку _REFRESH_.
 
 ### Сетевой LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ metaLinks:
 
 Подключите LaserCube к проводной сети.
 
-Переведите LaserCube в режим "LAN Client" и убедитесь, что в вашей сети есть маршрутизатор. LaserCube получит IP-адрес от маршрутизатора и после этого должен появиться в панели _Controller Assignment_ (см. [Назначение контроллеров](../setting-up/controller-assignment.md)).
+Переведите LaserCube в режим "LAN Client" и убедитесь, что в вашей сети есть маршрутизатор. LaserCube получит IP-адрес от маршрутизатора и после этого должен появиться в панели _Controller Assignment_ (см. [Назначение контроллеров](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Можно настроить сеть без маршрутизатора и назначить всем устройствам фиксированные IP-адреса; такой подход очень распространён в event-индустрии. Лично я предпочитаю добавлять в сеть маршрутизатор и рекомендую этот вариант всем, у кого меньше опыта в настройке сетей.

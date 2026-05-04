@@ -9,7 +9,7 @@ metaLinks:
 
 ### Autoriser Liberation
 
-Lorsque vous ouvrez Liberation pour la première fois, il s’exécute en _mode démo_ et le _About panel_ s’affiche :
+Lorsque vous ouvrez Liberation pour la première fois, il s’exécute en _mode gratuit_ et le _About panel_ s’affiche :
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 

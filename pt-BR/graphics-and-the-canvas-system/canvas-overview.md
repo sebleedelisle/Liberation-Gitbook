@@ -38,7 +38,7 @@ AVISO: se o laser estiver armado, você pode começar a projetar conteúdo de re
 {% endhint %}
 
 {% hint style="info" %}
-Você também pode atribuir uma zona do Canvas a um laser clicando no botão _add canvas zone_ na visualização _OUTPUT_. Consulte [Zonas](../output-view/zones.md).
+Você também pode atribuir uma zona do Canvas a um laser clicando no botão _add canvas zone_ na visualização _OUTPUT_. Consulte [Zonas](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Imagens-guia
@@ -55,7 +55,7 @@ Para mapeamento arquitetônico, achei útil produzir um visual "desdobrado" do p
 
 ### Canvas no 3D visualiser
 
-Provavelmente seria trabalhoso (para dizer o mínimo) recriar seu sistema complicado de projeção com vários lasers no 3D visualiser! Então, em vez disso, você tem a opção de posicionar seu Canvas dentro do espaço 3D. Ative a caixa de seleção _Show canvas_ no painel _3D visualiser settings_. (Qualquer imagem-guia que você tenha no Canvas também aparecerá no visualiser.)
+Provavelmente seria trabalhoso (para dizer o mínimo) recriar seu sistema complicado de projeção com vários lasers no visualizador 3D! Então, em vez disso, você tem a opção de posicionar seu Canvas dentro do espaço 3D. Ative a caixa de seleção _Show canvas_ no painel _3D visualiser settings_. (Qualquer imagem-guia que você tenha no Canvas também aparecerá no visualizador.)
 
 {% hint style="info" %}
 Observe que o visualiser ainda mostrará as projeções do Canvas como efeitos atmosféricos vindos dos lasers. Você pode simplesmente movê-las para fora da visualização ou, se quiser caprichar, alinhá-las com o Canvas!

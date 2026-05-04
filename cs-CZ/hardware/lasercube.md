@@ -20,7 +20,7 @@ První LaserCube se ovládaly přes USB, ale současné modely mají vestavěný
 
 ### USB LaserCube
 
-Připojte LaserCube k počítači pomocí micro USB kabelu a potom jej vyhledejte v panelu _Controller Assignment_ (viz [Controller Assignment](../setting-up/controller-assignment.md)). Pokud se nezobrazí automaticky, klikněte na tlačítko _REFRESH_.
+Připojte LaserCube k počítači pomocí micro USB kabelu a potom jej vyhledejte v panelu _Controller Assignment_ (viz [Controller Assignment](../setting-up/controller-assignment.md "mention")). Pokud se nezobrazí automaticky, klikněte na tlačítko _REFRESH_.
 
 ### Síťový LaserCube „Wifi“
 
@@ -30,7 +30,7 @@ I když jsou jednotky „Wifi“ navržené pro provoz přes bezdrátovou síť,
 
 Připojte LaserCube ke své kabelové síti.
 
-Přepněte LaserCube do režimu „LAN Client“ a ujistěte se, že je v síti router. LaserCube získá IP adresu z routeru a poté by se měl zobrazit v panelu _Controller Assignment_ (viz [Controller Assignment](../setting-up/controller-assignment.md)).
+Přepněte LaserCube do režimu „LAN Client“ a ujistěte se, že je v síti router. LaserCube získá IP adresu z routeru a poté by se měl zobrazit v panelu _Controller Assignment_ (viz [Controller Assignment](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Je možné nastavit síť bez routeru a přiřadit všem zařízením pevné IP adresy. V eventovém průmyslu je to velmi běžné. Osobně ale dávám přednost přidání routeru do sítě a tuto možnost doporučuji každému, kdo nemá se sítěmi tolik zkušeností.

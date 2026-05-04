@@ -13,14 +13,14 @@ Crea effetti in stile “arpa laser”, in cui le note MIDI in ingresso attivano
 
 Puoi scegliere l’interfaccia MIDI che Liberation deve ascoltare in **Liberation → Settings** (`Cmd / Ctrl + ,`)
 
-* **midi channel** – il canale MIDI da ascoltare (0 = tutti i canali, 1–16 = canale specifico)
+* **MIDI channel** – il canale MIDI da ascoltare (0 = tutti i canali, 1–16 = canale specifico)
 * **width** – la larghezza totale su cui vengono distribuite le note.
-* **midi note min / max** – i valori MIDI della nota più bassa e più alta dell’intervallo.
+* **MIDI note min / max** – i valori MIDI della nota più bassa e più alta dell’intervallo.
 * **ignore out of range notes** – filtra tutte le note fuori dall’intervallo impostato. Se disattivato, le note fuori intervallo vengono "bloccate" sulla nota disponibile più vicina (le note alte attivano la parte superiore dell’intervallo, le note basse quella inferiore).
 * **auto extend range** – amplia automaticamente l’intervallo se vengono suonate note al di fuori di esso.
 
 {% hint style="info" %}
-Non sai bene quale intervallo di note stai ricevendo? Attiva **auto extend range**, imposta **midi note min** molto alto e **midi note max** molto basso, poi suona tutte le note. Il sistema le rileverà tutte ed espanderà l’intervallo per te. Una volta acquisito tutto, disattiva **auto extend range** per bloccarlo.
+Non sai bene quale intervallo di note stai ricevendo? Attiva **auto extend range**, imposta **MIDI note min** molto alto e **MIDI note max** molto basso, poi suona tutte le note. Il sistema le rileverà tutte ed espanderà l’intervallo per te. Una volta acquisito tutto, disattiva **auto extend range** per bloccarlo.
 {% endhint %}
 
 * **leave all notes visible** – crea raggi o forme per tutte le note dell’intervallo, che stiano suonando o meno, ottenendo un effetto “arpa laser”.

@@ -9,10 +9,10 @@ metaLinks:
 
 #### Waar je de werkmap vindt
 
-Elke versie van Liberation heeft een eigen werkmap. Als je bijvoorbeeld versie 1.0.0 gebruikt, heet de map 1.0.0.
+Elke versie van Liberation heeft een eigen werkmap. Als je bijvoorbeeld versie 1.0.3 gebruikt, heet de map 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **De map snel openen**
 
@@ -24,7 +24,7 @@ Elke versie van Liberation heeft een eigen werkmap. Als je bijvoorbeeld versie 1
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Open de map die overeenkomt met je versienummer, bijvoorbeeld `1.0.0`.
+3. Open de map die overeenkomt met je versienummer, bijvoorbeeld `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Elke versie van Liberation heeft een eigen werkmap. Als je bijvoorbeeld versie 1
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Open de map die overeenkomt met je versienummer, bijvoorbeeld `1.0.0`.
+2. Open de map die overeenkomt met je versienummer, bijvoorbeeld `1.0.3`.
 
 > **Tip voor Windows**: Als je via File Explorer bladert, schakel dan verborgen items in: **View > Show > Hidden items**.

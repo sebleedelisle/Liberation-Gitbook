@@ -8,7 +8,7 @@ metaLinks:
 
 När du redigerar och justerar din zon är det användbart att skicka ut ett testmönster. Du kan slå på ett testmönster för alla aktiverade zoner med växlingsknappen i den övre ikonraden och välja testmönster med reglaget till höger om den.
 
-Om du bara vill ha ett testmönster på den laser du för tillfället zonindelar använder du växlingsknappen i verktygsfältet till vänster i _Output_-vyn. Klicka/dra på siffran under den för att välja testmönster.
+Om du bara vill ha ett testmönster på den laser du för tillfället zonindelar använder du växlingsknappen i verktygsfältet till vänster i _Output_-vyn. Klicka och dra på siffran under den för att välja testmönster.
 
 ### Lista över testmönster
 

@@ -23,7 +23,7 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-سيؤدي ذلك إلى فتح مجلد التنزيلات. ابحث عن الملف الذي تم تنزيله (عادةً في الأعلى)، وانقر بزر الماوس الأيمن، ثم اختر "Extract all".
+سيؤدي ذلك إلى فتح مجلد Downloads. ابحث عن الملف الذي تم تنزيله (عادةً في الأعلى)، وانقر بزر الماوس الأيمن، ثم اختر "Extract all".
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-يحتاج Liberation إلى إذن للوصول إلى الملفات والشبكة، لذلك من المحتمل أن يعرض Windows عدة نوافذ طلبات. تأكد من قبول كل شيء، وإلا فقد لا يعمل Liberation بشكل صحيح.
+يحتاج Liberation إلى إذن للوصول إلى الملفات والشبكة، لذلك من المحتمل أن يعرض Windows بعض مطالبات الأذونات. تأكد من قبول كل شيء، وإلا فقد لا يعمل Liberation بشكل صحيح.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

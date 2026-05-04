@@ -1,8 +1,8 @@
 ---
 description: >-
-  Laseri mogu biti opasni, zato je važno slijediti najbolje prakse i sigurnosne
-  smjernice. Ova stranica daje koristan pregled koji će vam pomoći kroz postupak
-  sigurnog postavljanja lasera.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

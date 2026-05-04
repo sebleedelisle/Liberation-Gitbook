@@ -48,4 +48,4 @@ CC 9 : Rotation 2D (Z)
 Ve önemli olarak:\
 CC 15 : Global Brightness
 
-Bu sistemin başlangıçta kayıt ve oynatma için tasarlandığını unutmayın; Logic, Ableton veya başka bir DAW kullanarak zaman çizelgesi animasyonları oluşturmanıza olanak sağlar. Canlı kontrol için kullanabilirsiniz, ancak bu kullanım için optimize edilmemiştir ve APC40 ile yapılan kuruluma kıyasla bazı canlı kontrol işlevleri eksiktir.
+Bu sistemin başlangıçta kayıt ve oynatma için tasarlandığını unutmayın; Logic, Ableton veya başka bir DAW kullanarak zaman çizelgesi animasyonları oluşturmanıza olanak sağlar. Canlı kontrol için kullanabilirsiniz, ancak bu kullanım için optimize edilmemiştir ve APC40 setup ile karşılaştırıldığında canlı kontrol için bazı işlevler eksiktir.

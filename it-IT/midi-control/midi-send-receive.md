@@ -25,6 +25,6 @@ Usa l’impostazione _BOTH_ con cautela. Dispositivi e software MIDI possono ess
 
 ### Mappatura MIDI
 
-Vedi [Mappatura predefinita MIDI di invio/ricezione](../reference/midi-send-receive-default-mapping.md)
+Vedi [Mappatura predefinita MIDI di invio/ricezione](../reference/midi-send-receive-default-mapping.md "mention")
 
 In futuro ho in programma di aggiungere una mappatura MIDI molto più personalizzabile, ma nel frattempo puoi usare app come [BOME](https://www.bome.com/products/miditranslator) e [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) per tradurre i messaggi tra Liberation e il tuo hardware personalizzato.

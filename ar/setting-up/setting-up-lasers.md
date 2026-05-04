@@ -1,8 +1,8 @@
 ---
 description: >-
-  قد تكون أجهزة الليزر خطرة، لذلك من المهم اتباع أفضل الممارسات وإرشادات
-  السلامة. تقدم هذه الصفحة نظرة عامة مفيدة تساعدك خلال عملية إعداد أجهزة
-  الليزر بأمان.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

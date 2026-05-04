@@ -20,10 +20,10 @@ Heldigvis er det nemt at løse ved at nulstille dine lokale indstillinger. Såda
 
 #### Hvor finder du arbejdsmappen?
 
-Hver version af Liberation har sin egen arbejdsmappe. Hvis du f.eks. kører version 1.0.0, hedder mappen 1.0.0.
+Hver version af Liberation har sin egen arbejdsmappe. Hvis du f.eks. kører version 1.0.3, hedder mappen 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **Sådan åbner du mappen hurtigt**
 
@@ -35,7 +35,7 @@ Hver version af Liberation har sin egen arbejdsmappe. Hvis du f.eks. kører vers
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Åbn den mappe, der svarer til dit versionsnummer, f.eks. `1.0.0`.
+3. Åbn den mappe, der svarer til dit versionsnummer, f.eks. `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Hver version af Liberation har sin egen arbejdsmappe. Hvis du f.eks. kører vers
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Åbn den mappe, der svarer til dit versionsnummer, f.eks. `1.0.0`.
+2. Åbn den mappe, der svarer til dit versionsnummer, f.eks. `1.0.3`.
 
 > **Tip til Windows**: Hvis du i stedet finder mappen via File Explorer, skal du slå skjulte elementer til: **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 I liberation-mappen bør du finde en fil, der hedder `settings.json`. Slet denne fil.
 
-* **macOS-eksempel**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Windows-eksempel**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **macOS-eksempel**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Windows-eksempel**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Prøv nu at starte Liberation. Hvis programmet åbner, er du færdig.
 
@@ -84,9 +84,9 @@ Prøv at starte Liberation igen. Hvis programmet nu åbner normalt, må du meget
 Hvis trin 1 og trin 2 ikke hjalp:
 
 1. Lav en **sikkerhedskopi** af hele versionsmappen:
-   * macOS: Højreklik på mappen `1.0.0`, og vælg **Compress** for at lave en zip-fil, eller kopiér den til et sikkert sted, f.eks. skrivebordet.
-   * Windows: Højreklik på mappen `1.0.0`, og vælg **Send to > Compressed (zipped) folder**, eller kopiér den til et sikkert sted, f.eks. skrivebordet.
-2. Når du har lavet sikkerhedskopien, skal du **slette** den oprindelige `1.0.0`-mappe fra Liberations arbejdsplacering.
+* macOS: Højreklik på mappen `1.0.3`, og vælg **Compress** for at lave en zip-fil, eller kopiér den til et sikkert sted, f.eks. skrivebordet.
+* Windows: Højreklik på mappen `1.0.3`, og vælg **Send to > Compressed (zipped) folder**, eller kopiér den til et sikkert sted, f.eks. skrivebordet.
+2. Når du har lavet sikkerhedskopien, skal du **slette** den oprindelige `1.0.3`-mappe fra Liberations arbejdsplacering.
 3. Start Liberation igen. Programmet opretter en ny arbejdsmappe.
 
 Hvis Liberation nu åbner, skal du fortsætte til trin 4.
@@ -103,10 +103,10 @@ Pak din **sikkerhedskopi** fra trin 3 som zip, hvis du ikke allerede har gjort d
 * **Emne**: Liberation start-up fix - working folder backup
 * **Besked**: Medtag venligst:
   * Operativsystem og version (f.eks. macOS 14.6 eller Windows 11 23H2)
-  * Liberation-version (f.eks. 1.0.0)
+* Liberation-version (f.eks. 1.0.3)
   * Hvilket trin der løste problemet, hvis nogen (trin 1, trin 2 eller trin 3)
   * En kort beskrivelse af, hvad der skete, før problemet opstod
-* **Vedhæftet fil**: den zippede sikkerhedskopi af din `1.0.0`-arbejdsmappe.
+* **Vedhæftet fil**: den zippede sikkerhedskopi af din `1.0.3`-arbejdsmappe.
 
 > Hvis zip-filen er for stor til e-mail, kan du uploade den til et cloud-drev og dele et link.
 
@@ -127,5 +127,5 @@ Hvis Liberation stadig ikke vil åbne, efter at du har slettet arbejdsmappen:
 
 1. Slet `data/liberation/settings.json` i din versionsopdelte arbejdsmappe.
 2. Hvis du redigerede en Clip, skal du lave en sikkerhedskopi og derefter slette `data/liberation/clipEdit.json`.
-3. Hvis programmet stadig ikke åbner, skal du lave en sikkerhedskopi og derefter slette hele mappen `1.0.0` (eller din versionsmappe).
+3. Hvis programmet stadig ikke åbner, skal du lave en sikkerhedskopi og derefter slette hele mappen `1.0.3` (eller din versionsmappe).
 4. Hvis trin 3 løser problemet (eller hvis det ikke gør), skal du zippe sikkerhedskopien og sende den til [**info@liberationlaser.com**](mailto:info@liberationlaser.com) sammen med dit operativsystem og din Liberation-version.

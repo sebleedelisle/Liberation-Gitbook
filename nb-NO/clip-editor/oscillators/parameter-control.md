@@ -16,5 +16,5 @@ _Parameter Control_ er en metode for å styre ulike innstillinger i en effekt el
 * **parameter number** - hver _parameter control_ kan tilordnes et nummer, og dette vises i kontrollene utenfor clipet. Du kan ha mer enn én parameter control med samme nummer, og alle justeres samtidig.
 
 {% hint style="warning" %}
-For øyeblikket er bare parameter 1 i en effekt tilgjengelig for styring med APC40. Alle parametere i effekter og clips er tilgjengelige i høyreklikkmenyen. I fremtiden vil flere av disse parameterne kunne mappes med MIDI-kontrollere.
+APC40 og støttede live-controllere styrer parameter 1 for hvert effect slot som standard. Alle parametere i effekter og clips er også tilgjengelige i høyreklikkmenyen.
 {% endhint %}

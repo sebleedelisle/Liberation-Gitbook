@@ -17,23 +17,25 @@ Lazer diyotlarının davranışı ısındıkça değişir. Kalibrasyondan önce 
 
 #### Kalibrasyon testinin çalışma şekli
 
-Kalibrasyon için test pattern kullanın (bkz. [Test pattern](../output-view/test-patterns.md))
+Kalibrasyon için test pattern kullanın (bkz. [Test pattern](../output-view/test-patterns.md "mention"))
 
 * **5** – Kırmızı
 * **6** – Yeşil
 * **7** – Mavi
 * **8** – Beyaz
 
-Bunların her biri dört hareketli çizgi gösterir:
+Bunların her biri dört hareketli çizgi gösterir. Bir lazer sisteminde parlaklık yalnızca güç seviyesinden değil, ışının tek bir noktada ne kadar süre kaldığından da etkilenir. Tarayıcılar daha hızlı hareket ettiğinde ışın her noktada daha az süre kalır ve daha sönük görünür.
+
+Bunu hesaba katmak için test desenleri parlaklığı ve hızı birlikte ölçekler:
 
 * **Üst çizgi** – Tam hızda %100 parlaklık
 * **İkinci çizgi** – %75 hızda %75 parlaklık
 * **Üçüncü çizgi** – %50 hızda %50 parlaklık
 * **Dördüncü çizgi** – %25 hızda %25 parlaklık
 
-Hem parlaklık _hem de hız_ birlikte ölçeklendiği için çizgilerin hepsi aynı parlaklıkta görünmelidir. Bir çizgi daha açık veya daha koyu görünüyorsa, eşleşene kadar ilgili kaydırıcıyı ayarlayın.
+Hem parlaklık _hem de hız_ birlikte ölçeklendiği için çizgilerin hepsi aynı parlaklıkta görünmelidir. Bir çizgi daha parlak veya daha sönük görünüyorsa, eşleşene kadar ilgili kaydırıcıyı ayarlayın.
 
-Her test pattern ayrıca **%0 parlaklıkta** beşinci bir çizgiye sahiptir; bu çizgi görünmemelidir. Bu, çok düşük seviyelerde hiç ışık vermeyen lazerleri düzeltmek için kullanılır. Lazeriniz düşük parlaklıkta görünmez kalıyorsa, çizgi zar zor görünene kadar **0% setting** değerini kademeli olarak artırın, ardından çizgi tekrar kaybolana kadar biraz geri alın. Amaç, lazerin ışık vermeye başladığı eşiği bulmak ve hemen altında kalmaktır; böylece fade geçişleri alt aralığı kesmeden doğal şekilde başlar.
+Her test deseninde ayrıca **%0 parlaklıkta** beşinci bir çizgi bulunur; bu çizgi görünmemelidir. Bu, çok düşük seviyelerde hiç ışık vermeyen lazerleri düzeltmek için kullanılır. Lazeriniz düşük parlaklıkta görünmez kalıyorsa, çizgi zar zor görünene kadar **0% setting** değerini kademeli olarak artırın, ardından çizgi tekrar kaybolana kadar biraz geri alın. Amaç, lazerin ışık vermeye başladığı eşiği bulmak ve hemen altında kalmaktır; böylece fade geçişleri alt aralığı kesmeden doğal şekilde başlar.
 
 #### Colour Calibration panelini kullanma
 

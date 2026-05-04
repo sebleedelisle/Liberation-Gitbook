@@ -12,7 +12,7 @@ Allt efni fyrir leysa í Liberation er geymt í Clips.
 
 Clips geta innihaldið geislaáhrif í rými eða grafískar hreyfimyndir og eru yfirleitt endurtekin lykkja. Hægt er að beina þeim í hvaða zone sem er (eða Canvas Target Area) og kveikja á þeim með Clip hnöppunum í Clip Deck.
 
-Efni í Clips er búið til með fjölhæfu Clip Editor kerfi sem byggir á nodes. (Sjá [Kynning á Clip Editor](../clip-editor/clip-editor-intro.md) fyrir nánari upplýsingar)
+Efni í Clips er búið til með fjölhæfu Clip Editor kerfi sem byggir á nodes. (Sjá [Kynning á Clip Editor](../clip-editor/clip-editor-intro.md "mention") fyrir nánari upplýsingar)
 
 ### Clip Deck
 

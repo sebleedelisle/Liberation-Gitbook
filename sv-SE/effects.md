@@ -17,7 +17,7 @@ Standardknapparna för effekter 1–8 finns under zonknapparna, och effekterna 9
 Tryck på en effektknapp för att slå på eller av effekten, eller ännu bättre: använd APC40-reglagen 1–8 för att tona effekter in och ut. För att tona in en effekt utan en APC40 klickar du på knappen och drar uppåt eller nedåt. Du kan också högerklicka på effektknappen och justera nivåreglaget.
 
 {% hint style="warning" %}
-När du trycker på effektknappen aktiveras effekten direkt. Observera dock att om nivån är satt till noll händer ingenting! Klicka/dra på knappen för att ändra nivån, högerklicka och använd reglaget _level_, eller använd APC40-fadrarna.
+När du trycker på effektknappen aktiveras effekten direkt. Observera dock att om nivån är satt till noll händer ingenting! Klicka och dra på knappen för att ändra nivån, högerklicka och använd reglaget _level_, eller använd APC40-fadrarna.
 {% endhint %}
 
 #### Effekter och clipens zonfördröjning
@@ -59,9 +59,9 @@ De små siffrorna du ser på effektknapparna visar effektens _level_ och _parame
 5. **Scale** :\
    Skalar upprepade gånger allt från fullt till noll. Parametern justerar hastigheten.
 6. **Hue** :\
-   Ändrar nyansen på allt, men ändrar inte mättnaden (dvs. allt som är vitt förblir vitt). Parametern justerar nyansen.
+Ändrar nyansen på allt, men ändrar inte mättnaden (dvs. allt som är vitt förblir vitt). Parametern justerar nyansen.
 7. **Saturation and hue** :\
-   Ändrar nyansen på allt och mättar även färgen helt (dvs. allt som är vitt ändras till färgen). Parametern justerar nyansen.
+Ändrar nyansen på allt och mättar även färgen helt (dvs. allt som är vitt ändras till färgen). Parametern justerar nyansen.
 8. **Flash** :\
    Blinkar upprepade gånger ljusstyrkan på allt från fullt till noll. Parametern justerar blinkhastigheten.
 
@@ -87,7 +87,7 @@ Den här funktionen är avstängd om inställningen _MX Group_ är 0.
 
 ### Redigera effekter
 
-Högerklicka på valfri effekt och klicka på knappen _EDIT EFFECT_ för att öppna effekteditorn. Observera att den här editorn är identisk med clip-editorn!
+Högerklicka på valfri effekt och klicka på knappen _EDIT EFFECT_ för att öppna effekteditorn. Observera att den här editorn är identisk med Clip Editor!
 
 Redigera din effekt på samma sätt som du skulle redigera vilket clip som helst. Se [clip-editor](clip-editor/ "mention").
 

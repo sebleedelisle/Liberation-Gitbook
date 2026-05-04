@@ -23,7 +23,7 @@ _Download latest for Windows_ seçeneğine tıklayın (sürüm numaraları deği
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Bu işlem indirilenler klasörünüzü açar. İndirilen dosyayı bulun (genellikle en üsttedir), sağ tıklayın ve "Extract all" seçeneğini seçin.
+Bu işlem Downloads klasörünüzü açar. İndirilen dosyayı bulun (genellikle en üsttedir), sağ tıklayın ve "Extract all" seçeneğini seçin.
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Windows sıkıştırılmış dosyayı açmayı bitirdiğinde kurulum dosyasını
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation’ın dosyalara ve ağa erişmek için izne ihtiyacı vardır; bu nedenle Windows muhtemelen birkaç izin isteği gösterecektir. Hepsini kabul ettiğinizden emin olun, aksi takdirde Liberation düzgün çalışmayabilir.
+Liberation’ın dosyalara ve ağa erişmek için izne ihtiyacı vardır; bu nedenle Windows muhtemelen birkaç izin istemi gösterecektir. Hepsini kabul ettiğinizden emin olun, aksi takdirde Liberation düzgün çalışmayabilir.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

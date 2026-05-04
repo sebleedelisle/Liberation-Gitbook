@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/controller-assignment
+---
+
 # ✅ 控制器分配
 
 当你在 Liberation 中设置好激光后，就可以将每台激光分配到实际的激光控制器。（参见 [兼容的激光与控制器（DAC）](../hardware/compatible-lasers-and-controllers-dacs.md "mention") 以确认可用硬件）。控制器要么通过 USB 连接，要么通过网络连接。&#x20;
@@ -23,10 +30,10 @@
 * 红色方块 🟥 表示无法连接控制器，参见 [故障排除](../troubleshooting/ "mention")。&#x20;
 * _disconnect button_（X）会断开连接，但不会清除分配。你可以用 _reconnect button_（刷新箭头图标）重新连接，或再次点击 _disconnect button_ 来清除分配。&#x20;
 * _Advanced feature :_ 点击图表形状的按钮可打开控制器分析面板。这是高级功能，可提供数据流细节并帮助排错。（某些控制器类型可能不支持。）
-* 可使用 _rename button_（铅笔）为控制器重命名，以便与硬件对应。例如 _LaserCube Ultra #1_ 或 _Triton T5 #3._ 这些名称会随 Liberation 安装保存，之后会一直显示，便于快速识别。&#x20;
+* 可使用 _rename button_（铅笔）将此控制器重命名为你想要的名称。建议使用便于关联到特定硬件的命名方式。如果它内置在某台激光设备中，也可以相应命名，例如 _LaserCube Ultra #1_ 或 _Triton T5 #3._ 这些名称会随你的 Liberation 安装保存，之后会一直显示，有助于你快速识别自己的激光设备。
 
 {% hint style="info" %}
-小技巧：在右侧控制器上**双击**，可自动分配到左侧下一个可用激光槽位。如果你有很多激光需要分配，会非常省时间！&#x20;
+小技巧：在右侧控制器上**双击**，可自动分配到左侧下一个可用激光设备。如果你有很多激光设备需要分配，这会非常省时间！
 {% endhint %}
 
 你可以使用 _DISCONNECT ALL_ 和 _RECONNECT ALL_ 按钮快速重置所有连接，适用于处理网络问题。&#x20;

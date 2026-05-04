@@ -20,7 +20,7 @@ Eldri LaserCube-tæki eru stýrð með USB, en núverandi gerðir eru allar með
 
 ### USB LaserCube
 
-Tengdu LaserCube við tölvuna með micro USB-snúru og leitaðu síðan að því í _Controller Assignment_ spjaldinu (sjá [Úthlutun laser controller](../setting-up/controller-assignment.md)). Ef það birtist ekki sjálfkrafa skaltu ýta á _REFRESH_ hnappinn.
+Tengdu LaserCube við tölvuna með micro USB-snúru og leitaðu síðan að því í _Controller Assignment_ spjaldinu (sjá [Úthlutun laser controller](../setting-up/controller-assignment.md "mention")). Ef það birtist ekki sjálfkrafa skaltu ýta á _REFRESH_ hnappinn.
 
 ### Nettengdur LaserCube „Wifi“
 
@@ -30,7 +30,7 @@ Tengdu LaserCube við tölvuna með micro USB-snúru og leitaðu síðan að þv
 
 Tengdu LaserCube við víraða netkerfið þitt.
 
-Settu LaserCube í „LAN Client“ ham og gakktu úr skugga um að beinir sé á netkerfinu. LaserCube fær þá IP-tölu frá beininum og ætti síðan að birtast í _Controller Assignment_ spjaldinu. (Sjá [Úthlutun laser controller](../setting-up/controller-assignment.md)).
+Settu LaserCube í „LAN Client“ ham og gakktu úr skugga um að beinir sé á netkerfinu. LaserCube fær þá IP-tölu frá beininum og ætti síðan að birtast í _Controller Assignment_ spjaldinu. (Sjá [Úthlutun laser controller](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 Það er hægt að setja upp netkerfi án beinis og gefa öllum tækjum fastar IP-tölur, og það er mjög algengt í viðburðageiranum. Persónulega kýs ég að bæta beini við netkerfið og mæli með þeirri leið fyrir alla sem hafa minni reynslu af netkerfum.

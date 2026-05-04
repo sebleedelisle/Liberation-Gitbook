@@ -38,7 +38,7 @@ Canvas zones 是 Canvas 內你選擇要送到雷射的區域。它們會在 Canv
 {% endhint %}
 
 {% hint style="info" %}
-你也可以在 _OUTPUT_ view 中點擊 _add canvas zone_ 按鈕，將 canvas zone 指派給雷射。請參閱 [Zones](../output-view/zones.md)。
+你也可以在 _OUTPUT_ view 中點擊 _add canvas zone_ 按鈕，將 canvas zone 指派給雷射。請參閱 [Zones](../output-view/zones.md "mention")。
 {% endhint %}
 
 ### 參考圖片

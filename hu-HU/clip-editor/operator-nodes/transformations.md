@@ -9,7 +9,7 @@ metaLinks:
 
 ## &#x20;Translate
 
-Az összes tartalmat elmozdítja az x, y és/vagy z tengely mentén. Fontos, hogy a koordináta-rendszer középpontja az origó, és az x, illetve y tengelyen +/-200-ig terjed. Lásd: [Koordináta-rendszer](../fundamentals/co-ordinate-system.md).
+Az összes tartalmat elmozdítja az x, y és/vagy z tengely mentén. Fontos, hogy a koordináta-rendszer középpontja az origó, és az x, illetve y tengelyen +/-200-ig terjed. Lásd: [Koordináta-rendszer](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - az x tengely mentén történő elmozdítás távolsága (balra - jobbra).
 * **y** - az y tengely mentén történő elmozdítás távolsága (felül - alul).
@@ -20,7 +20,7 @@ Az összes tartalmat elmozdítja az x, y és/vagy z tengely mentén. Fontos, hog
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Elforgatja az összes tartalmat. Az értékek fokban vannak megadva. Lásd: [Koordináta-rendszer](../fundamentals/co-ordinate-system.md).
+Elforgatja az összes tartalmat. Az értékek fokban vannak megadva. Lásd: [Koordináta-rendszer](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - megadja fokban, hogy a tartalom mennyivel forduljon el az óramutató járásával megegyező irányban. Minden az origó (0,0), vagyis a középpont körül fordul el.
 * **pivot point x / pivot point y** - ezekkel az értékekkel eltolható a forgatás origója.

@@ -9,7 +9,7 @@ metaLinks:
 
 ### 授權 Liberation
 
-首次開啟 Liberation 時，它會以 _demo mode_ 運行，並顯示 _About panel:_
+首次開啟 Liberation 時，它會以 _free mode_ 運行，並顯示 _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ metaLinks:
 如果你有多個訂閱，系統會提示你選擇要指派給此電腦的訂閱。
 {% endhint %}
 
-恭喜！你的 Liberation 安裝現在已完成授權，可以輸出到雷射！但在啟用雷射之前，請先閱讀[開始使用](../getting-started.md)和[設定雷射](../setting-up/setting-up-lasers.md)。
+恭喜！你的 Liberation 安裝現在已完成授權，可以輸出到雷射！但在啟用雷射之前，請先閱讀[開始使用](../getting-started.md "mention")和[設定雷射](../setting-up/setting-up-lasers.md "mention")。
 
 {% hint style="info" %}
 你可以隨時透過選單 _Liberation -> About Liberation_ 或 _Liberation -> Authorise/Deauthorise this computer_ 開啟 _About panel_。

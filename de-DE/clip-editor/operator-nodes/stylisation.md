@@ -36,6 +36,7 @@ Erzeugt Echos deines Inhalts und lässt hinter dem Original beim Bewegen ausblen
   * 128 = 1/2 Takt (Halbe Note)
   * 256 = 1 Takt
 * **trail size** – wie viele Trail-Kopien hinter dem Live-Inhalt gezeichnet werden.
+* **prefill trails** – füllt den Trail-Verlauf sofort beim Start des Clips, statt zu warten, bis sich die Echos über die ersten paar Beats aufbauen.
 * **freeze trails** – verwandelt weich fließende Trails in eine Folge eingefrorener Momentaufnahmen. Nützlich für stakkatoartige, beat-synchrone Trail-Effekte.
 * **brightness start / brightness end** – wendet Helligkeit über den Trail hinweg an, von der neuesten Kopie (**start**) bis zur ältesten Kopie (**end**). Typischerweise setzt du **brightness start** auf 100% und **brightness end** auf 0%, damit die Echos ausblenden.
 * **scale start / scale end** – wendet Skalierung über den Trail hinweg an, von der neuesten Kopie (start) bis zur ältesten Kopie (end). Für Trails, die bis auf nichts schrumpfen, setze **scale start** auf 100% und **scale end** auf 0%.

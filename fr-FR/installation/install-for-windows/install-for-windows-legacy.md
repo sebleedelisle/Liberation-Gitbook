@@ -23,7 +23,7 @@ Cliquez sur _Download latest for Windows_ (les numéros de version peuvent chang
 
 <figure><img src="../../.gitbook/assets/windows-download-chrome.png" alt="" width="260"><figcaption></figcaption></figure>
 
-Cela ouvrira votre dossier de téléchargements. Trouvez le fichier téléchargé (généralement en haut), faites un clic droit, puis sélectionnez "Extract all"
+Cela ouvrira votre dossier Downloads. Trouvez le fichier téléchargé (généralement en haut), faites un clic droit, puis sélectionnez "Extract all"
 
 <figure><img src="../../.gitbook/assets/windows-extract-all.png" alt="" width="248"><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Une fois la décompression terminée par Windows, le fichier d’installation s�
 
 <figure><img src="../../.gitbook/assets/windows-open-exe.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation a besoin d’autorisations pour accéder aux fichiers et au réseau. Windows affichera donc probablement plusieurs demandes. Veillez à tout accepter, sinon Liberation risque de ne pas fonctionner correctement.
+Liberation a besoin d’autorisations pour accéder aux fichiers et au réseau. Windows affichera donc probablement quelques demandes d’autorisation. Veillez à tout accepter, sinon Liberation risque de ne pas fonctionner correctement.
 
 <figure><img src="../../.gitbook/assets/windows-protection-window.png" alt="" width="375"><figcaption></figcaption></figure>
 

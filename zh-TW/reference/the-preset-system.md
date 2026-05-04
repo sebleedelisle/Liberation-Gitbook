@@ -22,12 +22,12 @@ metaLinks:
 
 你也可以使用 Preset 下拉清單旁的 load/save 按鈕（磁碟片圖示）匯入或匯出 Preset 檔案。這會開啟一個彈出視窗，其中有匯入／匯出按鈕，也可以刪除一個或多個 Preset。
 
-<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>按下 load/save 圖示時開啟的彈出選單</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/scanner-settings-presets.png" alt=""><figcaption><p>The pop-up menu that opens when you click the load/save icon</p></figcaption></figure>
 
 如果你編輯某個 Preset，例如名為 _Default_ 的掃描器設定，請注意其他雷射不會自動更新。它們各自的掃描器設定會改標示為 _Default(edited)_。若要更新成新的 _Default_ Preset，請從下拉清單重新選取它。
 
 {% hint style="info" %}
-如果你有很多雷射，並且想更新所有雷射的掃描器設定，請使用 _COPY LASER SETTINGS_ 系統。請參閱[複製雷射設定](../setting-up/copy-laser-settings.md)
+如果你有很多雷射，並且想更新所有雷射的掃描器設定，請使用 _COPY LASER SETTINGS_ 系統。請參閱[複製雷射設定](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 如果你刪除了其他地方正在使用的 Preset，該設定不會遺失，而是會顯示為 _(deleted)_。

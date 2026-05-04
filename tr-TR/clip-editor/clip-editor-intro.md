@@ -32,7 +32,7 @@ Clip Editor içinde şunları görürsünüz:
 Düzenleme yaparken, Clip içeriğinin arka plandaki 3D görselleştiricide nasıl göründüğünü de görürsünüz.
 
 {% hint style="info" %}
-3D görselleştiricide herhangi bir çıkış görmüyorsanız, istediğiniz zone öğelerini açmak için zone düğmelerini kullanmanız gerekebilir. Ayrıca _Preview to lasers_ seçeneğinin etkin olduğundan emin olun; aşağıdaki [Clip Editor paneli](clip-editor-intro.md#clip-editor-panel) bölümüne bakın.
+3D görselleştiricide herhangi bir çıkış görmüyorsanız, istediğiniz zone öğelerini açmak için zone düğmelerini kullanmanız gerekebilir. Ayrıca _Preview to lasers_ seçeneğinin etkin olduğundan emin olun; aşağıdaki [Clip Editor paneli](clip-editor-intro.md#clip-editor-panel "mention") bölümüne bakın.
 {% endhint %}
 
 ### Clip oluşturma
@@ -75,7 +75,7 @@ Daha önce analog synth kullandıysanız, dalga biçimleri oluşturmak veya sesi
 **Eğlenceli bilgi:** _Liberation_ adı, 1980’de piyasaya çıkan ve Herbie Hancock, Jean-Michel Jarre hatta James Brown tarafından ünlü hale getirilen “keytar” synthesizer Moog Liberation’dan ilham aldı!
 {% endhint %}
 
-Oscillator öğelerinde, ayarlanacak özelliğin minimum ve maksimum değerini kontrol eden _range_ ayarları her zaman bulunur. _Wave Oscillators_ öğelerinde ise Oscillator değerinin ne kadar hızlı değişeceğini belirleyen bir _duration_ ayarı her zaman bulunur. Daha fazla bilgi için [Wave Oscillator node öğeleri](oscillators/wave-oscillators.md) bölümüne bakın.
+Oscillator öğelerinde, ayarlanacak özelliğin minimum ve maksimum değerini kontrol eden _range_ ayarları her zaman bulunur. _Wave Oscillators_ öğelerinde ise Oscillator değerinin ne kadar hızlı değişeceğini belirleyen bir _duration_ ayarı her zaman bulunur. Daha fazla bilgi için [Wave Oscillator node öğeleri](oscillators/wave-oscillators.md "mention") bölümüne bakın.
 
 ### Clip Editor paneli
 

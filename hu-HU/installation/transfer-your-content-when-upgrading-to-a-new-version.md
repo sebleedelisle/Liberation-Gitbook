@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Tartalom átvitele új verzióra frissítéskor
 
-A Liberation a tartalmakat a saját munkamappájában tárolja (lásd: [Hol található a munkamappa](../troubleshooting/where-to-find-the-working-folder.md)), és ez minden új verziókiadásnál megváltozik. Ha szeretnéd megtartani a régi verzió munkafájljait az új verzióban is:&#x20;
+A Liberation a tartalmakat a saját munkamappájában tárolja (lásd: [Hol található a munkamappa](../troubleshooting/where-to-find-the-working-folder.md "mention")), és ez minden új verziókiadásnál megváltozik. Ha szeretnéd megtartani a régi verzió munkafájljait az új verzióban is:&#x20;
 
 1. Nyisd meg a Liberation eredeti verzióját.
 2. Használd a _File->Project->Export Project_ parancsot. Ez mindent elment a Liberationből: a lézerbeállításokat, timeline-okat, Clip Decket, mindent!&#x20;

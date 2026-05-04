@@ -16,7 +16,7 @@ Global Transformations neovlivňují nic v Canvas, pouze beam zone a DMX zone.
 
 ### Scale X/Y
 
-Vodorovné a svislé měřítko. Tyto hodnoty jsou vzájemně svázané, pokud nestisknete `Shift`. Ve výchozím nastavení jsou také namapované na ovladače APC40 Device Control 4 a 8 a zobrazují se v panelu napravo od Clip Deck.
+Vodorovné a svislé měřítko. Tyto hodnoty jsou vzájemně svázané, pokud nestisknete `Shift`. Ve výchozím nastavení jsou také namapované na ovladače APC40 Device Control 4 a 8 a zobrazují se v kontextovém panelu Parameters napravo od Clip Deck.
 
 ### Shift X/Y
 
@@ -24,11 +24,11 @@ Vodorovný a svislý posun. Posune vše vodorovně / svisle.
 
 ### Spin
 
-Otáčí veškerý obsah kolem středu. Kladná hodnota otáčí po směru hodinových ručiček, záporná hodnota proti směru hodinových ručiček. Uvidíte, že toto nastavení ovlivňuje transformaci _Rotation_. Ve výchozím nastavení je namapované na ovladač APC40 Device Control 3 a zobrazuje se v panelu napravo od Clip Deck.
+Otáčí veškerý obsah kolem středu. Kladná hodnota otáčí po směru hodinových ručiček, záporná hodnota proti směru hodinových ručiček. Uvidíte, že toto nastavení ovlivňuje transformaci _Rotation_. Ve výchozím nastavení je namapované na ovladač APC40 Device Control 3 a zobrazuje se v kontextovém panelu Parameters napravo od Clip Deck.
 
 ### Spin 3D
 
-Otáčí veškerý obsah kolem osy Y (svislá čára uprostřed). Uvidíte, že toto nastavení ovlivňuje transformaci _Rotation3D_. Ve výchozím nastavení je namapované na ovladač APC40 Device Control 7 a zobrazuje se v panelu napravo od Clip Deck.
+Otáčí veškerý obsah kolem osy Y (svislá čára uprostřed). Uvidíte, že toto nastavení ovlivňuje transformaci _Rotation3D_. Ve výchozím nastavení je namapované na ovladač APC40 Device Control 7 a zobrazuje se v kontextovém panelu Parameters napravo od Clip Deck.
 
 ### Rotation
 

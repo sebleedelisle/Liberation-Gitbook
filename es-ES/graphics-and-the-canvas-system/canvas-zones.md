@@ -31,4 +31,4 @@ También puedes añadir una zona de Canvas a un láser directamente desde la vis
 
 ### Menú de clic derecho
 
-Haz clic derecho sobre la zona y verás opciones para eliminar esta zona de Canvas, moverla al fondo y bloquearla.
+Haz clic derecho sobre la zone y verás opciones para eliminar esta canvas zone, moverla al fondo y bloquearla.

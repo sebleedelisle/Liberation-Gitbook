@@ -38,7 +38,7 @@ CẢNH BÁO - nếu máy laser đang ở trạng thái armed, bạn có thể đ
 {% endhint %}
 
 {% hint style="info" %}
-Bạn cũng có thể gán một canvas zone cho máy laser bằng cách nhấp nút _add canvas zone_ trong view _OUTPUT_. Xem [Zones](../output-view/zones.md).
+Bạn cũng có thể gán một canvas zone cho máy laser bằng cách nhấp nút _add canvas zone_ trong view _OUTPUT_. Xem [Zones](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Ảnh tham chiếu

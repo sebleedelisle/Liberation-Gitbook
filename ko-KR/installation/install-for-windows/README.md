@@ -57,7 +57,7 @@ Liberation이 설치될 때까지 잠시 기다립니다.
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation은 파일과 네트워크에 접근할 권한이 필요하므로 Windows에서 여러 요청 창이 표시될 수 있습니다. 모두 허용해야 Liberation이 제대로 작동합니다.
+Liberation은 파일과 네트워크에 접근할 권한이 필요하므로 Windows에서 몇 개의 권한 요청 창이 표시될 수 있습니다. 모두 허용해야 Liberation이 제대로 작동합니다.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

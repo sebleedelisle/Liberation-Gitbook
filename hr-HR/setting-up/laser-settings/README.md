@@ -35,7 +35,7 @@ Imajte na umu da korekcije orijentacije i zrcaljenja ne mijenjaju ništa u prika
 
 ### Kopiranje postavki lasera
 
-Pogledajte [Kopiranje postavki lasera](./#copy-laser-settings).
+Pogledajte [Kopiranje postavki lasera](./#copy-laser-settings "mention").
 
 ### Postavke skenera
 
@@ -50,7 +50,7 @@ Iako su zadane postavke prilično konzervativne, skenere i dalje možete ošteti
 {% endhint %}
 
 {% hint style="info" %}
-Ova postavka brzine ne mijenja frekvenciju točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [Kako Liberation generira laserski sadržaj](../../advanced/how-liberation-generates-laser-content.md)
+Ova postavka brzine ne mijenja frekvenciju točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [Kako Liberation generira laserski sadržaj](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,12 +67,12 @@ Ako na laserskom izlazu vidite male „repove”, vjerojatno treba podesiti scan
 
 #### Preseti skenera
 
-Ovom postavkom odaberite unaprijed pripremljenu postavku skenera. Zadana opcija obično je sasvim u redu, pa ovu postavku ne biste trebali mijenjati osim ako imate posebno loše (ili dobre) skenere. Ako želite detaljnije istražiti, pogledajte [Preseti skenera](../../advanced/scanner-presets.md)
+Ovom postavkom odaberite unaprijed pripremljenu postavku skenera. Zadana opcija obično je sasvim u redu, pa ovu postavku ne biste trebali mijenjati osim ako imate posebno loše (ili dobre) skenere. Ako želite detaljnije istražiti, pogledajte [Preseti skenera](../../advanced/scanner-presets.md "mention")
 
 #### Kalibracija boja
 
-Ovaj sustav možete koristiti za korekciju krivulje svjetline i balansa bijele boje lasera. Pogledajte [Kalibracija boja](../../advanced/colour-calibration.md)
+Ovaj sustav možete koristiti za korekciju krivulje svjetline i balansa bijele boje lasera. Pogledajte [Kalibracija boja](../../advanced/colour-calibration.md "mention")
 
 #### Napredne postavke
 
-Ne biste trebali mijenjati ove postavke, ali ako vas zanima više, pogledajte [Napredne postavke lasera](../../advanced/advanced-laser-settings.md)
+Ne biste trebali mijenjati ove postavke, ali ako vas zanima više, pogledajte [Napredne postavke lasera](../../advanced/advanced-laser-settings.md "mention")

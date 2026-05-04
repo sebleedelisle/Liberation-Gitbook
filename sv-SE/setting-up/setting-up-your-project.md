@@ -26,7 +26,7 @@ Här är en översikt över processen:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Ändra zonerna för varje clip:**\
-    Trigga varje clip genom att klicka på dess knapp och växla sedan zonerna samt X- och Y-flip med knapparna på skärmen. Se [Clips och Clip Deck](../clips/ "mention").
+Trigga varje Clip genom att klicka på dess knapp och växla sedan zones samt X- och Y-flip med knapparna på skärmen. Se [Clips och Clip Deck](../clips/ "mention").
 
     \\
 

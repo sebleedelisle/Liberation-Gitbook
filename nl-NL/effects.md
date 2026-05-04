@@ -17,7 +17,7 @@ De standaard effectknoppen 1-8 staan onder de zoneknoppen, en effecten 9-24 zijn
 Druk op een effectknop om het effect aan of uit te zetten, of nog beter: gebruik de APC40-sliders 1-8 om effecten in en uit te faden. Wil je een effect infaden zonder APC40, klik dan op de knop en sleep omhoog of omlaag. Of klik met de rechtermuisknop op de effectknop en pas de level-slider aan.
 
 {% hint style="warning" %}
-Als je op de effectknop drukt, wordt dat effect direct geactiveerd. Let er wel op dat er niets gebeurt als het level op nul staat! Klik/sleep op de knop om het level te wijzigen, klik met de rechtermuisknop en gebruik de _level_-slider, of gebruik de APC40-faders.
+Als je op de effectknop drukt, wordt dat effect direct geactiveerd. Let er wel op dat er niets gebeurt als het level op nul staat! Klik op de knop en sleep om het level te wijzigen, klik met de rechtermuisknop en gebruik de _level_-slider, of gebruik de APC40-faders.
 {% endhint %}
 
 #### Effecten en de zone delay van de clip
@@ -59,9 +59,9 @@ De kleine getallen die je op de effectknoppen ziet, verwijzen naar het _level_ e
 5. **Scale** :\
    Schaalt alles herhaaldelijk van volledig naar nul. De parameter bepaalt de snelheid.
 6. **Hue** :\
-   Verandert de hue van alles, maar verandert de saturation niet (dus alles wat wit is blijft wit). De parameter bepaalt de hue.
+Verandert de hue van alles, maar verandert de saturation niet (dus alles wat wit is blijft wit). De parameter bepaalt de hue.
 7. **Saturation and hue** :\
-   Verandert de hue van alles en verzadigt de kleur ook volledig (dus alles wat wit is verandert naar de kleur). De parameter bepaalt de hue.
+Verandert de hue van alles en verzadigt de kleur ook volledig (dus alles wat wit is verandert naar de kleur). De parameter bepaalt de hue.
 8. **Flash** :\
    Laat de helderheid van alles herhaaldelijk knipperen van volledig naar nul. De parameter bepaalt de knippersnelheid.
 
@@ -87,7 +87,7 @@ Deze functionaliteit is uitgeschakeld als de instelling _MX Group_ op 0 staat.
 
 ### Effecten bewerken
 
-Klik met de rechtermuisknop op een effect en klik op de knop _EDIT EFFECT_ om de effect-editor te openen. Let op dat deze editor identiek is aan de clip-editor!
+Klik met de rechtermuisknop op een effect en klik op de knop _EDIT EFFECT_ om de effect-editor te openen. Let op dat deze editor identiek is aan de Clip Editor!
 
 Bewerk je effect op dezelfde manier als je een clip zou bewerken. Zie [De Clip Editor](clip-editor/ "mention").
 

@@ -1,8 +1,8 @@
 ---
 description: >-
-  Lazerler tehlikeli olabilir; bu yüzden en iyi uygulamalara ve güvenlik
-  yönergelerine uymak önemlidir. Bu sayfa, lazerleri güvenli şekilde kurma
-  sürecinde size yardımcı olacak yararlı bir genel bakış sunar.
+  Lasers can be dangerous so it's important to follow best practices and safety
+  guidelines. This page is a useful overview that will help you through the
+  process of setting up lasers safely.
 metaLinks:
   alternates:
     - >-

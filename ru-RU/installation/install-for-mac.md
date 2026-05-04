@@ -19,7 +19,7 @@ macOS версии 12 (Monterey) и выше. Рекомендуется Apple S
 
 <figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Нажмите _Download latest for Mac_ (номера версий со временем будут меняться), и установочный DMG-файл Liberation сохранится в папку загрузок. Найдите файл и дважды щёлкните по нему, чтобы открыть.
+Нажмите _Download latest for Mac_ (номера версий со временем будут меняться), и установочный DMG-файл Liberation сохранится в папку Downloads. Найдите файл и дважды щёлкните по нему, чтобы открыть.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

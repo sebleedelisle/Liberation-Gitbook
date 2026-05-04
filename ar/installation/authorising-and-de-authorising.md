@@ -9,7 +9,7 @@ metaLinks:
 
 ### تفعيل Liberation
 
-عند فتح Liberation للمرة الأولى، سيعمل في _وضع العرض التجريبي_ وستظهر لك _About panel:_
+عند فتح Liberation للمرة الأولى، سيعمل في _الوضع المجاني_ وستظهر لك _About panel:_
 
 <figure><img src="../.gitbook/assets/authorisation-about-panel.png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -31,7 +31,7 @@ metaLinks:
 إذا كانت لديك اشتراكات متعددة، فسيُطلب منك اختيار الاشتراك الذي تريد ربط الكمبيوتر به.
 {% endhint %}
 
-تهانينا! تم الآن تفعيل تثبيت Liberation لديك ويمكنك الإخراج إلى أجهزة الليزر! لكن يُرجى قراءة [بدء الاستخدام](../getting-started.md) و[إعداد أجهزة الليزر](../setting-up/setting-up-lasers.md) قبل استخدام arm مع أجهزة الليزر.
+تهانينا! تم الآن تفعيل تثبيت Liberation لديك ويمكنك الإخراج إلى أجهزة الليزر! لكن يُرجى قراءة [بدء الاستخدام](../getting-started.md "mention") و[إعداد أجهزة الليزر](../setting-up/setting-up-lasers.md "mention") قبل استخدام arm مع أجهزة الليزر.
 
 {% hint style="info" %}
 يمكنك فتح _About panel_ في أي وقت من خلال القائمة _Liberation -> About Liberation_ أو _Liberation -> Authorise/Deauthorise this computer_

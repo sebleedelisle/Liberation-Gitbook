@@ -24,14 +24,16 @@ Usa los patrones de prueba para la calibración (consulta [Patrones de prueba](.
 * **7** – Blue
 * **8** – White
 
-Cada uno muestra cuatro líneas en movimiento:
+Cada uno muestra cuatro líneas en movimiento. En un sistema láser, el brillo no depende solo del nivel de potencia, sino también del tiempo que el haz permanece en un mismo lugar. Cuando los escáneres se mueven más rápido, el haz pasa menos tiempo en cada punto y parece más tenue.
+
+Para tener esto en cuenta, los patrones de prueba escalan el brillo y la velocidad a la vez:
 
 * **Línea superior** – 100% de brillo a velocidad completa
 * **Segunda línea** – 75% de brillo al 75% de velocidad
 * **Tercera línea** – 50% de brillo al 50% de velocidad
 * **Cuarta línea** – 25% de brillo al 25% de velocidad
 
-Como se escalan a la vez el brillo _y la velocidad_, todas las líneas deberían verse con el mismo brillo. Si alguna se ve más clara o más oscura, ajusta el deslizador correspondiente hasta que coincidan.
+Como se escalan a la vez el brillo _y la velocidad_, todas las líneas deberían verse con el mismo brillo. Si una línea se ve más brillante o más tenue, ajusta el deslizador correspondiente hasta que coincidan.
 
 Cada patrón de prueba también tiene una quinta línea al **0% de brillo**, que no debería ser visible. Sirve para corregir láseres que no emiten luz en niveles muy bajos. Si tu láser sigue sin verse con un brillo bajo, aumenta gradualmente el **ajuste de 0%** hasta que la línea sea apenas visible y, después, bájalo un poco hasta que vuelva a desaparecer. El objetivo es encontrar el umbral en el que el láser empieza a encenderse y quedarse justo por debajo, para que los fundidos empiecen de forma natural sin recortar la parte inferior del rango.
 

@@ -57,7 +57,7 @@ L’installation est terminée ! Cliquez sur _Finish_ pour fermer l’installate
 
 <figure><img src="../../.gitbook/assets/windows-installer-5.png" alt=""><figcaption></figcaption></figure>
 
-Liberation a besoin d’autorisations pour accéder aux fichiers et au réseau ; Windows affichera donc probablement plusieurs demandes. Veillez à tout accepter, sinon Liberation pourrait ne pas fonctionner correctement.
+Liberation a besoin d’autorisations pour accéder aux fichiers et au réseau ; Windows affichera donc probablement quelques demandes d’autorisation. Veillez à tout accepter, sinon Liberation pourrait ne pas fonctionner correctement.
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 

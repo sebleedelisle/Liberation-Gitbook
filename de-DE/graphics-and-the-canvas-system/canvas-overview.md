@@ -31,7 +31,7 @@ Wenn du die Canvas-Buttons im Clip Deck nicht sehen kannst, versuche, die Beam-Z
 
 ### Canvas Zones
 
-Canvas Zones sind Bereiche innerhalb des Canvas, die du an einen Laser sendest. Sie werden in der Canvas-Ansicht als pinke Umrissrechtecke dargestellt. Du kannst mit der rechten Maustaste auf jede Zone klicken und die Laser auswählen, denen sie zugewiesen werden soll. Wenn du jetzt zur _OUTPUT_-Ansicht dieses Lasers wechselst, siehst du, dass eine neue Zone erschienen ist.
+Canvas zones sind Bereiche innerhalb des Canvas, die du an einen Laser sendest. Sie werden in der Canvas view als pinke Umrissrechtecke dargestellt. Du kannst mit der rechten Maustaste auf jede zone klicken und die Laser auswählen, denen sie zugewiesen werden soll. Wenn du jetzt zur _OUTPUT_-Ansicht dieses Lasers wechselst, siehst du, dass eine neue zone erschienen ist.
 
 {% hint style="danger" %}
 WARNUNG: Wenn der Laser aktiviert ist, könntest du plötzlich Inhalte in einer standardmäßigen Canvas Zone projizieren. Am besten deaktivierst du den Laser, bevor du ihm Canvas Zones zuweist.
