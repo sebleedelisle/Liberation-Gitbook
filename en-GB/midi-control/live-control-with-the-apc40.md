@@ -5,7 +5,7 @@ metaLinks:
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/midi-control/live-control-with-the-apc40
 ---
 
-# 🟩 Live control with the APC40
+# 🟩 Live MIDI Controllers
 
 <figure><img src="../.gitbook/assets/qs-apc40.jpeg" alt=""><figcaption></figcaption></figure>
 
@@ -28,3 +28,11 @@ The original APC40 Mark 1 came out in 2009(!) and some people still prefer it fo
 {% endhint %}
 
 For the full list of controls available on the APC40 see [apc40-reference.md](../reference/apc40-reference.md "mention")
+
+### APC Mini
+
+Liberation 1.0.3 also includes an APC Mini profile. It maps the 8x5 clip grid, zone buttons, zone X/Y flip controls, group buttons, stop all clips, clip page movement, zone page movement, tap tempo, bar reset and tempo nudge. Its faders control effect levels, and shifted faders control effect parameters. The final fader controls global brightness.
+
+### MIDI Fighter Twister
+
+The MIDI Fighter Twister profile is for encoder-heavy control rather than clip launching. One row of encoders controls parameter 1 for effect slots 1-8, and another row follows the eight contextual Parameters panel controls, including clip shift, zone delay, global spin/scale and group fades.

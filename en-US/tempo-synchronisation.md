@@ -102,6 +102,12 @@ The Liberation MIDI Clock tempo source also responds to **MIDI Machine Control (
 
 
 
+### Ableton Link
+
+To sync with Ableton Link, choose _ABLETON LINK_ as the tempo source. Liberation joins the Link session on your local network and follows the shared tempo and beat phase from other Link-enabled apps.
+
+Ableton Link does not use a MIDI port, and it does not carry absolute song position. Use the bar reset controls if you need Liberation's bar start to line up with a particular moment in the show.
+
 ### Timeline
 
 Each timeline has its own tempo, which can be a fixed value or a _Tempo Map_. The _Tempo Map_ allows you to adjust the tempo at specific times within the timeline.

@@ -16,5 +16,5 @@ The _Parameter Control_ is a method for controlling various settings within a ef
 * **parameter number** - every _parameter control_ can be assigned a number, and this is reflected on the controls outside of the clip. You can have more than one parameter control with the same number, and they are all adjusted at the same time.
 
 {% hint style="warning" %}
-Currently only parameter 1 of an effect is available to control with the APC40. All parameters within effects and clips are available in the right-click menu. In the future more of these parameters will be mappable with MIDI controllers.
+The APC40 and supported live controllers control parameter 1 for each effect slot by default. All parameters within effects and clips are also available in the right-click menu.
 {% endhint %}

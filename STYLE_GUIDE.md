@@ -48,6 +48,17 @@ Use these visible spellings in the manual:
 
 Use `Clip`, `Clip Deck`, `Clip Editor`, `zone`, `mask`, `Output view`, `Laser Settings`, `APC40`, `LaserCube`, `Art-Net`, `ILDA`, `DMX`, `MIDI`, and similar product/UI terms consistently with the app. Exact UI labels may keep the app's spelling and capitalisation.
 
+## UI Controls
+
+Use action-first wording for icon-only buttons. Name the action first, then add the icon as a locator in parentheses:
+
+| Use | Avoid |
+| --- | --- |
+| `Click **Edit DMX zone settings** (pencil icon).` | `Click the **Pencil** button.` |
+| `Click **Edit DMX profile/channel mapping** (sliders icon).` | `Click **Sliders**.` |
+
+This keeps instructions meaningful for screen readers, translations, and users who do not recognise the icon. Use the icon name by itself only when the app's visible UI label is actually the icon name.
+
 ## Checks
 
 Run the style check before translating:

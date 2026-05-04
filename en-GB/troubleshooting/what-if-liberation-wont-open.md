@@ -20,10 +20,10 @@ Fortunately, it’s easy to fix by resetting your local settings. Here’s how t
 
 #### Where to find the working folder
 
-Each version of Liberation has its own working folder. For example, if you’re running version 1.0.0, the folder name will be 1.0.0.
+Each version of Liberation has its own working folder. For example, if you’re running version 1.0.3, the folder name will be 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **How to open the folder quickly**
 
@@ -35,7 +35,7 @@ Each version of Liberation has its own working folder. For example, if you’re 
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Open the folder that matches your version number, for example `1.0.0`.
+3. Open the folder that matches your version number, for example `1.0.3`.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Each version of Liberation has its own working folder. For example, if you’re 
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Open the folder that matches your version number, for example `1.0.0`.
+2. Open the folder that matches your version number, for example `1.0.3`.
 
 > **Tip for Windows**: If you browse via File Explorer instead, enable hidden items: **View > Show > Hidden items**.
 
@@ -60,8 +60,8 @@ data/liberation/
 
 Inside the liberation folder you should find a file called `settings.json`. Delete this file.
 
-* **macOS example**: `~/Library/Application Support/Liberation/1.0.0/data/liberation/settings.json`
-* **Windows example**: `%LOCALAPPDATA%\Liberation\1.0.0\data\liberation\settings.json`
+* **macOS example**: `~/Library/Application Support/Liberation/1.0.3/data/liberation/settings.json`
+* **Windows example**: `%LOCALAPPDATA%\Liberation\1.0.3\data\liberation\settings.json`
 
 Now try launching Liberation. If it opens, you are done.
 
@@ -84,9 +84,9 @@ Try launching Liberation again. If it now opens normally, please email the backe
 If Step 1 and Step 2 did not help:
 
 1. **Back up** the entire version folder:
-   * macOS: Right-click the `1.0.0` folder and choose **Compress** to make a zip, or copy it somewhere safe like Desktop.
-   * Windows: Right-click the `1.0.0` folder and choose **Send to > Compressed (zipped) folder**, or copy it somewhere safe like Desktop.
-2. After backing up, **delete** the original `1.0.0` folder from the Liberation working location.
+   * macOS: Right-click the `1.0.3` folder and choose **Compress** to make a zip, or copy it somewhere safe like Desktop.
+   * Windows: Right-click the `1.0.3` folder and choose **Send to > Compressed (zipped) folder**, or copy it somewhere safe like Desktop.
+2. After backing up, **delete** the original `1.0.3` folder from the Liberation working location.
 3. Launch Liberation again. It will recreate a fresh working folder.
 
 If Liberation now opens, proceed to Step 4.
@@ -103,10 +103,10 @@ Zip up your **backup** from Step 3 if you did not already, then email it so we c
 * **Subject**: Liberation start-up fix - working folder backup
 * **Body**: Please include:
   * Operating system and version (e.g. macOS 14.6 or Windows 11 23H2)
-  * Liberation version (e.g. 1.0.0)
+  * Liberation version (e.g. 1.0.3)
   * Which step fixed it, if any (Step 1, Step 2 or Step 3)
   * A brief description of what happened before the issue started
-* **Attachment**: the zipped backup of your `1.0.0` working folder.
+* **Attachment**: the zipped backup of your `1.0.3` working folder.
 
 > If the zip is too large for email, upload it to a cloud drive and share a link.
 
@@ -127,5 +127,5 @@ If Liberation still won’t open after deleting the working folder:
 
 1. Delete `data/liberation/settings.json` in your versioned working folder.
 2. If you were editing a clip, back up then delete `data/liberation/clipEdit.json`.
-3. If it still doesn’t open, back up then delete the whole `1.0.0` (or your version) folder.
+3. If it still doesn’t open, back up then delete the whole `1.0.3` (or your version) folder.
 4. If Step 3 fixes it (or if it doesn't), zip the backup and send it to [**info@liberationlaser.com**](mailto:info@liberationlaser.com) with your OS, Liberation version.

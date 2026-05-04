@@ -120,7 +120,7 @@ Although it is possible to control Liberation using the mouse and keyboard, it's
 
 See also : [apc40-reference.md](reference/apc40-reference.md "mention")
 
-We have now also implemented support for APC Mini Mark 2 and the MIDI Fighter Twister, and more are in development. But the APC40 Mark 2 is the best option for most cases.
+Liberation also supports APC Mini and MIDI Fighter Twister. The APC40 Mark 2 is still the best option for most cases.
 
 ### Clips and effects
 

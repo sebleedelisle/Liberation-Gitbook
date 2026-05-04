@@ -9,10 +9,10 @@ metaLinks:
 
 #### Where to find the working folder
 
-Each version of Liberation has its own working folder. For example, if you’re running version 1.0.0, the folder name will be 1.0.0.
+Each version of Liberation has its own working folder. For example, if you’re running version 1.0.3, the folder name will be 1.0.3.
 
-* **macOS**: `~/Library/Application Support/Liberation/1.0.0`
-* **Windows**: `AppData\Local\Liberation\1.0.0`
+* **macOS**: `~/Library/Application Support/Liberation/1.0.3`
+* **Windows**: `AppData\Local\Liberation\1.0.3`
 
 **How to open the folder quickly**
 
@@ -24,7 +24,7 @@ Each version of Liberation has its own working folder. For example, if you’re 
     ```
     ~/Library/Application Support/Liberation
     ```
-3. Open the folder that matches your version number, for example `1.0.0`.
+3. Open the folder that matches your version number, for example `1.0.3`.
 
 **Windows**
 
@@ -33,6 +33,6 @@ Each version of Liberation has its own working folder. For example, if you’re 
     ```
     %LOCALAPPDATA%\Liberation
     ```
-2. Open the folder that matches your version number, for example `1.0.0`.
+2. Open the folder that matches your version number, for example `1.0.3`.
 
 > **Tip for Windows**: If you browse via File Explorer instead, enable hidden items: **View > Show > Hidden items**.

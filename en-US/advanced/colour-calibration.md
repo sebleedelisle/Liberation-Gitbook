@@ -24,16 +24,18 @@ Use the test patterns for calibration (see [Test patterns](../output-view/test-p
 * **7** – Blue
 * **8** – White
 
-Each of these shows four moving lines:
+Each of these shows four moving lines. Brightness in a laser system is affected not just by power level, but also by how long the beam spends in one place. When the scanners move faster, the beam spends less time on each point and appears dimmer.
+
+To account for this, the test patterns scale both brightness and speed together :
 
 * **Top line** – 100% brightness at full speed
 * **Second line** – 75% brightness at 75% speed
 * **Third line** – 50% brightness at 50% speed
 * **Fourth line** – 25% brightness at 25% speed
 
-Because both brightness _and speed_ are scaled together, the lines should all look the same brightness. If one looks lighter or darker, adjust the corresponding slider until they match.
+Because both brightness _and speed_ are scaled together, the lines should all look the same brightness. If one line looks brighter or dimmer, adjust the corresponding slider until they match.
 
-Each test pattern also has a fifth line at **0% brightness** which shouldn't be visible. This is used to correct for lasers that don’t output any light at very low levels. If your laser remains invisible at low brightness, gradually increase the **0% setting** until the line is just visible, then back it off slightly until it disappears again. The goal is to find the threshold where the laser starts to light, then stay just below it - so your fades start naturally without cutting off the bottom range.
+Each test pattern also has a fifth line at **0% brightness**, which should not be visible. This is used to correct for lasers that don’t output any light at very low levels. If your laser remains invisible at low brightness, gradually increase the **0% setting** until the line is just visible, then back it off slightly until it disappears again. The goal is to find the threshold where the laser starts to light, then stay just below it - so your fades start naturally without cutting off the bottom range.
 
 #### Using the Color Calibration panel
 
