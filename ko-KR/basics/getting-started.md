@@ -331,7 +331,7 @@ Liberation은 이 point stream이 생성되는 방식을 세밀하게 제어할 
 기본 scanner 설정은 다음과 같습니다.
 
 * **Speed** scanner 속도입니다. 즉 레이저가 형태를 그리기 위해 얼마나 빠르게 움직이는지를 의미합니다. 기존 레이저 소프트웨어에서 point rate를 조정하는 것과 비슷하지만, Liberation에서는 point rate와 _독립적으로_ 레이저 이동 속도를 변경할 수 있습니다. 일반적으로 조정할 필요는 없습니다.
-* **Scanner sync**(때로는 _blank shift_, 이전 명칭은 Colour Shift) scanners는 레이저를 매우 빠르게 움직이지만, 보통 밝기와 색상 변화가 움직임과 동기화되어 있지 않습니다. 이 경우 beams와 선의 가장자리에 작게 깜박이는 빛의 “꼬리”가 나타납니다. 이 조정값을 사용해 움직임과 색상이 서로 동기화되도록 맞춥니다. [Laser Settings](../setting-up/laser-settings/ "mention")를 참조하세요.
+* **Scanner sync**(때로는 _blank shift_, 이전 명칭은 Colour Shift) scanners는 레이저를 매우 빠르게 움직이지만, 보통 밝기와 색상 변화가 움직임과 동기화되어 있지 않습니다. 이 경우 beams와 선의 가장자리에 작게 깜박이는 빛의 “꼬리”가 나타납니다. 이 조정값을 사용해 움직임과 색상이 서로 동기화되도록 맞춥니다. [Laser Settings](../setting-up/laser-settings.md "mention")를 참조하세요.
 
 그 외의 고급 scanner 설정은 [고급](../advanced/ "mention") 장에서 다룹니다.
 

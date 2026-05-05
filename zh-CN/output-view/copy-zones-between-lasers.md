@@ -14,4 +14,4 @@
 注意：此过程不会为激光添加或移除 Zones，只会复制目标激光已存在的每个 Zone 的位置与类型。
 {% endhint %}
 
-更多功能详见 [在激光之间复制设置](../setting-up/laser-settings/copy-laser-settings.md "mention")。
+更多功能详见 [在激光之间复制设置](../setting-up/copy-laser-settings.md "mention")。

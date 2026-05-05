@@ -331,7 +331,7 @@ Si vous êtes habitué à d’anciens logiciels laser reposant sur des flux de p
 Les réglages de base des scanners sont :
 
 * **Speed** correspond à la vitesse des scanners, c’est-à-dire la rapidité avec laquelle le laser se déplace pour dessiner les formes. Cela équivaut à ajuster le débit de points dans un logiciel laser traditionnel, mais dans Liberation, vous pouvez modifier la vitesse de déplacement du laser _indépendamment du débit de points_. Vous ne devriez pas avoir besoin d’ajuster ce réglage.
-* **Scanner sync** (parfois appelé _blank shift, précédemment Colour Shift_) Les scanners déplacent le laser très rapidement, mais le changement de luminosité et de couleur est souvent désynchronisé par rapport au mouvement. Cela se manifeste par de petites « traînées » lumineuses scintillantes au bord des faisceaux et des lignes. Utilisez ce réglage pour synchroniser le mouvement et la couleur. Voir [Panneau des paramètres de sortie laser](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (parfois appelé _blank shift, précédemment Colour Shift_) Les scanners déplacent le laser très rapidement, mais le changement de luminosité et de couleur est souvent désynchronisé par rapport au mouvement. Cela se manifeste par de petites « traînées » lumineuses scintillantes au bord des faisceaux et des lignes. Utilisez ce réglage pour synchroniser le mouvement et la couleur. Voir [Panneau des paramètres de sortie laser](../setting-up/laser-settings.md "mention")
 
 Les autres réglages avancés des scanners sont décrits dans le chapitre [Avancé](../advanced/ "mention").
 

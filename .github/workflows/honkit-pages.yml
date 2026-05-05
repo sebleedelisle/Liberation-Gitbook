@@ -34,6 +34,9 @@ jobs:
       - name: Build HonKit site
         run: npm run build:site
 
+      - name: Check generated images
+        run: npm run check:generated-images
+
       - name: Configure Pages
         uses: actions/configure-pages@v6
 
@@ -41,6 +44,7 @@ jobs:
         uses: actions/upload-pages-artifact@v5
         with:
           path: _book
+          include-hidden-files: true
 
   deploy:
     needs: build

@@ -331,7 +331,7 @@ Ha olyan régebbi lézerszoftverhez vagy szokva, amely előre kiszámított poin
 Az alapvető scanner beállítások:
 
 * **Speed** a scanner sebessége, vagyis az, milyen gyorsan mozog a lézer az alakzatok rajzolásához. Ez a hagyományos lézerszoftverek point rate állításának felel meg, de a Liberation lehetővé teszi, hogy a lézer mozgási sebességét _a point rate értékétől függetlenül_ módosítsd. Ezt általában nem kell állítanod.
-* **Scanner sync** (más néven _blank shift, korábban Colour Shift_) A scanner nagyon gyorsan mozgatja a lézert, de a fényerő- és színváltozás általában nincs szinkronban a mozgással. Ez apró, vibráló fény-„farokként” jelenik meg a nyalábok és vonalak szélén. Ezzel a beállítással hozhatod szinkronba a mozgást és a színt. Lásd: [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (más néven _blank shift, korábban Colour Shift_) A scanner nagyon gyorsan mozgatja a lézert, de a fényerő- és színváltozás általában nincs szinkronban a mozgással. Ez apró, vibráló fény-„farokként” jelenik meg a nyalábok és vonalak szélén. Ezzel a beállítással hozhatod szinkronba a mozgást és a színt. Lásd: [Laser Settings](../setting-up/laser-settings.md "mention")
 
 A többi haladó scanner beállítást a [Haladó beállítások](../advanced/ "mention") fejezet tárgyalja.
 

@@ -331,7 +331,7 @@ Liberation 讓你能細緻控制這個點資料流的產生方式，讓你可以
 基本掃描器設定包括：
 
 * **Speed** 是掃描器速度，也就是雷射移動並繪製形狀的速度。這相當於傳統雷射軟體中調整點率，但在 Liberation 中，你可以_獨立於點率_調整雷射移動速度。通常你不需要調整這項設定。
-* **Scanner sync**（有時稱為 _blank shift_，先前稱為 Colour Shift）掃描器會讓雷射非常快速地移動，但亮度與顏色的變化通常會與移動不同步。這會在光束與線條邊緣出現細小閃爍的光「尾巴」。使用此調整可讓移動與顏色彼此同步。請參閱 [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync**（有時稱為 _blank shift_，先前稱為 Colour Shift）掃描器會讓雷射非常快速地移動，但亮度與顏色的變化通常會與移動不同步。這會在光束與線條邊緣出現細小閃爍的光「尾巴」。使用此調整可讓移動與顏色彼此同步。請參閱 [Laser Settings](../setting-up/laser-settings.md "mention")
 
 其他進階掃描器設定會在[進階](../advanced/ "mention")章節中說明。
 

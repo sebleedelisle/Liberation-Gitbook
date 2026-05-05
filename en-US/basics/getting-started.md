@@ -331,7 +331,7 @@ If you are used to older laser software that relies on pre-calculated point stre
 The basic scanner settings are:
 
 * **Speed** is the scanner speed, i.e. how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
-* **Scanner sync** (sometimes known as _blank shift, previously Color Shift_) The scanners move the laser around really fast but usually the change of brightness and color is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and color in sync with each other. See [Laser output settings panel](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (sometimes known as _blank shift, previously Color Shift_) The scanners move the laser around really fast but usually the change of brightness and color is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and color in sync with each other. See [Laser output settings panel](../setting-up/laser-settings.md "mention")
 
 The other advanced scanner settings are covered in the [advanced](../advanced/ "mention")chapter.
 
