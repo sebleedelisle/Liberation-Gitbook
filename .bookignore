@@ -1,8 +1,10 @@
 .bookignore
 .gitignore
 .mlc.config.json
+.translation-status.json
 .github/
 package.json
 package-lock.json
 plugins/
 scripts/
+*/setting-up/laser-settings/

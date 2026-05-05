@@ -13,7 +13,7 @@
 在 _Laser Overview_ 面板中点击红色 “-” 按钮即可移除激光。注意：这样会丢失该激光的所有设置！
 
 {% hint style="info" %}
-如果你想从其他激光复制 zones 或其他设置，使用 [在激光之间复制设置](laser-settings/copy-laser-settings.md "mention")。
+如果你想从其他激光复制 zones 或其他设置，使用 [在激光之间复制设置](copy-laser-settings.md "mention")。
 {% endhint %}
 
 {% hint style="info" %}

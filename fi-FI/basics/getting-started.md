@@ -331,7 +331,7 @@ Jos olet tottunut vanhempaan lasero-ohjelmistoon, joka perustuu ennalta laskettu
 Scanner-perusasetukset ovat:
 
 * **Speed** on scanner-nopeus, eli se kuinka nopeasti laser liikkuu piirtäessään muotoja. Tämä vastaa perinteisessä laserohjelmistossa point rate -arvon säätöä, mutta Liberationissa voit muuttaa laserin liikkumisnopeutta _point rate -arvosta riippumatta._ Tätä ei yleensä tarvitse säätää.
-* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Scanner liikuttaa laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon “häntinä” säteiden ja viivojen reunoilla. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Scanner liikuttaa laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon “häntinä” säteiden ja viivojen reunoilla. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laser Settings](../setting-up/laser-settings.md "mention")
 
 Muut edistyneet scanner-asetukset käsitellään luvussa [Lisäasetukset](../advanced/ "mention").
 

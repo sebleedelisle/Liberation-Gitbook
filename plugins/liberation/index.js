@@ -680,6 +680,20 @@ function copyDefaultLanguageAssets(context) {
   });
 }
 
+function ensurePageOutputDirectories(context) {
+  if (!context.output || context.output.name !== "website") return;
+
+  var root = context.output.root();
+  var languageRoot = getLanguageRoot(context.config);
+  var nodes = getSummary(languageRoot).nodesByPath;
+
+  Object.keys(nodes).forEach(function(sourcePath) {
+    var outputPath = markdownToOutputPath(sourcePath);
+    var outputDir = path.dirname(path.join(root, outputPath));
+    fs.mkdirSync(outputDir, { recursive: true });
+  });
+}
+
 function injectPageDescription(content, description) {
   if (!description || /class="lib-page-description"/.test(content)) return content;
 
@@ -745,6 +759,10 @@ module.exports = {
   },
 
   hooks: {
+    init: function() {
+      ensurePageOutputDirectories(this);
+    },
+
     page: function(page) {
       var config = getPluginConfig(this);
       var repo = getConfigValue(config, "repo", "");

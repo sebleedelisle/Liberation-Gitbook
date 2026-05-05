@@ -331,7 +331,7 @@ Jeśli korzystasz ze starszego oprogramowania laserowego, które opiera się na 
 Podstawowe ustawienia skanerów to:
 
 * **Speed** to prędkość skanera, czyli szybkość, z jaką laser porusza się, aby rysować kształty. Odpowiada to regulacji point rate w tradycyjnym oprogramowaniu laserowym, ale w Liberation możesz zmieniać szybkość ruchu lasera _niezależnie od point rate_. Zwykle nie ma potrzeby zmieniać tego ustawienia.
-* **Scanner sync** (czasem znane jako _blank shift_, wcześniej Colour Shift) Skanery poruszają laserem bardzo szybko, ale zwykle zmiany jasności i koloru nie są zsynchronizowane z ruchem. Objawia się to małymi, migotliwymi „ogonami” światła na krawędziach wiązek i linii. Użyj tej regulacji, aby zsynchronizować ruch i kolor. Zobacz [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (czasem znane jako _blank shift_, wcześniej Colour Shift) Skanery poruszają laserem bardzo szybko, ale zwykle zmiany jasności i koloru nie są zsynchronizowane z ruchem. Objawia się to małymi, migotliwymi „ogonami” światła na krawędziach wiązek i linii. Użyj tej regulacji, aby zsynchronizować ruch i kolor. Zobacz [Laser Settings](../setting-up/laser-settings.md "mention")
 
 Pozostałe zaawansowane ustawienia skanerów omówiono w rozdziale [Zaawansowane](../advanced/ "mention").
 

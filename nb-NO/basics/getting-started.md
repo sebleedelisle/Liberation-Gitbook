@@ -331,7 +331,7 @@ Hvis du er vant til eldre laserprogramvare som baserer seg på forhåndsberegned
 De grunnleggende scanner-innstillingene er:
 
 * **Speed** er scanner-hastigheten, altså hvor raskt laseren beveger seg rundt for å tegne former. Dette tilsvarer å justere point rate i tradisjonell laserprogramvare, men i Liberation kan du endre hvor raskt laseren beveger seg _uavhengig av point rate._ Du skal normalt ikke trenge å justere dette.
-* **Scanner sync** (noen ganger kalt _blank shift, tidligere Colour Shift_) Scannere beveger laseren svært raskt, men vanligvis er endringen i brightness og farge ute av synk med bevegelsen. Dette viser seg som små flimrende «haler» av lys i kanten av beams og linjer. Bruk denne justeringen for å få bevegelse og farge i synk med hverandre. Se [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (noen ganger kalt _blank shift, tidligere Colour Shift_) Scannere beveger laseren svært raskt, men vanligvis er endringen i brightness og farge ute av synk med bevegelsen. Dette viser seg som små flimrende «haler» av lys i kanten av beams og linjer. Bruk denne justeringen for å få bevegelse og farge i synk med hverandre. Se [Laser Settings](../setting-up/laser-settings.md "mention")
 
 De andre avanserte scanner-innstillingene dekkes i kapittelet [Avansert](../advanced/ "mention").
 

@@ -331,7 +331,7 @@ Liberation では、このポイントストリームの生成方法を細かく
 基本的な scanner settings は次のとおりです。
 
 * **Speed** は scanner speed、つまりレーザーが図形を描くためにどれだけ速く動くかです。従来のレーザーソフトウェアでポイントレートを調整することに相当しますが、Liberation では _point rate とは独立して_ レーザーの移動速度を変更できます。通常、調整する必要はありません。
-* **Scanner sync**（_blank shift、以前の Colour Shift_ と呼ばれることもあります）scanner はレーザーを非常に高速に動かしますが、通常、明るさや色の変化はその動きと同期していません。その結果、beam や線の端に小さくちらつく光の「尾」が現れます。この調整を使って、動きと色が互いに同期するようにします。[Laser Settings](../setting-up/laser-settings/ "mention")を参照してください。
+* **Scanner sync**（_blank shift、以前の Colour Shift_ と呼ばれることもあります）scanner はレーザーを非常に高速に動かしますが、通常、明るさや色の変化はその動きと同期していません。その結果、beam や線の端に小さくちらつく光の「尾」が現れます。この調整を使って、動きと色が互いに同期するようにします。[Laser Settings](../setting-up/laser-settings.md "mention")を参照してください。
 
 その他の高度な scanner settings については、[高度な機能](../advanced/ "mention")の章で説明します。
 

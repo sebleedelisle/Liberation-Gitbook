@@ -331,7 +331,7 @@ Ako ste navikli na stariji laserski softver koji se oslanja na unaprijed izraču
 Osnovne postavke skenera su:
 
 * **Speed** je brzina skenera, tj. koliko se brzo laser kreće dok crta oblike. To je ekvivalent podešavanju brzine točaka u tradicionalnom laserskom softveru, ali u Liberation možete mijenjati brzinu kretanja lasera _neovisno o brzini točaka._ Ovo obično ne biste trebali podešavati.
-* **Scanner sync** (ponekad poznato kao _blank shift_, prije _Colour Shift_) Skeneri pomiču laser vrlo brzo, ali promjena svjetline i boje obično nije sinkronizirana s kretanjem. To se vidi kao mali treperavi „repovi” svjetla na rubovima snopova i linija. Upotrijebite ovu postavku kako biste međusobno sinkronizirali kretanje i boju. Pogledajte [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (ponekad poznato kao _blank shift_, prije _Colour Shift_) Skeneri pomiču laser vrlo brzo, ali promjena svjetline i boje obično nije sinkronizirana s kretanjem. To se vidi kao mali treperavi „repovi” svjetla na rubovima snopova i linija. Upotrijebite ovu postavku kako biste međusobno sinkronizirali kretanje i boju. Pogledajte [Laser Settings](../setting-up/laser-settings.md "mention")
 
 Ostale napredne postavke skenera obrađene su u poglavlju [Napredno](../advanced/ "mention").
 

@@ -331,7 +331,7 @@ Liberation 让你可以详细控制点流的生成方式，从而为每台激光
 基本扫描器设置包括：
 
 * **Speed** 是扫描器速度，也就是激光移动并绘制形状的速度。这相当于传统激光软件中的点速率调整，但在 Liberation 中，你可以在_不依赖点速率_的情况下改变激光移动速度。通常不需要调整它。
-* **Scanner sync**（有时称为 _blank shift_，以前称为 Colour Shift）扫描器会非常快速地移动激光，但亮度和颜色变化通常会与运动不同步。这会表现为光束和线条边缘出现轻微闪烁的光“尾巴”。使用此调整可让运动与颜色彼此同步。见 [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync**（有时称为 _blank shift_，以前称为 Colour Shift）扫描器会非常快速地移动激光，但亮度和颜色变化通常会与运动不同步。这会表现为光束和线条边缘出现轻微闪烁的光“尾巴”。使用此调整可让运动与颜色彼此同步。见 [Laser Settings](../setting-up/laser-settings.md "mention")
 
 其他高级扫描器设置在[高级](../advanced/ "mention")章节中介绍。
 

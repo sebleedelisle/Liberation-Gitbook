@@ -15,6 +15,7 @@
     "serve:honkit": "honkit serve",
     "preview": "python3 -m http.server 4000 --directory _book",
     "check:links": "python3 scripts/check_links.py && python3 scripts/check_link_texts.py && python3 scripts/check_summary_icons.py",
+    "check:generated-images": "python3 scripts/check_generated_images.py",
     "check:link-texts": "python3 scripts/check_link_texts.py",
     "check:summary-icons": "python3 scripts/check_summary_icons.py",
     "check:english-style": "python3 scripts/check_english_style.py",

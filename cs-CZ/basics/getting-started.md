@@ -331,7 +331,7 @@ Pokud jste zvyklí na starší laserový software, který spoléhá na předem v
 Základní nastavení skenerů jsou:
 
 * **Speed** je rychlost skenerů, tedy jak rychle se laser pohybuje při kreslení tvarů. Odpovídá to úpravě point rate v tradičním laserovém softwaru, ale v Liberation můžete měnit rychlost pohybu laseru _nezávisle na point rate._ Toto nastavení byste neměli potřebovat měnit.
-* **Scanner sync** (někdy označované jako _blank shift, dříve Colour Shift_) Skener pohybuje laserem opravdu rychle, ale změna jasu a barvy obvykle není synchronizovaná s pohybem. Projevuje se to jako malé blikající „ocásky“ světla na okrajích paprsků a čar. Tímto nastavením sladíte pohyb a barvu. Viz [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (někdy označované jako _blank shift, dříve Colour Shift_) Skener pohybuje laserem opravdu rychle, ale změna jasu a barvy obvykle není synchronizovaná s pohybem. Projevuje se to jako malé blikající „ocásky“ světla na okrajích paprsků a čar. Tímto nastavením sladíte pohyb a barvu. Viz [Laser Settings](../setting-up/laser-settings.md "mention")
 
 Další pokročilá nastavení skenerů jsou popsána v kapitole [Pokročilé](../advanced/ "mention").
 

@@ -331,7 +331,7 @@ Ef þú ert vön eldri leysihugbúnaði sem reiðir sig á fyrirfram útreiknað
 Grunnstillingar scanner eru:
 
 * **Speed** er hraði skannanna, þ.e. hversu hratt leysirinn hreyfist til að teikna form. Þetta samsvarar því að stilla point rate í hefðbundnum leysihugbúnaði, en í Liberation geturðu breytt því hversu hratt leysirinn hreyfist _óháð point rate._ Þú ættir ekki að þurfa að breyta þessu.
-* **Scanner sync** (stundum kallað _blank shift, áður Colour Shift_) Skannarnir hreyfa leysinn mjög hratt, en yfirleitt er breyting á birtu og lit ekki í takt við hreyfinguna. Þetta birtist sem litlir flöktandi „halar“ af ljósi á jaðri geisla og lína. Notaðu þessa stillingu til að samstilla hreyfingu og lit. Sjá [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (stundum kallað _blank shift, áður Colour Shift_) Skannarnir hreyfa leysinn mjög hratt, en yfirleitt er breyting á birtu og lit ekki í takt við hreyfinguna. Þetta birtist sem litlir flöktandi „halar“ af ljósi á jaðri geisla og lína. Notaðu þessa stillingu til að samstilla hreyfingu og lit. Sjá [Laser Settings](../setting-up/laser-settings.md "mention")
 
 Aðrar ítarlegar scanner stillingar eru útskýrðar í kaflanum [Ítarlegt](../advanced/ "mention").
 

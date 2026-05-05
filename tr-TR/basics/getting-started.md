@@ -331,7 +331,7 @@ Liberation, bu point stream’in nasıl üretileceği üzerinde ayrıntılı kon
 Temel tarayıcı ayarları şunlardır:
 
 * **Speed** tarayıcı hızıdır; yani lazerin şekil çizmek için ne kadar hızlı hareket ettiğidir. Geleneksel lazer yazılımlarında point rate ayarlamaya karşılık gelir, ancak Liberation’da lazerin ne kadar hızlı hareket ettiğini _point rate değerinden bağımsız olarak_ değiştirebilirsiniz. Bunu ayarlamanız gerekmez.
-* **Scanner sync** (bazen _blank shift_, önceki adıyla Colour Shift olarak bilinir) Tarayıcılar lazeri çok hızlı hareket ettirir, ancak parlaklık ve renk değişimi genellikle hareketle senkron değildir. Bu durum, beam ve çizgilerin kenarında küçük titrek ışık “kuyrukları” olarak görünür. Hareket ve rengi birbiriyle senkron hâle getirmek için bu ayarı kullanın. Bkz. [Laser Settings](../setting-up/laser-settings/ "mention")
+* **Scanner sync** (bazen _blank shift_, önceki adıyla Colour Shift olarak bilinir) Tarayıcılar lazeri çok hızlı hareket ettirir, ancak parlaklık ve renk değişimi genellikle hareketle senkron değildir. Bu durum, beam ve çizgilerin kenarında küçük titrek ışık “kuyrukları” olarak görünür. Hareket ve rengi birbiriyle senkron hâle getirmek için bu ayarı kullanın. Bkz. [Laser Settings](../setting-up/laser-settings.md "mention")
 
 Diğer gelişmiş tarayıcı ayarları [Gelişmiş](../advanced/ "mention") bölümünde ele alınır.
 
