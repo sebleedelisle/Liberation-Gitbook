@@ -564,6 +564,41 @@ def write_translation_status(status):
     )
 
 
+def remove_empty_parent_dirs(path, stop_at):
+    parent = path.parent
+    while parent != stop_at and parent.is_relative_to(stop_at):
+        try:
+            parent.rmdir()
+        except OSError:
+            return
+        parent = parent.parent
+
+
+def prune_orphaned_markdown(source_root, target_root, status):
+    if not target_root.exists():
+        return []
+
+    source_rels = {
+        path.relative_to(source_root)
+        for path in source_root.rglob("*.md")
+        if path.is_file()
+    }
+    entries = status.setdefault("entries", {})
+    removed = []
+
+    for target in sorted(path for path in target_root.rglob("*.md") if path.is_file()):
+        rel = target.relative_to(target_root)
+        if rel in source_rels:
+            continue
+
+        target.unlink()
+        entries.pop(str(target), None)
+        removed.append(rel)
+        remove_empty_parent_dirs(target, target_root)
+
+    return removed
+
+
 def system_prompt(target_language, language_name, output_kind="markdown"):
     style_guidance = LANGUAGE_STYLE_GUIDANCE.get(target_language, "")
     app_terms = ", ".join(CURRENT_APP_TERMS)
@@ -1377,6 +1412,9 @@ def main():
     require_provider_key(args.provider)
     target_root.mkdir(parents=True, exist_ok=True)
     write_book_json(target_root, args.target_language)
+    removed_orphans = prune_orphaned_markdown(args.source_root, target_root, translation_status)
+    for rel in removed_orphans:
+        print(f"Removed orphaned translation: {rel}")
 
     for index, (source, target, rel) in enumerate(files, start=1):
         print(f"[{index}/{len(files)}] {rel}", flush=True)
@@ -1408,7 +1446,7 @@ def main():
         target.write_text(normalize_final_markdown(translated), encoding="utf-8")
         mark_translation_current(translation_status, source, target)
 
-    if files:
+    if files or removed_orphans:
         write_translation_status(translation_status)
 
     if args.update_langs:

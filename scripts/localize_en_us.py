@@ -322,6 +322,11 @@ def mark_en_us_current() -> None:
     status = load_translation_status()
     status.setdefault("source_root", str(SOURCE_ROOT))
     entries = status.setdefault("entries", {})
+    target_prefix = f"{TARGET_ROOT}/"
+
+    for target in list(entries):
+        if target.startswith(target_prefix):
+            del entries[target]
 
     for source in sorted(SOURCE_ROOT.rglob("*.md")):
         target = TARGET_ROOT / source.relative_to(SOURCE_ROOT)
