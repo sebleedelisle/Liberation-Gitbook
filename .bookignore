@@ -3,6 +3,7 @@
 .mlc.config.json
 .translation-status.json
 .github/
+.screenshot-work/
 package.json
 package-lock.json
 plugins/

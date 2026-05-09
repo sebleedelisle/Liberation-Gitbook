@@ -50,7 +50,7 @@ Not sure what a particular button does? Hover over it with your mouse to get a d
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-The menu is where you will find all file import / export options, and to open panels. You'll also find the option to authorise the computer with your subscription here (in _Liberation -> Authorise/Deauthorise this computer_) .
+The menu is where you will find all file import / export options, and to open panels. You'll also find the option to authorise the computer with your licence here (in _Liberation -> Authorise/Deauthorise this computer_) .
 
 #### Icon bar
 

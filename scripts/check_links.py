@@ -14,7 +14,7 @@ from typing import Iterable
 
 IGNORED_PREFIXES = ("http://", "https://", "mailto:", "tel:", "#")
 MARKDOWN_PATTERN = re.compile(r"\[([^\]]+)\]\(([^()\s]+[^()]*)\)")
-SKIP_DIRS = {"_book", "node_modules"}
+SKIP_DIRS = {".git", ".screenshot-work", "_book", "node_modules"}
 
 
 def iter_markdown_files(root: Path) -> Iterable[Path]:

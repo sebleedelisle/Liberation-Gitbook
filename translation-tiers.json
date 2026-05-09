@@ -1,0 +1,43 @@
+{
+  "generated": [
+    "en-US"
+  ],
+  "weekly": [
+    "de-DE",
+    "fr-FR",
+    "es-ES",
+    "nl-NL",
+    "zh-CN",
+    "ja-JP",
+    "ko-KR",
+    "pt-BR",
+    "zh-HK",
+    "it-IT"
+  ],
+  "monthly": [
+    "de-DE",
+    "fr-FR",
+    "es-ES",
+    "nl-NL",
+    "zh-CN",
+    "zh-HK",
+    "zh-TW",
+    "ja-JP",
+    "ko-KR",
+    "pt-BR",
+    "pl-PL",
+    "it-IT",
+    "ru-RU",
+    "tr-TR",
+    "vi-VN",
+    "ar",
+    "da-DK",
+    "nb-NO",
+    "sv-SE",
+    "fi-FI",
+    "hu-HU",
+    "cs-CZ",
+    "hr-HR",
+    "is-IS"
+  ]
+}

@@ -1,0 +1,222 @@
+name: Translation Updates
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+    - cron: "0 4 1 * *"
+  workflow_dispatch:
+    inputs:
+      tier:
+        description: Translation batch to run.
+        type: choice
+        options:
+          - weekly
+          - monthly
+        default: weekly
+      force_cadence:
+        description: Run even if the tier ran recently.
+        type: boolean
+        default: false
+      dry_run:
+        description: Preview stale files without changing the branch.
+        type: boolean
+        default: false
+      limit:
+        description: Optional per-locale file limit for testing.
+        type: string
+        required: false
+      locale:
+        description: Optional space-separated locale override, for example "de-DE fr-FR".
+        type: string
+        required: false
+      skip_en_us:
+        description: Skip generated US English.
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: translations
+  cancel-in-progress: false
+
+jobs:
+  update-translations:
+    runs-on: ubuntu-latest
+    env:
+      BASE_BRANCH: ${{ github.event.repository.default_branch }}
+      TRANSLATE_PROVIDER: ${{ vars.TRANSLATE_PROVIDER || 'openai' }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Determine batch
+        id: batch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "schedule" ]]; then
+            if [[ "${{ github.event.schedule }}" == "0 4 1 * *" ]]; then
+              echo "tier=monthly" >> "$GITHUB_OUTPUT"
+            else
+              echo "tier=weekly" >> "$GITHUB_OUTPUT"
+            fi
+            echo "dry_run=false" >> "$GITHUB_OUTPUT"
+            echo "force_cadence=false" >> "$GITHUB_OUTPUT"
+            echo "skip_en_us=false" >> "$GITHUB_OUTPUT"
+            echo "limit=" >> "$GITHUB_OUTPUT"
+            echo "locales=" >> "$GITHUB_OUTPUT"
+          else
+            echo "tier=${{ inputs.tier }}" >> "$GITHUB_OUTPUT"
+            echo "dry_run=${{ inputs.dry_run }}" >> "$GITHUB_OUTPUT"
+            echo "force_cadence=${{ inputs.force_cadence }}" >> "$GITHUB_OUTPUT"
+            echo "skip_en_us=${{ inputs.skip_en_us }}" >> "$GITHUB_OUTPUT"
+            echo "limit=${{ inputs.limit }}" >> "$GITHUB_OUTPUT"
+            echo "locales=${{ inputs.locale }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run translation batch
+        shell: bash
+        env:
+          TIER: ${{ steps.batch.outputs.tier }}
+          DRY_RUN: ${{ steps.batch.outputs.dry_run }}
+          FORCE_CADENCE: ${{ steps.batch.outputs.force_cadence }}
+          SKIP_EN_US: ${{ steps.batch.outputs.skip_en_us }}
+          LIMIT: ${{ steps.batch.outputs.limit }}
+          LOCALES: ${{ steps.batch.outputs.locales }}
+        run: |
+          set -euo pipefail
+
+          args=("$TIER")
+
+          if [[ "$DRY_RUN" == "true" ]]; then
+            args+=("--dry-run")
+          fi
+          if [[ "$FORCE_CADENCE" == "true" ]]; then
+            args+=("--force-cadence")
+          fi
+          if [[ "$SKIP_EN_US" == "true" ]]; then
+            args+=("--skip-en-us")
+          fi
+          if [[ -n "$LIMIT" ]]; then
+            args+=("--limit" "$LIMIT")
+          fi
+          for locale in $LOCALES; do
+            args+=("--locale" "$locale")
+          done
+
+          python3 scripts/run_translation_batch.py "${args[@]}"
+
+      - name: Run translation checks
+        if: steps.batch.outputs.dry_run != 'true'
+        shell: bash
+        env:
+          TIER: ${{ steps.batch.outputs.tier }}
+          SKIP_EN_US: ${{ steps.batch.outputs.skip_en_us }}
+          LOCALES: ${{ steps.batch.outputs.locales }}
+        run: |
+          set -euo pipefail
+
+          args=("$TIER" "--strict")
+          if [[ "$SKIP_EN_US" == "true" ]]; then
+            args+=("--skip-en-us")
+          fi
+          for locale in $LOCALES; do
+            args+=("--locale" "$locale")
+          done
+
+          npm run check:english-style
+          python3 scripts/check_translation_batch.py "${args[@]}"
+          npm run check:links
+          npm run build:site
+          npm run check:generated-images
+
+      - name: Commit changes
+        if: steps.batch.outputs.dry_run != 'true'
+        id: commit
+        shell: bash
+        env:
+          TIER: ${{ steps.batch.outputs.tier }}
+        run: |
+          set -euo pipefail
+
+          if [[ -z "$(git status --porcelain)" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          branch="translation/$TIER"
+          title="$(tr '[:lower:]' '[:upper:]' <<< "${TIER:0:1}")${TIER:1} translation update"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$branch"
+          git add .
+          git commit -m "$title"
+          git push --force-with-lease origin "$branch"
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          echo "title=$title" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update pull request
+        if: steps.commit.outputs.changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ steps.commit.outputs.branch }}
+          TITLE: ${{ steps.commit.outputs.title }}
+          TIER: ${{ steps.batch.outputs.tier }}
+        run: |
+          set -euo pipefail
+
+          body=$(cat <<EOF
+          Automated $TIER translation update.
+
+          This PR was generated by the Translation Updates workflow after running:
+
+          \`\`\`sh
+          python3 scripts/run_translation_batch.py $TIER
+          npm run check:english-style
+          python3 scripts/check_translation_batch.py $TIER --strict
+          npm run check:links
+          npm run build:site
+          npm run check:generated-images
+          \`\`\`
+          EOF
+          )
+
+          if gh pr view "$BRANCH" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh pr edit "$BRANCH" \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$TITLE" \
+              --body "$body"
+          else
+            gh pr create \
+              --repo "$GITHUB_REPOSITORY" \
+              --base "$BASE_BRANCH" \
+              --head "$BRANCH" \
+              --title "$TITLE" \
+              --body "$body"
+          fi
+
+      - name: No translation changes
+        if: steps.batch.outputs.dry_run != 'true' && steps.commit.outputs.changed == 'false'
+        run: echo "No translation changes to publish."

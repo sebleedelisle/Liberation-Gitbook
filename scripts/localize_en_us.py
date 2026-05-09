@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import re
 import shutil
@@ -13,6 +14,7 @@ import check_link_texts
 
 SOURCE_ROOT = Path("en-GB")
 TARGET_ROOT = Path("en-US")
+TRANSLATION_STATUS_PATH = Path(".translation-status.json")
 
 MARKDOWN_LINK_PATTERN = re.compile(r"(!?)\[([^\]]*)\]\(([^)]*)\)")
 INLINE_CODE_PATTERN = re.compile(r"(`+[^`\n]*`+)")
@@ -151,6 +153,8 @@ TERM_REPLACEMENTS = {
     "behaviours": "behaviors",
     "behaviour": "behavior",
     "travelling": "traveling",
+    "cancelled": "canceled",
+    "cancelling": "canceling",
     "labelled": "labeled",
     "labelling": "labeling",
     "modelling": "modeling",
@@ -297,6 +301,40 @@ def fix_link_labels() -> None:
     print(f"Fixed {fixed} {TARGET_ROOT} link labels.")
 
 
+def source_sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def load_translation_status() -> dict:
+    if not TRANSLATION_STATUS_PATH.exists():
+        return {"source_root": str(SOURCE_ROOT), "entries": {}}
+    return json.loads(TRANSLATION_STATUS_PATH.read_text(encoding="utf-8"))
+
+
+def write_translation_status(status: dict) -> None:
+    TRANSLATION_STATUS_PATH.write_text(
+        json.dumps(status, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+
+
+def mark_en_us_current() -> None:
+    status = load_translation_status()
+    status.setdefault("source_root", str(SOURCE_ROOT))
+    entries = status.setdefault("entries", {})
+
+    for source in sorted(SOURCE_ROOT.rglob("*.md")):
+        target = TARGET_ROOT / source.relative_to(SOURCE_ROOT)
+        if not target.exists():
+            continue
+        entries[str(target)] = {
+            "source": str(source),
+            "source_sha256": source_sha256(source),
+        }
+
+    write_translation_status(status)
+
+
 def main() -> None:
     if not SOURCE_ROOT.exists():
         raise SystemExit(f"Missing source folder: {SOURCE_ROOT}")
@@ -306,6 +344,7 @@ def main() -> None:
     shutil.copytree(SOURCE_ROOT, TARGET_ROOT)
     transform_target_files()
     fix_link_labels()
+    mark_en_us_current()
     print(f"Generated {TARGET_ROOT} from {SOURCE_ROOT}")
 
 
