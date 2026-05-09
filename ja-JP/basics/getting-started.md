@@ -50,7 +50,7 @@ Liberation には、さまざまなスライダーやコントロールがあり
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-メニューでは、すべてのファイルのインポート／エクスポート項目や、各 panel を開く項目を見つけられます。また、サブスクリプションでこのコンピューターを認証する項目もここにあります（_Liberation -> Authorise/Deauthorise this computer_）。
+メニューには、すべてのファイルのインポート／エクスポート項目と、各 panel を開く項目があります。また、ライセンスでこのコンピューターを認証する項目もここにあります（_Liberation -> Authorise/Deauthorise this computer_）。
 
 #### アイコンバー
 

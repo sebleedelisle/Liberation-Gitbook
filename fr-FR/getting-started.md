@@ -56,7 +56,7 @@ Vous ne savez pas à quoi sert un bouton ? Survolez-le avec la souris pour obten
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Le menu contient toutes les options d’import/export de fichiers, ainsi que l’accès aux panneaux. Vous y trouverez également l’option permettant d’autoriser l’ordinateur avec votre abonnement (dans _Liberation -> Authorise/Deauthorise this computer_).
+Le menu contient toutes les options d’import/export de fichiers, ainsi que l’accès aux panneaux. Vous y trouverez également l’option permettant d’autoriser l’ordinateur avec votre licence (dans _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Barre d’icônes
 

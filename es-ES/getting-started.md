@@ -56,7 +56,7 @@ Puedes encontrar una lista completa de atajos de teclado aquí: [Atajos de tecla
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-En el menú encontrarás todas las opciones de importación/exportación de archivos y la apertura de paneles. También encontrarás aquí la opción para autorizar el ordenador con tu suscripción, en _Liberation -> Authorise/Deauthorise this computer_.
+En el menú encontrarás todas las opciones de importación/exportación de archivos y la apertura de paneles. También encontrarás aquí la opción para autorizar el ordenador con tu licencia, en _Liberation -> Authorise/Deauthorise this computer_.
 
 #### Barra de iconos
 

@@ -13,13 +13,13 @@ Computer Windows 10 o 11 a 64 bit. Se vuoi eseguire show di grandi dimensioni, s
 
 ### Procedura di installazione
 
-Una volta attivato un abbonamento, riceverai un link oppure potrai fare clic sul link _Download_ nella pagina[ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Una volta attivata una licenza a pagamento, riceverai un link oppure potrai fare clic su _Download_ nella pagina [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Vedrai questa pagina:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Fai clic su _Download latest for Windows_ (i numeri di versione possono cambiare) e vedrai l’indicatore di download mostrare l’avanzamento (di solito in alto a destra; lo screenshot è di Chrome). Al termine, apri i download e fai clic sul file di installazione scaricato.
+Fai clic su _Download for Windows_ (i numeri di versione possono cambiare) e vedrai l’indicatore di download mostrare l’avanzamento (di solito in alto a destra; lo screenshot è di Chrome). Al termine, apri i download e fai clic sul file di installazione scaricato.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

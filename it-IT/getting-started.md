@@ -56,7 +56,7 @@ Non sai a cosa serve un pulsante? Passaci sopra con il mouse per visualizzarne l
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Nel menu trovi tutte le opzioni di importazione/esportazione dei file e l’apertura dei pannelli. Qui trovi anche l’opzione per autorizzare il computer con il tuo abbonamento, in _Liberation -> Authorise/Deauthorise this computer_.
+Nel menu trovi tutte le opzioni di importazione/esportazione dei file e l’apertura dei pannelli. Qui trovi anche l’opzione per autorizzare il computer con la tua licenza, in _Liberation -> Authorise/Deauthorise this computer_.
 
 #### Barra delle icone
 

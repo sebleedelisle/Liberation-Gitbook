@@ -26,7 +26,7 @@ Liberation puede controlar muchos láseres desde un solo ordenador. Se ha probad
 
 * la CPU de tu ordenador
 * la velocidad de la red
-* tu tipo de suscripción
+* tu nivel de licencia
 
 #### **¿Qué controladores MIDI puedo usar?**
 
@@ -89,11 +89,11 @@ Ten en cuenta que puedes configurar, previsualizar y diseñar shows con tantos l
 
 #### **¿Puedo subir a un nivel superior?**
 
-Puedes subir a un nivel superior en cualquier momento. Recibirás un reembolso parcial por el tiempo restante de tu licencia actual y tu nuevo plan empezará inmediatamente. Consulta [Mejora o reduce tu licencia](installation/upgrade-downgrade-your-license.md "mention")
+Puedes subir a un nivel superior en cualquier momento. Recibirás un reembolso parcial por el tiempo restante de tu periodo de pago actual y tu nuevo nivel de licencia empezará inmediatamente. Consulta [Mejora o reduce tu licencia](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **¿Puedo bajar mi licencia de nivel?**
 
-Puedes bajar de nivel en cualquier momento, pero el cambio se aplicará al final del periodo de licencia actual. Consulta [Mejora o reduce tu licencia](installation/upgrade-downgrade-your-license.md "mention")
+Puedes bajar de nivel en cualquier momento, pero el cambio se aplicará al final de tu periodo de pago actual. Consulta [Mejora o reduce tu licencia](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **¿Cómo autorizo mi ordenador con mi licencia?**
 
@@ -101,19 +101,19 @@ Una vez que hayas comprado una licencia, puedes autorizar el ordenador desde el 
 
 #### **¿Cada cuánto tengo que conectar mi ordenador a internet?**
 
-Cada vez que se renueve la licencia, tendrás que conectar Liberation a internet para actualizar su licencia interna. Con un pago recurrente mensual, tendrás que conectarlo cada mes.
+Cada vez que una licencia de pago se actualice después de un pago, tendrás que conectar Liberation a internet para actualizar su licencia interna. Con una licencia mensual de renovación automática, tendrás que conectarlo cada mes.
 
-#### **¿Qué ocurre si no puedo conectar mi ordenador a internet después de la renovación?**
+#### **¿Qué ocurre si no puedo conectar mi ordenador a internet después del siguiente pago?**
 
-Liberation te dará un periodo de gracia de 7 días después de que se renueve tu licencia para conectarlo a internet y actualizar su licencia interna. Pasado ese periodo, Liberation volverá al modo _Free_.
+Liberation te dará un periodo de gracia de 7 días después de que se actualice tu licencia de pago para conectarlo a internet y actualizar su licencia interna. Pasado ese periodo, Liberation volverá al modo _Free_.
 
 #### **¿Qué ocurre si caduca mi tarjeta de crédito?**
 
-Recibirás una notificación por correo electrónico de nuestro proveedor de pagos y tendrás que actualizar tu método de pago. Inicia sesión en el sitio web y usa el enlace _Update payment details_ en la página de suscripciones.
+Recibirás una notificación por correo electrónico de nuestro proveedor de pagos y tendrás que actualizar los datos de tu tarjeta. Inicia sesión en el sitio web y usa _UPDATE CARD DETAILS_ en la página de licencia, o _Update_ en _Billing and payments_.
 
-#### **¿Cómo cancelo mi licencia recurrente?**
+#### **¿Cómo cancelo la renovación automática de mi licencia?**
 
-Inicia sesión en el sitio web, abre la página _Your subscriptions_, selecciona la suscripción que quieres cancelar y haz clic en el enlace _Cancel Subscription_. Puedes seguir usando Liberation durante el resto del periodo de licencia.
+Inicia sesión en el sitio web, abre la página [_Your licences_](https://liberationlaser.com/account/my-products), selecciona la licencia que quieres gestionar y haz clic en _CANCEL PAYMENTS_. Tu licencia de pago seguirá activa hasta el final del periodo de pago actual. No se realizará ningún otro cargo.
 
 #### **¿En cuántos ordenadores puedo instalar Liberation?**
 
@@ -131,9 +131,9 @@ También puedes desautorizar de forma remota un ordenador al que ya no tienes ac
 
 #### **¿Puedo desautorizar Liberation en un ordenador que se ha perdido o ha sido robado?**
 
-Puedes desautorizar el ordenador desde el sitio web. Si la instalación de Liberation no ha estado en línea desde tu última renovación, esto puede hacerse inmediatamente.
+Puedes desautorizar el ordenador desde el sitio web. Si la instalación de Liberation no ha estado en línea desde la última actualización de su licencia, esto puede hacerse inmediatamente.
 
-Si no, la desautorización se aplicará cuando se renueve la suscripción o cuando el ordenador se conecte a internet, lo que ocurra primero. Si necesitas reautorizar un nuevo ordenador con urgencia, ponte en contacto con soporte.
+Si no, la desautorización se aplicará cuando la licencia se actualice la próxima vez o cuando el ordenador se conecte a internet, lo que ocurra primero. Si necesitas reautorizar un nuevo ordenador con urgencia, ponte en contacto con soporte.
 
 ### Using Liberation
 

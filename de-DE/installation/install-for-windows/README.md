@@ -13,13 +13,13 @@ Windows-10- oder Windows-11-Computer mit 64 Bit. Leistungsstarke Computer werden
 
 ### Installationsprozess
 
-Sobald du ein aktives Abonnement hast, bekommst du einen Link zugeschickt. Alternativ kannst du auf der Seite [ _Your subscriptions_](https://liberationlaser.com/account/my-products) auf den Link _Download_ klicken.
+Sobald du eine aktive kostenpflichtige Lizenz hast, bekommst du einen Link zugeschickt. Alternativ kannst du auf der Seite [_Your licences_](https://liberationlaser.com/account/my-products) auf _Download_ klicken.
 
 Du siehst dann diese Seite:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klicke auf _Download latest for Windows_ (die Versionsnummern können sich ändern). Danach zeigt die Download-Anzeige den Fortschritt an, normalerweise oben rechts. Der Screenshot stammt aus Chrome. Wenn der Download abgeschlossen ist, öffne deine Downloads und klicke auf die heruntergeladene Installationsdatei.
+Klicke auf _Download for Windows_ (die Versionsnummern können sich ändern). Danach zeigt die Download-Anzeige den Fortschritt an, normalerweise oben rechts. Der Screenshot stammt aus Chrome. Wenn der Download abgeschlossen ist, öffne deine Downloads und klicke auf die heruntergeladene Installationsdatei.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

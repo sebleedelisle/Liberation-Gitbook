@@ -26,7 +26,7 @@ Liberation kan veel lasers op één computer aansturen. Het is getest met meer d
 
 * de CPU van je computer
 * netwerksnelheid
-* je abonnementstype
+* je licentieniveau
 
 #### **Welke MIDI-controllers kan ik gebruiken?**
 
@@ -89,11 +89,11 @@ Let op: je kunt op **elk** niveau, zelfs het gratis niveau, shows instellen, pre
 
 #### **Kan ik upgraden naar een nieuw niveau?**
 
-Je kunt op elk moment upgraden naar een hoger niveau. Je krijgt een gedeeltelijke terugbetaling voor de resterende tijd van je huidige licentie, en je nieuwe plan gaat direct in. Zie [Je licentie upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
+Je kunt op elk moment upgraden naar een hoger niveau. Je krijgt een gedeeltelijke terugbetaling voor de resterende tijd van je huidige betaalde periode, en je nieuwe licentieniveau gaat direct in. Zie [Je licentie upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Kan ik mijn licentie downgraden?**
 
-Je kunt op elk moment downgraden, maar de wijziging gaat in aan het einde van je huidige licentieperiode. Zie [Je licentie upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
+Je kunt op elk moment downgraden, maar de wijziging gaat in aan het einde van je huidige betaalde periode. Zie [Je licentie upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Hoe autoriseer ik mijn computer met mijn licentie?**
 
@@ -101,19 +101,19 @@ Zodra je een licentie hebt gekocht, kun je de computer autoriseren vanuit de Lib
 
 #### **Hoe vaak moet ik mijn computer met internet verbinden?**
 
-Elke keer dat de licentie wordt verlengd, moet je Liberation met internet verbinden om de interne licentie bij te werken. Bij een maandelijkse terugkerende betaling moet je elke maand verbinding maken.
+Elke keer dat een betaalde licentie na een betaling wordt vernieuwd, moet je Liberation met internet verbinden om de interne licentie bij te werken. Bij een maandelijkse automatisch verlengende licentie moet je elke maand verbinding maken.
 
-#### **Wat gebeurt er als ik mijn computer na verlenging niet met internet kan verbinden?**
+#### **Wat gebeurt er als ik mijn computer na de volgende betaling niet met internet kan verbinden?**
 
-Liberation geeft je na verlenging van je licentie een respijtperiode van 7 dagen om verbinding te maken met internet en de interne licentie bij te werken. Na die periode gaat Liberation terug naar de _Free_-modus.
+Liberation geeft je nadat je betaalde licentie is vernieuwd een respijtperiode van 7 dagen om verbinding te maken met internet en de interne licentie bij te werken. Na die periode gaat Liberation terug naar de _Free_-modus.
 
 #### **Wat gebeurt er als mijn creditcard verloopt?**
 
-Je krijgt een e-mailmelding van onze betalingsprovider en je moet je betaalmethode bijwerken. Log in op de website en gebruik de link _Update payment details_ op de abonnementenpagina.
+Je krijgt een e-mailmelding van onze betalingsprovider en je moet je kaartgegevens bijwerken. Log in op de website en gebruik _UPDATE CARD DETAILS_ op de licentiepagina, of _Update_ onder _Billing and payments_.
 
-#### **Hoe annuleer ik mijn terugkerende licentie?**
+#### **Hoe annuleer ik automatische verlenging voor mijn licentie?**
 
-Log in op de website, open de pagina _Your subscriptions_, selecteer het abonnement dat je wilt annuleren en klik daarna op de link _Cancel Subscription_. Je kunt Liberation blijven gebruiken tot het einde van de licentieperiode.
+Log in op de website, open de pagina [_Your licences_](https://liberationlaser.com/account/my-products), selecteer de licentie die je wilt beheren en klik daarna op _CANCEL PAYMENTS_. Je betaalde licentie blijft actief tot het einde van de huidige betaalde periode. Er worden geen verdere betalingen afgeschreven.
 
 #### **Op hoeveel computers kan ik Liberation installeren?**
 
@@ -131,9 +131,9 @@ Je kunt ook op afstand een computer de-autoriseren waar je geen toegang meer toe
 
 #### **Kan ik Liberation de-autoriseren op een computer die verloren of gestolen is?**
 
-Je kunt de computer via de website de-autoriseren. Als de Liberation-installatie sinds je laatste verlenging niet online is geweest, kan dit direct worden gedaan.
+Je kunt de autorisatie van de computer via de website intrekken. Als de Liberation-installatie sinds de laatste licentievernieuwing niet online is geweest, kan dit direct worden gedaan.
 
-Zo niet, dan wordt de de-autorisatie van kracht wanneer het abonnement wordt verlengd of wanneer de computer verbinding maakt met internet, afhankelijk van wat het eerst gebeurt. Als je dringend een nieuwe computer opnieuw moet autoriseren, neem dan contact op met support.
+Zo niet, dan wordt het intrekken van de autorisatie van kracht wanneer de licentie de volgende keer wordt vernieuwd of wanneer de computer verbinding maakt met internet, afhankelijk van wat het eerst gebeurt. Als je dringend een nieuwe computer opnieuw moet autoriseren, neem dan contact op met support.
 
 ### Liberation gebruiken
 

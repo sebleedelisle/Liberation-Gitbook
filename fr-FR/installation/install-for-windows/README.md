@@ -13,13 +13,13 @@ Ordinateurs Windows 10 ou 11 64 bits. Des machines puissantes sont recommandées
 
 ### Processus d’installation
 
-Une fois votre abonnement actif, vous recevrez un lien, ou vous pouvez cliquer sur le lien _Download_ sur la page[ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Une fois que vous disposez d’une licence payante active, vous recevrez un lien, ou vous pouvez cliquer sur _Download_ sur la page [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Vous verrez cette page :
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Cliquez sur _Download latest for Windows_ (les numéros de version peuvent changer) et l’indicateur de téléchargement affichera la progression (généralement en haut à droite ; la capture d’écran vient de Chrome). Une fois le téléchargement terminé, ouvrez vos téléchargements et cliquez sur le fichier d’installation téléchargé.
+Cliquez sur _Download for Windows_ (les numéros de version peuvent changer) et l’indicateur de téléchargement affichera la progression (généralement en haut à droite ; la capture d’écran vient de Chrome). Une fois le téléchargement terminé, ouvrez vos téléchargements et cliquez sur le fichier d’installation téléchargé.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

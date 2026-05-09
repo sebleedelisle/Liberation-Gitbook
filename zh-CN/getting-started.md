@@ -56,7 +56,7 @@ Liberation 中有多种滑块和控制项。
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Menu 中可以找到所有文件导入/导出选项，也可以打开各个面板。你还可以在这里使用订阅授权或取消授权当前电脑（位于 _Liberation -> Authorise/Deauthorise this computer_）。
+Menu 中可以找到所有文件导入/导出选项，也可以打开各个面板。你还可以在这里使用许可证授权或取消授权当前电脑（位于 _Liberation -> Authorise/Deauthorise this computer_）。
 
 #### Icon bar
 

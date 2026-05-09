@@ -56,7 +56,7 @@ Liberation 전반에는 다양한 슬라이더와 컨트롤이 있습니다.
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Menu에서는 모든 파일 가져오기/내보내기 옵션과 패널 열기 기능을 찾을 수 있습니다. 이곳에서 구독으로 컴퓨터를 인증하는 옵션도 사용할 수 있습니다(_Liberation -> Authorise/Deauthorise this computer_).
+Menu에서는 모든 파일 가져오기/내보내기 옵션과 패널 열기 기능을 찾을 수 있습니다. 이곳에서 라이선스로 컴퓨터를 인증하는 옵션도 사용할 수 있습니다(_Liberation -> Authorise/Deauthorise this computer_).
 
 #### Icon bar
 

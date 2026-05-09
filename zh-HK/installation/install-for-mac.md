@@ -13,13 +13,13 @@ metaLinks:
 
 ### 安裝流程
 
-當你擁有有效訂閱後，你會收到一條連結，或者可以在 [_My subscriptions_](https://liberationlaser.com/account/my-products) 頁面按 _Download_ 連結。
+當你擁有有效付費 licence 後，你會收到一條連結，或者可以在 [_Your licences_](https://liberationlaser.com/account/my-products) 頁面按 _Download_。
 
 你會看到此頁面：
 
-<figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-按 _Download latest for Mac_（版本號會隨時間改變），Liberation DMG 安裝檔便會儲存到你的 Downloads 資料夾。找到該檔案，然後雙擊開啟。
+按 _Download for Mac_（版本號會隨時間改變），Liberation DMG 安裝檔便會儲存到你的 Downloads 資料夾。找到該檔案，然後雙擊開啟。
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

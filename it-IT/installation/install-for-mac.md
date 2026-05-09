@@ -13,13 +13,13 @@ macOS versione 12 (Monterey) e successive. Apple Silicon è consigliato, sopratt
 
 ### Procedura di installazione
 
-Una volta attivato un abbonamento, riceverai un link; in alternativa puoi fare clic sul link _Download_ nella pagina [_My subscriptions_](https://liberationlaser.com/account/my-products).
+Una volta attivata una licenza a pagamento, riceverai un link; in alternativa puoi fare clic su _Download_ nella pagina [_Le tue licenze_](https://liberationlaser.com/account/my-products).
 
 Vedrai questa pagina:
 
-<figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Fai clic su _Download latest for Mac_ (i numeri di versione cambieranno nel tempo) e il file di installazione DMG di Liberation verrà salvato nella tua cartella Download. Trova il file e fai doppio clic per aprirlo.
+Fai clic su _Download for Mac_ (i numeri di versione cambieranno nel tempo) e il file di installazione DMG di Liberation verrà salvato nella tua cartella Downloads. Trova il file e fai doppio clic per aprirlo.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

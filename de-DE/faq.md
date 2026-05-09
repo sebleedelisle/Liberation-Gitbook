@@ -26,7 +26,7 @@ Liberation kann viele Laser auf einem Computer betreiben. Es wurde mit über 100
 
 * der CPU deines Computers
 * der Netzwerkgeschwindigkeit
-* deinem Abotyp
+* deiner Lizenzstufe
 
 #### **Welche MIDI-Controller kann ich verwenden?**
 
@@ -89,11 +89,11 @@ Beachte, dass du Shows mit beliebig vielen Lasern auf **jeder** Lizenzstufe einr
 
 #### **Kann ich auf eine höhere Stufe upgraden?**
 
-Du kannst jederzeit auf eine höhere Stufe upgraden. Für die Restlaufzeit deiner aktuellen Lizenz erhältst du eine anteilige Rückerstattung, und dein neuer Plan beginnt sofort. Siehe [Lizenz upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
+Du kannst jederzeit auf eine höhere Stufe upgraden. Für die verbleibende Zeit deines aktuellen bezahlten Zeitraums erhältst du eine anteilige Rückerstattung, und deine neue Lizenzstufe beginnt sofort. Siehe [Lizenz upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Kann ich meine Lizenz downgraden?**
 
-Du kannst jederzeit downgraden, aber die Änderung wird erst am Ende deines aktuellen Lizenzzeitraums wirksam. Siehe [Lizenz upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
+Du kannst jederzeit downgraden, aber die Änderung wird erst am Ende deines aktuellen bezahlten Zeitraums wirksam. Siehe [Lizenz upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Wie autorisiere ich meinen Computer mit meiner Lizenz?**
 
@@ -101,19 +101,19 @@ Sobald du eine Lizenz gekauft hast, kannst du den Computer direkt in der Liberat
 
 #### **Wie oft muss ich meinen Computer mit dem Internet verbinden?**
 
-Jedes Mal, wenn die Lizenz verlängert wird, musst du Liberation mit dem Internet verbinden, damit die interne Lizenz aktualisiert werden kann. Bei einer monatlich wiederkehrenden Zahlung musst du jeden Monat eine Verbindung herstellen.
+Jedes Mal, wenn eine bezahlte Lizenz nach einer Zahlung aktualisiert wird, musst du Liberation mit dem Internet verbinden, damit die interne Lizenz aktualisiert werden kann. Bei einer monatlich automatisch verlängerten Lizenz musst du jeden Monat eine Verbindung herstellen.
 
-#### **Was passiert, wenn ich meinen Computer nach der Verlängerung nicht mit dem Internet verbinden kann?**
+#### **Was passiert, wenn ich meinen Computer nach der nächsten Zahlung nicht mit dem Internet verbinden kann?**
 
-Liberation gibt dir nach der Verlängerung deiner Lizenz eine Kulanzzeit von 7 Tagen, um eine Internetverbindung herzustellen und die interne Lizenz zu aktualisieren. Nach diesem Zeitraum wechselt Liberation zurück in den _Free_-Modus.
+Liberation gibt dir nach der Aktualisierung deiner bezahlten Lizenz eine Kulanzzeit von 7 Tagen, um eine Internetverbindung herzustellen und die interne Lizenz zu aktualisieren. Nach diesem Zeitraum wechselt Liberation zurück in den _Free_-Modus.
 
 #### **Was passiert, wenn meine Kreditkarte abläuft?**
 
-Du erhältst eine E-Mail-Benachrichtigung von unserem Zahlungsanbieter und musst deine Zahlungsdaten aktualisieren. Melde dich auf der Website an und verwende den Link _Update payment details_ auf der Abonnementseite.
+Du erhältst eine E-Mail-Benachrichtigung von unserem Zahlungsanbieter und musst deine Kartendaten aktualisieren. Melde dich auf der Website an und verwende _UPDATE CARD DETAILS_ auf der Lizenzseite oder _Update_ unter _Billing and payments_.
 
-#### **Wie kündige ich meine wiederkehrende Lizenz?**
+#### **Wie deaktiviere ich die automatische Verlängerung meiner Lizenz?**
 
-Melde dich auf der Website an, öffne die Seite _Your subscriptions_, wähle das Abonnement aus, das du kündigen möchtest, und klicke dann auf den Link _Cancel Subscription_. Du kannst Liberation bis zum Ende des Lizenzzeitraums weiter verwenden.
+Melde dich auf der Website an, öffne die Seite [_Your licences_](https://liberationlaser.com/account/my-products), wähle die Lizenz aus, die du verwalten möchtest, und klicke dann auf _CANCEL PAYMENTS_. Deine bezahlte Lizenz bleibt bis zum Ende des aktuellen bezahlten Zeitraums aktiv. Es werden keine weiteren Zahlungen abgebucht.
 
 #### **Auf wie vielen Computern kann ich Liberation installieren?**
 
@@ -131,9 +131,9 @@ Du kannst auch einen Computer, auf den du keinen Zugriff mehr hast, aus der Fern
 
 #### **Kann ich Liberation auf einem Computer de-autorisieren, der verloren gegangen ist oder gestohlen wurde?**
 
-Du kannst den Computer über die Website de-autorisieren. Wenn die Liberation-Installation seit deiner letzten Verlängerung nicht online war, kann dies sofort durchgeführt werden.
+Du kannst den Computer über die Website de-autorisieren. Wenn die Liberation-Installation seit ihrer letzten Lizenzaktualisierung nicht online war, kann dies sofort durchgeführt werden.
 
-Andernfalls wird die De-Autorisierung wirksam, wenn das Abonnement verlängert wird oder wenn der Computer eine Internetverbindung herstellt – je nachdem, was zuerst eintritt. Wenn du dringend einen neuen Computer neu autorisieren musst, wende dich an den Support.
+Andernfalls wird die De-Autorisierung wirksam, wenn die Lizenz das nächste Mal aktualisiert wird oder wenn der Computer eine Internetverbindung herstellt – je nachdem, was zuerst eintritt. Wenn du dringend einen neuen Computer neu autorisieren musst, wende dich an den Support.
 
 ### Liberation verwenden
 
