@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformacije
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Pomiče sav sadržaj duž osi x, y i/ili z. Imajte na umu da je koordinatni sustav centriran i proteže se od +/-200 po osima x i y. Pogledajte [Koordinatni sustav](../fundamentals/co-ordinate-system.md "mention").
 

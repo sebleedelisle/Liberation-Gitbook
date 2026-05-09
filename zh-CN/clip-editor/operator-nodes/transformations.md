@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformations
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 沿 x、y 和/或 z 轴移动所有内容。注意坐标系以中心为原点，x/y 轴范围为 +/-200。见 [坐标系统](../fundamentals/co-ordinate-system.md "mention")。
 

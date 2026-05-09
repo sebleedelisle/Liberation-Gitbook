@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Dönüşümler
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Tüm içeriği x, y ve/veya z eksenleri boyunca taşır. Koordinat sisteminin merkezli olduğunu ve x ile y eksenlerinde +/-200 aralığına uzandığını unutmayın. Bkz. [koordinat sistemi](../fundamentals/co-ordinate-system.md "mention").
 

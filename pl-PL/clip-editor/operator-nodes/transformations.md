@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformations
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Przesuwa całą zawartość wzdłuż osi x, y i/lub z. Pamiętaj, że układ współrzędnych jest wyśrodkowany i obejmuje zakres od +/-200 na osiach x i y. Zobacz [Układ współrzędnych](../fundamentals/co-ordinate-system.md "mention").
 

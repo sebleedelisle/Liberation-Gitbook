@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 التحويلات
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 ينقل كل المحتوى على محاور x و/أو y و/أو z. لاحظ أن نظام الإحداثيات يتمركز في الوسط، ويمتد من ‎-200 إلى ‎+200 على محوري x و y. راجع [نظام الإحداثيات](../fundamentals/co-ordinate-system.md "mention").
 

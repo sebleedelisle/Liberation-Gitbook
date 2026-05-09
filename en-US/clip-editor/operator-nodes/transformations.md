@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformations
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Moves all content along the x, y, and/or z axes. Note that the coordinate system is centered, and extends to +/-200 in the x and y axes. See [Coordinate system](../fundamentals/co-ordinate-system.md "mention").
 

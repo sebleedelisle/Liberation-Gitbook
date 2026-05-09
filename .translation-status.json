@@ -4,6 +4,10 @@
       "source": "en-GB/clip-editor/fundamentals/fills-masks-and-depth-sorting.md",
       "source_sha256": "f0cbc5f44845b794d43d89dd64c3d5a2c933117b27c1202fc28662430b49e70a"
     },
+    "ar/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "ar/graphics-and-the-canvas-system/canvas-settings.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-settings.md",
       "source_sha256": "3bf85a0b0e0c9329df553d2db0a4a52520bc61135f5796c09660da2d467f7cbd"
@@ -32,6 +36,10 @@
       "source": "en-GB/troubleshooting/intermittent-flashing-output.md",
       "source_sha256": "59399dac6acf342dcc9573074d2ad34f40d2e037a5ff0111bea533ebae766f2b"
     },
+    "cs-CZ/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "cs-CZ/graphics-and-the-canvas-system/canvas-settings.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-settings.md",
       "source_sha256": "3bf85a0b0e0c9329df553d2db0a4a52520bc61135f5796c09660da2d467f7cbd"
@@ -54,7 +62,7 @@
     },
     "da-DK/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "0f5a12999e15e0070688c6a9a3b892b95406ff61a6275b14b6170bc70f67ce4d"
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "da-DK/graphics-and-the-canvas-system/canvas-overview.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-overview.md",
@@ -122,7 +130,7 @@
     },
     "de-DE/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "0f5a12999e15e0070688c6a9a3b892b95406ff61a6275b14b6170bc70f67ce4d"
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "de-DE/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
@@ -208,13 +216,17 @@
       "source": "en-GB/troubleshooting/intermittent-flashing-output.md",
       "source_sha256": "59399dac6acf342dcc9573074d2ad34f40d2e037a5ff0111bea533ebae766f2b"
     },
+    "en-US/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "es-ES/clip-editor/clip-editor-intro.md": {
       "source": "en-GB/clip-editor/clip-editor-intro.md",
       "source_sha256": "40b3701f3f2b147ee4a0f6042a34d0811129e794c061b37be5e34b52ea175148"
     },
     "es-ES/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "0f5a12999e15e0070688c6a9a3b892b95406ff61a6275b14b6170bc70f67ce4d"
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "es-ES/clips/zone-delay-chase.md": {
       "source": "en-GB/clips/zone-delay-chase.md",
@@ -268,6 +280,10 @@
       "source": "en-GB/troubleshooting/intermittent-flashing-output.md",
       "source_sha256": "59399dac6acf342dcc9573074d2ad34f40d2e037a5ff0111bea533ebae766f2b"
     },
+    "fi-FI/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "fi-FI/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
       "source_sha256": "a976f6faf7e9077a742a9dca8011fb227e6f71b24976bf6c692e8aea05f3a691"
@@ -294,7 +310,7 @@
     },
     "fr-FR/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "0f5a12999e15e0070688c6a9a3b892b95406ff61a6275b14b6170bc70f67ce4d"
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "fr-FR/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
@@ -372,6 +388,10 @@
       "source": "en-GB/clip-editor/fundamentals/fills-masks-and-depth-sorting.md",
       "source_sha256": "f0cbc5f44845b794d43d89dd64c3d5a2c933117b27c1202fc28662430b49e70a"
     },
+    "hr-HR/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "hr-HR/graphics-and-the-canvas-system/canvas-settings.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-settings.md",
       "source_sha256": "3bf85a0b0e0c9329df553d2db0a4a52520bc61135f5796c09660da2d467f7cbd"
@@ -396,6 +416,10 @@
       "source": "en-GB/troubleshooting/intermittent-flashing-output.md",
       "source_sha256": "59399dac6acf342dcc9573074d2ad34f40d2e037a5ff0111bea533ebae766f2b"
     },
+    "hu-HU/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "hu-HU/graphics-and-the-canvas-system/canvas-settings.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-settings.md",
       "source_sha256": "3bf85a0b0e0c9329df553d2db0a4a52520bc61135f5796c09660da2d467f7cbd"
@@ -419,6 +443,10 @@
     "is-IS/clip-editor/fundamentals/fills-masks-and-depth-sorting.md": {
       "source": "en-GB/clip-editor/fundamentals/fills-masks-and-depth-sorting.md",
       "source_sha256": "f0cbc5f44845b794d43d89dd64c3d5a2c933117b27c1202fc28662430b49e70a"
+    },
+    "is-IS/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "is-IS/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
@@ -447,6 +475,10 @@
     "is-IS/timecode.md": {
       "source": "en-GB/timecode.md",
       "source_sha256": "d193d1091bd2fc69795af76bd97128eb54b78775072773bdfa2a1cfcffb49580"
+    },
+    "it-IT/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "it-IT/graphics-and-the-canvas-system/canvas-settings.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-settings.md",
@@ -478,7 +510,7 @@
     },
     "ja-JP/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "0f5a12999e15e0070688c6a9a3b892b95406ff61a6275b14b6170bc70f67ce4d"
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "ja-JP/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
@@ -520,6 +552,10 @@
       "source": "en-GB/clip-editor/fundamentals/fills-masks-and-depth-sorting.md",
       "source_sha256": "f0cbc5f44845b794d43d89dd64c3d5a2c933117b27c1202fc28662430b49e70a"
     },
+    "ko-KR/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "ko-KR/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
       "source_sha256": "a976f6faf7e9077a742a9dca8011fb227e6f71b24976bf6c692e8aea05f3a691"
@@ -550,7 +586,7 @@
     },
     "nb-NO/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "0f5a12999e15e0070688c6a9a3b892b95406ff61a6275b14b6170bc70f67ce4d"
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "nb-NO/graphics-and-the-canvas-system/canvas-overview.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-overview.md",
@@ -602,7 +638,7 @@
     },
     "nl-NL/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "0f5a12999e15e0070688c6a9a3b892b95406ff61a6275b14b6170bc70f67ce4d"
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "nl-NL/clips/overview.md": {
       "source": "en-GB/clips/overview.md",
@@ -664,6 +700,10 @@
       "source": "en-GB/timecode.md",
       "source_sha256": "d193d1091bd2fc69795af76bd97128eb54b78775072773bdfa2a1cfcffb49580"
     },
+    "pl-PL/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "pl-PL/graphics-and-the-canvas-system/canvas-settings.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-settings.md",
       "source_sha256": "3bf85a0b0e0c9329df553d2db0a4a52520bc61135f5796c09660da2d467f7cbd"
@@ -692,6 +732,10 @@
       "source": "en-GB/troubleshooting/intermittent-flashing-output.md",
       "source_sha256": "59399dac6acf342dcc9573074d2ad34f40d2e037a5ff0111bea533ebae766f2b"
     },
+    "pt-BR/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "pt-BR/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
       "source_sha256": "a976f6faf7e9077a742a9dca8011fb227e6f71b24976bf6c692e8aea05f3a691"
@@ -719,6 +763,10 @@
     "ru-RU/clip-editor/fundamentals/fills-masks-and-depth-sorting.md": {
       "source": "en-GB/clip-editor/fundamentals/fills-masks-and-depth-sorting.md",
       "source_sha256": "f0cbc5f44845b794d43d89dd64c3d5a2c933117b27c1202fc28662430b49e70a"
+    },
+    "ru-RU/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "ru-RU/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
@@ -762,7 +810,7 @@
     },
     "sv-SE/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "0f5a12999e15e0070688c6a9a3b892b95406ff61a6275b14b6170bc70f67ce4d"
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "sv-SE/graphics-and-the-canvas-system/canvas-settings.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-settings.md",
@@ -816,6 +864,10 @@
       "source": "en-GB/timecode.md",
       "source_sha256": "d193d1091bd2fc69795af76bd97128eb54b78775072773bdfa2a1cfcffb49580"
     },
+    "tr-TR/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "tr-TR/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
       "source_sha256": "a976f6faf7e9077a742a9dca8011fb227e6f71b24976bf6c692e8aea05f3a691"
@@ -848,6 +900,10 @@
       "source": "en-GB/troubleshooting/intermittent-flashing-output.md",
       "source_sha256": "59399dac6acf342dcc9573074d2ad34f40d2e037a5ff0111bea533ebae766f2b"
     },
+    "vi-VN/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "vi-VN/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
       "source_sha256": "a976f6faf7e9077a742a9dca8011fb227e6f71b24976bf6c692e8aea05f3a691"
@@ -876,9 +932,17 @@
       "source": "en-GB/troubleshooting/intermittent-flashing-output.md",
       "source_sha256": "59399dac6acf342dcc9573074d2ad34f40d2e037a5ff0111bea533ebae766f2b"
     },
+    "zh-CN/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+    },
     "zh-HK/clip-editor/fundamentals/fills-masks-and-depth-sorting.md": {
       "source": "en-GB/clip-editor/fundamentals/fills-masks-and-depth-sorting.md",
       "source_sha256": "f0cbc5f44845b794d43d89dd64c3d5a2c933117b27c1202fc28662430b49e70a"
+    },
+    "zh-HK/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "zh-HK/clips/groups.md": {
       "source": "en-GB/clips/groups.md",
@@ -919,6 +983,10 @@
     "zh-TW/clip-editor/fundamentals/fills-masks-and-depth-sorting.md": {
       "source": "en-GB/clip-editor/fundamentals/fills-masks-and-depth-sorting.md",
       "source_sha256": "f0cbc5f44845b794d43d89dd64c3d5a2c933117b27c1202fc28662430b49e70a"
+    },
+    "zh-TW/clip-editor/operator-nodes/transformations.md": {
+      "source": "en-GB/clip-editor/operator-nodes/transformations.md",
+      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
     },
     "zh-TW/clips/groups.md": {
       "source": "en-GB/clips/groups.md",

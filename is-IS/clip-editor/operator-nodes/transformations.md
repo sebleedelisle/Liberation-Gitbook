@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Umbreytingar
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Færir allt efni eftir x-, y- og/eða z-ás. Athugaðu að hnitakerfið er miðjað og nær frá +/-200 á x- og y-ás. Sjá [Hnitakerfi](../fundamentals/co-ordinate-system.md "mention").
 

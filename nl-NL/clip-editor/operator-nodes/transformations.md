@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformaties
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Verplaatst alle content langs de x-, y- en/of z-as. Let op: het coördinatensysteem is gecentreerd en loopt op de x- en y-as van -200 tot +200. Zie [Coördinatensysteem](../fundamentals/co-ordinate-system.md "mention").
 
