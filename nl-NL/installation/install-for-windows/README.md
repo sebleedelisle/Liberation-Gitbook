@@ -13,13 +13,13 @@ Windows 10- of 11-machines met 64 bit. Een computer met hoge specificaties wordt
 
 ### Installatieproces
 
-Zodra je een actief abonnement hebt, krijg je een link toegestuurd. Je kunt ook op de link _Download_ klikken op de pagina [ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Zodra je een actieve betaalde licentie hebt, krijg je een link toegestuurd. Je kunt ook op _Download_ klikken op de pagina [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Je ziet dan deze pagina:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klik op _Download latest for Windows_ (de versienummers kunnen veranderen). Je ziet dan de downloadindicator met de voortgang (meestal rechtsboven; de schermafbeelding is uit Chrome). Als de download klaar is, open je je downloads en klik je op het gedownloade installatiebestand.
+Klik op _Download for Windows_ (de versienummers kunnen veranderen). Je ziet dan de downloadindicator met de voortgang (meestal rechtsboven; de schermafbeelding is uit Chrome). Als de download klaar is, open je je downloads en klik je op het gedownloade installatiebestand.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

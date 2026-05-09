@@ -7,12 +7,12 @@ metaLinks:
 
 # ✅ Upgrade / downgrade della tua licenza
 
-Puoi passare a un piano superiore in qualsiasi momento. Riceverai un rimborso parziale per il periodo rimanente del tuo abbonamento attuale e il nuovo piano verrà attivato subito.
+Puoi passare a un livello superiore in qualsiasi momento. Riceverai un rimborso parziale per il periodo rimanente del periodo pagato attuale e il nuovo livello di licenza verrà attivato subito.
 
-Puoi anche passare a un piano inferiore in qualsiasi momento, ma la modifica avrà effetto solo alla data di rinnovo.
+Puoi anche passare a un livello inferiore in qualsiasi momento, ma la modifica avrà effetto solo alla fine del periodo pagato attuale.
 
-Accedi al sito web, apri la pagina _My subscriptions_, seleziona l’abbonamento che vuoi modificare, quindi fai clic sul link _UPGRADE/DOWNGRADE_. Vedrai quindi le opzioni disponibili per la tua licenza.
+Accedi al sito web, apri la pagina [_Le tue licenze_](https://liberationlaser.com/account/my-products), seleziona la licenza che vuoi modificare, quindi fai clic su _UPGRADE / DOWNGRADE_. Vedrai quindi le opzioni disponibili per la tua licenza.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-16 at 14.02.28.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-change-licence-plan.png" alt=""><figcaption></figcaption></figure>
 
-Fai clic sul pulsante _PREVIEW_ corrispondente per vedere come le modifiche influirebbero sui tuoi pagamenti. Se la modifica va bene, fai clic sul pulsante _Confirm subscription change_ per completare la procedura.
+Fai clic sul pulsante _PREVIEW_ corrispondente per vedere come le modifiche influirebbero sui tuoi pagamenti. Se la modifica va bene, fai clic su _Confirm licence change_ per completare la procedura.

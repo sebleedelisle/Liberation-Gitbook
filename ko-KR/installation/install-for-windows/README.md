@@ -13,13 +13,13 @@ Windows 10 또는 11 64비트 컴퓨터가 필요합니다. 대규모 쇼를 실
 
 ### 설치 과정
 
-활성 구독이 있으면 링크를 받게 됩니다. 또는 [ _Your subscriptions_](https://liberationlaser.com/account/my-products) 페이지에서 _Download_ 링크를 클릭할 수 있습니다.
+활성화된 유료 라이선스가 있으면 링크를 받게 됩니다. 또는 [_Your licences_](https://liberationlaser.com/account/my-products) 페이지에서 _Download_를 클릭할 수 있습니다.
 
 다음 페이지가 표시됩니다.
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-_Download latest for Windows_를 클릭합니다(버전 번호는 달라질 수 있음). 그러면 다운로드 표시기가 진행 상황을 보여줍니다(보통 오른쪽 위에 표시되며, 스크린샷은 Chrome 기준입니다). 완료되면 다운로드 폴더를 열고 다운로드한 설치 파일을 클릭합니다.
+_Download for Windows_를 클릭합니다(버전 번호는 달라질 수 있음). 그러면 다운로드 표시기가 진행 상황을 보여줍니다(보통 오른쪽 위에 표시되며, 스크린샷은 Chrome 기준입니다). 완료되면 다운로드 폴더를 열고 다운로드한 설치 파일을 클릭합니다.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

@@ -50,7 +50,7 @@ Du bist dir nicht sicher, was ein bestimmter Button macht? Fahre mit der Maus da
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Im Menü findest du alle Optionen für Dateiimport und -export sowie zum Öffnen von Panels. Außerdem findest du hier die Option, den Computer mit deinem Abonnement zu autorisieren (_Liberation -> Authorise/Deauthorise this computer_).
+Im Menü findest du alle Optionen für Dateiimport und -export sowie zum Öffnen von Panels. Außerdem findest du hier die Option, den Computer mit deiner Lizenz zu autorisieren (_Liberation -> Authorise/Deauthorise this computer_).
 
 #### Icon-Leiste
 

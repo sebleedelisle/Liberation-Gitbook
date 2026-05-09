@@ -15,20 +15,18 @@ metaLinks:
 
 按一下 _AUTHORISE ONLINE_ 按鈕，你的網頁瀏覽器便會開啟。如果你尚未登入，系統會提示你現在登入。
 
-系統現在會自動使用你的訂閱為此安裝授權，然後你會看到以下訊息：
-
-<figure><img src="../.gitbook/assets/authorisation-machine-added" alt=""><figcaption></figcaption></figure>
+系統現在會自動使用你的授權為此安裝授權，然後你會看到確認訊息。
 
 返回 Liberation 後，你會看到 _About panel_ 已更新（可能需要等待數秒）。
 
 <figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-如果你已為訂閱授權了最多可用的電腦數量，你需要先取消授權其中一部其他電腦，或升級你的訂閱。
+如果你已為授權啟用了最多可用的電腦數量，你需要先取消授權其中一部其他電腦，或升級你的授權。
 {% endhint %}
 
 {% hint style="info" %}
-如果你有多個訂閱，系統會提示你選擇要指派給此電腦的訂閱。
+如果你有多個授權，系統會提示你選擇要指派給此電腦的授權。
 {% endhint %}
 
 恭喜！你的 Liberation 安裝現在已完成授權，可以輸出到雷射！但在啟用雷射之前，請先閱讀[開始使用](../getting-started.md "mention")和[設定雷射](../setting-up/setting-up-lasers.md "mention")。
@@ -43,10 +41,10 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
 
-你亦可以在網站上完成此操作：在選單中選擇 _Your subscriptions_，然後按一下 _Manage Subscription_ 開啟你的訂閱頁面。你應會看到訂閱資料，以及已授權電腦的清單。
+你亦可以在網站上完成此操作。在選單中選擇 _Your licences_，然後按一下相關授權的 _MANAGE_。如果你的帳戶只有一個授權，_Your licences_ 會直接帶你前往該授權頁面。你應會看到授權資料，以及已授權電腦的清單。
+
+<figure><img src="../.gitbook/assets/account-your-licences.png" alt=""><figcaption></figcaption></figure>
 
 按一下你想取消授權的電腦旁邊的 _De-authorise_ 連結。
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.16.40.png" alt=""><figcaption></figcaption></figure>
-
-如果你的電腦自上次續訂後一直未曾連線，它會立即被取消授權。否則，該電腦會被排入取消授權佇列。這表示取消授權會在該電腦下次連接到互聯網時自動進行，或在你的下一個續訂日期進行，以較早發生者為準。
+如果你的電腦自上次授權更新後一直未有上網，授權會立即被取消。否則，該電腦會被加入取消授權的_佇列_。這表示取消授權會在該電腦下次連接互聯網時，或下一個授權更新日期（以較早者為準）自動執行。

@@ -26,7 +26,7 @@ Liberation can run many lasers on one computer, it's been tested with over 100 l
 
 * your computer CPU
 * network speed
-* your subscription type
+* your license tier
 
 #### **Which MIDI controllers can I use?**
 
@@ -89,11 +89,11 @@ Note that you can set up, preview and design shows with as many lasers as you wa
 
 #### **Can I upgrade to a new tier?**
 
-You can upgrade to a higher tier at any time. You will get a partial refund for the remaining time on your current license, and your new plan will start immediately. See [Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md "mention")
+You can upgrade to a higher tier at any time. You will get a partial refund for the remaining time in your current paid period, and your new license tier will start immediately. See [Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Can I downgrade my license?**
 
-You can downgrade at any time but the change will take effect at the end of your current license period. See [Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md "mention")
+You can downgrade at any time but the change will take effect at the end of your current paid period. See [Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **How do I authorize my computer with my license?**
 
@@ -101,19 +101,19 @@ Once you have purchased a license you can then authorize the computer within the
 
 #### **How often do I need to connect my computer to the internet?**
 
-Every time the license renews you will need to connect Liberation to the internet to update its internal license. For a monthly recurring payment, you will need to connect every month.
+Every time a paid license refreshes after a payment, you will need to connect Liberation to the internet to update its internal license. For a monthly auto-renewing license, you will need to connect every month.
 
-#### **What happens if I can’t connect my computer to the internet after renewal?**
+#### **What happens if I can’t connect my computer to the internet after the next payment?**
 
-Liberation will give you a grace period of 7 days after your license renews to connect to the internet and update its internal license. After that period Liberation will go back into _Free_ mode.
+Liberation will give you a grace period of 7 days after your paid license refreshes to connect to the internet and update its internal license. After that period Liberation will go back into _Free_ mode.
 
 #### **What happens if my credit card expires?**
 
-You will get an email notification from our payment provider, and you will need to update your payment system. Log in to the website and use the _Update payment details_ link on the subscriptions page.
+You will get an email notification from our payment provider, and you will need to update your card details. Log in to the website and use _UPDATE CARD DETAILS_ on the license page, or _Update_ under _Billing and payments_.
 
-#### **How do I cancel my recurring license?**
+#### **How do I cancel auto-renew for my license?**
 
-Log in to the website, open the _Your subscriptions_ page, select the subscription you want to cancel, then click the _Cancel Subscription_ link. You can continue to use Liberation for the remainder of the license period.
+Log in to the website, open the [_Your licenses_](https://liberationlaser.com/account/my-products) page, select the license you want to manage, then click _CANCEL PAYMENTS_. Your paid license will stay active until the end of the current paid period. No further payments will be taken.
 
 #### **How many computers can I install Liberation on?**
 
@@ -131,9 +131,9 @@ You can also remotely de-authorize a computer you no longer have access to (with
 
 #### **Can I deauthorize Liberation on a computer that has been lost or stolen?**
 
-You can deauthorize the computer via the website. If the Liberation installation has not been online since your last renewal, this can be done immediately.
+You can deauthorize the computer via the website. If the Liberation installation has not been online since its last license refresh, this can be done immediately.
 
-If not, the deauthorization will take effect when the subscription renews or when the computer connects to the internet, whichever comes first. If you urgently need to re-authorize a new computer get in touch with support.
+If not, the deauthorization will take effect when the license next refreshes or when the computer connects to the internet, whichever comes first. If you urgently need to re-authorize a new computer get in touch with support.
 
 ### Using Liberation
 

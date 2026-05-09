@@ -56,7 +56,7 @@ Liberation 內有不同滑桿和控制項。
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Menu 是你可以找到所有檔案匯入／匯出選項，以及開啟各個 panel 的地方。你亦可以在這裡用你的訂閱授權此電腦（在 _Liberation -> Authorise/Deauthorise this computer_）。
+Menu 是你可以找到所有檔案匯入／匯出選項，以及開啟各個 panel 的地方。你亦可以在這裡用你的 licence 授權此電腦（在 _Liberation -> Authorise/Deauthorise this computer_）。
 
 #### Icon bar
 

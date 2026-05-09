@@ -13,13 +13,13 @@ metaLinks:
 
 ### 安装流程
 
-有了有效订阅后你会收到下载链接，也可以在 [_Your subscriptions_](https://liberationlaser.com/account/my-products) 页面点击 _Download_ 链接。
+有了有效的付费 licence 后，你会收到下载链接，也可以在 [_Your licences_](https://liberationlaser.com/account/my-products) 页面点击 _Download_。
 
 你会看到如下页面：
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-点击 _Download latest for Windows_（版本号可能会变化），下载进度会在下载指示器中显示（通常在右上角，截图来自 Chrome）。下载完成后，打开下载文件夹并点击下载的安装文件。
+点击 _Download for Windows_（版本号可能会变化），下载进度会在下载指示器中显示（通常在右上角，截图来自 Chrome）。下载完成后，打开下载文件夹并点击下载的安装文件。
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

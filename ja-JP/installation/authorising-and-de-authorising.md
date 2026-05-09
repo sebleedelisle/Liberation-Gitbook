@@ -15,20 +15,18 @@ Liberation を初めて開くと、_free mode_ で起動し、_About panel:_ が
 
 _AUTHORISE ONLINE_ ボタンをクリックすると、Web ブラウザーが開きます。まだログインしていない場合は、この時点でログインを求められます。
 
-システムが自動的に、このインストールをあなたのサブスクリプションに対して認証します。完了すると、次のメッセージが表示されます。
-
-<figure><img src="../.gitbook/assets/authorisation-machine-added" alt=""><figcaption></figcaption></figure>
+システムが自動的に、このインストールをあなたのライセンスに対して認証します。完了すると、確認メッセージが表示されます。
 
 Liberation に戻ると、_About panel_ が更新されています（数秒待つ必要がある場合があります）。
 
 <figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-サブスクリプションで認証可能な最大台数のコンピューターをすでに認証している場合は、他のマシンのいずれかを認証解除するか、サブスクリプションをアップグレードする必要があります。
+ライセンスで認証可能な最大台数のコンピューターをすでに認証している場合は、他のマシンのいずれかを認証解除するか、ライセンスをアップグレードする必要があります。
 {% endhint %}
 
 {% hint style="info" %}
-複数のサブスクリプションがある場合は、そのコンピューターに割り当てるサブスクリプションを選択するよう求められます。
+複数のライセンスがある場合は、そのコンピューターに割り当てるライセンスを選択するよう求められます。
 {% endhint %}
 
 これで Liberation のインストールが認証され、レーザーに出力できるようになりました。おめでとうございます！ただし、レーザーをアームする前に、[クイックスタートガイド](../getting-started.md "mention") と [Laser セットアップ手順の概要](../setting-up/setting-up-lasers.md "mention") をお読みください。
@@ -43,10 +41,10 @@ _About panel_ は、メニューの _Liberation -> About Liberation_ または _
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
 
-または、Web サイトから行うこともできます。メニューから _Your subscriptions_ を選択し、_Manage Subscription_ をクリックしてサブスクリプションページを開きます。サブスクリプションに関する情報と、認証済みのコンピューター一覧が表示されます。
+または、Web サイトから行うこともできます。メニューから _Your licences_ を選択し、対象のライセンスで _MANAGE_ をクリックします。アカウントにライセンスが 1 つしかない場合、_Your licences_ を選択するとそのライセンスページに直接移動します。ライセンスに関する情報と、認証済みのコンピューター一覧が表示されます。
+
+<figure><img src="../.gitbook/assets/account-your-licences.png" alt=""><figcaption></figcaption></figure>
 
 認証解除したいマシンの横にある _De-authorise_ リンクをクリックします。
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.16.40.png" alt=""><figcaption></figcaption></figure>
-
-前回の更新以降、そのマシンがオンラインになっていない場合は、すぐに認証解除されます。そうでない場合、そのマシンは認証解除の _queued_ 状態になります。つまり、次にそのマシンがインターネットに接続されたとき、または次回の更新日のどちらか早い時点で、認証解除が自動的に実行されます。
+最後のライセンス更新以降、そのマシンがオンラインになっていない場合は、すぐに認証解除されます。そうでない場合、そのマシンは認証解除のために _queued_（キューに追加）されます。これは、次にそのマシンがインターネットに接続されたとき、または次回のライセンス更新日のいずれか早いタイミングで、認証解除が自動的に行われることを意味します。

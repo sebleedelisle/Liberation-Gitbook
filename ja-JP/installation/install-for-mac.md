@@ -13,13 +13,13 @@ macOS バージョン 12（Monterey）以降に対応しています。特に大
 
 ### インストール手順
 
-有効なサブスクリプションを取得するとリンクが送られてきます。または、[_My subscriptions_](https://liberationlaser.com/account/my-products) ページの _Download_ リンクをクリックしてもダウンロードできます。
+有効な有料ライセンスを取得するとリンクが送られてきます。または、[_Your licences_](https://liberationlaser.com/account/my-products) ページで _Download_ をクリックしてもダウンロードできます。
 
 次のページが表示されます：
 
-<figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-_Download latest for Mac_（バージョン番号は時間とともに変わります）をクリックすると、Liberation の DMG インストールファイルが Downloads フォルダーに保存されます。ファイルを見つけて、ダブルクリックして開きます。
+_Download for Mac_（バージョン番号は時間とともに変わります）をクリックすると、Liberation の DMG インストールファイルが Downloads フォルダーに保存されます。ファイルを見つけて、ダブルクリックして開きます。
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 

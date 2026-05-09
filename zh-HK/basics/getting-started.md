@@ -50,7 +50,7 @@ Liberation 內有各種 slider 和控制項。
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Menu 內可找到所有檔案匯入／匯出選項，以及開啟各個 panel 的選項。你亦可以在這裡使用訂閱授權此電腦（在 _Liberation -> Authorise/Deauthorise this computer_）。
+Menu 內可找到所有檔案匯入／匯出選項，以及開啟各個 panel 的選項。你亦可以在這裡使用 licence 授權此電腦（在 _Liberation -> Authorise/Deauthorise this computer_）。
 
 #### Icon bar
 

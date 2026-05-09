@@ -15,9 +15,9 @@ Le _mode gratuit_ n’a aucune restriction, sauf l’envoi du signal vers le mat
 
 En plus du nombre de lasers que vous pouvez armer, vous pouvez également utiliser des appareils DMX. Voir [DMX / Art-Net](../dmx-control/ "mention").
 
-Le nombre d’ordinateurs sur lesquels vous pouvez autoriser Liberation dépend également de votre niveau d’abonnement.
+Le nombre d’ordinateurs sur lesquels vous pouvez autoriser Liberation dépend également de votre niveau de licence.
 
-<table><thead><tr><th>Niveau d’abonnement</th><th width="226">Nombre d’ordinateurs</th><th width="155">Lasers</th><th>Appareils DMX</th></tr></thead><tbody><tr><td>Hobby</td><td>1</td><td>2</td><td>0</td></tr><tr><td>Pro 4</td><td>1</td><td>4</td><td>4</td></tr><tr><td>Pro 8</td><td>2</td><td>8</td><td>8</td></tr><tr><td>Unlimited</td><td>3</td><td>Illimité</td><td>Illimité</td></tr></tbody></table>
+<table><thead><tr><th>Niveau de licence</th><th width="226">Nombre d’ordinateurs</th><th width="155">Lasers</th><th>Appareils DMX</th></tr></thead><tbody><tr><td>Hobby</td><td>1</td><td>2</td><td>0</td></tr><tr><td>Pro 4</td><td>1</td><td>4</td><td>4</td></tr><tr><td>Pro 8</td><td>2</td><td>8</td><td>8</td></tr><tr><td>Unlimited</td><td>3</td><td>Illimité</td><td>Illimité</td></tr></tbody></table>
 
 {% hint style="danger" %}
 Chaque licence est destinée à un seul utilisateur et à un seul show à la fois. Vous pouvez avoir plusieurs installations par utilisateur, car vous devez **toujours** disposer d’au moins un ordinateur de secours autorisé et prêt à l’emploi !
@@ -25,8 +25,8 @@ Chaque licence est destinée à un seul utilisateur et à un seul show à la foi
 
 ### Connectivité Internet
 
-Le système de licence et d’autorisation de Liberation fonctionne via Internet ; l’application se connecte à notre serveur pour associer une installation à votre abonnement.
+Le système de licence et d’autorisation de Liberation fonctionne via Internet ; l’application se connecte à notre serveur pour associer une installation à votre licence payante.
 
-Une fois votre installation autorisée, elle n’a plus besoin d’être en ligne jusqu’au renouvellement de votre abonnement. Vous pouvez voir la date de renouvellement dans le _About panel._ Il existe un court délai de grâce (7 jours pour les abonnements mensuels), mais il est recommandé de vous connecter dès que possible après la date de renouvellement afin de vous assurer que votre autorisation se renouvelle et reste active.
+Une fois votre installation autorisée, elle n’a plus besoin d’être en ligne jusqu’à la prochaine échéance de paiement ou date de validité de votre licence payante. Vous pouvez voir cette date dans le _About panel._ Il existe un court délai de grâce (7 jours pour les licences payantes mensuelles), mais il est recommandé de vous connecter dès que possible après cette date afin de vous assurer que votre autorisation reste active.
 
 Le niveau de licence actuel est également affiché dans la barre supérieure. Cliquez sur le nom du niveau, ou sur _FREE MODE_ en l’absence de licence, pour ouvrir le About panel.

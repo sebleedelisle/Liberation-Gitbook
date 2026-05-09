@@ -56,7 +56,7 @@ Weet je niet zeker wat een bepaalde knop doet? Beweeg er met je muis overheen vo
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-In het menu vind je alle opties voor het importeren en exporteren van bestanden, en kun je panels openen. Hier vind je ook de optie om de computer met je abonnement te autoriseren (in _Liberation -> Authorise/Deauthorise this computer_).
+In het menu vind je alle opties voor het importeren en exporteren van bestanden, en kun je panels openen. Hier vind je ook de optie om de computer met je licentie te autoriseren (in _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Icon bar
 
