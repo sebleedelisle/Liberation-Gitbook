@@ -84,3 +84,11 @@ npm run fix:english-style
 ```
 
 The fixer only changes visible Markdown prose. It preserves Markdown link targets, image paths, raw URLs, inline code, fenced code, and frontmatter.
+
+For normal `en-GB` manual edits, run the full source check:
+
+```sh
+npm run manual:uk:check
+```
+
+Translation cadence, GitHub Actions, and review workflow are documented in [TRANSLATIONS.md](TRANSLATIONS.md).

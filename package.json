@@ -39,6 +39,6 @@
     "translate:de": "python3 scripts/translate_docs.py de-DE --language-name German --update-langs",
     "translate:de:stale": "python3 scripts/translate_docs.py de-DE --language-name German --mode stale",
     "localize:en-us": "python3 scripts/localize_en_us.py",
-    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 en-GB en-US LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te,co-ordinate,co-ordinates || python3 -m codespell -q 3 en-GB en-US LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te,co-ordinate,co-ordinates"
+    "check:spelling": "PATH=\"$HOME/Library/Python/3.13/bin:$HOME/.local/bin:$PATH\" codespell -q 3 en-GB en-US README.md STYLE_GUIDE.md LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te,co-ordinate,co-ordinates || python3 -m codespell -q 3 en-GB en-US README.md STYLE_GUIDE.md LANGS.md TRANSLATIONS.md scripts .github book.json package.json plugins/liberation/index.js plugins/liberation/package.json plugins/liberation/assets/liberation.css -L Sie,te,co-ordinate,co-ordinates"
   }
 }
