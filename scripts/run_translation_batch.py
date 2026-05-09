@@ -51,27 +51,30 @@ def parse_iso_date(value: str) -> date | None:
         return None
 
 
-def check_cadence(tier: str, force: bool) -> None:
+def should_skip_for_cadence(tier: str, force: bool) -> bool:
     if force:
-        return
+        return False
 
     cadence = load_json(CADENCE_PATH, {"last_runs": {}})
     last_run = cadence.get("last_runs", {}).get(tier)
     if not last_run:
-        return
+        return False
 
     last_date = parse_iso_date(last_run)
     if not last_date:
-        return
+        return False
 
     next_date = last_date + timedelta(days=CADENCE_DAYS[tier])
     today = date.today()
     if today < next_date:
-        raise SystemExit(
+        print(
             f"{tier} translations last ran on {last_date.isoformat()}; "
             f"next scheduled run is {next_date.isoformat()}. "
             "Use --force-cadence for an urgent rerun."
         )
+        return True
+
+    return False
 
 
 def record_cadence(tier: str) -> None:
@@ -165,7 +168,8 @@ def main() -> None:
         raise SystemExit(f"No locales configured for {args.tier}.")
 
     if not args.dry_run:
-        check_cadence(args.tier, args.force_cadence)
+        if should_skip_for_cadence(args.tier, args.force_cadence):
+            return
         require_provider_key(args)
 
     print(f"Translation batch: {args.tier}")
