@@ -266,6 +266,11 @@
     return currentScriptBase() || ".";
   }
 
+  function pagefindPath() {
+    var base = siteBasePath(parseMeta()).replace(/\/$/, "");
+    return base + "/pagefind";
+  }
+
   function logoPath() {
     return rootPath() + "/gitbook/honkit-plugin-liberation/liberation-logo.png";
   }
@@ -553,11 +558,13 @@
     if (pagefindModule) return Promise.resolve(pagefindModule);
     if (pagefindLoading) return pagefindLoading;
 
-    pagefindLoading = import(rootPath() + "/pagefind/pagefind.js")
+    var searchPath = pagefindPath();
+
+    pagefindLoading = import(searchPath + "/pagefind.js")
       .then(function(module) {
         pagefindModule = module;
         return module.options({
-          basePath: rootPath() + "/pagefind/",
+          basePath: searchPath + "/",
           excerptLength: 18
         }).then(function() {
           return module;

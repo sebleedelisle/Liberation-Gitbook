@@ -1,5 +1,6 @@
 /_book
 /node_modules
+/.screenshot-work
 __pycache__/
 .env
 .env.*

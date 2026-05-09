@@ -11,6 +11,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_book"
 SOURCE_ROOT = "en-GB"
+SHARED_ASSET_FILENAMES = [
+    "account-download-page.png",
+    "account-your-licences.png",
+    "account-active-licence.png",
+    "account-cancel-auto-renew.png",
+    "account-auto-renew-off.png",
+    "account-change-licence-plan.png",
+    "windows-download-page.png",
+    "windows-install-download-page.png",
+]
 
 
 def load_json(path):
@@ -52,6 +62,17 @@ def copy_missing_directory(source, target):
             shutil.copy2(child, destination)
 
 
+def copy_shared_assets(source, target):
+    if not source.exists():
+        return
+
+    target.mkdir(parents=True, exist_ok=True)
+    for filename in SHARED_ASSET_FILENAMES:
+        source_file = source / filename
+        if source_file.exists():
+            shutil.copy2(source_file, target / filename)
+
+
 def write_language_book_json(language_root, temp_book):
     root_config = load_json(ROOT / "book.json")
     language_config = load_json(ROOT / language_root / "book.json")
@@ -72,6 +93,10 @@ def build_language(language_root):
         shutil.copytree(ROOT / language_root, temp_book)
 
         copy_missing_directory(ROOT / SOURCE_ROOT / ".gitbook", temp_book / ".gitbook")
+        copy_shared_assets(
+            ROOT / SOURCE_ROOT / ".gitbook" / "assets",
+            temp_book / ".gitbook" / "assets",
+        )
         write_language_book_json(language_root, temp_book)
 
         output_dir = OUTPUT / language_root
@@ -188,6 +213,10 @@ def main():
     for language_root, _title in language_entries:
         if language_root != SOURCE_ROOT:
             copy_missing_directory(default_assets, OUTPUT / language_root / ".gitbook")
+            copy_shared_assets(
+                default_assets / "assets",
+                OUTPUT / language_root / ".gitbook" / "assets",
+            )
 
     write_root_language_index(language_entries)
     write_legacy_english_redirects()

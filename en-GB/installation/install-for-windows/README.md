@@ -13,13 +13,13 @@ Windows 10 or 11 64-bit machines. High-spec machines recommended if you want to 
 
 ### Installation process
 
-Once you have got an active subscription you will be sent a link, or you can click the _Download_ link on the[ _Your subscriptions_](https://liberationlaser.com/account/my-products) page.
+Once you have an active paid licence you will be sent a link, or you can click _Download_ on the [_Your licences_](https://liberationlaser.com/account/my-products) page.
 
 You'll see this page :
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Click _Download latest for Windows_ (the version numbers may change) and you'll see the download indicator show the progress (usually in the top right, screen shot is from Chrome). When it's complete, open your downloads and click on the downloaded installer file
+Click _Download for Windows_ (the version numbers may change) and you'll see the download indicator show the progress (usually in the top right, screen shot is from Chrome). When it's complete, open your downloads and click on the downloaded installer file
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

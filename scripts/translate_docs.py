@@ -540,6 +540,15 @@ def load_translation_status():
     return json.loads(TRANSLATION_STATUS_PATH.read_text(encoding="utf-8"))
 
 
+def marked_current(status, source, target):
+    entry = status.get("entries", {}).get(str(target))
+    return bool(
+        entry
+        and entry.get("source") == str(source)
+        and entry.get("source_sha256") == source_sha256(source)
+    )
+
+
 def mark_translation_current(status, source, target):
     status.setdefault("source_root", str(SOURCE_ROOT))
     status.setdefault("entries", {})[str(target)] = {
@@ -1165,7 +1174,7 @@ def source_files(source_root, paths, since=None, paths_from_git=None):
     return sorted(source_root.rglob("*.md"))
 
 
-def should_translate(source, target, mode, force):
+def should_translate(source, target, mode, force, translation_status=None):
     if force:
         return True
     if not target.exists():
@@ -1174,6 +1183,8 @@ def should_translate(source, target, mode, force):
         return False
     if mode == "all":
         return True
+    if translation_status and marked_current(translation_status, source, target):
+        return False
 
     commit = last_commit(target)
     if not commit:
@@ -1324,6 +1335,7 @@ def main():
     if not model:
         model = DEFAULT_OPENAI_MODEL if args.provider == "openai" else DEFAULT_ANTHROPIC_MODEL
     reasoning_effort = args.reasoning_effort if args.provider == "openai" else None
+    translation_status = load_translation_status()
 
     files = []
     for source in source_files(args.source_root, args.path, args.since, args.paths_from_git):
@@ -1331,7 +1343,7 @@ def main():
             raise SystemExit(f"Source path does not exist: {source}")
         rel = source.relative_to(args.source_root)
         target = target_root / rel
-        if should_translate(source, target, args.mode, args.force):
+        if should_translate(source, target, args.mode, args.force, translation_status):
             files.append((source, target, rel))
 
     if args.limit:
@@ -1365,7 +1377,6 @@ def main():
     require_provider_key(args.provider)
     target_root.mkdir(parents=True, exist_ok=True)
     write_book_json(target_root, args.target_language)
-    translation_status = load_translation_status()
 
     for index, (source, target, rel) in enumerate(files, start=1):
         print(f"[{index}/{len(files)}] {rel}", flush=True)

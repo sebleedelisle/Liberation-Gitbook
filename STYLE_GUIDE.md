@@ -18,6 +18,16 @@ Use British spelling for normal prose:
 
 Do not rename existing files or URLs just to change spelling. Some slugs still contain historical spellings such as `license`, `colour`, or `co-ordinate`; link targets and asset paths must remain stable.
 
+## GitBook mention links
+
+In `en-GB`, keep existing GitBook mention link labels that are filenames, including their `.md` suffix:
+
+```md
+See [laser-settings.md](en-GB/setting-up/laser-settings.md "mention")
+```
+
+Do not rewrite these labels to page titles during prose edits. The site build replaces `.md` link labels with the destination page title in generated HTML, so filename labels in source stay stable when titles change. This rule is for the English source; translated locales use translated visible link text.
+
 ## Technical Terms
 
 Use these visible spellings in the manual:

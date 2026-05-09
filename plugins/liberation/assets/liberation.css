@@ -84,6 +84,7 @@ body {
 .book {
   background: var(--lib-bg);
   color: var(--lib-text);
+  height: calc(100% - var(--lib-header));
   top: var(--lib-header);
 }
 

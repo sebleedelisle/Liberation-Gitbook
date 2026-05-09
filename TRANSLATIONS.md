@@ -77,11 +77,21 @@ Established protocol, connector, product, and acronym names should remain stable
 
 Visible Markdown link text should be translated when it is natural-language text. For links to other pages or sections in the manual, the visible text should match the translated title or heading for that destination, while the link target itself must stay exactly the same.
 
-GitBook mention links must not keep visible labels as filenames, paths, slugs, or English titles such as `setting-up-lasers.md`, `output-view`, or `Quick start guide`. Use the translated destination title or heading as the visible link text.
+In translated locales, GitBook mention links must not keep visible labels as filenames, paths, slugs, or English titles such as `setting-up-lasers.md`, `output-view`, or `Quick start guide`. Use the translated destination title or heading as the visible link text. This is different from the `en-GB` source rule in [STYLE_GUIDE.md](STYLE_GUIDE.md), where existing filename-style `.md` mention labels are preserved.
 
 In `SUMMARY.md`, preserve leading status emoji prefixes such as `✅`, `🟩`, `🟧`, and `◼️` exactly. Translate the page title after the emoji, but do not remove or change the emoji marker.
 
 ## Keeping translations current
+
+The translation workflow is deliberately batched so English updates are not blocked by every locale.
+
+For normal manual edits, update `en-GB` first and run the English/build checks:
+
+```sh
+npm run manual:uk:check
+```
+
+This does not update translations.
 
 Check translation freshness from git history:
 
@@ -89,16 +99,36 @@ Check translation freshness from git history:
 npm run check:translations
 ```
 
-Update all stale translations:
+Regenerate US English and update the weekly priority AI locales:
 
 ```sh
-npm run translate:stale
+npm run translate:weekly
 ```
 
-Preview the stale files that would be sent to the translation API:
+Preview the weekly update first:
 
 ```sh
-npm run translate:stale:dry-run
+npm run translate:weekly:dry-run
+```
+
+Regenerate US English and update every AI locale:
+
+```sh
+npm run translate:monthly
+```
+
+Preview the monthly update first:
+
+```sh
+npm run translate:monthly:dry-run
+```
+
+The weekly and monthly locale lists live in `translation-tiers.json`. The batch runner records successful runs in `.translation-cadence.json` and refuses to run the same tier too soon. Weekly batches are held for 7 days, and monthly batches are held for 28 days.
+
+If an urgent translation fix is needed, either translate the specific page with `translate:docs` or pass `--force-cadence` to the batch command, for example:
+
+```sh
+npm run translate:weekly -- --force-cadence
 ```
 
 By default, stale mode uses git history to compare the current English file with the English version from the last commit where the matching translated file was touched. Existing stale files use `--stale-strategy blocks`: the script splits the page into Markdown blocks, sends only changed translatable blocks to the translation API, and stitches the translated blocks back into the existing page locally. This keeps unchanged translated blocks out of the API request and avoids rewriting whole pages for small edits.
@@ -106,7 +136,8 @@ By default, stale mode uses git history to compare the current English file with
 The dry run includes a rough character estimate for the changed blocks that would be sent and returned:
 
 ```sh
-npm run translate:stale:dry-run
+npm run translate:weekly:dry-run
+npm run translate:monthly:dry-run
 ```
 
 To update only files changed in a specific commit or range:
@@ -142,11 +173,25 @@ Run the normal checks after translating:
 
 ```sh
 npm run check:english-style
-npm run localize:en-us
 npm run check:translations:strict
 npm run check:links
 npm run build:site
 ```
+
+`npm run localize:en-us` is still available for a one-off US English regeneration, but the weekly and monthly batch commands run it automatically.
+
+## GitHub automation
+
+The `Translation Updates` GitHub Actions workflow runs the same batches automatically:
+
+* Weekly: every Monday at 03:00 UTC.
+* Monthly: on the 1st of each month at 04:00 UTC.
+
+The workflow opens or updates a pull request from `translation/weekly` or `translation/monthly` instead of committing AI translations directly to `main`.
+
+To enable it, add `OPENAI_API_KEY` as a repository secret in GitHub. If you want to use Anthropic instead, add `ANTHROPIC_API_KEY` as a secret and set the repository variable `TRANSLATE_PROVIDER` to `anthropic`.
+
+You can also run it manually from the Actions tab with optional inputs for the batch tier, `--force-cadence`, dry-run mode, a per-locale file limit, or a space-separated locale override.
 
 `npm run check:links` also checks translated internal link labels so stale English page titles and filename-style mention labels cannot be reintroduced silently.
 It also checks translated `SUMMARY.md` files against the English sidebar so missing or changed status emoji prefixes cannot be reintroduced silently.
