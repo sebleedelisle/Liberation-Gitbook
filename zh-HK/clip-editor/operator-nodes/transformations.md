@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 變換
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 沿 x、y 及／或 z 軸移動所有內容。請注意，座標系統以中心為原點，x 軸及 y 軸的範圍延伸至 +/-200。請參閱 [座標系統](../fundamentals/co-ordinate-system.md "mention")。
 

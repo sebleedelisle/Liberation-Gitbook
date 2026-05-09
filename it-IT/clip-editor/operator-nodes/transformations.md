@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Trasformazioni
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Sposta tutto il contenuto lungo gli assi x, y e/o z. Tieni presente che il sistema di coordinate è centrato e si estende fino a +/-200 sugli assi x e y. Vedi [Sistema di coordinate](../fundamentals/co-ordinate-system.md "mention").
 

@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformations
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Siirtää kaiken sisällön x-, y- ja/tai z-akselia pitkin. Huomaa, että koordinaatisto on keskitetty ja ulottuu x- ja y-akseleilla arvoihin +/-200. Katso [Koordinaatisto](../fundamentals/co-ordinate-system.md "mention").
 

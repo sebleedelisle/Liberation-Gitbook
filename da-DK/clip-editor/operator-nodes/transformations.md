@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformationer
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Flytter alt indhold langs x-, y- og/eller z-akserne. Bemærk, at koordinatsystemet er centreret og går til +/-200 på x- og y-akserne. Se [Koordinatsystem](../fundamentals/co-ordinate-system.md "mention").
 

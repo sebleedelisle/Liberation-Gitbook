@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformations
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Přesune veškerý obsah podél os x, y a/nebo z. Souřadnicový systém má střed uprostřed a na osách x a y sahá od -200 do +200. Viz [souřadnicový systém](../fundamentals/co-ordinate-system.md "mention").
 

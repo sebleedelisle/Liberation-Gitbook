@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformations
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Di chuyển toàn bộ nội dung theo trục x, y và/hoặc z. Lưu ý rằng hệ tọa độ được đặt tâm ở giữa và trải từ +/-200 trên trục x và y. Xem [Hệ tọa độ](../fundamentals/co-ordinate-system.md "mention").
 

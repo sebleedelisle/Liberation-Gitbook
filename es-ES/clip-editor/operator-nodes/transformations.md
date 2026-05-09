@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transformaciones
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Mueve todo el contenido a lo largo de los ejes x, y y/o z. Ten en cuenta que el sistema de coordenadas está centrado y se extiende hasta +/-200 en los ejes x e y. Consulta [Sistema de coordenadas](../fundamentals/co-ordinate-system.md "mention").
 

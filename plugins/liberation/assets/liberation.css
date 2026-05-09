@@ -555,6 +555,23 @@ body::-webkit-scrollbar-thumb:hover,
   max-width: 100%;
 }
 
+.markdown-section img[data-size="line"] {
+  display: inline;
+  height: 1.2em;
+  margin-inline-end: 0.18em;
+  max-height: 1.2em;
+  max-width: none;
+  vertical-align: -0.18em;
+  width: auto;
+}
+
+@supports (height: 1lh) {
+  .markdown-section img[data-size="line"] {
+    height: 1lh;
+    max-height: 1lh;
+  }
+}
+
 .markdown-section figure {
   margin: 28px 0;
 }

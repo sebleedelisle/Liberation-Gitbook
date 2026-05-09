@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transzformációk
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 Az összes tartalmat elmozdítja az x, y és/vagy z tengely mentén. Fontos, hogy a koordináta-rendszer középpontja az origó, és az x, illetve y tengelyen +/-200-ig terjed. Lásd: [Koordináta-rendszer](../fundamentals/co-ordinate-system.md "mention").
 

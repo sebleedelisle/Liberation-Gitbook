@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 変形
 
-## &#x20;Translate
+## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
 すべてのコンテンツを x、y、または z 軸方向に移動します。座標系は中央を原点とし、x 軸と y 軸は +/-200 まで広がります。[座標系](../fundamentals/co-ordinate-system.md "mention") を参照してください。
 
