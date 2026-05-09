@@ -26,7 +26,7 @@ Liberation peut piloter de nombreux lasers depuis un seul ordinateur ; il a ét�
 
 * le processeur de votre ordinateur
 * la vitesse du réseau
-* votre type d’abonnement
+* votre niveau de licence
 
 #### **Quels contrôleurs MIDI puis-je utiliser ?**
 
@@ -89,11 +89,11 @@ Notez que vous pouvez configurer, prévisualiser et concevoir des shows avec aut
 
 #### **Puis-je passer à un niveau supérieur ?**
 
-Vous pouvez passer à un niveau supérieur à tout moment. Vous recevrez un remboursement partiel pour la durée restante de votre licence actuelle, et votre nouveau plan démarrera immédiatement. Voir [Mettre à niveau ou rétrograder votre licence](installation/upgrade-downgrade-your-license.md "mention")
+Vous pouvez passer à un niveau supérieur à tout moment. Vous recevrez un remboursement partiel pour la durée restante de votre période payée actuelle, et votre nouveau niveau de licence démarrera immédiatement. Voir [Mettre à niveau ou rétrograder votre licence](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Puis-je rétrograder ma licence ?**
 
-Vous pouvez rétrograder à tout moment, mais le changement prendra effet à la fin de votre période de licence actuelle. Voir [Mettre à niveau ou rétrograder votre licence](installation/upgrade-downgrade-your-license.md "mention")
+Vous pouvez rétrograder à tout moment, mais le changement prendra effet à la fin de votre période payée actuelle. Voir [Mettre à niveau ou rétrograder votre licence](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Comment autoriser mon ordinateur avec ma licence ?**
 
@@ -101,19 +101,19 @@ Une fois que vous avez acheté une licence, vous pouvez autoriser l’ordinateur
 
 #### **À quelle fréquence dois-je connecter mon ordinateur à Internet ?**
 
-À chaque renouvellement de licence, vous devrez connecter Liberation à Internet pour mettre à jour sa licence interne. Pour un paiement récurrent mensuel, vous devrez vous connecter chaque mois.
+Chaque fois qu’une licence payante est actualisée après un paiement, vous devrez connecter Liberation à Internet pour mettre à jour sa licence interne. Pour une licence mensuelle à renouvellement automatique, vous devrez vous connecter chaque mois.
 
-#### **Que se passe-t-il si je ne peux pas connecter mon ordinateur à Internet après le renouvellement ?**
+#### **Que se passe-t-il si je ne peux pas connecter mon ordinateur à Internet après le prochain paiement ?**
 
-Liberation vous accorde une période de grâce de 7 jours après le renouvellement de votre licence pour vous connecter à Internet et mettre à jour sa licence interne. Après cette période, Liberation repassera en mode _Free_.
+Liberation vous accorde une période de grâce de 7 jours après l’actualisation de votre licence payante pour vous connecter à Internet et mettre à jour sa licence interne. Après cette période, Liberation repassera en mode _Free_.
 
 #### **Que se passe-t-il si ma carte bancaire expire ?**
 
-Vous recevrez une notification par e-mail de notre prestataire de paiement, et vous devrez mettre à jour votre moyen de paiement. Connectez-vous au site web et utilisez le lien _Update payment details_ sur la page des abonnements.
+Vous recevrez une notification par e-mail de notre prestataire de paiement, et vous devrez mettre à jour les informations de votre carte. Connectez-vous au site web et utilisez _UPDATE CARD DETAILS_ sur la page de licence, ou _Update_ sous _Billing and payments_.
 
-#### **Comment annuler ma licence récurrente ?**
+#### **Comment annuler le renouvellement automatique de ma licence ?**
 
-Connectez-vous au site web, ouvrez la page _Your subscriptions_, sélectionnez l’abonnement que vous souhaitez annuler, puis cliquez sur le lien _Cancel Subscription_. Vous pouvez continuer à utiliser Liberation jusqu’à la fin de la période de licence.
+Connectez-vous au site web, ouvrez la page [_Your licences_](https://liberationlaser.com/account/my-products), sélectionnez la licence que vous souhaitez gérer, puis cliquez sur _CANCEL PAYMENTS_. Votre licence payante restera active jusqu’à la fin de la période payée actuelle. Aucun autre paiement ne sera prélevé.
 
 #### **Sur combien d’ordinateurs puis-je installer Liberation ?**
 
@@ -131,9 +131,9 @@ Vous pouvez également désautoriser à distance un ordinateur auquel vous n’a
 
 #### **Puis-je désautoriser Liberation sur un ordinateur perdu ou volé ?**
 
-Vous pouvez désautoriser l’ordinateur via le site web. Si l’installation de Liberation n’a pas été en ligne depuis votre dernier renouvellement, cela peut être fait immédiatement.
+Vous pouvez désautoriser l’ordinateur via le site web. Si l’installation de Liberation n’a pas été en ligne depuis sa dernière actualisation de licence, cela peut être fait immédiatement.
 
-Sinon, la désautorisation prendra effet au renouvellement de l’abonnement ou lorsque l’ordinateur se connectera à Internet, selon ce qui se produit en premier. Si vous devez réautoriser un nouvel ordinateur en urgence, contactez le support.
+Sinon, la désautorisation prendra effet lors de la prochaine actualisation de la licence ou lorsque l’ordinateur se connectera à Internet, selon ce qui se produit en premier. Si vous devez réautoriser un nouvel ordinateur en urgence, contactez le support.
 
 ### Utiliser Liberation
 

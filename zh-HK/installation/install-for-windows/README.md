@@ -13,13 +13,13 @@ metaLinks:
 
 ### 安裝程序
 
-當你擁有有效訂閱後，你會收到一條連結；或者你可以在[ _你的訂閱_](https://liberationlaser.com/account/my-products)頁面按 _Download_ 連結。
+當你擁有有效付費 licence 後，你會收到一條連結；或者你可以在 [_Your licences_](https://liberationlaser.com/account/my-products) 頁面按 _Download_。
 
 你會看到此頁面：
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-按 _Download latest for Windows_（版本號碼可能會有所不同），你會看到下載指示器顯示進度（通常在右上角，截圖來自 Chrome）。下載完成後，開啟你的下載項目，然後按已下載的安裝程式檔案。
+按 _Download for Windows_（版本號碼可能會有所不同），你會看到下載指示器顯示進度（通常在右上角，截圖來自 Chrome）。下載完成後，開啟你的下載項目，然後按已下載的安裝程式檔案。
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

@@ -13,13 +13,13 @@ Windows 10 または 11 の 64-bit マシンに対応しています。大規模
 
 ### インストール手順
 
-有効なサブスクリプションを取得するとリンクが送られてきます。または、[ _Your subscriptions_](https://liberationlaser.com/account/my-products) ページの _Download_ リンクをクリックします。
+有効な有料ライセンスを取得するとリンクが送られてきます。または、[_Your licences_](https://liberationlaser.com/account/my-products) ページの _Download_ をクリックします。
 
 次のページが表示されます：
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-_Download latest for Windows_（バージョン番号は変わる場合があります）をクリックすると、ダウンロードの進行状況を示すインジケーターが表示されます（通常は右上に表示されます。スクリーンショットは Chrome のものです）。完了したらダウンロードを開き、ダウンロードしたインストーラーファイルをクリックします。
+_Download for Windows_（バージョン番号は変わる場合があります）をクリックすると、ダウンロードの進行状況を示すインジケーターが表示されます（通常は右上に表示されます。スクリーンショットは Chrome のものです）。完了したらダウンロードを開き、ダウンロードしたインストーラーファイルをクリックします。
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

@@ -56,7 +56,7 @@ Não sabe o que um determinado botão faz? Passe o mouse sobre ele para ver uma 
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-O menu é onde você encontra todas as opções de importação/exportação de arquivos e abre painéis. Você também encontra aqui a opção para autorizar o computador com a sua assinatura (em _Liberation -> Authorise/Deauthorise this computer_).
+O menu é onde você encontra todas as opções de importação/exportação de arquivos e abre painéis. Você também encontra aqui a opção para autorizar o computador com a sua licença (em _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Barra de ícones
 

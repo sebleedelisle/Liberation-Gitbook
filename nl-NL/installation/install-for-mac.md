@@ -13,13 +13,13 @@ macOS versie 12 (Monterey) en hoger. Apple Silicon wordt aanbevolen, vooral als 
 
 ### Installatieproces
 
-Zodra je een actief abonnement hebt, ontvang je een link. Je kunt ook op de link _Download_ klikken op de pagina [_My subscriptions_](https://liberationlaser.com/account/my-products).
+Zodra je een actieve betaalde licentie hebt, ontvang je een link. Je kunt ook op _Download_ klikken op de pagina [_Je licenties_](https://liberationlaser.com/account/my-products).
 
 Je ziet dan deze pagina:
 
-<figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klik op _Download latest for Mac_ (de versienummers veranderen na verloop van tijd). Het Liberation DMG-installatiebestand wordt dan opgeslagen in je Downloads-map. Zoek het bestand en dubbelklik erop om het te openen.
+Klik op _Download for Mac_ (de versienummers veranderen na verloop van tijd). Het Liberation DMG-installatiebestand wordt dan opgeslagen in je Downloads-map. Zoek het bestand en dubbelklik erop om het te openen.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 
