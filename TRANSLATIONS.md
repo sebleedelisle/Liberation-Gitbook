@@ -16,6 +16,27 @@ npm run localize:en-us
 
 The generator applies conservative UK-to-US spelling and terminology substitutions while preserving Markdown link targets, image paths, URLs, code, keyboard shortcuts, and the underlying file structure.
 
+## Operating model
+
+Production docs are built with HonKit and deployed to GitHub Pages by `.github/workflows/honkit-pages.yml`. The live site is:
+
+```text
+https://docs.liberationlaser.com/
+```
+
+GitHub Pages deploys production from `main`. It does not currently create a separate public Pages URL for each pull request. Preview translation PRs locally from the PR branch before merging.
+
+The intended workflow is:
+
+1. Edit `en-GB` only.
+2. Run `npm run manual:uk:check`.
+3. Commit and push `main`.
+4. Let GitHub Pages deploy the English/source update.
+5. Let `Translation Updates` open/update translation PRs on the weekly or monthly cadence.
+6. Preview and merge translation PRs when they look good.
+
+Do not update every translated locale for every English edit. The cadence exists to keep English changes fast and to avoid unnecessary translation API usage.
+
 ## API keys
 
 For OpenAI:
@@ -93,6 +114,8 @@ npm run manual:uk:check
 
 This does not update translations.
 
+GitHub Pages will deploy the `en-GB` update from `main`. Translations should be handled by the scheduled GitHub workflow or by an intentional manual batch run.
+
 Check translation freshness from git history:
 
 ```sh
@@ -124,6 +147,8 @@ npm run translate:monthly:dry-run
 ```
 
 The weekly and monthly locale lists live in `translation-tiers.json`. The batch runner records successful runs in `.translation-cadence.json` and refuses to run the same tier too soon. Weekly batches are held for 7 days, and monthly batches are held for 28 days.
+
+If a scheduled run is not due, the workflow exits cleanly without opening a PR. This prevents expected cadence skips from showing as failed GitHub Actions runs.
 
 If an urgent translation fix is needed, either translate the specific page with `translate:docs` or pass `--force-cadence` to the batch command, for example:
 
@@ -173,9 +198,11 @@ Run the normal checks after translating:
 
 ```sh
 npm run check:english-style
+npm run check:spelling
 npm run check:translations:strict
 npm run check:links
 npm run build:site
+npm run check:generated-images
 ```
 
 `npm run localize:en-us` is still available for a one-off US English regeneration, but the weekly and monthly batch commands run it automatically.
@@ -193,5 +220,62 @@ To enable it, add `OPENAI_API_KEY` as a repository secret in GitHub. If you want
 
 You can also run it manually from the Actions tab with optional inputs for the batch tier, `--force-cadence`, dry-run mode, a per-locale file limit, or a space-separated locale override.
 
+Use this manual GitHub Actions test sequence when changing the workflow itself:
+
+1. Run `weekly` with `dry_run: true`.
+2. Run a single locale, for example `weekly` with `locale: de-DE` and `force_cadence: true`.
+3. If that passes, run the intended full `weekly` or `monthly` batch.
+
+Do not use `limit` for a real PR-creating test unless you also adjust the checks. A limited run intentionally leaves selected locales stale, so strict freshness checks can fail.
+
+For translation PR review:
+
+1. Wait for the `Translation Updates` run to finish.
+2. Preview the PR locally from the PR branch:
+
+   ```sh
+   git fetch origin translation/weekly
+   git worktree add /tmp/liberation-gitbook-pr origin/translation/weekly
+   cd /tmp/liberation-gitbook-pr
+   npm ci
+   npm run build:site
+   python3 -m http.server 4001 --directory _book
+   ```
+
+3. Open `http://localhost:4001/en-GB/` and spot-check the changed areas plus several translated locales.
+4. Merge the PR if it looks good.
+5. Watch the post-merge `Checks` and `HonKit Pages` workflows on `main`.
+
 `npm run check:links` also checks translated internal link labels so stale English page titles and filename-style mention labels cannot be reintroduced silently.
 It also checks translated `SUMMARY.md` files against the English sidebar so missing or changed status emoji prefixes cannot be reintroduced silently.
+
+## Automated checks
+
+The `Checks` workflow runs on normal pushes and human pull requests. It runs:
+
+```sh
+npm run check:english-style
+npm run build:site
+npm run check:generated-images
+npm run check:links
+npm run check:spelling
+```
+
+Coverage:
+
+* Broken internal links: yes, via `scripts/check_links.py`.
+* Translated link labels: yes, via `scripts/check_link_texts.py`.
+* Summary status emoji prefixes: yes, via `scripts/check_summary_icons.py`.
+* Generated image references and shared locale asset folders: yes, via `scripts/check_generated_images.py`.
+* Spelling: partly, via `codespell` for `en-GB`, `en-US`, scripts, workflows, plugin/config files, and selected root docs.
+* Grammar: no full grammar checker. `check:english-style` is a mechanical style/terminology checker for common source-English issues.
+
+Translation PR branches are pushed by GitHub Actions. GitHub may not trigger the separate `Checks` workflow for those bot-created pushes, so the `Translation Updates` workflow runs the important translation checks itself before it opens or updates the PR:
+
+```sh
+npm run check:english-style
+python3 scripts/check_translation_batch.py <tier> --strict
+npm run check:links
+npm run build:site
+npm run check:generated-images
+```
