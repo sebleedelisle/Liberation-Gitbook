@@ -178,7 +178,7 @@ To update only files changed since a ref:
 npm run translate:docs -- de-DE --mode stale --since origin/main
 ```
 
-If a block-level patch cannot be safely applied, the command stops instead of silently retranslating the whole page. Add `--allow-full-fallback` if you want those failures to fall back to full-file translation. To force a fresh full-file translation for every selected stale page, use `--stale-strategy full`. The previous page-level diff behaviour is still available with `--stale-strategy diff`.
+If a block-level patch cannot be safely applied, the command stops instead of silently retranslating the whole page. Add `--allow-full-fallback` if you want those failures to fall back to full-file translation. The GitHub Actions translation workflow uses this fallback so one mismatched translated page does not stop the whole scheduled batch. To force a fresh full-file translation for every selected stale page, use `--stale-strategy full`. The previous page-level diff behaviour is still available with `--stale-strategy diff`.
 
 The translator also updates `.translation-status.json`. This records pages that have been processed against the current English source even when the translated Markdown does not need any byte-level content change, so the strict freshness check can distinguish handled no-op translations from genuinely stale pages.
 
