@@ -32,7 +32,7 @@ Moim zdaniem to jedno z najciekawszych i najbardziej kreatywnych narzędzi wbudo
 
 #### Parametry efektu
 
-Dodaj parametr do efektu za pomocą _Parameter node._ System parametrów pozwala regulować wiele ustawień wewnątrz efektu z zewnątrz. Więcej informacji znajdziesz w [Parameter Control](clip-editor/oscillators/parameter-control.md "mention").
+Dodaj parametr do efektu za pomocą _Parameter node._ System parametrów pozwala regulować wiele ustawień wewnątrz efektu z zewnątrz. Więcej informacji znajdziesz w [Sterowanie parametrami](clip-editor/oscillators/parameter-control.md "mention").
 
 Użyj kontrolerów obrotowych 1–8, aby regulować _parameter_ dla każdego efektu. Możesz też kliknąć przycisk efektu prawym przyciskiem myszy i dostosować suwaki parametrów. Zmiana parametru robi różne rzeczy w zależności od tego, jak skonfigurowany jest efekt. Poniżej znajdziesz listę domyślnych efektów oraz opis działania ich parametrów.
 
@@ -89,7 +89,7 @@ Ta funkcja jest wyłączona, jeśli ustawienie _MX Group_ ma wartość 0.
 
 Kliknij dowolny efekt prawym przyciskiem myszy i kliknij przycisk _EDIT EFFECT_, aby otworzyć edytor efektów. Zauważ, że ten edytor jest identyczny jak edytor Clip!
 
-Edytuj efekt tak samo, jak edytujesz dowolny klip. Zobacz [Edytor Clipów](clip-editor/ "mention").
+Edytuj efekt tak samo, jak edytujesz dowolny Clip. Zobacz [Clip Editor](clip-editor/ "mention").
 
 Musisz mieć co najmniej jeden węzeł typu creator; może to być cokolwiek (linia, okrąg, kształt, a nawet tekst!), ale najlepiej wybrać coś, co ma sens w podglądzie przycisku efektu.
 

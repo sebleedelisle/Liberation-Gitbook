@@ -11,6 +11,8 @@ Você pode fazer upgrade para um nível de licença superior a qualquer momento.
 
 Você também pode fazer downgrade a qualquer momento, mas a alteração só entrará em vigor ao final do período pago atual.
 
+Você não pode alterar o plano enquanto houver uma pausa de pagamentos agendada ou enquanto a licença estiver pausada. Cancele a pausa agendada ou reative a licença primeiro; depois, altere o plano.
+
 Faça login no site, abra a página [_Your licences_](https://liberationlaser.com/account/my-products), selecione a licença que você quer alterar e clique em _UPGRADE / DOWNGRADE_. Em seguida, você verá as opções disponíveis para a sua licença.
 
 <figure><img src="../.gitbook/assets/account-change-licence-plan.png" alt=""><figcaption></figcaption></figure>

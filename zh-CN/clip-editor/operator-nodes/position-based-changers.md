@@ -49,7 +49,7 @@ metaLinks:
 
 **Gradient editor**
 
-使用与 [Colour Changer](colour-changer.md "mention") 相同的渐变编辑器，但会按位置将渐变映射到内容上。
+使用与 [颜色变化](colour-changer.md "mention") 相同的渐变编辑器，但会按位置将渐变映射到内容上。
 
 * 点击渐变条可添加一个颜色停止点。
 * 左键点击停止点将其选中，然后横向拖动即可移动。

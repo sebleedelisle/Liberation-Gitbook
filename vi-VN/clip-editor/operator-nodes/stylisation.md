@@ -26,7 +26,7 @@ node Randomise là phần cốt lõi của hiệu ứng Randomise!
 
 Tạo các “tiếng vọng” của nội dung, để lại các bản sao mờ dần hoặc thay đổi tỉ lệ phía sau bản gốc khi nó di chuyển.
 
-* **change render profile for trail** – nếu bật, tất cả bản sao trail sẽ dùng **render profile** đã chọn. _Xem_ [render profile](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – nếu bật, tất cả bản sao trail sẽ dùng **render profile** đã chọn. _Xem_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – profile dùng cho các bản sao trail khi công tắc ở trên được bật. Thường dùng khi nội dung chính được đặt thành **DETAIL** nhưng các tiếng vọng được render dưới dạng **FAST**, giúp giữ chi tiết rõ trên các hình dạng chính trong khi render trail hiệu quả hơn.
 * **delay** – đặt khoảng cách giữa các bản sao trail theo thời gian âm nhạc, đo bằng **bước nốt 1/64**.\
   Để tham khảo:

@@ -27,6 +27,8 @@ Chaque licence est destinée à un seul utilisateur et à un seul show à la foi
 
 Le système de licence et d’autorisation de Liberation fonctionne via Internet ; l’application se connecte à notre serveur pour associer une installation à votre licence payante.
 
-Une fois votre installation autorisée, elle n’a plus besoin d’être en ligne jusqu’à la prochaine échéance de paiement ou date de validité de votre licence payante. Vous pouvez voir cette date dans le _About panel._ Il existe un court délai de grâce (7 jours pour les licences payantes mensuelles), mais il est recommandé de vous connecter dès que possible après cette date afin de vous assurer que votre autorisation reste active.
+Une fois votre autorisation obtenue, vous n’avez plus besoin d’être en ligne jusqu’à la prochaine date de paiement de votre licence récurrente (affichée dans le _About panel_). Les licences récurrentes mensuelles incluent généralement un court délai de grâce (7 jours), mais vous devez vous connecter dès que possible après la date de paiement afin de conserver l’accès à vos fonctionnalités payantes sans interruption.
+
+Le délai de grâce est prévu pour les problèmes de renouvellement et de paiement. Il ne prolonge pas les licences qui ont été annulées ou volontairement mises en pause après la fin de la période payée. Si un paiement échoue, mettez à jour les informations de votre carte pendant le délai de grâce afin de conserver l’accès aux fonctionnalités payantes.
 
 Le niveau de licence actuel est également affiché dans la barre supérieure. Cliquez sur le nom du niveau, ou sur _FREE MODE_ en l’absence de licence, pour ouvrir le About panel.

@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Tipps zum Laden von Grafiken / SVG-Dateien
 
-Informationen zum Importieren von Vektorformen, Logos usw. findest du im Shape Creator Node. [Creator-Nodes](clip-editor/creator-nodes.md "mention")
+Informationen zum Importieren von Vektorformen, Logos usw. findest du im Shape Creator Node. [Creator nodes](clip-editor/creator-nodes.md "mention")

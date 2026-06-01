@@ -13,13 +13,13 @@ Komputery z systemem Windows 10 lub 11, 64-bitowe. Jeśli chcesz uruchamiać du�
 
 ### Proces instalacji
 
-Gdy masz aktywną subskrypcję, otrzymasz link. Możesz też kliknąć link _Download_ na stronie[ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Gdy masz aktywną płatną licencję, otrzymasz link. Możesz też kliknąć _Download_ na stronie [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Zobaczysz tę stronę:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Kliknij _Download latest for Windows_ (numery wersji mogą się zmieniać). Zobaczysz wskaźnik postępu pobierania — zwykle w prawym górnym rogu; zrzut ekranu pochodzi z Chrome. Po zakończeniu pobierania otwórz folder pobranych plików i kliknij pobrany plik instalatora.
+Kliknij _Download for Windows_ (numery wersji mogą się zmieniać). Zobaczysz wskaźnik postępu pobierania — zwykle w prawym górnym rogu; zrzut ekranu pochodzi z Chrome. Po zakończeniu pobierania otwórz folder pobranych plików i kliknij pobrany plik instalatora.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation potrzebuje uprawnień dostępu do plików i sieci, więc Windows praw
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation powinien teraz działać. Aby wysyłać sygnał do laserów, przejdź teraz przez [proces autoryzacji.](../authorising-and-de-authorising.md)
+Liberation powinien teraz działać. Aby wysyłać sygnał do laserów, wykonaj kroki opisane w sekcji [Autoryzowanie i cofanie autoryzacji](../authorising-and-de-authorising.md).

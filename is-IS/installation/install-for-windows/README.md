@@ -13,13 +13,13 @@ Windows 10 eða 11 á 64 bita tölvum. Mælt er með öflugum tölvum ef þú æ
 
 ### Uppsetningarferli
 
-Þegar þú ert með virka áskrift færðu sendan tengil, eða þú getur smellt á _Download_ tengilinn á síðunni [ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Þegar þú ert með virkt greitt leyfi færðu sendan tengil, eða þú getur smellt á _Download_ á síðunni [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Þú sérð þessa síðu:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Smelltu á _Download latest for Windows_ (útgáfunúmerin geta breyst) og þú sérð niðurhalsvísinn sýna framvinduna (yfirleitt efst til hægri; skjáskotið er úr Chrome). Þegar niðurhalinu er lokið skaltu opna niðurhalsmöppuna og smella á uppsetningarskrána sem var sótt.
+Smelltu á _Download for Windows_ (útgáfunúmerin geta breyst) og þú sérð niðurhalsvísinn sýna framvinduna (yfirleitt efst til hægri; skjáskotið er úr Chrome). Þegar niðurhalinu er lokið skaltu opna niðurhalsmöppuna og smella á uppsetningarskrána sem var sótt.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation þarf leyfi til að fá aðgang að skrám og netinu, svo Windows mun
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation ætti nú að keyra! Til að senda úttak í lasera þarftu nú að fara í gegnum [Heimildarveitingu og afturköllun heimildar](../authorising-and-de-authorising.md).
+Liberation ætti nú að keyra! Til að senda úttak í lasera þarftu að ljúka [Heimildarveitingu og afturköllun heimildar](../authorising-and-de-authorising.md).

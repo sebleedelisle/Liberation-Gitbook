@@ -23,7 +23,7 @@ Högerklicka på zonen och växla sifferknapparna för att välja vilken eller v
 VARNING – om lasern är aktiverad kan du plötsligt börja projicera innehåll i en standard-canvas-zon. Det är bäst att avaktivera lasern innan du tilldelar canvas-zoner till den.
 {% endhint %}
 
-Om du nu går till _OUTPUT_-vyn för den lasern ser du canvas-zonen där, och den kan nu redigeras precis som vilken beam-zon som helst. Se [Zones](../output-view/zones.md "mention").
+Om du nu går till _OUTPUT_-vyn för den lasern ser du en canvas zone där, och den kan nu redigeras precis som vilken beam zone som helst. Se [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 Du kan också lägga till en canvas-zon till en laser direkt från _OUTPUT_-vyn – klicka på knappen _Add existing canvas zone_ i det vänstra verktygsfältet.
@@ -31,4 +31,4 @@ Du kan också lägga till en canvas-zon till en laser direkt från _OUTPUT_-vyn 
 
 ### Högerklicksmeny
 
-Högerklicka på zonen så visas alternativ för att ta bort den här canvas-zonen, flytta den längst bak och låsa den.
+Högerklicka på zone så visas alternativ för att ta bort denna canvas zone, flytta den längst bak och låsa den.

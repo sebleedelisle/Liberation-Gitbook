@@ -12,7 +12,7 @@ Tout le contenu laser dans Liberation est stocké dans des clips.
 
 Les Clips peuvent contenir des effets de faisceaux atmosphériques ou des animations graphiques, et fonctionnent généralement en boucle. Ils peuvent être envoyés vers n’importe quelle zone (ou Canvas Target Area) et sont déclenchés à l’aide des boutons de Clip dans le Clip Deck.
 
-Le contenu des clips est créé avec le système polyvalent d’édition de clips basé sur des nœuds. (Voir [Introduction au Clip Editor](../clip-editor/clip-editor-intro.md "mention") pour plus de détails)
+Le contenu des Clips est créé avec le système polyvalent du Clip Editor basé sur des nodes. (Voir [Introduction au Clip Editor](../clip-editor/clip-editor-intro.md "mention") pour plus de détails)
 
 ### Le Clip Deck
 

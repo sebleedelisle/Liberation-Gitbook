@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Opprette DMX-soner
 
-1. Koble til Art-Net-noden din og sett den opp i [Koble til en Art-Net-node](../connecting-to-an-artnet-node.md "mention").
+1. Koble til Art-Net-noden din og sett den opp i [◼️ Koble til en Art-Net-node](../connecting-to-an-artnet-node.md "mention").
 2. Åpne **DMX Zones** og klikk på **ADD DMX ZONE**.
 3. Sett **Node**, **Universe** og **Address** for zone slik at de samsvarer med fixturen.
 4. Velg en **Preset** for fixturen. Preset bestemmer hvilke DMX-kanaler som mottar faste verdier, content av/på-verdier, RGB-farge, X/Y-posisjon, lysstyrke eller eksplisitte DMX Value-innganger.

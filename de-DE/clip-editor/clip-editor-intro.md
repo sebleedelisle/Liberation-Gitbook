@@ -75,7 +75,7 @@ Wenn du schon einmal einen analogen Synthesizer verwendet hast, kennst du vermut
 **Fun fact:** Der Name _Liberation_ wurde vom Moog Liberation inspiriert, einem 1980 erschienenen Synthesizer-„Keytar“, der durch Herbie Hancock, Jean-Michel Jarre und sogar James Brown bekannt wurde!
 {% endhint %}
 
-Oscillators haben immer _range_-Einstellungen, mit denen der minimale und maximale Wert der anzupassenden Eigenschaft gesteuert wird. _Wave Oscillators_ haben außerdem immer eine _duration_-Einstellung, die festlegt, wie schnell der Oscillator den Wert verändert. Weitere Informationen findest du unter [Wave oscillators](oscillators/wave-oscillators.md "mention").
+Oscillators haben immer _range_-Einstellungen, mit denen der minimale und maximale Wert der anzupassenden Eigenschaft gesteuert wird. _Wave Oscillators_ haben außerdem immer eine _duration_-Einstellung, die festlegt, wie schnell der Oscillator den Wert verändert. Weitere Informationen findest du unter [Wave Oscillators](oscillators/wave-oscillators.md "mention").
 
 ### Clip Editor panel
 

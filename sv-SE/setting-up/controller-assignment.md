@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ Tilldela kontroller
 
-När du har ställt in lasrarna i Liberation kan du tilldela var och en av dem till en laserkontroller i den verkliga världen. (Se [Kompatibla lasrar och styrenheter (DAC](../hardware/compatible-lasers-and-controllers-dacs.md "mention") för att kontrollera vilken hårdvara du kan använda). Kontrollerna ansluts antingen via USB eller över nätverket.
+När du har ställt in lasrarna i Liberation kan du tilldela var och en av dem till en laserkontroller i den verkliga världen. (Se [Kompatibla lasrar och kontroller (DAC:er)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") för att kontrollera vilken hårdvara du kan använda). Kontrollerna ansluts antingen via USB eller över nätverket.
 
 * Öppna panelen _Controller Assignment_ via menyalternativet _View -> Controller Assignment_. (Alternativt kan du använda knappen _ASSIGN LASER CONTROLLERS_ i panelen _Laser Overview_.)
 

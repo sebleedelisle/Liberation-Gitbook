@@ -24,7 +24,7 @@ Tworzy linię / płaszczyznę światła.
 * **Colour** - kolor linii. Zobacz [Ustawienia koloru i HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * pozycja **x** i **y** - zobacz [Układ współrzędnych](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - kąt linii w stopniach
-* **resolution** - zobacz [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - zobacz [Rozdzielczość](fundamentals/resolution.md "mention")
 * **alignment** - _LEFT / CENTRE / RIGHT -_ określa punkt początkowy i środek obrotu linii
 * _MOVE TO FRONT / MOVE TO BACK_ - zobacz [Wypełnienia, maski i sortowanie głębokości](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
@@ -36,7 +36,7 @@ Tworzy okrąg / stożek.
 * **radius** - promień okręgu
 * **Colour** - kolor okręgu. Zobacz [Ustawienia koloru i HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * pozycja **x** i **y** - zobacz [Układ współrzędnych](fundamentals/co-ordinate-system.md "mention")
-* **resolution** - zobacz [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - zobacz [Rozdzielczość](fundamentals/resolution.md "mention")
 * **Fill state** - zobacz [Wypełnienia, maski i sortowanie głębokości](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - zobacz [Wypełnienia, maski i sortowanie głębokości](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
@@ -49,7 +49,7 @@ Tworzy wielokąt równoboczny: trójkąt, kwadrat, pięciokąt itd.
 * **Colour** - kolor wielokąta. Zobacz [Ustawienia koloru i HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * pozycja **x** i **y** - zobacz [Układ współrzędnych](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - kąt obrotu kształtu w stopniach
-* **resolution** - zobacz [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - zobacz [Rozdzielczość](fundamentals/resolution.md "mention")
 * **Fill state** - zobacz [Wypełnienia, maski i sortowanie głębokości](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - zobacz [Wypełnienia, maski i sortowanie głębokości](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
@@ -74,7 +74,7 @@ Po wczytaniu SVG zawartość zostaje przekonwertowana i zapisana w klipie, więc
 * **scale** - dostosowuje rozmiar SVG. Wartość jest obliczana automatycznie podczas wczytywania SVG (aby obraz był widoczny), ale później można ją ręcznie zmienić.
 * pozycja **x** i **y** - zobacz [Układ współrzędnych](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - kąt obrotu obrazu w stopniach
-* **resolution** - zobacz [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - zobacz [Rozdzielczość](fundamentals/resolution.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - zobacz [Wypełnienia, maski i sortowanie głębokości](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorAnim.png" alt="" data-size="line"> Anim Creator
@@ -94,7 +94,7 @@ Po wczytaniu sekwencji SVG zawartość zostaje przekonwertowana i zapisana w kli
 * **scale** - dostosowuje rozmiar obrazu.
 * pozycja **x** i **y** - zobacz [Układ współrzędnych](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - kąt obrotu obrazu w stopniach
-* **resolution** - zobacz [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - zobacz [Rozdzielczość](fundamentals/resolution.md "mention")
 * **speed** - czas trwania całej animacji w taktach.
 * **time per frame** - jeśli to ustawienie jest włączone, czas trwania dotyczy pojedynczej klatki, a nie całej animacji. Jeśli więc _speed_ ustawiono na ¼, każda klatka będzie trwać 1 uderzenie.
 * **animation direction** -
@@ -125,7 +125,7 @@ Aby dodać więcej czcionek do Liberation, skopiuj pliki .ttf lub .otf do folder
 * **colour -** zobacz [Ustawienia koloru i HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * pozycja **x** i **y** - zobacz [Układ współrzędnych](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - kąt obrotu obrazu w stopniach
-* **resolution** - zobacz [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - zobacz [Rozdzielczość](fundamentals/resolution.md "mention")
 * **reveal** - użyj tego ustawienia, aby stopniowo odsłaniać tekst, po jednym znaku. Gdy wartość mieści się między 0 a 50%, tekst będzie stopniowo pojawiał się od lewej do prawej. Gdy mieści się między 50% a 100%, tekst będzie znikał od lewej do prawej. Możesz podłączyć oscylator do tego gniazda, aby tworzyć animacje.
 * **reveal by word** - gdy jest włączone, _reveal_ działa słowo po słowie, a nie znak po znaku.
 * **countdown** - zastępuje wpisany tekst odliczaniem. Gdy odliczanie dojdzie do zera, wyświetlana jest zwykła wartość **Text**.

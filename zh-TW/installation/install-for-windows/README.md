@@ -13,13 +13,13 @@ metaLinks:
 
 ### 安裝流程
 
-取得有效訂閱後，你會收到一個連結，或可在[ _Your subscriptions_](https://liberationlaser.com/account/my-products) 頁面按一下 _Download_ 連結。
+取得有效的付費授權後，你會收到一個連結，或可在 [_Your licences_](https://liberationlaser.com/account/my-products) 頁面按一下 _Download_。
 
 你會看到這個頁面：
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-按一下 _Download latest for Windows_（版本號可能會變動），你會看到下載指示器顯示進度（通常在右上角，截圖來自 Chrome）。下載完成後，開啟下載項目並按一下已下載的安裝程式檔案。
+按一下 _Download for Windows_（版本號可能會變動），你會看到下載指示器顯示進度（通常在右上角，截圖來自 Chrome）。下載完成後，開啟下載項目並按一下已下載的安裝程式檔案。
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation 需要存取檔案與網路的權限，因此 Windows 可能會顯示
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation 現在應該會開始執行！若要輸出到雷射，接下來需要完成[授權流程。](../authorising-and-de-authorising.md)
+Liberation 現在應該可以執行了！若要輸出到雷射，接下來需要完成[授權與取消授權](../authorising-and-de-authorising.md)。

@@ -67,7 +67,7 @@ Du kan lägga till clips från en exporterad clip deck-fil i ditt aktuella proje
 Alla clips som är markerade just nu exporteras till en fil. Gruppinställningar och effekter sparas inte, bara clips. Observera att aktiva clips som körs för närvarande inte exporteras om de inte också är markerade.
 
 {% hint style="info" %}
-Option/Alt - shift - klicka på clips för att markera dem (eller använd lassot). Du ser vilka clips som är markerade på den tjocka vita konturen runt dem. Se [Starta/stoppa clips](clips/starting-stopping-clips.md "mention")
+Option/Alt - shift - klicka på Clips för att markera dem (eller använd lassot). Du ser vilka Clips som är markerade på den tjocka vita konturen runt dem. Se [Starta/stoppa Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Effektimport/-export

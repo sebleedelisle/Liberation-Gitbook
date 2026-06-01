@@ -61,4 +61,4 @@ Liberation a besoin d’autorisations pour accéder aux fichiers et au réseau ;
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation devrait maintenant se lancer ! Pour envoyer la sortie vers des lasers, vous devez maintenant suivre le [processus d’autorisation.](../authorising-and-de-authorising.md)
+Liberation devrait maintenant se lancer ! Pour envoyer la sortie vers des lasers, vous devez effectuer l’[autorisation et la révocation d’autorisation](../authorising-and-de-authorising.md).

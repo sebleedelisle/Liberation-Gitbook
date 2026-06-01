@@ -49,7 +49,7 @@ metaLinks:
 
 **Gradient editor**
 
-[Colour Changer](colour-changer.md "mention")와 같은 gradient editor를 사용하지만, 위치를 기준으로 콘텐츠 전체에 그라디언트를 매핑합니다.
+[색상 변경](colour-changer.md "mention")과 같은 gradient editor를 사용하지만, 위치를 기준으로 콘텐츠 전체에 그라디언트를 매핑합니다.
 
 * 그라디언트 바를 클릭하여 색상 스톱을 추가합니다.
 * 스톱을 왼쪽 클릭하여 선택한 다음, 좌우로 드래그하여 이동합니다.

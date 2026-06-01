@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 DMX zone oluşturma
 
-1. Art-Net node cihazınızı bağlayın ve [Art-Net node cihazına bağlanma](../connecting-to-an-artnet-node.md "mention") bölümündeki adımlarla kurun.
+1. Art-Net node cihazınızı bağlayın ve [◼️ Art-Net node cihazına bağlanma](../connecting-to-an-artnet-node.md "mention") bölümündeki adımlarla kurun.
 2. **DMX Zones** bölümünü açın ve **ADD DMX ZONE** seçeneğine tıklayın.
 3. zone için **Node**, **Universe** ve **Address** ayarlarını fixture ile eşleşecek şekilde ayarlayın.
 4. Fixture için bir **Preset** seçin. Preset; hangi DMX kanallarının sabit değerler, içerik açık/kapalı değerleri, RGB renk, X/Y konumu, parlaklık veya açık DMX Value girişleri alacağını tanımlar.

@@ -49,7 +49,7 @@ Określają, które aspekty korekcji koloru są stosowane do zawartości. Zobacz
 
 **Edytor gradientu**
 
-Używa tego samego edytora gradientu co [Colour Changer](colour-changer.md "mention"), ale mapuje gradient na zawartość według położenia.
+Używa tego samego edytora gradientu co [Zmiana koloru](colour-changer.md "mention"), ale mapuje gradient na zawartość według położenia.
 
 * Kliknij pasek gradientu, aby dodać punkt koloru.
 * Kliknij punkt lewym przyciskiem myszy, aby go zaznaczyć, a następnie przeciągnij go na boki, aby go przesunąć.

@@ -9,7 +9,7 @@ metaLinks:
 
 ### ما أجهزة الليزر المتوافقة مع Liberation؟
 
-إذا كان جهاز الليزر لديك يحتوي على مدخل ILDA قياسي، فيمكنك استخدامه مع Liberation، إلى جانب وحدة تحكم ليزر متوافقة مثل Ether Dream أو Helios DAC - [اطّلع على القائمة الكاملة أدناه](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers).
+إذا كان جهاز الليزر لديك يحتوي على مدخل ILDA قياسي، فيمكنك استخدامه مع Liberation، إلى جانب وحدة تحكم ليزر متوافقة مثل Ether Dream أو Helios DAC - انظر [وحدات تحكم الليزر المتوافقة](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers) أدناه.
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - الخيار الأقل تكلفة للاستخدام المنزلي</p></figcaption></figure>
 

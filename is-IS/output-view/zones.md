@@ -9,7 +9,7 @@ metaLinks:
 Sú gerð zone sem þú notar í flestum verkefnum er _Beam zone_. Þetta er zone sem er hönnuð fyrir beam-áhrif í lofti. Hin gerðin er _Canvas zone_ (sjá [Grafík og Canvas-kerfið](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**VIÐVÖRUN - Farðu mjög varlega þegar þú færir zones á meðan leysirinn er í gangi** og lækkaðu birtustigið eins mikið og hægt er. Sjá [Uppsetning leysigeisla](../setting-up/setting-up-lasers.md "mention") fyrir ítarlega leiðbeiningu um hvernig á að virkja og stilla zones fyrir leysigeisla á öruggan hátt.
+**VIÐVÖRUN - Farðu mjög varlega þegar þú færir zones á meðan leysirinn er í gangi** og lækkaðu birtustigið eins mikið og hægt er. Sjá [Yfirlit yfir uppsetningarferli leysigeisla](../setting-up/setting-up-lasers.md "mention") fyrir ítarlega leiðbeiningu um hvernig á að virkja og stilla zones fyrir leysigeisla á öruggan hátt.
 {% endhint %}
 
 Þú getur smellt og dregið zones til með músinni. Kveiktu á test pattern til að sjá hvert viðkomandi zone fer.
@@ -19,7 +19,7 @@ Notaðu örvatakkana til að **færa** valið zone eða punkt örlítið. Haltu 
 {% endhint %}
 
 {% hint style="info" %}
-Gott ráð: þú getur afritað zone-stillingar hratt yfir á marga leysigeisla! Sjá [Afrita Laser Settings](../setting-up/copy-laser-settings.md "mention")
+Gott ráð: þú getur afritað zone-stillingar hratt yfir á marga leysigeisla! Sjá [Afrita stillingar milli leysigeisla](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Bæta við nýju beam zone
@@ -47,7 +47,7 @@ Hægrismelltu á hvaða zone sem er til að opna stillingarnar. Í þessari hæg
 * Endurstillt það í sjálfgefna staðsetningu
 * Opnað stillingar sem eiga sérstaklega við formgerðina
 * Eytt því
-* Bætt við _Alt Zone_ (sjá [Alt Zone-kerfið](alt-zone-system.md "mention"))
+* Bættu við _Alt Zone_ (sjá [Alt zone-kerfið](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **VIÐVÖRUN -** farðu mjög varlega þegar þú breytir zone-gerð á meðan leysirinn er virkur. Zone-ið fer aftur í síðustu staðsetningu/stærð fyrir það form, þannig að úttakið gæti breyst skyndilega. Best er að slökkva á leysinum áður en þú breytir zone-gerðinni.

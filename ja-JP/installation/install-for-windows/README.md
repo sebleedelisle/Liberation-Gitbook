@@ -61,4 +61,4 @@ Liberation がファイルとネットワークにアクセスするには権限
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-これで Liberation が起動するはずです。レーザーへ出力するには、続けて[認証プロセス](../authorising-and-de-authorising.md)を行う必要があります。
+これで Liberation が起動するはずです。レーザーへ出力するには、[認証と認証解除](../authorising-and-de-authorising.md)を完了する必要があります。

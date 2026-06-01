@@ -24,7 +24,7 @@ metaLinks:
 
 ### 새 beam zone 추가하기
 
-toolbar 상단의 _Add a new beam zone_ 버튼을 클릭하면 새 zone이 나타납니다. beam zone은 추가한 순서대로 정렬되지만, 순서를 다시 정렬할 수 있습니다. [빔 존 재정렬](re-ordering-beam-zones.md "mention")를 참조하십시오.
+toolbar 상단의 _Add a new beam zone_ 버튼을 클릭하면 새 zone이 나타납니다. beam zone은 추가한 순서대로 정렬되지만, 순서를 다시 정렬할 수 있습니다. [빔 존 재정렬](re-ordering-beam-zones.md "mention")을 참조하십시오.
 
 ### 기존 canvas zone 추가하기
 

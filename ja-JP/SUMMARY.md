@@ -8,7 +8,7 @@
   * [✅ ライセンスの仕組み](installation/how-licensing-works.md)
   * [✅ 認証と認証解除](installation/authorising-and-de-authorising.md)
   * [✅ ライセンスのアップグレード / ダウングレード](installation/upgrade-downgrade-your-license.md)
-* [✅ ライセンスの解約](installation/cancel-your-subscription.md)
+* [✅ 支払いの一時停止または解約](installation/cancel-your-subscription.md)
   * [🟩 新しいバージョンへアップグレードするときにコンテンツを移行する](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
 * [✅ FAQ](faq.md)
 * [✅ クイックスタートガイド](getting-started.md)

@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Oprettelse af DMX-zoner
 
-1. Tilslut din Art-Net node, og sæt den op i [Opret forbindelse til en Art-Net node](../connecting-to-an-artnet-node.md "mention").
+1. Tilslut din Art-Net node, og sæt den op i [◼️ Opret forbindelse til en Art-Net node](../connecting-to-an-artnet-node.md "mention").
 2. Åbn **DMX Zones**, og klik på **ADD DMX ZONE**.
 3. Indstil zonens **Node**, **Universe** og **Address**, så de passer til armaturet.
 4. Vælg en **Preset** til armaturet. Preset definerer, hvilke DMX-kanaler der modtager faste værdier, indhold til/fra-værdier, RGB-farve, X/Y-position, lysstyrke eller eksplicitte DMX Value-inputs.

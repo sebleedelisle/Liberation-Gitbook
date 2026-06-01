@@ -67,7 +67,7 @@ Si ves pequeñas “colas” en la salida de tu láser, probablemente sea porque
 
 #### Presets de scanner
 
-Usa esto para elegir un ajuste de scanner prediseñado. La opción predeterminada suele ir bien, así que no deberías necesitar cambiar este ajuste a menos que tengas scanners especialmente malos (o buenos). Si quieres profundizar más, consulta [◼️ Preajustes de escáner y perfiles de renderizado](../../advanced/scanner-presets.md "mention")
+Usa esto para elegir un ajuste de escáner prediseñado. La opción predeterminada suele ir bien, así que no deberías necesitar cambiar este ajuste a menos que tengas escáneres especialmente malos (o buenos). Si quieres profundizar más, consulta [◼️ Preajustes de escáner y perfiles de renderizado](../../advanced/scanner-presets.md "mention")
 
 #### Calibración de color
 

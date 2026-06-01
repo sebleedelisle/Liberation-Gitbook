@@ -13,13 +13,13 @@ metaLinks:
 
 ### Postupak instalacije
 
-Nakon što imate aktivnu pretplatu, primit ćete poveznicu ili možete kliknuti poveznicu _Download_ na stranici[ _Vaše pretplate_](https://liberationlaser.com/account/my-products).
+Nakon što imate aktivnu plaćenu licencu, primit ćete poveznicu ili možete kliknuti _Download_ na stranici [_Vaše licence_](https://liberationlaser.com/account/my-products).
 
 Vidjet ćete ovu stranicu:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Kliknite _Download latest for Windows_ (brojevi verzija mogu se promijeniti) i vidjet ćete indikator preuzimanja s prikazom napretka (obično gore desno; snimka zaslona je iz Chromea). Kada preuzimanje završi, otvorite mapu s preuzimanjima i kliknite preuzetu instalacijsku datoteku.
+Kliknite _Download for Windows_ (brojevi verzija mogu se promijeniti) i vidjet ćete indikator preuzimanja s prikazom napretka (obično gore desno; snimka zaslona je iz Chromea). Kada preuzimanje završi, otvorite mapu s preuzimanjima i kliknite preuzetu instalacijsku datoteku.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation treba dopuštenje za pristup datotekama i mreži, pa će Windows vjer
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation bi se sada trebao pokrenuti! Za slanje izlaza na lasere sada trebate proći [Autorizacija i deautorizacija.](../authorising-and-de-authorising.md)
+Liberation bi se sada trebao pokrenuti! Za slanje izlaza na lasere trebate dovršiti [Autorizacija i deautorizacija](../authorising-and-de-authorising.md).

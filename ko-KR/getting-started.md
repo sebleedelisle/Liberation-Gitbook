@@ -23,14 +23,14 @@ Liberation 안에서는 원하는 만큼 많은 레이저를 설정하고 시각
 기본 설정은 레이저 8대가 가로로 배치되어 있지만, 원하는 방식으로 자유롭게 변경할 수 있습니다. 소프트웨어에 익숙해지는 동안에는 이 기본 설정을 유지하는 것이 좋고, 나중에 실제 하드웨어 구성에 맞게 조정하면 됩니다. ([프로젝트 설정하기](setting-up/setting-up-your-project.md "mention") 참조)
 
 {% hint style="warning" %}
-중요: 레이저를 arm하기 전에 관련 위험을 반드시 이해하고 [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention") 장을 주의 깊게 확인하세요.
+중요: 레이저를 준비 상태로 전환하기 전에 관련 위험을 반드시 이해하고 [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention") 장을 주의 깊게 확인하세요.
 {% endhint %}
 
 ## 소프트웨어 개요
 
 ### 안전 차단
 
-레이저를 사용할 때는 항상 **하드웨어 비상 정지 버튼**을 가까이에 두어야 합니다([비상 정지 / 인터록](hardware/emergency-stop-interlocks.md "mention") 참조). 긴급 상황은 아니지만 전체를 disarm하고 싶다면 _**DISARM ALL**_ 버튼이나 `Escape` 키(또는 APC40의 _**SESSION**_ 키)를 사용할 수 있습니다. 화면의 슬라이더나 APC40의 메인 페이더로 전체 밝기를 낮출 수도 있습니다.
+레이저를 사용할 때는 항상 **하드웨어 비상 정지 버튼**을 가까이에 두어야 합니다([비상 정지 / 인터록](hardware/emergency-stop-interlocks.md "mention") 참조). 긴급 상황은 아니지만 전체를 해제 상태로 전환하고 싶다면 _**DISARM ALL**_ 버튼이나 `Escape` 키(또는 APC40의 _**SESSION**_ 키)를 사용할 수 있습니다. 화면의 슬라이더나 APC40의 메인 페이더로 전체 밝기를 낮출 수도 있습니다.
 
 ### 슬라이더 요소
 
@@ -146,7 +146,7 @@ clip deck은 다음 방법으로 좌우로 스크롤할 수 있습니다.
 * APC40 스크롤 노브
 * APC40 _<- DEVICE ->_ 버튼
 
-현재 위치를 파악하기 쉽도록 상단에는 clip deck의 미니 비주얼라이저가 있습니다. [Clips 및 Clip Deck](clips/ "mention")도 참조하세요.
+현재 위치를 파악하기 쉽도록 상단에는 Clip Deck의 미니 비주얼라이저가 있습니다. [Clips 및 Clip Deck](clips/ "mention")도 참조하세요.
 
 #### 클립 시작 및 중지
 
@@ -306,7 +306,7 @@ _Assign Laser Controllers_ 버튼을 클릭하여 _Controller Assignment_ 패널
 자세한 내용은 [컨트롤러 할당](setting-up/controller-assignment.md "mention") 장을 읽어 보세요.
 
 {% hint style="danger" %}
-레이저를 arm하기 전에 반드시 [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention")장을 확인하세요.
+레이저를 준비 상태로 전환하기 전에 반드시 [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention") 장을 확인하세요.
 {% endhint %}
 
 ### Laser output panel
@@ -337,10 +337,10 @@ Liberation은 이 포인트 스트림이 생성되는 방식을 세밀하게 제
 기본 scanner settings는 다음과 같습니다.
 
 * **Speed**는 스캐너 속도, 즉 레이저가 형태를 그리기 위해 얼마나 빠르게 움직이는지를 의미합니다. 기존 레이저 소프트웨어에서 point rate를 조정하는 것과 비슷하지만, Liberation에서는 레이저가 움직이는 속도를 _point rate와 독립적으로_ 변경할 수 있습니다. 일반적으로 이 값을 조정할 필요는 없습니다.
-* **Scanner sync**(때로는 _blank shift_, 이전 명칭 Colour Shift로 알려짐) 스캐너는 레이저를 매우 빠르게 움직이지만, 보통 밝기와 색상의 변화가 움직임과 동기화되어 있지 않습니다. 이 경우 빔과 선의 가장자리에 작은 깜박이는 빛의 "꼬리"가 나타납니다. 이 조정을 사용하여 움직임과 색상이 서로 동기화되도록 맞춥니다. [Laser Settings](setting-up/laser-settings.md "mention") 참조
+* **Scanner sync**(때로는 _blank shift_, 이전 명칭 Colour Shift로 알려짐) 스캐너는 레이저를 매우 빠르게 움직이지만, 보통 밝기와 색상의 변화가 움직임과 동기화되어 있지 않습니다. 이 경우 빔과 선의 가장자리에 작은 깜박이는 빛의 "꼬리"가 나타납니다. 이 조정을 사용하여 움직임과 색상이 서로 동기화되도록 맞춥니다. [Laser output 설정 패널](setting-up/laser-settings.md "mention") 참조
 
-그 밖의 고급 scanner settings는 [고급](advanced/ "mention")장에서 다룹니다.
+그 밖의 고급 스캐너 설정은 [고급](advanced/ "mention") 장에서 다룹니다.
 
 ### Zoning
 
-레이저 설정과 zoning에 대한 전체 가이드는 다음을 참조하세요: [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention")
+레이저 설정과 zone 구성에 대한 전체 가이드는 다음을 참조하세요: [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention")

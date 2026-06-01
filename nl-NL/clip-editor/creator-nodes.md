@@ -10,7 +10,7 @@ metaLinks:
 
 Maakt één punt / beam.
 
-* **Render profile** - zie [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - zie [Render profile](fundamentals/render-profile.md "mention")
 * **Colour** - de kleur van het punt. Zie [Kleurinstellingen en HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- en **y**-positie - zie [Coördinatensysteem](fundamentals/co-ordinate-system.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - zie [Vullingen, maskers en dieptesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -19,7 +19,7 @@ Maakt één punt / beam.
 
 Maakt een lijn / sheet.
 
-* **Render profile** - zie [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - zie [Render profile](fundamentals/render-profile.md "mention")
 * **Size** - de lengte van de lijn
 * **Colour** - de kleur van de lijn. Zie [Kleurinstellingen en HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- en **y**-positie - zie [Coördinatensysteem](fundamentals/co-ordinate-system.md "mention")
@@ -32,7 +32,7 @@ Maakt een lijn / sheet.
 
 Maakt een cirkel / cone.
 
-* **Render profile** - zie [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - zie [Render profile](fundamentals/render-profile.md "mention")
 * **radius** - de straal van de cirkel
 * **Colour** - de kleur van de cirkel. Zie [Kleurinstellingen en HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- en **y**-positie - zie [Coördinatensysteem](fundamentals/co-ordinate-system.md "mention")
@@ -44,7 +44,7 @@ Maakt een cirkel / cone.
 
 Maakt een gelijkzijdige veelhoek, zoals een driehoek, vierkant, vijfhoek enzovoort.
 
-* **Render profile** - zie [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - zie [Render profile](fundamentals/render-profile.md "mention")
 * **size** - de afstand van het midden tot elk van de hoeken
 * **Colour** - de kleur van de veelhoek. Zie [Kleurinstellingen en HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- en **y**-positie - zie [Coördinatensysteem](fundamentals/co-ordinate-system.md "mention")
@@ -70,7 +70,7 @@ Zodra een SVG is geladen, wordt de inhoud geconverteerd en in de clip opgeslagen
 * **Use fills as masks** - verwerkt elke gevulde vorm als een mask, oftewel gevuld met zwart. Dit wordt automatisch ingesteld als je SVG gevulde vormen bevat. Als er geen gevulde vormen zijn, wordt dit uitgeschakeld. Zie [Vullingen, maskers en dieptesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - als de vormen in je SVG geen outline hebben, kunnen we ze niet tekenen! Deze optie voegt een outline (of _stroke_) toe aan elke gevulde vorm. Als je SVG geen vormen met een stroke bevat, wordt dit automatisch ingesteld. Als er geen gevulde vormen zijn, wordt het uitgeschakeld.
 * **Invert black lines** - als alle lijnen in je SVG zwart zijn, kun je ze niet zien! Deze optie maakt ze wit. Dit wordt automatisch ingesteld als je SVG alleen zwarte vormen bevat, maar wordt uitgeschakeld als je die niet hebt.
-* **Render profile** - zie [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - zie [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - past de grootte van de SVG aan. Dit wordt automatisch berekend wanneer de SVG wordt geladen (zodat de afbeelding zichtbaar is), maar kan daarna handmatig worden aangepast.
 * **x**- en **y**-positie - zie [Coördinatensysteem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - de rotatiehoek van de afbeelding, in graden
@@ -90,7 +90,7 @@ Zodra de SVG-reeks is geladen, wordt de inhoud geconverteerd en in de clip opges
 * **Use fills as masks** - verwerkt elke gevulde vorm als een mask, oftewel gevuld met zwart. Dit wordt automatisch ingesteld als een van je SVG's gevulde vormen bevat. Als geen enkele SVG gevulde vormen bevat, wordt dit uitgeschakeld. Zie [Vullingen, maskers en dieptesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - als de vormen in je SVG's geen outlines hebben, kunnen we ze niet tekenen! Deze optie voegt een outline (of _stroke_) toe aan elke gevulde vorm. Als je SVG's geen vormen met een stroke bevatten, wordt dit automatisch ingesteld. Als geen enkele SVG gevulde vormen bevat, wordt het uitgeschakeld.
 * **Invert black lines** - als alle lijnen in je SVG's zwart zijn, kun je ze niet zien! Deze optie maakt ze wit. Dit wordt automatisch ingesteld als je SVG's alleen zwarte vormen bevatten, maar wordt uitgeschakeld als je die niet hebt.
-* **Render profile** - zie [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - zie [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - past de grootte van de afbeelding aan.
 * **x**- en **y**-positie - zie [Coördinatensysteem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - de rotatiehoek van de afbeelding, in graden
@@ -116,7 +116,7 @@ Maakt tekst met een TrueType- of OpenType-lettertype.
 Als je meer lettertypen aan Liberation wilt toevoegen, kopieer je de .ttf- of .otf-bestanden naar de map `data/fonts` in de werkmap van Liberation en start je Liberation daarna opnieuw.
 {% endhint %}
 
-* **Render profile** - zie [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - zie [Render profile](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - kies _LEFT_, _CENTRE_ of _RIGHT_ om de tekstuitlijning te selecteren.
 * **Fill state** - zie [Vullingen, maskers en dieptesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - de tekstgrootte

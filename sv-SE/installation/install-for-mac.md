@@ -13,16 +13,16 @@ macOS version 12 (Monterey) eller senare. Apple Silicon rekommenderas, särskilt
 
 ### Installationsprocess
 
-När du har en aktiv prenumeration får du en länk, eller så kan du klicka på länken _Download_ på sidan [_My subscriptions_](https://liberationlaser.com/account/my-products).
+När du har en aktiv betald licens får du en länk, eller så kan du klicka på _Download_ på sidan [_Dina licenser_](https://liberationlaser.com/account/my-products).
 
 Du ser den här sidan:
 
-<figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klicka på _Download latest for Mac_ (versionsnumren ändras med tiden), så sparas Liberation DMG-installationsfilen i mappen Hämtade filer. Leta upp filen och dubbelklicka för att öppna den.
+Klicka på _Download for Mac_ (versionsnumren ändras med tiden), så sparas Liberation DMG-installationsfilen i mappen Hämtade filer. Leta upp filen och dubbelklicka för att öppna den.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 
 Dra Liberation-ikonen till vänster till mappen Applications till höger (du kan behöva ett administratörslösenord). Du hittar nu Liberation i mappen Applications. Dubbelklicka för att öppna det.
 
-Liberation bör nu starta! För att skicka utsignal till lasrar behöver du nu gå igenom [Auktorisera och avauktorisera](authorising-and-de-authorising.md)
+Liberation bör nu starta! För att skicka utsignal till lasrar behöver du slutföra [Auktorisera och avauktorisera](authorising-and-de-authorising.md).

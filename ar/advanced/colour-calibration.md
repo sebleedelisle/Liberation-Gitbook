@@ -17,7 +17,7 @@ metaLinks:
 
 #### طريقة عمل اختبار المعايرة
 
-استخدم test patterns للمعايرة (راجع [أنماط الاختبار](../output-view/test-patterns.md "mention"))
+استخدم أنماط الاختبار للمعايرة (راجع [أنماط الاختبار](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green

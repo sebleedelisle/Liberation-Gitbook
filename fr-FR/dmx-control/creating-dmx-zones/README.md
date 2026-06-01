@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Créer des zones DMX
 
-1. Connectez votre nœud Art-Net et configurez-le dans [connexion à un nœud Art-Net](../connecting-to-an-artnet-node.md "mention").
+1. Connectez votre nœud Art-Net et configurez-le dans [◼️ Connexion à un nœud Art-Net](../connecting-to-an-artnet-node.md "mention").
 2. Ouvrez **DMX Zones** et cliquez sur **ADD DMX ZONE**.
 3. Réglez les champs **Node**, **Universe** et **Address** de la zone pour qu’ils correspondent à l’appareil.
 4. Choisissez un **Preset** pour l’appareil. Le preset définit quels canaux DMX reçoivent des valeurs fixes, des valeurs d’activation/désactivation du contenu, la couleur RGB, la position X/Y, la luminosité ou des entrées DMX Value explicites.

@@ -20,7 +20,7 @@ Liberation è abbastanza flessibile da permetterti di configurare e visualizzare
 Puoi configurare e visualizzare tutti i laser che vuoi in Liberation; i livelli di licenza (Hobbyist, Pro, ecc.) limitano solo il numero di laser che puoi _armare_. Questo significa che puoi progettare laser show con 100 laser anche con una licenza gratuita. Devi fare l’upgrade solo quando arriva il momento di eseguirlo su laser reali.
 {% endhint %}
 
-La configurazione predefinita contiene 8 laser distribuiti orizzontalmente, ma puoi personalizzarla come preferisci. Probabilmente è meglio mantenere questa impostazione mentre impari a conoscere il software; più avanti potrai modificarla per adattarla al tuo setup hardware. Vedi [Configurare il tuo progetto](setting-up/setting-up-your-project.md "mention")
+La configurazione predefinita contiene 8 laser distribuiti orizzontalmente, ma puoi personalizzarla come preferisci. Probabilmente è meglio mantenere questa impostazione mentre impari a conoscere il software; più avanti potrai modificarla per adattarla al tuo setup hardware. (Vedi [Configurare il tuo progetto](setting-up/setting-up-your-project.md "mention"))
 
 {% hint style="warning" %}
 Importante: prima di armare qualsiasi laser, assicurati di comprendere i rischi coinvolti e leggi con attenzione il capitolo [Panoramica del processo di configurazione dei laser](setting-up/setting-up-lasers.md "mention").
@@ -146,7 +146,7 @@ Puoi scorrere il clip deck a sinistra e a destra usando:
 * Manopola di scorrimento APC40
 * Pulsanti APC40 _<- DEVICE ->_
 
-Per aiutarti a orientarti, in alto c’è un mini visualizzatore del clip deck. Vedi anche [Clip e Clip deck](clips/ "mention")
+Per aiutarti a orientarti, in alto c’è un mini visualizzatore del Clip Deck. Vedi anche [Clip e Clip Deck](clips/ "mention")
 
 #### Avviare e fermare le clip
 
@@ -168,7 +168,7 @@ Due righe sotto i pulsanti zona vedrai i pulsanti X/Y flip: attivali o disattiva
 Nota che queste assegnazioni delle zone e le impostazioni X/Y flip sono collegate alla clip stessa: vengono mantenute la prossima volta che esegui quella clip. Non sono impostazioni globali.
 {% endhint %}
 
-Fai clic destro su una clip per modificarne altre impostazioni. Vedi anche [Impostazioni delle clip](clips/clip-settings.md "mention")
+Fai clic destro su un Clip per modificarne altre impostazioni. Vedi anche [Impostazioni dei Clip](clips/clip-settings.md "mention")
 
 ### Gruppi
 

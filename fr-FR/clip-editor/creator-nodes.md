@@ -10,7 +10,7 @@ metaLinks:
 
 Crée un point / faisceau unique.
 
-* **Render profile** - voir [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - voir [Profil de rendu](fundamentals/render-profile.md "mention")
 * **Colour** - la couleur du point. Voir [Paramètres de couleur et HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - voir [Système de coordonnées](fundamentals/co-ordinate-system.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - voir [Remplissages, masques et tri en profondeur](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -19,7 +19,7 @@ Crée un point / faisceau unique.
 
 Crée une ligne / nappe.
 
-* **Render profile** - voir [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - voir [Profil de rendu](fundamentals/render-profile.md "mention")
 * **Size** - la longueur de la ligne
 * **Colour** - la couleur de la ligne. Voir [Paramètres de couleur et HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - voir [Système de coordonnées](fundamentals/co-ordinate-system.md "mention")
@@ -32,7 +32,7 @@ Crée une ligne / nappe.
 
 Crée un cercle / cône.
 
-* **Render profile** - voir [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - voir [Profil de rendu](fundamentals/render-profile.md "mention")
 * **radius** - le rayon du cercle
 * **Colour** - la couleur du cercle. Voir [Paramètres de couleur et HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - voir [Système de coordonnées](fundamentals/co-ordinate-system.md "mention")
@@ -44,7 +44,7 @@ Crée un cercle / cône.
 
 Crée un polygone équilatéral : triangle, carré, pentagone, etc.
 
-* **Render profile** - voir [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - voir [Profil de rendu](fundamentals/render-profile.md "mention")
 * **size** - la distance entre le centre et chacun des sommets
 * **Colour** - la couleur du polygone. Voir [Paramètres de couleur et HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x** and **y** position - voir [Système de coordonnées](fundamentals/co-ordinate-system.md "mention")
@@ -70,7 +70,7 @@ Une fois un SVG chargé, son contenu est converti et enregistré dans le clip. V
 * **Use fills as masks** - traite toute forme remplie comme un masque, c.-à-d. comme si elle était remplie en noir. Cette option est activée automatiquement si votre SVG contient des formes remplies. S’il ne contient aucune forme remplie, elle est désactivée. Voir [Remplissages, masques et tri en profondeur](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - si les formes de votre SVG n’ont pas de contour, Liberation ne peut pas les dessiner ! Cette option ajoute un contour (ou _stroke_) à toute forme remplie. Si votre SVG ne contient aucune forme avec contour, elle est activée automatiquement. S’il ne contient aucune forme remplie, elle est désactivée.
 * **Invert black lines** - si toutes les lignes de votre SVG sont noires, vous ne pouvez pas les voir ! Cette option les rend blanches. Elle est activée automatiquement si votre SVG ne contient que des formes noires, mais elle est désactivée s’il n’en contient aucune.
-* **Render profile** - voir [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - voir [Profil de rendu](fundamentals/render-profile.md "mention")
 * **scale** - ajuste la taille du SVG. Cette valeur est calculée automatiquement au chargement du SVG pour s’assurer que l’image est visible, mais elle peut ensuite être modifiée manuellement.
 * **x** and **y** position - voir [Système de coordonnées](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - l’angle de rotation de l’image, en degrés
@@ -90,7 +90,7 @@ Une fois la séquence SVG chargée, son contenu est converti et enregistré dans
 * **Use fills as masks** - traite toute forme remplie comme un masque, c.-à-d. comme si elle était remplie en noir. Cette option est activée automatiquement si l’un de vos SVG contient des formes remplies. Si aucun n’en contient, elle est désactivée. Voir [Remplissages, masques et tri en profondeur](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - si les formes de vos SVG n’ont pas de contour, Liberation ne peut pas les dessiner ! Cette option ajoute un contour (ou _stroke_) à toute forme remplie. Si vos SVG ne contiennent aucune forme avec contour, elle est activée automatiquement. Si aucun ne contient de forme remplie, elle est désactivée.
 * **Invert black lines** - si toutes les lignes de vos SVG sont noires, vous ne pouvez pas les voir ! Cette option les rend blanches. Elle est activée automatiquement si vos SVG ne contiennent que des formes noires, mais elle est désactivée s’ils n’en contiennent aucune.
-* **Render profile** - voir [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - voir [Profil de rendu](fundamentals/render-profile.md "mention")
 * **scale** - ajuste la taille de l’image.
 * **x** and **y** position - voir [Système de coordonnées](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - l’angle de rotation de l’image, en degrés
@@ -116,7 +116,7 @@ Crée du texte avec une police TrueType ou OpenType.
 Pour ajouter d’autres polices à Liberation, copiez les fichiers .ttf ou .otf dans le dossier `data/fonts` du dossier de travail de Liberation, puis redémarrez Liberation.
 {% endhint %}
 
-* **Render profile** - voir [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - voir [Profil de rendu](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - choisissez _LEFT_, _CENTRE_ ou _RIGHT_ pour sélectionner l’alignement du texte.
 * **Fill state** - voir [Remplissages, masques et tri en profondeur](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - la taille du texte

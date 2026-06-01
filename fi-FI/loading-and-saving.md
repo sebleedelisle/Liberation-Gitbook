@@ -14,7 +14,7 @@ Voit kuitenkin viedä kokoonpanosi varmuuskopioksi tai siirtää sen toiseen tie
 
 Projektitiedosto tallentaa lähes kaiken nykyisestä kokoonpanostasi, mukaan lukien:
 
-* Kaikki, mitä on kuvattu kohdassa [Lataaminen ja tallentaminen](loading-and-saving.md#laser-settings-import-export "mention") alla
+* Kaikki, mitä on kuvattu alla kohdassa [Laser Settings -asetusten tuonti ja vienti](loading-and-saving.md#laser-settings-import-export "mention")
 * Clips, efektit ja ryhmäasetukset
 * Kaikki aikajanasi (ei sisällä ääni- ja videomediaa)
 * Art-Net-kokoonpano
@@ -82,7 +82,7 @@ Jos haluat tuoda projektista vain efektit, valitse _**Effects->Import Effects**_
 
 ### Aikajanan vienti
 
-Vie aikajanatiedosto, jossa on yksi tai useampi aikajana. Huomaa, että Clip Deck sisällytetään aina vietyihin aikajanatiedostoihin (voit kuitenkin valita, mitkä Clip-kohteet tuot takaisin, katso [Aikajanan tuonti](loading-and-saving.md#timeline-import "mention") alla).
+Vie aikajanatiedosto, jossa on yksi tai useampi aikajana. Huomaa, että Clip Deck sisällytetään aina vietyihin aikajanatiedostoihin (voit kuitenkin valita, mitkä Clip-kohteet tuot takaisin; katso alla [Aikajanan tuonti](loading-and-saving.md#timeline-import "mention")).
 
 Jos projektitiedostossasi on useampi kuin yksi aikajana, avautuu paneeli, jossa voit valita vietävät aikajanat.
 

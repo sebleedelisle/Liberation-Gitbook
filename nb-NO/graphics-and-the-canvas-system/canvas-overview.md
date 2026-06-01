@@ -31,7 +31,7 @@ Hvis du ikke ser Canvas-knappene i Clip Deck, kan du prøve å bla i beam zone-k
 
 ### Canvas-soner
 
-Canvas-soner er områder inne i Canvas som du velger å sende til en laser. De vises som rosa konturrektangler i Canvas-visningen. Du kan høyreklikke på hver sone og velge laserne du vil tilordne den til. Hvis du nå bytter til _OUTPUT_-visningen for den laseren, ser du at en ny sone har dukket opp.
+Canvas-soner er områder inne i Canvas som du velger å sende til en laser. De vises som rosa konturrektangler i Canvas view. Du kan høyreklikke på hver sone og velge laserne du vil tilordne den til. Hvis du nå bytter til _OUTPUT_-visningen for den laseren, ser du at en ny sone har dukket opp.
 
 {% hint style="danger" %}
 ADVARSEL – hvis laseren er armert, kan du plutselig begynne å projisere innhold i en standard Canvas-sone. Det er best å avarmere laseren før du tilordner Canvas-soner til den.

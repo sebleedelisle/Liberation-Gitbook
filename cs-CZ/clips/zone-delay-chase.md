@@ -39,7 +39,7 @@ Pattern pracuje s čísly zone a předpokládá, že vaše zones jsou seřazené
 Zone delay se použije také na všechny aktivní efekty. Například blikající efekt bude zpožděný napříč zones stejně jako animace uvnitř samotného Clip.
 {% endhint %}
 
-Když má Clip jakýkoli typ _Zone delay_, v pravém horním rohu Clip uvidíte ikonu se třemi tečkami. Tyto tečky jsou animované a ukazují styl _Zone delay_ pro daný Clip. Další informace najdete v části [Co znamenají malé ikony na tlačítkách Clip](what-are-the-small-icons-on-the-clip-buttons.md "mention").
+Když má Clip jakýkoli typ _Zone delay_, v pravém horním rohu Clip uvidíte ikonu se třemi tečkami. Tyto tečky jsou animované a ukazují styl _Zone delay_ pro daný Clip. Další informace najdete v části [Co znamenají malé ikony na tlačítkách Clip?](what-are-the-small-icons-on-the-clip-buttons.md "mention").
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Symbol se třemi tečkami, který označuje, že Clip má Zone delay, a ukazuje jeho režim</p></figcaption></figure>
 

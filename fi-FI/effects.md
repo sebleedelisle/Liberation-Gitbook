@@ -32,7 +32,7 @@ Väittäisin, että se on yksi Liberationin hauskimmista ja luovimmista sisään
 
 #### Efektin parametrit
 
-Lisää efektiin parametri _Parameter node_ -nodella. Parameter-järjestelmän avulla voit säätää useita efektin sisäisiä asetuksia ulkopuolelta. Katso lisätietoja: [Parameter Control](clip-editor/oscillators/parameter-control.md "mention").
+Lisää efektiin parametri käyttämällä nodea _Parameter node_. Parameter-järjestelmän avulla voit säätää useita efektin sisäisiä asetuksia ulkopuolelta. Katso lisätietoja: [Parametrien ohjaus](clip-editor/oscillators/parameter-control.md "mention").
 
 Säädä kunkin efektin _parameter_-arvoa rotary controller -säätimillä 1–8. Voit myös klikata efektipainiketta hiiren oikealla painikkeella ja säätää parameter-liukusäädintä tai -säätimiä. Parametrin muutos tekee eri asioita sen mukaan, miten efekti on rakennettu. Alla olevassa luettelossa kerrotaan oletusefektit ja mitä niiden parametrit tekevät.
 
@@ -89,7 +89,7 @@ Tämä toiminto ei ole käytössä, jos _MX Group_ -asetus on 0.
 
 Klikkaa mitä tahansa efektiä hiiren oikealla painikkeella ja avaa efektieditori klikkaamalla _EDIT EFFECT_ -painiketta. Huomaa, että tämä editori on identtinen klippieditorin kanssa!
 
-Muokkaa efektiä samalla tavalla kuin mitä tahansa klippiä. Katso [clip-editor](clip-editor/ "mention").
+Muokkaa efektiä samalla tavalla kuin muitakin Clip-kohteita. Katso [Clip Editor](clip-editor/ "mention").
 
 Efektissä täytyy olla vähintään yksi creator-node. Se voi olla mikä tahansa (viiva, ympyrä, muoto, jopa teksti!), mutta yleensä kannattaa valita jokin, joka näyttää efektipainikkeen esikatselussa järkevältä.
 

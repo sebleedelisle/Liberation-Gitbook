@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Vytváření DMX zones
 
-1. Připojte svůj Art-Net node a nastavte ho podle části [Připojení k Art-Net node](../connecting-to-an-artnet-node.md "mention").
+1. Připojte svůj Art-Net node a nastavte ho podle části [◼️ Připojení k Art-Net node](../connecting-to-an-artnet-node.md "mention").
 2. Otevřete **DMX Zones** a klikněte na **ADD DMX ZONE**.
 3. Nastavte u zone hodnoty **Node**, **Universe** a **Address** tak, aby odpovídaly zařízení.
 4. Vyberte pro zařízení **Preset**. Preset určuje, které DMX kanály dostávají pevné hodnoty, hodnoty zapnutí/vypnutí obsahu, barvu RGB, polohu X/Y, jas nebo explicitní vstupy DMX Value.

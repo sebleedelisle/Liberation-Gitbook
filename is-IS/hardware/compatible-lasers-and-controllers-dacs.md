@@ -9,7 +9,7 @@ metaLinks:
 
 ### Hvaða leysitæki eru samhæfð við Liberation?
 
-Ef leysitækið þitt er með staðlað ILDA inntak geturðu notað það með Liberation (ásamt samhæfum laser controller, til dæmis Ether Dream eða Helios DAC - [sjá heildarlistann hér fyrir neðan](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)).
+Ef leysitækið þitt er með staðlað ILDA-inntak geturðu notað það með Liberation (ásamt samhæfri leysistýringu, til dæmis Ether Dream eða Helios DAC - sjá [Samhæfar leysistýringar](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers) hér fyrir neðan).
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - ódýrasti kosturinn fyrir heimanotkun</p></figcaption></figure>
 

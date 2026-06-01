@@ -11,11 +11,11 @@ metaLinks:
 
 يستبدل هذا node محتوى الخطوط والأشكال بنقاط متباعدة بالتساوي (تبقى النقاط الموجودة كما هي).
 
-* **Colour** – لون النقاط. يتم تجاهله إذا كان _Inherit Colour_ مفعّلًا، انظر أدناه. _انظر أيضًا_ [إعدادات اللون و HSB](../fundamentals/colour-settings-and-hsb.md)
+* **Colour** – لون النقاط. يتم تجاهله إذا كان _Inherit Colour_ مفعّلًا، انظر أدناه. _انظر أيضًا_ [إعدادات اللون و HSB](../fundamentals/colour-settings-and-hsb.md "mention")
 * **Spacing** – المسافة بين النقاط، مقاسة بالبكسل. القيم الأصغر = نقاط أكثر، والقيم الأكبر = نقاط أقل.
 * **Offset** – يزيح موضع بداية النقاط كنسبة مئوية من قيمة التباعد. يمكن تحريكه (مثلًا باستخدام Oscillator Node بموجة سنّ المنشار) لإنشاء تأثيرات نقاط "متحركة".
 * **Keep Original** – عند تفعيله، يتم الاحتفاظ بالخطوط/الأشكال الأصلية وتُرسم النقاط فوقها.
-* **Render Profile** – يختار جودة التصيير. _انظر_ [Render Profile](../fundamentals/render-profile.md)
+* **Render Profile** – يختار جودة التصيير. _انظر_ [ملف التصيير](../fundamentals/render-profile.md "mention")
 * **Length Auto Divisible by Spacing** – يضبط التباعد تلقائيًا بحيث يمكن تقسيم طول المسار بالتساوي.
 * **Fade Out Ends** – يقلّل سطوع النقاط تدريجيًا باتجاه بداية المسار ونهايته. يفيد عند تحريك **Offset** باستخدام Oscillator Node بموجة سنّ المنشار، بحيث تتلاشى النقاط بسلاسة دخولًا/خروجًا أثناء انتقالها إلى نهاية الشكل.
 
@@ -28,5 +28,5 @@ metaLinks:
 * **Loop** – يتعامل مع الشكل كحلقة مستمرة، بحيث تتصل النهاية بالبداية بدلًا من الاختفاء.
 * **All Shapes** – يجمع كل أشكال الإدخال ويقتطعها كما لو كانت مسارًا واحدًا. إذا كان غير مفعّل، يتم اقتطاع كل شكل على حدة.
 * **Add Dot at Start / Add Dot at End** – يضيف نقطة باللون المختار عند نقاط الاقتطاع. (إذا لم يتم تطبيق أي اقتطاع، فلن تتم إضافة نقاط.)
-* **Colour** – لون نقاط الاقتطاع. _انظر أيضًا_ [إعدادات اللون و HSB](../fundamentals/colour-settings-and-hsb.md)
-* **Render Profile** – يختار Render Profile للنقاط. _انظر_ [Render Profile](../fundamentals/render-profile.md)
+* **Colour** – لون نقاط الاقتطاع. _انظر أيضًا_ [إعدادات اللون و HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **Render Profile** – يختار Render Profile للنقاط. _انظر_ [ملف التصيير](../fundamentals/render-profile.md "mention")

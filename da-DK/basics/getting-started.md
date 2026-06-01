@@ -17,7 +17,7 @@ Du kan sætte og visualisere så mange lasere op, du vil, i Liberation. Licenstr
 Som standard er der 8 lasere fordelt vandret, men du kan tilpasse det præcis, som du vil. Det er nok bedst at beholde denne standard, mens du lærer softwaren at kende, og så senere justere den, så den passer til dit hardware-setup. (Se [Opsætning af dit projekt](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Vigtigt: Før du sætter nogen lasere i _armed_-tilstand, skal du sikre dig, at du forstår de involverede risici, og gå omhyggeligt igennem kapitlet [Opsætning af lasere](../setting-up/setting-up-lasers.md "mention").
+Vigtigt: Før du sætter nogen lasere i _armed_-tilstand, skal du sikre dig, at du forstår de involverede risici, og gå omhyggeligt igennem kapitlet [Oversigt over processen for laseropsætning](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Overblik over softwaren
@@ -50,7 +50,7 @@ Er du i tvivl om, hvad en bestemt knap gør? Hold musen over den for at få en b
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Menuen er stedet, hvor du finder alle muligheder for filimport og -eksport samt åbner paneler. Her finder du også muligheden for at godkende computeren med dit abonnement under _Liberation -> Authorise/Deauthorise this computer_.
+Menuen er stedet, hvor du finder alle muligheder for filimport og -eksport samt åbner paneler. Her finder du også muligheden for at godkende computeren med din licens under _Liberation -> Authorise/Deauthorise this computer_.
 
 #### Ikonlinje
 
@@ -300,7 +300,7 @@ Her kan du vælge, hvilke laserudgange der skal gå til hvilke laser controllers
 Læs kapitlet [Tildeling af controllere](../setting-up/controller-assignment.md "mention") for flere detaljer.
 
 {% hint style="danger" %}
-Før du sætter nogen lasere i _armed_-tilstand, skal du sørge for at gennemgå kapitlet [Opsætning af lasere](../setting-up/setting-up-lasers.md "mention").
+Før du sætter nogen lasere i _armed_-tilstand, skal du sørge for at gennemgå kapitlet [Oversigt over processen for laseropsætning](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser output-panel
@@ -331,10 +331,10 @@ Hvis du er vant til ældre lasersoftware, der bygger på forudberegnede point st
 De grundlæggende scanner-indstillinger er:
 
 * **Speed** er scannerhastigheden, dvs. hvor hurtigt laseren bevæger sig rundt for at tegne former. Det svarer til at justere point rate i traditionel lasersoftware, men i Liberation kan du ændre, hvor hurtigt laseren bevæger sig, _uafhængigt af point rate._ Du bør ikke have brug for at justere dette.
-* **Scanner sync** (nogle gange kendt som _blank shift_, tidligere Colour Shift) Scannerne bevæger laseren rundt meget hurtigt, men ændringen i lysstyrke og farve er normalt ikke synkron med bevægelsen. Det viser sig som små flimrende "haler" af lys i kanten af beams og linjer. Brug denne justering til at få bevægelse og farve synkroniseret med hinanden. Se [Laser Settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (nogle gange kendt som _blank shift_, tidligere Colour Shift) Scannerne bevæger laseren rundt meget hurtigt, men ændringen i lysstyrke og farve er normalt ikke synkron med bevægelsen. Det viser sig som små flimrende "haler" af lys i kanten af beams og linjer. Brug denne justering til at få bevægelse og farve synkroniseret med hinanden. Se [Panel til indstillinger for laser-output](../setting-up/laser-settings.md "mention")
 
 De øvrige avancerede scanner-indstillinger gennemgås i kapitlet [Avanceret](../advanced/ "mention").
 
 ### Zoning
 
-Se en komplet guide til opsætning og zoning af lasere her: [Opsætning af lasere](../setting-up/setting-up-lasers.md "mention")
+Se en komplet guide til opsætning og zoning af lasere her: [Oversigt over processen for laseropsætning](../setting-up/setting-up-lasers.md "mention")

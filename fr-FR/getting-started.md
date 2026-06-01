@@ -146,7 +146,7 @@ Vous pouvez faire défiler le clip deck vers la gauche et la droite avec :
 * Molette de défilement de l’APC40
 * Boutons APC40 _<- DEVICE ->_
 
-Pour vous aider à vous repérer, un mini visualiseur du clip deck est affiché en haut. Voir aussi [Clips et Clip Deck](clips/ "mention")
+Pour vous aider à vous repérer, un mini visualiseur du Clip Deck est affiché en haut. Voir aussi [Clips et Clip Deck](clips/ "mention")
 
 #### Démarrer et arrêter des clips
 
@@ -168,7 +168,7 @@ Deux rangées sous les boutons de zone, vous trouverez les boutons de retourneme
 Notez que ces affectations de zones et ces réglages de retournement X/Y sont liés au clip lui-même ; ils seront conservés la prochaine fois que vous lancerez ce clip. Ce ne sont pas des réglages globaux.
 {% endhint %}
 
-Faites un clic droit sur un clip pour modifier davantage de réglages du clip. Voir aussi [Paramètres de Clip](clips/clip-settings.md "mention")
+Faites un clic droit sur un Clip pour modifier davantage de réglages du Clip. Voir aussi [Paramètres de Clip](clips/clip-settings.md "mention")
 
 ### Groups
 

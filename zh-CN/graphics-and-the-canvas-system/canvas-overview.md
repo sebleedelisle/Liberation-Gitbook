@@ -4,13 +4,13 @@ metaLinks:
     - >-
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/graphics-and-the-canvas-system/canvas-overview
 ---
+
 # 🟩 Canvas 概览
 
 Liberation 的 Canvas 系统相对简单，但一开始可能有些绕。以下是一个概念性的入门概览。
 
 {% hint style="info" %}
 #### 等等，我需要 Canvas 系统吗？
-
 
 可能不需要！如果你只是把一个图形投射到一台激光上，用 beam zone 就可以（不过 beam zone 内容默认水平翻转，所以需要对 Clip 做 X flip）。
 

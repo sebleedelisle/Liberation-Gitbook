@@ -37,7 +37,7 @@ Hvis du ikke ser noget output i 3D Visualiser, skal du muligvis bruge zoneknappe
 
 ### Opbygning af et clip
 
-Du starter typisk med en eller flere [creator-noder](creator-nodes.md) og forbinder [Operatornoder](operator-nodes/) fra venstre mod højre, som behandler indholdet. Når du flytter creators og/eller operators tæt på hinanden, vil du bemærke, at de automatisk forbindes. Du kan trække dem fra hinanden igen for at afbryde forbindelsen.
+Du starter typisk med en eller flere [Creator-noder](creator-nodes.md) og forbinder [Operatornoder](operator-nodes/) fra venstre mod højre, som behandler indholdet. Når du flytter Creators og/eller Operators tæt på hinanden, vil du bemærke, at de automatisk forbindes. Du kan trække dem fra hinanden igen for at afbryde forbindelsen.
 
 ### Tilføjelse af noder til dit clip
 

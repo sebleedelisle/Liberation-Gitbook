@@ -13,13 +13,13 @@ Windows 10- tai 11-koneet, 64-bittinen versio. Suurten show’iden ajamiseen suo
 
 ### Asennusprosessi
 
-Kun sinulla on aktiivinen tilaus, saat linkin, tai voit napsauttaa _Download_-linkkiä [ _Your subscriptions_](https://liberationlaser.com/account/my-products) -sivulla.
+Kun sinulla on aktiivinen maksullinen lisenssi, saat linkin, tai voit napsauttaa _Download_ [_Your licences_](https://liberationlaser.com/account/my-products) -sivulla.
 
 Näet tämän sivun:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Napsauta _Download latest for Windows_ (versionumerot voivat muuttua). Latauksen edistyminen näkyy latausilmaisimessa, yleensä oikeassa yläkulmassa (kuvakaappaus on Chromesta). Kun lataus on valmis, avaa lataukset ja napsauta ladattua asennustiedostoa.
+Napsauta _Download for Windows_ (versionumerot voivat muuttua). Latauksen edistyminen näkyy latausilmaisimessa, yleensä oikeassa yläkulmassa (kuvakaappaus on Chromesta). Kun lataus on valmis, avaa lataukset ja napsauta ladattua asennustiedostoa.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation tarvitsee oikeuden käyttää tiedostoja ja verkkoa, joten Windows n�
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberationin pitäisi nyt käynnistyä. Jotta voit lähettää ulostuloa lasereille, sinun täytyy seuraavaksi käydä läpi [Valtuutus ja valtuutuksen poistaminen](../authorising-and-de-authorising.md)
+Liberationin pitäisi nyt käynnistyä. Jotta voit lähettää ulostuloa lasereille, sinun täytyy suorittaa [Valtuutus ja valtuutuksen poistaminen](../authorising-and-de-authorising.md).

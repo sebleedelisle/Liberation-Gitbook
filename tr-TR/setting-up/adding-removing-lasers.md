@@ -15,12 +15,12 @@ veya _Output_ view içindeki _+_ düğmesine tıklayın.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Yeni bir lazer eklediğinizde, ona otomatik olarak bir beam zone eklenir. Lazerlerin ve zone öğelerinin, eklediğiniz sıraya göre sıralandığını unutmayın. Bkz. [Beam zone sırasını değiştirme](../output-view/re-ordering-beam-zones.md).
+Yeni bir lazer eklediğinizde, ona otomatik olarak bir beam zone eklenir. Lazerlerin ve zone öğelerinin, eklediğiniz sıraya göre sıralandığını unutmayın. Bkz. [Beam zone sırasını değiştirme](../output-view/re-ordering-beam-zones.md "mention").
 
 _Laser overview_ panelindeki kırmızı "-" düğmesine tıklayarak bir lazeri kaldırın. Tüm lazer ayarlarınızı kaybedeceğinizi unutmayın!
 
 {% hint style="info" %}
-Başka lazerlerden zone veya diğer ayarları kopyalamak istiyorsanız [Lazer ayarlarını kopyalama](copy-laser-settings.md) bölümünü kullanın.
+Başka lazerlerden zone veya diğer ayarları kopyalamak istiyorsanız [Lazerler arasında ayarları kopyalama](copy-laser-settings.md "mention") bölümünü kullanın.
 {% endhint %}
 
 {% hint style="info" %}

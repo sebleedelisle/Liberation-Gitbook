@@ -9,7 +9,7 @@ metaLinks:
 
 ### Liberation と互換性のあるレーザーはどれですか？
 
-レーザーに標準の ILDA 入力があれば、Liberation で使用できます（Ether Dream や Helios DAC などの対応レーザーコントローラーも必要です - [下記の全リストを参照](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)）。
+レーザーに標準の ILDA 入力があれば、Liberation で使用できます（Ether Dream や Helios DAC などの対応レーザーコントローラーも必要です。下記の[対応レーザーコントローラー](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)を参照してください）。
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - 自宅用途で最も低価格な選択肢</p></figcaption></figure>
 

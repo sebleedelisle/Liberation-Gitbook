@@ -16,7 +16,7 @@ Hver _Creator_ node hefur stillinguna _Render Profile_, sem ákvarðar hvernig f
 
 Þetta þýðir líka að þú getur fínstillt sama efnið fyrir mismunandi skannagerðir, fyrir hvern leysi fyrir sig, án þess að þurfa að breyta Clip sjálfum.
 
-Nánari upplýsingar eru í [Hvernig Liberation býr til laserefni](../../advanced/how-liberation-generates-laser-content.md)
+Nánari upplýsingar eru í [◼️ Hvernig Liberation býr til laserefni](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 Það eru þrjú forstillt _Render Profiles_: _DEFAULT_, _FAST_ og _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** –_ ef Clip inniheldur mikið efni og hluti af því er bara mjög ei
 _**DETAIL**_ – ef þú ert að teikna eitthvað sem þarf skörp horn skaltu nota þennan valkost. Hafðu þó í huga að skannarnir hreyfast hægar, sem getur gert Output flöktandi.
 
 {% hint style="info" %}
-Í Clip Editor geturðu látið mismunandi Creator nota ólík Render Profile, en hver leysir vinnur úr þessum sniðum samkvæmt skannastillingunum sínum. Sjá [Forstillingar skanna](../../advanced/scanner-presets.md)
+Í Clip Editor geturðu látið mismunandi Creator nota ólík Render Profile, en hver leysir vinnur úr þessum sniðum samkvæmt skannastillingunum sínum. Sjá [◼️ Forstillingar skanna og render profiles](../../advanced/scanner-presets.md "mention")
 {% endhint %}

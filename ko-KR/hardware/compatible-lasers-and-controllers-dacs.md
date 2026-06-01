@@ -9,7 +9,7 @@ metaLinks:
 
 ### Liberation과 호환되는 레이저는 무엇인가요?
 
-레이저에 표준 ILDA 입력이 있다면, Ether Dream 또는 Helios DAC 같은 호환 레이저 컨트롤러와 함께 Liberation에서 사용할 수 있습니다([전체 목록은 아래 참고](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)).
+레이저에 표준 ILDA 입력이 있다면, Ether Dream 또는 Helios DAC 같은 호환 레이저 컨트롤러와 함께 Liberation에서 사용할 수 있습니다(아래 [호환 레이저 컨트롤러](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers) 참고).
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - 가정용으로 가장 저렴한 옵션</p></figcaption></figure>
 

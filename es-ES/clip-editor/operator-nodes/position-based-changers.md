@@ -49,7 +49,7 @@ Estos modos determinan qué aspectos de los ajustes de color se aplican al conte
 
 **Gradient editor**
 
-Usa el mismo editor de degradados que [Colour Changer](colour-changer.md "mention"), pero asigna el degradado al contenido según la posición.
+Usa el mismo editor de degradados que [Cambio de color](colour-changer.md "mention"), pero asigna el degradado al contenido según la posición.
 
 * Haz clic en la barra de degradado para añadir un punto de color.
 * Haz clic izquierdo en un punto para seleccionarlo y arrástralo lateralmente para moverlo.

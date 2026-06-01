@@ -13,12 +13,12 @@ Voici un aperçu du processus :
 
 1.  **Modifier le nombre de lasers dans votre projet :**
 
-    Dans le panneau _Laser Overview_, cliquez sur le bouton rouge à droite pour supprimer un laser. Ajoutez un laser avec le bouton _ADD LASER_ en bas. Voir aussi [Ajouter / supprimer des lasers](adding-removing-lasers.md "mention")
+Dans le panneau _Laser Overview_, cliquez sur le bouton rouge à droite pour supprimer un laser. Ajoutez un laser avec le bouton _ADD LASER_ en bas. Voir aussi [Ajouter / supprimer des lasers](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Mettre à jour la vue du visualiseur 3D :**
 
-    Ajustez la position et l’orientation de chaque laser à l’aide du panneau _3D Visualiser Settings_. Voir [3D Visualiser](3d-visualiser.md "mention").
+Ajustez la position et l’orientation de chaque laser à l’aide du panneau _3D Visualiser Settings_. Voir [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Ajuster les zones :**\
@@ -26,7 +26,7 @@ Voici un aperçu du processus :
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Modifier les zones de chaque clip :**\
-Déclenchez chaque clip en cliquant sur son bouton, puis activez ou désactivez les zones ainsi que les inversions X et Y à l’aide des boutons à l’écran. Voir [Clips et Clip Deck](../clips/ "mention").
+Déclenchez chaque Clip en cliquant sur son bouton, puis activez ou désactivez les zones ainsi que les inversions X et Y à l’aide des boutons à l’écran. Voir [Clips et Clip Deck](../clips/ "mention").
 
     \\
 
@@ -36,4 +36,4 @@ Déclenchez chaque clip en cliquant sur son bouton, puis activez ou désactivez 
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Activer vos lasers et configurer leurs zones :** Suivez attentivement [Présentation du processus de configuration des lasers](setting-up-lasers.md "mention")
+6. **Activer vos lasers et configurer leurs zones :** suivez attentivement [Présentation du processus de configuration des lasers](setting-up-lasers.md "mention")

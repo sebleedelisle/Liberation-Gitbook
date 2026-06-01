@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/adding-removing-lasers
+---
+
 # ✅ 添加 / 移除激光
 
 在 _Laser Overview_ 面板中点击 _ADD LASER_ 按钮即可添加新激光。
@@ -8,12 +15,12 @@
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-添加新激光时会自动创建一个 beam zone。注意激光和 zones 会按添加顺序排序。参见 [重新排序 beam zones](../output-view/re-ordering-beam-zones.md "mention")。
+添加新激光时，会自动为其创建一个 beam zone。请注意，激光和 zone 会按添加顺序排序。参见 [重新排序 beam zone](../output-view/re-ordering-beam-zones.md "mention")。
 
 在 _Laser Overview_ 面板中点击红色 “-” 按钮即可移除激光。注意：这样会丢失该激光的所有设置！
 
 {% hint style="info" %}
-如果你想从其他激光复制 zones 或其他设置，使用 [在激光之间复制设置](copy-laser-settings.md "mention")。
+如果你想从其他激光复制 zone 或其他设置，请使用 [在激光之间复制设置](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

@@ -7,12 +7,14 @@ metaLinks:
 
 # ✅ Päivitä / alenna lisenssisi tasoa
 
-Voit päivittää korkeampaan tasoon milloin tahansa. Saat osittaisen hyvityksen nykyisen tilauksesi jäljellä olevasta ajasta, ja uusi tilauksesi alkaa heti.
+Voit päivittää korkeampaan tasoon milloin tahansa. Saat osittaisen hyvityksen nykyisen maksetun jakson jäljellä olevasta ajasta, ja uusi lisenssitasosi alkaa heti.
 
-Voit myös alentaa tasoa milloin tahansa, mutta muutos tulee voimaan vasta uusimispäivänä.
+Voit myös alentaa tasoa milloin tahansa, mutta muutos tulee voimaan vasta nykyisen maksetun jakson lopussa.
 
-Kirjaudu verkkosivustolle, avaa _My subscriptions_ -sivu, valitse tilaus, jota haluat muuttaa, ja napsauta sitten _UPGRADE/DOWNGRADE_ -linkkiä. Näet sen jälkeen lisenssillesi käytettävissä olevat vaihtoehdot.
+Et voi vaihtaa tilausta, kun maksujen keskeytys on ajastettu tai lisenssi on keskeytetty. Peru ajastettu keskeytys tai käynnistä lisenssi ensin uudelleen ja vaihda taso vasta sitten.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-16 at 14.02.28.png" alt=""><figcaption></figcaption></figure>
+Kirjaudu verkkosivustolle, avaa [_Your licences_](https://liberationlaser.com/account/my-products) -sivu, valitse lisenssi, jota haluat muuttaa, ja napsauta sitten _UPGRADE / DOWNGRADE_. Näet sen jälkeen lisenssillesi käytettävissä olevat vaihtoehdot.
 
-Napsauta sopivaa _PREVIEW_ -painiketta nähdäksesi, miten muutokset vaikuttaisivat maksuihisi. Jos olet tyytyväinen muutokseen, viimeistele prosessi napsauttamalla _Confirm subscription change_ -painiketta.
+<figure><img src="../.gitbook/assets/account-change-licence-plan.png" alt=""><figcaption></figcaption></figure>
+
+Napsauta sopivaa _PREVIEW_ -painiketta nähdäksesi, miten muutokset vaikuttaisivat maksuihisi. Jos olet tyytyväinen muutokseen, viimeistele prosessi napsauttamalla _Confirm licence change_.

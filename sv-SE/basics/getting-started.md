@@ -17,14 +17,14 @@ Du kan konfigurera och visualisera så många lasrar du vill i Liberation. Licen
 Som standard finns 8 lasrar utspridda horisontellt, men du kan anpassa detta precis som du vill. Det är förmodligen bäst att behålla standardinställningen medan du lär känna programmet, och senare justera den så att den matchar din hårdvaruuppsättning. (Se [Konfigurera ditt projekt](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Viktigt: Innan du sätter några lasrar i _armed_-läge måste du förstå riskerna och noggrant gå igenom kapitlet [Konfigurera lasrar](../setting-up/setting-up-lasers.md "mention").
+Viktigt: Innan du sätter några lasrar i _armed_-läge måste du förstå riskerna och noggrant gå igenom kapitlet [Översikt över laserinställningsprocessen](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Översikt över programvaran
 
 ### Säkerhetsavstängning
 
-När du kör lasrar måste du alltid ha en **fysisk nödstoppknapp** till hands (se [Nödstopp / säkerhetsförreglingar](../hardware/emergency-stop-interlocks.md "mention")). Om du vill disarm allt utan samma akuta behov kan du använda knappen _**DISARM ALL**_, tangenten `Escape` eller tangenten _**SESSION**_ på APC40. Du kan också sänka Global Brightness med reglaget på skärmen eller huvudfadern på APC40.
+När du kör lasrar måste du alltid ha en **fysisk nödstoppknapp** till hands (se [Nödstopp / säkerhetsförreglingar](../hardware/emergency-stop-interlocks.md "mention")). Om du vill avaktivera allt utan samma akuta behov kan du använda knappen _**DISARM ALL**_, tangenten `Escape` eller tangenten _**SESSION**_ på APC40. Du kan också sänka Global Brightness med reglaget på skärmen eller huvudfadern på APC40.
 
 ### Reglage
 
@@ -50,7 +50,7 @@ Osäker på vad en viss knapp gör? Håll muspekaren över den för att visa en 
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-I menyn hittar du alla alternativ för import och export av filer, samt öppnar paneler. Här hittar du också alternativet för att auktorisera datorn med din prenumeration (i _Liberation -> Authorise/Deauthorise this computer_).
+I menyn hittar du alla alternativ för import och export av filer, samt öppnar paneler. Här hittar du också alternativet för att auktorisera datorn med din licens (i _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Ikonrad
 
@@ -300,7 +300,7 @@ Här kan du välja vilka laser-outputs som ska gå till vilka laser controllers.
 Läs kapitlet [Tilldela kontroller](../setting-up/controller-assignment.md "mention") för mer information.
 
 {% hint style="danger" %}
-Innan du sätter några lasrar i _armed_-läge måste du gå igenom kapitlet [Konfigurera lasrar](../setting-up/setting-up-lasers.md "mention").
+Innan du sätter några lasrar i _armed_-läge måste du gå igenom kapitlet [Översikt över laserinställningsprocessen](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Panelen Laser Settings
@@ -331,10 +331,10 @@ Om du är van vid äldre laserprogramvara som bygger på förberäknade point st
 De grundläggande scanner-inställningarna är:
 
 * **Speed** är scanner-hastigheten, dvs. hur snabbt lasern rör sig för att rita former. Det motsvarar att justera point rate i traditionell laserprogramvara, men i Liberation kan du ändra hur snabbt lasern rör sig _oberoende av point rate._ Du ska normalt inte behöva justera detta.
-* **Scanner sync** (kallas ibland _blank shift_, tidigare Colour Shift) Scanners flyttar laserstrålen mycket snabbt, men förändringen av ljusstyrka och färg är vanligtvis inte synkroniserad med rörelsen. Det syns som små flimrande ”svansar” av ljus i kanten av beams och linjer. Använd den här justeringen för att få rörelse och färg i synk med varandra. Se [Laser Settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (kallas ibland _blank shift_, tidigare Colour Shift) Scanners flyttar laserstrålen mycket snabbt, men förändringen av ljusstyrka och färg är vanligtvis inte synkroniserad med rörelsen. Det syns som små flimrande ”svansar” av ljus i kanten av beams och linjer. Använd den här justeringen för att få rörelse och färg i synk med varandra. Se [Panelen för laserutgångsinställningar](../setting-up/laser-settings.md "mention")
 
 De övriga avancerade scanner-inställningarna behandlas i kapitlet [Avancerat](../advanced/ "mention").
 
 ### Zoning
 
-En fullständig guide till att konfigurera och skapa zones för lasrar finns här: [Konfigurera lasrar](../setting-up/setting-up-lasers.md "mention")
+En fullständig guide till att konfigurera lasrar och skapa zones finns här: [Översikt över laserinställningsprocessen](../setting-up/setting-up-lasers.md "mention")

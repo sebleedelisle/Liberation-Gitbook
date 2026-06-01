@@ -17,7 +17,7 @@ Leysisdíóður breyta hegðun sinni þegar þær hitna. Láttu skjávarpann all
 
 #### Hvernig kvörðunarprófið virkar
 
-Notaðu test pattern fyrir kvörðun (sjá [Test patterns](../output-view/test-patterns.md "mention"))
+Notaðu test pattern fyrir kvörðun (sjá [Test pattern](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green

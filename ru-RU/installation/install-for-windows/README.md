@@ -13,13 +13,13 @@ metaLinks:
 
 ### Процесс установки
 
-После оформления активной подписки вам отправят ссылку. Также можно нажать ссылку _Download_ на странице [ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Когда у вас будет активная платная лицензия, вам отправят ссылку. Также можно нажать _Download_ на странице [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Вы увидите эту страницу:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Нажмите _Download latest for Windows_ (номера версий могут измениться), и индикатор загрузки покажет ход скачивания (обычно он находится в правом верхнем углу; скриншот сделан в Chrome). Когда загрузка завершится, откройте папку загрузок и нажмите на скачанный файл установщика.
+Нажмите _Download for Windows_ (номера версий могут измениться), и индикатор загрузки покажет ход скачивания (обычно он находится в правом верхнем углу; скриншот сделан в Chrome). Когда загрузка завершится, откройте папку загрузок и нажмите на скачанный файл установщика.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 

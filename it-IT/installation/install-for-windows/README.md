@@ -61,4 +61,4 @@ Liberation ha bisogno dell’autorizzazione per accedere ai file e alla rete, qu
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation ora dovrebbe avviarsi! Per inviare l’output ai laser, ora devi completare la [procedura di autorizzazione.](../authorising-and-de-authorising.md)
+Liberation ora dovrebbe avviarsi! Per inviare l’output ai laser, devi completare [Autorizzazione e revoca dell’autorizzazione](../authorising-and-de-authorising.md).

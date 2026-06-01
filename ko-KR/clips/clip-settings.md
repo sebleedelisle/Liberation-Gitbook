@@ -33,7 +33,7 @@ Clip이 잠겨 있으면 이동하거나 삭제할 수 없습니다. Clip을 잠
 
 ### 오른쪽 클릭 메뉴
 
-Clip을 오른쪽 클릭하면 해당 Clip에 대한 몇 가지 옵션이 포함된 메뉴가 나타납니다. 이 메뉴의 처음 몇 항목에 대한 자세한 내용은 [Clip Editor 소개](../clip-editor/clip-editor-intro.md "mention"), [Clip 설정](clip-settings.md "mention") 및 [Clip 그룹](groups.md "mention")를 참고하세요.
+Clip을 오른쪽 클릭하면 해당 Clip에 대한 몇 가지 옵션이 포함된 메뉴가 나타납니다. 이 메뉴의 처음 몇 항목에 대한 자세한 내용은 [Clip Editor 소개](../clip-editor/clip-editor-intro.md "mention"), [Clip 설정](clip-settings.md "mention") 및 [Clip 그룹](groups.md "mention")을 참고하세요.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

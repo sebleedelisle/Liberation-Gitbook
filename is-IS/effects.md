@@ -32,12 +32,12 @@ Sjálfgefnu áhrifahnapparnir 1–8 eru undir zone-hnöppunum og áhrif 9–24 e
 
 #### Færibreytur áhrifa
 
-Bættu færibreytu við áhrifin með _Parameter node._ Parameter-kerfið er leið til að stilla margar stillingar inni í áhrifinu utan frá. Sjá [Parameter-stýring](clip-editor/oscillators/parameter-control.md "mention") fyrir nánari upplýsingar.
+Bættu færibreytu við áhrifin með _Parameter node._ Parameter-kerfið er leið til að stilla margar stillingar inni í áhrifinu utan frá. Sjá [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") fyrir nánari upplýsingar.
 
 Notaðu snúningsstýringar 1–8 til að stilla _parameter_ fyrir hvert áhrif. Þú getur líka hægrismellt á áhrifahnappinn og stillt parameter-sleðann eða sleðana. Breyting á parameter gerir mismunandi hluti eftir því hvernig áhrifin eru sett upp. Sjá listann hér fyrir neðan yfir sjálfgefnu áhrifin og hvað færibreytur þeirra gera.
 
 {% hint style="info" %}
-Snúningsstýringar 1–8 eru efst á APC40 Mk2 og efst til hægri á Mk1. Sjá einnig: [APC40 tilvísun](reference/apc40-reference.md "mention")
+Snúningsstýringar 1–8 eru efst á APC40 Mk2 og efst til hægri á Mk1. Sjá einnig: [APC40-tilvísun](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

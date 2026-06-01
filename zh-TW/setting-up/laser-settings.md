@@ -56,7 +56,7 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-這個速度設定不會改變點率，而是調整這些點之間的分布距離。如需更多資訊，請參閱 [Liberation 如何產生雷射內容](../advanced/how-liberation-generates-laser-content.md "mention")
+這個速度設定不會改變點率，而是調整這些點之間的分布距離。如需更多資訊，請參閱 [◼️ Liberation 如何產生雷射內容](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync（顏色偏移／消隱偏移）**
@@ -73,7 +73,7 @@ metaLinks:
 
 #### 掃描器預設值
 
-使用這個選項可選擇預先設計好的掃描器設定。預設選項通常就很好，所以除非你的掃描器特別差（或特別好），否則應該不需要更改這項設定。如果你想深入了解，請參閱[掃描器預設值](../advanced/scanner-presets.md "mention")
+使用這個選項可選擇預先設計好的掃描器設定。預設選項通常就很好，所以除非你的掃描器特別差（或特別好），否則應該不需要更改這項設定。如果你想深入了解，請參閱[◼️ 掃描器預設值與算繪設定檔](../advanced/scanner-presets.md "mention")
 
 #### 顏色校正
 
@@ -81,4 +81,4 @@ metaLinks:
 
 #### 進階設定
 
-你應該不需要動到這些設定；但如果你有興趣，請參閱[進階雷射設定](../advanced/advanced-laser-settings.md "mention")
+你應該不需要動到這些設定；但如果你有興趣，請參閱[◼️ 進階雷射設定](../advanced/advanced-laser-settings.md "mention")

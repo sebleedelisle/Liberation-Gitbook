@@ -77,8 +77,8 @@ Speed 설정은 스캐너가 움직이는 속도를 결정합니다.
 
 #### Colour calibration
 
-이 시스템을 사용해 레이저의 밝기 커브와 화이트 밸런스를 보정할 수 있습니다. [색상 보정](../advanced/colour-calibration.md "mention")를 참조하세요.
+이 시스템을 사용해 레이저의 밝기 커브와 화이트 밸런스를 보정할 수 있습니다. [색상 보정](../advanced/colour-calibration.md "mention")을 참조하세요.
 
 #### Advanced settings
 
-일반적으로 이 설정을 건드릴 필요는 없지만, 궁금하다면 [◼️ 고급 레이저 설정](../advanced/advanced-laser-settings.md "mention")를 참조하세요.
+일반적으로 이 설정을 건드릴 필요는 없지만, 궁금하다면 [◼️ 고급 레이저 설정](../advanced/advanced-laser-settings.md "mention")을 참조하세요.

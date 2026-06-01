@@ -13,12 +13,12 @@ metaLinks:
 
 1.  **更改專案中的雷射數量：**
 
-    在 _Laser Overview_ panel 中，按右邊的紅色按鈕即可刪除一部雷射。使用底部的 _ADD LASER_ button 加入雷射。另見 [加入／移除雷射](adding-removing-lasers.md "mention")
+在 _Laser Overview_ panel 中，按右邊的紅色按鈕即可刪除一部雷射。使用底部的 _ADD LASER_ button 加入雷射。另見 [加入／移除雷射](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **更新 3D visualiser 視圖：**
 
-    使用 _3D Visualiser Settings_ panel 調整每部雷射的位置和方向。請參閱 [3D Visualiser](3d-visualiser.md "mention")。
+使用 _3D Visualiser Settings_ panel 調整每部雷射的位置和方向。請參閱 [3D Visualiser](3d-visualiser.md "mention")。
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **調整 zones：**\
@@ -36,4 +36,4 @@ metaLinks:
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **啟用雷射並設定 zones：** 請小心按照 [設定雷射](setting-up-lasers.md "mention") 的步驟操作。
+6. **啟用雷射並設定 zones：** 請小心按照 [雷射設定流程概覽](setting-up-lasers.md "mention") 的步驟操作。

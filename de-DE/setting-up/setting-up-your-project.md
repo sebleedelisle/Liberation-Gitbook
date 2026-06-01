@@ -13,12 +13,12 @@ Hier ist ein Überblick über den Ablauf:
 
 1.  **Ändere die Anzahl der Laser in deinem Projekt:**
 
-    Klicke im _Laser Overview_ Panel auf den roten Button rechts, um einen Laser zu löschen. Füge mit dem _ADD LASER_ Button unten einen Laser hinzu. Siehe auch [Laser hinzufügen / entfernen](adding-removing-lasers.md "mention")
+Klicke im _Laser Overview_ Panel auf den roten Button rechts, um einen Laser zu löschen. Füge mit dem _ADD LASER_ Button unten einen Laser hinzu. Siehe auch [Laser hinzufügen / entfernen](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Aktualisiere die Ansicht im 3D Visualiser:**
 
-    Passe Position und Ausrichtung jedes Lasers im _3D Visualiser Settings_ Panel an. Siehe [3D Visualiser](3d-visualiser.md "mention").
+Passe Position und Ausrichtung jedes Lasers im _3D Visualiser Settings_ Panel an. Siehe [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Passe die Zonen an:**\
