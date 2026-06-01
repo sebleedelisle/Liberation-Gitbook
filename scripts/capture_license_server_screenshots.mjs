@@ -626,7 +626,7 @@ async function startLicenseServer(databaseUrl) {
         USE_HTTPS: "no",
         RUN_UPDATES: "no",
         NO_RESTART_EMAIL: "1",
-        TRUST_PROXY: "false",
+        TRUST_PROXY: "loopback",
         POSTMARK_API_TOKEN: "POSTMARK_API_TEST",
         PADDLE_VENDOR_ID: "123",
         PADDLE_AUTH_CODE: "docs-auth-code",
@@ -701,14 +701,15 @@ function screenshotTargets(seedData) {
             user: "normal",
             path: `/account/my-products/product?license=${normal.activeLicenceId}`,
             selector: "main",
-            maxHeight: 475,
+            maxHeight: 560,
         },
         {
             file: "account-cancel-auto-renew.png",
             user: "normal",
             path: `/account/my-products/cancel?license=${normal.activeLicenceId}`,
             selector: ".narrow-form",
-            maxHeight: 980,
+            maxHeight: 1220,
+            viewport: { width: 1340, height: 1320 },
         },
         {
             file: "account-auto-renew-off.png",
@@ -736,12 +737,57 @@ async function loginContext(context, baseUrl, user, password) {
             password,
             redirect: "/account/my-products",
         },
+        headers: {
+            // The screenshot server runs in production mode over local HTTP. This
+            // lets express-session emit the secure cookie so we can copy the
+            // signed session into the browser context for local rendering.
+            "X-Forwarded-Proto": "https",
+        },
         maxRedirects: 0,
     });
+    const loginLocation = response.headers().location || "";
 
     if (![302, 303].includes(response.status())) {
         const body = await response.text().catch(() => "");
         throw new Error(`Login failed for ${user.email}: ${response.status()} ${body.slice(0, 200)}`);
+    }
+
+    const sessionCookie = response
+        .headersArray()
+        .find((header) => header.name.toLowerCase() === "set-cookie" && header.value.startsWith("connect.sid="));
+
+    if (sessionCookie) {
+        const [nameValue] = sessionCookie.value.split(";");
+        const separator = nameValue.indexOf("=");
+        if (separator > 0) {
+            const rawValue = nameValue.slice(separator + 1);
+            const value = decodeURIComponent(rawValue);
+            await context.addCookies([
+                {
+                    name: nameValue.slice(0, separator),
+                    value,
+                    url: baseUrl,
+                    httpOnly: true,
+                    sameSite: "Lax",
+                },
+            ]);
+        }
+    }
+
+    const authCheckPage = await context.newPage();
+    const authCheckResponse = await authCheckPage.goto(`${baseUrl}/account/my-products`, {
+        waitUntil: "domcontentloaded",
+    });
+    const authCheckUrl = authCheckPage.url();
+    await authCheckPage.close();
+
+    if (!authCheckResponse?.ok() || new URL(authCheckUrl).pathname === "/login") {
+        const cookieSummary = (await context.cookies(baseUrl))
+            .map((cookie) => `${cookie.name} domain=${cookie.domain} path=${cookie.path} secure=${cookie.secure}`)
+            .join(", ");
+        throw new Error(
+            `Login did not authenticate ${user.email}: login redirected to ${loginLocation || "(none)"}, auth check landed on ${authCheckResponse?.status() || "no response"} ${authCheckUrl}; cookies: ${cookieSummary || "none"}`
+        );
     }
 }
 
