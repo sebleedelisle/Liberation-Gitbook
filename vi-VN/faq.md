@@ -163,7 +163,7 @@ Ngoài ra còn có một số preset scanner. Tùy chọn mặc định khá an 
 
 Để biết thêm thông tin, xem [Laser Settings](setting-up/laser-settings.md "mention"); và để biết cách tạo preset riêng, xem [Preset scanner](advanced/scanner-presets.md "mention") (nâng cao, đang hoàn thiện)
 
-Bạn cũng có thể hiệu chỉnh cân bằng màu bằng các thiết lập _Colour calibration_. Xem [Hiệu chuẩn màu](advanced/colour-calibration.md "mention")(kỹ thuật nâng cao)
+Bạn cũng có thể hiệu chỉnh cân bằng màu bằng các thiết lập _Colour calibration_. Xem [Hiệu chuẩn màu](advanced/colour-calibration.md "mention") (kỹ thuật nâng cao)
 
 #### Thiết lập _Latency(ms)_ có tác dụng gì?
 

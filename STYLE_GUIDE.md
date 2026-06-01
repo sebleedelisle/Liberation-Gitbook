@@ -18,15 +18,21 @@ Use British spelling for normal prose:
 
 Do not rename existing files or URLs just to change spelling. Some slugs still contain historical spellings such as `license`, `colour`, or `co-ordinate`; link targets and asset paths must remain stable.
 
-## GitBook mention links
+## Markdown links
 
-In `en-GB`, keep existing GitBook mention link labels that are filenames, including their `.md` suffix:
+For internal Markdown links, make the visible link text match the destination page title or heading:
 
 ```md
-See [laser-settings.md](en-GB/setting-up/laser-settings.md "mention")
+See [Laser output settings panel](en-GB/setting-up/laser-settings.md "mention")
 ```
 
-Do not rewrite these labels to page titles during prose edits. The site build replaces `.md` link labels with the destination page title in generated HTML, so filename labels in source stay stable when titles change. This rule is for the English source; translated locales use translated visible link text.
+Do not use filenames, paths, or slugs as visible labels, such as `laser-settings.md` or `setting-up-lasers`. Keep the link target stable, even when a file path contains historical spelling such as `license`.
+
+Keep normal prose spacing around links. A Markdown link followed by more prose needs a space after the closing parenthesis:
+
+```md
+See [MIDI control](en-GB/midi-control/ "mention") for more information.
+```
 
 ## Technical Terms
 

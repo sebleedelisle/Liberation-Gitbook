@@ -20,7 +20,7 @@ Early LaserCubes are controlled via USB, but the current models all have a built
 
 ### USB LaserCube
 
-Connect your LaserCube to your computer with a micro USB cable, then look for it in the _Controller Assignment_ panel (See [controller-assignment.md](../setting-up/controller-assignment.md "mention")). If it doesn't show up automatically, hit the _REFRESH_ button.
+Connect your LaserCube to your computer with a micro USB cable, then look for it in the _Controller Assignment_ panel (See [Controller assignment](../setting-up/controller-assignment.md "mention")). If it doesn't show up automatically, hit the _REFRESH_ button.
 
 ### Network LaserCube "Wifi"
 
@@ -30,7 +30,7 @@ Although the "Wifi" cubes are designed to be operated over a wireless network, t
 
 Connect your LaserCube to your wired network.
 
-Put your LaserCube into "LAN Client" mode and make sure there is a router on your network. The LaserCube will get an IP address from your router, and it should then show up in the _Controller Assignment_ panel. (See [controller-assignment.md](../setting-up/controller-assignment.md "mention")).
+Put your LaserCube into "LAN Client" mode and make sure there is a router on your network. The LaserCube will get an IP address from your router, and it should then show up in the _Controller Assignment_ panel. (See [Controller assignment](../setting-up/controller-assignment.md "mention")).
 
 {% hint style="info" %}
 It is possible to set up a network without a router and give all your devices fixed IP addresses, and this is very common in the events industry. Personally I prefer to add a router on the network and recommend this option to anyone less experienced with networking.

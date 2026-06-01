@@ -36,7 +36,7 @@ Liberation støtter også APC Mini og MIDI Fighter Twister. APC40 Mk2 er fortsat
 
 Det finnes også et MIDI Send/Receive-system som gir ekstra MIDI-kontroll. Se [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
-Se [MIDI-kontroll](midi-control/ "mention")for mer informasjon.
+Se [MIDI-kontroll](midi-control/ "mention") for mer informasjon.
 
 #### **Kan jeg bruke det med hvilken som helst MIDI-kontroller?**
 
@@ -163,7 +163,7 @@ Det finnes også noen forhåndsinnstilte scannerinnstillinger. Standardalternati
 
 For mer informasjon, se [Innstillingspanelet Laser output](setting-up/laser-settings.md "mention"), og for informasjon om hvordan du lager dine egne forhåndsinnstillinger, se [◼️ Scanner-forhåndsinnstillinger og renderprofiler](advanced/scanner-presets.md "mention") (avansert, under arbeid)
 
-Du kan også korrigere fargebalansen med innstillingene _Colour calibration_. Se [Fargekalibrering](advanced/colour-calibration.md "mention")(avansert teknikk)
+Du kan også korrigere fargebalansen med innstillingene _Colour calibration_. Se [Fargekalibrering](advanced/colour-calibration.md "mention") (avansert teknikk)
 
 #### Hva gjør innstillingen _Latency(ms)_?
 

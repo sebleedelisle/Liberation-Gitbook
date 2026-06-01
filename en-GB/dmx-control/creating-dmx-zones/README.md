@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Creating DMX zones
 
-1. Connect your Art-Net node and set it up in [connecting-to-an-artnet-node.md](../connecting-to-an-artnet-node.md "mention").
+1. Connect your Art-Net node and set it up in [◼️ Connecting to an Art-Net node](../connecting-to-an-artnet-node.md "mention").
 2. Open **DMX Zones** and click **ADD DMX ZONE**.
 3. Set the zone's **Node**, **Universe** and **Address** to match the fixture.
 4. Choose a **Preset** for the fixture. The preset defines which DMX channels receive fixed values, content on/off values, RGB colour, X/Y position, brightness, or explicit DMX Value inputs.

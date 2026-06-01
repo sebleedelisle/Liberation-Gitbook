@@ -36,7 +36,7 @@ Liberation also supports APC Mini and MIDI Fighter Twister. The APC40 Mk2 is sti
 
 There is also the MIDI Send/Receive system that offers additional MIDI control. See [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
-See [MIDI control](midi-control/ "mention")for more information.
+See [MIDI control](midi-control/ "mention") for more information.
 
 #### **Can I use it with any MIDI controller?**
 
@@ -97,7 +97,11 @@ You can downgrade at any time but the change will take effect at the end of your
 
 #### **Can I pause payments for my license?**
 
-For an eligible recurring paid license, log in to the website, open the [_Your licenses_](https://liberationlaser.com/account/my-products) page, select the license you want to manage, then click _PAUSE OR CANCEL PAYMENTS_. Your paid license will stay active until the end of the current paid period. You can choose to restart payments next month, on a date you choose, or only when you restart manually. See [Pause or cancel payments](installation/cancel-your-subscription.md "mention")
+Yes. The license can be paused at the next subscription date and restarted at any time. This is useful if you start and stop your usage periodically, and you do not need to re-enter your card details. See [Pause or cancel payments](installation/cancel-your-subscription.md "mention")
+
+#### **How do I cancel my license forever?**
+
+You can cancel your recurring license at any time, and it will automatically deactivate at the end of the current paid period. See [Pause or cancel payments](installation/cancel-your-subscription.md "mention")
 
 #### **How do I authorize my computer with my license?**
 
@@ -114,10 +118,6 @@ For monthly recurring paid licenses, Liberation usually gives you a grace period
 #### **What happens if my credit card expires?**
 
 You will get an email notification from our payment provider, and you will need to update your card details. Log in to the website and use _UPDATE CARD DETAILS_ on the license page, or _Update_ under _Billing and payments_. You must do this within the grace period to avoid losing access to paid features.
-
-#### **How do I cancel auto-renew for my license?**
-
-Log in to the website, open the [_Your licenses_](https://liberationlaser.com/account/my-products) page, select the license you want to manage, then click _PAUSE OR CANCEL PAYMENTS_ or _CANCEL PAYMENTS_. Use _Cancel payments permanently_ and click _CANCEL PAYMENTS_. Your paid license will stay active until the end of the current paid period. No further payments will be taken. See [Pause or cancel payments](installation/cancel-your-subscription.md "mention")
 
 #### **How many computers can I install Liberation on?**
 
@@ -167,7 +167,7 @@ There are also some preset scanner settings. The default option is conservative 
 
 For more information see [Laser output settings panel](setting-up/laser-settings.md "mention"), and for information on how to create your own presets see [◼️ Scanner presets & render profiles](advanced/scanner-presets.md "mention") (advanced, in progress)
 
-You can also correct the color balance using the _Color calibration_ settings. See [Color calibration](advanced/colour-calibration.md "mention")(advanced technique)
+You can also correct the color balance using the _Color calibration_ settings. See [Color calibration](advanced/colour-calibration.md "mention") (advanced technique)
 
 #### What does the _Latency(ms)_ setting do?
 

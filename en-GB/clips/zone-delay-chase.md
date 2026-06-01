@@ -14,7 +14,7 @@ The zone delay system is a simple yet effective method to introduce variety acro
 
 _Zone delay_ adds a delay to the timing of the clip across each zone, creating a kind of sweep across the zones.
 
-It's really effective to introduce zone delay to an already running clip, use the relevant control on the APC40 to adjust the level and pattern. (See [apc40-reference.md](../reference/apc40-reference.md "mention")). Or you can use the _Clip Settings_ panel.
+It's really effective to introduce zone delay to an already running clip, use the relevant control on the APC40 to adjust the level and pattern. (See [APC40 reference](../reference/apc40-reference.md "mention")). Or you can use the _Clip Settings_ panel.
 
 Zone delay settings :
 
@@ -39,7 +39,7 @@ The pattern works on the zone numbers and assumes your zones are in order from l
 Zone delay is also applied to any active effects. For instance, a flashing effect will be delayed across the zones as well as the animation within the clip itself.
 {% endhint %}
 
-When a clip has any kind of _Zone delay_ you will see a three-dot icon in the top right of the clip. These dots are animated to show you the style of _Zone delay_ for that clip. See [what-are-the-small-icons-on-the-clip-buttons.md](what-are-the-small-icons-on-the-clip-buttons.md "mention") for more details.
+When a clip has any kind of _Zone delay_ you will see a three-dot icon in the top right of the clip. These dots are animated to show you the style of _Zone delay_ for that clip. See [What are the small icons on the clip buttons?](what-are-the-small-icons-on-the-clip-buttons.md "mention") for more details.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>The three dot symbol that indicate that a clip has a zone delay and its mode</p></figcaption></figure>
 

@@ -33,7 +33,7 @@ This node applies colour changes across your content based on position. By defau
 
 **Colour Modes**
 
-These determine which aspects of the colour adjustments are applied to the content. See also: [colour-settings-and-hsb.md](../fundamentals/colour-settings-and-hsb.md "mention").
+These determine which aspects of the colour adjustments are applied to the content. See also: [Colour settings and HSB](../fundamentals/colour-settings-and-hsb.md "mention").
 
 * **hue mode**
   * _OFF_ – hue is unchanged.
@@ -49,7 +49,7 @@ These determine which aspects of the colour adjustments are applied to the conte
 
 **Gradient editor**
 
-Uses the same gradient editor as [colour-changer.md](colour-changer.md "mention"), but it maps the gradient across the content by position.
+Uses the same gradient editor as [Colour change](colour-changer.md "mention"), but it maps the gradient across the content by position.
 
 * Click the gradient bar to add a colour stop.
 * Left-click a stop to select it, then drag it sideways to move it.

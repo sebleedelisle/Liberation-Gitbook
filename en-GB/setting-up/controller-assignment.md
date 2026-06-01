@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ Controller assignment
 
-Once you have set up the lasers within Liberation, you can then assign each one to a laser controller in the real world. (See [compatible-lasers-and-controllers-dacs.md](../hardware/compatible-lasers-and-controllers-dacs.md "mention") to check what hardware you can use). The controllers will either be connected via USB or over the network.
+Once you have set up the lasers within Liberation, you can then assign each one to a laser controller in the real world. (See [Compatible lasers and controllers (DACs)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") to check what hardware you can use). The controllers will either be connected via USB or over the network.
 
 * Open the _Controller Assignment_ panel via the _View -> Controller Assignment_ menu option. (Or alternatively you can use the _ASSIGN LASER CONTROLLERS_ button in the _Laser Overview_ panel.)
 

@@ -306,7 +306,7 @@ You can choose which laser outputs go to which laser controllers here. Drag and 
 Read the [Controller assignment](setting-up/controller-assignment.md "mention") chapter for more details.
 
 {% hint style="danger" %}
-Before you arm any lasers make sure to go through the [Laser setup process overview](setting-up/setting-up-lasers.md "mention")chapter.
+Before you arm any lasers make sure to go through the [Laser setup process overview](setting-up/setting-up-lasers.md "mention") chapter.
 {% endhint %}
 
 ### Laser output panel
@@ -339,7 +339,7 @@ The basic scanner settings are:
 * **Speed** is the scanner speed, i.e. how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
 * **Scanner sync** (sometimes known as _blank shift, previously Color Shift_) The scanners move the laser around really fast but usually the change of brightness and color is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and color in sync with each other. See [Laser output settings panel](setting-up/laser-settings.md "mention")
 
-The other advanced scanner settings are covered in the [advanced](advanced/ "mention")chapter.
+The other advanced scanner settings are covered in the [advanced](advanced/ "mention") chapter.
 
 ### Zoning
 

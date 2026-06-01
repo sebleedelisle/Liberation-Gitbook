@@ -9,7 +9,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
-Moves all content along the x, y, and/or z axes. Note that the coordinate system is centred, and extends to +/-200 in the x and y axes. See [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Moves all content along the x, y, and/or z axes. Note that the coordinate system is centred, and extends to +/-200 in the x and y axes. See [Coordinate system](../fundamentals/co-ordinate-system.md "mention").
 
 * **x** - the distance to move along the x axis (left - right).
 * **y** - the distance to move along the y axis (top - bottom).
@@ -20,7 +20,7 @@ Moves all content along the x, y, and/or z axes. Note that the coordinate system
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Rotates all content. Values are in degrees. See [co-ordinate-system.md](../fundamentals/co-ordinate-system.md "mention").
+Rotates all content. Values are in degrees. See [Coordinate system](../fundamentals/co-ordinate-system.md "mention").
 
 * **rotation** - the amount that the content is rotated clockwise in degrees. Everything is rotated around the origin (0,0), the centre.
 * **pivot point x / pivot point y** - Use these values to offset the rotation origin.

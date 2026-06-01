@@ -163,7 +163,7 @@ Aðalstillingin er _Colour Shift,_ sem bætir upp örlitla töf milli þess að 
 
 Fyrir frekari upplýsingar, sjá [Laser Settings](setting-up/laser-settings.md "mention"), og fyrir upplýsingar um hvernig þú býrð til eigin forstillingar, sjá [Forstillingar skanna](advanced/scanner-presets.md "mention") (ítarefni, í vinnslu)
 
-Þú getur einnig leiðrétt litajafnvægið með _Colour calibration_ stillingunum. Sjá [Litkvörðun](advanced/colour-calibration.md "mention")(ítarefni)
+Þú getur einnig leiðrétt litajafnvægið með _Colour calibration_ stillingunum. Sjá [Litkvörðun](advanced/colour-calibration.md "mention") (ítarefni)
 
 #### Hvað gerir _Latency(ms)_ stillingin?
 

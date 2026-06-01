@@ -36,7 +36,7 @@ Liberation también es compatible con APC Mini y MIDI Fighter Twister. El APC40 
 
 También existe el sistema MIDI Send/Receive, que ofrece control MIDI adicional. Consulta [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
-Consulta [Control MIDI](midi-control/ "mention")para obtener más información.
+Consulta [Control MIDI](midi-control/ "mention") para obtener más información.
 
 #### **¿Puedo usarlo con cualquier controlador MIDI?**
 
@@ -163,7 +163,7 @@ También hay algunos presets de escáner. La opción por defecto es conservadora
 
 Para obtener más información, consulta [Panel de ajustes de Laser output](setting-up/laser-settings.md "mention"); y para saber cómo crear tus propios presets, consulta [◼️ Preajustes de escáner y perfiles de renderizado](advanced/scanner-presets.md "mention") (avanzado, en curso)
 
-También puedes corregir el balance de color usando los ajustes de _Colour calibration_. Consulta [Calibración de color](advanced/colour-calibration.md "mention")(técnica avanzada)
+También puedes corregir el balance de color usando los ajustes de _Colour calibration_. Consulta [Calibración de color](advanced/colour-calibration.md "mention") (técnica avanzada)
 
 #### ¿Qué hace el ajuste _Latency(ms)_?
 

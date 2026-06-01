@@ -60,7 +60,7 @@ Use the _METRONOME_ button to **reset the bar**. (Note that the _METRONOME_ butt
 
 Turn the _TEMPO_ knob one "tick" right or left to **round the tempo** up or down to a whole BPM number.
 
-See also [apc40-reference.md](reference/apc40-reference.md "mention")
+See also [APC40 reference](reference/apc40-reference.md "mention")
 
 ### Nudge tempo
 

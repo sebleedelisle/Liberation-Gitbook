@@ -9,7 +9,7 @@ metaLinks:
 
 ### Moving/duplicating clips
 
-Click and drag to move a clip. If more than one clip is selected (see [starting-stopping-clips.md](starting-stopping-clips.md "mention")) they will all be moved. Hold down `Alt / Option` to duplicate them. Drop the clip(s) onto an empty space.
+Click and drag to move a clip. If more than one clip is selected (see [Starting / stopping clips](starting-stopping-clips.md "mention")) they will all be moved. Hold down `Alt / Option` to duplicate them. Drop the clip(s) onto an empty space.
 
 {% hint style="info" %}
 If you need to select a large number of clips, you can click and drag a lasso, and then scroll the clip deck while still dragging (either using cursor keys, the APC40 or sideways touchpad/mouse scroll). The lasso will be extended off the edge of the clip deck.

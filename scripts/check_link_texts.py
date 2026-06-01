@@ -129,7 +129,7 @@ def destination_title(path: Path, anchor: str | None) -> str | None:
     if anchor:
         anchor_slug = slugified(anchor)
         for heading in found:
-            if heading.slug == anchor_slug:
+            if heading.slug == anchor_slug or re.fullmatch(rf"{re.escape(heading.slug)}-\d+", anchor_slug):
                 return heading.text
 
     for heading in found:

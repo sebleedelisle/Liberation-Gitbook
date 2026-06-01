@@ -61,4 +61,4 @@ Liberation needs permission to access files and the network so Windows will prob
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation should now run! To output to lasers you will need to now go through the [authorisation process.](../authorising-and-de-authorising.md)
+Liberation should now run! To output to lasers you will need to complete [Authorising and de-authorising](../authorising-and-de-authorising.md).
