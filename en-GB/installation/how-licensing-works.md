@@ -27,6 +27,8 @@ Each licence is for one user only and one show at a time. You can have more than
 
 Liberation's licensing and authorisation works over the internet; the app connects to our server to associate an installation with your paid licence.
 
-Once your installation is authorised it doesn't need to be online again until your paid licence reaches its next payment or paid-until date. You can see this date in the _About panel._ There is a short grace period (7 days for monthly paid licences) but it is recommended to go online as soon as possible after that date to make sure your authorisation remains active.
+Once you're authorised, you don't need to be online again until your recurring licence reaches its next payment date (shown in the _About panel_). Monthly recurring licences usually include a short grace period (7 days), but you should go online as soon as possible after the payment date to keep your paid features available without interruption.
+
+The grace period is for renewal and payment issues. It does not extend licences that have been cancelled, or deliberately paused, after the paid period ends. If a payment fails, update your card details within the grace period to keep paid features available.
 
 The current licence tier is also shown in the top bar. Click the tier name, or _FREE MODE_ when unlicensed, to open the About panel.

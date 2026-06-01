@@ -11,6 +11,8 @@ You can upgrade to a higher tier at any time. You will get a partial refund for 
 
 You can also downgrade at any time but it will not take effect until the end of your current paid period.
 
+You cannot change plan while payments are scheduled to pause, or while the license is paused. Cancel the scheduled pause or restart the license first, then change plan.
+
 Log in to the website, open the [_Your licenses_](https://liberationlaser.com/account/my-products) page, select the license you want to change, then click _UPGRADE / DOWNGRADE_. You will then see the available options for your license.
 
 <figure><img src="../.gitbook/assets/account-change-licence-plan.png" alt=""><figcaption></figcaption></figure>

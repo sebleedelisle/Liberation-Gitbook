@@ -95,25 +95,29 @@ You can upgrade to a higher tier at any time. You will get a partial refund for 
 
 You can downgrade at any time but the change will take effect at the end of your current paid period. See [upgrade-downgrade-your-license.md](installation/upgrade-downgrade-your-license.md "mention")
 
+#### **Can I pause payments for my licence?**
+
+For an eligible recurring paid licence, log in to the website, open the [_Your licences_](https://liberationlaser.com/account/my-products) page, select the licence you want to manage, then click _PAUSE OR CANCEL PAYMENTS_. Your paid licence will stay active until the end of the current paid period. You can choose to restart payments next month, on a date you choose, or only when you restart manually. See [cancel-your-subscription.md](installation/cancel-your-subscription.md "mention")
+
 #### **How do I authorise my computer with my licence?**
 
 Once you have purchased a licence you can then authorise the computer within the Liberation software itself. You will see an _Authorise_ button on the _About_ screen that will prompt you to log in to the website. Follow the on-screen instructions to complete the authorisation process. See [authorising-and-de-authorising.md](installation/authorising-and-de-authorising.md "mention")
 
 #### **How often do I need to connect my computer to the internet?**
 
-Every time a paid licence refreshes after a payment, you will need to connect Liberation to the internet to update its internal licence. For a monthly auto-renewing licence, you will need to connect every month.
+Every time a recurring paid licence renews successfully, you will need to connect Liberation to the internet to update its internal licence. So for a monthly auto-renewing licence, you will need to connect every month.
 
 #### **What happens if I can’t connect my computer to the internet after the next payment?**
 
-Liberation will give you a grace period of 7 days after your paid licence refreshes to connect to the internet and update its internal licence. After that period Liberation will go back into _Free_ mode.
+For monthly recurring paid licences, Liberation usually gives you a grace period of 7 days after your paid licence renews to connect to the internet and update its internal licence. After that period Liberation will go back into _Free_ mode.
 
 #### **What happens if my credit card expires?**
 
-You will get an email notification from our payment provider, and you will need to update your card details. Log in to the website and use _UPDATE CARD DETAILS_ on the licence page, or _Update_ under _Billing and payments_.
+You will get an email notification from our payment provider, and you will need to update your card details. Log in to the website and use _UPDATE CARD DETAILS_ on the licence page, or _Update_ under _Billing and payments_. You must do this within the grace period to avoid losing access to paid features.
 
 #### **How do I cancel auto-renew for my licence?**
 
-Log in to the website, open the [_Your licences_](https://liberationlaser.com/account/my-products) page, select the licence you want to manage, then click _CANCEL PAYMENTS_. Your paid licence will stay active until the end of the current paid period. No further payments will be taken.
+Log in to the website, open the [_Your licences_](https://liberationlaser.com/account/my-products) page, select the licence you want to manage, then click _PAUSE OR CANCEL PAYMENTS_ or _CANCEL PAYMENTS_. Use _Cancel payments permanently_ and click _CANCEL PAYMENTS_. Your paid licence will stay active until the end of the current paid period. No further payments will be taken. See [cancel-your-subscription.md](installation/cancel-your-subscription.md "mention")
 
 #### **How many computers can I install Liberation on?**
 

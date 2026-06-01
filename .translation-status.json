@@ -262,7 +262,7 @@
     },
     "en-US/SUMMARY.md": {
       "source": "en-GB/SUMMARY.md",
-      "source_sha256": "e3110f29163963ed7075954bb79d4b6ae89904a045ee26ddb8d06f940dbeb802"
+      "source_sha256": "26b1c4bf6fe017643aef704cb1f9747a3674a84aa219c208f4246732526ecc2f"
     },
     "en-US/advanced/README.md": {
       "source": "en-GB/advanced/README.md",
@@ -462,7 +462,7 @@
     },
     "en-US/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "7def54fd03fc1fe2a5b5365390e8beb60b5b24138194b83f51a7669232278e71"
+      "source_sha256": "5ffeb41e1c59ba5eeaecd5eb4d766c22a034665cb3c07548bc210b1fa0cf7871"
     },
     "en-US/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -526,11 +526,11 @@
     },
     "en-US/installation/cancel-your-subscription.md": {
       "source": "en-GB/installation/cancel-your-subscription.md",
-      "source_sha256": "1f820b7b1568fdb6241c009e22652bc056a9a103d41571ad50eb3d75781b0ba3"
+      "source_sha256": "60354c25ab499c7344b408c828effbb55dbd6865826a38c3f49a8754f015cdbd"
     },
     "en-US/installation/how-licensing-works.md": {
       "source": "en-GB/installation/how-licensing-works.md",
-      "source_sha256": "4292354d3f7d3d4eb7915958ec188be7e96034c421ff1297464bf1e167c2c6df"
+      "source_sha256": "b266ea9d4365eca919b8bff568da544970fc81312680636f6906d6706217d9b3"
     },
     "en-US/installation/install-for-mac.md": {
       "source": "en-GB/installation/install-for-mac.md",
@@ -546,7 +546,7 @@
     },
     "en-US/installation/upgrade-downgrade-your-license.md": {
       "source": "en-GB/installation/upgrade-downgrade-your-license.md",
-      "source_sha256": "8d65e8463a9e76817ceccb98bfb1aef7df77421939e212dd4af662a6f01c0765"
+      "source_sha256": "3619c1a083c1deb4d39a0aa298ebf63af1ef3fd71cad5989ca591b4d811cd494"
     },
     "en-US/loading-and-saving.md": {
       "source": "en-GB/loading-and-saving.md",
