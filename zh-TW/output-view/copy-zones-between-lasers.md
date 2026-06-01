@@ -21,4 +21,4 @@ metaLinks:
 請注意，這個流程不會在雷射中新增或移除 zones。它只會針對目標雷射中已存在的每個 zone，複製該 zone 的位置與類型。
 {% endhint %}
 
-另請參閱 [複製雷射設定](../setting-up/copy-laser-settings.md)，了解此系統其他功能的完整說明。
+另請參閱 [在雷射之間複製設定](../setting-up/copy-laser-settings.md "mention")，了解此系統其他功能的完整說明。

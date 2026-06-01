@@ -17,14 +17,14 @@ V Liberation můžete nastavit a vizualizovat libovolný počet laserů. Licenč
 Výchozí nastavení obsahuje 8 laserů rozložených vodorovně, ale můžete si ho upravit podle potřeby. Než se se softwarem seznámíte, bude pravděpodobně nejlepší ponechat toto výchozí nastavení. Později ho můžete upravit tak, aby odpovídalo vaší hardwarové sestavě. (Viz [Nastavení projektu](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Důležité: Než aktivujete jakékoli lasery pro výstup, ujistěte se, že rozumíte souvisejícím rizikům, a pečlivě si projděte kapitolu [Nastavení laserů](../setting-up/setting-up-lasers.md "mention").
+Důležité: Než aktivujete jakékoli lasery pro výstup, ujistěte se, že rozumíte souvisejícím rizikům, a pečlivě si projděte kapitolu [Přehled postupu nastavení laserů](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Přehled softwaru
 
 ### Bezpečnostní vypnutí
 
-Kdykoli používáte lasery, musíte mít po ruce **hardwarové tlačítko nouzového zastavení** (viz [Nouzové zastavení a bezpečnostní blokování](../hardware/emergency-stop-interlocks.md "mention")). Pokud ale chcete deaktivovat vše méně naléhavě, můžete použít tlačítko _**DISARM ALL**_, klávesu `Escape` nebo klávesu _**SESSION**_ na APC40. Globální jas můžete také snížit pomocí posuvníku na obrazovce nebo hlavního faderu na APC40.
+Kdykoli používáte lasery, musíte mít po ruce **hardwarové tlačítko nouzového zastavení** (viz [Nouzové zastavení / bezpečnostní blokování](../hardware/emergency-stop-interlocks.md "mention")). Pokud ale chcete deaktivovat vše méně naléhavě, můžete použít tlačítko _**DISARM ALL**_, klávesu `Escape` nebo klávesu _**SESSION**_ na APC40. Globální jas můžete také snížit pomocí posuvníku na obrazovce nebo hlavního faderu na APC40.
 
 ### Posuvníky
 
@@ -50,7 +50,7 @@ Nejste si jistí, co některé tlačítko dělá? Najeďte na něj myší a zobr
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-V menu najdete všechny možnosti importu a exportu souborů a také zde otevíráte panely. Najdete tu i možnost autorizovat počítač pomocí vašeho předplatného (_Liberation -> Authorise/Deauthorise this computer_).
+V menu najdete všechny možnosti importu a exportu souborů a také zde otevíráte panely. Najdete tu i možnost autorizovat počítač pomocí vaší licence (_Liberation -> Authorise/Deauthorise this computer_).
 
 #### Lišta ikon
 
@@ -300,7 +300,7 @@ Zde můžete zvolit, které laserové výstupy půjdou do kterých laserových k
 Další podrobnosti najdete v kapitole [Controller Assignment](../setting-up/controller-assignment.md "mention").
 
 {% hint style="danger" %}
-Než aktivujete jakékoli lasery pro výstup, projděte si kapitolu [Nastavení laserů](../setting-up/setting-up-lasers.md "mention").
+Než aktivujete jakékoli lasery pro výstup, projděte si kapitolu [Přehled postupu nastavení laserů](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Panel Laser Settings
@@ -331,10 +331,10 @@ Pokud jste zvyklí na starší laserový software, který spoléhá na předem v
 Základní nastavení skenerů jsou:
 
 * **Speed** je rychlost skenerů, tedy jak rychle se laser pohybuje při kreslení tvarů. Odpovídá to úpravě point rate v tradičním laserovém softwaru, ale v Liberation můžete měnit rychlost pohybu laseru _nezávisle na point rate._ Toto nastavení byste neměli potřebovat měnit.
-* **Scanner sync** (někdy označované jako _blank shift, dříve Colour Shift_) Skener pohybuje laserem opravdu rychle, ale změna jasu a barvy obvykle není synchronizovaná s pohybem. Projevuje se to jako malé blikající „ocásky“ světla na okrajích paprsků a čar. Tímto nastavením sladíte pohyb a barvu. Viz [Laser Settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (někdy označované jako _blank shift, dříve Colour Shift_) Skener pohybuje laserem opravdu rychle, ale změna jasu a barvy obvykle není synchronizovaná s pohybem. Projevuje se to jako malé blikající „ocásky“ světla na okrajích paprsků a čar. Tímto nastavením sladíte pohyb a barvu. Viz [Panel nastavení laserového výstupu](../setting-up/laser-settings.md "mention")
 
 Další pokročilá nastavení skenerů jsou popsána v kapitole [Pokročilé](../advanced/ "mention").
 
 ### Zoning
 
-Úplného průvodce nastavením laserů a zoning najdete zde: [Nastavení laserů](../setting-up/setting-up-lasers.md "mention")
+Úplného průvodce nastavením laserů a nastavením zones najdete zde: [Přehled postupu nastavení laserů](../setting-up/setting-up-lasers.md "mention")

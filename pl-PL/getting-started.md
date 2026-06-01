@@ -56,7 +56,7 @@ Nie wiesz, do czego służy dany przycisk? Najedź na niego kursorem myszy, aby 
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-W menu znajdziesz wszystkie opcje importu i eksportu plików oraz możliwość otwierania paneli. Tutaj znajduje się też opcja autoryzacji komputera w ramach subskrypcji (_Liberation -> Authorise/Deauthorise this computer_).
+W menu znajdziesz wszystkie opcje importu i eksportu plików oraz możliwość otwierania paneli. Tutaj znajduje się też opcja autoryzacji komputera w ramach licencji (_Liberation -> Authorise/Deauthorise this computer_).
 
 #### Pasek ikon
 
@@ -146,7 +146,7 @@ Clip deck możesz przewijać w lewo i w prawo za pomocą:
 * pokrętła przewijania APC40
 * przycisków APC40 _<- DEVICE ->_
 
-Aby ułatwić orientację, u góry znajduje się miniwizualizator clip deck. Zobacz też [Clipy i Clip Deck](clips/ "mention")
+Aby ułatwić orientację, u góry znajduje się miniwizualizator Clip Deck. Zobacz też [Clips i Clip Deck](clips/ "mention")
 
 #### Uruchamianie i zatrzymywanie klipów
 
@@ -190,7 +190,7 @@ Zmiana ustawień stref dla wszystkich klipów w grupie
 
 Na APC40 naciśnij przycisk grupy, a następnie _trzymając go wciśnięty_, użyj przycisków stref oraz X/Y, aby przełączać ustawienia stref dla wszystkich klipów w tej grupie.
 
-Zobacz też [Grupy klipów](clips/groups.md "mention")
+Zobacz też [Grupy Clip](clips/groups.md "mention")
 
 ### Efekty
 

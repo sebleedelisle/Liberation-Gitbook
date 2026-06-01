@@ -23,7 +23,7 @@ A Liberationben tetszőleges számú lézert állíthatsz be és jeleníthetsz m
 Az alapértelmezett beállítás 8, vízszintesen elrendezett lézert tartalmaz, de ezt tetszés szerint módosíthatod. Amíg ismerkedsz a szoftverrel, valószínűleg érdemes megtartani ezt az alapbeállítást, később pedig hozzáigazíthatod a saját hardveres összeállításodhoz. (Lásd: [A projekt beállítása](setting-up/setting-up-your-project.md "mention"))
 
 {% hint style="warning" %}
-Fontos: Mielőtt bármilyen lézert élesítenél, győződj meg róla, hogy érted a kapcsolódó kockázatokat, és alaposan olvasd végig a [A lézerbeállítási folyamat áttekintése](setting-up/setting-up-lasers.md "mention") fejezetet.
+Fontos: Mielőtt bármilyen lézert élesítenél, győződj meg róla, hogy érted a kapcsolódó kockázatokat, és alaposan olvasd végig [A lézerbeállítási folyamat áttekintése](setting-up/setting-up-lasers.md "mention") fejezetet.
 {% endhint %}
 
 ## A szoftver áttekintése
@@ -56,7 +56,7 @@ Nem vagy biztos benne, mire való egy adott gomb? Vidd fölé az egeret, és meg
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-A menüben találod a fájlimportálási és -exportálási lehetőségeket, valamint innen nyithatod meg a paneleket. Itt találod azt az opciót is, amellyel a számítógépet a feliratkozásodhoz engedélyezheted (_Liberation -> Authorise/Deauthorise this computer_).
+A menüben találod a fájlimportálási és -exportálási lehetőségeket, valamint innen nyithatod meg a paneleket. Itt találod azt az opciót is, amellyel a számítógépet a licencedhez engedélyezheted (_Liberation -> Authorise/Deauthorise this computer_).
 
 #### Ikonsáv
 
@@ -168,7 +168,7 @@ Két sorral a zónagombok alatt találod az X/Y tükröző gombokat; ezekkel ví
 Fontos, hogy ezek a zónahozzárendelések és X/Y tükrözési beállítások magához a cliphez tartoznak; a következő futtatáskor is megmaradnak. Nem globális beállítások.
 {% endhint %}
 
-Jobb kattintással további beállításokat szerkeszthetsz a cliphez. Lásd még: [Clip beállításai](clips/clip-settings.md "mention")
+Jobb kattintással további beállításokat szerkeszthetsz a Cliphez. Lásd még: [Clip beállításai](clips/clip-settings.md "mention")
 
 ### Csoportok
 
@@ -306,7 +306,7 @@ Itt választhatod ki, mely lézerkimenetek mely lézervezérlőkre menjenek. Hú
 További részletekért olvasd el a [Vezérlő-hozzárendelés](setting-up/controller-assignment.md "mention") fejezetet.
 
 {% hint style="danger" %}
-Mielőtt bármilyen lézert élesítenél, mindenképpen menj végig a [A lézerbeállítási folyamat áttekintése](setting-up/setting-up-lasers.md "mention") fejezeten.
+Mielőtt bármilyen lézert élesítenél, mindenképpen menj végig [A lézerbeállítási folyamat áttekintése](setting-up/setting-up-lasers.md "mention") fejezeten.
 {% endhint %}
 
 ### Laser Output panel
@@ -339,7 +339,7 @@ Az alapvető scanner beállítások:
 * **Speed** a scanner sebessége, vagyis hogy milyen gyorsan mozog a lézer az alakzatok kirajzolásához. Ez a hagyományos lézerszoftverekben a pontsebesség állításának felel meg, de a Liberationben a lézer mozgási sebességét _a pontsebességtől függetlenül_ módosíthatod. Ezt általában nem szükséges állítanod.
 * **Scanner sync** (néha _blank shift_, korábban Colour Shift néven ismert) A scannerek nagyon gyorsan mozgatják a lézert, de a fényerő- és színváltozás általában nincs szinkronban a mozgással. Ez kis villódzó fény-„farokként” jelenik meg a nyalábok és vonalak szélén. Ezzel a beállítással hozhatod szinkronba a mozgást és a színt. Lásd: [Laser output beállítási panel](setting-up/laser-settings.md "mention")
 
-A többi haladó scanner beállítást az [Haladó](advanced/ "mention") fejezet ismerteti.
+A többi haladó scanner beállítást a [Haladó](advanced/ "mention") fejezet ismerteti.
 
 ### Zónázás
 

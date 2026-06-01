@@ -13,12 +13,12 @@ metaLinks:
 
 1.  **變更專案中的雷射數量：**
 
-    在 _Laser Overview_ 面板中，按一下右側的紅色按鈕即可刪除一台雷射。使用底部的 _ADD LASER_ 按鈕新增雷射。另請參閱[新增與移除雷射](adding-removing-lasers.md "mention")
+在 _Laser Overview_ 面板中，按一下右側的紅色按鈕即可刪除一台雷射。使用底部的 _ADD LASER_ 按鈕新增雷射。另請參閱[新增與移除雷射](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **更新 3D 視覺化檢視：**
 
-    使用 _3D Visualiser Settings_ 面板調整每台雷射的位置與方向。請參閱 [3D 視覺化工具](3d-visualiser.md "mention")。
+使用 _3D Visualiser Settings_ 面板調整每台雷射的位置與方向。請參閱 [3D 視覺化工具](3d-visualiser.md "mention")。
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **調整 zones：**\
@@ -31,9 +31,9 @@ metaLinks:
     \\
 
     <figure><img src="../.gitbook/assets/Y.png" alt=""><figcaption></figcaption></figure>
-5.  **連接到你的 controllers：** 準備好接上雷射並開始使用時，請開啟 _Controller Assignment_ 面板。請參閱 [Controller 指派](controller-assignment.md "mention")。
+5.  **連接到你的 controller：** 準備好接上雷射並開始使用時，請開啟 _Controller Assignment_ 面板。請參閱 [Controller 指派](controller-assignment.md "mention")。
 
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **啟用雷射並設定 zone：** 請仔細依照[設定雷射](setting-up-lasers.md "mention")的說明操作
+6. **啟用雷射並設定 zone：** 請仔細依照[雷射設定流程概觀](setting-up-lasers.md "mention")操作

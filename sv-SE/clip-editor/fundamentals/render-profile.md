@@ -28,5 +28,5 @@ _**FAST** -_ om ditt clip innehåller mycket material och en del av det bara är
 _**DETAIL**_ - använd det här alternativet om du ritar något som behöver skarpa hörn. Tänk dock på att skannrarna rör sig långsammare, vilket gör att utsignalen kan flimra.
 
 {% hint style="info" %}
-I clip-editorn kan du tilldela _Creator_-noder till olika render profiles, men varje laser bearbetar dessa profiler beroende på sina skannerinställningar. Se [◼️ Skannerförinställningar och renderprofiler](../../advanced/scanner-presets.md "mention")
+I Clip Editor kan du tilldela Creators till olika render profiles, men varje laser bearbetar dessa profiler beroende på sina skannerinställningar. Se [◼️ Skannerförinställningar och renderprofiler](../../advanced/scanner-presets.md "mention")
 {% endhint %}

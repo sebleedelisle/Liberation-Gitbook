@@ -49,7 +49,7 @@ Ces modes déterminent quels aspects des ajustements de couleur sont appliqués 
 
 **Éditeur de dégradé**
 
-Utilise le même éditeur de dégradé que [Colour Changer](colour-changer.md "mention"), mais applique le dégradé au contenu en fonction de la position.
+Utilise le même éditeur de dégradé que [Changement de couleur](colour-changer.md "mention"), mais applique le dégradé au contenu en fonction de la position.
 
 * Cliquez sur la barre de dégradé pour ajouter un arrêt de couleur.
 * Faites un clic gauche sur un arrêt pour le sélectionner, puis faites-le glisser horizontalement pour le déplacer.

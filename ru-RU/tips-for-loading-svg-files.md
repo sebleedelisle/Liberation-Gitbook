@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Советы по загрузке графических / SVG-файлов
 
-Информацию об импорте векторных фигур, логотипов и т. п. см. в Shape Creator Node: [Creator nodes](clip-editor/creator-nodes.md)
+Информацию об импорте векторных фигур, логотипов и т. п. см. в Shape Creator Node: [Creator nodes](clip-editor/creator-nodes.md "mention")

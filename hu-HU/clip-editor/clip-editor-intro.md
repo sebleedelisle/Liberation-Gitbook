@@ -37,7 +37,7 @@ Ha nem látsz kimenetet a 3D visualiser nézetben, lehet, hogy a zone gombokkal 
 
 ### Clip készítése
 
-Általában egy vagy több [creator node](creator-nodes.md) elemmel kezdesz, majd balról jobbra [Operátor csomópontok](operator-nodes/) elemeket kapcsolsz hozzájuk, amelyek feldolgozzák a tartalmat. Amikor a creatorokat és/vagy operatorokat egymáshoz közel mozgatod, észreveszed, hogy automatikusan összekapcsolódnak. Ha ismét szét szeretnéd választani őket, húzd őket távolabb egymástól.
+Általában egy vagy több [creator node](creator-nodes.md) elemmel kezdesz, majd balról jobbra [Operator node](operator-nodes/) elemeket kapcsolsz hozzájuk, amelyek feldolgozzák a tartalmat. Amikor a Creators és/vagy Operator node elemeket egymáshoz közel mozgatod, észreveszed, hogy automatikusan összekapcsolódnak. Ha ismét szét szeretnéd választani őket, húzd őket távolabb egymástól.
 
 ### Node-ok hozzáadása a cliphez
 

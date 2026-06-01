@@ -28,4 +28,4 @@ metaLinks:
 
 ### تعيين zones إلى عدة Clips دفعة واحدة
 
-يمكنك تعيين zones وضبط X/Y لجميع Clips ضمن zone واحدة. راجع [المجموعات](groups.md) لمزيد من المعلومات.
+يمكنك تعيين zones وضبط X/Y لجميع Clips ضمن zone واحدة. راجع [مجموعات Clip](groups.md "mention") لمزيد من المعلومات.

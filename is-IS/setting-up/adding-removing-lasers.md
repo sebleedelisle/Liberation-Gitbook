@@ -15,12 +15,12 @@ eða _+_ hnappinn í _Output_ view.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Þegar þú bætir við nýjum leysi er beam zone sjálfkrafa bætt við hann. Athugaðu að leysar og zones raðast í þeirri röð sem þú bætir þeim við. Sjá [Endurraða beam zones](../output-view/re-ordering-beam-zones.md).
+Þegar þú bætir við nýjum leysi er beam zone sjálfkrafa bætt við hann. Athugaðu að leysar og zones raðast í þeirri röð sem þú bætir þeim við. Sjá [Endurraða beam zones](../output-view/re-ordering-beam-zones.md "mention").
 
 Fjarlægðu leysi með því að smella á rauða „-“ hnappinn í _Laser overview_ panel. Athugaðu að þú tapar öllum stillingum fyrir leysinn!
 
 {% hint style="info" %}
-Ef þú vilt afrita zones eða aðrar stillingar úr öðrum leysum skaltu nota [Afrita stillingar leysis](copy-laser-settings.md)
+Ef þú vilt afrita zones eða aðrar stillingar úr öðrum leysum skaltu nota [Afrita stillingar á milli leysa](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

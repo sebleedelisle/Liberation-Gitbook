@@ -37,7 +37,7 @@ Om du inte ser någon output i 3D Visualiser kan du behöva använda zone-knappa
 
 ### Bygga en Clip
 
-Du börjar vanligtvis med en eller flera [Creator-noder](creator-nodes.md) och ansluter [Operatornoder](operator-nodes/) från vänster till höger som bearbetar innehållet. När du flyttar creators och/eller operators tillsammans märker du att de automatiskt ansluts till varandra. Du kan dra isär dem för att koppla från dem igen.
+Du börjar vanligtvis med en eller flera [Creator-noder](creator-nodes.md) och ansluter [Operatornoder](operator-nodes/) från vänster till höger som bearbetar innehållet. När du flyttar Creators och/eller Operator nodes mot varandra märker du att de automatiskt ansluts till varandra. Du kan dra isär dem för att koppla från dem igen.
 
 ### Lägga till noder i din Clip
 

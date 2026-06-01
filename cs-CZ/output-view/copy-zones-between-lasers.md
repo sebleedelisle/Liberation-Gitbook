@@ -21,4 +21,4 @@ Vyberte možnost _Copy output zone settings_ a potom kliknutím na tlačítko _C
 Tento proces nepřidává ani neodebírá zones z laserů. Pouze zkopíruje polohu a typ zone pro každou zone, která v cílových laserech existuje.
 {% endhint %}
 
-Úplný popis dalších funkcí tohoto systému najdete také v části [Kopírování nastavení laseru](../setting-up/copy-laser-settings.md).
+Úplný popis dalších funkcí tohoto systému najdete také v části [Kopírování nastavení mezi lasery](../setting-up/copy-laser-settings.md "mention").

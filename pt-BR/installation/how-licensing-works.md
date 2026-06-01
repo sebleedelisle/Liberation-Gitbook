@@ -13,7 +13,7 @@ Depois de instalar o Liberation no seu computador, ele será executado em _modo 
 Não há restrições no _modo gratuito_, exceto enviar saída para hardware de laser. Você pode praticar shows, criar timelines e salvar e carregar seus arquivos sem limitações. Você pode instalar o Liberation em _modo gratuito_ em quantos computadores quiser, e só precisa autorizar a instalação quando estiver pronto para usar lasers!
 {% endhint %}
 
-Além do número de lasers que podem ficar em estado armed, você também pode usar equipamentos DMX. Consulte [Controle de DMX](../dmx-control/ "mention").
+Além do número de lasers que você pode armar, você também pode usar equipamentos DMX. Consulte [DMX / Art-Net](../dmx-control/ "mention").
 
 Também há um limite para o número de computadores em que você pode autorizar o Liberation, dependendo do seu nível de licença.
 
@@ -27,6 +27,8 @@ Cada licença é para apenas um usuário e um show por vez. Você pode ter mais 
 
 O licenciamento e a autorização do Liberation funcionam pela internet; o app se conecta ao nosso servidor para associar uma instalação à sua licença paga.
 
-Depois que a sua instalação estiver autorizada, ela não precisará ficar online novamente até a sua licença paga chegar à próxima data de pagamento ou data de validade paga. Você pode ver essa data no _About panel_. Há um curto período de tolerância (7 dias para licenças pagas mensais), mas recomendamos ficar online assim que possível após essa data para garantir que a sua autorização continue ativa.
+Depois que você estiver autorizado, não precisará ficar online novamente até a sua licença recorrente chegar à próxima data de pagamento (mostrada no _About panel_). Licenças recorrentes mensais geralmente incluem um curto período de tolerância (7 dias), mas você deve ficar online assim que possível após a data de pagamento para manter os recursos pagos disponíveis sem interrupção.
+
+O período de tolerância é destinado a problemas de renovação e pagamento. Ele não estende licenças que foram canceladas, ou pausadas deliberadamente, após o fim do período pago. Se um pagamento falhar, atualize os dados do seu cartão dentro do período de tolerância para manter os recursos pagos disponíveis.
 
 O nível da licença atual também é exibido na barra superior. Clique no nome do nível, ou em _FREE MODE_ quando não houver licença, para abrir o About panel.

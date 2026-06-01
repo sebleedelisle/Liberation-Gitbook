@@ -9,7 +9,7 @@ metaLinks:
 
 ### Déplacer/dupliquer des clips
 
-Cliquez et faites glisser pour déplacer un clip. Si plusieurs clips sont sélectionnés (voir [démarrer/arrêter des clips](starting-stopping-clips.md "mention")), ils seront tous déplacés. Maintenez `Alt / Option` enfoncé pour les dupliquer. Déposez le ou les clips sur un espace vide.
+Cliquez et faites glisser pour déplacer un Clip. Si plusieurs Clips sont sélectionnés (voir [Démarrer / arrêter des Clips](starting-stopping-clips.md "mention")), ils seront tous déplacés. Maintenez `Alt / Option` enfoncé pour les dupliquer. Déposez le ou les Clips sur un espace vide.
 
 {% hint style="info" %}
 Si vous devez sélectionner un grand nombre de Clips, vous pouvez cliquer et faire glisser un lasso, puis faire défiler le Clip Deck tout en continuant à faire glisser (avec les touches fléchées, l’APC40 ou le défilement horizontal du pavé tactile/de la souris). Le lasso s’étendra au-delà du bord du Clip Deck.

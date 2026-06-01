@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Grafik / SVG dosyalarını yükleme ipuçları
 
-Vektör şekiller, logolar vb. içe aktarma hakkında bilgi için Shape Creator Node bölümüne bakın: [Creator Nodes](clip-editor/creator-nodes.md)
+Vektör şekiller, logolar vb. içe aktarma hakkında bilgi için Shape Creator node bölümüne bakın: [Creator nodes](clip-editor/creator-nodes.md "mention")

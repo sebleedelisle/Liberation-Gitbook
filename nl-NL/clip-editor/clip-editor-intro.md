@@ -37,7 +37,7 @@ Als je geen output ziet in de 3D visualiser, moet je mogelijk de zone-knoppen ge
 
 ### Een clip opbouwen
 
-Meestal begin je met een of meer [creator nodes](creator-nodes.md) en verbind je van links naar rechts [Operator-nodes](operator-nodes/) die de content verwerken. Wanneer je creators en/of operators naar elkaar toe verplaatst, zul je merken dat ze automatisch met elkaar verbinden. Je kunt ze weer uit elkaar slepen om de verbinding te verbreken.
+Meestal begin je met een of meer [creator nodes](creator-nodes.md) en verbind je van links naar rechts [Operator nodes](operator-nodes/) die de content verwerken. Wanneer je creators en/of operators naar elkaar toe verplaatst, zul je merken dat ze automatisch met elkaar verbinden. Je kunt ze weer uit elkaar slepen om de verbinding te verbreken.
 
 ### Nodes toevoegen aan je clip
 

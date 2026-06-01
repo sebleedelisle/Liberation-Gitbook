@@ -50,7 +50,7 @@ Mặc dù các cài đặt mặc định khá thận trọng, bạn vẫn có th
 {% endhint %}
 
 {% hint style="info" %}
-Cài đặt tốc độ này không thay đổi point rate; thay vào đó, nó điều chỉnh mức độ giãn cách giữa các điểm. Để biết thêm thông tin, xem [cách Liberation tạo nội dung laser](../../advanced/how-liberation-generates-laser-content.md "mention")
+Cài đặt tốc độ này không thay đổi point rate; thay vào đó, nó điều chỉnh mức độ giãn cách giữa các điểm. Để biết thêm thông tin, xem [◼️ Cách Liberation tạo nội dung laser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Đồng bộ scanner (lệch màu / lệch blanking)**
@@ -67,12 +67,12 @@ Nếu bạn thấy các “đuôi” nhỏ trên đầu ra laser, nhiều khả 
 
 #### Preset scanner
 
-Dùng mục này để chọn một cài đặt scanner được thiết kế sẵn. Tùy chọn mặc định thường là phù hợp, nên bạn không cần thay đổi cài đặt này trừ khi scanner của bạn đặc biệt kém (hoặc đặc biệt tốt). Nếu muốn tìm hiểu sâu hơn, xem [preset scanner](../../advanced/scanner-presets.md "mention")
+Dùng mục này để chọn một cài đặt scanner được thiết kế sẵn. Tùy chọn mặc định thường là phù hợp, nên bạn không cần thay đổi cài đặt này trừ khi scanner của bạn đặc biệt kém (hoặc đặc biệt tốt). Nếu muốn tìm hiểu sâu hơn, xem [◼️ Preset scanner & profile render](../../advanced/scanner-presets.md "mention")
 
 #### Hiệu chuẩn màu
 
-Bạn có thể dùng hệ thống này để hiệu chỉnh đường cong độ sáng và cân bằng trắng của laser. Xem [hiệu chuẩn màu](../../advanced/colour-calibration.md "mention")
+Bạn có thể dùng hệ thống này để hiệu chỉnh đường cong độ sáng và cân bằng trắng của laser. Xem [Hiệu chuẩn màu](../../advanced/colour-calibration.md "mention")
 
 #### Cài đặt nâng cao
 
-Bạn không cần phải chỉnh các mục này, nhưng nếu tò mò, hãy xem [cài đặt laser nâng cao](../../advanced/advanced-laser-settings.md "mention")
+Bạn không cần phải chỉnh các mục này, nhưng nếu tò mò, hãy xem [◼️ Cài đặt laser nâng cao](../../advanced/advanced-laser-settings.md "mention")

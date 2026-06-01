@@ -67,7 +67,7 @@ Puedes añadir clips desde un archivo de Clip Deck exportado a tu proyecto actua
 Los clips seleccionados actualmente se exportarán a un archivo. Los ajustes de grupo y los efectos no se guardarán; solo los clips. Ten en cuenta que los clips activos que se estén ejecutando no se exportan salvo que también estén seleccionados.
 
 {% hint style="info" %}
-Opción/Alt - Mayús - clic en los clips para seleccionarlos (o usa el lazo). Puedes identificar qué clips están seleccionados por el contorno blanco grueso que los rodea. Consulta [Iniciar / detener clips](clips/starting-stopping-clips.md "mention")
+Opción/Alt - Mayús - clic en los Clips para seleccionarlos (o usa el lazo). Puedes identificar qué Clips están seleccionados por el contorno blanco grueso que los rodea. Consulta [Iniciar / detener Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Importación/exportación de efectos

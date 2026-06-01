@@ -25,4 +25,4 @@ Fai clic su _Download for Mac_ (i numeri di versione cambieranno nel tempo) e il
 
 Trascina l’icona di Liberation a sinistra nella cartella Applications a destra (potrebbe essere necessaria una password di amministratore). Ora puoi trovare Liberation nella cartella Applications: fai doppio clic per aprirlo.
 
-Liberation dovrebbe avviarsi correttamente. Per inviare l’output ai laser, ora devi completare la [procedura di autorizzazione.](authorising-and-de-authorising.md)
+Liberation dovrebbe avviarsi correttamente. Per inviare l’output ai laser, devi completare [Autorizzazione e rimozione dell’autorizzazione](authorising-and-de-authorising.md).

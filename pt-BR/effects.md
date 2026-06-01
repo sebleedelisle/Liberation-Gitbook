@@ -32,7 +32,7 @@ Eu diria que é uma das ferramentas mais divertidas e criativas integradas ao Li
 
 #### Parâmetros de efeito
 
-Adicione um parâmetro ao seu efeito com um nó _Parameter_. O sistema Parameter é uma forma de ajustar, de fora, várias configurações dentro do seu efeito. Consulte [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") para mais informações.
+Adicione um parâmetro ao seu efeito com um nó _Parameter_. O sistema Parameter é uma forma de ajustar, de fora, várias configurações dentro do seu efeito. Consulte [Controle de parâmetros](clip-editor/oscillators/parameter-control.md "mention") para mais informações.
 
 Use os controles rotativos 1-8 para ajustar o _parameter_ de cada efeito. Ou clique com o botão direito no botão do efeito e ajuste o(s) slider(s) de parâmetro. A alteração do parâmetro faz coisas diferentes, dependendo de como o efeito foi configurado. Veja a lista abaixo com os efeitos padrão e o que os parâmetros deles fazem.
 

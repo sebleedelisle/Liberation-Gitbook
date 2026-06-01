@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 DMX-zónák létrehozása
 
-1. Csatlakoztasd az Art-Net node eszközt, és állítsd be a [Csatlakozás Art-Net node-hoz](../connecting-to-an-artnet-node.md "mention") leírás szerint.
+1. Csatlakoztasd az Art-Net node eszközt, és állítsd be a [◼️ Csatlakozás Art-Net node-hoz](../connecting-to-an-artnet-node.md "mention") leírás szerint.
 2. Nyisd meg a **DMX Zones** részt, majd kattints az **ADD DMX ZONE** gombra.
 3. Állítsd be a zone **Node**, **Universe** és **Address** értékét úgy, hogy megfeleljen a lámpának.
 4. Válassz egy **Preset** beállítást a lámpához. A preset határozza meg, hogy mely DMX-csatornák kapnak fix értékeket, tartalom be/ki értékeket, RGB-színt, X/Y pozíciót, fényerőt vagy explicit DMX Value bemeneteket.

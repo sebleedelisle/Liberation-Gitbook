@@ -75,4 +75,4 @@ Vous pouvez utiliser ce système pour corriger la courbe de luminosité et la ba
 
 #### Paramètres avancés
 
-Vous ne devriez pas avoir besoin de modifier ces réglages, mais si vous êtes curieux, consultez [◼️ Paramètres laser avancés](../../advanced/advanced-laser-settings.md "mention")
+Vous ne devriez pas avoir besoin de modifier ces réglages, mais si vous êtes curieux, consultez [◼️ Réglages laser avancés](../../advanced/advanced-laser-settings.md "mention")

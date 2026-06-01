@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ Controller Assignment
 
-Sau khi đã thiết lập các laser trong Liberation, bạn có thể gán từng laser với một bộ điều khiển laser ngoài thực tế. (Xem [các laser và bộ điều khiển/DAC tương thích](../hardware/compatible-lasers-and-controllers-dacs.md "mention") để kiểm tra phần cứng có thể sử dụng). Các bộ điều khiển sẽ được kết nối qua USB hoặc qua mạng.
+Sau khi đã thiết lập các laser trong Liberation, bạn có thể gán từng laser với một bộ điều khiển laser ngoài thực tế. (Xem [Laser và bộ điều khiển tương thích (DAC)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") để kiểm tra phần cứng có thể sử dụng). Các bộ điều khiển sẽ được kết nối qua USB hoặc qua mạng.
 
 * Mở panel _Controller Assignment_ bằng tùy chọn menu _View -> Controller Assignment_. (Hoặc bạn cũng có thể dùng nút _ASSIGN LASER CONTROLLERS_ trong panel _Laser Overview_.)
 

@@ -9,7 +9,7 @@ metaLinks:
 
 ### 哪些雷射可與 Liberation 相容？
 
-如果你的雷射有標準 ILDA 輸入，就可以搭配 Liberation 使用（同時需要相容的雷射控制器，例如 Ether Dream 或 Helios DAC — [請參閱下方完整清單](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)）。
+如果你的雷射有標準 ILDA 輸入，就可以搭配 Liberation 使用（同時需要相容的雷射控制器，例如 Ether Dream 或 Helios DAC — 請參閱下方的[相容雷射控制器](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)）。
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC — 居家使用最便宜的選項</p></figcaption></figure>
 

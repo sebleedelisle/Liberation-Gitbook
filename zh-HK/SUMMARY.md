@@ -8,7 +8,7 @@
   * [✅ 授權運作方式](installation/how-licensing-works.md)
   * [✅ 授權及取消授權](installation/authorising-and-de-authorising.md)
   * [✅ 升級／降級你的授權](installation/upgrade-downgrade-your-license.md)
-* [✅ 取消你的授權](installation/cancel-your-subscription.md)
+* [✅ 暫停或取消付款](installation/cancel-your-subscription.md)
   * [🟩 升級至新版本時轉移你的內容](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
 * [✅ 常見問題](faq.md)
 * [✅ 快速入門指南](getting-started.md)

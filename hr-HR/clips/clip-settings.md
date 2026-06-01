@@ -14,7 +14,7 @@ Promijenite veličinu izlaza za Clip pomoću _Scale X_ i _Scale Y_. Te su vrijed
 
 Promijenite vodoravni i okomiti položaj za Clip pomoću _Shift X_ i _Shift Y_.
 
-_Zone Delay/Chase_ toliko je zabavna značajka da ima vlastiti odjeljak. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ toliko je zabavna značajka da ima vlastiti odjeljak. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Panel Parameters
 

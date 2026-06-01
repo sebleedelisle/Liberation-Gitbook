@@ -14,7 +14,7 @@ Du kan også eksportere oppsettet ditt for sikkerhetskopi eller for å overføre
 
 Prosjektfilen lagrer nesten alt i det gjeldende oppsettet, inkludert:
 
-* Alt som er beskrevet i [Laste inn og lagre](loading-and-saving.md#laser-settings-import-export "mention") nedenfor
+* Alt som er beskrevet i [Import/eksport av Laser Settings](loading-and-saving.md#laser-settings-import-export "mention") nedenfor
 * Klipp, effekter og gruppeinnstillinger
 * Alle tidslinjene dine (ikke inkludert lyd- og videomedier)
 * Art-Net-oppsett
@@ -67,7 +67,7 @@ Du kan legge til klipp fra en eksportert Clip Deck-fil i det gjeldende prosjekte
 Alle klipp som er valgt, eksporteres til en fil. Gruppeinnstillinger og effekter lagres ikke, bare klippene. Merk at aktive klipp som kjører, ikke eksporteres med mindre de også er valgt.
 
 {% hint style="info" %}
-Option/Alt - shift - klikk på klipp for å velge dem (eller bruk lassoen). Du ser hvilke klipp som er valgt, på den tykke hvite omrisset rundt dem. Se [Starte / stoppe clips](clips/starting-stopping-clips.md "mention")
+Option/Alt - shift - klikk på Clips for å velge dem (eller bruk lassoen). Du ser hvilke Clips som er valgt, på den tykke hvite omrisset rundt dem. Se [Starte / stoppe Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Import/eksport av effekter
@@ -82,7 +82,7 @@ For å importere bare effektene fra et prosjekt velger du _**Effects->Import Eff
 
 ### Eksport av tidslinje
 
-Eksporter en tidslinjefil med én eller flere tidslinjer. Merk at Clip Deck alltid inkluderes i eksporterte tidslinjefiler (selv om du kan velge hvilke Clips du vil importere tilbake, se [Laste inn og lagre](loading-and-saving.md#timeline-import "mention") nedenfor)
+Eksporter en tidslinjefil med én eller flere tidslinjer. Merk at Clip Deck alltid inkluderes i eksporterte tidslinjefiler (selv om du kan velge hvilke Clips du vil importere tilbake, se [Import av tidslinje](loading-and-saving.md#timeline-import "mention") nedenfor)
 
 Hvis du har mer enn én tidslinje i prosjektfilen, åpnes et panel der du kan velge hvilke tidslinjer du vil eksportere.
 

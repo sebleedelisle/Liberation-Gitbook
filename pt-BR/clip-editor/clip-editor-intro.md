@@ -37,7 +37,7 @@ Se você não vir nenhuma saída no 3D visualiser, talvez seja necessário usar 
 
 ### Criando um clip
 
-Normalmente, você começa com um ou mais [nós Creator](creator-nodes.md) e conecta [Nós de operador](operator-nodes/) da esquerda para a direita para processar o conteúdo. Ao mover Creators e/ou Operators próximos uns dos outros, você perceberá que eles se conectam automaticamente. E você pode arrastá-los para longe para desconectá-los novamente.
+Normalmente, você começa com um ou mais [nodes Creator](creator-nodes.md) e conecta [nodes Operator](operator-nodes/) da esquerda para a direita para processar o conteúdo. Ao mover Creators e/ou Operators para perto uns dos outros, você perceberá que eles se conectam automaticamente. E você pode arrastá-los para longe para desconectá-los novamente.
 
 ### Adicionando nós ao seu clip
 

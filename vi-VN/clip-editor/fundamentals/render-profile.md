@@ -16,7 +16,7 @@ Khác với hầu hết phần mềm laser, Liberation tạo luồng điểm the
 
 Điều này cũng có nghĩa là bạn có thể tinh chỉnh cùng một nội dung cho các loại scanner khác nhau trên từng laser, mà không cần thay đổi chính các Clip.
 
-Để biết thêm chi tiết, xem [Cách Liberation tạo nội dung laser](../../advanced/how-liberation-generates-laser-content.md)
+Để biết thêm chi tiết, xem [◼️ Cách Liberation tạo nội dung laser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 Có ba _Render Profiles_ cài sẵn: _DEFAULT_, _FAST_ và _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ nếu Clip của bạn có nhiều nội dung và một số phần
 _**DETAIL**_ - nếu bạn đang vẽ nội dung cần các góc sắc nét, hãy dùng tùy chọn này. Tuy nhiên, lưu ý rằng scanner sẽ di chuyển chậm hơn, khiến Output dễ bị nhấp nháy hơn.
 
 {% hint style="info" %}
-Trong Clip Editor, bạn có thể gán Creator vào các Render Profile khác nhau, nhưng mỗi laser sẽ xử lý các profile này tùy theo thiết lập scanner của nó. Xem [Các preset scanner](../../advanced/scanner-presets.md)
+Trong Clip Editor, bạn có thể gán Creator vào các render profile khác nhau, nhưng mỗi laser sẽ xử lý các profile này tùy theo thiết lập scanner của nó. Xem [◼️ Preset scanner & render profile](../../advanced/scanner-presets.md "mention")
 {% endhint %}

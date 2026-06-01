@@ -30,7 +30,7 @@ Liberation kann viele Laser auf einem Computer betreiben. Es wurde mit über 100
 
 #### **Welche MIDI-Controller kann ich verwenden?**
 
-Liberation wurde für den beliebten APC40 Mk2 MIDI-Controller entwickelt und optimiert. Es funktioniert auch mit dem APC40 Mk1. Siehe [Live-Steuerung mit dem APC40](midi-control/live-control-with-the-apc40.md "mention")
+Liberation wurde für den beliebten APC40 Mk2 MIDI-Controller entwickelt und optimiert. Es funktioniert auch mit dem APC40 Mk1. Siehe [Live-MIDI-Controller](midi-control/live-control-with-the-apc40.md "mention")
 
 Liberation unterstützt außerdem APC Mini und MIDI Fighter Twister. Der APC40 Mk2 ist weiterhin der vollständigste Referenz-Controller.
 
@@ -95,25 +95,29 @@ Du kannst jederzeit auf eine höhere Stufe upgraden. Für die verbleibende Zeit 
 
 Du kannst jederzeit downgraden, aber die Änderung wird erst am Ende deines aktuellen bezahlten Zeitraums wirksam. Siehe [Lizenz upgraden / downgraden](installation/upgrade-downgrade-your-license.md "mention")
 
+#### **Kann ich Zahlungen für meine Lizenz pausieren?**
+
+Ja. Die Lizenz kann zum nächsten Abonnementdatum pausiert und jederzeit wieder gestartet werden. Das ist praktisch, wenn du Liberation nur zeitweise nutzt und deine Kartendaten nicht erneut eingeben möchtest. Siehe [Zahlungen pausieren oder kündigen](installation/cancel-your-subscription.md "mention")
+
+#### **Wie kündige ich meine Lizenz dauerhaft?**
+
+Du kannst deine wiederkehrende Lizenz jederzeit kündigen. Sie wird dann am Ende des aktuellen bezahlten Zeitraums automatisch deaktiviert. Siehe [Zahlungen pausieren oder kündigen](installation/cancel-your-subscription.md "mention")
+
 #### **Wie autorisiere ich meinen Computer mit meiner Lizenz?**
 
 Sobald du eine Lizenz gekauft hast, kannst du den Computer direkt in der Liberation-Software autorisieren. Auf dem _About_-Bildschirm siehst du einen _Authorise_-Button, der dich auffordert, dich auf der Website anzumelden. Folge den Anweisungen auf dem Bildschirm, um die Autorisierung abzuschließen. Siehe [Autorisieren und Deautorisieren](installation/authorising-and-de-authorising.md "mention")
 
 #### **Wie oft muss ich meinen Computer mit dem Internet verbinden?**
 
-Jedes Mal, wenn eine bezahlte Lizenz nach einer Zahlung aktualisiert wird, musst du Liberation mit dem Internet verbinden, damit die interne Lizenz aktualisiert werden kann. Bei einer monatlich automatisch verlängerten Lizenz musst du jeden Monat eine Verbindung herstellen.
+Jedes Mal, wenn eine wiederkehrende bezahlte Lizenz erfolgreich verlängert wird, musst du Liberation mit dem Internet verbinden, damit die interne Lizenz aktualisiert werden kann. Bei einer monatlich automatisch verlängerten Lizenz musst du also jeden Monat eine Verbindung herstellen.
 
 #### **Was passiert, wenn ich meinen Computer nach der nächsten Zahlung nicht mit dem Internet verbinden kann?**
 
-Liberation gibt dir nach der Aktualisierung deiner bezahlten Lizenz eine Kulanzzeit von 7 Tagen, um eine Internetverbindung herzustellen und die interne Lizenz zu aktualisieren. Nach diesem Zeitraum wechselt Liberation zurück in den _Free_-Modus.
+Bei monatlich wiederkehrenden bezahlten Lizenzen gibt dir Liberation normalerweise nach der Verlängerung deiner bezahlten Lizenz eine Kulanzzeit von 7 Tagen, um eine Internetverbindung herzustellen und die interne Lizenz zu aktualisieren. Nach diesem Zeitraum wechselt Liberation zurück in den _Free_-Modus.
 
 #### **Was passiert, wenn meine Kreditkarte abläuft?**
 
-Du erhältst eine E-Mail-Benachrichtigung von unserem Zahlungsanbieter und musst deine Kartendaten aktualisieren. Melde dich auf der Website an und verwende _UPDATE CARD DETAILS_ auf der Lizenzseite oder _Update_ unter _Billing and payments_.
-
-#### **Wie deaktiviere ich die automatische Verlängerung meiner Lizenz?**
-
-Melde dich auf der Website an, öffne die Seite [_Your licences_](https://liberationlaser.com/account/my-products), wähle die Lizenz aus, die du verwalten möchtest, und klicke dann auf _CANCEL PAYMENTS_. Deine bezahlte Lizenz bleibt bis zum Ende des aktuellen bezahlten Zeitraums aktiv. Es werden keine weiteren Zahlungen abgebucht.
+Du erhältst eine E-Mail-Benachrichtigung von unserem Zahlungsanbieter und musst deine Kartendaten aktualisieren. Melde dich auf der Website an und verwende _UPDATE CARD DETAILS_ auf der Lizenzseite oder _Update_ unter _Billing and payments_. Du musst dies innerhalb der Kulanzzeit erledigen, damit du den Zugriff auf bezahlte Funktionen nicht verlierst.
 
 #### **Auf wie vielen Computern kann ich Liberation installieren?**
 
@@ -127,7 +131,7 @@ Du kannst Liberation auf beliebig vielen Computern installieren. Lizenzautorisie
 * Klicke auf dem _About_-Bildschirm auf den Button _Authorise this computer_.
 * Die Website wird geöffnet. Melde dich an und folge den Anweisungen auf dem Bildschirm, um die Autorisierung abzuschließen
 
-Du kannst auch einen Computer, auf den du keinen Zugriff mehr hast, aus der Ferne de-autorisieren (mit einigen Einschränkungen). Siehe [Autorisieren und Deautorisieren](installation/authorising-and-de-authorising.md "mention")
+Du kannst auch einen Computer, auf den du keinen Zugriff mehr hast, aus der Ferne deautorisieren (mit einigen Einschränkungen). Siehe [Autorisieren und Deautorisieren](installation/authorising-and-de-authorising.md "mention")
 
 #### **Kann ich Liberation auf einem Computer de-autorisieren, der verloren gegangen ist oder gestohlen wurde?**
 

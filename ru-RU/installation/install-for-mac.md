@@ -13,16 +13,16 @@ macOS версии 12 (Monterey) и выше. Рекомендуется Apple S
 
 ### Процесс установки
 
-После оформления активной подписки вы получите ссылку. Также можно нажать ссылку _Download_ на странице [_My subscriptions_](https://liberationlaser.com/account/my-products).
+Когда у вас будет активная платная лицензия, вы получите ссылку. Также можно нажать _Download_ на странице [_Ваши лицензии_](https://liberationlaser.com/account/my-products).
 
 Вы увидите эту страницу:
 
-<figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Нажмите _Download latest for Mac_ (номера версий со временем будут меняться), и установочный DMG-файл Liberation сохранится в папку Downloads. Найдите файл и дважды щёлкните по нему, чтобы открыть.
+Нажмите _Download for Mac_ (номера версий со временем будут меняться), и установочный DMG-файл Liberation сохранится в папку Downloads. Найдите файл и дважды щёлкните по нему, чтобы открыть.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 
 Перетащите значок Liberation слева в папку Applications справа (может потребоваться пароль администратора). Теперь Liberation можно найти в папке Applications; дважды щёлкните по нему, чтобы открыть.
 
-Liberation должен запуститься. Чтобы выводить изображение на лазеры, теперь нужно перейти к разделу [Авторизация и деавторизация](authorising-and-de-authorising.md).
+Liberation должен запуститься. Чтобы выводить изображение на лазеры, нужно выполнить действия из раздела [Авторизация и деавторизация](authorising-and-de-authorising.md).

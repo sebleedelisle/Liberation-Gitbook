@@ -14,7 +14,7 @@ metaLinks:
 
 使用 _Shift X_ 和 _Shift Y_ 调整 Clip 的水平和垂直位置。
 
-_Zone Delay/Chase_ 是非常有趣的功能，单独有一节说明。见 [Zone Delay/Chase](zone-delay-chase.md "mention")。
+_Zone Delay/Chase_ 是非常有趣的功能，单独有一节说明。见 [Zone delay / chase](zone-delay-chase.md "mention")。
 
 ### 参数面板
 

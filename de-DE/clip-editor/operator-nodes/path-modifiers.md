@@ -29,4 +29,4 @@ Dieser Node kürzt die sichtbare Länge von Linien und Formen, sodass du sie üb
 * **All Shapes** – kombiniert alle Eingabeformen und trimmt sie, als wären sie ein einzelner Pfad. Wenn deaktiviert, wird jede Form einzeln getrimmt.
 * **Add Dot at Start / Add Dot at End** – fügt an den Trimmpunkten einen Punkt in der gewählten Farbe hinzu. (Wenn kein Trim angewendet wird, werden keine Punkte hinzugefügt.)
 * **Colour** – die Farbe der Trimmpunkte. _Siehe auch_ [Farbeinstellungen und HSB](../fundamentals/colour-settings-and-hsb.md "mention")
-* **Render Profile** – wählt das Render Profile für die Punkte. _Siehe_ [Render profile](../fundamentals/render-profile.md "mention")
+* **Render Profile** – wählt das Render Profile für die Punkte aus. _Siehe_ [Render profile](../fundamentals/render-profile.md "mention")

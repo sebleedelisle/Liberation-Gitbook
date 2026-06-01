@@ -26,11 +26,11 @@ Liberation może obsługiwać wiele laserów na jednym komputerze. Program był 
 
 * procesora w komputerze
 * szybkości sieci
-* typu subskrypcji
+* poziomu licencji
 
 #### **Jakich kontrolerów MIDI mogę używać?**
 
-Liberation został zaprojektowany i zoptymalizowany pod kątem popularnego kontrolera MIDI APC40 Mk2. Działa także z APC40 Mk1. Zobacz [Sterowanie na żywo za pomocą APC40](midi-control/live-control-with-the-apc40.md "mention")
+Liberation został zaprojektowany i zoptymalizowany pod kątem popularnego kontrolera MIDI APC40 Mk2. Działa także z APC40 Mk1. Zobacz [Kontrolery MIDI do pracy na żywo](midi-control/live-control-with-the-apc40.md "mention")
 
 Liberation obsługuje również APC Mini i MIDI Fighter Twister. APC40 Mk2 nadal jest najbardziej kompletnym kontrolerem referencyjnym.
 
@@ -89,11 +89,19 @@ Pamiętaj, że na **każdym** poziomie, nawet darmowym, możesz konfigurować, p
 
 #### **Czy mogę przejść na wyższy poziom licencji?**
 
-Możesz przejść na wyższy poziom w dowolnym momencie. Otrzymasz częściowy zwrot za pozostały czas obecnej licencji, a nowy plan zacznie działać od razu. Zobacz [Podwyższanie lub obniżanie poziomu licencji](installation/upgrade-downgrade-your-license.md "mention")
+Możesz przejść na wyższy poziom w dowolnym momencie. Otrzymasz częściowy zwrot za pozostały czas w bieżącym opłaconym okresie, a nowy poziom licencji zacznie działać od razu. Zobacz [Podwyższanie lub obniżanie poziomu licencji](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Czy mogę obniżyć poziom licencji?**
 
-Możesz obniżyć poziom licencji w dowolnym momencie, ale zmiana zacznie obowiązywać po zakończeniu bieżącego okresu licencyjnego. Zobacz [Podwyższanie lub obniżanie poziomu licencji](installation/upgrade-downgrade-your-license.md "mention")
+Możesz obniżyć poziom licencji w dowolnym momencie, ale zmiana zacznie obowiązywać po zakończeniu bieżącego opłaconego okresu. Zobacz [Podwyższanie lub obniżanie poziomu licencji](installation/upgrade-downgrade-your-license.md "mention")
+
+#### **Czy mogę wstrzymać płatności za licencję?**
+
+Tak. Licencję można wstrzymać od następnej daty subskrypcji i wznowić w dowolnym momencie. Jest to przydatne, jeśli okresowo zaczynasz i przerywasz korzystanie z programu, a nie chcesz ponownie podawać danych karty. Zobacz [Wstrzymywanie lub anulowanie płatności](installation/cancel-your-subscription.md "mention")
+
+#### **Jak trwale anulować licencję?**
+
+Możesz anulować odnawialną licencję w dowolnym momencie, a zostanie ona automatycznie dezaktywowana po zakończeniu bieżącego opłaconego okresu. Zobacz [Wstrzymywanie lub anulowanie płatności](installation/cancel-your-subscription.md "mention")
 
 #### **Jak autoryzować komputer za pomocą licencji?**
 
@@ -101,19 +109,15 @@ Po zakupie licencji możesz autoryzować komputer bezpośrednio w programie Libe
 
 #### **Jak często muszę łączyć komputer z internetem?**
 
-Za każdym razem, gdy licencja jest odnawiana, trzeba połączyć Liberation z internetem, aby zaktualizować wewnętrzną licencję programu. Przy cyklicznej płatności miesięcznej trzeba połączyć się co miesiąc.
+Za każdym razem, gdy odnawialna płatna licencja zostanie pomyślnie odnowiona, trzeba połączyć Liberation z internetem, aby zaktualizować wewnętrzną licencję programu. Dlatego przy licencji odnawianej automatycznie co miesiąc trzeba połączyć się co miesiąc.
 
-#### **Co się stanie, jeśli po odnowieniu nie będę mógł połączyć komputera z internetem?**
+#### **Co się stanie, jeśli po następnej płatności nie będę mógł połączyć komputera z internetem?**
 
-Liberation daje 7-dniowy okres karencji po odnowieniu licencji, aby połączyć się z internetem i zaktualizować wewnętrzną licencję. Po tym czasie Liberation wróci do trybu _Free_.
+W przypadku miesięcznych odnawialnych płatnych licencji Liberation zwykle daje 7-dniowy okres karencji po odnowieniu płatnej licencji, aby połączyć się z internetem i zaktualizować wewnętrzną licencję. Po tym czasie Liberation wróci do trybu _Free_.
 
 #### **Co się stanie, jeśli moja karta kredytowa wygaśnie?**
 
-Otrzymasz powiadomienie e-mail od naszego dostawcy płatności i trzeba będzie zaktualizować metodę płatności. Zaloguj się na stronie internetowej i użyj linku _Update payment details_ na stronie subskrypcji.
-
-#### **Jak anulować licencję odnawialną?**
-
-Zaloguj się na stronie internetowej, otwórz stronę _Your subscriptions_, wybierz subskrypcję, którą chcesz anulować, a następnie kliknij link _Cancel Subscription_. Możesz nadal używać Liberation do końca okresu licencyjnego.
+Otrzymasz powiadomienie e-mail od naszego dostawcy płatności i trzeba będzie zaktualizować dane karty. Zaloguj się na stronie internetowej i użyj opcji _UPDATE CARD DETAILS_ na stronie licencji albo _Update_ w sekcji _Billing and payments_. Musisz zrobić to w okresie karencji, aby nie utracić dostępu do płatnych funkcji.
 
 #### **Na ilu komputerach mogę zainstalować Liberation?**
 
@@ -131,9 +135,9 @@ Możesz też zdalnie cofnąć autoryzację komputera, do którego nie masz już 
 
 #### **Czy mogę cofnąć autoryzację Liberation na komputerze, który został zgubiony lub skradziony?**
 
-Możesz cofnąć autoryzację komputera przez stronę internetową. Jeśli instalacja Liberation nie była online od czasu ostatniego odnowienia licencji, można to zrobić od razu.
+Możesz cofnąć autoryzację komputera przez stronę internetową. Jeśli instalacja Liberation nie była online od czasu ostatniego odświeżenia licencji, można to zrobić od razu.
 
-W przeciwnym razie cofnięcie autoryzacji zacznie obowiązywać po odnowieniu subskrypcji albo po połączeniu komputera z internetem — zależnie od tego, co nastąpi wcześniej. Jeśli pilnie potrzebujesz ponownie autoryzować nowy komputer, skontaktuj się z pomocą techniczną.
+W przeciwnym razie cofnięcie autoryzacji zacznie obowiązywać przy następnym odświeżeniu licencji albo po połączeniu komputera z internetem — zależnie od tego, co nastąpi wcześniej. Jeśli pilnie potrzebujesz ponownie autoryzować nowy komputer, skontaktuj się z pomocą techniczną.
 
 ### Korzystanie z Liberation
 
@@ -173,7 +177,7 @@ To opóźnienie ramki, czyli maksymalny czas między wygenerowaniem ramki a jej 
 
 #### Jak dostosować strefy i ustawienia klipu bez jego uruchamiania?
 
-Kliknij z przytrzymanym `Alt / Option`, aby ustawić go jako _aktualnie zaznaczony Clip_, ale bez aktywowania. Zobacz też [Uruchamianie / zatrzymywanie klipów](clips/starting-stopping-clips.md "mention")
+Kliknij z przytrzymanym `Alt / Option`, aby ustawić go jako _aktualnie zaznaczony Clip_, ale bez aktywowania. Zobacz też [Uruchamianie / zatrzymywanie Clips](clips/starting-stopping-clips.md "mention")
 
 #### Jak kopiować klipy?
 
@@ -181,7 +185,7 @@ Kliknij i przeciągnij, trzymając klawisz `Alt / Option`. Zobacz też [Organizo
 
 #### Jak usuwać klipy?
 
-Kliknij je i przeciągnij poza clip deck. Zobacz też [Organizowanie Clip Deck](clips/organising-your-clip-deck.md "mention")
+Kliknij i przeciągnij je poza Clip Deck. Zobacz też [Organizowanie Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Jak zaznaczać wiele elementów, usuwać je, łączyć clip decki itp.?
 
@@ -189,4 +193,4 @@ Zobacz [Organizowanie Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Co oznacza mały symbol mikrofonu i inne ikony na klipie?
 
-Służą do pokazania, że klip korzysta z wejścia dźwięku lub MIDI, a 3 kropki oznaczają opóźnienie strefy. Zobacz [Co oznaczają małe ikony na przyciskach klipów?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+Służą do pokazania, że Clip korzysta z wejścia dźwięku lub MIDI, a 3 kropki oznaczają opóźnienie zone. Zobacz [Co oznaczają małe ikony na przyciskach Clip?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

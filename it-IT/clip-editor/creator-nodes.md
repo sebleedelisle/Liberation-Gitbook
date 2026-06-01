@@ -12,7 +12,7 @@ Crea un singolo punto / raggio.
 
 * **Render profile** - vedi [Render profile](fundamentals/render-profile.md "mention")
 * **Colour** - il colore del punto. Vedi [Impostazioni colore e HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** e **y** position - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
+* posizione **x** e **y** - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - vedi [Riempimenti, maschere e ordinamento per profondità](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
@@ -22,7 +22,7 @@ Crea una linea / lama.
 * **Render profile** - vedi [Render profile](fundamentals/render-profile.md "mention")
 * **Size** - la lunghezza della linea
 * **Colour** - il colore della linea. Vedi [Impostazioni colore e HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** e **y** position - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
+* posizione **x** e **y** - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - l’angolo della linea, in gradi
 * **resolution** - vedi [Resolution](fundamentals/resolution.md "mention")
 * **alignment** - _LEFT / CENTRE / RIGHT -_ determina il punto iniziale e il centro di rotazione della linea
@@ -35,7 +35,7 @@ Crea un cerchio / cono.
 * **Render profile** - vedi [Render profile](fundamentals/render-profile.md "mention")
 * **radius** - il raggio del cerchio
 * **Colour** - il colore del cerchio. Vedi [Impostazioni colore e HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** e **y** position - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
+* posizione **x** e **y** - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
 * **resolution** - vedi [Resolution](fundamentals/resolution.md "mention")
 * **Fill state** - vedi [Riempimenti, maschere e ordinamento per profondità](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - vedi [Riempimenti, maschere e ordinamento per profondità](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -47,7 +47,7 @@ Crea un poligono equilatero: triangolo, quadrato, pentagono ecc.
 * **Render profile** - vedi [Render profile](fundamentals/render-profile.md "mention")
 * **size** - la distanza dal centro a ciascun angolo
 * **Colour** - il colore del poligono. Vedi [Impostazioni colore e HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** e **y** position - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
+* posizione **x** e **y** - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - l’angolo di rotazione della forma, in gradi
 * **resolution** - vedi [Resolution](fundamentals/resolution.md "mention")
 * **Fill state** - vedi [Riempimenti, maschere e ordinamento per profondità](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -72,7 +72,7 @@ Una volta caricato l’SVG, il contenuto viene convertito e salvato all’intern
 * **Invert black lines** - se tutte le linee nel tuo SVG sono nere, non puoi vederle! Questa opzione le rende bianche. Viene impostata automaticamente se il tuo SVG contiene solo forme nere, ma viene disabilitata se non ne contiene.
 * **Render profile** - vedi [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - regola le dimensioni dell’SVG. Viene calcolato automaticamente quando l’SVG viene caricato, per assicurare che l’immagine sia visibile, ma può essere modificato manualmente in seguito.
-* **x** e **y** position - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
+* posizione **x** e **y** - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - l’angolo di rotazione dell’immagine, in gradi
 * **resolution** - vedi [Resolution](fundamentals/resolution.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - vedi [Riempimenti, maschere e ordinamento per profondità](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -92,7 +92,7 @@ Una volta caricata la sequenza SVG, il contenuto viene convertito e salvato all�
 * **Invert black lines** - se tutte le linee nei tuoi SVG sono nere, non puoi vederle! Questa opzione le rende bianche. Viene impostata automaticamente se i tuoi SVG contengono solo forme nere, ma viene disabilitata se non ne contengono.
 * **Render profile** - vedi [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - regola le dimensioni dell’immagine.
-* **x** e **y** position - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
+* posizione **x** e **y** - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - l’angolo di rotazione dell’immagine, in gradi
 * **resolution** - vedi [Resolution](fundamentals/resolution.md "mention")
 * **speed** - la durata dell’intera animazione, in battute.
@@ -123,7 +123,7 @@ Per aggiungere altri font a Liberation, copia i file .ttf o .otf nella cartella 
 * **monospace** - disegna ogni carattere con la stessa larghezza. È utile per timer e contatori, perché il testo non si sposta lateralmente quando cambiano i numeri.
 * **character spacing** - regola la spaziatura tra i caratteri. Aumentala per una spaziatura più ampia, oppure riducila per rendere il testo più compatto.
 * **colour -** vedi [Impostazioni colore e HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** e **y** position - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
+* posizione **x** e **y** - vedi [Sistema di coordinate](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - l’angolo di rotazione dell’immagine, in gradi
 * **resolution** - vedi [Resolution](fundamentals/resolution.md "mention")
 * **reveal** - usalo per rivelare gradualmente il testo, un carattere alla volta. Quando è tra 0 e 50%, il testo appare gradualmente da sinistra a destra. Quando è tra 50% e 100%, il testo scompare da sinistra a destra. Puoi collegare un oscillatore a questo socket per creare animazioni.

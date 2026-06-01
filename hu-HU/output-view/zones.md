@@ -47,7 +47,7 @@ Kattints jobb gombbal bármelyik zónára a beállításai megnyitásához. Ebbe
 * Visszaállíthatod az alapértelmezett pozícióra
 * Elérheted az adott alakzattípushoz tartozó beállításokat
 * Törölheted
-* Hozzáadhatsz egy _Alt Zone_-t (lásd: [Alt zónarendszer](alt-zone-system.md "mention"))
+* Hozzáadhatsz egy _Alt Zone_ elemet (lásd: [Alt zónarendszer](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **FIGYELMEZTETÉS –** légy nagyon óvatos, ha aktív lézer mellett módosítod a zóna típusát. A zóna az adott alakzathoz utoljára használt pozícióra/méretre áll vissza, így a kimenet hirtelen megváltozhat. A zónatípus módosítása előtt érdemes kikapcsolni a lézert.

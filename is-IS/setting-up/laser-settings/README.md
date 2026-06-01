@@ -50,7 +50,7 @@ Speed stillingin ræður því hversu hratt skannarnir hreyfast.
 {% endhint %}
 
 {% hint style="info" %}
-Þessi Speed stilling breytir ekki punktahraðanum; hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [Hvernig Liberation býr til leysiefni](../../advanced/how-liberation-generates-laser-content.md "mention")
+Þessi Speed stilling breytir ekki punktahraðanum; hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [◼️ Hvernig Liberation býr til leysiefni](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,7 +67,7 @@ Ef þú sérð litla „hala“ í Output frá leysinum þarf líklega að still
 
 #### Scanner presets
 
-Notaðu þetta til að velja fyrirfram hannaða skannastillingu. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema skannarnir þínir séu sérstaklega slæmir (eða góðir). Ef þú vilt skoða þetta nánar, sjá [Scanner presets](../../advanced/scanner-presets.md "mention")
+Notaðu þetta til að velja fyrirfram hannaða skannastillingu. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema skannarnir þínir séu sérstaklega slæmir (eða góðir). Ef þú vilt skoða þetta nánar, sjá [◼️ Forstillingar skanna og render profiles](../../advanced/scanner-presets.md "mention")
 
 #### Colour calibration
 
@@ -75,4 +75,4 @@ Notaðu þetta til að velja fyrirfram hannaða skannastillingu. Sjálfgefni val
 
 #### Advanced settings
 
-Þú ættir ekki að þurfa að fikta í þessum stillingum, en ef þú ert forvitin(n), sjá [◼️ Ítarlegar leysistillingar](../../advanced/advanced-laser-settings.md "mention")
+Þú ættir ekki að þurfa að fikta í þessum stillingum, en ef þú ert forvitin, sjá [◼️ Ítarlegar Laser Settings](../../advanced/advanced-laser-settings.md "mention")

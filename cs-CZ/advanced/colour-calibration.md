@@ -17,7 +17,7 @@ Laserové diody mění své chování při zahřívání. Před kalibrací vždy
 
 #### Jak kalibrační test funguje
 
-Ke kalibraci použijte funkci test pattern (viz [Testovací obrazce](../output-view/test-patterns.md "mention"))
+Ke kalibraci použijte testovací obrazce (viz [Testovací obrazce](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green

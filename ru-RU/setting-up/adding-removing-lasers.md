@@ -15,12 +15,12 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-При добавлении нового лазера к нему автоматически добавляется beam zone. Обратите внимание: лазеры и zones сортируются в порядке их добавления. См. [Изменение порядка beam zones](../output-view/re-ordering-beam-zones.md).
+При добавлении нового лазера к нему автоматически добавляется beam zone. Обратите внимание: лазеры и zones сортируются в порядке их добавления. См. [Изменение порядка beam zones](../output-view/re-ordering-beam-zones.md "mention").
 
 Удалите лазер, нажав красную кнопку "-" на панели _Laser overview_. Обратите внимание: все настройки этого лазера будут потеряны!
 
 {% hint style="info" %}
-Если вы хотите скопировать zones или другие настройки с других лазеров, используйте [Копирование настроек лазера](copy-laser-settings.md).
+Если вы хотите скопировать zones или другие настройки с других лазеров, используйте [Копирование настроек между лазерами](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

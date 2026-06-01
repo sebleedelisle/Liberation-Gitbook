@@ -15,12 +15,12 @@ nebo na tlačítko _+_ v _Output_ view.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Když přidáte nový laser, automaticky se k němu přidá jedna beam zone. Mějte na paměti, že lasery a zones se řadí v pořadí, v jakém je přidáváte. Viz [Změna pořadí beam zones](../output-view/re-ordering-beam-zones.md).
+Když přidáte nový laser, automaticky se k němu přidá jedna beam zone. Mějte na paměti, že lasery a zones se řadí v pořadí, v jakém je přidáváte. Viz [Změna pořadí beam zones](../output-view/re-ordering-beam-zones.md "mention").
 
 Laser odeberete kliknutím na červené tlačítko „-“ v panelu _Laser overview_. Mějte na paměti, že tím přijdete o všechna nastavení daného laseru!
 
 {% hint style="info" %}
-Pokud chcete zkopírovat zones nebo jiná nastavení z jiných laserů, použijte [Kopírování nastavení laseru](copy-laser-settings.md)
+Pokud chcete zkopírovat zones nebo jiná nastavení z jiných laserů, použijte [Kopírování nastavení mezi lasery](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

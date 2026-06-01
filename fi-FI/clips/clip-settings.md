@@ -14,7 +14,7 @@ Muuta clipin ulostulon kokoa asetuksilla _Scale X_ ja _Scale Y_. Ne on lukittu y
 
 Muuta clipin vaaka- ja pystysijaintia asetuksilla _Shift X_ ja _Shift Y_.
 
-_Zone Delay/Chase_ on niin hauska ominaisuus, että sille on oma osionsa. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ on niin hauska ominaisuus, että sille on oma osionsa. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Parameters-paneeli
 

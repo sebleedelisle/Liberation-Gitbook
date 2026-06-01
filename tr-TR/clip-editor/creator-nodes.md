@@ -12,7 +12,7 @@ Tek bir nokta / ışın oluşturur.
 
 * **Render profile** - bkz. [Render profili](fundamentals/render-profile.md "mention")
 * **Colour** - noktanın rengi. Bkz. [Renk ayarları ve HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** ve **y** position - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
+* **x** ve **y** konumu - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - bkz. [Fill, mask ve derinlik sıralaması](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
@@ -22,7 +22,7 @@ Bir çizgi / ışık perdesi oluşturur.
 * **Render profile** - bkz. [Render profili](fundamentals/render-profile.md "mention")
 * **Size** - çizginin uzunluğu
 * **Colour** - çizginin rengi. Bkz. [Renk ayarları ve HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** ve **y** position - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
+* **x** ve **y** konumu - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - çizginin derece cinsinden açısı
 * **resolution** - bkz. [Çözünürlük](fundamentals/resolution.md "mention")
 * **alignment** - _LEFT / CENTRE / RIGHT -_ çizginin başlangıç noktasını ve dönüş merkezini belirler
@@ -35,7 +35,7 @@ Bir daire / koni oluşturur.
 * **Render profile** - bkz. [Render profili](fundamentals/render-profile.md "mention")
 * **radius** - dairenin yarıçapı
 * **Colour** - dairenin rengi. Bkz. [Renk ayarları ve HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** ve **y** position - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
+* **x** ve **y** konumu - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
 * **resolution** - bkz. [Çözünürlük](fundamentals/resolution.md "mention")
 * **Fill state** - bkz. [Fill, mask ve derinlik sıralaması](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - bkz. [Fill, mask ve derinlik sıralaması](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -47,7 +47,7 @@ Eşkenar çokgenler oluşturur: üçgen, kare, beşgen vb.
 * **Render profile** - bkz. [Render profili](fundamentals/render-profile.md "mention")
 * **size** - merkezden her köşeye olan mesafe
 * **Colour** - çokgenin rengi. Bkz. [Renk ayarları ve HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** ve **y** position - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
+* **x** ve **y** konumu - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - şeklin derece cinsinden döndürülmüş açısı
 * **resolution** - bkz. [Çözünürlük](fundamentals/resolution.md "mention")
 * **Fill state** - bkz. [Fill, mask ve derinlik sıralaması](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -72,7 +72,7 @@ Bir SVG yüklendikten sonra içerik dönüştürülür ve Clip içine kaydedilir
 * **Invert black lines** - SVG içindeki tüm çizgiler siyahsa onları göremezsiniz! Bu seçenek çizgileri beyaza çevirir. SVG içinde yalnızca siyah şekiller varsa otomatik olarak ayarlanır; hiç siyah şekil yoksa devre dışı bırakılır.
 * **Render profile** - bkz. [Render profili](fundamentals/render-profile.md "mention")
 * **scale** - SVG boyutunu ayarlar. SVG yüklendiğinde bu değer otomatik olarak hesaplanır (görselin görünür olduğundan emin olmak için), ancak sonrasında elle düzenlenebilir.
-* **x** ve **y** position - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
+* **x** ve **y** konumu - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - görselin derece cinsinden döndürülmüş açısı
 * **resolution** - bkz. [Çözünürlük](fundamentals/resolution.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - bkz. [Fill, mask ve derinlik sıralaması](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -92,7 +92,7 @@ SVG dizisi yüklendikten sonra içerik dönüştürülür ve Clip içine kaydedi
 * **Invert black lines** - SVG dosyalarınızdaki tüm çizgiler siyahsa onları göremezsiniz! Bu seçenek çizgileri beyaza çevirir. SVG dosyalarınızda yalnızca siyah şekiller varsa otomatik olarak ayarlanır; hiç siyah şekil yoksa devre dışı bırakılır.
 * **Render profile** - bkz. [Render profili](fundamentals/render-profile.md "mention")
 * **scale** - görselin boyutunu ayarlar.
-* **x** ve **y** position - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
+* **x** ve **y** konumu - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - görselin derece cinsinden döndürülmüş açısı
 * **resolution** - bkz. [Çözünürlük](fundamentals/resolution.md "mention")
 * **speed** - tüm animasyonun ölçü cinsinden süresi.
@@ -123,7 +123,7 @@ Liberation’a daha fazla font eklemek için .ttf veya .otf dosyalarını Libera
 * **monospace** - her karakteri aynı genişlikte çizer. Sayılar değişirken metin yana kaymadığı için zamanlayıcılar ve sayaçlar için kullanışlıdır.
 * **character spacing** - karakterler arasındaki boşluğu ayarlar. Daha geniş harf aralığı için artırın veya metni sıklaştırmak için azaltın.
 * **colour -** bkz. [Renk ayarları ve HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** ve **y** position - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
+* **x** ve **y** konumu - bkz. [Koordinat sistemi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - görselin derece cinsinden döndürülmüş açısı
 * **resolution** - bkz. [Çözünürlük](fundamentals/resolution.md "mention")
 * **reveal** - metni her seferinde bir karakter olacak şekilde kademeli olarak ortaya çıkarmak için kullanın. Bu değer %0 ile %50 arasındayken metin soldan sağa doğru kademeli olarak görünür. %50 ile %100 arasındayken metin soldan sağa doğru kaybolur. Animasyon oluşturmak için bu sokete bir osilatör bağlayabilirsiniz.

@@ -13,13 +13,13 @@ Windows 10- eller 11-maskiner med 64-bit. Kraftige maskiner anbefales, hvis du v
 
 ### Installationsproces
 
-Når du har et aktivt abonnement, får du tilsendt et link, eller du kan klikke på linket _Download_ på siden [ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Når du har en aktiv betalt licens, får du tilsendt et link, eller du kan klikke på _Download_ på siden [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Du vil se denne side:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klik på _Download latest for Windows_ (versionsnumrene kan ændre sig), og du vil se downloadindikatoren vise status (normalt øverst til højre; skærmbilledet er fra Chrome). Når downloaden er færdig, skal du åbne dine downloads og klikke på den downloadede installationsfil.
+Klik på _Download for Windows_ (versionsnumrene kan ændre sig), og du vil se downloadindikatoren vise status (normalt øverst til højre; skærmbilledet er fra Chrome). Når downloaden er færdig, skal du åbne dine downloads og klikke på den downloadede installationsfil.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation skal have tilladelse til at tilgå filer og netværket, så Windows v
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation bør nu køre! For at sende output til lasere skal du nu gennemføre [Autorisering og deautorisering](../authorising-and-de-authorising.md)
+Liberation bør nu køre! For at sende output til lasere skal du gennemføre [Autorisering og deautorisering](../authorising-and-de-authorising.md).

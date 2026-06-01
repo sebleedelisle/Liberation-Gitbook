@@ -13,7 +13,7 @@ Zodra je Liberation op je computer hebt geïnstalleerd, draait het in _free mode
 In _free mode_ zijn er geen beperkingen, behalve uitvoer naar laserhardware. Je kunt shows oefenen, timelines bouwen en je bestanden zonder beperkingen opslaan en laden. Je kunt Liberation in _free mode_ op zoveel computers installeren als je wilt; je hoeft je installatie pas te autoriseren wanneer je klaar bent om lasers te gebruiken!
 {% endhint %}
 
-Naast het aantal lasers dat je kunt armeren, kun je ook DMX fixtures gebruiken. Zie [DMX / Art-Net](../dmx-control/ "mention").
+Naast het aantal lasers dat je voor output kunt activeren, kun je ook DMX-fixtures gebruiken. Zie [DMX / Art-Net](../dmx-control/ "mention").
 
 Er geldt ook een limiet voor het aantal computers waarop je Liberation kunt autoriseren, afhankelijk van je licentieniveau.
 
@@ -27,6 +27,8 @@ Elke licentie is bedoeld voor één gebruiker en één show tegelijk. Je kunt pe
 
 De licentie- en autorisatiefunctie van Liberation werkt via internet; de app maakt verbinding met onze server om een installatie aan je betaalde licentie te koppelen.
 
-Zodra je installatie is geautoriseerd, hoeft deze pas weer online te zijn wanneer je betaalde licentie de volgende betalingsdatum of betaald-tot-datum bereikt. Je kunt deze datum zien in het _About panel_. Er is een korte respijtperiode (7 dagen voor maandelijkse betaalde licenties), maar het is aan te raden om zo snel mogelijk na die datum online te gaan, zodat je autorisatie actief blijft.
+Zodra je geautoriseerd bent, hoef je pas weer online te zijn wanneer je doorlopende licentie de volgende betalingsdatum bereikt (weergegeven in het _About panel_). Maandelijkse doorlopende licenties bevatten meestal een korte respijtperiode (7 dagen), maar je moet na de betalingsdatum zo snel mogelijk online gaan om je betaalde functies zonder onderbreking beschikbaar te houden.
+
+De respijtperiode is bedoeld voor problemen met verlenging en betaling. Deze verlengt geen licenties die zijn opgezegd of bewust gepauzeerd nadat de betaalde periode is afgelopen. Als een betaling mislukt, werk dan je kaartgegevens binnen de respijtperiode bij om betaalde functies beschikbaar te houden.
 
 De huidige licentielaag wordt ook in de bovenbalk weergegeven. Klik op de naam van de laag, of op _FREE MODE_ wanneer er geen licentie actief is, om het About panel te openen.

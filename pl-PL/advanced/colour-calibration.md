@@ -17,7 +17,7 @@ Diody laserowe zmieniają swoje zachowanie w miarę rozgrzewania. Przed kalibrac
 
 #### Jak działa test kalibracji
 
-Do kalibracji użyj wzorców testowych (zobacz [wzorce testowe](../output-view/test-patterns.md "mention"))
+Do kalibracji użyj wzorców testowych (zobacz [Wzorce testowe](../output-view/test-patterns.md "mention"))
 
 * **5** – Red
 * **6** – Green

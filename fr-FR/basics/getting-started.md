@@ -140,7 +140,7 @@ Vous pouvez faire défiler le clip deck vers la gauche et la droite avec :
 * Molette de défilement APC40
 * Boutons APC40 _<- DEVICE ->_
 
-Pour vous aider à vous repérer, un mini visualiseur du clip deck est affiché en haut. Voir aussi [Clips et Clip Deck](../clips/ "mention")
+Pour vous aider à vous repérer, un mini visualiseur du Clip Deck est affiché en haut. Voir aussi [Clips et Clip Deck](../clips/ "mention")
 
 #### Démarrage et arrêt des clips
 

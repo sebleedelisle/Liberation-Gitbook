@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ Úthlutun laser controller
 
-Þegar þú hefur sett leysana upp í Liberation geturðu úthlutað hverjum þeirra á laser controller í raunheimum. (Sjá [Samhæfir leysar og controllers (DACs)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") til að kanna hvaða vélbúnað þú getur notað.) Controllers eru annaðhvort tengdir með USB eða í gegnum net.
+Þegar þú hefur sett leysana upp í Liberation geturðu úthlutað hverjum þeirra á raunverulegan laser controller. (Sjá [Samhæfir leysar og controllers (DACs)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") til að kanna hvaða vélbúnað þú getur notað.) Controllers eru annaðhvort tengdir með USB eða í gegnum net.
 
 * Opnaðu _Controller Assignment_ panel í valmyndinni _View -> Controller Assignment_. (Þú getur líka notað hnappinn _ASSIGN LASER CONTROLLERS_ í _Laser Overview_ panel.)
 

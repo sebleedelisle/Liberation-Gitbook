@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ Controller Assignment
 
-После того как вы настроили лазеры в Liberation, можно назначить каждому из них физический лазерный контроллер. (См. [совместимые лазеры и контроллеры (DAC)](../hardware/compatible-lasers-and-controllers-dacs.md "mention"), чтобы проверить, какое оборудование можно использовать.) Контроллеры подключаются либо по USB, либо по сети.
+После того как вы настроили лазеры в Liberation, можно назначить каждому из них физический лазерный контроллер. (См. [Совместимые лазеры и контроллеры (DAC)](../hardware/compatible-lasers-and-controllers-dacs.md "mention"), чтобы проверить, какое оборудование можно использовать.) Контроллеры подключаются либо по USB, либо по сети.
 
 * Откройте панель _Controller Assignment_ через пункт меню _View -> Controller Assignment_. (Также можно использовать кнопку _ASSIGN LASER CONTROLLERS_ на панели _Laser Overview_.)
 

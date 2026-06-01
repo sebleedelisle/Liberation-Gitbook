@@ -11,6 +11,8 @@ metaLinks:
 
 你也可以随时降级，但变更要到当前付费周期结束后才会生效。
 
+当付款已计划暂停，或许可证处于暂停状态时，无法更改方案。请先取消计划的暂停或重新启动许可证，然后再更改方案。
+
 登录网站，打开 [_Your licences_](https://liberationlaser.com/account/my-products) 页面，选择要变更的许可证，然后点击 _UPGRADE / DOWNGRADE_。随后会显示该许可证的可用选项。
 
 <figure><img src="../.gitbook/assets/account-change-licence-plan.png" alt=""><figcaption></figcaption></figure>

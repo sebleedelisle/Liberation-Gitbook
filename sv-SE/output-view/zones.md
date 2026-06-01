@@ -9,7 +9,7 @@ metaLinks:
 Den huvudsakliga typen av zon som du kommer att använda i de flesta projekt är _Beam zone_. Det är en zon som är utformad för atmosfäriska beam-effekter genom luften. Den andra typen av zon är en _Canvas zone_ (se [Grafik och Canvas-systemet](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**VARNING – Var extremt försiktig när du flyttar zoner medan lasern är igång** och sänk ljusstyrkan så mycket det går. Se [Översikt över hur du konfigurerar lasrar](../setting-up/setting-up-lasers.md "mention") för en komplett guide om hur du aktiverar och zonindelar lasrar på ett säkert sätt
+**VARNING – Var extremt försiktig när du flyttar zones medan lasern är igång** och sänk ljusstyrkan så mycket det går. Se [Översikt över laserinstallationen](../setting-up/setting-up-lasers.md "mention") för en komplett guide om hur du aktiverar och zonindelar lasrar på ett säkert sätt
 {% endhint %}
 
 Du kan klicka och dra zonerna med musen. Slå på ett testmönster för att se vart zonen hamnar.
@@ -24,7 +24,7 @@ Tips: du kan snabbt kopiera zoninställningar mellan flera lasrar! Se [Kopiera i
 
 ### Lägga till en ny beam-zon
 
-Klicka på knappen _Add a new beam zone_ högst upp i verktygsfältet så visas en ny zon. Observera att beam-zoner sorteras i den ordning du lägger till dem, men du kan ändra ordningen. Se [Ändra ordning på beam zones](re-ordering-beam-zones.md "mention")
+Klicka på knappen _Add a new beam zone_ högst upp i verktygsfältet så visas en ny zone. Observera att beam zones sorteras i den ordning du lägger till dem, men du kan ändra ordningen. Se [Ändra ordning på beam zones](re-ordering-beam-zones.md "mention")
 
 ### Lägga till en befintlig canvas-zon
 
@@ -47,7 +47,7 @@ Högerklicka på en zone för att öppna dess inställningar. I den här högerk
 * Återställa den till standardpositionen
 * Komma åt inställningar som är specifika för formtypen
 * Ta bort den
-* Lägga till en _Alt Zone_ (se [Alt zone-system](alt-zone-system.md "mention"))
+* Lägga till en _Alt Zone_ (se [Alt zone-systemet](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **VARNING –** var mycket försiktig när du ändrar zontyp medan lasern är aktiv. Zonen återgår till den senaste positionen/storleken för den formen, så output kan ändras plötsligt. Det är bäst att stänga av lasern innan du ändrar zontyp.

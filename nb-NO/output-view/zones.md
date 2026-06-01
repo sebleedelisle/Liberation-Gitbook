@@ -9,7 +9,7 @@ metaLinks:
 Hovedtypen sone du vil bruke i de fleste prosjektene dine, er _Beam zone_. Dette er en sone laget for atmosfæriske beam-effekter gjennom luften. Den andre sonetypen er en _Canvas zone_ (se [Grafikk og Canvas-systemet](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**ADVARSEL – Vær ekstremt forsiktig når du flytter soner mens laseren kjører**, og sett lysstyrken så lavt som mulig. Se [Oversikt over prosessen for laseroppsett](../setting-up/setting-up-lasers.md "mention") for en komplett veiledning i hvordan du aktiverer og soner lasere på en trygg måte.
+**ADVARSEL – Vær ekstremt forsiktig når du flytter zones mens laseren kjører**, og sett lysstyrken så lavt som mulig. Se [Oversikt over prosessen for laseroppsett](../setting-up/setting-up-lasers.md "mention") for en komplett veiledning i hvordan du aktiverer lasere og setter opp zones på en trygg måte.
 {% endhint %}
 
 Du kan klikke og dra sonene rundt med musen. Slå på et testmønster for å se hvor sonen havner.
@@ -19,12 +19,12 @@ Bruk piltastene til å **finjustere** den valgte sonen/det valgte punktet. Hold 
 {% endhint %}
 
 {% hint style="info" %}
-Tips: Du kan raskt kopiere soneinnstillinger på tvers av flere lasere! Se [Kopier innstillinger mellom lasere](../setting-up/copy-laser-settings.md "mention")
+Tips: Du kan raskt kopiere innstillinger for zones på tvers av flere lasere! Se [Kopier innstillinger mellom lasere](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Legge til en ny Beam zone
 
-Klikk på knappen _Add a new beam zone_ øverst på verktøylinjen, så vises en ny sone. Merk at Beam zones sorteres i rekkefølgen du legger dem til, men du kan endre rekkefølgen. Se [Endre rekkefølgen på beam-soner](re-ordering-beam-zones.md "mention")
+Klikk på knappen _Add a new beam zone_ øverst på verktøylinjen, så vises en ny zone. Merk at beam zones sorteres i rekkefølgen du legger dem til, men du kan endre rekkefølgen. Se [Endre rekkefølgen på beam zones](re-ordering-beam-zones.md "mention")
 
 ### Legge til en eksisterende Canvas zone
 

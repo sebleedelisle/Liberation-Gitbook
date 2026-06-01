@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX node
 
-DMX node, DMX armatürleri üzerinde daha ayrıntılı kontrol sağlayan özel bir node türüdür. Daha fazla bilgi için [DMX kontrolü](../dmx-control/) bölümüne bakın.
+DMX node, DMX armatürleri üzerinde daha ayrıntılı kontrol sağlayan özel bir node türüdür. Daha fazla bilgi için [DMX / Art-Net](../dmx-control/ "mention") bölümüne bakın.

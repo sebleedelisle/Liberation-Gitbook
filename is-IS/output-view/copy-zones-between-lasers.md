@@ -21,4 +21,4 @@ Veldu valkostinn _Copy output zone settings_ og smelltu síðan á hnappinn _COP
 Athugaðu að þetta ferli bætir ekki zones við leysitæki og fjarlægir þau ekki heldur. Það afritar aðeins staðsetningu og gerð fyrir hvert zone sem er til staðar í markleysitækjunum.
 {% endhint %}
 
-Sjá einnig [Afrita Laser Settings](../setting-up/copy-laser-settings.md) fyrir fulla lýsingu á öðrum eiginleikum þessa kerfis.
+Sjá einnig [Afrita stillingar á milli leysigeisla](../setting-up/copy-laser-settings.md "mention") fyrir fulla lýsingu á öðrum eiginleikum þessa kerfis.

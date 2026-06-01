@@ -15,20 +15,18 @@ Når du åpner Liberation for første gang, kjører det i _free mode_, og du ser
 
 Klikk på knappen _AUTHORISE ONLINE_, så åpnes nettleseren din. Hvis du ikke allerede er logget inn, blir du bedt om å gjøre det nå.
 
-Systemet autoriserer nå installasjonen automatisk med abonnementet ditt, og du ser denne meldingen:
-
-<figure><img src="../.gitbook/assets/authorisation-machine-added" alt=""><figcaption></figcaption></figure>
+Systemet autoriserer nå installasjonen automatisk med lisensen din, og du ser en bekreftelsesmelding.
 
 Når du går tilbake til Liberation, ser du at _About_-panelet er oppdatert (det kan hende du må vente noen sekunder).
 
 <figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Hvis du allerede har autorisert maksimalt antall datamaskiner for abonnementet ditt, må du deautorisere en av de andre maskinene dine eller oppgradere abonnementet.
+Hvis du allerede har autorisert maksimalt antall datamaskiner for lisensen din, må du deautorisere en av de andre maskinene dine eller oppgradere lisensen.
 {% endhint %}
 
 {% hint style="info" %}
-Hvis du har flere abonnementer, blir du bedt om å velge abonnementet du vil tilordne datamaskinen til.
+Hvis du har flere lisenser, blir du bedt om å velge lisensen du vil tilordne datamaskinen til.
 {% endhint %}
 
 Gratulerer! Liberation-installasjonen din er nå autorisert, og du kan sende ut til lasere! Men les [Hurtigstartveiledning](../getting-started.md "mention") og [Oversikt over prosessen for laseroppsett](../setting-up/setting-up-lasers.md "mention") før du armerer laserne.
@@ -43,10 +41,10 @@ Du kan åpne _About_-panelet når som helst via menyen _Liberation -> About Libe
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
 
-Alternativt kan du gjøre dette fra nettstedet – velg _Your subscriptions_ fra menyen, og klikk deretter på _Manage Subscription_ for å åpne abonnementssiden din. Der skal du se informasjon om abonnementet ditt og en liste over datamaskinene du har autorisert.
+Alternativt kan du gjøre dette fra nettstedet. Velg _Your licences_ fra menyen, og klikk deretter på _MANAGE_ for den aktuelle lisensen. Hvis kontoen din bare har én lisens, tar _Your licences_ deg rett til siden for den lisensen. Der skal du se informasjon om lisensen din og en liste over datamaskinene du har autorisert.
+
+<figure><img src="../.gitbook/assets/account-your-licences.png" alt=""><figcaption></figcaption></figure>
 
 Klikk på lenken _De-authorise_ ved siden av maskinen du vil deautorisere
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.16.40.png" alt=""><figcaption></figcaption></figure>
-
-Hvis maskinen din ikke har vært på nett siden siste fornyelse, blir den deautorisert umiddelbart. Hvis ikke settes maskinen i _kø_ for deautorisasjon. Det betyr at deautorisasjonen skjer automatisk neste gang maskinen kobles til internett, eller på neste fornyelsesdato – avhengig av hva som skjer først.
+Hvis maskinen din ikke har vært på nett siden siste lisensoppdatering, blir den deautorisert umiddelbart. Hvis ikke blir maskinen satt i _kø_ for deautorisering. Det betyr at deautoriseringen skjer automatisk neste gang maskinen kobles til internett, eller på neste dato for lisensoppdatering, avhengig av hva som skjer først.

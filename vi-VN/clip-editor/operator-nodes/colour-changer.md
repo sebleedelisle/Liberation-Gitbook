@@ -11,7 +11,7 @@ metaLinks:
 
 Thay đổi màu của toàn bộ nội dung đầu vào. Bạn có thể đặt các giá trị HSB cố định, hoặc chuyển sang hệ thống gradient và lấy mẫu màu từ một gradient tùy chỉnh.
 
-* **hue, saturation, brightness** - các giá trị màu, xem [thiết lập màu và HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - các giá trị màu, xem [Thiết lập màu và HSB](../fundamentals/colour-settings-and-hsb.md "mention")
 * **hue mode** -
   * OFF - không thay đổi hue
   * FIXED - hue của các phần tử được đặt theo giá trị hue
@@ -28,7 +28,7 @@ Thay đổi màu của toàn bộ nội dung đầu vào. Bạn có thể đặt
 * **blend** - mức độ áp dụng colour changer, 0% là không áp dụng, 100% là áp dụng hoàn toàn, và 50% là sự kết hợp giữa màu hiện có và các giá trị mới.
 
 {% hint style="info" %}
-node Colour Change lấy mẫu một màu từ gradient cho toàn bộ đầu vào. Nếu bạn muốn gradient chạy dọc theo hình dựa trên vị trí, hãy dùng [các bộ thay đổi theo vị trí](position-based-changers.md "mention") thay thế.
+node Colour Change lấy mẫu một màu từ gradient cho toàn bộ đầu vào. Nếu bạn muốn gradient chạy dọc theo hình dựa trên vị trí, hãy dùng [Các bộ thay đổi theo vị trí](position-based-changers.md "mention") thay thế.
 {% endhint %}
 
 ### Trình chỉnh sửa gradient

@@ -28,5 +28,5 @@ _**FAST** -_ hvis dit clip har meget indhold, og noget af det kun er meget simpl
 _**DETAIL**_ - brug denne indstilling, hvis du tegner noget, der kræver skarpe hjørner. Men vær opmærksom på, at dine scannere bevæger sig langsommere, hvilket kan få outputtet til at flimre.
 
 {% hint style="info" %}
-I clip-editoren kan du tildele creators til forskellige renderprofiler, men hver laser behandler disse profiler afhængigt af dens scannerindstillinger. Se [◼️ Scanner-presets og render-profiler](../../advanced/scanner-presets.md "mention")
+I Clip Editor kan du tildele Creators til forskellige renderprofiler, men hver laser behandler profilerne afhængigt af sine scannerindstillinger. Se [◼️ Scanner-presets og renderprofiler](../../advanced/scanner-presets.md "mention")
 {% endhint %}

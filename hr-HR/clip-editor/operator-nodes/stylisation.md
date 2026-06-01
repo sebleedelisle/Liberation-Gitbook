@@ -26,7 +26,7 @@ Randomise node je u središtu efekta Randomise!
 
 Stvara odjeke vašeg sadržaja, ostavljajući iza izvornika kopije koje postupno blijede ili mijenjaju mjerilo dok se izvornik kreće.
 
-* **change render profile for trail** – ako je uključeno, sve kopije traga koriste odabrani **render profile**. _Pogledajte_ [render profile](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – ako je uključeno, sve kopije traga koriste odabrani **render profile**. _Pogledajte_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – profil koji se koristi za kopije traga kada je gornji prekidač uključen. Često se koristi kada je glavni sadržaj postavljen na **DETAIL**, a odjeci se renderiraju kao **FAST**. Tako dobivate jasan detalj na glavnim oblicima, dok se tragovi renderiraju učinkovitije.
 * **delay** – postavlja razmak između kopija traga u glazbenom vremenu, mjereno u **koracima od 1/64 note**.\
   Za referencu:

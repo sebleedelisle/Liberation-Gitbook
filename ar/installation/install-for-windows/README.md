@@ -13,13 +13,13 @@ metaLinks:
 
 ### عملية التثبيت
 
-بعد أن يصبح لديك اشتراك نشط، سيُرسل إليك رابط، أو يمكنك النقر على رابط _Download_ في صفحة[ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+بعد أن تصبح لديك licence مدفوعة ونشطة، سيُرسل إليك رابط، أو يمكنك النقر على _Download_ في صفحة [_Your licences_](https://liberationlaser.com/account/my-products).
 
 سترى هذه الصفحة:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-انقر على _Download latest for Windows_ (قد تتغير أرقام الإصدارات)، وسترى مؤشر التنزيل يعرض التقدم (عادةً في أعلى اليمين؛ لقطة الشاشة من Chrome). عند اكتمال التنزيل، افتح مجلد التنزيلات وانقر على ملف برنامج التثبيت الذي تم تنزيله.
+انقر على _Download for Windows_ (قد تتغير أرقام الإصدارات)، وسترى مؤشر التنزيل يعرض التقدم (عادةً في أعلى اليمين؛ لقطة الشاشة من Chrome). عند اكتمال التنزيل، افتح مجلد التنزيلات وانقر على ملف برنامج التثبيت الذي تم تنزيله.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ metaLinks:
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-من المفترض أن يعمل Liberation الآن! لإخراج العرض إلى أجهزة الليزر، ستحتاج الآن إلى متابعة [التفويض وإلغاء التفويض](../authorising-and-de-authorising.md).
+من المفترض أن يعمل Liberation الآن! لإخراج العرض إلى أجهزة الليزر، ستحتاج إلى إكمال [التفويض وإلغاء التفويض](../authorising-and-de-authorising.md).

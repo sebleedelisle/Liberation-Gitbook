@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 DMX-alueiden luominen
 
-1. Yhdistä Art-Net-node ja määritä se kohdan [Art-Net-nodeen yhdistäminen](../connecting-to-an-artnet-node.md "mention") ohjeiden mukaan.
+1. Yhdistä Art-Net-node ja määritä se kohdan [◼️ Art-Net-nodeen yhdistäminen](../connecting-to-an-artnet-node.md "mention") ohjeiden mukaan.
 2. Avaa **DMX Zones** ja napsauta **ADD DMX ZONE**.
 3. Aseta zone-kohteen **Node**, **Universe** ja **Address** vastaamaan valaisinta.
 4. Valitse valaisimelle **Preset**. Preset määrittää, mitkä DMX-kanavat vastaanottavat kiinteitä arvoja, sisällön päälle/pois-arvoja, RGB-värin, X/Y-sijainnin, kirkkauden tai erilliset DMX Value -syötteet.

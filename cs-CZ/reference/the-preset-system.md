@@ -27,7 +27,7 @@ Soubory presetů můžete také importovat a exportovat pomocí tlačítka pro n
 Pokud upravíte preset, například nastavení skenerů s názvem _Default_, mějte na paměti, že ostatní lasery se automaticky neaktualizují. Místo toho bude každé jejich nastavení skenerů označeno jako _Default(edited)_. Chcete-li ho aktualizovat na nový preset _Default_, znovu ho vyberte v rozbalovacím seznamu.
 
 {% hint style="info" %}
-Pokud máte hodně laserů a chcete aktualizovat nastavení skenerů u všech, použijte systém _COPY LASER SETTINGS_. Viz [Kopírování nastavení laserů](../setting-up/copy-laser-settings.md "mention")
+Pokud máte hodně laserů a chcete aktualizovat nastavení skenerů u všech, použijte systém _COPY LASER SETTINGS_. Viz [Kopírování nastavení mezi lasery](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Pokud odstraníte preset, který se používá jinde, o dané nastavení nepřijdete. Uvidíte ho pouze označené jako _(deleted)._

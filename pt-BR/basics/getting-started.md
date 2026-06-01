@@ -17,14 +17,14 @@ Você pode configurar e visualizar quantos lasers quiser dentro do Liberation; o
 O padrão vem com 8 lasers distribuídos horizontalmente, mas você pode personalizar isso como quiser. Provavelmente é melhor manter esse padrão enquanto você está conhecendo o software e, depois, ajustar para corresponder à sua configuração de hardware. (Veja [Configuração do seu projeto](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Importante: antes de colocar qualquer laser em armed, entenda os riscos envolvidos e leia com atenção o capítulo [Configuração de lasers](../setting-up/setting-up-lasers.md "mention").
+Importante: antes de armar qualquer laser, entenda os riscos envolvidos e leia com atenção o capítulo [Visão geral do processo de configuração de lasers](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Visão geral do software
 
 ### Desligamento de segurança
 
-Sempre que você estiver operando lasers, é obrigatório ter à mão um **botão físico de parada de emergência** (veja [Parada de emergência / intertravamentos](../hardware/emergency-stop-interlocks.md "mention")). Mas, se você quiser colocar tudo em disarmed sem tanta urgência, use o botão _**DISARM ALL**_, a tecla `Escape` ou a tecla _**SESSION**_ no APC40. Você também pode reduzir o Global Brightness usando o controle deslizante na tela ou o fader principal no APC40.
+Sempre que você estiver operando lasers, é obrigatório ter à mão um **botão físico de parada de emergência** (veja [Parada de emergência / intertravamentos](../hardware/emergency-stop-interlocks.md "mention")). Mas, se você quiser desarmar tudo sem tanta urgência, use o botão _**DISARM ALL**_, a tecla `Escape` ou a tecla _**SESSION**_ no APC40. Você também pode reduzir o Global Brightness usando o controle deslizante na tela ou o fader principal no APC40.
 
 ### Controles deslizantes
 
@@ -300,7 +300,7 @@ Aqui você pode escolher quais Outputs de laser vão para quais laser controller
 Leia o capítulo [Atribuição de controller](../setting-up/controller-assignment.md "mention") para mais detalhes.
 
 {% hint style="danger" %}
-Antes de colocar qualquer laser em armed, leia o capítulo [Configuração de lasers](../setting-up/setting-up-lasers.md "mention").
+Antes de armar qualquer laser, leia o capítulo [Visão geral do processo de configuração de lasers](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Painel Laser Settings
@@ -331,10 +331,10 @@ Se você está acostumado com softwares de laser mais antigos que dependem de fl
 As configurações básicas de scanner são:
 
 * **Speed** é a velocidade do scanner, ou seja, a rapidez com que o laser se move para desenhar formas. Isso equivale a ajustar a taxa de pontos em softwares de laser tradicionais, mas no Liberation você pode alterar a velocidade de movimento do laser _independentemente da taxa de pontos._ Você não deve precisar ajustar isso.
-* **Scanner sync** (às vezes conhecido como _blank shift, anteriormente Colour Shift_) Os scanners movem o laser muito rápido, mas geralmente a mudança de brilho e cor fica fora de sincronia com o movimento. Isso aparece como pequenas "caudas" de luz piscando nas bordas de beams e linhas. Use este ajuste para sincronizar o movimento e a cor. Veja [Configurações de laser](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (às vezes conhecido como _blank shift, anteriormente Colour Shift_) Os scanners movem o laser muito rápido, mas geralmente a mudança de brilho e cor fica fora de sincronia com o movimento. Isso aparece como pequenas "caudas" de luz piscando nas bordas de feixes e linhas. Use este ajuste para sincronizar o movimento e a cor. Veja [Painel de configurações de saída do laser](../setting-up/laser-settings.md "mention")
 
 As outras configurações avançadas de scanner são abordadas no capítulo [Avançado](../advanced/ "mention").
 
 ### Zoning
 
-Para um guia completo sobre configuração e zoning de lasers, veja: [Configuração de lasers](../setting-up/setting-up-lasers.md "mention")
+Para um guia completo sobre configuração de lasers e definição de zones, veja: [Visão geral do processo de configuração de lasers](../setting-up/setting-up-lasers.md "mention")

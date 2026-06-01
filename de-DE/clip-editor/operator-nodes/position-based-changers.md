@@ -49,7 +49,7 @@ Diese bestimmen, welche Aspekte der Farbanpassungen auf den Inhalt angewendet we
 
 **Verlaufseditor**
 
-Verwendet denselben Verlaufseditor wie [Colour Changer](colour-changer.md "mention"), ordnet den Verlauf aber anhand der Position über den Inhalt zu.
+Verwendet denselben Verlaufseditor wie [Farbe ändern](colour-changer.md "mention"), ordnet den Verlauf aber anhand der Position über den Inhalt zu.
 
 * Klicke auf die Verlaufsleiste, um einen Farbstopp hinzuzufügen.
 * Klicke mit der linken Maustaste auf einen Stopp, um ihn auszuwählen, und ziehe ihn dann seitlich, um ihn zu verschieben.

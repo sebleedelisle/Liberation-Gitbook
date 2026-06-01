@@ -16,7 +16,7 @@ metaLinks:
 
 Это также значит, что один и тот же контент можно настраивать под разные типы сканеров отдельно для каждого лазера, не изменяя сами Clips.
 
-Подробнее см. в разделе [Как Liberation генерирует лазерный контент](../../advanced/how-liberation-generates-laser-content.md)
+Подробнее см. в разделе [◼️ Как Liberation генерирует лазерный контент](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 Доступны три готовых _Render Profiles_: _DEFAULT_, _FAST_ и _DETAIL._
@@ -28,5 +28,5 @@ _**FAST**_ — если в Clip много контента и часть его
 _**DETAIL**_ — используйте этот вариант, если рисуете что-то, где нужны чёткие углы. Но имейте в виду: сканеры будут двигаться медленнее, из-за чего Output может сильнее мерцать.
 
 {% hint style="info" %}
-В Clip Editor можно назначать Creators разные Render Profiles, но каждый лазер будет обрабатывать эти профили в зависимости от своих настроек сканеров. См. [Пресеты сканеров](../../advanced/scanner-presets.md)
+В Clip Editor можно назначать Creators разные Render Profiles, но каждый лазер будет обрабатывать эти профили в зависимости от своих настроек сканеров. См. [◼️ Пресеты сканеров и Render Profiles](../../advanced/scanner-presets.md "mention")
 {% endhint %}

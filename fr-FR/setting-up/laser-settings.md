@@ -77,7 +77,7 @@ Utilisez ce réglage pour choisir un paramètre de scanner prédéfini. L’opti
 
 #### Colour calibration
 
-Vous pouvez utiliser ce système pour corriger la courbe de luminosité et la balance des blancs de votre laser. Voir [Étalonnage des couleurs](../advanced/colour-calibration.md "mention")
+Vous pouvez utiliser ce système pour corriger la courbe de luminosité et la balance des blancs de votre laser. Consultez [Étalonnage des couleurs](../advanced/colour-calibration.md "mention")
 
 #### Advanced settings
 

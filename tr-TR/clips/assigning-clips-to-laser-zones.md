@@ -28,4 +28,4 @@ Farklı ayna ayarları kullanmak için yeni bir zone oluşturmanız gerekmez. X 
 
 ### Aynı anda birden fazla Clip için zone atama
 
-Bir zone içindeki tüm Clips öğelerine zone atayabilir ve X/Y ayarlarını düzenleyebilirsiniz. Daha fazla bilgi için [Clip grupları](groups.md) bölümüne bakın.
+Bir zone içindeki tüm Clips öğelerine zone atayabilir ve X/Y ayarlarını düzenleyebilirsiniz. Daha fazla bilgi için [Clip grupları](groups.md "mention") bölümüne bakın.

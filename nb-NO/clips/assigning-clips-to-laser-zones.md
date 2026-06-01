@@ -28,4 +28,4 @@ Du trenger ikke å lage en ny sone for å ha andre speilinnstillinger. Flip-inns
 
 ### Tilordne soner til flere clips samtidig
 
-Du kan tilordne soner og justere X/Y for alle clips i en sone. Se [Clip-grupper](groups.md "mention") for mer informasjon.
+Du kan tilordne zones og justere X/Y for alle Clips i en zone. Se [Clip-grupper](groups.md "mention") for mer informasjon.

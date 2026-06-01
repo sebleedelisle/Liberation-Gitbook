@@ -17,7 +17,7 @@ Puoi configurare e visualizzare tutti i laser che vuoi in Liberation; i livelli 
 La configurazione predefinita include 8 laser distribuiti orizzontalmente, ma puoi personalizzarla come preferisci. Probabilmente ti conviene mantenere questa impostazione mentre prendi confidenza con il software; più avanti potrai adattarla alla tua configurazione hardware. (Vedi [Configurare il progetto](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Importante: prima di portare qualsiasi laser in stato armed, assicurati di comprendere i rischi e leggi con attenzione il capitolo [Configurare i laser](../setting-up/setting-up-lasers.md "mention").
+Importante: prima di portare qualsiasi laser in stato armed, assicurati di comprendere i rischi e leggi con attenzione il capitolo [Panoramica della configurazione dei laser](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Panoramica del software
@@ -140,7 +140,7 @@ Puoi scorrere il Clip Deck a sinistra e a destra usando:
 * Manopola di scroll dell’APC40
 * Pulsanti APC40 _<- DEVICE ->_
 
-Per aiutarti a orientarti, in alto c’è un mini visualiser del Clip Deck. Vedi anche [Clip e Clip deck](../clips/ "mention")
+Per aiutarti a orientarti, in alto c’è un mini visualiser del Clip Deck. Vedi anche [Clip e Clip Deck](../clips/ "mention")
 
 #### Avviare e fermare i Clips
 
@@ -300,7 +300,7 @@ Qui puoi scegliere quali Output dei laser vanno a quali laser controllers. Trasc
 Leggi il capitolo [Assegnazione controller](../setting-up/controller-assignment.md "mention") per maggiori dettagli.
 
 {% hint style="danger" %}
-Prima di portare qualsiasi laser in stato armed, assicurati di leggere il capitolo [Configurare i laser](../setting-up/setting-up-lasers.md "mention").
+Prima di portare qualsiasi laser in stato armed, assicurati di leggere il capitolo [Panoramica della configurazione dei laser](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Pannello Laser Settings
@@ -331,10 +331,10 @@ Se sei abituato a software laser più datati che si basano su point stream preca
 Le impostazioni scanner di base sono:
 
 * **Speed** è la velocità dello scanner, cioè quanto rapidamente il laser si muove per disegnare le forme. Equivale alla regolazione del point rate nei software laser tradizionali, ma in Liberation puoi modificare la velocità con cui si muove il laser _indipendentemente dal point rate_. Non dovresti avere bisogno di regolarla.
-* **Scanner sync** (a volte chiamato _blank shift_, in precedenza Colour Shift) Gli scanner muovono il laser molto rapidamente, ma di solito la variazione di luminosità e colore non è sincronizzata con il movimento. Questo si manifesta come piccole “code” di luce tremolanti ai bordi di beams e linee. Usa questa regolazione per sincronizzare movimento e colore. Vedi [Laser Settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (a volte chiamato _blank shift_, in precedenza Colour Shift) Gli scanner muovono il laser molto rapidamente, ma di solito la variazione di luminosità e colore non è sincronizzata con il movimento. Questo si manifesta come piccole “code” di luce tremolanti ai bordi di beams e linee. Usa questa regolazione per sincronizzare movimento e colore. Vedi [Pannello delle impostazioni di output laser](../setting-up/laser-settings.md "mention")
 
 Le altre impostazioni scanner avanzate sono trattate nel capitolo [Avanzate](../advanced/ "mention").
 
 ### Zoning
 
-Per una guida completa alla configurazione e allo zoning dei laser, vedi: [Configurare i laser](../setting-up/setting-up-lasers.md "mention")
+Per una guida completa alla configurazione e allo zoning dei laser, vedi: [Panoramica della configurazione dei laser](../setting-up/setting-up-lasers.md "mention")

@@ -25,4 +25,4 @@ Haz clic en _Download for Mac_ (los números de versión cambiarán con el tiemp
 
 Arrastra el icono de Liberation de la izquierda a la carpeta Applications de la derecha (puede que necesites una contraseña de administrador). Ahora puedes encontrar Liberation en tu carpeta Applications; haz doble clic para abrirlo.
 
-¡Liberation ya debería ejecutarse! Para enviar salida a los láseres, ahora tendrás que completar el [proceso de autorización.](authorising-and-de-authorising.md)
+¡Liberation ya debería ejecutarse! Para enviar salida a los láseres, tendrás que completar [Autorizar y desautorizar](authorising-and-de-authorising.md).

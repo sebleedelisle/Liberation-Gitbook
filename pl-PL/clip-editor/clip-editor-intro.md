@@ -37,7 +37,7 @@ Jeśli nie widzisz żadnego wyjścia w 3D Visualiser, może być konieczne użyc
 
 ### Tworzenie klipu
 
-Zwykle zaczyna się od jednego lub kilku [Węzły Creator](creator-nodes.md), a następnie łączy [Węzły operatorów](operator-nodes/) od lewej do prawej, aby przetwarzać treść. Gdy przesuwasz węzły Creator i/lub Operator blisko siebie, zauważysz, że automatycznie się łączą. Możesz je ponownie rozdzielić, przeciągając je od siebie.
+Zwykle zaczyna się od jednego lub kilku [node Creator](creator-nodes.md), a następnie łączy [node Operator](operator-nodes/) od lewej do prawej, aby przetwarzać zawartość. Gdy przesuwasz Creator i/lub Operator blisko siebie, zauważysz, że automatycznie się łączą. Możesz je ponownie rozłączyć, przeciągając je od siebie.
 
 ### Dodawanie węzłów do klipu
 

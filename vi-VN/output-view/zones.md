@@ -9,7 +9,7 @@ metaLinks:
 Loại zone chính bạn sẽ dùng cho hầu hết dự án là _Beam zone_. Đây là zone được thiết kế cho các hiệu ứng tia sáng trong không khí. Loại zone còn lại là _Canvas zone_ (Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**CẢNH BÁO - Hãy cực kỳ thận trọng khi di chuyển zones trong lúc máy laser đang chạy** và giảm độ sáng xuống mức thấp nhất có thể. Xem [Thiết lập laser](../setting-up/setting-up-lasers.md "mention") để biết hướng dẫn đầy đủ về cách kích hoạt và phân vùng laser an toàn
+**CẢNH BÁO - Hãy cực kỳ thận trọng khi di chuyển zones trong lúc máy laser đang chạy** và giảm độ sáng xuống mức thấp nhất có thể. Xem [Tổng quan quy trình thiết lập laser](../setting-up/setting-up-lasers.md "mention") để biết hướng dẫn đầy đủ về cách kích hoạt và phân vùng laser an toàn
 {% endhint %}
 
 Bạn có thể nhấp và kéo zones bằng chuột. Bật một test pattern để xem zone đó sẽ đi tới đâu.
@@ -19,7 +19,7 @@ Dùng các phím mũi tên để **dịch nhẹ** zone/điểm đang được ch
 {% endhint %}
 
 {% hint style="info" %}
-Mẹo hay: bạn có thể nhanh chóng sao chép thiết lập zone sang nhiều laser! Xem [Sao chép Laser Settings](../setting-up/copy-laser-settings.md "mention")
+Mẹo hay: bạn có thể nhanh chóng sao chép thiết lập zone sang nhiều laser! Xem [Sao chép thiết lập giữa các laser](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Thêm beam zone mới
@@ -47,7 +47,7 @@ Nhấp chuột phải vào bất kỳ zone nào để mở cài đặt của zon
 * Đặt lại về vị trí mặc định
 * Truy cập các cài đặt riêng cho từng kiểu hình dạng
 * Xóa zone
-* Thêm _Alt Zone_ (Xem [Hệ thống Alt Zone](alt-zone-system.md "mention"))
+* Thêm _Alt Zone_ (Xem [Hệ thống Alt zone](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **CẢNH BÁO -** hãy rất cẩn thận khi thay đổi kiểu zone trong lúc laser đang hoạt động. Zone sẽ quay về vị trí / kích thước gần nhất của hình dạng đó, nên đầu ra có thể thay đổi đột ngột. Tốt nhất là tắt laser trước khi thay đổi kiểu zone.

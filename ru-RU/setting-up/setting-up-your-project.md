@@ -13,12 +13,12 @@ metaLinks:
 
 1.  **Измените количество лазеров в проекте:**
 
-    В панели _Laser Overview_ нажмите красную кнопку справа, чтобы удалить лазер. Добавьте лазер кнопкой _ADD LASER_ внизу. См. также [Добавление и удаление лазеров](adding-removing-lasers.md "mention")
+В панели _Laser Overview_ нажмите красную кнопку справа, чтобы удалить лазер. Добавьте лазер кнопкой _ADD LASER_ внизу. См. также [Добавление и удаление лазеров](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Обновите вид 3D-визуализатора:**
 
-    Настройте положение и ориентацию каждого лазера в панели _3D Visualiser Settings_. См. [3D-визуализатор](3d-visualiser.md "mention").
+Настройте положение и ориентацию каждого лазера в панели _3D Visualiser Settings_. См. [3D-визуализатор](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Настройте zones:**\
@@ -26,7 +26,7 @@ metaLinks:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Измените zones для каждого Clip:**\
-Запустите каждый Clip, нажав его кнопку, затем включайте и отключайте zones, а также X и Y flip с помощью экранных кнопок. См. [Clips и Clip Deck](../clips/ "mention").
+Запустите каждый Clip, нажав его кнопку, затем включайте и отключайте zones, а также отражение по X и Y с помощью экранных кнопок. См. [Clips и Clip Deck](../clips/ "mention").
 
     \\
 
@@ -36,4 +36,4 @@ metaLinks:
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Активируйте лазеры и настройте для них zones:** внимательно следуйте инструкциям в разделе [Настройка лазеров](setting-up-lasers.md "mention")
+6. **Активируйте лазеры и настройте для них zones:** внимательно следуйте инструкциям в разделе [Обзор процесса настройки лазеров](setting-up-lasers.md "mention")

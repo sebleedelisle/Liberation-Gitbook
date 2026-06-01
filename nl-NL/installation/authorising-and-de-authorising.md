@@ -29,7 +29,7 @@ Als je al het maximale aantal computers voor je licentie hebt geautoriseerd, moe
 Als je meerdere licenties hebt, wordt je gevraagd de licentie te kiezen waaraan je de computer wilt koppelen.
 {% endhint %}
 
-Gefeliciteerd! Je Liberation-installatie is nu geautoriseerd en je kunt output naar lasers sturen. Lees wel eerst [Quickstartgids](../getting-started.md "mention") en [Overzicht van het instelproces voor lasers](../setting-up/setting-up-lasers.md "mention") voordat je je lasers voor output activeert.
+Gefeliciteerd! Je Liberation-installatie is nu geautoriseerd en je kunt output naar lasers sturen. Lees wel eerst de [Quickstartgids](../getting-started.md "mention") en het [Overzicht van het instelproces voor lasers](../setting-up/setting-up-lasers.md "mention") voordat je je lasers voor output activeert.
 
 {% hint style="info" %}
 Je kunt het _About panel_ op elk moment openen via het menu _Liberation -> About Liberation_ of _Liberation -> Authorise/Deauthorise this computer_

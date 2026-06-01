@@ -8,7 +8,7 @@
   * [✅ Hoe licenties werken](installation/how-licensing-works.md)
   * [✅ Autoriseren en de-autoriseren](installation/authorising-and-de-authorising.md)
   * [✅ Je licentie upgraden/downgraden](installation/upgrade-downgrade-your-license.md)
-* [✅ Je licentie opzeggen](installation/cancel-your-subscription.md)
+* [✅ Betalingen pauzeren of opzeggen](installation/cancel-your-subscription.md)
   * [🟩 Je content overzetten bij een upgrade naar een nieuwe versie](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
 * [✅ FAQ](faq.md)
 * [✅ Quickstartgids](getting-started.md)

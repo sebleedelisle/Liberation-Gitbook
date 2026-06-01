@@ -21,4 +21,4 @@ Chọn tùy chọn _Copy output zone settings_, sau đó nhấp vào nút _COPY 
 Lưu ý rằng quá trình này sẽ không thêm hoặc xóa zones khỏi các máy laser. Nó chỉ sao chép vị trí và loại zone cho từng zone đã tồn tại trong các máy laser đích.
 {% endhint %}
 
-Xem thêm [sao chép cài đặt laser](../setting-up/copy-laser-settings.md) để biết mô tả đầy đủ về các tính năng khác của hệ thống này.
+Xem thêm [Sao chép cài đặt giữa các laser](../setting-up/copy-laser-settings.md "mention") để biết mô tả đầy đủ về các tính năng khác của hệ thống này.

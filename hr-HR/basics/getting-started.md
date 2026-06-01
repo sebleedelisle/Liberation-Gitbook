@@ -17,14 +17,14 @@ U Liberation možete postaviti i vizualizirati koliko god lasera želite; licenc
 Zadana postavka ima 8 lasera raspoređenih vodoravno, ali to možete prilagoditi kako god želite. Vjerojatno je najbolje zadržati ovu zadanu postavku dok se upoznajete sa softverom, a poslije je možete prilagoditi svojoj hardverskoj konfiguraciji. (Pogledajte [Postavljanje projekta](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Važno: Prije nego što aktivirate bilo koji laser za izlaz, provjerite razumijete li povezane rizike i pažljivo prođite poglavlje [Postavljanje lasera](../setting-up/setting-up-lasers.md "mention").
+Važno: Prije nego što aktivirate bilo koji laser za izlaz, provjerite razumijete li povezane rizike i pažljivo prođite poglavlje [Pregled postupka postavljanja lasera](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Pregled softvera
 
 ### Sigurnosno isključivanje
 
-Kad god radite s laserima, pri ruci morate imati **hardversko tipkalo za hitno zaustavljanje** (pogledajte [Tipkala za hitno zaustavljanje i sigurnosne blokade](../hardware/emergency-stop-interlocks.md "mention")), ali ako želite manje hitno deaktivirati sve izlaze, možete upotrijebiti gumb _**DISARM ALL**_ ili tipku `Escape` (ili tipku _**SESSION**_ na APC40). Globalnu svjetlinu možete smanjiti i pomoću klizača na zaslonu ili glavnog fadera na APC40.
+Kad god radite s laserima, pri ruci morate imati **hardversko tipkalo za hitno zaustavljanje** (pogledajte [Hitno zaustavljanje / sigurnosne blokade](../hardware/emergency-stop-interlocks.md "mention")), ali ako želite manje hitno deaktivirati sve izlaze, možete upotrijebiti gumb _**DISARM ALL**_ ili tipku `Escape` (ili tipku _**SESSION**_ na APC40). Globalnu svjetlinu možete smanjiti i pomoću klizača na zaslonu ili glavnog fadera na APC40.
 
 ### Klizači
 
@@ -50,7 +50,7 @@ Niste sigurni čemu služi određeni gumb? Zadržite pokazivač miša iznad njeg
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-U izborniku se nalaze sve opcije za uvoz i izvoz datoteka te otvaranje panela. Ovdje se nalazi i opcija za autorizaciju računala vašom pretplatom (u _Liberation -> Authorise/Deauthorise this computer_).
+U izborniku se nalaze sve opcije za uvoz i izvoz datoteka te otvaranje panela. Ovdje se nalazi i opcija za autorizaciju računala vašom licencom (u _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Traka s ikonama
 
@@ -300,7 +300,7 @@ Ovdje možete odabrati koji laserski izlazi idu na koje laserske kontrolere. Pov
 Za više pojedinosti pročitajte poglavlje [Dodjela kontrolera](../setting-up/controller-assignment.md "mention").
 
 {% hint style="danger" %}
-Prije nego što aktivirate bilo koji laser za izlaz, obavezno prođite poglavlje [Postavljanje lasera](../setting-up/setting-up-lasers.md "mention").
+Prije nego što aktivirate bilo koji laser za izlaz, obavezno prođite poglavlje [Pregled postupka postavljanja lasera](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Panel Laser Settings
@@ -331,10 +331,10 @@ Ako ste navikli na stariji laserski softver koji se oslanja na unaprijed izraču
 Osnovne postavke skenera su:
 
 * **Speed** je brzina skenera, tj. koliko se brzo laser kreće dok crta oblike. To je ekvivalent podešavanju brzine točaka u tradicionalnom laserskom softveru, ali u Liberation možete mijenjati brzinu kretanja lasera _neovisno o brzini točaka._ Ovo obično ne biste trebali podešavati.
-* **Scanner sync** (ponekad poznato kao _blank shift_, prije _Colour Shift_) Skeneri pomiču laser vrlo brzo, ali promjena svjetline i boje obično nije sinkronizirana s kretanjem. To se vidi kao mali treperavi „repovi” svjetla na rubovima snopova i linija. Upotrijebite ovu postavku kako biste međusobno sinkronizirali kretanje i boju. Pogledajte [Laser Settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (ponekad poznato kao _blank shift_, prije _Colour Shift_) Skeneri pomiču laser vrlo brzo, ali promjena svjetline i boje obično nije sinkronizirana s kretanjem. To se vidi kao mali treperavi „repovi” svjetla na rubovima snopova i linija. Upotrijebite ovu postavku kako biste međusobno sinkronizirali kretanje i boju. Pogledajte [Panel s postavkama izlaza lasera](../setting-up/laser-settings.md "mention")
 
 Ostale napredne postavke skenera obrađene su u poglavlju [Napredno](../advanced/ "mention").
 
 ### Zoning
 
-Cjelovit vodič za postavljanje i zoning lasera potražite ovdje: [Postavljanje lasera](../setting-up/setting-up-lasers.md "mention")
+Cjelovit vodič za postavljanje i zone lasera potražite ovdje: [Pregled postupka postavljanja lasera](../setting-up/setting-up-lasers.md "mention")

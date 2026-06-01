@@ -9,7 +9,7 @@ metaLinks:
 
 ### Mely lézerek kompatibilisek a Liberationnel?
 
-Ha a lézered rendelkezik szabványos ILDA bemenettel, akkor használhatod a Liberationnel, egy kompatibilis lézervezérlővel együtt, például Ether Dream vagy Helios DAC használatával - [a teljes listát lásd alább](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers).
+Ha a lézered rendelkezik szabványos ILDA bemenettel, akkor használhatod a Liberationnel, egy kompatibilis lézervezérlővel együtt, például Ether Dream vagy Helios DAC használatával – lásd alább: [Kompatibilis lézervezérlők](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers).
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>A Helios DAC - a legolcsóbb megoldás otthoni használatra</p></figcaption></figure>
 

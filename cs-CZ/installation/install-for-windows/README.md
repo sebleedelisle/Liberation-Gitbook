@@ -13,13 +13,13 @@ Počítače s 64bitovým systémem Windows 10 nebo 11. Pokud chcete spouštět v
 
 ### Postup instalace
 
-Jakmile budete mít aktivní předplatné, dostanete odkaz, nebo můžete kliknout na odkaz _Download_ na stránce[ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Jakmile budete mít aktivní placenou licenci, dostanete odkaz, nebo můžete kliknout na _Download_ na stránce [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Zobrazí se tato stránka:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klikněte na _Download latest for Windows_ (čísla verzí se mohou změnit) a uvidíte indikátor průběhu stahování (obvykle vpravo nahoře, snímek obrazovky je z prohlížeče Chrome). Po dokončení otevřete stažené soubory a klikněte na stažený instalační soubor.
+Klikněte na _Download for Windows_ (čísla verzí se mohou změnit) a uvidíte indikátor průběhu stahování (obvykle vpravo nahoře, snímek obrazovky je z prohlížeče Chrome). Po dokončení otevřete stažené soubory a klikněte na stažený instalační soubor.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation potřebuje oprávnění k přístupu k souborům a k síti, takže Wi
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation by se teď měl spustit. Abyste mohli posílat výstup do laserů, pokračujte částí [Autorizace a zrušení autorizace](../authorising-and-de-authorising.md).
+Liberation by se teď měl spustit. Abyste mohli posílat výstup do laserů, je potřeba dokončit část [Autorizace a zrušení autorizace](../authorising-and-de-authorising.md).

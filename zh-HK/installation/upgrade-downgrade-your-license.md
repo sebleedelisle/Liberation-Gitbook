@@ -11,6 +11,8 @@ metaLinks:
 
 你亦可以隨時降級，但要到目前已付款期間結束後才會生效。
 
+當付款已排程暫停，或授權本身已暫停時，你不能更改方案。請先取消已排程的暫停，或重新啟動授權，然後再更改方案。
+
 登入網站，開啟 [_Your licences_](https://liberationlaser.com/account/my-products) 頁面，選擇你想更改的授權，然後按一下 _UPGRADE / DOWNGRADE_。之後你會看到適用於你授權的可用選項。
 
 <figure><img src="../.gitbook/assets/account-change-licence-plan.png" alt=""><figcaption></figcaption></figure>

@@ -17,14 +17,14 @@ W Liberation możesz skonfigurować i wizualizować dowolną liczbę laserów. P
 Domyślna konfiguracja zawiera 8 laserów rozmieszczonych poziomo, ale możesz dostosować ją do własnych potrzeb. Na początku najlepiej pozostawić ustawienia domyślne, a później dopasować je do swojej konfiguracji sprzętowej. Zobacz [Konfigurowanie projektu](../setting-up/setting-up-your-project.md "mention").&#x20;
 
 {% hint style="warning" %}
-Ważne: zanim ustawisz jakikolwiek laser w stan armed, upewnij się, że rozumiesz związane z tym ryzyko, i dokładnie przejdź przez rozdział [Konfigurowanie laserów](../setting-up/setting-up-lasers.md "mention").
+Ważne: zanim uzbroisz jakikolwiek laser, upewnij się, że rozumiesz związane z tym ryzyko, i dokładnie przejdź przez rozdział [Omówienie procesu konfiguracji laserów](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Omówienie oprogramowania
 
 ### Awaryjne wyłączenie
 
-Za każdym razem, gdy używasz laserów, musisz mieć pod ręką **sprzętowy przycisk awaryjnego zatrzymania** (zobacz [Zatrzymanie awaryjne / blokady bezpieczeństwa](../hardware/emergency-stop-interlocks.md "mention")). Jeśli jednak chcesz mniej pilnie przełączyć wszystko w stan disarmed, możesz użyć przycisku _**DISARM ALL**_, klawisza `Escape` albo klawisza _**SESSION**_ na APC40. Możesz też zmniejszyć Global Brightness za pomocą suwaka na ekranie albo głównego fadera na APC40.
+Za każdym razem, gdy używasz laserów, musisz mieć pod ręką **sprzętowy przycisk awaryjnego zatrzymania** (zobacz [Zatrzymanie awaryjne / blokady bezpieczeństwa](../hardware/emergency-stop-interlocks.md "mention")). Jeśli jednak chcesz mniej pilnie rozbroić wszystko, możesz użyć przycisku _**DISARM ALL**_, klawisza `Escape` albo klawisza _**SESSION**_ na APC40. Możesz też zmniejszyć Global Brightness za pomocą suwaka na ekranie albo głównego fadera na APC40.
 
 ### Suwaki i elementy sterujące
 
@@ -50,7 +50,7 @@ Nie wiesz, do czego służy dany przycisk? Najedź na niego kursorem myszy, aby 
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-W menu znajdziesz wszystkie opcje importu i eksportu plików oraz otwierania paneli. Tutaj znajduje się też opcja autoryzacji komputera w ramach subskrypcji: _Liberation -> Authorise/Deauthorise this computer_.
+W menu znajdziesz wszystkie opcje importu i eksportu plików oraz otwierania paneli. Tutaj znajduje się też opcja autoryzacji komputera w ramach licencji: _Liberation -> Authorise/Deauthorise this computer_.
 
 #### Pasek ikon
 
@@ -140,7 +140,7 @@ Clip Deck możesz przewijać w lewo i w prawo za pomocą:
 * pokrętła przewijania APC40;
 * przycisków APC40 _<- DEVICE ->_.
 
-Aby ułatwić orientację, u góry znajduje się miniwizualizator Clip Deck. Zobacz też [Clipy i Clip Deck](../clips/ "mention").
+Aby ułatwić orientację, u góry znajduje się miniwizualizator Clip Deck. Zobacz też [Clips i Clip Deck](../clips/ "mention").
 
 #### Uruchamianie i zatrzymywanie Clips
 
@@ -184,7 +184,7 @@ Zmienianie ustawień zone dla wszystkich Clips w grupie
 
 Na APC40 naciśnij przycisk grupy, a następnie _trzymając go wciśnięty_, użyj przycisków zone i X/Y, aby przełączyć ustawienia zone dla wszystkich Clips w tej grupie.
 
-Zobacz też [Grupy klipów](../clips/groups.md "mention").
+Zobacz też [Grupy Clip](../clips/groups.md "mention").
 
 ### Efekty
 
@@ -300,7 +300,7 @@ Tutaj możesz wybrać, które wyjścia laserowe trafiają do których laser cont
 Więcej informacji znajdziesz w rozdziale [Przypisywanie kontrolerów](../setting-up/controller-assignment.md "mention").
 
 {% hint style="danger" %}
-Zanim ustawisz jakikolwiek laser w stan armed, przejdź przez rozdział [Konfigurowanie laserów](../setting-up/setting-up-lasers.md "mention").
+Zanim uzbroisz jakikolwiek laser, przejdź przez rozdział [Omówienie procesu konfiguracji laserów](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Panel Laser Settings
@@ -331,10 +331,10 @@ Jeśli korzystasz ze starszego oprogramowania laserowego, które opiera się na 
 Podstawowe ustawienia skanerów to:
 
 * **Speed** to prędkość skanera, czyli szybkość, z jaką laser porusza się, aby rysować kształty. Odpowiada to regulacji point rate w tradycyjnym oprogramowaniu laserowym, ale w Liberation możesz zmieniać szybkość ruchu lasera _niezależnie od point rate_. Zwykle nie ma potrzeby zmieniać tego ustawienia.
-* **Scanner sync** (czasem znane jako _blank shift_, wcześniej Colour Shift) Skanery poruszają laserem bardzo szybko, ale zwykle zmiany jasności i koloru nie są zsynchronizowane z ruchem. Objawia się to małymi, migotliwymi „ogonami” światła na krawędziach wiązek i linii. Użyj tej regulacji, aby zsynchronizować ruch i kolor. Zobacz [Laser Settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (czasem znane jako _blank shift_, wcześniej Colour Shift) Skanery poruszają laserem bardzo szybko, ale zwykle zmiany jasności i koloru nie są zsynchronizowane z ruchem. Objawia się to małymi, migotliwymi „ogonami” światła na krawędziach wiązek i linii. Użyj tej regulacji, aby zsynchronizować ruch i kolor. Zobacz [Panel ustawień wyjścia lasera](../setting-up/laser-settings.md "mention")
 
 Pozostałe zaawansowane ustawienia skanerów omówiono w rozdziale [Zaawansowane](../advanced/ "mention").
 
 ### Zoning
 
-Pełny przewodnik po konfiguracji laserów i zoning znajdziesz tutaj: [Konfigurowanie laserów](../setting-up/setting-up-lasers.md "mention")
+Pełny przewodnik po konfiguracji laserów i zones znajdziesz tutaj: [Omówienie procesu konfiguracji laserów](../setting-up/setting-up-lasers.md "mention")

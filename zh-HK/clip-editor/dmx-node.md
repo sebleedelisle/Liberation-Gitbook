@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX 節點
 
-DMX 節點是一種特殊節點，讓你可以更精細地控制 DMX 燈具。詳情請參閱 [DMX](../dmx-control/)。
+DMX node 是一種特殊 node，讓你可以更精細地控制 DMX 燈具。詳情請參閱 [DMX / Art-Net](../dmx-control/ "mention")。
