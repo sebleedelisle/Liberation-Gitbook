@@ -200,6 +200,7 @@ Run the normal checks after translating:
 npm run check:english-style
 npm run check:spelling
 npm run check:translations:strict
+python3 scripts/check_link_texts.py --fix
 npm run check:links
 npm run build:site
 npm run check:generated-images
@@ -275,6 +276,7 @@ Translation PR branches are pushed by GitHub Actions. GitHub may not trigger the
 ```sh
 npm run check:english-style
 python3 scripts/check_translation_batch.py <tier> --strict
+python3 scripts/check_link_texts.py --fix
 npm run check:links
 npm run build:site
 npm run check:generated-images
