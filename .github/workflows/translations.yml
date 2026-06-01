@@ -144,6 +144,7 @@ jobs:
 
           npm run check:english-style
           python3 scripts/check_translation_batch.py "${args[@]}"
+          python3 scripts/check_link_texts.py --fix
           npm run check:links
           npm run build:site
           npm run check:generated-images
@@ -196,6 +197,7 @@ jobs:
           python3 scripts/run_translation_batch.py $TIER
           npm run check:english-style
           python3 scripts/check_translation_batch.py $TIER --strict
+          python3 scripts/check_link_texts.py --fix
           npm run check:links
           npm run build:site
           npm run check:generated-images
@@ -203,8 +205,15 @@ jobs:
           EOF
           )
 
-          if gh pr view "$BRANCH" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh pr edit "$BRANCH" \
+          open_pr="$(gh pr list \
+            --repo "$GITHUB_REPOSITORY" \
+            --state open \
+            --head "$BRANCH" \
+            --json number \
+            --jq '.[0].number // ""')"
+
+          if [[ -n "$open_pr" ]]; then
+            gh pr edit "$open_pr" \
               --repo "$GITHUB_REPOSITORY" \
               --title "$TITLE" \
               --body "$body"
