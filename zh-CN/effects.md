@@ -32,7 +32,7 @@ Clip 的 zone delay 如何被效果继承，这件事描述起来非常困难，
 
 #### 效果参数
 
-使用 _Parameter node_ 为效果添加参数。Parameter 系统可以让你从外部调整效果内部的多个设置。更多信息请参阅 [参数控制](clip-editor/oscillators/parameter-control.md "mention")。
+使用 _Parameter node_ 为效果添加参数。Parameter 系统可以让你从外部调整效果内部的多个设置。更多信息请参阅 [Parameter Control](clip-editor/oscillators/parameter-control.md "mention")。
 
 使用旋钮控制器 1-8 来调整每个效果的 _parameter_。或者右键单击效果按钮，并调整参数滑块。参数变化会执行什么操作，取决于该效果的设置方式。下面列出了默认效果以及它们的参数作用。
 

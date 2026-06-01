@@ -23,7 +23,7 @@ Unutar Liberation možete postaviti i vizualizirati koliko god lasera želite; r
 Zadana postavka ima 8 lasera raspoređenih vodoravno, ali to možete prilagoditi kako god želite. Vjerojatno je najbolje zadržati ovu zadanu postavku dok se upoznajete sa softverom, a kasnije je možete prilagoditi svojoj hardverskoj konfiguraciji. (Pogledajte [Postavljanje projekta](setting-up/setting-up-your-project.md "mention"))
 
 {% hint style="warning" %}
-Važno: prije nego što aktivirate bilo koji laser za izlaz, provjerite razumijete li povezane rizike i pažljivo prođite kroz poglavlje [Postavljanje lasera](setting-up/setting-up-lasers.md "mention").
+Važno: prije nego što aktivirate bilo koji laser za izlaz, provjerite razumijete li povezane rizike i pažljivo prođite kroz poglavlje [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Pregled softvera
@@ -56,7 +56,7 @@ Niste sigurni čemu služi određena tipka? Zadržite pokazivač miša iznad nje
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-U izborniku ćete pronaći sve opcije za uvoz i izvoz datoteka te za otvaranje panela. Ovdje ćete pronaći i opciju za autorizaciju računala s vašom pretplatom (u _Liberation -> Authorise/Deauthorise this computer_).
+U izborniku ćete pronaći sve opcije za uvoz i izvoz datoteka te za otvaranje panela. Ovdje ćete pronaći i opciju za autorizaciju računala s vašom licencom (u _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Traka s ikonama
 
@@ -168,7 +168,7 @@ Dva reda ispod tipki za zone nalaze se tipke za X/Y flip; uključite ih ili iskl
 Imajte na umu da su ove dodjele zone i postavke X/Y flip povezane sa samim Clip; zadržavaju se sljedeći put kada pokrenete taj Clip. Nisu globalna postavka.
 {% endhint %}
 
-Desnim klikom na Clip možete urediti više njegovih postavki. Pogledajte i [Postavke Clip](clips/clip-settings.md "mention")
+Desnim klikom na Clip možete urediti više njegovih postavki. Pogledajte i [Postavke za Clip](clips/clip-settings.md "mention")
 
 ### Grupe
 
@@ -306,7 +306,7 @@ Ovdje možete odabrati koji laser output ide na koji laserski kontroler. Povucit
 Za više pojedinosti pročitajte poglavlje [Dodjela kontrolera](setting-up/controller-assignment.md "mention").
 
 {% hint style="danger" %}
-Prije nego što aktivirate bilo koji laser za izlaz, obavezno prođite kroz poglavlje [Postavljanje lasera](setting-up/setting-up-lasers.md "mention").
+Prije nego što aktivirate bilo koji laser za izlaz, obavezno prođite kroz poglavlje [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Panel Laser output
@@ -337,10 +337,10 @@ Ako ste navikli na stariji laserski softver koji se oslanja na unaprijed izraču
 Osnovne postavke skenera su:
 
 * **Speed** je brzina skenera, tj. koliko se brzo laser kreće kako bi crtao oblike. To je ekvivalent podešavanju brzine točaka u tradicionalnom laserskom softveru, ali u Liberation možete mijenjati brzinu kretanja lasera _neovisno o brzini točaka._ Ovu postavku ne biste trebali morati podešavati.
-* **Scanner sync** (ponekad poznato kao _blank shift, prethodno Colour Shift_) Skeneri pomiču laser vrlo brzo, ali promjena svjetline i boje obično nije sinkronizirana s kretanjem. To se vidi kao mali treperavi "repovi" svjetla na rubu beam elemenata i linija. Ovom prilagodbom uskladite kretanje i boju. Pogledajte [Laser Settings](setting-up/laser-settings.md "mention")
+* **Scanner sync** (ponekad poznato kao _blank shift, prethodno Colour Shift_) Skeneri pomiču laser vrlo brzo, ali promjena svjetline i boje obično nije sinkronizirana s kretanjem. To se vidi kao mali treperavi "repovi" svjetla na rubu beam elemenata i linija. Ovom prilagodbom uskladite kretanje i boju. Pogledajte [Panel s postavkama laserskog izlaza](setting-up/laser-settings.md "mention")
 
 Ostale napredne postavke skenera obrađene su u poglavlju [Napredno](advanced/ "mention").
 
 ### Zoning
 
-Cijeli vodič za postavljanje lasera i zoning potražite ovdje: [Postavljanje lasera](setting-up/setting-up-lasers.md "mention")
+Cijeli vodič za postavljanje lasera i zone potražite ovdje: [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md "mention")

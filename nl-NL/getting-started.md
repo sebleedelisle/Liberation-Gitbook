@@ -146,7 +146,7 @@ Je kunt het clip deck naar links en rechts scrollen met:
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_-knoppen
 
-Om je te helpen oriënteren, staat er bovenaan een mini-visualiser van het clip deck. Zie ook [Clips & Clip Deck](clips/ "mention")
+Om je te helpen oriënteren, staat er bovenaan een mini-visualiser van het Clip Deck. Zie ook [Clips & Clip Deck](clips/ "mention")
 
 #### Clips starten en stoppen
 
@@ -337,9 +337,9 @@ Als je gewend bent aan oudere lasersoftware die afhankelijk is van vooraf bereke
 De basisinstellingen voor scanners zijn:
 
 * **Speed** is de scannersnelheid, dus hoe snel de laser beweegt om vormen te tekenen. Dit is vergelijkbaar met het aanpassen van de point rate in traditionele lasersoftware, maar in Liberation kun je wijzigen hoe snel de laser beweegt _onafhankelijk van de point rate._ Normaal hoef je dit niet aan te passen.
-* **Scanner sync** (soms bekend als _blank shift, previously Colour Shift_) De scanners bewegen de laser heel snel, maar meestal loopt de verandering in helderheid en kleur niet synchroon met de beweging. Dit zie je als kleine flikkerende "staarten" van licht aan de rand van beams en lijnen. Gebruik deze instelling om beweging en kleur met elkaar te synchroniseren. Zie [Paneel Laser output settings](setting-up/laser-settings.md "mention")
+* **Scanner sync** (soms bekend als _blank shift, eerder Colour Shift_) De scanners bewegen de laser heel snel, maar meestal loopt de verandering in helderheid en kleur niet synchroon met de beweging. Dit zie je als kleine flikkerende "staarten" van licht aan de rand van beams en lijnen. Gebruik deze instelling om beweging en kleur met elkaar te synchroniseren. Zie [Paneel Laser output settings](setting-up/laser-settings.md "mention")
 
-De andere geavanceerde scanner settings worden behandeld in het hoofdstuk [Geavanceerd](advanced/ "mention").
+De andere geavanceerde scannerinstellingen worden behandeld in het hoofdstuk [Geavanceerd](advanced/ "mention").
 
 ### Zoning
 

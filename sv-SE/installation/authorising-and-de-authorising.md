@@ -15,23 +15,21 @@ När du öppnar Liberation för första gången körs det i _free mode_ och du s
 
 Klicka på knappen _AUTHORISE ONLINE_ så öppnas din webbläsare. Om du inte redan är inloggad blir du ombedd att logga in nu.
 
-Systemet auktoriserar nu automatiskt din installation med din prenumeration, och du ser det här meddelandet:
-
-<figure><img src="../.gitbook/assets/authorisation-machine-added" alt=""><figcaption></figcaption></figure>
+Systemet auktoriserar nu automatiskt din installation med din licens, och du ser ett bekräftelsemeddelande.
 
 När du går tillbaka till Liberation ser du att _About panel_ har uppdaterats (du kan behöva vänta några sekunder).
 
 <figure><img src="../.gitbook/assets/authorise-about-panel-authorised" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Om du redan har auktoriserat det maximala antalet datorer för din prenumeration behöver du avauktorisera en av dina andra datorer eller uppgradera din prenumeration.
+Om du redan har auktoriserat det maximala antalet datorer för din licens behöver du avauktorisera en av dina andra datorer eller uppgradera din licens.
 {% endhint %}
 
 {% hint style="info" %}
-Om du har flera prenumerationer blir du ombedd att välja vilken prenumeration du vill tilldela datorn.
+Om du har flera licenser blir du ombedd att välja vilken licens du vill tilldela datorn.
 {% endhint %}
 
-Grattis! Din Liberation-installation är nu auktoriserad och du kan skicka output till lasrar! Men läs [Snabbstartsguide](../getting-started.md "mention") och [Översikt över hur du konfigurerar lasrar](../setting-up/setting-up-lasers.md "mention") innan du armerar dina lasrar.
+Grattis! Din Liberation-installation är nu auktoriserad och du kan skicka output till lasrar! Men läs [Snabbstartsguide](../getting-started.md "mention") och [Översikt över processen för laserkonfiguration](../setting-up/setting-up-lasers.md "mention") innan du armerar dina lasrar.
 
 {% hint style="info" %}
 Du kan öppna _About panel_ när som helst via menyn _Liberation -> About Liberation_ eller _Liberation -> Authorise/Deauthorise this computer_
@@ -43,10 +41,10 @@ Du kan öppna _About panel_ när som helst via menyn _Liberation -> About Libera
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.18.57.png" alt=""><figcaption></figcaption></figure>
 
-Alternativt kan du göra detta från webbplatsen – välj _Your subscriptions_ i menyn och klicka sedan på _Manage Subscription_ för att öppna din prenumerationssida. Där bör du se information om din prenumeration och en lista över de datorer du har auktoriserat.
+Alternativt kan du göra detta från webbplatsen. Välj _Your licences_ i menyn och klicka sedan på _MANAGE_ för den aktuella licensen. Om ditt konto bara har en licens tar _Your licences_ dig direkt till den licenssidan. Där bör du se information om din licens och en lista över de datorer du har auktoriserat.
+
+<figure><img src="../.gitbook/assets/account-your-licences.png" alt=""><figcaption></figcaption></figure>
 
 Klicka på länken _De-authorise_ bredvid den dator du vill avauktorisera
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-08-28 at 10.16.40.png" alt=""><figcaption></figcaption></figure>
-
-Om din dator inte har varit online sedan din senaste förnyelse avauktoriseras den omedelbart. Om den har varit online placeras datorn i kö för avauktorisering. Det betyder att avauktoriseringen sker automatiskt nästa gång datorn ansluts till internet, eller på ditt nästa förnyelsedatum, beroende på vilket som inträffar först.
+Om din dator inte har varit online sedan den senaste licensuppdateringen avauktoriseras den omedelbart. Om inte placeras datorn i kö för avauktorisering. Det betyder att avauktoriseringen sker automatiskt nästa gång datorn ansluts till internet, eller vid nästa datum för licensuppdatering, beroende på vilket som inträffar först.

@@ -89,7 +89,7 @@ Ez a funkció le van tiltva, ha az _MX Group_ beállítás értéke 0.
 
 Kattints jobb gombbal bármelyik effektre, majd kattints az _EDIT EFFECT_ gombra az effektszerkesztő megnyitásához. Láthatod, hogy ez a szerkesztő megegyezik a Clip Editor felületével.
 
-Az effektet ugyanúgy szerkesztheted, mint bármelyik klipet. Lásd: [A Clip Editor](clip-editor/ "mention").
+Az effektet ugyanúgy szerkesztheted, mint bármelyik Clip elemet. Lásd: [A Clip Editor](clip-editor/ "mention").
 
 Legalább egy creator node szükséges; ez bármi lehet (vonal, kör, alakzat, akár szöveg is), de érdemes olyat választani, ami az effektgomb előnézetében a legérthetőbb.
 

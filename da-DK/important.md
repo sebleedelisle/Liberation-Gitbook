@@ -10,7 +10,7 @@ metaLinks:
 
 **LASERE KAN VÆRE FARLIGE OG KAN FORÅRSAGE ØJEN- OG HUDSKADER. RET DEM IKKE MOD MENNESKER, DYR ELLER OP I HIMLEN. STATIONÆRE STRÅLER KAN BRÆNDE MATERIELLE GENSTANDE. SØRG FOR, AT BRANCHENS BEDSTE PRAKSIS OG LOKAL LOVGIVNING ALTID OVERHOLDES.**
 
-Følg [Setting up your lasers](setting-up/setting-up-lasers.md) for en sikker førstegangsopsætning.
+Følg [Oversigt over laseropsætningsprocessen](setting-up/setting-up-lasers.md) for en sikker førstegangsopsætning.
 
 Før du begynder at bruge lasere offentligt, skal du have sikkerhedstræning. I Storbritannien kan jeg anbefale [LVR Optical](https://www.lvroptical.com/laser-safety-training.html). Du har det fulde ansvar for at bruge Liberation sikkert!
 
@@ -21,4 +21,4 @@ PLASA har en gratis laser-sikkerhedsvejledning, som kan downloades, og som gener
 * Hold stråler væk fra publikums øjne: sigt over 3 m i publikumsområder; brug dæmpere/stråleblokke under positionering; sigt aldrig mod mennesker eller dyr.
 * Brug altid sikkerhedsinterlocks, nødstop og nøgleafbrydere – omgå dem aldrig, og tape dem aldrig fast.
 * Liberation håndhæver ikke MPE-grænser eller scan-fail-detektion; styr effekten, tilføj eksterne sikkerhedssystemer, og følg lokal lovgivning
-* Tjekliste ved første opstart: start med testmønstre ved laveste output, hold shutters lukkede, indtil du er klar, tænd én projektor ad gangen, og bekræft zones/masks, før du tilføjer flere. [Setting up your lasers](setting-up/setting-up-lasers.md).
+* Tjekliste ved første opstart: start med testmønstre ved laveste output, hold lukkere lukkede, indtil du er klar, tænd én projektor ad gangen, og bekræft zones/masks, før du tilføjer flere. [Oversigt over laseropsætningsprocessen](setting-up/setting-up-lasers.md).

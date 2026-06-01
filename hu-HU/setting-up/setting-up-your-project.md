@@ -13,12 +13,12 @@ A folyamat áttekintése:
 
 1.  **Módosítsd a projektben lévő lézerek számát:**
 
-    A _Laser Overview_ panelen kattints a jobb oldali piros gombra egy lézer törléséhez. Új lézert az alul található _ADD LASER_ gombbal adhatsz hozzá. Lásd még: [Lézerek hozzáadása / eltávolítása](adding-removing-lasers.md "mention")
+A _Laser Overview_ panelen kattints a jobb oldali piros gombra egy lézer törléséhez. Új lézert az alul található _ADD LASER_ gombbal adhatsz hozzá. Lásd még: [Lézerek hozzáadása / eltávolítása](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Frissítsd a 3D Visualiser nézetet:**
 
-    Állítsd be az egyes lézerek pozícióját és irányát a _3D Visualiser Settings_ panelen. Lásd: [3D Visualiser](3d-visualiser.md "mention").
+Állítsd be az egyes lézerek pozícióját és irányát a _3D Visualiser Settings_ panelen. Lásd: [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Állítsd be a zónákat:**\
@@ -36,4 +36,4 @@ Indítsd el az egyes Clip elemeket a gombjukra kattintva, majd a képernyőn meg
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Aktiváld és zónázd a lézereket:** Gondosan kövesd a [A lézerbeállítási folyamat áttekintése](setting-up-lasers.md "mention") útmutatót.
+6. **Aktiváld és rendeld zone elemekhez a lézereket:** Gondosan kövesd [A lézerbeállítási folyamat áttekintése](setting-up-lasers.md "mention") című útmutatót.

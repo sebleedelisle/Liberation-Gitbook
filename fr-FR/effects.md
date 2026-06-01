@@ -32,7 +32,7 @@ Je dirais même que c’est l’un des outils les plus amusants et créatifs int
 
 #### Paramètres d’effet
 
-Ajoutez un paramètre à votre effet avec un _Parameter node_. Le système Parameter permet d’ajuster depuis l’extérieur plusieurs réglages à l’intérieur de votre effet. Voir [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") pour plus d’informations.
+Ajoutez un paramètre à votre effet avec un _Parameter node_. Le système Parameter permet d’ajuster depuis l’extérieur plusieurs réglages à l’intérieur de votre effet. Voir [Contrôle des paramètres](clip-editor/oscillators/parameter-control.md "mention") pour plus d’informations.
 
 Utilisez les contrôleurs rotatifs 1 à 8 pour ajuster le _parameter_ de chaque effet. Vous pouvez aussi faire un clic droit sur le bouton d’effet et ajuster le ou les curseurs de paramètre. Le changement de paramètre produit des résultats différents selon la configuration de l’effet. Consultez la liste ci-dessous pour connaître les effets par défaut et l’action de leurs paramètres.
 
@@ -89,7 +89,7 @@ Cette fonctionnalité est désactivée si le réglage _MX Group_ est défini sur
 
 Faites un clic droit sur n’importe quel effet, puis cliquez sur le bouton _EDIT EFFECT_ pour ouvrir l’éditeur d’effet. Notez que cet éditeur est identique à l’éditeur de clip !
 
-Modifiez votre effet de la même manière que vous modifieriez n’importe quel clip. Voir [Le Clip Editor](clip-editor/ "mention").
+Modifiez votre effet de la même manière que vous modifieriez n’importe quel Clip. Voir [Le Clip Editor](clip-editor/ "mention").
 
 Vous devez avoir au moins un nœud de création ; cela peut être n’importe quoi (ligne, cercle, forme, même du texte !), mais il est préférable de choisir quelque chose qui a le plus de sens dans l’aperçu du bouton d’effet.
 

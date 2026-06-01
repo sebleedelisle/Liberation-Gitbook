@@ -9,7 +9,7 @@ metaLinks:
 
 ### 哪些激光可與 Liberation 兼容？
 
-如果你的激光設有標準 ILDA 輸入，就可以配合 Liberation 使用（另需兼容的激光控制器，例如 Ether Dream 或 Helios DAC——[請參閱下方完整清單](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)）。
+如果你的激光設有標準 ILDA 輸入，就可以配合 Liberation 使用（另需兼容的激光控制器，例如 Ether Dream 或 Helios DAC——請參閱下方的[兼容的激光控制器](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)）。
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC——家用最便宜的選擇</p></figcaption></figure>
 
@@ -78,4 +78,4 @@ metaLinks:
 
 如果你使用 Ether Dream，仍然可以把它們集中放在一起，並使用較長的 ILDA 線連接到激光；或者你可以把它們安裝在激光附近，然後使用較長的網絡線。
 
-最理想的設定，是把 Ether Dream（或其他控制器）直接安裝在激光內部（英國的 Rob at Stanwax Laser 可以代你處理）。
+最理想的配置，是把 Ether Dream（或其他控制器）直接安裝在激光內部（英國 Stanwax Laser 的 Rob 可以代你處理）。

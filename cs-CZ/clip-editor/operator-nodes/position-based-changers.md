@@ -49,7 +49,7 @@ Určují, které části barevných úprav se na obsah aplikují. Viz také: [Na
 
 **Editor gradientu**
 
-Používá stejný editor gradientu jako [Colour Changer](colour-changer.md "mention"), ale mapuje gradient na obsah podle pozice.
+Používá stejný editor gradientu jako [Změna barvy](colour-changer.md "mention"), ale mapuje gradient na obsah podle pozice.
 
 * Kliknutím na lištu gradientu přidáte barevný bod.
 * Kliknutím levým tlačítkem na bod jej vyberete; tažením do stran jej přesunete.

@@ -61,4 +61,4 @@ Liberation은 파일과 네트워크에 접근할 권한이 필요하므로 Wind
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-이제 Liberation이 실행됩니다. 레이저로 출력하려면 이제 [인증 과정](../authorising-and-de-authorising.md)을 진행해야 합니다.
+이제 Liberation이 실행됩니다. 레이저로 출력하려면 [인증 및 인증 해제](../authorising-and-de-authorising.md)를 완료해야 합니다.

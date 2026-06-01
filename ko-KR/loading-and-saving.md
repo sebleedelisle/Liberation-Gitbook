@@ -14,7 +14,7 @@ Liberation은 상태를 디스크에 지속적으로 저장합니다. 따라서 
 
 Project 파일은 현재 설정의 거의 모든 내용을 저장합니다. 포함되는 항목은 다음과 같습니다.
 
-* 아래 [불러오기와 저장](loading-and-saving.md#laser-settings-import-export "mention")에 자세히 설명된 모든 항목
+* 아래 [Laser Settings 가져오기/내보내기](loading-and-saving.md#laser-settings-import-export "mention")에 자세히 설명된 모든 항목
 * Clips, effects 및 group settings
 * 모든 timelines(오디오 및 비디오 미디어 제외)
 * Art-Net 설정
@@ -67,7 +67,7 @@ _Append Clip Deck_을 사용하면 내보낸 clip deck 파일의 clips를 현재
 현재 선택된 clips가 파일로 내보내집니다. Group settings와 effects는 저장되지 않고 clips만 저장됩니다. 현재 실행 중인 active clips는 함께 선택되어 있지 않으면 내보내지지 않습니다.
 
 {% hint style="info" %}
-clips를 선택하려면 Option/Alt - shift - click을 사용하세요(또는 lasso를 사용). 선택된 clips는 두꺼운 흰색 외곽선으로 구분할 수 있습니다. [Clip 시작 / 중지](clips/starting-stopping-clips.md "mention")를 참고하세요.
+Clip을 선택하려면 Option/Alt - shift - click을 사용하세요(또는 lasso를 사용). 선택된 Clip은 두꺼운 흰색 외곽선으로 구분할 수 있습니다. [Clip 시작 / 중지](clips/starting-stopping-clips.md "mention")를 참고하세요.
 {% endhint %}
 
 ### Effects 가져오기/내보내기

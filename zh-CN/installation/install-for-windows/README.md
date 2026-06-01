@@ -61,4 +61,4 @@ Liberation 需要访问文件和网络权限，因此 Windows 可能会显示一
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation 现在应该可以运行了！要输出到激光设备，还需要完成[授权流程](../authorising-and-de-authorising.md)。
+Liberation 现在应该可以运行了！要输出到激光设备，还需要完成[授权与取消授权](../authorising-and-de-authorising.md)。

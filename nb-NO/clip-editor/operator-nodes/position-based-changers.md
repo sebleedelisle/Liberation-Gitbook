@@ -49,7 +49,7 @@ Disse bestemmer hvilke deler av fargejusteringene som brukes på innholdet. Se o
 
 **Gradient editor**
 
-Bruker samme gradienteditor som [Colour Changer](colour-changer.md "mention"), men mapper gradienten over innholdet etter posisjon.
+Bruker samme gradienteditor som [Colour change](colour-changer.md "mention"), men mapper gradienten over innholdet etter posisjon.
 
 * Klikk på gradientlinjen for å legge til et fargestopp.
 * Venstreklikk på et stopp for å velge det, og dra det deretter sideveis for å flytte det.

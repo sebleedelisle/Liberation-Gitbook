@@ -37,7 +37,7 @@ Si no ves ninguna salida en el 3D Visualiser, puede que tengas que usar los boto
 
 ### Crear un Clip
 
-Normalmente empezarás con uno o varios [nodos Creator](creator-nodes.md) y conectarás [Nodos de operador](operator-nodes/) de izquierda a derecha para procesar el contenido. Al acercar Creator y/o Operator entre sí, verás que se conectan automáticamente. También puedes arrastrarlos para separarlos y desconectarlos de nuevo.
+Normalmente empezarás con uno o varios [nodes Creator](creator-nodes.md) y conectarás [nodes Operator](operator-nodes/) de izquierda a derecha para procesar el contenido. Al acercar Creator y/o Operator entre sí, verás que se conectan automáticamente. También puedes arrastrarlos para separarlos y desconectarlos de nuevo.
 
 ### Añadir nodos a tu Clip
 

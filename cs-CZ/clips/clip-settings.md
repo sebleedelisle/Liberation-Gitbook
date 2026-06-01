@@ -33,7 +33,7 @@ Když je Clip zamčený, nelze ho přesunout ani smazat. Clip zamknete pomocí z
 
 ### Nabídka po kliknutí pravým tlačítkem
 
-Když na Clip kliknete pravým tlačítkem, zobrazí se nabídka s některými možnostmi pro daný Clip. Více k prvním položkám v této nabídce najdete v částech [Úvod do Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Nastavení Clip](clip-settings.md "mention") a [Skupiny Clips](groups.md "mention").
+Když na Clip kliknete pravým tlačítkem, zobrazí se nabídka s některými možnostmi pro daný Clip. Více k prvním položkám v této nabídce najdete v částech [Úvod do prostředí Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Nastavení pro Clip](clip-settings.md "mention") a [Skupiny pro Clips](groups.md "mention").
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

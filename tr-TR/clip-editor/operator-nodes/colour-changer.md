@@ -28,7 +28,7 @@ Gelen tüm içeriğin renklerini değiştirir. Sabit HSB değerleri ayarlayabili
 * **blend** - renk değiştirmenin ne kadar güçlü uygulanacağını belirler. 0% hiç uygulanmaz, 100% tamamen uygulanır, 50% ise mevcut renk ile yeni değerlerin birleşimidir.
 
 {% hint style="info" %}
-Colour Change node, tüm giriş için gradyandan tek bir renk örnekler. Gradyanın konuma göre şeklin üzerine yayılmasını istiyorsanız bunun yerine [konuma dayalı değiştiriciler](position-based-changers.md "mention") kullanın.
+Colour Change node, tüm giriş için gradyandan tek bir renk örnekler. Gradyanın konuma göre şeklin üzerine yayılmasını istiyorsanız bunun yerine [Konuma dayalı değiştiriciler](position-based-changers.md "mention") kullanın.
 {% endhint %}
 
 ### Gradyan düzenleyici

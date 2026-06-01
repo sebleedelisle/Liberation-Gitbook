@@ -14,7 +14,7 @@ metaLinks:
 
 Ändere die horizontale und vertikale Position des Clips mit _Shift X_ und _Shift Y_.
 
-_Zone Delay/Chase_ ist ein so praktisches Feature, dass es einen eigenen Abschnitt bekommt: [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ ist ein so praktisches Feature, dass es einen eigenen Abschnitt bekommt: [Zone Delay / Chase](zone-delay-chase.md "mention")
 
 ### Parameters panel
 

@@ -28,5 +28,5 @@ _**FAST** -_ als je clip veel content bevat en een deel daarvan uit heel eenvoud
 _**DETAIL**_ - gebruik deze optie als je iets tekent dat scherpe hoeken nodig heeft. Houd er wel rekening mee dat je scanners langzamer bewegen, waardoor de output flikkeriger wordt.
 
 {% hint style="info" %}
-In de clip editor kun je creators aan verschillende render profiles toewijzen, maar elke laser verwerkt deze profielen afhankelijk van de scanner settings. Zie [◼️ Scannerpresets & renderprofielen](../../advanced/scanner-presets.md "mention")
+In de Clip Editor kun je Creators aan verschillende render profiles toewijzen, maar elke laser verwerkt deze profielen afhankelijk van de scanner settings. Zie [◼️ Scannerpresets & renderprofielen](../../advanced/scanner-presets.md "mention")
 {% endhint %}

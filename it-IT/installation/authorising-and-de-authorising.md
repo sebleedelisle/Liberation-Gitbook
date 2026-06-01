@@ -29,7 +29,7 @@ Se hai già autorizzato il numero massimo di computer previsto dalla tua licenza
 Se hai più licenze, ti verrà chiesto di scegliere la licenza a cui vuoi assegnare il computer.
 {% endhint %}
 
-Congratulazioni! La tua installazione di Liberation è ora autorizzata e puoi inviare l'output ai laser! Prima di armare i laser, però, leggi [Guida rapida](../getting-started.md "mention") e [Panoramica del processo di configurazione dei laser](../setting-up/setting-up-lasers.md "mention").
+Congratulazioni! La tua installazione di Liberation è ora autorizzata e puoi inviare l'output ai laser! Prima di armare i laser, però, leggi la [Guida rapida](../getting-started.md "mention") e la [Panoramica del processo di configurazione dei laser](../setting-up/setting-up-lasers.md "mention").
 
 {% hint style="info" %}
 Puoi aprire il _About panel_ in qualsiasi momento dal menu _Liberation -> About Liberation_ oppure _Liberation -> Authorise/Deauthorise this computer_

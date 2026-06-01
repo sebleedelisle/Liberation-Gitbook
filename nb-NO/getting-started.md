@@ -56,7 +56,7 @@ Usikker på hva en bestemt knapp gjør? Hold musepekeren over den for å få en 
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Menyen er stedet der du finner alle alternativer for import/eksport av filer og åpner paneler. Her finner du også valget for å autorisere datamaskinen med abonnementet ditt (i _Liberation -> Authorise/Deauthorise this computer_).
+Menyen er stedet der du finner alle alternativer for import/eksport av filer og åpner paneler. Her finner du også valget for å autorisere datamaskinen med lisensen din (i _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Ikonlinje
 

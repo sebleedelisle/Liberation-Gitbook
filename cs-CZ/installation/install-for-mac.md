@@ -13,16 +13,16 @@ macOS verze 12 (Monterey) a novější. Doporučujeme Apple Silicon, zejména po
 
 ### Postup instalace
 
-Jakmile budete mít aktivní předplatné, dostanete odkaz, nebo můžete kliknout na odkaz _Download_ na stránce [_My subscriptions_](https://liberationlaser.com/account/my-products).
+Jakmile budete mít aktivní placenou licenci, dostanete odkaz, nebo můžete kliknout na _Download_ na stránce [_Vaše licence_](https://liberationlaser.com/account/my-products).
 
 Zobrazí se tato stránka:
 
-<figure><img src="../.gitbook/assets/windows-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klikněte na _Download latest for Mac_ (čísla verzí se budou časem měnit) a instalační soubor DMG pro Liberation se uloží do složky Stažené soubory. Najděte soubor a otevřete ho dvojitým kliknutím.
+Klikněte na _Download for Mac_ (čísla verzí se budou časem měnit) a instalační soubor DMG pro Liberation se uloží do složky Stažené soubory. Najděte soubor a otevřete ho dvojitým kliknutím.
 
 <figure><img src="../.gitbook/assets/mac-dmg-window" alt="" width="375"><figcaption></figcaption></figure>
 
 Přetáhněte ikonu Liberation vlevo do složky Applications vpravo (možná budete potřebovat heslo správce). Liberation nyní najdete ve složce Applications; otevřete ho dvojitým kliknutím.
 
-Liberation by se teď měl spustit. Abyste mohli posílat výstup do laserů, postupujte podle části [Autorizace a zrušení autorizace](authorising-and-de-authorising.md).
+Liberation by se teď měl spustit. Abyste mohli posílat výstup do laserů, je potřeba dokončit [Autorizaci a zrušení autorizace](authorising-and-de-authorising.md).

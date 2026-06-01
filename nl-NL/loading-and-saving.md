@@ -14,7 +14,7 @@ Je kunt je setup daarnaast exporteren voor een back-up of om deze naar een ander
 
 Het projectbestand slaat bijna alles uit je huidige setup op, waaronder:
 
-* Alles wat hieronder wordt beschreven bij [Laden en opslaan](loading-and-saving.md#laser-settings-import-export "mention")
+* Alles wat hieronder wordt beschreven bij [Laser Settings importeren/exporteren](loading-and-saving.md#laser-settings-import-export "mention")
 * Clips, effecten en groepsinstellingen
 * Al je tijdlijnen (zonder audio- en videomedia)
 * Art-Net-setup
@@ -67,7 +67,7 @@ Je kunt clips uit een geëxporteerd Clip Deck-bestand aan je huidige project toe
 Alle clips die op dat moment geselecteerd zijn, worden naar een bestand geëxporteerd. Groepsinstellingen en effecten worden niet opgeslagen, alleen de clips. Let op: actieve clips die op dat moment afspelen, worden niet geëxporteerd tenzij ze ook geselecteerd zijn.
 
 {% hint style="info" %}
-Gebruik Option/Alt - shift - click op clips om ze te selecteren (of gebruik de lasso). Je herkent geselecteerde clips aan de dikke witte omlijning eromheen. Zie [Clips starten / stoppen](clips/starting-stopping-clips.md "mention")
+Gebruik Option/Alt - shift - click op Clips om ze te selecteren (of gebruik de lasso). Je herkent geselecteerde Clips aan de dikke witte omlijning eromheen. Zie [Clips starten / stoppen](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Effecten importeren/exporteren
@@ -82,7 +82,7 @@ Als je alleen de effecten uit een project wilt importeren, selecteer je _**Effec
 
 ### Tijdlijn exporteren
 
-Exporteer een tijdlijnbestand met één of meer tijdlijnen. Let op: de Clip Deck wordt altijd opgenomen in geëxporteerde tijdlijnbestanden (hoewel je kunt kiezen welke Clips je later weer importeert, zie [tijdlijn importeren](loading-and-saving.md#timeline-import "mention") hieronder).
+Exporteer een tijdlijnbestand met één of meer tijdlijnen. Let op: de Clip Deck wordt altijd opgenomen in geëxporteerde tijdlijnbestanden (hoewel je kunt kiezen welke Clips je later weer importeert, zie [tijdlijnen importeren](loading-and-saving.md#timeline-import "mention") hieronder).
 
 Als je projectbestand meer dan één tijdlijn bevat, wordt er een paneel geopend waarin je kunt selecteren welke tijdlijnen je wilt exporteren.
 

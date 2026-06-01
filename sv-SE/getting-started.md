@@ -23,7 +23,7 @@ Du kan konfigurera och visualisera så många lasrar du vill i Liberation. Licen
 Standardinställningen har 8 lasrar placerade horisontellt, men du kan anpassa detta hur du vill. Det är troligen bäst att behålla standardinställningen medan du lär känna programmet, och senare justera den så att den matchar din hårdvarukonfiguration. (Se [Ställa in ditt projekt](setting-up/setting-up-your-project.md "mention"))
 
 {% hint style="warning" %}
-Viktigt: Innan du armerar några lasrar måste du förstå riskerna och noggrant gå igenom kapitlet [Översikt över hur du konfigurerar lasrar](setting-up/setting-up-lasers.md "mention").
+Viktigt: Innan du armerar några lasrar måste du förstå riskerna och noggrant gå igenom kapitlet [Översikt över laserinställningsprocessen](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Översikt över programvaran
@@ -56,7 +56,7 @@ Osäker på vad en viss knapp gör? Håll muspekaren över den för att se en be
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-I menyn hittar du alla alternativ för import och export av filer samt för att öppna paneler. Här finns också alternativet för att auktorisera datorn med din prenumeration (under _Liberation -> Authorise/Deauthorise this computer_).
+I menyn hittar du alla alternativ för import och export av filer samt för att öppna paneler. Här finns också alternativet för att auktorisera datorn med din licens (under _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Icon bar
 
@@ -306,7 +306,7 @@ Här kan du välja vilka laser outputs som ska gå till vilka laser controllers.
 Läs kapitlet [Tilldela kontroller](setting-up/controller-assignment.md "mention") för mer information.
 
 {% hint style="danger" %}
-Innan du armerar några lasrar måste du gå igenom kapitlet [Översikt över hur du konfigurerar lasrar](setting-up/setting-up-lasers.md "mention").
+Innan du armerar några lasrar måste du gå igenom kapitlet [Översikt över laserinställningsprocessen](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser output-panel
@@ -343,4 +343,4 @@ De andra avancerade scanner-inställningarna behandlas i kapitlet [Avancerat](ad
 
 ### Zoning
 
-En fullständig guide till att konfigurera och zona lasrar finns här: [Översikt över hur du konfigurerar lasrar](setting-up/setting-up-lasers.md "mention")
+En fullständig guide till att konfigurera och zona lasrar finns här: [Översikt över laserinställningsprocessen](setting-up/setting-up-lasers.md "mention")

@@ -28,7 +28,7 @@ metaLinks:
 * **blend** - Colour change 套用的強度；0% 表示完全不套用，100% 表示完全套用，50% 則是現有顏色與新數值的混合。
 
 {% hint style="info" %}
-Colour Change node 會從漸層取樣一個色彩，並套用到整個輸入。如果你想讓漸層依位置沿著形狀分布，請改用 [依位置變更](position-based-changers.md "mention")。
+Colour Change node 會從漸層取樣一個色彩，並套用到整個輸入。如果你想讓漸層依位置沿著形狀分布，請改用[依位置變更](position-based-changers.md "mention")。
 {% endhint %}
 
 ### 漸層編輯器

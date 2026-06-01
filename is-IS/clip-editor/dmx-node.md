@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX node
 
-DMX node er sérstök tegund af node sem gerir þér kleift að stjórna DMX-búnaði af meiri nákvæmni. Sjá [DMX-stýring](../dmx-control/) til að fá frekari upplýsingar.
+DMX node er sérstök tegund af node sem gerir þér kleift að stjórna DMX-búnaði af meiri nákvæmni. Sjá [DMX / Art-Net](../dmx-control/ "mention") til að fá frekari upplýsingar.

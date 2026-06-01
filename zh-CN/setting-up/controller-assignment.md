@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ 控制器分配
 
-当你在 Liberation 中设置好激光后，就可以将每台激光分配到实际的激光控制器。（参见 [兼容的激光与控制器（DAC）](../hardware/compatible-lasers-and-controllers-dacs.md "mention") 以确认可用硬件）。控制器要么通过 USB 连接，要么通过网络连接。&#x20;
+当你在 Liberation 中设置好激光后，就可以将每台激光分配到实际的激光控制器。（参见 [兼容的激光与控制器（DAC）](../hardware/compatible-lasers-and-controllers-dacs.md "mention") 以确认可用硬件。）控制器要么通过 USB 连接，要么通过网络连接。
 
 * 通过菜单 _View -> Controller Assignment_ 打开 _Controller Assignment_ 面板。（也可以在 _Laser Overview_ 面板中点击 _ASSIGN LASER CONTROLLERS_ 按钮。）
 

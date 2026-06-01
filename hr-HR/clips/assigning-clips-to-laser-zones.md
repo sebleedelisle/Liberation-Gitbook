@@ -28,4 +28,4 @@ Ne morate izrađivati novu zone da biste imali različite postavke zrcaljenja. P
 
 ### Dodjeljivanje zones za više Clips odjednom
 
-Možete dodijeliti zones i prilagoditi X/Y za sve Clips u jednoj zone. Više informacija potražite u odjeljku [Clip grupe](groups.md).
+Možete dodijeliti zone i prilagoditi X/Y za svaki Clip unutar iste zone. Više informacija potražite u odjeljku [Clip grupe](groups.md "mention").

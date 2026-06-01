@@ -8,7 +8,7 @@ metaLinks:
 
 Todos estamos de acuerdo en que cuantos más láseres, más diversión; pero si todos hacen exactamente lo mismo, te estás perdiendo muchas posibilidades creativas.
 
-El sistema de Zone delay es un método sencillo pero muy eficaz para introducir variedad entre zonas y sacar mucho más partido a una configuración con varios láseres. También puede usarse para crear un efecto de chase más tradicional.
+El sistema de Zone delay es un método sencillo pero muy eficaz para introducir variedad entre zones y sacar mucho más partido a una configuración con varios láseres. También puede usarse para crear un efecto de chase más tradicional.
 
 #### Cómo funciona
 
@@ -39,7 +39,7 @@ El patrón funciona con los números de zona y presupone que tus zonas están or
 Zone delay también se aplica a cualquier efecto activo. Por ejemplo, un efecto de parpadeo se retrasará entre las zonas, además de la propia animación dentro del clip.
 {% endhint %}
 
-Cuando un clip tiene cualquier tipo de _Zone delay_, verás un icono de tres puntos en la esquina superior derecha del clip. Estos puntos están animados para mostrarte el estilo de _Zone delay_ de ese clip. Consulta [¿Qué son los pequeños iconos de los botones de clip?](what-are-the-small-icons-on-the-clip-buttons.md "mention") para obtener más detalles.
+Cuando un clip tiene cualquier tipo de _Zone delay_, verás un icono de tres puntos en la esquina superior derecha del clip. Estos puntos están animados para mostrarte el estilo de _Zone delay_ de ese clip. Consulta [¿Qué son los pequeños iconos de los botones de Clip?](what-are-the-small-icons-on-the-clip-buttons.md "mention") para obtener más detalles.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>El símbolo de tres puntos que indica que un clip tiene Zone delay y muestra su modo</p></figcaption></figure>
 

@@ -37,7 +37,7 @@ metaLinks:
 
 ### إنشاء Clip
 
-عادةً تبدأ بواحدة أو أكثر من [Creator nodes](creator-nodes.md)، ثم توصل [Operators](operator-nodes/) من اليسار إلى اليمين لمعالجة المحتوى. عند تقريب Creators و/أو Operators من بعضها، ستلاحظ أنها تتصل تلقائيًا. ويمكنك سحبها بعيدًا عن بعضها لفصلها مرة أخرى.
+عادةً تبدأ بواحدة أو أكثر من [Creator nodes](creator-nodes.md)، ثم توصل [Operator nodes](operator-nodes/) من اليسار إلى اليمين لمعالجة المحتوى. عند تقريب Creators و/أو Operator nodes من بعضها، ستلاحظ أنها تتصل تلقائيًا. ويمكنك سحبها بعيدًا عن بعضها لفصلها مرة أخرى.
 
 ### إضافة nodes إلى Clip
 
@@ -75,7 +75,7 @@ metaLinks:
 **معلومة ممتعة:** استُلهم اسم _Liberation_ من Moog Liberation، وهو مُركّب صوت من نوع "keytar" صدر عام 1980 واشتهر بفضل Herbie Hancock و Jean-Michel Jarre وحتى James Brown!
 {% endhint %}
 
-تحتوي Oscillators دائمًا على إعدادات _range_ تتحكم في الحد الأدنى والحد الأقصى لقيمة الخاصية التي سيتم ضبطها. وتحتوي _Wave Oscillators_ دائمًا على إعداد _duration_ يحدد مدى سرعة تغيير Oscillator للقيمة. راجع [Wave Oscillators](oscillators/wave-oscillators.md "mention") لمزيد من المعلومات.
+تحتوي Oscillators دائمًا على إعدادات _range_ تتحكم في الحد الأدنى والحد الأقصى لقيمة الخاصية التي سيتم ضبطها. وتحتوي _Wave Oscillators_ دائمًا على إعداد _duration_ يحدد مدى سرعة تغيير Oscillator للقيمة. راجع [Wave oscillators](oscillators/wave-oscillators.md "mention") لمزيد من المعلومات.
 
 ### لوحة Clip Editor
 

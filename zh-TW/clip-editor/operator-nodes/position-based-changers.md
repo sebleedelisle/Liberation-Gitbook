@@ -49,7 +49,7 @@ metaLinks:
 
 **漸層編輯器**
 
-使用與 [Colour Changer](colour-changer.md "mention") 相同的漸層編輯器，但會依位置將漸層映射到內容上。
+使用與 [色彩變更](colour-changer.md "mention") 相同的漸層編輯器，但會依位置將漸層映射到內容上。
 
 * 按一下漸層列即可新增色標。
 * 以滑鼠左鍵按一下色標可選取它，接著左右拖曳即可移動。

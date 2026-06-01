@@ -9,7 +9,7 @@ metaLinks:
 ほとんどのプロジェクトで主に使用するゾーンは _Beam zone_ です。これは、空中のアトモスフェリックなビームエフェクト用に設計されたゾーンです。もう 1 つのゾーンタイプは _Canvas zone_ です（[Graphics と Canvas システム](../graphics-and-the-canvas-system/ "mention") を参照）。
 
 {% hint style="danger" %}
-**警告 - レーザー動作中にゾーンを移動するときは、細心の注意を払い**、明るさを可能な限り低くしてください。レーザーを安全に有効化し、ゾーニングするための詳しい手順については、[Laser セットアップ手順の概要](../setting-up/setting-up-lasers.md "mention") を参照してください。
+**警告 - レーザー動作中に zone を移動するときは、細心の注意を払い**、明るさを可能な限り低くしてください。レーザーを安全に有効化し、ゾーニングするための詳しい手順については、[レーザーセットアップ手順の概要](../setting-up/setting-up-lasers.md "mention") を参照してください。
 {% endhint %}
 
 ゾーンはマウスでクリックしてドラッグできます。テストパターンをオンにすると、そのゾーンがどこに出力されるか確認できます。
@@ -19,12 +19,12 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-便利なヒント：複数のレーザー間でゾーン設定をすばやくコピーできます。[レーザー間で設定をコピーする](../setting-up/copy-laser-settings.md "mention") を参照してください。
+便利なヒント：複数のレーザー間で zone 設定をすばやくコピーできます。[レーザー間で設定をコピーする](../setting-up/copy-laser-settings.md "mention") を参照してください。
 {% endhint %}
 
 ### 新しい Beam zone を追加する
 
-ツールバー上部の _Add a new beam zone_ ボタンをクリックすると、新しいゾーンが表示されます。Beam zone は追加した順に並びますが、並べ替えることもできます。[ビームゾーンの並べ替え](re-ordering-beam-zones.md "mention") を参照してください。
+ツールバー上部の _Add a new beam zone_ ボタンをクリックすると、新しい zone が表示されます。beam zone は追加した順に並びますが、並べ替えることもできます。[beam zone の並べ替え](re-ordering-beam-zones.md "mention") を参照してください。
 
 ### 既存の Canvas zone を追加する
 

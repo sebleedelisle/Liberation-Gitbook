@@ -28,4 +28,4 @@ Bạn không cần tạo zone mới chỉ để có thiết lập gương khác 
 
 ### Gán zone cho nhiều Clip cùng lúc
 
-Bạn có thể gán zone và điều chỉnh X/Y cho tất cả Clip trong một zone. Xem [Nhóm](groups.md) để biết thêm thông tin.
+Bạn có thể gán zone và điều chỉnh X/Y cho tất cả Clip trong một zone. Xem [Nhóm Clip](groups.md "mention") để biết thêm thông tin.

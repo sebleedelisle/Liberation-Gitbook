@@ -21,4 +21,4 @@ _Copy output zone settings_ seçeneğini seçin, ardından işlemi tamamlamak i�
 Bu işlem lazerlere zone eklemez veya lazerlerden zone kaldırmaz. Yalnızca hedef lazerlerde mevcut olan her zone için konumu ve zone türünü kopyalar.
 {% endhint %}
 
-Bu sistemin diğer özelliklerinin tam açıklaması için ayrıca [lazer ayarlarını kopyalama](../setting-up/copy-laser-settings.md) sayfasına bakın.
+Bu sistemin diğer özelliklerinin tam açıklaması için ayrıca [Lazerler arasında ayar kopyalama](../setting-up/copy-laser-settings.md "mention") sayfasına bakın.

@@ -4,24 +4,24 @@ metaLinks:
     - >-
       https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/hardware/compatible-lasers-and-controllers-dacs
 ---
+
 # ✅ 兼容的激光与控制器（DAC）
 
 ### 哪些激光与 Liberation 兼容？
 
-如果你的激光具备标准 ILDA 输入，就可以与 Liberation 一起使用（需搭配兼容的激光控制器，如 Ether Dream 或 Helios DAC——[完整列表见下方](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)）。
+如果你的激光具备标准 ILDA 输入，就可以与 Liberation 一起使用（需搭配兼容的激光控制器，如 Ether Dream 或 Helios DAC——见下方[兼容的激光控制器](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)）。
+
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - 家用最便宜的选择</p></figcaption></figure>
 
-
 以下情况无需外部控制器或 ILDA 输入：
-* 你的激光内部安装了 Ether Dream，或
 
+* 你的激光内部安装了 Ether Dream，或
 * 你使用 Wicked Lasers 的 LaserCube，或
 * 你使用内置 Mercury 的 X-Laser 设备，或&#x20;
 * 你使用内置 AVB 控制器的 LaserAnimation Sollinger 激光（目前仅 macOS，处于测试阶段）
 
 {% hint style="info" %}
 #### 什么是激光控制器？
-
 
 激光控制器（或 DAC）是一种硬件设备，用于接收来自 Liberation 的数字数据并转换成控制扫描器与激光输出所需的模拟信号。（因此 DAC：Digital to Analog Converter。）
 

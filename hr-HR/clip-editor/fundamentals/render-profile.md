@@ -16,7 +16,7 @@ Za razliku od većine laserskog softvera, Liberation generira tok točaka u stva
 
 To također znači da isti sadržaj možete prilagoditi različitim vrstama skenera za svaki laser zasebno, bez potrebe za mijenjanjem samih Clips.
 
-Za više pojedinosti pogledajte [Kako Liberation generira laserski sadržaj](../../advanced/how-liberation-generates-laser-content.md)
+Za više pojedinosti pogledajte [◼️ Kako Liberation generira laserski sadržaj](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 Postoje tri unaprijed definirana _Render Profile_: _DEFAULT_, _FAST_ i _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ ako vaš Clip ima mnogo sadržaja, a dio njega čine vrlo jednostav
 _**DETAIL**_ - ako crtate nešto što zahtijeva oštre kutove, upotrijebite ovu opciju. Imajte na umu da će se skeneri kretati sporije, zbog čega izlaz može više treperiti.
 
 {% hint style="info" %}
-U Clip Editor možete dodijeliti Creators različitim Render Profile postavkama, ali svaki laser obrađuje te profile ovisno o svojim postavkama skenera. Pogledajte [Preseti skenera](../../advanced/scanner-presets.md)
+U Clip Editor možete dodijeliti Creators različitim render profilima, ali svaki laser obrađuje te profile ovisno o svojim postavkama skenera. Pogledajte [◼️ Preseti skenera i render profili](../../advanced/scanner-presets.md "mention")
 {% endhint %}

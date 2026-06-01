@@ -14,7 +14,7 @@ Modifiez la taille de sortie du Clip avec _Scale X_ et _Scale Y_. Ces deux param
 
 Modifiez la position horizontale et verticale du Clip avec _Shift X_ et _Shift Y_.
 
-_Zone Delay/Chase_ est une fonctionnalité tellement intéressante qu’elle a droit à sa propre section. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ est une fonctionnalité tellement intéressante qu’elle a droit à sa propre section. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Panneau Parameters
 

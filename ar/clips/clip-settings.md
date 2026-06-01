@@ -14,7 +14,7 @@ metaLinks:
 
 غيّر الموضع الأفقي والعمودي للـ Clip باستخدام _Shift X_ و _Shift Y_.
 
-تُعد _Zone Delay/Chase_ ميزة ممتعة بما يكفي لتستحق قسمًا خاصًا بها. [Zone Delay/Chase](zone-delay-chase.md "mention")
+تُعد _Zone Delay/Chase_ ميزة ممتعة بما يكفي لتستحق قسمًا خاصًا بها. [تأخير zone / المطاردة](zone-delay-chase.md "mention")
 
 ### لوحة Parameters
 
@@ -33,7 +33,7 @@ metaLinks:
 
 ### قائمة النقر بزر الماوس الأيمن
 
-إذا نقرت بزر الماوس الأيمن على Clip، ستظهر قائمة تحتوي على بعض الخيارات الخاصة بذلك Clip. راجع [مقدمة إلى Clip Editor](../clip-editor/clip-editor-intro.md "mention")، و[إعدادات Clip](clip-settings.md "mention")، و[المجموعات](groups.md "mention")لمزيد من المعلومات عن العناصر الأولى في هذه القائمة.
+إذا نقرت بزر الماوس الأيمن على Clip، ستظهر قائمة تحتوي على بعض الخيارات الخاصة بذلك Clip. راجع [مقدمة إلى Clip Editor](../clip-editor/clip-editor-intro.md "mention")، و[إعدادات Clip](clip-settings.md "mention")، و[مجموعات Clip](groups.md "mention") لمزيد من المعلومات عن العناصر الأولى في هذه القائمة.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

@@ -146,7 +146,7 @@ Você pode rolar o clip deck para a esquerda e para a direita usando:
 * Botão giratório de rolagem do APC40
 * Botões _<- DEVICE ->_ do APC40
 
-Para ajudar você a se orientar, há um minivisualizador do clip deck na parte superior. Veja também [Clips e Clip Deck](clips/ "mention")
+Para ajudar você a se orientar, há um minivisualizador do Clip Deck na parte superior. Veja também [Clips e Clip Deck](clips/ "mention")
 
 #### Iniciando e parando clips
 

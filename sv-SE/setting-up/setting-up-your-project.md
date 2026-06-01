@@ -13,12 +13,12 @@ Här är en översikt över processen:
 
 1.  **Ändra antalet lasrar i ditt projekt:**
 
-    I panelen _Laser Overview_ klickar du på den röda knappen till höger för att ta bort en laser. Lägg till en laser med knappen _ADD LASER_ längst ned. Se även [Lägga till / ta bort lasrar](adding-removing-lasers.md "mention")
+I panelen _Laser Overview_ klickar du på den röda knappen till höger för att ta bort en laser. Lägg till en laser med knappen _ADD LASER_ längst ned. Se även [Lägga till / ta bort lasrar](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Uppdatera vyn i 3D visualiser:**
 
-    Justera position och riktning för varje laser med panelen _3D Visualiser Settings_. Se [3D Visualiser](3d-visualiser.md "mention").
+Justera position och riktning för varje laser med panelen _3D Visualiser Settings_. Se [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Justera zonerna:**\
@@ -36,4 +36,4 @@ Trigga varje Clip genom att klicka på dess knapp och växla sedan zones samt X-
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Aktivera och zonindela dina lasrar:** Följ noggrant [Översikt över hur du konfigurerar lasrar](setting-up-lasers.md "mention")
+6. **Aktivera och zonindela dina lasrar:** Följ noggrant [Översikt över laserkonfigurationen](setting-up-lasers.md "mention")

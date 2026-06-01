@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Að búa til DMX zones
 
-1. Tengdu Art-Net node og settu hann upp í [Tengjast Art-Net node](../connecting-to-an-artnet-node.md "mention").
+1. Tengdu Art-Net node og settu hann upp í [◼️ Tengjast Art-Net node](../connecting-to-an-artnet-node.md "mention").
 2. Opnaðu **DMX Zones** og smelltu á **ADD DMX ZONE**.
 3. Stilltu **Node**, **Universe** og **Address** fyrir zone þannig að þau passi við búnaðinn.
 4. Veldu **Preset** fyrir búnaðinn. Forsniðið skilgreinir hvaða DMX-rásir fá föst gildi, gildi fyrir kveikt/slökkt á efni, RGB-lit, X/Y-staðsetningu, birtustig eða skýr DMX Value-inntök.

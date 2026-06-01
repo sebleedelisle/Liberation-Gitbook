@@ -13,12 +13,12 @@ Přehled postupu:
 
 1.  **Změňte počet laserů v projektu:**
 
-    V panelu _Laser Overview_ kliknutím na červené tlačítko vpravo laser odstraníte. Laser přidáte tlačítkem _ADD LASER_ dole. Viz také [Přidání a odebrání laserů](adding-removing-lasers.md "mention")
+V panelu _Laser Overview_ kliknutím na červené tlačítko vpravo laser odstraníte. Laser přidáte tlačítkem _ADD LASER_ dole. Viz také [Přidání a odebrání laserů](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Upravte zobrazení 3D vizualizéru:**
 
-    V panelu _3D Visualiser Settings_ upravte polohu a orientaci každého laseru. Viz [3D vizualizér](3d-visualiser.md "mention").
+V panelu _3D Visualiser Settings_ upravte polohu a orientaci každého laseru. Viz [3D vizualizér](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Upravte zones:**\
@@ -36,4 +36,4 @@ Každý Clip spusťte kliknutím na jeho tlačítko a potom pomocí tlačítek n
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Aktivujte své lasery a nastavte jejich zones:** Pečlivě postupujte podle části [Nastavení laserů](setting-up-lasers.md "mention")
+6. **Aktivujte lasery a nastavte jejich zones:** Pečlivě postupujte podle části [Přehled procesu nastavení laserů](setting-up-lasers.md "mention")

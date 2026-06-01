@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ Controller Assignment
 
-Liberation içinde lazerleri ayarladıktan sonra, her birini gerçek dünyadaki bir lazer denetleyicisine atayabilirsiniz. (Kullanabileceğiniz donanımları kontrol etmek için [uyumlu lazerler ve denetleyiciler (DAC’ler)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") bölümüne bakın.) Denetleyiciler USB üzerinden veya ağ üzerinden bağlanır.
+Liberation içinde lazerleri ayarladıktan sonra, her birini gerçek dünyadaki bir lazer denetleyicisine atayabilirsiniz. (Kullanabileceğiniz donanımları kontrol etmek için [Uyumlu lazerler ve denetleyiciler (DAC’ler)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") bölümüne bakın.) Denetleyiciler USB üzerinden veya ağ üzerinden bağlanır.
 
 * _View -> Controller Assignment_ menü seçeneğiyle _Controller Assignment_ panelini açın. (Alternatif olarak _Laser Overview_ panelindeki _ASSIGN LASER CONTROLLERS_ düğmesini de kullanabilirsiniz.)
 

@@ -13,12 +13,12 @@ Her er et overblik over processen:
 
 1.  **Skift antallet af lasere i dit projekt:**
 
-    I panelet _Laser Overview_ klikker du på den røde knap til højre for at slette en laser. Tilføj en laser med knappen _ADD LASER_ nederst. Se også [Tilføj / fjern lasere](adding-removing-lasers.md "mention")
+I panelet _Laser Overview_ klikker du på den røde knap til højre for at slette en laser. Tilføj en laser med knappen _ADD LASER_ nederst. Se også [Tilføj / fjern lasere](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Opdater visningen i 3D-visualiseringen:**
 
-    Juster hver lasers position og retning i panelet _3D Visualiser Settings_. Se [3D Visualiser](3d-visualiser.md "mention").
+Juster hver lasers position og retning i panelet _3D Visualiser Settings_. Se [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Juster zonerne:**\

@@ -49,7 +49,7 @@ Eles determinam quais aspectos dos ajustes de cor são aplicados ao conteúdo. V
 
 **Editor de gradiente**
 
-Usa o mesmo editor de gradiente de [Colour change](colour-changer.md "mention"), mas mapeia o gradiente pelo conteúdo com base na posição.
+Usa o mesmo editor de gradiente de [Alteração de cor](colour-changer.md "mention"), mas mapeia o gradiente pelo conteúdo com base na posição.
 
 * Clique na barra de gradiente para adicionar uma parada de cor.
 * Clique com o botão esquerdo em uma parada para selecioná-la e arraste-a para os lados para movê-la.

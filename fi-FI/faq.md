@@ -26,11 +26,11 @@ Liberation voi käyttää useita lasereita yhdellä tietokoneella. Sitä on test
 
 * tietokoneesi suoritin
 * verkon nopeus
-* tilauksesi tyyppi
+* lisenssitasosi
 
 #### **Mitä MIDI-ohjaimia voin käyttää?**
 
-Liberation on suunniteltu ja optimoitu suositun APC40 Mk2 MIDI -ohjaimen ympärille. Se toimii myös APC40 Mk1:n kanssa. Katso [Live-ohjaus APC40](midi-control/live-control-with-the-apc40.md "mention")
+Liberation on suunniteltu ja optimoitu suositun APC40 Mk2 MIDI -ohjaimen ympärille. Se toimii myös APC40 Mk1:n kanssa. Katso [Live MIDI -ohjaimet](midi-control/live-control-with-the-apc40.md "mention")
 
 Liberation tukee myös APC Miniä ja MIDI Fighter Twisteriä. APC40 Mk2 on edelleen kattavin referenssiohjain.
 
@@ -89,11 +89,19 @@ Huomaa, että voit määrittää, esikatsella ja suunnitella esityksiä niin mon
 
 #### **Voinko päivittää ylemmälle tasolle?**
 
-Voit päivittää ylemmälle tasolle milloin tahansa. Saat osittaisen hyvityksen nykyisen lisenssisi jäljellä olevasta ajasta, ja uusi tilauksesi alkaa heti. Katso [Päivitä / alenna lisenssisi tasoa](installation/upgrade-downgrade-your-license.md "mention")
+Voit päivittää ylemmälle tasolle milloin tahansa. Saat osittaisen hyvityksen nykyisen maksujaksosi jäljellä olevasta ajasta, ja uusi lisenssitasosi alkaa heti. Katso [Päivitä / alenna lisenssisi tasoa](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Voinko siirtyä alemmalle lisenssitasolle?**
 
-Voit siirtyä alemmalle tasolle milloin tahansa, mutta muutos tulee voimaan nykyisen lisenssikauden lopussa. Katso [Päivitä / alenna lisenssisi tasoa](installation/upgrade-downgrade-your-license.md "mention")
+Voit siirtyä alemmalle tasolle milloin tahansa, mutta muutos tulee voimaan nykyisen maksujaksosi lopussa. Katso [Päivitä / alenna lisenssisi tasoa](installation/upgrade-downgrade-your-license.md "mention")
+
+#### **Voinko keskeyttää lisenssini maksut?**
+
+Kyllä. Lisenssin voi keskeyttää seuraavasta tilauspäivästä alkaen ja käynnistää uudelleen milloin tahansa. Tämä on hyödyllistä, jos käytät ohjelmistoa jaksoittain, eikä sinun tarvitse syöttää korttitietojasi uudelleen. Katso [Keskeytä tai peruuta maksut](installation/cancel-your-subscription.md "mention")
+
+#### **Miten peruutan lisenssini pysyvästi?**
+
+Voit peruuttaa toistuvasti veloitettavan lisenssisi milloin tahansa, ja se poistuu automaattisesti käytöstä nykyisen maksujakson lopussa. Katso [Keskeytä tai peruuta maksut](installation/cancel-your-subscription.md "mention")
 
 #### **Miten valtuutan tietokoneeni lisenssilläni?**
 
@@ -101,19 +109,15 @@ Kun olet ostanut lisenssin, voit valtuuttaa tietokoneen suoraan Liberation-ohjel
 
 #### **Kuinka usein tietokone on yhdistettävä internetiin?**
 
-Aina kun lisenssi uusiutuu, Liberation on yhdistettävä internetiin, jotta sen sisäinen lisenssi voidaan päivittää. Kuukausittain uusiutuvalla maksulla yhteys tarvitaan joka kuukausi.
+Aina kun toistuvasti veloitettava lisenssi uusiutuu onnistuneesti, Liberation on yhdistettävä internetiin, jotta sen sisäinen lisenssi voidaan päivittää. Kuukausittain automaattisesti uusiutuva lisenssi edellyttää siis yhteyttä joka kuukausi.
 
-#### **Mitä tapahtuu, jos en voi yhdistää tietokonetta internetiin uusimisen jälkeen?**
+#### **Mitä tapahtuu, jos en voi yhdistää tietokonetta internetiin seuraavan maksun jälkeen?**
 
-Liberation antaa 7 päivän lisäajan lisenssin uusiutumisen jälkeen, jotta voit yhdistää internetiin ja päivittää sen sisäisen lisenssin. Tämän jälkeen Liberation palaa _Free_-tilaan.
+Kuukausittain toistuvasti veloitettavissa lisensseissä Liberation antaa yleensä 7 päivän lisäajan maksullisen lisenssin uusiutumisen jälkeen, jotta voit yhdistää internetiin ja päivittää sen sisäisen lisenssin. Tämän jälkeen Liberation palaa _Free_-tilaan.
 
 #### **Mitä tapahtuu, jos luottokorttini vanhenee?**
 
-Saat sähköposti-ilmoituksen maksupalveluntarjoajaltamme, ja sinun täytyy päivittää maksutapasi. Kirjaudu verkkosivustolle ja käytä tilaussivun _Update payment details_ -linkkiä.
-
-#### **Miten peruutan uusiutuvan lisenssini?**
-
-Kirjaudu verkkosivustolle, avaa _Your subscriptions_ -sivu, valitse peruutettava tilaus ja napsauta sitten _Cancel Subscription_ -linkkiä. Voit jatkaa Liberationin käyttöä lisenssikauden loppuun asti.
+Saat sähköposti-ilmoituksen maksupalveluntarjoajaltamme, ja sinun täytyy päivittää korttitietosi. Kirjaudu verkkosivustolle ja käytä lisenssisivun _UPDATE CARD DETAILS_ -toimintoa tai _Billing and payments_ -kohdan _Update_-toimintoa. Tämä on tehtävä lisäajan kuluessa, jotta et menetä maksullisten ominaisuuksien käyttöoikeutta.
 
 #### **Kuinka monelle tietokoneelle voin asentaa Liberationin?**
 
@@ -131,9 +135,9 @@ Voit myös poistaa valtuutuksen etänä tietokoneelta, johon sinulla ei enää o
 
 #### **Voinko poistaa Liberationin valtuutuksen tietokoneelta, joka on kadonnut tai varastettu?**
 
-Voit poistaa tietokoneen valtuutuksen verkkosivuston kautta. Jos kyseinen Liberation-asennus ei ole ollut verkossa viimeisimmän uusimisen jälkeen, tämä voidaan tehdä heti.
+Voit poistaa tietokoneen valtuutuksen verkkosivuston kautta. Jos kyseinen Liberation-asennus ei ole ollut verkossa viimeisimmän lisenssipäivityksen jälkeen, tämä voidaan tehdä heti.
 
-Muussa tapauksessa valtuutuksen poisto tulee voimaan, kun tilaus uusiutuu tai kun tietokone muodostaa yhteyden internetiin, sen mukaan kumpi tapahtuu ensin. Jos sinun täytyy kiireellisesti valtuuttaa uusi tietokone uudelleen, ota yhteyttä tukeen.
+Muussa tapauksessa valtuutuksen poisto tulee voimaan, kun lisenssi seuraavan kerran päivittyy tai kun tietokone muodostaa yhteyden internetiin, sen mukaan kumpi tapahtuu ensin. Jos sinun täytyy kiireellisesti valtuuttaa uusi tietokone uudelleen, ota yhteyttä tukeen.
 
 ### Liberationin käyttö
 
@@ -143,7 +147,7 @@ Katso [Projektin määrittäminen](setting-up/setting-up-your-project.md "mentio
 
 #### Voinko kopioida zone-asetukset yhdeltä laserilta muille?
 
-Kyllä. Katso [Kopioi alueita lasereiden välillä](output-view/copy-zones-between-lasers.md "mention")
+Kyllä. Katso [Kopioi zone-asetukset lasereiden välillä](output-view/copy-zones-between-lasers.md "mention")
 
 #### Voinko kirjoittaa numeron liukusäätimen käyttämisen sijaan?
 
@@ -181,7 +185,7 @@ Napsauta ja vedä samalla, kun pidät `Alt / Option`-näppäintä painettuna. Ka
 
 #### Miten poistan clippejä?
 
-Napsauta ja vedä ne pois clip deckiltä. Katso myös [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md "mention")
+Napsauta ja vedä ne pois Clip Deckistä. Katso myös [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md "mention")
 
 #### Miten teen monivalinnan, poistan, yhdistän clip deckejä jne.?
 
@@ -189,4 +193,4 @@ Katso [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md "mention"
 
 #### Mitä clipissä oleva pieni mikrofonisymboli ja muut kuvakkeet tarkoittavat?
 
-Ne osoittavat, että clip käyttää ääni- tai MIDI-syötettä, ja kolme pistettä osoittavat, että käytössä on zone-viive. Katso [Mitä clip-painikkeiden pienet kuvakkeet tarkoittavat?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+Ne osoittavat, että Clip käyttää ääni- tai MIDI-syötettä, ja kolme pistettä osoittavat, että käytössä on zone-viive. Katso [Mitä Clip-painikkeiden pienet kuvakkeet tarkoittavat?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

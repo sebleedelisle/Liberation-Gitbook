@@ -49,7 +49,7 @@ Ove postavke određuju koji se aspekti prilagodbi boje primjenjuju na sadržaj. 
 
 **Uređivač gradijenta**
 
-Koristi isti uređivač gradijenta kao [Colour change](colour-changer.md "mention"), ali mapira gradijent preko sadržaja prema položaju.
+Koristi isti uređivač gradijenta kao [Promjena boje](colour-changer.md "mention"), ali mapira gradijent preko sadržaja prema položaju.
 
 * Kliknite traku gradijenta za dodavanje točke boje.
 * Lijevim klikom odaberite točku, zatim je povucite bočno za pomicanje.

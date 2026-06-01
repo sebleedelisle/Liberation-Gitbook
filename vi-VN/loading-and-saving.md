@@ -67,7 +67,7 @@ Bạn có thể thêm Clip từ một file Clip Deck đã xuất vào dự án h
 Mọi Clip đang được chọn sẽ được xuất vào một file. Cài đặt nhóm và hiệu ứng sẽ không được lưu, chỉ lưu Clip. Lưu ý rằng các Clip đang chạy sẽ không được xuất, trừ khi chúng cũng đang được chọn.
 
 {% hint style="info" %}
-Option/Alt - shift - click vào Clip để chọn chúng (hoặc dùng lasso). Bạn có thể nhận biết Clip nào đang được chọn bằng viền trắng dày xung quanh Clip đó. Xem [Bắt đầu và dừng Clips](clips/starting-stopping-clips.md "mention")
+Option/Alt - shift - click vào Clip để chọn chúng (hoặc dùng lasso). Bạn có thể nhận biết Clip nào đang được chọn bằng viền trắng dày xung quanh Clip đó. Xem [Bắt đầu / dừng Clip](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Nhập / xuất hiệu ứng

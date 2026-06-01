@@ -26,7 +26,7 @@ Node Randomise je základem efektu Randomise!
 
 Vytváří ozvěny vašeho obsahu – za pohybujícím se originálem zanechává kopie, které postupně mizí nebo mění měřítko.
 
-* **change render profile for trail** – pokud je zapnuto, všechny kopie trailu použijí vybraný **render profile**. _Viz_ [Render profile](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – pokud je zapnuto, všechny kopie trail použijí vybraný **render profile**. _Viz_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – profil použitý pro kopie trailu, když je přepínač výše zapnutý. Často se používá, když je hlavní obsah nastavený na **DETAIL**, ale ozvěny se vykreslují jako **FAST**. Hlavní tvary tak zůstanou detailní, zatímco traily se vykreslují efektivněji.
 * **delay** – nastavuje rozestup mezi kopiemi trailu v hudebním čase, měřený v **krocích po 1/64 noty**.\
   Pro orientaci:

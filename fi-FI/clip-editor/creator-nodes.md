@@ -10,7 +10,7 @@ metaLinks:
 
 Tekee yksittäisen pisteen / säteen.
 
-* **Render profile** - katso [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - katso [Render profile](fundamentals/render-profile.md "mention")
 * **Colour** - pisteen väri. Katso [Väriasetukset ja HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- ja **y**-sijainti - katso [Koordinaatisto](fundamentals/co-ordinate-system.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - katso [Täytöt, maskit ja syvyyslajittelu](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -19,7 +19,7 @@ Tekee yksittäisen pisteen / säteen.
 
 Tekee viivan / tason.
 
-* **Render profile** - katso [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - katso [Render profile](fundamentals/render-profile.md "mention")
 * **Size** - viivan pituus
 * **Colour** - viivan väri. Katso [Väriasetukset ja HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- ja **y**-sijainti - katso [Koordinaatisto](fundamentals/co-ordinate-system.md "mention")
@@ -32,7 +32,7 @@ Tekee viivan / tason.
 
 Tekee ympyrän / kartion.
 
-* **Render profile** - katso [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - katso [Render profile](fundamentals/render-profile.md "mention")
 * **radius** - ympyrän säde
 * **Colour** - ympyrän väri. Katso [Väriasetukset ja HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- ja **y**-sijainti - katso [Koordinaatisto](fundamentals/co-ordinate-system.md "mention")
@@ -44,7 +44,7 @@ Tekee ympyrän / kartion.
 
 Tekee säännöllisen monikulmion, kuten kolmion, neliön tai viisikulmion.
 
-* **Render profile** - katso [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - katso [Render profile](fundamentals/render-profile.md "mention")
 * **size** - etäisyys keskeltä kuhunkin kulmaan
 * **Colour** - monikulmion väri. Katso [Väriasetukset ja HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- ja **y**-sijainti - katso [Koordinaatisto](fundamentals/co-ordinate-system.md "mention")
@@ -70,7 +70,7 @@ Kun SVG on ladattu, sisältö muunnetaan ja tallennetaan clipin sisään. Siksi 
 * **Use fills as masks** - käsittelee kaikki täytetyt muodot maskeina, eli mustalla täytettyinä. Tämä asetetaan automaattisesti, jos SVG:ssä on täytettyjä muotoja. Jos täytettyjä muotoja ei ole, asetus poistetaan käytöstä. Katso [Täytöt, maskit ja syvyyslajittelu](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - jos SVG:n muodoissa ei ole ääriviivaa, niitä ei voida piirtää! Tämä asetus lisää ääriviivan (eli _stroke_) kaikkiin täytettyihin muotoihin. Jos SVG:ssä ei ole lainkaan viivallisia muotoja, asetus otetaan käyttöön automaattisesti. Jos siinä ei ole täytettyjä muotoja, asetus poistetaan käytöstä.
 * **Invert black lines** - jos kaikki SVG:n viivat ovat mustia, niitä ei näy! Tämä asetus muuttaa ne valkoisiksi. Asetus otetaan käyttöön automaattisesti, jos SVG:ssä on vain mustia muotoja, mutta se poistetaan käytöstä, jos mustia muotoja ei ole.
-* **Render profile** - katso [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - katso [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - säätää SVG:n kokoa. Tämä lasketaan automaattisesti, kun SVG ladataan (jotta kuva varmasti näkyy), mutta arvoa voi myöhemmin muokata käsin.
 * **x**- ja **y**-sijainti - katso [Koordinaatisto](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - kuvan kiertokulma asteina
@@ -90,7 +90,7 @@ Kun SVG-sarja on ladattu, sisältö muunnetaan ja tallennetaan clipin sisään. 
 * **Use fills as masks** - käsittelee kaikki täytetyt muodot maskeina, eli mustalla täytettyinä. Tämä asetetaan automaattisesti, jos jossakin SVG:ssä on täytettyjä muotoja. Jos missään ei ole täytettyjä muotoja, asetus poistetaan käytöstä. Katso [Täytöt, maskit ja syvyyslajittelu](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - jos SVG:iden muodoissa ei ole ääriviivoja, niitä ei voida piirtää! Tämä asetus lisää ääriviivan (eli _stroke_) kaikkiin täytettyihin muotoihin. Jos SVG:issä ei ole lainkaan viivallisia muotoja, asetus otetaan käyttöön automaattisesti. Jos yhdessäkään ei ole täytettyjä muotoja, asetus poistetaan käytöstä.
 * **Invert black lines** - jos kaikki SVG:iden viivat ovat mustia, niitä ei näy! Tämä asetus muuttaa ne valkoisiksi. Asetus otetaan käyttöön automaattisesti, jos SVG:issä on vain mustia muotoja, mutta se poistetaan käytöstä, jos mustia muotoja ei ole.
-* **Render profile** - katso [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - katso [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - säätää kuvan kokoa.
 * **x**- ja **y**-sijainti - katso [Koordinaatisto](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - kuvan kiertokulma asteina
@@ -116,7 +116,7 @@ Luo tekstiä TrueType- tai OpenType-fontilla.
 Voit lisätä Liberationiin fontteja kopioimalla .ttf- tai .otf-tiedostot Liberation-työkansion sisällä olevaan `data/fonts`-kansioon ja käynnistämällä sitten Liberationin uudelleen.
 {% endhint %}
 
-* **Render profile** - katso [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - katso [Render profile](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - valitse tekstin tasaus: _LEFT_, _CENTRE_ tai _RIGHT_.
 * **Fill state** - katso [Täytöt, maskit ja syvyyslajittelu](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - tekstin koko

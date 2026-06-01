@@ -10,7 +10,7 @@ metaLinks:
 
 Cria um único ponto / feixe.
 
-* **Render profile** - consulte [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - consulte [Perfil de renderização](fundamentals/render-profile.md "mention")
 * **Colour** - a cor do ponto. Consulte [Configurações de cor e HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * posição **x** e **y** - consulte [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - consulte [Preenchimentos, máscaras e ordenação por profundidade](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -19,7 +19,7 @@ Cria um único ponto / feixe.
 
 Cria uma linha / plano.
 
-* **Render profile** - consulte [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - consulte [Perfil de renderização](fundamentals/render-profile.md "mention")
 * **Size** - o comprimento da linha
 * **Colour** - a cor da linha. Consulte [Configurações de cor e HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * posição **x** e **y** - consulte [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
@@ -32,7 +32,7 @@ Cria uma linha / plano.
 
 Cria um círculo / cone.
 
-* **Render profile** - consulte [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - consulte [Perfil de renderização](fundamentals/render-profile.md "mention")
 * **radius** - o raio do círculo
 * **Colour** - a cor do círculo. Consulte [Configurações de cor e HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * posição **x** e **y** - consulte [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
@@ -44,7 +44,7 @@ Cria um círculo / cone.
 
 Cria um polígono equilátero: triângulo, quadrado, pentágono etc.
 
-* **Render profile** - consulte [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - consulte [Perfil de renderização](fundamentals/render-profile.md "mention")
 * **size** - a distância do centro até cada um dos vértices
 * **Colour** - a cor do polígono. Consulte [Configurações de cor e HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * posição **x** e **y** - consulte [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
@@ -70,7 +70,7 @@ Depois que um SVG é carregado, o conteúdo é convertido e salvo dentro do clip
 * **Use fills as masks** - processa qualquer forma preenchida como uma máscara, ou seja, preenchida com preto. Isso será definido automaticamente se o SVG tiver alguma forma preenchida. Se ele não tiver formas preenchidas, a opção será desativada. Consulte [Preenchimentos, máscaras e ordenação por profundidade](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - se as formas no seu SVG não tiverem contorno, não será possível desenhá-las! Esta opção adiciona um contorno (ou _stroke_) a qualquer forma preenchida. Se o SVG não tiver nenhuma forma com traço, ela será definida automaticamente. Se ele não tiver formas preenchidas, ela será desativada.
 * **Invert black lines** - se todas as linhas no seu SVG forem pretas, você não conseguirá vê-las! Esta opção as transforma em branco. Ela é definida automaticamente se o SVG tiver apenas formas pretas, mas fica desativada se não houver nenhuma.
-* **Render profile** - consulte [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - consulte [Perfil de renderização](fundamentals/render-profile.md "mention")
 * **scale** - ajusta o tamanho do SVG. Isso é calculado automaticamente quando o SVG é carregado (para garantir que a imagem fique visível), mas pode ser editado manualmente depois.
 * posição **x** e **y** - consulte [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - o ângulo de rotação da imagem, em graus
@@ -90,7 +90,7 @@ Depois que a sequência de SVG é carregada, o conteúdo é convertido e salvo d
 * **Use fills as masks** - processa qualquer forma preenchida como uma máscara, ou seja, preenchida com preto. Isso será definido automaticamente se qualquer um dos seus SVGs tiver formas preenchidas. Se nenhum tiver formas preenchidas, a opção será desativada. Consulte [Preenchimentos, máscaras e ordenação por profundidade](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **Add outlines to filled shapes** - se as formas nos seus SVGs não tiverem contorno, não será possível desenhá-las! Esta opção adiciona um contorno (ou _stroke_) a qualquer forma preenchida. Se os SVGs não tiverem nenhuma forma com traço, ela será definida automaticamente. Se nenhum tiver formas preenchidas, ela será desativada.
 * **Invert black lines** - se todas as linhas nos seus SVGs forem pretas, você não conseguirá vê-las! Esta opção as transforma em branco. Ela é definida automaticamente se os SVGs tiverem apenas formas pretas, mas fica desativada se não houver nenhuma.
-* **Render profile** - consulte [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - consulte [Perfil de renderização](fundamentals/render-profile.md "mention")
 * **scale** - ajusta o tamanho da imagem.
 * posição **x** e **y** - consulte [Sistema de coordenadas](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - o ângulo de rotação da imagem, em graus
@@ -116,7 +116,7 @@ Cria texto usando uma fonte TrueType ou OpenType.
 Para adicionar mais fontes ao Liberation, copie os arquivos .ttf ou .otf para a pasta `data/fonts` dentro da pasta de trabalho do Liberation e reinicie o Liberation.
 {% endhint %}
 
-* **Render profile** - consulte [Render Profile](fundamentals/render-profile.md "mention")
+* **Render profile** - consulte [Perfil de renderização](fundamentals/render-profile.md "mention")
 * **horizontal alignment** - escolha _LEFT_, _CENTRE_ ou _RIGHT_ para selecionar o alinhamento do texto.
 * **Fill state** - consulte [Preenchimentos, máscaras e ordenação por profundidade](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * **size** - o tamanho do texto

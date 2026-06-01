@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 إنشاء DMX zones
 
-1. وصّل Art-Net node واضبطه كما هو موضح في [الاتصال بعقدة Art-Net](../connecting-to-an-artnet-node.md "mention").
+1. وصّل Art-Net node واضبطه كما هو موضح في [◼️ الاتصال بـ Art-Net node](../connecting-to-an-artnet-node.md "mention").
 2. افتح **DMX Zones** وانقر على **ADD DMX ZONE**.
 3. اضبط **Node** و**Universe** و**Address** الخاصة بالـ zone لتطابق الجهاز.
 4. اختر **Preset** للجهاز. يحدد الإعداد المسبق قنوات DMX التي تتلقى قيماً ثابتة، أو قيم تشغيل/إيقاف المحتوى، أو لون RGB، أو موضع X/Y، أو السطوع، أو مدخلات DMX Value الصريحة.

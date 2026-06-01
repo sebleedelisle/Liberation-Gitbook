@@ -17,7 +17,7 @@ metaLinks:
 
 #### 校正測試的運作方式
 
-請使用 test pattern 進行校正（請參閱[測試圖樣](../output-view/test-patterns.md "mention")）
+請使用測試圖樣進行校正（請參閱[測試圖樣](../output-view/test-patterns.md "mention")）
 
 * **5** – Red
 * **6** – Green

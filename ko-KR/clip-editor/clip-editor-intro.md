@@ -75,7 +75,7 @@ Oscillator 노드는 시간에 따라 속성을 변경하는 데 사용됩니다
 **재미있는 사실:** _Liberation_ 이라는 이름은 1980년에 출시된 신디사이저 “키타”인 Moog Liberation에서 영감을 받았습니다. 이 악기는 Herbie Hancock, Jean-Michel Jarre, 심지어 James Brown을 통해 유명해졌습니다!
 {% endhint %}
 
-Oscillator에는 조정할 속성의 최소값과 최대값을 제어하는 _range_ 설정이 항상 있습니다. 또한 _Wave Oscillators_ 에는 Oscillator가 값을 얼마나 빠르게 변경할지 결정하는 _duration_ 설정이 항상 있습니다. 자세한 내용은 [Wave oscillators](oscillators/wave-oscillators.md "mention")를 참고하세요.
+Oscillator에는 조정할 속성의 최소값과 최대값을 제어하는 _range_ 설정이 항상 있습니다. 또한 _Wave Oscillators_ 에는 Oscillator가 값을 얼마나 빠르게 변경할지 결정하는 _duration_ 설정이 항상 있습니다. 자세한 내용은 [Wave Oscillators](oscillators/wave-oscillators.md "mention")를 참고하세요.
 
 ### Clip Editor 패널
 

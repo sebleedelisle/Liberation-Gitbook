@@ -21,4 +21,4 @@ metaLinks:
 請注意，這個程序不會在激光機中新增或移除區域。它只會將目標激光機中已存在的每個區域的位置和類型複製過去。
 {% endhint %}
 
-另請參閱[複製激光機設定](../setting-up/copy-laser-settings.md)，了解此系統其他功能的完整說明。
+另請參閱[在激光機之間複製設定](../setting-up/copy-laser-settings.md "mention")，了解此系統其他功能的完整說明。

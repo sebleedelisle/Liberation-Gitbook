@@ -8,7 +8,7 @@
   * [✅ 라이선스 작동 방식](installation/how-licensing-works.md)
   * [✅ 인증 및 인증 해제](installation/authorising-and-de-authorising.md)
   * [✅ 라이선스 업그레이드 / 다운그레이드](installation/upgrade-downgrade-your-license.md)
-* [✅ 라이선스 취소](installation/cancel-your-subscription.md)
+* [✅ 결제 일시 중지 또는 취소](installation/cancel-your-subscription.md)
   * [🟩 새 버전으로 업그레이드할 때 콘텐츠 이전](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
 * [✅ FAQ](faq.md)
 * [✅ 빠른 시작 가이드](getting-started.md)

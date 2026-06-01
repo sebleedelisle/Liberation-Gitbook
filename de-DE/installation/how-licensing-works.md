@@ -27,6 +27,8 @@ Jede Lizenz gilt nur für einen Benutzer und jeweils nur für eine Show gleichze
 
 Die Lizenzierung und Autorisierung von Liberation funktioniert über das Internet; die App verbindet sich mit unserem Server, um eine Installation deiner kostenpflichtigen Lizenz zuzuordnen.
 
-Sobald deine Installation autorisiert ist, muss sie erst wieder online sein, wenn deine kostenpflichtige Lizenz ihr nächstes Zahlungsdatum oder ihr Bezahlt-bis-Datum erreicht. Dieses Datum findest du im _About panel._ Es gibt eine kurze Kulanzfrist (7 Tage bei monatlichen kostenpflichtigen Lizenzen), aber es wird empfohlen, nach diesem Datum so bald wie möglich online zu gehen, damit deine Autorisierung aktiv bleibt.
+Sobald du autorisiert bist, musst du erst wieder online sein, wenn deine wiederkehrende Lizenz ihr nächstes Zahlungsdatum erreicht (angezeigt im _About panel_). Monatliche wiederkehrende Lizenzen enthalten in der Regel eine kurze Kulanzfrist (7 Tage), aber du solltest nach dem Zahlungsdatum so bald wie möglich online gehen, damit deine kostenpflichtigen Funktionen ohne Unterbrechung verfügbar bleiben.
+
+Die Kulanzfrist ist für Verlängerungs- und Zahlungsprobleme vorgesehen. Sie verlängert keine Lizenzen, die nach Ablauf des bezahlten Zeitraums gekündigt oder bewusst pausiert wurden. Wenn eine Zahlung fehlschlägt, aktualisiere deine Kartendaten innerhalb der Kulanzfrist, damit die kostenpflichtigen Funktionen verfügbar bleiben.
 
 Die aktuelle Lizenzstufe wird auch in der oberen Leiste angezeigt. Klicke auf den Namen der Lizenzstufe oder auf _FREE MODE_, wenn keine Lizenz aktiv ist, um das About panel zu öffnen.

@@ -28,7 +28,7 @@ Megváltoztatja az összes bejövő tartalom színeit. Beállíthatsz fix HSB-é
 * **blend** - meghatározza, milyen erősen érvényesül a színváltó: 0% esetén egyáltalán nem, 100% esetén teljes mértékben, 50% esetén pedig a meglévő szín és az új értékek keveréke.
 
 {% hint style="info" %}
-A Colour Change node a teljes bemenethez egyetlen színt mintavételez a gradiensből. Ha azt szeretnéd, hogy a gradiens pozíció alapján fusson végig az alakzaton, használd inkább ezt: [pozícióalapú módosítók](position-based-changers.md "mention").
+A Colour Change node a teljes bemenethez egyetlen színt mintavételez a gradiensből. Ha azt szeretnéd, hogy a gradiens pozíció alapján fusson végig az alakzaton, használd inkább ezt: [Pozícióalapú módosítók](position-based-changers.md "mention").
 {% endhint %}
 
 ### Gradiensszerkesztő

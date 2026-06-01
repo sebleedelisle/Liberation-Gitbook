@@ -27,7 +27,7 @@ metaLinks:
 如果你編輯某個 Preset，例如名為 _Default_ 的掃描器設定，請注意其他雷射不會自動更新。它們各自的掃描器設定會改標示為 _Default(edited)_。若要更新成新的 _Default_ Preset，請從下拉清單重新選取它。
 
 {% hint style="info" %}
-如果你有很多雷射，並且想更新所有雷射的掃描器設定，請使用 _COPY LASER SETTINGS_ 系統。請參閱[複製雷射設定](../setting-up/copy-laser-settings.md "mention")
+如果你有很多雷射，並且想更新所有雷射的掃描器設定，請使用 _COPY LASER SETTINGS_ 系統。請參閱[在雷射之間複製設定](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 如果你刪除了其他地方正在使用的 Preset，該設定不會遺失，而是會顯示為 _(deleted)_。

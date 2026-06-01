@@ -25,4 +25,4 @@ Clique em _Download for Mac_ (os números de versão mudarão com o tempo) e o a
 
 Arraste o ícone do Liberation à esquerda para a pasta Applications à direita (talvez seja necessária uma senha de administrador). Agora você pode encontrar o Liberation na sua pasta Applications; dê dois cliques para abri-lo.
 
-O Liberation agora deve estar em execução! Para enviar saída para lasers, você precisará passar pelo [processo de autorização.](authorising-and-de-authorising.md)
+O Liberation agora deve estar em execução! Para enviar saída para lasers, você precisará concluir [Autorização e desautorização](authorising-and-de-authorising.md).

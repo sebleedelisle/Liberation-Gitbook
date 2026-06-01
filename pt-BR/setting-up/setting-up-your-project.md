@@ -13,12 +13,12 @@ Veja uma visão geral do processo:
 
 1.  **Altere o número de lasers no seu projeto:**
 
-    No painel _Laser Overview_, clique no botão vermelho à direita para excluir um laser. Adicione um laser com o botão _ADD LASER_ na parte inferior. Veja também [Adicionar / remover lasers](adding-removing-lasers.md "mention")
+No painel _Laser Overview_, clique no botão vermelho à direita para excluir um laser. Adicione um laser com o botão _ADD LASER_ na parte inferior. Veja também [Adicionar / remover lasers](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Atualize a visualização do 3D Visualiser:**
 
-    Ajuste a posição e a orientação de cada laser usando o painel _3D Visualiser Settings_. Veja [3D Visualiser](3d-visualiser.md "mention").
+Ajuste a posição e a orientação de cada laser usando o painel _3D Visualiser Settings_. Veja [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Ajuste as zonas:**\
@@ -36,4 +36,4 @@ Acione cada Clip clicando no respectivo botão e, em seguida, ative ou desative 
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Ative e configure as zonas dos seus lasers:** Siga cuidadosamente [Visão geral do processo de configuração de lasers](setting-up-lasers.md "mention")
+6. **Ative e configure as zonas dos seus lasers:** siga cuidadosamente [Visão geral do processo de configuração de lasers](setting-up-lasers.md "mention")

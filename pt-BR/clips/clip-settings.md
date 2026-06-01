@@ -14,7 +14,7 @@ Altere o tamanho de saída do Clip usando _Scale X_ e _Scale Y_. Eles ficam vinc
 
 Altere a posição horizontal e vertical do Clip usando _Shift X_ e _Shift Y_.
 
-_Zone Delay/Chase_ é um recurso tão divertido que ganhou uma seção própria. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ é um recurso tão divertido que ganhou uma seção própria. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Painel Parameters
 

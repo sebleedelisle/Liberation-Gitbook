@@ -29,7 +29,7 @@ metaLinks:
 如果你有多个许可证，系统会提示你选择要分配给这台电脑的许可证。&#x20;
 {% endhint %}
 
-恭喜！你的 Liberation 安装已授权，现在可以输出到激光设备了。但在 arm 激光之前，请先阅读 [快速入门指南](../getting-started.md "mention") 和 [激光设置流程概览](../setting-up/setting-up-lasers.md "mention")。&#x20;
+恭喜！你的 Liberation 安装已授权，现在可以输出到激光设备了。但在启用激光输出之前，请先阅读 [快速入门指南](../getting-started.md "mention") 和 [激光设置流程概览](../setting-up/setting-up-lasers.md "mention")。
 
 {% hint style="info" %}
 你可以随时通过菜单 _Liberation -> About Liberation_ 或 _Liberation -> Authorise/Deauthorise this computer_ 打开 _About panel_。

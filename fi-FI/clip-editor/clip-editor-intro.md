@@ -37,7 +37,7 @@ Jos et näe 3D visualiserissa mitään ulostuloa, sinun täytyy ehkä ottaa halu
 
 ### Clipin rakentaminen
 
-Yleensä aloitat yhdellä tai useammalla [Creator-nodet](creator-nodes.md) ja yhdistät vasemmalta oikealle [Operaattorisolmut](operator-nodes/), jotka käsittelevät sisältöä. Kun siirrät creator- ja/tai operator-solmuja lähelle toisiaan, huomaat, että ne yhdistyvät automaattisesti. Voit irrottaa ne toisistaan vetämällä ne jälleen erilleen.
+Yleensä aloitat yhdellä tai useammalla [Creator-nodet](creator-nodes.md) ja yhdistät vasemmalta oikealle sisältöä käsitteleviä [Operaattorisolmut](operator-nodes/). Kun siirrät Creator- ja/tai Operator-nodeja lähelle toisiaan, huomaat, että ne yhdistyvät automaattisesti. Voit irrottaa ne toisistaan vetämällä ne jälleen erilleen.
 
 ### Solmujen lisääminen clipiin
 

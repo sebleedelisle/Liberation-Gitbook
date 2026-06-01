@@ -15,12 +15,12 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-新增激光器時，系統會自動為它加入一個光束區域。請注意，激光器和區域會按你新增的次序排序。請參閱 [重新排序光束區域](../output-view/re-ordering-beam-zones.md)。
+新增激光器時，系統會自動為它加入一個 beam zone。請注意，激光器和 zone 會按你新增的次序排序。請參閱 [重新排序 beam zone](../output-view/re-ordering-beam-zones.md "mention")。
 
 如要移除激光器，請在 _Laser overview_ 面板按一下紅色的「-」按鈕。請注意，你會失去該激光器的所有設定！
 
 {% hint style="info" %}
-如果你想從其他激光器複製區域或其他設定，請使用 [複製激光設定](copy-laser-settings.md)
+如果你想從其他激光器複製 zone 或其他設定，請使用 [在激光器之間複製設定](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

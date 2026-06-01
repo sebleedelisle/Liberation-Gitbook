@@ -13,7 +13,7 @@ Dopo aver installato Liberation sul computer, l’app verrà eseguita in _modali
 In _modalità gratuita_ non ci sono restrizioni, tranne l’Output verso l’hardware laser. Puoi provare show, creare timeline, salvare e caricare i tuoi file senza limitazioni. Puoi installare Liberation in _modalità gratuita_ su tutti i computer che vuoi: devi autorizzare l’installazione solo quando sei pronto a usare i laser!
 {% endhint %}
 
-Oltre al numero di laser che puoi portare in stato _armed_, puoi usare anche fixture DMX. Vedi [Controllo DMX](../dmx-control/ "mention").
+Oltre al numero di laser che puoi portare in stato _armed_, puoi usare anche fixture DMX. Vedi [DMX / Art-Net](../dmx-control/ "mention").
 
 C’è anche un limite al numero di computer su cui puoi autorizzare Liberation, in base al tuo livello di licenza.
 
@@ -27,6 +27,8 @@ Ogni licenza è valida per un solo utente e per un solo show alla volta. Puoi av
 
 Il sistema di licenza e autorizzazione di Liberation funziona tramite Internet: l’app si collega al nostro server per associare un’installazione alla tua licenza a pagamento.
 
-Una volta autorizzata, l’installazione non deve tornare online fino alla data del prossimo pagamento o alla data di validità della tua licenza a pagamento. Puoi vedere questa data nel _About panel_. È previsto un breve periodo di tolleranza (7 giorni per le licenze mensili a pagamento), ma è consigliabile andare online il prima possibile dopo quella data, così da assicurarti che l’autorizzazione rimanga attiva.
+Una volta autorizzato, non devi tornare online fino alla data del prossimo pagamento della tua licenza ricorrente, indicata nel _About panel_. Le licenze ricorrenti mensili di solito includono un breve periodo di tolleranza (7 giorni), ma dovresti andare online il prima possibile dopo la data di pagamento per mantenere disponibili le funzioni a pagamento senza interruzioni.
+
+Il periodo di tolleranza serve per problemi di rinnovo e di pagamento. Non estende le licenze che sono state annullate o messe deliberatamente in pausa dopo la fine del periodo pagato. Se un pagamento non va a buon fine, aggiorna i dati della carta entro il periodo di tolleranza per mantenere disponibili le funzioni a pagamento.
 
 Il livello di licenza attuale è mostrato anche nella barra superiore. Fai clic sul nome del livello, oppure su _FREE MODE_ quando non c’è una licenza attiva, per aprire l’About panel.

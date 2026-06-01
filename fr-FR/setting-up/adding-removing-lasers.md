@@ -15,7 +15,7 @@ ou sur le bouton _+_ dans la vue _Output_.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Lorsque vous ajoutez un nouveau laser, une zone de faisceau lui est automatiquement ajoutée. Notez que les lasers et les zones sont triés dans l’ordre dans lequel vous les ajoutez. Voir [Réorganiser les zones de faisceau](../output-view/re-ordering-beam-zones.md "mention").
+Lorsque vous ajoutez un nouveau laser, une beam zone lui est automatiquement ajoutée. Notez que les lasers et les zones sont triés dans l’ordre dans lequel vous les ajoutez. Voir [Réorganiser les beam zones](../output-view/re-ordering-beam-zones.md "mention").
 
 Supprimez un laser en cliquant sur le bouton rouge « - » dans le panneau _Laser overview_. Notez que vous perdrez tous vos réglages laser !
 

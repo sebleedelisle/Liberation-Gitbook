@@ -11,6 +11,8 @@ Vous pouvez passer à une formule supérieure à tout moment. Vous recevrez un r
 
 Vous pouvez également passer à une formule inférieure à tout moment, mais le changement ne prendra effet qu’à la fin de votre période payée actuelle.
 
+Vous ne pouvez pas changer d’abonnement tant que des paiements sont programmés pour être suspendus, ou tant que la licence est suspendue. Annulez d’abord la suspension programmée ou réactivez la licence, puis changez d’abonnement.
+
 Connectez-vous au site web, ouvrez la page [_Vos licences_](https://liberationlaser.com/account/my-products), sélectionnez la licence que vous souhaitez modifier, puis cliquez sur _UPGRADE / DOWNGRADE_. Vous verrez alors les options disponibles pour votre licence.
 
 <figure><img src="../.gitbook/assets/account-change-licence-plan.png" alt=""><figcaption></figcaption></figure>

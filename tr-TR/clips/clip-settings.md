@@ -14,7 +14,7 @@ Clip çıkış boyutunu _Scale X_ ve _Scale Y_ ile değiştirin. _SHIFT_ tuşuna
 
 Clip için yatay ve dikey konumu _Shift X_ ve _Shift Y_ ile değiştirin.
 
-_Zone Delay/Chase_ başlı başına anlatılacak kadar eğlenceli bir özellik. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ başlı başına anlatılacak kadar eğlenceli bir özellik. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Parameters panel
 

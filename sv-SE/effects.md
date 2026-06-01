@@ -89,7 +89,7 @@ Den här funktionen är avstängd om inställningen _MX Group_ är 0.
 
 Högerklicka på valfri effekt och klicka på knappen _EDIT EFFECT_ för att öppna effekteditorn. Observera att den här editorn är identisk med Clip Editor!
 
-Redigera din effekt på samma sätt som du skulle redigera vilket clip som helst. Se [clip-editor](clip-editor/ "mention").
+Redigera din effekt på samma sätt som du skulle redigera vilket Clip som helst. Se [Clip Editor](clip-editor/ "mention").
 
 Du behöver ha minst en creator-nod; det kan vara vad som helst (linje, cirkel, form, till och med text!), men du bör förmodligen välja något som är mest logiskt i förhandsvisningen på effektknappen.
 

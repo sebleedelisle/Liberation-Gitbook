@@ -27,7 +27,7 @@ Allar forstillingar eru vistaðar með project-inu þínu (eða laser settings),
 Ef þú breytir forstillingu, til dæmis scanner setting sem heitir _Default_, hafðu í huga að hinir laserarnir uppfærast ekki sjálfkrafa. Þess í stað verða scanner settings hjá þeim merktar _Default(edited)_. Til að uppfæra þetta í nýju _Default_ forstillinguna skaltu velja hana aftur úr fellilistanum.
 
 {% hint style="info" %}
-Ef þú ert með marga lasera og vilt uppfæra scanner settings fyrir þá alla skaltu nota _COPY LASER SETTINGS_ kerfið. Sjá [COPY LASER SETTINGS](../setting-up/copy-laser-settings.md "mention")
+Ef þú ert með marga leysigeisla og vilt uppfæra allar stillingar skannanna þeirra skaltu nota _COPY LASER SETTINGS_ kerfið. Sjá [Afrita stillingar á milli leysigeisla](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Ef þú eyðir forstillingu sem er notuð annars staðar taparðu ekki stillingunni, en hún birtist í staðinn merkt sem _(deleted)._

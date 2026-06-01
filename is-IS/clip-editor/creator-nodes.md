@@ -12,7 +12,7 @@ Býr til einn punkt / geisla.
 
 * **Render profile** - sjá [Render profile](fundamentals/render-profile.md "mention")
 * **Colour** - litur punktsins. Sjá [Litastillingar og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** og **y** position - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
+* **x** og **y** staðsetning - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - sjá [Fyllingar, masks og dýptarröðun](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
@@ -22,7 +22,7 @@ Býr til línu / flöt.
 * **Render profile** - sjá [Render profile](fundamentals/render-profile.md "mention")
 * **Size** - lengd línunnar
 * **Colour** - litur línunnar. Sjá [Litastillingar og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** og **y** position - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
+* **x** og **y** staðsetning - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - horn línunnar, í gráðum
 * **resolution** - sjá [Upplausn](fundamentals/resolution.md "mention")
 * **alignment** - _LEFT / CENTRE / RIGHT -_ ákvarðar upphafspunkt og snúningsmiðju línunnar
@@ -35,7 +35,7 @@ Býr til hring / keilu.
 * **Render profile** - sjá [Render profile](fundamentals/render-profile.md "mention")
 * **radius** - radíus hringsins
 * **Colour** - litur hringsins. Sjá [Litastillingar og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** og **y** position - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
+* **x** og **y** staðsetning - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
 * **resolution** - sjá [Upplausn](fundamentals/resolution.md "mention")
 * **Fill state** - sjá [Fyllingar, masks og dýptarröðun](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - sjá [Fyllingar, masks og dýptarröðun](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -47,7 +47,7 @@ Býr til reglulegan marghyrning, t.d. þríhyrning, ferning eða fimmhyrning.
 * **Render profile** - sjá [Render profile](fundamentals/render-profile.md "mention")
 * **size** - fjarlægðin frá miðju að hverju horni
 * **Colour** - litur marghyrningsins. Sjá [Litastillingar og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** og **y** position - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
+* **x** og **y** staðsetning - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - snúningshorn formsins, í gráðum
 * **resolution** - sjá [Upplausn](fundamentals/resolution.md "mention")
 * **Fill state** - sjá [Fyllingar, masks og dýptarröðun](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -72,7 +72,7 @@ Liberation styður _SVGTiny_-sniðið. Mælt er með InkScape, en flest vektorfo
 * **Invert black lines** - ef allar línurnar í SVG-skránni eru svartar sérðu þær ekki! Þessi valkostur breytir þeim í hvítar. Hann er stilltur sjálfkrafa ef SVG-skráin inniheldur aðeins svört form, en er óvirkur ef engin slík eru til staðar.
 * **Render profile** - sjá [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - stillir stærð SVG-myndarinnar. Þetta er reiknað sjálfkrafa þegar SVG er hlaðið inn (til að tryggja að myndin sé sýnileg), en hægt er að breyta gildinu handvirkt eftir á.
-* **x** og **y** position - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
+* **x** og **y** staðsetning - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - snúningshorn myndarinnar, í gráðum
 * **resolution** - sjá [Upplausn](fundamentals/resolution.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - sjá [Fyllingar, masks og dýptarröðun](fundamentals/fills-masks-and-depth-sorting.md "mention")
@@ -92,7 +92,7 @@ Býr til hreyfimynd úr röð SVG-skráa.
 * **Invert black lines** - ef allar línurnar í SVG-skránum eru svartar sérðu þær ekki! Þessi valkostur breytir þeim í hvítar. Hann er stilltur sjálfkrafa ef SVG-skrárnar innihalda aðeins svört form, en er óvirkur ef engin slík eru til staðar.
 * **Render profile** - sjá [Render profile](fundamentals/render-profile.md "mention")
 * **scale** - stillir stærð myndarinnar.
-* **x** og **y** position - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
+* **x** og **y** staðsetning - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - snúningshorn myndarinnar, í gráðum
 * **resolution** - sjá [Upplausn](fundamentals/resolution.md "mention")
 * **speed** - lengd allrar hreyfimyndarinnar, í bars.
@@ -123,7 +123,7 @@ Til að bæta fleiri leturgerðum við Liberation skaltu afrita .ttf- eða .otf-
 * **monospace** - teiknar alla stafi með sömu breidd. Þetta er gagnlegt fyrir tímamæla og teljara, því textinn færist ekki til hliðar þegar tölurnar breytast.
 * **character spacing** - stillir bilið á milli stafa. Hækkaðu gildið til að auka stafabil, eða lækkaðu það til að þétta textann.
 * **colour -** sjá [Litastillingar og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x** og **y** position - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
+* **x** og **y** staðsetning - sjá [Hnitakerfi](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - snúningshorn myndarinnar, í gráðum
 * **resolution** - sjá [Upplausn](fundamentals/resolution.md "mention")
 * **reveal** - notaðu þetta til að birta textann smám saman, einn staf í einu. Þegar gildið er á milli 0 og 50% birtist textinn smám saman frá vinstri til hægri. Þegar gildið er á milli 50% og 100% hverfur textinn frá vinstri til hægri. Þú getur tengt sveiflugjafa við þennan socket til að búa til hreyfingar.

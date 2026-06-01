@@ -13,12 +13,12 @@ Her er en oversikt over prosessen:
 
 1.  **Endre antall lasere i prosjektet ditt:**
 
-    I _Laser Overview_-panelet klikker du på den røde knappen til høyre for å slette en laser. Legg til en laser med _ADD LASER_-knappen nederst. Se også [Legge til / fjerne lasere](adding-removing-lasers.md "mention")
+I _Laser Overview_-panelet klikker du på den røde knappen til høyre for å slette en laser. Legg til en laser med _ADD LASER_-knappen nederst. Se også [Legge til / fjerne lasere](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Oppdater visningen i 3D-visualisereren:**
 
-    Juster posisjonen og orienteringen til hver laser med _3D Visualiser Settings_-panelet. Se [3D Visualiser](3d-visualiser.md "mention").
+Juster posisjonen og orienteringen til hver laser med _3D Visualiser Settings_-panelet. Se [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Juster sonene:**\
@@ -26,7 +26,7 @@ Her er en oversikt over prosessen:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Endre sonene for hver Clip:**\
-Utløs hver Clip ved å klikke på knappen for den, og slå deretter sonene og X- og Y-flipp av eller på med knappene på skjermen. Se [Clips og Clip Deck](../clips/ "mention").
+Utløs hver Clip ved å klikke på knappen for den, og slå deretter zones og X- og Y-flipp av eller på med knappene på skjermen. Se [Clips og Clip Deck](../clips/ "mention").
 
     \\
 
@@ -36,4 +36,4 @@ Utløs hver Clip ved å klikke på knappen for den, og slå deretter sonene og X
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Aktiver laserne og sett opp sonene:** Følg nøye [Oversikt over prosessen for laseroppsett](setting-up-lasers.md "mention")
+6. **Aktiver laserne og sett opp zones:** Følg nøye [Oversikt over prosessen for laseroppsett](setting-up-lasers.md "mention")

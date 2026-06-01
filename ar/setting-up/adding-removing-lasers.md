@@ -15,12 +15,12 @@ metaLinks:
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-عند إضافة ليزر جديد، تتم إضافة beam zone إليه تلقائيًا. لاحظ أن أجهزة الليزر و zones تُرتّب حسب ترتيب إضافتها. راجع [إعادة ترتيب beam zones](../output-view/re-ordering-beam-zones.md).
+عند إضافة ليزر جديد، تتم إضافة beam zone إليه تلقائيًا. لاحظ أن أجهزة الليزر و zones تُرتّب حسب ترتيب إضافتها. راجع [إعادة ترتيب beam zones](../output-view/re-ordering-beam-zones.md "mention").
 
 أزِل ليزرًا بالنقر على الزر الأحمر "-" في لوحة _Laser Overview_. لاحظ أنك ستفقد جميع إعدادات هذا الليزر!
 
 {% hint style="info" %}
-إذا كنت تريد نسخ zones أو إعدادات أخرى من أجهزة ليزر أخرى، فاستخدم [نسخ إعدادات الليزر](copy-laser-settings.md)
+إذا كنت تريد نسخ zones أو إعدادات أخرى من أجهزة ليزر أخرى، فاستخدم [نسخ الإعدادات بين أجهزة الليزر](copy-laser-settings.md "mention")
 {% endhint %}
 
 {% hint style="info" %}

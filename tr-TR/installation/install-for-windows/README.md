@@ -13,13 +13,13 @@ Windows 10 veya 11 yüklü 64 bit bilgisayarlar. Büyük gösteriler çalıştı
 
 ### Kurulum süreci
 
-Aktif bir aboneliğiniz olduğunda size bir bağlantı gönderilir veya[ _Your subscriptions_](https://liberationlaser.com/account/my-products) sayfasındaki _Download_ bağlantısına tıklayabilirsiniz.
+Aktif bir ücretli lisansınız olduğunda size bir bağlantı gönderilir veya [_Your licences_](https://liberationlaser.com/account/my-products) sayfasındaki _Download_ seçeneğine tıklayabilirsiniz.
 
 Şu sayfayı göreceksiniz:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-_Download latest for Windows_ seçeneğine tıklayın (sürüm numaraları değişebilir). İndirme göstergesinde ilerlemeyi göreceksiniz (genellikle sağ üstte olur; ekran görüntüsü Chrome’dan alınmıştır). Tamamlandığında indirmelerinizi açın ve indirilen kurulum dosyasına tıklayın.
+_Download for Windows_ seçeneğine tıklayın (sürüm numaraları değişebilir). İndirme göstergesinde ilerlemeyi göreceksiniz (genellikle sağ üstte olur; ekran görüntüsü Chrome’dan alınmıştır). Tamamlandığında indirmelerinizi açın ve indirilen kurulum dosyasına tıklayın.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation’ın dosyalara ve ağa erişim iznine ihtiyacı vardır; bu yüzden 
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation artık çalışmalıdır! Lazerlere çıkış göndermek için şimdi [Yetkilendirme ve yetkiyi kaldırma](../authorising-and-de-authorising.md) sürecini tamamlamanız gerekir.
+Liberation artık çalışmalıdır! Lazerlere çıkış göndermek için [Yetkilendirme ve yetkiyi kaldırma](../authorising-and-de-authorising.md) adımını tamamlamanız gerekir.

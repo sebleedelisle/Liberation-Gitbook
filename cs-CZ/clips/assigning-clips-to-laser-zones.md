@@ -28,4 +28,4 @@ Nemusíte vytvářet novou zone jen kvůli jinému nastavení zrcadlení. Nastav
 
 ### Přiřazení zones k více Clips najednou
 
-Zones můžete přiřazovat a nastavení X/Y upravovat pro všechny Clips ve skupině. Další informace najdete v části [Skupiny Clips](groups.md).
+Zones můžete přiřazovat a nastavení X/Y upravovat pro všechny Clips ve skupině. Další informace najdete v části [Skupiny Clips](groups.md "mention").

@@ -29,7 +29,7 @@ Wenn du bereits die maximale Anzahl an Computern für deine Lizenz autorisiert h
 Wenn du mehrere Lizenzen hast, wirst du aufgefordert, die Lizenz auszuwählen, der du den Computer zuweisen möchtest.
 {% endhint %}
 
-Glückwunsch! Deine Liberation-Installation ist jetzt autorisiert und du kannst Laser ausgeben! Bitte lies aber zuerst [Schnellstartanleitung](../getting-started.md "mention") und [Überblick über den Laser-Einrichtungsprozess](../setting-up/setting-up-lasers.md "mention"), bevor du deine Laser aktivierst.
+Glückwunsch! Deine Liberation-Installation ist jetzt autorisiert und du kannst Laser ausgeben! Bitte lies aber zuerst die [Schnellstartanleitung](../getting-started.md "mention") und den [Überblick über den Laser-Einrichtungsprozess](../setting-up/setting-up-lasers.md "mention"), bevor du deine Laser aktivierst.
 
 {% hint style="info" %}
 Du kannst das _About panel_ jederzeit über das Menü _Liberation -> About Liberation_ oder _Liberation -> Authorise/Deauthorise this computer_ öffnen.

@@ -56,7 +56,7 @@ Etkö ole varma, mitä jokin painike tekee? Vie hiiri painikkeen päälle, niin 
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Valikosta löydät kaikki tiedostojen tuonti- ja vientitoiminnot sekä paneelien avaamisen. Täältä löytyy myös tietokoneen valtuutus tilauksellesi (_Liberation -> Authorise/Deauthorise this computer_).
+Valikosta löydät kaikki tiedostojen tuonti- ja vientitoiminnot sekä paneelien avaamisen. Täältä löytyy myös tietokoneen valtuutus lisenssillesi (_Liberation -> Authorise/Deauthorise this computer_).
 
 #### Kuvakepalkki
 
@@ -146,7 +146,7 @@ Voit vierittää clip deckiä vasemmalle ja oikealle seuraavilla tavoilla:
 * APC40:n vieritysnuppi
 * APC40:n _<- DEVICE ->_ -painikkeet
 
-Suuntaamisen helpottamiseksi yläreunassa on clip deckin pieni visualisointi. Katso myös [Clips ja Clip Deck](clips/ "mention")
+Suuntaamisen helpottamiseksi yläreunassa on Clip Deckin pieni visualisointi. Katso myös [Clips ja Clip Deck](clips/ "mention")
 
 #### Clippien käynnistäminen ja pysäyttäminen
 

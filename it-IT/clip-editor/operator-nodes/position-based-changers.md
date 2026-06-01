@@ -49,7 +49,7 @@ Determinano quali aspetti delle regolazioni colore vengono applicati al contenut
 
 **Editor del gradiente**
 
-Usa lo stesso editor del gradiente di [Colour Changer](colour-changer.md "mention"), ma mappa il gradiente sul contenuto in base alla posizione.
+Usa lo stesso editor del gradiente di [Modifica colore](colour-changer.md "mention"), ma mappa il gradiente sul contenuto in base alla posizione.
 
 * Fai clic sulla barra del gradiente per aggiungere uno stop di colore.
 * Fai clic con il pulsante sinistro su uno stop per selezionarlo, quindi trascinalo lateralmente per spostarlo.

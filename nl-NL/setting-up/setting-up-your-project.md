@@ -13,12 +13,12 @@ Hier is een overzicht van het proces:
 
 1.  **Wijzig het aantal lasers in je project:**
 
-    Klik in het _Laser Overview_-paneel op de rode knop rechts om een laser te verwijderen. Voeg een laser toe met de knop _ADD LASER_ onderaan. Zie ook [Lasers toevoegen / verwijderen](adding-removing-lasers.md "mention")
+Klik in het _Laser Overview_-paneel op de rode knop rechts om een laser te verwijderen. Voeg een laser toe met de knop _ADD LASER_ onderaan. Zie ook [Lasers toevoegen / verwijderen](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Werk de weergave van de 3D-visualiser bij:**
 
-    Pas de positie en oriëntatie van elke laser aan via het paneel _3D Visualiser Settings_. Zie [3D Visualiser](3d-visualiser.md "mention").
+Pas de positie en oriëntatie van elke laser aan via het paneel _3D Visualiser Settings_. Zie [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Pas de zones aan:**\
@@ -36,4 +36,4 @@ Trigger elke Clip door op de bijbehorende knop te klikken en schakel daarna de z
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Activeer en zoneer je lasers:** Volg zorgvuldig [Overzicht van het instelproces voor lasers](setting-up-lasers.md "mention")
+6. **Activeer je lasers en wijs ze aan zones toe:** volg zorgvuldig [Overzicht van het instelproces voor lasers](setting-up-lasers.md "mention")

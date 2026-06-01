@@ -23,14 +23,14 @@ Liberation 非常灵活，即使没有连接任何实际激光器，你也可以
 默认设置中有 8 台激光器水平排列，但你可以按需自定义。刚开始熟悉软件时，建议先保留这个默认设置；之后再根据你的硬件配置进行调整。（见[设置项目](setting-up/setting-up-your-project.md "mention")）
 
 {% hint style="warning" %}
-重要：在启用任何激光器输出之前，请务必了解相关风险，并仔细阅读[设置激光器](setting-up/setting-up-lasers.md "mention")章节。
+重要：在启用任何激光器输出之前，请务必了解相关风险，并仔细阅读[激光器设置流程概览](setting-up/setting-up-lasers.md "mention")章节。
 {% endhint %}
 
 ## 软件概览
 
 ### 安全关闭
 
-只要在运行激光器，你就必须随时备有**硬件急停按钮**（见[急停与联锁](hardware/emergency-stop-interlocks.md "mention")）。如果只是想在不那么紧急的情况下关闭所有输出，可以使用 _**DISARM ALL**_ 按钮，或按 `Escape` 键（也可以按 APC40 上的 _**SESSION**_ 键）。你也可以使用屏幕上的滑块或 APC40 上的主推子来降低 Global Brightness。
+只要在运行激光器，你就必须随时备有**硬件急停按钮**（见[急停 / 联锁](hardware/emergency-stop-interlocks.md "mention")）。如果只是想在不那么紧急的情况下关闭所有输出，可以使用 _**DISARM ALL**_ 按钮，或按 `Escape` 键（也可以按 APC40 上的 _**SESSION**_ 键）。你也可以使用屏幕上的滑块或 APC40 上的主推子来降低 Global Brightness。
 
 ### 滑块控件
 
@@ -306,7 +306,7 @@ _Laser Overview_ 面板可以让你快速查看当前运行的激光器状态。
 更多详情请阅读 [控制器分配](setting-up/controller-assignment.md "mention")章节。
 
 {% hint style="danger" %}
-在启用任何激光器输出之前，请务必阅读[设置激光器](setting-up/setting-up-lasers.md "mention")章节。
+在启用任何激光器输出之前，请务必阅读[激光器设置流程概览](setting-up/setting-up-lasers.md "mention")章节。
 {% endhint %}
 
 ### Laser Settings 面板
@@ -337,10 +337,10 @@ Liberation 让你可以详细控制点流的生成方式，从而为每台激光
 基本扫描器设置包括：
 
 * **Speed** 是扫描器速度，也就是激光移动绘制形状的速度。这相当于在传统激光软件中调整点率，但在 Liberation 中，你可以在_不依赖点率_的情况下改变激光移动速度。通常不需要调整此项。
-* **Scanner sync**（有时称为 _blank shift_，以前称为 Colour Shift）扫描器会非常快速地移动激光，但亮度和颜色变化通常会与移动不同步。这会表现为光束和线条边缘出现轻微闪烁的光“尾巴”。使用此项调整可让移动与颜色彼此同步。见 [Laser Settings](setting-up/laser-settings.md "mention")
+* **Scanner sync**（有时称为 _blank shift_，以前称为 Colour Shift）扫描器会非常快速地移动激光，但亮度和颜色变化通常会与移动不同步。这会表现为光束和线条边缘出现轻微闪烁的光“尾巴”。使用此项调整可让移动与颜色彼此同步。见 [激光输出设置面板](setting-up/laser-settings.md "mention")
 
 其他高级扫描器设置在[高级](advanced/ "mention")章节中说明。
 
 ### Zoning
 
-关于设置激光器和划分 zone 的完整指南，见：[设置激光器](setting-up/setting-up-lasers.md "mention")
+关于设置激光器和划分 zone 的完整指南，见：[激光器设置流程概览](setting-up/setting-up-lasers.md "mention")

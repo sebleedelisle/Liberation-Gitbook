@@ -25,4 +25,4 @@ metaLinks:
 
 將左邊的 Liberation 圖示拖到右邊的 Applications 資料夾（你可能需要輸入管理員密碼）。你現在可以在 Applications 資料夾找到 Liberation，雙擊即可開啟。
 
-Liberation 現在應該可以運行了！如要輸出到 laser，你需要先完成[授權及取消授權](authorising-and-de-authorising.md)程序。
+Liberation 現在應該可以運行了！如要輸出到 laser，你需要先完成[授權及取消授權](authorising-and-de-authorising.md)。

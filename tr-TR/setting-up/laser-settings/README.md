@@ -50,7 +50,7 @@ Varsayılan ayarlar oldukça temkinli olsa da scanner ayarlarını çok hızlı 
 {% endhint %}
 
 {% hint style="info" %}
-Bu Speed ayarı point rate değerini değiştirmez; bunun yerine noktaların ne kadar aralıklı yerleştirileceğini ayarlar. Daha fazla bilgi için bkz. [Liberation lazer içeriğini nasıl üretir](../../advanced/how-liberation-generates-laser-content.md "mention")
+Bu Speed ayarı point rate değerini değiştirmez; bunun yerine noktaların ne kadar aralıklı yerleştirileceğini ayarlar. Daha fazla bilgi için bkz. [◼️ Liberation lazer içeriğini nasıl üretir](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,7 +67,7 @@ Lazer çıkışınızda küçük “kuyruklar” görüyorsanız, büyük olası
 
 #### Scanner presetleri
 
-Önceden hazırlanmış bir scanner ayarı seçmek için bunu kullanın. Varsayılan seçenek genellikle uygundur; bu yüzden özellikle kötü (veya iyi) scanner donanımınız yoksa bu ayarı değiştirmeniz gerekmez. Daha ayrıntılı incelemek isterseniz bkz. [Scanner presetleri](../../advanced/scanner-presets.md "mention")
+Önceden hazırlanmış bir scanner ayarı seçmek için bunu kullanın. Varsayılan seçenek genellikle uygundur; bu yüzden özellikle kötü (veya iyi) scanner donanımınız yoksa bu ayarı değiştirmeniz gerekmez. Daha ayrıntılı incelemek isterseniz bkz. [◼️ Scanner presetleri ve render profilleri](../../advanced/scanner-presets.md "mention")
 
 #### Renk kalibrasyonu
 
@@ -75,4 +75,4 @@ Bu sistemi, lazerinizin parlaklık eğrisini ve beyaz dengesini düzeltmek için
 
 #### Gelişmiş ayarlar
 
-Bunlarla uğraşmanız gerekmez; ama merak ediyorsanız bkz. [Gelişmiş lazer ayarları](../../advanced/advanced-laser-settings.md "mention")
+Bunlarla uğraşmanız gerekmez; ama merak ediyorsanız bkz. [◼️ Gelişmiş lazer ayarları](../../advanced/advanced-laser-settings.md "mention")

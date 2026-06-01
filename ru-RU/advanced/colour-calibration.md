@@ -17,7 +17,7 @@ metaLinks:
 
 #### Как работает калибровочный test pattern
 
-Для калибровки используйте test patterns (см. [Тестовые шаблоны](../output-view/test-patterns.md "mention"))
+Для калибровки используйте тестовые шаблоны (см. [Тестовые шаблоны](../output-view/test-patterns.md "mention"))
 
 * **5** – Красный
 * **6** – Зелёный

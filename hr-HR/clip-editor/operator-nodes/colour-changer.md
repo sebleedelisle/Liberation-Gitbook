@@ -28,7 +28,7 @@ Mijenja boje cijelog dolaznog sadržaja. Možete postaviti fiksne HSB vrijednost
 * **blend** - koliko se snažno primjenjuje promjena boje; 0% znači nimalo, 100% potpuno, a 50% kombinaciju postojeće boje i novih vrijednosti.
 
 {% hint style="info" %}
-Node Colour Change uzorkuje jednu boju iz gradijenta za cijeli ulaz. Ako želite da se gradijent proteže preko oblika prema položaju, umjesto toga upotrijebite [mjenjače na temelju položaja](position-based-changers.md "mention").
+Node Colour Change uzorkuje jednu boju iz gradijenta za cijeli ulaz. Ako želite da se gradijent proteže preko oblika prema položaju, umjesto toga upotrijebite [Mjenjače na temelju položaja](position-based-changers.md "mention").
 {% endhint %}
 
 ### Uređivač gradijenta
