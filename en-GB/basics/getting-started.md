@@ -14,17 +14,17 @@ Liberation is flexible enough that you can set up lasers and visualise them with
 You can set up and visualise as many lasers as you want within Liberation, the licence tiers (Hobbyist, Pro, etc) only limit the number of lasers you can _arm._ This means that you can design laser shows with 100 lasers even with a free licence. You only need to upgrade when it comes to actually running it on real lasers.
 {% endhint %}
 
-The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware setup. (See [setting-up-your-project.md](../setting-up/setting-up-your-project.md "mention"))&#x20;
+The default has 8 lasers spread out horizontally but you can customise this to whatever you want. It's probably best to keep this default while you're getting to know the software, and then later on you can adjust it to match your hardware setup. (See [Setting up your project](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Important : Before you arm any lasers make sure you understand the risks involved and carefully go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention") chapter.
+Important : Before you arm any lasers make sure you understand the risks involved and carefully go through the [Laser setup process overview](../setting-up/setting-up-lasers.md "mention") chapter.
 {% endhint %}
 
 ## Overview of the software
 
 ### Safety shut-off
 
-Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [emergency-stop-interlocks.md](../hardware/emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button, or the `Escape` key (or the _**SESSION**_ key on the APC40). You can also reduce the global brightness using the on-screen slider or the main fader on the APC40.
+Any time you're running lasers you must have a **hardware emergency stop button** on hand (see [Emergency stop / interlocks](../hardware/emergency-stop-interlocks.md "mention")), but if you want to disarm everything less urgently you can use the _**DISARM ALL**_ button, or the `Escape` key (or the _**SESSION**_ key on the APC40). You can also reduce the global brightness using the on-screen slider or the main fader on the APC40.
 
 ### Slider elements
 
@@ -36,7 +36,7 @@ Throughout Liberation there are various sliders and controls.
 
 ### Keyboard shortcuts
 
-A full list of keyboard shortcuts can be found here : [keyboard-shortcuts.md](../reference/keyboard-shortcuts.md "mention")
+A full list of keyboard shortcuts can be found here : [Keyboard shortcuts](../reference/keyboard-shortcuts.md "mention")
 
 ### Screen layout
 
@@ -68,7 +68,7 @@ The large area in the top left of the screen can be one of 3 main views; **3D**,
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-The 3D view shows you what your lasers will look like and can be configured to match your own laser setup. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_View -> 3D Visualiser Settings_). See [3d-visualiser.md](../setting-up/3d-visualiser.md "mention").
+The 3D view shows you what your lasers will look like and can be configured to match your own laser setup. Click and drag to rotate the camera, use the mouse wheel to track forward and back. You can find many other options in the _3D Visualiser settings_ panel (_View -> 3D Visualiser Settings_). See [3D Visualiser](../setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -112,7 +112,7 @@ The Canvas system is used mostly for graphics and architectural mapping. You can
 
 Although it is possible to control Liberation using the mouse and keyboard, it's way better to use an APC40 MIDI control interface (Mark 2 is best but Mark 1 also works).
 
-See also : [apc40-reference.md](../reference/apc40-reference.md "mention")
+See also : [APC40 reference](../reference/apc40-reference.md "mention")
 
 Liberation also supports APC Mini and MIDI Fighter Twister. The APC40 Mark 2 is still the best option for most cases.&#x20;
 
@@ -140,7 +140,7 @@ You can scroll the clip deck left and right using :
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ buttons
 
-To help you get your bearings, there is a mini visualiser of the clip deck along the top. See also [clips](../clips/ "mention")
+To help you get your bearings, there is a mini visualiser of the clip deck along the top. See also [Clips & Clip deck](../clips/ "mention")
 
 #### Starting and stopping clips
 
@@ -162,7 +162,7 @@ Two rows below the zone buttons, you'll see the X/Y flip buttons, toggle these t
 Note that these zone allocations and X/Y flip settings are connected to the clip itself; they are retained next time you run that clip. They are not a global setting.
 {% endhint %}
 
-Right-click on a clip to edit more settings for the clip. Also see [clip-settings.md](../clips/clip-settings.md "mention")
+Right-click on a clip to edit more settings for the clip. Also see [Clip settings](../clips/clip-settings.md "mention")
 
 ### Groups
 
@@ -184,7 +184,7 @@ Change zone settings for all clips within a group
 
 Using the APC40, press the group button, then _while it is still held,_ use the zone and X/Y buttons to toggle zone settings for all clips within that group.
 
-See also [groups.md](../clips/groups.md "mention")
+See also [Clip groups](../clips/groups.md "mention")
 
 ### Effects
 
@@ -202,7 +202,7 @@ Use the rotary controllers 1-8\* to adjust the _parameter_ for each effect. (Or 
 The small numbers you see on the effect buttons refer to the _level_ and _parameter_ of the effect. The _level_ is controlled by the fader on the APC40 or you can click and drag on the button. The parameter is adjusted by the rotaries on the APC40 or you can right-click to adjust with the mouse.
 {% endhint %}
 
-_\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also:_ [apc40-reference.md](../reference/apc40-reference.md "mention")
+_\*Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also:_ [APC40 reference](../reference/apc40-reference.md "mention")
 
 #### The default effects
 
@@ -297,10 +297,10 @@ Click on the _Assign Laser Controllers_ button to open the _Controller Assignmen
 
 You can choose which laser outputs go to which laser controllers here. Drag and drop controllers from the list on the right into slots on the left. You can rename your controllers to match which laser they are paired with (use the pen icon button).
 
-Read the [controller-assignment.md](../setting-up/controller-assignment.md "mention") chapter for more details.
+Read the [Controller assignment](../setting-up/controller-assignment.md "mention") chapter for more details.
 
 {% hint style="danger" %}
-Before you arm any lasers make sure to go through the [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")chapter.
+Before you arm any lasers make sure to go through the [Laser setup process overview](../setting-up/setting-up-lasers.md "mention") chapter.
 {% endhint %}
 
 ### Laser output panel
@@ -331,10 +331,10 @@ If you are used to older laser software that relies on pre-calculated point stre
 The basic scanner settings are:
 
 * **Speed** is the scanner speed, i.e. how fast the laser moves around to draw shapes. This is equivalent to adjusting the point rate on traditional laser software but on Liberation you can change how fast the laser moves _independent of the point rate._ You shouldn't need to adjust this.
-* **Scanner sync** (sometimes known as _blank shift, previously Colour Shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in sync with each other. See [laser-settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (sometimes known as _blank shift, previously Colour Shift_) The scanners move the laser around really fast but usually the change of brightness and colour is out of sync with the movement. This shows up as little flickering "tails" of light on the edge of beams and lines. Use this adjustment to get the movement and colour in sync with each other. See [Laser output settings panel](../setting-up/laser-settings.md "mention")
 
-The other advanced scanner settings are covered in the [advanced](../advanced/ "mention")chapter.
+The other advanced scanner settings are covered in the [advanced](../advanced/ "mention") chapter.
 
 ### Zoning
 
-For a full guide to setting up and zoning lasers see : [setting-up-lasers.md](../setting-up/setting-up-lasers.md "mention")
+For a full guide to setting up and zoning lasers see : [Laser setup process overview](../setting-up/setting-up-lasers.md "mention")

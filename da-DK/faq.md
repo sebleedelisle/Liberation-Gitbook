@@ -163,7 +163,7 @@ Der findes også nogle forudindstillede scannerindstillinger. Standardindstillin
 
 Se [Panelet Laser output settings](setting-up/laser-settings.md "mention") for flere oplysninger, og se [◼️ Scanner-presets og render-profiler](advanced/scanner-presets.md "mention") for oplysninger om, hvordan du opretter dine egne presets (avanceret, under udarbejdelse)
 
-Du kan også korrigere farvebalancen med indstillingerne _Colour calibration_. Se [Farvekalibrering](advanced/colour-calibration.md "mention")(avanceret teknik)
+Du kan også korrigere farvebalancen med indstillingerne _Colour calibration_. Se [Farvekalibrering](advanced/colour-calibration.md "mention") (avanceret teknik)
 
 #### Hvad gør indstillingen _Latency(ms)_?
 

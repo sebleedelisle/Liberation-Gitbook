@@ -23,7 +23,7 @@ Right-click on the zone and toggle the number buttons to select which laser(s) t
 WARNING - if the laser is armed you could suddenly start projecting content in a default canvas zone. It's best to disarm the laser before assigning canvas zones to it.
 {% endhint %}
 
-If you now go to the _OUTPUT_ view for that laser you'll see the canvas zone in there, which can now be edited exacltly like any beam zone. See [zones.md](../output-view/zones.md "mention").
+If you now go to the _OUTPUT_ view for that laser you'll see the canvas zone in there, which can now be edited exacltly like any beam zone. See [Zones](../output-view/zones.md "mention").
 
 {% hint style="info" %}
 You can also add a canvas zone to a laser directly from the _OUTPUT_ view - click the _Add existing canvas zone_ button in the left hand toolbar.

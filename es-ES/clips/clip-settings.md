@@ -33,7 +33,7 @@ Si un clip está bloqueado, no se puede mover ni eliminar. Para bloquear un clip
 
 ### Menú contextual
 
-Si haces clic derecho en un Clip, aparece un menú con algunas de las opciones de ese Clip. Consulta [Introducción al Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Ajustes de Clip](clip-settings.md "mention") y [Grupos de Clip](groups.md "mention")para saber más sobre los primeros elementos de este menú.
+Si haces clic derecho en un Clip, aparece un menú con algunas de las opciones de ese Clip. Consulta [Introducción al Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Ajustes de Clip](clip-settings.md "mention") y [Grupos de Clip](groups.md "mention") para saber más sobre los primeros elementos de este menú.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

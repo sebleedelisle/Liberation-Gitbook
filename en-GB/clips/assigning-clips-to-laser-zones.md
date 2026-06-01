@@ -28,4 +28,4 @@ You don't need to make a new zone to have different mirror settings. The X and Y
 
 ### Assigning zones to multiple clips at once
 
-You can assign zones and adjust X/Y for all clips in a zone. See [groups.md](groups.md "mention") for more information.
+You can assign zones and adjust X/Y for all clips in a zone. See [Clip groups](groups.md "mention") for more information.

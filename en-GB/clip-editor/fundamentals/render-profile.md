@@ -16,7 +16,7 @@ Unlike most laser software, Liberation generates a point stream in real-time, ju
 
 It also means that you can tune the same content for different scanner types on a laser by laser basis, without having to change the clips themselves.
 
-For more details see [how-liberation-generates-laser-content.md](../../advanced/how-liberation-generates-laser-content.md "mention")
+For more details see [◼️ How Liberation generates laser content](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 There are three preset _Render Profiles_; _DEFAULT_, _FAST_, and _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ if your clip has a lot of content and some of it is just really sim
 _**DETAIL**_ - if you are drawing something that needs sharp corners, use this option. But bear in mind your scanners will move more slowly, making the output flickery.
 
 {% hint style="info" %}
-Within the clip editor, you can assign creators to different render profiles, but each laser will process these profiles dependent on their scanner settings. See [scanner-presets.md](../../advanced/scanner-presets.md "mention")
+Within the clip editor, you can assign creators to different render profiles, but each laser will process these profiles dependent on their scanner settings. See [◼️ Scanner presets & render profiles](../../advanced/scanner-presets.md "mention")
 {% endhint %}

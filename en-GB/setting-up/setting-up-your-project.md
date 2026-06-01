@@ -13,12 +13,12 @@ Here is an overview of the process :
 
 1.  **Change the number of lasers in your project :**
 
-    In the _Laser Overview_ panel, click the red button on the right to delete a laser. Add a laser with the _ADD LASER_ button at the bottom. See also [adding-removing-lasers.md](adding-removing-lasers.md "mention")
+    In the _Laser Overview_ panel, click the red button on the right to delete a laser. Add a laser with the _ADD LASER_ button at the bottom. See also [Adding / removing lasers](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Update the 3D visualiser view :**
 
-    Adjust the position and orientation of each laser using the _3D Visualiser Settings_ panel. See [3d-visualiser.md](3d-visualiser.md "mention").
+    Adjust the position and orientation of each laser using the _3D Visualiser Settings_ panel. See [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Adjust the zones :**\
@@ -26,14 +26,14 @@ Here is an overview of the process :
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Change each clip's zones :**\
-    Trigger each clip by clicking its button, and then toggle the zones and the X and Y flip using the on-screen buttons. See [clips](../clips/ "mention").
+    Trigger each clip by clicking its button, and then toggle the zones and the X and Y flip using the on-screen buttons. See [Clips & Clip deck](../clips/ "mention").
 
     \\
 
     <figure><img src="../.gitbook/assets/Y.png" alt=""><figcaption></figcaption></figure>
-5.  **Connect to your controllers :** when you're ready to plug your lasers in and go, open the _Controller Assignment_ panel. See [controller-assignment.md](controller-assignment.md "mention").
+5.  **Connect to your controllers :** when you're ready to plug your lasers in and go, open the _Controller Assignment_ panel. See [Controller assignment](controller-assignment.md "mention").
 
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Activate and zone your lasers :** Carefully follow the [setting-up-lasers.md](setting-up-lasers.md "mention")
+6. **Activate and zone your lasers :** Carefully follow the [Laser setup process overview](setting-up-lasers.md "mention")

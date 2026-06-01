@@ -163,7 +163,7 @@ Postoje i neke unaprijed definirane postavke skenera. Zadana opcija je konzervat
 
 Za više informacija pogledajte [Laser Settings](setting-up/laser-settings.md "mention"), a za informacije o stvaranju vlastitih preseta pogledajte [Preseti skenera](advanced/scanner-presets.md "mention") (napredno, u izradi)
 
-Ravnotežu boja možete ispraviti i pomoću postavki _Colour calibration_. Pogledajte [Kalibracija boje](advanced/colour-calibration.md "mention")(napredna tehnika)
+Ravnotežu boja možete ispraviti i pomoću postavki _Colour calibration_. Pogledajte [Kalibracija boje](advanced/colour-calibration.md "mention") (napredna tehnika)
 
 #### Što radi postavka _Latency(ms)_?
 

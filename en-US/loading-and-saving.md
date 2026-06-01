@@ -14,7 +14,7 @@ However you can export your setup for backup and transferring to another compute
 
 The Project file stores almost everything in your current setup, including :
 
-* Everything detailed in [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention")below
+* Everything detailed in [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention") below
 * Clips, effects and group settings
 * All of your timelines (not including audio and video media)
 * Art-Net setup
@@ -82,7 +82,7 @@ To import just the effects from a project, select _**Effects->Import Effects**_,
 
 ### Timeline Export
 
-Export a timeline file with one or more timelines. Note that the clip deck is always included with exported timeline files (although you can be selective about which clips you import back in, see [#timeline-import](loading-and-saving.md#timeline-import "mention")below)
+Export a timeline file with one or more timelines. Note that the clip deck is always included with exported timeline files (although you can be selective about which clips you import back in, see [#timeline-import](loading-and-saving.md#timeline-import "mention") below)
 
 If you have more than one timeline in your project file, a panel will open allowing you to select which timeilnes you want to export.
 

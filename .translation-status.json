@@ -274,7 +274,7 @@
     },
     "en-US/advanced/colour-calibration.md": {
       "source": "en-GB/advanced/colour-calibration.md",
-      "source_sha256": "59f0f38bac5786246eed3735036b64802cb5f9ef29da8df6e39910e4743c7a53"
+      "source_sha256": "ca78b9441fafd2ecc697e90e334d7918adfe014bd942698641e328af2f703884"
     },
     "en-US/advanced/how-liberation-generates-laser-content.md": {
       "source": "en-GB/advanced/how-liberation-generates-laser-content.md",
@@ -298,7 +298,7 @@
     },
     "en-US/basics/getting-started.md": {
       "source": "en-GB/basics/getting-started.md",
-      "source_sha256": "b2359559be8efbf965fd84e3d5a9b15f85204f385cf9b1e6cb5b23301afbd62a"
+      "source_sha256": "94d48667b387fe8a4122e56dd55fb7d6c753e86c072a6649576713e784144df6"
     },
     "en-US/clip-editor/README.md": {
       "source": "en-GB/clip-editor/README.md",
@@ -306,15 +306,15 @@
     },
     "en-US/clip-editor/clip-editor-intro.md": {
       "source": "en-GB/clip-editor/clip-editor-intro.md",
-      "source_sha256": "40b3701f3f2b147ee4a0f6042a34d0811129e794c061b37be5e34b52ea175148"
+      "source_sha256": "3eace983f2ab8434a45f1191c2715c8d22d3741e40ded6e1c740dcc8063c2c1c"
     },
     "en-US/clip-editor/creator-nodes.md": {
       "source": "en-GB/clip-editor/creator-nodes.md",
-      "source_sha256": "628210395aaa6897b2f1bf0df635e6d5033e6d4b085082aad37f2c823b46f1c3"
+      "source_sha256": "7bd4190a146f5c258a9e8e8eef6a9b0b2944ecc4f4e46fc042627b2af2547f6f"
     },
     "en-US/clip-editor/dmx-node.md": {
       "source": "en-GB/clip-editor/dmx-node.md",
-      "source_sha256": "f9b35f31e2cfeb7fbd7d5891fef30bc642cc211b67f8578a0f8404eec066e2b6"
+      "source_sha256": "6c84d2a90c8c8b34314517a458d26a02b00dab016e5c6979442b87557fea3a9e"
     },
     "en-US/clip-editor/fundamentals/README.md": {
       "source": "en-GB/clip-editor/fundamentals/README.md",
@@ -334,7 +334,7 @@
     },
     "en-US/clip-editor/fundamentals/render-profile.md": {
       "source": "en-GB/clip-editor/fundamentals/render-profile.md",
-      "source_sha256": "61fef2f4821d5949cd80107223df81eff7450b742cb70cd4c1af1fafccf0b6e7"
+      "source_sha256": "562ba7fab0c2452b344d340aa6f8bd493dffde83c6e462e1568ecec86005d33f"
     },
     "en-US/clip-editor/fundamentals/resolution.md": {
       "source": "en-GB/clip-editor/fundamentals/resolution.md",
@@ -346,7 +346,7 @@
     },
     "en-US/clip-editor/operator-nodes/colour-changer.md": {
       "source": "en-GB/clip-editor/operator-nodes/colour-changer.md",
-      "source_sha256": "be7423714fa5a4349d45390cb5cb1a6382c48d4082c85bee3676d9ff16f2d023"
+      "source_sha256": "2440d66e129e18967df8f35977595fb8b4ce14c70713dd4b0a89fb979d70dc87"
     },
     "en-US/clip-editor/operator-nodes/duplicators.md": {
       "source": "en-GB/clip-editor/operator-nodes/duplicators.md",
@@ -358,19 +358,19 @@
     },
     "en-US/clip-editor/operator-nodes/path-modifiers.md": {
       "source": "en-GB/clip-editor/operator-nodes/path-modifiers.md",
-      "source_sha256": "66944150bc62ce5b3746c22398dcde67ac7f2330c0db42ce59e5e37989437e2d"
+      "source_sha256": "189eca649c18472fd8911f1d72ee52ad564b8b32a1d9a2a9de74b3ff561b3efc"
     },
     "en-US/clip-editor/operator-nodes/position-based-changers.md": {
       "source": "en-GB/clip-editor/operator-nodes/position-based-changers.md",
-      "source_sha256": "e666f9e319f784da576434443c982367ee941d48f7d7500dcfe75e48f69a6997"
+      "source_sha256": "e6bfe2b754595a526561beb8eb31b0297dc52b551d6b27d1994fd70d5d844c5f"
     },
     "en-US/clip-editor/operator-nodes/stylisation.md": {
       "source": "en-GB/clip-editor/operator-nodes/stylisation.md",
-      "source_sha256": "e43c09fb68d5ea8152be7ac0e1c95df295177b02917450ff7decd1adfbbb1f4e"
+      "source_sha256": "89d1a7c035dd272087ea2d4c5edf5c62233522206fa2d02efe0d732aa897537b"
     },
     "en-US/clip-editor/operator-nodes/transformations.md": {
       "source": "en-GB/clip-editor/operator-nodes/transformations.md",
-      "source_sha256": "b20ae2cd44b1c6019c17ba069369967cf619beb020e938f1c782a320ae31ba9d"
+      "source_sha256": "3f58efb1c1c461c6f2df5e113bf8a644553bc0edf0c0dc70813a393c2c03526d"
     },
     "en-US/clip-editor/oscillators/README.md": {
       "source": "en-GB/clip-editor/oscillators/README.md",
@@ -394,11 +394,11 @@
     },
     "en-US/clips/assigning-clips-to-laser-zones.md": {
       "source": "en-GB/clips/assigning-clips-to-laser-zones.md",
-      "source_sha256": "d26d0b5abee81376e13ff0203866bbd6a0c08439a092e67ea93466601a75d4c4"
+      "source_sha256": "08109031644d40f628a77630c0bf08b7243ffaa2b399854bbd55761cd47c347d"
     },
     "en-US/clips/clip-settings.md": {
       "source": "en-GB/clips/clip-settings.md",
-      "source_sha256": "4fa41218dc44b9464af07307a57cec78a904ad1de6ef52984ede856152093397"
+      "source_sha256": "1301a8ffaf7185d8e0485e50af41ca41068347c16a62b6ec55c12f6830a59305"
     },
     "en-US/clips/global-settings.md": {
       "source": "en-GB/clips/global-settings.md",
@@ -410,15 +410,15 @@
     },
     "en-US/clips/organising-your-clip-deck.md": {
       "source": "en-GB/clips/organising-your-clip-deck.md",
-      "source_sha256": "c437546a67f95e0a2a728eb45410c19c8a6ed28a2f3f9451b456981b356fbfb6"
+      "source_sha256": "1bbc107789bf49011c69bb7d92da5b3735ca43a6354710d3ec56aafecb32f7bf"
     },
     "en-US/clips/overview.md": {
       "source": "en-GB/clips/overview.md",
-      "source_sha256": "e8b9dde5ff0d1986fac866a74ebba4667e2509d9f9ba07262351b789ed0a944e"
+      "source_sha256": "6400d49b1a8564687ca08bfd5b3bb95fef33b0e8a3b2d285832996cfdfe9fbc0"
     },
     "en-US/clips/starting-stopping-clips.md": {
       "source": "en-GB/clips/starting-stopping-clips.md",
-      "source_sha256": "4cdcdf3759a7cbd2f7c11733ba2c76563775df09abe1877c536fec581181c270"
+      "source_sha256": "9cabcc5231f8e838345db7e1d0e8e598f71c91826dd36cbf104501feda31244a"
     },
     "en-US/clips/what-are-the-small-icons-on-the-clip-buttons.md": {
       "source": "en-GB/clips/what-are-the-small-icons-on-the-clip-buttons.md",
@@ -426,7 +426,7 @@
     },
     "en-US/clips/zone-delay-chase.md": {
       "source": "en-GB/clips/zone-delay-chase.md",
-      "source_sha256": "ea44495580fd32725f7bbae1761989c91148a45d5c01ddb6468fbc2b4a545984"
+      "source_sha256": "8ae4542c1f4bd86b35f1fbed5ab1fe0caadf243fd19aa10f1ac3513cbc7fe4ec"
     },
     "en-US/credits.md": {
       "source": "en-GB/credits.md",
@@ -442,7 +442,7 @@
     },
     "en-US/dmx-control/creating-dmx-zones/README.md": {
       "source": "en-GB/dmx-control/creating-dmx-zones/README.md",
-      "source_sha256": "f03ccb705448a40385bc1cb90b0ae1e108e1f0390be66a687152bac49872904c"
+      "source_sha256": "a1ae41dd28e70c3d798e4e6076c0cea15323aac05af047c6293927653552f39f"
     },
     "en-US/dmx-control/creating-dmx-zones/examples.md": {
       "source": "en-GB/dmx-control/creating-dmx-zones/examples.md",
@@ -458,15 +458,15 @@
     },
     "en-US/effects.md": {
       "source": "en-GB/effects.md",
-      "source_sha256": "38220a13e164a6b1d184dc2a6faa291c7cbe56b7ae2a81850f836530dff037b5"
+      "source_sha256": "93d2c7a4928203bfd6cedb34de7900d9b01e450e1990ddb3d676c6dc6af92927"
     },
     "en-US/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5ffeb41e1c59ba5eeaecd5eb4d766c22a034665cb3c07548bc210b1fa0cf7871"
+      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
     },
     "en-US/getting-started.md": {
       "source": "en-GB/getting-started.md",
-      "source_sha256": "b245cd677d2e1d74529ac5e31a0b31313756976299c769cd0c0516e9ac53fdd8"
+      "source_sha256": "fecf0427ce51d114ab73b5e52b318567d07a42a3aa4057fc32bb6e1908e7d05c"
     },
     "en-US/graphics-and-the-canvas-system/README.md": {
       "source": "en-GB/graphics-and-the-canvas-system/README.md",
@@ -474,7 +474,7 @@
     },
     "en-US/graphics-and-the-canvas-system/canvas-overview.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-overview.md",
-      "source_sha256": "cbc9846b1fd9088e77d51473f17c2ef30330283d1f39746dbe2406ec9567c871"
+      "source_sha256": "289d7147a30ed0bbfa9f04f49de26e60c4fe07b3b69881d127d1d39662930791"
     },
     "en-US/graphics-and-the-canvas-system/canvas-settings.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-settings.md",
@@ -482,7 +482,7 @@
     },
     "en-US/graphics-and-the-canvas-system/canvas-target-areas.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-target-areas.md",
-      "source_sha256": "2baddd302b0e60b25ff8acd3b0f50680358cbb5f99a718146b4aa0704d95b13d"
+      "source_sha256": "9e43d5df944b68d5c8d3fc0e32880109a8e0831d35655bda1904b4f606f21b86"
     },
     "en-US/graphics-and-the-canvas-system/canvas-view.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-view.md",
@@ -490,7 +490,7 @@
     },
     "en-US/graphics-and-the-canvas-system/canvas-zones.md": {
       "source": "en-GB/graphics-and-the-canvas-system/canvas-zones.md",
-      "source_sha256": "01690667d469a94c69721438279e6650de739d06506d1dd414e57fc8b20b4d55"
+      "source_sha256": "34fbfffa18ee48ff2ebe4be6997130a2890b47b38cde7ec0569054724630bbf3"
     },
     "en-US/graphics-and-the-canvas-system/introduction.md": {
       "source": "en-GB/graphics-and-the-canvas-system/introduction.md",
@@ -502,7 +502,7 @@
     },
     "en-US/hardware/compatible-lasers-and-controllers-dacs.md": {
       "source": "en-GB/hardware/compatible-lasers-and-controllers-dacs.md",
-      "source_sha256": "59a5bc20ec3fb2b0cb543bc011b7ed1c24ad675cad41a6e4db01eca4c3073701"
+      "source_sha256": "ae527c42efb4fe7862beed876884b46e37a41267b005aa19c8f2dd9c03a3106a"
     },
     "en-US/hardware/emergency-stop-interlocks.md": {
       "source": "en-GB/hardware/emergency-stop-interlocks.md",
@@ -510,11 +510,11 @@
     },
     "en-US/hardware/lasercube.md": {
       "source": "en-GB/hardware/lasercube.md",
-      "source_sha256": "5d352c694139a7ba1b93045a56866ad3a3c17ddbb4efbd9180cd65f97fa0305c"
+      "source_sha256": "738565462f6345aabd11835d1e78d4f058088d5a4a8d37e8aa961e8514e2faad"
     },
     "en-US/important.md": {
       "source": "en-GB/important.md",
-      "source_sha256": "a0ec31b786c5b72f6647a5baef3327fc7b6061016b781cb0d5fa9032d1b5e2db"
+      "source_sha256": "d5bf23a52c8f2b88c78f41c0b8ff9ee439705ca0723a4d06b36fd51f89e5f8b1"
     },
     "en-US/installation/README.md": {
       "source": "en-GB/installation/README.md",
@@ -522,7 +522,7 @@
     },
     "en-US/installation/authorising-and-de-authorising.md": {
       "source": "en-GB/installation/authorising-and-de-authorising.md",
-      "source_sha256": "05dcad1dfc54a22452f08c3e4ec824cb66671d8aa16ea778487f20c7fddf0dc2"
+      "source_sha256": "adc6f82db883718e11dd83954195e81111b9263b0975fd7dd730a2391d189d4b"
     },
     "en-US/installation/cancel-your-subscription.md": {
       "source": "en-GB/installation/cancel-your-subscription.md",
@@ -530,19 +530,19 @@
     },
     "en-US/installation/how-licensing-works.md": {
       "source": "en-GB/installation/how-licensing-works.md",
-      "source_sha256": "b266ea9d4365eca919b8bff568da544970fc81312680636f6906d6706217d9b3"
+      "source_sha256": "2916754a5516f84e81028e4d6f3480dd53420b4912e5c611cb9ca20f8a0a63d4"
     },
     "en-US/installation/install-for-mac.md": {
       "source": "en-GB/installation/install-for-mac.md",
-      "source_sha256": "dec105ed0e1ad4b4cf52deb38cf280bffe2fadd27b1d2880071622a86762e240"
+      "source_sha256": "2f6736ebb899dd7b686b3b781d8e58340c550cf761355406425d16fbe0e18912"
     },
     "en-US/installation/install-for-windows/README.md": {
       "source": "en-GB/installation/install-for-windows/README.md",
-      "source_sha256": "03e2bac3da1a202d2c9a9e9d3cf03b20508401ae9736e2b6092d7d4ae3a2c82e"
+      "source_sha256": "63b175f65c4b0f47ba84c8bae38b5165af9f272a502c3d5ddfa81c050464198f"
     },
     "en-US/installation/transfer-your-content-when-upgrading-to-a-new-version.md": {
       "source": "en-GB/installation/transfer-your-content-when-upgrading-to-a-new-version.md",
-      "source_sha256": "4901d5c5b6f9eebd00e4cc1b356a3b7f1a76a102de5473c92a5c0f8f59c52f0a"
+      "source_sha256": "d8064d8bb2d31bb7f9f962692e8380b7eedec1422c2826e1add7f6e989317fa3"
     },
     "en-US/installation/upgrade-downgrade-your-license.md": {
       "source": "en-GB/installation/upgrade-downgrade-your-license.md",
@@ -550,7 +550,7 @@
     },
     "en-US/loading-and-saving.md": {
       "source": "en-GB/loading-and-saving.md",
-      "source_sha256": "0c82b707a3c87cdfce97e12c3d91910914ecdd9c44b77829c7f88fdd675e53b5"
+      "source_sha256": "c1542b91c69ad33f89d3051c12c3f9292ccb3a428dfbcbdc47138e7d07a056da"
     },
     "en-US/midi-control/README.md": {
       "source": "en-GB/midi-control/README.md",
@@ -558,15 +558,15 @@
     },
     "en-US/midi-control/live-control-with-the-apc40.md": {
       "source": "en-GB/midi-control/live-control-with-the-apc40.md",
-      "source_sha256": "c9f84e29086abdb761f29514280346bfc8e753d0d5c56d0f68c1e54ad5f4f867"
+      "source_sha256": "5796395678049dff2338a05b1f2032e0462f43b0fb5bbe4db273dfbbd7356e9c"
     },
     "en-US/midi-control/midi-control-overview.md": {
       "source": "en-GB/midi-control/midi-control-overview.md",
-      "source_sha256": "a06e69988f46ff199345e01539cfc649e24d74ffa3468646d154d896af61ff3e"
+      "source_sha256": "4f337340e5450024dac31d0637d008fb005e94270f256fb35a2a6ad96a9fb26b"
     },
     "en-US/midi-control/midi-send-receive.md": {
       "source": "en-GB/midi-control/midi-send-receive.md",
-      "source_sha256": "5b47cd8cbb29e8dea778cd993859ad9b8db4e62fd07d15598acc447173185c5a"
+      "source_sha256": "a47df694c317c0e0cd542ba8153598e24c38061409c135e6a5f464eba9248c9b"
     },
     "en-US/network-advice.md": {
       "source": "en-GB/network-advice.md",
@@ -582,7 +582,7 @@
     },
     "en-US/output-view/copy-zones-between-lasers.md": {
       "source": "en-GB/output-view/copy-zones-between-lasers.md",
-      "source_sha256": "b0d7efa4c789990006cbd22c90f23663a063b897e7b42f2debefab3bf2811590"
+      "source_sha256": "02150e30bb39592d36304e64cd5480ccaec8bb8432f31de2750dcd56eb48d504"
     },
     "en-US/output-view/masks.md": {
       "source": "en-GB/output-view/masks.md",
@@ -598,11 +598,11 @@
     },
     "en-US/output-view/test-patterns.md": {
       "source": "en-GB/output-view/test-patterns.md",
-      "source_sha256": "45bac3a3ef15a12be0268d4b042a6ecbd43af70659a9766eda6a7a0bd84d40e6"
+      "source_sha256": "18555cd9d47f52f79c6c18467a07f30beb7709a91a07524e3752e2f1273842da"
     },
     "en-US/output-view/zones.md": {
       "source": "en-GB/output-view/zones.md",
-      "source_sha256": "afe0d9d73dbfbd8041eeaa22503d2d0c0004732cd5bf7b667a75f10b08ff38ec"
+      "source_sha256": "19889c7cb0dfeb31ec91046c631d7aab8ed7c6c3fd995dc39a05e39981ca0a89"
     },
     "en-US/reference/README.md": {
       "source": "en-GB/reference/README.md",
@@ -626,7 +626,7 @@
     },
     "en-US/reference/the-preset-system.md": {
       "source": "en-GB/reference/the-preset-system.md",
-      "source_sha256": "3aec5bacb2b88bf938f3fe70f78024463373a23212255c2cc0b051ee25a8f346"
+      "source_sha256": "2e43dea2d7d8e9626cc6816cf7cc11812387c0f085bd28c721a13ee0553e391f"
     },
     "en-US/setting-up/3d-visualiser.md": {
       "source": "en-GB/setting-up/3d-visualiser.md",
@@ -638,11 +638,11 @@
     },
     "en-US/setting-up/adding-removing-lasers.md": {
       "source": "en-GB/setting-up/adding-removing-lasers.md",
-      "source_sha256": "0c99a1a139ae15ae7099d4df16630c2fa004bab1be38e97782f7d48a1a2fddcc"
+      "source_sha256": "67f81a53cba16b43c65a294518ff0e18881a9c1e8cbcb9fd837303129f829c6c"
     },
     "en-US/setting-up/controller-assignment.md": {
       "source": "en-GB/setting-up/controller-assignment.md",
-      "source_sha256": "7aa13d44637153ae13b9b3d19dc2c80c569b0b80257c0102215d1eb3628d9244"
+      "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
     "en-US/setting-up/copy-laser-settings.md": {
       "source": "en-GB/setting-up/copy-laser-settings.md",
@@ -650,11 +650,11 @@
     },
     "en-US/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "c46d5afc741a8667e773b65dd0bca3fb13f96acd05217912eef0c6d87c4586be"
+      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
     },
     "en-US/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "9d280616609ef9da1721abc5f7769beee73d3cdd34d67c8d52af3d950fdb09a1"
+      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
     },
     "en-US/setting-up/laser-settings/copy-laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
@@ -670,11 +670,11 @@
     },
     "en-US/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
-      "source_sha256": "ec046c9d9dc9480fa3df4b6111b2c1a93aa024e01b55b80afcb0b3e3beaf55fa"
+      "source_sha256": "f34533e41d167f4210113d9194fed507f01cf6c589c676f3078bf40ac7d968d0"
     },
     "en-US/tempo-synchronisation.md": {
       "source": "en-GB/tempo-synchronisation.md",
-      "source_sha256": "a38d66955ba72bd73151b0f15f4791d28aead6272853f8743ec4d6becc43d954"
+      "source_sha256": "3c23049096e960d48cb676d1c23a79116e6e0afe2f2289759e96c09b03a3ee57"
     },
     "en-US/timecode.md": {
       "source": "en-GB/timecode.md",
@@ -714,7 +714,7 @@
     },
     "en-US/tips-for-loading-svg-files.md": {
       "source": "en-GB/tips-for-loading-svg-files.md",
-      "source_sha256": "75891a9c6f5629d0f2e88005bea119da26041826d5f4d202c7c302b89a132e80"
+      "source_sha256": "dcdff8da74a7f45cf3179283a3052cf9d48202717451a5d1ca7366de20847d70"
     },
     "en-US/troubleshooting/README.md": {
       "source": "en-GB/troubleshooting/README.md",

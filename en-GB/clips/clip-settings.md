@@ -14,7 +14,7 @@ Change the output size of the clip using _Scale X_ and _Scale Y_. They are locke
 
 Change the horizontal and vertical position of the clip using _Shift X_ and _Shift Y_.
 
-_Zone Delay/Chase_ is such a fun feature it gets its own section. [zone-delay-chase.md](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ is such a fun feature it gets its own section. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Parameters panel
 
@@ -33,7 +33,7 @@ If a clip is locked, it can't be moved or deleted. To lock a clip, use the _Lock
 
 ### Right-click menu
 
-If you right-click on a clip, a menu appears with some of the options for that clip. See [clip-editor-intro.md](../clip-editor/clip-editor-intro.md "mention"), [clip-settings.md](clip-settings.md "mention") and [groups.md](groups.md "mention")for more about the first few items in this menu.
+If you right-click on a clip, a menu appears with some of the options for that clip. See [Introduction to the Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip settings](clip-settings.md "mention") and [Clip groups](groups.md "mention") for more about the first few items in this menu.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

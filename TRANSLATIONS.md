@@ -98,7 +98,7 @@ Established protocol, connector, product, and acronym names should remain stable
 
 Visible Markdown link text should be translated when it is natural-language text. For links to other pages or sections in the manual, the visible text should match the translated title or heading for that destination, while the link target itself must stay exactly the same.
 
-In translated locales, GitBook mention links must not keep visible labels as filenames, paths, slugs, or English titles such as `setting-up-lasers.md`, `output-view`, or `Quick start guide`. Use the translated destination title or heading as the visible link text. This is different from the `en-GB` source rule in [STYLE_GUIDE.md](STYLE_GUIDE.md), where existing filename-style `.md` mention labels are preserved.
+GitBook mention links must not keep visible labels as filenames, paths, slugs, or English titles such as `setting-up-lasers.md`, `output-view`, or `Quick start guide`. Use the translated destination title or heading as the visible link text.
 
 In `SUMMARY.md`, preserve leading status emoji prefixes such as `✅`, `🟩`, `🟧`, and `◼️` exactly. Translate the page title after the emoji, but do not remove or change the emoji marker.
 
@@ -200,6 +200,7 @@ Run the normal checks after translating:
 npm run check:english-style
 npm run check:spelling
 npm run check:translations:strict
+python3 scripts/check_markdown_link_spacing.py --fix
 python3 scripts/check_link_texts.py --fix
 npm run check:links
 npm run build:site
@@ -247,7 +248,7 @@ For translation PR review:
 4. Merge the PR if it looks good.
 5. Watch the post-merge `Checks` and `HonKit Pages` workflows on `main`.
 
-`npm run check:links` also checks translated internal link labels so stale English page titles and filename-style mention labels cannot be reintroduced silently.
+`npm run check:links` also checks Markdown link spacing plus source and translated internal link labels so stale English page titles and filename-style mention labels cannot be reintroduced silently.
 It also checks translated `SUMMARY.md` files against the English sidebar so missing or changed status emoji prefixes cannot be reintroduced silently.
 
 ## Automated checks
@@ -265,6 +266,8 @@ npm run check:spelling
 Coverage:
 
 * Broken internal links: yes, via `scripts/check_links.py`.
+* Markdown link spacing: yes, via `scripts/check_markdown_link_spacing.py`.
+* Source link labels: yes, via `scripts/check_source_link_texts.py`.
 * Translated link labels: yes, via `scripts/check_link_texts.py`.
 * Summary status emoji prefixes: yes, via `scripts/check_summary_icons.py`.
 * Generated image references and shared locale asset folders: yes, via `scripts/check_generated_images.py`.
@@ -276,6 +279,7 @@ Translation PR branches are pushed by GitHub Actions. GitHub may not trigger the
 ```sh
 npm run check:english-style
 python3 scripts/check_translation_batch.py <tier> --strict
+python3 scripts/check_markdown_link_spacing.py --fix
 python3 scripts/check_link_texts.py --fix
 npm run check:links
 npm run build:site

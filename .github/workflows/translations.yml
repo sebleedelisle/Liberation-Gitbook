@@ -144,6 +144,7 @@ jobs:
 
           npm run check:english-style
           python3 scripts/check_translation_batch.py "${args[@]}"
+          python3 scripts/check_markdown_link_spacing.py --fix
           python3 scripts/check_link_texts.py --fix
           npm run check:links
           npm run build:site
@@ -197,6 +198,7 @@ jobs:
           python3 scripts/run_translation_batch.py $TIER
           npm run check:english-style
           python3 scripts/check_translation_batch.py $TIER --strict
+          python3 scripts/check_markdown_link_spacing.py --fix
           python3 scripts/check_link_texts.py --fix
           npm run check:links
           npm run build:site

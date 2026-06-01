@@ -26,7 +26,7 @@ The randomise node is at the heart of the Randomise effect!
 
 Creates echoes of your content, leaving fading or scaling copies behind the original as it moves.
 
-* **change render profile for trail** – if on, all trail copies use the selected **render profile**. _See_ [render-profile.md](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – if on, all trail copies use the selected **render profile**. _See_ [Render profile](../fundamentals/render-profile.md "mention").
 * **render profile** – the profile to use for trail copies when the switch above is on. Commonly used when the main content is set to **DETAIL** but the echoes are rendered as **FAST**, which gives you clear detail on the main shapes while rendering the trails more efficiently.
 * **delay** – sets the spacing between trail copies in musical time, measured in **1/64-note steps**.\
   For reference:

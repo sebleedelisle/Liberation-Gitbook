@@ -163,7 +163,7 @@ Também existem algumas predefinições de scanner. A opção padrão é conserv
 
 Para mais informações, veja [Painel de configurações de saída do laser](setting-up/laser-settings.md "mention"); e, para informações sobre como criar suas próprias predefinições, veja [◼️ Predefinições de scanner e perfis de renderização](advanced/scanner-presets.md "mention") (avançado, em andamento)
 
-Você também pode corrigir o balanço de cor usando as configurações de _Colour calibration_. Veja [Calibração de cores](advanced/colour-calibration.md "mention")(técnica avançada)
+Você também pode corrigir o balanço de cor usando as configurações de _Colour calibration_. Veja [Calibração de cores](advanced/colour-calibration.md "mention") (técnica avançada)
 
 #### O que a configuração _Latency(ms)_ faz?
 

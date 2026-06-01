@@ -163,7 +163,7 @@ Sono disponibili anche alcune impostazioni scanner predefinite. L’opzione pred
 
 Per ulteriori informazioni, vedi [Pannello delle impostazioni Laser output](setting-up/laser-settings.md "mention"); per sapere come creare i tuoi preset, vedi [◼️ Preset scanner e profili di rendering](advanced/scanner-presets.md "mention") (avanzato, in corso)
 
-Puoi anche correggere il bilanciamento del colore usando le impostazioni _Colour calibration_. Vedi [Calibrazione del colore](advanced/colour-calibration.md "mention")(tecnica avanzata)
+Puoi anche correggere il bilanciamento del colore usando le impostazioni _Colour calibration_. Vedi [Calibrazione del colore](advanced/colour-calibration.md "mention") (tecnica avanzata)
 
 #### A cosa serve l’impostazione _Latency(ms)_?
 

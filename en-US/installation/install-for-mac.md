@@ -25,4 +25,4 @@ Click _Download for Mac_ (the version numbers will change over time) and the Lib
 
 Drag the Liberation icon on the left into the Applications folder on the right (you may need an administrator password). You can now find Liberation in your Applications folder, double-click to open it.
 
-Liberation should now run! To output to lasers you will need to now go through the [authorization process.](authorising-and-de-authorising.md)
+Liberation should now run! To output to lasers you will need to complete [Authorizing and de-authorizing](authorising-and-de-authorising.md).

@@ -29,7 +29,7 @@ If you have already authorized the maximum number of computers for your license,
 If you have multiple licenses, you will be prompted to choose the license that you want to assign the computer to.
 {% endhint %}
 
-Congratulations! Your Liberation install has now been authorized and you can output to lasers! But please read the [Quick start guide](../getting-started.md "mention")and [Laser setup process overview](../setting-up/setting-up-lasers.md "mention") before arming your lasers.
+Congratulations! Your Liberation install has now been authorized and you can output to lasers! But please read the [Quick start guide](../getting-started.md "mention") and [Laser setup process overview](../setting-up/setting-up-lasers.md "mention") before arming your lasers.
 
 {% hint style="info" %}
 You can open the _About panel_ at any time via the menu _Liberation -> About Liberation_ or _Liberation -> Authorize/Deauthorize this computer_

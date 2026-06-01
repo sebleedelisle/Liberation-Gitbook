@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Transfer your content when upgrading to a new version
 
-Liberation stores content in its working folder, (see [where-to-find-the-working-folder.md](../troubleshooting/where-to-find-the-working-folder.md "mention") ) and this changes for every new version release. If you want to keep your working files from the old version to the new one :&#x20;
+Liberation stores content in its working folder, (see [Where to find the working folder](../troubleshooting/where-to-find-the-working-folder.md "mention") ) and this changes for every new version release. If you want to keep your working files from the old version to the new one :&#x20;
 
 1. Open the original version of Liberation
 2. Use _File->Project->Export Project_. This saves everything in your Liberation, the laser setup, timelines, clip deck, everything!&#x20;

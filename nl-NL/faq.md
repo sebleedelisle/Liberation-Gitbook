@@ -163,7 +163,7 @@ Er zijn ook enkele preset scanner settings. De standaardoptie is behoudend en pr
 
 Zie voor meer informatie [Paneel Laser output settings](setting-up/laser-settings.md "mention"), en voor informatie over het maken van je eigen presets zie [◼️ Scannerpresets & renderprofielen](advanced/scanner-presets.md "mention") (geavanceerd, in uitvoering)
 
-Je kunt ook de kleurbalans corrigeren met de instellingen voor _Colour calibration_. Zie [Kleurkalibratie](advanced/colour-calibration.md "mention")(geavanceerde techniek)
+Je kunt ook de kleurbalans corrigeren met de instellingen voor _Colour calibration_. Zie [Kleurkalibratie](advanced/colour-calibration.md "mention") (geavanceerde techniek)
 
 #### Wat doet de instelling _Latency(ms)_?
 

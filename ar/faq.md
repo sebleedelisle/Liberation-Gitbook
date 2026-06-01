@@ -163,7 +163,7 @@ metaLinks:
 
 لمزيد من المعلومات، راجع [Laser Settings](setting-up/laser-settings.md "mention")، وللحصول على معلومات حول كيفية إنشاء إعداداتك المسبقة، راجع [إعدادات الماسح المسبقة](advanced/scanner-presets.md "mention") (متقدم، قيد العمل)
 
-يمكنك أيضًا تصحيح توازن الألوان باستخدام إعدادات _Colour calibration_. راجع [معايرة الألوان](advanced/colour-calibration.md "mention")(تقنية متقدمة)
+يمكنك أيضًا تصحيح توازن الألوان باستخدام إعدادات _Colour calibration_. راجع [معايرة الألوان](advanced/colour-calibration.md "mention") (تقنية متقدمة)
 
 #### ماذا يفعل إعداد _Latency(ms)_؟
 

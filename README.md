@@ -77,7 +77,7 @@ These cover:
 - English mechanical style rules for `en-GB`.
 - Full HonKit build and Pagefind search index generation.
 - Generated local image references and locale asset folders.
-- Broken internal Markdown links, translated link labels, and summary status icons.
+- Broken internal Markdown links, Markdown link spacing, source/translated link labels, and summary status icons.
 - Codespell spelling checks for `en-GB`, `en-US`, scripts, workflow files, and plugin/config files.
 
 They do not provide a full grammar or prose-quality review. `check:english-style` is a mechanical style checker, not a grammar checker.

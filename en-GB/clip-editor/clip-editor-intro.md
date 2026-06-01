@@ -37,7 +37,7 @@ If you don't see any output in the 3D visualiser, you may need to use the zone b
 
 ### Building a clip
 
-You typically start with one or more [creator nodes](creator-nodes.md), and connect [operators](operator-nodes/) from left to right that process the content. As you move creators and/or operators together you'll notice that they automatically connect to each other. And you can drag them apart to disconnect them again.
+You typically start with one or more [creator nodes](creator-nodes.md), and connect [Operator nodes](operator-nodes/) from left to right that process the content. As you move creators and/or operators together you'll notice that they automatically connect to each other. And you can drag them apart to disconnect them again.
 
 ### Adding nodes to your clip
 
@@ -75,7 +75,7 @@ If you've ever used an analog synth, you'll be familiar with the concept of osci
 **Fun fact:** the name _Liberation_ was inspired by the Moog Liberation, a synthesizer "keytar" released in 1980 and made famous by Herbie Hancock, Jean-Michel Jarre and even James Brown!
 {% endhint %}
 
-Oscillators always have _range_ settings that control the minimum and maximum value of the property to be adjusted. And _Wave Oscillators_ always have a _duration_ setting that determines how fast the oscillator changes the value. See [wave-oscillators.md](oscillators/wave-oscillators.md "mention") for more information.
+Oscillators always have _range_ settings that control the minimum and maximum value of the property to be adjusted. And _Wave Oscillators_ always have a _duration_ setting that determines how fast the oscillator changes the value. See [Wave oscillators](oscillators/wave-oscillators.md "mention") for more information.
 
 ### Clip editor panel
 

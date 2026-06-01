@@ -32,12 +32,12 @@ I would argue that it is one of the most fun and creative tools built into Liber
 
 #### Effect parameters
 
-Add a parameter to your effect with a _Parameter node._ The Parameter system is a way to adjust multiple settings inside your effect from the outside. See [parameter-control.md](clip-editor/oscillators/parameter-control.md "mention") for more information.
+Add a parameter to your effect with a _Parameter node._ The Parameter system is a way to adjust multiple settings inside your effect from the outside. See [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") for more information.
 
 Use the rotary controllers 1-8 to adjust the _parameter_ for each effect. Or right-click the effect button and adjust the parameter slider(s). The parameter change does different things dependent on how the effect is set up. See the list below for the default effects and what their parameters do.
 
 {% hint style="info" %}
-Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also: [apc40-reference.md](reference/apc40-reference.md "mention")
+Rotary controllers 1-8 are along the top of an APC40 Mk2 and on the top right on the Mk1. See also: [APC40 reference](reference/apc40-reference.md "mention")
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ This functionality is disabled if the _MX Group_ setting is 0.
 
 Right-click on any effect, and click the _EDIT EFFECT_ button to open the effect editor. Notice that this editor is identical to the clip editor!
 
-Edit your effect in the same way that you would edit any clip. See [clip-editor](clip-editor/ "mention").
+Edit your effect in the same way that you would edit any clip. See [The Clip Editor](clip-editor/ "mention").
 
 You need to have at least one creator node; this can be anything (line, circle, shape, even text!), but you should probably choose something that makes the most sense in the effect button preview.
 
