@@ -14,7 +14,7 @@ Skift clippets outputstørrelse med _Scale X_ og _Scale Y_. De er låst sammen, 
 
 Skift clippets vandrette og lodrette placering med _Shift X_ og _Shift Y_.
 
-_Zone Delay/Chase_ er så sjov en funktion, at den har fået sit eget afsnit. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ er så sjov en funktion, at den har fået sit eget afsnit. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Parameters panel
 

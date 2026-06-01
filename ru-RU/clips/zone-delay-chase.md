@@ -39,7 +39,7 @@ Pattern работает с номерами zones и предполагает, 
 Zone delay также применяется ко всем активным эффектам. Например, мигающий эффект будет задерживаться по zones так же, как и анимация внутри самого Clip.
 {% endhint %}
 
-Если у Clip есть любой вариант _Zone delay_, в правом верхнем углу Clip вы увидите значок из трех точек. Эти точки анимированы и показывают стиль _Zone delay_ для этого Clip. Подробнее см. [Что означают маленькие значки на кнопках Clip](what-are-the-small-icons-on-the-clip-buttons.md "mention").
+Если у Clip есть любой вариант _Zone delay_, в правом верхнем углу Clip вы увидите значок из трех точек. Эти точки анимированы и показывают стиль _Zone delay_ для этого Clip. Подробнее см. [Что означают маленькие значки на кнопках Clip?](what-are-the-small-icons-on-the-clip-buttons.md "mention").
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Символ из трех точек, который показывает, что у Clip есть Zone delay, и указывает его режим</p></figcaption></figure>
 

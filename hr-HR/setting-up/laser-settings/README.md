@@ -50,7 +50,7 @@ Iako su zadane postavke prilično konzervativne, skenere i dalje možete ošteti
 {% endhint %}
 
 {% hint style="info" %}
-Ova postavka brzine ne mijenja frekvenciju točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [Kako Liberation generira laserski sadržaj](../../advanced/how-liberation-generates-laser-content.md "mention")
+Ova postavka brzine ne mijenja frekvenciju točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [◼️ Kako Liberation generira laserski sadržaj](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -67,7 +67,7 @@ Ako na laserskom izlazu vidite male „repove”, vjerojatno treba podesiti scan
 
 #### Preseti skenera
 
-Ovom postavkom odaberite unaprijed pripremljenu postavku skenera. Zadana opcija obično je sasvim u redu, pa ovu postavku ne biste trebali mijenjati osim ako imate posebno loše (ili dobre) skenere. Ako želite detaljnije istražiti, pogledajte [Preseti skenera](../../advanced/scanner-presets.md "mention")
+Ovom postavkom odaberite unaprijed pripremljenu postavku skenera. Zadana opcija obično je sasvim u redu, pa ovu postavku ne biste trebali mijenjati osim ako imate posebno loše (ili dobre) skenere. Ako želite detaljnije istražiti, pogledajte [◼️ Preseti skenera i profili renderiranja](../../advanced/scanner-presets.md "mention")
 
 #### Kalibracija boja
 
@@ -75,4 +75,4 @@ Ovaj sustav možete koristiti za korekciju krivulje svjetline i balansa bijele b
 
 #### Napredne postavke
 
-Ne biste trebali mijenjati ove postavke, ali ako vas zanima više, pogledajte [Napredne postavke lasera](../../advanced/advanced-laser-settings.md "mention")
+Ne biste trebali mijenjati ove postavke, ali ako vas zanima više, pogledajte [◼️ Napredne postavke lasera](../../advanced/advanced-laser-settings.md "mention")

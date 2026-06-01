@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/output-view/copy-zones-between-lasers
+---
+
 # 🟩 在激光之间复制 Zones
 
 在 _Laser Output_ 中点击 _COPY LASER SETTINGS_ 按钮，会打开一个新面板。
@@ -14,4 +21,4 @@
 注意：此过程不会为激光添加或移除 Zones，只会复制目标激光已存在的每个 Zone 的位置与类型。
 {% endhint %}
 
-更多功能详见 [在激光之间复制设置](../setting-up/copy-laser-settings.md "mention")。
+有关此系统其他功能的完整说明，另请参阅 [在激光之间复制设置](../setting-up/copy-laser-settings.md "mention")。

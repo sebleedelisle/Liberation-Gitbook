@@ -146,7 +146,7 @@ Puedes desplazar el clip deck a izquierda y derecha usando:
 * Rueda de desplazamiento del APC40
 * Botones _<- DEVICE ->_ del APC40
 
-Para ayudarte a orientarte, hay un minivisualizador del clip deck en la parte superior. Consulta también [Clips y Clip deck](clips/ "mention").
+Para ayudarte a orientarte, hay un minivisualizador del Clip Deck en la parte superior. Consulta también [Clips y Clip Deck](clips/ "mention").
 
 #### Iniciar y detener clips
 
@@ -168,7 +168,7 @@ Dos filas por debajo de los botones de zona verás los botones de inversión X/Y
 Ten en cuenta que estas asignaciones de zona y los ajustes de inversión X/Y están conectados al propio clip; se conservan la próxima vez que ejecutes ese clip. No son un ajuste global.
 {% endhint %}
 
-Haz clic derecho en un clip para editar más ajustes del clip. Consulta también [Ajustes de Clip](clips/clip-settings.md "mention").
+Haz clic derecho en un Clip para editar más ajustes del Clip. Consulta también [Ajustes de Clip](clips/clip-settings.md "mention").
 
 ### Grupos
 
@@ -303,7 +303,7 @@ Haz clic en el botón _Assign Laser Controllers_ para abrir el panel _Controller
 
 Aquí puedes elegir qué salidas láser van a qué controladores láser. Arrastra y suelta controladores desde la lista de la derecha a las ranuras de la izquierda. Puedes renombrar tus controladores para que coincidan con el láser al que están asociados (usa el botón con el icono de lápiz).
 
-Lee el capítulo [Asignación de controladores](setting-up/controller-assignment.md "mention") para obtener más detalles.
+Lee el capítulo [Asignación de Controller](setting-up/controller-assignment.md "mention") para obtener más detalles.
 
 {% hint style="danger" %}
 Antes de armar cualquier láser, asegúrate de revisar el capítulo [Resumen del proceso de configuración de láseres](setting-up/setting-up-lasers.md "mention").

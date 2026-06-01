@@ -13,12 +13,12 @@ Este es un resumen del proceso:
 
 1.  **Cambia el número de láseres de tu proyecto:**
 
-    En el panel _Laser Overview_, haz clic en el botón rojo de la derecha para eliminar un láser. Añade un láser con el botón _ADD LASER_ de la parte inferior. Consulta también [Añadir / eliminar láseres](adding-removing-lasers.md "mention")
+En el panel _Laser Overview_, haz clic en el botón rojo de la derecha para eliminar un láser. Añade un láser con el botón _ADD LASER_ de la parte inferior. Consulta también [Añadir / eliminar láseres](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Actualiza la vista del 3D Visualiser:**
 
-    Ajusta la posición y la orientación de cada láser usando el panel _3D Visualiser Settings_. Consulta [3D Visualiser](3d-visualiser.md "mention").
+Ajusta la posición y la orientación de cada láser usando el panel _3D Visualiser Settings_. Consulta [Visualizador 3D](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Ajusta las zonas:**\
@@ -26,7 +26,7 @@ Este es un resumen del proceso:
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Cambia las zonas de cada clip:**\
-Lanza cada clip haciendo clic en su botón y, después, activa o desactiva las zonas y el volteo X e Y usando los botones en pantalla. Consulta [Clips y Clip deck](../clips/ "mention").
+Lanza cada clip haciendo clic en su botón y, después, activa o desactiva las zonas y el volteo X e Y usando los botones en pantalla. Consulta [Clips y Clip Deck](../clips/ "mention").
 
     \\
 

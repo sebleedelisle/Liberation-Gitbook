@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Tworzenie stref DMX
 
-1. Podłącz węzeł Art-Net i skonfiguruj go zgodnie z opisem w sekcji [Łączenie z węzłem Art-Net](../connecting-to-an-artnet-node.md "mention").
+1. Podłącz węzeł Art-Net i skonfiguruj go zgodnie z opisem w sekcji [◼️ Łączenie z węzłem Art-Net](../connecting-to-an-artnet-node.md "mention").
 2. Otwórz **DMX Zones** i kliknij **ADD DMX ZONE**.
 3. Ustaw dla strefy wartości **Node**, **Universe** i **Address** zgodnie z urządzeniem.
 4. Wybierz **Preset** dla urządzenia. Preset określa, które kanały DMX otrzymują stałe wartości, wartości włączania/wyłączania zawartości, kolor RGB, pozycję X/Y, jasność albo jawne wejścia DMX Value.

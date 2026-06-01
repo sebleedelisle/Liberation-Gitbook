@@ -9,7 +9,7 @@ metaLinks:
 
 ### Laser nào tương thích với Liberation?
 
-Nếu laser của bạn có đầu vào ILDA tiêu chuẩn, bạn có thể dùng nó với Liberation (cùng với một bộ điều khiển laser tương thích như Ether Dream hoặc Helios DAC - [xem danh sách đầy đủ bên dưới](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)).
+Nếu laser của bạn có đầu vào ILDA tiêu chuẩn, bạn có thể dùng nó với Liberation (cùng với một bộ điều khiển laser tương thích như Ether Dream hoặc Helios DAC - xem phần [Bộ điều khiển laser tương thích](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers) bên dưới).
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - lựa chọn rẻ nhất cho sử dụng tại nhà</p></figcaption></figure>
 

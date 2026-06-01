@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 DMXゾーンの作成
 
-1. Art-Net nodeを接続し、[Art-Net nodeへの接続](../connecting-to-an-artnet-node.md "mention")の手順に従って設定します。
+1. Art-Net nodeを接続し、[◼️ Art-Net nodeへの接続](../connecting-to-an-artnet-node.md "mention")の手順に従って設定します。
 2. **DMX Zones** を開き、**ADD DMX ZONE** をクリックします。
 3. zoneの **Node**、**Universe**、**Address** を、フィクスチャーに合わせて設定します。
 4. フィクスチャー用の **Preset** を選択します。プリセットでは、どのDMXチャンネルが固定値、コンテンツのオン/オフ値、RGBカラー、X/Y位置、明るさ、または明示的なDMX Value入力を受け取るかを定義します。

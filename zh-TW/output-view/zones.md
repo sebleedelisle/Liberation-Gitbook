@@ -9,7 +9,7 @@ metaLinks:
 在大多數專案中，你最常使用的 zone 類型會是 _Beam zone_。這是專為空氣中的光束效果設計的 zone。另一種 zone 類型是 _Canvas zone_（請參閱 [圖形與 Canvas 系統](../graphics-and-the-canvas-system/ "mention")）。
 
 {% hint style="danger" %}
-**警告 - 雷射運作中移動 zone 時請務必格外小心**，並將亮度調到最低。請參閱 [設定雷射](../setting-up/setting-up-lasers.md "mention")，了解如何安全地啟用雷射並設定 zones 的完整指南。
+**警告 - 雷射運作中移動 zone 時請務必格外小心**，並將亮度調到最低。請參閱 [雷射設定流程概覽](../setting-up/setting-up-lasers.md "mention")，了解如何安全地啟用雷射並設定 zones 的完整指南。
 {% endhint %}
 
 你可以用滑鼠點擊並拖曳 zones 來移動它們。開啟 test pattern，就能看到該 zone 會輸出到哪裡。
@@ -19,7 +19,7 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-小技巧：你可以快速將 zone 設定複製到多台雷射！請參閱 [複製雷射設定](../setting-up/copy-laser-settings.md "mention")
+小技巧：你可以快速將 zone 設定複製到多台雷射！請參閱 [在雷射之間複製設定](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### 新增 beam zone
@@ -47,7 +47,7 @@ metaLinks:
 * 重設為預設位置
 * 存取該形狀類型專屬的設定
 * 刪除它
-* 新增 _Alt Zone_（請參閱 [Alt Zone 系統](alt-zone-system.md "mention")）
+* 新增 _Alt Zone_（請參閱 [Alt zone 系統](alt-zone-system.md "mention")）
 
 {% hint style="danger" %}
 **警告 -** 雷射啟用時變更 zone 類型請務必非常小心。zone 會回到該形狀上次使用的位置/大小，因此輸出可能會突然改變。變更 zone 類型前，最好先關閉雷射。

@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Ráð til að hlaða inn grafík / SVG-skrám
 
-Sjá Shape Creator node fyrir upplýsingar um innflutning á vigurformum, lógóum o.s.frv. [Creator nodes](clip-editor/creator-nodes.md)
+Sjá Shape Creator node fyrir upplýsingar um innflutning á vigurformum, lógóum o.s.frv. [Creator nodes](clip-editor/creator-nodes.md "mention")

@@ -9,7 +9,7 @@ metaLinks:
 
 ### Hangi lazerler Liberation ile uyumludur?
 
-Lazerinizde standart bir ILDA girişi varsa, Liberation ile kullanabilirsiniz. Bunun için Ether Dream veya Helios DAC gibi uyumlu bir lazer denetleyicisi de gerekir ([Uyumlu lazer denetleyicileri](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers)).
+Lazerinizde standart bir ILDA girişi varsa, Liberation ile kullanabilirsiniz. Bunun için Ether Dream veya Helios DAC gibi uyumlu bir lazer denetleyicisi de gerekir (aşağıdaki [Uyumlu lazer denetleyicileri](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers) bölümüne bakın).
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC - ev kullanımı için en ekonomik seçenek</p></figcaption></figure>
 

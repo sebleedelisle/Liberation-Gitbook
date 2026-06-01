@@ -24,7 +24,7 @@ metaLinks:
 * 按住 `Shift` 键（或 APC40 的 Shift 按钮）启动新 Clip；或
 * 在启动新 Clip 的同时，再次按住正在运行的 Clip。
 
-各 Group 相互独立，在一个 Group 中启动 Clip 不会影响其他 Group。见 [Clip 分组](groups.md "mention")。
+各 Clip group 相互独立，在一个 Clip group 中启动 Clip 不会影响其他 Clip group。见 [Clip 分组](groups.md "mention")。
 
 ### Flash mode
 

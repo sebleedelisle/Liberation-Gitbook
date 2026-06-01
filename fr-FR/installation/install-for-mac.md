@@ -25,4 +25,4 @@ Cliquez sur _Download for Mac_ (les numéros de version évolueront avec le temp
 
 Faites glisser l’icône Liberation à gauche vers le dossier Applications à droite (un mot de passe administrateur peut être nécessaire). Vous pouvez maintenant trouver Liberation dans votre dossier Applications ; double-cliquez dessus pour l’ouvrir.
 
-Liberation devrait maintenant se lancer. Pour envoyer la sortie vers des lasers, vous devez maintenant suivre le [processus d’autorisation.](authorising-and-de-authorising.md)
+Liberation devrait maintenant se lancer. Pour envoyer la sortie vers des lasers, vous devez suivre [Autoriser et retirer l’autorisation](authorising-and-de-authorising.md).

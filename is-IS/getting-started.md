@@ -23,14 +23,14 @@ Liberation er nógu sveigjanlegt til að þú getir sett upp leysa og séð þá
 Sjálfgefin uppsetning er með 8 leysum dreifðum lárétt, en þú getur breytt þessu eins og þú vilt. Líklega er best að halda þessari sjálfgefnu uppsetningu á meðan þú kynnist hugbúnaðinum og stilla hana síðar til að passa við búnaðinn þinn. (Sjá [Uppsetning verkefnisins](setting-up/setting-up-your-project.md "mention"))
 
 {% hint style="warning" %}
-Mikilvægt: Áður en þú setur nokkra leysa í armed stöðu skaltu ganga úr skugga um að þú skiljir áhættuna og fara vandlega yfir kaflann [Uppsetning leysa](setting-up/setting-up-lasers.md "mention").
+Mikilvægt: Áður en þú setur nokkra leysa í virka stöðu skaltu ganga úr skugga um að þú skiljir áhættuna og fara vandlega yfir kaflann [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Yfirlit yfir hugbúnaðinn
 
 ### Öryggisstöðvun
 
-Alltaf þegar þú keyrir leysa þarftu að hafa **neyðarstöðvunarhnapp í vélbúnaði** við höndina (sjá [Neyðarstöðvun / öryggislæsingar](hardware/emergency-stop-interlocks.md "mention")). Ef þú vilt disarm allt án þess að um bráðatilvik sé að ræða geturðu notað _**DISARM ALL**_ hnappinn eða `Escape` lykilinn (eða _**SESSION**_ lykilinn á APC40). Þú getur líka lækkað Global Brightness með sleðanum á skjánum eða aðal-fader á APC40.
+Alltaf þegar þú keyrir leysa þarftu að hafa **neyðarstöðvunarhnapp í vélbúnaði** við höndina (sjá [Neyðarstöðvun / öryggislæsingar](hardware/emergency-stop-interlocks.md "mention")). Ef þú vilt aftengja allt án þess að um bráðatilvik sé að ræða geturðu notað _**DISARM ALL**_ hnappinn eða `Escape` lykilinn (eða _**SESSION**_ lykilinn á APC40). Þú getur líka lækkað Global Brightness með sleðanum á skjánum eða aðal-fader á APC40.
 
 ### Sleðar og stýringar
 
@@ -56,7 +56,7 @@ Ertu ekki viss hvað ákveðinn hnappur gerir? Færðu músina yfir hann til að
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Í valmyndinni finnurðu alla valkosti fyrir innflutning og útflutning skráa, ásamt því að opna panels. Þar finnurðu einnig möguleikann á að heimila tölvuna með áskriftinni þinni (í _Liberation -> Authorise/Deauthorise this computer_).
+Í valmyndinni finnurðu alla valkosti fyrir innflutning og útflutning skráa, ásamt því að opna spjöld. Þar finnurðu einnig möguleikann á að heimila tölvuna með leyfinu þínu (í _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Icon bar
 
@@ -306,7 +306,7 @@ Hér geturðu valið hvaða laser Outputs fara til hvaða laser controllers. Dra
 Lestu kaflann [Úthlutun laser controller](setting-up/controller-assignment.md "mention") fyrir nánari upplýsingar.
 
 {% hint style="danger" %}
-Áður en þú setur nokkra leysa í armed stöðu skaltu fara yfir kaflann [Uppsetning leysa](setting-up/setting-up-lasers.md "mention").
+Áður en þú setur nokkra leysa í virka stöðu skaltu fara yfir kaflann [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser Output panel
@@ -337,10 +337,10 @@ Ef þú ert vön eldri leysihugbúnaði sem byggir á fyrirfram útreiknuðum po
 Grunnstillingar fyrir scanner eru:
 
 * **Speed** er scanner hraðinn, þ.e. hversu hratt leysirinn hreyfist til að teikna form. Þetta jafngildir því að stilla point rate í hefðbundnum leysihugbúnaði, en í Liberation geturðu breytt því hversu hratt leysirinn hreyfist _óháð point rate._ Þú ættir ekki að þurfa að breyta þessu.
-* **Scanner sync** (stundum kallað _blank shift, áður Colour Shift_) Scanner færir leysigeislann mjög hratt, en yfirleitt eru breytingar á birtu og lit ekki í takt við hreyfinguna. Þetta birtist sem lítil flöktandi „hala“-ljós við jaðar geisla og lína. Notaðu þessa stillingu til að samstilla hreyfingu og lit. Sjá [Laser Settings](setting-up/laser-settings.md "mention")
+* **Scanner sync** (stundum kallað _blank shift, áður Colour Shift_) Skannarnir færa leysigeislann mjög hratt, en yfirleitt eru breytingar á birtu og lit ekki í takt við hreyfinguna. Þetta birtist sem litlir flöktandi „halar“ af ljósi við jaðar geisla og lína. Notaðu þessa stillingu til að samstilla hreyfingu og lit. Sjá [Stillingaspjald fyrir Laser Output](setting-up/laser-settings.md "mention")
 
-Aðrar ítarlegar scanner stillingar eru útskýrðar í kaflanum [Ítarlegt](advanced/ "mention").
+Aðrar ítarlegar stillingar fyrir skanna eru útskýrðar í kaflanum [Ítarlegt](advanced/ "mention").
 
 ### Zoning
 
-Heildarleiðbeiningar um uppsetningu og zoning fyrir leysa eru hér: [Uppsetning leysa](setting-up/setting-up-lasers.md "mention")
+Heildarleiðbeiningar um uppsetningu leysa og skiptingu þeirra í zones eru hér: [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md "mention")

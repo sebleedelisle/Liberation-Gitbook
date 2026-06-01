@@ -49,7 +49,7 @@ Bunlar, renk ayarlarının hangi yönlerinin içeriğe uygulanacağını belirle
 
 **Gradyan düzenleyici**
 
-[Colour Changer](colour-changer.md "mention") ile aynı gradyan düzenleyiciyi kullanır, ancak gradyanı içeriğe konuma göre eşler.
+[Renk değişimi](colour-changer.md "mention") ile aynı gradyan düzenleyiciyi kullanır, ancak gradyanı içeriğe konuma göre eşler.
 
 * Bir renk durağı eklemek için gradyan çubuğuna tıkla.
 * Bir durağı seçmek için sol tıkla, ardından taşımak için yana doğru sürükle.

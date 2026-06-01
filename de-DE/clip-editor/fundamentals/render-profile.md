@@ -28,5 +28,5 @@ _**FAST** -_ wenn dein Clip viele Inhalte enthält und ein Teil davon nur aus se
 _**DETAIL**_ – wenn du etwas zeichnest, das scharfe Ecken braucht, verwende diese Option. Bedenke aber, dass sich deine Scanner langsamer bewegen und die Ausgabe dadurch stärker flimmern kann.
 
 {% hint style="info" %}
-Im Clip-Editor kannst du Creator unterschiedlichen Render Profiles zuweisen. Jeder Laser verarbeitet diese Profile jedoch abhängig von seinen Scanner-Einstellungen. Siehe [◼️ Scanner-Presets & Render-Profile](../../advanced/scanner-presets.md "mention")
+Im Clip Editor kannst du Creator unterschiedlichen Render Profiles zuweisen. Jeder Laser verarbeitet diese Profile jedoch abhängig von seinen Scanner-Einstellungen. Siehe [◼️ Scanner-Presets & Render-Profile](../../advanced/scanner-presets.md "mention")
 {% endhint %}

@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ Dicas para carregar arquivos gráficos / SVG
 
-Consulte o Shape Creator Node para obter informações sobre como importar formas vetoriais, logotipos etc. [Nós Creator](clip-editor/creator-nodes.md)
+Consulte o Shape Creator Node para obter informações sobre como importar formas vetoriais, logotipos etc. [nodes Creator](clip-editor/creator-nodes.md "mention")

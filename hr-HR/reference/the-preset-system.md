@@ -27,7 +27,7 @@ Preset datoteke možete i uvoziti i izvoziti pomoću gumba za učitavanje/sprema
 Ako uredite preset, recimo postavku skenera pod nazivom _Default_, imajte na umu da se ostali laseri neće automatski ažurirati. Umjesto toga, njihove će postavke skenera sada imati oznaku _Default(edited)_. Da biste ih ažurirali na novi preset _Default_, ponovno ga odaberite s padajućeg popisa.
 
 {% hint style="info" %}
-Ako imate mnogo lasera i želite ažurirati postavke skenera za sve njih, upotrijebite sustav _COPY LASER SETTINGS_. Pogledajte [Kopiranje postavki lasera](../setting-up/copy-laser-settings.md "mention")
+Ako imate mnogo lasera i želite ažurirati postavke skenera za sve njih, upotrijebite sustav _COPY LASER SETTINGS_. Pogledajte [Kopiranje postavki između lasera](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Ako izbrišete preset koji se koristi drugdje, nećete izgubiti postavku, nego će se prikazati s oznakom _(deleted)._

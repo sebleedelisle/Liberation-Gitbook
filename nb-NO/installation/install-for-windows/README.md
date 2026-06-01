@@ -13,13 +13,13 @@ Windows 10 eller 11 på 64-biters maskiner. Maskiner med høy ytelse anbefales h
 
 ### Installasjonsprosess
 
-Når du har et aktivt abonnement, får du tilsendt en lenke. Du kan også klikke på _Download_-lenken på siden[ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+Når du har en aktiv betalt lisens, får du tilsendt en lenke. Du kan også klikke på _Download_ på siden [_Dine lisenser_](https://liberationlaser.com/account/my-products).
 
 Du får se denne siden:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klikk på _Download latest for Windows_ (versjonsnumrene kan endre seg), og du ser at nedlastingsindikatoren viser fremdriften (vanligvis øverst til høyre; skjermbildet er fra Chrome). Når nedlastingen er ferdig, åpner du nedlastingene dine og klikker på den nedlastede installasjonsfilen
+Klikk på _Download for Windows_ (versjonsnumrene kan endre seg), og du ser at nedlastingsindikatoren viser fremdriften (vanligvis øverst til høyre; skjermbildet er fra Chrome). Når nedlastingen er ferdig, åpner du nedlastingene dine og klikker på den nedlastede installasjonsfilen
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation trenger tillatelse til å få tilgang til filer og nettverket, så Wi
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation skal nå kjøre! For å sende utdata til lasere må du nå gå gjennom [Autorisere og deautorisere](../authorising-and-de-authorising.md)
+Liberation skal nå kjøre! For å sende utdata til lasere må du fullføre [Autorisering og deautorisering](../authorising-and-de-authorising.md).

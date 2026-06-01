@@ -28,4 +28,4 @@ Fyrir neðan hvern hnapp fyrir zone sérðu hnappa merkta _X_ og _Y._ Þeir speg
 
 ### Úthluta zones á mörg Clips í einu
 
-Þú getur úthlutað zones og stillt X/Y fyrir öll Clips í zone. Sjá [Hópar](groups.md) fyrir frekari upplýsingar.
+Þú getur úthlutað zones og stillt X/Y fyrir öll Clips í zone. Sjá [Clip-hópar](groups.md "mention") fyrir frekari upplýsingar.

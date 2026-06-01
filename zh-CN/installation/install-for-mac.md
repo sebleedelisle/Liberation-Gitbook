@@ -25,4 +25,4 @@ metaLinks:
 
 将左侧的 Liberation 图标拖到右侧的 Applications 文件夹（可能需要管理员密码）。然后在 Applications 文件夹中找到 Liberation，双击打开。
 
-Liberation 现在应该可以运行了！要输出到激光设备，还需要完成[授权流程](authorising-and-de-authorising.md)。
+Liberation 现在应该可以运行了！要输出到激光设备，还需要完成[授权与取消授权](authorising-and-de-authorising.md)。

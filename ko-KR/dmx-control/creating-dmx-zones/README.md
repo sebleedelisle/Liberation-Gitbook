@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 DMX 존 만들기
 
-1. Art-Net node를 연결하고 [Art-Net node에 연결하기](../connecting-to-an-artnet-node.md "mention")에 따라 설정합니다.
+1. Art-Net node를 연결하고 [◼️ Art-Net node에 연결하기](../connecting-to-an-artnet-node.md "mention")에 따라 설정합니다.
 2. **DMX Zones**를 열고 **ADD DMX ZONE**을 클릭합니다.
 3. fixture와 일치하도록 zone의 **Node**, **Universe**, **Address**를 설정합니다.
 4. fixture에 사용할 **Preset**을 선택합니다. preset은 고정값, 콘텐츠 켜기/끄기 값, RGB 색상, X/Y 위치, 밝기 또는 명시적인 DMX Value 입력을 받을 DMX channel을 정의합니다.

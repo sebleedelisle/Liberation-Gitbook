@@ -8,7 +8,7 @@
   * [✅ 授权机制说明](installation/how-licensing-works.md)
   * [✅ 授权与取消授权](installation/authorising-and-de-authorising.md)
   * [✅ 升级 / 降级许可证](installation/upgrade-downgrade-your-license.md)
-* [✅ 取消许可证](installation/cancel-your-subscription.md)
+* [✅ 暂停或取消付款](installation/cancel-your-subscription.md)
   * [🟩 升级到新版本时迁移内容](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
 * [✅ 常见问题（FAQ）](faq.md)
 * [✅ 快速入门指南](getting-started.md)

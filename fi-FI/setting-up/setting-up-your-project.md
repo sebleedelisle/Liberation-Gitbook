@@ -13,12 +13,12 @@ Prosessin yleiskuva:
 
 1.  **Muuta projektisi lasereiden määrää:**
 
-    Poista laser napsauttamalla _Laser Overview_ -paneelissa oikealla olevaa punaista painiketta. Lisää laser alareunan _ADD LASER_ -painikkeella. Katso myös [Lasereiden lisääminen / poistaminen](adding-removing-lasers.md "mention")
+Poista laser napsauttamalla _Laser Overview_ -paneelissa oikealla olevaa punaista painiketta. Lisää laser alareunan _ADD LASER_ -painikkeella. Katso myös [Lasereiden lisääminen / poistaminen](adding-removing-lasers.md "mention")
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **Päivitä 3D-visualisointinäkymä:**
 
-    Säädä kunkin laserin sijaintia ja suuntausta _3D Visualiser Settings_ -paneelissa. Katso [3D Visualiser](3d-visualiser.md "mention").
+Säädä kunkin laserin sijaintia ja suuntausta _3D Visualiser Settings_ -paneelissa. Katso [3D Visualiser](3d-visualiser.md "mention").
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Säädä zone-alueet:**\

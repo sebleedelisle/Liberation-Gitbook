@@ -73,7 +73,7 @@ metaLinks:
 
 #### Scanner presets
 
-用于选择预设的扫描器设置。默认选项通常足够，除非你的扫描器特别差（或特别好），否则无需更改。想深入了解请见 [◼️ 扫描器预设与 Render profiles](../advanced/scanner-presets.md "mention")。
+用于选择预设的扫描器设置。默认选项通常足够，除非你的扫描器特别差（或特别好），否则无需更改。想深入了解请见 [◼️ 扫描器预设与渲染配置](../advanced/scanner-presets.md "mention")。
 
 #### Colour calibration
 

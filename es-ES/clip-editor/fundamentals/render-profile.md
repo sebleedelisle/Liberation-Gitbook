@@ -28,5 +28,5 @@ _**FAST** -_ si tu clip tiene mucho contenido y parte de él son puntos y línea
 _**DETAIL**_ - si estás dibujando algo que necesita esquinas definidas, usa esta opción. Pero ten en cuenta que tus escáneres se moverán más despacio, lo que hará que la salida parpadee más.
 
 {% hint style="info" %}
-Dentro del editor de clips, puedes asignar creators a distintos perfiles de renderizado, pero cada láser procesará estos perfiles según sus ajustes de escáner. Consulta [◼️ Preajustes de escáner y perfiles de renderizado](../../advanced/scanner-presets.md "mention")
+Dentro de Clip Editor, puedes asignar Creators a distintos perfiles de renderizado, pero cada láser procesará estos perfiles según sus ajustes de escáner. Consulta [◼️ Preajustes de escáner y perfiles de renderizado](../../advanced/scanner-presets.md "mention")
 {% endhint %}

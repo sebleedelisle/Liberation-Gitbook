@@ -27,6 +27,8 @@ Cada licencia es para un solo usuario y un solo show a la vez. Puedes tener más
 
 La licencia y la autorización de Liberation funcionan a través de Internet; la aplicación se conecta a nuestro servidor para asociar una instalación a tu licencia de pago.
 
-Una vez autorizada la instalación, no necesita volver a estar online hasta que tu licencia de pago llegue a su siguiente fecha de pago o a la fecha hasta la que está pagada. Puedes ver esta fecha en el panel _About_. Hay un breve periodo de gracia (7 días para las licencias de pago mensuales), pero se recomienda conectarse a Internet lo antes posible después de esa fecha para asegurarte de que tu autorización siga activa.
+Una vez que estés autorizado, no necesitas volver a estar online hasta que tu licencia recurrente llegue a su siguiente fecha de pago (se muestra en el panel _About_). Las licencias recurrentes mensuales suelen incluir un breve periodo de gracia (7 días), pero deberías conectarte a Internet lo antes posible después de la fecha de pago para mantener disponibles tus funciones de pago sin interrupciones.
+
+El periodo de gracia está pensado para problemas de renovación y pago. No amplía las licencias que se hayan cancelado, o pausado deliberadamente, una vez finalizado el periodo pagado. Si falla un pago, actualiza los datos de tu tarjeta dentro del periodo de gracia para mantener disponibles las funciones de pago.
 
 El nivel de licencia actual también se muestra en la barra superior. Haz clic en el nombre del nivel, o en _FREE MODE_ si no hay licencia, para abrir el panel About.

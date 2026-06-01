@@ -16,7 +16,7 @@ metaLinks:
 
 ويعني ذلك أيضًا أنه يمكنك ضبط المحتوى نفسه ليناسب أنواع ماسحات مختلفة لكل جهاز ليزر على حدة، من دون الحاجة إلى تعديل Clips نفسها.
 
-لمزيد من التفاصيل، راجع [كيف ينشئ Liberation محتوى الليزر](../../advanced/how-liberation-generates-laser-content.md)
+لمزيد من التفاصيل، راجع [◼️ كيف ينشئ Liberation محتوى الليزر](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 توجد ثلاثة إعدادات مسبقة لـ _Render Profiles_: _DEFAULT_ و_FAST_ و_DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ إذا كان Clip يحتوي على محتوى كثير، وبعض
 _**DETAIL**_ - إذا كنت ترسم شيئًا يحتاج إلى زوايا حادة، فاستخدم هذا الخيار. لكن ضع في اعتبارك أن الماسحات ستتحرك ببطء أكبر، مما يجعل Output أكثر وميضًا.
 
 {% hint style="info" %}
-داخل Clip Editor، يمكنك تعيين Creators إلى Render Profiles مختلفة، لكن كل جهاز ليزر سيعالج هذه الملفات بحسب إعدادات الماسح الخاصة به. راجع [الإعدادات المسبقة للماسحات](../../advanced/scanner-presets.md)
+داخل Clip Editor، يمكنك تعيين Creators إلى render profiles مختلفة، لكن كل جهاز ليزر سيعالج هذه الملفات بحسب إعدادات الماسح الخاصة به. راجع [◼️ الإعدادات المسبقة للماسحات وrender profiles](../../advanced/scanner-presets.md "mention")
 {% endhint %}

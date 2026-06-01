@@ -26,11 +26,11 @@ Liberation kan köra många lasrar från en dator. Det har testats med över 100
 
 * datorns CPU
 * nätverkshastigheten
-* din prenumerationstyp
+* din licensnivå
 
 #### **Vilka MIDI-kontroller kan jag använda?**
 
-Liberation är utformat och optimerat för den populära MIDI-kontrollern APC40 Mk2. Det fungerar även med APC40 Mk1. Se [Livekontroll med APC40](midi-control/live-control-with-the-apc40.md "mention")
+Liberation är utformat och optimerat för den populära MIDI-kontrollern APC40 Mk2. Det fungerar även med APC40 Mk1. Se [MIDI-styrenheter för livekontroll](midi-control/live-control-with-the-apc40.md "mention")
 
 Liberation har också stöd för APC Mini och MIDI Fighter Twister. APC40 Mk2 är fortfarande den mest kompletta referenskontrollen.
 
@@ -53,7 +53,7 @@ För andra kontroller kan du använda systemet MIDI Send/Receive eller en MIDI-�
 * LaserCube-nätverksprotokoll (med trådbunden anslutning)
 * AVB som används av [LASollinger lasers](https://laseranimation.com/en/) (för närvarande endast macOS, under testning)
 
-Se [Kompatibla lasrar och styrenheter (DAC](hardware/compatible-lasers-and-controllers-dacs.md "mention") för mer information
+Se [Kompatibla lasrar och styrenheter (DAC:ar)](hardware/compatible-lasers-and-controllers-dacs.md "mention") för mer information
 
 #### **Varför har ni inte stöd för laserkontroller från \[annat märke]?**
 
@@ -69,7 +69,7 @@ Om din laser har något av följande kan du använda den med Liberation:
 * En **X-Laser-enhet med inbyggt Mercury-system** (i Ether Dream-läge).
 * En **LaserAnimation Sollinger-projektor med inbyggt AVB** (endast macOS, kräver AVB-kompatibla nätverksenheter, för närvarande under testning).
 
-Se [Kompatibla lasrar och styrenheter (DAC](hardware/compatible-lasers-and-controllers-dacs.md "mention") för mer information
+Se [Kompatibla lasrar och styrenheter (DAC:ar)](hardware/compatible-lasers-and-controllers-dacs.md "mention") för mer information
 
 #### **Kan jag använda Liberation med min LaserCube?**
 
@@ -89,11 +89,19 @@ Observera att du kan konfigurera, förhandsgranska och designa shower med hur m�
 
 #### **Kan jag uppgradera till en ny nivå?**
 
-Du kan uppgradera till en högre nivå när som helst. Du får en delvis återbetalning för den återstående tiden på din nuvarande licens, och din nya plan startar direkt. Se [Uppgradera/nedgradera din licens](installation/upgrade-downgrade-your-license.md "mention")
+Du kan uppgradera till en högre nivå när som helst. Du får en delvis återbetalning för den återstående tiden i din nuvarande betalda period, och din nya licensnivå börjar gälla direkt. Se [Uppgradera/nedgradera din licens](installation/upgrade-downgrade-your-license.md "mention")
 
 #### **Kan jag nedgradera min licens?**
 
-Du kan nedgradera när som helst, men ändringen träder i kraft i slutet av din nuvarande licensperiod. Se [Uppgradera/nedgradera din licens](installation/upgrade-downgrade-your-license.md "mention")
+Du kan nedgradera när som helst, men ändringen träder i kraft i slutet av din nuvarande betalda period. Se [Uppgradera/nedgradera din licens](installation/upgrade-downgrade-your-license.md "mention")
+
+#### **Kan jag pausa betalningar för min licens?**
+
+Ja. Licensen kan pausas vid nästa prenumerationsdatum och startas om när som helst. Det är praktiskt om du använder programmet periodvis, och du behöver inte ange dina kortuppgifter igen. Se [Pausa eller avbryt betalningar](installation/cancel-your-subscription.md "mention")
+
+#### **Hur säger jag upp min licens permanent?**
+
+Du kan säga upp din återkommande licens när som helst, och den avaktiveras automatiskt i slutet av den aktuella betalda perioden. Se [Pausa eller avbryt betalningar](installation/cancel-your-subscription.md "mention")
 
 #### **Hur auktoriserar jag min dator med min licens?**
 
@@ -101,19 +109,15 @@ När du har köpt en licens kan du auktorisera datorn direkt i Liberation-progra
 
 #### **Hur ofta behöver jag ansluta datorn till internet?**
 
-Varje gång licensen förnyas behöver du ansluta Liberation till internet för att uppdatera dess interna licens. För en månadsvis återkommande betalning behöver du ansluta varje månad.
+Varje gång en återkommande betald licens förnyas utan problem behöver du ansluta Liberation till internet för att uppdatera dess interna licens. För en månadslicens med automatisk förnyelse behöver du alltså ansluta varje månad.
 
-#### **Vad händer om jag inte kan ansluta datorn till internet efter förnyelse?**
+#### **Vad händer om jag inte kan ansluta datorn till internet efter nästa betalning?**
 
-Liberation ger dig en respitperiod på 7 dagar efter att licensen har förnyats för att ansluta till internet och uppdatera dess interna licens. Efter den perioden går Liberation tillbaka till _Free_-läge.
+För månadsvis återkommande betalda licenser ger Liberation dig vanligtvis en respitperiod på 7 dagar efter att den betalda licensen har förnyats, så att du kan ansluta till internet och uppdatera dess interna licens. Efter den perioden går Liberation tillbaka till _Free_-läge.
 
 #### **Vad händer om mitt kreditkort går ut?**
 
-Du får en e-postavisering från vår betalningsleverantör, och du behöver uppdatera dina betalningsuppgifter. Logga in på webbplatsen och använd länken _Update payment details_ på prenumerationssidan.
-
-#### **Hur säger jag upp min återkommande licens?**
-
-Logga in på webbplatsen, öppna sidan _Your subscriptions_, välj prenumerationen du vill säga upp och klicka sedan på länken _Cancel Subscription_. Du kan fortsätta använda Liberation under resten av licensperioden.
+Du får en e-postavisering från vår betalningsleverantör, och du behöver uppdatera dina kortuppgifter. Logga in på webbplatsen och använd _UPDATE CARD DETAILS_ på licenssidan, eller _Update_ under _Billing and payments_. Du måste göra detta inom respitperioden för att undvika att förlora åtkomst till betalda funktioner.
 
 #### **Hur många datorer kan jag installera Liberation på?**
 
@@ -131,9 +135,9 @@ Du kan också fjärravauktorisera en dator som du inte längre har åtkomst till
 
 #### **Kan jag avauktorisera Liberation på en dator som har försvunnit eller blivit stulen?**
 
-Du kan avauktorisera datorn via webbplatsen. Om Liberation-installationen inte har varit online sedan din senaste förnyelse kan detta göras direkt.
+Du kan avauktorisera datorn via webbplatsen. Om Liberation-installationen inte har varit online sedan den senaste licensuppdateringen kan detta göras direkt.
 
-Om inte, träder avauktoriseringen i kraft när prenumerationen förnyas eller när datorn ansluter till internet, beroende på vilket som sker först. Om du snabbt behöver auktorisera en ny dator igen, kontakta supporten.
+Om inte, träder avauktoriseringen i kraft när licensen uppdateras nästa gång eller när datorn ansluter till internet, beroende på vilket som sker först. Om du snabbt behöver auktorisera en ny dator igen, kontakta supporten.
 
 ### Använda Liberation
 
@@ -173,7 +177,7 @@ Detta är bildrutelatensen, eller den maximala tiden mellan att en bildruta gene
 
 #### Hur justerar jag zoner och inställningar för en Clip utan att köra den?
 
-`Alt / Option`-klicka för att göra den till _det Clip som är valt just nu_ utan att aktivera den. Se även [Starta/stoppa clips](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-klicka för att göra den till _det Clip som är valt just nu_ utan att aktivera den. Se även [Starta/stoppa Clips](clips/starting-stopping-clips.md "mention")
 
 #### Hur kopierar jag Clips?
 
@@ -189,4 +193,4 @@ Se [Organisera ditt Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Vad betyder den lilla mikrofonsymbolen och andra ikoner på Clip-knappen?
 
-De visar att en Clip tar emot ljud- eller MIDI-input, och de tre punkterna visar att det finns en zonfördröjning. Se [Vad betyder de små ikonerna på clip-knapparna?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+De visar att en Clip tar emot ljud- eller MIDI-input, och de tre punkterna visar att det finns en zonfördröjning. Se [Vad betyder de små ikonerna på Clip-knapparna?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

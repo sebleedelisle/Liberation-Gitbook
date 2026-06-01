@@ -61,4 +61,4 @@ Liberation necesita permiso para acceder a los archivos y a la red, así que pro
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation debería ejecutarse ahora. Para enviar salida a los láseres, ahora tendrás que seguir el [proceso de autorización.](../authorising-and-de-authorising.md)
+Liberation debería ejecutarse ahora. Para enviar salida a los láseres, tendrás que completar [Autorizar y desautorizar](../authorising-and-de-authorising.md).

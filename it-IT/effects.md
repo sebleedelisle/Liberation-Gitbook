@@ -32,7 +32,7 @@ Direi che è uno degli strumenti più divertenti e creativi integrati in Liberat
 
 #### Parametri degli effetti
 
-Aggiungi un parametro al tuo effetto con un _Parameter node._ Il sistema Parameter è un modo per regolare dall’esterno più impostazioni all’interno dell’effetto. Vedi [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") per maggiori informazioni.
+Aggiungi un parametro al tuo effetto con un _Parameter node._ Il sistema Parameter permette di regolare dall’esterno più impostazioni all’interno dell’effetto. Vedi [Controllo Parameter](clip-editor/oscillators/parameter-control.md "mention") per maggiori informazioni.
 
 Usa i controller rotativi 1-8 per regolare il _parameter_ di ogni effetto. Oppure fai clic destro sul pulsante dell’effetto e regola gli slider dei parametri. La modifica del parametro produce risultati diversi a seconda di come è configurato l’effetto. Vedi l’elenco qui sotto per gli effetti predefiniti e per sapere cosa fanno i loro parametri.
 
@@ -89,7 +89,7 @@ Questa funzionalità è disattivata se l’impostazione _MX Group_ è 0.
 
 Fai clic destro su un effetto qualsiasi e clicca sul pulsante _EDIT EFFECT_ per aprire l’editor degli effetti. Nota che questo editor è identico all’editor dei Clip!
 
-Modifica il tuo effetto nello stesso modo in cui modificheresti qualsiasi clip. Vedi [Il Clip Editor](clip-editor/ "mention").
+Modifica il tuo effetto nello stesso modo in cui modificheresti qualsiasi Clip. Vedi [Il Clip Editor](clip-editor/ "mention").
 
 Devi avere almeno un creator node; può essere qualsiasi cosa (linea, cerchio, forma, persino testo!), ma probabilmente conviene scegliere qualcosa che abbia più senso nell’anteprima del pulsante dell’effetto.
 

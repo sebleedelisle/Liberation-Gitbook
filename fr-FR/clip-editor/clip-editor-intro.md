@@ -37,7 +37,7 @@ Si vous ne voyez aucune sortie dans le 3D Visualiser, vous devrez peut-être uti
 
 ### Construire un clip
 
-Vous commencez généralement avec un ou plusieurs [nœuds Creator](creator-nodes.md), puis vous connectez des [Nœuds Operator](operator-nodes/) de gauche à droite pour traiter le contenu. Lorsque vous rapprochez des Creators et/ou des Operators, vous remarquerez qu’ils se connectent automatiquement entre eux. Vous pouvez ensuite les éloigner pour les déconnecter.
+Vous commencez généralement avec un ou plusieurs [nœuds Creator](creator-nodes.md), puis vous connectez des [nœuds Operator](operator-nodes/) de gauche à droite pour traiter le contenu. Lorsque vous rapprochez des Creators et/ou des Operators, vous remarquerez qu’ils se connectent automatiquement entre eux. Vous pouvez ensuite les éloigner pour les déconnecter.
 
 ### Ajouter des nœuds à votre clip
 

@@ -17,14 +17,14 @@ Liberation 非常彈性，即使沒有連接任何實體雷射，你也可以先
 預設配置是 8 台雷射水平排列，但你可以依需求自訂。剛開始熟悉軟體時，建議先保留這個預設值；之後再調整成符合你的硬體配置。（請參閱 [設定你的專案](../setting-up/setting-up-your-project.md "mention")）&#x20;
 
 {% hint style="warning" %}
-重要：在啟用任何雷射輸出之前，請務必了解相關風險，並仔細閱讀[設定雷射](../setting-up/setting-up-lasers.md "mention")章節。
+重要：在啟用任何雷射輸出之前，請務必了解相關風險，並仔細閱讀 [雷射設定流程總覽](../setting-up/setting-up-lasers.md "mention") 章節。
 {% endhint %}
 
 ## 軟體概覽
 
 ### 安全關閉
 
-只要你正在操作雷射，就必須準備好**硬體緊急停止按鈕**（請參閱[緊急停止與安全連鎖](../hardware/emergency-stop-interlocks.md "mention")）。如果不是緊急狀況，只是想要解除所有雷射輸出，可以使用 _**DISARM ALL**_ 按鈕，或按 `Escape` 鍵（或 APC40 上的 _**SESSION**_ 鍵）。你也可以使用畫面上的滑桿，或 APC40 的主推桿來降低 Global Brightness。
+只要你正在操作雷射，就必須準備好**硬體緊急停止按鈕**（請參閱[緊急停止／安全連鎖](../hardware/emergency-stop-interlocks.md "mention")）。如果不是緊急狀況，只是想要解除所有雷射輸出，可以使用 _**DISARM ALL**_ 按鈕，或按 `Escape` 鍵（或 APC40 上的 _**SESSION**_ 鍵）。你也可以使用畫面上的滑桿，或 APC40 的主推桿來降低 Global Brightness。
 
 ### 滑桿元件
 
@@ -50,7 +50,7 @@ Liberation 裡有各種滑桿與控制項。
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-你可以在選單中找到所有檔案匯入／匯出選項，也可以開啟各種面板。你也可以在這裡使用訂閱授權這台電腦（位於 _Liberation -> Authorise/Deauthorise this computer_）。
+你可以在選單中找到所有檔案匯入／匯出選項，也可以開啟各種面板。你也可以在這裡使用授權來授權這台電腦（位於 _Liberation -> Authorise/Deauthorise this computer_）。
 
 #### 圖示列
 
@@ -68,7 +68,7 @@ Liberation 裡有各種滑桿與控制項。
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view 會顯示你的雷射看起來的樣子，也可以設定成符合你的實際雷射配置。點擊並拖曳可旋轉攝影機，使用滑鼠滾輪可前後移動視角。你可以在 _3D Visualiser Settings_ 面板中找到更多選項（_View -> 3D Visualiser Settings_）。請參閱 [3D 視覺化工具](../setting-up/3d-visualiser.md "mention")。
+3D view 會顯示你的雷射看起來的樣子，也可以設定成符合你的實際雷射配置。點擊並拖曳可旋轉攝影機，使用滑鼠滾輪可前後移動視角。你可以在 _3D Visualiser Settings_ 面板中找到更多選項（_View -> 3D Visualiser Settings_）。請參閱 [3D Visualiser](../setting-up/3d-visualiser.md "mention")。
 
 #### Output View
 
@@ -300,7 +300,7 @@ _Laser Overview_ 面板可讓你快速查看目前正在執行的雷射狀態。
 更多詳細資訊請閱讀 [Controller Assignment](../setting-up/controller-assignment.md "mention") 章節。
 
 {% hint style="danger" %}
-在啟用任何雷射輸出之前，請務必先閱讀[設定雷射](../setting-up/setting-up-lasers.md "mention")章節。
+在啟用任何雷射輸出之前，請務必先閱讀 [雷射設定流程總覽](../setting-up/setting-up-lasers.md "mention") 章節。
 {% endhint %}
 
 ### 雷射輸出面板
@@ -331,10 +331,10 @@ Liberation 讓你能細緻控制這個點資料流的產生方式，讓你可以
 基本掃描器設定包括：
 
 * **Speed** 是掃描器速度，也就是雷射移動並繪製形狀的速度。這相當於傳統雷射軟體中調整點率，但在 Liberation 中，你可以_獨立於點率_調整雷射移動速度。通常你不需要調整這項設定。
-* **Scanner sync**（有時稱為 _blank shift_，先前稱為 Colour Shift）掃描器會讓雷射非常快速地移動，但亮度與顏色的變化通常會與移動不同步。這會在光束與線條邊緣出現細小閃爍的光「尾巴」。使用此調整可讓移動與顏色彼此同步。請參閱 [Laser Settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync**（有時稱為 _blank shift_，先前稱為 Colour Shift）掃描器會讓雷射非常快速地移動，但亮度與顏色的變化通常會與移動不同步。這會在光束與線條邊緣出現細小閃爍的光「尾巴」。使用此調整可讓移動與顏色彼此同步。請參閱 [雷射輸出設定面板](../setting-up/laser-settings.md "mention")
 
 其他進階掃描器設定會在[進階](../advanced/ "mention")章節中說明。
 
 ### Zoning
 
-完整的雷射設定與 zoning 指南請參閱：[設定雷射](../setting-up/setting-up-lasers.md "mention")
+完整的雷射設定與 zone 配置指南請參閱：[雷射設定流程總覽](../setting-up/setting-up-lasers.md "mention")

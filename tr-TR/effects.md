@@ -32,7 +32,7 @@ Bence bu, Liberation içinde yerleşik olan en eğlenceli ve yaratıcı araçlar
 
 #### Efekt parametreleri
 
-Efektinize bir _Parameter node_ ile parametre ekleyin. Parameter sistemi, efektinizin içindeki birden fazla ayarı dışarıdan ayarlamanın bir yoludur. Daha fazla bilgi için bkz. [Parametre kontrolü](clip-editor/oscillators/parameter-control.md "mention").
+Efektinize bir _Parameter node_ ile parametre ekleyin. Parameter sistemi, efektinizin içindeki birden fazla ayarı dışarıdan ayarlamanın bir yoludur. Daha fazla bilgi için bkz. [Parametre Kontrolü](clip-editor/oscillators/parameter-control.md "mention").
 
 Her efektin _parameter_ değerini ayarlamak için rotary controller 1-8’i kullanın. Alternatif olarak efekt düğmesine sağ tıklayıp parameter slider’larını ayarlayın. Parameter değişikliği, efektin nasıl kurulduğuna bağlı olarak farklı şeyler yapar. Varsayılan efektlerin neler yaptığını ve parametrelerinin neyi değiştirdiğini aşağıdaki listede görebilirsiniz.
 

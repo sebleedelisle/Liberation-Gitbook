@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 建立 DMX zone
 
-1. 連接你的 Art-Net node，並依照[連接到 Art-Net node](../connecting-to-an-artnet-node.md "mention")完成設定。
+1. 連接你的 Art-Net node，並依照[◼️ 連接到 Art-Net node](../connecting-to-an-artnet-node.md "mention")完成設定。
 2. 開啟 **DMX Zones**，然後按一下 **ADD DMX ZONE**。
 3. 將該 zone 的 **Node**、**Universe** 和 **Address** 設定為與燈具相符。
 4. 為燈具選擇一個 **Preset**。Preset 會定義哪些 DMX 通道接收固定值、內容開／關值、RGB 色彩、X/Y 位置、亮度，或明確的 DMX Value 輸入。

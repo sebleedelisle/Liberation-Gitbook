@@ -9,7 +9,7 @@ metaLinks:
 
 ### Flytte/duplikere clips
 
-Klik og træk for at flytte et clip. Hvis mere end ét clip er valgt (se [Start / stop af clips](starting-stopping-clips.md "mention")), bliver de alle flyttet. Hold `Alt / Option` nede for at duplikere dem. Slip clippet/clippene på en tom plads.
+Klik og træk for at flytte et Clip. Hvis mere end ét Clip er valgt (se [Start / stop af Clips](starting-stopping-clips.md "mention")), bliver de alle flyttet. Hold `Alt / Option` nede for at duplikere dem. Slip Clip’et/Clipsene på en tom plads.
 
 {% hint style="info" %}
 Hvis du har brug for at vælge mange Clips, kan du klikke og trække en lasso og derefter scrolle i Clip Deck, mens du stadig trækker (enten med piletasterne, APC40 eller sidelæns scroll på touchpad/mus). Lassoen udvides ud over kanten af Clip Deck.

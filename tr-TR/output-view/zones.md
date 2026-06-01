@@ -9,7 +9,7 @@ metaLinks:
 Projelerinizin çoğunda kullanacağınız ana zone türü _Beam zone_ olur. Bu zone, havadaki atmosferik beam efektleri için tasarlanmıştır. Diğer zone türü ise _Canvas zone_ türüdür (Bkz. [Grafikler ve Canvas sistemi](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**UYARI - Lazer çalışırken zone öğelerini taşırken son derece dikkatli olun** ve parlaklığı mümkün olan en düşük seviyeye indirin. Lazerleri güvenli şekilde etkinleştirme ve zone ayarı yapma hakkında kapsamlı bir rehber için [Lazerleri ayarlama](../setting-up/setting-up-lasers.md "mention") bölümüne bakın
+**UYARI - Lazer çalışırken zone öğelerini taşırken son derece dikkatli olun** ve parlaklığı mümkün olan en düşük seviyeye indirin. Lazerleri güvenli şekilde etkinleştirme ve zone ayarı yapma hakkında kapsamlı bir rehber için [Lazer kurulum sürecine genel bakış](../setting-up/setting-up-lasers.md "mention") bölümüne bakın
 {% endhint %}
 
 Zone öğelerini fareyle tıklayıp sürükleyerek taşıyabilirsiniz. Bu zone öğesinin nereye gittiğini görmek için bir test pattern açın.
@@ -19,7 +19,7 @@ Seçili zone/point öğesini **küçük adımlarla hareket ettirmek** için ok t
 {% endhint %}
 
 {% hint style="info" %}
-İpucu: zone ayarlarını birden fazla lazer arasında hızlıca kopyalayabilirsiniz! Bkz. [Laser Settings ayarlarını kopyalama](../setting-up/copy-laser-settings.md "mention")
+İpucu: zone ayarlarını birden fazla lazer arasında hızlıca kopyalayabilirsiniz! Bkz. [Lazerler arasında ayarları kopyalama](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Yeni bir beam zone ekleme

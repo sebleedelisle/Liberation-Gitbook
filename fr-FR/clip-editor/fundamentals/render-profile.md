@@ -28,5 +28,5 @@ _**FAST** -_ si votre clip contient beaucoup d’éléments et que certains sont
 _**DETAIL**_ - si vous dessinez quelque chose qui nécessite des angles nets, utilisez cette option. Gardez toutefois à l’esprit que vos scanners se déplaceront plus lentement, ce qui peut rendre la sortie plus scintillante.
 
 {% hint style="info" %}
-Dans l’éditeur de clips, vous pouvez attribuer des creators à différents Render Profiles, mais chaque laser traitera ces profils en fonction de ses paramètres de scanner. Consultez [◼️ Préréglages de scanner et profils de rendu](../../advanced/scanner-presets.md "mention")
+Dans le Clip Editor, vous pouvez attribuer des Creators à différents Render Profiles, mais chaque laser traitera ces profils en fonction de ses paramètres de scanner. Consultez [◼️ Préréglages de scanner et profils de rendu](../../advanced/scanner-presets.md "mention")
 {% endhint %}

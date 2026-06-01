@@ -24,7 +24,7 @@ Consejo: puedes copiar rápidamente la configuración de zonas entre varios lás
 
 ### Añadir una nueva Beam zone
 
-Haz clic en el botón _Add a new beam zone_ en la parte superior de la barra de herramientas y aparecerá una zona nueva. Ten en cuenta que las Beam zones se ordenan según el orden en que las añades, pero puedes reordenarlas. Consulta [Reordenar zonas de haz](re-ordering-beam-zones.md "mention")
+Haz clic en el botón _Add a new beam zone_ en la parte superior de la barra de herramientas y aparecerá una zona nueva. Ten en cuenta que las beam zones se ordenan según el orden en que las añades, pero puedes reordenarlas. Consulta [Reordenar beam zones](re-ordering-beam-zones.md "mention")
 
 ### Añadir una Canvas zone existente
 
@@ -47,7 +47,7 @@ Haz clic derecho en cualquier zona para abrir su configuración. Desde este men�
 * Restablecerla a la posición predeterminada.
 * Acceder a ajustes específicos del tipo de forma.
 * Eliminarla.
-* Añadir una _Alt Zone_ (consulta [Sistema de zonas Alt](alt-zone-system.md "mention")).
+* Añadir una _Alt Zone_ (consulta [Sistema Alt Zone](alt-zone-system.md "mention")).
 
 {% hint style="danger" %}
 **ADVERTENCIA:** ten mucho cuidado al cambiar el tipo de zona mientras el láser está activo. La zona volverá a la última posición/tamaño usados para esa forma, por lo que la salida podría cambiar de repente. Es mejor apagar el láser antes de cambiar el tipo de zona.

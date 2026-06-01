@@ -7,7 +7,7 @@ metaLinks:
 
 # ✅ Atribuição de controladores
 
-Depois de configurar os lasers no Liberation, você pode atribuir cada um deles a um controlador de laser no mundo real. (Consulte [lasers e controladores compatíveis](../hardware/compatible-lasers-and-controllers-dacs.md "mention") para verificar quais hardwares você pode usar). Os controladores serão conectados por USB ou pela rede.
+Depois de configurar os lasers no Liberation, você pode atribuir cada um deles a um controlador de laser no mundo real. (Consulte [Lasers e controladores compatíveis (DACs)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") para verificar quais hardwares você pode usar). Os controladores serão conectados por USB ou pela rede.
 
 * Abra o painel _Controller Assignment_ pela opção de menu _View -> Controller Assignment_. (Como alternativa, você também pode usar o botão _ASSIGN LASER CONTROLLERS_ no painel _Laser Overview_.)
 

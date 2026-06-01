@@ -13,13 +13,13 @@ Windows 10- eller 11-datorer med 64 bitar. Datorer med hög prestanda rekommende
 
 ### Installationsprocess
 
-När du har en aktiv prenumeration får du en länk skickad till dig, eller så kan du klicka på länken _Download_ på sidan[ _Your subscriptions_](https://liberationlaser.com/account/my-products).
+När du har en aktiv betald licens får du en länk skickad till dig, eller så kan du klicka på _Download_ på sidan [_Your licences_](https://liberationlaser.com/account/my-products).
 
 Du ser den här sidan:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Klicka på _Download latest for Windows_ (versionsnumren kan ändras), så visas nedladdningsindikatorn med förloppet (vanligtvis uppe till höger; skärmbilden är från Chrome). När nedladdningen är klar öppnar du dina nedladdningar och klickar på den nedladdade installationsfilen.
+Klicka på _Download for Windows_ (versionsnumren kan ändras), så visas nedladdningsindikatorn med förloppet (vanligtvis uppe till höger; skärmbilden är från Chrome). När nedladdningen är klar öppnar du dina nedladdningar och klickar på den nedladdade installationsfilen.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ Liberation behöver behörighet att komma åt filer och nätverket, så Windows 
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation bör nu köras! För att skicka utdata till lasrar behöver du nu gå igenom [Auktorisera och avauktorisera](../authorising-and-de-authorising.md)
+Liberation bör nu starta! För att skicka utdata till lasrar behöver du slutföra [Auktorisera och avauktorisera](../authorising-and-de-authorising.md).

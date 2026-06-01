@@ -67,7 +67,7 @@ Za pomocą _Append Clip Deck_ możesz dodać clips z wyeksportowanego pliku clip
 Wszystkie aktualnie zaznaczone clips zostaną wyeksportowane do pliku. Ustawienia grup i efekty nie zostaną zapisane — tylko clips. Pamiętaj, że aktualnie uruchomione aktywne clips nie są eksportowane, chyba że również są zaznaczone.
 
 {% hint style="info" %}
-Aby zaznaczyć clips, użyj Option/Alt - shift - kliknięcie (albo użyj lassa). Zaznaczone clips rozpoznasz po grubej białej obwódce. Zobacz [Uruchamianie / zatrzymywanie klipów](clips/starting-stopping-clips.md "mention")
+Aby zaznaczyć Clips, użyj Option/Alt - shift - kliknięcie (albo użyj lassa). Zaznaczone Clips rozpoznasz po grubej białej obwódce. Zobacz [Uruchamianie / zatrzymywanie Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### Effects Import / Export

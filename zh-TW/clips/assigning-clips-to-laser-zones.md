@@ -28,4 +28,4 @@ metaLinks:
 
 ### 一次將 zones 指派到多個 Clips
 
-你可以為一個群組中的所有 Clips 指派 zones，並調整 X/Y。更多資訊請參閱[群組](groups.md)。
+你可以為一個 zone 中的所有 Clips 指派 zones，並調整 X/Y。更多資訊請參閱 [Clip 群組](groups.md "mention")。

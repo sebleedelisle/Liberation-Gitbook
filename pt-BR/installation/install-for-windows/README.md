@@ -61,4 +61,4 @@ O Liberation precisa de permissão para acessar arquivos e a rede, então o Wind
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-O Liberation agora deve estar em execução! Para enviar saída para os lasers, você precisará passar pelo [processo de autorização.](../authorising-and-de-authorising.md)
+O Liberation agora deve estar em execução! Para enviar saída para os lasers, você precisará concluir [Autorização e desautorização](../authorising-and-de-authorising.md).

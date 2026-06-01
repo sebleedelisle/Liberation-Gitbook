@@ -14,7 +14,7 @@ Breyttu úttaksstærð Clip með _Scale X_ og _Scale Y_. Þessar stillingar eru 
 
 Breyttu láréttri og lóðréttri staðsetningu Clip með _Shift X_ og _Shift Y_.
 
-_Zone Delay/Chase_ er svo skemmtilegur eiginleiki að hann fær eigin kafla. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ er svo skemmtilegur eiginleiki að hann fær eigin kafla. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Parameters panel
 
@@ -33,7 +33,7 @@ Ef Clip er læst er ekki hægt að færa það eða eyða því. Til að læsa C
 
 ### Hægrismellsvalmynd
 
-Ef þú hægrismellir á Clip birtist valmynd með nokkrum valkostum fyrir það Clip. Sjá [Kynning á Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip stillingar](clip-settings.md "mention") og [Hópar](groups.md "mention") til að fá nánari upplýsingar um fyrstu atriðin í þessari valmynd.
+Ef þú hægrismellir á Clip birtist valmynd með nokkrum valkostum fyrir það Clip. Sjá [Kynning á Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip stillingar](clip-settings.md "mention") og [Clip hópar](groups.md "mention") til að fá nánari upplýsingar um fyrstu atriðin í þessari valmynd.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

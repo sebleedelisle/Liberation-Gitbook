@@ -24,7 +24,7 @@ Erzeugt eine Linie / Fläche.
 * **Colour** - die Farbe der Linie. Siehe [Farbeinstellungen und HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- und **y**-Position - siehe [Koordinatensystem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - der Winkel der Linie in Grad
-* **resolution** - siehe [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - siehe [Auflösung](fundamentals/resolution.md "mention")
 * **alignment** - _LEFT / CENTRE / RIGHT -_ legt den Startpunkt und den Drehpunkt der Linie fest
 * _MOVE TO FRONT / MOVE TO BACK_ - siehe [Füllungen, Masken und Tiefensortierung](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
@@ -36,7 +36,7 @@ Erzeugt einen Kreis / Kegel.
 * **radius** - der Radius des Kreises
 * **Colour** - die Farbe des Kreises. Siehe [Farbeinstellungen und HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- und **y**-Position - siehe [Koordinatensystem](fundamentals/co-ordinate-system.md "mention")
-* **resolution** - siehe [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - siehe [Auflösung](fundamentals/resolution.md "mention")
 * **Fill state** - siehe [Füllungen, Masken und Tiefensortierung](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - siehe [Füllungen, Masken und Tiefensortierung](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
@@ -49,7 +49,7 @@ Erzeugt ein gleichseitiges Polygon, z. B. Dreieck, Quadrat, Fünfeck usw.
 * **Colour** - die Farbe des Polygons. Siehe [Farbeinstellungen und HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- und **y**-Position - siehe [Koordinatensystem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - der Drehwinkel der Form in Grad
-* **resolution** - siehe [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - siehe [Auflösung](fundamentals/resolution.md "mention")
 * **Fill state** - siehe [Füllungen, Masken und Tiefensortierung](fundamentals/fills-masks-and-depth-sorting.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - siehe [Füllungen, Masken und Tiefensortierung](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
@@ -74,7 +74,7 @@ Nachdem ein SVG geladen wurde, wird der Inhalt konvertiert und im Clip gespeiche
 * **scale** - passt die Größe des SVG an. Dies wird automatisch berechnet, wenn das SVG geladen wird (damit das Bild sichtbar ist), kann danach aber manuell geändert werden.
 * **x**- und **y**-Position - siehe [Koordinatensystem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - der Drehwinkel des Bildes in Grad
-* **resolution** - siehe [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - siehe [Auflösung](fundamentals/resolution.md "mention")
 * _MOVE TO FRONT / MOVE TO BACK_ - siehe [Füllungen, Masken und Tiefensortierung](fundamentals/fills-masks-and-depth-sorting.md "mention")
 
 ### <img src="../.gitbook/assets/CreatorAnim.png" alt="" data-size="line"> Anim Creator
@@ -94,7 +94,7 @@ Nachdem die SVG-Sequenz geladen wurde, wird der Inhalt konvertiert und im Clip g
 * **scale** - passt die Größe des Bildes an.
 * **x**- und **y**-Position - siehe [Koordinatensystem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - der Drehwinkel des Bildes in Grad
-* **resolution** - siehe [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - siehe [Auflösung](fundamentals/resolution.md "mention")
 * **speed** - die Dauer der gesamten Animation in Takten.
 * **time per frame** - wenn dies aktiviert ist, gilt die Dauer pro Frame und nicht für die gesamte Länge der Animation. Wenn _speed_ also auf ¼ gesetzt ist, dauert jeder Frame 1 Schlag.
 * **animation direction** -
@@ -125,7 +125,7 @@ Um Liberation weitere Schriftarten hinzuzufügen, kopiere die .ttf- oder .otf-Da
 * **colour -** siehe [Farbeinstellungen und HSB](fundamentals/colour-settings-and-hsb.md "mention")
 * **x**- und **y**-Position - siehe [Koordinatensystem](fundamentals/co-ordinate-system.md "mention")
 * **rotation** - der Drehwinkel des Bildes in Grad
-* **resolution** - siehe [Resolution](fundamentals/resolution.md "mention")
+* **resolution** - siehe [Auflösung](fundamentals/resolution.md "mention")
 * **reveal** - damit kannst du den Text schrittweise einblenden, jeweils ein Zeichen nach dem anderen. Wenn der Wert zwischen 0 und 50 % liegt, erscheint der Text schrittweise von links nach rechts. Zwischen 50 % und 100 % verschwindet der Text von links nach rechts. Du kannst einen Oszillator mit diesem Anschluss verbinden, um Animationen zu erstellen.
 * **reveal by word** - wenn aktiviert, arbeitet _reveal_ wortweise statt zeichenweise.
 * **countdown** - ersetzt den eingegebenen Text durch einen Countdown. Wenn der Countdown null erreicht, wird wieder der normale **Text**-Wert angezeigt.

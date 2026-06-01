@@ -7,12 +7,14 @@ metaLinks:
 
 # ✅ Licenc frissítése / visszaminősítése
 
-Bármikor válthatsz magasabb csomagra. A jelenlegi előfizetésedből hátralévő időre részleges visszatérítést kapsz, az új csomagod pedig azonnal elindul.
+Bármikor válthatsz magasabb csomagra. A jelenlegi fizetett időszakodból hátralévő időre részleges visszatérítést kapsz, az új licencszinted pedig azonnal elindul.
 
-Alacsonyabb csomagra is bármikor válthatsz, de a módosítás csak a következő megújítási dátumtól lép érvénybe.
+Alacsonyabb csomagra is bármikor válthatsz, de a módosítás csak a jelenlegi fizetett időszakod végén lép érvénybe.
 
-Jelentkezz be a weboldalra, nyisd meg a _My subscriptions_ oldalt, válaszd ki a módosítani kívánt előfizetést, majd kattints az _UPGRADE/DOWNGRADE_ hivatkozásra. Ezután megjelennek a licencedhez elérhető lehetőségek.
+Nem módosíthatod a csomagot, amíg a fizetések szüneteltetése ütemezve van, vagy amíg a licenc szüneteltetve van. Először töröld az ütemezett szüneteltetést, vagy indítsd újra a licencet, majd ezután módosítsd a csomagot.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-16 at 14.02.28.png" alt=""><figcaption></figcaption></figure>
+Jelentkezz be a weboldalra, nyisd meg a [_Licenceid_](https://liberationlaser.com/account/my-products) oldalt, válaszd ki a módosítani kívánt licencet, majd kattints az _UPGRADE / DOWNGRADE_ lehetőségre. Ezután megjelennek a licencedhez elérhető lehetőségek.
 
-Kattints a megfelelő _PREVIEW_ gombra, hogy lásd, hogyan befolyásolná a módosítás a fizetéseidet. Ha megfelelő a változtatás, kattints a _Confirm subscription change_ gombra a folyamat befejezéséhez.
+<figure><img src="../.gitbook/assets/account-change-licence-plan.png" alt=""><figcaption></figcaption></figure>
+
+Kattints a megfelelő _PREVIEW_ gombra, hogy lásd, hogyan befolyásolná a módosítás a fizetéseidet. Ha megfelelő a változtatás, kattints a _Confirm licence change_ gombra a folyamat befejezéséhez.

@@ -23,7 +23,7 @@ Du kan sætte og visualisere så mange lasere op, som du vil, i Liberation. Lice
 Som standard er der 8 lasere placeret vandret, men du kan tilpasse det til lige præcis det, du vil. Det er nok bedst at beholde standardopsætningen, mens du lærer softwaren at kende. Senere kan du justere den, så den matcher din hardwareopsætning. (Se [Opsætning af dit projekt](setting-up/setting-up-your-project.md "mention"))
 
 {% hint style="warning" %}
-Vigtigt: Før du armer nogen lasere, skal du sikre dig, at du forstår de involverede risici, og gennemgå kapitlet [Oversigt over opsætning af lasere](setting-up/setting-up-lasers.md "mention") grundigt.
+Vigtigt: Før du armer nogen lasere, skal du sikre dig, at du forstår de involverede risici, og gennemgå kapitlet [Oversigt over opsætningsprocessen for lasere](setting-up/setting-up-lasers.md "mention") grundigt.
 {% endhint %}
 
 ## Overblik over softwaren
@@ -56,7 +56,7 @@ Er du i tvivl om, hvad en bestemt knap gør? Hold musen over den for at få en b
 
 <figure><img src=".gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Menuen er stedet, hvor du finder alle muligheder for filimport/-eksport og kan åbne paneler. Her finder du også muligheden for at autorisere computeren med dit abonnement (under _Liberation -> Authorise/Deauthorise this computer_).
+Menuen er stedet, hvor du finder alle muligheder for filimport/-eksport og kan åbne paneler. Her finder du også muligheden for at autorisere computeren med din licens (under _Liberation -> Authorise/Deauthorise this computer_).
 
 #### Ikonlinje
 
@@ -74,7 +74,7 @@ Det store område øverst til venstre på skærmen kan vise en af 3 hovedvisning
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D-visningen viser, hvordan dine lasere kommer til at se ud, og kan konfigureres, så den matcher din egen laseropsætning. Klik og træk for at rotere kameraet, og brug musehjulet til at bevæge dig frem og tilbage. Du kan finde mange flere muligheder i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](setting-up/3d-visualiser.md "mention").
+3D view viser, hvordan dine lasere kommer til at se ud, og kan konfigureres, så den matcher din egen laseropsætning. Klik og træk for at rotere kameraet, og brug musehjulet til at bevæge dig frem og tilbage. Du kan finde mange flere muligheder i panelet _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Se [3D Visualiser](setting-up/3d-visualiser.md "mention").
 
 #### Output View
 
@@ -146,7 +146,7 @@ Du kan scrolle clip deck til venstre og højre på disse måder:
 * APC40 scroll-knap
 * APC40 _<- DEVICE ->_-knapper
 
-For at hjælpe dig med at orientere dig er der en mini-visualisering af clip deck langs toppen. Se også [Clips og Clip Deck](clips/ "mention")
+For at hjælpe dig med at orientere dig er der en mini-visualisering af Clip Deck langs toppen. Se også [Clips og Clip Deck](clips/ "mention")
 
 #### Start og stop af clips
 
@@ -306,7 +306,7 @@ Her kan du vælge, hvilke laseroutputs der skal gå til hvilke lasercontrollere.
 Læs kapitlet [Tildeling af controllere](setting-up/controller-assignment.md "mention") for flere detaljer.
 
 {% hint style="danger" %}
-Før du armer nogen lasere, skal du sørge for at gennemgå kapitlet [Oversigt over opsætning af lasere](setting-up/setting-up-lasers.md "mention").
+Før du armer nogen lasere, skal du sørge for at gennemgå kapitlet [Oversigt over opsætningsprocessen for lasere](setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser Output-panel
@@ -343,4 +343,4 @@ De øvrige avancerede scannerindstillinger beskrives i kapitlet [Avanceret](adva
 
 ### Zoning
 
-Se en komplet guide til opsætning og zoning af lasere her: [Oversigt over opsætning af lasere](setting-up/setting-up-lasers.md "mention")
+Se en komplet guide til opsætning og zoning af lasere her: [Oversigt over opsætningsprocessen for lasere](setting-up/setting-up-lasers.md "mention")

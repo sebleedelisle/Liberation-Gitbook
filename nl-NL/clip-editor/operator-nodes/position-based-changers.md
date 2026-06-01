@@ -49,7 +49,7 @@ Deze bepalen welke onderdelen van de kleuraanpassingen op de content worden toeg
 
 **Verloopeditor**
 
-Gebruikt dezelfde verloopeditor als [Colour Changer](colour-changer.md "mention"), maar koppelt het verloop op basis van positie aan de inhoud.
+Gebruikt dezelfde verloopeditor als [Colour change](colour-changer.md "mention"), maar koppelt het verloop op basis van positie aan de inhoud.
 
 * Klik op de verloopbalk om een kleurstop toe te voegen.
 * Klik met de linkermuisknop op een stop om deze te selecteren en sleep deze daarna zijwaarts om hem te verplaatsen.

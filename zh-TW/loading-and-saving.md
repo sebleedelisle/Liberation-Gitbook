@@ -14,7 +14,7 @@ Liberation 會持續將狀態儲存到磁碟，因此即使遇到停電或系統
 
 Project 檔案會儲存目前設定中的幾乎所有內容，包括：
 
-* 下方 [Laser Settings 匯入 / 匯出](loading-and-saving.md#laser-settings-import-export "mention")所列的所有內容
+* 下方 [Laser Settings 匯入 / 匯出](loading-and-saving.md#laser-settings-import-export "mention") 所列的所有內容
 * Clips、效果和群組設定
 * 你的所有時間軸（不包含音訊和影片媒體）
 * Art-Net 設定
@@ -67,7 +67,7 @@ Project 檔案會儲存目前設定中的幾乎所有內容，包括：
 目前已選取的任何 Clips 都會匯出到檔案中。群組設定和效果不會儲存，只會儲存 Clips。請注意，目前正在執行的 active Clips 不會匯出，除非它們同時也被選取。
 
 {% hint style="info" %}
-按住 Option/Alt - Shift - 點擊 Clips 可選取它們（或使用套索）。你可以從 Clips 周圍的粗白色外框判斷哪些 Clips 已被選取。請參閱[啟動與停止 Clips](clips/starting-stopping-clips.md "mention")
+按住 Option/Alt - Shift - 點擊 Clips 可選取它們（或使用套索）。你可以從 Clips 周圍的粗白色外框判斷哪些 Clips 已被選取。請參閱[啟動／停止 Clips](clips/starting-stopping-clips.md "mention")
 {% endhint %}
 
 ### 效果匯入 / 匯出

@@ -14,7 +14,7 @@ A clip kimeneti méretét a _Scale X_ és _Scale Y_ segítségével módosíthat
 
 A clip vízszintes és függőleges pozícióját a _Shift X_ és _Shift Y_ segítségével módosíthatod.
 
-A _Zone Delay/Chase_ annyira szórakoztató funkció, hogy külön szakaszt kapott. [Zone Delay/Chase](zone-delay-chase.md "mention")
+A _Zone Delay/Chase_ annyira szórakoztató funkció, hogy külön szakaszt kapott. [Zone delay / chase](zone-delay-chase.md "mention")
 
 ### Parameters panel
 

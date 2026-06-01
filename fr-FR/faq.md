@@ -30,7 +30,7 @@ Liberation peut piloter de nombreux lasers depuis un seul ordinateur ; il a ét�
 
 #### **Quels contrôleurs MIDI puis-je utiliser ?**
 
-Liberation a été conçu et optimisé autour du célèbre contrôleur MIDI APC40 Mk2. Il fonctionne également avec l’APC40 Mk1. Voir [Contrôle en live avec l’APC40](midi-control/live-control-with-the-apc40.md "mention")
+Liberation a été conçu et optimisé autour du célèbre contrôleur MIDI APC40 Mk2. Il fonctionne également avec l’APC40 Mk1. Voir [Contrôleurs MIDI live](midi-control/live-control-with-the-apc40.md "mention")
 
 Liberation prend également en charge l’APC Mini et le MIDI Fighter Twister. L’APC40 Mk2 reste le contrôleur de référence le plus complet.
 
@@ -95,25 +95,29 @@ Vous pouvez passer à un niveau supérieur à tout moment. Vous recevrez un remb
 
 Vous pouvez rétrograder à tout moment, mais le changement prendra effet à la fin de votre période payée actuelle. Voir [Mettre à niveau ou rétrograder votre licence](installation/upgrade-downgrade-your-license.md "mention")
 
+#### **Puis-je suspendre les paiements de ma licence ?**
+
+Oui. La licence peut être mise en pause à la prochaine date d’abonnement et redémarrée à tout moment. C’est utile si vous utilisez le logiciel par périodes, et vous n’avez pas besoin de saisir à nouveau les informations de votre carte. Voir [Suspendre ou annuler les paiements](installation/cancel-your-subscription.md "mention")
+
+#### **Comment annuler définitivement ma licence ?**
+
+Vous pouvez annuler votre licence récurrente à tout moment ; elle sera automatiquement désactivée à la fin de la période payée en cours. Voir [Suspendre ou annuler les paiements](installation/cancel-your-subscription.md "mention")
+
 #### **Comment autoriser mon ordinateur avec ma licence ?**
 
 Une fois que vous avez acheté une licence, vous pouvez autoriser l’ordinateur directement dans le logiciel Liberation. Vous verrez un bouton _Authorise_ sur l’écran _About_, qui vous invitera à vous connecter au site web. Suivez les instructions à l’écran pour terminer le processus d’autorisation. Voir [Autorisation et désautorisation](installation/authorising-and-de-authorising.md "mention")
 
 #### **À quelle fréquence dois-je connecter mon ordinateur à Internet ?**
 
-Chaque fois qu’une licence payante est actualisée après un paiement, vous devrez connecter Liberation à Internet pour mettre à jour sa licence interne. Pour une licence mensuelle à renouvellement automatique, vous devrez vous connecter chaque mois.
+Chaque fois qu’une licence payante récurrente est renouvelée avec succès, vous devrez connecter Liberation à Internet pour mettre à jour sa licence interne. Ainsi, pour une licence mensuelle à renouvellement automatique, vous devrez vous connecter chaque mois.
 
 #### **Que se passe-t-il si je ne peux pas connecter mon ordinateur à Internet après le prochain paiement ?**
 
-Liberation vous accorde une période de grâce de 7 jours après l’actualisation de votre licence payante pour vous connecter à Internet et mettre à jour sa licence interne. Après cette période, Liberation repassera en mode _Free_.
+Pour les licences payantes mensuelles récurrentes, Liberation vous accorde généralement une période de grâce de 7 jours après le renouvellement de votre licence payante pour vous connecter à Internet et mettre à jour sa licence interne. Après cette période, Liberation repassera en mode _Free_.
 
 #### **Que se passe-t-il si ma carte bancaire expire ?**
 
-Vous recevrez une notification par e-mail de notre prestataire de paiement, et vous devrez mettre à jour les informations de votre carte. Connectez-vous au site web et utilisez _UPDATE CARD DETAILS_ sur la page de licence, ou _Update_ sous _Billing and payments_.
-
-#### **Comment annuler le renouvellement automatique de ma licence ?**
-
-Connectez-vous au site web, ouvrez la page [_Your licences_](https://liberationlaser.com/account/my-products), sélectionnez la licence que vous souhaitez gérer, puis cliquez sur _CANCEL PAYMENTS_. Votre licence payante restera active jusqu’à la fin de la période payée actuelle. Aucun autre paiement ne sera prélevé.
+Vous recevrez une notification par e-mail de notre prestataire de paiement, et vous devrez mettre à jour les informations de votre carte. Connectez-vous au site web et utilisez _UPDATE CARD DETAILS_ sur la page de licence, ou _Update_ sous _Billing and payments_. Vous devez le faire pendant la période de grâce pour éviter de perdre l’accès aux fonctionnalités payantes.
 
 #### **Sur combien d’ordinateurs puis-je installer Liberation ?**
 

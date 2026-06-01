@@ -17,14 +17,14 @@ Voit määrittää ja visualisoida Liberationissa niin monta laseria kuin haluat
 Oletusasetuksessa on 8 laseria vaakasuorassa rivissä, mutta voit muokata tätä haluamallasi tavalla. Aluksi tämä oletus kannattaa todennäköisesti pitää käytössä, kun tutustut ohjelmistoon. Myöhemmin voit säätää sen vastaamaan omaa laitteistoasi. (Katso [Projektin määrittäminen](../setting-up/setting-up-your-project.md "mention"))&#x20;
 
 {% hint style="warning" %}
-Tärkeää: ennen kuin asetat mitään lasereita armed-tilaan, varmista, että ymmärrät riskit, ja käy huolellisesti läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md "mention").
+Tärkeää: ennen kuin otat mitään lasereita käyttövalmiiksi, varmista, että ymmärrät riskit, ja käy huolellisesti läpi luku [Laserien määritysprosessin yleiskuvaus](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ## Ohjelmiston yleiskuva
 
 ### Turvakatkaisu
 
-Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / turvalukitukset](../hardware/emergency-stop-interlocks.md "mention")). Jos haluat poistaa kaikkien lasereiden armed-tilan vähemmän kiireellisesti, käytä _**DISARM ALL**_ -painiketta, `Escape`-näppäintä tai APC40-laitteen _**SESSION**_-näppäintä. Voit myös pienentää Global Brightness -tasoa näytön liukusäätimellä tai APC40:n pääfaderilla.
+Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / turvalukitukset](../hardware/emergency-stop-interlocks.md "mention")). Jos haluat poistaa kaikkien lasereiden käyttövalmiuden vähemmän kiireellisesti, käytä _**DISARM ALL**_ -painiketta, `Escape`-näppäintä tai APC40-laitteen _**SESSION**_-näppäintä. Voit myös pienentää Global Brightness -tasoa näytön liukusäätimellä tai APC40:n pääfaderilla.
 
 ### Liukusäätimet
 
@@ -50,7 +50,7 @@ Etkö ole varma, mitä jokin painike tekee? Vie hiiri painikkeen päälle, niin 
 
 <figure><img src="../.gitbook/assets/qs-menu-bar.png" alt="" width="359"><figcaption></figcaption></figure>
 
-Valikosta löydät kaikki tiedostojen tuonti- ja vientitoiminnot sekä paneelien avaamisen. Täältä löytyy myös vaihtoehto, jolla tietokone valtuutetaan tilauksellesi (_Liberation -> Authorise/Deauthorise this computer_).
+Valikosta löydät kaikki tiedostojen tuonti- ja vientitoiminnot sekä paneelien avaamisen. Täältä löytyy myös vaihtoehto, jolla tietokone valtuutetaan lisenssillesi (_Liberation -> Authorise/Deauthorise this computer_).
 
 #### Kuvakepalkki
 
@@ -184,7 +184,7 @@ Muuta zone-asetuksia kaikille ryhmän Clips-sisällöille
 
 APC40-laitteella paina ryhmäpainiketta ja käytä sitten zone- ja X/Y-painikkeita _sen ollessa edelleen painettuna_, jotta voit vaihtaa zone-asetuksia kaikille kyseisen ryhmän Clips-sisällöille.
 
-Katso myös [Ryhmät](../clips/groups.md "mention")
+Katso myös [Clip-ryhmät](../clips/groups.md "mention")
 
 ### Tehosteet
 
@@ -300,7 +300,7 @@ Tässä voit valita, mitkä laserin Output-kanavat lähetetään millekin laser 
 Lue lisätietoja luvusta [Ohjaimen määritys](../setting-up/controller-assignment.md "mention").
 
 {% hint style="danger" %}
-Ennen kuin asetat mitään lasereita armed-tilaan, käy läpi luku [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md "mention").
+Ennen kuin otat mitään lasereita käyttövalmiiksi, käy läpi luku [Laserien määritysprosessin yleiskuvaus](../setting-up/setting-up-lasers.md "mention").
 {% endhint %}
 
 ### Laser Output -paneeli
@@ -331,10 +331,10 @@ Jos olet tottunut vanhempaan lasero-ohjelmistoon, joka perustuu ennalta laskettu
 Scanner-perusasetukset ovat:
 
 * **Speed** on scanner-nopeus, eli se kuinka nopeasti laser liikkuu piirtäessään muotoja. Tämä vastaa perinteisessä laserohjelmistossa point rate -arvon säätöä, mutta Liberationissa voit muuttaa laserin liikkumisnopeutta _point rate -arvosta riippumatta._ Tätä ei yleensä tarvitse säätää.
-* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Scanner liikuttaa laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon “häntinä” säteiden ja viivojen reunoilla. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laser Settings](../setting-up/laser-settings.md "mention")
+* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Skannerit liikuttavat laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon “häntinä” säteiden ja viivojen reunoilla. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laserin lähdön asetuspaneeli](../setting-up/laser-settings.md "mention")
 
-Muut edistyneet scanner-asetukset käsitellään luvussa [Lisäasetukset](../advanced/ "mention").
+Muut edistyneet skanneriasetukset käsitellään luvussa [Lisäasetukset](../advanced/ "mention").
 
 ### Zoning
 
-Täysi opas lasereiden määrittämiseen ja zoning-asetusten tekemiseen: [Lasereiden määrittäminen](../setting-up/setting-up-lasers.md "mention")
+Täysi opas lasereiden määrittämiseen ja zone-alueiden asettamiseen: [Laserien määritysprosessin yleiskuvaus](../setting-up/setting-up-lasers.md "mention")

@@ -6,4 +6,4 @@ metaLinks:
 
 # ✅ نصائح لتحميل ملفات الرسومات / SVG
 
-راجع Shape Creator node للحصول على معلومات حول استيراد الأشكال المتجهة والشعارات وما إلى ذلك. [nodes الخاصة بـ Creator](clip-editor/creator-nodes.md)
+راجع Shape Creator node للحصول على معلومات حول استيراد الأشكال المتجهة والشعارات وما إلى ذلك. [nodes الخاصة بـ Creator](clip-editor/creator-nodes.md "mention")

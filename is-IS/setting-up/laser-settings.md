@@ -56,7 +56,7 @@ Stillingin Speed ræður því hversu hratt skannarnir hreyfast.
 {% endhint %}
 
 {% hint style="info" %}
-Þessi Speed stilling breytir ekki punktatíðninni. Hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [Hvernig Liberation býr til laserefni](../advanced/how-liberation-generates-laser-content.md "mention")
+Þessi Speed stilling breytir ekki punktatíðninni. Hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [◼️ Hvernig Liberation býr til laserefni](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
 #### **Scanner sync (Colour shift / blank shift)**
@@ -73,7 +73,7 @@ Ef þú sérð litla „hala“ í úttaki leysisins þarf líklega að stilla S
 
 #### Forstillingar skanna
 
-Notaðu þetta til að velja fyrirfram hannaða stillingu fyrir skannana. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema þú sért með sérstaklega lélega (eða góða) skanna. Ef þú vilt skoða þetta nánar, sjá [Forstillingar skanna](../advanced/scanner-presets.md "mention")
+Notaðu þetta til að velja fyrirfram hannaða stillingu fyrir skannana. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema þú sért með sérstaklega lélega (eða góða) skanna. Ef þú vilt skoða þetta nánar, sjá [◼️ Forstillingar skanna og render profiles](../advanced/scanner-presets.md "mention")
 
 #### Litakvörðun
 
@@ -81,4 +81,4 @@ Notaðu þetta til að velja fyrirfram hannaða stillingu fyrir skannana. Sjálf
 
 #### Ítarlegar stillingar
 
-Þú ættir ekki að þurfa að fikta í þessu, en ef þú ert forvitin/n, sjá [Ítarlegar Laser Settings](../advanced/advanced-laser-settings.md "mention")
+Þú ættir ekki að þurfa að fikta í þessu, en ef þú vilt vita meira, sjá [◼️ Ítarlegar Laser Settings](../advanced/advanced-laser-settings.md "mention")

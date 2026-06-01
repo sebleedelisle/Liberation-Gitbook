@@ -68,7 +68,7 @@ Der große Bereich oben links auf dem Bildschirm kann eine von 3 Hauptansichten 
 
 <figure><img src="../.gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-Die 3D-Ansicht zeigt dir, wie deine Laser aussehen werden, und kann an dein eigenes Laser-Setup angepasst werden. Klicke und ziehe, um die Kamera zu drehen. Verwende das Mausrad, um vorwärts und rückwärts zu fahren. Viele weitere Optionen findest du im Panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Siehe [3D Visualiser](../setting-up/3d-visualiser.md "mention").
+Die 3D view zeigt dir, wie deine Laser aussehen werden, und kann an dein eigenes Laser-Setup angepasst werden. Klicke und ziehe, um die Kamera zu drehen. Verwende das Mausrad, um vorwärts und rückwärts zu fahren. Viele weitere Optionen findest du im Panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Siehe [3D Visualiser](../setting-up/3d-visualiser.md "mention").
 
 #### Output View
 

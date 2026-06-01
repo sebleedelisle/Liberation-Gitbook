@@ -9,7 +9,7 @@ metaLinks:
 Glavna vrsta koju ćete koristiti u većini projekata jest _Beam zone_. To je zone namijenjen atmosferskim beam efektima kroz zrak. Druga vrsta je _Canvas zone_ (pogledajte [Grafika i sustav Canvas](../graphics-and-the-canvas-system/ "mention")).
 
 {% hint style="danger" %}
-**UPOZORENJE – Budite iznimno oprezni pri pomicanju zones dok laser radi** i smanjite svjetlinu na najnižu moguću razinu. Pogledajte [Postavljanje lasera](../setting-up/setting-up-lasers.md "mention") za cjelovit vodič o sigurnom aktiviranju i zoniranju lasera.
+**UPOZORENJE – Budite iznimno oprezni pri pomicanju zones dok laser radi** i smanjite svjetlinu na najnižu moguću razinu. Pogledajte [Pregled postupka postavljanja lasera](../setting-up/setting-up-lasers.md "mention") za cjelovit vodič o sigurnom aktiviranju i zoniranju lasera.
 {% endhint %}
 
 Zones možete kliknuti i povlačiti mišem. Uključite test pattern kako biste vidjeli kamo taj zone ide.
@@ -19,12 +19,12 @@ Tipkama sa strelicama možete **pomaknuti u malim koracima** trenutačno odabran
 {% endhint %}
 
 {% hint style="info" %}
-Kratki savjet: postavke za zone možete brzo kopirati na više lasera! Pogledajte [Kopiranje Laser Settings](../setting-up/copy-laser-settings.md "mention")
+Kratki savjet: postavke za zone možete brzo kopirati na više lasera! Pogledajte [Kopiranje postavki između lasera](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 ### Dodavanje novog Beam zone
 
-Kliknite gumb _Add a new beam zone_ na vrhu alatne trake i pojavit će se novi zone. Imajte na umu da se Beam zone stavke sortiraju redoslijedom kojim ih dodajete, ali ih možete promijeniti. Pogledajte [Promjena redoslijeda za Beam zones](re-ordering-beam-zones.md "mention")
+Kliknite gumb _Add a new beam zone_ na vrhu alatne trake i pojavit će se nova zone. Imajte na umu da se beam zone sortiraju redoslijedom kojim ih dodajete, ali im možete promijeniti redoslijed. Pogledajte [Promjena redoslijeda beam zone](re-ordering-beam-zones.md "mention")
 
 ### Dodavanje postojećeg Canvas zone
 
@@ -47,7 +47,7 @@ Desnom tipkom miša kliknite bilo koji zone kako biste otvorili njegove postavke
 * Vratiti ga na zadani položaj
 * Pristupiti postavkama specifičnima za tu vrstu oblika
 * Izbrisati ga
-* Dodati _Alt Zone_ (pogledajte [Sustav Alt Zone](alt-zone-system.md "mention"))
+* Dodati _Alt Zone_ (pogledajte [Sustav Alt zone](alt-zone-system.md "mention"))
 
 {% hint style="danger" %}
 **UPOZORENJE –** budite vrlo oprezni pri promjeni vrste za zone dok je laser aktivan. Zone će se vratiti na posljednji položaj/veličinu za taj oblik, pa se izlaz može naglo promijeniti. Najbolje je isključiti laser prije promjene vrste za zone.

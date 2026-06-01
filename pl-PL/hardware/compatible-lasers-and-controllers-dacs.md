@@ -9,7 +9,7 @@ metaLinks:
 
 ### Które lasery są zgodne z Liberation?
 
-Jeśli laser ma standardowe wejście ILDA, możesz używać go z Liberation wraz ze zgodnym kontrolerem laserowym, takim jak Ether Dream lub Helios DAC — [pełna lista znajduje się poniżej](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers).
+Jeśli laser ma standardowe wejście ILDA, możesz używać go z Liberation wraz ze zgodnym kontrolerem laserowym, takim jak Ether Dream lub Helios DAC — zobacz [Zgodne kontrolery laserowe](compatible-lasers-and-controllers-dacs.md#compatible-laser-controllers) poniżej.
 
 <figure><img src="../.gitbook/assets/helios-dac.png" alt="" width="563"><figcaption><p>Helios DAC — najtańsza opcja do użytku domowego</p></figcaption></figure>
 

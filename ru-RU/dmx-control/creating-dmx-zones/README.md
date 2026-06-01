@@ -7,7 +7,7 @@ metaLinks:
 
 # 🟩 Создание DMX zones
 
-1. Подключите узел Art-Net и настройте его в разделе [Подключение к узлу Art-Net](../connecting-to-an-artnet-node.md "mention").
+1. Подключите узел Art-Net и настройте его в разделе [◼️ Подключение к узлу Art-Net](../connecting-to-an-artnet-node.md "mention").
 2. Откройте **DMX Zones** и нажмите **ADD DMX ZONE**.
 3. Задайте для зоны **Node**, **Universe** и **Address** в соответствии с прибором.
 4. Выберите **Preset** для прибора. Preset определяет, какие каналы DMX получают фиксированные значения, значения включения/выключения контента, цвет RGB, позицию X/Y, яркость или явные входы DMX Value.

@@ -61,4 +61,4 @@ Liberation 需要存取檔案和網絡的權限，因此 Windows 可能會顯示
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Liberation 現在應該可以運行了！如要輸出到激光器，你現在需要完成[授權程序](../authorising-and-de-authorising.md)。
+Liberation 現在應該可以運行了！如要輸出到激光器，你需要完成[授權及取消授權](../authorising-and-de-authorising.md)。

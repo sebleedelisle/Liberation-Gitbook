@@ -27,7 +27,7 @@ Ayrıca ön ayar açılır listesinin yanındaki load/save düğmesini (disket s
 Bir ön ayarı düzenlerseniz, örneğin _Default_ adlı scanner ayarını değiştirirseniz, diğer lazerlerin otomatik olarak güncellenmeyeceğini unutmayın. Bunun yerine, her birinin scanner ayarı artık _Default(edited)_ olarak etiketlenir. Bunu yeni _Default_ ön ayarına güncellemek için açılır listeden yeniden seçin.
 
 {% hint style="info" %}
-Çok sayıda lazeriniz varsa ve hepsinin scanner ayarlarını güncellemek istiyorsanız _COPY LASER SETTINGS_ sistemini kullanın. Bkz. [Lazer ayarlarını kopyalama](../setting-up/copy-laser-settings.md "mention")
+Çok sayıda lazeriniz varsa ve hepsinin scanner ayarlarını güncellemek istiyorsanız _COPY LASER SETTINGS_ sistemini kullanın. Bkz. [Lazerler arasında ayarları kopyalama](../setting-up/copy-laser-settings.md "mention")
 {% endhint %}
 
 Başka bir yerde kullanılan bir ön ayarı silerseniz ayarı kaybetmezsiniz; bunun yerine _(deleted)_ olarak etiketlendiğini görürsünüz.

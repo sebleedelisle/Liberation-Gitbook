@@ -8,7 +8,7 @@
   * [✅ Como funciona o licenciamento](installation/how-licensing-works.md)
   * [✅ Autorizar e desautorizar](installation/authorising-and-de-authorising.md)
   * [✅ Faça upgrade / downgrade da sua licença](installation/upgrade-downgrade-your-license.md)
-* [✅ Cancelar sua licença](installation/cancel-your-subscription.md)
+* [✅ Pausar ou cancelar pagamentos](installation/cancel-your-subscription.md)
   * [🟩 Transferir seu conteúdo ao atualizar para uma nova versão](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
 * [✅ FAQ](faq.md)
 * [✅ Guia de início rápido](getting-started.md)

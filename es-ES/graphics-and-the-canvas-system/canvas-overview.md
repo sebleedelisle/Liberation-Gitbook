@@ -31,14 +31,14 @@ Si no ves los botones de Canvas en el Clip Deck, prueba a desplazarte por los bo
 
 ### Zonas de Canvas
 
-Las zonas de Canvas son áreas dentro del Canvas que eliges enviar a un láser. Se representan como rectángulos con contorno rosa en la vista Canvas. Puedes hacer clic derecho en cada zona y seleccionar los láseres a los que quieres asignarla. Si ahora cambias a la vista _OUTPUT_ de ese láser, verás que ha aparecido una zona nueva.
+Las zonas de Canvas son áreas dentro del Canvas que eliges enviar a un láser. Se representan como rectángulos con contorno rosa en la Canvas view. Puedes hacer clic derecho en cada zona y seleccionar los láseres a los que quieres asignarla. Si ahora cambias a la _OUTPUT_ view de ese láser, verás que ha aparecido una zona nueva.
 
 {% hint style="danger" %}
 ADVERTENCIA: si el láser está armado, podrías empezar a proyectar contenido de repente en una zona de Canvas predeterminada. Es mejor desarmar el láser antes de asignarle zonas de Canvas.
 {% endhint %}
 
 {% hint style="info" %}
-También puedes asignar una zona de Canvas a un láser haciendo clic en el botón _add canvas zone_ en la vista _OUTPUT_. Consulta [Zonas](../output-view/zones.md "mention").
+También puedes asignar una zona de Canvas a un láser haciendo clic en el botón _add canvas zone_ en la _OUTPUT_ view. Consulta [Zonas](../output-view/zones.md "mention").
 {% endhint %}
 
 ### Imágenes guía
@@ -55,7 +55,7 @@ Para mapping arquitectónico, me ha resultado útil crear una visualización «d
 
 ### Canvas en el 3D visualiser
 
-Recrear tu complejo sistema de proyección multiláser en el 3D visualiser probablemente sería, como mínimo, laborioso. Así que, en su lugar, tienes la opción de colocar tu Canvas dentro del espacio 3D. Activa la casilla _Show canvas_ en el panel _3D visualiser settings_. (Cualquier imagen guía que tengas en el Canvas también aparecerá en el visualiser).
+Recrear tu complejo sistema de proyección multiláser en el visualizador 3D probablemente sería, como mínimo, laborioso. Así que, en su lugar, tienes la opción de colocar tu Canvas dentro del espacio 3D. Activa la casilla _Show canvas_ en el panel _3D visualiser settings_. (Cualquier imagen guía que tengas en el Canvas también aparecerá en el visualizador).
 
 {% hint style="info" %}
 Ten en cuenta que el visualiser seguirá mostrando las proyecciones del Canvas como efectos atmosféricos procedentes de los láseres. Puedes simplemente apartarlos de la vista o, si quieres ir un paso más allá, alinearlos con el Canvas.

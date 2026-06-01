@@ -28,7 +28,7 @@ Breytir litum alls efnis sem kemur inn. Þú getur annaðhvort stillt föst HSB-
 * **blend** - hversu sterkt litabreytingin er notuð; 0% þýðir ekkert, 100% er full virkni og 50% er blanda af núverandi lit og nýju gildunum.
 
 {% hint style="info" %}
-Colour Change node tekur einn lit úr gradient fyrir allt inntakið. Ef þú vilt að gradient liggi yfir formið eftir staðsetningu skaltu nota [breytingar eftir staðsetningu](position-based-changers.md "mention") í staðinn.
+Colour Change node tekur einn lit úr gradient fyrir allt inntakið. Ef þú vilt að gradient liggi yfir formið eftir staðsetningu skaltu nota [Breytingar eftir staðsetningu](position-based-changers.md "mention") í staðinn.
 {% endhint %}
 
 ### Gradient-ritill

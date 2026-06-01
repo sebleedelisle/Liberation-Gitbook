@@ -13,13 +13,13 @@ Windows 10 vagy 11, 64 bites gépeken. Nagyobb műsorok futtatásához erősebb 
 
 ### Telepítési folyamat
 
-Ha már van aktív előfizetésed, kapsz egy hivatkozást, vagy rákattinthatsz a _Download_ linkre a[ _Your subscriptions_](https://liberationlaser.com/account/my-products) oldalon.
+Ha már van aktív fizetős licenced, kapsz egy hivatkozást, vagy rákattinthatsz a _Download_ elemre a [_Your licences_](https://liberationlaser.com/account/my-products) oldalon.
 
 Ezt az oldalt fogod látni:
 
-<figure><img src="../../.gitbook/assets/windows-install-download-page.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/account-download-page.png" alt=""><figcaption></figcaption></figure>
 
-Kattints a _Download latest for Windows_ gombra (a verziószámok változhatnak), és megjelenik a letöltés előrehaladása (általában a jobb felső sarokban; a képernyőkép Chrome-ból származik). Ha elkészült, nyisd meg a letöltéseket, és kattints a letöltött telepítőfájlra.
+Kattints a _Download for Windows_ gombra (a verziószámok változhatnak), és megjelenik a letöltés előrehaladása (általában a jobb felső sarokban; a képernyőkép Chrome-ból származik). Ha elkészült, nyisd meg a letöltéseket, és kattints a letöltött telepítőfájlra.
 
 <figure><img src="../../.gitbook/assets/windows-install-download-list.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,4 +61,4 @@ A Liberationnek engedélyre van szüksége a fájlok és a hálózat eléréséh
 
 <figure><img src="../../.gitbook/assets/windows-defender-firewall-block-message.png" alt="" width="375"><figcaption></figcaption></figure>
 
-A Liberationnek most már futnia kell. A lézerekre történő kimenethez ezután végig kell menned az [engedélyezési folyamaton.](../authorising-and-de-authorising.md)
+A Liberationnek most már futnia kell. Ahhoz, hogy lézerekre küldj kimenetet, el kell végezned az [Engedélyezés és engedélyezés visszavonása](../authorising-and-de-authorising.md) lépéseit.
