@@ -25,6 +25,8 @@ For normal manual edits:
 
 Do not manually edit translated locale folders unless you are fixing a specific translation issue.
 
+Terminology changes follow the same rule: do not run bulk replacements across translated locale folders. Update `en-GB`, regenerate `en-US` with `npm run localize:en-us`, and let scheduled translation PRs update AI-translated locales. Keep shared asset filenames stable during normal English edits unless all locale references are updated through the translation workflow.
+
 ## Local preview
 
 Build and serve the current checkout:

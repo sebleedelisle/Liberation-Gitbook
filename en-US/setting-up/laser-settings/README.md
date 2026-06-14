@@ -53,7 +53,7 @@ Although the default settings are quite conservative, you can still damage your 
 This speed setting doesn't change the point rate, instead it adjusts how spread out those points are. For more information see [◼️ How Liberation generates laser content](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Color shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 The beam changes color and turns on and off as the scanners move it around and these two things aren't usually perfectly in sync with each other. Adjust this setting to get them back in line.
 
@@ -61,7 +61,7 @@ The beam changes color and turns on and off as the scanners move it around and t
 This is sometimes known as _blank shift_ but I personally prefer the term _scanner sync_ - it's a little more accurate as it adjusts the timing of all the color changes vs the scanner movement.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser "tails" - Color shift not properly set</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>No laser "tails"! Color shift good!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser "tails" - Scanner Sync not properly set</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>No laser "tails"! Scanner Sync good!</p></figcaption></figure></div>
 
 If you see little "tails" on your laser output, it's likely because the scanner sync needs adjusting. If the tails still appear no matter what, you are likely driving your scanners/laser drivers faster than they can handle. Try slowing the scanner speed down.
 

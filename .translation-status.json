@@ -902,7 +902,7 @@
     },
     "en-US/appendix-articles/scanner-specifications-and-liberation.md": {
       "source": "en-GB/appendix-articles/scanner-specifications-and-liberation.md",
-      "source_sha256": "65714ad491bdc9ee3ad4f889aee4f359267704f4a5a2eb640e3c3f28c6c90bd6"
+      "source_sha256": "ff9b0fca91429f0f19f9181f2cb92c8fbbf7b9f12db9c1b7ab2ae87801be37d4"
     },
     "en-US/basics/getting-started.md": {
       "source": "en-GB/basics/getting-started.md",
@@ -1070,7 +1070,7 @@
     },
     "en-US/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "en-US/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -1254,19 +1254,19 @@
     },
     "en-US/setting-up/copy-laser-settings.md": {
       "source": "en-GB/setting-up/copy-laser-settings.md",
-      "source_sha256": "a2e6d2f01036297026ec1b310cbd83982001b3f0ab8d9962d061a1d9eb5a18ac"
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
     },
     "en-US/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "en-US/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
     },
     "en-US/setting-up/laser-settings/copy-laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
-      "source_sha256": "444344998ee5d565b40fec14ce4f77e2564b0dfe651472db460b3e847fb55879"
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "en-US/setting-up/latency-setting.md": {
       "source": "en-GB/setting-up/latency-setting.md",

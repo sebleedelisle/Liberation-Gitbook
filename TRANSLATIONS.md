@@ -37,6 +37,8 @@ The intended workflow is:
 
 Do not update every translated locale for every English edit. The cadence exists to keep English changes fast and to avoid unnecessary translation API usage.
 
+For terminology changes, do not run bulk search/replace across translated locale folders. That touches translation git history and can make freshness checks treat manually edited translations as current. Make the change in `en-GB`, regenerate `en-US`, and leave AI-translated locales to the weekly or monthly translation PRs. If an asset filename contains old terminology, keep the filename stable during a normal English edit unless generated-image checks prove all locale references have been updated through the translation workflow.
+
 ## API keys
 
 For OpenAI:
