@@ -59,7 +59,7 @@ Embora as configurações padrão sejam bastante conservadoras, você ainda pode
 Esta configuração de velocidade não altera a taxa de pontos; em vez disso, ela ajusta o quanto esses pontos ficam espaçados. Para mais informações, veja [◼️ Como o Liberation gera conteúdo laser](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 O feixe muda de cor e liga/desliga conforme os scanners o movimentam, e essas duas coisas normalmente não ficam perfeitamente sincronizadas entre si. Ajuste esta configuração para alinhá-las novamente.
 
@@ -67,7 +67,7 @@ O feixe muda de cor e liga/desliga conforme os scanners o movimentam, e essas du
 Isso às vezes é conhecido como _blank shift_, mas eu pessoalmente prefiro o termo _scanner sync_ — ele é um pouco mais preciso, pois ajusta o timing de todas as mudanças de cor em relação ao movimento do scanner.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>“Rastros” do laser — Colour shift não configurado corretamente</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Sem “rastros” no laser! Colour shift correto!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>“Rastros” do laser — Scanner Sync não configurado corretamente</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Sem “rastros” no laser! Scanner Sync correto!</p></figcaption></figure></div>
 
 Se você vir pequenos “rastros” na saída do seu laser, é provável que o scanner sync precise de ajuste. Se os rastros continuarem aparecendo de qualquer forma, provavelmente você está acionando seus scanners/drivers de laser mais rápido do que eles conseguem suportar. Tente reduzir a velocidade do scanner.
 

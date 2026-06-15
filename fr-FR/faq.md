@@ -159,7 +159,7 @@ Il dispose d’un système intelligent de "tap tempo" qui fonctionne comme vous 
 
 #### Quels réglages dois-je ajuster pour obtenir la meilleure sortie du laser ?
 
-Le réglage principal est _Colour Shift_, qui compense le léger délai entre le mouvement des miroirs et le changement de luminosité des lasers. Si les points/faisceaux de votre laser présentent de petites « traînées », vous devrez l’ajuster. (Voir les photos sur la page [Panneau des paramètres de sortie laser](setting-up/laser-settings.md "mention") pour un exemple de « traînées »)
+Le réglage principal est _Scanner Sync_, qui compense le léger délai entre le mouvement des miroirs et le changement de luminosité des lasers. Si les points/faisceaux de votre laser présentent de petites « traînées », vous devrez l’ajuster. (Voir les photos sur la page [Panneau des paramètres de sortie laser](setting-up/laser-settings.md "mention") pour un exemple de « traînées »)
 
 Vous pouvez également essayer de modifier la vitesse des scanners : plus lente si vos scanners sont basiques, ou plus rapide s’ils sont de bonne qualité. Mais **utilisez ce réglage avec prudence, car vous pouvez endommager vos scanners si vous les poussez trop fort.**
 

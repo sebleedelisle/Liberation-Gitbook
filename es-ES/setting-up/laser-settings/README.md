@@ -53,7 +53,7 @@ Aunque los ajustes predeterminados son bastante conservadores, puedes dañar los
 Este ajuste de velocidad no cambia la tasa de puntos; en su lugar, ajusta lo separados que están esos puntos. Para más información, consulta [◼️ Cómo genera Liberation contenido láser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 El haz cambia de color y se enciende y apaga mientras los scanners lo desplazan, y normalmente estas dos cosas no están perfectamente sincronizadas entre sí. Ajusta este valor para volver a alinearlas.
 
@@ -61,7 +61,7 @@ El haz cambia de color y se enciende y apaga mientras los scanners lo desplazan,
 A veces esto se conoce como _blank shift_, pero personalmente prefiero el término _scanner sync_: es un poco más preciso, ya que ajusta la temporización de todos los cambios de color con respecto al movimiento del scanner.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>“Colas” de láser: Colour shift no está ajustado correctamente</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>¡Sin “colas” de láser! ¡Colour shift está bien ajustado!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>“Colas” de láser: Scanner Sync no está ajustado correctamente</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>¡Sin “colas” de láser! ¡Scanner Sync está bien ajustado!</p></figcaption></figure></div>
 
 Si ves pequeñas “colas” en la salida de tu láser, probablemente sea porque hay que ajustar la sincronización del scanner. Si las colas siguen apareciendo hagas lo que hagas, es probable que estés haciendo trabajar los scanners/controladores láser más rápido de lo que pueden soportar. Prueba a reducir la velocidad del scanner.
 

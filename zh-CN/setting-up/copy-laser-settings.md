@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/setting-up/copy-laser-settings
+---
+
 # ✅ 在激光之间复制设置
 
 在 _Laser Output_ 中点击 _COPY LASER SETTINGS_ 按钮，会打开一个新面板。
@@ -15,7 +22,7 @@
 选择要复制的设置：
 
 * **Copy output zone positions**_**-**_ 复制 zone 的位置/大小/类型到其他激光。注意复制按顺序进行，所以激光 1 的 zones 1 和 9 会复制到激光 2 的 zones 2 和 10。Alt zones 也会复制。
-* **Copy scanner / speed settings** - 复制扫描器速度和扫描器预设，但 _不_ 复制 _Colour shift_。
+* **Copy scanner / speed settings** - 复制扫描器速度和扫描器预设，但 _不_ 复制 _Scanner Sync_。
 * **Copy colour settings -** 复制所有颜色校准设置
 * **Copy advanced settings -** 包含点率、smooth home position、target frame rate 及所有其他高级设置。
 
