@@ -59,7 +59,7 @@ metaLinks:
 此速度设置不会改变点率，而是调整点的分布范围。更多信息见 [◼️ Liberation 如何生成激光内容](../advanced/how-liberation-generates-laser-content.md "mention")。
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 光束在扫描器移动时改变颜色并开关，但两者通常并非完全同步。该设置用于校正两者的时间对齐。
 
@@ -67,7 +67,7 @@ metaLinks:
 这有时被称为 _blank shift_，但我更喜欢 _scanner sync_ 这一说法，因为它更准确：它调整的是所有颜色变化与扫描器移动之间的时序。
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>激光 “tails” - Colour shift 设置不当</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>没有激光 “tails”！Colour shift 正常！</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>激光“尾巴” - Scanner Sync 设置不当</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>没有激光“尾巴”！Scanner Sync 正常！</p></figcaption></figure></div>
 
 如果看到激光输出有小 “tails”，通常是 scanner sync 需要调整。如果无论如何都存在 tails，可能是扫描器/激光驱动被你开得过快。尝试降低扫描器速度。
 

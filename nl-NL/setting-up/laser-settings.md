@@ -59,7 +59,7 @@ Hoewel de standaardinstellingen vrij behoudend zijn, kun je je scanners nog stee
 Deze Speed-instelling verandert de point rate niet, maar past aan hoe ver die punten uit elkaar liggen. Zie voor meer informatie [◼️ Hoe Liberation lasercontent genereert](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 De beam verandert van kleur en gaat aan en uit terwijl de scanners hem rondbewegen. Deze twee dingen lopen meestal niet perfect synchroon. Pas deze instelling aan om ze weer op één lijn te krijgen.
 
@@ -67,7 +67,7 @@ De beam verandert van kleur en gaat aan en uit terwijl de scanners hem rondbeweg
 Dit wordt soms _blank shift_ genoemd, maar persoonlijk geef ik de voorkeur aan de term _scanner sync_ - die is iets nauwkeuriger, omdat hiermee de timing van alle kleurveranderingen ten opzichte van de scannerbeweging wordt aangepast.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-"tails" - Colour shift niet goed ingesteld</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Geen laser-"tails"! Colour shift goed!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-"tails" - Scanner Sync niet goed ingesteld</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Geen laser-"tails"! Scanner Sync goed!</p></figcaption></figure></div>
 
 Als je kleine "tails" in je laseroutput ziet, moet de scanner sync waarschijnlijk worden bijgesteld. Als de tails blijven verschijnen, wat je ook instelt, stuur je je scanners/laserdrivers waarschijnlijk sneller aan dan ze aankunnen. Probeer de scannersnelheid te verlagen.
 

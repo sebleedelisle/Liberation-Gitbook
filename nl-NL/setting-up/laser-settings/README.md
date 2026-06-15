@@ -53,7 +53,7 @@ Hoewel de standaardinstellingen vrij voorzichtig zijn, kun je je scanners nog st
 Deze speed-instelling verandert de point rate niet, maar past aan hoe ver die punten uit elkaar liggen. Zie voor meer informatie [◼️ Hoe Liberation lasercontent genereert](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 De straal verandert van kleur en gaat aan en uit terwijl de scanners hem rondsturen. Deze twee dingen lopen meestal niet perfect synchroon. Pas deze instelling aan om ze weer op één lijn te krijgen.
 
@@ -61,7 +61,7 @@ De straal verandert van kleur en gaat aan en uit terwijl de scanners hem rondstu
 Dit wordt soms _blank shift_ genoemd, maar persoonlijk geef ik de voorkeur aan _scanner sync_ - dat is iets nauwkeuriger, omdat hiermee de timing van alle kleurveranderingen ten opzichte van de scannerbeweging wordt aangepast.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-"staarten" - Colour shift niet goed ingesteld</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Geen laser-"staarten"! Colour shift goed!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-"staarten" - Scanner Sync niet goed ingesteld</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Geen laser-"staarten"! Scanner Sync goed!</p></figcaption></figure></div>
 
 Als je kleine "staarten" in je laseruitvoer ziet, moet de scanner sync waarschijnlijk worden aangepast. Als de staarten blijven verschijnen, ongeacht de instelling, stuur je je scanners/laserdrivers waarschijnlijk sneller aan dan ze aankunnen. Probeer de scannersnelheid te verlagen.
 

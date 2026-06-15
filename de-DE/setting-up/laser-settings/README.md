@@ -53,7 +53,7 @@ Auch wenn die Standardeinstellungen recht konservativ sind, kannst du deine Scan
 Diese Speed-Einstellung ändert nicht die Point-Rate, sondern passt an, wie weit die Punkte auseinanderliegen. Weitere Informationen findest du unter [◼️ Wie Liberation Laserinhalte erzeugt](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Der Strahl ändert seine Farbe und wird ein- und ausgeschaltet, während die Scanner ihn bewegen. Diese beiden Dinge sind normalerweise nicht perfekt miteinander synchron. Passe diese Einstellung an, um sie wieder aufeinander abzustimmen.
 
@@ -61,7 +61,7 @@ Der Strahl ändert seine Farbe und wird ein- und ausgeschaltet, während die Sca
 Das wird manchmal als _blank shift_ bezeichnet, aber ich persönlich bevorzuge den Begriff _scanner sync_ – er ist etwas genauer, da hier das Timing aller Farbwechsel im Verhältnis zur Scannerbewegung angepasst wird.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-„Tails“ – Colour shift ist nicht richtig eingestellt</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Keine Laser-„Tails“! Colour shift passt!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-„Tails“ – Scanner Sync ist nicht richtig eingestellt</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Keine Laser-„Tails“! Scanner Sync passt!</p></figcaption></figure></div>
 
 Wenn du kleine „Tails“ in deiner Laserausgabe siehst, muss wahrscheinlich Scanner sync angepasst werden. Wenn die Tails trotzdem immer erscheinen, betreibst du deine Scanner/Lasertreiber vermutlich schneller, als sie verarbeiten können. Versuche, die Scanner-Geschwindigkeit zu reduzieren.
 

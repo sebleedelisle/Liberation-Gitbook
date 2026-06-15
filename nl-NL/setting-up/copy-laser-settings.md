@@ -22,7 +22,7 @@ Schakel alle andere lasers in waarnaar je de instellingen wilt kopiëren. (Gebru
 Selecteer welke instellingen je wilt kopiëren:
 
 * **Copy output zone positions&#x20;**_**-**_ kopieert de zoneposities / grootte / type van één laser naar de andere lasers. Let erop dat de zones op volgorde worden gekopieerd: laser 1 zones 1 en 9 worden dus gekopieerd naar laser 2 zones 2 en 10. Alt-zones worden ook gekopieerd.
-* **Copy scanner / speed settings** - kopieert de scannersnelheid en scanner preset, maar _niet_ _Colour shift._
+* **Copy scanner / speed settings** - kopieert de scannersnelheid en scanner preset, maar _niet_ _Scanner Sync._
 * **Copy colour settings -** kopieert alle kleurkalibratie-instellingen.
 * **Copy advanced settings -** omvat point rate, smooth home position, target frame rate en alle andere geavanceerde instellingen.
 

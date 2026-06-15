@@ -22,7 +22,7 @@ Attiva tutti gli altri laser _su cui_ vuoi copiare le impostazioni. (Usa _ALL_ e
 Seleziona quali impostazioni vuoi copiare:
 
 * **Copy output zone positions&#x20;**_**-**_ copia posizione / dimensione / tipo delle zone da un laser agli altri. Tieni presente che le zone vengono copiate in ordine: quindi le zone 1 e 9 del laser 1 verranno copiate nelle zone 2 e 10 del laser 2. Verranno copiate anche le alt zones.
-* **Copy scanner / speed settings** - copia la velocità dello scanner e lo scanner preset, ma _non_ _Colour shift._
+* **Copy scanner / speed settings** - copia la velocità dello scanner e lo scanner preset, ma _non_ _Scanner Sync._
 * **Copy colour settings -** copia tutte le impostazioni di calibrazione del colore
 * **Copy advanced settings -** include point rate, smooth home position, target frame rate e tutte le altre impostazioni avanzate.
 

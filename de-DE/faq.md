@@ -159,7 +159,7 @@ Liberation hat ein intelligentes „Tap Tempo“-System, das so funktioniert, wi
 
 #### Welche Einstellungen muss ich anpassen, um die beste Ausgabe vom Laser zu erhalten?
 
-Die wichtigste Einstellung ist _Colour Shift_. Sie kompensiert die leichte Verzögerung zwischen der Bewegung der Spiegel und der Helligkeitsänderung der Laser. Wenn deine Laserpunkte/-strahlen kleine „Schweife“ haben, musst du diese Einstellung anpassen. (Ein Beispiel für „Schweife“ findest du auf der Seite [Laser-Ausgabe-Einstellungen](setting-up/laser-settings.md "mention") in den Fotos.)
+Die wichtigste Einstellung ist _Scanner Sync_. Sie kompensiert die leichte Verzögerung zwischen der Bewegung der Spiegel und der Helligkeitsänderung der Laser. Wenn deine Laserpunkte/-strahlen kleine „Schweife“ haben, musst du diese Einstellung anpassen. (Ein Beispiel für „Schweife“ findest du auf der Seite [Laser-Ausgabe-Einstellungen](setting-up/laser-settings.md "mention") in den Fotos.)
 
 Du kannst auch versuchen, die Scannergeschwindigkeit zu ändern: langsamer, wenn deine Scanner einfach sind, oder schneller, wenn sie hochwertig sind. Aber **verwende diese Einstellung mit Vorsicht, da du deine Scanner beschädigen kannst, wenn du sie zu stark belastest.**
 
