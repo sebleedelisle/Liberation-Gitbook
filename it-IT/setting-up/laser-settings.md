@@ -59,7 +59,7 @@ Anche se le impostazioni predefinite sono piuttosto conservative, puoi comunque 
 Questa impostazione di velocità non modifica il point rate: regola invece quanto sono distanziati quei punti. Per maggiori informazioni, vedi [◼️ Come Liberation genera contenuti laser](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Il fascio cambia colore e si accende e spegne mentre gli scanner lo muovono, e di solito queste due cose non sono perfettamente sincronizzate tra loro. Regola questa impostazione per riallinearle.
 
@@ -67,7 +67,7 @@ Il fascio cambia colore e si accende e spegne mentre gli scanner lo muovono, e d
 Questa regolazione viene a volte chiamata _blank shift_, ma personalmente preferisco il termine _scanner sync_: è un po' più preciso, perché regola il timing di tutti i cambi di colore rispetto al movimento degli scanner.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>"Code" laser - Colour shift non impostato correttamente</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Niente "code" laser! Colour shift corretto!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>"Code" laser - Scanner Sync non impostato correttamente</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Niente "code" laser! Scanner Sync corretto!</p></figcaption></figure></div>
 
 Se vedi piccole "code" nell'output del laser, probabilmente lo scanner sync deve essere regolato. Se le code compaiono comunque, con qualunque impostazione, probabilmente stai spingendo gli scanner/driver laser oltre le loro capacità. Prova a ridurre la velocità degli scanner.
 

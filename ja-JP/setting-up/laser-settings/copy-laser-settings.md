@@ -15,7 +15,7 @@ _Laser Output_ の _COPY LASER SETTINGS_ ボタンをクリックすると、新
 コピーする設定を選択します:&#x20;
 
 * **Copy output zone positions&#x20;**_**-**_ 1 台のレーザーから他のレーザーへ、ゾーンの位置 / サイズ / タイプをコピーします。ゾーンは順番にコピーされるため、laser 1 の zones 1 と 9 は、laser 2 の zones 2 と 10 にコピーされます。Alt zones もコピーされます。&#x20;
-* **Copy scanner / speed settings** - スキャナー速度とスキャナープリセットをコピーしますが、_Colour shift_ はコピーしません。
+* **Copy scanner / speed settings** - スキャナー速度とスキャナープリセットをコピーしますが、_Scanner Sync_ はコピーしません。
 * **Copy colour settings -** すべてのカラーキャリブレーション設定をコピーします。
 * **Copy advanced settings -** point rate、smooth home position、target frame rate、およびその他すべての advanced settings を含みます。&#x20;
 

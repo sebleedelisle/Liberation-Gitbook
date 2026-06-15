@@ -59,7 +59,7 @@ Auch wenn die Standardeinstellungen recht konservativ sind, kannst du deine Scan
 Diese Speed-Einstellung ändert nicht die Punktfrequenz, sondern passt an, wie weit diese Punkte auseinanderliegen. Weitere Informationen findest du unter [◼️ Wie Liberation Laserinhalte erzeugt](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Der Strahl ändert die Farbe und wird ein- und ausgeschaltet, während die Scanner ihn bewegen. Diese beiden Dinge sind normalerweise nicht perfekt synchron. Passe diese Einstellung an, um sie wieder aufeinander abzustimmen.
 
@@ -67,7 +67,7 @@ Der Strahl ändert die Farbe und wird ein- und ausgeschaltet, während die Scann
 Das wird manchmal als _blank shift_ bezeichnet, aber ich persönlich bevorzuge den Begriff _scanner sync_ – er ist etwas genauer, weil damit das Timing aller Farbwechsel im Verhältnis zur Scannerbewegung angepasst wird.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-„tails“ – Colour shift nicht richtig eingestellt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Keine Laser-„tails“! Colour shift passt!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-„tails“ – Scanner Sync nicht richtig eingestellt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Keine Laser-„tails“! Scanner Sync passt!</p></figcaption></figure></div>
 
 Wenn du kleine „tails“ in deiner Laserausgabe siehst, muss wahrscheinlich die Scanner sync angepasst werden. Wenn die Tails unabhängig von der Einstellung weiterhin erscheinen, steuerst du deine Scanner/Lasertreiber vermutlich schneller an, als sie verarbeiten können. Versuche, die Scanner-Geschwindigkeit zu verringern.
 

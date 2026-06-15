@@ -53,7 +53,7 @@ Speed 設定決定 scanners 的移動速度。
 此 Speed 設定不會改變 point rate，而是調整這些點的分佈疏密。詳情請參閱 [◼️ Liberation 如何產生激光內容](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync（Colour shift / blank shift）**
+#### **Scanner sync（blank shift）**
 
 光束在 scanners 移動期間會改變顏色並開關，而這兩件事通常不會完全同步。調整此設定可令它們重新對齊。
 
@@ -61,7 +61,7 @@ Speed 設定決定 scanners 的移動速度。
 這有時稱為 _blank shift_，但我個人較喜歡 _scanner sync_ 這個說法——它更準確一點，因為此設定調整的是所有顏色變化相對於 scanner movement 的時間。
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>激光「尾巴」- Colour shift 未正確設定</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>沒有激光「尾巴」！Colour shift 設定良好！</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>激光「尾巴」- Scanner Sync 未正確設定</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>沒有激光「尾巴」！Scanner Sync 設定良好！</p></figcaption></figure></div>
 
 如果你在激光輸出上看到小小的「尾巴」，很可能是 scanner sync 需要調整。如果無論如何調整仍然出現尾巴，通常表示你推動 scanners／laser drivers 的速度超出它們可處理的範圍。請嘗試降低 scanner speed。
 

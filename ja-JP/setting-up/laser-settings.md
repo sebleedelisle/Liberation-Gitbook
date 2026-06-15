@@ -59,7 +59,7 @@ Speed 設定は、スキャナーがどれだけ速く動くかを決定しま�
 この Speed 設定はポイントレートを変更するものではなく、ポイント同士の間隔を調整します。詳しくは [◼️ Liberation がレーザーコンテンツを生成する仕組み](../advanced/how-liberation-generates-laser-content.md "mention") を参照してください。
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 スキャナーがビームを動かしている間、ビームは色を変えたりオン/オフしたりしますが、この 2 つは通常、完全には同期していません。この設定を調整して、タイミングを合わせます。
 
@@ -67,7 +67,7 @@ Speed 設定は、スキャナーがどれだけ速く動くかを決定しま�
 これは _blank shift_ と呼ばれることもありますが、個人的には _scanner sync_ という表現の方が少し正確だと考えています。スキャナーの動きに対する、すべての色変化のタイミングを調整するためです。
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>レーザーの「テール」 - Colour shift が正しく設定されていない状態</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>レーザーの「テール」がない状態。Colour shift は良好です。</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>レーザーの「テール」 - Scanner Sync が正しく設定されていない状態</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>レーザーの「テール」がない状態。Scanner Sync は良好です。</p></figcaption></figure></div>
 
 レーザー出力に小さな「テール」が見える場合は、scanner sync の調整が必要な可能性があります。どのように調整してもテールが消えない場合は、スキャナーまたはレーザードライバーの処理能力を超える速さで動かしている可能性があります。Scanner speed を下げてみてください。
 

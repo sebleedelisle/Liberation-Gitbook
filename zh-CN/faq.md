@@ -159,7 +159,7 @@ Liberation 也支持 APC Mini 和 MIDI Fighter Twister。APC40 Mk2 仍然是功�
 
 #### 为了获得最佳激光输出，需要调整哪些设置？
 
-主要设置是 _Colour Shift_，用于补偿反光镜移动与激光亮度变化之间的轻微延迟。如果激光点/光束出现小 “tails”，就需要调整此项。（示例可见 [激光输出设置面板](setting-up/laser-settings.md "mention") 页面中的照片）
+主要设置是 _Scanner Sync_，用于补偿反光镜移动与激光亮度变化之间的轻微延迟。如果激光点/光束出现小 “tails”，就需要调整此项。（“tails” 的示例可见 [Laser Settings](setting-up/laser-settings.md "mention") 页面中的照片）
 
 你也可以尝试调整扫描器速度：扫描器较基础时可降低，较好时可提高。但 **请谨慎使用，因为过度驱动可能损坏扫描器。**
 
