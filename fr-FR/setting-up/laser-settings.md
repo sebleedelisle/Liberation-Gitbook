@@ -59,7 +59,7 @@ Même si les paramètres par défaut sont assez prudents, vous pouvez tout de m�
 Ce paramètre de vitesse ne change pas le taux de points ; il ajuste plutôt l’espacement de ces points. Pour plus d’informations, consultez [◼️ Comment Liberation génère du contenu laser](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Le faisceau change de couleur et s’allume ou s’éteint pendant que les scanners le déplacent, et ces deux actions ne sont généralement pas parfaitement synchronisées. Ajustez ce paramètre pour les réaligner.
 
@@ -67,7 +67,7 @@ Le faisceau change de couleur et s’allume ou s’éteint pendant que les scann
 On appelle parfois cela _blank shift_, mais je préfère personnellement le terme _scanner sync_ : il est un peu plus précis, car il ajuste le timing de tous les changements de couleur par rapport au mouvement des scanners.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>« Tails » laser - Colour shift mal réglé</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Pas de « tails » laser ! Colour shift correct !</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>« Tails » laser - Scanner Sync mal réglé</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Pas de « tails » laser ! Scanner Sync correct !</p></figcaption></figure></div>
 
 Si vous voyez de petites « tails » sur la sortie de votre laser, il est probable que le paramètre Scanner sync doive être ajusté. Si ces tails apparaissent toujours quoi qu’il arrive, vous pilotez probablement vos scanners ou pilotes laser plus vite qu’ils ne peuvent le supporter. Essayez de réduire la vitesse des scanners.
 

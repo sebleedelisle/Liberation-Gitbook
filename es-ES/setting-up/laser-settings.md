@@ -59,7 +59,7 @@ Aunque los ajustes predeterminados son bastante conservadores, puedes dañar los
 Este ajuste de velocidad no cambia la tasa de puntos; en su lugar, ajusta cuánto se separan esos puntos entre sí. Para más información, consulta [◼️ Cómo genera Liberation contenido láser](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 El haz cambia de color y se enciende y apaga mientras los scanners lo desplazan, y estas dos cosas no suelen estar perfectamente sincronizadas entre sí. Ajusta este parámetro para volver a alinearlas.
 
@@ -67,7 +67,7 @@ El haz cambia de color y se enciende y apaga mientras los scanners lo desplazan,
 A veces se conoce como _blank shift_, pero personalmente prefiero el término _scanner sync_: es un poco más preciso, ya que ajusta la temporización de todos los cambios de color respecto al movimiento de los scanners.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>«Colas» de láser: Colour shift no está ajustado correctamente</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>¡Sin «colas» de láser! ¡Colour shift correcto!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>«Colas» de láser: Scanner Sync no está ajustado correctamente</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>¡Sin «colas» de láser! ¡Scanner Sync correcto!</p></figcaption></figure></div>
 
 Si ves pequeñas «colas» en la salida del láser, probablemente sea porque Scanner sync necesita ajuste. Si las colas siguen apareciendo hagas lo que hagas, es probable que estés haciendo trabajar los scanners o los controladores del láser más rápido de lo que pueden soportar. Prueba a reducir la velocidad de los scanners.
 

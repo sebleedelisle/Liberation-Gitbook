@@ -37,4 +37,4 @@ Esta guía te ayudará a familiarizarte con Liberation: desde la instalación y 
 * Los enlaces corresponden a la versión actual; las capturas de pantalla y los menús pueden variar ligeramente si usas una compilación anterior.
 * Los pasos de hardware señalan los valores predeterminados más seguros: nunca puentees los enclavamientos y mantén los haces alejados de las personas.
 
-Si te bloqueas, consulta las [**FAQ**](faq.md) y, después, la sección [**Resolución de problemas**](troubleshooting/) para encontrar soluciones específicas antes de contactar con soporte.
+Si te bloqueas, consulta las [**Preguntas frecuentes**](faq.md) y, después, la sección [**Resolución de problemas**](troubleshooting/) para encontrar soluciones específicas antes de contactar con soporte.

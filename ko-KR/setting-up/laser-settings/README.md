@@ -53,7 +53,7 @@ Speed 설정은 스캐너가 얼마나 빠르게 움직이는지 결정합니다
 이 Speed 설정은 point rate를 변경하지 않습니다. 대신 포인트 사이의 간격을 조정합니다. 자세한 내용은 [◼️ Liberation이 레이저 콘텐츠를 생성하는 방식](../../advanced/how-liberation-generates-laser-content.md "mention")를 참고하세요.
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 스캐너가 빔을 움직이는 동안 빔의 색상이 바뀌고 켜지거나 꺼집니다. 이 두 동작은 보통 서로 완벽하게 동기화되어 있지 않습니다. 이 설정을 조정해 타이밍을 맞출 수 있습니다.
 
@@ -61,7 +61,7 @@ Speed 설정은 스캐너가 얼마나 빠르게 움직이는지 결정합니다
 이 설정은 _blank shift_라고도 불리지만, 개인적으로는 _scanner sync_라는 용어가 조금 더 정확하다고 생각합니다. 스캐너 움직임에 대한 모든 색상 변경의 타이밍을 조정하기 때문입니다.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>레이저 "꼬리" - Colour shift가 올바르게 설정되지 않음</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>레이저 "꼬리" 없음! Colour shift 양호!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>레이저 "꼬리" - Scanner Sync가 올바르게 설정되지 않음</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>레이저 "꼬리" 없음! Scanner Sync 양호!</p></figcaption></figure></div>
 
 레이저 출력에 작은 "꼬리"가 보인다면 scanner sync 조정이 필요할 가능성이 높습니다. 무엇을 조정해도 꼬리가 계속 보인다면 스캐너/레이저 드라이버가 처리할 수 있는 것보다 빠르게 구동하고 있을 가능성이 큽니다. scanner speed를 낮춰 보세요.
 

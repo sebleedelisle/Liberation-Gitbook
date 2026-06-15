@@ -37,4 +37,4 @@ Este guia vai ajudar você a se familiarizar com o Liberation — desde a instal
 * Os links correspondem à versão atual; capturas de tela e menus podem ser um pouco diferentes se você estiver usando uma build mais antiga.
 * As etapas de hardware destacam padrões que priorizam a segurança: nunca ignore intertravamentos e mantenha os feixes longe das pessoas.
 
-Se você ficar travado, consulte a [**FAQ**](faq.md) e depois a seção [**Solução de problemas**](troubleshooting/) para correções direcionadas antes de entrar em contato com o suporte.
+Se você ficar travado, consulte a [**Perguntas frequentes**](faq.md) e depois a seção [**Solução de problemas**](troubleshooting/) para correções direcionadas antes de entrar em contato com o suporte.

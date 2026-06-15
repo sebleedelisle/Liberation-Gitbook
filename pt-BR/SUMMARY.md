@@ -10,7 +10,7 @@
   * [✅ Faça upgrade / downgrade da sua licença](installation/upgrade-downgrade-your-license.md)
 * [✅ Pausar ou cancelar pagamentos](installation/cancel-your-subscription.md)
   * [🟩 Transferir seu conteúdo ao atualizar para uma nova versão](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
-* [✅ FAQ](faq.md)
+* [✅ Perguntas frequentes](faq.md)
 * [✅ Guia de início rápido](getting-started.md)
 * [✅ Hardware](hardware/README.md)
   * [✅ Lasers e controladores compatíveis (DACs)](hardware/compatible-lasers-and-controllers-dacs.md)

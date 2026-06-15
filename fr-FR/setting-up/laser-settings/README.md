@@ -53,7 +53,7 @@ Même si les réglages par défaut sont assez prudents, vous pouvez tout de mêm
 Ce réglage de vitesse ne change pas le débit de points ; il ajuste plutôt l’espacement entre ces points. Pour plus d’informations, consultez [◼️ Comment Liberation génère du contenu laser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Le faisceau change de couleur et s’allume ou s’éteint pendant que les scanners le déplacent, et ces deux éléments ne sont généralement pas parfaitement synchronisés. Ajustez ce réglage pour les réaligner.
 
@@ -61,7 +61,7 @@ Le faisceau change de couleur et s’allume ou s’éteint pendant que les scann
 Ce réglage est parfois appelé _blank shift_, mais je préfère personnellement le terme _scanner sync_ : il est un peu plus précis, car il ajuste le timing de tous les changements de couleur par rapport au mouvement des scanners.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>« Queues » laser : Colour shift mal réglé</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Aucune « queue » laser ! Colour shift correct !</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>« Queues » laser : Scanner Sync mal réglé</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Aucune « queue » laser ! Scanner Sync correct !</p></figcaption></figure></div>
 
 Si vous voyez de petites « queues » sur la sortie de votre laser, c’est probablement que la synchronisation des scanners doit être ajustée. Si les queues apparaissent toujours quoi que vous fassiez, vous pilotez probablement vos scanners ou vos drivers laser plus vite qu’ils ne peuvent le supporter. Essayez de réduire la vitesse des scanners.
 

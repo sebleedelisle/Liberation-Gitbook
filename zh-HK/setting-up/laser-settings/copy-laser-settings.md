@@ -15,7 +15,7 @@
 選擇你想複製哪些設定：&#x20;
 
 * **Copy output zone positions&#x20;**_**-**_ 將一部激光的 zone 位置／大小／類型複製到其他激光。請注意，系統會按次序複製 zone，因此激光 1 的 zone 1 和 9 會複製到激光 2 的 zone 2 和 10。Alt zones 也會一併複製。&#x20;
-* **Copy scanner / speed settings** - 複製 scanner speed 和 scanner preset，但_不會_複製 _Colour shift_。
+* **Copy scanner / speed settings** - 複製 scanner speed 和 scanner preset，但_不會_複製 _Scanner Sync_。
 * **Copy colour settings -** 複製所有色彩校準設定
 * **Copy advanced settings -** 包括 point rate、smooth home position、target frame rate 及所有其他進階設定。&#x20;
 

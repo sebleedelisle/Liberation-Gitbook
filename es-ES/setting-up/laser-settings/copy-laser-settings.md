@@ -15,7 +15,7 @@ Activa todos los demás láseres _a los que_ quieras copiar los ajustes. (Usa _A
 Selecciona los ajustes que quieres copiar:&#x20;
 
 * **Copy output zone positions&#x20;**_**-**_ copia la posición, el tamaño y el tipo de las zonas de un láser a los demás. Ten en cuenta que copia las zonas en orden, por lo que las zonas 1 y 9 del láser 1 se copiarán en las zonas 2 y 10 del láser 2. Las zonas Alt también se copiarán.&#x20;
-* **Copy scanner / speed settings** - copia la velocidad del scanner y el preset del scanner, pero _no_ _Colour shift._
+* **Copy scanner / speed settings** - copia la velocidad del scanner y el preset del scanner, pero _no_ _Scanner Sync._
 * **Copy colour settings -** copia todos los ajustes de calibración de color
 * **Copy advanced settings -** incluye point rate, smooth home position, target frame rate y todos los demás ajustes avanzados.&#x20;
 
