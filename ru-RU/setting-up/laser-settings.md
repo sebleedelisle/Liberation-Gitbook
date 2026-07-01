@@ -59,7 +59,7 @@ metaLinks:
 Этот параметр скорости не меняет частоту точек. Вместо этого он регулирует, насколько далеко точки разнесены друг от друга. Подробнее см. [◼️ Как Liberation создаёт лазерный контент](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Во время движения сканеров луч меняет цвет, включается и выключается, и эти процессы обычно не идеально синхронизированы друг с другом. Настройте этот параметр, чтобы снова выровнять их по времени.
 
@@ -67,7 +67,7 @@ metaLinks:
 Иногда это называют _blank shift_, но лично я предпочитаю термин _scanner sync_ — он немного точнее, потому что параметр регулирует тайминг всех изменений цвета относительно движения сканера.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>«Хвосты» лазера — Colour shift настроен неправильно</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>«Хвостов» нет! Colour shift настроен хорошо!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>«Хвосты» лазера — Scanner Sync настроен неправильно</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>«Хвостов» нет! Scanner Sync настроен хорошо!</p></figcaption></figure></div>
 
 Если на лазерном выводе видны небольшие «хвосты», скорее всего, нужно настроить синхронизацию сканера. Если «хвосты» остаются при любых настройках, вероятно, вы заставляете сканеры или драйверы лазера работать быстрее, чем они способны. Попробуйте уменьшить скорость сканера.
 

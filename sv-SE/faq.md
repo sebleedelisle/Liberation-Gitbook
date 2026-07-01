@@ -159,7 +159,7 @@ Det har ett intelligent "tap tempo"-system som fungerar som du förväntar dig, 
 
 #### Vilka inställningar behöver jag justera för att få bästa output från lasern?
 
-Den viktigaste inställningen är _Colour Shift_, som kompenserar för den lilla fördröjningen mellan att speglarna rör sig och att lasrarna ändrar ljusstyrka. Om dina laserpunkter/-strålar har små "svansar" behöver du justera detta. (Se bilderna på sidan [Panelen Laser output settings](setting-up/laser-settings.md "mention") för ett exempel på "svansar")
+Den viktigaste inställningen är _Scanner Sync_, som kompenserar för den lilla fördröjningen mellan att speglarna rör sig och att lasrarna ändrar ljusstyrka. Om dina laserpunkter/-strålar har små "svansar" behöver du justera detta. (Se bilderna på sidan [Panelen Laser output settings](setting-up/laser-settings.md "mention") för ett exempel på "svansar")
 
 Du kan också prova att ändra scannerhastigheten: långsammare om dina scanners är enklare, eller snabbare om de är bra. Men **var försiktig, eftersom du kan skada dina scanners om du driver dem för hårt.**
 

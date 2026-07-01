@@ -10,140 +10,144 @@ metaLinks:
 
 #### **Keyrir Liberation á Windows?**
 
-Já - Liberation styður **Windows 10 og 11 (64-bit)** að fullu, með nákvæmlega sömu eiginleikum og Mac-útgáfan. Allar útgáfur koma út samtímis fyrir bæði kerfin.
+Já - Liberation styður **Windows 10 og 11 (64-bit)** að fullu, með nákvæmlega sömu eiginleikum og Mac-útgáfan. Hver útgáfa kemur út samtímis fyrir báða kerfin.
 
 #### **Keyrir Liberation á Mac?**
 
-Já - Liberation styður **Mac (macOS 12 Monterey og nýrra)** að fullu, með sömu eiginleikum og Windows-útgáfan. Allar uppfærslur koma út á sama tíma.
+Já - Liberation styður **Mac (macOS 12 Monterey og nýrra)** að fullu, með sömu eiginleikum og Windows-útgáfan. Allar uppfærslur eru gefnar út samtímis.
 
-#### **Hvaða lágmarksvélbúnað þarf?**
+#### **Hverjar eru lágmarkskröfur fyrir tölvu?**
 
-Það fer eftir því hversu mörgum laserum þú vilt stýra. Ef þú ert aðeins að nota nokkra lasera dugar einföld tölva vel. Allir Apple Silicon Mac keyra mjög vel og ættu að geta stýrt allt að 100 laserum. Ef þú ert að keyra flóknar sýningar þar sem mikið er í húfi mælum við með bestu tölvunni sem þú hefur ráð á.
+Það fer eftir því hversu mörgum leysum þú vilt stjórna. Ef þú ert aðeins með nokkra leysa dugar tölva með hóflegri afkastagetu vel. Allar Apple Silicon Mac-tölvur keyra Liberation mjög vel og ættu að geta stjórnað allt að 100 leysum. Ef þú ert að keyra flóknar sýningar þar sem mikið er í húfi mælum við með bestu tölvu sem þú hefur tök á að nota.
 
-#### **Hversu mörgum laserum get ég stýrt með Liberation?**
+#### **Hversu mörgum leysum get ég stjórnað með Liberation?**
 
-Liberation getur keyrt marga lasera á einni tölvu. Það hefur verið prófað með yfir 100 laser controllers, þannig að svarið fer eftir:
+Liberation getur keyrt marga leysa á einni tölvu. Það hefur verið prófað með yfir 100 leysistýringum, þannig að svarið fer eftir:
 
 * örgjörva tölvunnar
 * nethraða
-* áskriftarþrepinu þínu
+* leyfisþrepinu þínu
 
-#### **Hvaða MIDI controllers get ég notað?**
+#### **Hvaða MIDI stýringar get ég notað?**
 
-Liberation hefur verið hannað og fínstillt fyrir hinn vinsæla APC40 Mk2 MIDI controller. Það virkar einnig með APC40 Mk1. Sjá [Stýring í rauntíma með APC40](midi-control/live-control-with-the-apc40.md "mention")
+Liberation hefur verið hannað og fínstillt með vinsælu APC40 Mk2 MIDI stýringuna í huga. Það virkar einnig með APC40 Mk1. Sjá [Live MIDI stýringar](midi-control/live-control-with-the-apc40.md "mention")
 
-Liberation styður einnig APC Mini og MIDI Fighter Twister. APC40 Mk2 er enn fullkomnasti viðmiðunar-controllerinn.
+Liberation styður einnig APC Mini og MIDI Fighter Twister. APC40 Mk2 er þó enn fullkomnasta viðmiðunarstýringin.
 
-Það er líka MIDI Send/Receive-kerfið sem býður upp á viðbótarstýringu með MIDI. Sjá [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
+Það er líka MIDI Send/Receive-kerfið, sem býður upp á viðbótar MIDI-stýringu. Sjá [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
 
 Sjá [MIDI-stýring](midi-control/ "mention") fyrir frekari upplýsingar.
 
-#### **Get ég notað hvaða MIDI controller sem er?**
+#### **Get ég notað hvaða MIDI stýringu sem er?**
 
-Fyrir aðra controllers skaltu nota MIDI Send/Receive-kerfið eða MIDI-þýði sem getur sent sjálfgefnu MIDI-skilaboðin frá Liberation. Leitaðu á [spjallsvæðinu](https://forum.liberationlaser.com) eftir ráðum um þessa uppsetningu, en í raun er APC40 Mk2 enn besti kosturinn fyrir flestar live-sýningar.
+Fyrir aðrar stýringar skaltu nota MIDI Send/Receive-kerfið eða MIDI-þýðara sem getur sent sjálfgefin MIDI-skilaboð Liberation. Leitaðu ráða um þessa uppsetningu á [spjallborðinu](https://forum.liberationlaser.com), en í raun er APC40 Mk2 enn besti kosturinn fyrir flestar lifandi sýningar.
 
-## Laser controllers
+## Leysistýringar
 
-#### **Hvaða laser controllers eru samhæfðir Liberation?**
+#### **Hvaða leysistýringar eru samhæfar Liberation?**
 
 * [Ether Dream (mælt með)](https://ether-dream.com)
 * [Helios DAC](https://bitlasers.com/helios-laser-dac/)
-* [Mercury by X-Laser](https://x-laser.com/pages/mercury-laser-control-system) (þú gætir þurft að uppfæra fastbúnaðinn)
+* [Mercury frá X-Laser](https://x-laser.com/pages/mercury-laser-control-system) (þú gætir þurft að uppfæra fastbúnaðinn)
 * LaserCube USB (og LaserDock)
-* Netsamskiptareglur LaserCube (með snúrutengingu)
-* AVB eins og notað er af [LASollinger lasers](https://laseranimation.com/en/) (nú aðeins í prófun á macOS)
+* LaserCube netsamskiptareglur (með vírtengdri tengingu)
+* AVB eins og notað er í [LASollinger leysum](https://laseranimation.com/en/) (sem stendur aðeins macOS í prófun)
 
-Sjá [Samhæfðir laserar og laser controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md "mention") fyrir frekari upplýsingar
+Sjá [Samhæfir leysar og stýringar (DAC)](hardware/compatible-lasers-and-controllers-dacs.md "mention") fyrir frekari upplýsingar
 
-#### **Af hverju styðjið þið ekki laser controller frá \[öðru vörumerki]?**
+#### **Af hverju styðjið þið ekki leysistýringu frá \[öðru vörumerki]?**
 
-Til að hvetja til betri samvirkni milli hugbúnaðar og vélbúnaðar styður Liberation aðeins DACs sem hafa birt samskiptasamskeyti. Ég tel að þetta sé besta leiðin áfram fyrir laseriðnaðinn.
+Til að hvetja til meiri samvirkni milli hugbúnaðar og vélbúnaðar mun Liberation aðeins styðja DAC-búnað með opinberlega birtum samskiptareglum. Ég tel að þetta sé besta leiðin áfram fyrir leysigeirann.
 
-#### **Hvernig veit ég hvort hægt sé að nota laserinn minn með Liberation?**
+#### **Hvernig veit ég hvort hægt sé að nota leysinn minn með Liberation?**
 
-Ef laserinn þinn hefur eitt af eftirfarandi geturðu notað hann með Liberation:
+Ef leysirinn þinn er með eitthvað af eftirfarandi geturðu notað hann með Liberation:
 
-* Ytra **ILDA-inntak** – 25 pinna D-tengi, notað með samhæfri ytri stýringu.
-* Innbyggt **Ether Dream**.
-* Hvaða **LaserCube** sem er (virkar bæði með USB og Wi-Fi LaserCube).
-* **X-Laser-einingu með innbyggðu Mercury-kerfi** (í Ether Dream mode).
-* **LaserAnimation Sollinger projector með innbyggðu AVB** (aðeins macOS, krefst netbúnaðar sem styður AVB, nú í prófun).
+* Ytri **ILDA-inntak** – 25-pin D-tengi, notað með samhæfri ytri stýringu.
+* Innbyggðan **Ether Dream**.
+* Einhvern **LaserCube** (virkar bæði með USB og Wi-Fi LaserCube).
+* **X-Laser einingu með innbyggðu Mercury-kerfi** (í Ether Dream mode).
+* **LaserAnimation Sollinger skjávarpa með innbyggðu AVB** (aðeins macOS, krefst AVB-samhæfra nettækja, sem stendur í prófun).
 
-Sjá [Samhæfðir laserar og laser controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md "mention") fyrir frekari upplýsingar
+Sjá [Samhæfir leysar og stýringar (DAC)](hardware/compatible-lasers-and-controllers-dacs.md "mention") fyrir frekari upplýsingar
 
-#### **Get ég notað Liberation með LaserCube?**
+#### **Get ég notað Liberation með LaserCube mínum?**
 
-Já, Liberation virkar beint með hvaða LaserCube sem er. Sjá [LaserCube](hardware/lasercube.md "mention")
+Já, Liberation virkar beint með öllum LaserCube. Sjá [LaserCube](hardware/lasercube.md "mention")
 
 ## Leyfi
 
 #### **Hvað kostar leyfi?**
 
-Sjá [verslunarsíðuna](https://liberationlaser.com/shop) fyrir núverandi verð.
+Sjáðu núverandi verð á [verslunarsíðunni](https://liberationlaser.com/shop).
 
 #### **Hvaða takmarkanir eru milli leyfisþrepa?**
 
-Sjá [verslunarsíðuna](https://liberationlaser.com/shop) fyrir núverandi leyfiskosti.
+Sjáðu núverandi leyfisvalkosti á [verslunarsíðunni](https://liberationlaser.com/shop).
 
-Athugaðu að þú getur sett upp, forskoðað og hannað sýningar með eins mörgum laserum og þú vilt á **öllum** þrepum, jafnvel ókeypis þrepinu. Engar aðrar takmarkanir eru til staðar nema fjöldi lasera sem geta verið _armed_. Allir aðrir eiginleikar Liberation eru í boði fyrir alla.
+Athugaðu að þú getur sett upp, forskoðað og hannað sýningar með eins mörgum leysum og þú vilt á **öllum** þrepum, jafnvel ókeypis þrepinu. Það eru engar aðrar takmarkanir en fjöldi leysa sem þú getur virkjað fyrir úttak. Allir aðrir eiginleikar Liberation eru í boði fyrir alla.
 
-#### **Get ég uppfært í nýtt þrep?**
+#### **Get ég uppfært í annað þrep?**
 
-Þú getur uppfært í hærra þrep hvenær sem er. Þú færð hluta endurgreiddan fyrir þann tíma sem eftir er af núverandi leyfi og nýja áskriftin þín hefst strax. Sjá [Hækka eða lækka leyfisþrep](installation/upgrade-downgrade-your-license.md "mention")
+Þú getur uppfært í hærra þrep hvenær sem er. Þú færð hlutfallslega endurgreiðslu fyrir þann tíma sem eftir er af núverandi greidda tímabili og nýja leyfisþrepið tekur gildi strax. Sjá [Uppfæra / lækka leyfið þitt](installation/upgrade-downgrade-your-license.md "mention")
 
-#### **Get ég lækkað leyfisþrepið mitt?**
+#### **Get ég lækkað leyfið mitt?**
 
-Þú getur lækkað þrepið hvenær sem er, en breytingin tekur gildi í lok núverandi leyfistímabils. Sjá [Hækka eða lækka leyfisþrep](installation/upgrade-downgrade-your-license.md "mention")
+Þú getur lækkað leyfið hvenær sem er, en breytingin tekur gildi í lok núverandi greidda tímabils. Sjá [Uppfæra / lækka leyfið þitt](installation/upgrade-downgrade-your-license.md "mention")
 
-#### **Hvernig heimila ég tölvuna mína með leyfinu mínu?**
+#### **Get ég gert hlé á greiðslum fyrir leyfið mitt?**
 
-Þegar þú hefur keypt leyfi geturðu heimilað tölvuna innan Liberation-hugbúnaðarins sjálfs. Þú sérð _Authorise_ hnapp á _About_ skjánum sem biður þig um að skrá þig inn á vefsíðuna. Fylgdu leiðbeiningunum á skjánum til að ljúka heimildarferlinu. Sjá [Heimild veitt og fjarlægð](installation/authorising-and-de-authorising.md "mention")
+Já. Hægt er að gera hlé á leyfinu við næsta áskriftardag og ræsa það aftur hvenær sem er. Þetta er gagnlegt ef þú notar hugbúnaðinn í lotum og þarft ekki að slá kortaupplýsingarnar inn aftur. Sjá [Gera hlé á eða hætta við greiðslur](installation/cancel-your-subscription.md "mention")
+
+#### **Hvernig segi ég leyfinu mínu upp til frambúðar?**
+
+Þú getur sagt endurteknu leyfi upp hvenær sem er og það verður sjálfkrafa óvirkt í lok núverandi greidda tímabils. Sjá [Gera hlé á eða hætta við greiðslur](installation/cancel-your-subscription.md "mention")
+
+#### **Hvernig heimila ég tölvunni minni að nota leyfið?**
+
+Þegar þú hefur keypt leyfi geturðu heimilað tölvuna inni í Liberation hugbúnaðinum sjálfum. Þú sérð _Authorise_ hnapp á _About_ skjánum sem biður þig að skrá þig inn á vefsíðuna. Fylgdu leiðbeiningunum á skjánum til að ljúka heimildarferlinu. Sjá [Heimila og afturkalla heimild](installation/authorising-and-de-authorising.md "mention")
 
 #### **Hversu oft þarf ég að tengja tölvuna við internetið?**
 
-Í hvert sinn sem leyfið endurnýjast þarftu að tengja Liberation við internetið til að uppfæra innra leyfið. Ef þú ert með mánaðarlega endurtekna greiðslu þarftu að tengjast í hverjum mánuði.
+Í hvert sinn sem endurtekið greitt leyfi endurnýjast með góðum árangri þarftu að tengja Liberation við internetið til að uppfæra innra leyfið. Fyrir mánaðarlegt leyfi með sjálfvirkri endurnýjun þarftu því að tengjast í hverjum mánuði.
 
-#### **Hvað gerist ef ég get ekki tengt tölvuna við internetið eftir endurnýjun?**
+#### **Hvað gerist ef ég get ekki tengt tölvuna við internetið eftir næstu greiðslu?**
 
-Liberation veitir þér 7 daga frest eftir að leyfið endurnýjast til að tengjast internetinu og uppfæra innra leyfið. Eftir þann tíma fer Liberation aftur í _Free_ mode.
+Fyrir mánaðarleg endurtekin greidd leyfi veitir Liberation venjulega 7 daga frest eftir að greidda leyfið endurnýjast til að tengjast internetinu og uppfæra innra leyfið. Eftir þann tíma fer Liberation aftur í _Free_ mode.
 
-#### **Hvað gerist ef kreditkortið mitt rennur út?**
+#### **Hvað gerist ef greiðslukortið mitt rennur út?**
 
-Þú færð tölvupóst frá greiðsluþjónustunni okkar og þarft að uppfæra greiðsluupplýsingarnar þínar. Skráðu þig inn á vefsíðuna og notaðu _Update payment details_ hlekkinn á áskriftarsíðunni.
+Þú færð tilkynningu í tölvupósti frá greiðsluþjónustunni okkar og þarft að uppfæra kortaupplýsingarnar. Skráðu þig inn á vefsíðuna og notaðu _UPDATE CARD DETAILS_ á leyfissíðunni, eða _Update_ undir _Billing and payments_. Þú verður að gera þetta innan frestsins til að forðast að missa aðgang að greiddum eiginleikum.
 
-#### **Hvernig segi ég upp endurteknu leyfi?**
+#### **Á hversu margar tölvur get ég sett Liberation upp?**
 
-Skráðu þig inn á vefsíðuna, opnaðu _Your subscriptions_ síðuna, veldu áskriftina sem þú vilt segja upp og smelltu síðan á _Cancel Subscription_ hlekkinn. Þú getur haldið áfram að nota Liberation út leyfistímabilið.
+Þú getur sett Liberation upp á eins mörgum tölvum og þú vilt. Leyfisheimildir eru aðeins nauðsynlegar til að virkja laser / DMX output og leyfisþrepið þitt ákvarðar hversu margar tölvur geta haft heimild fyrir úttaki samtímis. Sjá [Hvernig leyfi virka](installation/how-licensing-works.md "mention")
 
-#### **Á hversu mörgum tölvum get ég sett Liberation upp?**
-
-Þú getur sett Liberation upp á eins mörgum tölvum og þú vilt. Leyfisheimildir eru aðeins nauðsynlegar til að virkja úttak fyrir laser / DMX, og leyfisþrepið þitt ræður því hversu margar tölvur geta verið heimilaðar fyrir úttak í einu. Sjá [Hvernig leyfakerfið virkar](installation/how-licensing-works.md "mention")
-
-#### **Hvernig flyt ég leyfið mitt úr einni tölvu í aðra?**
+#### **Hvernig flyt ég leyfið mitt frá einni tölvu yfir á aðra?**
 
 * Opnaðu Liberation á tölvunni sem þú vilt ekki nota lengur
-* Gakktu úr skugga um að þú sért tengd/ur internetinu og smelltu á _De-authorise this computer_ hnappinn á _About_ skjánum
+* Gakktu úr skugga um að þú sért tengdur við internetið og smelltu á _De-authorise this computer_ hnappinn á _About_ skjánum
 * Opnaðu nú Liberation á nýju tölvunni
 * Smelltu á _Authorise this computer_ hnappinn á _About_ skjánum.
 * Vefsíðan opnast; skráðu þig inn og fylgdu leiðbeiningunum á skjánum til að ljúka heimildinni
 
-Þú getur einnig fjarlægt heimild af tölvu í fjarska ef þú hefur ekki lengur aðgang að henni (með nokkrum takmörkunum). Sjá [Heimild veitt og fjarlægð](installation/authorising-and-de-authorising.md "mention")
+Þú getur líka afturkallað heimild tölvu fjartengt ef þú hefur ekki lengur aðgang að henni (með ákveðnum takmörkunum). Sjá [Heimila og afturkalla heimild](installation/authorising-and-de-authorising.md "mention")
 
-#### **Get ég fjarlægt heimild fyrir Liberation á tölvu sem hefur týnst eða verið stolið?**
+#### **Get ég afturkallað heimild Liberation á tölvu sem hefur týnst eða verið stolið?**
 
-Þú getur fjarlægt heimild tölvunnar í gegnum vefsíðuna. Ef Liberation-uppsetningin hefur ekki verið nettengd frá síðustu endurnýjun er hægt að gera þetta strax.
+Þú getur afturkallað heimild tölvunnar í gegnum vefsíðuna. Ef Liberation uppsetningin hefur ekki verið nettengd síðan leyfið var síðast endurnýjað er hægt að gera þetta strax.
 
-Ef ekki tekur fjarlæging heimildar gildi þegar áskriftin endurnýjast eða þegar tölvan tengist internetinu, hvort sem gerist fyrr. Ef þú þarft bráðlega að heimila nýja tölvu skaltu hafa samband við support.
+Annars tekur afturköllunin gildi næst þegar leyfið endurnýjast eða þegar tölvan tengist internetinu, hvort sem gerist fyrst. Ef þú þarft bráðlega að heimila nýja tölvu skaltu hafa samband við þjónustuver.
 
 ### Notkun Liberation
 
-#### Sjálfgefna uppsetningin er með 8 lasera - hvernig breyti ég þessu?
+#### Sjálfgefna uppsetningin er með 8 leysum - hvernig breyti ég þessu?
 
-Sjá [Verkefnið sett upp](setting-up/setting-up-your-project.md "mention") og [Laserum bætt við og þeir fjarlægðir](setting-up/adding-removing-lasers.md "mention")
+Sjá [Setja verkefnið upp](setting-up/setting-up-your-project.md "mention") og [Bæta við / fjarlægja leysa](setting-up/adding-removing-lasers.md "mention")
 
-#### Get ég afritað stillingar fyrir zone úr einum laser yfir í hina?
+#### Get ég afritað zone stillingar frá einum leysi yfir á hina?
 
-Já! Sjá [Afrita zones milli lasera](output-view/copy-zones-between-lasers.md "mention")
+Já! Sjá [Afrita zones milli leysa](output-view/copy-zones-between-lasers.md "mention")
 
 #### Get ég slegið inn tölu í stað þess að nota sleða?
 
@@ -151,42 +155,42 @@ Já. `Cmd / Ctrl`-smelltu á sleðann og þá geturðu slegið gildið inn með 
 
 #### **Hvernig samstilli ég Liberation við tónlist?**
 
-Það er með snjallt „tap tempo“ kerfi sem virkar eins og þú myndir búast við, en þú getur líka notað ytri MIDI clock eða Ableton Link. Sjá [Tempo-samstilling](tempo-synchronisation.md "mention"). Timeline er hægt að samstilla við innkomandi LTC/SMPTE timecode í gegnum hvaða hljóðviðmót sem er. Sjá [Tímakóði](timecode.md "mention").
+Það er með snjallt „tap tempo“-kerfi sem virkar eins og þú myndir búast við, en þú getur líka notað ytri MIDI clock eða Ableton Link. Sjá [Tempo / samstilling](tempo-synchronisation.md "mention"). Hægt er að samstilla tímalínuna við innkomandi LTC/SMPTE tímakóða í gegnum hvaða hljóðviðmót sem er. Sjá [Tímakóði](timecode.md "mention").
 
-#### Hvaða stillingar þarf ég að laga til að fá besta úttakið úr laser?
+#### Hvaða stillingar þarf ég að laga til að fá besta úttakið frá leysinum?
 
-Aðalstillingin er _Colour Shift,_ sem bætir upp örlitla töf milli þess að speglarnir hreyfast og þess að laserarnir breyta birtustigi. Ef punktar/geislar lasersins eru með litla „hala“ þarftu að stilla þetta. (Sjá myndirnar á síðunni [Laser Settings](setting-up/laser-settings.md "mention") fyrir dæmi um „hala“)
+Aðalstillingin er _Scanner Sync,_ sem bætir upp fyrir örlitla töf milli þess að speglarnir hreyfast og þess að leysarnir breyta birtustigi. Ef leysipunktarnir/geislarnir eru með litla „hala“ þarftu að stilla þetta. (Sjá myndirnar á síðunni [Stillingaspjald fyrir Laser Output](setting-up/laser-settings.md "mention") fyrir dæmi um „hala“)
 
-Þú getur líka prófað að breyta skannahraðanum, hægar ef skannarnir eru einfaldir, eða hraðar ef þeir eru góðir. En **farðu varlega, því þú getur skemmt skannana ef þú keyrir þá of harkalega.**
+Þú getur líka prófað að breyta skannahraðanum; hægar ef skannarnir eru einfaldir, eða hraðar ef þeir eru góðir. En **farðu varlega, því þú getur skemmt skannana ef þú keyrir þá of hart.**
 
-Það eru einnig nokkrar forstilltar skannastillingar. Sjálfgefni kosturinn er varfærinn og hentar flestum þörfum fyrir lasergeisla. En það eru aðrar forstillingar ef þú ert með betri skanna, og einnig forstillingar sem eru stilltar fyrir grafík.
+Það eru einnig nokkrar forstilltar skannastillingar. Sjálfgefni valkosturinn er varkár og hentar flestum þörfum fyrir leysigeisla. Aðrar forstillingar eru í boði ef þú ert með betri skanna, og sumar forstillingar eru fínstilltar fyrir grafík.
 
-Fyrir frekari upplýsingar, sjá [Laser Settings](setting-up/laser-settings.md "mention"), og fyrir upplýsingar um hvernig þú býrð til eigin forstillingar, sjá [Forstillingar skanna](advanced/scanner-presets.md "mention") (ítarefni, í vinnslu)
+Fyrir frekari upplýsingar sjá [Stillingaspjald fyrir Laser Output](setting-up/laser-settings.md "mention"), og fyrir upplýsingar um hvernig þú býrð til þínar eigin forstillingar sjá [◼️ Skannaforstillingar og render profiles](advanced/scanner-presets.md "mention") (ítarefni, í vinnslu)
 
-Þú getur einnig leiðrétt litajafnvægið með _Colour calibration_ stillingunum. Sjá [Litkvörðun](advanced/colour-calibration.md "mention") (ítarefni)
+Þú getur líka leiðrétt litajafnvægið með _Colour calibration_ stillingunum. Sjá [Litakvörðun](advanced/colour-calibration.md "mention") (ítarleg aðferð)
 
 #### Hvað gerir _Latency(ms)_ stillingin?
 
-Þetta er töf ramma, eða hámarkstími milli þess að rammi er búinn til og síðan sendur til lasers. Þú ættir ekki að þurfa að breyta þessu, en ef þú ert í vandræðum með netið geturðu prófað að hækka gildið. Sjá [stillingin Latency](setting-up/latency-setting.md "mention") fyrir nánari upplýsingar.
+Þetta er myndrammatöfin, eða hámarkstími milli þess að rammi er búinn til og síðan sendur til leysis. Þú ættir ekki að þurfa að breyta þessu, en ef þú lendir í netvandamálum geturðu prófað að hækka gildið. Sjá [Latency stilling](setting-up/latency-setting.md "mention") fyrir nánari upplýsingar.
 
 ### Clips
 
-#### Hvernig laga ég zones og stillingar fyrir Clip án þess að keyra það?
+#### Hvernig stilli ég zones og stillingar fyrir Clip án þess að keyra það?
 
-`Alt / Option`-smelltu til að gera það að _Clip sem er valið núna_ án þess að virkja það. Sjá einnig [Ræsa og stöðva Clips](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-smelltu til að gera það að _currently selected clip_ án þess að virkja það. Sjá einnig [Ræsa / stöðva Clips](clips/starting-stopping-clips.md "mention")
 
 #### Hvernig afrita ég Clips?
 
-Smelltu og dragðu á meðan þú heldur inni `Alt / Option` takkanum. Sjá einnig [Skipuleggja Clip Deck](clips/organising-your-clip-deck.md "mention")
+Smelltu og dragðu á meðan þú heldur `Alt / Option` lyklinum inni. Sjá einnig [Skipuleggja Clip Deck](clips/organising-your-clip-deck.md "mention")
 
 #### Hvernig eyði ég Clips?
 
-Smelltu og dragðu þau út af Clip Deck. Sjá einnig [Skipuleggja Clip Deck](clips/organising-your-clip-deck.md "mention")
+Smelltu á þau og dragðu þau út af Clip Deck. Sjá einnig [Skipuleggja Clip Deck](clips/organising-your-clip-deck.md "mention")
 
-#### Hvernig fjölvel ég, eyði, sameina Clip Decks o.s.frv.?
+#### Hvernig vel ég mörg atriði, eyði, sameina Clip Deck og svo framvegis?
 
 Sjá [Skipuleggja Clip Deck](clips/organising-your-clip-deck.md "mention")
 
-#### Hvað merkir litla hljóðnematáknið og hin táknin á Clip?
+#### Hvað merkja litla hljóðnematáknið og önnur tákn á Clip?
 
-Þau eru til staðar til að sýna að Clip tekur við hljóði eða MIDI inntaki, og punktarnir 3 sýna að það er töf á zone. Sjá [Hvað merkja litlu táknin á hnöppum fyrir Clip?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+Þau sýna að Clip notar hljóð- eða MIDI-inntak, og punktarnir þrír sýna að það er zone delay. Sjá [Hvað eru litlu táknin á Clip hnöppunum?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")

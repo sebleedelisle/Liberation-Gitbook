@@ -53,7 +53,7 @@ Vaikka oletusasetukset ovat melko varovaiset, voit silti vahingoittaa skannereit
 Tämä Speed-asetus ei muuta pisteiden määrää sekunnissa, vaan säätää sitä, kuinka laajalle pisteet jakautuvat. Lisätietoja on kohdassa [◼️ Miten Liberation luo lasersisältöä](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Säde vaihtaa väriä sekä kytkeytyy päälle ja pois skannereiden liikuttaessa sitä, eivätkä nämä yleensä ole täydellisesti synkronissa keskenään. Säädä tällä asetuksella ajoitus takaisin kohdalleen.
 
@@ -61,7 +61,7 @@ Säde vaihtaa väriä sekä kytkeytyy päälle ja pois skannereiden liikuttaessa
 Tästä käytetään joskus nimeä _blank shift_, mutta itse pidän enemmän termistä _scanner sync_ – se on hieman tarkempi, koska asetus säätää kaikkien värimuutosten ajoitusta suhteessa skannerin liikkeeseen.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserin ”hännät” – Colour shift ei ole oikein asetettu</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Ei laserin ”häntiä”! Colour shift on kunnossa!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserin ”hännät” – Scanner Sync ei ole oikein asetettu</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Ei laserin ”häntiä”! Scanner Sync on kunnossa!</p></figcaption></figure></div>
 
 Jos laserin ulostulossa näkyy pieniä ”häntiä”, Scanner sync tarvitsee todennäköisesti säätöä. Jos hännät näkyvät edelleen asetuksesta riippumatta, ajat todennäköisesti skannereita tai laserohjaimia nopeammin kuin ne kestävät. Kokeile laskea skannerinopeutta.
 

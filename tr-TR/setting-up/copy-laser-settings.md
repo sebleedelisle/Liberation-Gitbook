@@ -22,7 +22,7 @@ Ayarları kopyalamak istediğiniz diğer tüm lazerleri açın. (Çok sayıda la
 Kopyalamak istediğiniz ayarları seçin:
 
 * **Copy output zone positions&#x20;**_**-**_ zone konumunu / boyutunu / türünü bir lazerden diğerlerine kopyalar. Zone öğelerinin sıraya göre kopyalandığını unutmayın; yani lazer 1 içindeki zones 1 ve 9, lazer 2 içindeki zones 2 ve 10 üzerine kopyalanır. Alt zones da kopyalanır.
-* **Copy scanner / speed settings** - scanner hızını ve scanner preset ayarını kopyalar, ancak _Colour shift_ ayarını kopyalamaz.
+* **Copy scanner / speed settings** - scanner hızını ve scanner preset ayarını kopyalar, ancak _Scanner Sync_ ayarını kopyalamaz.
 * **Copy colour settings -** tüm renk kalibrasyonu ayarlarını kopyalar.
 * **Copy advanced settings -** point rate, smooth home position, target frame rate ve diğer tüm gelişmiş ayarları içerir.
 

@@ -159,7 +159,7 @@ Van egy intelligens „tap tempo” rendszere, amely a megszokott módon működ
 
 #### Milyen beállításokat kell módosítanom, hogy a legjobb kimenetet kapjam a lézerből?
 
-A fő beállítás a _Colour Shift_, amely kompenzálja a tükrök mozgása és a lézerek fényerejének változása közötti kis késleltetést. Ha a lézerpontoknak/-nyaláboknak kis „farkuk” van, ezt kell beállítanod. (A „farkakra” példát a [Laser output beállítási panel](setting-up/laser-settings.md "mention") oldalon található fotókon láthatsz.)
+A fő beállítás a _Scanner Sync_, amely kompenzálja a tükrök mozgása és a lézerek fényerejének változása közötti kis késleltetést. Ha a lézerpontoknak/-nyaláboknak kis „farkuk” van, ezt kell beállítanod. (A „farkakra” példát a [Laser output beállítási panel](setting-up/laser-settings.md "mention") oldalon található fotókon láthatsz.)
 
 Megpróbálhatod módosítani a scanner sebességét is: lassabbra, ha a scannereid egyszerűbbek, vagy gyorsabbra, ha jó minőségűek. De **használd óvatosan, mert ha túl erősen hajtod őket, károsíthatod a scannereket.**
 

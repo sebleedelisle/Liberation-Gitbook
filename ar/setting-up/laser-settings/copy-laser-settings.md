@@ -15,7 +15,7 @@
 اختر الإعدادات التي تريد نسخها:&#x20;
 
 * **Copy output zone positions&#x20;**_**-**_ ينسخ مواضع / أحجام / أنواع zones من جهاز ليزر إلى الأجهزة الأخرى. لاحظ أنه ينسخ zones بالترتيب، لذلك سيتم نسخ laser 1 zones 1 و 9 إلى laser 2 zones 2 و 10. سيتم أيضًا نسخ Alt zones.&#x20;
-* **Copy scanner / speed settings** - ينسخ scanner speed و scanner preset، ولكن _ليس_ _Colour shift._
+* **Copy scanner / speed settings** - ينسخ scanner speed و scanner preset، ولكن _ليس_ _Scanner Sync._
 * **Copy colour settings -** ينسخ جميع إعدادات معايرة الألوان.
 * **Copy advanced settings -** يشمل point rate و smooth home position و target frame rate وجميع الإعدادات المتقدمة الأخرى.&#x20;
 

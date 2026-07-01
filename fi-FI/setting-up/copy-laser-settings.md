@@ -22,7 +22,7 @@ Ota käyttöön kaikki muut laserit, _joihin_ haluat kopioida asetukset. (Käyt�
 Valitse, mitkä asetukset haluat kopioida:
 
 * **Copy output zone positions&#x20;**_**-**_ kopioi alueiden sijainnit, koot ja tyypit yhdestä laserista muihin. Huomaa, että alueet kopioidaan järjestyksessä, joten laserin 1 alueet 1 ja 9 kopioidaan laserin 2 alueiksi 2 ja 10. Myös Alt zones -alueet kopioidaan.
-* **Copy scanner / speed settings** - kopioi skannerin nopeuden ja skannerin esiasetuksen, mutta _ei_ _Colour shift_ -asetusta.
+* **Copy scanner / speed settings** - kopioi skannerin nopeuden ja skannerin esiasetuksen, mutta _ei_ _Scanner Sync_ -asetusta.
 * **Copy colour settings -** kopioi kaikki värikalibroinnin asetukset.
 * **Copy advanced settings -** sisältää point rate -asetuksen, smooth home position -asetuksen, target frame rate -asetuksen sekä kaikki muut lisäasetukset.
 

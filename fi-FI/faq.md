@@ -159,7 +159,7 @@ Siinä on älykäs "tap tempo" -järjestelmä, joka toimii odotetulla tavalla, m
 
 #### Mitä asetuksia minun täytyy säätää, jotta saan laserista parhaan ulostulon?
 
-Tärkein asetus on _Colour Shift_, joka kompensoi pientä viivettä peilien liikkeen ja laserien kirkkauden muutosten välillä. Jos laserpisteissä tai -sädeissä näkyy pieniä “häntiä”, tätä asetusta täytyy säätää. (Katso esimerkki “hännistä” [Laser output -asetuspaneeli](setting-up/laser-settings.md "mention") -sivun kuvista)
+Tärkein asetus on _Scanner Sync_, joka kompensoi pientä viivettä peilien liikkeen ja laserien kirkkauden muutosten välillä. Jos laserpisteissä tai -sädeissä näkyy pieniä “häntiä”, tätä asetusta täytyy säätää. (Katso esimerkki “hännistä” [Laser output -asetuspaneeli](setting-up/laser-settings.md "mention") -sivun kuvista)
 
 Voit myös kokeilla scanner-nopeuden muuttamista: hitaampi, jos scannerit ovat perustasoa, tai nopeampi, jos ne ovat hyvät. **Käytä kuitenkin varoen, sillä voit vahingoittaa scannereita, jos ajat niitä liian kovaa.**
 

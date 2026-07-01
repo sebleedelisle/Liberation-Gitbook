@@ -53,7 +53,7 @@ Mặc dù các cài đặt mặc định khá thận trọng, bạn vẫn có th
 Cài đặt tốc độ này không thay đổi point rate; thay vào đó, nó điều chỉnh mức độ giãn cách giữa các điểm. Để biết thêm thông tin, xem [◼️ Cách Liberation tạo nội dung laser](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Đồng bộ scanner (lệch màu / lệch blanking)**
+#### **Đồng bộ scanner (lệch blanking)**
 
 Chùm tia đổi màu và bật/tắt khi scanner di chuyển nó, và hai việc này thường không hoàn toàn đồng bộ với nhau. Điều chỉnh cài đặt này để đưa chúng khớp lại.
 
@@ -61,7 +61,7 @@ Chùm tia đổi màu và bật/tắt khi scanner di chuyển nó, và hai việ
 Mục này đôi khi được gọi là _blank shift_, nhưng cá nhân tôi thích thuật ngữ _scanner sync_ hơn - chính xác hơn một chút vì nó điều chỉnh thời điểm của tất cả thay đổi màu so với chuyển động của scanner.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>“Đuôi” laser - Colour shift chưa được đặt đúng</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Không còn “đuôi” laser! Colour shift tốt!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>“Đuôi” laser - Scanner Sync chưa được đặt đúng</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Không còn “đuôi” laser! Scanner Sync tốt!</p></figcaption></figure></div>
 
 Nếu bạn thấy các “đuôi” nhỏ trên đầu ra laser, nhiều khả năng scanner sync cần được điều chỉnh. Nếu các đuôi vẫn xuất hiện dù bạn chỉnh thế nào, có thể bạn đang điều khiển scanner/driver laser nhanh hơn khả năng xử lý của chúng. Hãy thử giảm tốc độ scanner.
 

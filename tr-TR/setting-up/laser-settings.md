@@ -59,7 +59,7 @@ Varsayılan ayarlar oldukça güvenli tarafta olsa da scanner’ları çok hızl
 Bu Speed ayarı point rate değerini değiştirmez; bunun yerine noktaların ne kadar aralıklı yerleştiğini ayarlar. Daha fazla bilgi için bkz. [◼️ Liberation lazer içeriğini nasıl oluşturur](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Scanner ışını hareket ettirirken beam renk değiştirir ve açılıp kapanır; bu iki işlem genellikle birbiriyle tam senkron değildir. Bunları tekrar hizalamak için bu ayarı düzenleyin.
 
@@ -67,7 +67,7 @@ Scanner ışını hareket ettirirken beam renk değiştirir ve açılıp kapanı
 Bu ayar bazen _blank shift_ olarak bilinir, ancak ben kişisel olarak _scanner sync_ terimini tercih ediyorum. Çünkü tüm renk değişimlerinin zamanlamasını scanner hareketine göre ayarladığı için biraz daha doğru bir isimdir.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Lazer “kuyrukları” - Colour shift doğru ayarlanmamış</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Lazer “kuyruğu” yok! Colour shift iyi!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Lazer “kuyrukları” - Scanner Sync doğru ayarlanmamış</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Lazer “kuyruğu” yok! Scanner Sync iyi!</p></figcaption></figure></div>
 
 Lazer çıkışınızda küçük “kuyruklar” görüyorsanız büyük olasılıkla scanner sync ayarının düzenlenmesi gerekir. Ne yaparsanız yapın kuyruklar görünmeye devam ediyorsa muhtemelen scanner’ları/lazer sürücülerini kaldırabileceklerinden daha hızlı sürüyorsunuzdur. Scanner hızını düşürmeyi deneyin.
 

@@ -59,7 +59,7 @@ Selv om standardinnstillingene er ganske forsiktige, kan du fortsatt skade skann
 Denne Speed-innstillingen endrer ikke punktraten. I stedet justerer den hvor spredt punktene er. Se [◼️ Hvordan Liberation genererer laserinnhold](../advanced/how-liberation-generates-laser-content.md "mention") for mer informasjon.
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Strålen skifter farge og slås av og på mens skannerne flytter den rundt, og disse to tingene er vanligvis ikke perfekt synkronisert med hverandre. Juster denne innstillingen for å få dem på linje igjen.
 
@@ -67,7 +67,7 @@ Strålen skifter farge og slås av og på mens skannerne flytter den rundt, og d
 Dette kalles noen ganger _blank shift_, men jeg foretrekker personlig begrepet _scanner sync_ – det er litt mer presist, siden det justerer timingen for alle fargeendringene i forhold til skannerbevegelsen.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-«haler» – Colour shift er ikke riktig innstilt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Ingen laser-«haler»! Colour shift er bra!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-«haler» – Scanner Sync er ikke riktig innstilt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Ingen laser-«haler»! Scanner Sync er bra!</p></figcaption></figure></div>
 
 Hvis du ser små «haler» i laser-outputen, skyldes det sannsynligvis at Scanner sync må justeres. Hvis halene fortsatt vises uansett hva du gjør, driver du sannsynligvis skannerne/laserdriverne raskere enn de tåler. Prøv å redusere scanner speed.
 

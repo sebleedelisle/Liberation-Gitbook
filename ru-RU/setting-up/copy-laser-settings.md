@@ -22,7 +22,7 @@ metaLinks:
 Выберите, какие настройки нужно скопировать:
 
 * **Copy output zone positions&#x20;**_**-**_ копирует положение / размер / тип zones с одного лазера на остальные. Обратите внимание: zones копируются по порядку, поэтому zone 1 и 9 лазера 1 будут скопированы в zone 2 и 10 лазера 2. Alt zones также будут скопированы.
-* **Copy scanner / speed settings** - копирует скорость сканера и пресет сканера, но _не_ _Colour shift._
+* **Copy scanner / speed settings** - копирует скорость сканера и пресет сканера, но _не_ _Scanner Sync._
 * **Copy colour settings -** копирует все настройки калибровки цвета.
 * **Copy advanced settings -** включает point rate, smooth home position, target frame rate и все остальные расширенные настройки.
 

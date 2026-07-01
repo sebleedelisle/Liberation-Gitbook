@@ -84,6 +84,10 @@
       "source": "en-GB/effects.md",
       "source_sha256": "93d2c7a4928203bfd6cedb34de7900d9b01e450e1990ddb3d676c6dc6af92927"
     },
+    "ar/faq.md": {
+      "source": "en-GB/faq.md",
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
+    },
     "ar/getting-started.md": {
       "source": "en-GB/getting-started.md",
       "source_sha256": "fecf0427ce51d114ab73b5e52b318567d07a42a3aa4057fc32bb6e1908e7d05c"
@@ -188,13 +192,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "ar/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "ar/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "ar/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "ar/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "ar/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -298,7 +310,7 @@
     },
     "cs-CZ/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "cs-CZ/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -396,13 +408,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "cs-CZ/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "cs-CZ/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "cs-CZ/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "cs-CZ/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "cs-CZ/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -503,6 +523,10 @@
     "da-DK/effects.md": {
       "source": "en-GB/effects.md",
       "source_sha256": "93d2c7a4928203bfd6cedb34de7900d9b01e450e1990ddb3d676c6dc6af92927"
+    },
+    "da-DK/faq.md": {
+      "source": "en-GB/faq.md",
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "da-DK/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -608,13 +632,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "da-DK/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "da-DK/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "da-DK/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "da-DK/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "da-DK/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -1670,7 +1702,7 @@
     },
     "fi-FI/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "fi-FI/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -1772,13 +1804,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "fi-FI/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "fi-FI/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "fi-FI/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "fi-FI/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "fi-FI/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -2116,6 +2156,10 @@
       "source": "en-GB/effects.md",
       "source_sha256": "93d2c7a4928203bfd6cedb34de7900d9b01e450e1990ddb3d676c6dc6af92927"
     },
+    "hr-HR/faq.md": {
+      "source": "en-GB/faq.md",
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
+    },
     "hr-HR/getting-started.md": {
       "source": "en-GB/getting-started.md",
       "source_sha256": "fecf0427ce51d114ab73b5e52b318567d07a42a3aa4057fc32bb6e1908e7d05c"
@@ -2216,13 +2260,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "hr-HR/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "hr-HR/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "hr-HR/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "hr-HR/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "hr-HR/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -2326,7 +2378,7 @@
     },
     "hu-HU/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "hu-HU/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -2428,13 +2480,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "hu-HU/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "hu-HU/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "hu-HU/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "hu-HU/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "hu-HU/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -2539,6 +2599,10 @@
     "is-IS/effects.md": {
       "source": "en-GB/effects.md",
       "source_sha256": "93d2c7a4928203bfd6cedb34de7900d9b01e450e1990ddb3d676c6dc6af92927"
+    },
+    "is-IS/faq.md": {
+      "source": "en-GB/faq.md",
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "is-IS/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -2648,13 +2712,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "is-IS/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "is-IS/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "is-IS/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "is-IS/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "is-IS/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -3456,6 +3528,10 @@
       "source": "en-GB/effects.md",
       "source_sha256": "93d2c7a4928203bfd6cedb34de7900d9b01e450e1990ddb3d676c6dc6af92927"
     },
+    "nb-NO/faq.md": {
+      "source": "en-GB/faq.md",
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
+    },
     "nb-NO/getting-started.md": {
       "source": "en-GB/getting-started.md",
       "source_sha256": "fecf0427ce51d114ab73b5e52b318567d07a42a3aa4057fc32bb6e1908e7d05c"
@@ -3564,13 +3640,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "nb-NO/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "nb-NO/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "nb-NO/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "nb-NO/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "nb-NO/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -3890,7 +3974,7 @@
     },
     "pl-PL/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "pl-PL/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -3996,13 +4080,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "pl-PL/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "pl-PL/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "pl-PL/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "pl-PL/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "pl-PL/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -4342,7 +4434,7 @@
     },
     "ru-RU/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "ru-RU/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -4452,13 +4544,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "ru-RU/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "ru-RU/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "ru-RU/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "ru-RU/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "ru-RU/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -4558,7 +4658,7 @@
     },
     "sv-SE/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "sv-SE/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -4664,13 +4764,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "sv-SE/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "sv-SE/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "sv-SE/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "sv-SE/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "sv-SE/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -4774,7 +4882,7 @@
     },
     "tr-TR/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "tr-TR/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -4880,13 +4988,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "tr-TR/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "tr-TR/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "tr-TR/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "tr-TR/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "tr-TR/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -4992,6 +5108,10 @@
       "source": "en-GB/effects.md",
       "source_sha256": "93d2c7a4928203bfd6cedb34de7900d9b01e450e1990ddb3d676c6dc6af92927"
     },
+    "vi-VN/faq.md": {
+      "source": "en-GB/faq.md",
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
+    },
     "vi-VN/getting-started.md": {
       "source": "en-GB/getting-started.md",
       "source_sha256": "fecf0427ce51d114ab73b5e52b318567d07a42a3aa4057fc32bb6e1908e7d05c"
@@ -5092,13 +5212,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "vi-VN/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "vi-VN/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "vi-VN/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "vi-VN/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "vi-VN/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",
@@ -5654,7 +5782,7 @@
     },
     "zh-TW/faq.md": {
       "source": "en-GB/faq.md",
-      "source_sha256": "5983c6df39c1ae072a43c302a7dc9fc14be67bf3d1ef13c77a47b5871a2553d3"
+      "source_sha256": "673ade92c48fc19e9819375c6e556f0d263a8514b1dd13734bc8049eedf01520"
     },
     "zh-TW/getting-started.md": {
       "source": "en-GB/getting-started.md",
@@ -5760,13 +5888,21 @@
       "source": "en-GB/setting-up/controller-assignment.md",
       "source_sha256": "982c8028c0930e7f8336a5277c208a609a11720edb701a7b11c2da02a43d3d2e"
     },
+    "zh-TW/setting-up/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/copy-laser-settings.md",
+      "source_sha256": "95309f4f597638656b618de16f09f8dab660baae14625ae4f894f7ec549684ff"
+    },
     "zh-TW/setting-up/laser-settings.md": {
       "source": "en-GB/setting-up/laser-settings.md",
-      "source_sha256": "b482ed0b6f4cc388815f85a305768852c08ac9ebc194e3942716ec6c4dd7ff96"
+      "source_sha256": "fbaf9f6346d32682d233de305e29f4278abb33c1ab743e95af1585a02e1ec393"
     },
     "zh-TW/setting-up/laser-settings/README.md": {
       "source": "en-GB/setting-up/laser-settings/README.md",
-      "source_sha256": "0047dbf9f18140ffad66e80e7ca1cb09401db3eba4a604e42e8911fe72f2160d"
+      "source_sha256": "dc36f6d4b564149c5994e6faf71fc54c6475c951ce61862a2d5234762f86e75e"
+    },
+    "zh-TW/setting-up/laser-settings/copy-laser-settings.md": {
+      "source": "en-GB/setting-up/laser-settings/copy-laser-settings.md",
+      "source_sha256": "769c637737af3eb9fed8a4ffbfb8c27c1c62a8d1f06805440cbf690228ac3632"
     },
     "zh-TW/setting-up/setting-up-your-project.md": {
       "source": "en-GB/setting-up/setting-up-your-project.md",

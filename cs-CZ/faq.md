@@ -159,7 +159,7 @@ Má inteligentní systém „tap tempo“, který funguje tak, jak byste čekali
 
 #### Jaká nastavení mám upravit, abych z laseru dostal nejlepší výstup?
 
-Hlavní nastavení je _Colour Shift_, které kompenzuje drobné zpoždění mezi pohybem zrcátek a změnou jasu laserů. Pokud mají laserové body/paprsky malé „ocásky“, je potřeba toto nastavení upravit. (Příklad „ocásků“ najdete na fotografiích na stránce [Panel nastavení laserového výstupu](setting-up/laser-settings.md "mention"))
+Hlavní nastavení je _Scanner Sync_, které kompenzuje drobné zpoždění mezi pohybem zrcátek a změnou jasu laserů. Pokud mají laserové body/paprsky malé „ocásky“, je potřeba toto nastavení upravit. (Příklad „ocásků“ najdete na fotografiích na stránce [Panel nastavení laserového výstupu](setting-up/laser-settings.md "mention"))
 
 Můžete také zkusit změnit rychlost skenerů – pomaleji, pokud máte základní skenery, nebo rychleji, pokud jsou kvalitní. **Používejte ale opatrně, protože při příliš velké zátěži můžete skenery poškodit.**
 

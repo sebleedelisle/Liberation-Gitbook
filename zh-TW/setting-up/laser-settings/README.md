@@ -53,7 +53,7 @@
 此速度設定不會改變點率，而是調整這些點的分布間距。如需更多資訊，請參閱 [◼️ Liberation 如何產生雷射內容](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **掃描器同步（顏色偏移／消隱偏移）**
+#### **掃描器同步（消隱偏移）**
 
 光束在掃描器移動時會變換顏色並開關，而這兩件事通常不會彼此完全同步。調整此設定可讓它們重新對齊。
 
@@ -61,7 +61,7 @@
 這有時稱為 _blank shift_，但我個人比較偏好 _scanner sync_ 這個詞，因為它更準確一些：它調整的是所有顏色變化相對於掃描器移動的時序。
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>雷射「尾巴」— 顏色偏移未正確設定</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>沒有雷射「尾巴」！顏色偏移設定良好！</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>雷射「尾巴」— Scanner Sync 未正確設定</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>沒有雷射「尾巴」！Scanner Sync 設定良好！</p></figcaption></figure></div>
 
 如果你在雷射輸出上看到小小的「尾巴」，很可能是因為需要調整掃描器同步。如果不論怎麼調整尾巴都仍然出現，表示你驅動掃描器／雷射驅動器的速度可能超過了它們能承受的範圍。請嘗試降低掃描器速度。
 

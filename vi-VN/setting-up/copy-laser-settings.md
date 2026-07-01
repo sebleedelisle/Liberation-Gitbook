@@ -22,7 +22,7 @@ Bật tất cả các máy laser khác mà bạn muốn sao chép cài đặt _�
 Chọn những cài đặt bạn muốn sao chép:
 
 * **Copy output zone positions&#x20;**_**-**_ sao chép vị trí / kích thước / loại zone từ một máy laser sang các máy laser còn lại. Lưu ý rằng thao tác này sao chép các zone theo thứ tự, vì vậy zone 1 và 9 của laser 1 sẽ được sao chép sang zone 2 và 10 của laser 2. Alt zones cũng sẽ được sao chép.
-* **Copy scanner / speed settings** - sao chép tốc độ scanner và scanner preset nhưng _không_ sao chép _Colour shift._
+* **Copy scanner / speed settings** - sao chép tốc độ scanner và scanner preset nhưng _không_ sao chép _Scanner Sync._
 * **Copy colour settings -** sao chép tất cả cài đặt hiệu chỉnh màu
 * **Copy advanced settings -** bao gồm point rate, smooth home position, target frame rate và tất cả các cài đặt nâng cao khác.
 

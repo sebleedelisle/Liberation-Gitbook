@@ -22,7 +22,7 @@ Kveiktu á öllum hinum leysunum sem þú vilt afrita stillingar _til_. (Notaðu
 Veldu hvaða stillingar þú vilt afrita:
 
 * **Copy output zone positions&#x20;**_**-**_ afritar staðsetningu / stærð / gerð zones frá einum leysi yfir á hina. Athugaðu að zones eru afritaðar í röð, þannig að laser 1 zones 1 og 9 verða afritaðar yfir í laser 2 zones 2 og 10. Alt zones verða einnig afritaðar.
-* **Copy scanner / speed settings** - afritar scanner speed og scanner preset, en _ekki_ _Colour shift._
+* **Copy scanner / speed settings** - afritar scanner speed og scanner preset, en _ekki_ _Scanner Sync._
 * **Copy colour settings -** afritar allar stillingar fyrir litakvörðun.
 * **Copy advanced settings -** felur í sér point rate, smooth home position, target frame rate og allar aðrar advanced settings.
 

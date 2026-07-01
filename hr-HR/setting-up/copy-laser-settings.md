@@ -22,7 +22,7 @@ Uključite sve ostale lasere _na koje_ želite kopirati postavke. (Upotrijebite 
 Odaberite koje postavke želite kopirati:
 
 * **Copy output zone positions&#x20;**_**-**_ kopira položaje / veličinu / vrstu zones s jednog lasera na ostale. Imajte na umu da se zones kopiraju redom, pa će se na primjer laser 1, zones 1 i 9, kopirati na laser 2, zones 2 i 10. Kopirat će se i Alt zones.
-* **Copy scanner / speed settings** - kopira brzinu skenera i unaprijed postavljenu vrijednost skenera, ali _ne_ i _Colour shift._
+* **Copy scanner / speed settings** - kopira brzinu skenera i unaprijed postavljenu vrijednost skenera, ali _ne_ i _Scanner Sync._
 * **Copy colour settings -** kopira sve postavke kalibracije boje
 * **Copy advanced settings -** uključuje point rate, smooth home position, target frame rate i sve ostale napredne postavke.
 

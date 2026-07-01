@@ -53,7 +53,7 @@
 إعداد السرعة هذا لا يغيّر معدل النقاط، بل يضبط مدى تباعد تلك النقاط. لمزيد من المعلومات، راجع [◼️ كيف ينشئ Liberation محتوى الليزر](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 يتغير لون الشعاع ويُشغَّل ويُطفأ أثناء تحريك الماسحات له، وهذان الأمران لا يكونان عادةً متزامنين تمامًا. اضبط هذا الإعداد لإعادة مزامنتهما.
 
@@ -61,7 +61,7 @@
 يُعرف هذا أحيانًا باسم _blank shift_، لكنني شخصيًا أفضل مصطلح _scanner sync_ لأنه أدق قليلًا؛ فهو يضبط توقيت كل تغييرات اللون مقارنةً بحركة الماسح.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>“ذيول” الليزر — لم يتم ضبط Colour shift بشكل صحيح</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>لا توجد “ذيول” لليزر! إعداد Colour shift جيد!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>“ذيول” الليزر — لم يتم ضبط Scanner Sync بشكل صحيح</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>لا توجد “ذيول” لليزر! إعداد Scanner Sync جيد!</p></figcaption></figure></div>
 
 إذا رأيت “ذيولًا” صغيرة في إخراج الليزر، فمن المحتمل أن Scanner sync يحتاج إلى ضبط. إذا استمرت الذيول بالظهور مهما فعلت، فمن المرجح أنك تشغّل الماسحات أو مشغلات الليزر بسرعة أعلى مما يمكنها تحمّله. جرّب خفض سرعة الماسح.
 

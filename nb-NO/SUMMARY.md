@@ -10,7 +10,7 @@
   * [✅ Oppgrader / nedgrader lisensen din](installation/upgrade-downgrade-your-license.md)
 * [✅ Sett betalinger på pause eller avslutt dem](installation/cancel-your-subscription.md)
   * [🟩 Overfør innholdet ditt når du oppgraderer til en ny versjon](installation/transfer-your-content-when-upgrading-to-a-new-version.md)
-* [✅ FAQ](faq.md)
+* [✅ Vanlige spørsmål](faq.md)
 * [✅ Hurtigstartveiledning](getting-started.md)
 * [✅ Maskinvare](hardware/README.md)
   * [✅ Kompatible lasere og kontrollere (DAC-er)](hardware/compatible-lasers-and-controllers-dacs.md)

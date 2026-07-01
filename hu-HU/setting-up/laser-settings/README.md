@@ -53,7 +53,7 @@ Bár az alapértelmezett beállítások meglehetősen óvatosak, a scannerek akk
 Ez a sebességbeállítás nem a pontsebességet módosítja, hanem azt, hogy a pontok mennyire legyenek szétterítve. További információ: [◼️ Hogyan generál a Liberation lézeres tartalmat](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 A nyaláb színt vált, illetve be- és kikapcsol, miközben a scannerek mozgatják. Ez a két folyamat általában nincs tökéletes szinkronban egymással. Ezzel a beállítással hozhatod őket újra összhangba.
 
@@ -61,7 +61,7 @@ A nyaláb színt vált, illetve be- és kikapcsol, miközben a scannerek mozgatj
 Ezt néha _blank shift_ néven is említik, de én jobban szeretem a _scanner sync_ kifejezést – valamivel pontosabb, mert az összes színváltás időzítését igazítja a scanner mozgásához képest.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Lézeres „csóvák” – a Colour shift nincs megfelelően beállítva</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Nincsenek lézeres „csóvák”! A Colour shift jó!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Lézeres „csóvák” – a Scanner Sync nincs megfelelően beállítva</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Nincsenek lézeres „csóvák”! A Scanner Sync jó!</p></figcaption></figure></div>
 
 Ha kis „csóvákat” látsz a lézerkimeneten, valószínűleg a scanner sync beállítását kell módosítani. Ha a csóvák bárhogy állítod is megmaradnak, valószínűleg gyorsabban hajtod a scannereket vagy a lézermeghajtókat, mint amit kezelni tudnak. Próbáld csökkenteni a scanner sebességét.
 

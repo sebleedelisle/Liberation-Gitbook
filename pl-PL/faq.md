@@ -159,7 +159,7 @@ Program ma inteligentny system „tap tempo”, który działa tak, jak można s
 
 #### Jakie ustawienia trzeba dostosować, aby uzyskać najlepszy sygnał wyjściowy z lasera?
 
-Główne ustawienie to _Colour Shift_, które kompensuje niewielkie opóźnienie między ruchem luster a zmianą jasności laserów. Jeśli kropki lub wiązki lasera mają małe „ogonki”, trzeba dostosować to ustawienie. (Przykład „ogonków” znajdziesz na zdjęciach na stronie [Panel ustawień Laser output](setting-up/laser-settings.md "mention"))
+Główne ustawienie to _Scanner Sync_, które kompensuje niewielkie opóźnienie między ruchem luster a zmianą jasności laserów. Jeśli kropki lub wiązki lasera mają małe „ogonki”, trzeba dostosować to ustawienie. (Przykład „ogonków” znajdziesz na zdjęciach na stronie [Panel ustawień Laser output](setting-up/laser-settings.md "mention"))
 
 Możesz też spróbować zmienić prędkość skanerów: wolniej, jeśli skanery są podstawowe, albo szybciej, jeśli są dobre. **Używaj jednak tego ostrożnie, bo zbyt mocne obciążenie skanerów może je uszkodzić.**
 

@@ -37,4 +37,4 @@ Denne veiledningen hjelper deg med å bli trygg på Liberation – fra installas
 * Lenker gjelder for gjeldende versjon. Skjermbilder og menyer kan avvike litt hvis du bruker en eldre build.
 * Maskinvaretrinn fremhever sikre standardvalg – aldri omgå sikkerhetsinterlocks, og hold stråler unna mennesker.
 
-Hvis du står fast, kan du sjekke [**FAQ**](faq.md) og deretter seksjonen [**Feilsøking**](troubleshooting/) for målrettede løsninger før du kontakter support.
+Hvis du står fast, kan du sjekke [**Vanlige spørsmål**](faq.md) og deretter seksjonen [**Feilsøking**](troubleshooting/) for målrettede løsninger før du kontakter support.

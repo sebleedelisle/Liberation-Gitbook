@@ -59,7 +59,7 @@ Stillingin Speed ræður því hversu hratt skannarnir hreyfast.
 Þessi Speed stilling breytir ekki punktatíðninni. Hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [◼️ Hvernig Liberation býr til laserefni](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Geislinn skiptir um lit og kveikir og slekkur á sér á meðan skannarnir færa hann til, og þessir tveir þættir eru yfirleitt ekki fullkomlega samstilltir. Stilltu þetta til að fá þá aftur í takt.
 
@@ -67,7 +67,7 @@ Geislinn skiptir um lit og kveikir og slekkur á sér á meðan skannarnir færa
 Þetta er stundum kallað _blank shift_, en mér finnst hugtakið _scanner sync_ betra - það er aðeins nákvæmara, því stillingin breytir tímasetningu allra litabreytinga miðað við hreyfingu skannanna.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>„Halar“ í leysinum - Colour shift er ekki rétt stillt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Engir „halar“ í leysinum! Colour shift er í lagi!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>„Halar“ í leysinum - Scanner Sync er ekki rétt stillt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Engir „halar“ í leysinum! Scanner Sync er í lagi!</p></figcaption></figure></div>
 
 Ef þú sérð litla „hala“ í úttaki leysisins þarf líklega að stilla Scanner sync. Ef halarnir sjást áfram sama hvað þú stillir, ertu líklega að keyra skannana eða drifbúnað leysisins hraðar en þeir ráða við. Prófaðu að lækka hraða skannanna.
 

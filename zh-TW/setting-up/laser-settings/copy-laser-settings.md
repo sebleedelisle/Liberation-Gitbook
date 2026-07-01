@@ -15,7 +15,7 @@
 選取你要複製的設定：&#x20;
 
 * **Copy output zone positions&#x20;**_**-**_ 將 zone 的位置 / 大小 / 類型從一台雷射複製到其他雷射。請注意，它會依照順序複製 zones，因此雷射 1 的 zones 1 和 9 會複製到雷射 2 的 zones 2 和 10。Alt zones 也會一併複製。&#x20;
-* **Copy scanner / speed settings** - 複製掃描器速度和掃描器預設，但_不會_複製 _Colour shift_。
+* **Copy scanner / speed settings** - 複製掃描器速度和掃描器預設，但_不會_複製 _Scanner Sync_。
 * **Copy colour settings -** 複製所有色彩校正設定
 * **Copy advanced settings -** 包含 point rate、smooth home position、target frame rate，以及所有其他進階設定。&#x20;
 

@@ -53,7 +53,7 @@ Inställningen för hastighet avgör hur snabbt skannrarna rör sig.
 Den här hastighetsinställningen ändrar inte punktfrekvensen, utan justerar i stället hur utspridda punkterna är. Mer information finns i [◼️ Så genererar Liberation laserinnehåll](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Strålen byter färg och slås på och av medan skannrarna flyttar runt den, och dessa två saker är vanligtvis inte perfekt synkroniserade med varandra. Justera den här inställningen för att få dem i linje igen.
 
@@ -61,7 +61,7 @@ Strålen byter färg och slås på och av medan skannrarna flyttar runt den, och
 Detta kallas ibland _blank shift_, men jag föredrar personligen termen _scanner sync_ – den är lite mer korrekt eftersom den justerar timingen för alla färgändringar i förhållande till skannerrörelsen.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-”svansar” – Colour shift är inte korrekt inställt</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Inga laser-”svansar”! Colour shift är bra!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-”svansar” – Scanner Sync är inte korrekt inställt</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Inga laser-”svansar”! Scanner Sync är bra!</p></figcaption></figure></div>
 
 Om du ser små ”svansar” i laserutgången beror det troligen på att scanner sync behöver justeras. Om svansarna fortfarande syns oavsett inställning driver du sannolikt skannrarna/laserdrivarna snabbare än de klarar av. Prova att sänka skannerhastigheten.
 

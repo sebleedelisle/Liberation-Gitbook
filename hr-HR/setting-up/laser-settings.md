@@ -59,7 +59,7 @@ Iako su zadane postavke prilično konzervativne, skenere i dalje možete ošteti
 Ova postavka brzine ne mijenja učestalost točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [◼️ Kako Liberation generira laserski sadržaj](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (pomak boje / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Snop mijenja boju te se uključuje i isključuje dok ga skeneri pomiču, a te dvije stvari obično nisu savršeno sinkronizirane. Podesite ovu postavku kako biste ih ponovno uskladili.
 
@@ -67,7 +67,7 @@ Snop mijenja boju te se uključuje i isključuje dok ga skeneri pomiču, a te dv
 Ovo se ponekad naziva _blank shift_, ali osobno više volim izraz _scanner sync_ — malo je precizniji jer podešava vremensko usklađivanje svih promjena boje u odnosu na kretanje skenera.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserski „repovi” — pomak boje nije pravilno podešen</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Nema laserskih „repova”! Pomak boje je dobar!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserski „repovi” — Scanner Sync nije pravilno podešen</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Nema laserskih „repova”! Scanner Sync je dobro podešen!</p></figcaption></figure></div>
 
 Ako na izlazu lasera vidite male „repove”, vjerojatno je potrebno podesiti scanner sync. Ako se repovi i dalje pojavljuju bez obzira na podešavanje, vjerojatno skenere ili upravljačke sklopove lasera pokrećete brže nego što mogu podnijeti. Pokušajte smanjiti brzinu skenera.
 

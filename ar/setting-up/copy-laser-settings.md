@@ -22,7 +22,7 @@ metaLinks:
 حدّد الإعدادات التي تريد نسخها:
 
 * **Copy output zone positions&#x20;**_**-**_ ينسخ مواضع / حجم / نوع zone من جهاز ليزر إلى الأجهزة الأخرى. لاحظ أنه ينسخ zones بالترتيب، لذلك سيتم نسخ zones 1 و9 في جهاز الليزر 1 إلى zones 2 و10 في جهاز الليزر 2. سيتم أيضًا نسخ Alt zones.
-* **Copy scanner / speed settings** - ينسخ سرعة الماسح الضوئي وإعداد scanner preset، لكن _ليس_ _Colour shift._
+* **Copy scanner / speed settings** - ينسخ سرعة الماسح الضوئي وإعداد scanner preset، لكن _ليس_ _Scanner Sync._
 * **Copy colour settings -** ينسخ جميع إعدادات معايرة الألوان.
 * **Copy advanced settings -** يتضمن point rate و smooth home position و target frame rate وجميع الإعدادات المتقدمة الأخرى.
 

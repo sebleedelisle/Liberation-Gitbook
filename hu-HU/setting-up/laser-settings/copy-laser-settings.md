@@ -15,7 +15,7 @@ Kapcsold be az összes többi lézert, amelyre a beállításokat másolni szere
 Válaszd ki, mely beállításokat szeretnéd másolni:&#x20;
 
 * **Copy output zone positions&#x20;**_**-**_ átmásolja a zónák pozícióját / méretét / típusát az egyik lézerről a többire. Fontos, hogy a zónákat sorrendben másolja, így az 1. lézer 1. és 9. zónája a 2. lézer 2. és 10. zónájára kerül másolásra. Az alternatív zónák is másolódnak.&#x20;
-* **Copy scanner / speed settings** - átmásolja a szkenner sebességét és a szkenner presetet, de a _Colour shift_ beállítást _nem_.
+* **Copy scanner / speed settings** - átmásolja a szkenner sebességét és a szkenner presetet, de a _Scanner Sync_ beállítást _nem_.
 * **Copy colour settings -** átmásolja az összes színkalibrációs beállítást.
 * **Copy advanced settings -** tartalmazza a point rate, smooth home position, target frame rate és az összes többi haladó beállítást.&#x20;
 

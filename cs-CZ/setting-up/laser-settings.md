@@ -59,7 +59,7 @@ I když jsou výchozí nastavení poměrně konzervativní, příliš vysokou ry
 Toto nastavení rychlosti nemění počet bodů za sekundu. Místo toho upravuje, jak daleko jsou jednotlivé body od sebe. Další informace najdete v části [◼️ Jak Liberation generuje laserový obsah](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Paprsek při pohybu skenerů mění barvu a zapíná se a vypíná. Tyto dvě věci obvykle nejsou navzájem dokonale synchronní. Tímto nastavením je znovu srovnáte.
 
@@ -67,7 +67,7 @@ Paprsek při pohybu skenerů mění barvu a zapíná se a vypíná. Tyto dvě v�
 Někdy se tomu říká _blank shift_, ale osobně dávám přednost názvu _scanner sync_ – je o něco přesnější, protože upravuje časování všech změn barev vůči pohybu skenerů.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserové „ocásky“ – Colour shift není správně nastavený</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Žádné laserové „ocásky“! Colour shift je nastavený dobře!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserové „ocásky“ – Scanner Sync není správně nastavený</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Žádné laserové „ocásky“! Scanner Sync je nastavený dobře!</p></figcaption></figure></div>
 
 Pokud na výstupu laseru vidíte malé „ocásky“, pravděpodobně je potřeba upravit synchronizaci skenerů. Pokud se ocásky objevují bez ohledu na nastavení, nejspíš řídíte skenery nebo laserové drivery rychleji, než zvládnou. Zkuste snížit rychlost skenerů.
 

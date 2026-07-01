@@ -159,7 +159,7 @@ Beklediğiniz gibi çalışan akıllı bir “tap tempo” sistemi vardır; ayr�
 
 #### Lazerden en iyi çıkışı almak için hangi ayarları yapmam gerekir?
 
-Ana ayar _Colour Shift_ ayarıdır; bu ayar aynaların hareket etmesiyle lazerlerin parlaklık değiştirmesi arasındaki küçük gecikmeyi telafi eder. Lazer noktalarında/ışınlarında küçük “kuyruklar” varsa bunu ayarlamanız gerekir. (“Kuyruk” örneği için [Lazer çıkışı ayarları paneli](setting-up/laser-settings.md "mention") sayfasındaki fotoğraflara bakın)
+Ana ayar _Scanner Sync_ ayarıdır; bu ayar aynaların hareket etmesiyle lazerlerin parlaklık değiştirmesi arasındaki küçük gecikmeyi telafi eder. Lazer noktalarında/ışınlarında küçük “kuyruklar” varsa bunu ayarlamanız gerekir. (“Kuyruk” örneği için [Lazer çıkışı ayarları paneli](setting-up/laser-settings.md "mention") sayfasındaki fotoğraflara bakın)
 
 Scanner hızını da değiştirmeyi deneyebilirsiniz: scanner’larınız basitse daha yavaş, iyiyse daha hızlı kullanabilirsiniz. Ancak **dikkatli olun; scanner’ları çok zorlamak onlara zarar verebilir.**
 

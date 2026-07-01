@@ -53,7 +53,7 @@ Chociaż ustawienia domyślne są dość zachowawcze, nadal możesz uszkodzić s
 To ustawienie prędkości nie zmienia częstotliwości punktów. Zamiast tego reguluje, jak bardzo punkty są od siebie oddalone. Więcej informacji znajdziesz w [◼️ Jak Liberation generuje treści laserowe](../../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+#### **Scanner sync (blank shift)**
 
 Wiązka zmienia kolor oraz włącza się i wyłącza, gdy skanery ją przemieszczają. Te dwie rzeczy zwykle nie są idealnie zsynchronizowane. Dostosuj to ustawienie, aby je wyrównać.
 
@@ -61,7 +61,7 @@ Wiązka zmienia kolor oraz włącza się i wyłącza, gdy skanery ją przemieszc
 Czasami nazywa się to _blank shift_, ale osobiście wolę termin _scanner sync_ — jest nieco dokładniejszy, ponieważ reguluje taktowanie wszystkich zmian koloru względem ruchu skanera.
 {% endhint %}
 
-<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>„Ogonki” lasera — Colour shift nie jest poprawnie ustawiony</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Brak „ogonków” lasera! Colour shift ustawiony poprawnie!</p></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>„Ogonki” lasera — Scanner Sync nie jest poprawnie ustawiony</p></figcaption></figure> <figure><img src="../../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Brak „ogonków” lasera! Scanner Sync ustawiony poprawnie!</p></figcaption></figure></div>
 
 Jeśli na wyjściu lasera widzisz małe „ogonki”, prawdopodobnie trzeba dostosować Scanner sync. Jeśli ogonki pojawiają się niezależnie od ustawienia, najpewniej sterujesz skanerami lub driverami lasera szybciej, niż są w stanie pracować. Spróbuj zmniejszyć prędkość skanerów.
 
