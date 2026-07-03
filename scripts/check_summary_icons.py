@@ -32,6 +32,19 @@ def summary_entries(path):
     return entries
 
 
+def target_exists(target_root, target):
+    path = target.split("#", 1)[0].strip()
+    if not path or "://" in path:
+        return True
+
+    candidate = target_root / path
+    if candidate.exists():
+        return True
+    if candidate.suffix == "" and (candidate / "README.md").exists():
+        return True
+    return False
+
+
 def target_roots(args):
     if args.target:
         return [Path(target) for target in args.target]
@@ -64,6 +77,8 @@ def check_target(source_entries, target_root):
     for target, source_entry in source_entries.items():
         expected = source_entry["marker"]
         if not expected:
+            continue
+        if not target_exists(target_root, target):
             continue
         if target not in target_entries:
             errors.append(

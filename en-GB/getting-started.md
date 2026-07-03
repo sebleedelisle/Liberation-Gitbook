@@ -297,6 +297,8 @@ The _Laser overview panel_ gives you a quick look into the status of your curren
 
 The graph in the middle is a history of frame lengths, and the number on the right is the current frame rate. The more complicated the content, the slower the frame rate will be (i.e. more flickery). Anything below about 25fps will start to look a bit flickery.
 
+If the frame rate is low, see [Improving performance on older machines](troubleshooting/improving-performance-on-older-machines.md "mention") for suggestions.
+
 ### Connecting to lasers - Controller Assignment panel
 
 Click on the _Assign Laser Controllers_ button to open the _Controller Assignment_ panel. (This panel can also be accessed via _View -> Controller Assignment_ in the menu bar).
