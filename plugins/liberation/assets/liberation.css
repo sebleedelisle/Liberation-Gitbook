@@ -490,6 +490,59 @@ body::-webkit-scrollbar-thumb:hover,
   margin: 0 0 19px;
 }
 
+.markdown-section hr.lib-thin-rule {
+  background: rgba(var(--lib-accent-rgb), 0.32);
+  border: none;
+  height: 1px;
+  margin: 22px 0 28px;
+}
+
+.markdown-section .markdown-footnote-ref {
+  color: rgb(0, 186, 177);
+  cursor: pointer;
+  font-size: 0.75em;
+  font-weight: 700;
+  margin-left: 0.1em;
+}
+
+.markdown-section .markdown-footnote-ref:focus {
+  outline: 1px solid currentColor;
+  outline-offset: 2px;
+}
+
+.markdown-footnote-popover {
+  background: #111133;
+  border: 1px solid rgba(var(--lib-accent-rgb), 0.38);
+  border-radius: 8px;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.42);
+  color: var(--lib-text);
+  font-family: var(--lib-font-body);
+  font-size: 14px;
+  line-height: 1.45;
+  max-width: min(340px, calc(100vw - 32px));
+  opacity: 0;
+  padding: 12px 14px;
+  pointer-events: none;
+  position: fixed;
+  transform: translateY(4px);
+  transition: opacity 140ms ease, transform 140ms ease;
+  z-index: 2000;
+}
+
+.markdown-footnote-popover.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.markdown-footnote-popover a {
+  color: var(--lib-blue-strong);
+}
+
+.markdown-footnote-popover p:last-child {
+  margin-bottom: 0;
+}
+
 .markdown-section a {
   color: var(--lib-blue-strong);
   text-decoration-color: rgba(var(--lib-accent-rgb), 0.5);

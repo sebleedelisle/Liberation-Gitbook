@@ -949,6 +949,86 @@
     active.classList.add("active");
   }
 
+  function getFootnotePopover() {
+    var popover = document.querySelector(".markdown-footnote-popover");
+    if (popover) return popover;
+
+    popover = document.createElement("div");
+    popover.className = "markdown-footnote-popover";
+    popover.setAttribute("role", "tooltip");
+    popover.addEventListener("mouseleave", hideFootnotePopover);
+    document.body.appendChild(popover);
+    return popover;
+  }
+
+  function hideFootnotePopover() {
+    var popover = document.querySelector(".markdown-footnote-popover");
+    if (!popover) return;
+    popover.classList.remove("is-visible");
+    popover.removeAttribute("data-active-footnote");
+  }
+
+  function positionFootnotePopover(popover, footnote) {
+    var gap = 10;
+    var padding = 16;
+    var rect = footnote.getBoundingClientRect();
+    var width = popover.offsetWidth;
+    var height = popover.offsetHeight;
+    var left = rect.left + (rect.width / 2) - (width / 2);
+    var top = rect.top - height - gap;
+
+    left = Math.max(padding, Math.min(left, window.innerWidth - width - padding));
+    if (top < padding) {
+      top = rect.bottom + gap;
+    }
+
+    popover.style.left = Math.round(left) + "px";
+    popover.style.top = Math.round(top) + "px";
+  }
+
+  function showFootnotePopover(footnote) {
+    var html = footnote.getAttribute("data-bs-content") || "";
+    if (!html) return;
+
+    var popover = getFootnotePopover();
+    popover.innerHTML = html;
+    popover.setAttribute("data-active-footnote", footnote.getAttribute("aria-label") || "");
+    popover.classList.add("is-visible");
+    positionFootnotePopover(popover, footnote);
+  }
+
+  function enhanceFootnotes() {
+    var footnotes = Array.prototype.slice.call(document.querySelectorAll("[data-markdown-footnote]"));
+    if (footnotes.length === 0) return;
+
+    footnotes.forEach(function(footnote) {
+      if (footnote.dataset.libFootnoteEnhanced) return;
+      footnote.dataset.libFootnoteEnhanced = "true";
+
+      footnote.addEventListener("mouseenter", function() {
+        showFootnotePopover(footnote);
+      });
+      footnote.addEventListener("focus", function() {
+        showFootnotePopover(footnote);
+      });
+      footnote.addEventListener("mouseleave", function() {
+        window.setTimeout(function() {
+          var popover = document.querySelector(".markdown-footnote-popover");
+          if (!popover || popover.matches(":hover")) return;
+          hideFootnotePopover();
+        }, 80);
+      });
+      footnote.addEventListener("blur", function() {
+        window.setTimeout(function() {
+          if (document.activeElement && document.activeElement.closest(".markdown-footnote-popover")) return;
+          hideFootnotePopover();
+        }, 80);
+      });
+    });
+
+    getFootnotePopover();
+  }
+
   function enhancePage() {
     cleanDocumentTitle();
     ensureFavicons();
@@ -962,12 +1042,14 @@
     enhancePageTools(meta);
     enhanceFooter(meta);
     enhanceToc();
+    enhanceFootnotes();
     updateActiveTocLink();
   }
 
   document.addEventListener("keydown", function(event) {
     if (event.key === "Escape") {
       closeSearch();
+      hideFootnotePopover();
       return;
     }
 

@@ -59,6 +59,8 @@ Although the default settings are quite conservative, you can still damage your 
 This speed setting doesn't change the point rate, instead it adjusts how spread out those points are. For more information see [◼️ How Liberation generates laser content](../advanced/how-liberation-generates-laser-content.md "mention")
 {% endhint %}
 
+If you want to experiment with point rate, output angle and scanner load outside a show project, see [🟩 Scanner specifications and Liberation](../appendix-articles/scanner-specifications-and-liberation.md "mention").
+
 #### **Scanner sync (blank shift)**
 
 The beam changes colour and turns on and off as the scanners move it around and these two things aren't usually perfectly in sync with each other. Adjust this setting to get them back in line.

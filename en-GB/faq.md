@@ -22,7 +22,7 @@ It depends how many lasers you want to control. If you're only running a few las
 
 #### **How many lasers can I control with Liberation?**
 
-Liberation can run many lasers on one computer, it's been tested with over 100 laser controllers so the answer depends on :
+Liberation can run many, many lasers on one computer, it's been tested with over 100 lasers so the answer depends on :
 
 * your computer CPU
 * network speed
@@ -102,6 +102,16 @@ Yes. The licence can be paused at the next subscription date and restarted at an
 #### **How do I cancel my licence forever?**
 
 You can cancel your recurring licence at any time, and it will automatically deactivate at the end of the current paid period. See [Pause or cancel payments](installation/cancel-your-subscription.md "mention")
+
+#### **Why is Liberation a subscription?**
+
+The short version is that it keeps Liberation sustainable, actively developed, and fair, while still letting everyone open, edit, save, practise, and preview shows without paying. See [Why is Liberation a subscription?](appendix-articles/why-a-subscription.md "mention")
+
+#### **Can I get a perpetual or long term licence for my installation / tour production?**
+
+Annual (or even multi-year) prepaid licences are available for permanent installations and touring productions. Email [billing@liberationlaser.com](mailto:billing@liberationlaser.com) if you would like to set one up.
+
+Perpetual licences are not currently available. See [Why is Liberation a subscription?](appendix-articles/why-a-subscription.md "mention") for the reasoning behind this.
 
 #### **How do I authorise my computer with my licence?**
 

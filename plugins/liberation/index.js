@@ -1,5 +1,6 @@
 var childProcess = require("child_process");
 var fs = require("fs");
+var kramed = require("kramed");
 var path = require("path");
 var posixPath = path.posix;
 
@@ -39,6 +40,88 @@ function escapeHtml(value) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+function escapeHtmlAttribute(value) {
+  return escapeHtml(value).replace(/'/g, "&#39;");
+}
+
+function renderInlineMarkdown(value) {
+  try {
+    return kramed.inlineLexer(String(value || ""), []);
+  } catch (error) {
+    return escapeHtml(value);
+  }
+}
+
+function renderInlineFootnotes(markdown) {
+  var footnoteIndex = 0;
+  var renderedMarkdown = "";
+  var cursor = 0;
+  markdown = String(markdown || "");
+
+  function renderFootnote(footnoteText) {
+    footnoteIndex += 1;
+    var trimmedText = footnoteText.trim();
+    var escapedText = escapeHtmlAttribute(trimmedText);
+    var escapedHtml = escapeHtmlAttribute(renderInlineMarkdown(trimmedText));
+
+    return '<sup class="markdown-footnote-ref" tabindex="0" role="button" aria-label="Footnote ' +
+      footnoteIndex +
+      ": " +
+      escapedText +
+      '" data-markdown-footnote data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-html="true" data-bs-content="' +
+      escapedHtml +
+      '">' +
+      footnoteIndex +
+      "</sup>";
+  }
+
+  while (cursor < markdown.length) {
+    var start = markdown.indexOf("^[", cursor);
+    if (start === -1) {
+      renderedMarkdown += markdown.slice(cursor);
+      break;
+    }
+    if (start > 0 && markdown[start - 1] === "\\") {
+      renderedMarkdown += markdown.slice(cursor, start + 2);
+      cursor = start + 2;
+      continue;
+    }
+
+    var depth = 1;
+    var end = start + 2;
+    var foundEnd = false;
+
+    while (end < markdown.length) {
+      var character = markdown[end];
+      var escaped = end > start + 2 && markdown[end - 1] === "\\";
+
+      if (character === "\n") break;
+      if (!escaped && character === "[") {
+        depth += 1;
+      } else if (!escaped && character === "]") {
+        depth -= 1;
+        if (depth === 0) {
+          foundEnd = true;
+          break;
+        }
+      }
+
+      end += 1;
+    }
+
+    if (!foundEnd) {
+      renderedMarkdown += markdown.slice(cursor);
+      break;
+    }
+
+    renderedMarkdown += markdown.slice(cursor, start);
+    renderedMarkdown += renderFootnote(markdown.slice(start + 2, end));
+    cursor = end + 1;
+  }
+
+  return renderedMarkdown;
 }
 
 function escapeJsonForScript(value) {
@@ -761,6 +844,11 @@ module.exports = {
   hooks: {
     init: function() {
       ensurePageOutputDirectories(this);
+    },
+
+    "page:before": function(page) {
+      page.content = renderInlineFootnotes(page.content);
+      return page;
     },
 
     page: function(page) {
