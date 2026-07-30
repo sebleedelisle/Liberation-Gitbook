@@ -26,7 +26,7 @@ If you have an old or low-spec machine it may be too slow to run Liberation. Che
 
 There are two numbers there - the actual frame rate and the target frame rate. If the actual frame rate drops below 30, you may have issues.
 
-For ways to reduce the load on your computer, see [Improving performance on older machines](improving-performance-on-older-machines.md "mention").
+For ways to reduce the load on your computer, see [Improving performance on older machines](improving-performance-on-older-machines.md).
 
 If none of this works then consider upgrading your computer.
 
