@@ -113,13 +113,13 @@ def classify(target_root):
             missing.append(rel)
             continue
 
+        if marked_current(translation_status, target, source):
+            current.append(rel)
+            continue
+
         commit = last_commit(target)
         if not commit:
             untracked.append(rel)
-            continue
-
-        if marked_current(translation_status, target, source):
-            current.append(rel)
             continue
 
         if not path_exists_at(commit, source):
