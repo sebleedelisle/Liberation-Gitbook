@@ -157,7 +157,7 @@ Yes. `Cmd / Ctrl`-click the slider and you can enter the value using the keyboar
 
 It has an intelligent "tap tempo" system that works as you would expect, but you can also use an external MIDI clock or Ableton Link. See [Tempo / synchronization](tempo-synchronisation.md "mention").
 
-For syncing music within a timeline see [Synchronising tempo to an audio track](timeline/synchronising-tempo-to-an-audio-track.md). Timelines can be synced to incoming LTC/SMPTE timecode coming in via any audio interface. See [Timecode](timecode.md "mention").
+For syncing music within a timeline see [Synchronizing tempo to an audio track](timeline/synchronising-tempo-to-an-audio-track.md). Timelines can be synced to incoming LTC/SMPTE timecode coming in via any audio interface. See [Timecode](timecode.md "mention").
 
 #### What settings do I need to adjust to get the best output from the laser?
 
