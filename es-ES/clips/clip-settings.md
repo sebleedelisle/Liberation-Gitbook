@@ -14,7 +14,7 @@ Cambia el tamaño de salida del clip con _Scale X_ y _Scale Y_. Están vinculado
 
 Cambia la posición horizontal y vertical del clip con _Shift X_ y _Shift Y_.
 
-_Zone Delay/Chase_ es una función tan divertida que tiene su propia sección. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ es una función tan divertida que tiene su propia sección. [Zone Delay/Chase](zone-delay-chase.md)
 
 ### Panel Parameters
 
@@ -33,7 +33,7 @@ Si un clip está bloqueado, no se puede mover ni eliminar. Para bloquear un clip
 
 ### Menú contextual
 
-Si haces clic derecho en un Clip, aparece un menú con algunas de las opciones de ese Clip. Consulta [Introducción al Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Ajustes de Clip](clip-settings.md "mention") y [Grupos de Clip](groups.md "mention") para saber más sobre los primeros elementos de este menú.
+Si haces clic derecho en un Clip, aparece un menú con algunas de las opciones de ese Clip. Consulta [Introducción al Clip Editor](../clip-editor/clip-editor-intro.md), [Ajustes de Clip](clip-settings.md) y [Grupos de Clip](groups.md) para saber más sobre los primeros elementos de este menú.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

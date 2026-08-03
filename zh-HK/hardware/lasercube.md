@@ -20,7 +20,7 @@ Wicked Lasers 的 [LaserCube](https://www.laseros.com/lasercube/) 是一款極�
 
 ### USB LaserCube
 
-用 micro USB 線將 LaserCube 連接到電腦，然後在 _Controller Assignment_ panel 中尋找它（見 [控制器指派](../setting-up/controller-assignment.md "mention")）。如果它沒有自動出現，請按 _REFRESH_ 按鈕。
+用 micro USB 線將 LaserCube 連接到電腦，然後在 _Controller Assignment_ panel 中尋找它（見 [控制器指派](../setting-up/controller-assignment.md)）。如果它沒有自動出現，請按 _REFRESH_ 按鈕。
 
 ### 網絡 LaserCube「Wifi」
 
@@ -30,7 +30,7 @@ Wicked Lasers 的 [LaserCube](https://www.laseros.com/lasercube/) 是一款極�
 
 將 LaserCube 連接到你的有線網絡。
 
-將 LaserCube 設定為 "LAN Client" 模式，並確保網絡上有一部路由器。LaserCube 會從路由器取得 IP 地址，然後應該會在 _Controller Assignment_ panel 中出現。（見 [控制器指派](../setting-up/controller-assignment.md "mention")）。
+將 LaserCube 設定為 "LAN Client" 模式，並確保網絡上有一部路由器。LaserCube 會從路由器取得 IP 地址，然後應該會在 _Controller Assignment_ panel 中出現。（見 [控制器指派](../setting-up/controller-assignment.md)）。
 
 {% hint style="info" %}
 你亦可以在沒有路由器的情況下建立網絡，並為所有裝置設定固定 IP 地址；這在活動製作行業十分常見。就我個人而言，我較喜歡在網絡中加入路由器，亦會向網絡經驗較少的人建議這個做法。

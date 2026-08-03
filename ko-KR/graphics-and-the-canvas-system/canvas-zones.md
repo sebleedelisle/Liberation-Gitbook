@@ -23,7 +23,7 @@ zone을 마우스 오른쪽 버튼으로 클릭한 뒤, 숫자 버튼을 토글�
 WARNING - 레이저가 armed 상태이면 기본 Canvas zone에서 콘텐츠 투사가 갑자기 시작될 수 있습니다. Canvas zone을 레이저에 할당하기 전에 레이저를 disarm하는 것이 좋습니다.
 {% endhint %}
 
-이제 해당 레이저의 _OUTPUT_ view로 이동하면 canvas zone이 표시됩니다. 이 zone은 다른 beam zone과 동일하게 편집할 수 있습니다. [Zones](../output-view/zones.md "mention")를 참조하세요.
+이제 해당 레이저의 _OUTPUT_ view로 이동하면 canvas zone이 표시됩니다. 이 zone은 다른 beam zone과 동일하게 편집할 수 있습니다. [Zones](../output-view/zones.md)을 참조하세요.
 
 {% hint style="info" %}
 _OUTPUT_ view에서 레이저에 Canvas zone을 직접 추가할 수도 있습니다. 왼쪽 툴바에서 _Add existing canvas zone_ 버튼을 클릭하세요.

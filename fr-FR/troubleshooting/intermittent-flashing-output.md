@@ -22,16 +22,11 @@ Vous avez alors probablement un problème de réseau ou de performances CPU :
 
 **Performances CPU**
 
-Si vous avez une machine ancienne ou peu puissante, elle peut être trop lente pour exécuter Liberation. Vérifiez l’indicateur de fréquence d’images sur le côté droit de la barre d’icônes.
+Si vous avez une machine ancienne ou peu puissante, elle peut être trop lente pour exécuter Liberation. Vérifiez l’indicateur de fréquence d’images dans la barre supérieure.
 
 Deux nombres sont affichés : la fréquence d’images réelle et la fréquence d’images cible. Si la fréquence réelle descend sous 30, vous pouvez rencontrer des problèmes.
 
-Les actions suivantes peuvent aider :
-
-* Supprimez les lasers inutilisés, par exemple si vous n’avez qu’un seul laser connecté, supprimez les autres.
-* Passez à la vue Output ou Canvas.
-* Fermez tous les autres programmes, vérifiez les paramètres du pare-feu réseau, fermez l’antivirus, Dropbox, etc.
-* Réduisez la résolution de votre écran et diminuez la taille de la fenêtre Liberation.
+Pour savoir comment réduire la charge sur votre ordinateur, consultez [Améliorer les performances sur les machines anciennes](improving-performance-on-older-machines.md).
 
 Si rien de tout cela ne fonctionne, envisagez de mettre à niveau votre ordinateur.
 

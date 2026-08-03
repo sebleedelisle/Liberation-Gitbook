@@ -41,7 +41,7 @@ Ten en cuenta que las correcciones de orientación / espejado no cambian nada en
 
 ### Copy laser settings
 
-Consulta [#copy-laser-settings](laser-settings.md#copy-laser-settings "mention").
+Consulta [#copy-laser-settings](laser-settings.md#copy-laser-settings).
 
 ### Scanner settings
 
@@ -56,8 +56,10 @@ Aunque los ajustes predeterminados son bastante conservadores, puedes dañar los
 {% endhint %}
 
 {% hint style="info" %}
-Este ajuste de velocidad no cambia la tasa de puntos; en su lugar, ajusta cuánto se separan esos puntos entre sí. Para más información, consulta [◼️ Cómo genera Liberation contenido láser](../advanced/how-liberation-generates-laser-content.md "mention")
+Este ajuste de velocidad no cambia la tasa de puntos; en su lugar, ajusta cuánto se separan esos puntos entre sí. Para más información, consulta [◼️ Cómo genera Liberation contenido láser](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
+
+Si quieres experimentar con la tasa de puntos, el ángulo de salida y la carga de los scanners fuera de un proyecto de show, consulta [🟩 Especificaciones de los scanners y Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
 
 #### **Scanner sync (blank shift)**
 
@@ -73,12 +75,12 @@ Si ves pequeñas «colas» en la salida del láser, probablemente sea porque Sca
 
 #### Scanner presets
 
-Usa esto para elegir un ajuste de scanner prediseñado. La opción predeterminada suele ir bien, así que no deberías necesitar cambiar este ajuste a menos que tengas scanners especialmente malos (o buenos). Si quieres profundizar más, consulta [◼️ Preajustes de escáner y perfiles de renderizado](../advanced/scanner-presets.md "mention")
+Usa esto para elegir un ajuste de scanner prediseñado. La opción predeterminada suele ir bien, así que no deberías necesitar cambiar este ajuste a menos que tengas scanners especialmente malos (o buenos). Si quieres profundizar más, consulta [◼️ Preajustes de scanner y perfiles de renderizado](../advanced/scanner-presets.md)
 
 #### Colour calibration
 
-Puedes usar este sistema para corregir la curva de brillo y el balance de blancos de tu láser. Consulta [Calibración de color](../advanced/colour-calibration.md "mention")
+Puedes usar este sistema para corregir la curva de brillo y el balance de blancos de tu láser. Consulta [Calibración de color](../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-No deberías necesitar tocar estos ajustes, pero si tienes curiosidad, consulta [◼️ Ajustes avanzados de láser](../advanced/advanced-laser-settings.md "mention")
+No deberías necesitar tocar estos ajustes, pero si tienes curiosidad, consulta [◼️ Ajustes avanzados de láser](../advanced/advanced-laser-settings.md)

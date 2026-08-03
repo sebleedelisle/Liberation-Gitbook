@@ -104,6 +104,7 @@
   * [🟩 색상 보정](advanced/colour-calibration.md)
 * [◼️ 네트워크 관련 조언](network-advice.md)
 * [✅ 문제 해결](troubleshooting/README.md)
+* [✅ 구형 컴퓨터에서 성능 개선하기](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Output이 간헐적으로 끊기거나 깜박임](troubleshooting/intermittent-flashing-output.md)
   * [✅ 라이브 제어](troubleshooting/live-control.md)
   * [✅ 시작 시 리소스 누락 오류](troubleshooting/missing-resources.md)

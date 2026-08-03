@@ -25,6 +25,6 @@ _BOTH_ 設定は注意して使用してください。MIDI デバイスやソ�
 
 ### MIDI マッピング
 
-[MIDI 送受信のデフォルトマッピング](../reference/midi-send-receive-default-mapping.md "mention") を参照してください。
+[MIDI 送受信のデフォルトマッピング](../reference/midi-send-receive-default-mapping.md) を参照してください。
 
 今後、より柔軟にカスタマイズできる MIDI マッピングを追加する予定ですが、それまでは [BOME](https://www.bome.com/products/miditranslator) や [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) などのアプリを使って、Liberation と独自のハードウェア間の変換を行えます。

@@ -11,7 +11,7 @@ metaLinks:
 
 Modifie les couleurs de tout le contenu entrant. Vous pouvez définir des valeurs HSB fixes, ou passer au système de dégradé et échantillonner des couleurs depuis un dégradé personnalisé.
 
-* **hue, saturation, brightness** - les valeurs de couleur, voir [Paramètres de couleur et HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - les valeurs de couleur, voir [Paramètres de couleur et HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - la teinte n’est pas modifiée
   * FIXED - la teinte des éléments est définie sur la valeur de teinte
@@ -28,7 +28,7 @@ Modifie les couleurs de tout le contenu entrant. Vous pouvez définir des valeur
 * **blend** - définit l’intensité d’application du changement de couleur : 0 % signifie aucun effet, 100 % l’effet complet, et 50 % une combinaison entre la couleur existante et les nouvelles valeurs.
 
 {% hint style="info" %}
-Le node Colour Change échantillonne une seule couleur du dégradé pour toute l’entrée. Si vous voulez que le dégradé s’applique sur la forme selon la position, utilisez plutôt [modificateurs basés sur la position](position-based-changers.md "mention").
+Le node Colour Change échantillonne une seule couleur du dégradé pour toute l’entrée. Si vous voulez que le dégradé s’applique sur la forme selon la position, utilisez plutôt [Modificateurs basés sur la position](position-based-changers.md).
 {% endhint %}
 
 ### Éditeur de dégradé

@@ -11,7 +11,7 @@ metaLinks:
 
 들어오는 모든 콘텐츠의 색상을 변경합니다. 고정 HSB 값을 설정하거나, 그라디언트 시스템으로 전환해 사용자 지정 그라디언트에서 색상을 샘플링할 수 있습니다.
 
-* **hue, saturation, brightness** - 색상 값입니다. [색상 설정 및 HSB](../fundamentals/colour-settings-and-hsb.md "mention")를 참고하세요.
+* **hue, saturation, brightness** - 색상 값입니다. [색상 설정 및 HSB](../fundamentals/colour-settings-and-hsb.md)를 참고하세요.
 * **hue mode** -
   * OFF - hue가 변경되지 않습니다.
   * FIXED - 요소의 hue가 hue 값으로 설정됩니다.
@@ -28,7 +28,7 @@ metaLinks:
 * **blend** - Colour changer가 적용되는 강도입니다. 0%는 전혀 적용하지 않음, 100%는 완전히 적용함, 50%는 기존 색상과 새 값을 조합한 상태입니다.
 
 {% hint style="info" %}
-Colour Change node는 전체 입력에 대해 그라디언트에서 색상 하나를 샘플링합니다. 위치에 따라 도형 전체에 그라디언트가 적용되도록 하려면 대신 [위치 기반 변경 node](position-based-changers.md "mention")를 사용하세요.
+Colour Change node는 전체 입력에 대해 그라디언트에서 색상 하나를 샘플링합니다. 위치에 따라 도형 전체에 그라디언트가 적용되도록 하려면 대신 [위치 기반 변경 node](position-based-changers.md)를 사용하세요.
 {% endhint %}
 
 ### 그라디언트 편집기

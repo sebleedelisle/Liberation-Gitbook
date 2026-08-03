@@ -16,7 +16,7 @@ metaLinks:
 
 这也意味着你可以针对不同扫描器，在不同激光上调节同一内容，而无需修改 Clips 本身。&#x20;
 
-更多细节见 [◼️ Liberation 如何生成激光内容](../../advanced/how-liberation-generates-laser-content.md "mention")。
+更多细节见 [◼️ Liberation 如何生成激光内容](../../advanced/how-liberation-generates-laser-content.md)。
 {% endhint %}
 
 有三个预设 _Render Profiles_：_DEFAULT_、_FAST_ 和 _DETAIL_。&#x20;
@@ -28,5 +28,5 @@ _**FAST** -_ 如果你的 Clip 内容很多且包含大量简单点和直线，�
 _**DETAIL**_ - 需要清晰锐利的转角时使用，但扫描器会更慢，输出可能更闪烁。&#x20;
 
 {% hint style="info" %}
-在 Clip Editor 中，你可以将 Creators 分配到不同的 render profiles，但每台激光会根据各自的扫描器设置来处理这些 profiles。见 [◼️ 扫描器预设与 render profiles](../../advanced/scanner-presets.md "mention")。
+在 Clip Editor 中，你可以将 Creator 分配到不同的 render profile，但每台激光都会根据各自的扫描器设置来处理这些 profile。见 [◼️ 扫描器预设与 render profile](../../advanced/scanner-presets.md)。
 {% endhint %}

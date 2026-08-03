@@ -22,7 +22,7 @@ Dipende da quanti laser vuoi controllare. Se usi solo pochi laser, va bene anche
 
 #### **Quanti laser posso controllare con Liberation?**
 
-Liberation può gestire molti laser su un solo computer: è stato testato con oltre 100 controller laser, quindi la risposta dipende da:
+Liberation può gestire molti, moltissimi laser su un solo computer: è stato testato con oltre 100 laser, quindi la risposta dipende da:
 
 * la CPU del tuo computer
 * la velocità della rete
@@ -30,13 +30,13 @@ Liberation può gestire molti laser su un solo computer: è stato testato con ol
 
 #### **Quali controller MIDI posso usare?**
 
-Liberation è stato progettato e ottimizzato intorno al popolare controller MIDI APC40 Mk2. Funziona anche con APC40 Mk1. Vedi [Controller MIDI live](midi-control/live-control-with-the-apc40.md "mention")
+Liberation è stato progettato e ottimizzato intorno al popolare controller MIDI APC40 Mk2. Funziona anche con APC40 Mk1. Vedi [Controller MIDI live](midi-control/live-control-with-the-apc40.md)
 
 Liberation supporta anche APC Mini e MIDI Fighter Twister. APC40 Mk2 resta comunque il controller di riferimento più completo.
 
-È disponibile anche il sistema MIDI Send/Receive, che offre controlli MIDI aggiuntivi. Vedi [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
+È disponibile anche il sistema MIDI Send/Receive, che offre controlli MIDI aggiuntivi. Vedi [MIDI Send/Receive](midi-control/midi-send-receive.md)
 
-Vedi [Controllo MIDI](midi-control/ "mention") per maggiori informazioni.
+Vedi [Controllo MIDI](midi-control/) per maggiori informazioni.
 
 #### **Posso usarlo con qualsiasi controller MIDI?**
 
@@ -53,7 +53,7 @@ Per altri controller, usa il sistema MIDI Send/Receive oppure un traduttore MIDI
 * protocollo di rete LaserCube (con connessione cablata)
 * AVB come usato dai [laser LASollinger](https://laseranimation.com/en/) (attualmente solo macOS, in fase di test)
 
-Vedi [Laser e controller compatibili (DAC)](hardware/compatible-lasers-and-controllers-dacs.md "mention") per maggiori informazioni
+Vedi [Laser e controller compatibili (DAC)](hardware/compatible-lasers-and-controllers-dacs.md) per maggiori informazioni
 
 #### **Perché non supportate il controller laser \[di un altro marchio]?**
 
@@ -69,11 +69,11 @@ Se il tuo laser dispone di uno dei seguenti elementi, puoi usarlo con Liberation
 * Un’**unità X-Laser con sistema Mercury integrato** (in modalità Ether Dream).
 * Un **proiettore LaserAnimation Sollinger con AVB integrato** (solo macOS, richiede dispositivi di rete compatibili con AVB, attualmente in fase di test).
 
-Vedi [Laser e controller compatibili (DAC)](hardware/compatible-lasers-and-controllers-dacs.md "mention") per maggiori informazioni
+Vedi [Laser e controller compatibili (DAC)](hardware/compatible-lasers-and-controllers-dacs.md) per maggiori informazioni
 
 #### **Posso usare Liberation con il mio LaserCube?**
 
-Sì, Liberation funziona direttamente con qualsiasi LaserCube. Vedi [LaserCube](hardware/lasercube.md "mention")
+Sì, Liberation funziona direttamente con qualsiasi LaserCube. Vedi [LaserCube](hardware/lasercube.md)
 
 ## Licenze
 
@@ -89,23 +89,35 @@ Tieni presente che puoi configurare, visualizzare in anteprima e progettare show
 
 #### **Posso passare a un livello superiore?**
 
-Puoi passare a un livello superiore in qualsiasi momento. Riceverai un rimborso parziale per il tempo rimanente nel periodo pagato corrente e il nuovo livello di licenza inizierà immediatamente. Vedi [Aggiornare o ridurre il livello della licenza](installation/upgrade-downgrade-your-license.md "mention")
+Puoi passare a un livello superiore in qualsiasi momento. Riceverai un rimborso parziale per il tempo rimanente nel periodo pagato corrente e il nuovo livello di licenza inizierà immediatamente. Vedi [Aggiornare o ridurre il livello della licenza](installation/upgrade-downgrade-your-license.md)
 
 #### **Posso passare a un livello inferiore?**
 
-Puoi passare a un livello inferiore in qualsiasi momento, ma la modifica avrà effetto alla fine del periodo pagato corrente. Vedi [Aggiornare o ridurre il livello della licenza](installation/upgrade-downgrade-your-license.md "mention")
+Puoi passare a un livello inferiore in qualsiasi momento, ma la modifica avrà effetto alla fine del periodo pagato corrente. Vedi [Aggiornare o ridurre il livello della licenza](installation/upgrade-downgrade-your-license.md)
 
 #### **Posso mettere in pausa i pagamenti della mia licenza?**
 
-Sì. La licenza può essere messa in pausa alla prossima data di abbonamento e riavviata in qualsiasi momento. È utile se usi Liberation a periodi alterni e non vuoi dover reinserire i dati della carta. Vedi [Mettere in pausa o annullare i pagamenti](installation/cancel-your-subscription.md "mention")
+Sì. La licenza può essere messa in pausa alla prossima data di abbonamento e riavviata in qualsiasi momento. È utile se usi Liberation a periodi alterni e non vuoi dover reinserire i dati della carta. Vedi [Mettere in pausa o annullare i pagamenti](installation/cancel-your-subscription.md)
 
 #### **Come faccio ad annullare definitivamente la mia licenza?**
 
-Puoi annullare la tua licenza ricorrente in qualsiasi momento; verrà disattivata automaticamente alla fine del periodo pagato corrente. Vedi [Mettere in pausa o annullare i pagamenti](installation/cancel-your-subscription.md "mention")
+Puoi annullare la tua licenza ricorrente in qualsiasi momento; verrà disattivata automaticamente alla fine del periodo pagato corrente. Vedi [Mettere in pausa o annullare i pagamenti](installation/cancel-your-subscription.md)
+
+#### **Perché Liberation è in abbonamento?**
+
+In breve, perché questo mantiene Liberation sostenibile, attivamente sviluppato ed equo, permettendo comunque a tutti di aprire, modificare, salvare, provare e visualizzare in anteprima gli show senza pagare.
+
+Ho scritto qualcosa in più sul ragionamento alla base di questa scelta qui: [Perché Liberation usa un abbonamento](https://liberationlaser.com/articles/why-a-subscription).
+
+#### **Posso ottenere una licenza perpetua o a lungo termine per la mia installazione / produzione in tour?**
+
+Per installazioni permanenti e produzioni in tour sono disponibili licenze prepagate annuali (o anche pluriennali). Scrivi a [billing@liberationlaser.com](mailto:billing@liberationlaser.com) se vuoi configurarne una.
+
+Al momento non sono disponibili licenze perpetue. Per maggiori informazioni sul contesto, vedi [Perché Liberation usa un abbonamento](https://liberationlaser.com/articles/why-a-subscription).
 
 #### **Come autorizzo il mio computer con la mia licenza?**
 
-Dopo aver acquistato una licenza, puoi autorizzare il computer direttamente dal software Liberation. Nella schermata _About_ vedrai un pulsante _Authorise_ che ti chiederà di accedere al sito web. Segui le istruzioni sullo schermo per completare il processo di autorizzazione. Vedi [Autorizzazione e rimozione dell’autorizzazione](installation/authorising-and-de-authorising.md "mention")
+Dopo aver acquistato una licenza, puoi autorizzare il computer direttamente dal software Liberation. Nella schermata _About_ vedrai un pulsante _Authorise_ che ti chiederà di accedere al sito web. Segui le istruzioni sullo schermo per completare il processo di autorizzazione. Vedi [Autorizzazione e rimozione dell’autorizzazione](installation/authorising-and-de-authorising.md)
 
 #### **Con quale frequenza devo collegare il computer a Internet?**
 
@@ -121,7 +133,7 @@ Riceverai una notifica email dal nostro provider di pagamento e dovrai aggiornar
 
 #### **Su quanti computer posso installare Liberation?**
 
-Puoi installare Liberation su tutti i computer che vuoi. Le autorizzazioni della licenza sono necessarie solo per abilitare l’uscita laser / DMX, e il livello della tua licenza determina quanti computer possono essere autorizzati per l’output contemporaneamente. Vedi [Come funziona la licenza](installation/how-licensing-works.md "mention")
+Puoi installare Liberation su tutti i computer che vuoi. Le autorizzazioni della licenza sono necessarie solo per abilitare l’uscita laser / DMX, e il livello della tua licenza determina quanti computer possono essere autorizzati per l’output contemporaneamente. Vedi [Come funziona la licenza](installation/how-licensing-works.md)
 
 #### **Come sposto la mia licenza da un computer a un altro?**
 
@@ -131,7 +143,7 @@ Puoi installare Liberation su tutti i computer che vuoi. Le autorizzazioni della
 * Fai clic sul pulsante _Authorise this computer_ nella schermata _About_.
 * Si aprirà il sito web: effettua l’accesso e segui le istruzioni sullo schermo per completare l’autorizzazione
 
-Puoi anche rimuovere da remoto l’autorizzazione di un computer a cui non hai più accesso (con alcune limitazioni). Vedi [Autorizzazione e rimozione dell’autorizzazione](installation/authorising-and-de-authorising.md "mention")
+Puoi anche rimuovere da remoto l’autorizzazione di un computer a cui non hai più accesso (con alcune limitazioni). Vedi [Autorizzazione e rimozione dell’autorizzazione](installation/authorising-and-de-authorising.md)
 
 #### **Posso rimuovere l’autorizzazione di Liberation su un computer perso o rubato?**
 
@@ -143,11 +155,11 @@ In caso contrario, la rimozione dell’autorizzazione avrà effetto al successiv
 
 #### La configurazione predefinita ha 8 laser: come la modifico?
 
-Vedi [Configurare il progetto](setting-up/setting-up-your-project.md "mention") e [Aggiungere o rimuovere laser](setting-up/adding-removing-lasers.md "mention")
+Vedi [Configurare il progetto](setting-up/setting-up-your-project.md) e [Aggiungere o rimuovere laser](setting-up/adding-removing-lasers.md)
 
 #### Posso copiare le impostazioni delle zone da un laser agli altri?
 
-Sì! Vedi [Copiare le zone tra laser](output-view/copy-zones-between-lasers.md "mention")
+Sì! Vedi [Copiare le zone tra laser](output-view/copy-zones-between-lasers.md)
 
 #### Posso digitare un numero invece di usare uno slider?
 
@@ -155,42 +167,42 @@ Sì. Fai `Cmd / Ctrl`-clic sullo slider e potrai inserire il valore con la tasti
 
 #### **Come sincronizzo Liberation con la musica?**
 
-Liberation include un sistema intelligente di "tap tempo" che funziona come ti aspetteresti, ma puoi anche usare un clock MIDI esterno o Ableton Link. Vedi [Tempo / sincronizzazione](tempo-synchronisation.md "mention"). La timeline può essere sincronizzata al timecode LTC/SMPTE in ingresso tramite qualsiasi interfaccia audio. Vedi [Timecode](timecode.md "mention").
+Liberation include un sistema intelligente di "tap tempo" che funziona come ti aspetteresti, ma puoi anche usare un clock MIDI esterno o Ableton Link. Vedi [Tempo / sincronizzazione](tempo-synchronisation.md). La timeline può essere sincronizzata al timecode LTC/SMPTE in ingresso tramite qualsiasi interfaccia audio. Vedi [Timecode](timecode.md).
 
 #### Quali impostazioni devo regolare per ottenere il miglior output dal laser?
 
-L’impostazione principale è _Scanner Sync_, che compensa il leggero ritardo tra il movimento degli specchi e il cambio di luminosità dei laser. Se i punti o i beam del laser hanno piccole “code”, dovrai regolare questa impostazione. (Vedi le foto nella pagina [Pannello Laser Settings](setting-up/laser-settings.md "mention") per un esempio di “code”)
+L’impostazione principale è _Scanner Sync_, che compensa il leggero ritardo tra il movimento degli specchi e il cambio di luminosità dei laser. Se i punti o i beam del laser hanno piccole “code”, dovrai regolare questa impostazione. (Vedi le foto nella pagina [Pannello Laser Settings](setting-up/laser-settings.md) per un esempio di “code”)
 
 Puoi anche provare a modificare la velocità dello scanner: più lenta se gli scanner sono di base, oppure più veloce se sono di buona qualità. Ma **usala con cautela, perché puoi danneggiare gli scanner se li spingi troppo.**
 
 Sono disponibili anche alcune impostazioni scanner predefinite. L’opzione predefinita è conservativa e va bene per la maggior parte delle esigenze di beam laser. Ci sono però altri preset per scanner migliori, e preset ottimizzati per la grafica.
 
-Per maggiori informazioni, vedi [Pannello Laser Settings](setting-up/laser-settings.md "mention"); per informazioni su come creare i tuoi preset, vedi [◼️ Preset scanner e profili di rendering](advanced/scanner-presets.md "mention") (avanzato, in corso)
+Per maggiori informazioni, vedi [Pannello Laser Settings](setting-up/laser-settings.md); per informazioni su come creare i tuoi preset, vedi [◼️ Preset scanner e profili di rendering](advanced/scanner-presets.md) (avanzato, in corso)
 
-Puoi anche correggere il bilanciamento del colore usando le impostazioni _Colour calibration_. Vedi [Calibrazione del colore](advanced/colour-calibration.md "mention") (tecnica avanzata)
+Puoi anche correggere il bilanciamento del colore usando le impostazioni _Colour calibration_. Vedi [Calibrazione del colore](advanced/colour-calibration.md) (tecnica avanzata)
 
 #### Cosa fa l’impostazione _Latency(ms)_?
 
-È la latenza dei frame, cioè il tempo massimo tra la generazione di un frame e il suo successivo invio a un laser. Non dovresti aver bisogno di modificarla, ma se hai problemi di rete puoi provare ad aumentarla. Vedi [Impostazione della latenza](setting-up/latency-setting.md "mention") per maggiori dettagli.
+È la latenza dei frame, cioè il tempo massimo tra la generazione di un frame e il suo successivo invio a un laser. Non dovresti aver bisogno di modificarla, ma se hai problemi di rete puoi provare ad aumentarla. Vedi [Impostazione della latenza](setting-up/latency-setting.md) per maggiori dettagli.
 
 ### Clips
 
 #### Come regolo zones e impostazioni di un Clip senza eseguirlo?
 
-Fai `Alt / Option`-clic per renderlo il _Clip attualmente selezionato_ senza però attivarlo. Vedi anche [Avviare e fermare Clips](clips/starting-stopping-clips.md "mention")
+Fai `Alt / Option`-clic per renderlo il _Clip attualmente selezionato_ senza però attivarlo. Vedi anche [Avviare e fermare Clips](clips/starting-stopping-clips.md)
 
 #### Come copio i Clips?
 
-Fai clic e trascina tenendo premuto il tasto `Alt / Option`. Vedi anche [Organizzare il Clip Deck](clips/organising-your-clip-deck.md "mention")
+Fai clic e trascina tenendo premuto il tasto `Alt / Option`. Vedi anche [Organizzare il Clip Deck](clips/organising-your-clip-deck.md)
 
 #### Come elimino i Clips?
 
-Fai clic e trascinali fuori dal Clip Deck. Vedi anche [Organizzare il Clip Deck](clips/organising-your-clip-deck.md "mention")
+Fai clic e trascinali fuori dal Clip Deck. Vedi anche [Organizzare il Clip Deck](clips/organising-your-clip-deck.md)
 
 #### Come faccio selezioni multiple, elimino, combino Clip Deck ecc.?
 
-Vedi [Organizzare il Clip Deck](clips/organising-your-clip-deck.md "mention")
+Vedi [Organizzare il Clip Deck](clips/organising-your-clip-deck.md)
 
 #### Che cosa indicano il piccolo simbolo del microfono e le altre icone sul Clip?
 
-Servono a indicare che un Clip riceve input audio o MIDI, mentre i 3 puntini indicano che è presente un ritardo di zone. Vedi [Che cosa sono le piccole icone sui pulsanti dei Clip?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+Servono a indicare che un Clip riceve input audio o MIDI, mentre i 3 puntini indicano che è presente un ritardo di zone. Vedi [Che cosa sono le piccole icone sui pulsanti dei Clip?](clips/what-are-the-small-icons-on-the-clip-buttons.md)

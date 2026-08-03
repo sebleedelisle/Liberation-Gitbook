@@ -11,7 +11,7 @@ metaLinks:
 
 Modifica i colori di tutto il contenuto in ingresso. Puoi impostare valori HSB fissi oppure passare al sistema a gradiente e campionare i colori da un gradiente personalizzato.
 
-* **hue, saturation, brightness** - i valori del colore, vedi [Impostazioni colore e HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - i valori del colore, vedi [Impostazioni colore e HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - la tonalità non viene modificata
   * FIXED - la tonalità degli elementi viene impostata sul valore di hue
@@ -28,7 +28,7 @@ Modifica i colori di tutto il contenuto in ingresso. Puoi impostare valori HSB f
 * **blend** - quanto viene applicato il modificatore di colore: 0% significa per niente, 100% completamente, e 50% è una combinazione tra il colore esistente e i nuovi valori.
 
 {% hint style="info" %}
-Il node Colour Change campiona un solo colore dal gradiente per tutto l’input. Se vuoi che il gradiente si distribuisca sulla forma in base alla posizione, usa invece [modificatori basati sulla posizione](position-based-changers.md "mention").
+Il node Colour Change campiona un solo colore dal gradiente per tutto l’input. Se vuoi che il gradiente si distribuisca sulla forma in base alla posizione, usa invece [modificatori basati sulla posizione](position-based-changers.md).
 {% endhint %}
 
 ### Editor del gradiente

@@ -22,16 +22,11 @@ Dan heb je waarschijnlijk een probleem met je netwerk of met de CPU-prestaties :
 
 **CPU-prestaties**
 
-Als je een oude of lichte machine hebt, kan deze te langzaam zijn om Liberation te draaien. Controleer de framerate-indicator aan de rechterkant van de iconenbalk.
+Als je een oude of minder krachtige computer hebt, kan deze te langzaam zijn om Liberation te draaien. Controleer de framerate-indicator in de top bar.
 
 Daar staan twee getallen: de actuele framerate en de doelframerate. Als de actuele framerate onder de 30 zakt, kun je problemen krijgen.
 
-De volgende acties kunnen helpen :
-
-* verwijder ongebruikte lasers; als je bijvoorbeeld maar één laser hebt aangesloten, verwijder dan de andere.
-* Schakel over naar de Output- of Canvas-weergave
-* Sluit alle andere programma’s, controleer de instellingen van je netwerkfirewall en sluit antivirus, Dropbox, enz.
-* Verlaag je schermresolutie en maak het Liberation-venster kleiner
+Zie [Prestaties verbeteren op oudere computers](improving-performance-on-older-machines.md) voor manieren om de belasting van je computer te verminderen.
 
 Als niets hiervan werkt, overweeg dan om je computer te upgraden.
 

@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-你在大多数项目中使用的主要 Zone 类型是 _Beam zone_，用于空气中的光束效果。另一种是 _Canvas zone_（见 [Graphics 与 Canvas 系统](../graphics-and-the-canvas-system/ "mention")）。&#x20;
+你在大多数项目中使用的主要 zone 类型是 _Beam zone_，用于空气中的光束效果。另一种是 _Canvas zone_（见 [Graphics 与 Canvas 系统](../graphics-and-the-canvas-system/)）。
 
 {% hint style="danger" %}
-**警告 - 在激光运行时移动 zone 必须极度谨慎**，并将亮度降到最低。关于如何安全启用激光并设置 zone 的完整指南，见 [激光设置流程概览](../setting-up/setting-up-lasers.md "mention")。
+**警告 - 在激光运行时移动 zone 必须极度谨慎**，并将亮度降到最低。关于如何安全启用激光并设置 zone 的完整指南，见 [激光设置流程概览](../setting-up/setting-up-lasers.md)。
 {% endhint %}
 
 你可以用鼠标点击并拖动 Zones。打开测试图案以观察该 Zone 的位置。&#x20;
@@ -19,16 +19,16 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-小技巧：可以快速在多台激光之间复制 zone 设置！见 [在激光之间复制设置](../setting-up/copy-laser-settings.md "mention")。
+小技巧：可以快速在多台激光之间复制 zone 设置！见 [在激光之间复制设置](../setting-up/copy-laser-settings.md)。
 {% endhint %}
 
 ### 添加新的 beam zone
 
-点击工具栏顶部的 _Add a new beam zone_ 按钮，新的 zone 会出现。注意，beam zone 会按添加顺序排序，但也可以重新排序。见 [重新排序 beam zone](re-ordering-beam-zones.md "mention")。
+点击工具栏顶部的 _Add a new beam zone_ 按钮，新的 zone 会出现。注意，beam zone 会按添加顺序排序，但也可以重新排序。见 [重新排序 beam zone](re-ordering-beam-zones.md)。
 
 ### 添加已有的 canvas zone
 
-点击 _Add existing canvas zone_ 按钮，会显示可用的 canvas zones 列表，可为该激光启用或关闭。见 [Graphics 与 Canvas 系统](../graphics-and-the-canvas-system/ "mention")。
+点击 _Add existing canvas zone_ 按钮，会显示可用的 canvas zone 列表，可为该激光启用或关闭。见 [Graphics 与 Canvas 系统](../graphics-and-the-canvas-system/)。
 
 ### Zone 形状类型
 
@@ -47,7 +47,7 @@ metaLinks:
 * 重置为默认位置
 * 访问形状特定设置
 * 删除&#x20;
-* 添加 _Alt Zone_（见 [Alt Zone 系统](alt-zone-system.md "mention")）
+* 添加 _Alt Zone_（见 [Alt Zone 系统](alt-zone-system.md)）
 
 {% hint style="danger" %}
 **警告 -** 激光启用时切换 Zone 类型务必小心。Zone 会恢复到该形状上次的大小/位置，输出可能突然变化。最好在切换 Zone 类型前先关闭激光。&#x20;

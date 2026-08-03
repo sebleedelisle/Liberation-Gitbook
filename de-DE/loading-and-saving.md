@@ -14,7 +14,7 @@ Du kannst dein Setup aber auch exportieren, um es zu sichern oder auf einen ande
 
 Die Projektdatei speichert fast alles aus deinem aktuellen Setup, einschließlich:
 
-* Alles, was unten unter [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention") beschrieben ist
+* Alles, was unten unter [Laser Settings importieren/exportieren](loading-and-saving.md#laser-settings-import-export) beschrieben ist
 * Clips, Effekte und Gruppeneinstellungen
 * Alle deine Timelines (ohne Audio- und Videomedien)
 * Art-Net-Setup
@@ -23,14 +23,14 @@ Die Projektdatei speichert fast alles aus deinem aktuellen Setup, einschließlic
 
 Derzeit werden nicht gespeichert und geladen:
 
-* Sound- und MIDI-Eingangseinstellungen, wie sie im MIDI-Notes-Node und im Sound Input Oscillator verwendet werden (MIDI-Sende-/Empfangseinstellungen sowie der Timecode-Soundeingang werden _gespeichert_)
+* Sound- und MIDI-Eingangseinstellungen, wie sie im MIDI-Notes-node und im Sound Input Oscillator verwendet werden (MIDI-Sende-/Empfangseinstellungen sowie der Timecode-Soundeingang werden _gespeichert_)
 * Interface-Skalierung
 * Medien für Canvas-Hilfsbilder
 * Sound- und Videomedien für Timelines
 * Schriftarten, die im Text-Node verwendet werden
 
 {% hint style="danger" %}
-Sound- und Videodateien in der Timeline werden nicht mit Projektdateien gespeichert. Speichere sie daher separat, wenn du sie auf einen anderen Computer übertragen möchtest. Siehe [Laden und Speichern](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Sound- und Videodateien in der Timeline werden nicht mit Projektdateien gespeichert. Speichere sie daher separat, wenn du sie auf einen anderen Computer übertragen möchtest. Siehe [Wichtiger Hinweis zu Timeline-Mediendateien](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Laser-Settings Import / Export
@@ -67,7 +67,7 @@ Du kannst Clips aus einer exportierten Clip-Deck-Datei mit _Append Clip Deck_ zu
 Alle aktuell ausgewählten Clips werden in eine Datei exportiert. Gruppeneinstellungen und Effekte werden nicht gespeichert, nur die Clips. Beachte, dass aktuell laufende aktive Clips nicht exportiert werden, sofern sie nicht ebenfalls ausgewählt sind.
 
 {% hint style="info" %}
-Option/Alt - shift - click Clips, um sie auszuwählen (oder verwende das Lasso). Ausgewählte Clips erkennst du an der dicken weißen Umrandung. Siehe [Clips starten / stoppen](clips/starting-stopping-clips.md "mention")
+Option/Alt - shift - click Clips, um sie auszuwählen (oder verwende das Lasso). Ausgewählte Clips erkennst du an der dicken weißen Umrandung. Siehe [Clips starten/stoppen](clips/starting-stopping-clips.md)
 {% endhint %}
 
 ### Effects Import / Export
@@ -82,12 +82,12 @@ Um nur die Effekte aus einem Projekt zu importieren, wähle _**Effects->Import E
 
 ### Timeline-Export
 
-Exportiert eine Timeline-Datei mit einer oder mehreren Timelines. Beachte, dass das Clip Deck immer in exportierten Timeline-Dateien enthalten ist (du kannst jedoch auswählen, welche Clips du wieder importierst, siehe [#timeline-import](loading-and-saving.md#timeline-import "mention") unten).
+Exportiert eine Timeline-Datei mit einer oder mehreren Timelines. Beachte, dass das Clip Deck immer in exportierten Timeline-Dateien enthalten ist (du kannst jedoch auswählen, welche Clips du wieder importierst, siehe [Timeline-Import](loading-and-saving.md#timeline-import) unten).
 
 Wenn dein Projekt mehr als eine Timeline enthält, öffnet sich ein Panel, in dem du auswählen kannst, welche Timelines exportiert werden sollen.
 
 {% hint style="danger" %}
-Sound- und Videodateien in der Timeline werden nicht mit Timeline-Dateien gespeichert. Speichere sie daher separat, wenn du deine Inhalte auf einen anderen Computer übertragen möchtest. Siehe [Laden und Speichern](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Sound- und Videodateien in der Timeline werden nicht mit Timeline-Dateien gespeichert. Speichere sie daher separat, wenn du deine Inhalte auf einen anderen Computer übertragen möchtest. Siehe [Wichtiger Hinweis zu Timeline-Mediendateien](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Timeline-Import

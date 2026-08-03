@@ -20,17 +20,17 @@ Liberation은 실제 레이저가 전혀 연결되어 있지 않아도 레이저
 Liberation 안에서는 원하는 만큼 많은 레이저를 설정하고 시각화할 수 있습니다. 라이선스 등급(Hobbyist, Pro 등)은 _arm_할 수 있는 레이저 수만 제한합니다. 즉, 무료 라이선스에서도 100대의 레이저로 구성된 레이저 쇼를 설계할 수 있습니다. 실제 레이저에서 실행할 때만 업그레이드가 필요합니다.
 {% endhint %}
 
-기본 설정은 레이저 8대가 가로로 배치되어 있지만, 원하는 방식으로 자유롭게 변경할 수 있습니다. 소프트웨어에 익숙해지는 동안에는 이 기본 설정을 유지하는 것이 좋고, 나중에 실제 하드웨어 구성에 맞게 조정하면 됩니다. ([프로젝트 설정하기](setting-up/setting-up-your-project.md "mention") 참조)
+기본 설정은 레이저 8대가 가로로 배치되어 있지만, 원하는 방식으로 자유롭게 변경할 수 있습니다. 소프트웨어에 익숙해지는 동안에는 이 기본 설정을 유지하는 것이 좋고, 나중에 실제 하드웨어 구성에 맞게 조정하면 됩니다. ([프로젝트 설정하기](setting-up/setting-up-your-project.md) 참조)
 
 {% hint style="warning" %}
-중요: 레이저를 준비 상태로 전환하기 전에 관련 위험을 반드시 이해하고 [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention") 장을 주의 깊게 확인하세요.
+중요: 레이저를 준비 상태로 전환하기 전에 관련 위험을 반드시 이해하고 [레이저 설정 절차 개요](setting-up/setting-up-lasers.md) 장을 주의 깊게 확인하세요.
 {% endhint %}
 
 ## 소프트웨어 개요
 
 ### 안전 차단
 
-레이저를 사용할 때는 항상 **하드웨어 비상 정지 버튼**을 가까이에 두어야 합니다([비상 정지 / 인터록](hardware/emergency-stop-interlocks.md "mention") 참조). 긴급 상황은 아니지만 전체를 해제 상태로 전환하고 싶다면 _**DISARM ALL**_ 버튼이나 `Escape` 키(또는 APC40의 _**SESSION**_ 키)를 사용할 수 있습니다. 화면의 슬라이더나 APC40의 메인 페이더로 전체 밝기를 낮출 수도 있습니다.
+레이저를 사용할 때는 항상 **하드웨어 비상 정지 버튼**을 가까이에 두어야 합니다([비상 정지 / 인터록](hardware/emergency-stop-interlocks.md) 참조). 긴급 상황은 아니지만 전체를 해제 상태로 전환하고 싶다면 _**DISARM ALL**_ 버튼이나 `Escape` 키(또는 APC40의 _**SESSION**_ 키)를 사용할 수 있습니다. 화면의 슬라이더나 APC40의 메인 페이더로 전체 밝기를 낮출 수도 있습니다.
 
 ### 슬라이더 요소
 
@@ -42,7 +42,7 @@ Liberation 전반에는 다양한 슬라이더와 컨트롤이 있습니다.
 
 ### 키보드 단축키
 
-전체 키보드 단축키 목록은 여기에서 확인할 수 있습니다: [키보드 단축키](reference/keyboard-shortcuts.md "mention")
+전체 키보드 단축키 목록은 여기에서 확인할 수 있습니다: [키보드 단축키](reference/keyboard-shortcuts.md)
 
 ### 화면 구성
 
@@ -74,7 +74,7 @@ Menu에서는 모든 파일 가져오기/내보내기 옵션과 패널 열기 �
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view는 레이저가 어떻게 보일지 보여 주며, 실제 레이저 구성에 맞게 설정할 수 있습니다. 클릭하고 드래그하면 카메라가 회전하고, 마우스 휠을 사용하면 앞뒤로 이동합니다. 그 밖의 다양한 옵션은 _3D Visualiser settings_ 패널(_View -> 3D Visualiser Settings_)에서 찾을 수 있습니다. [3D Visualiser](setting-up/3d-visualiser.md "mention")를 참조하세요.
+3D view는 레이저가 어떻게 보일지 보여 주며, 실제 레이저 구성에 맞게 설정할 수 있습니다. 클릭하고 드래그하면 카메라가 회전하고, 마우스 휠을 사용하면 앞뒤로 이동합니다. 그 밖의 다양한 옵션은 _3D Visualiser settings_ 패널(_View -> 3D Visualiser Settings_)에서 찾을 수 있습니다. [3D Visualiser](setting-up/3d-visualiser.md)를 참조하세요.
 
 #### Output View
 
@@ -106,11 +106,11 @@ _Laser Overview_ 패널의 빨간색 ⊖ 버튼을 눌러 구성에서 레이저
 
 왼쪽에는 여러 아이콘 버튼이 있는 바가 있습니다. 버튼 위에 마우스를 올리면 해당 기능 설명을 볼 수 있습니다. 여기의 버튼으로 beam 존, canvas 존, 마스크를 추가할 수 있습니다. 이 레이저에만 적용되는 테스트 패턴 설정과 그리드 및 스냅 설정 옵션도 있습니다.
 
-자세한 내용은 [Output 보기](output-view/ "mention")를 참조하세요.
+자세한 내용은 [Output 보기](output-view/)를 참조하세요.
 
 #### Canvas
 
-Canvas 시스템은 주로 그래픽과 건축 매핑에 사용됩니다. 복잡한 이미지를 여러 레이저에 분산하고, 각 섹션을 원근 보정할 수 있습니다. [그래픽과 Canvas 시스템](graphics-and-the-canvas-system/ "mention")을 참조하세요.
+Canvas 시스템은 주로 그래픽과 건축 매핑에 사용됩니다. 복잡한 이미지를 여러 레이저에 분산하고, 각 섹션을 원근 보정할 수 있습니다. [그래픽과 Canvas 시스템](graphics-and-the-canvas-system/)을 참조하세요.
 
 ### APC40 MIDI 컨트롤러
 
@@ -118,7 +118,7 @@ Canvas 시스템은 주로 그래픽과 건축 매핑에 사용됩니다. 복잡
 
 마우스와 키보드로 Liberation을 제어할 수도 있지만, APC40 MIDI 컨트롤 인터페이스를 사용하는 것이 훨씬 좋습니다(Mark 2가 가장 좋지만 Mark 1도 동작합니다).
 
-함께 참조: [APC40 레퍼런스](reference/apc40-reference.md "mention")
+함께 참조: [APC40 레퍼런스](reference/apc40-reference.md)
 
 Liberation은 APC Mini와 MIDI Fighter Twister도 지원합니다. 대부분의 경우 APC40 Mark 2가 여전히 가장 좋은 선택입니다.
 
@@ -146,7 +146,7 @@ clip deck은 다음 방법으로 좌우로 스크롤할 수 있습니다.
 * APC40 스크롤 노브
 * APC40 _<- DEVICE ->_ 버튼
 
-현재 위치를 파악하기 쉽도록 상단에는 Clip Deck의 미니 비주얼라이저가 있습니다. [Clips 및 Clip Deck](clips/ "mention")도 참조하세요.
+현재 위치를 파악하기 쉽도록 상단에는 Clip Deck의 미니 비주얼라이저가 있습니다. [Clips 및 Clip Deck](clips/)도 참조하세요.
 
 #### 클립 시작 및 중지
 
@@ -168,7 +168,7 @@ _STOP_ 버튼은 현재 실행 중인 모든 클립을 중지합니다.
 이 존 할당과 X/Y flip 설정은 클립 자체에 연결되어 있습니다. 다음에 해당 클립을 실행할 때도 유지됩니다. 전역 설정이 아닙니다.
 {% endhint %}
 
-Clip을 오른쪽 클릭하면 Clip의 더 많은 설정을 편집할 수 있습니다. [Clip 설정](clips/clip-settings.md "mention")도 참조하세요.
+Clip을 오른쪽 클릭하면 Clip의 더 많은 설정을 편집할 수 있습니다. [Clip 설정](clips/clip-settings.md)도 참조하세요.
 
 ### Groups
 
@@ -190,7 +190,7 @@ Group 안의 모든 클립에 대한 존 설정 변경
 
 APC40을 사용하는 경우 group 버튼을 누른 다음, _계속 누르고 있는 동안_ 존 및 X/Y 버튼을 사용해 해당 group 안의 모든 클립에 대한 존 설정을 토글합니다.
 
-[Clip 그룹](clips/groups.md "mention")도 참조하세요.
+[Clip 그룹](clips/groups.md)도 참조하세요.
 
 ### Effects
 
@@ -208,7 +208,7 @@ effect 버튼을 눌러 effect를 토글합니다. 더 좋은 방법은 APC40 �
 effect 버튼에 보이는 작은 숫자는 effect의 _level_과 _parameter_를 나타냅니다. _level_은 APC40의 페이더로 제어하거나 버튼을 클릭하고 드래그하여 조정할 수 있습니다. parameter는 APC40의 로터리로 조정하거나, 마우스 오른쪽 클릭으로 조정할 수 있습니다.
 {% endhint %}
 
-_\*로터리 컨트롤러 1-8은 APC40 Mk2의 상단, Mk1의 오른쪽 상단에 있습니다. 함께 참조:_ [APC40 레퍼런스](reference/apc40-reference.md "mention")
+_\*로터리 컨트롤러 1-8은 APC40 Mk2의 상단, Mk1의 오른쪽 상단에 있습니다. 함께 참조:_ [APC40 레퍼런스](reference/apc40-reference.md)
 
 #### 기본 effects
 
@@ -297,16 +297,18 @@ _Laser overview panel_은 현재 실행 중인 레이저의 상태를 빠르게 
 
 가운데 그래프는 프레임 길이의 기록이며, 오른쪽 숫자는 현재 프레임 레이트입니다. 콘텐츠가 복잡할수록 프레임 레이트는 느려집니다(즉, 더 깜박여 보입니다). 약 25fps 아래로 내려가면 약간 깜박여 보이기 시작합니다.
 
+프레임 레이트가 낮다면 [구형 장비에서 성능 개선하기](troubleshooting/improving-performance-on-older-machines.md)에서 제안을 확인하세요.
+
 ### 레이저 연결 - Controller Assignment panel
 
 _Assign Laser Controllers_ 버튼을 클릭하여 _Controller Assignment_ 패널을 엽니다. (이 패널은 메뉴 바의 _View -> Controller Assignment_에서도 접근할 수 있습니다.)
 
 여기에서 어떤 레이저 출력이 어떤 레이저 컨트롤러로 갈지 선택할 수 있습니다. 오른쪽 목록에서 컨트롤러를 드래그하여 왼쪽 슬롯에 놓습니다. 컨트롤러 이름을 어떤 레이저와 연결되어 있는지에 맞게 변경할 수 있습니다(펜 아이콘 버튼 사용).
 
-자세한 내용은 [컨트롤러 할당](setting-up/controller-assignment.md "mention") 장을 읽어 보세요.
+자세한 내용은 [컨트롤러 할당](setting-up/controller-assignment.md) 장을 읽어 보세요.
 
 {% hint style="danger" %}
-레이저를 준비 상태로 전환하기 전에 반드시 [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention") 장을 확인하세요.
+레이저를 준비 상태로 전환하기 전에 반드시 [레이저 설정 절차 개요](setting-up/setting-up-lasers.md) 장을 확인하세요.
 {% endhint %}
 
 ### Laser output panel
@@ -337,10 +339,10 @@ Liberation은 이 포인트 스트림이 생성되는 방식을 세밀하게 제
 기본 scanner settings는 다음과 같습니다.
 
 * **Speed**는 스캐너 속도, 즉 레이저가 형태를 그리기 위해 얼마나 빠르게 움직이는지를 의미합니다. 기존 레이저 소프트웨어에서 point rate를 조정하는 것과 비슷하지만, Liberation에서는 레이저가 움직이는 속도를 _point rate와 독립적으로_ 변경할 수 있습니다. 일반적으로 이 값을 조정할 필요는 없습니다.
-* **Scanner sync**(때로는 _blank shift_, 이전 명칭 Colour Shift로 알려짐) 스캐너는 레이저를 매우 빠르게 움직이지만, 보통 밝기와 색상의 변화가 움직임과 동기화되어 있지 않습니다. 이 경우 빔과 선의 가장자리에 작은 깜박이는 빛의 "꼬리"가 나타납니다. 이 조정을 사용하여 움직임과 색상이 서로 동기화되도록 맞춥니다. [Laser output 설정 패널](setting-up/laser-settings.md "mention") 참조
+* **Scanner sync**(때로는 _blank shift_, 이전 명칭 Colour Shift로 알려짐) 스캐너는 레이저를 매우 빠르게 움직이지만, 보통 밝기와 색상의 변화가 움직임과 동기화되어 있지 않습니다. 이 경우 빔과 선의 가장자리에 작은 깜박이는 빛의 "꼬리"가 나타납니다. 이 조정을 사용하여 움직임과 색상이 서로 동기화되도록 맞춥니다. [Laser output 설정 패널](setting-up/laser-settings.md) 참조
 
-그 밖의 고급 스캐너 설정은 [고급](advanced/ "mention") 장에서 다룹니다.
+그 밖의 고급 스캐너 설정은 [고급](advanced/) 장에서 다룹니다.
 
 ### Zoning
 
-레이저 설정과 zone 구성에 대한 전체 가이드는 다음을 참조하세요: [레이저 설정 절차 개요](setting-up/setting-up-lasers.md "mention")
+레이저 설정과 zone 구성에 대한 전체 가이드는 다음을 참조하세요: [레이저 설정 절차 개요](setting-up/setting-up-lasers.md)

@@ -33,7 +33,7 @@ Deze node past kleurwijzigingen toe op je content op basis van positie. Standaar
 
 **Colour Modes**
 
-Deze bepalen welke onderdelen van de kleuraanpassingen op de content worden toegepast. Zie ook: [Kleurinstellingen en HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Deze bepalen welke onderdelen van de kleuraanpassingen op de content worden toegepast. Zie ook: [Kleurinstellingen en HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue blijft ongewijzigd.
@@ -49,7 +49,7 @@ Deze bepalen welke onderdelen van de kleuraanpassingen op de content worden toeg
 
 **Verloopeditor**
 
-Gebruikt dezelfde verloopeditor als [Colour change](colour-changer.md "mention"), maar koppelt het verloop op basis van positie aan de inhoud.
+Gebruikt dezelfde verloopeditor als [Colour change](colour-changer.md), maar koppelt het verloop op basis van positie aan de content.
 
 * Klik op de verloopbalk om een kleurstop toe te voegen.
 * Klik met de linkermuisknop op een stop om deze te selecteren en sleep deze daarna zijwaarts om hem te verplaatsen.

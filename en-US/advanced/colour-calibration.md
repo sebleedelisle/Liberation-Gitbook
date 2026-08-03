@@ -17,7 +17,7 @@ Laser diodes change behavior as they warm up. Always let your projector stabiliz
 
 #### How the calibration test works
 
-Use the test patterns for calibration (see [Test patterns](../output-view/test-patterns.md "mention"))
+Use the test patterns for calibration (see [Test patterns](../output-view/test-patterns.md))
 
 * **5** – Red
 * **6** – Green

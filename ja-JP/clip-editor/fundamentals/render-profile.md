@@ -16,7 +16,7 @@ metaLinks:
 
 また、クリップ自体を変更せずに、同じコンテンツをレーザーごとに異なるスキャナータイプへ合わせて調整できます。
 
-詳しくは [◼️ Liberation がレーザーコンテンツを生成する仕組み](../../advanced/how-liberation-generates-laser-content.md "mention") を参照してください。
+詳しくは [◼️ Liberation がレーザーコンテンツを生成する仕組み](../../advanced/how-liberation-generates-laser-content.md) を参照してください。
 {% endhint %}
 
 プリセットの _Render Profiles_ には、_DEFAULT_、_FAST_、_DETAIL_ の 3 つがあります。
@@ -28,5 +28,5 @@ _**FAST** -_ クリップに多くのコンテンツが含まれていて、そ�
 _**DETAIL**_ - 鋭い角が必要な図形を描画する場合は、このオプションを使用します。ただし、スキャナーの動きが遅くなるため、出力がちらつきやすくなる点に注意してください。
 
 {% hint style="info" %}
-Clip Editor 内では、Creator を異なる Render Profile に割り当てられますが、各レーザーはスキャナー設定に応じてこれらのプロファイルを処理します。詳しくは [◼️ Scanner プリセットとレンダープロファイル](../../advanced/scanner-presets.md "mention") を参照してください。
+Clip Editor 内では、Creator を異なる Render Profile に割り当てられますが、各レーザーはスキャナー設定に応じてこれらのプロファイルを処理します。詳しくは [◼️ Scanner プリセットとレンダープロファイル](../../advanced/scanner-presets.md) を参照してください。
 {% endhint %}

@@ -27,13 +27,25 @@ No es una medición completa ni totalmente estandarizada del rendimiento en el m
 
 Aun así, sigue siendo la referencia más utilizada que tenemos, y puede darte una buena idea de la calidad de los scanners, al menos con fabricantes reputados. Aunque con los _menos reputados_...
 
-#### Si quieres probar los scanners según su especificación
+#### Prueba de scanners con Libera Lab
 
 {% hint style="danger" %}
 **Esta es una técnica avanzada y puedes dañar tus scanners si no tienes cuidado. No se recomienda salvo que sepas lo que estás haciendo.**
 {% endhint %}
 
-Tendrás que encontrar software que pueda emitir el [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) —creo que LaserShowGen quizá pueda hacerlo— y ajustar el tamaño de salida para que coincida con el ángulo de escaneo especificado (por ejemplo, 8°). Consulta la documentación de ILDA para obtener recomendaciones sobre cómo analizar la salida.
+Si quieres experimentar con el comportamiento de los scanners fuera de un proyecto de show, usa [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). Es una herramienta de escritorio para controladores láser compatibles con Libera, diseñada para descubrir, probar, previsualizar e inspeccionar la salida láser.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab es útil porque te permite:
+
+* emitir patrones de prueba conocidos, incluido el patrón de prueba ILDA
+* cargar y reproducir archivos ILDA en streaming
+* previsualizar el flujo de puntos antes de emitirlo o mientras se emite
+* inspeccionar la salida con herramientas de osciloscopio y carga de scanners
+* comparar cómo afectan a los scanners distintos patrones, frecuencias de puntos y tamaños de salida
+
+Para comprobar unos scanners frente a una especificación publicada, configura Libera Lab con el [patrón de prueba ILDA](https://ilda.com/technical.htm?r=7950), elige la frecuencia de puntos especificada y ajusta el tamaño de salida para que coincida con el ángulo de escaneo indicado (por ejemplo, 8°). Consulta la documentación de ILDA para obtener recomendaciones sobre cómo analizar la salida.
 
 #### Por qué quizá no sea un buen benchmark
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) suele estar en un nivel inferior, pero sinceramente proba
 #### Cómo ayuda Liberation
 
 Para empezar, en la mayoría de los casos no necesitas scanners realmente caros. Unos DT de 30kpps asequibles, o incluso PT, funcionarán bien. Los ajustes predeterminados de scanner son deliberadamente conservadores y, en general, _no deberías tener que modificarlos_ (salvo _Scanner sync_).
+
+Si quieres entender qué hacen realmente los ajustes de los scanners, Libera Lab es un lugar mejor para experimentar que tu proyecto de show. Puedes cambiar la frecuencia de puntos, el ángulo de salida y el patrón de prueba mientras observas la previsualización, el osciloscopio y la información de carga de los scanners.
 
 Aunque tengas scanners mejores, no tiene sentido forzarlos más de lo necesario. Esto prolongará significativamente su vida útil.
 
@@ -98,7 +112,8 @@ Buena pregunta. Estos son mis consejos:
 * Si haces gráficos, en la mayoría de los casos será mejor tener más láseres que scanners más rápidos.
 * Cuando llegues a configuraciones de gama más alta, cualquiera de las marcas de gama alta consolidadas funcionará bien.
 * Si solo puedes conseguir los scanners sin marca más baratos, los ajustes predeterminados de Liberation son bastante conservadores y probablemente obtendrás resultados aceptables para trabajo básico con haces. Si le cuesta, reduce el ajuste **Speed** (¡pero no cambies la tasa de puntos!).
+* Si quieres probar o comparar ajustes, hazlo primero en Libera Lab en lugar de experimentar dentro de un archivo de show.
 
 #### ¿Y el ILDA Test Pattern?
 
-…sigue siendo muy útil como herramienta de calibración y referencia, pero nunca se diseñó como un benchmark completo y los fabricantes pueden usarlo mal o interpretarlo de forma laxa.
+…sigue siendo muy útil como herramienta de calibración y referencia, y Libera Lab facilita emitirlo e inspeccionarlo. Pero nunca se diseñó como un benchmark completo y los fabricantes pueden usarlo mal o interpretarlo de forma laxa.

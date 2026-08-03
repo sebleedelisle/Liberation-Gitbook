@@ -14,7 +14,7 @@ metaLinks:
 
 使用 _Shift X_ 和 _Shift Y_ 调整 Clip 的水平和垂直位置。
 
-_Zone Delay/Chase_ 是非常有趣的功能，单独有一节说明。见 [Zone delay / chase](zone-delay-chase.md "mention")。
+_Zone Delay/Chase_ 是非常有趣的功能，单独有一节说明。见 [Zone delay / chase](zone-delay-chase.md)。
 
 ### 参数面板
 
@@ -33,7 +33,7 @@ Clip 被锁定后无法移动或删除。要锁定 Clip，在右键菜单中勾�
 
 ### 右键菜单
 
-右键点击 Clip 会出现该 Clip 的部分选项。关于菜单前几项的更多说明，见 [Clip Editor 介绍](../clip-editor/clip-editor-intro.md "mention")、[Clip 设置](clip-settings.md "mention") 和 [Clip 分组](groups.md "mention")。
+右键点击 Clip 会出现该 Clip 的部分选项。关于菜单前几项的更多说明，见 [Clip Editor 介绍](../clip-editor/clip-editor-intro.md)、[Clip 设置](clip-settings.md) 和 [Clip 分组](groups.md)。
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

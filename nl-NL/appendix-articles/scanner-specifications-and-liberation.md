@@ -27,13 +27,25 @@ Het is geen volledige of volledig gestandaardiseerde meting van prestaties in de
 
 Maar het is nog steeds de meestgebruikte referentie die we hebben, en het kan je een goed beeld geven van de kwaliteit van de scanners, in elk geval bij gerenommeerde fabrikanten. Bij _minder gerenommeerde_ fabrikanten daarentegen...
 
-#### Als je de scanners wilt testen zoals ze zijn gespecificeerd
+#### Scanners testen met Libera Lab
 
 {% hint style="danger" %}
 **Dit is een geavanceerde techniek en je kunt je scanners beschadigen als je niet voorzichtig bent. Niet aanbevolen tenzij je weet wat je doet.**
 {% endhint %}
 
-Je moet software vinden die het [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) kan uitvoeren - ik denk dat LaserShowGen dit misschien kan - en de uitvoergrootte aanpassen aan de opgegeven scanhoek (bijv. 8°). Raadpleeg de ILDA-documentatie voor advies over hoe je de uitvoer analyseert.
+Als je buiten een showproject wilt experimenteren met het gedrag van scanners, gebruik dan [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). Dit is een desktoptool voor Libera-compatibele lasercontrollers, bedoeld om laseroutput te ontdekken, te testen, te previewen en te inspecteren.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab is handig omdat je hiermee:
+
+* bekende testpatronen kunt uitvoeren, waaronder het ILDA-testpatroon
+* ILDA-bestanden kunt laden en streamen
+* de puntenstream kunt previewen vóór of tijdens de output
+* de output kunt inspecteren met tools voor scope en scannerbelasting
+* kunt vergelijken hoe verschillende patronen, puntsnelheden en outputgroottes de scanners beïnvloeden
+
+Als je scanners wilt testen aan de hand van een gepubliceerde specificatie, stel Libera Lab dan in op het [ILDA-testpatroon](https://ilda.com/technical.htm?r=7950), kies de gespecificeerde puntsnelheid en pas de outputgrootte aan aan de opgegeven scanhoek (bijv. 8°). Raadpleeg de ILDA-documentatie voor advies over hoe je de output analyseert.
 
 #### Waarom het misschien geen goede benchmark is
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) zit over het algemeen in een lagere klasse, maar eerlijk 
 #### Hoe Liberation helpt
 
 Allereerst heb je voor de meeste dingen echt geen extreem dure scanners nodig! Betaalbare 30kpps DT, of zelfs PT, is prima. De standaard scannerinstellingen zijn bewust conservatief en meestal _hoef je ze niet aan te passen_ (behalve _Scanner sync_).
+
+Als je wilt begrijpen wat de scannerinstellingen werkelijk doen, is Libera Lab een betere plek om te experimenteren dan je showproject. Je kunt de puntsnelheid, outputhoek en het testpatroon wijzigen terwijl je de preview, scope en informatie over scannerbelasting bekijkt.
 
 Zelfs als je betere scanners hebt, heeft het geen zin om ze harder aan te sturen dan nodig is. Dit verlengt hun levensduur aanzienlijk.
 
@@ -98,7 +112,8 @@ Goede vraag. Dit zijn mijn tips:
 * Als je graphics doet, zijn meer lasers in de meeste gevallen beter dan snellere scanners.
 * Zodra je bij high-end setups komt, zijn alle gevestigde high-end merken prima.
 * Als je alleen de goedkoopste merkloze scanners kunt krijgen, zijn de standaardinstellingen van Liberation vrij conservatief en krijg je waarschijnlijk acceptabele resultaten voor basis-beamwerk. Als het moeizaam gaat, verlaag dan de instelling **Speed** (maar verander de puntfrequentie niet!).
+* Als je instellingen wilt testen of vergelijken, doe dat dan eerst in Libera Lab in plaats van te experimenteren in een showbestand.
 
 #### En het ILDA Test Pattern?
 
-…is nog steeds erg nuttig als kalibratie- en referentietool, maar het was nooit bedoeld als volledige benchmark en kan door fabrikanten verkeerd worden gebruikt of ruim worden geïnterpreteerd.
+…is nog steeds erg nuttig als kalibratie- en referentietool, en Libera Lab maakt het gemakkelijker om het uit te voeren en te inspecteren. Maar het was nooit bedoeld als volledige benchmark en kan door fabrikanten verkeerd worden gebruikt of ruim worden geïnterpreteerd.

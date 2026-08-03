@@ -27,13 +27,25 @@ metaLinks:
 
 그래도 현재 가장 널리 쓰이는 기준이며, 적어도 신뢰할 수 있는 제조사의 경우 Scanner 품질을 파악하는 데 좋은 참고가 됩니다. 하지만 _덜 신뢰할 수 있는_ 제조사의 경우에는...
 
-#### 정격 사양대로 Scanner를 테스트하고 싶다면
+#### Libera Lab으로 Scanner 테스트하기
 
 {% hint style="danger" %}
 **이것은 고급 기법이며, 주의하지 않으면 Scanner를 손상시킬 수 있습니다. 자신이 무엇을 하는지 정확히 아는 경우가 아니라면 권장하지 않습니다.**
 {% endhint %}
 
-[ILDA Test Pattern](https://ilda.com/technical.htm?r=7950)을 출력할 수 있는 소프트웨어가 필요합니다. 제 생각에는 LaserShowGen이 가능할 수도 있습니다. 그리고 출력 크기를 지정된 스캔 각도(예: 8°)에 맞게 조정해야 합니다. 출력 분석 방법은 ILDA 문서를 참고하세요.
+쇼 프로젝트 밖에서 Scanner 동작을 실험해 보고 싶다면 [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases)을 사용하세요. Libera 호환 레이저 컨트롤러용 데스크톱 도구로, 레이저 출력을 검색, 테스트, 미리보기, 검사할 수 있도록 설계되었습니다.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab이 유용한 이유는 다음 작업을 할 수 있기 때문입니다.
+
+* ILDA test pattern을 포함한 알려진 테스트 패턴 출력
+* ILDA 파일 로드 및 스트리밍
+* 포인트 스트림을 출력하기 전이나 출력하는 동안 미리보기
+* scope 및 scanner-load 도구로 출력 검사
+* 다양한 패턴, 포인트 레이트, 출력 크기가 Scanner에 어떤 영향을 주는지 비교
+
+공개된 정격 사양에 맞춰 Scanner를 테스트하려면 Libera Lab에서 [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950)을 선택하고, 정격 포인트 레이트를 선택한 뒤 출력 크기를 지정된 스캔 각도(예: 8°)에 맞게 조정하세요. 출력 분석 방법은 ILDA 문서를 참고하세요.
 
 #### 좋은 벤치마크가 아닐 수 있는 이유
 
@@ -54,6 +66,8 @@ Phenix Technology (PT)는 일반적으로 한 단계 낮은 등급이지만, 솔
 #### Liberation이 도움이 되는 방식
 
 우선 대부분의 작업에는 아주 비싼 Scanner가 필요하지 않습니다! 합리적인 가격의 30kpps DT, 또는 PT도 괜찮습니다. 기본 Scanner 설정은 의도적으로 보수적으로 되어 있으며, 대부분의 경우 _조정할 필요가 없습니다_ (_Scanner sync_ 제외).
+
+Scanner 설정이 실제로 어떤 역할을 하는지 이해하고 싶다면 쇼 프로젝트보다 Libera Lab에서 실험하는 것이 더 좋습니다. 미리보기, scope, scanner-load 정보를 보면서 포인트 레이트, 출력 각도, 테스트 패턴을 변경할 수 있습니다.
 
 더 좋은 Scanner를 사용하더라도 필요 이상으로 강하게 구동할 이유는 없습니다. 이렇게 하면 수명을 크게 늘릴 수 있습니다.
 
@@ -98,7 +112,8 @@ Liberation은 포인트 스트림을 실시간으로 생성하기 때문에 해�
 * 그래픽 작업을 한다면, 대부분의 경우 더 빠른 Scanner보다 더 많은 레이저가 더 효과적입니다.
 * 하이엔드 구성으로 올라가면, 잘 알려진 하이엔드 브랜드라면 어느 것이든 괜찮습니다.
 * 가장 저렴한 무브랜드 Scanner밖에 구할 수 없다면, Liberation의 기본 설정은 꽤 보수적이므로 기본적인 빔 작업에는 아마 괜찮은 결과를 얻을 수 있습니다. 부담이 있어 보이면 **Speed** 설정을 낮추세요(단, 포인트 레이트는 변경하지 마세요!).
+* 설정을 테스트하거나 비교하려면 쇼 파일 안에서 실험하기보다 먼저 Libera Lab에서 진행하세요.
 
 #### 그리고 ILDA Test Pattern은?
 
-…여전히 캘리브레이션과 기준 도구로 매우 유용하지만, 포괄적인 벤치마크로 설계된 것은 아니며 제조사에 의해 잘못 사용되거나 느슨하게 해석될 수 있습니다.
+…여전히 캘리브레이션과 기준 도구로 매우 유용하며, Libera Lab을 사용하면 출력하고 검사하기가 더 쉽습니다. 하지만 포괄적인 벤치마크로 설계된 것은 아니며 제조사에 의해 잘못 사용되거나 느슨하게 해석될 수 있습니다.

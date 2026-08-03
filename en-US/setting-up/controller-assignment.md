@@ -7,13 +7,13 @@ metaLinks:
 
 # ✅ Controller assignment
 
-Once you have set up the lasers within Liberation, you can then assign each one to a laser controller in the real world. (See [Compatible lasers and controllers (DACs)](../hardware/compatible-lasers-and-controllers-dacs.md "mention") to check what hardware you can use). The controllers will either be connected via USB or over the network.
+Once you have set up the lasers within Liberation, you can then assign each one to a laser controller in the real world. (See [Compatible lasers and controllers (DACs)](../hardware/compatible-lasers-and-controllers-dacs.md) to check what hardware you can use). The controllers will either be connected via USB or over the network.
 
 * Open the _Controller Assignment_ panel via the _View -> Controller Assignment_ menu option. (Or alternatively you can use the _ASSIGN LASER CONTROLLERS_ button in the _Laser Overview_ panel.)
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-31 at 14.30.18.png" alt="Controller Assignment panel"><figcaption></figcaption></figure>
 
-* The panel is split in two, with a list of lasers on the left, and the list of available controllers on the right. If you do not see your laser controller in the list, press the _REFRESH_ button. If you continue to have trouble see [troubleshooting](../troubleshooting/ "mention").
+* The panel is split in two, with a list of lasers on the left, and the list of available controllers on the right. If you do not see your laser controller in the list, press the _REFRESH_ button. If you continue to have trouble see [troubleshooting](../troubleshooting/).
 * To assign a controller to a laser, click and drag from the right on to an open laser slot on the left. This tells Liberation which controller it should use for which laser. (If you change your mind you can freely drag the controllers up and down from one laser to another.)
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-31 at 14.33.23.png" alt="List of controllers" width="375"><figcaption></figcaption></figure>
@@ -26,8 +26,8 @@ Once you have set up the lasers within Liberation, you can then assign each one 
 Note that whenever you connect to a controller, the laser will be automatically disarmed.
 {% endhint %}
 
-* An orange square 🟧 means that the controller is having intermittent connection issues. It's usually caused by a network issue, see [troubleshooting](../troubleshooting/ "mention").
-* A red square 🟥 means that the controller cannot be reached, see [troubleshooting](../troubleshooting/ "mention").
+* An orange square 🟧 means that the controller is having intermittent connection issues. It's usually caused by a network issue, see [troubleshooting](../troubleshooting/).
+* A red square 🟥 means that the controller cannot be reached, see [troubleshooting](../troubleshooting/).
 * The _disconnect button_ (X) disconnects the controller but doesn't clear it from the laser assignment. You can then use the _reconnect button_ (refresh arrow icon) to reconnect it or instead click the _disconnect button_ again to clear the assignment.
 * _Advanced feature :_ Open the controller analytics panel by clicking the button that looks like a chart. This is an advanced feature that gives you detailed information about the data stream and can help to troubleshoot problems. (This option may not available for some controller types.)
 * You can use the _rename button_ (pencil) to rename this controller to whatever you want. It makes sense to name it in a way that makes it easy to associate it with particular hardware. If it's built into a laser you may want to name it accordingly, i.e. _LaserCube Ultra #1_ or _Triton T5 #3._ These names will be saved with your Liberation installation and will appear from now on; it can be really helpful for you to quickly identify your lasers.

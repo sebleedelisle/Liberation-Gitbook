@@ -33,7 +33,7 @@ metaLinks:
 
 **Colour Modes**
 
-これらは、色調整のどの要素をコンテンツに適用するかを決定します。関連項目: [カラー設定と HSB](../fundamentals/colour-settings-and-hsb.md "mention")。
+これらは、色調整のどの要素をコンテンツに適用するかを決定します。関連項目: [カラー設定と HSB](../fundamentals/colour-settings-and-hsb.md)。
 
 * **hue mode**
   * _OFF_ – hue は変更されません。
@@ -49,7 +49,7 @@ metaLinks:
 
 **グラデーションエディター**
 
-[カラー変更](colour-changer.md "mention") と同じグラデーションエディターを使用しますが、位置に基づいてコンテンツ全体にグラデーションをマッピングします。
+[Colour change](colour-changer.md) と同じグラデーションエディターを使用しますが、位置に基づいてコンテンツ全体にグラデーションをマッピングします。
 
 * グラデーションバーをクリックすると、カラーストップを追加できます。
 * ストップを左クリックして選択し、左右にドラッグして移動します。

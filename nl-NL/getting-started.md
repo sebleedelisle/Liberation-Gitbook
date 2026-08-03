@@ -20,17 +20,17 @@ Liberation is flexibel genoeg om lasers in te stellen en te visualiseren zonder 
 Je kunt in Liberation zoveel lasers instellen en visualiseren als je wilt. De licentieniveaus (Hobbyist, Pro, enzovoort) beperken alleen het aantal lasers dat je voor output kunt activeren. Dit betekent dat je zelfs met een gratis licentie lasershows met 100 lasers kunt ontwerpen. Je hoeft pas te upgraden wanneer je de show daadwerkelijk op echte lasers wilt draaien.
 {% endhint %}
 
-Standaard staan er 8 lasers horizontaal verdeeld, maar je kunt dit helemaal naar wens aanpassen. Het is waarschijnlijk het beste om deze standaardinstelling te laten staan terwijl je de software leert kennen. Later kun je dit aanpassen aan je eigen hardware-opstelling. (Zie [Je project instellen](setting-up/setting-up-your-project.md "mention"))
+Standaard staan er 8 lasers horizontaal verdeeld, maar je kunt dit helemaal naar wens aanpassen. Het is waarschijnlijk het beste om deze standaardinstelling te laten staan terwijl je de software leert kennen. Later kun je dit aanpassen aan je eigen hardware-opstelling. (Zie [Je project instellen](setting-up/setting-up-your-project.md))
 
 {% hint style="warning" %}
-Belangrijk: voordat je lasers voor output activeert, moet je zorgen dat je de risico's begrijpt en het hoofdstuk [Overzicht van het instelproces voor lasers](setting-up/setting-up-lasers.md "mention") zorgvuldig doorneemt.
+Belangrijk: voordat je lasers voor output activeert, moet je zorgen dat je de risico's begrijpt en het hoofdstuk [Overzicht van het instelproces voor lasers](setting-up/setting-up-lasers.md) zorgvuldig doorneemt.
 {% endhint %}
 
 ## Overzicht van de software
 
 ### Veiligheidsuitschakeling
 
-Wanneer je lasers gebruikt, moet je altijd een **hardware-noodstopknop** bij de hand hebben (zie [Noodstop / veiligheidsinterlocks](hardware/emergency-stop-interlocks.md "mention")). Als je alles minder dringend wilt deactiveren, kun je de knop _**DISARM ALL**_ gebruiken, of de `Escape`-toets (of de _**SESSION**_-toets op de APC40). Je kunt ook de globale helderheid verlagen met de schuifregelaar op het scherm of met de main fader op de APC40.
+Wanneer je lasers gebruikt, moet je altijd een **hardware-noodstopknop** bij de hand hebben (zie [Noodstop / veiligheidsinterlocks](hardware/emergency-stop-interlocks.md)). Als je alles minder dringend wilt deactiveren, kun je de knop _**DISARM ALL**_ gebruiken, of de `Escape`-toets (of de _**SESSION**_-toets op de APC40). Je kunt ook de globale helderheid verlagen met de schuifregelaar op het scherm of met de main fader op de APC40.
 
 ### Schuifregelaars
 
@@ -42,7 +42,7 @@ Klik met `Cmd / Ctrl` ingedrukt op een schuifregelaar om een nieuwe waarde in te
 
 ### Sneltoetsen
 
-Een volledige lijst met sneltoetsen vind je hier: [Sneltoetsen](reference/keyboard-shortcuts.md "mention")
+Een volledige lijst met sneltoetsen vind je hier: [Sneltoetsen](reference/keyboard-shortcuts.md)
 
 ### Schermindeling
 
@@ -74,7 +74,7 @@ Het grote gebied linksboven in het scherm kan een van 3 hoofdweergaven zijn: **3
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-De 3D view laat zien hoe je lasers eruitzien en kan worden ingesteld zodat deze overeenkomt met je eigen laseropstelling. Klik en sleep om de camera te draaien, en gebruik het muiswiel om naar voren en naar achteren te bewegen. Veel andere opties vind je in het panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Zie [3D Visualiser](setting-up/3d-visualiser.md "mention").
+De 3D view laat zien hoe je lasers eruitzien en kan worden ingesteld zodat deze overeenkomt met je eigen laseropstelling. Klik en sleep om de camera te draaien, en gebruik het muiswiel om naar voren en naar achteren te bewegen. Veel andere opties vind je in het panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Zie [3D Visualiser](setting-up/3d-visualiser.md).
 
 #### Output View
 
@@ -106,11 +106,11 @@ Klik op een zone om deze te selecteren en pas daarna de hoekpunten aan met de mu
 
 Links staat een balk met een reeks pictogramknoppen. Beweeg over een knop om een beschrijving te krijgen van wat deze doet. Met de knoppen hier kun je beam zones, canvas zones en masks toevoegen. Er zijn ook opties om alleen voor deze laser een test pattern in te stellen, samen met instellingen voor grid en snapping.
 
-Zie voor meer details [Output-weergave](output-view/ "mention").
+Zie voor meer details [Output-weergave](output-view/).
 
 #### Canvas
 
-Het Canvas-systeem wordt vooral gebruikt voor graphics en architectural mapping. Je kunt complexe afbeeldingen over meerdere lasers verdelen en elk deel perspectief-corrigeren. Zie [Graphics en het Canvas-systeem](graphics-and-the-canvas-system/ "mention").
+Het Canvas-systeem wordt vooral gebruikt voor graphics en architectural mapping. Je kunt complexe afbeeldingen over meerdere lasers verdelen en elk deel perspectief-corrigeren. Zie [Graphics en het Canvas-systeem](graphics-and-the-canvas-system/).
 
 ### APC40 MIDI-controller
 
@@ -118,7 +118,7 @@ Het Canvas-systeem wordt vooral gebruikt voor graphics en architectural mapping.
 
 Hoewel het mogelijk is om Liberation met muis en toetsenbord te bedienen, is het veel beter om een APC40 MIDI-control interface te gebruiken (Mark 2 is het beste, maar Mark 1 werkt ook).
 
-Zie ook: [APC40-referentie](reference/apc40-reference.md "mention")
+Zie ook: [APC40-referentie](reference/apc40-reference.md)
 
 Liberation ondersteunt ook APC Mini en MIDI Fighter Twister. De APC40 Mark 2 is voor de meeste situaties nog steeds de beste optie.
 
@@ -146,7 +146,7 @@ Je kunt het clip deck naar links en rechts scrollen met:
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_-knoppen
 
-Om je te helpen oriënteren, staat er bovenaan een mini-visualiser van het Clip Deck. Zie ook [Clips & Clip Deck](clips/ "mention")
+Om je te helpen oriënteren, staat er bovenaan een mini-visualiser van het Clip Deck. Zie ook [Clips & Clip Deck](clips/)
 
 #### Clips starten en stoppen
 
@@ -168,7 +168,7 @@ Twee rijen onder de zoneknoppen zie je de X/Y flip-knoppen. Schakel deze in of u
 Let op: deze zonetoewijzingen en X/Y flip-instellingen zijn gekoppeld aan de clip zelf; ze blijven behouden wanneer je die clip de volgende keer start. Het is geen globale instelling.
 {% endhint %}
 
-Klik met de rechtermuisknop op een Clip om meer instellingen voor die Clip te bewerken. Zie ook [Clip settings](clips/clip-settings.md "mention")
+Klik met de rechtermuisknop op een Clip om meer instellingen voor die Clip te bewerken. Zie ook [Clip settings](clips/clip-settings.md)
 
 ### Groepen
 
@@ -190,7 +190,7 @@ Zone-instellingen wijzigen voor alle clips binnen een group
 
 Gebruik de APC40: druk op de group-knop en gebruik daarna, _terwijl deze nog ingedrukt is_, de zone- en X/Y-knoppen om zone-instellingen voor alle clips binnen die group te toggelen.
 
-Zie ook [Clipgroepen](clips/groups.md "mention")
+Zie ook [Clipgroepen](clips/groups.md)
 
 ### Effects
 
@@ -208,7 +208,7 @@ Gebruik rotary controllers 1-8\* om de _parameter_ voor elk effect aan te passen
 De kleine getallen die je op de effectknoppen ziet, verwijzen naar het _level_ en de _parameter_ van het effect. Het _level_ wordt geregeld met de fader op de APC40, of je kunt op de knop klikken en slepen. De parameter wordt aangepast met de rotaries op de APC40, of je kunt met de rechtermuisknop aanpassen met de muis.
 {% endhint %}
 
-_\*Rotary controllers 1-8 zitten bovenaan op een APC40 Mk2 en rechtsboven op de Mk1. Zie ook:_ [APC40-referentie](reference/apc40-reference.md "mention")
+_\*Rotary controllers 1-8 zitten bovenaan op een APC40 Mk2 en rechtsboven op de Mk1. Zie ook:_ [APC40-referentie](reference/apc40-reference.md)
 
 #### De standaard effects
 
@@ -297,16 +297,18 @@ Het panel _Laser overview panel_ geeft je snel inzicht in de status van je laser
 
 De grafiek in het midden toont de geschiedenis van framelengtes, en het getal rechts is de huidige framerate. Hoe complexer de content, hoe lager de framerate wordt (dus hoe meer flikkering). Alles onder ongeveer 25 fps begint er wat flikkerend uit te zien.
 
+Als de framerate laag is, zie [Prestaties verbeteren op oudere machines](troubleshooting/improving-performance-on-older-machines.md) voor suggesties.
+
 ### Verbinden met lasers - Controller Assignment panel
 
 Klik op de knop _Assign Laser Controllers_ om het panel _Controller Assignment_ te openen. (Dit panel is ook bereikbaar via _View -> Controller Assignment_ in de menubalk).
 
 Hier kun je kiezen welke laseroutputs naar welke lasercontrollers gaan. Sleep controllers uit de lijst rechts naar slots links. Je kunt je controllers een andere naam geven zodat ze overeenkomen met de laser waaraan ze gekoppeld zijn (gebruik de knop met het penpictogram).
 
-Lees het hoofdstuk [Controllertoewijzing](setting-up/controller-assignment.md "mention") voor meer details.
+Lees het hoofdstuk [Controllertoewijzing](setting-up/controller-assignment.md) voor meer details.
 
 {% hint style="danger" %}
-Voordat je lasers voor output activeert, moet je eerst het hoofdstuk [Overzicht van het instelproces voor lasers](setting-up/setting-up-lasers.md "mention") doornemen.
+Voordat je lasers voor output activeert, moet je eerst het hoofdstuk [Overzicht van het instelproces voor lasers](setting-up/setting-up-lasers.md) doornemen.
 {% endhint %}
 
 ### Laser output panel
@@ -337,10 +339,10 @@ Als je gewend bent aan oudere lasersoftware die afhankelijk is van vooraf bereke
 De basisinstellingen voor scanners zijn:
 
 * **Speed** is de scannersnelheid, dus hoe snel de laser beweegt om vormen te tekenen. Dit is vergelijkbaar met het aanpassen van de point rate in traditionele lasersoftware, maar in Liberation kun je wijzigen hoe snel de laser beweegt _onafhankelijk van de point rate._ Normaal hoef je dit niet aan te passen.
-* **Scanner sync** (soms bekend als _blank shift, eerder Colour Shift_) De scanners bewegen de laser heel snel, maar meestal loopt de verandering in helderheid en kleur niet synchroon met de beweging. Dit zie je als kleine flikkerende "staarten" van licht aan de rand van beams en lijnen. Gebruik deze instelling om beweging en kleur met elkaar te synchroniseren. Zie [Paneel Laser output settings](setting-up/laser-settings.md "mention")
+* **Scanner sync** (soms bekend als _blank shift, eerder Colour Shift_) De scanners bewegen de laser heel snel, maar meestal loopt de verandering in helderheid en kleur niet synchroon met de beweging. Dit zie je als kleine flikkerende "staarten" van licht aan de rand van beams en lijnen. Gebruik deze instelling om beweging en kleur met elkaar te synchroniseren. Zie [Paneel Laser output settings](setting-up/laser-settings.md)
 
-De andere geavanceerde scannerinstellingen worden behandeld in het hoofdstuk [Geavanceerd](advanced/ "mention").
+De andere geavanceerde scannerinstellingen worden behandeld in het hoofdstuk [Geavanceerd](advanced/).
 
 ### Zoning
 
-Voor een volledige gids over het instellen en zonen van lasers, zie: [Overzicht van het instelproces voor lasers](setting-up/setting-up-lasers.md "mention")
+Voor een volledige gids over het instellen en zonen van lasers, zie: [Overzicht van het instelproces voor lasers](setting-up/setting-up-lasers.md)

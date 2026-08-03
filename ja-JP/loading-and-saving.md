@@ -14,7 +14,7 @@ Liberation は状態を常にディスクへ保存しているため、停電や
 
 Project ファイルには、現在の設定のほぼすべてが保存されます。内容は次のとおりです。
 
-* 以下の [Laser Settings のインポート／エクスポート](loading-and-saving.md#laser-settings-import-export "mention") に記載されているすべて
+* 以下の [Laser Settings のインポート／エクスポート](loading-and-saving.md#laser-settings-import-export) に記載されているすべて
 * Clips、effects、group settings
 * すべての timeline（オーディオおよびビデオメディアは含まれません）
 * Art-Net の設定
@@ -30,7 +30,7 @@ Project ファイルには、現在の設定のほぼすべてが保存されま
 * Text node で使用するフォント
 
 {% hint style="danger" %}
-timeline 内の Sound および video ファイルは project ファイルに保存されません。別のコンピューターへ移行する場合は、必ず別途保存してください。詳しくは [読み込みと保存](loading-and-saving.md#important-note-about-timeline-media-files "mention") を参照してください。
+timeline 内のサウンドおよびビデオファイルは project ファイルに保存されません。別のコンピューターへ移行する場合は、必ず別途保存してください。詳しくは [タイムラインのメディアファイルに関する重要な注意](loading-and-saving.md#important-note-about-timeline-media-files) を参照してください。
 {% endhint %}
 
 ### Laser settings Import / Export
@@ -67,7 +67,7 @@ _Append Clip Deck_ を使用すると、エクスポート済みの clip deck �
 現在選択されている clips がファイルにエクスポートされます。保存されるのは clips のみで、group settings と effects は保存されません。現在実行中の active clips は、選択されていない限りエクスポートされない点に注意してください。
 
 {% hint style="info" %}
-Option/Alt - shift - click clips で選択できます（または lasso を使用します）。選択されている Clip は、周囲の太い白いアウトラインで確認できます。詳しくは [Clip の開始／停止](clips/starting-stopping-clips.md "mention") を参照してください。
+Option/Alt - shift - click で Clip を選択できます（または lasso を使用します）。選択されている Clip は、周囲の太い白いアウトラインで確認できます。詳しくは [Clip の開始／停止](clips/starting-stopping-clips.md) を参照してください。
 {% endhint %}
 
 ### Effects Import / Export
@@ -82,12 +82,12 @@ project から effects だけをインポートするには、_**Effects->Import
 
 ### Timeline Export
 
-1 つ以上のタイムラインを含むタイムラインファイルをエクスポートします。エクスポートしたタイムラインファイルには、常に Clip Deck が含まれます（ただし、再インポート時にどの Clip を取り込むかは選択できます。詳しくは [タイムラインのインポート](loading-and-saving.md#timeline-import "mention") を参照してください）。
+1 つ以上のタイムラインを含むタイムラインファイルをエクスポートします。エクスポートしたタイムラインファイルには、常に Clip Deck が含まれます（ただし、再インポート時にどの Clip を取り込むかは選択できます。詳しくは以下の [タイムラインのインポート](loading-and-saving.md#timeline-import) を参照してください）。
 
 project ファイルに複数の timeline がある場合は、どの timeline をエクスポートするか選択するためのパネルが開きます。
 
 {% hint style="danger" %}
-timeline 内の Sound および video ファイルは timeline ファイルに保存されません。コンテンツを別のコンピューターへ移行する場合は、必ず別途保存してください。詳しくは [読み込みと保存](loading-and-saving.md#important-note-about-timeline-media-files "mention") を参照してください。
+timeline 内のサウンドおよびビデオファイルは timeline ファイルに保存されません。コンテンツを別のコンピューターへ移行する場合は、必ず別途保存してください。詳しくは [タイムラインのメディアファイルに関する重要な注意](loading-and-saving.md#important-note-about-timeline-media-files) を参照してください。
 {% endhint %}
 
 ### Timeline Import

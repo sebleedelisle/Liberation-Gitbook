@@ -22,16 +22,11 @@ Then you have either a network or a CPU performance issue :
 
 **CPU performance**
 
-if you have an old or low spec machine it may be too slow to run Liberation. Check the frame rate indicator in the right hand side of the icon bar.
+If you have an old or low-spec machine it may be too slow to run Liberation. Check the frame rate indicator in the top bar.
 
 There are two numbers there - the actual frame rate and the target frame rate. If the actual frame rate drops below 30, you may have issues.
 
-The following actions may help :
-
-* remove unused lasers, i.e. if you only have one laser connected, delete the others.
-* Switch to the output or canvas view
-* Close all other programs, check network firewall settings, close anti-virus, dropbox, etc.
-* Reduce your display resolution, and make the Liberation window smaller
+For ways to reduce the load on your computer, see [Improving performance on older machines](improving-performance-on-older-machines.md).
 
 If none of this works then consider upgrading your computer.
 

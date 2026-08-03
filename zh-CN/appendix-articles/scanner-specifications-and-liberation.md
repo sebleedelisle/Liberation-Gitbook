@@ -1,3 +1,10 @@
+---
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/MdbbIbIwHdJwkEREnJyv/appendix-articles/scanner-specifications-and-liberation
+---
+
 # 🟩 扫描器规格与 Liberation
 
 ### 扫描器规格的现实情况
@@ -20,13 +27,25 @@
 
 但它仍然是目前最常用的参考，至少对于信誉良好的制造商来说，可以大致判断扫描器质量。不过对于_不那么可靠_的制造商……
 
-#### 如果你想按标称规格测试扫描器
+#### 使用 Libera Lab 测试扫描器
 
 {% hint style="danger" %}
 **这是高级技巧，如果不小心可能损坏扫描器。不建议使用，除非你明确知道自己在做什么。**
 {% endhint %}
 
-你需要找到可以输出 [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) 的软件——我认为 LaserShowGen 可能可以做到——并将输出尺寸调整到指定扫描角（例如 8°）。请参考 ILDA 文档了解如何分析输出。
+如果你想在演出项目之外试验扫描器的行为，可以使用 [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases)。这是一个面向兼容 Libera 的激光控制器的桌面工具，用于发现、测试、预览和检查激光输出。
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab 很有用，因为它可以让你：
+
+* 输出已知测试图案，包括 ILDA 测试图案
+* 加载并流式输出 ILDA 文件
+* 在输出之前或输出过程中预览点流
+* 使用示波器和扫描器负载工具检查输出
+* 比较不同图案、点速率和输出尺寸对扫描器的影响
+
+要按公开标称值测试扫描器，请将 Libera Lab 设置为 [ILDA 测试图案](https://ilda.com/technical.htm?r=7950)，选择标称点速率，并将输出尺寸调整到指定扫描角（例如 8°）。请参考 ILDA 文档了解如何分析输出。
 
 #### 为什么它可能不是好的基准
 
@@ -47,6 +66,8 @@ Phenix Technology（PT）通常低一个档次，但说实话，对大多数用�
 #### Liberation 如何帮助
 
 首先，对大多数事情来说，你并不需要非常昂贵的扫描器！价格合理的 30kpps DT，甚至 PT，通常都可以胜任。默认扫描器设置有意较为保守，在大多数情况下_你不需要调整它们_（除了 _Scanner sync_）。
+
+如果你想了解扫描器设置实际在做什么，Libera Lab 比你的演出项目更适合用来试验。你可以一边查看预览、示波器和扫描器负载信息，一边更改点速率、输出角度和测试图案。
 
 即使你有更好的扫描器，也没必要让它们比实际需要更吃力地工作。这会显著延长它们的寿命。
 
@@ -91,7 +112,8 @@ Liberation 会实时生成点流，这给了我们极大的灵活性。注意 La
 * 如果你做图形内容，大多数情况下更多激光会比更快扫描器更有帮助。
 * 到了更高端的配置，任何成熟高端品牌通常都没问题。
 * 如果你只能买到最便宜的无品牌扫描器，Liberation 的默认设置相当保守，基础 beam 内容通常也能有还可以的效果。如果效果吃力，请降低 **Speed** 设置（但不要改点率！）。
+* 如果你想测试或比较设置，请先在 Libera Lab 中进行，而不要直接在演出文件里试验。
 
 #### 那 ILDA 测试图案呢？
 
-……它作为校准和参考工具仍然非常有用，但它从来不是为了成为全面基准测试而设计的，也可能被制造商误用或宽松解读。
+……它作为校准和参考工具仍然非常有用，而 Libera Lab 让输出和检查它变得更容易。但它从来不是为了成为全面基准测试而设计的，也可能被制造商误用或宽松解读。

@@ -11,7 +11,7 @@ metaLinks:
 
 更改所有传入内容的颜色。你可以设置固定的 HSB 值，也可以切换到渐变系统，并从自定义渐变中采样颜色。
 
-* **hue, saturation, brightness** - 颜色数值，见 [颜色设置与 HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - 颜色数值，见 [颜色设置与 HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - 不改变 hue
   * FIXED - 将 hue 固定为指定值
@@ -28,7 +28,7 @@ metaLinks:
 * **blend** - 颜色变换的强度，0% 不生效，100% 完全替换，50% 为原色与新色混合。
 
 {% hint style="info" %}
-Colour Change node 会从渐变中采样一种颜色，并应用到整个输入。如果你希望渐变按位置分布在形状上，请改用 [基于位置的变换器](position-based-changers.md "mention")。
+Colour Change node 会从渐变中采样一种颜色，并应用到整个输入。如果你希望渐变按位置分布在形状上，请改用 [基于位置的变换器](position-based-changers.md)。
 {% endhint %}
 
 ### 渐变编辑器

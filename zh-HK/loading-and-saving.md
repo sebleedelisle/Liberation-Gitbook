@@ -14,7 +14,7 @@ Liberation 會持續將狀態儲存到磁碟，因此即使遇上停電或系統
 
 Project 檔案會儲存你目前設定中的幾乎所有內容，包括：
 
-* 以下 [Laser settings 匯入／匯出](loading-and-saving.md#laser-settings-import-export "mention") 所列的全部內容
+* 以下 [Laser settings 匯入／匯出](loading-and-saving.md#laser-settings-import-export) 所列的全部內容
 * Clips、effects 及 group settings
 * 你的所有 timelines（不包括音訊及影片媒體）
 * Art-Net 設定
@@ -30,7 +30,7 @@ Project 檔案會儲存你目前設定中的幾乎所有內容，包括：
 * Text node 使用的字型
 
 {% hint style="danger" %}
-Timeline 中的聲音及影片檔案不會隨 project 檔案一同儲存；如果你想轉移到另一部電腦，請務必另外儲存這些檔案。請參閱 [關於 timeline 媒體檔案的重要注意事項](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Timeline 中的聲音及影片檔案不會隨 project 檔案一同儲存；如果你想轉移到另一部電腦，請務必另外儲存這些檔案。請參閱 [關於 timeline 媒體檔案的重要注意事項](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Laser settings 匯入／匯出
@@ -67,7 +67,7 @@ Timeline 中的聲音及影片檔案不會隨 project 檔案一同儲存；如�
 所有目前已選取的 clips 都會匯出到一個檔案。Group settings 及 effects 不會儲存，只會儲存 clips。請注意，目前正在執行的 active clips 不會匯出，除非它們同時亦已被選取。
 
 {% hint style="info" %}
-按住 Option/Alt - shift，然後點擊 Clip 以選取它們（或使用 lasso）。你可以透過 Clip 周圍的粗白色外框辨認哪些 Clip 已被選取。請參閱 [啟動／停止 Clips](clips/starting-stopping-clips.md "mention")
+按住 Option/Alt - shift，然後點擊 Clip 以選取它們（或使用 lasso）。你可以透過 Clip 周圍的粗白色外框辨認哪些 Clip 已被選取。請參閱 [啟動／停止 Clip](clips/starting-stopping-clips.md)
 {% endhint %}
 
 ### Effects 匯入／匯出
@@ -82,12 +82,12 @@ Timeline 中的聲音及影片檔案不會隨 project 檔案一同儲存；如�
 
 ### Timeline 匯出
 
-匯出包含一個或多個 timeline 的 timeline 檔案。請注意，匯出的 timeline 檔案一定會包含 Clip Deck（不過你可以選擇要重新匯入哪些 Clip，請參閱下方的 [Timeline 匯入](loading-and-saving.md#timeline-import "mention")）
+匯出包含一個或多個 timeline 的 timeline 檔案。請注意，匯出的 timeline 檔案一定會包含 Clip Deck（不過你可以選擇要重新匯入哪些 Clip，請參閱下方的 [Timeline 匯入](loading-and-saving.md#timeline-import)）
 
 如果你的 project 檔案中有多個 timeline，系統會開啟一個面板，讓你選擇要匯出的 timelines。
 
 {% hint style="danger" %}
-Timeline 中的聲音及影片檔案不會隨 timeline 檔案一同儲存；如果你想將內容轉移到另一部電腦，請務必另外儲存這些檔案。請參閱 [關於 timeline 媒體檔案的重要注意事項](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Timeline 中的聲音及影片檔案不會隨 timeline 檔案一同儲存；如果你想將內容轉移到另一部電腦，請務必另外儲存這些檔案。請參閱 [關於 timeline 媒體檔案的重要注意事項](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Timeline 匯入

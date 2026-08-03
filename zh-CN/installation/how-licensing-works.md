@@ -13,7 +13,7 @@ metaLinks:
 _free mode_ 除了不能输出到激光硬件外没有任何限制。你可以排练演出、搭建 Timeline、保存和加载文件，均不受限制。你可以在任意数量的电脑上以 _free mode_ 安装 Liberation，只有在你准备使用激光时才需要授权！
 {% endhint %}
 
-除了可启用输出的激光数量之外，你也可以使用 DMX 设备。见 [DMX / Art-Net](../dmx-control/ "mention")。
+除了可启用输出的激光数量之外，你也可以使用 DMX 设备。见 [DMX / Art-Net](../dmx-control/)。
 
 你可授权安装 Liberation 的电脑数量也会根据许可证档位而有所限制。
 

@@ -20,17 +20,17 @@ Liberation 非常靈活，即使完全沒有連接實際激光，你也可以設
 你可以在 Liberation 內設定和視覺化任意數量的激光，授權級別（Hobbyist、Pro 等）只會限制你可以 _arm_ 的激光數量。這代表即使使用免費授權，你也可以設計包含 100 支激光的表演。只有在實際用真實激光運行時，你才需要升級。
 {% endhint %}
 
-預設設定是 8 支激光水平排列，但你可以按需要自訂。剛開始熟習軟件時，建議先保留這個預設；之後可以再調整至配合你的硬件設定。（請參閱 [設定你的專案](setting-up/setting-up-your-project.md "mention")）
+預設設定是 8 支激光水平排列，但你可以按需要自訂。剛開始熟習軟件時，建議先保留這個預設；之後可以再調整至配合你的硬件設定。（請參閱 [設定你的專案](setting-up/setting-up-your-project.md)）
 
 {% hint style="warning" %}
-重要：在啟用任何激光之前，請確保你了解相關風險，並仔細閱讀 [激光設定流程概覽](setting-up/setting-up-lasers.md "mention") 章節。
+重要：在啟用任何激光之前，請確保你了解相關風險，並仔細閱讀 [激光設定流程概覽](setting-up/setting-up-lasers.md) 章節。
 {% endhint %}
 
 ## 軟件概覽
 
 ### 安全停機
 
-任何時候運行激光，你都必須準備好一個 **硬件緊急停止按鈕**（請參閱 [緊急停止 / 互鎖](hardware/emergency-stop-interlocks.md "mention")）。如果你只想以較非緊急的方式停用所有輸出，可以使用 _**DISARM ALL**_ 按鈕，或按 `Escape` 鍵（或 APC40 上的 _**SESSION**_ 鍵）。你亦可以使用畫面上的滑桿，或 APC40 上的主 fader，降低全域亮度。
+任何時候運行激光，你都必須準備好一個 **硬件緊急停止按鈕**（請參閱 [緊急停止 / 互鎖](hardware/emergency-stop-interlocks.md)）。如果你只想以較非緊急的方式停用所有輸出，可以使用 _**DISARM ALL**_ 按鈕，或按 `Escape` 鍵（或 APC40 上的 _**SESSION**_ 鍵）。你亦可以使用畫面上的滑桿，或 APC40 上的主 fader，降低全域亮度。
 
 ### 滑桿元素
 
@@ -42,7 +42,7 @@ Liberation 內有不同滑桿和控制項。
 
 ### 鍵盤快捷鍵
 
-完整鍵盤快捷鍵列表可在此查看：[鍵盤快捷鍵](reference/keyboard-shortcuts.md "mention")
+完整鍵盤快捷鍵列表可在此查看：[鍵盤快捷鍵](reference/keyboard-shortcuts.md)
 
 ### 畫面配置
 
@@ -74,7 +74,7 @@ Menu 是你可以找到所有檔案匯入／匯出選項，以及開啟各個 pa
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view 會顯示你的激光看起來的效果，並可設定成配合你自己的激光配置。按住並拖曳可旋轉 camera，使用滑鼠滾輪可向前或向後移動。你可以在 _3D Visualiser settings_ panel（_View -> 3D Visualiser Settings_）找到更多選項。請參閱 [3D Visualiser](setting-up/3d-visualiser.md "mention")。
+3D view 會顯示你的激光看起來的效果，並可設定成配合你自己的激光配置。按住並拖曳可旋轉 camera，使用滑鼠滾輪可向前或向後移動。你可以在 _3D Visualiser settings_ panel（_View -> 3D Visualiser Settings_）找到更多選項。請參閱 [3D Visualiser](setting-up/3d-visualiser.md)。
 
 #### Output View
 
@@ -106,11 +106,11 @@ Zone 是激光 output 內的一個空間，你可以把 laser content 指向其�
 
 左側有一列圖示按鈕，把滑鼠移到任何按鈕上即可看到其功能說明。這些按鈕可讓你加入 beam zones、canvas zones 和 masks。這裡亦有選項可只為這支激光設定 test pattern，以及 grid 和 snapping 設定。
 
-更多詳情請參閱 [Output 視圖／Zones](output-view/ "mention")。
+更多詳情請參閱 [Output 視圖／Zones](output-view/)。
 
 #### Canvas
 
-Canvas 系統主要用於圖像和建築 mapping。你可以把複雜圖像分佈到多支激光上，並對每個部分作 perspective correction。請參閱 [圖像與 Canvas 系統](graphics-and-the-canvas-system/ "mention")。
+Canvas 系統主要用於圖像和建築 mapping。你可以把複雜圖像分佈到多支激光上，並對每個部分作 perspective correction。請參閱 [圖像與 Canvas 系統](graphics-and-the-canvas-system/)。
 
 ### APC40 MIDI controller
 
@@ -118,7 +118,7 @@ Canvas 系統主要用於圖像和建築 mapping。你可以把複雜圖像分�
 
 雖然你可以用滑鼠和鍵盤控制 Liberation，但使用 APC40 MIDI control interface 會好得多（Mark 2 最佳，Mark 1 亦可使用）。
 
-另請參閱：[APC40 參考](reference/apc40-reference.md "mention")
+另請參閱：[APC40 參考](reference/apc40-reference.md)
 
 Liberation 亦支援 APC Mini 和 MIDI Fighter Twister。在大多數情況下，APC40 Mark 2 仍然是最佳選擇。
 
@@ -146,7 +146,7 @@ Clip 是 Liberation 內任何 laser content 的容器。Clips 可以包含 beams
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ 按鈕
 
-為了幫助你掌握位置，上方有一個 Clip Deck 的小型視覺化預覽。另請參閱 [Clips 及 Clip Deck](clips/ "mention")
+為了幫助你掌握位置，上方有一個 Clip Deck 的小型視覺化預覽。另請參閱 [Clips 及 Clip Deck](clips/)
 
 #### 開始和停止 clips
 
@@ -168,7 +168,7 @@ _STOP_ 按鈕會停止所有目前正在播放的 clips。
 請注意，這些 zone 分配和 X/Y flip 設定是連接到 clip 本身；下次你運行該 clip 時仍會保留。它們不是全域設定。
 {% endhint %}
 
-右鍵點擊 Clip 可編輯更多 Clip 設定。另請參閱 [Clip 設定](clips/clip-settings.md "mention")
+右鍵點擊 Clip 可編輯更多 Clip 設定。另請參閱 [Clip 設定](clips/clip-settings.md)
 
 ### Groups
 
@@ -190,7 +190,7 @@ Groups 亦有 transition in/out 設定，可由其 clips 繼承，或被覆寫�
 
 使用 APC40 時，按下 group button，然後在 _仍然按住它的時候_ 使用 zone 和 X/Y buttons，為該 group 內所有 clips 切換 zone 設定。
 
-另請參閱 [Clip 群組](clips/groups.md "mention")
+另請參閱 [Clip 群組](clips/groups.md)
 
 ### Effects
 
@@ -208,7 +208,7 @@ Liberation 的 effects 系統是一個功能強大且靈活的方式，可即時
 Effect buttons 上的小數字代表 effect 的 _level_ 和 _parameter_。_level_ 由 APC40 上的 fader 控制，或者你可以在按鈕上按住並拖曳。Parameter 則由 APC40 上的 rotaries 調整，或者你可以用滑鼠右鍵調整。
 {% endhint %}
 
-_\*Rotary controllers 1-8 位於 APC40 Mk2 的頂部，以及 Mk1 的右上方。另請參閱：_ [APC40 參考](reference/apc40-reference.md "mention")
+_\*Rotary controllers 1-8 位於 APC40 Mk2 的頂部，以及 Mk1 的右上方。另請參閱：_ [APC40 參考](reference/apc40-reference.md)
 
 #### 預設 effects
 
@@ -297,16 +297,18 @@ _Laser overview panel_ 可讓你快速查看目前正在運行的激光狀態。
 
 中間的圖表是 frame length 的歷史記錄，右方數字是目前 frame rate。內容越複雜，frame rate 就會越慢（即更容易閃爍）。低於約 25fps 時，看起來就會開始有點閃。
 
+如果畫面更新率偏低，請參閱 [改善舊電腦上的效能](troubleshooting/improving-performance-on-older-machines.md) 查看建議。
+
 ### 連接到激光——Controller Assignment panel
 
 按 _Assign Laser Controllers_ 按鈕可開啟 _Controller Assignment_ panel。（你亦可以透過 menu bar 的 _View -> Controller Assignment_ 存取此 panel）。
 
 你可以在這裡選擇哪些 laser outputs 送到哪些 laser controllers。把右側列表中的 controllers 拖放到左側的 slots。你可以重新命名 controllers，使其名稱與配對的激光一致（使用 pen icon button）。
 
-更多詳情請閱讀 [控制器指派](setting-up/controller-assignment.md "mention") 章節。
+更多詳情請閱讀 [控制器指派](setting-up/controller-assignment.md) 章節。
 
 {% hint style="danger" %}
-在啟用任何激光之前，請務必閱讀 [激光設定流程概覽](setting-up/setting-up-lasers.md "mention") 章節。
+在啟用任何激光之前，請務必閱讀 [激光設定流程概覽](setting-up/setting-up-lasers.md) 章節。
 {% endhint %}
 
 ### Laser output panel
@@ -337,10 +339,10 @@ Liberation 讓你詳細控制這個 point stream 的生成方式，使你可以�
 基本 scanner settings 包括：
 
 * **Speed** 是 scanner speed，即激光移動繪畫形狀的速度。這相當於傳統激光軟件中的 point rate 調整，但在 Liberation 中，你可以 _獨立於 point rate_ 更改激光移動速度。你通常不需要調整它。
-* **Scanner sync**（有時稱為 _blank shift，以前稱為 Colour Shift_）Scanners 會非常快速地移動激光，但亮度和顏色的變化通常會與移動不同步。這會在 beams 和 lines 邊緣出現細小閃爍的光「尾巴」。使用此調整可令移動和顏色彼此同步。請參閱 [激光輸出設定面板](setting-up/laser-settings.md "mention")
+* **Scanner sync**（有時稱為 _blank shift，以前稱為 Colour Shift_）Scanners 會非常快速地移動激光，但亮度和顏色的變化通常會與移動不同步。這會在 beams 和 lines 邊緣出現細小閃爍的光「尾巴」。使用此調整可令移動和顏色彼此同步。請參閱 [激光輸出設定面板](setting-up/laser-settings.md)
 
-其他進階 scanner settings 會在 [進階](advanced/ "mention") 章節中說明。
+其他進階 scanner settings 會在 [進階](advanced/) 章節中說明。
 
 ### Zoning
 
-有關設定激光和劃分 zone 的完整指南，請參閱：[激光設定流程概覽](setting-up/setting-up-lasers.md "mention")
+有關設定激光和劃分 zone 的完整指南，請參閱：[激光設定流程概覽](setting-up/setting-up-lasers.md)

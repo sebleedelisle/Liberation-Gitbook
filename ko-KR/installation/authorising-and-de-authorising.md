@@ -29,7 +29,7 @@ Liberation으로 돌아오면 _About panel_이 업데이트된 것을 볼 수 �
 라이선스가 여러 개인 경우, 해당 컴퓨터에 할당할 라이선스를 선택하라는 메시지가 표시됩니다.
 {% endhint %}
 
-축하합니다! 이제 Liberation 설치가 인증되었으며 레이저로 출력할 수 있습니다. 하지만 레이저를 arm 상태로 전환하기 전에 [빠른 시작 가이드](../getting-started.md "mention") 및 [레이저 설정 절차 개요](../setting-up/setting-up-lasers.md "mention")를 먼저 읽어 주세요.
+축하합니다! 이제 Liberation 설치가 인증되었으며 레이저로 출력할 수 있습니다. 하지만 레이저를 arm 상태로 전환하기 전에 [빠른 시작 가이드](../getting-started.md) 및 [레이저 설정 절차 개요](../setting-up/setting-up-lasers.md)를 먼저 읽어 주세요.
 
 {% hint style="info" %}
 _Liberation -> About Liberation_ 또는 _Liberation -> Authorise/Deauthorise this computer_ 메뉴를 통해 언제든지 _About panel_을 열 수 있습니다.

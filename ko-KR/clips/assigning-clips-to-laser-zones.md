@@ -28,4 +28,4 @@ Zone이 8개보다 많으면 다음 방법으로 좌우로 스크롤할 수 있�
 
 ### 여러 Clip에 한 번에 Zone 할당하기
 
-한 zone에 있는 모든 Clip에 zone을 할당하고 X/Y를 조정할 수 있습니다. 자세한 내용은 [Clip 그룹](groups.md "mention")을 참고하세요.
+한 zone에 있는 모든 Clip에 zone을 할당하고 X/Y를 조정할 수 있습니다. 자세한 내용은 [Clip 그룹](groups.md)을 참고하세요.

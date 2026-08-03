@@ -10,48 +10,48 @@ metaLinks:
 
 単一のドット／ビームを作成します。
 
-* **Render profile** - [Render profile](fundamentals/render-profile.md "mention") を参照してください
-* **Colour** - ドットの色です。[カラー設定と HSB](fundamentals/colour-settings-and-hsb.md "mention") を参照してください
-* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md "mention") を参照してください
-* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* **Render profile** - [Render profile](fundamentals/render-profile.md) を参照してください
+* **Colour** - ドットの色です。[カラー設定と HSB](fundamentals/colour-settings-and-hsb.md) を参照してください
+* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md) を参照してください
+* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
 
 ライン／シートを作成します。
 
-* **Render profile** - [Render profile](fundamentals/render-profile.md "mention") を参照してください
+* **Render profile** - [Render profile](fundamentals/render-profile.md) を参照してください
 * **Size** - ラインの長さです
-* **Colour** - ラインの色です。[カラー設定と HSB](fundamentals/colour-settings-and-hsb.md "mention") を参照してください
-* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md "mention") を参照してください
+* **Colour** - ラインの色です。[カラー設定と HSB](fundamentals/colour-settings-and-hsb.md) を参照してください
+* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md) を参照してください
 * **rotation** - ラインの角度です（度単位）
-* **resolution** - [Resolution](fundamentals/resolution.md "mention") を参照してください
+* **resolution** - [Resolution](fundamentals/resolution.md) を参照してください
 * **alignment** - _LEFT / CENTRE / RIGHT -_ ラインの開始点と回転中心を決定します
-* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 
 ### <img src="../.gitbook/assets/CreatorCircle.png" alt="" data-size="line"> Circle Creator
 
 円／コーンを作成します。
 
-* **Render profile** - [Render profile](fundamentals/render-profile.md "mention") を参照してください
+* **Render profile** - [Render profile](fundamentals/render-profile.md) を参照してください
 * **radius** - 円の半径です
-* **Colour** - 円の色です。[カラー設定と HSB](fundamentals/colour-settings-and-hsb.md "mention") を参照してください
-* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md "mention") を参照してください
-* **resolution** - [Resolution](fundamentals/resolution.md "mention") を参照してください
-* **Fill state** - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
-* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* **Colour** - 円の色です。[カラー設定と HSB](fundamentals/colour-settings-and-hsb.md) を参照してください
+* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md) を参照してください
+* **resolution** - [Resolution](fundamentals/resolution.md) を参照してください
+* **Fill state** - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
+* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 
 ### <img src="../.gitbook/assets/CreatorPoly.png" alt="" data-size="line"> Polygon Creator
 
 正多角形（三角形、四角形、五角形など）を作成します。
 
-* **Render profile** - [Render profile](fundamentals/render-profile.md "mention") を参照してください
+* **Render profile** - [Render profile](fundamentals/render-profile.md) を参照してください
 * **size** - 中心から各頂点までの距離です
-* **Colour** - ポリゴンの色です。[カラー設定と HSB](fundamentals/colour-settings-and-hsb.md "mention") を参照してください
-* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md "mention") を参照してください
+* **Colour** - ポリゴンの色です。[カラー設定と HSB](fundamentals/colour-settings-and-hsb.md) を参照してください
+* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md) を参照してください
 * **rotation** - 図形の回転角度です（度単位）
-* **resolution** - [Resolution](fundamentals/resolution.md "mention") を参照してください
-* **Fill state** - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
-* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* **resolution** - [Resolution](fundamentals/resolution.md) を参照してください
+* **Fill state** - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
+* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 
 ### <img src="../.gitbook/assets/CreatorShape.png" alt="" data-size="line"> Shape Creator
 
@@ -67,15 +67,15 @@ Liberation は _SVGTiny_ 形式に対応しています。InkScape を推奨し�
 SVG を読み込むと、その内容は変換されてクリップ内に保存されます。そのため、後でマスク設定を変更したい場合を除き、元ファイルへの参照を維持する必要はありません。
 {% endhint %}
 
-* **Use fills as masks** - 塗りのある図形をマスクとして処理します。つまり黒で塗りつぶされたものとして扱います。SVG に塗りのある図形が含まれている場合は自動的に有効になります。塗りのある図形がない場合は無効になります。[フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* **Use fills as masks** - 塗りのある図形をマスクとして処理します。つまり黒で塗りつぶされたものとして扱います。SVG に塗りのある図形が含まれている場合は自動的に有効になります。塗りのある図形がない場合は無効になります。[フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 * **Add outlines to filled shapes** - SVG 内の図形にアウトラインがない場合、その図形は描画できません。このオプションは、塗りのある図形にアウトライン（または _stroke_）を追加します。SVG にストローク付きの図形がない場合は自動的に有効になります。塗りのある図形がない場合は無効になります。
 * **Invert black lines** - SVG 内のすべてのラインが黒の場合、表示されません。このオプションはそれらを白に変換します。SVG に黒い図形しかない場合は自動的に有効になりますが、該当する図形がない場合は無効になります。
-* **Render profile** - [Render profile](fundamentals/render-profile.md "mention") を参照してください
+* **Render profile** - [Render profile](fundamentals/render-profile.md) を参照してください
 * **scale** - SVG のサイズを調整します。SVG の読み込み時に自動計算されます（画像が見えるようにするため）が、後から手動で編集できます。
-* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md "mention") を参照してください
+* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md) を参照してください
 * **rotation** - 画像の回転角度です（度単位）
-* **resolution** - [Resolution](fundamentals/resolution.md "mention") を参照してください
-* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* **resolution** - [Resolution](fundamentals/resolution.md) を参照してください
+* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 
 ### <img src="../.gitbook/assets/CreatorAnim.png" alt="" data-size="line"> Anim Creator
 
@@ -87,14 +87,14 @@ SVG を読み込むと、その内容は変換されてクリップ内に保存�
 SVG シーケンスを読み込むと、その内容は変換されてクリップ内に保存されます。そのため、後でマスク設定を変更したい場合を除き、元ファイルへの参照を維持する必要はありません。
 {% endhint %}
 
-* **Use fills as masks** - 塗りのある図形をマスクとして処理します。つまり黒で塗りつぶされたものとして扱います。いずれかの SVG に塗りのある図形が含まれている場合は自動的に有効になります。どの SVG にも塗りのある図形がない場合は無効になります。[フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* **Use fills as masks** - 塗りのある図形をマスクとして処理します。つまり黒で塗りつぶされたものとして扱います。いずれかの SVG に塗りのある図形が含まれている場合は自動的に有効になります。どの SVG にも塗りのある図形がない場合は無効になります。[フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 * **Add outlines to filled shapes** - SVG 内の図形にアウトラインがない場合、その図形は描画できません。このオプションは、塗りのある図形にアウトライン（または _stroke_）を追加します。SVG にストローク付きの図形がない場合は自動的に有効になります。塗りのある図形がない場合は無効になります。
 * **Invert black lines** - SVG 内のすべてのラインが黒の場合、表示されません。このオプションはそれらを白に変換します。SVG に黒い図形しかない場合は自動的に有効になりますが、該当する図形がない場合は無効になります。
-* **Render profile** - [Render profile](fundamentals/render-profile.md "mention") を参照してください
+* **Render profile** - [Render profile](fundamentals/render-profile.md) を参照してください
 * **scale** - 画像のサイズを調整します。
-* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md "mention") を参照してください
+* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md) を参照してください
 * **rotation** - 画像の回転角度です（度単位）
-* **resolution** - [Resolution](fundamentals/resolution.md "mention") を参照してください
+* **resolution** - [Resolution](fundamentals/resolution.md) を参照してください
 * **speed** - アニメーション全体の長さです（小節単位）。
 * **time per frame** - これを設定すると、長さはアニメーション全体ではなくフレームごとの長さになります。たとえば _speed_ を ¼ に設定すると、各フレームは 1 拍になります。
 * **animation direction** -
@@ -103,7 +103,7 @@ SVG シーケンスを読み込むと、その内容は変換されてクリッ�
   * _PINGPONG_ - アニメーションは順方向に再生された後、逆方向に戻る動きをループします
   * _MANUAL_ - 現在のフレームは _position manual_ 設定で指定します
 * **position manual** - 現在のフレームを設定します。0% が最初のフレーム、100% が最後のフレームです。手動、または外部オシレーターで設定できます。
-* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 
 ### <img src="../.gitbook/assets/CreatorText.png" alt="" data-size="line"> Text Creator
 
@@ -116,16 +116,16 @@ TrueType または OpenType フォントを使用してテキストを作成し�
 Liberation にフォントを追加するには、.ttf または .otf ファイルを Liberation の作業フォルダー内にある `data/fonts` フォルダーにコピーし、その後 Liberation を再起動します。
 {% endhint %}
 
-* **Render profile** - [Render profile](fundamentals/render-profile.md "mention") を参照してください
+* **Render profile** - [Render profile](fundamentals/render-profile.md) を参照してください
 * **horizontal alignment** - _LEFT_、_CENTRE_、または _RIGHT_ を選択して、テキストの配置を指定します。
-* **Fill state** - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* **Fill state** - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 * **size** - テキストサイズです
 * **monospace** - すべての文字を同じ幅で描画します。数字が変わってもテキストが横にずれないため、タイマーやカウンターに便利です。
 * **character spacing** - 文字間隔を調整します。間隔を広げたい場合は大きくし、テキストを詰めたい場合は小さくします。
-* **colour -** [カラー設定と HSB](fundamentals/colour-settings-and-hsb.md "mention") を参照してください
-* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md "mention") を参照してください
+* **colour -** [カラー設定と HSB](fundamentals/colour-settings-and-hsb.md) を参照してください
+* **x** and **y** position - [座標系](fundamentals/co-ordinate-system.md) を参照してください
 * **rotation** - 画像の回転角度です（度単位）
-* **resolution** - [Resolution](fundamentals/resolution.md "mention") を参照してください
+* **resolution** - [Resolution](fundamentals/resolution.md) を参照してください
 * **reveal** - テキストを 1 文字ずつ徐々に表示するために使用します。この値が 0〜50% の間の場合、テキストは左から右へ徐々に表示されます。50〜100% の間の場合、テキストは左から右へ消えていきます。このソケットにオシレーターを接続すると、アニメーションを作成できます。
 * **reveal by word** - 設定すると、_reveal_ は文字単位ではなく単語単位で動作します。
 * **countdown** - 入力したテキストをカウントダウンに置き換えます。カウントダウンがゼロになると、通常の **Text** の値が表示されます。
@@ -134,7 +134,7 @@ Liberation にフォントを追加するには、.ttf または .otf ファイ�
 * **countdown to date/time** - 数値からカウントダウンする代わりに、指定した UTC の日時までカウントダウンします。
 * **countdown datetime** - **countdown to date/time** がオンのときの UTC の目標日時を設定します。
 * **start number** - **countdown to date/time** がオフのときの開始数値です。
-* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md "mention") を参照してください
+* _MOVE TO FRONT / MOVE TO BACK_ - [フィル、マスク、デプスソート](fundamentals/fills-masks-and-depth-sorting.md) を参照してください
 
 {% hint style="info" %}
 フォントのドロップダウンメニューが開いている場合、上下の矢印キーで利用可能なフォントを順に選択できます。

@@ -22,7 +22,7 @@ Dat hangt ervan af hoeveel lasers je wilt aansturen. Als je maar een paar lasers
 
 #### **Hoeveel lasers kan ik met Liberation aansturen?**
 
-Liberation kan veel lasers op één computer aansturen. Het is getest met meer dan 100 lasercontrollers, dus het antwoord hangt af van:
+Liberation kan heel veel lasers op één computer aansturen. Het is getest met meer dan 100 lasers, dus het antwoord hangt af van:
 
 * de CPU van je computer
 * de netwerksnelheid
@@ -30,13 +30,13 @@ Liberation kan veel lasers op één computer aansturen. Het is getest met meer d
 
 #### **Welke MIDI-controllers kan ik gebruiken?**
 
-Liberation is ontworpen en geoptimaliseerd rond de populaire APC40 Mk2 MIDI-controller. Het werkt ook met de APC40 Mk1. Zie [Live MIDI-controllers](midi-control/live-control-with-the-apc40.md "mention")
+Liberation is ontworpen en geoptimaliseerd rond de populaire APC40 Mk2 MIDI-controller. Het werkt ook met de APC40 Mk1. Zie [Live MIDI-controllers](midi-control/live-control-with-the-apc40.md)
 
 Liberation ondersteunt ook APC Mini en MIDI Fighter Twister. De APC40 Mk2 blijft de meest complete referentiecontroller.
 
-Er is ook het MIDI Send/Receive-systeem voor extra MIDI-besturing. Zie [MIDI verzenden/ontvangen](midi-control/midi-send-receive.md "mention")
+Er is ook het MIDI Send/Receive-systeem voor extra MIDI-besturing. Zie [MIDI verzenden/ontvangen](midi-control/midi-send-receive.md)
 
-Zie [MIDI-besturing](midi-control/ "mention") voor meer informatie.
+Zie [MIDI-besturing](midi-control/) voor meer informatie.
 
 #### **Kan ik het met elke MIDI-controller gebruiken?**
 
@@ -53,7 +53,7 @@ Gebruik voor andere controllers het MIDI Send/Receive-systeem of een MIDI-transl
 * LaserCube-netwerkprotocol (met een bekabelde verbinding)
 * AVB zoals gebruikt door [LASollinger-lasers](https://laseranimation.com/en/) (momenteel alleen macOS, in testfase)
 
-Zie [Compatibele lasers en controllers (DAC's)](hardware/compatible-lasers-and-controllers-dacs.md "mention") voor meer informatie
+Zie [Compatibele lasers en controllers (DAC's)](hardware/compatible-lasers-and-controllers-dacs.md) voor meer informatie
 
 #### **Waarom ondersteunen jullie geen lasercontroller van \[ander merk]?**
 
@@ -69,11 +69,11 @@ Als je laser een van de volgende opties heeft, kun je hem met Liberation gebruik
 * Een **X-Laser-unit met ingebouwd Mercury-systeem** (in Ether Dream-modus).
 * Een **LaserAnimation Sollinger-projector met ingebouwde AVB** (alleen macOS, vereist AVB-compatibele netwerkapparaten, momenteel in testfase).
 
-Zie [Compatibele lasers en controllers (DAC's)](hardware/compatible-lasers-and-controllers-dacs.md "mention") voor meer informatie
+Zie [Compatibele lasers en controllers (DAC's)](hardware/compatible-lasers-and-controllers-dacs.md) voor meer informatie
 
 #### **Kan ik Liberation gebruiken met mijn LaserCube?**
 
-Ja, Liberation werkt rechtstreeks met elke LaserCube. Zie [LaserCube](hardware/lasercube.md "mention")
+Ja, Liberation werkt rechtstreeks met elke LaserCube. Zie [LaserCube](hardware/lasercube.md)
 
 ## Licenties
 
@@ -89,23 +89,35 @@ Let op: je kunt op **elk** niveau, ook het gratis niveau, shows instellen, voora
 
 #### **Kan ik upgraden naar een nieuw niveau?**
 
-Je kunt op elk moment upgraden naar een hoger niveau. Je krijgt een gedeeltelijke terugbetaling voor de resterende tijd van je huidige betaalde periode, en je nieuwe licentieniveau gaat direct in. Zie [Je licentie upgraden of downgraden](installation/upgrade-downgrade-your-license.md "mention")
+Je kunt op elk moment upgraden naar een hoger niveau. Je krijgt een gedeeltelijke terugbetaling voor de resterende tijd van je huidige betaalde periode, en je nieuwe licentieniveau gaat direct in. Zie [Je licentie upgraden of downgraden](installation/upgrade-downgrade-your-license.md)
 
 #### **Kan ik mijn licentie downgraden?**
 
-Je kunt op elk moment downgraden, maar de wijziging gaat in aan het einde van je huidige betaalde periode. Zie [Je licentie upgraden of downgraden](installation/upgrade-downgrade-your-license.md "mention")
+Je kunt op elk moment downgraden, maar de wijziging gaat in aan het einde van je huidige betaalde periode. Zie [Je licentie upgraden of downgraden](installation/upgrade-downgrade-your-license.md)
 
 #### **Kan ik betalingen voor mijn licentie pauzeren?**
 
-Ja. De licentie kan op de volgende abonnementsdatum worden gepauzeerd en op elk moment weer worden gestart. Dit is handig als je je gebruik periodiek start en stopt, en je hoeft je kaartgegevens niet opnieuw in te voeren. Zie [Betalingen pauzeren of annuleren](installation/cancel-your-subscription.md "mention")
+Ja. De licentie kan op de volgende abonnementsdatum worden gepauzeerd en op elk moment weer worden gestart. Dit is handig als je je gebruik periodiek start en stopt, en je hoeft je kaartgegevens niet opnieuw in te voeren. Zie [Betalingen pauzeren of annuleren](installation/cancel-your-subscription.md)
 
 #### **Hoe annuleer ik mijn licentie definitief?**
 
-Je kunt je terugkerende licentie op elk moment annuleren. Deze wordt dan automatisch gedeactiveerd aan het einde van de huidige betaalde periode. Zie [Betalingen pauzeren of annuleren](installation/cancel-your-subscription.md "mention")
+Je kunt je terugkerende licentie op elk moment annuleren. Deze wordt dan automatisch gedeactiveerd aan het einde van de huidige betaalde periode. Zie [Betalingen pauzeren of annuleren](installation/cancel-your-subscription.md)
+
+#### **Waarom werkt Liberation met een abonnement?**
+
+Kort gezegd houdt dit Liberation duurzaam, actief in ontwikkeling en eerlijk, terwijl iedereen shows nog steeds gratis kan openen, bewerken, opslaan, oefenen en vooraf bekijken.
+
+Ik heb hier meer geschreven over de gedachte hierachter: [Waarom Liberation een abonnement gebruikt](https://liberationlaser.com/articles/why-a-subscription).
+
+#### **Kan ik een permanente of langlopende licentie krijgen voor mijn installatie / tourproductie?**
+
+Voor permanente installaties en tourproducties zijn vooraf betaalde jaarlicenties (of zelfs meerjarige licenties) beschikbaar. Mail naar [billing@liberationlaser.com](mailto:billing@liberationlaser.com) als je er een wilt instellen.
+
+Permanente licenties zijn momenteel niet beschikbaar. Zie voor meer context [Waarom Liberation een abonnement gebruikt](https://liberationlaser.com/articles/why-a-subscription).
 
 #### **Hoe autoriseer ik mijn computer met mijn licentie?**
 
-Nadat je een licentie hebt gekocht, kun je de computer autoriseren vanuit de Liberation-software zelf. Je ziet een knop _Authorise_ op het scherm _About_; daarmee word je gevraagd om in te loggen op de website. Volg de instructies op het scherm om het autorisatieproces te voltooien. Zie [Autoriseren en autorisatie intrekken](installation/authorising-and-de-authorising.md "mention")
+Nadat je een licentie hebt gekocht, kun je de computer autoriseren vanuit de Liberation-software zelf. Je ziet een knop _Authorise_ op het scherm _About_; daarmee word je gevraagd om in te loggen op de website. Volg de instructies op het scherm om het autorisatieproces te voltooien. Zie [Autoriseren en autorisatie intrekken](installation/authorising-and-de-authorising.md)
 
 #### **Hoe vaak moet ik mijn computer met internet verbinden?**
 
@@ -121,7 +133,7 @@ Je krijgt een e-mailmelding van onze betalingsprovider en moet je kaartgegevens 
 
 #### **Op hoeveel computers kan ik Liberation installeren?**
 
-Je kunt Liberation op zoveel computers installeren als je wilt. Licentieautorisaties zijn alleen nodig om laser- / DMX-output in te schakelen, en je licentieniveau bepaalt hoeveel computers tegelijk voor output geautoriseerd kunnen zijn. Zie [Hoe licenties werken](installation/how-licensing-works.md "mention")
+Je kunt Liberation op zoveel computers installeren als je wilt. Licentieautorisaties zijn alleen nodig om laser- / DMX-output in te schakelen, en je licentieniveau bepaalt hoeveel computers tegelijk voor output geautoriseerd kunnen zijn. Zie [Hoe licenties werken](installation/how-licensing-works.md)
 
 #### **Hoe verplaats ik mijn licentie van de ene computer naar een andere?**
 
@@ -131,7 +143,7 @@ Je kunt Liberation op zoveel computers installeren als je wilt. Licentieautorisa
 * Klik op de knop _Authorise this computer_ op het scherm _About_.
 * De website wordt geopend; log in en volg de instructies op het scherm om de autorisatie te voltooien
 
-Je kunt ook op afstand de autorisatie intrekken van een computer waar je geen toegang meer toe hebt (met enkele beperkingen). Zie [Autoriseren en autorisatie intrekken](installation/authorising-and-de-authorising.md "mention")
+Je kunt ook op afstand de autorisatie intrekken van een computer waar je geen toegang meer toe hebt (met enkele beperkingen). Zie [Autoriseren en autorisatie intrekken](installation/authorising-and-de-authorising.md)
 
 #### **Kan ik Liberation deautoriseren op een computer die verloren of gestolen is?**
 
@@ -143,11 +155,11 @@ Zo niet, dan wordt de deautorisatie van kracht wanneer de licentie de volgende k
 
 #### De standaardsetup heeft 8 lasers - hoe wijzig ik dit?
 
-Zie [Je project instellen](setting-up/setting-up-your-project.md "mention") en [Lasers toevoegen/verwijderen](setting-up/adding-removing-lasers.md "mention")
+Zie [Je project instellen](setting-up/setting-up-your-project.md) en [Lasers toevoegen/verwijderen](setting-up/adding-removing-lasers.md)
 
 #### Kan ik zone-instellingen van één laser naar de andere kopiëren?
 
-Ja! Zie [Zones tussen lasers kopiëren](output-view/copy-zones-between-lasers.md "mention")
+Ja! Zie [Zones tussen lasers kopiëren](output-view/copy-zones-between-lasers.md)
 
 #### Kan ik een getal typen in plaats van een schuifregelaar te gebruiken?
 
@@ -155,42 +167,42 @@ Ja. `Cmd / Ctrl`-klik op de schuifregelaar en je kunt de waarde met het toetsenb
 
 #### **Hoe synchroniseer ik Liberation met muziek?**
 
-Liberation heeft een intelligent "tap tempo"-systeem dat werkt zoals je verwacht, maar je kunt ook een externe MIDI-clock of Ableton Link gebruiken. Zie [Tempo / synchronisatie](tempo-synchronisation.md "mention"). De timeline kan worden gesynchroniseerd met inkomende LTC/SMPTE-timecode via elke audio-interface. Zie [Timecode](timecode.md "mention").
+Liberation heeft een intelligent "tap tempo"-systeem dat werkt zoals je verwacht, maar je kunt ook een externe MIDI-clock of Ableton Link gebruiken. Zie [Tempo / synchronisatie](tempo-synchronisation.md). De timeline kan worden gesynchroniseerd met inkomende LTC/SMPTE-timecode via elke audio-interface. Zie [Timecode](timecode.md).
 
 #### Welke instellingen moet ik aanpassen voor de beste output uit de laser?
 
-De belangrijkste instelling is _Scanner Sync,_ die compenseert voor de kleine vertraging tussen het bewegen van de spiegels en het veranderen van de helderheid van de lasers. Als je laserpunten/-stralen kleine 'staartjes' hebben, moet je dit aanpassen. (Zie de foto's op de pagina [Paneel voor laseroutput-instellingen](setting-up/laser-settings.md "mention") voor een voorbeeld van 'staartjes')
+De belangrijkste instelling is _Scanner Sync,_ die compenseert voor de kleine vertraging tussen het bewegen van de spiegels en het veranderen van de helderheid van de lasers. Als je laserpunten/-stralen kleine 'staartjes' hebben, moet je dit aanpassen. (Zie de foto's op de pagina [Paneel voor laseroutput-instellingen](setting-up/laser-settings.md) voor een voorbeeld van 'staartjes')
 
 Je kunt ook proberen de scannersnelheid te wijzigen: langzamer als je scanners eenvoudig zijn, of sneller als ze goed zijn. Maar **wees voorzichtig, want je kunt je scanners beschadigen als je ze te hard aanstuurt.**
 
 Er zijn ook enkele vooraf ingestelde scannerinstellingen. De standaardoptie is conservatief en prima voor de meeste vereisten voor laserstralen. Er zijn ook andere presets voor betere scanners, en presets die zijn afgestemd op graphics.
 
-Zie voor meer informatie [Paneel voor laseroutput-instellingen](setting-up/laser-settings.md "mention"), en voor informatie over het maken van je eigen presets zie [◼️ Scanner-presets en renderprofielen](advanced/scanner-presets.md "mention") (gevorderd, in uitvoering)
+Zie voor meer informatie [Paneel voor laseroutput-instellingen](setting-up/laser-settings.md), en voor informatie over het maken van je eigen presets zie [◼️ Scanner-presets en renderprofielen](advanced/scanner-presets.md) (gevorderd, in uitvoering)
 
-Je kunt de kleurbalans ook corrigeren met de instellingen voor _Colour calibration_. Zie [Kleurkalibratie](advanced/colour-calibration.md "mention") (gevorderde techniek)
+Je kunt de kleurbalans ook corrigeren met de instellingen voor _Colour calibration_. Zie [Kleurkalibratie](advanced/colour-calibration.md) (gevorderde techniek)
 
 #### Wat doet de instelling _Latency(ms)_?
 
-Dit is de frame-latency, oftewel de maximale tijd tussen het genereren van een frame en het vervolgens naar een laser sturen ervan. Je hoeft dit normaal niet aan te passen, maar als je netwerkproblemen hebt, kun je proberen deze waarde te verhogen. Zie [Latency-instelling](setting-up/latency-setting.md "mention") voor meer details.
+Dit is de frame-latency, oftewel de maximale tijd tussen het genereren van een frame en het vervolgens naar een laser sturen ervan. Je hoeft dit normaal niet aan te passen, maar als je netwerkproblemen hebt, kun je proberen deze waarde te verhogen. Zie [Latency-instelling](setting-up/latency-setting.md) voor meer details.
 
 ### Clips
 
 #### Hoe pas ik zones en instellingen voor een Clip aan zonder die te starten?
 
-`Alt / Option`-klik om de Clip te maken tot de momenteel geselecteerde Clip, maar zonder deze te activeren. Zie ook [Clips starten/stoppen](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-klik om de Clip te maken tot de momenteel geselecteerde Clip, maar zonder deze te activeren. Zie ook [Clips starten/stoppen](clips/starting-stopping-clips.md)
 
 #### Hoe kopieer ik Clips?
 
-Klik en sleep terwijl je de `Alt / Option`-toets ingedrukt houdt. Zie ook [Je Clip Deck organiseren](clips/organising-your-clip-deck.md "mention")
+Klik en sleep terwijl je de `Alt / Option`-toets ingedrukt houdt. Zie ook [Je Clip Deck organiseren](clips/organising-your-clip-deck.md)
 
 #### Hoe verwijder ik Clips?
 
-Klik en sleep ze van het Clip Deck af. Zie ook [Je Clip Deck organiseren](clips/organising-your-clip-deck.md "mention")
+Klik en sleep ze van het Clip Deck af. Zie ook [Je Clip Deck organiseren](clips/organising-your-clip-deck.md)
 
 #### Hoe maak ik een multiselectie, verwijder of combineer ik Clip Decks enzovoort?
 
-Zie [Je Clip Deck organiseren](clips/organising-your-clip-deck.md "mention")
+Zie [Je Clip Deck organiseren](clips/organising-your-clip-deck.md)
 
 #### Wat betekenen het kleine microfoonsymbool en andere pictogrammen op de Clip?
 
-Ze geven aan dat een Clip audio- of MIDI-input gebruikt, en de 3 puntjes geven aan dat er een zone-vertraging is. Zie [Wat betekenen de kleine pictogrammen op de Clip-knoppen?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+Ze geven aan dat een Clip audio- of MIDI-input gebruikt, en de 3 puntjes geven aan dat er een zone-vertraging is. Zie [Wat betekenen de kleine pictogrammen op de Clip-knoppen?](clips/what-are-the-small-icons-on-the-clip-buttons.md)

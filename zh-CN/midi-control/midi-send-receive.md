@@ -25,6 +25,6 @@ MIDI Send/Receive 系统最初是在 Liberation 还没有 Timeline 功能时建�
 
 ### MIDI 映射
 
-见 [MIDI 发送/接收默认映射](../reference/midi-send-receive-default-mapping.md "mention")。
+见 [MIDI 发送/接收默认映射](../reference/midi-send-receive-default-mapping.md)。
 
 未来我计划加入更可定制的 MIDI 映射。在此之前，你可以使用 [BOME](https://www.bome.com/products/miditranslator) 和 [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) 等应用在 Liberation 与自定义硬件之间进行映射转换。&#x20;

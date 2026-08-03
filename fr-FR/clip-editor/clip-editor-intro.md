@@ -32,7 +32,7 @@ Voici ce que vous verrez dans le Clip Editor :
 Pendant l’édition, vous verrez également l’apparence du clip dans le 3D Visualiser en arrière-plan.
 
 {% hint style="info" %}
-Si vous ne voyez aucune sortie dans le 3D Visualiser, vous devrez peut-être utiliser les boutons de zone pour activer les zones souhaitées. Vous devez aussi vérifier que _Preview to lasers_ est activé ; voir [Introduction au Clip Editor](clip-editor-intro.md#clip-editor-panel "mention") ci-dessous.
+Si vous ne voyez aucune sortie dans le visualiseur 3D, vous devrez peut-être utiliser les boutons de zone pour activer les zones souhaitées. Vous devez aussi vérifier que _Preview to lasers_ est activé ; voir [Clip Editor](clip-editor-intro.md#clip-editor-panel) ci-dessous.
 {% endhint %}
 
 ### Construire un clip
@@ -75,7 +75,7 @@ Si vous avez déjà utilisé un synthétiseur analogique, le concept d’oscilla
 **Fun fact :** le nom _Liberation_ est inspiré du Moog Liberation, un synthétiseur « keytar » sorti en 1980 et rendu célèbre par Herbie Hancock, Jean-Michel Jarre et même James Brown !
 {% endhint %}
 
-Les oscillateurs ont toujours des réglages de _range_, qui contrôlent la valeur minimale et maximale de la propriété à modifier. Les _Wave Oscillators_ ont toujours un réglage de _duration_, qui détermine la vitesse à laquelle l’oscillateur modifie la valeur. Voir [Oscillateurs d’onde](oscillators/wave-oscillators.md "mention") pour plus d’informations.
+Les oscillateurs ont toujours des réglages de _range_, qui contrôlent la valeur minimale et maximale de la propriété à modifier. Les _Wave Oscillators_ ont toujours un réglage de _duration_, qui détermine la vitesse à laquelle l’oscillateur modifie la valeur. Voir [Oscillateurs d’onde](oscillators/wave-oscillators.md) pour plus d’informations.
 
 ### Panneau Clip Editor
 
