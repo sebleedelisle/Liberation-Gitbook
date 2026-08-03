@@ -17,7 +17,7 @@ metaLinks:
 
 #### 校准测试原理
 
-使用 Test Pattern 进行校准（见 [测试图案](../output-view/test-patterns.md "mention")）
+使用 Test Pattern 进行校准（见 [测试图案](../output-view/test-patterns.md)）
 
 * **5** – Red
 * **6** – Green

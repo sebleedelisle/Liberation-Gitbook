@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-Le principal type de zone que vous utiliserez pour la plupart de vos projets est la _Beam zone_. Il s’agit d’une zone conçue pour les effets de faisceaux atmosphériques dans l’air. L’autre type de zone est la _Canvas zone_ (voir [Graphiques et système Canvas](../graphics-and-the-canvas-system/ "mention")).
+Le principal type de zone que vous utiliserez pour la plupart de vos projets est la _Beam zone_. Il s’agit d’une zone conçue pour les effets de faisceaux atmosphériques dans l’air. L’autre type de zone est une _Canvas zone_ (voir [Graphiques et système Canvas](../graphics-and-the-canvas-system/)).
 
 {% hint style="danger" %}
-**AVERTISSEMENT - Soyez extrêmement prudent lorsque vous déplacez des zones pendant que le laser fonctionne** et baissez la luminosité au minimum possible. Consultez [Présentation du processus de configuration des lasers](../setting-up/setting-up-lasers.md "mention") pour un guide complet sur l’activation et le zonage des lasers en toute sécurité.
+**AVERTISSEMENT - Soyez extrêmement prudent lorsque vous déplacez des zones pendant que le laser fonctionne** et baissez la luminosité au minimum possible. Consultez [Présentation du processus de configuration des lasers](../setting-up/setting-up-lasers.md) pour obtenir un guide complet sur l’activation et la définition des zones des lasers en toute sécurité.
 {% endhint %}
 
 Vous pouvez cliquer sur les zones et les faire glisser avec la souris. Activez un motif de test pour voir où cette zone est envoyée.
@@ -19,16 +19,16 @@ Utilisez les touches fléchées pour **déplacer finement** la zone ou le point 
 {% endhint %}
 
 {% hint style="info" %}
-Astuce : vous pouvez copier rapidement les réglages de zones sur plusieurs lasers ! Voir [Copier les réglages entre lasers](../setting-up/copy-laser-settings.md "mention")
+Astuce : vous pouvez copier rapidement les réglages de zones sur plusieurs lasers ! Voir [Copier les réglages entre lasers](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 ### Ajouter une nouvelle beam zone
 
-Cliquez sur le bouton _Add a new beam zone_ en haut de la barre d’outils : une nouvelle zone apparaît. Notez que les beam zones sont triées dans l’ordre dans lequel vous les ajoutez, mais vous pouvez les réordonner. Voir [Réorganiser les beam zones](re-ordering-beam-zones.md "mention")
+Cliquez sur le bouton _Add a new beam zone_ en haut de la barre d’outils : une nouvelle zone apparaît. Notez que les beam zones sont triées dans l’ordre dans lequel vous les ajoutez, mais vous pouvez les réorganiser. Voir [Réorganiser les beam zones](re-ordering-beam-zones.md)
 
 ### Ajouter une canvas zone existante
 
-Cliquez sur le bouton _Add existing canvas zone_ : vous verrez la liste des canvas zones disponibles et vous pourrez les activer ou les désactiver pour ce laser. Voir [Graphiques et système Canvas](../graphics-and-the-canvas-system/ "mention")
+Cliquez sur le bouton _Add existing canvas zone_ : vous verrez la liste des canvas zones disponibles et vous pourrez les activer ou les désactiver pour ce laser. Voir [Graphiques et système Canvas](../graphics-and-the-canvas-system/)
 
 ### Types de formes de zone
 
@@ -47,7 +47,7 @@ Faites un clic droit sur une zone pour ouvrir ses réglages. Depuis ce menu cont
 * La réinitialiser à la position par défaut
 * Accéder aux réglages propres au type de forme
 * La supprimer
-* Ajouter une _Alt Zone_ (voir [Système d’Alt Zone](alt-zone-system.md "mention"))
+* Ajouter une _Alt Zone_ (voir [Système d’Alt Zone](alt-zone-system.md))
 
 {% hint style="danger" %}
 **AVERTISSEMENT -** soyez très prudent lorsque vous changez le type de zone pendant que le laser est actif. La zone revient à la dernière position / taille utilisée pour cette forme, ce qui peut modifier brusquement la sortie. Il est préférable d’éteindre le laser avant de changer le type de zone.

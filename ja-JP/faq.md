@@ -22,7 +22,7 @@ metaLinks:
 
 #### **Liberation で何台のレーザーを制御できますか？**
 
-Liberation は 1 台のコンピューターで多数のレーザーを動作できます。100 台を超えるレーザーコントローラーでテスト済みですが、実際の台数は次の要素によって決まります。
+Liberation は 1 台のコンピューターで非常に多くのレーザーを動作できます。100 台を超えるレーザーでテスト済みですが、実際の台数は次の要素によって決まります。
 
 * コンピューターの CPU
 * ネットワーク速度
@@ -30,13 +30,13 @@ Liberation は 1 台のコンピューターで多数のレーザーを動作で
 
 #### **どの MIDI コントローラーを使用できますか？**
 
-Liberation は、人気の APC40 Mk2 MIDI コントローラーを中心に設計・最適化されています。APC40 Mk1 でも動作します。詳しくは [ライブ MIDI コントローラー](midi-control/live-control-with-the-apc40.md "mention") を参照してください。
+Liberation は、人気の APC40 Mk2 MIDI コントローラーを中心に設計・最適化されています。APC40 Mk1 でも動作します。詳しくは [ライブ MIDI コントローラー](midi-control/live-control-with-the-apc40.md) を参照してください。
 
 Liberation は APC Mini と MIDI Fighter Twister にも対応しています。APC40 Mk2 は、現在も最も機能が揃ったリファレンスコントローラーです。
 
-追加の MIDI 制御を行うための MIDI Send/Receive システムもあります。詳しくは [MIDI Send/Receive](midi-control/midi-send-receive.md "mention") を参照してください。
+追加の MIDI 制御を行うための MIDI Send/Receive システムもあります。詳しくは [MIDI Send/Receive](midi-control/midi-send-receive.md) を参照してください。
 
-詳細については [MIDI コントロール](midi-control/ "mention") を参照してください。
+詳細については [MIDI コントロール](midi-control/) を参照してください。
 
 #### **任意の MIDI コントローラーを使用できますか？**
 
@@ -53,7 +53,7 @@ Liberation は APC Mini と MIDI Fighter Twister にも対応しています。A
 * LaserCube ネットワークプロトコル（有線接続）
 * [LASollinger lasers](https://laseranimation.com/en/) で使用される AVB（現在 macOS のみ、テスト中）
 
-詳細については [対応レーザーとコントローラー（DAC）](hardware/compatible-lasers-and-controllers-dacs.md "mention") を参照してください。
+詳細については [対応レーザーとコントローラー（DAC）](hardware/compatible-lasers-and-controllers-dacs.md) を参照してください。
 
 #### **なぜ \[他社ブランドの] レーザーコントローラーをサポートしないのですか？**
 
@@ -69,11 +69,11 @@ Liberation は APC Mini と MIDI Fighter Twister にも対応しています。A
 * **Mercury system 内蔵の X-Laser ユニット**（Ether Dream モード）。
 * **AVB 内蔵の LaserAnimation Sollinger projector**（macOS のみ、AVB 対応ネットワーク機器が必要、現在テスト中）。
 
-詳細については [対応レーザーとコントローラー（DAC）](hardware/compatible-lasers-and-controllers-dacs.md "mention") を参照してください。
+詳細については [対応レーザーとコントローラー（DAC）](hardware/compatible-lasers-and-controllers-dacs.md) を参照してください。
 
 #### **Liberation を LaserCube と一緒に使用できますか？**
 
-はい。Liberation は任意の LaserCube と直接動作します。詳しくは [LaserCube](hardware/lasercube.md "mention") を参照してください。
+はい。Liberation は任意の LaserCube と直接動作します。詳しくは [LaserCube](hardware/lasercube.md) を参照してください。
 
 ## ライセンス
 
@@ -89,23 +89,35 @@ Liberation は APC Mini と MIDI Fighter Twister にも対応しています。A
 
 #### **新しいティアにアップグレードできますか？**
 
-上位ティアにはいつでもアップグレードできます。現在の有料期間の残り期間分は一部返金され、新しいライセンスティアはすぐに開始されます。詳しくは [ライセンスのアップグレード / ダウングレード](installation/upgrade-downgrade-your-license.md "mention") を参照してください。
+上位ティアにはいつでもアップグレードできます。現在の有料期間の残り期間分は一部返金され、新しいライセンスティアはすぐに開始されます。詳しくは [ライセンスのアップグレード / ダウングレード](installation/upgrade-downgrade-your-license.md) を参照してください。
 
 #### **ライセンスをダウングレードできますか？**
 
-いつでもダウングレードできますが、変更は現在の有料期間の終了時に適用されます。詳しくは [ライセンスのアップグレード / ダウングレード](installation/upgrade-downgrade-your-license.md "mention") を参照してください。
+いつでもダウングレードできますが、変更は現在の有料期間の終了時に適用されます。詳しくは [ライセンスのアップグレード / ダウングレード](installation/upgrade-downgrade-your-license.md) を参照してください。
 
 #### **ライセンスの支払いを一時停止できますか？**
 
-はい。ライセンスは次回のサブスクリプション日に一時停止でき、いつでも再開できます。定期的に利用を開始・停止する場合に便利で、カード情報を再入力する必要もありません。詳しくは [支払いの一時停止またはキャンセル](installation/cancel-your-subscription.md "mention") を参照してください。
+はい。ライセンスは次回のサブスクリプション日に一時停止でき、いつでも再開できます。定期的に利用を開始・停止する場合に便利で、カード情報を再入力する必要もありません。詳しくは [支払いの一時停止またはキャンセル](installation/cancel-your-subscription.md) を参照してください。
 
 #### **ライセンスを完全にキャンセルするにはどうすればよいですか？**
 
-定期更新ライセンスはいつでもキャンセルでき、現在の有料期間の終了時に自動的に無効化されます。詳しくは [支払いの一時停止またはキャンセル](installation/cancel-your-subscription.md "mention") を参照してください。
+定期更新ライセンスはいつでもキャンセルでき、現在の有料期間の終了時に自動的に無効化されます。詳しくは [支払いの一時停止またはキャンセル](installation/cancel-your-subscription.md) を参照してください。
+
+#### **Liberation がサブスクリプション方式なのはなぜですか？**
+
+簡単に言うと、Liberation を持続可能で、継続的に開発され、公平なものに保つためです。同時に、誰でも無料でショーを開く、編集する、保存する、練習する、プレビューすることができます。
+
+この考え方については、こちらに詳しく書いています: [Liberation がサブスクリプションを採用している理由](https://liberationlaser.com/articles/why-a-subscription)。
+
+#### **常設設置やツアープロダクション向けに、永続ライセンスまたは長期ライセンスを取得できますか？**
+
+常設設置やツアープロダクション向けには、年額（または複数年）のプリペイドライセンスを用意しています。設定を希望する場合は、[billing@liberationlaser.com](mailto:billing@liberationlaser.com) までメールでお問い合わせください。
+
+現在、永続ライセンスは提供していません。背景については、[Liberation がサブスクリプションを採用している理由](https://liberationlaser.com/articles/why-a-subscription) を参照してください。
 
 #### **ライセンスでコンピューターを認証するにはどうすればよいですか？**
 
-ライセンスを購入すると、Liberation ソフトウェア内でコンピューターを認証できます。_About_ 画面に _Authorise_ ボタンが表示され、クリックすると Web サイトへのログインを求められます。画面の指示に従って認証プロセスを完了してください。詳しくは [認証と認証解除](installation/authorising-and-de-authorising.md "mention") を参照してください。
+ライセンスを購入すると、Liberation ソフトウェア内でコンピューターを認証できます。_About_ 画面に _Authorise_ ボタンが表示され、クリックすると Web サイトへのログインを求められます。画面の指示に従って認証プロセスを完了してください。詳しくは [認証と認証解除](installation/authorising-and-de-authorising.md) を参照してください。
 
 #### **コンピューターをどのくらいの頻度でインターネットに接続する必要がありますか？**
 
@@ -121,7 +133,7 @@ Liberation は APC Mini と MIDI Fighter Twister にも対応しています。A
 
 #### **Liberation は何台のコンピューターにインストールできますか？**
 
-Liberation は好きな台数のコンピューターにインストールできます。ライセンス認証が必要なのはレーザー / DMX 出力を有効にする場合のみで、同時に出力用として認証できるコンピューターの台数はライセンスティアによって決まります。詳しくは [ライセンスの仕組み](installation/how-licensing-works.md "mention") を参照してください。
+Liberation は好きな台数のコンピューターにインストールできます。ライセンス認証が必要なのはレーザー / DMX 出力を有効にする場合のみで、同時に出力用として認証できるコンピューターの台数はライセンスティアによって決まります。詳しくは [ライセンスの仕組み](installation/how-licensing-works.md) を参照してください。
 
 #### **ライセンスを別のコンピューターに移すにはどうすればよいですか？**
 
@@ -131,7 +143,7 @@ Liberation は好きな台数のコンピューターにインストールでき
 * _About_ 画面の _Authorise this computer_ ボタンをクリックします。
 * Web サイトが開くので、ログインして画面の指示に従い、認証を完了します。
 
-アクセスできなくなったコンピューターをリモートで認証解除することもできます（一部制限があります）。詳しくは [認証と認証解除](installation/authorising-and-de-authorising.md "mention") を参照してください。
+アクセスできなくなったコンピューターをリモートで認証解除することもできます（一部制限があります）。詳しくは [認証と認証解除](installation/authorising-and-de-authorising.md) を参照してください。
 
 #### **紛失または盗難にあったコンピューター上の Liberation を認証解除できますか？**
 
@@ -143,11 +155,11 @@ Web サイトからコンピューターを認証解除できます。その Lib
 
 #### デフォルト設定にはレーザーが 8 台あります。これを変更するにはどうすればよいですか？
 
-[プロジェクトの設定](setting-up/setting-up-your-project.md "mention") と [レーザーの追加 / 削除](setting-up/adding-removing-lasers.md "mention") を参照してください。
+[プロジェクトの設定](setting-up/setting-up-your-project.md) と [レーザーの追加 / 削除](setting-up/adding-removing-lasers.md) を参照してください。
 
 #### あるレーザーのゾーン設定を他のレーザーにコピーできますか？
 
-はい。詳しくは [レーザー間で zone をコピーする](output-view/copy-zones-between-lasers.md "mention") を参照してください。
+はい。詳しくは [レーザー間で zone をコピーする](output-view/copy-zones-between-lasers.md) を参照してください。
 
 #### スライダーの代わりに数値を入力できますか？
 
@@ -155,42 +167,42 @@ Web サイトからコンピューターを認証解除できます。その Lib
 
 #### **Liberation を音楽に同期するにはどうすればよいですか？**
 
-期待どおりに動作するインテリジェントな "tap tempo" システムがありますが、外部 MIDI clock または Ableton Link も使用できます。詳しくは [テンポ / 同期](tempo-synchronisation.md "mention") を参照してください。タイムラインは、任意のオーディオインターフェイス経由で入力される LTC/SMPTE timecode に同期できます。詳しくは [タイムコード](timecode.md "mention") を参照してください。
+期待どおりに動作するインテリジェントな "tap tempo" システムがありますが、外部 MIDI clock または Ableton Link も使用できます。詳しくは [テンポ / 同期](tempo-synchronisation.md) を参照してください。タイムラインは、任意のオーディオインターフェイス経由で入力される LTC/SMPTE timecode に同期できます。詳しくは [タイムコード](timecode.md) を参照してください。
 
 #### レーザーから最適な出力を得るには、どの設定を調整すればよいですか？
 
-主な設定は _Scanner Sync_ です。これは、ミラーの動きとレーザーの明るさの変化の間にあるわずかな遅延を補正します。レーザードットやビームに小さな「尾」がある場合は、この設定を調整する必要があります。（「尾」の例は [Laser output 設定パネル](setting-up/laser-settings.md "mention") ページの写真を参照してください）
+主な設定は _Scanner Sync_ です。これは、ミラーの動きとレーザーの明るさの変化の間にあるわずかな遅延を補正します。レーザードットやビームに小さな「尾」がある場合は、この設定を調整する必要があります。（「尾」の例は [Laser output 設定パネル](setting-up/laser-settings.md) ページの写真を参照してください）
 
 scanner speed を変更してみることもできます。スキャナーが基本的なものなら遅めに、高性能なものなら速めに設定します。ただし、**過度に駆動するとスキャナーを損傷する可能性があるため、注意して使用してください。**
 
 プリセットの scanner settings もいくつか用意されています。デフォルトオプションは控えめな設定で、ほとんどのレーザービーム用途に適しています。ただし、より高性能なスキャナー向けのプリセットや、グラフィックス向けに調整されたプリセットもあります。
 
-詳細については [Laser output 設定パネル](setting-up/laser-settings.md "mention") を参照してください。独自のプリセットを作成する方法については [◼️ Scanner プリセットとレンダープロファイル](advanced/scanner-presets.md "mention")（上級者向け、作成中）を参照してください。
+詳細については [Laser output 設定パネル](setting-up/laser-settings.md) を参照してください。独自のプリセットを作成する方法については [◼️ Scanner プリセットとレンダープロファイル](advanced/scanner-presets.md)（上級者向け、作成中）を参照してください。
 
-_Colour calibration_ 設定を使ってカラーバランスを補正することもできます。詳しくは [カラーキャリブレーション](advanced/colour-calibration.md "mention")（上級テクニック）を参照してください。
+_Colour calibration_ 設定を使ってカラーバランスを補正することもできます。詳しくは [カラーキャリブレーション](advanced/colour-calibration.md)（上級テクニック）を参照してください。
 
 #### _Latency(ms)_ 設定は何をしますか？
 
-これはフレームレイテンシー、つまりフレームが生成されてからレーザーへ送信されるまでの最大時間です。通常は調整する必要はありませんが、ネットワークの問題がある場合は値を大きくしてみることができます。詳細は [レイテンシー設定](setting-up/latency-setting.md "mention") を参照してください。
+これはフレームレイテンシー、つまりフレームが生成されてからレーザーへ送信されるまでの最大時間です。通常は調整する必要はありませんが、ネットワークの問題がある場合は値を大きくしてみることができます。詳細は [レイテンシー設定](setting-up/latency-setting.md) を参照してください。
 
 ### Clips
 
 #### クリップを実行せずに、そのゾーンや設定を調整するにはどうすればよいですか？
 
-`Alt / Option`-クリックすると、アクティブ化せずに _現在選択されている Clip_ にできます。あわせて [Clip の開始 / 停止](clips/starting-stopping-clips.md "mention") も参照してください。
+`Alt / Option`-クリックすると、アクティブ化せずに _現在選択されている Clip_ にできます。あわせて [Clip の開始 / 停止](clips/starting-stopping-clips.md) も参照してください。
 
 #### クリップをコピーするにはどうすればよいですか？
 
-`Alt / Option` キーを押したままクリックしてドラッグします。あわせて [Clip Deckを整理する](clips/organising-your-clip-deck.md "mention") も参照してください。
+`Alt / Option` キーを押したままクリックしてドラッグします。あわせて [Clip Deckを整理する](clips/organising-your-clip-deck.md) も参照してください。
 
 #### クリップを削除するにはどうすればよいですか？
 
-Clip をクリックして Clip Deck の外へドラッグします。あわせて [Clip Deckを整理する](clips/organising-your-clip-deck.md "mention") も参照してください。
+Clip をクリックして Clip Deck の外へドラッグします。あわせて [Clip Deckを整理する](clips/organising-your-clip-deck.md) も参照してください。
 
 #### 複数選択、削除、clip deck の結合などはどうすればよいですか？
 
-[Clip Deckを整理する](clips/organising-your-clip-deck.md "mention") を参照してください。
+[Clip Deckを整理する](clips/organising-your-clip-deck.md) を参照してください。
 
 #### クリップ上の小さなマイクの記号やその他のアイコンは何を示していますか？
 
-これらは、その Clip が音声または MIDI 入力を受け取ることを示しています。また、3 つの点は zone delay があることを示します。詳しくは [Clipボタンに表示される小さなアイコンは何ですか？](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention") を参照してください。
+これらは、その Clip が音声または MIDI 入力を受け取ることを示しています。また、3 つの点は zone delay があることを示します。詳しくは [Clipボタンに表示される小さなアイコンは何ですか？](clips/what-are-the-small-icons-on-the-clip-buttons.md) を参照してください。

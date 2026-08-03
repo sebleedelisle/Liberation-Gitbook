@@ -14,7 +14,7 @@ Liberation 会持续将状态保存到磁盘，因此即使遇到断电或系统
 
 Project 文件几乎包含当前设置中的所有内容，包括：&#x20;
 
-* [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export "mention") 中列出的所有内容
+* [#laser-settings-import-export](loading-and-saving.md#laser-settings-import-export) 中列出的所有内容
 * Clips、effects 与 group 设置&#x20;
 * 所有 timelines（不包含音频和视频媒体）
 * Art-Net 设置
@@ -30,7 +30,7 @@ Project 文件几乎包含当前设置中的所有内容，包括：&#x20;
 * Text node 使用的字体
 
 {% hint style="danger" %}
-Timeline 的音频与视频文件不会随 project 文件保存，如需迁移到其他电脑，请单独保存。见 [加载与保存](loading-and-saving.md#important-note-about-timeline-media-files "mention")。
+Timeline 中的音频与视频文件不会随 project 文件保存，如需迁移到其他电脑，请务必单独保存。见 [关于 Timeline 媒体文件的重要说明](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Laser settings Import / Export&#x20;
@@ -67,7 +67,7 @@ Timeline 的音频与视频文件不会随 project 文件保存，如需迁移�
 将当前选中的 Clips 导出到文件。不会保存 group 设置与 effects，仅保存 Clips。注意：正在运行的 Clips 若未被选中则不会导出。&#x20;
 
 {% hint style="info" %}
-按住 `Alt / Option + Shift` 点击 Clips 进行选择（或使用套索）。被选中的 Clips 会有较粗的白色轮廓。见 [启动 / 停止 Clips](clips/starting-stopping-clips.md "mention")。
+按住 `Alt / Option + Shift` 点击 Clips 进行选择（或使用套索）。被选中的 Clips 会有较粗的白色轮廓。见 [启动 / 停止 Clips](clips/starting-stopping-clips.md)
 {% endhint %}
 
 ### Effects Import / Export
@@ -82,12 +82,12 @@ Timeline 的音频与视频文件不会随 project 文件保存，如需迁移�
 
 ### Timeline Export
 
-导出包含一个或多个 timelines 的 timeline 文件。注意：导出的 timeline 文件**始终包含** Clip Deck（不过你在导入时可选择要导入哪些 Clips，见下方 [Timeline 导入](loading-and-saving.md#timeline-import "mention")）。
+导出包含一个或多个 timelines 的 timeline 文件。注意：导出的 timeline 文件**始终包含** Clip Deck（不过你在导入时可选择要导入哪些 Clips，见下方 [Timeline 导入](loading-and-saving.md#timeline-import)）
 
 如果项目中有多个 timelines，会出现面板让你选择要导出的 timelines。
 
 {% hint style="danger" %}
-Timeline 的音频与视频文件不会随 timeline 文件保存，如需迁移内容请单独保存。见 [加载与保存](loading-and-saving.md#important-note-about-timeline-media-files "mention")。
+Timeline 中的音频与视频文件不会随 timeline 文件保存，如需将内容迁移到其他电脑，请务必单独保存。见 [关于 Timeline 媒体文件的重要说明](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Timeline Import&#x20;

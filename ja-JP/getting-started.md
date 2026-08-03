@@ -20,17 +20,17 @@ Liberation は柔軟に設計されており、実際のレーザーを接続し
 Liberation では、必要な数だけレーザーをセットアップし、ビジュアライズできます。ライセンスの種類（Hobbyist、Pro など）で制限されるのは、_arm_ できるレーザーの数だけです。つまり、無料ライセンスでも 100 台のレーザーを使ったショーを設計できます。実際のレーザーで出力する段階になったときにのみ、アップグレードが必要です。
 {% endhint %}
 
-初期設定では、8 台のレーザーが横一列に配置されていますが、必要に応じて自由にカスタマイズできます。ソフトウェアに慣れるまでは、この初期設定のまま使うのがおすすめです。その後、実際のハードウェア構成に合わせて調整してください。（[プロジェクトの設定](setting-up/setting-up-your-project.md "mention") を参照）
+初期設定では、8 台のレーザーが横一列に配置されていますが、必要に応じて自由にカスタマイズできます。ソフトウェアに慣れるまでは、この初期設定のまま使うのがおすすめです。その後、実際のハードウェア構成に合わせて調整してください。（[プロジェクトの設定](setting-up/setting-up-your-project.md) を参照）
 
 {% hint style="warning" %}
-重要：レーザーを有効化する前に、必ず関連するリスクを理解し、[レーザーセットアップ手順の概要](setting-up/setting-up-lasers.md "mention") の章を慎重に確認してください。
+重要：レーザーを有効化する前に、必ず関連するリスクを理解し、[レーザーセットアップ手順の概要](setting-up/setting-up-lasers.md) の章を慎重に確認してください。
 {% endhint %}
 
 ## ソフトウェアの概要
 
 ### 安全停止
 
-レーザーを動作させるときは、必ず **ハードウェアの非常停止ボタン** を手元に用意してください（[非常停止 / インターロック](hardware/emergency-stop-interlocks.md "mention") を参照）。緊急度が低い状態ですべてを無効化したい場合は、_**DISARM ALL**_ ボタン、または `Escape` キー（APC40 では _**SESSION**_ キー）を使用できます。画面上のスライダーや APC40 のメインフェーダーで、全体の明るさを下げることもできます。
+レーザーを動作させるときは、必ず **ハードウェアの非常停止ボタン** を手元に用意してください（[非常停止 / インターロック](hardware/emergency-stop-interlocks.md) を参照）。緊急度が低い状態ですべてを無効化したい場合は、_**DISARM ALL**_ ボタン、または `Escape` キー（APC40 では _**SESSION**_ キー）を使用できます。画面上のスライダーや APC40 のメインフェーダーで、全体の明るさを下げることもできます。
 
 ### スライダー要素
 
@@ -42,7 +42,7 @@ Liberation 全体で、さまざまなスライダーやコントロールを使
 
 ### キーボードショートカット
 
-キーボードショートカットの一覧はこちらで確認できます：[キーボードショートカット](reference/keyboard-shortcuts.md "mention")
+キーボードショートカットの一覧はこちらで確認できます：[キーボードショートカット](reference/keyboard-shortcuts.md)
 
 ### 画面レイアウト
 
@@ -74,7 +74,7 @@ Liberation 全体で、さまざまなスライダーやコントロールを使
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view では、レーザーがどのように見えるかを確認でき、実際のレーザー構成に合わせて設定できます。クリック＆ドラッグでカメラを回転し、マウスホイールで前後に移動します。その他の多くのオプションは、_3D Visualiser settings_ パネル（_View -> 3D Visualiser Settings_）にあります。[3D Visualiser](setting-up/3d-visualiser.md "mention") を参照してください。
+3D view では、レーザーがどのように見えるかを確認でき、実際のレーザー構成に合わせて設定できます。クリック＆ドラッグでカメラを回転し、マウスホイールで前後に移動します。その他の多くのオプションは、_3D Visualiser settings_ パネル（_View -> 3D Visualiser Settings_）にあります。[3D Visualiser](setting-up/3d-visualiser.md) を参照してください。
 
 #### Output View
 
@@ -106,11 +106,11 @@ Output ビューは、各レーザーのゾーンとマスクを設定するた�
 
 左側には、アイコンボタンが並んだバーがあります。各ボタンにマウスカーソルを重ねると、機能の説明が表示されます。ここにあるボタンで、beam ゾーン、canvas ゾーン、マスクを追加できます。また、このレーザーだけに test pattern を設定するオプションや、グリッド／スナップ設定もあります。
 
-詳しくは [Outputビュー](output-view/ "mention") を参照してください。
+詳しくは [Outputビュー](output-view/) を参照してください。
 
 #### Canvas
 
-Canvas システムは、主にグラフィックや建築物へのマッピングに使用します。複雑な画像を複数のレーザーに分配し、各セクションを遠近補正できます。[Graphics と Canvas システム](graphics-and-the-canvas-system/ "mention") を参照してください。
+Canvas システムは、主にグラフィックや建築物へのマッピングに使用します。複雑な画像を複数のレーザーに分配し、各セクションを遠近補正できます。[Graphics と Canvas システム](graphics-and-the-canvas-system/) を参照してください。
 
 ### APC40 MIDI コントローラー
 
@@ -118,7 +118,7 @@ Canvas システムは、主にグラフィックや建築物へのマッピン�
 
 マウスとキーボードで Liberation を操作することもできますが、APC40 MIDI コントロールインターフェースを使う方がはるかに快適です（Mark 2 が最適ですが、Mark 1 も使用できます）。
 
-関連項目：[APC40 リファレンス](reference/apc40-reference.md "mention")
+関連項目：[APC40 リファレンス](reference/apc40-reference.md)
 
 Liberation は APC Mini と MIDI Fighter Twister にも対応しています。ほとんどの場合は、引き続き APC40 Mark 2 が最適です。
 
@@ -146,7 +146,7 @@ Clip Deck は、次の方法で左右にスクロールできます。
 * APC40 のスクロールノブ
 * APC40 の _<- DEVICE ->_ ボタン
 
-現在位置を把握しやすいように、上部には Clip Deck のミニビジュアライザーがあります。関連項目：[Clips と Clip Deck](clips/ "mention")
+現在位置を把握しやすいように、上部には Clip Deck のミニビジュアライザーがあります。関連項目：[Clips と Clip Deck](clips/)
 
 #### Clip の開始と停止
 
@@ -168,7 +168,7 @@ zone ボタンの 2 段下には X/Y flip ボタンがあります。これら�
 これらのゾーン割り当てと X/Y flip 設定は Clip 自体に紐づいています。次回その Clip を実行したときにも保持されます。グローバル設定ではありません。
 {% endhint %}
 
-Clip を右クリックすると、その Clip の詳細設定を編集できます。関連項目：[Clip 設定](clips/clip-settings.md "mention")
+Clip を右クリックすると、その Clip の詳細設定を編集できます。関連項目：[Clip 設定](clips/clip-settings.md)
 
 ### Groups
 
@@ -190,7 +190,7 @@ Group 内のすべての Clip のゾーン設定を変更する
 
 APC40 を使用する場合は、Group ボタンを押し、_押したまま_ zone ボタンと X/Y ボタンを使って、その Group 内のすべての Clip のゾーン設定を切り替えます。
 
-関連項目：[Clip グループ](clips/groups.md "mention")
+関連項目：[Clip グループ](clips/groups.md)
 
 ### Effects
 
@@ -208,7 +208,7 @@ effect ボタンを押すと Effect のオン／オフを切り替えられま�
 effect ボタンに表示される小さな数字は、その Effect の _level_ と _parameter_ を示しています。_level_ は APC40 のフェーダーで制御するか、ボタンをクリックしてドラッグすることで調整できます。parameter は APC40 のロータリーで調整するか、マウスで右クリックして調整できます。
 {% endhint %}
 
-_\*ロータリーコントローラー 1〜8 は、APC40 Mk2 では上部、Mk1 では右上にあります。関連項目：_ [APC40 リファレンス](reference/apc40-reference.md "mention")
+_\*ロータリーコントローラー 1〜8 は、APC40 Mk2 では上部、Mk1 では右上にあります。関連項目：_ [APC40 リファレンス](reference/apc40-reference.md)
 
 #### 初期設定の Effects
 
@@ -297,16 +297,18 @@ _Laser overview panel_ では、現在動作しているレーザーの状態を
 
 中央のグラフは frame length の履歴で、右側の数字は現在の frame rate です。コンテンツが複雑になるほど frame rate は低くなります（つまり、ちらつきが増えます）。約 25fps を下回ると、少しちらついて見え始めます。
 
+フレームレートが低い場合は、[古いマシンでパフォーマンスを改善する](troubleshooting/improving-performance-on-older-machines.md) の提案を参照してください。
+
 ### レーザーへの接続 - Controller Assignment パネル
 
 _Assign Laser Controllers_ ボタンをクリックすると、_Controller Assignment_ パネルが開きます。（このパネルはメニューバーの _View -> Controller Assignment_ からも開けます）。
 
 ここでは、どのレーザー Output をどのレーザーコントローラーへ送るかを選択できます。右側のリストからコントローラーを左側のスロットへドラッグ＆ドロップします。どのレーザーとペアになっているか分かるように、コントローラー名を変更できます（ペンアイコンのボタンを使用します）。
 
-詳しくは [コントローラーの割り当て](setting-up/controller-assignment.md "mention") の章を参照してください。
+詳しくは [コントローラーの割り当て](setting-up/controller-assignment.md) の章を参照してください。
 
 {% hint style="danger" %}
-レーザーを有効化する前に、必ず [レーザーセットアップ手順の概要](setting-up/setting-up-lasers.md "mention") の章を確認してください。
+レーザーを有効化する前に、必ず [レーザーセットアップ手順の概要](setting-up/setting-up-lasers.md) の章を確認してください。
 {% endhint %}
 
 ### Laser Output パネル
@@ -337,10 +339,10 @@ Liberation では、この point stream の生成方法を詳細に制御でき�
 基本的な scanner settings は次のとおりです。
 
 * **Speed** は scanner speed、つまりレーザーが形状を描くためにどれだけ速く動くかです。従来のレーザーソフトウェアで point rate を調整することに相当しますが、Liberation ではレーザーの移動速度を _point rate とは独立して_ 変更できます。通常、この設定を調整する必要はありません。
-* **Scanner sync**（_blank shift、以前は Colour Shift_ と呼ばれることもあります）スキャナーはレーザーを非常に高速に動かしますが、通常、明るさや色の変化は動きと同期していません。これにより、ビームや線の端に小さなちらつく光の「尾」が現れます。この調整を使って、動きと色を同期させます。[Laser output 設定パネル](setting-up/laser-settings.md "mention") を参照してください。
+* **Scanner sync**（_blank shift、以前は Colour Shift_ と呼ばれることもあります）スキャナーはレーザーを非常に高速に動かしますが、通常、明るさや色の変化は動きと同期していません。これにより、ビームや線の端に小さなちらつく光の「尾」が現れます。この調整を使って、動きと色を同期させます。[Laser output settings パネル](setting-up/laser-settings.md) を参照してください。
 
-その他の高度なスキャナー設定については、[高度な機能](advanced/ "mention") の章で説明しています。
+その他の高度なスキャナー設定については、[高度な機能](advanced/) の章で説明しています。
 
 ### Zoning
 
-レーザーのセットアップとゾーニングに関する完全なガイドは、こちらを参照してください：[レーザーセットアップ手順の概要](setting-up/setting-up-lasers.md "mention")
+レーザーのセットアップとゾーニングに関する完全なガイドは、こちらを参照してください：[レーザーセットアップ手順の概要](setting-up/setting-up-lasers.md)

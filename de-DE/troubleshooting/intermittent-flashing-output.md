@@ -22,16 +22,11 @@ Dann hast du entweder ein Netzwerkproblem oder ein Problem mit der CPU-Leistung:
 
 **CPU-Leistung**
 
-Wenn du einen alten oder leistungsschwachen Rechner hast, ist er möglicherweise zu langsam, um Liberation auszuführen. Prüfe die Frame-Rate-Anzeige auf der rechten Seite der Symbolleiste.
+Wenn du einen alten oder leistungsschwachen Rechner hast, ist er möglicherweise zu langsam, um Liberation auszuführen. Prüfe die Frame-Rate-Anzeige in der oberen Leiste.
 
 Dort gibt es zwei Werte: die tatsächliche Frame Rate und die Ziel-Frame-Rate. Wenn die tatsächliche Frame Rate unter 30 fällt, können Probleme auftreten.
 
-Die folgenden Maßnahmen können helfen:
-
-* Entferne ungenutzte Laser, z. B. wenn du nur einen Laser angeschlossen hast, lösche die anderen.
-* Wechsle zur Output- oder Canvas-Ansicht.
-* Schließe alle anderen Programme, prüfe die Netzwerk-Firewall-Einstellungen, schließe Antivirenprogramme, Dropbox usw.
-* Reduziere deine Bildschirmauflösung und mache das Liberation-Fenster kleiner.
+Möglichkeiten, die Last auf deinem Computer zu reduzieren, findest du unter [Leistung auf älteren Rechnern verbessern](improving-performance-on-older-machines.md).
 
 Wenn nichts davon hilft, solltest du ein Upgrade deines Computers in Betracht ziehen.
 

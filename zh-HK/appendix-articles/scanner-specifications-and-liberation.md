@@ -27,13 +27,25 @@ metaLinks:
 
 不過，它仍然是目前最廣泛使用的參考；至少對於信譽良好的製造商來說，它可以讓你大概判斷 scanner 的質素。但如果是_信譽較差_的製造商，就另作別論了……
 
-#### 如果你想按標稱規格測試 scanner
+#### 使用 Libera Lab 測試 scanner
 
 {% hint style="danger" %}
 **這是進階技巧；如果不小心，可能會損壞你的 scanner。除非你清楚自己在做甚麼，否則不建議使用。**
 {% endhint %}
 
-你需要找一個可以輸出 [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) 的軟件——我記得 LaserShowGen 可能做到——然後把輸出大小調整至指定掃描角度（例如 8°）。如何分析輸出，請參考 ILDA 文件的建議。
+如果你想在 show project 以外試驗 scanner 的行為，可以使用 [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases)。這是一個適用於 Libera 兼容雷射控制器的桌面工具，用於發現、測試、預覽和檢查雷射輸出。
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab 很有用，因為它可以讓你：
+
+* 輸出已知的測試圖案，包括 ILDA test pattern
+* 載入並串流 ILDA 檔案
+* 在輸出前或輸出期間預覽點串流
+* 使用 scope 和 scanner-load 工具檢查輸出
+* 比較不同圖案、點速率和輸出大小如何影響 scanner
+
+如要按公開標稱規格測試 scanner，請在 Libera Lab 設定為 [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950)，選擇標稱點速率，並將輸出大小調整至指定掃描角度（例如 8°）。如何分析輸出，請參考 ILDA 文件的建議。
 
 #### 為甚麼它未必是好 benchmark
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) 一般屬於較低階，但坦白說，對大多數用途
 #### Liberation 如何幫助
 
 首先，對大多數用途來說，你不需要非常昂貴的 scanner！價錢較相宜的 30kpps DT，甚至 PT，都已經足夠。預設 scanner 設定是刻意保守的，而且大部分情況下_你不應需要調整它們_（_Scanner sync_ 除外）。
+
+如果你想了解 scanner 設定實際上在做甚麼，Libera Lab 會比你的 show project 更適合用來試驗。你可以一邊查看預覽、scope 和 scanner-load 資訊，一邊更改點速率、輸出角度和測試圖案。
 
 即使你有更好的 scanner，也沒有必要把它們推到比實際需要更高的負載。這會大幅延長它們的壽命。
 
@@ -98,7 +112,8 @@ Liberation 會即時生成 point stream，這為我們帶來很大的彈性。�
 * 如果你做 graphics，大多數情況下，增加 laser 數量會比使用更快的 scanner 更有幫助。
 * 當你使用較高階的 setup 時，任何成熟的高階品牌都會很好。
 * 如果你只能買到最便宜的無品牌 scanner，Liberation 的預設設定相當保守，做基本 beam work 應該也會有不錯結果。如果它表現吃力，請降低 **Speed** 設定（但不要改變 point rate！）。
+* 如果你想測試或比較設定，請先在 Libera Lab 進行，而不是在 show file 入面試驗。
 
 #### 那 ILDA Test Pattern 呢？
 
-……它作為校準和參考工具仍然非常有用，但它從來不是設計成全面 benchmark，而且可能被製造商誤用或以寬鬆方式詮釋。
+……它作為校準和參考工具仍然非常有用，而 Libera Lab 亦令輸出和檢查它變得更容易。但它從來不是設計成全面 benchmark，而且可能被製造商誤用或以寬鬆方式詮釋。

@@ -41,7 +41,7 @@ orientation / mirroring の補正は 3D Visualiser の表示には影響しま�
 
 ### Copy laser settings
 
-[#copy-laser-settings](laser-settings.md#copy-laser-settings "mention") を参照してください。
+[#copy-laser-settings](laser-settings.md#copy-laser-settings) を参照してください。
 
 ### Scanner settings
 
@@ -56,8 +56,10 @@ Speed 設定は、スキャナーがどれだけ速く動くかを決定しま�
 {% endhint %}
 
 {% hint style="info" %}
-この Speed 設定はポイントレートを変更するものではなく、ポイント同士の間隔を調整します。詳しくは [◼️ Liberation がレーザーコンテンツを生成する仕組み](../advanced/how-liberation-generates-laser-content.md "mention") を参照してください。
+この Speed 設定はポイントレートを変更するものではなく、ポイント同士の間隔を調整します。詳しくは [◼️ Liberation がレーザーコンテンツを生成する仕組み](../advanced/how-liberation-generates-laser-content.md) を参照してください。
 {% endhint %}
+
+ショープロジェクトの外でポイントレート、出力角度、スキャナー負荷を試したい場合は、[🟩 スキャナー仕様と Liberation](../appendix-articles/scanner-specifications-and-liberation.md) を参照してください。
 
 #### **Scanner sync (blank shift)**
 
@@ -73,12 +75,12 @@ Speed 設定は、スキャナーがどれだけ速く動くかを決定しま�
 
 #### Scanner presets
 
-事前に用意されたスキャナー設定を選択するために使用します。通常はデフォルトオプションで問題ないため、スキャナーの性能が特に低い（または高い）場合を除き、この設定を変更する必要はありません。さらに詳しく知りたい場合は、[◼️ Scanner プリセットとレンダープロファイル](../advanced/scanner-presets.md "mention") を参照してください。
+事前に用意されたスキャナー設定を選択するために使用します。通常はデフォルトオプションで問題ないため、スキャナーの性能が特に低い（または高い）場合を除き、この設定を変更する必要はありません。さらに詳しく知りたい場合は、[◼️ Scanner プリセットとレンダープロファイル](../advanced/scanner-presets.md) を参照してください。
 
 #### Colour calibration
 
-このシステムを使って、レーザーの明るさカーブとホワイトバランスを補正できます。[カラーキャリブレーション](../advanced/colour-calibration.md "mention") を参照してください。
+このシステムを使って、レーザーの明るさカーブとホワイトバランスを補正できます。[カラーキャリブレーション](../advanced/colour-calibration.md) を参照してください。
 
 #### Advanced settings
 
-通常、これらを調整する必要はありませんが、詳しく知りたい場合は [◼️ 高度なレーザー設定](../advanced/advanced-laser-settings.md "mention") を参照してください。
+通常、これらを調整する必要はありませんが、詳しく知りたい場合は [◼️ 高度なレーザー設定](../advanced/advanced-laser-settings.md) を参照してください。

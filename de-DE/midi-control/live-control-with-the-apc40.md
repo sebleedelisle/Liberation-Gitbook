@@ -27,7 +27,7 @@ Kurz gesagt: Mark 2 wird empfohlen, weil er vollfarbige Buttons hat, die deutlic
 Der ursprüngliche APC40 Mark 1 erschien 2009(!), und manche bevorzugen ihn immer noch wegen seines Metallgehäuses und seines robusten, konsolenartigen Formfaktors. Der aktualisierte Mark 2 erschien 2014. Obwohl er 2024 eingestellt wurde, geht er 2025 aufgrund der Nachfrage von Visual Artists (Resolume usw.) und Laserists wieder in Produktion.
 {% endhint %}
 
-Die vollständige Liste der auf dem APC40 verfügbaren Bedienelemente findest du in der [APC40-Referenz](../reference/apc40-reference.md "mention").
+Die vollständige Liste der auf dem APC40 verfügbaren Bedienelemente findest du in der [APC40-Referenz](../reference/apc40-reference.md).
 
 ### APC Mini
 

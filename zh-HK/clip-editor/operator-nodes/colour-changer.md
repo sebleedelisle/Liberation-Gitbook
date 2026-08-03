@@ -11,7 +11,7 @@ metaLinks:
 
 更改所有輸入內容的顏色。你可以設定固定的 HSB 數值，或切換至漸變系統，從自訂漸變中取樣顏色。
 
-* **hue, saturation, brightness** - 顏色數值，請參閱[顏色設定及 HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - 顏色數值，請參閱[顏色設定及 HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - 不會更改色相
   * FIXED - 將元素的色相設定為 hue 數值
@@ -28,7 +28,7 @@ metaLinks:
 * **blend** - 顏色變更效果的套用強度；0% 表示完全不套用，100% 表示完全套用，50% 則是現有顏色與新數值的混合。
 
 {% hint style="info" %}
-Colour Change node 會為整個輸入從漸變中取樣一種顏色。如果你想按位置讓漸變沿形狀分佈，請改用 [以位置為基礎的變換器](position-based-changers.md "mention")。
+Colour Change node 會為整個輸入從漸變中取樣一種顏色。如果你想按位置讓漸變沿形狀分佈，請改用 [以位置為基礎的變換器](position-based-changers.md)。
 {% endhint %}
 
 ### 漸變編輯器

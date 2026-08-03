@@ -22,16 +22,11 @@ Então você tem um problema de rede ou de desempenho da CPU:
 
 **Desempenho da CPU**
 
-Se você estiver usando um computador antigo ou com especificações baixas, ele pode ser lento demais para executar o Liberation. Verifique o indicador de taxa de quadros no lado direito da barra de ícones.
+Se você estiver usando um computador antigo ou com especificações baixas, ele pode ser lento demais para executar o Liberation. Verifique o indicador de taxa de quadros na barra superior.
 
 Há dois números ali: a taxa de quadros real e a taxa de quadros alvo. Se a taxa de quadros real cair abaixo de 30, você poderá ter problemas.
 
-As ações a seguir podem ajudar:
-
-* remova lasers não utilizados; por exemplo, se você tiver apenas um laser conectado, exclua os outros.
-* Mude para a visualização Output ou Canvas
-* Feche todos os outros programas, verifique as configurações do firewall de rede, feche antivírus, Dropbox etc.
-* Reduza a resolução da sua tela e diminua o tamanho da janela do Liberation
+Para ver formas de reduzir a carga no seu computador, consulte [Como melhorar o desempenho em máquinas mais antigas](improving-performance-on-older-machines.md).
 
 Se nada disso funcionar, considere atualizar seu computador.
 

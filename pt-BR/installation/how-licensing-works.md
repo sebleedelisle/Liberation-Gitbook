@@ -13,7 +13,7 @@ Depois de instalar o Liberation no seu computador, ele será executado em _modo 
 Não há restrições no _modo gratuito_, exceto enviar saída para hardware de laser. Você pode praticar shows, criar timelines e salvar e carregar seus arquivos sem limitações. Você pode instalar o Liberation em _modo gratuito_ em quantos computadores quiser, e só precisa autorizar a instalação quando estiver pronto para usar lasers!
 {% endhint %}
 
-Além do número de lasers que você pode armar, você também pode usar equipamentos DMX. Consulte [DMX / Art-Net](../dmx-control/ "mention").
+Além do número de lasers que você pode armar, você também pode usar equipamentos DMX. Consulte [DMX / Art-Net](../dmx-control/).
 
 Também há um limite para o número de computadores em que você pode autorizar o Liberation, dependendo do seu nível de licença.
 

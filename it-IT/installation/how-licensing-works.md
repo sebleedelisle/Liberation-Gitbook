@@ -13,7 +13,7 @@ Dopo aver installato Liberation sul computer, l’app verrà eseguita in _modali
 In _modalità gratuita_ non ci sono restrizioni, tranne l’Output verso l’hardware laser. Puoi provare show, creare timeline, salvare e caricare i tuoi file senza limitazioni. Puoi installare Liberation in _modalità gratuita_ su tutti i computer che vuoi: devi autorizzare l’installazione solo quando sei pronto a usare i laser!
 {% endhint %}
 
-Oltre al numero di laser che puoi portare in stato _armed_, puoi usare anche fixture DMX. Vedi [DMX / Art-Net](../dmx-control/ "mention").
+Oltre al numero di laser che puoi abilitare, puoi usare anche fixture DMX. Vedi [DMX / Art-Net](../dmx-control/).
 
 C’è anche un limite al numero di computer su cui puoi autorizzare Liberation, in base al tuo livello di licenza.
 

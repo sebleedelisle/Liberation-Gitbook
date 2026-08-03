@@ -32,7 +32,7 @@ Clip Editor には次のものが表示されます。
 編集中は、背景の 3D visualiser でも Clip の見た目を確認できます。
 
 {% hint style="info" %}
-3D visualiser に出力が表示されない場合は、zone buttons を使って必要な Zone をオンにする必要があるかもしれません。また、_Preview to lasers_ が有効になっていることも確認してください。詳しくは下の [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel "mention") を参照してください。
+3D visualiser に出力が表示されない場合は、zone buttons を使って必要な zone をオンにする必要があるかもしれません。また、_Preview to lasers_ が有効になっていることも確認してください。詳しくは下の [Clip Editor パネル](clip-editor-intro.md#clip-editor-panel) を参照してください。
 {% endhint %}
 
 ### Clip を作成する
@@ -75,7 +75,7 @@ Oscillator nodes は、時間の経過に合わせてプロパティを変化さ
 **豆知識:** _Liberation_ という名前は、1980年に発売され、Herbie Hancock、Jean-Michel Jarre、さらには James Brown によって有名になったシンセサイザーの「キーター」、Moog Liberation に着想を得ています。
 {% endhint %}
 
-Oscillator には必ず _range_ 設定があり、調整するプロパティの最小値と最大値を制御します。また、_Wave Oscillators_ には必ず _duration_ 設定があり、Oscillator が値を変化させる速さを決定します。詳しくは [Wave Oscillators](oscillators/wave-oscillators.md "mention") を参照してください。
+Oscillator には必ず _range_ 設定があり、調整するプロパティの最小値と最大値を制御します。また、_Wave Oscillators_ には必ず _duration_ 設定があり、Oscillator が値を変化させる速さを決定します。詳しくは [Wave Oscillators](oscillators/wave-oscillators.md) を参照してください。
 
 ### Clip editor panel
 

@@ -38,7 +38,7 @@ Canvas zones 是 Canvas 内的区域，用来发送到激光。它们在 Canvas 
 {% endhint %}
 
 {% hint style="info" %}
-你也可以在 _OUTPUT_ 视图中点击 _add canvas zone_ 按钮，将 canvas zone 分配给激光。见 [Zones](../output-view/zones.md "mention")。
+你也可以在 _OUTPUT_ 视图中点击 _add canvas zone_ 按钮，将 canvas zone 分配给激光。请参阅 [zones](../output-view/zones.md)。
 {% endhint %}
 
 ### Guide images

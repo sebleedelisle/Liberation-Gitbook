@@ -17,7 +17,7 @@ metaLinks:
 
 #### 校準測試的運作方式
 
-使用測試圖案進行校準（請參閱 [測試圖案](../output-view/test-patterns.md "mention")）
+使用測試圖案進行校準（請參閱 [測試圖案](../output-view/test-patterns.md)）
 
 * **5** – 紅色
 * **6** – 綠色

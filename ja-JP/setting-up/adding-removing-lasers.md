@@ -15,12 +15,12 @@ _Laser overview_ パネルの _ADD LASER_ ボタンをクリックすると、�
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-新しいレーザーを追加すると、そのレーザーにビームゾーンが自動的に追加されます。レーザーとゾーンは、追加した順番で並ぶことに注意してください。詳しくは [ビームゾーンの並べ替え](../output-view/re-ordering-beam-zones.md "mention") を参照してください。
+新しいレーザーを追加すると、そのレーザーに beam zone が自動的に追加されます。レーザーと zone は、追加した順番で並ぶことに注意してください。詳しくは [beam zone の並べ替え](../output-view/re-ordering-beam-zones.md) を参照してください。
 
 レーザーを削除するには、_Laser overview_ パネルの赤い「-」ボタンをクリックします。レーザー設定はすべて失われるので注意してください。
 
 {% hint style="info" %}
-他のレーザーからゾーンやその他の設定をコピーしたい場合は、[レーザー間で設定をコピーする](copy-laser-settings.md "mention") を使用してください。
+他のレーザーから zone やその他の設定をコピーしたい場合は、[レーザー間で設定をコピーする](copy-laser-settings.md) を使用してください。
 {% endhint %}
 
 {% hint style="info" %}

@@ -20,17 +20,17 @@ Liberation 非常灵活，即使没有连接任何实际激光器，你也可以
 你可以在 Liberation 中设置并可视化任意数量的激光器，许可证等级（Hobbyist、Pro 等）只会限制你可以_启用输出_的激光器数量。这意味着即使使用免费许可证，你也可以设计包含 100 台激光器的激光秀。只有在需要真正用实际激光器运行时，才需要升级许可证。
 {% endhint %}
 
-默认设置中有 8 台激光器水平排列，但你可以按需自定义。刚开始熟悉软件时，建议先保留这个默认设置；之后再根据你的硬件配置进行调整。（见[设置项目](setting-up/setting-up-your-project.md "mention")）
+默认设置中有 8 台激光器水平排列，但你可以按需自定义。刚开始熟悉软件时，建议先保留这个默认设置；之后再根据你的硬件配置进行调整。（见[设置项目](setting-up/setting-up-your-project.md)）
 
 {% hint style="warning" %}
-重要：在启用任何激光器输出之前，请务必了解相关风险，并仔细阅读[激光器设置流程概览](setting-up/setting-up-lasers.md "mention")章节。
+重要：在启用任何激光器输出之前，请务必了解相关风险，并仔细阅读[激光器设置流程概览](setting-up/setting-up-lasers.md)章节。
 {% endhint %}
 
 ## 软件概览
 
 ### 安全关闭
 
-只要在运行激光器，你就必须随时备有**硬件急停按钮**（见[急停 / 联锁](hardware/emergency-stop-interlocks.md "mention")）。如果只是想在不那么紧急的情况下关闭所有输出，可以使用 _**DISARM ALL**_ 按钮，或按 `Escape` 键（也可以按 APC40 上的 _**SESSION**_ 键）。你也可以使用屏幕上的滑块或 APC40 上的主推子来降低 Global Brightness。
+只要在运行激光器，你就必须随时备有**硬件急停按钮**（见[急停 / 联锁](hardware/emergency-stop-interlocks.md)）。如果只是想在不那么紧急的情况下关闭所有输出，可以使用 _**DISARM ALL**_ 按钮，或按 `Escape` 键（也可以按 APC40 上的 _**SESSION**_ 键）。你也可以使用屏幕上的滑块或 APC40 上的主推子来降低 Global Brightness。
 
 ### 滑块控件
 
@@ -42,7 +42,7 @@ Liberation 中有多种滑块和控制项。
 
 ### 键盘快捷键
 
-完整的键盘快捷键列表见这里：[键盘快捷键](reference/keyboard-shortcuts.md "mention")
+完整的键盘快捷键列表见这里：[键盘快捷键](reference/keyboard-shortcuts.md)
 
 ### 屏幕布局
 
@@ -74,7 +74,7 @@ Menu 中可以找到所有文件导入/导出选项，也可以打开各个面�
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view 会显示你的激光器效果，并且可以配置成与你自己的激光器设置相匹配。点击并拖动可旋转摄像机视角，使用鼠标滚轮可前后移动。更多选项可在 _3D Visualiser settings_ 面板中找到（_View -> 3D Visualiser Settings_）。见 [3D Visualiser](setting-up/3d-visualiser.md "mention")。
+3D view 会显示你的激光器效果，并且可以配置成与你自己的激光器设置相匹配。点击并拖动可旋转摄像机视角，使用鼠标滚轮可前后移动。更多选项可在 _3D Visualiser settings_ 面板中找到（_View -> 3D Visualiser Settings_）。见 [3D Visualiser](setting-up/3d-visualiser.md)。
 
 #### Output View
 
@@ -106,11 +106,11 @@ zone 是激光器输出中的一个空间区域，你可以把激光内容发送
 
 左侧有一列图标按钮，将鼠标悬停在任意按钮上即可查看其功能说明。这里的按钮可用于添加 beam zone、canvas zone 和 mask。还有一些选项可只为当前激光器设置 Test Pattern，以及配置网格和吸附设置。
 
-更多详情见 [Output 视图](output-view/ "mention")。
+更多详情见 [Output 视图](output-view/)。
 
 #### Canvas
 
-Canvas 系统主要用于图形和建筑投影映射。你可以把复杂图像分配到多台激光器上，并对每个部分进行透视校正。见[图形与 Canvas 系统](graphics-and-the-canvas-system/ "mention")。
+Canvas 系统主要用于图形和建筑投影映射。你可以把复杂图像分配到多台激光器上，并对每个部分进行透视校正。见[图形与 Canvas 系统](graphics-and-the-canvas-system/)。
 
 ### APC40 MIDI 控制器
 
@@ -118,7 +118,7 @@ Canvas 系统主要用于图形和建筑投影映射。你可以把复杂图像�
 
 虽然可以用鼠标和键盘控制 Liberation，但使用 APC40 MIDI 控制界面会好得多（Mark 2 最合适，Mark 1 也可以使用）。
 
-另见：[APC40 参考](reference/apc40-reference.md "mention")
+另见：[APC40 参考](reference/apc40-reference.md)
 
 Liberation 也支持 APC Mini 和 MIDI Fighter Twister。对于大多数场景，APC40 Mark 2 仍然是最佳选择。
 
@@ -146,7 +146,7 @@ Clip 是 Liberation 中用于容纳任何激光内容的容器。Clip 可以包�
 * APC40 滚动旋钮
 * APC40 _<- DEVICE ->_ 按钮
 
-为了帮助你定位，顶部有一个 Clip Deck 的迷你可视化视图。另见 [Clips 与 Clip Deck](clips/ "mention")
+为了帮助你定位，顶部有一个 Clip Deck 的迷你可视化视图。另见 [Clips 与 Clip Deck](clips/)
 
 #### 启动和停止 Clip
 
@@ -168,7 +168,7 @@ _STOP_ 按钮会停止当前正在运行的所有 Clip。
 请注意，这些 zone 分配和 X/Y 翻转设置是绑定到 Clip 本身的；下次运行该 Clip 时会保留。它们不是全局设置。
 {% endhint %}
 
-右键点击某个 Clip 可编辑更多 Clip 设置。另见 [Clip 设置](clips/clip-settings.md "mention")
+右键点击某个 Clip 可编辑更多 Clip 设置。另见 [Clip 设置](clips/clip-settings.md)
 
 ### Groups
 
@@ -190,7 +190,7 @@ group 还包含淡入/淡出过渡设置，这些设置可以被其中的 Clip �
 
 使用 APC40 时，先按下 group 按钮，然后_在它仍被按住时_，使用 zone 和 X/Y 按钮切换该 group 中所有 Clip 的 zone 设置。
 
-另见 [Clip 分组](clips/groups.md "mention")
+另见 [Clip 分组](clips/groups.md)
 
 ### 效果
 
@@ -208,7 +208,7 @@ Liberation 的效果系统功能强大且灵活，可实时改变 Clip 输出。
 效果按钮上显示的小数字表示该效果的 _level_ 和 _parameter_。_level_ 由 APC40 上的推子控制，也可以在按钮上点击并拖动。parameter 由 APC40 上的旋钮调整，也可以右键点击后用鼠标调整。
 {% endhint %}
 
-_\*旋转控制器 1-8 位于 APC40 Mk2 顶部，在 Mk1 上位于右上方。另见：_ [APC40 参考](reference/apc40-reference.md "mention")
+_\*旋转控制器 1-8 位于 APC40 Mk2 顶部，在 Mk1 上位于右上方。另见：_ [APC40 参考](reference/apc40-reference.md)
 
 #### 默认效果
 
@@ -297,16 +297,18 @@ _Laser Overview_ 面板可以让你快速查看当前运行的激光器状态。
 
 中间的图表是帧长度历史记录，右侧的数字是当前帧率。内容越复杂，帧率就会越低（也就是更容易闪烁）。低于约 25fps 时，画面就会开始显得有些闪烁。
 
+如果帧率较低，请参阅[在较旧设备上提升性能](troubleshooting/improving-performance-on-older-machines.md)获取建议。
+
 ### 连接到激光器 - Controller Assignment 面板
 
 点击 _Assign Laser Controllers_ 按钮可打开 _Controller Assignment_ 面板。（也可以通过菜单栏中的 _View -> Controller Assignment_ 打开此面板）。
 
 你可以在这里选择哪些激光输出发送到哪些激光控制器。将右侧列表中的控制器拖放到左侧的槽位中即可。你也可以重命名控制器，使其名称与配对的激光器一致（使用笔形图标按钮）。
 
-更多详情请阅读 [控制器分配](setting-up/controller-assignment.md "mention")章节。
+更多详情请阅读 [控制器分配](setting-up/controller-assignment.md) 章节。
 
 {% hint style="danger" %}
-在启用任何激光器输出之前，请务必阅读[激光器设置流程概览](setting-up/setting-up-lasers.md "mention")章节。
+在启用任何激光器输出之前，请务必阅读[激光器设置流程概览](setting-up/setting-up-lasers.md)章节。
 {% endhint %}
 
 ### Laser Settings 面板
@@ -337,10 +339,10 @@ Liberation 让你可以详细控制点流的生成方式，从而为每台激光
 基本扫描器设置包括：
 
 * **Speed** 是扫描器速度，也就是激光移动绘制形状的速度。这相当于在传统激光软件中调整点率，但在 Liberation 中，你可以在_不依赖点率_的情况下改变激光移动速度。通常不需要调整此项。
-* **Scanner sync**（有时称为 _blank shift_，以前称为 Colour Shift）扫描器会非常快速地移动激光，但亮度和颜色变化通常会与移动不同步。这会表现为光束和线条边缘出现轻微闪烁的光“尾巴”。使用此项调整可让移动与颜色彼此同步。见 [激光输出设置面板](setting-up/laser-settings.md "mention")
+* **Scanner sync**（有时称为 _blank shift_，以前称为 Colour Shift）扫描器会非常快速地移动激光，但亮度和颜色变化通常会与移动不同步。这会表现为光束和线条边缘出现轻微闪烁的光“尾巴”。使用此项调整可让移动与颜色彼此同步。见 [Laser Settings 面板](setting-up/laser-settings.md)
 
-其他高级扫描器设置在[高级](advanced/ "mention")章节中说明。
+其他高级扫描器设置在[高级](advanced/)章节中说明。
 
 ### Zoning
 
-关于设置激光器和划分 zone 的完整指南，见：[激光器设置流程概览](setting-up/setting-up-lasers.md "mention")
+关于设置激光器和划分 zone 的完整指南，见：[激光器设置流程概览](setting-up/setting-up-lasers.md)

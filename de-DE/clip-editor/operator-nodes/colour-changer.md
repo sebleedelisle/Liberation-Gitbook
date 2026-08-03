@@ -11,7 +11,7 @@ metaLinks:
 
 Ändert die Farben aller eingehenden Inhalte. Du kannst entweder feste HSB-Werte festlegen oder zum Gradient-System wechseln und Farben aus einem benutzerdefinierten Farbverlauf abtasten.
 
-* **hue, saturation, brightness** - die Farbwerte, siehe [Farbeinstellungen und HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - die Farbwerte, siehe [Farbeinstellungen und HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - der Farbton wird nicht geändert
   * FIXED - der Farbton der Elemente wird auf den Wert von hue gesetzt
@@ -28,7 +28,7 @@ metaLinks:
 * **blend** - wie stark die Farbänderung angewendet wird: 0% bedeutet gar nicht, 100% vollständig, und 50% ist eine Kombination aus der vorhandenen Farbe und den neuen Werten.
 
 {% hint style="info" %}
-Der Colour Change node tastet eine Farbe aus dem Farbverlauf für die gesamte Eingabe ab. Wenn der Farbverlauf positionsabhängig über die Form laufen soll, verwende stattdessen [positionsbasierte Changer](position-based-changers.md "mention").
+Der Colour Change node tastet eine Farbe aus dem Farbverlauf für die gesamte Eingabe ab. Wenn der Farbverlauf positionsabhängig über die Form laufen soll, verwende stattdessen [positionsbasierte Changer](position-based-changers.md).
 {% endhint %}
 
 ### Gradient-Editor

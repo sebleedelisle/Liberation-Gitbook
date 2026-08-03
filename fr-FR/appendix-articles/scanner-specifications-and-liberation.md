@@ -27,13 +27,25 @@ Ce n’est pas une mesure complète ni entièrement standardisée des performanc
 
 Mais cela reste la référence la plus utilisée, et elle peut donner une bonne idée de la qualité des scanners, au moins chez les fabricants sérieux. Avec les fabricants _moins sérieux_, en revanche...
 
-#### Si vous voulez tester les scanners selon leur valeur annoncée
+#### Tester les scanners avec Libera Lab
 
 {% hint style="danger" %}
 **Il s’agit d’une technique avancée et vous pouvez endommager vos scanners si vous ne faites pas attention. Déconseillé sauf si vous savez ce que vous faites.**
 {% endhint %}
 
-Vous devrez trouver un logiciel capable de sortir le [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) — je pense que LaserShowGen peut peut-être le faire — puis ajuster la taille de sortie pour correspondre à l’angle de balayage spécifié (par exemple 8°). Consultez la documentation ILDA pour savoir comment analyser la sortie.
+Si vous voulez expérimenter le comportement des scanners en dehors d’un projet de show, utilisez [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). C’est un outil de bureau pour les contrôleurs laser compatibles Libera, conçu pour détecter, tester, prévisualiser et inspecter la sortie laser.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab est utile, car il vous permet de :
+
+* sortir des motifs de test connus, y compris le motif de test ILDA
+* charger et streamer des fichiers ILDA
+* prévisualiser le flux de points avant ou pendant sa sortie
+* inspecter la sortie avec des outils d’oscilloscope et de charge des scanners
+* comparer l’effet de différents motifs, fréquences de points et tailles de sortie sur les scanners
+
+Pour tester des scanners par rapport à une valeur annoncée, réglez Libera Lab sur le [motif de test ILDA](https://ilda.com/technical.htm?r=7950), choisissez la fréquence de points indiquée et ajustez la taille de sortie pour correspondre à l’angle de balayage spécifié (par exemple 8°). Consultez la documentation ILDA pour savoir comment analyser la sortie.
 
 #### Pourquoi ce n’est pas forcément un bon benchmark
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) se situe généralement dans une gamme inférieure, mais 
 #### Comment Liberation vous aide
 
 Tout d’abord, pour la plupart des usages, vous n’avez pas besoin de scanners vraiment coûteux ! Des DT 30 kpps abordables, voire des PT, feront très bien l’affaire. Les réglages de scanner par défaut sont volontairement prudents et, dans la plupart des cas, _vous ne devriez pas avoir besoin de les modifier_ (à part _Scanner sync_).
+
+Si vous voulez comprendre ce que font réellement les réglages des scanners, Libera Lab est un meilleur endroit pour expérimenter que votre projet de show. Vous pouvez modifier la fréquence de points, l’angle de sortie et le motif de test tout en observant la prévisualisation, l’oscilloscope et les informations de charge des scanners.
 
 Même si vous avez de meilleurs scanners, il est inutile de les pousser plus fort que nécessaire. Cela prolongera considérablement leur durée de vie.
 
@@ -98,7 +112,8 @@ Bonne question. Voici mes conseils :
 * Si vous faites des graphismes, dans la plupart des cas, avoir plus de lasers sera préférable à des scanners plus rapides.
 * Lorsque vous passez à des configurations haut de gamme, n’importe laquelle des marques haut de gamme établies conviendra.
 * Si vous ne pouvez obtenir que les scanners sans marque les moins chers, les réglages par défaut de Liberation sont assez prudents et vous obtiendrez probablement des résultats corrects pour du travail de faisceaux basique. Si les scanners peinent, réduisez le réglage **Speed** (mais ne modifiez pas la cadence de points !).
+* Si vous voulez tester ou comparer des réglages, faites-le d’abord dans Libera Lab plutôt que d’expérimenter directement dans un fichier de show.
 
 #### Et le ILDA Test Pattern ?
 
-…reste très utile comme outil de calibration et de référence, mais il n’a jamais été conçu comme un benchmark complet et peut être utilisé à mauvais escient ou interprété de manière approximative par les fabricants.
+…reste très utile comme outil de calibration et de référence, et Libera Lab facilite sa sortie et son inspection. Mais il n’a jamais été conçu comme un benchmark complet et peut être utilisé à mauvais escient ou interprété de manière approximative par les fabricants.

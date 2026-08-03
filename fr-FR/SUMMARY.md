@@ -104,6 +104,7 @@
   * [🟩 Étalonnage des couleurs](advanced/colour-calibration.md)
 * [◼️ Conseils réseau](network-advice.md)
 * [✅ Dépannage](troubleshooting/README.md)
+* [✅ Améliorer les performances sur les machines plus anciennes](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Sortie intermittente / clignotante](troubleshooting/intermittent-flashing-output.md)
   * [✅ Contrôle live](troubleshooting/live-control.md)
   * [✅ Erreur de ressources manquantes au démarrage](troubleshooting/missing-resources.md)

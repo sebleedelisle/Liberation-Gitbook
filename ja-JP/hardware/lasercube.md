@@ -20,7 +20,7 @@ Wicked Lasers の [LaserCube](https://www.laseros.com/lasercube/) は、バッ�
 
 ### USB LaserCube
 
-micro USB ケーブルで LaserCube をコンピューターに接続し、_Controller Assignment_ パネルで確認します（[コントローラーの割り当て](../setting-up/controller-assignment.md "mention") を参照）。自動的に表示されない場合は、_REFRESH_ ボタンを押してください。
+micro USB ケーブルで LaserCube をコンピューターに接続し、_Controller Assignment_ パネルで確認します（[コントローラーの割り当て](../setting-up/controller-assignment.md) を参照）。自動的に表示されない場合は、_REFRESH_ ボタンを押してください。
 
 ### ネットワーク LaserCube「Wifi」
 
@@ -30,7 +30,7 @@ micro USB ケーブルで LaserCube をコンピューターに接続し、_Cont
 
 LaserCube を有線ネットワークに接続します。
 
-LaserCube を "LAN Client" モードにし、ネットワーク上にルーターがあることを確認します。LaserCube はルーターから IP アドレスを取得し、その後 _Controller Assignment_ パネルに表示されるはずです（[コントローラーの割り当て](../setting-up/controller-assignment.md "mention") を参照）。
+LaserCube を "LAN Client" モードにし、ネットワーク上にルーターがあることを確認します。LaserCube はルーターから IP アドレスを取得し、その後 _Controller Assignment_ パネルに表示されるはずです（[コントローラーの割り当て](../setting-up/controller-assignment.md) を参照）。
 
 {% hint style="info" %}
 ルーターを使わずにネットワークを構成し、すべてのデバイスに固定 IP アドレスを設定することも可能です。イベント業界ではこの方法もよく使われています。個人的には、ネットワークにルーターを追加する方法を好んでおり、ネットワーク設定にあまり慣れていない方にはこの方法をおすすめします。

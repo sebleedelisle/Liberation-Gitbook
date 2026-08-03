@@ -27,7 +27,7 @@ Vous pouvez également importer et exporter des fichiers de préréglages à l�
 Si vous modifiez un préréglage, par exemple le paramètre de scanner appelé _Default_, notez que les autres lasers ne seront pas mis à jour automatiquement. À la place, leurs paramètres de scanner seront désormais libellés _Default(edited)_. Pour les mettre à jour avec le nouveau préréglage _Default_, sélectionnez-le à nouveau dans la liste déroulante.
 
 {% hint style="info" %}
-Si vous avez beaucoup de lasers et que vous souhaitez mettre à jour tous leurs paramètres de scanner, utilisez le système _COPY LASER SETTINGS_. Voir [Copier les réglages entre lasers](../setting-up/copy-laser-settings.md "mention")
+Si vous avez beaucoup de lasers et que vous souhaitez mettre à jour tous leurs paramètres de scanner, utilisez le système _COPY LASER SETTINGS_. Voir [Copier les réglages entre lasers](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 Si vous supprimez un préréglage utilisé ailleurs, vous ne perdrez pas le réglage : il apparaîtra simplement avec le libellé _(deleted)._

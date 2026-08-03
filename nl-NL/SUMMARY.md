@@ -104,6 +104,7 @@
   * [🟩 Kleurkalibratie](advanced/colour-calibration.md)
 * [◼️ Netwerkadvies](network-advice.md)
 * [✅ Probleemoplossing](troubleshooting/README.md)
+* [✅ Prestaties verbeteren op oudere computers](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Onderbroken / knipperende uitvoer](troubleshooting/intermittent-flashing-output.md)
   * [✅ Live-besturing](troubleshooting/live-control.md)
   * [✅ Foutmelding over ontbrekende resources bij het opstarten](troubleshooting/missing-resources.md)

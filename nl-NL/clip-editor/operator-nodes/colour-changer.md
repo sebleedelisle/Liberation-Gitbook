@@ -11,7 +11,7 @@ metaLinks:
 
 Wijzigt de kleuren van alle binnenkomende content. Je kunt vaste HSB-waarden instellen, of overschakelen naar het gradientsysteem en kleuren uit een eigen gradient samplen.
 
-* **hue, saturation, brightness** - de kleurwaarden, zie [Kleurinstellingen en HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - de kleurwaarden, zie [Kleurinstellingen en HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - de hue wordt niet gewijzigd
   * FIXED - de hue van elementen wordt ingesteld op de hue-waarde
@@ -28,7 +28,7 @@ Wijzigt de kleuren van alle binnenkomende content. Je kunt vaste HSB-waarden ins
 * **blend** - hoe sterk de colour changer wordt toegepast: 0% is helemaal niet, 100% is volledig, en 50% is een combinatie van de bestaande kleur en de nieuwe waarden.
 
 {% hint style="info" %}
-De Colour Change-node samplet één kleur uit de gradient voor de volledige input. Als je wilt dat de gradient op basis van positie over de vorm loopt, gebruik dan in plaats daarvan [Positiegebaseerde changers](position-based-changers.md "mention").
+De Colour Change-node samplet één kleur uit de gradient voor de volledige input. Als je wilt dat de gradient op basis van positie over de vorm loopt, gebruik dan in plaats daarvan [positiegebaseerde changers](position-based-changers.md).
 {% endhint %}
 
 ### Gradient-editor

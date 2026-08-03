@@ -41,7 +41,7 @@ Beachte, dass die Korrekturen für Ausrichtung/Spiegelung nichts im 3D Visualise
 
 ### Laser-Einstellungen kopieren
 
-Siehe [Laser-Ausgabe-Einstellungen](laser-settings.md#copy-laser-settings "mention").
+Siehe [Laser-Ausgabe-Einstellungen](laser-settings.md#copy-laser-settings).
 
 ### Scanner-Einstellungen
 
@@ -56,8 +56,10 @@ Auch wenn die Standardeinstellungen recht konservativ sind, kannst du deine Scan
 {% endhint %}
 
 {% hint style="info" %}
-Diese Speed-Einstellung ändert nicht die Punktfrequenz, sondern passt an, wie weit diese Punkte auseinanderliegen. Weitere Informationen findest du unter [◼️ Wie Liberation Laserinhalte erzeugt](../advanced/how-liberation-generates-laser-content.md "mention")
+Diese Speed-Einstellung ändert nicht die Punktfrequenz, sondern passt an, wie weit diese Punkte auseinanderliegen. Weitere Informationen findest du unter [◼️ Wie Liberation Laserinhalte erzeugt](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
+
+Wenn du außerhalb eines Show-Projekts mit Punktfrequenz, Ausgabewinkel und Scannerlast experimentieren möchtest, siehe [🟩 Scanner-Spezifikationen und Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
 
 #### **Scanner sync (blank shift)**
 
@@ -73,12 +75,12 @@ Wenn du kleine „tails“ in deiner Laserausgabe siehst, muss wahrscheinlich di
 
 #### Scanner-Presets
 
-Verwende diese Einstellung, um ein vordefiniertes Scanner-Setting auszuwählen. Die Standardoption ist normalerweise in Ordnung, daher solltest du diese Einstellung nicht ändern müssen, es sei denn, du hast besonders schlechte (oder gute) Scanner. Wenn du tiefer einsteigen möchtest, siehe [◼️ Scanner-Presets & Render-Profile](../advanced/scanner-presets.md "mention")
+Verwende diese Einstellung, um ein vordefiniertes Scanner-Setting auszuwählen. Die Standardoption ist normalerweise in Ordnung, daher solltest du diese Einstellung nicht ändern müssen, es sei denn, du hast besonders schlechte (oder gute) Scanner. Wenn du tiefer einsteigen möchtest, siehe [◼️ Scanner-Presets & Render-Profile](../advanced/scanner-presets.md)
 
 #### Farbkalibrierung
 
-Mit diesem System kannst du die Helligkeitskurve und den Weißabgleich deines Lasers korrigieren. Siehe [Farbkalibrierung](../advanced/colour-calibration.md "mention")
+Mit diesem System kannst du die Helligkeitskurve und den Weißabgleich deines Lasers korrigieren. Siehe [Farbkalibrierung](../advanced/colour-calibration.md)
 
 #### Erweiterte Einstellungen
 
-Du solltest an diesen Einstellungen normalerweise nichts ändern müssen. Wenn du aber neugierig bist, siehe [◼️ Erweiterte Lasereinstellungen](../advanced/advanced-laser-settings.md "mention")
+Du solltest an diesen Einstellungen normalerweise nichts ändern müssen. Wenn du aber neugierig bist, siehe [◼️ Erweiterte Lasereinstellungen](../advanced/advanced-laser-settings.md)

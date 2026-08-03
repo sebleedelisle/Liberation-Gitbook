@@ -22,16 +22,11 @@ allora probabilmente hai un problema di rete o di prestazioni della CPU:
 
 **Prestazioni CPU**
 
-Se hai un computer vecchio o con specifiche basse, potrebbe essere troppo lento per eseguire Liberation. Controlla l’indicatore del frame rate sul lato destro della barra delle icone.
+Se hai un computer vecchio o con specifiche basse, potrebbe essere troppo lento per eseguire Liberation. Controlla l’indicatore del frame rate nella top bar.
 
 Lì ci sono due numeri: il frame rate effettivo e il frame rate target. Se il frame rate effettivo scende sotto 30, potresti avere problemi.
 
-Le seguenti azioni possono aiutare:
-
-* Rimuovi i laser inutilizzati, ad esempio se hai un solo laser collegato, elimina gli altri.
-* Passa alla vista output o canvas.
-* Chiudi tutti gli altri programmi, controlla le impostazioni del firewall di rete, chiudi antivirus, Dropbox, ecc.
-* Riduci la risoluzione dello schermo e rimpicciolisci la finestra di Liberation.
+Per ridurre il carico sul computer, consulta [Migliorare le prestazioni sui computer più vecchi](improving-performance-on-older-machines.md).
 
 Se nulla di tutto questo funziona, valuta l’upgrade del computer.
 
@@ -41,7 +36,7 @@ Se nulla di tutto questo funziona, valuta l’upgrade del computer.
 
 allora è probabile che si tratti di un problema hardware. Questo argomento non rientra nello scopo di questo manuale, ma puoi provare le seguenti azioni:
 
-* Disattiva il sistema SFS (Scan Fail Safety). Alcuni laser hanno una funzione che disattiva l’output se gli scanner smettono di muoversi, ad esempio producendo un fascio statico intenso. A volte possono essere un po’ troppo prudenti / inaffidabili.
+* Disattiva il sistema SFS (Scan Fail Safety). Alcuni laser hanno una funzione che disattiva l’output se gli scanner smettono di muoversi, cioè producono un fascio statico intenso. A volte possono essere un po’ troppo prudenti / inaffidabili.
 
 {% hint style="danger" %}
 Usa la massima cautela quando disattivi il sistema scan fail safety. I fasci statici intensi possono causare bruciature! Assicurati di avere a portata di mano un pulsante di arresto e un estintore.

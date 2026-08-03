@@ -16,7 +16,7 @@ metaLinks:
 
 또한 Clip 자체를 변경하지 않고도, 레이저별로 서로 다른 스캐너 유형에 맞게 동일한 콘텐츠를 조정할 수 있습니다.
 
-자세한 내용은 [◼️ Liberation이 레이저 콘텐츠를 생성하는 방식](../../advanced/how-liberation-generates-laser-content.md "mention")을 참고하세요.
+자세한 내용은 [◼️ Liberation이 레이저 콘텐츠를 생성하는 방식](../../advanced/how-liberation-generates-laser-content.md)을 참고하세요.
 {% endhint %}
 
 미리 설정된 _Render Profiles_는 _DEFAULT_, _FAST_, _DETAIL_ 세 가지입니다.
@@ -28,5 +28,5 @@ _**FAST** -_ Clip에 콘텐츠가 많고 그중 일부가 매우 단순한 점�
 _**DETAIL**_ - 날카로운 모서리가 필요한 도형을 그릴 때 이 옵션을 사용하세요. 다만 스캐너가 더 느리게 움직이므로 출력에 깜빡임이 생길 수 있다는 점을 염두에 두세요.
 
 {% hint style="info" %}
-Clip Editor 안에서는 Creator를 서로 다른 Render Profile에 할당할 수 있지만, 각 레이저는 스캐너 설정에 따라 이러한 프로파일을 처리합니다. [◼️ 스캐너 프리셋 및 렌더 프로필](../../advanced/scanner-presets.md "mention")을 참고하세요.
+Clip Editor 안에서는 Creator를 서로 다른 Render Profile에 할당할 수 있지만, 각 레이저는 스캐너 설정에 따라 이러한 프로파일을 처리합니다. [◼️ 스캐너 프리셋 및 렌더 프로필](../../advanced/scanner-presets.md)을 참고하세요.
 {% endhint %}

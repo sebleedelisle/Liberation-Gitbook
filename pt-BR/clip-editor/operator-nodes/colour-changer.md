@@ -11,7 +11,7 @@ metaLinks:
 
 Altera as cores de todo o conteúdo de entrada. Você pode definir valores HSB fixos ou mudar para o sistema de gradiente e amostrar cores de um gradiente personalizado.
 
-* **hue, saturation, brightness** - os valores de cor; consulte [Configurações de cor e HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - os valores de cor; consulte [Configurações de cor e HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - o matiz não é alterado
   * FIXED - o matiz dos elementos é definido pelo valor de hue
@@ -28,7 +28,7 @@ Altera as cores de todo o conteúdo de entrada. Você pode definir valores HSB f
 * **blend** - define com que intensidade o Colour change é aplicado: 0% significa nenhuma aplicação, 100% significa aplicação total, e 50% é uma combinação da cor existente com os novos valores.
 
 {% hint style="info" %}
-O node Colour Change amostra uma cor do gradiente para toda a entrada. Se você quiser que o gradiente percorra a forma por posição, use [Alteradores baseados em posição](position-based-changers.md "mention") em vez disso.
+O node Colour Change amostra uma cor do gradiente para toda a entrada. Se você quiser que o gradiente percorra a forma por posição, use [Alteradores baseados em posição](position-based-changers.md) em vez disso.
 {% endhint %}
 
 ### Editor de gradiente

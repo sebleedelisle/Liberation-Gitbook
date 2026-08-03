@@ -33,7 +33,7 @@ metaLinks:
 
 **색상 모드**
 
-이 설정들은 색상 조정의 어떤 요소를 콘텐츠에 적용할지 결정합니다. 참고: [색상 설정 및 HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+이 설정들은 색상 조정의 어떤 요소를 콘텐츠에 적용할지 결정합니다. 참고: [색상 설정 및 HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue가 변경되지 않습니다.
@@ -49,7 +49,7 @@ metaLinks:
 
 **Gradient editor**
 
-[색상 변경](colour-changer.md "mention")과 같은 gradient editor를 사용하지만, 위치를 기준으로 콘텐츠 전체에 그라디언트를 매핑합니다.
+[색상 변경](colour-changer.md)과 같은 gradient editor를 사용하지만, 위치를 기준으로 콘텐츠 전체에 그라디언트를 매핑합니다.
 
 * 그라디언트 바를 클릭하여 색상 스톱을 추가합니다.
 * 스톱을 왼쪽 클릭하여 선택한 다음, 좌우로 드래그하여 이동합니다.

@@ -29,7 +29,7 @@ Liberation に戻ると、_About panel_ が更新されています（数秒待�
 複数のライセンスがある場合は、そのコンピューターに割り当てるライセンスを選択するよう求められます。
 {% endhint %}
 
-これで Liberation のインストールが認証され、レーザーに出力できるようになりました。おめでとうございます！ただし、レーザーをアームする前に、[クイックスタートガイド](../getting-started.md "mention") と [レーザーセットアップ手順の概要](../setting-up/setting-up-lasers.md "mention") をお読みください。
+これで Liberation のインストールが認証され、レーザーに出力できるようになりました。おめでとうございます！ただし、レーザーをアームする前に、[クイックスタートガイド](../getting-started.md) と [レーザーセットアップ手順の概要](../setting-up/setting-up-lasers.md) をお読みください。
 
 {% hint style="info" %}
 _About panel_ は、メニューの _Liberation -> About Liberation_ または _Liberation -> Authorise/Deauthorise this computer_ からいつでも開くことができます。

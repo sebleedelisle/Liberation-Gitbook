@@ -22,7 +22,7 @@ metaLinks:
 
 #### **Liberation 可以控制多少部激光？**
 
-Liberation 可以在一部電腦上運行多部激光，並已使用超過 100 個激光控制器測試。因此答案取決於：
+Liberation 可以在一部電腦上運行大量激光，並已使用超過 100 部激光測試。因此答案取決於：
 
 * 你的電腦 CPU
 * 網絡速度
@@ -30,13 +30,13 @@ Liberation 可以在一部電腦上運行多部激光，並已使用超過 100 �
 
 #### **我可以使用哪些 MIDI 控制器？**
 
-Liberation 是圍繞常見的 APC40 Mk2 MIDI 控制器設計及優化的。它亦支援 APC40 Mk1。請參閱[現場 MIDI 控制器](midi-control/live-control-with-the-apc40.md "mention")
+Liberation 是圍繞常見的 APC40 Mk2 MIDI 控制器設計及優化的。它亦支援 APC40 Mk1。請參閱[現場 MIDI 控制器](midi-control/live-control-with-the-apc40.md)
 
 Liberation 亦支援 APC Mini 及 MIDI Fighter Twister。APC40 Mk2 仍然是功能最完整的參考控制器。
 
-另外亦有 MIDI Send/Receive 系統，可提供額外 MIDI 控制。請參閱 [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
+另外亦有 MIDI Send/Receive 系統，可提供額外 MIDI 控制。請參閱 [MIDI Send/Receive](midi-control/midi-send-receive.md)
 
-如需更多資料，請參閱 [MIDI 控制](midi-control/ "mention")。
+如需更多資料，請參閱 [MIDI 控制](midi-control/)。
 
 #### **我可以使用任何 MIDI 控制器嗎？**
 
@@ -53,7 +53,7 @@ Liberation 亦支援 APC Mini 及 MIDI Fighter Twister。APC40 Mk2 仍然是功�
 * LaserCube 網絡協議（使用有線連接）
 * [LASollinger lasers](https://laseranimation.com/en/) 使用的 AVB（目前只在 macOS 測試中）
 
-如需更多資料，請參閱[兼容的激光及控制器（DAC）](hardware/compatible-lasers-and-controllers-dacs.md "mention")
+如需更多資料，請參閱[兼容的激光及控制器（DAC）](hardware/compatible-lasers-and-controllers-dacs.md)
 
 #### **為甚麼不支援 \[其他品牌的] 激光控制器？**
 
@@ -69,11 +69,11 @@ Liberation 亦支援 APC Mini 及 MIDI Fighter Twister。APC40 Mk2 仍然是功�
 * **內置 Mercury 系統的 X-Laser 裝置**（使用 Ether Dream mode）。
 * **內置 AVB 的 LaserAnimation Sollinger 投影機**（只限 macOS，需要 AVB 兼容的網絡裝置，目前測試中）。
 
-如需更多資料，請參閱[兼容的激光及控制器（DAC）](hardware/compatible-lasers-and-controllers-dacs.md "mention")
+如需更多資料，請參閱[兼容的激光及控制器（DAC）](hardware/compatible-lasers-and-controllers-dacs.md)
 
 #### **我可以將 Liberation 與 LaserCube 一起使用嗎？**
 
-可以，Liberation 可直接配合任何 LaserCube 使用。請參閱 [LaserCube](hardware/lasercube.md "mention")
+可以，Liberation 可直接配合任何 LaserCube 使用。請參閱 [LaserCube](hardware/lasercube.md)
 
 ## 授權
 
@@ -89,23 +89,35 @@ Liberation 亦支援 APC Mini 及 MIDI Fighter Twister。APC40 Mk2 仍然是功�
 
 #### **我可以升級到新的級別嗎？**
 
-你可以隨時升級到較高級別。你目前已付款期餘下時間會獲得部分退款，而新的授權級別會立即生效。請參閱[升級或降級你的授權](installation/upgrade-downgrade-your-license.md "mention")
+你可以隨時升級到較高級別。你目前已付款期餘下時間會獲得部分退款，而新的授權級別會立即生效。請參閱[升級或降級你的授權](installation/upgrade-downgrade-your-license.md)
 
 #### **我可以降級我的授權嗎？**
 
-你可以隨時降級，但變更會在目前已付款期結束時生效。請參閱[升級或降級你的授權](installation/upgrade-downgrade-your-license.md "mention")
+你可以隨時降級，但變更會在目前已付款期結束時生效。請參閱[升級或降級你的授權](installation/upgrade-downgrade-your-license.md)
 
 #### **我可以暫停授權付款嗎？**
 
-可以。授權可於下一個訂閱日期暫停，並可隨時重新啟用。如果你是週期性開始及停止使用，這會很有用，而且無需重新輸入信用卡資料。請參閱[暫停或取消付款](installation/cancel-your-subscription.md "mention")
+可以。授權可於下一個訂閱日期暫停，並可隨時重新啟用。如果你是週期性開始及停止使用，這會很有用，而且無需重新輸入信用卡資料。請參閱[暫停或取消付款](installation/cancel-your-subscription.md)
 
 #### **如何永久取消我的授權？**
 
-你可以隨時取消定期授權，它會在目前已付款期結束時自動停用。請參閱[暫停或取消付款](installation/cancel-your-subscription.md "mention")
+你可以隨時取消定期授權，它會在目前已付款期結束時自動停用。請參閱[暫停或取消付款](installation/cancel-your-subscription.md)
+
+#### **為甚麼 Liberation 採用訂閱制？**
+
+簡單來說，這可讓 Liberation 持續營運、積極開發並保持公平，同時仍讓所有人無需付款也可開啟、編輯、儲存、練習及預覽演出。
+
+我在這裡進一步說明了背後的想法：[為甚麼 Liberation 使用訂閱制](https://liberationlaser.com/articles/why-a-subscription)。
+
+#### **我可以為固定安裝／巡演製作取得永久或長期授權嗎？**
+
+固定安裝及巡演製作可使用年度（甚至多年）預付授權。如你想設定這類授權，請電郵至 [billing@liberationlaser.com](mailto:billing@liberationlaser.com)。
+
+目前未有提供永久授權。如需更多背景資料，請參閱[為甚麼 Liberation 使用訂閱制](https://liberationlaser.com/articles/why-a-subscription)。
 
 #### **如何使用我的授權為電腦授權？**
 
-購買授權後，你可以在 Liberation 軟件內為電腦授權。你會在 _About_ 畫面看到 _Authorise_ 按鈕，按下後會提示你登入網站。按照畫面上的指示完成授權流程。請參閱[授權及取消授權](installation/authorising-and-de-authorising.md "mention")
+購買授權後，你可以在 Liberation 軟件內為電腦授權。你會在 _About_ 畫面看到 _Authorise_ 按鈕，按下後會提示你登入網站。按照畫面上的指示完成授權流程。請參閱[授權及取消授權](installation/authorising-and-de-authorising.md)
 
 #### **我的電腦需要多久連接一次互聯網？**
 
@@ -121,7 +133,7 @@ Liberation 亦支援 APC Mini 及 MIDI Fighter Twister。APC40 Mk2 仍然是功�
 
 #### **我可以在多少部電腦上安裝 Liberation？**
 
-你可以在任意數量的電腦上安裝 Liberation。只有啟用激光／DMX output 時才需要授權，而你的授權級別會決定可同時獲授權作 output 的電腦數量。請參閱[授權機制如何運作](installation/how-licensing-works.md "mention")
+你可以在任意數量的電腦上安裝 Liberation。只有啟用激光／DMX output 時才需要授權，而你的授權級別會決定可同時獲授權作 output 的電腦數量。請參閱[授權機制如何運作](installation/how-licensing-works.md)
 
 #### **如何將我的授權由一部電腦移到另一部電腦？**
 
@@ -131,7 +143,7 @@ Liberation 亦支援 APC Mini 及 MIDI Fighter Twister。APC40 Mk2 仍然是功�
 * 在 _About_ 畫面按 _Authorise this computer_ 按鈕。
 * 網站會開啟，登入並按照畫面上的指示完成授權
 
-你亦可以遠端取消授權一部已無法存取的電腦（有部分限制）。請參閱[授權及取消授權](installation/authorising-and-de-authorising.md "mention")
+你亦可以遠端取消授權一部已無法存取的電腦（有部分限制）。請參閱[授權及取消授權](installation/authorising-and-de-authorising.md)
 
 #### **如果電腦遺失或被盜，我可以取消該電腦上的 Liberation 授權嗎？**
 
@@ -143,11 +155,11 @@ Liberation 亦支援 APC Mini 及 MIDI Fighter Twister。APC40 Mk2 仍然是功�
 
 #### 預設設定有 8 部激光 — 如何更改？
 
-請參閱[設定你的專案](setting-up/setting-up-your-project.md "mention")及[新增／移除激光](setting-up/adding-removing-lasers.md "mention")
+請參閱[設定你的專案](setting-up/setting-up-your-project.md)及[新增／移除激光](setting-up/adding-removing-lasers.md)
 
 #### 可以將一部激光的 Zone 設定複製到其他激光嗎？
 
-可以！請參閱[在激光之間複製 Zone](output-view/copy-zones-between-lasers.md "mention")
+可以！請參閱[在激光之間複製 zone](output-view/copy-zones-between-lasers.md)
 
 #### 可以直接輸入數字，而不是使用 slider 嗎？
 
@@ -155,42 +167,42 @@ Liberation 亦支援 APC Mini 及 MIDI Fighter Twister。APC40 Mk2 仍然是功�
 
 #### **如何將 Liberation 與音樂同步？**
 
-它有一個智能的「tap tempo」系統，運作方式如你所預期；你亦可以使用外部 MIDI clock 或 Ableton Link。請參閱 [Tempo／同步](tempo-synchronisation.md "mention")。Timeline 可同步至經由任何 audio interface 輸入的 LTC/SMPTE timecode。請參閱 [時間碼](timecode.md "mention")。
+它有一個智能的「tap tempo」系統，運作方式如你所預期；你亦可以使用外部 MIDI clock 或 Ableton Link。請參閱 [Tempo／同步](tempo-synchronisation.md)。Timeline 可同步至經由任何 audio interface 輸入的 LTC/SMPTE timecode。請參閱 [時間碼](timecode.md)。
 
 #### 要獲得最佳激光 output，需要調整哪些設定？
 
-主要設定是 _Scanner Sync_，用來補償掃描鏡移動與激光亮度變化之間的輕微延遲。如果你的激光點／光束出現細小的「拖尾」，就需要調整這項設定。（請參閱 [激光輸出設定面板](setting-up/laser-settings.md "mention") 頁面的相片，查看「拖尾」示例）
+主要設定是 _Scanner Sync_，用來補償掃描鏡移動與激光亮度變化之間的輕微延遲。如果你的激光點／光束出現細小的「拖尾」，就需要調整這項設定。（請參閱 [激光輸出設定面板](setting-up/laser-settings.md) 頁面的相片，查看「拖尾」示例）
 
 你亦可以嘗試更改 scanner speed；如果你的 scanners 較基本，可調慢一點；如果質素較好，可調快一點。但**請小心使用，因為如果驅動過度，可能會損壞 scanners。**
 
 另外亦有一些預設 scanner settings。預設選項較保守，適合大部分激光光束需求。如果你有較好的 scanners，亦有其他 presets 可用，並且有針對 graphics 調校的 presets。
 
-如需更多資料，請參閱[激光輸出設定面板](setting-up/laser-settings.md "mention")；如需了解如何建立自己的 presets，請參閱[◼️ 掃描器預設及 render profiles](advanced/scanner-presets.md "mention")（進階，編寫中）
+如需更多資料，請參閱[激光輸出設定面板](setting-up/laser-settings.md)；如需了解如何建立自己的 presets，請參閱[◼️ 掃描器預設及 render profiles](advanced/scanner-presets.md)（進階，編寫中）
 
-你亦可以使用 _Colour calibration_ 設定修正色彩平衡。請參閱[顏色校準](advanced/colour-calibration.md "mention")（進階技巧）
+你亦可以使用 _Colour calibration_ 設定修正色彩平衡。請參閱[顏色校準](advanced/colour-calibration.md)（進階技巧）
 
 #### _Latency(ms)_ 設定有甚麼作用？
 
-這是 frame latency，即由 frame 產生到隨後送往激光之間的最長時間。你一般不需要調整它，但如果遇到網絡問題，可以嘗試增加此值。詳情請參閱[延遲設定](setting-up/latency-setting.md "mention")。
+這是 frame latency，即由 frame 產生到隨後送往激光之間的最長時間。你一般不需要調整它，但如果遇到網絡問題，可以嘗試增加此值。詳情請參閱[延遲設定](setting-up/latency-setting.md)。
 
 ### Clips
 
 #### 如何在不運行 Clip 的情況下調整它的 Zone 和設定？
 
-`Alt / Option`-click，將它設為 _目前選取的 Clip_，但不啟動它。另請參閱[啟動／停止 Clip](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-click，將它設為 _目前選取的 Clip_，但不啟動它。另請參閱[啟動／停止 Clip](clips/starting-stopping-clips.md)
 
 #### 如何複製 Clips？
 
-按住 `Alt / Option` 鍵時 click 並拖曳。另請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md "mention")
+按住 `Alt / Option` 鍵時 click 並拖曳。另請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md)
 
 #### 如何刪除 Clips？
 
-Click 並將它們拖離 Clip Deck。另請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md "mention")
+Click 並將它們拖離 Clip Deck。另請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md)
 
 #### 如何多選、刪除、合併 Clip Deck 等？
 
-請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md "mention")
+請參閱[整理你的 Clip Deck](clips/organising-your-clip-deck.md)
 
 #### Clip 上的小咪高峰符號和其他圖示代表甚麼？
 
-它們用來表示該 Clip 會接收聲音或 MIDI input，而三點圖示表示有 Zone delay。請參閱 [Clip 按鈕上的小圖示是甚麼？](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+它們用來表示該 Clip 會接收聲音或 MIDI input，而三點圖示表示有 zone delay。請參閱 [Clip 按鈕上的小圖示是甚麼？](clips/what-are-the-small-icons-on-the-clip-buttons.md)

@@ -23,7 +23,7 @@ Canvas view では、canvas zone はピンク色のアウトラインの長方�
 警告 - レーザーが armed 状態の場合、デフォルトの canvas zone でコンテンツの投影が突然始まる可能性があります。canvas zone を割り当てる前に、レーザーを disarm しておくことをおすすめします。
 {% endhint %}
 
-そのレーザーの _OUTPUT_ view に移動すると、そこに canvas zone が表示されます。これは他の beam zone とまったく同じように編集できます。[ゾーン](../output-view/zones.md "mention") を参照してください。
+そのレーザーの _OUTPUT_ view に移動すると、そこに canvas zone が表示されます。これは他の beam zone とまったく同じように編集できます。[ゾーン](../output-view/zones.md) を参照してください。
 
 {% hint style="info" %}
 _OUTPUT_ view から直接レーザーに canvas zone を追加することもできます。左側のツールバーにある _Add existing canvas zone_ ボタンをクリックします。

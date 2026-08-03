@@ -23,7 +23,7 @@ Canvas 區域會在 Canvas 視圖中顯示為粉紅色外框矩形。它用來�
 警告 — 如果激光器已 armed，你可能會突然開始在預設 Canvas 區域投射內容。建議先將激光器 disarm，再為它指派 Canvas 區域。
 {% endhint %}
 
-如果你現在前往該激光器的 _OUTPUT_ 視圖，就會在其中看到這個 canvas zone，現在可像任何 beam zone 一樣進行編輯。請參閱[Zones（區域）](../output-view/zones.md "mention")。
+如果你現在前往該激光器的 _OUTPUT_ view，就會在其中看到這個 canvas zone；現在可以像任何 beam zone 一樣編輯。請參閱[Zones（區域）](../output-view/zones.md)。
 
 {% hint style="info" %}
 你亦可直接從 _OUTPUT_ 視圖將 Canvas 區域加入激光器 — 按一下左側工具列中的 _Add existing canvas zone_ 按鈕。

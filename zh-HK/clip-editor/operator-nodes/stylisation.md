@@ -26,7 +26,7 @@ Randomise 節點是 Randomise effect 的核心！
 
 為你的內容建立回聲，在原始內容移動時，在其後方留下會淡出或縮放的複本。
 
-* **change render profile for trail** – 開啟後，所有 trail 複本都會使用所選的 **render profile**。_請參閱_ [渲染設定檔](../fundamentals/render-profile.md "mention")。
+* **change render profile for trail** – 開啟後，所有 trail 複本都會使用所選的 **render profile**。_請參閱_ [渲染設定檔](../fundamentals/render-profile.md)。
 * **render profile** – 當上方開關開啟時，trail 複本使用的 profile。常見用法是主內容設為 **DETAIL**，而回聲以 **FAST** 渲染；這樣主形狀可以保持清晰細節，同時更有效率地渲染 trails。
 * **delay** – 以音樂時間設定 trail 複本之間的間距，單位為 **1/64 音符步距**。\
   參考值：

@@ -41,7 +41,7 @@ Notez que les corrections d’orientation / mise en miroir ne changent rien dans
 
 ### Copier les paramètres du laser
 
-Voir [Panneau des paramètres de sortie laser](laser-settings.md#copy-laser-settings "mention").
+Voir [Panneau des paramètres de sortie laser](laser-settings.md#copy-laser-settings).
 
 ### Paramètres des scanners
 
@@ -56,8 +56,10 @@ Même si les paramètres par défaut sont assez prudents, vous pouvez tout de m�
 {% endhint %}
 
 {% hint style="info" %}
-Ce paramètre de vitesse ne change pas le taux de points ; il ajuste plutôt l’espacement de ces points. Pour plus d’informations, consultez [◼️ Comment Liberation génère du contenu laser](../advanced/how-liberation-generates-laser-content.md "mention")
+Ce paramètre de vitesse ne change pas le taux de points ; il ajuste plutôt l’espacement de ces points. Pour plus d’informations, consultez [◼️ Comment Liberation génère du contenu laser](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
+
+Si vous voulez expérimenter avec le taux de points, l’angle de sortie et la charge des scanners en dehors d’un projet de show, consultez [🟩 Spécifications des scanners et Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
 
 #### **Scanner sync (blank shift)**
 
@@ -73,12 +75,12 @@ Si vous voyez de petites « tails » sur la sortie de votre laser, il est probab
 
 #### Scanner presets
 
-Utilisez ce réglage pour choisir un paramètre de scanner prédéfini. L’option par défaut convient généralement, vous ne devriez donc pas avoir besoin de modifier ce paramètre, sauf si vous avez des scanners particulièrement mauvais (ou bons). Si vous voulez aller plus loin, consultez [◼️ Préréglages de scanner et profils de rendu](../advanced/scanner-presets.md "mention")
+Utilisez ce réglage pour choisir un paramètre de scanner prédéfini. L’option par défaut convient généralement, vous ne devriez donc pas avoir besoin de modifier ce paramètre, sauf si vous avez des scanners particulièrement mauvais (ou bons). Si vous voulez aller plus loin, consultez [◼️ Préréglages de scanner et profils de rendu](../advanced/scanner-presets.md)
 
 #### Colour calibration
 
-Vous pouvez utiliser ce système pour corriger la courbe de luminosité et la balance des blancs de votre laser. Consultez [Étalonnage des couleurs](../advanced/colour-calibration.md "mention")
+Vous pouvez utiliser ce système pour corriger la courbe de luminosité et la balance des blancs de votre laser. Consultez [Étalonnage des couleurs](../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Vous ne devriez pas avoir besoin de toucher à ces paramètres, mais si vous êtes curieux, consultez [◼️ Paramètres laser avancés](../advanced/advanced-laser-settings.md "mention")
+Vous ne devriez pas avoir besoin de toucher à ces paramètres, mais si vous êtes curieux, consultez [◼️ Paramètres laser avancés](../advanced/advanced-laser-settings.md)
