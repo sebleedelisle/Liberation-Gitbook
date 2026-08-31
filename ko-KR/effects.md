@@ -8,7 +8,7 @@ metaLinks:
 
 Liberation의 효과 시스템은 Clip 출력을 실시간으로 바꾸는 재미있고 다양한 방식입니다. 효과는 완전히 유연하게 사용할 수 있으며, 전체를 깜빡이게 하거나, 회전시키거나, 색상을 바꾸거나, 무작위로 움직이게 할 수도 있습니다!
 
-Clip editor에서 할 수 있는 모든 작업을 효과로 사용할 수 있습니다. 실제로 효과는 Clip과 완전히 동일한 node editor로 편집합니다! [효과](effects.md#editing-effects "mention")를 참고하세요. 창의적인 가능성은 사실상 무한합니다.
+Clip Editor에서 할 수 있는 모든 작업을 효과로 사용할 수 있습니다. 실제로 효과는 Clip과 완전히 동일한 node editor로 편집합니다! [효과 편집](effects.md#editing-effects)을 참고하세요. 창의적인 가능성은 사실상 무한합니다.
 
 기본 효과 버튼 1-8은 zone 버튼 아래에 있으며, 효과 9-24는 하단의 작은 버튼입니다.
 
@@ -32,12 +32,12 @@ Clip의 zone delay가 효과에 상속되는 방식은 설명하기는 매우 �
 
 #### 효과 파라미터
 
-_Parameter node_를 사용해 효과에 파라미터를 추가하세요. Parameter 시스템은 효과 내부의 여러 설정을 외부에서 조정하는 방법입니다. 자세한 내용은 [Parameter Control](clip-editor/oscillators/parameter-control.md "mention")을 참고하세요.
+_Parameter node_를 사용해 효과에 파라미터를 추가하세요. Parameter 시스템은 효과 내부의 여러 설정을 외부에서 조정하는 방법입니다. 자세한 내용은 [Parameter Control](clip-editor/oscillators/parameter-control.md)을 참고하세요.
 
 rotary controller 1-8을 사용해 각 효과의 _parameter_를 조정합니다. 또는 효과 버튼을 우클릭하고 parameter 슬라이더를 조정하세요. parameter 변경은 효과가 어떻게 구성되어 있는지에 따라 서로 다른 동작을 합니다. 기본 효과와 각 파라미터의 동작은 아래 목록을 참고하세요.
 
 {% hint style="info" %}
-rotary controller 1-8은 APC40 Mk2의 상단, Mk1의 오른쪽 상단에 있습니다. 참고: [APC40 레퍼런스](reference/apc40-reference.md "mention")
+rotary controller 1-8은 APC40 Mk2의 상단, Mk1의 오른쪽 상단에 있습니다. 참고: [APC40 레퍼런스](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ _MX Group_ 설정이 0이면 이 기능은 비활성화됩니다.
 
 아무 효과나 우클릭한 뒤 _EDIT EFFECT_ 버튼을 클릭하면 효과 editor가 열립니다. 이 editor가 Clip Editor와 동일하다는 점을 확인할 수 있습니다!
 
-일반 Clip을 편집하는 것과 같은 방식으로 효과를 편집하세요. [Clip Editor](clip-editor/ "mention")를 참고하세요.
+일반 Clip을 편집하는 것과 같은 방식으로 효과를 편집하세요. [Clip Editor](clip-editor/)를 참고하세요.
 
 creator node가 최소 하나는 필요합니다. 이는 무엇이든 될 수 있지만(line, circle, shape, text까지도 가능), 효과 버튼 preview에서 가장 의미 있게 보이는 것을 선택하는 것이 좋습니다.
 

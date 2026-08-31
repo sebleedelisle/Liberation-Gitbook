@@ -104,6 +104,7 @@
   * [🟩 カラーキャリブレーション](advanced/colour-calibration.md)
 * [◼️ ネットワークに関するアドバイス](network-advice.md)
 * [✅ トラブルシューティング](troubleshooting/README.md)
+* [✅ 古いマシンでのパフォーマンス改善](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ 断続的な出力 / 点滅する出力](troubleshooting/intermittent-flashing-output.md)
   * [✅ ライブコントロール](troubleshooting/live-control.md)
   * [✅ 起動時のリソース不足エラー](troubleshooting/missing-resources.md)

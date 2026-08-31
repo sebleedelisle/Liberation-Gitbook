@@ -25,6 +25,6 @@ MIDI Send/Receive 系統最初是在 Liberation 尚未有任何 Timeline 功能�
 
 ### MIDI 對應
 
-請參閱 [MIDI 傳送／接收預設對應](../reference/midi-send-receive-default-mapping.md "mention")
+請參閱 [MIDI 傳送／接收預設對應](../reference/midi-send-receive-default-mapping.md)
 
 我計劃日後加入更高度自訂的 MIDI mapping；在此之前，你可以使用 [BOME](https://www.bome.com/products/miditranslator) 和 [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) 等應用程式，在 Liberation 和你的自訂硬件之間轉換資料。

@@ -27,13 +27,25 @@ It’s not a comprehensive or fully standardised measurement of real-world perfo
 
 But it’s still the most widely used reference we have, and it can give you a good idea of the quality of the scanners, at least with reputable manufacturers. With _less reputable_ ones though...
 
-#### If you want to test the scanners as they are rated
+#### Testing scanners with Libera Lab
 
 {% hint style="danger" %}
 **This is an advanced technique and you can damage your scanners if you're not careful. Not recommended unless you know what you're doing.**
 {% endhint %}
 
-You'll need to find software that can output the [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) - I think LaserShowGen may be able to do it - and adjust the output size to match the specified scan angle (e.g. 8°). See the ILDA documentation for advice on how to analyse the output.
+If you want to experiment with scanner behavior outside a show project, use [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). It's a desktop tool for Libera-compatible laser controllers, designed for discovering, testing, previewing and inspecting laser output.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab is useful because it lets you:
+
+* output known test patterns, including the ILDA test pattern
+* load and stream ILDA files
+* preview the point stream before or while outputting it
+* inspect output with scope and scanner-load tools
+* compare how different patterns, point rates and output sizes affect the scanners
+
+To test scanners against a published rating, set Libera Lab to the [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950), choose the rated point rate and adjust the output size to match the specified scan angle (e.g. 8°). See the ILDA documentation for advice on how to analyse the output.
 
 #### Why it might not be a good benchmark
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) are generally a lower tier, but honestly they’re probab
 #### How Liberation helps
 
 Well first of all, for most things you do not need really expensive scanners! Affordable 30kpps DT or even PT will be fine. The default scanner settings are deliberately conservative and for the most part _you should not need to adjust them_ (aside from _Scanner sync_).
+
+If you want to understand what the scanner settings are really doing, Libera Lab is a better place to experiment than your show project. You can change the point rate, output angle and test pattern while watching the preview, scope and scanner-load information.
 
 Even if you have better scanners there’s no point in driving them harder than you need to. This will significantly prolong their life.
 
@@ -98,8 +112,8 @@ Good question. Here are my tips:
 * If you're doing graphics, in most cases more lasers will be better than faster scanners.
 * Once you get to higher-end setups, any of the established high-end brands will be fine.
 * If you can only get the cheapest unbranded scanners, Liberation’s default settings are quite conservative and you’ll probably get OK results for basic beam work. If it struggles, reduce the **Speed** setting (but don’t change the point rate!).
+* If you want to test or compare settings, do it in Libera Lab first rather than experimenting inside a show file.
 
 #### And the ILDA Test Pattern?
 
-…is still very useful as a calibration and reference tool, but it was never designed as a comprehensive benchmark and can be misused or interpreted loosely by manufacturers.
-
+…is still very useful as a calibration and reference tool, and Libera Lab makes it easier to output and inspect. But it was never designed as a comprehensive benchmark and can be misused or interpreted loosely by manufacturers.

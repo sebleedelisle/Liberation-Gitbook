@@ -28,4 +28,4 @@ metaLinks:
 
 ### 一次为多个 Clips 分配 zones
 
-你可以为一个 zone 中的所有 Clips 分配 zones，并调整 X/Y。更多信息请参阅 [Clip 组](groups.md "mention")。
+你可以为一个 zone 中的所有 Clips 分配 zones，并调整 X/Y。更多信息请参阅 [Clip 组](groups.md)。

@@ -11,7 +11,7 @@ metaLinks:
 
 Changes the colors of all incoming content. You can either set fixed HSB values, or switch to the gradient system and sample colors from a custom gradient.
 
-* **hue, saturation, brightness** - the color values, see [Color settings and HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - the color values, see [Color settings and HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - the hue isn't changed
   * FIXED - the hue of elements is set to the hue value
@@ -28,7 +28,7 @@ Changes the colors of all incoming content. You can either set fixed HSB values,
 * **blend** - how strongly the color changer is applied, 0% is not at all, 100% is full, and 50% is a combination of the existing color and the new values.
 
 {% hint style="info" %}
-The Color Change node samples one color from the gradient for the whole input. If you want the gradient to run across the shape by position, use [Position based changers](position-based-changers.md "mention") instead.
+The Color Change node samples one color from the gradient for the whole input. If you want the gradient to run across the shape by position, use [Position based changers](position-based-changers.md) instead.
 {% endhint %}
 
 ### Gradient editor

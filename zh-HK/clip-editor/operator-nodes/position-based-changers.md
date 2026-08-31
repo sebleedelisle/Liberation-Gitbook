@@ -33,7 +33,7 @@ metaLinks:
 
 **Colour Modes**
 
-這些設定決定哪些顏色調整會套用到內容上。另見：[顏色設定與 HSB](../fundamentals/colour-settings-and-hsb.md "mention")。
+這些設定決定哪些顏色調整會套用到內容上。另見：[顏色設定與 HSB](../fundamentals/colour-settings-and-hsb.md)。
 
 * **hue mode**
   * _OFF_ – hue 不變。
@@ -49,7 +49,7 @@ metaLinks:
 
 **Gradient editor**
 
-使用與 [顏色變更](colour-changer.md "mention") 相同的漸變編輯器，但會按位置將漸變映射到內容上。
+使用與 [顏色變更](colour-changer.md) 相同的漸變編輯器，但會按位置將漸變映射到內容上。
 
 * 按一下漸變列即可加入顏色停點。
 * 左鍵按一下停點即可選取，然後向左右拖曳來移動。

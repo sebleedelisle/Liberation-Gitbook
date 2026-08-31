@@ -22,16 +22,11 @@ Dann hast du entweder ein Netzwerkproblem oder ein Problem mit der CPU-Leistung:
 
 **CPU-Leistung**
 
-Wenn du einen alten oder leistungsschwachen Rechner hast, ist er möglicherweise zu langsam, um Liberation auszuführen. Prüfe die Frame-Rate-Anzeige auf der rechten Seite der Symbolleiste.
+Wenn du einen alten oder leistungsschwachen Rechner hast, ist er möglicherweise zu langsam, um Liberation auszuführen. Prüfe die Frame-Rate-Anzeige in der Top Bar.
 
 Dort gibt es zwei Werte: die tatsächliche Frame Rate und die Ziel-Frame-Rate. Wenn die tatsächliche Frame Rate unter 30 fällt, können Probleme auftreten.
 
-Die folgenden Maßnahmen können helfen:
-
-* Entferne ungenutzte Laser, z. B. wenn du nur einen Laser angeschlossen hast, lösche die anderen.
-* Wechsle zur Output- oder Canvas-Ansicht.
-* Schließe alle anderen Programme, prüfe die Netzwerk-Firewall-Einstellungen, schließe Antivirenprogramme, Dropbox usw.
-* Reduziere deine Bildschirmauflösung und mache das Liberation-Fenster kleiner.
+Wie du die Belastung deines Computers reduzieren kannst, erfährst du unter [Leistung auf älteren Rechnern verbessern](improving-performance-on-older-machines.md).
 
 Wenn nichts davon hilft, solltest du ein Upgrade deines Computers in Betracht ziehen.
 
@@ -41,7 +36,7 @@ Wenn nichts davon hilft, solltest du ein Upgrade deines Computers in Betracht zi
 
 Dann handelt es sich wahrscheinlich um ein Hardwareproblem. Das liegt außerhalb des Umfangs dieses Handbuchs, aber du kannst Folgendes versuchen:
 
-* Deaktiviere das SFS-System (Scan Fail Safety). Einige Laser haben eine Funktion, die die Ausgabe deaktiviert, wenn sich die Scanner nicht mehr bewegen, also einen starken statischen Strahl erzeugen. Diese Funktion kann etwas übervorsichtig / unzuverlässig sein.
+* Deaktiviere das SFS-System (Scan Fail Safety). Einige Laser haben eine Funktion, die die Ausgabe deaktiviert, wenn sich die Scanner nicht mehr bewegen, d. h. einen starken statischen Strahl erzeugen. Diese Funktion kann etwas übervorsichtig / unzuverlässig sein.
 
 {% hint style="danger" %}
 Sei extrem vorsichtig, wenn du das Scan-Fail-Safety-System deaktivierst. Starke statische Strahlen können Verbrennungen verursachen! Stelle sicher, dass du einen Stopp-Taster und einen Feuerlöscher griffbereit hast.

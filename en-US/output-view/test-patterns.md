@@ -19,7 +19,7 @@ Here is a full list of the test patterns. The patterns fill the entire output sp
 3. Horizontal green lines - 4 horizontal lines, evenly spaced.
 4. Vertical green lines - 4 vertical lines, evenly spaced.
 
-Color calibration patterns 5-8. These can be used alongside the color correction system within the laser settings. See [Color calibration](../advanced/colour-calibration.md "mention"). These patterns do not fill the entire output space.
+Color calibration patterns 5-8. These can be used alongside the color correction system within the laser settings. See [Color calibration](../advanced/colour-calibration.md). These patterns do not fill the entire output space.
 
 5. Color calibration pattern - red.
 6. Color calibration pattern - green.

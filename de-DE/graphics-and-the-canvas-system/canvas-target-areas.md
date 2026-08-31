@@ -17,7 +17,7 @@ Manchmal möchtest du aber auch mehrere Canvas-Zielbereiche für verschiedene Te
 
 ### Clips an Canvas-Zielbereiche senden
 
-Wenn du in den Clip Deck schaust, siehst du neben den Beam-Zonen-Buttons auch die Canvas-Zielbereich-Buttons. Eventuell musst du die Output-Buttons scrollen, um sie zu sehen. Verwende dazu `Shift + Left / Right Arrow`, die ZONE PAGE-Buttons auf dem Bildschirm oder die APC40-Buttons (siehe [APC40-Referenz](../reference/apc40-reference.md "mention")).
+Wenn du in das Clip Deck schaust, siehst du neben den Buttons für die Beam-Zonen auch die Buttons für Canvas-Zielbereiche. Eventuell musst du die Output-Buttons scrollen, um sie zu sehen. Verwende dazu `Shift + Left / Right Arrow`, die ZONE PAGE-Buttons auf dem Bildschirm oder die APC40-Buttons (siehe [APC40-Referenz](../reference/apc40-reference.md)).
 
 Weise Clips Canvas-Zielbereichen zu, indem du diese Buttons genau wie die Beam-Zonen-Buttons ein- oder ausschaltest.
 

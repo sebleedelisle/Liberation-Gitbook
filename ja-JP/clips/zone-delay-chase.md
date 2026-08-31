@@ -14,7 +14,7 @@ Zone delay システムは、zone ごとに変化を加えるためのシンプ�
 
 _Zone delay_ は、各ゾーンで clip のタイミングに遅延を加え、ゾーン全体にスイープするような動きを作ります。
 
-すでに再生中の Clip に zone delay を加えると非常に効果的です。APC40 の対応するコントロールを使って、レベルや pattern を調整できます（[APC40 リファレンス](../reference/apc40-reference.md "mention") を参照）。または、_Clip Settings_ パネルから設定することもできます。
+すでに再生中の Clip に zone delay を加えると非常に効果的です。APC40 の対応するコントロールを使って、レベルや pattern を調整できます（[APC40 リファレンス](../reference/apc40-reference.md) を参照）。または、_Clip Settings_ パネルから設定することもできます。
 
 Zone delay settings :
 
@@ -39,7 +39,7 @@ Pattern はゾーン番号に基づいて動作し、ゾーンが左から右の
 Zone delay は、有効になっているすべてのエフェクトにも適用されます。たとえば、点滅エフェクトは clip 内のアニメーションと同様に、ゾーン間で遅延されます。
 {% endhint %}
 
-Clip に何らかの _Zone delay_ が設定されている場合、Clip の右上に三点アイコンが表示されます。この点はアニメーションし、その Clip の _Zone delay_ のスタイルを示します。詳しくは [Clip ボタンに表示される小さなアイコンは何ですか？](what-are-the-small-icons-on-the-clip-buttons.md "mention") を参照してください。
+Clip に何らかの _Zone delay_ が設定されている場合、Clip の右上に三点アイコンが表示されます。この点はアニメーションし、その Clip の _Zone delay_ のスタイルを示します。詳しくは [Clip ボタンに表示される小さなアイコンは何ですか？](what-are-the-small-icons-on-the-clip-buttons.md) を参照してください。
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>clip に zone delay が設定されていることと、そのモードを示す三点シンボル</p></figcaption></figure>
 

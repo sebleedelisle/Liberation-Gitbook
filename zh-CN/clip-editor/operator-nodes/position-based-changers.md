@@ -33,7 +33,7 @@ metaLinks:
 
 **Colour Modes**
 
-这些设置决定颜色调整的哪些部分会作用于内容。另见 [颜色设置与 HSB](../fundamentals/colour-settings-and-hsb.md "mention")。
+这些设置决定颜色调整的哪些部分会作用于内容。另见 [颜色设置与 HSB](../fundamentals/colour-settings-and-hsb.md)。
 
 * **hue mode**
   * _OFF_ – 不改变 hue。
@@ -49,7 +49,7 @@ metaLinks:
 
 **Gradient editor**
 
-使用与 [颜色变化](colour-changer.md "mention") 相同的渐变编辑器，但会按位置将渐变映射到内容上。
+使用与 [颜色变化](colour-changer.md) 相同的渐变编辑器，但会按位置将渐变映射到内容上。
 
 * 点击渐变条可添加一个颜色停止点。
 * 左键点击停止点将其选中，然后横向拖动即可移动。

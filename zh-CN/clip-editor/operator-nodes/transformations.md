@@ -9,7 +9,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
-沿 x、y 和/或 z 轴移动所有内容。注意坐标系以中心为原点，x/y 轴范围为 +/-200。见 [坐标系统](../fundamentals/co-ordinate-system.md "mention")。
+沿 x、y 和/或 z 轴移动所有内容。注意坐标系以中心为原点，x/y 轴范围为 +/-200。见 [坐标系统](../fundamentals/co-ordinate-system.md)。
 
 * **x** - 沿 x 轴移动距离（左 - 右）。
 * **y** - 沿 y 轴移动距离（上 - 下）。
@@ -20,7 +20,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-旋转所有内容。数值单位为度。见 [坐标系统](../fundamentals/co-ordinate-system.md "mention")。
+旋转所有内容。数值单位为度。见 [坐标系统](../fundamentals/co-ordinate-system.md)。
 
 * **rotation** - 内容顺时针旋转角度（度）。旋转中心为原点 (0,0)。
 * **pivot point x / pivot point y** - 用于偏移旋转中心。

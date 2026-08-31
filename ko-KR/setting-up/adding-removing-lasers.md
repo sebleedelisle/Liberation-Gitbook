@@ -15,12 +15,12 @@ _Laser overview_ 패널에서 _ADD LASER_ 버튼을 클릭하여 새 레이저�
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-새 레이저를 추가하면 beam zone이 자동으로 함께 추가됩니다. 레이저와 zone은 추가한 순서대로 정렬됩니다. [beam zone 재정렬](../output-view/re-ordering-beam-zones.md "mention")을 참조하세요.
+새 레이저를 추가하면 beam zone이 자동으로 함께 추가됩니다. 레이저와 zone은 추가한 순서대로 정렬됩니다. [beam zone 재정렬](../output-view/re-ordering-beam-zones.md)을 참조하세요.
 
 _Laser overview_ 패널에서 빨간색 "-" 버튼을 클릭하여 레이저를 제거합니다. 이 작업을 하면 해당 레이저의 모든 설정이 삭제되므로 주의하세요!
 
 {% hint style="info" %}
-다른 레이저에서 zone이나 기타 설정을 복사하려면 [레이저 간 설정 복사](copy-laser-settings.md "mention")를 사용하세요.
+다른 레이저에서 zone이나 기타 설정을 복사하려면 [레이저 간 설정 복사](copy-laser-settings.md)를 사용하세요.
 {% endhint %}
 
 {% hint style="info" %}

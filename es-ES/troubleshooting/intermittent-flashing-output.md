@@ -22,16 +22,11 @@ Entonces tienes un problema de red o de rendimiento de CPU:
 
 **Rendimiento de CPU**
 
-Si tienes un equipo antiguo o de bajas prestaciones, puede que sea demasiado lento para ejecutar Liberation. Comprueba el indicador de velocidad de fotogramas en el lado derecho de la barra de iconos.
+Si tienes un equipo antiguo o de bajas prestaciones, puede que sea demasiado lento para ejecutar Liberation. Comprueba el indicador de velocidad de fotogramas en la barra superior.
 
 Hay dos números: la velocidad de fotogramas real y la velocidad de fotogramas objetivo. Si la velocidad real cae por debajo de 30, es posible que tengas problemas.
 
-Las siguientes acciones pueden ayudar:
-
-* Elimina los láseres que no uses; por ejemplo, si solo tienes un láser conectado, borra los demás.
-* Cambia a la vista Output o Canvas.
-* Cierra todos los demás programas, comprueba la configuración del firewall de red y cierra antivirus, Dropbox, etc.
-* Reduce la resolución de pantalla y haz más pequeña la ventana de Liberation.
+Para ver formas de reducir la carga en tu ordenador, consulta [Mejorar el rendimiento en equipos antiguos](improving-performance-on-older-machines.md).
 
 Si nada de esto funciona, plantéate actualizar tu ordenador.
 

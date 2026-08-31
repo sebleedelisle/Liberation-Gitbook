@@ -8,7 +8,7 @@ metaLinks:
 
 Liberation 中的效果系统是一种有趣而灵活的方式，可以实时改变 Clip 输出。效果非常灵活，可以让所有内容闪烁开关、旋转、改变颜色，甚至随机飞动！
 
-你在 Clip Editor 中能做的任何事情，都可以用作效果。事实上，效果使用的正是与 Clips 完全相同的 node 编辑器！请参阅 [编辑效果](effects.md#editing-effects "mention")。创作可能性几乎是无限的。
+你在 Clip Editor 中能做的任何事情，都可以用作效果。事实上，效果使用的正是与 Clips 完全相同的 node 编辑器！请参阅 [编辑效果](effects.md#editing-effects)。创作可能性几乎是无限的。
 
 默认效果按钮 1-8 位于 zone 按钮下方，效果 9-24 是底部的小按钮。
 
@@ -32,12 +32,12 @@ Clip 的 zone delay 如何被效果继承，这件事描述起来非常困难，
 
 #### 效果参数
 
-使用 _Parameter node_ 为效果添加参数。Parameter 系统可以让你从外部调整效果内部的多个设置。更多信息请参阅 [Parameter Control](clip-editor/oscillators/parameter-control.md "mention")。
+使用 _Parameter node_ 为效果添加参数。Parameter 系统可以让你从外部调整效果内部的多个设置。更多信息请参阅 [Parameter Control](clip-editor/oscillators/parameter-control.md)。
 
 使用旋钮控制器 1-8 来调整每个效果的 _parameter_。或者右键单击效果按钮，并调整参数滑块。参数变化会执行什么操作，取决于该效果的设置方式。下面列出了默认效果以及它们的参数作用。
 
 {% hint style="info" %}
-旋钮控制器 1-8 位于 APC40 Mk2 顶部一排，在 Mk1 上则位于右上方。另请参阅：[APC40 参考](reference/apc40-reference.md "mention")
+旋钮控制器 1-8 位于 APC40 Mk2 顶部一排，在 Mk1 上则位于右上方。另请参阅：[APC40 参考](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ _Mutually Exclusive_ 的缩写。这是一种将效果组合在一起的方式�
 
 右键单击任意效果，然后单击 _EDIT EFFECT_ 按钮打开效果编辑器。注意，这个编辑器与 Clip Editor 完全相同！
 
-你可以像编辑任何 Clip 一样编辑效果。请参阅 [Clip Editor](clip-editor/ "mention")。
+你可以像编辑任何 Clip 一样编辑效果。请参阅 [Clip Editor](clip-editor/)。
 
 你至少需要有一个 Creator node；它可以是任何内容（线条、圆形、形状，甚至文本！），但你最好选择一种在效果按钮预览中最合理的内容。
 

@@ -11,7 +11,7 @@ metaLinks:
 
 Cambia los colores de todo el contenido entrante. Puedes definir valores HSB fijos, o cambiar al sistema de degradado y tomar colores de muestra de un degradado personalizado.
 
-* **hue, saturation, brightness** - los valores de color; consulta [Ajustes de color y HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - los valores de color; consulta [Ajustes de color y HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - no se cambia el matiz
   * FIXED - el matiz de los elementos se establece en el valor de matiz
@@ -28,7 +28,7 @@ Cambia los colores de todo el contenido entrante. Puedes definir valores HSB fij
 * **blend** - la intensidad con la que se aplica el cambiador de color: 0% no lo aplica en absoluto, 100% lo aplica por completo y 50% es una combinación del color existente y los nuevos valores.
 
 {% hint style="info" %}
-El node Colour Change toma un único color de muestra del degradado para toda la entrada. Si quieres que el degradado se aplique a lo largo de la forma según la posición, usa [modificadores basados en posición](position-based-changers.md "mention") en su lugar.
+El node Colour Change toma un único color de muestra del degradado para toda la entrada. Si quieres que el degradado se aplique a lo largo de la forma según la posición, usa [modificadores basados en posición](position-based-changers.md) en su lugar.
 {% endhint %}
 
 ### Editor de degradado

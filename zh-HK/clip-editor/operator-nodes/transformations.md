@@ -9,7 +9,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
-沿 x、y 及／或 z 軸移動所有內容。請注意，座標系統以中心為原點，x 軸及 y 軸的範圍延伸至 +/-200。請參閱 [座標系統](../fundamentals/co-ordinate-system.md "mention")。
+沿 x、y 及／或 z 軸移動所有內容。請注意，座標系統以中心為原點，x 軸及 y 軸的範圍延伸至 +/-200。請參閱 [座標系統](../fundamentals/co-ordinate-system.md)。
 
 * **x** - 沿 x 軸移動的距離（左 - 右）。
 * **y** - 沿 y 軸移動的距離（上 - 下）。
@@ -20,7 +20,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-旋轉所有內容。數值以度為單位。請參閱 [座標系統](../fundamentals/co-ordinate-system.md "mention")。
+旋轉所有內容。數值以度為單位。請參閱 [座標系統](../fundamentals/co-ordinate-system.md)。
 
 * **rotation** - 內容順時針旋轉的角度（以度為單位）。所有內容都會圍繞原點 (0,0)，即中心點旋轉。
 * **pivot point x / pivot point y** - 使用這些數值來偏移旋轉原點。

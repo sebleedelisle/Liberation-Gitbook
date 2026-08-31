@@ -60,7 +60,7 @@ _METRONOME_ 버튼을 사용해 **마디를 reset**합니다. (_METRONOME_ 버�
 
 _TEMPO_ 노브를 오른쪽 또는 왼쪽으로 한 "틱" 돌리면 **템포를 반올림**하여 정수 BPM 값으로 올리거나 내릴 수 있습니다.
 
-[APC40 레퍼런스](reference/apc40-reference.md "mention")도 참고하세요.
+[APC40 레퍼런스](reference/apc40-reference.md)도 참고하세요.
 
 ### Nudge tempo
 

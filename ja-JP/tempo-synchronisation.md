@@ -60,7 +60,7 @@ _METRONOME_ ボタンを使って **reset the bar** します。（_METRONOME_ �
 
 _TEMPO_ ノブを右または左に1「tick」回すと、**round the tempo** して整数の BPM 値に上下できます。
 
-関連項目：[APC40 リファレンス](reference/apc40-reference.md "mention")
+関連項目：[APC40 リファレンス](reference/apc40-reference.md)
 
 ### テンポのナッジ
 

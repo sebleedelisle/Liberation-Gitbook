@@ -33,7 +33,7 @@ Este nodo aplica cambios de color al contenido según la posición. De forma pre
 
 **Colour Modes**
 
-Estos modos determinan qué aspectos de los ajustes de color se aplican al contenido. Consulta también: [Ajustes de color y HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Estos modos determinan qué aspectos de los ajustes de color se aplican al contenido. Consulta también: [Ajustes de color y HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – el hue no cambia.
@@ -49,7 +49,7 @@ Estos modos determinan qué aspectos de los ajustes de color se aplican al conte
 
 **Gradient editor**
 
-Usa el mismo editor de degradados que [Cambio de color](colour-changer.md "mention"), pero asigna el degradado al contenido según la posición.
+Usa el mismo editor de degradados que [Cambio de color](colour-changer.md), pero asigna el degradado al contenido según la posición.
 
 * Haz clic en la barra de degradado para añadir un punto de color.
 * Haz clic izquierdo en un punto para seleccionarlo y arrástralo lateralmente para moverlo.

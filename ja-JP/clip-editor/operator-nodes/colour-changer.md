@@ -11,7 +11,7 @@ metaLinks:
 
 入力されたすべてのコンテンツの色を変更します。固定の HSB 値を設定することも、グラデーションシステムに切り替えてカスタムグラデーションから色をサンプリングすることもできます。
 
-* **hue, saturation, brightness** - 色の値です。[カラー設定と HSB](../fundamentals/colour-settings-and-hsb.md "mention")を参照してください。
+* **hue, saturation, brightness** - 色の値です。[カラー設定と HSB](../fundamentals/colour-settings-and-hsb.md)を参照してください。
 * **hue mode** -
   * OFF - hue は変更されません。
   * FIXED - 要素の hue を hue の値に設定します。
@@ -28,7 +28,7 @@ metaLinks:
 * **blend** - colour changer をどの程度強く適用するかを指定します。0% はまったく適用せず、100% は完全に適用します。50% は既存の色と新しい値を組み合わせます。
 
 {% hint style="info" %}
-Colour Change node は、入力全体に対してグラデーションから 1 色をサンプリングします。位置に基づいて形状全体にグラデーションを適用したい場合は、代わりに [位置ベースの Changer](position-based-changers.md "mention") を使用してください。
+Colour Change node は、入力全体に対してグラデーションから 1 色をサンプリングします。位置に基づいて形状全体にグラデーションを適用したい場合は、代わりに [位置ベースの Changer](position-based-changers.md) を使用してください。
 {% endhint %}
 
 ### グラデーションエディター

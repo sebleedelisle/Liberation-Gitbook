@@ -16,7 +16,7 @@ metaLinks:
 
 這亦代表你可以按每部激光的不同 scanner 類型，為同一份內容作調整，而無需改動 Clip 本身。
 
-詳情請參閱 [◼️ Liberation 如何產生激光內容](../../advanced/how-liberation-generates-laser-content.md "mention")
+詳情請參閱 [◼️ Liberation 如何產生激光內容](../../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 共有三個預設 _Render Profiles_：_DEFAULT_、_FAST_ 及 _DETAIL_。
@@ -28,5 +28,5 @@ _**FAST** -_ 如果你的 Clip 有很多內容，而其中部分只是非常簡�
 _**DETAIL**_ - 如果你要繪畫需要銳利角位的圖形，請使用此選項。但請留意，你的 scanner 會移動得較慢，令輸出較容易閃爍。
 
 {% hint style="info" %}
-在 Clip Editor 內，你可以將 Creator 指派到不同的 render profile；但每部激光都會根據其 scanner 設定來處理這些 profile。請參閱 [◼️ Scanner presets 與 render profiles](../../advanced/scanner-presets.md "mention")
+在 Clip Editor 內，你可以將 Creator 指派到不同的 render profile；但每部激光都會根據其 scanner 設定來處理這些 profile。請參閱 [◼️ Scanner presets 與 render profiles](../../advanced/scanner-presets.md)
 {% endhint %}

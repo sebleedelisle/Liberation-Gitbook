@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 Nœud DMX
 
-Le node DMX est un node spécial qui vous permet de contrôler plus finement les appareils DMX. Consultez [DMX / Art-Net](../dmx-control/ "mention") pour plus d’informations.
+Le node DMX est un node spécial qui vous permet de contrôler plus finement les appareils DMX. Consultez [DMX / Art-Net](../dmx-control/) pour plus d’informations.

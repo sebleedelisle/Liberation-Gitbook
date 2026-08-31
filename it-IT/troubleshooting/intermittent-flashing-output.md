@@ -22,16 +22,11 @@ allora probabilmente hai un problema di rete o di prestazioni della CPU:
 
 **Prestazioni CPU**
 
-Se hai un computer vecchio o con specifiche basse, potrebbe essere troppo lento per eseguire Liberation. Controlla l’indicatore del frame rate sul lato destro della barra delle icone.
+Se hai un computer vecchio o con specifiche basse, potrebbe essere troppo lento per eseguire Liberation. Controlla l’indicatore del frame rate nella barra superiore.
 
 Lì ci sono due numeri: il frame rate effettivo e il frame rate target. Se il frame rate effettivo scende sotto 30, potresti avere problemi.
 
-Le seguenti azioni possono aiutare:
-
-* Rimuovi i laser inutilizzati, ad esempio se hai un solo laser collegato, elimina gli altri.
-* Passa alla vista output o canvas.
-* Chiudi tutti gli altri programmi, controlla le impostazioni del firewall di rete, chiudi antivirus, Dropbox, ecc.
-* Riduci la risoluzione dello schermo e rimpicciolisci la finestra di Liberation.
+Per sapere come ridurre il carico sul computer, consulta [Migliorare le prestazioni su computer più datati](improving-performance-on-older-machines.md).
 
 Se nulla di tutto questo funziona, valuta l’upgrade del computer.
 

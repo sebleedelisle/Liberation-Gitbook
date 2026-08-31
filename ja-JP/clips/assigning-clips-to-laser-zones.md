@@ -28,4 +28,4 @@ metaLinks:
 
 ### 複数のクリップにゾーンをまとめて割り当てる
 
-zone 内のすべての Clip に対して、zone の割り当てと X/Y の調整を行えます。詳しくは [Clip グループ](groups.md "mention") を参照してください。
+zone 内のすべての Clip に対して、zone の割り当てと X/Y の調整を行えます。詳しくは [Clip グループ](groups.md) を参照してください。

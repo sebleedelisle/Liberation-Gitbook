@@ -17,7 +17,7 @@ _Canvas target areas_ 是 Canvas 上可供 Clip 绘制到其中的区域，在 _
 
 ### 将 Clip 发送到 Canvas target area
 
-查看 Clip Deck 时，在 beam zone 按钮旁边会看到 Canvas target area 按钮。你可能需要滚动 output 按钮才能看到它们，可以使用 `Shift + Left / Right Arrow`，或屏幕上的 ZONE PAGE 按钮，或 APC40 按钮（参见 [APC40 参考](../reference/apc40-reference.md "mention")）。
+查看 Clip Deck 时，在 beam zone 按钮旁边会看到 Canvas target area 按钮。你可能需要滚动 output 按钮才能看到它们，可以使用 `Shift + Left / Right Arrow`，或屏幕上的 ZONE PAGE 按钮，或 APC40 按钮（参见 [APC40 参考](../reference/apc40-reference.md)）。
 
 分配 Clip 到 Canvas target area 的方式与使用 beam zone 按钮完全相同：切换这些按钮即可。
 

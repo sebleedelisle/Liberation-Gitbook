@@ -22,7 +22,7 @@ It depends how many lasers you want to control. If you're only running a few las
 
 #### **How many lasers can I control with Liberation?**
 
-Liberation can run many lasers on one computer, it's been tested with over 100 laser controllers so the answer depends on :
+Liberation can run many, many lasers on one computer, it's been tested with over 100 lasers so the answer depends on :
 
 * your computer CPU
 * network speed
@@ -30,13 +30,13 @@ Liberation can run many lasers on one computer, it's been tested with over 100 l
 
 #### **Which MIDI controllers can I use?**
 
-Liberation has been designed and optimized around the popular APC40 Mk2 MIDI controller. It also works with the APC40 Mk1. See [Live MIDI Controllers](midi-control/live-control-with-the-apc40.md "mention")
+Liberation has been designed and optimized around the popular APC40 Mk2 MIDI controller. It also works with the APC40 Mk1. See [Live MIDI Controllers](midi-control/live-control-with-the-apc40.md)
 
 Liberation also supports APC Mini and MIDI Fighter Twister. The APC40 Mk2 is still the most complete reference controller.
 
-There is also the MIDI Send/Receive system that offers additional MIDI control. See [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
+There is also the MIDI Send/Receive system that offers additional MIDI control. See [MIDI Send/Receive](midi-control/midi-send-receive.md)
 
-See [MIDI control](midi-control/ "mention") for more information.
+See [MIDI control](midi-control/) for more information.
 
 #### **Can I use it with any MIDI controller?**
 
@@ -53,7 +53,7 @@ For other controllers, use the MIDI Send/Receive system or a MIDI translator tha
 * LaserCube network protocol (with a wired connection)
 * AVB as used by [LASollinger lasers](https://laseranimation.com/en/) (currently macOS only in testing)
 
-See [Compatible lasers and controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md "mention") for more information
+See [Compatible lasers and controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md) for more information
 
 #### **Why don't you support \[other brand of] laser controller?**
 
@@ -69,11 +69,11 @@ If your laser has one of the following, you can use it with Liberation :
 * An **X-Laser unit with a built-in Mercury system** (In Ether Dream mode).
 * A **LaserAnimation Sollinger projector with AVB built in** (macOS only, requires AVB-compatible network devices, currently in testing).
 
-See [Compatible lasers and controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md "mention") for more information
+See [Compatible lasers and controllers (DACs)](hardware/compatible-lasers-and-controllers-dacs.md) for more information
 
 #### **Can I use Liberation with my LaserCube?**
 
-Yes, Liberation works directly with any LaserCube. See [LaserCube](hardware/lasercube.md "mention")
+Yes, Liberation works directly with any LaserCube. See [LaserCube](hardware/lasercube.md)
 
 ## Licenses
 
@@ -89,23 +89,35 @@ Note that you can set up, preview and design shows with as many lasers as you wa
 
 #### **Can I upgrade to a new tier?**
 
-You can upgrade to a higher tier at any time. You will get a partial refund for the remaining time in your current paid period, and your new license tier will start immediately. See [Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md "mention")
+You can upgrade to a higher tier at any time. You will get a partial refund for the remaining time in your current paid period, and your new license tier will start immediately. See [Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md)
 
 #### **Can I downgrade my license?**
 
-You can downgrade at any time but the change will take effect at the end of your current paid period. See [Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md "mention")
+You can downgrade at any time but the change will take effect at the end of your current paid period. See [Upgrade / downgrade your license](installation/upgrade-downgrade-your-license.md)
 
 #### **Can I pause payments for my license?**
 
-Yes. The license can be paused at the next subscription date and restarted at any time. This is useful if you start and stop your usage periodically, and you do not need to re-enter your card details. See [Pause or cancel payments](installation/cancel-your-subscription.md "mention")
+Yes. The license can be paused at the next subscription date and restarted at any time. This is useful if you start and stop your usage periodically, and you do not need to re-enter your card details. See [Pause or cancel payments](installation/cancel-your-subscription.md)
 
 #### **How do I cancel my license forever?**
 
-You can cancel your recurring license at any time, and it will automatically deactivate at the end of the current paid period. See [Pause or cancel payments](installation/cancel-your-subscription.md "mention")
+You can cancel your recurring license at any time, and it will automatically deactivate at the end of the current paid period. See [Pause or cancel payments](installation/cancel-your-subscription.md)
+
+#### **Why is Liberation a subscription?**
+
+The short version is that it keeps Liberation sustainable, actively developed and fair, while still letting everyone open, edit, save, practise and preview shows without paying.
+
+I’ve written more about the thinking behind this here: [Why Liberation uses a subscription](https://liberationlaser.com/articles/why-a-subscription).
+
+#### **Can I get a perpetual or long term license for my installation / tour production?**
+
+Annual (or even multi-year) prepaid licenses are available for permanent installations and touring productions. Email [billing@liberationlaser.com](mailto:billing@liberationlaser.com) if you would like to set one up.
+
+Perpetual licenses are not currently available. For more context, see [Why Liberation uses a subscription](https://liberationlaser.com/articles/why-a-subscription).
 
 #### **How do I authorize my computer with my license?**
 
-Once you have purchased a license you can then authorize the computer within the Liberation software itself. You will see an _Authorize_ button on the _About_ screen that will prompt you to log in to the website. Follow the on-screen instructions to complete the authorization process. See [Authorizing and de-authorizing](installation/authorising-and-de-authorising.md "mention")
+Once you have purchased a license you can then authorize the computer within the Liberation software itself. You will see an _Authorize_ button on the _About_ screen that will prompt you to log in to the website. Follow the on-screen instructions to complete the authorization process. See [Authorizing and de-authorizing](installation/authorising-and-de-authorising.md)
 
 #### **How often do I need to connect my computer to the internet?**
 
@@ -121,7 +133,7 @@ You will get an email notification from our payment provider, and you will need 
 
 #### **How many computers can I install Liberation on?**
 
-You can install Liberation on as many computers as you like. License authorizations are only required to enable laser / DMX output, and your license tier determines how many computers can be authorized for output at once. See [How licensing works](installation/how-licensing-works.md "mention")
+You can install Liberation on as many computers as you like. License authorizations are only required to enable laser / DMX output, and your license tier determines how many computers can be authorized for output at once. See [How licensing works](installation/how-licensing-works.md)
 
 #### **How do I move my license from one computer to another?**
 
@@ -131,7 +143,7 @@ You can install Liberation on as many computers as you like. License authorizati
 * Click _Authorize this computer_ button on the _About_ screen.
 * The website will open, log-in and follow the on-screen instructions to complete the authorization
 
-You can also remotely de-authorize a computer you no longer have access to (with some limitations). See [Authorizing and de-authorizing](installation/authorising-and-de-authorising.md "mention")
+You can also remotely de-authorize a computer you no longer have access to (with some limitations). See [Authorizing and de-authorizing](installation/authorising-and-de-authorising.md)
 
 #### **Can I deauthorize Liberation on a computer that has been lost or stolen?**
 
@@ -143,11 +155,11 @@ If not, the deauthorization will take effect when the license next refreshes or 
 
 #### The default setup has 8 lasers - how do I change this?
 
-See [Setting up your project](setting-up/setting-up-your-project.md "mention") and [Adding / removing lasers](setting-up/adding-removing-lasers.md "mention")
+See [Setting up your project](setting-up/setting-up-your-project.md) and [Adding / removing lasers](setting-up/adding-removing-lasers.md)
 
 #### Can I copy zone settings from one laser to the others?
 
-Yes! See [Copy zones between lasers](output-view/copy-zones-between-lasers.md "mention")
+Yes! See [Copy zones between lasers](output-view/copy-zones-between-lasers.md)
 
 #### Can I type a number instead of using a slider?
 
@@ -155,44 +167,42 @@ Yes. `Cmd / Ctrl`-click the slider and you can enter the value using the keyboar
 
 #### **How do I sync Liberation to music?**
 
-It has an intelligent "tap tempo" system that works as you would expect, but you can also use an external MIDI clock or Ableton Link. See [Tempo / synchronization](tempo-synchronisation.md "mention").
-
-For syncing music within a timeline see [Synchronizing tempo to an audio track](timeline/synchronising-tempo-to-an-audio-track.md). Timelines can be synced to incoming LTC/SMPTE timecode coming in via any audio interface. See [Timecode](timecode.md "mention").
+It has an intelligent "tap tempo" system that works as you would expect, but you can also use an external MIDI clock or Ableton Link. See [Tempo / synchronization](tempo-synchronisation.md). The timeline can be synced to incoming LTC/SMPTE timecode coming in via any audio interface. See [Timecode](timecode.md).
 
 #### What settings do I need to adjust to get the best output from the laser?
 
-The main setting is _Scanner Sync,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [Laser output settings panel](setting-up/laser-settings.md "mention") page for an example of 'tails')
+The main setting is _Scanner Sync,_ which compensates for the slight delay between the mirrors moving and the lasers changing brightness. If your laser dots/beams have little 'tails' then you'll need to adjust this. (See the photos on the [Laser output settings panel](setting-up/laser-settings.md) page for an example of 'tails')
 
 You can also try changing the scanner speed, slower if your scanners are basic, or faster if they are good. But **use with caution as you can damage your scanners if you drive them too hard.**
 
 There are also some preset scanner settings. The default option is conservative and fine for most laser beam requirements. But there are other presets for if you have better scanners, and there are presets that are tuned for graphics.
 
-For more information see [Laser output settings panel](setting-up/laser-settings.md "mention"), and for information on how to create your own presets see [◼️ Scanner presets & render profiles](advanced/scanner-presets.md "mention") (advanced, in progress)
+For more information see [Laser output settings panel](setting-up/laser-settings.md), and for information on how to create your own presets see [◼️ Scanner presets & render profiles](advanced/scanner-presets.md) (advanced, in progress)
 
-You can also correct the color balance using the _Color calibration_ settings. See [Color calibration](advanced/colour-calibration.md "mention") (advanced technique)
+You can also correct the color balance using the _Color calibration_ settings. See [Color calibration](advanced/colour-calibration.md) (advanced technique)
 
 #### What does the _Latency(ms)_ setting do?
 
-This is the frame latency, or maximum amount of time between a frame being generated and subsequently sent to a laser. You shouldn't need to adjust it, but if you are having network issues you could try increasing it. See [Latency setting](setting-up/latency-setting.md "mention") for more details.
+This is the frame latency, or maximum amount of time between a frame being generated and subsequently sent to a laser. You shouldn't need to adjust it, but if you are having network issues you could try increasing it. See [Latency setting](setting-up/latency-setting.md) for more details.
 
 ### Clips
 
 #### How do I adjust zones and settings for a clip without running it?
 
-`Alt / Option`-click to make it the _currently selected clip_ but without activating it. See also [Starting / stopping clips](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-click to make it the _currently selected clip_ but without activating it. See also [Starting / stopping clips](clips/starting-stopping-clips.md)
 
 #### How do I copy clips?
 
-Click and drag while holding the `Alt / Option` key. See also [Organizing your clip deck](clips/organising-your-clip-deck.md "mention")
+Click and drag while holding the `Alt / Option` key. See also [Organizing your clip deck](clips/organising-your-clip-deck.md)
 
 #### How do I delete clips?
 
-Click and drag them off the clip deck. See also [Organizing your clip deck](clips/organising-your-clip-deck.md "mention")
+Click and drag them off the clip deck. See also [Organizing your clip deck](clips/organising-your-clip-deck.md)
 
 #### How do I multi-select, delete, combine clip decks etc?
 
-See [Organizing your clip deck](clips/organising-your-clip-deck.md "mention")
+See [Organizing your clip deck](clips/organising-your-clip-deck.md)
 
 #### What do the little microphone symbol and other icons on the clip denote?
 
-They are there to show you that a clip takes sound or MIDI input, and the 3 dots show you that there is a zone delay. See [What are the small icons on the clip buttons?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+They are there to show you that a clip takes sound or MIDI input, and the 3 dots show you that there is a zone delay. See [What are the small icons on the clip buttons?](clips/what-are-the-small-icons-on-the-clip-buttons.md)

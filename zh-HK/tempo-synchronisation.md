@@ -60,7 +60,7 @@ APC40 有專用的 _TAP TEMPO_ button，你亦可以使用已連接的 footswitc
 
 將 _TEMPO_ knob 向右或向左轉一個「tick」，即可將 Tempo **四捨五入**至上一個或下一個整數 BPM。
 
-另請參閱 [APC40 參考](reference/apc40-reference.md "mention")
+另請參閱 [APC40 參考](reference/apc40-reference.md)
 
 ### Nudge tempo
 

@@ -9,7 +9,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
-Sposta tutto il contenuto lungo gli assi x, y e/o z. Tieni presente che il sistema di coordinate è centrato e si estende fino a +/-200 sugli assi x e y. Vedi [Sistema di coordinate](../fundamentals/co-ordinate-system.md "mention").
+Sposta tutto il contenuto lungo gli assi x, y e/o z. Tieni presente che il sistema di coordinate è centrato e si estende fino a +/-200 sugli assi x e y. Vedi [Sistema di coordinate](../fundamentals/co-ordinate-system.md).
 
 * **x** - la distanza di spostamento lungo l’asse x (sinistra - destra).
 * **y** - la distanza di spostamento lungo l’asse y (alto - basso).
@@ -20,7 +20,7 @@ Sposta tutto il contenuto lungo gli assi x, y e/o z. Tieni presente che il siste
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Ruota tutto il contenuto. I valori sono espressi in gradi. Vedi [Sistema di coordinate](../fundamentals/co-ordinate-system.md "mention").
+Ruota tutto il contenuto. I valori sono espressi in gradi. Vedi [Sistema di coordinate](../fundamentals/co-ordinate-system.md).
 
 * **rotation** - la quantità di rotazione del contenuto in senso orario, in gradi. Tutto viene ruotato attorno all’origine (0,0), cioè il centro.
 * **pivot point x / pivot point y** - usa questi valori per spostare l’origine della rotazione.
