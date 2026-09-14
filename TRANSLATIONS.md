@@ -24,7 +24,7 @@ Production docs are built with HonKit and deployed to GitHub Pages by `.github/w
 https://docs.liberationlaser.com/
 ```
 
-GitHub Pages deploys production from `main`. It does not currently create a separate public Pages URL for each pull request. Preview translation PRs locally from the PR branch before merging.
+GitHub Pages deploys production from `main`.
 
 The intended workflow is:
 
@@ -32,12 +32,12 @@ The intended workflow is:
 2. Run `npm run manual:uk:check`.
 3. Commit and push `main`.
 4. Let GitHub Pages deploy the English/source update.
-5. Let `Translation Updates` open/update translation PRs on the weekly or monthly cadence.
-6. Preview and merge translation PRs when they look good.
+5. Let `Translation Updates` validate and commit translations on the weekly or monthly cadence.
+6. Let the successful translation run call `HonKit Pages` to deploy the result.
 
 Do not update every translated locale for every English edit. The cadence exists to keep English changes fast and to avoid unnecessary translation API usage.
 
-For terminology changes, do not run bulk search/replace across translated locale folders. That touches translation git history and can make freshness checks treat manually edited translations as current. Make the change in `en-GB`, regenerate `en-US`, and leave AI-translated locales to the weekly or monthly translation PRs. If an asset filename contains old terminology, keep the filename stable during a normal English edit unless generated-image checks prove all locale references have been updated through the translation workflow.
+For terminology changes, do not run bulk search/replace across translated locale folders. That touches translation git history and can make freshness checks treat manually edited translations as current. Make the change in `en-GB`, regenerate `en-US`, and leave AI-translated locales to the weekly or monthly translation runs. If an asset filename contains old terminology, keep the filename stable during a normal English edit unless generated-image checks prove all locale references have been updated through the translation workflow.
 
 ## API keys
 
@@ -218,7 +218,7 @@ The `Translation Updates` GitHub Actions workflow runs the same batches automati
 * Weekly: every Monday at 03:00 UTC.
 * Monthly: on the 1st of each month at 04:00 UTC.
 
-The workflow opens or updates a pull request from `translation/weekly` or `translation/monthly` instead of committing AI translations directly to `main`.
+The workflow runs its complete validation suite and then commits directly to `main`. If translation or validation fails, it does not commit anything. A successful commit calls the reusable `HonKit Pages` workflow so the generated site is deployed even though GitHub suppresses ordinary workflow recursion for pushes made with `GITHUB_TOKEN`.
 
 To enable it, add `OPENAI_API_KEY` as a repository secret in GitHub. If you want to use Anthropic instead, add `ANTHROPIC_API_KEY` as a secret and set the repository variable `TRANSLATE_PROVIDER` to `anthropic`.
 
@@ -230,25 +230,7 @@ Use this manual GitHub Actions test sequence when changing the workflow itself:
 2. Run a single locale, for example `weekly` with `locale: de-DE` and `force_cadence: true`.
 3. If that passes, run the intended full `weekly` or `monthly` batch.
 
-Do not use `limit` for a real PR-creating test unless you also adjust the checks. A limited run intentionally leaves selected locales stale, so strict freshness checks can fail.
-
-For translation PR review:
-
-1. Wait for the `Translation Updates` run to finish.
-2. Preview the PR locally from the PR branch:
-
-   ```sh
-   git fetch origin translation/weekly
-   git worktree add /tmp/liberation-gitbook-pr origin/translation/weekly
-   cd /tmp/liberation-gitbook-pr
-   npm ci
-   npm run build:site
-   python3 -m http.server 4001 --directory _book
-   ```
-
-3. Open `http://localhost:4001/en-GB/` and spot-check the changed areas plus several translated locales.
-4. Merge the PR if it looks good.
-5. Watch the post-merge `Checks` and `HonKit Pages` workflows on `main`.
+Do not use `limit` for a real committing test unless you also adjust the checks. A limited run intentionally leaves selected locales stale, so strict freshness checks can fail.
 
 `npm run check:links` also checks Markdown link spacing plus source and translated internal link labels so stale English page titles and filename-style mention labels cannot be reintroduced silently.
 It also checks translated `SUMMARY.md` files against the English sidebar so missing or changed status emoji prefixes cannot be reintroduced silently.
@@ -276,7 +258,7 @@ Coverage:
 * Spelling: partly, via `codespell` for `en-GB`, `en-US`, scripts, workflows, plugin/config files, and selected root docs.
 * Grammar: no full grammar checker. `check:english-style` is a mechanical style/terminology checker for common source-English issues.
 
-Translation PR branches are pushed by GitHub Actions. GitHub may not trigger the separate `Checks` workflow for those bot-created pushes, so the `Translation Updates` workflow runs the important translation checks itself before it opens or updates the PR:
+GitHub does not trigger the separate `Checks` workflow for a push made with the workflow's `GITHUB_TOKEN`, so `Translation Updates` runs the complete check set itself before committing:
 
 ```sh
 npm run check:english-style
@@ -286,4 +268,6 @@ python3 scripts/check_link_texts.py --fix
 npm run check:links
 npm run build:site
 npm run check:generated-images
+python3 -m pip install codespell
+npm run check:spelling
 ```
