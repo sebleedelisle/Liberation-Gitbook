@@ -9,7 +9,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
-Di chuyển toàn bộ nội dung theo trục x, y và/hoặc z. Lưu ý rằng hệ tọa độ được đặt tâm ở giữa và trải từ +/-200 trên trục x và y. Xem [Hệ tọa độ](../fundamentals/co-ordinate-system.md "mention").
+Di chuyển toàn bộ nội dung theo trục x, y và/hoặc z. Lưu ý rằng hệ tọa độ được đặt tâm ở giữa và trải từ +/-200 trên trục x và y. Xem [Hệ tọa độ](../fundamentals/co-ordinate-system.md).
 
 * **x** - khoảng cách di chuyển theo trục x (trái - phải).
 * **y** - khoảng cách di chuyển theo trục y (trên - dưới).
@@ -20,7 +20,7 @@ Di chuyển toàn bộ nội dung theo trục x, y và/hoặc z. Lưu ý rằng 
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Xoay toàn bộ nội dung. Giá trị được tính bằng độ. Xem [Hệ tọa độ](../fundamentals/co-ordinate-system.md "mention").
+Xoay toàn bộ nội dung. Giá trị được tính bằng độ. Xem [Hệ tọa độ](../fundamentals/co-ordinate-system.md).
 
 * **rotation** - mức xoay nội dung theo chiều kim đồng hồ, tính bằng độ. Mọi thứ được xoay quanh gốc tọa độ (0,0), tức là tâm.
 * **pivot point x / pivot point y** - Dùng các giá trị này để dịch điểm gốc xoay.

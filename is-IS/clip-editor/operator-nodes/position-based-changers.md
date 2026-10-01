@@ -33,7 +33,7 @@ metaLinks:
 
 **Litastillingar**
 
-Þessar stillingar ákvarða hvaða þættir litabreytinganna eru notaðir á efnið. Sjá einnig: [Litastillingar og HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Þessar stillingar ákvarða hvaða þættir litabreytinganna eru notaðir á efnið. Sjá einnig: [Litastillingar og HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – litblær helst óbreyttur.
@@ -49,7 +49,7 @@ metaLinks:
 
 **Stigulritill**
 
-Notar sama stigulritil og [Litabreyting](colour-changer.md "mention"), en varpar stiglinum yfir efnið eftir staðsetningu.
+Notar sama stigulritil og [Litabreyting](colour-changer.md), en varpar stiglinum yfir efnið eftir staðsetningu.
 
 * Smelltu á stigulstikuna til að bæta við litastoppi.
 * Vinstrismelltu á stopp til að velja það og dragðu það síðan til hliðar til að færa það.

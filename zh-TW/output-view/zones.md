@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-在大多數專案中，你最常使用的 zone 類型會是 _Beam zone_。這是專為空氣中的光束效果設計的 zone。另一種 zone 類型是 _Canvas zone_（請參閱 [圖形與 Canvas 系統](../graphics-and-the-canvas-system/ "mention")）。
+在大多數專案中，你最常使用的 zone 類型會是 _Beam zone_。這是專為空氣中的光束效果設計的 zone。另一種 zone 類型是 _Canvas zone_（請參閱 [圖形與 Canvas 系統](../graphics-and-the-canvas-system/)）。
 
 {% hint style="danger" %}
-**警告 - 雷射運作中移動 zone 時請務必格外小心**，並將亮度調到最低。請參閱 [雷射設定流程概覽](../setting-up/setting-up-lasers.md "mention")，了解如何安全地啟用雷射並設定 zones 的完整指南。
+**警告 - 雷射運作中移動 zone 時請務必格外小心**，並將亮度調到最低。請參閱 [雷射設定流程概覽](../setting-up/setting-up-lasers.md)，了解如何安全地啟用雷射並設定 zones 的完整指南。
 {% endhint %}
 
 你可以用滑鼠點擊並拖曳 zones 來移動它們。開啟 test pattern，就能看到該 zone 會輸出到哪裡。
@@ -19,16 +19,16 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-小技巧：你可以快速將 zone 設定複製到多台雷射！請參閱 [在雷射之間複製設定](../setting-up/copy-laser-settings.md "mention")
+小技巧：你可以快速將 zone 設定複製到多台雷射！請參閱 [在雷射之間複製設定](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 ### 新增 beam zone
 
-點擊工具列上方的 _Add a new beam zone_ 按鈕，就會出現新的 zone。請注意，beam zones 會依照你新增的順序排序，但你可以重新排序。請參閱 [重新排序 beam zones](re-ordering-beam-zones.md "mention")
+點擊工具列上方的 _Add a new beam zone_ 按鈕，就會出現新的 zone。請注意，beam zone 會依照你新增的順序排序，但你可以重新排序。請參閱 [重新排序 beam zone](re-ordering-beam-zones.md)
 
 ### 新增現有的 canvas zone
 
-點擊 _Add existing canvas zone_ 按鈕後，你會看到可用的 canvas zones 清單，並可以針對這台雷射切換它們的開關。請參閱 [圖形與 Canvas 系統](../graphics-and-the-canvas-system/ "mention")
+點擊 _Add existing canvas zone_ 按鈕後，你會看到可用的 canvas zone 清單，並可以針對這台雷射切換它們的開關。請參閱 [圖形與 Canvas 系統](../graphics-and-the-canvas-system/)
 
 ### Zone 形狀類型
 
@@ -47,7 +47,7 @@ metaLinks:
 * 重設為預設位置
 * 存取該形狀類型專屬的設定
 * 刪除它
-* 新增 _Alt Zone_（請參閱 [Alt zone 系統](alt-zone-system.md "mention")）
+* 新增 _Alt Zone_（請參閱 [Alt zone 系統](alt-zone-system.md)）
 
 {% hint style="danger" %}
 **警告 -** 雷射啟用時變更 zone 類型請務必非常小心。zone 會回到該形狀上次使用的位置/大小，因此輸出可能會突然改變。變更 zone 類型前，最好先關閉雷射。

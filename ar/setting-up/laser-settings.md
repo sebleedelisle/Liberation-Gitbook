@@ -41,7 +41,7 @@ metaLinks:
 
 ### نسخ إعدادات الليزر
 
-راجع [نسخ إعدادات الليزر](laser-settings.md#copy-laser-settings "mention").
+راجع [نسخ إعدادات الليزر](laser-settings.md#copy-laser-settings).
 
 ### إعدادات الماسحات
 
@@ -56,10 +56,12 @@ metaLinks:
 {% endhint %}
 
 {% hint style="info" %}
-لا يغيّر إعداد السرعة هذا معدل النقاط، بل يضبط مدى تباعد تلك النقاط عن بعضها. لمزيد من المعلومات راجع [◼️ كيف ينشئ Liberation محتوى الليزر](../advanced/how-liberation-generates-laser-content.md "mention")
+لا يغيّر إعداد السرعة هذا معدل النقاط، بل يضبط مدى تباعد تلك النقاط عن بعضها. لمزيد من المعلومات راجع [◼️ كيف ينشئ Liberation محتوى الليزر](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+إذا أردت تجربة معدل النقاط وزاوية الإخراج وحمل الماسحات خارج مشروع عرض، فراجع [🟩 مواصفات الماسحات وLiberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 يتغير لون الشعاع ويُشغَّل ويُطفأ أثناء تحريك الماسحات له، وغالبًا لا يكون هذان الأمران متزامنين تمامًا. اضبط هذا الإعداد لإعادتهما إلى التزامن.
 
@@ -67,18 +69,18 @@ metaLinks:
 يُعرف هذا أحيانًا باسم _blank shift_، لكنني شخصيًا أفضل مصطلح _scanner sync_ — فهو أدق قليلًا لأنه يضبط توقيت كل تغييرات الألوان مقارنة بحركة الماسحات.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>«ذيول» الليزر — لم يتم ضبط انزياح اللون بشكل صحيح</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>لا توجد «ذيول» لليزر! انزياح اللون مضبوط جيدًا!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>«ذيول» الليزر — لم يتم ضبط Scanner Sync بشكل صحيح</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>لا توجد «ذيول» لليزر! Scanner Sync مضبوط جيدًا!</p></figcaption></figure></div>
 
 إذا رأيت «ذيولًا» صغيرة في خرج الليزر، فمن المرجح أن _scanner sync_ يحتاج إلى ضبط. إذا ظلت الذيول تظهر مهما فعلت، فمن المرجح أنك تشغّل الماسحات أو مشغلات الليزر بسرعة أعلى مما يمكنها تحمله. جرّب خفض سرعة الماسحات.
 
 #### الإعدادات المسبقة للماسحات
 
-استخدم هذا لاختيار إعداد ماسحات مُعدّ مسبقًا. عادةً يكون الخيار الافتراضي مناسبًا، لذلك لن تحتاج إلى تغيير هذا الإعداد إلا إذا كانت لديك ماسحات سيئة جدًا (أو جيدة جدًا). إذا أردت التعمق أكثر، فراجع [◼️ الإعدادات المسبقة للماسحات وملفات تعريف العرض](../advanced/scanner-presets.md "mention")
+استخدم هذا لاختيار إعداد ماسحات مُعدّ مسبقًا. عادةً يكون الخيار الافتراضي مناسبًا، لذلك لن تحتاج إلى تغيير هذا الإعداد إلا إذا كانت لديك ماسحات سيئة جدًا (أو جيدة جدًا). إذا أردت التعمق أكثر، فراجع [◼️ الإعدادات المسبقة للماسحات وملفات تعريف العرض](../advanced/scanner-presets.md)
 
 #### معايرة الألوان
 
-يمكنك استخدام هذا النظام لتصحيح منحنى السطوع وتوازن اللون الأبيض في الليزر. راجع [معايرة الألوان](../advanced/colour-calibration.md "mention")
+يمكنك استخدام هذا النظام لتصحيح منحنى السطوع وتوازن اللون الأبيض في الليزر. راجع [معايرة الألوان](../advanced/colour-calibration.md)
 
 #### الإعدادات المتقدمة
 
-لن تحتاج غالبًا إلى العبث بهذه الإعدادات، لكن إذا كنت فضوليًا فراجع [◼️ إعدادات الليزر المتقدمة](../advanced/advanced-laser-settings.md "mention")
+لن تحتاج غالبًا إلى العبث بهذه الإعدادات، لكن إذا كنت فضوليًا فراجع [◼️ إعدادات الليزر المتقدمة](../advanced/advanced-laser-settings.md)

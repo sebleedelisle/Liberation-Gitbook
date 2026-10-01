@@ -19,7 +19,7 @@ Ovdje je potpuni popis test patterns. Uzorci ispunjavaju cijeli izlazni prostor 
 3. Vodoravne zelene linije – 4 vodoravne linije, ravnomjerno razmaknute.
 4. Okomite zelene linije – 4 okomite linije, ravnomjerno razmaknute.
 
-Uzorci za kalibraciju boja 5–8. Mogu se koristiti zajedno sa sustavom za korekciju boja u Laser Settings. Pogledajte [Kalibracija boja](../advanced/colour-calibration.md "mention"). Ovi uzorci ne ispunjavaju cijeli izlazni prostor.
+Uzorci za kalibraciju boja 5–8. Mogu se koristiti zajedno sa sustavom za korekciju boja u Laser Settings. Pogledajte [Kalibracija boja](../advanced/colour-calibration.md). Ovi uzorci ne ispunjavaju cijeli izlazni prostor.
 
 5. Uzorak za kalibraciju boje – crvena.
 6. Uzorak za kalibraciju boje – zelena.

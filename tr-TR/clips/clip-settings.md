@@ -14,7 +14,7 @@ Clip çıkış boyutunu _Scale X_ ve _Scale Y_ ile değiştirin. _SHIFT_ tuşuna
 
 Clip için yatay ve dikey konumu _Shift X_ ve _Shift Y_ ile değiştirin.
 
-_Zone Delay/Chase_ başlı başına anlatılacak kadar eğlenceli bir özellik. [Zone delay / chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ başlı başına anlatılacak kadar eğlenceli bir özellik. [Zone delay / chase](zone-delay-chase.md)
 
 ### Parameters panel
 
@@ -33,7 +33,7 @@ Bir Clip kilitliyse taşınamaz veya silinemez. Bir Clip kilitlemek için sağ t
 
 ### Sağ tıklama menüsü
 
-Bir Clip üzerine sağ tıkladığınızda, o Clip için bazı seçenekleri içeren bir menü açılır. Bu menüdeki ilk birkaç öğe hakkında daha fazla bilgi için [Clip Editor’a giriş](../clip-editor/clip-editor-intro.md "mention"), [Clip ayarları](clip-settings.md "mention") ve [Clip grupları](groups.md "mention") bölümlerine bakın.
+Bir Clip üzerine sağ tıkladığınızda, o Clip için bazı seçenekleri içeren bir menü açılır. Bu menüdeki ilk birkaç öğe hakkında daha fazla bilgi için [Clip Editor’a giriş](../clip-editor/clip-editor-intro.md), [Clip ayarları](clip-settings.md) ve [Clip grupları](groups.md) bölümlerine bakın.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

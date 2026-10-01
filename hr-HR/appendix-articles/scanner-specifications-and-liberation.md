@@ -27,13 +27,25 @@ To nije sveobuhvatno ni potpuno standardizirano mjerenje stvarnih performansi. Z
 
 Ali to je i dalje najraširenija referenca koju imamo i može vam dati dobru predodžbu o kvaliteti skenera, barem kod pouzdanih proizvođača. Kod _manje pouzdanih_ proizvođača, međutim...
 
-#### Ako želite testirati skenere prema njihovoj deklaraciji
+#### Testiranje skenera uz Libera Lab
 
 {% hint style="danger" %}
 **Ovo je napredna tehnika i možete oštetiti skenere ako niste oprezni. Ne preporučuje se osim ako znate što radite.**
 {% endhint %}
 
-Trebat ćete pronaći softver koji može poslati [ILDA testni uzorak](https://ilda.com/technical.htm?r=7950) na izlaz — mislim da bi LaserShowGen to možda mogao — i prilagoditi veličinu izlaza tako da odgovara navedenom kutu skeniranja (npr. 8°). Za savjete o analizi izlaza pogledajte ILDA dokumentaciju.
+Ako želite eksperimentirati s ponašanjem skenera izvan show projekta, upotrijebite [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). To je desktop alat za laserske kontrolere kompatibilne s Liberom, namijenjen pronalaženju, testiranju, pretpregledu i pregledu laserskog izlaza.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab je koristan jer vam omogućuje:
+
+* slanje poznatih testnih uzoraka na izlaz, uključujući ILDA testni uzorak
+* učitavanje i streaming ILDA datoteka
+* pretpregled toka točaka prije slanja na izlaz ili tijekom njega
+* pregled izlaza pomoću alata za scope i opterećenje skenera
+* usporedbu utjecaja različitih uzoraka, brzina točaka i veličina izlaza na skenere
+
+Za testiranje skenera prema objavljenoj deklaraciji, u Libera Lab odaberite [ILDA testni uzorak](https://ilda.com/technical.htm?r=7950), odaberite deklariranu brzinu točaka i prilagodite veličinu izlaza tako da odgovara navedenom kutu skeniranja (npr. 8°). Za savjete o analizi izlaza pogledajte ILDA dokumentaciju.
 
 #### Zašto to možda nije dobro mjerilo
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) općenito je niža klasa, ali iskreno, za većinu stvari 
 #### Kako Liberation pomaže
 
 Prije svega, za većinu stvari ne trebaju vam stvarno skupi skeneri! Pristupačni DT od 30kpps, pa čak i PT, bit će sasvim u redu. Zadane postavke skenera namjerno su konzervativne i u najvećem dijelu _ne biste ih trebali morati podešavati_ (osim postavke _Scanner sync_).
+
+Ako želite razumjeti što postavke skenera doista rade, Libera Lab je bolje mjesto za eksperimentiranje nego vaš show projekt. Možete mijenjati brzinu točaka, izlazni kut i testni uzorak dok pratite pretpregled, scope i informacije o opterećenju skenera.
 
 Čak i ako imate bolje skenere, nema smisla opterećivati ih više nego što je potrebno. Time ćete im znatno produljiti vijek trajanja.
 
@@ -98,7 +112,8 @@ Dobro pitanje. Evo mojih savjeta:
 * Ako radite grafiku, u većini slučajeva više lasera bit će bolje od bržih skenera.
 * Kada dođete do naprednijih sustava, bilo koji od etabliranih vrhunskih brendova bit će dobar izbor.
 * Ako možete nabaviti samo najjeftinije skenere bez oznake proizvođača, zadane postavke u Liberation prilično su konzervativne i vjerojatno ćete dobiti OK rezultate za osnovni rad sa zrakama. Ako sustav ima poteškoća, smanjite postavku **Speed** (ali nemojte mijenjati brzinu točaka!).
+* Ako želite testirati ili usporediti postavke, najprije to učinite u Libera Lab, umjesto da eksperimentirate unutar show datoteke.
 
 #### A ILDA testni uzorak?
 
-…i dalje je vrlo koristan kao alat za kalibraciju i referencu, ali nikada nije bio zamišljen kao sveobuhvatno mjerilo performansi i proizvođači ga mogu zloupotrebljavati ili tumačiti prilično labavo.
+…i dalje je vrlo koristan kao alat za kalibraciju i referencu, a Libera Lab olakšava njegovo slanje na izlaz i pregled. Ali nikada nije bio zamišljen kao sveobuhvatno mjerilo performansi i proizvođači ga mogu zloupotrebljavati ili tumačiti prilično labavo.

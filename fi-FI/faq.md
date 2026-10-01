@@ -22,7 +22,7 @@ Se riippuu siitä, kuinka monta laseria haluat ohjata. Jos käytät vain muutama
 
 #### **Kuinka montaa laseria voin ohjata Liberationilla?**
 
-Liberation voi käyttää useita lasereita yhdellä tietokoneella. Sitä on testattu yli 100 laserohjaimella, joten vastaus riippuu seuraavista:
+Liberation voi käyttää hyvin monia lasereita yhdellä tietokoneella. Sitä on testattu yli 100 laserilla, joten vastaus riippuu seuraavista:
 
 * tietokoneesi suoritin
 * verkon nopeus
@@ -30,13 +30,13 @@ Liberation voi käyttää useita lasereita yhdellä tietokoneella. Sitä on test
 
 #### **Mitä MIDI-ohjaimia voin käyttää?**
 
-Liberation on suunniteltu ja optimoitu suositun APC40 Mk2 MIDI -ohjaimen ympärille. Se toimii myös APC40 Mk1:n kanssa. Katso [Live MIDI -ohjaimet](midi-control/live-control-with-the-apc40.md "mention")
+Liberation on suunniteltu ja optimoitu suositun APC40 Mk2 MIDI -ohjaimen ympärille. Se toimii myös APC40 Mk1:n kanssa. Katso [Live MIDI -ohjaimet](midi-control/live-control-with-the-apc40.md)
 
 Liberation tukee myös APC Miniä ja MIDI Fighter Twisteriä. APC40 Mk2 on edelleen kattavin referenssiohjain.
 
-Lisäksi käytettävissä on MIDI Send/Receive -järjestelmä, joka tarjoaa lisää MIDI-ohjausmahdollisuuksia. Katso [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
+Lisäksi käytettävissä on MIDI Send/Receive -järjestelmä, joka tarjoaa lisää MIDI-ohjausmahdollisuuksia. Katso [MIDI Send/Receive](midi-control/midi-send-receive.md)
 
-Katso lisätietoja kohdasta [MIDI-ohjaus](midi-control/ "mention").
+Katso lisätietoja kohdasta [MIDI-ohjaus](midi-control/).
 
 #### **Voinko käyttää mitä tahansa MIDI-ohjainta?**
 
@@ -53,7 +53,7 @@ Muiden ohjainten kanssa voit käyttää MIDI Send/Receive -järjestelmää tai M
 * LaserCube-verkkoprotokolla (langallisella yhteydellä)
 * AVB, jota [LASollinger lasers](https://laseranimation.com/en/) käyttää (tällä hetkellä vain macOS, testauksessa)
 
-Katso lisätietoja kohdasta [Yhteensopivat laserit ja ohjaimet (DACit)](hardware/compatible-lasers-and-controllers-dacs.md "mention")
+Katso lisätietoja kohdasta [Yhteensopivat laserit ja ohjaimet (DACit)](hardware/compatible-lasers-and-controllers-dacs.md)
 
 #### **Miksi ette tue \[muun merkkistä] laserohjainta?**
 
@@ -69,11 +69,11 @@ Jos laserissasi on jokin seuraavista, voit käyttää sitä Liberationin kanssa:
 * **X-Laser-laite, jossa on sisäänrakennettu Mercury-järjestelmä** (Ether Dream mode -tilassa).
 * **LaserAnimation Sollinger -projektori, jossa on sisäänrakennettu AVB** (vain macOS, vaatii AVB-yhteensopivat verkkolaitteet, tällä hetkellä testauksessa).
 
-Katso lisätietoja kohdasta [Yhteensopivat laserit ja ohjaimet (DACit)](hardware/compatible-lasers-and-controllers-dacs.md "mention")
+Katso lisätietoja kohdasta [Yhteensopivat laserit ja ohjaimet (DACit)](hardware/compatible-lasers-and-controllers-dacs.md)
 
 #### **Voinko käyttää Liberationia LaserCubeni kanssa?**
 
-Kyllä, Liberation toimii suoraan minkä tahansa LaserCuben kanssa. Katso [LaserCube](hardware/lasercube.md "mention")
+Kyllä, Liberation toimii suoraan minkä tahansa LaserCuben kanssa. Katso [LaserCube](hardware/lasercube.md)
 
 ## Lisenssit
 
@@ -89,23 +89,35 @@ Huomaa, että voit määrittää, esikatsella ja suunnitella esityksiä niin mon
 
 #### **Voinko päivittää ylemmälle tasolle?**
 
-Voit päivittää ylemmälle tasolle milloin tahansa. Saat osittaisen hyvityksen nykyisen maksujaksosi jäljellä olevasta ajasta, ja uusi lisenssitasosi alkaa heti. Katso [Päivitä / alenna lisenssisi tasoa](installation/upgrade-downgrade-your-license.md "mention")
+Voit päivittää ylemmälle tasolle milloin tahansa. Saat osittaisen hyvityksen nykyisen maksujaksosi jäljellä olevasta ajasta, ja uusi lisenssitasosi alkaa heti. Katso [Päivitä / alenna lisenssisi tasoa](installation/upgrade-downgrade-your-license.md)
 
 #### **Voinko siirtyä alemmalle lisenssitasolle?**
 
-Voit siirtyä alemmalle tasolle milloin tahansa, mutta muutos tulee voimaan nykyisen maksujaksosi lopussa. Katso [Päivitä / alenna lisenssisi tasoa](installation/upgrade-downgrade-your-license.md "mention")
+Voit siirtyä alemmalle tasolle milloin tahansa, mutta muutos tulee voimaan nykyisen maksujaksosi lopussa. Katso [Päivitä / alenna lisenssisi tasoa](installation/upgrade-downgrade-your-license.md)
 
 #### **Voinko keskeyttää lisenssini maksut?**
 
-Kyllä. Lisenssin voi keskeyttää seuraavasta tilauspäivästä alkaen ja käynnistää uudelleen milloin tahansa. Tämä on hyödyllistä, jos käytät ohjelmistoa jaksoittain, eikä sinun tarvitse syöttää korttitietojasi uudelleen. Katso [Keskeytä tai peruuta maksut](installation/cancel-your-subscription.md "mention")
+Kyllä. Lisenssin voi keskeyttää seuraavasta tilauspäivästä alkaen ja käynnistää uudelleen milloin tahansa. Tämä on hyödyllistä, jos käytät ohjelmistoa jaksoittain, eikä sinun tarvitse syöttää korttitietojasi uudelleen. Katso [Keskeytä tai peruuta maksut](installation/cancel-your-subscription.md)
 
 #### **Miten peruutan lisenssini pysyvästi?**
 
-Voit peruuttaa toistuvasti veloitettavan lisenssisi milloin tahansa, ja se poistuu automaattisesti käytöstä nykyisen maksujakson lopussa. Katso [Keskeytä tai peruuta maksut](installation/cancel-your-subscription.md "mention")
+Voit peruuttaa toistuvasti veloitettavan lisenssisi milloin tahansa, ja se poistuu automaattisesti käytöstä nykyisen maksujakson lopussa. Katso [Keskeytä tai peruuta maksut](installation/cancel-your-subscription.md)
+
+#### **Miksi Liberation on tilauspohjainen?**
+
+Lyhyesti: se pitää Liberationin kestävänä, aktiivisesti kehitettävänä ja reiluna, mutta antaa silti kaikille mahdollisuuden avata, muokata, tallentaa, harjoitella ja esikatsella show’ta maksutta.
+
+Olen kirjoittanut lisää tämän taustalla olevasta ajattelusta täällä: [Miksi Liberation käyttää tilausta](https://liberationlaser.com/articles/why-a-subscription).
+
+#### **Voinko saada pysyvän tai pitkäaikaisen lisenssin installaatiota tai kiertuetuotantoa varten?**
+
+Vuodeksi (tai jopa useaksi vuodeksi) ennakkoon maksettavia lisenssejä on saatavilla pysyviin installaatioihin ja kiertuetuotantoihin. Lähetä sähköpostia osoitteeseen [billing@liberationlaser.com](mailto:billing@liberationlaser.com), jos haluat ottaa tällaisen käyttöön.
+
+Pysyviä lisenssejä ei tällä hetkellä ole saatavilla. Lisätietoja taustasta on kohdassa [Miksi Liberation käyttää tilausta](https://liberationlaser.com/articles/why-a-subscription).
 
 #### **Miten valtuutan tietokoneeni lisenssilläni?**
 
-Kun olet ostanut lisenssin, voit valtuuttaa tietokoneen suoraan Liberation-ohjelmistossa. _About_-näytössä näkyy _Authorise_-painike, joka pyytää sinua kirjautumaan verkkosivustolle. Viimeistele valtuutus noudattamalla näytön ohjeita. Katso [Valtuutus ja valtuutuksen poistaminen](installation/authorising-and-de-authorising.md "mention")
+Kun olet ostanut lisenssin, voit valtuuttaa tietokoneen suoraan Liberation-ohjelmistossa. _About_-näytössä näkyy _Authorise_-painike, joka pyytää sinua kirjautumaan verkkosivustolle. Viimeistele valtuutus noudattamalla näytön ohjeita. Katso [Valtuutus ja valtuutuksen poistaminen](installation/authorising-and-de-authorising.md)
 
 #### **Kuinka usein tietokone on yhdistettävä internetiin?**
 
@@ -121,7 +133,7 @@ Saat sähköposti-ilmoituksen maksupalveluntarjoajaltamme, ja sinun täytyy päi
 
 #### **Kuinka monelle tietokoneelle voin asentaa Liberationin?**
 
-Voit asentaa Liberationin niin monelle tietokoneelle kuin haluat. Lisenssivaltuutuksia tarvitaan vain laser-/DMX-ulostulon käyttöön, ja lisenssitasosi määrittää, kuinka monta tietokonetta voidaan valtuuttaa ulostuloa varten samanaikaisesti. Katso [Miten lisensointi toimii](installation/how-licensing-works.md "mention")
+Voit asentaa Liberationin niin monelle tietokoneelle kuin haluat. Lisenssivaltuutuksia tarvitaan vain laser-/DMX-ulostulon käyttöön, ja lisenssitasosi määrittää, kuinka monta tietokonetta voidaan valtuuttaa ulostuloa varten samanaikaisesti. Katso [Miten lisensointi toimii](installation/how-licensing-works.md)
 
 #### **Miten siirrän lisenssini tietokoneelta toiselle?**
 
@@ -131,7 +143,7 @@ Voit asentaa Liberationin niin monelle tietokoneelle kuin haluat. Lisenssivaltuu
 * Napsauta _About_-näytön _Authorise this computer_ -painiketta.
 * Verkkosivusto avautuu. Kirjaudu sisään ja viimeistele valtuutus noudattamalla näytön ohjeita
 
-Voit myös poistaa valtuutuksen etänä tietokoneelta, johon sinulla ei enää ole pääsyä (tietyin rajoituksin). Katso [Valtuutus ja valtuutuksen poistaminen](installation/authorising-and-de-authorising.md "mention")
+Voit myös poistaa valtuutuksen etänä tietokoneelta, johon sinulla ei enää ole pääsyä (tietyin rajoituksin). Katso [Valtuutus ja valtuutuksen poistaminen](installation/authorising-and-de-authorising.md)
 
 #### **Voinko poistaa Liberationin valtuutuksen tietokoneelta, joka on kadonnut tai varastettu?**
 
@@ -143,11 +155,11 @@ Muussa tapauksessa valtuutuksen poisto tulee voimaan, kun lisenssi seuraavan ker
 
 #### Oletusmäärityksessä on 8 laseria – miten muutan tämän?
 
-Katso [Projektin määrittäminen](setting-up/setting-up-your-project.md "mention") ja [Lasereiden lisääminen / poistaminen](setting-up/adding-removing-lasers.md "mention")
+Katso [Projektin määrittäminen](setting-up/setting-up-your-project.md) ja [Lasereiden lisääminen / poistaminen](setting-up/adding-removing-lasers.md)
 
 #### Voinko kopioida zone-asetukset yhdeltä laserilta muille?
 
-Kyllä. Katso [Kopioi zone-asetukset lasereiden välillä](output-view/copy-zones-between-lasers.md "mention")
+Kyllä. Katso [Kopioi zone-asetukset lasereiden välillä](output-view/copy-zones-between-lasers.md)
 
 #### Voinko kirjoittaa numeron liukusäätimen käyttämisen sijaan?
 
@@ -155,42 +167,42 @@ Kyllä. `Cmd / Ctrl`-napsauta liukusäädintä, niin voit syöttää arvon näpp
 
 #### **Miten synkronoin Liberationin musiikkiin?**
 
-Siinä on älykäs "tap tempo" -järjestelmä, joka toimii odotetulla tavalla, mutta voit käyttää myös ulkoista MIDI-kelloa tai Ableton Linkiä. Katso [Tempo / synkronointi](tempo-synchronisation.md "mention"). Timeline voidaan synkronoida sisääntulevaan LTC/SMPTE-aikakoodiin minkä tahansa audioliitännän kautta. Katso [Timecode](timecode.md "mention").
+Siinä on älykäs "tap tempo" -järjestelmä, joka toimii odotetulla tavalla, mutta voit käyttää myös ulkoista MIDI-kelloa tai Ableton Linkiä. Katso [Tempo / synkronointi](tempo-synchronisation.md). Timeline voidaan synkronoida sisääntulevaan LTC/SMPTE-aikakoodiin minkä tahansa audioliitännän kautta. Katso [Timecode](timecode.md).
 
 #### Mitä asetuksia minun täytyy säätää, jotta saan laserista parhaan ulostulon?
 
-Tärkein asetus on _Colour Shift_, joka kompensoi pientä viivettä peilien liikkeen ja laserien kirkkauden muutosten välillä. Jos laserpisteissä tai -sädeissä näkyy pieniä “häntiä”, tätä asetusta täytyy säätää. (Katso esimerkki “hännistä” [Laser output -asetuspaneeli](setting-up/laser-settings.md "mention") -sivun kuvista)
+Tärkein asetus on _Scanner Sync_, joka kompensoi pientä viivettä peilien liikkeen ja laserien kirkkauden muutosten välillä. Jos laserpisteissä tai -sädeissä näkyy pieniä “häntiä”, tätä asetusta täytyy säätää. (Katso esimerkki “hännistä” [Laser output -asetuspaneeli](setting-up/laser-settings.md) -sivun kuvista)
 
 Voit myös kokeilla scanner-nopeuden muuttamista: hitaampi, jos scannerit ovat perustasoa, tai nopeampi, jos ne ovat hyvät. **Käytä kuitenkin varoen, sillä voit vahingoittaa scannereita, jos ajat niitä liian kovaa.**
 
 Käytettävissä on myös valmiita scanner-asetuksia. Oletusasetus on varovainen ja sopii useimpiin lasersädevaatimuksiin. Jos sinulla on paremmat scannerit, käytettävissä on muita esiasetuksia, ja lisäksi on grafiikkaa varten viritettyjä esiasetuksia.
 
-Lisätietoja on kohdassa [Laser output -asetuspaneeli](setting-up/laser-settings.md "mention"), ja ohjeet omien esiasetusten luomiseen ovat kohdassa [◼️ Skanneriesiasetukset ja renderöintiprofiilit](advanced/scanner-presets.md "mention") (edistynyt, työn alla)
+Lisätietoja on kohdassa [Laser output -asetuspaneeli](setting-up/laser-settings.md), ja ohjeet omien esiasetusten luomiseen ovat kohdassa [◼️ Skanneriesiasetukset ja renderöintiprofiilit](advanced/scanner-presets.md) (edistynyt, työn alla)
 
-Voit myös korjata väritasapainoa _Colour calibration_ -asetuksilla. Katso [Värikalibrointi](advanced/colour-calibration.md "mention") (edistynyt tekniikka)
+Voit myös korjata väritasapainoa _Colour calibration_ -asetuksilla. Katso [Värikalibrointi](advanced/colour-calibration.md) (edistynyt tekniikka)
 
 #### Mitä _Latency(ms)_-asetus tekee?
 
-Tämä on kuvaviive eli suurin aika kuvan luomisen ja sen laseriin lähettämisen välillä. Sitä ei yleensä tarvitse säätää, mutta jos sinulla on verkko-ongelmia, voit kokeilla sen kasvattamista. Katso lisätietoja kohdasta [Latenssiasetus](setting-up/latency-setting.md "mention").
+Tämä on kuvaviive eli suurin aika kuvan luomisen ja sen laseriin lähettämisen välillä. Sitä ei yleensä tarvitse säätää, mutta jos sinulla on verkko-ongelmia, voit kokeilla sen kasvattamista. Katso lisätietoja kohdasta [Latenssiasetus](setting-up/latency-setting.md).
 
 ### Clips
 
 #### Miten säädän clipin zoneja ja asetuksia käynnistämättä sitä?
 
-`Alt / Option`-napsauta, jotta siitä tulee _tällä hetkellä valittu Clip_, mutta sitä ei aktivoida. Katso myös [Clipien käynnistäminen ja pysäyttäminen](clips/starting-stopping-clips.md "mention")
+`Alt / Option`-napsauta, jotta siitä tulee _tällä hetkellä valittu Clip_, mutta sitä ei aktivoida. Katso myös [Clipien käynnistäminen ja pysäyttäminen](clips/starting-stopping-clips.md)
 
 #### Miten kopioin clippejä?
 
-Napsauta ja vedä samalla, kun pidät `Alt / Option`-näppäintä painettuna. Katso myös [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md "mention")
+Napsauta ja vedä samalla, kun pidät `Alt / Option`-näppäintä painettuna. Katso myös [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md)
 
 #### Miten poistan clippejä?
 
-Napsauta ja vedä ne pois Clip Deckistä. Katso myös [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md "mention")
+Napsauta ja vedä ne pois Clip Deckistä. Katso myös [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md)
 
 #### Miten teen monivalinnan, poistan, yhdistän clip deckejä jne.?
 
-Katso [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md "mention")
+Katso [Clip Deckin järjestäminen](clips/organising-your-clip-deck.md)
 
 #### Mitä clipissä oleva pieni mikrofonisymboli ja muut kuvakkeet tarkoittavat?
 
-Ne osoittavat, että Clip käyttää ääni- tai MIDI-syötettä, ja kolme pistettä osoittavat, että käytössä on zone-viive. Katso [Mitä Clip-painikkeiden pienet kuvakkeet tarkoittavat?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+Ne osoittavat, että Clip käyttää ääni- tai MIDI-syötettä, ja kolme pistettä osoittavat, että käytössä on zone-viive. Katso [Mitä Clip-painikkeiden pienet kuvakkeet tarkoittavat?](clips/what-are-the-small-icons-on-the-clip-buttons.md)

@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-Loại zone chính bạn sẽ dùng cho hầu hết dự án là _Beam zone_. Đây là zone được thiết kế cho các hiệu ứng tia sáng trong không khí. Loại zone còn lại là _Canvas zone_ (Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/ "mention")).
+Loại zone chính bạn sẽ dùng cho hầu hết dự án là _Beam zone_. Đây là zone được thiết kế cho các hiệu ứng tia sáng trong không khí. Loại zone còn lại là _Canvas zone_ (Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/)).
 
 {% hint style="danger" %}
-**CẢNH BÁO - Hãy cực kỳ thận trọng khi di chuyển zones trong lúc máy laser đang chạy** và giảm độ sáng xuống mức thấp nhất có thể. Xem [Tổng quan quy trình thiết lập laser](../setting-up/setting-up-lasers.md "mention") để biết hướng dẫn đầy đủ về cách kích hoạt và phân vùng laser an toàn
+**CẢNH BÁO - Hãy cực kỳ thận trọng khi di chuyển zone trong lúc máy laser đang chạy** và giảm độ sáng xuống mức thấp nhất có thể. Xem [Tổng quan quy trình thiết lập laser](../setting-up/setting-up-lasers.md) để biết hướng dẫn đầy đủ về cách kích hoạt và phân vùng laser an toàn
 {% endhint %}
 
 Bạn có thể nhấp và kéo zones bằng chuột. Bật một test pattern để xem zone đó sẽ đi tới đâu.
@@ -19,16 +19,16 @@ Dùng các phím mũi tên để **dịch nhẹ** zone/điểm đang được ch
 {% endhint %}
 
 {% hint style="info" %}
-Mẹo hay: bạn có thể nhanh chóng sao chép thiết lập zone sang nhiều laser! Xem [Sao chép thiết lập giữa các laser](../setting-up/copy-laser-settings.md "mention")
+Mẹo hay: bạn có thể nhanh chóng sao chép thiết lập zone sang nhiều laser! Xem [Sao chép thiết lập giữa các laser](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 ### Thêm beam zone mới
 
-Nhấp nút _Add a new beam zone_ ở đầu thanh công cụ và một zone mới sẽ xuất hiện. Lưu ý rằng beam zones được sắp xếp theo thứ tự bạn thêm, nhưng bạn có thể sắp xếp lại chúng. Xem [Sắp xếp lại beam zones](re-ordering-beam-zones.md "mention")
+Nhấp vào nút _Add a new beam zone_ ở đầu thanh công cụ và một zone mới sẽ xuất hiện. Lưu ý rằng các beam zone được sắp xếp theo thứ tự bạn thêm, nhưng bạn có thể sắp xếp lại chúng. Xem [Sắp xếp lại beam zone](re-ordering-beam-zones.md)
 
 ### Thêm canvas zone hiện có
 
-Nhấp vào nút _Add existing canvas zone_ và bạn sẽ thấy danh sách các canvas zones có sẵn; bạn có thể bật hoặc tắt chúng cho laser này. Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/ "mention")
+Nhấp vào nút _Add existing canvas zone_ và bạn sẽ thấy danh sách các canvas zone có sẵn; bạn có thể bật hoặc tắt chúng cho laser này. Xem [Đồ họa và hệ thống Canvas](../graphics-and-the-canvas-system/)
 
 ### Các kiểu hình dạng zone
 
@@ -47,7 +47,7 @@ Nhấp chuột phải vào bất kỳ zone nào để mở cài đặt của zon
 * Đặt lại về vị trí mặc định
 * Truy cập các cài đặt riêng cho từng kiểu hình dạng
 * Xóa zone
-* Thêm _Alt Zone_ (Xem [Hệ thống Alt zone](alt-zone-system.md "mention"))
+* Thêm _Alt Zone_ (Xem [Hệ thống Alt zone](alt-zone-system.md))
 
 {% hint style="danger" %}
 **CẢNH BÁO -** hãy rất cẩn thận khi thay đổi kiểu zone trong lúc laser đang hoạt động. Zone sẽ quay về vị trí / kích thước gần nhất của hình dạng đó, nên đầu ra có thể thay đổi đột ngột. Tốt nhất là tắt laser trước khi thay đổi kiểu zone.

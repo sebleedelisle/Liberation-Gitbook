@@ -32,7 +32,7 @@ A clip editorban a következőket látod:
 Szerkesztés közben a háttérben a 3D visualiser nézetben is látod, hogyan néz ki a clip.
 
 {% hint style="info" %}
-Ha nem látsz kimenetet a 3D visualiser nézetben, lehet, hogy a zone gombokkal be kell kapcsolnod a kívánt zónákat. Emellett győződj meg róla, hogy a _Preview to lasers_ engedélyezve van; lásd lent: [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel "mention").
+Ha nem látsz kimenetet a 3D megjelenítőben, lehet, hogy a zone gombokkal be kell kapcsolnod a kívánt zónákat. Emellett győződj meg róla, hogy a _Preview to lasers_ engedélyezve van; lásd lent: [Clip Editor panel](clip-editor-intro.md#clip-editor-panel).
 {% endhint %}
 
 ### Clip készítése
@@ -75,7 +75,7 @@ Ha használtál már analóg szintetizátort, ismerős lesz az oszcillátorok fo
 **Érdekesség:** a _Liberation_ név a Moog Liberation szintetizátorról kapta az ihletet. Ez egy 1980-ban megjelent „keytar” volt, amelyet Herbie Hancock, Jean-Michel Jarre, sőt James Brown is ismertté tett!
 {% endhint %}
 
-Az Oscillatoroknak mindig vannak _range_ beállításaik, amelyek a módosítandó tulajdonság minimális és maximális értékét szabályozzák. A _Wave Oscillators_ elemeknek pedig mindig van _duration_ beállításuk, amely meghatározza, milyen gyorsan változtatja az oscillator az értéket. További információ: [Hullámoszcillátorok](oscillators/wave-oscillators.md "mention").
+Az oszcillátoroknak mindig vannak _range_ beállításaik, amelyek a módosítandó tulajdonság minimális és maximális értékét szabályozzák. A _Wave Oscillators_ elemeknek pedig mindig van _duration_ beállításuk, amely meghatározza, milyen gyorsan változtatja az oszcillátor az értéket. További információ: [Hullámoszcillátorok](oscillators/wave-oscillators.md).
 
 ### Clip editor panel
 

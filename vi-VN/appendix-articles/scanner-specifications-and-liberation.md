@@ -27,13 +27,25 @@ Khi một scanner được ghi thông số kiểu như: _30Kpps @ 8°_ thì th�
 
 Dù vậy, đây vẫn là chuẩn tham chiếu được dùng rộng rãi nhất mà chúng ta có, và nó có thể cho bạn hình dung khá tốt về chất lượng scanner, ít nhất là với các nhà sản xuất uy tín. Còn với những nhà sản xuất _kém uy tín hơn_ thì...
 
-#### Nếu bạn muốn kiểm tra scanner theo đúng thông số công bố
+#### Kiểm tra scanner bằng Libera Lab
 
 {% hint style="danger" %}
 **Đây là kỹ thuật nâng cao và bạn có thể làm hỏng scanner nếu không cẩn thận. Không khuyến nghị trừ khi bạn biết rõ mình đang làm gì.**
 {% endhint %}
 
-Bạn cần tìm phần mềm có thể xuất [mẫu kiểm tra ILDA](https://ilda.com/technical.htm?r=7950) - tôi nghĩ LaserShowGen có thể làm được - rồi điều chỉnh kích thước Output để khớp với góc quét được chỉ định (ví dụ 8°). Hãy xem tài liệu ILDA để biết cách phân tích Output.
+Nếu bạn muốn thử nghiệm hành vi của scanner bên ngoài một dự án show, hãy dùng [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). Đây là công cụ desktop dành cho các bộ điều khiển laser tương thích với Libera, được thiết kế để phát hiện, kiểm tra, xem trước và kiểm tra chi tiết đầu ra laser.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab hữu ích vì cho phép bạn:
+
+* xuất các mẫu kiểm tra đã biết, bao gồm mẫu kiểm tra ILDA
+* tải và stream các tệp ILDA
+* xem trước luồng điểm trước khi hoặc trong khi xuất
+* kiểm tra đầu ra bằng các công cụ scope và scanner-load
+* so sánh cách các mẫu, tốc độ điểm và kích thước đầu ra khác nhau ảnh hưởng đến scanner
+
+Để kiểm tra scanner theo một thông số công bố, hãy đặt Libera Lab sang [mẫu kiểm tra ILDA](https://ilda.com/technical.htm?r=7950), chọn tốc độ điểm theo thông số công bố và điều chỉnh kích thước đầu ra để khớp với góc quét được chỉ định (ví dụ 8°). Hãy xem tài liệu ILDA để biết cách phân tích đầu ra.
 
 #### Vì sao đây có thể không phải là benchmark tốt
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) thường ở phân khúc thấp hơn, nhưng nói thật
 #### Liberation giúp như thế nào
 
 Trước hết, với hầu hết công việc, bạn không cần scanner thật sự đắt tiền! DT 30kpps giá hợp lý, hoặc thậm chí PT, vẫn ổn. Các thiết lập scanner mặc định được đặt khá thận trọng, và nhìn chung _bạn không cần điều chỉnh chúng_ (ngoại trừ _Scanner sync_).
+
+Nếu bạn muốn hiểu rõ các thiết lập scanner thực sự đang làm gì, Libera Lab là nơi phù hợp hơn để thử nghiệm so với dự án show của bạn. Bạn có thể thay đổi tốc độ điểm, góc đầu ra và mẫu kiểm tra trong khi quan sát phần xem trước, scope và thông tin scanner-load.
 
 Ngay cả khi bạn có scanner tốt hơn, cũng không có lý do gì phải chạy chúng mạnh hơn mức cần thiết. Điều này sẽ kéo dài đáng kể tuổi thọ của chúng.
 
@@ -98,7 +112,8 @@ Câu hỏi hay. Đây là các gợi ý của tôi:
 * Nếu bạn làm đồ họa, trong đa số trường hợp, dùng nhiều laser hơn sẽ tốt hơn là dùng scanner nhanh hơn.
 * Khi bạn lên các hệ thống cao cấp hơn, bất kỳ thương hiệu cao cấp đã có tên tuổi nào cũng sẽ ổn.
 * Nếu bạn chỉ có thể mua scanner không thương hiệu rẻ nhất, thiết lập mặc định của Liberation khá thận trọng và bạn có thể vẫn đạt kết quả ổn cho các hiệu ứng beam cơ bản. Nếu hệ thống gặp khó, hãy giảm thiết lập **Speed** (nhưng đừng thay đổi tốc độ điểm!).
+* Nếu bạn muốn kiểm tra hoặc so sánh các thiết lập, hãy thực hiện trong Libera Lab trước thay vì thử nghiệm trực tiếp trong tệp show.
 
 #### Còn ILDA Test Pattern thì sao?
 
-…vẫn rất hữu ích như một công cụ hiệu chuẩn và tham chiếu, nhưng nó chưa bao giờ được thiết kế như một benchmark toàn diện và có thể bị nhà sản xuất sử dụng sai hoặc diễn giải lỏng lẻo.
+…vẫn rất hữu ích như một công cụ hiệu chuẩn và tham chiếu, và Libera Lab giúp việc xuất cũng như kiểm tra chi tiết dễ dàng hơn. Nhưng nó chưa bao giờ được thiết kế như một benchmark toàn diện và có thể bị nhà sản xuất sử dụng sai hoặc diễn giải lỏng lẻo.

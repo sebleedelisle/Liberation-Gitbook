@@ -27,13 +27,25 @@ Se ei ole kattava tai täysin standardoitu mittari todellisesta suorituskyvystä
 
 Se on kuitenkin edelleen yleisimmin käytetty vertailukohta, ja se voi antaa hyvän käsityksen skannerien laadusta, ainakin hyvämaineisten valmistajien kohdalla. _Vähemmän hyvämaineisten_ kohdalla taas...
 
-#### Jos haluat testata skannerit niiden ilmoitetuilla arvoilla
+#### Skannerien testaaminen Libera Labilla
 
 {% hint style="danger" %}
 **Tämä on edistynyt tekniikka, ja voit vahingoittaa skannereitasi, jos et ole varovainen. Ei suositella, ellet tiedä mitä teet.**
 {% endhint %}
 
-Tarvitset ohjelmiston, joka pystyy tuottamaan [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) -kuvion – käsittääkseni LaserShowGen saattaa osata tehdä tämän – ja sinun on säädettävä ulostulon koko vastaamaan ilmoitettua skannauskulmaa (esim. 8°). Katso ILDA-dokumentaatiosta ohjeet ulostulon analysointiin.
+Jos haluat kokeilla skannerien toimintaa show-projektin ulkopuolella, käytä [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases) -työkalua. Se on Libera-yhteensopiville laserohjaimille tarkoitettu työpöytäsovellus, jolla voi etsiä ja testata laitteita sekä esikatsella ja tarkastella laserin ulostuloa.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab on hyödyllinen, koska sen avulla voit:
+
+* tuottaa tunnettuja testikuvioita, mukaan lukien ILDA-testikuvion
+* ladata ja suoratoistaa ILDA-tiedostoja
+* esikatsella pistevirtaa ennen ulostuloa tai sen aikana
+* tarkastella ulostuloa scope- ja skannerikuormatyökaluilla
+* vertailla, miten eri kuviot, pistetaajuudet ja ulostulon koot vaikuttavat skannereihin
+
+Jos haluat testata skannereita ilmoitettua suoritusarvoa vasten, valitse Libera Labissa [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950), aseta ilmoitettu pistetaajuus ja säädä ulostulon koko vastaamaan määritettyä skannauskulmaa (esim. 8°). Katso ILDA-dokumentaatiosta ohjeet ulostulon analysointiin.
 
 #### Miksi se ei välttämättä ole hyvä vertailuarvo
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) on yleensä alempaa tasoa, mutta rehellisesti sanottuna n
 #### Miten Liberation auttaa
 
 Ensinnäkin useimpiin asioihin et tarvitse todella kalliita skannereita! Edulliset 30kpps DT -skannerit tai jopa PT-skannerit riittävät hyvin. Skannerien oletusasetukset ovat tarkoituksella varovaisia, eikä niitä useimmiten _tarvitse säätää_ (paitsi _Scanner sync_).
+
+Jos haluat ymmärtää, mitä skanneriasetukset todella tekevät, Libera Lab on parempi paikka kokeiluihin kuin varsinainen show-projekti. Voit muuttaa pistetaajuutta, ulostulokulmaa ja testikuviota samalla, kun seuraat esikatselua, scope-näkymää ja skannerikuorman tietoja.
 
 Vaikka sinulla olisi paremmat skannerit, niitä ei kannata ajaa kovempaa kuin on tarpeen. Tämä pidentää niiden käyttöikää merkittävästi.
 
@@ -98,7 +112,8 @@ Hyvä kysymys. Tässä vinkkini:
 * Jos teet grafiikkaa, useimmissa tapauksissa useampi laser on parempi kuin nopeammat skannerit.
 * Kun siirryt korkeatasoisempiin kokoonpanoihin, mikä tahansa vakiintuneista huippumerkeistä toimii hyvin.
 * Jos saat käyttöösi vain halvimmat brändäämättömät skannerit, Liberationin oletusasetukset ovat melko varovaisia ja saat todennäköisesti OK-tuloksia peruskeilatyöskentelyyn. Jos skannerit eivät pysy mukana, pienennä **Speed**-asetusta (mutta älä muuta pisteenopeutta!).
+* Jos haluat testata tai vertailla asetuksia, tee se ensin Libera Labissa sen sijaan, että kokeilisit niitä show-tiedoston sisällä.
 
 #### Entä ILDA Test Pattern?
 
-…on edelleen erittäin hyödyllinen kalibrointi- ja vertailutyökalu, mutta sitä ei koskaan suunniteltu kattavaksi vertailuarvoksi, ja valmistajat voivat käyttää tai tulkita sitä väljästi.
+…on edelleen erittäin hyödyllinen kalibrointi- ja vertailutyökalu, ja Libera Lab helpottaa sen tuottamista ja tarkastelua. Sitä ei kuitenkaan koskaan suunniteltu kattavaksi vertailuarvoksi, ja valmistajat voivat käyttää tai tulkita sitä väljästi.

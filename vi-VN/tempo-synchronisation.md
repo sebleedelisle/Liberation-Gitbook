@@ -60,7 +60,7 @@ Dùng nút _METRONOME_ để **đặt lại ô nhịp**. (Lưu ý rằng nút _M
 
 Xoay núm _TEMPO_ một “nấc” sang phải hoặc trái để **làm tròn tempo** lên hoặc xuống về một số BPM nguyên.
 
-Xem thêm [Tham chiếu APC40](reference/apc40-reference.md "mention")
+Xem thêm [Tham chiếu APC40](reference/apc40-reference.md)
 
 ### Nudge tempo
 

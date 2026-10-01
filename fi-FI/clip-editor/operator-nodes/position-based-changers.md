@@ -33,7 +33,7 @@ Tämä solmu muuttaa sisällön värejä sijainnin perusteella. Oletuksena aksel
 
 **Colour Modes**
 
-Nämä määrittävät, mitkä värisäätöjen osa-alueet käytetään sisältöön. Katso myös: [Väriasetukset ja HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Nämä määrittävät, mitkä värisäätöjen osa-alueet käytetään sisältöön. Katso myös: [Väriasetukset ja HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue ei muutu.
@@ -49,7 +49,7 @@ Nämä määrittävät, mitkä värisäätöjen osa-alueet käytetään sisält�
 
 **Gradienttieditori**
 
-Käyttää samaa gradienttieditoria kuin [Värin muutos](colour-changer.md "mention"), mutta kohdistaa gradientin sisältöön sijainnin mukaan.
+Käyttää samaa gradienttieditoria kuin [Värin muutos](colour-changer.md), mutta kohdistaa gradientin sisältöön sijainnin mukaan.
 
 * Lisää väripiste napsauttamalla gradienttipalkkia.
 * Valitse piste napsauttamalla sitä hiiren vasemmalla painikkeella ja siirrä sitä vetämällä sivusuunnassa.

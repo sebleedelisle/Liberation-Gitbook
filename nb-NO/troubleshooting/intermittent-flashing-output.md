@@ -22,16 +22,11 @@ Da har du enten et nettverksproblem eller et problem med CPU-ytelsen:
 
 **CPU-ytelse**
 
-Hvis du har en gammel maskin eller en maskin med lave spesifikasjoner, kan den være for treg til å kjøre Liberation. Sjekk indikatoren for bildefrekvens på høyre side av ikonlinjen.
+Hvis du har en gammel maskin eller en maskin med lave spesifikasjoner, kan den være for treg til å kjøre Liberation. Sjekk indikatoren for bildefrekvens i topplinjen.
 
 Det vises to tall der – faktisk bildefrekvens og målbildefrekvens. Hvis den faktiske bildefrekvensen faller under 30, kan du få problemer.
 
-Følgende tiltak kan hjelpe:
-
-* Fjern lasere som ikke er i bruk, f.eks. hvis du bare har én laser tilkoblet, slett de andre.
-* Bytt til Output- eller Canvas-visningen
-* Lukk alle andre programmer, sjekk brannmurinnstillinger for nettverk, lukk antivirus, Dropbox osv.
-* Reduser skjermoppløsningen, og gjør Liberation-vinduet mindre
+Hvis du vil redusere belastningen på datamaskinen, kan du se [Forbedre ytelsen på eldre maskiner](improving-performance-on-older-machines.md).
 
 Hvis ingenting av dette fungerer, bør du vurdere å oppgradere datamaskinen.
 

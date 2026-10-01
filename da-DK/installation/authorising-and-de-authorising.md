@@ -29,7 +29,7 @@ Hvis du allerede har autoriseret det maksimale antal computere for din licens, s
 Hvis du har flere licenser, bliver du bedt om at vælge den licens, du vil tilknytte computeren til.
 {% endhint %}
 
-Tillykke! Din Liberation-installation er nu autoriseret, og du kan sende output til lasere! Men læs venligst [Hurtig startguide](../getting-started.md "mention") og [Oversigt over opsætning af lasere](../setting-up/setting-up-lasers.md "mention"), før du armerer dine lasere.
+Tillykke! Din Liberation-installation er nu autoriseret, og du kan sende output til lasere! Men læs venligst [Hurtig startguide](../getting-started.md) og [Oversigt over opsætning af lasere](../setting-up/setting-up-lasers.md), før du armerer dine lasere.
 
 {% hint style="info" %}
 Du kan til enhver tid åbne _About panel_ via menuen _Liberation -> About Liberation_ eller _Liberation -> Authorise/Deauthorise this computer_

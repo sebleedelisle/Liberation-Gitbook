@@ -16,7 +16,7 @@ Her _Creator_ node içinde bir _Render Profile_ ayarı bulunur. Bu ayar, şekill
 
 Bu ayrıca, aynı içeriği Clip üzerinde değişiklik yapmadan her lazer için farklı scanner türlerine göre ayarlayabileceğiniz anlamına gelir.
 
-Daha fazla ayrıntı için bkz. [◼️ Liberation lazer içeriğini nasıl oluşturur](../../advanced/how-liberation-generates-laser-content.md "mention")
+Daha fazla ayrıntı için bkz. [◼️ Liberation lazer içeriğini nasıl oluşturur](../../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 Üç hazır _Render Profile_ vardır: _DEFAULT_, _FAST_ ve _DETAIL._
@@ -28,5 +28,5 @@ _**FAST** -_ Clip içinde çok fazla içerik varsa ve bunların bir kısmı ger�
 _**DETAIL**_ - keskin köşeler gerektiren bir şey çiziyorsanız bu seçeneği kullanın. Ancak scanner cihazlarınızın daha yavaş hareket edeceğini ve bunun Output tarafında titreşime yol açabileceğini unutmayın.
 
 {% hint style="info" %}
-Clip Editor içinde Creators öğelerini farklı Render Profile seçeneklerine atayabilirsiniz, ancak her lazer bu profilleri kendi scanner ayarlarına göre işler. Bkz. [◼️ Scanner ön ayarları ve render profile seçenekleri](../../advanced/scanner-presets.md "mention")
+Clip Editor içinde Creators öğelerini farklı render profile seçeneklerine atayabilirsiniz, ancak her lazer bu profilleri kendi scanner ayarlarına göre işler. Bkz. [◼️ Scanner ön ayarları ve render profile seçenekleri](../../advanced/scanner-presets.md)
 {% endhint %}

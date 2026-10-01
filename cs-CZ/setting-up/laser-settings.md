@@ -41,7 +41,7 @@ Korekce orientace / zrcadlení nemění nic ve 3D Visualiser. Použijte je k tom
 
 ### Kopírování nastavení laseru
 
-Viz [Kopírování nastavení laseru](laser-settings.md#copy-laser-settings "mention").
+Viz [Kopírování nastavení laseru](laser-settings.md#copy-laser-settings).
 
 ### Nastavení skenerů
 
@@ -56,10 +56,12 @@ I když jsou výchozí nastavení poměrně konzervativní, příliš vysokou ry
 {% endhint %}
 
 {% hint style="info" %}
-Toto nastavení rychlosti nemění počet bodů za sekundu. Místo toho upravuje, jak daleko jsou jednotlivé body od sebe. Další informace najdete v části [◼️ Jak Liberation generuje laserový obsah](../advanced/how-liberation-generates-laser-content.md "mention")
+Toto nastavení rychlosti nemění počet bodů za sekundu. Místo toho upravuje, jak daleko jsou jednotlivé body od sebe. Další informace najdete v části [◼️ Jak Liberation generuje laserový obsah](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+Pokud chcete experimentovat s počtem bodů za sekundu, úhlem výstupu a zatížením skenerů mimo projekt show, viz [🟩 Specifikace skenerů a Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 Paprsek při pohybu skenerů mění barvu a zapíná se a vypíná. Tyto dvě věci obvykle nejsou navzájem dokonale synchronní. Tímto nastavením je znovu srovnáte.
 
@@ -67,18 +69,18 @@ Paprsek při pohybu skenerů mění barvu a zapíná se a vypíná. Tyto dvě v�
 Někdy se tomu říká _blank shift_, ale osobně dávám přednost názvu _scanner sync_ – je o něco přesnější, protože upravuje časování všech změn barev vůči pohybu skenerů.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserové „ocásky“ – Colour shift není správně nastavený</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Žádné laserové „ocásky“! Colour shift je nastavený dobře!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserové „ocásky“ – Scanner Sync není správně nastavený</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Žádné laserové „ocásky“! Scanner Sync je nastavený dobře!</p></figcaption></figure></div>
 
 Pokud na výstupu laseru vidíte malé „ocásky“, pravděpodobně je potřeba upravit synchronizaci skenerů. Pokud se ocásky objevují bez ohledu na nastavení, nejspíš řídíte skenery nebo laserové drivery rychleji, než zvládnou. Zkuste snížit rychlost skenerů.
 
 #### Předvolby skenerů
 
-Tímto nastavením vyberete předpřipravené nastavení skenerů. Výchozí volba je obvykle v pořádku, takže ji většinou nemusíte měnit, pokud nemáte mimořádně špatné (nebo dobré) skenery. Pokud se chcete podívat podrobněji, viz [◼️ Předvolby skenerů a renderovací profily](../advanced/scanner-presets.md "mention")
+Tímto nastavením vyberete předpřipravené nastavení skenerů. Výchozí volba je obvykle v pořádku, takže ji většinou nemusíte měnit, pokud nemáte mimořádně špatné (nebo dobré) skenery. Pokud se chcete podívat podrobněji, viz [◼️ Předvolby skenerů a renderovací profily](../advanced/scanner-presets.md)
 
 #### Kalibrace barev
 
-Tento systém můžete použít ke korekci křivky jasu a vyvážení bílé u laseru. Viz [Kalibrace barev](../advanced/colour-calibration.md "mention")
+Tento systém můžete použít ke korekci křivky jasu a vyvážení bílé u laseru. Viz [Kalibrace barev](../advanced/colour-calibration.md)
 
 #### Pokročilá nastavení
 
-Tato nastavení byste neměli potřebovat měnit, ale pokud vás zajímají podrobnosti, viz [◼️ Pokročilá nastavení laseru](../advanced/advanced-laser-settings.md "mention")
+Tato nastavení byste neměli potřebovat měnit, ale pokud vás zajímají podrobnosti, viz [◼️ Pokročilá nastavení laseru](../advanced/advanced-laser-settings.md)

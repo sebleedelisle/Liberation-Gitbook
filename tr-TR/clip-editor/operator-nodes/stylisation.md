@@ -26,7 +26,7 @@ Randomise adlı node, Randomise efektinin merkezindedir!
 
 İçeriğinizin yankılarını oluşturur; orijinal hareket ederken arkasında solan veya ölçeklenen kopyalar bırakır.
 
-* **change render profile for trail** – açıksa, tüm trail kopyaları seçili **render profile** değerini kullanır. _Bkz._ [Render profili](../fundamentals/render-profile.md "mention").
+* **change render profile for trail** – açıksa, tüm trail kopyaları seçili **render profile** değerini kullanır. _Bkz._ [Render profili](../fundamentals/render-profile.md).
 * **render profile** – yukarıdaki anahtar açıkken trail kopyaları için kullanılacak profil. Genellikle ana içerik **DETAIL** olarak ayarlanmışken yankıların **FAST** olarak render edilmesi için kullanılır. Böylece ana şekillerde net ayrıntı korunur, trails ise daha verimli render edilir.
 * **delay** – trail kopyaları arasındaki aralığı müzikal zamanla ayarlar; **1/64 nota adımları** cinsinden ölçülür.\
   Referans olarak:

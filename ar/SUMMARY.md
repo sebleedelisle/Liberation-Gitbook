@@ -104,6 +104,7 @@
   * [🟩 معايرة اللون](advanced/colour-calibration.md)
 * [◼️ نصائح الشبكة](network-advice.md)
 * [✅ استكشاف الأخطاء وإصلاحها](troubleshooting/README.md)
+* [✅ تحسين الأداء على الأجهزة القديمة](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ خَرْج الليزر المتقطع / الوامض](troubleshooting/intermittent-flashing-output.md)
   * [✅ التحكم المباشر](troubleshooting/live-control.md)
   * [✅ خطأ فقدان الموارد عند بدء التشغيل](troubleshooting/missing-resources.md)

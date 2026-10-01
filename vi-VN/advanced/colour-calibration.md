@@ -17,7 +17,7 @@ Diode laser thay đổi đặc tính khi nóng lên. Luôn để máy chiếu �
 
 #### Cách hoạt động của bài kiểm tra hiệu chuẩn
 
-Sử dụng các test pattern để hiệu chuẩn (xem [Test pattern](../output-view/test-patterns.md "mention"))
+Sử dụng các test pattern để hiệu chuẩn (xem [Các test pattern](../output-view/test-patterns.md))
 
 * **5** – Đỏ
 * **6** – Xanh lá

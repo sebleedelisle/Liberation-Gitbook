@@ -14,7 +14,7 @@ metaLinks:
 
 يضيف _Zone delay_ تأخيرًا إلى توقيت Clip عبر كل zone، مما ينشئ نوعًا من الحركة المتتابعة عبر zones.
 
-يكون تأثيره فعّالًا جدًا عند إضافة Zone delay إلى Clip قيد التشغيل بالفعل؛ استخدم عنصر التحكم المناسب على APC40 لضبط المستوى والنمط. (راجع [مرجع APC40](../reference/apc40-reference.md "mention")). أو يمكنك استخدام لوحة _Clip Settings_.
+يكون تأثيره فعّالًا جدًا عند إضافة Zone delay إلى Clip قيد التشغيل بالفعل؛ استخدم عنصر التحكم المناسب على APC40 لضبط المستوى والنمط. (راجع [مرجع APC40](../reference/apc40-reference.md)). أو يمكنك استخدام لوحة _Clip Settings_.
 
 إعدادات Zone delay:
 
@@ -39,7 +39,7 @@ metaLinks:
 يُطبّق Zone delay أيضًا على أي مؤثرات نشطة. على سبيل المثال، سيتم تأخير تأثير الوميض عبر zones، بالإضافة إلى الحركة داخل Clip نفسه.
 {% endhint %}
 
-عندما يحتوي Clip على أي نوع من _Zone delay_، سترى أيقونة من ثلاث نقاط في أعلى يمين Clip. تتحرك هذه النقاط لتوضح لك نمط _Zone delay_ لذلك Clip. راجع [ما الأيقونات الصغيرة على أزرار Clip؟](what-are-the-small-icons-on-the-clip-buttons.md "mention") لمزيد من التفاصيل.
+عندما يحتوي Clip على أي نوع من _Zone delay_، سترى أيقونة من ثلاث نقاط في أعلى يمين Clip. تتحرك هذه النقاط لتوضح لك نمط _Zone delay_ لذلك Clip. راجع [ما الأيقونات الصغيرة على أزرار Clip؟](what-are-the-small-icons-on-the-clip-buttons.md) لمزيد من التفاصيل.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>رمز النقاط الثلاث الذي يشير إلى أن Clip يحتوي على Zone delay ويوضح وضعه</p></figcaption></figure>
 

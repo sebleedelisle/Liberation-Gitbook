@@ -6,4 +6,4 @@ metaLinks:
 
 # 🟩 DMX node
 
-DMX node poseban je node koji omogućuje preciznije upravljanje DMX uređajima. Više informacija potražite u odjeljku [DMX / Art-Net](../dmx-control/ "mention").
+DMX node poseban je node koji omogućuje preciznije upravljanje DMX uređajima. Više informacija potražite u odjeljku [DMX / Art-Net](../dmx-control/).

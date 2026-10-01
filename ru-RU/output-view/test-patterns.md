@@ -19,7 +19,7 @@ metaLinks:
 3. Horizontal green lines — 4 горизонтальные линии с равными интервалами.
 4. Vertical green lines — 4 вертикальные линии с равными интервалами.
 
-Patterns 5–8 для калибровки цвета. Их можно использовать вместе с системой цветокоррекции в Laser Settings. См. [Калибровка цвета](../advanced/colour-calibration.md "mention"). Эти patterns не заполняют всё пространство вывода.
+Patterns 5–8 для калибровки цвета. Их можно использовать вместе с системой цветокоррекции в Laser Settings. См. [Калибровка цвета](../advanced/colour-calibration.md). Эти patterns не заполняют всё пространство вывода.
 
 5. Colour calibration pattern — красный.
 6. Colour calibration pattern — зелёный.

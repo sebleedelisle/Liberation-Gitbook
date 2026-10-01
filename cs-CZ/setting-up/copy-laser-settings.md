@@ -22,7 +22,7 @@ Zapněte všechny ostatní lasery, _do kterých_ chcete nastavení kopírovat. (
 Vyberte, která nastavení chcete zkopírovat:
 
 * **Copy output zone positions&#x20;**_**-**_ zkopíruje pozice / velikosti / typy zones z jednoho laseru do ostatních. Všimněte si, že zones se kopírují podle pořadí, takže zones 1 a 9 z laseru 1 se zkopírují do zones 2 a 10 na laseru 2. Zkopírují se také alternativní zones.
-* **Copy scanner / speed settings** - zkopíruje rychlost skeneru a preset skeneru, ale _ne_ _Colour shift._
+* **Copy scanner / speed settings** - zkopíruje rychlost skeneru a preset skeneru, ale _ne_ _Scanner Sync._
 * **Copy colour settings -** zkopíruje všechna nastavení kalibrace barev.
 * **Copy advanced settings -** zahrnuje point rate, smooth home position, target frame rate a všechna další pokročilá nastavení.
 

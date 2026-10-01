@@ -13,7 +13,7 @@ metaLinks:
 _free mode（免費模式）_ 除了無法輸出到雷射硬體之外，沒有其他限制。你可以練習演出、建立 timeline，並且不受限制地儲存與載入檔案。你可以在任意數量的電腦上以 _free mode（免費模式）_ 安裝 Liberation；只有在準備好使用雷射設備時，才需要授權你的安裝！
 {% endhint %}
 
-除了可以啟用的雷射數量之外，你也可以使用 DMX 燈具。請參閱 [DMX / Art-Net](../dmx-control/ "mention")。
+除了可以啟用的雷射數量之外，你也可以使用 DMX 燈具。請參閱 [DMX / Art-Net](../dmx-control/)。
 
 你可以授權 Liberation 的電腦數量也會依授權等級而有限制。
 

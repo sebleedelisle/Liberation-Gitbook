@@ -27,13 +27,25 @@ Hugtök eins og „30K“ og „50K“ eru styttingar sem byggjast á því hver
 
 Samt er þetta enn algengasta viðmiðið sem við höfum, og það getur gefið góða hugmynd um gæði skannanna, að minnsta kosti hjá virtum framleiðendum. Hjá _síður traustum_ framleiðendum er þetta þó annað mál...
 
-#### Ef þú vilt prófa skannana samkvæmt uppgefnum gildum
+#### Prófun skanna með Libera Lab
 
 {% hint style="danger" %}
 **Þetta er háþróuð aðferð og þú getur skemmt skannana ef þú ferð ekki varlega. Ekki er mælt með þessu nema þú vitir hvað þú ert að gera.**
 {% endhint %}
 
-Þú þarft að finna hugbúnað sem getur sent út [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) - ég held að LaserShowGen geti mögulega gert það - og stilla stærð úttaksins þannig að hún passi við uppgefið skönnunarhorn (t.d. 8°). Sjá ILDA-skjölin fyrir leiðbeiningar um hvernig á að greina úttakið.
+Ef þú vilt prófa hegðun skannanna utan sýningarverkefnis skaltu nota [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). Þetta er skjáborðsverkfæri fyrir Libera-samhæfða laserstýringa, hannað til að finna, prófa, forskoða og skoða laserúttak.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab er gagnlegt vegna þess að það gerir þér kleift að:
+
+* senda út þekkt prófunarmynstur, þar á meðal ILDA-prófunarmynstrið
+* hlaða inn og streyma ILDA-skrám
+* forskoða punktastrauminn áður en hann er sendur út eða á meðan
+* skoða úttakið með sveiflusjár- og skannaálagsverkfærum
+* bera saman hvernig ólík mynstur, punktatíðni og úttaksstærðir hafa áhrif á skannana
+
+Til að prófa skanna miðað við birt uppgefin gildi skaltu stilla Libera Lab á [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950), velja uppgefna punktatíðni og stilla stærð úttaksins þannig að hún passi við uppgefið skönnunarhorn (t.d. 8°). Sjá ILDA-skjölin fyrir leiðbeiningar um hvernig á að greina úttakið.
 
 #### Af hverju þetta er ekki endilega gott viðmið
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) eru almennt í lægri flokki, en satt að segja duga þei
 #### Hvernig Liberation hjálpar
 
 Í fyrsta lagi þarftu yfirleitt alls ekki mjög dýra skanna! DT með 30kpps á viðráðanlegu verði, eða jafnvel PT, duga vel. Sjálfgefnar stillingar skanna eru viljandi varfærnar og að mestu leyti _ættirðu ekki að þurfa að breyta þeim_ (fyrir utan _Scanner sync_).
+
+Ef þú vilt skilja hvað skannastillingarnar gera í raun er Libera Lab betri staður til að gera tilraunir en sýningarverkefnið þitt. Þú getur breytt punktatíðni, úttakshorni og prófunarmynstri á meðan þú fylgist með forskoðun, sveiflusjá og upplýsingum um skannaálag.
 
 Jafnvel þótt þú sért með betri skanna er engin ástæða til að keyra þá meira en þörf er á. Það lengir endingartíma þeirra verulega.
 
@@ -98,7 +112,8 @@ Góð spurning. Hér eru mín ráð:
 * Ef þú ert að vinna með grafík eru fleiri laserar í flestum tilfellum betri en hraðari skannar.
 * Þegar þú ert kominn í hágæðauppsetningar eru allir rótgrónu hágæðaframleiðendurnir góðir kostir.
 * Ef þú getur aðeins fengið ódýrustu ómerktu skannana eru sjálfgefnar stillingar Liberation nokkuð varfærnar og þú færð líklega ásættanlega niðurstöðu fyrir einfalda geislavinnu. Ef kerfið á í erfiðleikum skaltu lækka **Speed** stillinguna (en ekki breyta punktahraðanum!).
+* Ef þú vilt prófa eða bera saman stillingar skaltu gera það fyrst í Libera Lab frekar en að gera tilraunir inni í sýningarskrá.
 
 #### Og ILDA Test Pattern?
 
-…er enn mjög gagnlegt sem kvörðunar- og viðmiðunartæki, en það var aldrei hannað sem heildstætt viðmiðunarpróf og framleiðendur geta misnotað það eða túlkað það frjálslega.
+…er enn mjög gagnlegt sem kvörðunar- og viðmiðunartæki og Libera Lab auðveldar að senda það út og skoða það. En það var aldrei hannað sem heildstætt viðmiðunarpróf og framleiðendur geta misnotað það eða túlkað það frjálslega.

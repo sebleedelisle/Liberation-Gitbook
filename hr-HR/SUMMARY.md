@@ -104,6 +104,7 @@
   * [🟩 Kalibracija boje](advanced/colour-calibration.md)
 * [◼️ Savjeti za mrežu](network-advice.md)
 * [✅ Rješavanje problema](troubleshooting/README.md)
+* [✅ Poboljšanje performansi na starijim računalima](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Isprekidan ili treperav izlaz](troubleshooting/intermittent-flashing-output.md)
   * [✅ Upravljanje uživo](troubleshooting/live-control.md)
   * [✅ Pogreška o nedostajućim resursima pri pokretanju](troubleshooting/missing-resources.md)

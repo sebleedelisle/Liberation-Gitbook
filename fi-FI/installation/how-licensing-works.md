@@ -13,7 +13,7 @@ Kun olet asentanut Liberationin tietokoneellesi, se toimii _ilmaistilassa_, kunn
 _Ilmaistilassa_ ei ole muita rajoituksia kuin lähetys laser-laitteistoon. Voit harjoitella esityksiä, rakentaa aikajanoja sekä tallentaa ja ladata tiedostojasi ilman rajoituksia. Voit asentaa Liberationin _ilmaistilassa_ niin monelle tietokoneelle kuin haluat, ja sinun tarvitsee valtuuttaa asennus vasta, kun olet valmis käyttämään lasereita!
 {% endhint %}
 
-Sen lisäksi, kuinka monta laseria voit ottaa käyttöön arm-toiminnolla, voit käyttää myös DMX-laitteita. Katso [DMX / Art-Net](../dmx-control/ "mention").
+Sen lisäksi, kuinka monta laseria voit ottaa käyttöön, voit käyttää myös DMX-laitteita. Katso [DMX / Art-Net](../dmx-control/).
 
 Myös niiden tietokoneiden määrä, joihin voit valtuuttaa Liberationin, riippuu lisenssitasostasi.
 

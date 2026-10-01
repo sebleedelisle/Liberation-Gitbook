@@ -104,6 +104,7 @@
   * [🟩 Värikalibrointi](advanced/colour-calibration.md)
 * [◼️ Verkko-ohjeita](network-advice.md)
 * [✅ Vianmääritys](troubleshooting/README.md)
+* [✅ Suorituskyvyn parantaminen vanhemmilla tietokoneilla](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Output katkeilee / välkkyy](troubleshooting/intermittent-flashing-output.md)
   * [✅ Live-ohjaus](troubleshooting/live-control.md)
   * [✅ Puuttuvien resurssien virhe käynnistyksessä](troubleshooting/missing-resources.md)

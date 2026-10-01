@@ -28,4 +28,4 @@ Sinun ei tarvitse luoda uutta aluetta eri peiliasetuksia varten. X- ja Y-käänt
 
 ### Alueiden määrittäminen useille Clipeille kerralla
 
-Voit määrittää zone-kohteita ja säätää X/Y-asetuksia kaikille zone-kohteen Clip-kohteille. Lisätietoja on kohdassa [Clip-ryhmät](groups.md "mention").
+Voit määrittää zone-alueet ja säätää X/Y-arvoja kaikille samaan zone-alueeseen kuuluville Clip-kohteille. Lisätietoja on kohdassa [Clip-ryhmät](groups.md).

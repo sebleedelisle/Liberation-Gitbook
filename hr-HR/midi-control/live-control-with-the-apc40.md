@@ -27,7 +27,7 @@ Ukratko, preporučuje se Mark 2 jer ima tipke u punoj boji koje bolje odgovaraju
 Izvorni APC40 Mark 1 izašao je 2009. (!) i neki ga i dalje preferiraju zbog metalnog kućišta i robusnog oblika nalik konzoli. Ažurirani Mark 2 izašao je 2014. i, iako je prestao s proizvodnjom 2024., vraća se u proizvodnju 2025. zbog potražnje vizualnih umjetnika (Resolume itd.) i laserista.
 {% endhint %}
 
-Za potpuni popis kontrola dostupnih na APC40 pogledajte [Referenca za APC40](../reference/apc40-reference.md "mention")
+Za potpuni popis kontrola dostupnih na APC40 pogledajte [Referenca za APC40](../reference/apc40-reference.md)
 
 ### APC Mini
 

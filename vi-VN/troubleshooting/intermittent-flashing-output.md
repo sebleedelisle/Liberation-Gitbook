@@ -22,16 +22,11 @@ Có thể bạn đang gặp sự cố về mạng hoặc hiệu năng CPU:
 
 **Hiệu năng CPU**
 
-Nếu máy tính của bạn cũ hoặc cấu hình thấp, máy có thể quá chậm để chạy Liberation. Hãy kiểm tra chỉ báo tốc độ khung hình ở phía bên phải của thanh biểu tượng.
+Nếu máy tính của bạn cũ hoặc cấu hình thấp, máy có thể quá chậm để chạy Liberation. Hãy kiểm tra chỉ báo tốc độ khung hình trên top bar.
 
 Ở đó có hai con số - tốc độ khung hình thực tế và tốc độ khung hình mục tiêu. Nếu tốc độ khung hình thực tế giảm xuống dưới 30, bạn có thể gặp sự cố.
 
-Các thao tác sau có thể hữu ích:
-
-* Gỡ bỏ các laser không dùng đến, ví dụ nếu bạn chỉ có một laser được kết nối, hãy xóa các laser còn lại.
-* Chuyển sang Output view hoặc Canvas view.
-* Đóng tất cả chương trình khác, kiểm tra cài đặt tường lửa mạng, tắt phần mềm diệt virus, Dropbox, v.v.
-* Giảm độ phân giải màn hình và thu nhỏ cửa sổ Liberation.
+Để biết các cách giảm tải cho máy tính, hãy xem [Cải thiện hiệu năng trên máy cấu hình cũ](improving-performance-on-older-machines.md).
 
 Nếu các cách trên không hiệu quả, hãy cân nhắc nâng cấp máy tính.
 

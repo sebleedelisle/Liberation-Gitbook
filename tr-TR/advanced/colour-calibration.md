@@ -17,7 +17,7 @@ Lazer diyotlarının davranışı ısındıkça değişir. Kalibrasyondan önce 
 
 #### Kalibrasyon testinin çalışma şekli
 
-Kalibrasyon için test pattern kullanın (bkz. [Test pattern](../output-view/test-patterns.md "mention"))
+Kalibrasyon için test pattern kullanın (bkz. [Test pattern](../output-view/test-patterns.md))
 
 * **5** – Kırmızı
 * **6** – Yeşil

@@ -27,7 +27,7 @@ Nói ngắn gọn, nên dùng Mark 2 vì thiết bị có các nút đủ màu, 
 APC40 Mark 1 đời đầu ra mắt từ năm 2009(!) và một số người vẫn thích phiên bản này vì thân kim loại và kiểu dáng chắc chắn giống một bàn điều khiển. Phiên bản Mark 2 cập nhật ra mắt năm 2014; dù đã ngừng sản xuất vào năm 2024, thiết bị sẽ được sản xuất trở lại vào năm 2025 do nhu cầu từ các nghệ sĩ trình diễn hình ảnh (Resolume, v.v.) và người làm laser.
 {% endhint %}
 
-Để xem danh sách đầy đủ các điều khiển có trên APC40, hãy xem [Tham khảo APC40](../reference/apc40-reference.md "mention")
+Để xem danh sách đầy đủ các điều khiển có trên APC40, hãy xem [Tham khảo APC40](../reference/apc40-reference.md)
 
 ### APC Mini
 

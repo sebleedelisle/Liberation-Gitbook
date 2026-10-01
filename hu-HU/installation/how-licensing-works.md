@@ -13,7 +13,7 @@ Miután telepítetted a Liberation alkalmazást a számítógépedre, _free mode
 _free mode_ módban nincs korlátozás, kivéve a lézerhardverre történő kimenetet. Korlátozás nélkül gyakorolhatsz show-kat, építhetsz timeline-okat, valamint mentheted és betöltheted a fájljaidat. A Liberation _free mode_ módban tetszőleges számú számítógépre telepíthető, és csak akkor kell engedélyezned a telepítést, amikor készen állsz lézereket használni!
 {% endhint %}
 
-Azon felül, hogy hány lézert tehetsz _armed_ állapotba, DMX eszközöket is használhatsz. Lásd: [DMX / Art-Net](../dmx-control/ "mention").
+Azon felül, hogy hány lézert élesíthetsz, DMX eszközöket is használhatsz. Lásd: [DMX / Art-Net](../dmx-control/).
 
 A licenccsomagod azt is korlátozza, hogy hány számítógépen engedélyezheted a Liberation alkalmazást.
 

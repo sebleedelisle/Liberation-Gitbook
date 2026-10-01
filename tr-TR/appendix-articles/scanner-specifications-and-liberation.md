@@ -27,13 +27,25 @@ Bu, gerçek dünya performansının kapsamlı veya tamamen standartlaştırılm�
 
 Yine de elimizdeki en yaygın referans hâlâ budur ve en azından güvenilir üreticilerde scanner kalitesi hakkında iyi bir fikir verebilir. Ama _daha az güvenilir_ olanlarda...
 
-#### Scanner sistemlerini belirtilen değerlere göre test etmek istiyorsanız
+#### Scanner sistemlerini Libera Lab ile test etme
 
 {% hint style="danger" %}
 **Bu ileri seviye bir tekniktir ve dikkatli olmazsanız scanner sistemlerinize zarar verebilirsiniz. Ne yaptığınızı bilmiyorsanız önerilmez.**
 {% endhint %}
 
-[ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) çıktısı verebilen bir yazılım bulmanız gerekir. LaserShowGen bunu yapabiliyor olabilir diye düşünüyorum. Ardından çıkış boyutunu belirtilen tarama açısına uyacak şekilde ayarlayın (ör. 8°). Çıktıyı nasıl analiz edeceğinizle ilgili öneriler için ILDA belgelerine bakın.
+Bir gösteri projesinin dışında scanner davranışını denemek istiyorsanız [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases) kullanın. Bu, Libera uyumlu lazer kontrolcüleri için geliştirilmiş; lazer çıkışını bulma, test etme, önizleme ve inceleme amaçlı bir masaüstü aracıdır.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab şu konularda kullanışlıdır:
+
+* ILDA test pattern dahil, bilinen test pattern çıktıları verme
+* ILDA dosyalarını yükleme ve stream etme
+* nokta akışını çıkış vermeden önce veya çıkış sırasında önizleme
+* çıkışı scope ve scanner yükü araçlarıyla inceleme
+* farklı pattern türlerinin, nokta hızlarının ve çıkış boyutlarının scanner sistemlerini nasıl etkilediğini karşılaştırma
+
+Scanner sistemlerini yayımlanmış bir değere göre test etmek için Libera Lab içinde [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) seçin, belirtilen nokta hızını ayarlayın ve çıkış boyutunu belirtilen tarama açısına uyacak şekilde düzenleyin (ör. 8°). Çıktıyı nasıl analiz edeceğinizle ilgili öneriler için ILDA belgelerine bakın.
 
 #### Neden iyi bir benchmark olmayabilir?
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) genel olarak daha alt seviyededir, ancak dürüst olmak g
 #### Liberation nasıl yardımcı olur?
 
 Öncelikle, çoğu iş için gerçekten pahalı scanner sistemlerine ihtiyacınız yoktur. Uygun fiyatlı 30kpps DT, hatta PT bile yeterli olacaktır. Varsayılan scanner ayarları bilinçli olarak temkinli tutulmuştur ve çoğu durumda _bunları ayarlamanız gerekmez_ (_Scanner sync_ hariç).
+
+Scanner ayarlarının gerçekte ne yaptığını anlamak istiyorsanız denemeleri gösteri projeniz yerine Libera Lab içinde yapmak daha uygundur. Önizleme, scope ve scanner yükü bilgilerini izlerken nokta hızını, çıkış açısını ve test pattern değerini değiştirebilirsiniz.
 
 Daha iyi scanner sistemleriniz olsa bile, gerekenden daha zorlamanın bir anlamı yoktur. Bu, kullanım ömürlerini belirgin şekilde uzatır.
 
@@ -98,7 +112,8 @@ Bunun nokta yolunun “çözünürlüğü” üzerinde bir etkisi vardır, ancak
 * Grafik yapıyorsanız, çoğu durumda daha hızlı scanner yerine daha fazla lazer daha iyi sonuç verir.
 * Daha üst seviye kurulumlara geçtiğinizde, bilinen üst seviye markaların herhangi biri gayet iyi olacaktır.
 * Yalnızca en ucuz markasız scanner sistemlerini alabiliyorsanız, Liberation’ın varsayılan ayarları oldukça temkinlidir ve temel beam çalışmaları için muhtemelen kabul edilebilir sonuç alırsınız. Zorlanıyorsa **Speed** ayarını düşürün (ama point rate değerini değiştirmeyin!).
+* Ayarları test etmek veya karşılaştırmak istiyorsanız bunu bir gösteri dosyası içinde denemek yerine önce Libera Lab içinde yapın.
 
 #### Peki ILDA Test Pattern?
 
-…kalibrasyon ve referans aracı olarak hâlâ çok kullanışlıdır, ancak hiçbir zaman kapsamlı bir benchmark olarak tasarlanmamıştır ve üreticiler tarafından yanlış kullanılabilir veya gevşek şekilde yorumlanabilir.
+…kalibrasyon ve referans aracı olarak hâlâ çok kullanışlıdır; Libera Lab de bunun çıktısını almayı ve incelemeyi kolaylaştırır. Ancak hiçbir zaman kapsamlı bir benchmark olarak tasarlanmamıştır ve üreticiler tarafından yanlış kullanılabilir veya gevşek şekilde yorumlanabilir.

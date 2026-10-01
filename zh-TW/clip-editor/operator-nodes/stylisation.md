@@ -26,7 +26,7 @@ Randomise node 是 Randomise 效果的核心！
 
 為你的內容建立回聲效果，讓原始內容移動時，後方留下逐漸淡出或縮放的副本。
 
-* **change render profile for trail** – 開啟時，所有 trail 副本都會使用選取的 **render profile**。_請參閱_ [Render profile](../fundamentals/render-profile.md "mention")。
+* **change render profile for trail** – 開啟時，所有 trail 副本都會使用選取的 **render profile**。_請參閱_ [Render profile](../fundamentals/render-profile.md)。
 * **render profile** – 上方開關啟用時，trail 副本要使用的 profile。常見用法是主內容設為 **DETAIL**，但回聲以 **FAST** 來算圖；這樣主要形狀能保持清楚細節，同時更有效率地算出 trails。
 * **delay** – 以音樂時間設定 trail 副本之間的間距，單位為 **1/64 音符步進**。\
   參考如下：

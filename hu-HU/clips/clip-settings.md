@@ -14,7 +14,7 @@ A clip kimeneti méretét a _Scale X_ és _Scale Y_ segítségével módosíthat
 
 A clip vízszintes és függőleges pozícióját a _Shift X_ és _Shift Y_ segítségével módosíthatod.
 
-A _Zone Delay/Chase_ annyira szórakoztató funkció, hogy külön szakaszt kapott. [Zone delay / chase](zone-delay-chase.md "mention")
+A _Zone Delay/Chase_ annyira szórakoztató funkció, hogy külön szakaszt kapott. [Zone delay / chase](zone-delay-chase.md)
 
 ### Parameters panel
 
@@ -33,7 +33,7 @@ Ha egy clip zárolva van, nem lehet áthelyezni vagy törölni. Egy clip zárol�
 
 ### Jobb kattintásos menü
 
-Ha jobb gombbal kattintasz egy Clipre, megjelenik egy menü a Cliphez tartozó néhány beállítással. A menü első elemeiről bővebben lásd: [Bevezetés a Clip Editor használatába](../clip-editor/clip-editor-intro.md "mention"), [Clip beállításai](clip-settings.md "mention") és [Clipcsoportok](groups.md "mention").
+Ha jobb gombbal kattintasz egy Clipre, megjelenik egy menü a Cliphez tartozó néhány beállítással. A menü első elemeiről bővebben lásd: [Bevezetés a Clip Editor használatába](../clip-editor/clip-editor-intro.md), [Clip beállításai](clip-settings.md) és [Clipcsoportok](groups.md).
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

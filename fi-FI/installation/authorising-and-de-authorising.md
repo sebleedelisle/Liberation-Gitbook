@@ -29,7 +29,7 @@ Jos olet jo valtuuttanut lisenssilläsi enimmäismäärän tietokoneita, sinun o
 Jos sinulla on useita lisenssejä, sinua pyydetään valitsemaan lisenssi, johon haluat liittää tietokoneen.
 {% endhint %}
 
-Onnittelut! Liberation-asennuksesi on nyt valtuutettu, ja voit lähettää ulostuloa lasereille. Lue kuitenkin [Pika-aloitusopas](../getting-started.md "mention") ja [Lasereiden käyttöönoton prosessin yleiskatsaus](../setting-up/setting-up-lasers.md "mention") ennen kuin kytket laserit käyttövalmiiksi.
+Onnittelut! Liberation-asennuksesi on nyt valtuutettu, ja voit lähettää ulostuloa lasereille. Lue kuitenkin [Pika-aloitusopas](../getting-started.md) ja [Lasereiden käyttöönoton prosessin yleiskatsaus](../setting-up/setting-up-lasers.md) ennen kuin kytket laserit käyttövalmiiksi.
 
 {% hint style="info" %}
 Voit avata _About panel_ -paneelin milloin tahansa valikosta _Liberation -> About Liberation_ tai _Liberation -> Authorise/Deauthorise this computer_

@@ -25,6 +25,6 @@ metaLinks:
 
 ### تعيين MIDI
 
-راجع [التعيين الافتراضي لإرسال/استقبال MIDI](../reference/midi-send-receive-default-mapping.md "mention")
+راجع [التعيين الافتراضي لإرسال/استقبال MIDI](../reference/midi-send-receive-default-mapping.md)
 
 أخطط لإضافة تعيين MIDI أكثر قابلية للتخصيص في المستقبل، لكن في الوقت الحالي يمكنك استخدام تطبيقات مثل [BOME](https://www.bome.com/products/miditranslator) و[Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) للترجمة بين Liberation والعتاد المخصص لديك.

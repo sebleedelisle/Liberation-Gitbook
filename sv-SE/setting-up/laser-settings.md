@@ -41,7 +41,7 @@ Observera att korrigeringar för orientation / mirroring inte ändrar något i 3
 
 ### Copy laser settings
 
-Se [#copy-laser-settings](laser-settings.md#copy-laser-settings "mention").
+Se [#copy-laser-settings](laser-settings.md#copy-laser-settings).
 
 ### Scanner settings
 
@@ -56,10 +56,12 @@ Inställningen Speed avgör hur snabbt scanners rör sig.
 {% endhint %}
 
 {% hint style="info" %}
-Den här Speed-inställningen ändrar inte point rate, utan justerar i stället hur utspridda punkterna är. Mer information finns i [◼️ Så genererar Liberation laserinnehåll](../advanced/how-liberation-generates-laser-content.md "mention")
+Den här Speed-inställningen ändrar inte point rate, utan justerar i stället hur utspridda punkterna är. Mer information finns i [◼️ Så genererar Liberation laserinnehåll](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+Om du vill experimentera med point rate, utgångsvinkel och belastning på scannern utanför ett showprojekt, se [🟩 Scannerspecifikationer och Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 Strålen byter färg och slås på och av medan scanners flyttar runt den, och de här två sakerna är vanligtvis inte helt synkade med varandra. Justera den här inställningen för att få dem i linje igen.
 
@@ -67,18 +69,18 @@ Strålen byter färg och slås på och av medan scanners flyttar runt den, och d
 Detta kallas ibland _blank shift_, men personligen föredrar jag termen _scanner sync_ – den är lite mer exakt eftersom den justerar tajmingen för alla färgändringar i förhållande till scannerrörelsen.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-"svansar" – Colour shift är inte korrekt inställt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Inga laser-"svansar"! Colour shift är bra!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-"svansar" – Scanner Sync är inte korrekt inställt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Inga laser-"svansar"! Scanner Sync är bra!</p></figcaption></figure></div>
 
 Om du ser små "svansar" i laserutgången beror det sannolikt på att scanner sync behöver justeras. Om svansarna fortfarande visas oavsett inställning driver du troligen dina scanners/laserdrivrutiner snabbare än de klarar av. Prova att sänka scannerhastigheten.
 
 #### Scanner presets
 
-Använd detta för att välja en fördefinierad scannerinställning. Standardalternativet fungerar oftast bra, så du ska normalt inte behöva ändra den här inställningen om du inte har särskilt dåliga (eller bra) scanners. Om du vill gå djupare, se [◼️ Skannerförinställningar och renderprofiler](../advanced/scanner-presets.md "mention")
+Använd detta för att välja en fördefinierad scannerinställning. Standardalternativet fungerar oftast bra, så du ska normalt inte behöva ändra den här inställningen om du inte har särskilt dåliga (eller bra) scanners. Om du vill gå djupare, se [◼️ Skannerförinställningar och renderprofiler](../advanced/scanner-presets.md)
 
 #### Colour calibration
 
-Du kan använda det här systemet för att korrigera laserljusstyrkans kurva och vitbalans. Se [Färgkalibrering](../advanced/colour-calibration.md "mention")
+Du kan använda det här systemet för att korrigera laserljusstyrkans kurva och vitbalans. Se [Färgkalibrering](../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Du ska inte behöva ändra de här inställningarna, men om du är nyfiken kan du läsa mer i [◼️ Avancerade laserinställningar](../advanced/advanced-laser-settings.md "mention")
+Du ska inte behöva ändra de här inställningarna, men om du är nyfiken kan du läsa mer i [◼️ Avancerade laserinställningar](../advanced/advanced-laser-settings.md)

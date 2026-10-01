@@ -17,7 +17,7 @@ _مناطق هدف Canvas_ هي أقسام من Canvas يمكنك رسم Clips �
 
 ### إرسال Clips إلى مناطق هدف Canvas
 
-إذا نظرت في Clip Deck، فسترى أزرار مناطق هدف Canvas بجانب أزرار beam zone. قد تحتاج إلى تمرير أزرار Output لرؤيتها؛ استخدم `Shift + Left / Right Arrow`، أو أزرار ZONE PAGE على الشاشة، أو أزرار APC40 (راجع [مرجع APC40](../reference/apc40-reference.md "mention"))
+إذا نظرت في Clip Deck، فسترى أزرار مناطق هدف Canvas بجانب أزرار beam zone. قد تحتاج إلى تمرير أزرار Output لرؤيتها؛ استخدم `Shift + Left / Right Arrow`، أو أزرار ZONE PAGE على الشاشة، أو أزرار APC40 (راجع [مرجع APC40](../reference/apc40-reference.md))
 
 خصّص Clips لمناطق هدف Canvas بتبديل هذه الأزرار بالطريقة نفسها تمامًا التي تستخدمها مع أزرار beam zone.
 

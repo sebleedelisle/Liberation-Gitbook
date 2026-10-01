@@ -31,14 +31,14 @@ Hvis du ikke kan se canvas-knapperne i clip deck, så prøv at rulle gennem beam
 
 ### Canvas-zoner
 
-Canvas-zoner er områder i canvaset, som du vælger at sende til en laser. De vises som lyserøde rektangler med omrids i canvas-visningen. Du kan højreklikke på hver zone og vælge de lasere, den skal tildeles til. Hvis du nu skifter til _OUTPUT_-visningen for den laser, kan du se, at der er dukket en ny zone op.
+Canvas-zoner er områder i canvaset, som du vælger at sende til en laser. De vises som lyserøde rektangler med omrids i Canvas view. Du kan højreklikke på hver zone og vælge de lasere, den skal tildeles til. Hvis du nu skifter til _OUTPUT_-visningen for den laser, kan du se, at der er dukket en ny zone op.
 
 {% hint style="danger" %}
 ADVARSEL - hvis laseren er armed, kan du pludselig begynde at projicere indhold i en standard canvas-zone. Det er bedst at disarm laseren, før du tildeler canvas-zoner til den.
 {% endhint %}
 
 {% hint style="info" %}
-Du kan også tildele en canvas-zone til en laser ved at klikke på knappen _add canvas zone_ i _OUTPUT_-visningen. Se [Zoner](../output-view/zones.md "mention").
+Du kan også tildele en canvas-zone til en laser ved at klikke på knappen _add canvas zone_ i _OUTPUT_-visningen. Se [Zoner](../output-view/zones.md).
 {% endhint %}
 
 ### Guide-billeder

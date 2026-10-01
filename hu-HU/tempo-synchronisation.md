@@ -60,7 +60,7 @@ A _METRONOME_ gombbal **visszaállíthatod az ütemet**. (A _METRONOME_ gomb az 
 
 A _TEMPO_ tekerőgombot egy „kattanással” jobbra vagy balra elfordítva **kerekítheted a tempót** felfelé vagy lefelé egész BPM értékre.
 
-Lásd még: [APC40 referencia](reference/apc40-reference.md "mention")
+Lásd még: [APC40 referencia](reference/apc40-reference.md)
 
 ### Tempó igazítása
 

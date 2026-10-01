@@ -14,7 +14,7 @@ Promijenite veličinu izlaza za Clip pomoću _Scale X_ i _Scale Y_. Te su vrijed
 
 Promijenite vodoravni i okomiti položaj za Clip pomoću _Shift X_ i _Shift Y_.
 
-_Zone Delay/Chase_ toliko je zabavna značajka da ima vlastiti odjeljak. [Zone delay / chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ toliko je zabavna značajka da ima vlastiti odjeljak. [Zone delay / chase](zone-delay-chase.md)
 
 ### Panel Parameters
 
@@ -33,7 +33,7 @@ Ako je Clip zaključan, ne može se premjestiti ni izbrisati. Da biste zaključa
 
 ### Izbornik desnog klika
 
-Ako desnom tipkom miša kliknete Clip, prikazat će se izbornik s nekim opcijama za taj Clip. Pogledajte [Uvod u Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Postavke za Clip](clip-settings.md "mention") i [Clip grupe](groups.md "mention") za više informacija o prvih nekoliko stavki u ovom izborniku.
+Ako desnom tipkom miša kliknete Clip, prikazat će se izbornik s nekim opcijama za taj Clip. Pogledajte [Uvod u Clip Editor](../clip-editor/clip-editor-intro.md), [Postavke za Clip](clip-settings.md) i [Clip grupe](groups.md) za više informacija o prvih nekoliko stavki u ovom izborniku.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

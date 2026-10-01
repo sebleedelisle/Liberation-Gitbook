@@ -11,7 +11,7 @@ metaLinks:
 
 Breytir litum alls efnis sem kemur inn. Þú getur annaðhvort stillt föst HSB-gildi eða skipt yfir í gradient-kerfið og tekið liti úr sérsniðnum gradient.
 
-* **hue, saturation, brightness** - litagildin, sjá [Litastillingar og HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - litagildin, sjá [Litastillingar og HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - litblænum er ekki breytt
   * FIXED - litblær eininga er stilltur á gildið sem er valið fyrir hue
@@ -28,7 +28,7 @@ Breytir litum alls efnis sem kemur inn. Þú getur annaðhvort stillt föst HSB-
 * **blend** - hversu sterkt litabreytingin er notuð; 0% þýðir ekkert, 100% er full virkni og 50% er blanda af núverandi lit og nýju gildunum.
 
 {% hint style="info" %}
-Colour Change node tekur einn lit úr gradient fyrir allt inntakið. Ef þú vilt að gradient liggi yfir formið eftir staðsetningu skaltu nota [Breytingar eftir staðsetningu](position-based-changers.md "mention") í staðinn.
+Colour Change node tekur einn lit úr gradient fyrir allt inntakið. Ef þú vilt að gradient liggi yfir formið eftir staðsetningu skaltu nota [Breytingar eftir staðsetningu](position-based-changers.md) í staðinn.
 {% endhint %}
 
 ### Gradient-ritill

@@ -41,7 +41,7 @@ Athugaðu að leiðréttingar á stefnu / speglun breyta engu í 3D Visualiser. 
 
 ### Afrita Laser Settings
 
-Sjá [Afrita Laser Settings](laser-settings.md#copy-laser-settings "mention").
+Sjá [Afrita Laser Settings](laser-settings.md#copy-laser-settings).
 
 ### Stillingar skanna
 
@@ -56,10 +56,12 @@ Stillingin Speed ræður því hversu hratt skannarnir hreyfast.
 {% endhint %}
 
 {% hint style="info" %}
-Þessi Speed stilling breytir ekki punktatíðninni. Hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [◼️ Hvernig Liberation býr til laserefni](../advanced/how-liberation-generates-laser-content.md "mention")
+Þessi Speed stilling breytir ekki punktatíðninni. Hún stillir í staðinn hversu dreifðir punktarnir eru. Nánari upplýsingar eru í [◼️ Hvernig Liberation býr til laserefni](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+Ef þú vilt gera tilraunir með punktatíðni, úttakshorn og álag á skanna utan sýningarverkefnis, sjá [🟩 Skannaforskriftir og Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 Geislinn skiptir um lit og kveikir og slekkur á sér á meðan skannarnir færa hann til, og þessir tveir þættir eru yfirleitt ekki fullkomlega samstilltir. Stilltu þetta til að fá þá aftur í takt.
 
@@ -67,18 +69,18 @@ Geislinn skiptir um lit og kveikir og slekkur á sér á meðan skannarnir færa
 Þetta er stundum kallað _blank shift_, en mér finnst hugtakið _scanner sync_ betra - það er aðeins nákvæmara, því stillingin breytir tímasetningu allra litabreytinga miðað við hreyfingu skannanna.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>„Halar“ í leysinum - Colour shift er ekki rétt stillt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Engir „halar“ í leysinum! Colour shift er í lagi!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>„Halar“ í leysinum - Scanner Sync er ekki rétt stillt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Engir „halar“ í leysinum! Scanner Sync er í lagi!</p></figcaption></figure></div>
 
 Ef þú sérð litla „hala“ í úttaki leysisins þarf líklega að stilla Scanner sync. Ef halarnir sjást áfram sama hvað þú stillir, ertu líklega að keyra skannana eða drifbúnað leysisins hraðar en þeir ráða við. Prófaðu að lækka hraða skannanna.
 
 #### Forstillingar skanna
 
-Notaðu þetta til að velja fyrirfram hannaða stillingu fyrir skannana. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema þú sért með sérstaklega lélega (eða góða) skanna. Ef þú vilt skoða þetta nánar, sjá [◼️ Forstillingar skanna og render profiles](../advanced/scanner-presets.md "mention")
+Notaðu þetta til að velja fyrirfram hannaða stillingu fyrir skannana. Sjálfgefni valkosturinn er yfirleitt í lagi, þannig að þú ættir ekki að þurfa að breyta þessari stillingu nema þú sért með sérstaklega lélega (eða góða) skanna. Ef þú vilt skoða þetta nánar, sjá [◼️ Forstillingar skanna og render-snið](../advanced/scanner-presets.md)
 
 #### Litakvörðun
 
-Þú getur notað þetta kerfi til að leiðrétta birtuferil og hvítjöfnun leysisins. Sjá [Litakvörðun](../advanced/colour-calibration.md "mention")
+Þú getur notað þetta kerfi til að leiðrétta birtuferil og hvítjöfnun leysisins. Sjá [Litakvörðun](../advanced/colour-calibration.md)
 
 #### Ítarlegar stillingar
 
-Þú ættir ekki að þurfa að fikta í þessu, en ef þú vilt vita meira, sjá [◼️ Ítarlegar Laser Settings](../advanced/advanced-laser-settings.md "mention")
+Þú ættir ekki að þurfa að fikta í þessu, en ef þú vilt vita meira, sjá [◼️ Ítarlegar Laser Settings](../advanced/advanced-laser-settings.md)

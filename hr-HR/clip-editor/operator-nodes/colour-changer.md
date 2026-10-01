@@ -11,7 +11,7 @@ metaLinks:
 
 Mijenja boje cijelog dolaznog sadržaja. Možete postaviti fiksne HSB vrijednosti ili se prebaciti na sustav gradijenta i uzorkovati boje iz prilagođenog gradijenta.
 
-* **hue, saturation, brightness** - vrijednosti boje, pogledajte [Postavke boje i HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - vrijednosti boje, pogledajte [Postavke boje i HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - nijansa se ne mijenja
   * FIXED - nijansa elemenata postavlja se na vrijednost hue
@@ -28,7 +28,7 @@ Mijenja boje cijelog dolaznog sadržaja. Možete postaviti fiksne HSB vrijednost
 * **blend** - koliko se snažno primjenjuje promjena boje; 0% znači nimalo, 100% potpuno, a 50% kombinaciju postojeće boje i novih vrijednosti.
 
 {% hint style="info" %}
-Node Colour Change uzorkuje jednu boju iz gradijenta za cijeli ulaz. Ako želite da se gradijent proteže preko oblika prema položaju, umjesto toga upotrijebite [Mjenjače na temelju položaja](position-based-changers.md "mention").
+Node Colour Change uzorkuje jednu boju iz gradijenta za cijeli ulaz. Ako želite da se gradijent proteže preko oblika prema položaju, umjesto toga upotrijebite [Mjenjače na temelju položaja](position-based-changers.md).
 {% endhint %}
 
 ### Uređivač gradijenta

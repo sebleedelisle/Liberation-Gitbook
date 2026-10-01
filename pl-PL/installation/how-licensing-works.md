@@ -13,7 +13,7 @@ Po zainstalowaniu Liberation na komputerze program będzie działać w _trybie b
 W _trybie bezpłatnym_ nie ma żadnych ograniczeń poza wysyłaniem sygnału do sprzętu laserowego. Możesz ćwiczyć pokazy, tworzyć osie czasu oraz zapisywać i wczytywać pliki bez ograniczeń. Liberation możesz zainstalować w _trybie bezpłatnym_ na dowolnej liczbie komputerów, a instalację musisz autoryzować dopiero wtedy, gdy chcesz użyć laserów!
 {% endhint %}
 
-Oprócz limitu laserów, które możesz uzbroić, możesz także używać urządzeń DMX. Zobacz [DMX / Art-Net](../dmx-control/ "mention").
+Oprócz limitu laserów, które możesz uzbroić, możesz także używać urządzeń DMX. Zobacz [DMX / Art-Net](../dmx-control/).
 
 Obowiązuje również limit liczby komputerów, na których możesz autoryzować Liberation, zależny od Twojego poziomu licencji.
 

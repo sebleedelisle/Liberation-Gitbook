@@ -38,7 +38,7 @@ ADVARSEL – hvis laseren er armert, kan du plutselig begynne å projisere innho
 {% endhint %}
 
 {% hint style="info" %}
-Du kan også tilordne en Canvas-sone til en laser ved å klikke på _add canvas zone_-knappen i _OUTPUT_-visningen. Se [Soner](../output-view/zones.md "mention").
+Du kan også tilordne en canvas zone til en laser ved å klikke på _add canvas zone_-knappen i _OUTPUT_-visningen. Se [Soner](../output-view/zones.md).
 {% endhint %}
 
 ### Guide images

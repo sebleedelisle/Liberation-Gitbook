@@ -104,6 +104,7 @@
   * [🟩 色彩校正](advanced/colour-calibration.md)
 * [◼️ 網路建議](network-advice.md)
 * [✅ 疑難排解](troubleshooting/README.md)
+* [✅ 改善舊型電腦上的效能](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ 輸出間歇或閃爍](troubleshooting/intermittent-flashing-output.md)
   * [✅ 現場控制](troubleshooting/live-control.md)
   * [✅ 啟動時發生缺少資源錯誤](troubleshooting/missing-resources.md)

@@ -27,13 +27,25 @@ metaLinks:
 
 但它仍然是目前最廣泛使用的參考，至少在信譽良好的製造商那裡，可以讓你大致了解掃描振鏡的品質。不過如果是_比較沒那麼可靠_的廠商，就另當別論了……
 
-#### 如果你想依照標稱規格測試掃描振鏡
+#### 使用 Libera Lab 測試掃描振鏡
 
 {% hint style="danger" %}
 **這是進階技巧，如果不小心可能會損壞掃描振鏡。除非你很清楚自己在做什麼，否則不建議使用。**
 {% endhint %}
 
-你需要找到能輸出 [ILDA 測試圖案](https://ilda.com/technical.htm?r=7950)的軟體——我想 LaserShowGen 可能可以做到——並將輸出尺寸調整到符合指定的掃描角度（例如 8°）。請參考 ILDA 文件，了解如何分析輸出結果。
+如果你想在 show 專案之外實驗掃描振鏡的行為，可以使用 [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases)。這是一個適用於 Libera 相容雷射控制器的桌面工具，用來探索、測試、預覽和檢查雷射輸出。
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab 很實用，因為它可以讓你：
+
+* 輸出已知的測試圖案，包括 ILDA 測試圖案
+* 載入並串流 ILDA 檔案
+* 在輸出前或輸出時預覽點資料流
+* 使用示波器與掃描振鏡負載工具檢查輸出
+* 比較不同圖案、點速率和輸出尺寸如何影響掃描振鏡
+
+如果要依照公開標稱規格測試掃描振鏡，請將 Libera Lab 設定為 [ILDA 測試圖案](https://ilda.com/technical.htm?r=7950)，選擇標稱點速率，並將輸出尺寸調整到符合指定的掃描角度（例如 8°）。請參考 ILDA 文件，了解如何分析輸出結果。
 
 #### 為什麼它不一定是好的基準測試
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) 通常屬於較低階的等級，但老實說，對大多
 #### Liberation 如何協助
 
 首先，對大多數用途來說，你不需要非常昂貴的掃描振鏡！價格合理的 30kpps DT，甚至 PT，都可以正常使用。預設的掃描振鏡設定刻意保守，而且大多數情況下_你不需要調整它們_（除了 _Scanner sync_ 之外）。
+
+如果你想了解掃描振鏡設定實際上在做什麼，Libera Lab 會比你的 show 專案更適合用來實驗。你可以一邊查看預覽、示波器與掃描振鏡負載資訊，一邊變更點速率、輸出角度和測試圖案。
 
 即使你有更好的掃描振鏡，也沒有必要讓它們以超出需求的方式運作。這會大幅延長它們的壽命。
 
@@ -98,7 +112,8 @@ Liberation 會即時產生 point stream，這給了我們很大的彈性。請�
 * 如果你要做 graphics，在大多數情況下，增加雷射數量會比使用更快的掃描振鏡更有幫助。
 * 當你進入較高階的系統後，任何成熟的高階品牌都可以。
 * 如果你只能取得最便宜的無品牌掃描振鏡，Liberation 的預設設定相當保守，你應該仍能在基本 beam 工作上得到還可以的結果。如果它顯得吃力，請降低 **Speed** 設定（但不要改變點數率！）。
+* 如果你想測試或比較設定，請先在 Libera Lab 中進行，而不是直接在 show 檔案裡實驗。
 
 #### 那 ILDA Test Pattern 呢？
 
-……它作為校正與參考工具仍然非常有用，但它從來不是設計成完整的基準測試，而且可能被製造商誤用或寬鬆解讀。
+……它作為校正與參考工具仍然非常有用，而 Libera Lab 讓輸出與檢查它變得更容易。但它從來不是設計成完整的基準測試，而且可能被製造商誤用或寬鬆解讀。

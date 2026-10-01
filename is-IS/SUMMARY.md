@@ -104,6 +104,7 @@
   * [🟩 Litakvörðun](advanced/colour-calibration.md)
 * [◼️ Ráð um netkerfi](network-advice.md)
 * [✅ Úrræðaleit](troubleshooting/README.md)
+* [✅ Bætt afköst á eldri tölvum](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Óstöðugt / blikkandi úttak](troubleshooting/intermittent-flashing-output.md)
   * [✅ Bein stjórnun](troubleshooting/live-control.md)
   * [✅ Villa um tilföng sem vantar við ræsingu](troubleshooting/missing-resources.md)

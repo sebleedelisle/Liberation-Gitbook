@@ -11,7 +11,7 @@ metaLinks:
 
 Megváltoztatja az összes bejövő tartalom színeit. Beállíthatsz fix HSB-értékeket, vagy átválthatsz a gradiensrendszerre, és egy egyéni gradiensből mintavételezhetsz színeket.
 
-* **hue, saturation, brightness** - a színértékek, lásd: [Színbeállítások és HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - a színértékek, lásd: [Színbeállítások és HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - a hue nem módosul
   * FIXED - az elemek hue értéke a megadott hue értékre áll
@@ -28,7 +28,7 @@ Megváltoztatja az összes bejövő tartalom színeit. Beállíthatsz fix HSB-é
 * **blend** - meghatározza, milyen erősen érvényesül a színváltó: 0% esetén egyáltalán nem, 100% esetén teljes mértékben, 50% esetén pedig a meglévő szín és az új értékek keveréke.
 
 {% hint style="info" %}
-A Colour Change node a teljes bemenethez egyetlen színt mintavételez a gradiensből. Ha azt szeretnéd, hogy a gradiens pozíció alapján fusson végig az alakzaton, használd inkább ezt: [Pozícióalapú módosítók](position-based-changers.md "mention").
+A Colour Change node a teljes bemenethez egyetlen színt mintavételez a gradiensből. Ha azt szeretnéd, hogy a gradiens pozíció alapján fusson végig az alakzaton, használd inkább ezt: [Pozícióalapú módosítók](position-based-changers.md).
 {% endhint %}
 
 ### Gradiensszerkesztő

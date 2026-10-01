@@ -104,6 +104,7 @@
   * [🟩 Калибровка цвета](advanced/colour-calibration.md)
 * [◼️ Рекомендации по сети](network-advice.md)
 * [✅ Устранение неполадок](troubleshooting/README.md)
+* [✅ Повышение производительности на старых компьютерах](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Прерывистый / мигающий вывод](troubleshooting/intermittent-flashing-output.md)
   * [✅ Live-управление](troubleshooting/live-control.md)
   * [✅ Ошибка отсутствующих ресурсов при запуске](troubleshooting/missing-resources.md)

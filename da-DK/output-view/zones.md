@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zoner
 
-Den zonetype, du kommer til at bruge i de fleste af dine projekter, er _Beam zone_. Det er en zone, der er beregnet til atmosfæriske beam-effekter gennem luften. Den anden zonetype er en _Canvas zone_ (se [Grafik og Canvas-systemet](../graphics-and-the-canvas-system/ "mention")).
+Den zonetype, du kommer til at bruge i de fleste af dine projekter, er _Beam zone_. Det er en zone, der er beregnet til atmosfæriske beam-effekter gennem luften. Den anden zonetype er en _Canvas zone_ (se [Grafik og Canvas-systemet](../graphics-and-the-canvas-system/)).
 
 {% hint style="danger" %}
-**ADVARSEL - Vær ekstremt forsigtig, når du flytter zones, mens laseren kører**, og skru lysstyrken så langt ned som muligt. Se [Oversigt over opsætning af lasere](../setting-up/setting-up-lasers.md "mention") for en komplet vejledning i sikker aktivering og zoneinddeling af lasere
+**ADVARSEL - Vær ekstremt forsigtig, når du flytter zones, mens laseren kører**, og skru lysstyrken så langt ned som muligt. Se [Oversigt over opsætning af lasere](../setting-up/setting-up-lasers.md) for en komplet vejledning i sikker aktivering og zoneinddeling af lasere
 {% endhint %}
 
 Du kan klikke og trække zonerne rundt med musen. Slå et testmønster til for at se, hvor zonen rammer.
@@ -19,16 +19,16 @@ Brug piletasterne til at **nudge** den valgte zone/det valgte punkt. Hold `Shift
 {% endhint %}
 
 {% hint style="info" %}
-Tip: Du kan hurtigt kopiere zoneindstillinger på tværs af flere lasere! Se [Kopiér indstillinger mellem lasere](../setting-up/copy-laser-settings.md "mention")
+Tip: Du kan hurtigt kopiere zoneindstillinger på tværs af flere lasere! Se [Kopiér indstillinger mellem lasere](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 ### Tilføjelse af en ny beam-zone
 
-Klik på knappen _Add a new beam zone_ øverst på værktøjslinjen, så vises en ny zone. Bemærk, at beam zones sorteres i den rækkefølge, du tilføjer dem, men du kan ændre rækkefølgen. Se [Omorganisering af beam zones](re-ordering-beam-zones.md "mention")
+Klik på knappen _Add a new beam zone_ øverst på værktøjslinjen, så vises en ny zone. Bemærk, at beam zones sorteres i den rækkefølge, du tilføjer dem, men du kan ændre rækkefølgen. Se [Omorganisering af beam zones](re-ordering-beam-zones.md)
 
 ### Tilføjelse af en eksisterende canvas-zone
 
-Klik på knappen _Add existing canvas zone_, så ser du en liste over tilgængelige canvas-zoner, som du kan slå til og fra for denne laser. Se [Grafik og Canvas-systemet](../graphics-and-the-canvas-system/ "mention")
+Klik på knappen _Add existing canvas zone_, så ser du en liste over tilgængelige canvas-zoner, som du kan slå til og fra for denne laser. Se [Grafik og Canvas-systemet](../graphics-and-the-canvas-system/)
 
 ### Zoneformtyper
 
@@ -47,7 +47,7 @@ Højreklik på en zone for at åbne dens indstillinger. Fra denne højrekliksmen
 * Nulstille den til standardpositionen
 * Få adgang til indstillinger, der er specifikke for formtypen
 * Slette den
-* Tilføje en _Alt Zone_ (se [Alt zone-system](alt-zone-system.md "mention"))
+* Tilføje en _Alt Zone_ (se [Alt zone-system](alt-zone-system.md))
 
 {% hint style="danger" %}
 **ADVARSEL -** vær meget forsigtig, når du ændrer zonetypen, mens laseren er aktiv. Zonen vender tilbage til den seneste position/størrelse for den form, så outputtet kan ændre sig pludseligt. Det er bedst at slukke laseren, før du ændrer zonetypen.

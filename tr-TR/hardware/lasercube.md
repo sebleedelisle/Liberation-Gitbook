@@ -20,7 +20,7 @@ Telefon uygulaması LaserOS adını taşır ve masaüstü sürümü de vardır. 
 
 ### USB LaserCube
 
-LaserCube cihazınızı bir micro USB kablosuyla bilgisayarınıza bağlayın, ardından _Controller Assignment_ panelinde arayın. (Bkz. [Controller Assignment](../setting-up/controller-assignment.md "mention")). Otomatik olarak görünmezse _REFRESH_ düğmesine basın.
+LaserCube cihazınızı bir micro USB kablosuyla bilgisayarınıza bağlayın, ardından _Controller Assignment_ panelinde arayın. (Bkz. [Controller assignment](../setting-up/controller-assignment.md)). Otomatik olarak görünmezse _REFRESH_ düğmesine basın.
 
 ### Ağ üzerinden LaserCube “Wifi”
 
@@ -30,7 +30,7 @@ LaserCube cihazınızı bir micro USB kablosuyla bilgisayarınıza bağlayın, a
 
 LaserCube cihazınızı kablolu ağınıza bağlayın.
 
-LaserCube cihazınızı “LAN Client” moduna alın ve ağınızda bir router bulunduğundan emin olun. LaserCube, IP adresini router üzerinden alır ve ardından _Controller Assignment_ panelinde görünmelidir. (Bkz. [Controller Assignment](../setting-up/controller-assignment.md "mention")).
+LaserCube cihazınızı “LAN Client” moduna alın ve ağınızda bir router bulunduğundan emin olun. LaserCube, IP adresini router üzerinden alır ve ardından _Controller Assignment_ panelinde görünmelidir. (Bkz. [Controller assignment](../setting-up/controller-assignment.md)).
 
 {% hint style="info" %}
 Router olmadan bir ağ kurup tüm cihazlara sabit IP adresleri vermek mümkündür; etkinlik sektöründe bu oldukça yaygındır. Ben kişisel olarak ağa bir router eklemeyi tercih ediyorum ve ağ konusunda daha az deneyimli olan herkese bu seçeneği öneriyorum.

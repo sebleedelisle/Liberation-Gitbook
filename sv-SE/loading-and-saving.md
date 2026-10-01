@@ -14,7 +14,7 @@ Du kan däremot exportera din konfiguration för säkerhetskopiering och för at
 
 Projektfilen sparar nästan allt i din aktuella konfiguration, inklusive:
 
-* Allt som beskrivs i [Läsa in och spara](loading-and-saving.md#laser-settings-import-export "mention") nedan
+* Allt som beskrivs i [Läsa in och spara](loading-and-saving.md#laser-settings-import-export) nedan
 * Clips, effekter och gruppinställningar
 * Alla dina timelines (inte ljud- och videomedia)
 * Art-Net-konfiguration
@@ -30,7 +30,7 @@ Den sparar och läser för närvarande inte in:
 * Typsnitt som används i Text-noden
 
 {% hint style="danger" %}
-Ljud- och videofiler i timeline sparas inte med projektfiler, så se till att spara dem separat om du vill flytta dem till en annan dator. Se [Läsa in och spara](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Ljud- och videofiler i timeline sparas inte med projektfiler, så se till att spara dem separat om du vill flytta dem till en annan dator. Se [Viktig information om mediefiler i timeline](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Import/export av laserinställningar
@@ -67,7 +67,7 @@ Du kan lägga till clips från en exporterad clip deck-fil i ditt aktuella proje
 Alla clips som är markerade just nu exporteras till en fil. Gruppinställningar och effekter sparas inte, bara clips. Observera att aktiva clips som körs för närvarande inte exporteras om de inte också är markerade.
 
 {% hint style="info" %}
-Option/Alt - shift - klicka på Clips för att markera dem (eller använd lassot). Du ser vilka Clips som är markerade på den tjocka vita konturen runt dem. Se [Starta/stoppa Clips](clips/starting-stopping-clips.md "mention")
+Option/Alt - shift - klicka på Clips för att markera dem (eller använd lassot). Du ser vilka Clips som är markerade på den tjocka vita konturen runt dem. Se [Starta/stoppa Clips](clips/starting-stopping-clips.md)
 {% endhint %}
 
 ### Effektimport/-export
@@ -82,12 +82,12 @@ Om du bara vill importera effekterna från ett projekt väljer du _**Effects->Im
 
 ### Timeline-export
 
-Exportera en timeline-fil med en eller flera timelines. Observera att Clip Deck alltid inkluderas i exporterade timeline-filer (även om du kan välja vilka Clips du vill importera tillbaka, se [#timeline-import](loading-and-saving.md#timeline-import "mention") nedan).
+Exportera en timeline-fil med en eller flera timelines. Observera att Clip Deck alltid inkluderas i exporterade timeline-filer (även om du kan välja vilka Clips du vill importera tillbaka, se [Timeline-import](loading-and-saving.md#timeline-import) nedan).
 
 Om du har fler än en timeline i projektfilen öppnas en panel där du kan välja vilka timelines du vill exportera.
 
 {% hint style="danger" %}
-Ljud- och videofiler i timeline sparas inte med timeline-filer, så se till att spara dem separat om du vill flytta ditt innehåll till en annan dator. Se [Läsa in och spara](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Ljud- och videofiler i timeline sparas inte med timeline-filer, så se till att spara dem separat om du vill flytta ditt innehåll till en annan dator. Se [Viktig information om mediefiler i timeline](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Timeline-import

@@ -27,7 +27,7 @@ _糟了！表演到一半 USB 接頭被拔掉了！_
 最早的 APC40 Mark 1 在 2009 年推出（！），有些人到現在仍然偏好它的金屬機身結構，以及堅固、像控台一樣的外型。新版 Mark 2 在 2014 年推出，雖然曾在 2024 年停產，但因為視覺藝術家（Resolume 等）和雷射玩家的需求，預計在 2025 年恢復生產。
 {% endhint %}
 
-APC40 上所有可用控制項目的完整清單，請參閱 [APC40 參考資料](../reference/apc40-reference.md "mention")
+APC40 上所有可用控制項目的完整清單，請參閱 [APC40 參考資料](../reference/apc40-reference.md)
 
 ### APC Mini
 

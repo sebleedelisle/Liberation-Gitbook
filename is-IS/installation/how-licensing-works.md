@@ -13,7 +13,7 @@ metaLinks:
 Engar takmarkanir eru í _ókeypis ham_ nema að ekki er hægt að senda Output í laserbúnað. Þú getur æft sýningar, byggt timelines og vistað og hlaðið skrám án takmarkana. Þú getur sett Liberation upp í _ókeypis ham_ á eins mörgum tölvum og þú vilt, og þarft aðeins að virkja uppsetninguna þegar þú ætlar að nota leysa!
 {% endhint %}
 
-Auk fjölda lasera sem þú getur virkjað geturðu einnig notað DMX-ljós. Sjá [DMX / Art-Net](../dmx-control/ "mention").
+Auk fjölda lasera sem þú getur virkjað geturðu einnig notað DMX-ljós. Sjá [DMX / Art-Net](../dmx-control/).
 
 Einnig eru takmörk á því á hversu mörgum tölvum þú getur virkjað Liberation, eftir því hvaða leyfisleið þú ert með.
 

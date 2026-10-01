@@ -104,6 +104,7 @@
   * [🟩 Färgkalibrering](advanced/colour-calibration.md)
 * [◼️ Nätverksråd](network-advice.md)
 * [✅ Felsökning](troubleshooting/README.md)
+* [✅ Förbättra prestanda på äldre datorer](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Intermittent/blinkande output](troubleshooting/intermittent-flashing-output.md)
   * [✅ Live-styrning](troubleshooting/live-control.md)
   * [✅ Fel om saknade resurser vid start](troubleshooting/missing-resources.md)

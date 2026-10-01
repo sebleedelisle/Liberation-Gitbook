@@ -32,12 +32,12 @@ V Clip Editor uvidíte:
 Při úpravách zároveň uvidíte, jak Clip vypadá na pozadí ve 3D vizualizéru.
 
 {% hint style="info" %}
-Pokud ve 3D vizualizéru nevidíte žádný výstup, možná budete muset pomocí tlačítek pro zones zapnout požadované zones. Také zkontrolujte, že je zapnuté _Preview to lasers_; viz níže [Panel Clip Editor](clip-editor-intro.md#clip-editor-panel "mention").
+Pokud ve 3D vizualizéru nevidíte žádný výstup, možná budete muset pomocí tlačítek pro zones zapnout požadované zones. Také zkontrolujte, že je zapnuté _Preview to lasers_; viz níže [Panel Clip Editor](clip-editor-intro.md#clip-editor-panel).
 {% endhint %}
 
 ### Sestavení Clip
 
-Obvykle začnete jedním nebo více [Creator nodes](creator-nodes.md) a zleva doprava připojujete [Nodes typu Operator](operator-nodes/), které obsah zpracovávají. Když přesunete Creator a/nebo Operator blízko k sobě, všimnete si, že se automaticky propojí. Přetažením od sebe je zase odpojíte.
+Obvykle začnete jedním nebo více [Creator nodes](creator-nodes.md) a zleva doprava připojujete [nodes typu Operator](operator-nodes/), které obsah zpracovávají. Když přesunete Creator a/nebo Operator blízko k sobě, všimnete si, že se automaticky propojí. Přetažením od sebe je zase odpojíte.
 
 ### Přidání nodes do Clip
 
@@ -75,7 +75,7 @@ Pokud jste někdy používali analogový syntezátor, koncept oscilátorů vám 
 **Zajímavost:** název _Liberation_ byl inspirován syntezátorem Moog Liberation, „keytarem“ uvedeným v roce 1980, který proslavili Herbie Hancock, Jean-Michel Jarre a dokonce i James Brown!
 {% endhint %}
 
-Oscillators mají vždy nastavení _range_, která určují minimální a maximální hodnotu upravované vlastnosti. _Wave Oscillators_ mají vždy také nastavení _duration_, které určuje, jak rychle Oscillator mění hodnotu. Další informace najdete v části [Vlnové oscilátory](oscillators/wave-oscillators.md "mention").
+Oscillators mají vždy nastavení _range_, která určují minimální a maximální hodnotu upravované vlastnosti. _Wave Oscillators_ mají vždy také nastavení _duration_, které určuje, jak rychle Oscillator mění hodnotu. Další informace najdete v části [Vlnové oscilátory](oscillators/wave-oscillators.md).
 
 ### Panel Clip Editor
 

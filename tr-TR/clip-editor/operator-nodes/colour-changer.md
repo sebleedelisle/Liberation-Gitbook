@@ -11,7 +11,7 @@ metaLinks:
 
 Gelen tüm içeriğin renklerini değiştirir. Sabit HSB değerleri ayarlayabilir veya gradyan sistemine geçip özel bir gradyandan renk örnekleri alabilirsiniz.
 
-* **hue, saturation, brightness** - renk değerleri; bkz. [Renk ayarları ve HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - renk değerleri; bkz. [Renk ayarları ve HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - renk tonu değiştirilmez
   * FIXED - öğelerin renk tonu, hue değerine ayarlanır
@@ -28,7 +28,7 @@ Gelen tüm içeriğin renklerini değiştirir. Sabit HSB değerleri ayarlayabili
 * **blend** - renk değiştirmenin ne kadar güçlü uygulanacağını belirler. 0% hiç uygulanmaz, 100% tamamen uygulanır, 50% ise mevcut renk ile yeni değerlerin birleşimidir.
 
 {% hint style="info" %}
-Colour Change node, tüm giriş için gradyandan tek bir renk örnekler. Gradyanın konuma göre şeklin üzerine yayılmasını istiyorsanız bunun yerine [Konuma dayalı değiştiriciler](position-based-changers.md "mention") kullanın.
+Colour Change node, tüm giriş için gradyandan tek bir renk örnekler. Gradyanın konuma göre şeklin üzerine yayılmasını istiyorsanız bunun yerine [Konuma dayalı değiştiriciler](position-based-changers.md) kullanın.
 {% endhint %}
 
 ### Gradyan düzenleyici

@@ -14,7 +14,7 @@ Ettől függetlenül exportálhatod a beállításaidat biztonsági mentéshez, 
 
 A Project fájl a jelenlegi beállítások szinte minden elemét tárolja, többek között:
 
-* Mindent, ami az alábbi részben szerepel: [Laser Settings importálása/exportálása](loading-and-saving.md#laser-settings-import-export "mention")
+* Mindent, ami az alábbi részben szerepel: [Laser Settings importálása/exportálása](loading-and-saving.md#laser-settings-import-export)
 * Klipeket, effekteket és csoportbeállításokat
 * Az összes timeline-t, az audio- és videomédia kivételével
 * Art-Net-beállításokat
@@ -30,7 +30,7 @@ Jelenleg nem menti és tölti be:
 * A Text node által használt betűtípusokat
 
 {% hint style="danger" %}
-A timeline-ban lévő hang- és videofájlok nem kerülnek mentésre a projektfájlokkal, ezért ha másik számítógépre szeretné áthelyezni őket, mindenképpen mentse el külön ezeket is. Lásd: [Betöltés és mentés](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+A timeline-ban lévő hang- és videofájlok nem kerülnek mentésre a projektfájlokkal, ezért ha másik számítógépre szeretnéd áthelyezni őket, mindenképpen mentsd el külön ezeket is. Lásd: [Fontos megjegyzés a timeline médiafájljairól](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Laser settings importálása/exportálása
@@ -67,7 +67,7 @@ Az _Append Clip Deck_ használatával egy exportált clip deck fájlból klipeke
 A jelenleg kijelölt klipek egy fájlba lesznek exportálva. A csoportbeállítások és effektek nem kerülnek mentésre, csak a klipek. Fontos, hogy az éppen futó aktív klipek nem kerülnek exportálásra, hacsak nincsenek kijelölve.
 
 {% hint style="info" %}
-A Clips kijelöléséhez használd az Option/Alt - shift - click műveletet, vagy a lasszót. A kijelölt Clips elemeket a körülöttük látható vastag fehér körvonal jelzi. Lásd: [Clips indítása / leállítása](clips/starting-stopping-clips.md "mention")
+A Clips kijelöléséhez használd az Option/Alt - shift - click műveletet, vagy a lasszót. A kijelölt Clips elemeket a körülöttük látható vastag fehér körvonal jelzi. Lásd: [Clips indítása / leállítása](clips/starting-stopping-clips.md)
 {% endhint %}
 
 ### Effektek importálása/exportálása
@@ -82,12 +82,12 @@ Ha csak az effekteket szeretné importálni egy projektből, válassza az _**Eff
 
 ### Timeline exportálása
 
-Egy vagy több timeline-t tartalmazó timeline fájl exportálása. Fontos, hogy a Clip Deck mindig bekerül az exportált timeline fájlokba, bár az importáláskor kiválaszthatod, mely Clip elemeket szeretnéd visszaimportálni. Lásd: [Timeline importálása](loading-and-saving.md#timeline-import "mention") alább.
+Egy vagy több timeline-t tartalmazó timeline fájl exportálása. Fontos, hogy a Clip Deck mindig bekerül az exportált timeline fájlokba (bár az importáláskor kiválaszthatod, mely Clip elemeket szeretnéd visszaimportálni; lásd alább: [Timeline importálása](loading-and-saving.md#timeline-import)).
 
 Ha a projektfájlban egynél több timeline található, megnyílik egy panel, ahol kiválaszthatja, mely timeline-okat szeretné exportálni.
 
 {% hint style="danger" %}
-A timeline-ban lévő hang- és videofájlok nem kerülnek mentésre a timeline fájlokkal, ezért ha a tartalmat másik számítógépre szeretné áthelyezni, mindenképpen mentse el külön ezeket is. Lásd: [Betöltés és mentés](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+A timeline-ban lévő hang- és videofájlok nem kerülnek mentésre a timeline fájlokkal, ezért ha a tartalmat másik számítógépre szeretnéd áthelyezni, mindenképpen mentsd el külön ezeket is. Lásd: [Fontos megjegyzés a timeline médiafájljairól](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Timeline importálása

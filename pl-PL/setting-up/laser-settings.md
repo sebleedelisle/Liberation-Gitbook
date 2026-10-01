@@ -41,7 +41,7 @@ Pamiętaj, że korekcje orientacji i odbicia lustrzanego nie zmieniają niczego 
 
 ### Copy laser settings
 
-Zobacz [#copy-laser-settings](laser-settings.md#copy-laser-settings "mention").
+Zobacz [Kopiowanie ustawień lasera](laser-settings.md#copy-laser-settings).
 
 ### Ustawienia skanerów
 
@@ -56,10 +56,12 @@ Chociaż ustawienia domyślne są dość zachowawcze, nadal możesz uszkodzić s
 {% endhint %}
 
 {% hint style="info" %}
-To ustawienie prędkości nie zmienia częstotliwości punktów. Zamiast tego reguluje, jak bardzo punkty są od siebie oddalone. Więcej informacji znajdziesz w [◼️ Jak Liberation generuje treści laserowe](../advanced/how-liberation-generates-laser-content.md "mention")
+To ustawienie prędkości nie zmienia częstotliwości punktów. Zamiast tego reguluje, jak bardzo punkty są od siebie oddalone. Więcej informacji znajdziesz w [◼️ Jak Liberation generuje treści laserowe](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+Jeśli chcesz poeksperymentować z częstotliwością punktów, kątem wyjściowym i obciążeniem skanerów poza projektem pokazu, zobacz [🟩 Specyfikacje skanerów i Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 Wiązka zmienia kolor oraz włącza się i wyłącza, gdy skanery przesuwają ją po obszarze projekcji. Te dwa procesy zwykle nie są idealnie zsynchronizowane. Dostosuj to ustawienie, aby je wyrównać.
 
@@ -67,18 +69,18 @@ Wiązka zmienia kolor oraz włącza się i wyłącza, gdy skanery przesuwają j�
 To ustawienie bywa nazywane _blank shift_, ale osobiście wolę termin _scanner sync_ — jest nieco dokładniejszy, ponieważ reguluje synchronizację wszystkich zmian koloru względem ruchu skanerów.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserowe „ogonki” — Colour shift nie jest ustawiony prawidłowo</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Brak laserowych „ogonków”! Colour shift ustawiony poprawnie!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserowe „ogonki” — Scanner Sync nie jest ustawiony prawidłowo</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Brak laserowych „ogonków”! Scanner Sync ustawiony poprawnie!</p></figcaption></figure></div>
 
 Jeśli na wyjściu lasera widzisz małe „ogonki”, prawdopodobnie trzeba wyregulować synchronizację skanera. Jeśli ogonki pojawiają się niezależnie od ustawienia, najpewniej sterujesz skanerami lub driverami lasera szybciej, niż są w stanie obsłużyć. Spróbuj zmniejszyć prędkość skanera.
 
 #### Presety skanerów
 
-Użyj tej opcji, aby wybrać gotowe ustawienie skanera. Opcja domyślna zwykle jest odpowiednia, więc nie powinno być potrzeby zmiany tego ustawienia, chyba że masz wyjątkowo słabe (albo wyjątkowo dobre) skanery. Jeśli chcesz wejść głębiej w temat, zobacz [◼️ Presety skanera i profile renderowania](../advanced/scanner-presets.md "mention")
+Użyj tej opcji, aby wybrać gotowe ustawienie skanera. Opcja domyślna zwykle jest odpowiednia, więc nie powinno być potrzeby zmiany tego ustawienia, chyba że masz wyjątkowo słabe (albo wyjątkowo dobre) skanery. Jeśli chcesz wejść głębiej w temat, zobacz [◼️ Presety skanera i profile renderowania](../advanced/scanner-presets.md)
 
 #### Kalibracja koloru
 
-Możesz użyć tego systemu do skorygowania krzywej jasności i balansu bieli lasera. Zobacz [Kalibracja kolorów](../advanced/colour-calibration.md "mention")
+Możesz użyć tego systemu do skorygowania krzywej jasności i balansu bieli lasera. Zobacz [Kalibracja kolorów](../advanced/colour-calibration.md)
 
 #### Ustawienia zaawansowane
 
-Nie powinno być potrzeby zmieniania tych ustawień, ale jeśli chcesz dowiedzieć się więcej, zobacz [◼️ Zaawansowane ustawienia lasera](../advanced/advanced-laser-settings.md "mention")
+Nie powinno być potrzeby zmieniania tych ustawień, ale jeśli chcesz dowiedzieć się więcej, zobacz [◼️ Zaawansowane ustawienia lasera](../advanced/advanced-laser-settings.md)

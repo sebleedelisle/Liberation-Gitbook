@@ -27,13 +27,25 @@ Det är inte ett heltäckande eller fullt standardiserat mått på prestanda i v
 
 Men det är fortfarande den mest använda referensen vi har, och den kan ge en bra bild av scannrarnas kvalitet, åtminstone hos seriösa tillverkare. Hos _mindre seriösa_ tillverkare däremot...
 
-#### Om du vill testa scannrarna enligt deras angivna specifikation
+#### Testa scannrar med Libera Lab
 
 {% hint style="danger" %}
 **Det här är en avancerad teknik och du kan skada dina scannrar om du inte är försiktig. Rekommenderas inte om du inte vet vad du gör.**
 {% endhint %}
 
-Du behöver hitta mjukvara som kan mata ut [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) – jag tror att LaserShowGen kanske kan göra det – och justera utmatningsstorleken så att den motsvarar den angivna skanningsvinkeln (t.ex. 8°). Se ILDA-dokumentationen för råd om hur du analyserar utsignalen.
+Om du vill experimentera med scannrarnas beteende utanför ett showprojekt kan du använda [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). Det är ett skrivbordsverktyg för Libera-kompatibla laser controllers, utformat för att hitta, testa, förhandsgranska och inspektera laser output.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab är användbart eftersom du kan:
+
+* mata ut kända testmönster, inklusive ILDA-testmönstret
+* läsa in och streama ILDA-filer
+* förhandsgranska punktströmmen före eller under utmatning
+* inspektera output med scope- och scanner-load-verktyg
+* jämföra hur olika mönster, punktfrekvenser och utmatningsstorlekar påverkar scannrarna
+
+För att testa scannrar mot en publicerad specifikation ställer du in Libera Lab på [ILDA-testmönstret](https://ilda.com/technical.htm?r=7950), väljer den angivna punktfrekvensen och justerar utmatningsstorleken så att den motsvarar den angivna skanningsvinkeln (t.ex. 8°). Se ILDA-dokumentationen för råd om hur du analyserar utsignalen.
 
 #### Varför det kanske inte är ett bra riktmärke
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) ligger generellt på en lägre nivå, men ärligt talat �
 #### Hur Liberation hjälper
 
 För det första: för det mesta behöver du inte riktigt dyra scannrar! Prisvärda 30kpps DT, eller till och med PT, fungerar bra. Standardinställningarna för scannrar är avsiktligt konservativa och i de flesta fall _ska du inte behöva justera dem_ (förutom _Scanner sync_).
+
+Om du vill förstå vad scanner-inställningarna faktiskt gör är Libera Lab ett bättre ställe att experimentera i än ditt showprojekt. Du kan ändra punktfrekvens, utmatningsvinkel och testmönster samtidigt som du tittar på förhandsvisningen, scope och scanner-load-informationen.
 
 Även om du har bättre scannrar finns det ingen poäng med att driva dem hårdare än nödvändigt. Det förlänger deras livslängd avsevärt.
 
@@ -98,7 +112,8 @@ Bra fråga. Här är mina tips:
 * Om du arbetar med grafik är fler lasrar i de flesta fall bättre än snabbare scannrar.
 * När du kommer upp till mer avancerade system fungerar vilket som helst av de etablerade high-end-märkena bra.
 * Om du bara kan få tag på de billigaste omärkta scannrarna är Liberations standardinställningar ganska konservativa, och du får förmodligen okej resultat för grundläggande beam-arbete. Om systemet får problem, sänk inställningen **Speed** (men ändra inte punkthastigheten!).
+* Om du vill testa eller jämföra inställningar bör du göra det i Libera Lab först, i stället för att experimentera i en showfil.
 
 #### Och ILDA Test Pattern?
 
-…är fortfarande mycket användbart som kalibrerings- och referensverktyg, men det var aldrig avsett som ett heltäckande riktmärke och kan missbrukas eller tolkas löst av tillverkare.
+…är fortfarande mycket användbart som kalibrerings- och referensverktyg, och Libera Lab gör det enklare att mata ut och inspektera det. Men det var aldrig avsett som ett heltäckande riktmärke och kan missbrukas eller tolkas löst av tillverkare.

@@ -27,13 +27,25 @@ Není to komplexní ani plně standardizované měření výkonu v reálném pro
 
 Stále je to ale nejpoužívanější reference, kterou máme, a může dát dobrou představu o kvalitě skenerů, alespoň u renomovaných výrobců. U těch _méně renomovaných_ ovšem...
 
-#### Pokud chcete skenery otestovat podle jejich uváděných parametrů
+#### Testování skenerů pomocí Libera Lab
 
 {% hint style="danger" %}
 **Toto je pokročilý postup a při neopatrnosti můžete skenery poškodit. Nedoporučuje se, pokud přesně nevíte, co děláte.**
 {% endhint %}
 
-Budete muset najít software, který dokáže výstupem poslat [testovací obrazec ILDA](https://ilda.com/technical.htm?r=7950) – myslím, že LaserShowGen to možná umí – a nastavit velikost výstupu tak, aby odpovídala uvedenému úhlu skenování (např. 8°). Pokyny k analýze výstupu najdete v dokumentaci ILDA.
+Pokud chcete experimentovat s chováním skenerů mimo projekt show, použijte [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). Je to desktopový nástroj pro laserové kontroléry kompatibilní s Libera, určený k vyhledávání, testování, náhledu a kontrole laserového výstupu.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab je užitečný, protože umožňuje:
+
+* posílat na výstup známé testovací obrazce, včetně testovacího obrazce ILDA
+* načítat a streamovat soubory ILDA
+* zobrazit náhled proudu bodů před výstupem nebo během něj
+* kontrolovat výstup pomocí osciloskopického náhledu a nástrojů pro zatížení skenerů
+* porovnávat, jak různé obrazce, bodové frekvence a velikosti výstupu ovlivňují skenery
+
+Chcete-li skenery otestovat podle zveřejněných parametrů, nastavte v Libera Lab [testovací obrazec ILDA](https://ilda.com/technical.htm?r=7950), zvolte udávanou bodovou frekvenci a upravte velikost výstupu tak, aby odpovídala uvedenému úhlu skenování (např. 8°). Pokyny k analýze výstupu najdete v dokumentaci ILDA.
 
 #### Proč to nemusí být dobrý benchmark
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) jsou obecně nižší třída, ale upřímně řečeno bu
 #### Jak pomáhá Liberation
 
 Především: pro většinu věcí opravdu nepotřebujete drahé skenery. Cenově dostupné DT 30kpps, nebo dokonce PT, budou stačit. Výchozí nastavení skenerů jsou záměrně konzervativní a ve většině případů _byste je neměli potřebovat upravovat_ (kromě _Scanner sync_).
+
+Pokud chcete pochopit, co nastavení skenerů skutečně dělají, Libera Lab je pro experimentování lepší místo než váš projekt show. Můžete měnit bodovou frekvenci, výstupní úhel a testovací obrazec a přitom sledovat náhled, osciloskopické zobrazení a informace o zatížení skenerů.
 
 I když máte lepší skenery, nemá smysl je zatěžovat víc, než je potřeba. Výrazně tím prodloužíte jejich životnost.
 
@@ -98,7 +112,8 @@ Dobrá otázka. Tady jsou moje tipy:
 * Pokud děláte grafiku, ve většině případů bude lepší mít více laserů než rychlejší skenery.
 * Jakmile se dostanete k vyšší třídě sestav, jakákoli zavedená špičková značka bude v pořádku.
 * Pokud seženete jen nejlevnější neznačkové skenery, výchozí nastavení Liberation jsou poměrně konzervativní a pro základní práci s paprsky pravděpodobně dosáhnete přijatelných výsledků. Pokud to bude mít potíže, snižte nastavení **Speed** (ale neměňte bodovou frekvenci!).
+* Pokud chcete nastavení otestovat nebo porovnat, udělejte to nejprve v Libera Lab, místo abyste experimentovali přímo v souboru show.
 
 #### A co testovací obrazec ILDA?
 
-…je stále velmi užitečný jako kalibrační a referenční nástroj, ale nikdy nebyl navržen jako komplexní benchmark a výrobci ho mohou zneužívat nebo vykládat volně.
+…je stále velmi užitečný jako kalibrační a referenční nástroj a Libera Lab usnadňuje jeho výstup i kontrolu. Nikdy ale nebyl navržen jako komplexní benchmark a výrobci ho mohou zneužívat nebo vykládat volně.

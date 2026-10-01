@@ -32,7 +32,7 @@ Những gì bạn sẽ thấy trong Clip Editor:
 Trong khi chỉnh sửa, bạn cũng sẽ thấy clip trông như thế nào trong trình trực quan hóa 3D ở nền phía sau.
 
 {% hint style="info" %}
-Nếu bạn không thấy output nào trong trình trực quan hóa 3D, có thể bạn cần dùng các nút zone để bật những zone mong muốn. Bạn cũng cần đảm bảo đã bật _Preview to lasers_; xem [Giới thiệu về Clip Editor](clip-editor-intro.md#clip-editor-panel "mention") bên dưới.
+Nếu bạn không thấy output nào trong trình trực quan hóa 3D, có thể bạn cần dùng các nút zone để bật những zone mong muốn. Bạn cũng cần đảm bảo đã bật _Preview to lasers_; xem [Giới thiệu về Clip Editor](clip-editor-intro.md#clip-editor-panel) bên dưới.
 {% endhint %}
 
 ### Xây dựng một clip
@@ -75,7 +75,7 @@ Nếu bạn từng dùng synthesizer analog, bạn sẽ quen với khái niệm 
 **Thông tin thú vị:** tên _Liberation_ được lấy cảm hứng từ Moog Liberation, một synthesizer “keytar” ra mắt năm 1980 và trở nên nổi tiếng nhờ Herbie Hancock, Jean-Michel Jarre, thậm chí cả James Brown!
 {% endhint %}
 
-Oscillator luôn có các thiết lập _range_ để điều khiển giá trị tối thiểu và tối đa của thuộc tính cần điều chỉnh. Và _Wave Oscillators_ luôn có thiết lập _duration_ để xác định tốc độ Oscillator thay đổi giá trị. Xem [Bộ dao động dạng sóng](oscillators/wave-oscillators.md "mention") để biết thêm thông tin.
+Oscillator luôn có các thiết lập _range_ để điều khiển giá trị tối thiểu và tối đa của thuộc tính cần điều chỉnh. Và _Wave Oscillators_ luôn có thiết lập _duration_ để xác định tốc độ Oscillator thay đổi giá trị. Xem [Bộ dao động dạng sóng](oscillators/wave-oscillators.md) để biết thêm thông tin.
 
 ### Panel Clip Editor
 

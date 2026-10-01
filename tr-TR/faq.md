@@ -22,7 +22,7 @@ Kaç lazer kontrol etmek istediğinize bağlıdır. Yalnızca birkaç lazer kull
 
 #### **Liberation ile kaç lazer kontrol edebilirim?**
 
-Liberation tek bir bilgisayarda çok sayıda lazer çalıştırabilir. 100’den fazla laser controller ile test edilmiştir; bu yüzden yanıt şunlara bağlıdır:
+Liberation tek bir bilgisayarda çok, çok sayıda lazer çalıştırabilir. 100’den fazla lazer ile test edilmiştir; bu yüzden yanıt şunlara bağlıdır:
 
 * bilgisayarınızın CPU’su
 * ağ hızı
@@ -30,13 +30,13 @@ Liberation tek bir bilgisayarda çok sayıda lazer çalıştırabilir. 100’den
 
 #### **Hangi MIDI controller cihazlarını kullanabilirim?**
 
-Liberation, popüler APC40 Mk2 MIDI controller etrafında tasarlanmış ve optimize edilmiştir. APC40 Mk1 ile de çalışır. Bkz. [Canlı MIDI controller cihazları](midi-control/live-control-with-the-apc40.md "mention")
+Liberation, popüler APC40 Mk2 MIDI controller etrafında tasarlanmış ve optimize edilmiştir. APC40 Mk1 ile de çalışır. Bkz. [Canlı MIDI controller cihazları](midi-control/live-control-with-the-apc40.md)
 
 Liberation, APC Mini ve MIDI Fighter Twister desteği de sunar. APC40 Mk2 hâlâ en kapsamlı referans controller seçeneğidir.
 
-Ek MIDI kontrolü sunan MIDI Send/Receive sistemi de vardır. Bkz. [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
+Ek MIDI kontrolü sunan MIDI Send/Receive sistemi de vardır. Bkz. [MIDI Send/Receive](midi-control/midi-send-receive.md)
 
-Daha fazla bilgi için bkz. [MIDI kontrolü](midi-control/ "mention").
+Daha fazla bilgi için bkz. [MIDI kontrolü](midi-control/).
 
 #### **Herhangi bir MIDI controller ile kullanabilir miyim?**
 
@@ -53,7 +53,7 @@ Diğer controller için MIDI Send/Receive sistemini veya Liberation’ın varsay
 * LaserCube ağ protokolü (kablolu bağlantıyla)
 * [LASollinger lazerlerinde](https://laseranimation.com/en/) kullanılan AVB (şu anda yalnızca macOS’ta test aşamasında)
 
-Daha fazla bilgi için bkz. [Uyumlu lazerler ve controller cihazları (DAC)](hardware/compatible-lasers-and-controllers-dacs.md "mention")
+Daha fazla bilgi için bkz. [Uyumlu lazerler ve controller cihazları (DAC)](hardware/compatible-lasers-and-controllers-dacs.md)
 
 #### **Neden \[başka marka] laser controller desteği yok?**
 
@@ -69,11 +69,11 @@ Lazerinizde aşağıdakilerden biri varsa Liberation ile kullanabilirsiniz:
 * **Dahili Mercury sistemi bulunan bir X-Laser ünitesi** (Ether Dream modunda).
 * **Dahili AVB bulunan LaserAnimation Sollinger projektör** (yalnızca macOS, AVB uyumlu ağ cihazları gerektirir, şu anda test aşamasında).
 
-Daha fazla bilgi için bkz. [Uyumlu lazerler ve controller cihazları (DAC)](hardware/compatible-lasers-and-controllers-dacs.md "mention")
+Daha fazla bilgi için bkz. [Uyumlu lazerler ve controller cihazları (DAC)](hardware/compatible-lasers-and-controllers-dacs.md)
 
 #### **Liberation’ı LaserCube ile kullanabilir miyim?**
 
-Evet, Liberation herhangi bir LaserCube ile doğrudan çalışır. Bkz. [LaserCube](hardware/lasercube.md "mention")
+Evet, Liberation herhangi bir LaserCube ile doğrudan çalışır. Bkz. [LaserCube](hardware/lasercube.md)
 
 ## Lisanslar
 
@@ -89,23 +89,35 @@ Güncel lisans seçenekleri için [mağaza](https://liberationlaser.com/shop) sa
 
 #### **Daha yüksek bir kademeye geçebilir miyim?**
 
-İstediğiniz zaman daha yüksek bir kademeye geçebilirsiniz. Mevcut ücretli döneminizde kalan süre için kısmi iade alırsınız ve yeni lisans kademeniz hemen başlar. Bkz. [Lisansınızı yükseltme veya düşürme](installation/upgrade-downgrade-your-license.md "mention")
+İstediğiniz zaman daha yüksek bir kademeye geçebilirsiniz. Mevcut ücretli döneminizde kalan süre için kısmi iade alırsınız ve yeni lisans kademeniz hemen başlar. Bkz. [Lisansınızı yükseltme veya düşürme](installation/upgrade-downgrade-your-license.md)
 
 #### **Lisansımı düşürebilir miyim?**
 
-İstediğiniz zaman daha düşük bir kademeye geçebilirsiniz, ancak değişiklik mevcut ücretli döneminizin sonunda yürürlüğe girer. Bkz. [Lisansınızı yükseltme veya düşürme](installation/upgrade-downgrade-your-license.md "mention")
+İstediğiniz zaman daha düşük bir kademeye geçebilirsiniz, ancak değişiklik mevcut ücretli döneminizin sonunda yürürlüğe girer. Bkz. [Lisansınızı yükseltme veya düşürme](installation/upgrade-downgrade-your-license.md)
 
 #### **Lisans ödemelerimi duraklatabilir miyim?**
 
-Evet. Lisans bir sonraki abonelik tarihinde duraklatılabilir ve istediğiniz zaman yeniden başlatılabilir. Kullanımınız dönem dönem başlayıp duruyorsa bu işinize yarar; kart bilgilerinizi yeniden girmeniz gerekmez. Bkz. [Ödemeleri duraklatma veya iptal etme](installation/cancel-your-subscription.md "mention")
+Evet. Lisans bir sonraki abonelik tarihinde duraklatılabilir ve istediğiniz zaman yeniden başlatılabilir. Kullanımınız dönem dönem başlayıp duruyorsa bu işinize yarar; kart bilgilerinizi yeniden girmeniz gerekmez. Bkz. [Ödemeleri duraklatma veya iptal etme](installation/cancel-your-subscription.md)
 
 #### **Lisansımı tamamen nasıl iptal ederim?**
 
-Yinelenen lisansınızı istediğiniz zaman iptal edebilirsiniz; mevcut ücretli dönemin sonunda otomatik olarak devre dışı kalır. Bkz. [Ödemeleri duraklatma veya iptal etme](installation/cancel-your-subscription.md "mention")
+Yinelenen lisansınızı istediğiniz zaman iptal edebilirsiniz; mevcut ücretli dönemin sonunda otomatik olarak devre dışı kalır. Bkz. [Ödemeleri duraklatma veya iptal etme](installation/cancel-your-subscription.md)
+
+#### **Liberation neden abonelikle sunuluyor?**
+
+Kısa açıklaması şu: Bu model Liberation’ın sürdürülebilir, aktif olarak geliştirilen ve adil kalmasını sağlar; aynı zamanda herkesin ücret ödemeden gösterileri açmasına, düzenlemesine, kaydetmesine, pratik yapmasına ve önizlemesine izin verir.
+
+Bunun arkasındaki düşünceyi burada daha ayrıntılı anlattım: [Liberation neden abonelik kullanıyor](https://liberationlaser.com/articles/why-a-subscription).
+
+#### **Kurulumum / turne prodüksiyonum için kalıcı veya uzun vadeli lisans alabilir miyim?**
+
+Kalıcı kurulumlar ve turne prodüksiyonları için yıllık (hatta çok yıllık) ön ödemeli lisanslar sunulabilir. Böyle bir lisans ayarlamak isterseniz [billing@liberationlaser.com](mailto:billing@liberationlaser.com) adresine e-posta gönderin.
+
+Kalıcı lisanslar şu anda sunulmuyor. Daha fazla bağlam için bkz. [Liberation neden abonelik kullanıyor](https://liberationlaser.com/articles/why-a-subscription).
 
 #### **Bilgisayarımı lisansımla nasıl yetkilendiririm?**
 
-Bir lisans satın aldıktan sonra bilgisayarı Liberation yazılımının içinden yetkilendirebilirsiniz. _About_ ekranında, web sitesinde oturum açmanızı isteyen bir _Authorise_ düğmesi göreceksiniz. Yetkilendirme işlemini tamamlamak için ekrandaki talimatları izleyin. Bkz. [Yetkilendirme ve yetkiyi kaldırma](installation/authorising-and-de-authorising.md "mention")
+Bir lisans satın aldıktan sonra bilgisayarı Liberation yazılımının içinden yetkilendirebilirsiniz. _About_ ekranında, web sitesinde oturum açmanızı isteyen bir _Authorise_ düğmesi göreceksiniz. Yetkilendirme işlemini tamamlamak için ekrandaki talimatları izleyin. Bkz. [Yetkilendirme ve yetkiyi kaldırma](installation/authorising-and-de-authorising.md)
 
 #### **Bilgisayarımı internete ne sıklıkla bağlamam gerekir?**
 
@@ -121,7 +133,7 @@ Aylık yinelenen ücretli lisanslarda Liberation genellikle, ücretli lisansın�
 
 #### **Liberation’ı kaç bilgisayara kurabilirim?**
 
-Liberation’ı istediğiniz kadar bilgisayara kurabilirsiniz. Lisans yetkilendirmesi yalnızca lazer/DMX çıkışını etkinleştirmek için gerekir ve lisans kademeniz aynı anda kaç bilgisayarın çıkış için yetkilendirilebileceğini belirler. Bkz. [Lisanslama nasıl çalışır](installation/how-licensing-works.md "mention")
+Liberation’ı istediğiniz kadar bilgisayara kurabilirsiniz. Lisans yetkilendirmesi yalnızca lazer/DMX çıkışını etkinleştirmek için gerekir ve lisans kademeniz aynı anda kaç bilgisayarın çıkış için yetkilendirilebileceğini belirler. Bkz. [Lisanslama nasıl çalışır](installation/how-licensing-works.md)
 
 #### **Lisansımı bir bilgisayardan diğerine nasıl taşırım?**
 
@@ -131,7 +143,7 @@ Liberation’ı istediğiniz kadar bilgisayara kurabilirsiniz. Lisans yetkilendi
 * _About_ ekranındaki _Authorise this computer_ düğmesine tıklayın.
 * Web sitesi açılır; oturum açın ve yetkilendirmeyi tamamlamak için ekrandaki talimatları izleyin
 
-Artık erişiminiz olmayan bir bilgisayarın yetkisini uzaktan da kaldırabilirsiniz (bazı sınırlamalarla). Bkz. [Yetkilendirme ve yetkiyi kaldırma](installation/authorising-and-de-authorising.md "mention")
+Artık erişiminiz olmayan bir bilgisayarın yetkisini uzaktan da kaldırabilirsiniz (bazı sınırlamalarla). Bkz. [Yetkilendirme ve yetkiyi kaldırma](installation/authorising-and-de-authorising.md)
 
 #### **Kaybolan veya çalınan bir bilgisayarda Liberation yetkisini kaldırabilir miyim?**
 
@@ -143,11 +155,11 @@ Aksi durumda yetki kaldırma işlemi, lisans bir sonraki kez yenilendiğinde vey
 
 #### Varsayılan kurulumda 8 lazer var - bunu nasıl değiştiririm?
 
-Bkz. [Projenizi ayarlama](setting-up/setting-up-your-project.md "mention") ve [Lazer ekleme/kaldırma](setting-up/adding-removing-lasers.md "mention")
+Bkz. [Projenizi ayarlama](setting-up/setting-up-your-project.md) ve [Lazer ekleme/kaldırma](setting-up/adding-removing-lasers.md)
 
 #### Bir lazerdeki zone ayarlarını diğerlerine kopyalayabilir miyim?
 
-Evet! Bkz. [Zone ayarlarını lazerler arasında kopyalama](output-view/copy-zones-between-lasers.md "mention")
+Evet! Bkz. [Zone ayarlarını lazerler arasında kopyalama](output-view/copy-zones-between-lasers.md)
 
 #### Kaydırıcı kullanmak yerine sayı yazabilir miyim?
 
@@ -155,42 +167,42 @@ Evet. `Cmd / Ctrl` tuşuna basılı tutarak kaydırıcıya tıklayın; değeri k
 
 #### **Liberation’ı müzikle nasıl senkronize ederim?**
 
-Beklediğiniz gibi çalışan akıllı bir “tap tempo” sistemi vardır; ayrıca harici MIDI clock veya Ableton Link de kullanabilirsiniz. Bkz. [Tempo / senkronizasyon](tempo-synchronisation.md "mention"). Zaman çizelgesi, herhangi bir ses arayüzü üzerinden gelen LTC/SMPTE timecode ile senkronize edilebilir. Bkz. [Timecode](timecode.md "mention").
+Beklediğiniz gibi çalışan akıllı bir “tap tempo” sistemi vardır; ayrıca harici MIDI clock veya Ableton Link de kullanabilirsiniz. Bkz. [Tempo / senkronizasyon](tempo-synchronisation.md). Zaman çizelgesi, herhangi bir ses arayüzü üzerinden gelen LTC/SMPTE timecode ile senkronize edilebilir. Bkz. [Timecode](timecode.md).
 
 #### Lazerden en iyi çıkışı almak için hangi ayarları yapmam gerekir?
 
-Ana ayar _Colour Shift_ ayarıdır; bu ayar aynaların hareket etmesiyle lazerlerin parlaklık değiştirmesi arasındaki küçük gecikmeyi telafi eder. Lazer noktalarında/ışınlarında küçük “kuyruklar” varsa bunu ayarlamanız gerekir. (“Kuyruk” örneği için [Lazer çıkışı ayarları paneli](setting-up/laser-settings.md "mention") sayfasındaki fotoğraflara bakın)
+Ana ayar _Scanner Sync_ ayarıdır; bu ayar aynaların hareket etmesiyle lazerlerin parlaklık değiştirmesi arasındaki küçük gecikmeyi telafi eder. Lazer noktalarında/ışınlarında küçük “kuyruklar” varsa bunu ayarlamanız gerekir. (“Kuyruk” örneği için [Lazer çıkışı ayarları paneli](setting-up/laser-settings.md) sayfasındaki fotoğraflara bakın)
 
 Scanner hızını da değiştirmeyi deneyebilirsiniz: scanner’larınız basitse daha yavaş, iyiyse daha hızlı kullanabilirsiniz. Ancak **dikkatli olun; scanner’ları çok zorlamak onlara zarar verebilir.**
 
 Bazı hazır scanner ayarları da vardır. Varsayılan seçenek temkinlidir ve çoğu lazer ışını gereksinimi için uygundur. Daha iyi scanner’larınız varsa başka preset seçenekleri, grafikler için ayarlanmış preset seçenekleri de vardır.
 
-Daha fazla bilgi için bkz. [Lazer çıkışı ayarları paneli](setting-up/laser-settings.md "mention"); kendi preset ayarlarınızı oluşturma hakkında bilgi için bkz. [◼️ Scanner preset ayarları ve render profilleri](advanced/scanner-presets.md "mention") (ileri seviye, hazırlanıyor)
+Daha fazla bilgi için bkz. [Lazer çıkışı ayarları paneli](setting-up/laser-settings.md); kendi preset ayarlarınızı oluşturma hakkında bilgi için bkz. [◼️ Scanner preset ayarları ve render profilleri](advanced/scanner-presets.md) (ileri seviye, hazırlanıyor)
 
-Renk dengesini _Colour calibration_ ayarlarıyla da düzeltebilirsiniz. Bkz. [Renk kalibrasyonu](advanced/colour-calibration.md "mention") (ileri seviye teknik)
+Renk dengesini _Colour calibration_ ayarlarıyla da düzeltebilirsiniz. Bkz. [Renk kalibrasyonu](advanced/colour-calibration.md) (ileri seviye teknik)
 
 #### _Latency(ms)_ ayarı ne işe yarar?
 
-Bu, frame gecikmesidir; yani bir frame oluşturulduktan sonra lazerlere gönderilene kadar geçebilecek maksimum süredir. Normalde bunu ayarlamanız gerekmez, ancak ağ sorunları yaşıyorsanız artırmayı deneyebilirsiniz. Daha fazla ayrıntı için bkz. [Latency ayarı](setting-up/latency-setting.md "mention").
+Bu, frame gecikmesidir; yani bir frame oluşturulduktan sonra lazerlere gönderilene kadar geçebilecek maksimum süredir. Normalde bunu ayarlamanız gerekmez, ancak ağ sorunları yaşıyorsanız artırmayı deneyebilirsiniz. Daha fazla ayrıntı için bkz. [Latency ayarı](setting-up/latency-setting.md).
 
 ### Clips
 
 #### Bir Clip çalıştırmadan zone ve ayarlarını nasıl düzenlerim?
 
-Etkinleştirmeden _o anda seçili Clip_ yapmak için `Alt / Option` tuşuna basılı tutarak tıklayın. Ayrıca bkz. [Clip başlatma/durdurma](clips/starting-stopping-clips.md "mention")
+Etkinleştirmeden _o anda seçili Clip_ yapmak için `Alt / Option` tuşuna basılı tutarak tıklayın. Ayrıca bkz. [Clip başlatma/durdurma](clips/starting-stopping-clips.md)
 
 #### Clips nasıl kopyalanır?
 
-`Alt / Option` tuşunu basılı tutarken tıklayıp sürükleyin. Ayrıca bkz. [Clip Deck düzenleme](clips/organising-your-clip-deck.md "mention")
+`Alt / Option` tuşunu basılı tutarken tıklayıp sürükleyin. Ayrıca bkz. [Clip Deck düzenleme](clips/organising-your-clip-deck.md)
 
 #### Clips nasıl silinir?
 
-Clip öğelerini Clip Deck dışına sürükleyin. Ayrıca bkz. [Clip Deck düzenleme](clips/organising-your-clip-deck.md "mention")
+Clip öğelerini Clip Deck dışına sürükleyin. Ayrıca bkz. [Clip Deck düzenleme](clips/organising-your-clip-deck.md)
 
 #### Çoklu seçim, silme, Clip Deck öğelerini birleştirme vb. işlemleri nasıl yaparım?
 
-Bkz. [Clip Deck düzenleme](clips/organising-your-clip-deck.md "mention")
+Bkz. [Clip Deck düzenleme](clips/organising-your-clip-deck.md)
 
 #### Clip üzerindeki küçük mikrofon simgesi ve diğer simgeler ne anlama geliyor?
 
-Bu simgeler, bir Clip öğesinin ses veya MIDI girişi aldığını gösterir; 3 nokta ise zone gecikmesi olduğunu belirtir. Bkz. [Clip düğmelerindeki küçük simgeler ne anlama geliyor?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+Bu simgeler, bir Clip öğesinin ses veya MIDI girişi aldığını gösterir; 3 nokta ise zone gecikmesi olduğunu belirtir. Bkz. [Clip düğmelerindeki küçük simgeler ne anlama geliyor?](clips/what-are-the-small-icons-on-the-clip-buttons.md)

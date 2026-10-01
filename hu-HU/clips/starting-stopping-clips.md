@@ -24,7 +24,7 @@ Ha úgy szeretnél új clipet indítani, hogy a többi ne álljon le, ezt kétf�
 * Tartsd lenyomva a `Shift` billentyűt (vagy az APC40 Shift gombját), miközben elindítod az új clipet; vagy
 * Nyomd meg újra az éppen futó clip(ek)et, miközben elindítod az új clipet.
 
-A clipcsoportok egymástól függetlenek, ezért egy Clip elindítása az egyik csoportban nincs hatással a többi csoport Clip elemeire. Lásd: [Clipcsoportok](groups.md "mention")
+A clipcsoportok egymástól függetlenek, ezért egy Clip elindítása az egyik csoportban nincs hatással a többi csoport Clip elemeire. Lásd: [Clipcsoportok](groups.md)
 
 ### Flash mode
 

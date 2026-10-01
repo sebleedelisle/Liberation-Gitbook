@@ -19,7 +19,7 @@ Dưới đây là danh sách đầy đủ các test pattern. Trừ khi có ghi c
 3. Các đường ngang màu xanh lá - 4 đường ngang, cách đều nhau.
 4. Các đường dọc màu xanh lá - 4 đường dọc, cách đều nhau.
 
-Các pattern hiệu chuẩn màu 5-8. Có thể dùng các pattern này cùng với hệ thống hiệu chỉnh màu trong Laser Settings. Xem [Hiệu chuẩn màu](../advanced/colour-calibration.md "mention"). Các pattern này không phủ kín toàn bộ không gian Output.
+Các pattern hiệu chuẩn màu 5-8. Có thể dùng các pattern này cùng với hệ thống hiệu chỉnh màu trong Laser Settings. Xem [Hiệu chuẩn màu](../advanced/colour-calibration.md). Các pattern này không phủ kín toàn bộ không gian Output.
 
 5. Pattern hiệu chuẩn màu - đỏ.
 6. Pattern hiệu chuẩn màu - xanh lá.

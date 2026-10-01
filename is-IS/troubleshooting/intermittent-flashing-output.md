@@ -22,16 +22,11 @@ Opnaðu _Laser Overview_ panel og skoðaðu tengiljósið við hliðina á þeim
 
 **Afköst örgjörva**
 
-Ef þú ert með gamla eða afllitla tölvu getur hún verið of hæg til að keyra Liberation. Skoðaðu rammatíðnivísinn hægra megin á táknastikunni.
+Ef þú ert með gamla eða afllitla tölvu getur hún verið of hæg til að keyra Liberation. Skoðaðu rammatíðnivísinn á efstu stikunni.
 
 Þar eru tvær tölur: raunveruleg rammatíðni og markrammatíðni. Ef raunveruleg rammatíðni fer niður fyrir 30 getur það valdið vandræðum.
 
-Eftirfarandi aðgerðir geta hjálpað:
-
-* fjarlægðu ónotaða lasera, þ.e. ef þú ert aðeins með einn laser tengdan skaltu eyða hinum.
-* Skiptu yfir í Output view eða Canvas view
-* Lokaðu öllum öðrum forritum, athugaðu stillingar fyrir neteldvegg, lokaðu vírusvörn, Dropbox o.s.frv.
-* Lækkaðu skjáupplausnina og minnkaðu Liberation gluggann
+Til að sjá leiðir til að minnka álagið á tölvuna skaltu lesa [Bæta afköst á eldri vélum](improving-performance-on-older-machines.md).
 
 Ef ekkert af þessu virkar skaltu íhuga að uppfæra tölvuna.
 

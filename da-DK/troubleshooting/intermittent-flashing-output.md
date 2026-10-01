@@ -22,16 +22,11 @@ Så har du enten et netværksproblem eller et problem med CPU-ydelsen:
 
 **CPU-ydelse**
 
-Hvis du har en gammel eller lavt specificeret computer, kan den være for langsom til at køre Liberation. Tjek billedhastighedsindikatoren i højre side af ikonlinjen.
+Hvis du har en gammel eller lavt specificeret computer, kan den være for langsom til at køre Liberation. Tjek billedhastighedsindikatoren i topbjælken.
 
 Der vises to tal – den faktiske billedhastighed og målbilledhastigheden. Hvis den faktiske billedhastighed falder til under 30, kan du opleve problemer.
 
-Følgende kan hjælpe:
-
-* fjern ubrugte lasere, dvs. hvis du kun har én laser tilsluttet, så slet de andre.
-* Skift til Output- eller Canvas-visningen
-* Luk alle andre programmer, tjek firewallindstillinger for netværket, luk antivirus, Dropbox osv.
-* Reducer din skærmopløsning, og gør Liberation-vinduet mindre
+Se [Forbedring af ydeevnen på ældre computere](improving-performance-on-older-machines.md) for måder at reducere belastningen på din computer.
 
 Hvis intet af dette virker, bør du overveje at opgradere din computer.
 
@@ -41,7 +36,7 @@ Hvis intet af dette virker, bør du overveje at opgradere din computer.
 
 Så er der sandsynligvis tale om et hardwareproblem. Det ligger uden for denne manuals område, men du kan prøve følgende:
 
-* Deaktiver SFS-systemet (Scan Fail Safety). Nogle lasere har en funktion, der deaktiverer output, hvis scannerne holder op med at bevæge sig, dvs. hvis de producerer en kraftig statisk stråle. De kan være lidt for forsigtige / upålidelige.
+* Deaktiver SFS-systemet (Scan Fail Safety). Nogle lasere har en funktion, der deaktiverer output, hvis scannerne holder op med at bevæge sig, dvs. producerer en kraftig statisk stråle. De kan være lidt for forsigtige / upålidelige.
 
 {% hint style="danger" %}
 Vær ekstremt forsigtig, når du deaktiverer scan fail safety-systemet. Kraftige statiske stråler kan forårsage brandmærker! Sørg for at have en stopknap og en brandslukker ved hånden.

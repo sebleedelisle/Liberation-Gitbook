@@ -14,7 +14,7 @@ metaLinks:
 
 Изменяйте горизонтальное и вертикальное положение Clip с помощью _Shift X_ и _Shift Y_.
 
-_Zone Delay/Chase_ — настолько интересная функция, что ей посвящён отдельный раздел: [Zone delay / chase](zone-delay-chase.md "mention").
+_Zone Delay/Chase_ — настолько интересная функция, что ей посвящён отдельный раздел: [Zone delay / chase](zone-delay-chase.md).
 
 ### Панель Parameters
 
@@ -33,7 +33,7 @@ _Zone Delay/Chase_ — настолько интересная функция, �
 
 ### Контекстное меню
 
-Если щёлкнуть по Clip правой кнопкой мыши, появится меню с некоторыми параметрами для этого Clip. Подробнее о первых пунктах этого меню см. в разделах [Введение в Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Настройки Clip](clip-settings.md "mention") и [Группы Clip](groups.md "mention").
+Если щёлкнуть по Clip правой кнопкой мыши, появится меню с некоторыми параметрами для этого Clip. Подробнее о первых пунктах этого меню см. в разделах [Введение в Clip Editor](../clip-editor/clip-editor-intro.md), [Настройки Clip](clip-settings.md) и [Группы Clip](groups.md).
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

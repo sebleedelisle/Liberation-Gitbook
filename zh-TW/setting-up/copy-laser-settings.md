@@ -22,7 +22,7 @@ metaLinks:
 選擇你要複製哪些設定：
 
 * **Copy output zone positions&#x20;**_**-**_ 將一台雷射的 zone 位置／大小／類型複製到其他雷射。請注意，它會依順序複製 zones，因此雷射 1 的 zones 1 和 9 會複製到雷射 2 的 zones 2 和 10。Alt zones 也會一併複製。
-* **Copy scanner / speed settings** - 複製 scanner speed 和 scanner preset，但_不會_複製 _Colour shift_。
+* **Copy scanner / speed settings** - 複製 scanner speed 和 scanner preset，但_不會_複製 _Scanner Sync_。
 * **Copy colour settings -** 複製所有色彩校正設定。
 * **Copy advanced settings -** 包含 point rate、smooth home position、target frame rate，以及所有其他進階設定。
 

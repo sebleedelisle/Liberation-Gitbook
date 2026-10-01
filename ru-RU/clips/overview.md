@@ -12,7 +12,7 @@ metaLinks:
 
 Clip может содержать атмосферные лучевые эффекты или графическую анимацию и обычно представляет собой зацикленную последовательность. Clip можно направить в любую zone (или Canvas Target Area) и запускать с помощью кнопок Clip внутри Clip Deck.
 
-Содержимое Clip создаётся в универсальной системе Clip Editor, построенной на nodes. (Подробнее см. [Введение в Clip Editor](../clip-editor/clip-editor-intro.md "mention"))
+Содержимое Clip создаётся в универсальной системе Clip Editor, построенной на nodes. (Подробнее см. [Введение в Clip Editor](../clip-editor/clip-editor-intro.md))
 
 ### Clip Deck
 

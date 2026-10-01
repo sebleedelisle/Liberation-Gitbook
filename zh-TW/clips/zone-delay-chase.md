@@ -14,7 +14,7 @@ Zone delay 系統是一個簡單但很有效的方法，可以在不同 zones �
 
 _Zone delay_ 會在每個 zone 的 Clip 時間點上加入延遲，形成一種掃過各個 zones 的效果。
 
-在 Clip 已經播放時加入 zone delay 會很有效果；你可以使用 APC40 上的相關控制來調整程度與 pattern。（請參閱 [APC40 參考](../reference/apc40-reference.md "mention")）。或者，你也可以使用 _Clip Settings_ 面板。
+在 Clip 已經播放時加入 zone delay 會很有效果；你可以使用 APC40 上的相關控制來調整程度與 pattern。（請參閱 [APC40 參考](../reference/apc40-reference.md)）。或者，你也可以使用 _Clip Settings_ 面板。
 
 Zone delay 設定：
 
@@ -39,7 +39,7 @@ Pattern 是依照 zone 編號運作，並假設你的 zones 是由左到右依�
 Zone delay 也會套用到任何啟用中的 effects。舉例來說，閃爍效果除了會延遲 Clip 本身的動畫，也會在各 zones 之間延遲。
 {% endhint %}
 
-當 Clip 具有任何形式的 _Zone delay_ 時，你會在 Clip 右上角看到三點圖示。這些點會以動畫顯示該 Clip 的 _Zone delay_ 樣式。更多詳細資訊請參閱 [Clip 按鈕上的小圖示是什麼？](what-are-the-small-icons-on-the-clip-buttons.md "mention")。
+當 Clip 具有任何形式的 _Zone delay_ 時，你會在 Clip 右上角看到三點圖示。這些點會以動畫顯示該 Clip 的 _Zone delay_ 樣式。更多詳細資訊請參閱 [Clip 按鈕上的小圖示是什麼？](what-are-the-small-icons-on-the-clip-buttons.md)。
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>表示 Clip 具有 zone delay 及其模式的三點符號</p></figcaption></figure>
 

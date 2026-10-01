@@ -22,7 +22,7 @@ Záleží na tom, kolik laserů chcete ovládat. Pokud používáte jen několik
 
 #### **Kolik laserů mohu pomocí Liberation ovládat?**
 
-Liberation dokáže spustit mnoho laserů z jednoho počítače. Byl testován s více než 100 laser controllers, takže odpověď závisí na:
+Liberation dokáže spustit opravdu mnoho laserů z jednoho počítače. Byl testován s více než 100 lasery, takže odpověď závisí na:
 
 * procesoru vašeho počítače
 * rychlosti sítě
@@ -30,13 +30,13 @@ Liberation dokáže spustit mnoho laserů z jednoho počítače. Byl testován s
 
 #### **Které MIDI kontroléry mohu použít?**
 
-Liberation byl navržen a optimalizován pro oblíbený MIDI kontrolér APC40 Mk2. Funguje také s APC40 Mk1. Viz [Živé MIDI kontroléry](midi-control/live-control-with-the-apc40.md "mention")
+Liberation byl navržen a optimalizován pro oblíbený MIDI kontrolér APC40 Mk2. Funguje také s APC40 Mk1. Viz [Živé MIDI kontroléry](midi-control/live-control-with-the-apc40.md)
 
 Liberation podporuje také APC Mini a MIDI Fighter Twister. APC40 Mk2 je stále nejúplnější referenční kontrolér.
 
-K dispozici je také systém MIDI Send/Receive, který nabízí další možnosti ovládání přes MIDI. Viz [MIDI Send/Receive](midi-control/midi-send-receive.md "mention")
+K dispozici je také systém MIDI Send/Receive, který nabízí další možnosti ovládání přes MIDI. Viz [MIDI Send/Receive](midi-control/midi-send-receive.md)
 
-Další informace najdete v části [Ovládání přes MIDI](midi-control/ "mention").
+Další informace najdete v části [Ovládání přes MIDI](midi-control/).
 
 #### **Mohu použít libovolný MIDI kontrolér?**
 
@@ -53,7 +53,7 @@ Pro jiné kontroléry použijte systém MIDI Send/Receive nebo MIDI translator, 
 * síťový protokol LaserCube (s kabelovým připojením)
 * AVB používané lasery [LASollinger](https://laseranimation.com/en/) (aktuálně pouze macOS, ve fázi testování)
 
-Další informace najdete v části [Kompatibilní lasery a kontroléry (DAC)](hardware/compatible-lasers-and-controllers-dacs.md "mention")
+Další informace najdete v části [Kompatibilní lasery a kontroléry (DAC)](hardware/compatible-lasers-and-controllers-dacs.md)
 
 #### **Proč nepodporujete laser controller \[jiné značky]?**
 
@@ -69,11 +69,11 @@ Pokud má váš laser některou z následujících možností, můžete ho s Lib
 * **Jednotku X-Laser s vestavěným systémem Mercury** (v režimu Ether Dream).
 * **Projektor LaserAnimation Sollinger s vestavěným AVB** (pouze macOS, vyžaduje síťová zařízení kompatibilní s AVB, aktuálně ve fázi testování).
 
-Další informace najdete v části [Kompatibilní lasery a kontroléry (DAC)](hardware/compatible-lasers-and-controllers-dacs.md "mention")
+Další informace najdete v části [Kompatibilní lasery a kontroléry (DAC)](hardware/compatible-lasers-and-controllers-dacs.md)
 
 #### **Mohu používat Liberation se svým LaserCube?**
 
-Ano, Liberation funguje přímo s jakýmkoli LaserCube. Viz [LaserCube](hardware/lasercube.md "mention")
+Ano, Liberation funguje přímo s jakýmkoli LaserCube. Viz [LaserCube](hardware/lasercube.md)
 
 ## Licence
 
@@ -89,23 +89,35 @@ Upozorňujeme, že na **každé** úrovni, včetně bezplatné, můžete nastavo
 
 #### **Mohu přejít na vyšší úroveň?**
 
-Na vyšší úroveň můžete přejít kdykoli. Za zbývající dobu aktuálního zaplaceného období dostanete částečnou refundaci a nová licenční úroveň začne platit okamžitě. Viz [Upgrade nebo downgrade licence](installation/upgrade-downgrade-your-license.md "mention")
+Na vyšší úroveň můžete přejít kdykoli. Za zbývající dobu aktuálního zaplaceného období dostanete částečnou refundaci a nová licenční úroveň začne platit okamžitě. Viz [Upgrade nebo downgrade licence](installation/upgrade-downgrade-your-license.md)
 
 #### **Mohu přejít na nižší licenci?**
 
-Na nižší úroveň můžete přejít kdykoli, ale změna se projeví až na konci aktuálního zaplaceného období. Viz [Upgrade nebo downgrade licence](installation/upgrade-downgrade-your-license.md "mention")
+Na nižší úroveň můžete přejít kdykoli, ale změna se projeví až na konci aktuálního zaplaceného období. Viz [Upgrade nebo downgrade licence](installation/upgrade-downgrade-your-license.md)
 
 #### **Mohu pozastavit platby za licenci?**
 
-Ano. Licenci lze pozastavit k nejbližšímu datu předplatného a kdykoli znovu spustit. Hodí se to, pokud používání pravidelně zapínáte a vypínáte, a nemusíte znovu zadávat údaje o kartě. Viz [Pozastavení nebo zrušení plateb](installation/cancel-your-subscription.md "mention")
+Ano. Licenci lze pozastavit k nejbližšímu datu předplatného a kdykoli znovu spustit. Hodí se to, pokud používání pravidelně zapínáte a vypínáte, a nemusíte znovu zadávat údaje o kartě. Viz [Pozastavení nebo zrušení plateb](installation/cancel-your-subscription.md)
 
 #### **Jak licenci zruším natrvalo?**
 
-Opakovanou licenci můžete kdykoli zrušit a na konci aktuálního zaplaceného období se automaticky deaktivuje. Viz [Pozastavení nebo zrušení plateb](installation/cancel-your-subscription.md "mention")
+Opakovanou licenci můžete kdykoli zrušit a na konci aktuálního zaplaceného období se automaticky deaktivuje. Viz [Pozastavení nebo zrušení plateb](installation/cancel-your-subscription.md)
+
+#### **Proč je Liberation formou předplatného?**
+
+Stručně řečeno: díky tomu může být Liberation dlouhodobě udržitelný, aktivně vyvíjený a férový, a přitom si každý může bez placení otevírat, upravovat, ukládat, nacvičovat a zobrazovat náhledy show.
+
+Více jsem o důvodech tohoto přístupu napsal zde: [Proč Liberation používá předplatné](https://liberationlaser.com/articles/why-a-subscription).
+
+#### **Mohu pro svou instalaci / tour produkci získat trvalou nebo dlouhodobou licenci?**
+
+Pro trvalé instalace a tour produkce jsou k dispozici roční (nebo i víceleté) předplacené licence. Pokud ji chcete nastavit, napište na [billing@liberationlaser.com](mailto:billing@liberationlaser.com).
+
+Trvalé licence momentálně nejsou k dispozici. Další souvislosti najdete v článku [Proč Liberation používá předplatné](https://liberationlaser.com/articles/why-a-subscription).
 
 #### **Jak autorizuji počítač svou licencí?**
 
-Po zakoupení licence můžete počítač autorizovat přímo v softwaru Liberation. Na obrazovce _About_ uvidíte tlačítko _Authorise_, které vás vyzve k přihlášení na web. Postupujte podle pokynů na obrazovce a dokončete proces autorizace. Viz [Autorizace a zrušení autorizace](installation/authorising-and-de-authorising.md "mention")
+Po zakoupení licence můžete počítač autorizovat přímo v softwaru Liberation. Na obrazovce _About_ uvidíte tlačítko _Authorise_, které vás vyzve k přihlášení na web. Postupujte podle pokynů na obrazovce a dokončete proces autorizace. Viz [Autorizace a zrušení autorizace](installation/authorising-and-de-authorising.md)
 
 #### **Jak často musím počítač připojit k internetu?**
 
@@ -121,7 +133,7 @@ Od našeho poskytovatele plateb obdržíte e-mailové upozornění a bude potře
 
 #### **Na kolik počítačů mohu Liberation nainstalovat?**
 
-Liberation můžete nainstalovat na libovolný počet počítačů. Autorizace licence je potřeba pouze pro povolení laserového / DMX výstupu a vaše licenční úroveň určuje, kolik počítačů může být současně autorizováno pro výstup. Viz [Jak funguje licencování](installation/how-licensing-works.md "mention")
+Liberation můžete nainstalovat na libovolný počet počítačů. Autorizace licence je potřeba pouze pro povolení laserového / DMX výstupu a vaše licenční úroveň určuje, kolik počítačů může být současně autorizováno pro výstup. Viz [Jak funguje licencování](installation/how-licensing-works.md)
 
 #### **Jak přesunu licenci z jednoho počítače na druhý?**
 
@@ -131,7 +143,7 @@ Liberation můžete nainstalovat na libovolný počet počítačů. Autorizace l
 * Na obrazovce _About_ klikněte na tlačítko _Authorise this computer_.
 * Otevře se web, přihlaste se a podle pokynů na obrazovce dokončete autorizaci
 
-Počítač, ke kterému už nemáte přístup, můžete zrušit i vzdáleně (s určitými omezeními). Viz [Autorizace a zrušení autorizace](installation/authorising-and-de-authorising.md "mention")
+Počítač, ke kterému už nemáte přístup, můžete zrušit i vzdáleně (s určitými omezeními). Viz [Autorizace a zrušení autorizace](installation/authorising-and-de-authorising.md)
 
 #### **Mohu zrušit autorizaci Liberation na počítači, který se ztratil nebo byl odcizen?**
 
@@ -143,11 +155,11 @@ Pokud ne, zrušení autorizace se projeví při příští aktualizaci licence n
 
 #### Výchozí nastavení má 8 laserů – jak to změním?
 
-Viz [Nastavení projektu](setting-up/setting-up-your-project.md "mention") a [Přidávání a odebírání laserů](setting-up/adding-removing-lasers.md "mention")
+Viz [Nastavení projektu](setting-up/setting-up-your-project.md) a [Přidávání a odebírání laserů](setting-up/adding-removing-lasers.md)
 
 #### Mohu zkopírovat nastavení pro zone z jednoho laseru do ostatních?
 
-Ano! Viz [Kopírování zones mezi lasery](output-view/copy-zones-between-lasers.md "mention")
+Ano! Viz [Kopírování zones mezi lasery](output-view/copy-zones-between-lasers.md)
 
 #### Mohu zadat číslo místo použití posuvníku?
 
@@ -155,42 +167,42 @@ Ano. Klikněte na posuvník se stisknutou klávesou `Cmd / Ctrl` a hodnotu můž
 
 #### **Jak synchronizuji Liberation s hudbou?**
 
-Má inteligentní systém „tap tempo“, který funguje tak, jak byste čekali, ale můžete použít také externí MIDI clock nebo Ableton Link. Viz [Tempo / synchronizace](tempo-synchronisation.md "mention"). Timeline lze synchronizovat s příchozím LTC/SMPTE timecode přes libovolné zvukové rozhraní. Viz [Timecode](timecode.md "mention").
+Má inteligentní systém „tap tempo“, který funguje tak, jak byste čekali, ale můžete použít také externí MIDI clock nebo Ableton Link. Viz [Tempo / synchronizace](tempo-synchronisation.md). Timeline lze synchronizovat s příchozím LTC/SMPTE timecode přes libovolné zvukové rozhraní. Viz [Timecode](timecode.md).
 
 #### Jaká nastavení mám upravit, abych z laseru dostal nejlepší výstup?
 
-Hlavní nastavení je _Colour Shift_, které kompenzuje drobné zpoždění mezi pohybem zrcátek a změnou jasu laserů. Pokud mají laserové body/paprsky malé „ocásky“, je potřeba toto nastavení upravit. (Příklad „ocásků“ najdete na fotografiích na stránce [Panel nastavení laserového výstupu](setting-up/laser-settings.md "mention"))
+Hlavní nastavení je _Scanner Sync_, které kompenzuje drobné zpoždění mezi pohybem zrcátek a změnou jasu laserů. Pokud mají laserové body/paprsky malé „ocásky“, je potřeba toto nastavení upravit. (Příklad „ocásků“ najdete na fotografiích na stránce [Panel nastavení laserového výstupu](setting-up/laser-settings.md))
 
 Můžete také zkusit změnit rychlost skenerů – pomaleji, pokud máte základní skenery, nebo rychleji, pokud jsou kvalitní. **Používejte ale opatrně, protože při příliš velké zátěži můžete skenery poškodit.**
 
 K dispozici je také několik předvoleb skenerů. Výchozí možnost je konzervativní a pro většinu požadavků na laserové paprsky je v pořádku. Pokud máte lepší skenery, existují další předvolby, a některé předvolby jsou laděné pro grafiku.
 
-Další informace najdete v části [Panel nastavení laserového výstupu](setting-up/laser-settings.md "mention") a informace o vytváření vlastních předvoleb najdete v části [◼️ Předvolby skenerů a renderovací profily](advanced/scanner-presets.md "mention") (pokročilé, rozpracováno)
+Další informace najdete v části [Panel nastavení laserového výstupu](setting-up/laser-settings.md) a informace o vytváření vlastních předvoleb najdete v části [◼️ Předvolby skenerů a renderovací profily](advanced/scanner-presets.md) (pokročilé, rozpracováno)
 
-Vyvážení barev můžete upravit také pomocí nastavení _Colour calibration_. Viz [Kalibrace barev](advanced/colour-calibration.md "mention") (pokročilá technika)
+Vyvážení barev můžete upravit také pomocí nastavení _Colour calibration_. Viz [Kalibrace barev](advanced/colour-calibration.md) (pokročilá technika)
 
 #### Co dělá nastavení _Latency(ms)_?
 
-Jde o latenci snímku, tedy maximální dobu mezi vygenerováním snímku a jeho následným odesláním do laseru. Neměli byste ji potřebovat upravovat, ale pokud máte problémy se sítí, můžete ji zkusit zvýšit. Další podrobnosti najdete v části [Nastavení Latency](setting-up/latency-setting.md "mention").
+Jde o latenci snímku, tedy maximální dobu mezi vygenerováním snímku a jeho následným odesláním do laseru. Neměli byste ji potřebovat upravovat, ale pokud máte problémy se sítí, můžete ji zkusit zvýšit. Další podrobnosti najdete v části [Nastavení Latency](setting-up/latency-setting.md).
 
 ### Clips
 
 #### Jak upravím zones a nastavení pro Clip, aniž bych ho spustil?
 
-Klikněte se stisknutou klávesou `Alt / Option`, aby se stal aktuálně vybraným Clip, ale neaktivoval se. Viz také [Spouštění a zastavování Clips](clips/starting-stopping-clips.md "mention")
+Klikněte se stisknutou klávesou `Alt / Option`, aby se z něj stal aktuálně vybraný Clip, ale neaktivoval se. Viz také [Spouštění a zastavování Clips](clips/starting-stopping-clips.md)
 
 #### Jak zkopíruji Clips?
 
-Klikněte a táhněte se stisknutou klávesou `Alt / Option`. Viz také [Uspořádání Clip Deck](clips/organising-your-clip-deck.md "mention")
+Klikněte a táhněte se stisknutou klávesou `Alt / Option`. Viz také [Uspořádání Clip Deck](clips/organising-your-clip-deck.md)
 
 #### Jak smažu Clips?
 
-Klikněte na ně a přetáhněte je mimo Clip Deck. Viz také [Uspořádání Clip Deck](clips/organising-your-clip-deck.md "mention")
+Klikněte na ně a přetáhněte je mimo Clip Deck. Viz také [Uspořádání Clip Deck](clips/organising-your-clip-deck.md)
 
 #### Jak vybrat více položek, mazat, slučovat Clip Decks atd.?
 
-Viz [Uspořádání Clip Deck](clips/organising-your-clip-deck.md "mention")
+Viz [Uspořádání Clip Deck](clips/organising-your-clip-deck.md)
 
 #### Co znamená malý symbol mikrofonu a další ikony na Clip?
 
-Ukazují, že Clip přijímá zvukový nebo MIDI vstup, a tři tečky znamenají, že je nastavené zpoždění zone. Viz [Co znamenají malé ikony na tlačítkách Clip?](clips/what-are-the-small-icons-on-the-clip-buttons.md "mention")
+Ukazují, že Clip přijímá zvukový nebo MIDI vstup, a tři tečky znamenají, že je nastavené zpoždění zone. Viz [Co znamenají malé ikony na tlačítkách Clip?](clips/what-are-the-small-icons-on-the-clip-buttons.md)

@@ -14,7 +14,7 @@ Velikost výstupu pro Clip změníte pomocí _Scale X_ a _Scale Y_. Tyto hodnoty
 
 Vodorovnou a svislou pozici Clip změníte pomocí _Shift X_ a _Shift Y_.
 
-_Zone Delay/Chase_ je tak zábavná funkce, že má vlastní část. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ je tak zábavná funkce, že má vlastní část. [Zone Delay/Chase](zone-delay-chase.md)
 
 ### Panel Parameters
 
@@ -33,7 +33,7 @@ Když je Clip zamčený, nelze ho přesunout ani smazat. Clip zamknete pomocí z
 
 ### Nabídka po kliknutí pravým tlačítkem
 
-Když na Clip kliknete pravým tlačítkem, zobrazí se nabídka s některými možnostmi pro daný Clip. Více k prvním položkám v této nabídce najdete v částech [Úvod do prostředí Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Nastavení pro Clip](clip-settings.md "mention") a [Skupiny pro Clips](groups.md "mention").
+Když na Clip kliknete pravým tlačítkem, zobrazí se nabídka s některými možnostmi pro daný Clip. Více k prvním položkám v této nabídce najdete v částech [Úvod do prostředí Clip Editor](../clip-editor/clip-editor-intro.md), [Nastavení pro Clip](clip-settings.md) a [Skupiny pro Clips](groups.md).
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

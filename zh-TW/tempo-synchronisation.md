@@ -60,7 +60,7 @@ APC40 有專用的 _TAP TEMPO_ 按鈕，你也可以使用已連接的腳踏開�
 
 將 _TEMPO_ 旋鈕向右或向左轉動一「格」，可將 **Tempo 四捨五入**到整數 BPM。
 
-另請參閱 [APC40 參考資料](reference/apc40-reference.md "mention")
+另請參閱 [APC40 參考資料](reference/apc40-reference.md)
 
 ### 微調 Tempo
 

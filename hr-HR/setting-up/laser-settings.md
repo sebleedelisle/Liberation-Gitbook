@@ -41,7 +41,7 @@ Imajte na umu da ispravci orijentacije/zrcaljenja ne mijenjaju ništa u 3D Visua
 
 ### Kopiranje postavki lasera
 
-Pogledajte [Kopiranje postavki lasera](laser-settings.md#copy-laser-settings "mention").
+Pogledajte [Kopiranje postavki lasera](laser-settings.md#copy-laser-settings).
 
 ### Postavke skenera
 
@@ -56,10 +56,12 @@ Iako su zadane postavke prilično konzervativne, skenere i dalje možete ošteti
 {% endhint %}
 
 {% hint style="info" %}
-Ova postavka brzine ne mijenja učestalost točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [◼️ Kako Liberation generira laserski sadržaj](../advanced/how-liberation-generates-laser-content.md "mention")
+Ova postavka brzine ne mijenja učestalost točaka, nego podešava koliko su te točke razmaknute. Za više informacija pogledajte [◼️ Kako Liberation generira laserski sadržaj](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
-#### **Scanner sync (pomak boje / blank shift)**
+Ako želite eksperimentirati s učestalošću točaka, izlaznim kutom i opterećenjem skenera izvan projekta predstave, pogledajte [🟩 Specifikacije skenera i Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 Snop mijenja boju te se uključuje i isključuje dok ga skeneri pomiču, a te dvije stvari obično nisu savršeno sinkronizirane. Podesite ovu postavku kako biste ih ponovno uskladili.
 
@@ -67,18 +69,18 @@ Snop mijenja boju te se uključuje i isključuje dok ga skeneri pomiču, a te dv
 Ovo se ponekad naziva _blank shift_, ali osobno više volim izraz _scanner sync_ — malo je precizniji jer podešava vremensko usklađivanje svih promjena boje u odnosu na kretanje skenera.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserski „repovi” — pomak boje nije pravilno podešen</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Nema laserskih „repova”! Pomak boje je dobar!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserski „repovi” — Scanner Sync nije pravilno podešen</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Nema laserskih „repova”! Scanner Sync je dobar!</p></figcaption></figure></div>
 
 Ako na izlazu lasera vidite male „repove”, vjerojatno je potrebno podesiti scanner sync. Ako se repovi i dalje pojavljuju bez obzira na podešavanje, vjerojatno skenere ili upravljačke sklopove lasera pokrećete brže nego što mogu podnijeti. Pokušajte smanjiti brzinu skenera.
 
 #### Unaprijed definirane postavke skenera
 
-Ovdje odaberite unaprijed pripremljenu postavku skenera. Zadana opcija obično je u redu, pa ovu postavku ne biste trebali mijenjati osim ako imate posebno loše (ili dobre) skenere. Ako želite ići dublje, pogledajte [◼️ Unaprijed definirane postavke skenera i profili renderiranja](../advanced/scanner-presets.md "mention")
+Ovdje odaberite unaprijed pripremljenu postavku skenera. Zadana opcija obično je u redu, pa ovu postavku ne biste trebali mijenjati osim ako imate posebno loše (ili dobre) skenere. Ako želite ići dublje, pogledajte [◼️ Unaprijed definirane postavke skenera i profili renderiranja](../advanced/scanner-presets.md)
 
 #### Kalibracija boja
 
-Ovim sustavom možete ispraviti krivulju svjetline i balans bijele boje vašeg lasera. Pogledajte [Kalibracija boja](../advanced/colour-calibration.md "mention")
+Ovim sustavom možete ispraviti krivulju svjetline i balans bijele boje vašeg lasera. Pogledajte [Kalibracija boja](../advanced/colour-calibration.md)
 
 #### Napredne postavke
 
-Ne biste se trebali morati baviti ovim postavkama, ali ako vas zanima, pogledajte [◼️ Napredne postavke lasera](../advanced/advanced-laser-settings.md "mention")
+Ne biste se trebali morati baviti ovim postavkama, ali ako vas zanima, pogledajte [◼️ Napredne postavke lasera](../advanced/advanced-laser-settings.md)

@@ -13,7 +13,7 @@ Når du har installert Liberation på datamaskinen din, kjører programmet i _gr
 Det er ingen begrensninger i _gratismodus_, bortsett fra utgang til laserutstyr. Du kan øve på show, bygge tidslinjer og lagre og åpne filer uten begrensninger. Du kan installere Liberation i _gratismodus_ på så mange datamaskiner du vil, og du trenger først å autorisere installasjonen når du er klar til å bruke lasere!
 {% endhint %}
 
-I tillegg til antallet lasere du kan aktivere, kan du også bruke DMX-armaturer. Se [DMX / Art-Net](../dmx-control/ "mention").
+I tillegg til antallet lasere du kan aktivere, kan du også bruke DMX-armaturer. Se [DMX / Art-Net](../dmx-control/).
 
 Det finnes også en grense for hvor mange datamaskiner du kan autorisere Liberation på, avhengig av lisensnivået ditt.
 

@@ -11,7 +11,7 @@ metaLinks:
 
 Mění barvy veškerého příchozího obsahu. Můžete buď nastavit pevné hodnoty HSB, nebo přepnout na systém gradientu a vzorkovat barvy z vlastního gradientu.
 
-* **hue, saturation, brightness** - hodnoty barvy, viz [Nastavení barev a HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - hodnoty barvy, viz [Nastavení barev a HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - odstín se nemění
   * FIXED - odstín prvků se nastaví na hodnotu hue
@@ -28,7 +28,7 @@ Mění barvy veškerého příchozího obsahu. Můžete buď nastavit pevné hod
 * **blend** - jak silně se změna barvy použije; 0 % znamená vůbec, 100 % plně a 50 % kombinaci stávající barvy a nových hodnot.
 
 {% hint style="info" %}
-node Colour Change vzorkuje jednu barvu z gradientu pro celý vstup. Pokud chcete, aby gradient probíhal napříč tvarem podle pozice, použijte místo toho [měniče založené na pozici](position-based-changers.md "mention").
+node Colour Change vzorkuje jednu barvu z gradientu pro celý vstup. Pokud chcete, aby gradient probíhal napříč tvarem podle pozice, použijte místo toho [měniče založené na pozici](position-based-changers.md).
 {% endhint %}
 
 ### Editor gradientu

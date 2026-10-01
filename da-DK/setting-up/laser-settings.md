@@ -41,7 +41,7 @@ Bemærk, at korrektioner af orientation / mirroring ikke ændrer noget i 3D Visu
 
 ### Kopiér laserindstillinger
 
-Se [Panelet Laser output settings](laser-settings.md#copy-laser-settings "mention").
+Se [Kopiér laserindstillinger](laser-settings.md#copy-laser-settings).
 
 ### Scannerindstillinger
 
@@ -56,10 +56,12 @@ Selvom standardindstillingerne er ret konservative, kan du stadig beskadige dine
 {% endhint %}
 
 {% hint style="info" %}
-Denne speed-indstilling ændrer ikke point rate. I stedet justerer den, hvor spredt punkterne er placeret. Se [◼️ Sådan genererer Liberation laserindhold](../advanced/how-liberation-generates-laser-content.md "mention") for mere information.
+Denne speed-indstilling ændrer ikke point rate. I stedet justerer den, hvor spredt punkterne er placeret. Se [◼️ Sådan genererer Liberation laserindhold](../advanced/how-liberation-generates-laser-content.md) for mere information.
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+Hvis du vil eksperimentere med point rate, output-vinkel og scannerbelastning uden for et showprojekt, kan du se [🟩 Scannerspecifikationer og Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 Strålen skifter farve og tændes/slukkes, mens scannerne flytter den rundt, og de to ting er normalt ikke helt synkroniserede. Justér denne indstilling for at få dem på linje igen.
 
@@ -67,18 +69,18 @@ Strålen skifter farve og tændes/slukkes, mens scannerne flytter den rundt, og 
 Dette kaldes nogle gange _blank shift_, men jeg foretrækker selv betegnelsen _scanner sync_ – den er lidt mere præcis, fordi den justerer timingen for alle farveskift i forhold til scannerbevægelsen.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-"haler" – Colour shift er ikke indstillet korrekt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Ingen laser-"haler"! Colour shift er god!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laser-"haler" – Scanner Sync er ikke indstillet korrekt</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Ingen laser-"haler"! Scanner Sync er god!</p></figcaption></figure></div>
 
 Hvis du ser små "haler" på laseroutputtet, skyldes det sandsynligvis, at scanner sync skal justeres. Hvis halerne stadig vises uanset hvad, kører du sandsynligvis dine scannere/laserdrivere hurtigere, end de kan håndtere. Prøv at sænke scannerhastigheden.
 
 #### Scanner presets
 
-Brug dette til at vælge en foruddesignet scannerindstilling. Standardindstillingen er normalt fin, så du bør ikke have brug for at ændre den, medmindre du har særligt dårlige (eller gode) scannere. Hvis du vil gå mere i dybden, se [◼️ Scanner-presets og render-profiler](../advanced/scanner-presets.md "mention")
+Brug dette til at vælge en foruddesignet scannerindstilling. Standardindstillingen er normalt fin, så du bør ikke have brug for at ændre den, medmindre du har særligt dårlige (eller gode) scannere. Hvis du vil gå mere i dybden, se [◼️ Scanner-presets og render-profiler](../advanced/scanner-presets.md)
 
 #### Colour calibration
 
-Du kan bruge dette system til at korrigere laserens lysstyrkekurve og hvidbalance. Se [Farvekalibrering](../advanced/colour-calibration.md "mention")
+Du kan bruge dette system til at korrigere laserens lysstyrkekurve og hvidbalance. Se [Farvekalibrering](../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Du bør ikke have brug for at rode med disse, men hvis du er nysgerrig, se [◼️ Avancerede laserindstillinger](../advanced/advanced-laser-settings.md "mention")
+Du bør ikke have brug for at rode med disse, men hvis du er nysgerrig, se [◼️ Avancerede laserindstillinger](../advanced/advanced-laser-settings.md)

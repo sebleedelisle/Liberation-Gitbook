@@ -22,16 +22,11 @@ Tada vjerojatno imate problem s mrežom ili performansama CPU-a:
 
 **Performanse CPU-a**
 
-Ako imate starije ili slabije računalo, možda je presporo za pokretanje Liberation. Provjerite indikator broja sličica u sekundi na desnoj strani trake s ikonama.
+Ako imate starije ili slabije računalo, možda je presporo za pokretanje Liberation. Provjerite indikator broja sličica u sekundi na gornjoj traci.
 
 Tamo se nalaze dvije vrijednosti - stvarni broj sličica u sekundi i ciljni broj sličica u sekundi. Ako stvarni broj sličica u sekundi padne ispod 30, mogu se pojaviti problemi.
 
-Sljedeće radnje mogu pomoći:
-
-* uklonite lasere koje ne koristite, npr. ako imate spojen samo jedan laser, izbrišite ostale.
-* Prebacite se na Output view ili Canvas view
-* Zatvorite sve ostale programe, provjerite postavke mrežnog vatrozida, zatvorite antivirus, Dropbox itd.
-* Smanjite razlučivost zaslona i smanjite prozor Liberation
+Za načine smanjenja opterećenja računala pogledajte [Poboljšanje performansi na starijim računalima](improving-performance-on-older-machines.md).
 
 Ako ništa od ovoga ne pomogne, razmislite o nadogradnji računala.
 

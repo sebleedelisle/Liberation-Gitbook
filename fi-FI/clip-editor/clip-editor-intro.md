@@ -32,7 +32,7 @@ Clip editorissa näet seuraavat asiat:
 Muokkauksen aikana näet myös taustalla 3D visualiserissa, miltä clip näyttää.
 
 {% hint style="info" %}
-Jos et näe 3D visualiserissa mitään ulostuloa, sinun täytyy ehkä ottaa haluamasi zonet käyttöön zone-painikkeilla. Varmista myös, että _Preview to lasers_ on käytössä. Katso alempaa [Johdanto Clip Editoriin](clip-editor-intro.md#clip-editor-panel "mention").
+Jos et näe 3D-visualisoinnissa mitään lähtöä, sinun täytyy ehkä ottaa haluamasi zone-alueet käyttöön zone-painikkeilla. Varmista myös, että _Preview to lasers_ on käytössä. Katso alempaa [Clip Editor -paneeli](clip-editor-intro.md#clip-editor-panel).
 {% endhint %}
 
 ### Clipin rakentaminen
@@ -75,7 +75,7 @@ Jos olet joskus käyttänyt analogista syntetisaattoria, oskillaattorien käsite
 **Hauska fakta:** nimi _Liberation_ sai inspiraationsa Moog Liberationista, vuonna 1980 julkaistusta "keytar"-syntetisaattorista, jonka tekivät tunnetuksi Herbie Hancock, Jean-Michel Jarre ja jopa James Brown!
 {% endhint %}
 
-Oscillator-solmuilla on aina _range_-asetukset, joilla määritetään säädettävän ominaisuuden minimi- ja maksimiarvo. _Wave Oscillators_ -solmuilla on lisäksi aina _duration_-asetus, joka määrittää, kuinka nopeasti oscillator muuttaa arvoa. Lisätietoja on kohdassa [Wave-oskillaattorit](oscillators/wave-oscillators.md "mention").
+Oskillaattoreilla on aina _range_-asetukset, joilla määritetään säädettävän ominaisuuden minimi- ja maksimiarvo. _Wave Oscillators_ -oskillaattoreilla on lisäksi aina _duration_-asetus, joka määrittää, kuinka nopeasti oskillaattori muuttaa arvoa. Lisätietoja on kohdassa [Wave-oskillaattorit](oscillators/wave-oscillators.md).
 
 ### Clip editor -paneeli
 

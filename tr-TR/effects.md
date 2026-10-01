@@ -8,7 +8,7 @@ metaLinks:
 
 Liberation içindeki efekt sistemi, Clip çıkışını gerçek zamanlı değiştirmek için eğlenceli ve çok yönlü bir yöntemdir. Efektler tamamen esnektir; her şeyi açıp kapatmak, döndürmek, renkleri değiştirmek, hatta rastgele hareket ettirmek için kullanılabilir.
 
-Clip Editor içinde yapabildiğiniz her şey efekt olarak kullanılabilir. Hatta efektler, Clips ile tamamen aynı node editor üzerinden düzenlenir. Bkz. [Efektleri düzenleme](effects.md#editing-effects "mention"). Yaratıcı olasılıklar neredeyse sınırsızdır.
+Clip Editor içinde yapabildiğiniz her şey efekt olarak kullanılabilir. Hatta efektler, Clips ile tamamen aynı node editor üzerinden düzenlenir. Bkz. [Efektleri düzenleme](effects.md#editing-effects). Yaratıcı olasılıklar neredeyse sınırsızdır.
 
 Varsayılan efekt düğmeleri 1-8, zone düğmelerinin altındadır; 9-24 arasındaki efektler ise alttaki küçük düğmelerdir.
 
@@ -32,12 +32,12 @@ Bence bu, Liberation içinde yerleşik olan en eğlenceli ve yaratıcı araçlar
 
 #### Efekt parametreleri
 
-Efektinize bir _Parameter node_ ile parametre ekleyin. Parameter sistemi, efektinizin içindeki birden fazla ayarı dışarıdan ayarlamanın bir yoludur. Daha fazla bilgi için bkz. [Parametre Kontrolü](clip-editor/oscillators/parameter-control.md "mention").
+Efektinize bir _Parameter node_ ile parametre ekleyin. Parameter sistemi, efektinizin içindeki birden fazla ayarı dışarıdan ayarlamanın bir yoludur. Daha fazla bilgi için bkz. [Parametre Kontrolü](clip-editor/oscillators/parameter-control.md).
 
 Her efektin _parameter_ değerini ayarlamak için rotary controller 1-8’i kullanın. Alternatif olarak efekt düğmesine sağ tıklayıp parameter slider’larını ayarlayın. Parameter değişikliği, efektin nasıl kurulduğuna bağlı olarak farklı şeyler yapar. Varsayılan efektlerin neler yaptığını ve parametrelerinin neyi değiştirdiğini aşağıdaki listede görebilirsiniz.
 
 {% hint style="info" %}
-Rotary controller 1-8, APC40 Mk2 üzerinde üst sırada; Mk1 üzerinde ise sağ üsttedir. Ayrıca bkz. [APC40 referansı](reference/apc40-reference.md "mention")
+Rotary controller 1-8, APC40 Mk2 üzerinde üst sırada; Mk1 üzerinde ise sağ üsttedir. Ayrıca bkz. [APC40 referansı](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ _MX Group_ ayarı 0 ise bu işlev devre dışı bırakılır.
 
 Herhangi bir efekte sağ tıklayın ve efekt düzenleyiciyi açmak için _EDIT EFFECT_ düğmesine tıklayın. Bu düzenleyicinin Clip Editor ile aynı olduğuna dikkat edin!
 
-Efektinizi, herhangi bir Clip düzenler gibi düzenleyin. Bkz. [Clip Editor](clip-editor/ "mention").
+Efektinizi, herhangi bir Clip düzenler gibi düzenleyin. Bkz. [Clip Editor](clip-editor/).
 
 En az bir Creator node olması gerekir; bu herhangi bir şey olabilir (çizgi, daire, şekil, hatta metin!), ancak efekt düğmesi önizlemesinde en mantıklı görünen şeyi seçmeniz muhtemelen daha iyi olur.
 

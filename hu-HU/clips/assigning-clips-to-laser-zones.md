@@ -28,4 +28,4 @@ Nem kell új zónát létrehoznod ahhoz, hogy eltérő tükrözési beállítás
 
 ### Zónák hozzárendelése egyszerre több kliphez
 
-Egy zone összes Clip eleméhez hozzárendelhetsz zone-okat, és beállíthatod az X/Y értékeket. További információért lásd: [Clipcsoportok](groups.md "mention").
+Egy zone összes Clip eleméhez hozzárendelhetsz zone-okat, és beállíthatod az X/Y értékeket. További információért lásd: [Clipcsoportok](groups.md).

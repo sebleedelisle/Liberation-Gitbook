@@ -60,7 +60,7 @@ Upotrijebite gumb _METRONOME_ za **reset takta**. (Imajte na umu da gumb _METRON
 
 Okrenite gumb _TEMPO_ za jedan „klik” udesno ili ulijevo kako biste **zaokružili tempo** gore ili dolje na cijeli BPM broj.
 
-Pogledajte i [Referenca za APC40](reference/apc40-reference.md "mention")
+Pogledajte i [referencu za APC40](reference/apc40-reference.md)
 
 ### Nudge tempo
 

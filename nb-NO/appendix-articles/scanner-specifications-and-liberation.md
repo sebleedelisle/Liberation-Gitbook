@@ -27,13 +27,25 @@ Det er ikke en komplett eller fullt standardisert måling av ytelse i praksis. F
 
 Men det er fortsatt den mest brukte referansen vi har, og den kan gi deg en god pekepinn på kvaliteten på skannerne, i hvert fall fra seriøse produsenter. Med _mindre seriøse_ produsenter derimot ...
 
-#### Hvis du vil teste skannerne slik de er spesifisert
+#### Teste skannere med Libera Lab
 
 {% hint style="danger" %}
 **Dette er en avansert teknikk, og du kan skade skannerne dine hvis du ikke er forsiktig. Anbefales ikke med mindre du vet hva du gjør.**
 {% endhint %}
 
-Du må finne programvare som kan sende ut [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) – jeg tror LaserShowGen kanskje kan gjøre det – og justere utgangsstørrelsen slik at den samsvarer med den angitte skannevinkelen (f.eks. 8°). Se ILDA-dokumentasjonen for råd om hvordan du analyserer utdataene.
+Hvis du vil eksperimentere med skanneroppførsel utenfor et showprosjekt, kan du bruke [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). Det er et skrivebordsverktøy for Libera-kompatible laserkontrollere, laget for å finne, teste, forhåndsvise og inspisere laserutgang.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab er nyttig fordi du kan:
+
+* sende ut kjente testmønstre, inkludert ILDA-testmønsteret
+* laste inn og strømme ILDA-filer
+* forhåndsvise punktstrømmen før eller mens den sendes ut
+* inspisere utgangen med oscilloskop- og skannerlastverktøy
+* sammenligne hvordan ulike mønstre, punktrater og utgangsstørrelser påvirker skannerne
+
+Hvis du vil teste skannere mot en publisert spesifikasjon, setter du Libera Lab til [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950), velger den spesifiserte punktraten og justerer utgangsstørrelsen slik at den samsvarer med den angitte skannevinkelen (f.eks. 8°). Se ILDA-dokumentasjonen for råd om hvordan du analyserer utgangen.
 
 #### Hvorfor det kanskje ikke er en god ytelsestest
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) er generelt et lavere nivå, men helt ærlig er de sannsy
 #### Hvordan Liberation hjelper
 
 Først og fremst: til det meste trenger du ikke veldig dyre skannere! Rimelige 30kpps DT, eller til og med PT, vil fungere fint. Standardinnstillingene for skannere er bevisst konservative, og for det meste _skal du ikke trenge å justere dem_ (bortsett fra _Scanner sync_).
+
+Hvis du vil forstå hva skannerinnstillingene faktisk gjør, er Libera Lab et bedre sted å eksperimentere enn i showprosjektet ditt. Du kan endre punktrate, utgangsvinkel og testmønster mens du følger med på forhåndsvisningen, oscilloskopet og informasjonen om skannerlast.
 
 Selv om du har bedre skannere, er det ingen grunn til å drive dem hardere enn nødvendig. Det vil forlenge levetiden deres betydelig.
 
@@ -98,7 +112,8 @@ Godt spørsmål. Her er mine tips:
 * Hvis du jobber med grafikk, vil flere lasere i de fleste tilfeller være bedre enn raskere skannere.
 * Når du kommer opp på mer avanserte oppsett, vil alle de etablerte high-end-merkene fungere fint.
 * Hvis du bare får tak i de billigste skannerne uten merke, er Liberation sine standardinnstillinger ganske konservative, og du vil sannsynligvis få OK resultater for grunnleggende beam-arbeid. Hvis det sliter, reduser **Speed**-innstillingen (men ikke endre punktraten!).
+* Hvis du vil teste eller sammenligne innstillinger, gjør det først i Libera Lab i stedet for å eksperimentere inne i en showfil.
 
 #### Og ILDA Test Pattern?
 
-… er fortsatt svært nyttig som kalibrerings- og referanseverktøy, men det ble aldri laget som en komplett ytelsestest og kan misbrukes eller tolkes løst av produsenter.
+… er fortsatt svært nyttig som kalibrerings- og referanseverktøy, og Libera Lab gjør det enklere å sende det ut og inspisere det. Men det ble aldri laget som en komplett ytelsestest og kan misbrukes eller tolkes løst av produsenter.

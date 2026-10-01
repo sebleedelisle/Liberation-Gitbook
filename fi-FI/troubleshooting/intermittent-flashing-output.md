@@ -22,16 +22,11 @@ Kyseessä on todennäköisesti joko verkko- tai suorituskykyongelma:
 
 **CPU-suorituskyky**
 
-Jos tietokoneesi on vanha tai teholtaan heikko, se voi olla liian hidas Liberationin käyttöön. Tarkista kuvakepalkin oikeassa reunassa oleva kuvataajuuden ilmaisin.
+Jos tietokoneesi on vanha tai teholtaan heikko, se voi olla liian hidas Liberationin käyttöön. Tarkista yläpalkissa oleva kuvataajuuden ilmaisin.
 
 Siinä näkyy kaksi lukua: todellinen kuvataajuus ja tavoitekuvataajuus. Jos todellinen kuvataajuus laskee alle 30:n, ongelmia voi ilmetä.
 
-Seuraavista toimista voi olla apua:
-
-* Poista käyttämättömät laserit, eli jos käytössä on vain yksi laser, poista muut.
-* Vaihda Output- tai Canvas-näkymään.
-* Sulje kaikki muut ohjelmat, tarkista verkon palomuuriasetukset ja sulje virustorjunta, Dropbox jne.
-* Pienennä näytön resoluutiota ja tee Liberation-ikkunasta pienempi.
+Katso ohjeita tietokoneen kuormituksen vähentämiseen kohdasta [Suorituskyvyn parantaminen vanhemmilla tietokoneilla](improving-performance-on-older-machines.md).
 
 Jos mikään näistä ei auta, harkitse tietokoneen päivittämistä.
 

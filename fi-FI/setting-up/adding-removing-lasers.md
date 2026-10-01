@@ -15,12 +15,12 @@ tai _+_ -painiketta _Output_ -näkymässä.<br>
 
 <figure><img src="../.gitbook/assets/Laser Output View (1).png" alt="" width="176"><figcaption></figcaption></figure>
 
-Kun lisäät uuden laserin, sille lisätään automaattisesti yksi beam zone. Huomaa, että laserit ja zones järjestetään siinä järjestyksessä kuin lisäät ne. Katso [Beam zone -alueiden järjestyksen muuttaminen](../output-view/re-ordering-beam-zones.md "mention").
+Kun lisäät uuden laserin, sille lisätään automaattisesti yksi beam zone. Huomaa, että laserit ja zone-kohteet järjestetään siinä järjestyksessä kuin lisäät ne. Katso [Beam zone -alueiden järjestyksen muuttaminen](../output-view/re-ordering-beam-zones.md).
 
 Poista laser napsauttamalla punaista "-" -painiketta _Laser overview_ -paneelissa. Huomaa, että menetät kaikki kyseisen laserin asetukset!
 
 {% hint style="info" %}
-Jos haluat kopioida zones tai muita asetuksia muista lasereista, käytä toimintoa [Asetusten kopioiminen lasereiden välillä](copy-laser-settings.md "mention")
+Jos haluat kopioida zone-kohteita tai muita asetuksia muista lasereista, käytä toimintoa [Asetusten kopioiminen lasereiden välillä](copy-laser-settings.md)
 {% endhint %}
 
 {% hint style="info" %}

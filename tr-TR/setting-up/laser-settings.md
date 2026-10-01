@@ -41,7 +41,7 @@ Orientation / mirroring düzeltmelerinin 3D Visualiser içinde hiçbir şeyi de�
 
 ### Lazer ayarlarını kopyalama
 
-Bkz. [Lazer ayarlarını kopyalama](laser-settings.md#copy-laser-settings "mention").
+Bkz. [Lazer ayarlarını kopyalama](laser-settings.md#copy-laser-settings).
 
 ### Scanner ayarları
 
@@ -56,10 +56,12 @@ Varsayılan ayarlar oldukça güvenli tarafta olsa da scanner’ları çok hızl
 {% endhint %}
 
 {% hint style="info" %}
-Bu Speed ayarı point rate değerini değiştirmez; bunun yerine noktaların ne kadar aralıklı yerleştiğini ayarlar. Daha fazla bilgi için bkz. [◼️ Liberation lazer içeriğini nasıl oluşturur](../advanced/how-liberation-generates-laser-content.md "mention")
+Bu Speed ayarı point rate değerini değiştirmez; bunun yerine noktaların ne kadar aralıklı yerleştiğini ayarlar. Daha fazla bilgi için bkz. [◼️ Liberation lazer içeriğini nasıl oluşturur](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+Bir gösteri projesi dışında point rate, çıkış açısı ve scanner yüküyle denemeler yapmak istiyorsanız bkz. [🟩 Scanner özellikleri ve Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 Scanner ışını hareket ettirirken beam renk değiştirir ve açılıp kapanır; bu iki işlem genellikle birbiriyle tam senkron değildir. Bunları tekrar hizalamak için bu ayarı düzenleyin.
 
@@ -67,18 +69,18 @@ Scanner ışını hareket ettirirken beam renk değiştirir ve açılıp kapanı
 Bu ayar bazen _blank shift_ olarak bilinir, ancak ben kişisel olarak _scanner sync_ terimini tercih ediyorum. Çünkü tüm renk değişimlerinin zamanlamasını scanner hareketine göre ayarladığı için biraz daha doğru bir isimdir.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Lazer “kuyrukları” - Colour shift doğru ayarlanmamış</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Lazer “kuyruğu” yok! Colour shift iyi!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Lazer “kuyrukları” - Scanner Sync doğru ayarlanmamış</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Lazer “kuyruğu” yok! Scanner Sync iyi!</p></figcaption></figure></div>
 
 Lazer çıkışınızda küçük “kuyruklar” görüyorsanız büyük olasılıkla scanner sync ayarının düzenlenmesi gerekir. Ne yaparsanız yapın kuyruklar görünmeye devam ediyorsa muhtemelen scanner’ları/lazer sürücülerini kaldırabileceklerinden daha hızlı sürüyorsunuzdur. Scanner hızını düşürmeyi deneyin.
 
 #### Scanner ön ayarları
 
-Önceden hazırlanmış bir scanner ayarı seçmek için bunu kullanın. Varsayılan seçenek genellikle uygundur; bu yüzden scanner’larınız özellikle kötü (veya iyi) değilse bu ayarı değiştirmeniz gerekmez. Daha ayrıntılı incelemek isterseniz bkz. [◼️ Scanner ön ayarları ve render profilleri](../advanced/scanner-presets.md "mention")
+Önceden hazırlanmış bir scanner ayarı seçmek için bunu kullanın. Varsayılan seçenek genellikle uygundur; bu yüzden scanner’larınız özellikle kötü (veya iyi) değilse bu ayarı değiştirmeniz gerekmez. Daha ayrıntılı incelemek isterseniz bkz. [◼️ Scanner ön ayarları ve render profilleri](../advanced/scanner-presets.md)
 
 #### Renk kalibrasyonu
 
-Bu sistemi lazerinizin parlaklık eğrisini ve beyaz dengesini düzeltmek için kullanabilirsiniz. Bkz. [Renk kalibrasyonu](../advanced/colour-calibration.md "mention")
+Bu sistemi lazerinizin parlaklık eğrisini ve beyaz dengesini düzeltmek için kullanabilirsiniz. Bkz. [Renk kalibrasyonu](../advanced/colour-calibration.md)
 
 #### Gelişmiş ayarlar
 
-Bunlarla uğraşmanız gerekmez; ancak merak ediyorsanız bkz. [◼️ Gelişmiş lazer ayarları](../advanced/advanced-laser-settings.md "mention")
+Bunlarla uğraşmanız gerekmez; ancak merak ediyorsanız bkz. [◼️ Gelişmiş lazer ayarları](../advanced/advanced-laser-settings.md)

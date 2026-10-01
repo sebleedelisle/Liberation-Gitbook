@@ -29,7 +29,7 @@ Nếu bạn đã cấp quyền cho số lượng máy tính tối đa trong gi�
 Nếu bạn có nhiều giấy phép, hệ thống sẽ yêu cầu bạn chọn giấy phép muốn gán cho máy tính này.
 {% endhint %}
 
-Chúc mừng! Bản cài đặt Liberation của bạn hiện đã được cấp quyền và bạn có thể xuất ra laser! Nhưng vui lòng đọc [Hướng dẫn bắt đầu nhanh](../getting-started.md "mention") và [Tổng quan quy trình thiết lập laser](../setting-up/setting-up-lasers.md "mention") trước khi bật trạng thái sẵn sàng cho laser.
+Chúc mừng! Bản cài đặt Liberation của bạn hiện đã được cấp quyền và bạn có thể xuất ra laser! Tuy nhiên, vui lòng đọc [Hướng dẫn bắt đầu nhanh](../getting-started.md) và [Tổng quan quy trình thiết lập laser](../setting-up/setting-up-lasers.md) trước khi bật trạng thái sẵn sàng cho laser.
 
 {% hint style="info" %}
 Bạn có thể mở _About panel_ bất kỳ lúc nào qua menu _Liberation -> About Liberation_ hoặc _Liberation -> Authorise/Deauthorise this computer_

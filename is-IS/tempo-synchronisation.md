@@ -60,7 +60,7 @@ Notaðu _METRONOME_ hnappinn til að **endurstilla taktinn**. (Athugaðu að _ME
 
 Snúðu _TEMPO_ knob um eitt „tick“ til hægri eða vinstri til að **námunda tempo** upp eða niður að heilli BPM-tölu.
 
-Sjá einnig [Tilvísun fyrir APC40](reference/apc40-reference.md "mention")
+Sjá einnig [Tilvísun fyrir APC40](reference/apc40-reference.md)
 
 ### Hnika tempo
 

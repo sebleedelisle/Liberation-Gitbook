@@ -9,7 +9,7 @@ metaLinks:
 
 ### Przenoszenie/duplikowanie klipów
 
-Kliknij i przeciągnij, aby przenieść Clip. Jeśli zaznaczony jest więcej niż jeden Clip (zobacz [Uruchamianie / zatrzymywanie Clip](starting-stopping-clips.md "mention")), wszystkie zostaną przeniesione. Przytrzymaj `Alt / Option`, aby je zduplikować. Upuść Clip na puste miejsce.
+Kliknij i przeciągnij, aby przenieść Clip. Jeśli zaznaczono więcej niż jeden Clip (zobacz [Uruchamianie / zatrzymywanie Clip](starting-stopping-clips.md)), wszystkie zostaną przeniesione. Przytrzymaj `Alt / Option`, aby je zduplikować. Upuść wybrane Clip na puste miejsce.
 
 {% hint style="info" %}
 Jeśli musisz zaznaczyć dużą liczbę Clips, możesz kliknąć i przeciągnąć lasso, a następnie przewijać Clip Deck, nadal przeciągając (za pomocą klawiszy kursora, APC40 albo przewijania w poziomie na touchpadzie/myszy). Lasso zostanie rozszerzone poza krawędź Clip Deck.

@@ -104,6 +104,7 @@
   * [🟩 Renk kalibrasyonu](advanced/colour-calibration.md)
 * [◼️ Ağ önerileri](network-advice.md)
 * [✅ Sorun giderme](troubleshooting/README.md)
+* [✅ Eski makinelerde performansı iyileştirme](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Kesintili / yanıp sönen çıkış](troubleshooting/intermittent-flashing-output.md)
   * [✅ Canlı kontrol](troubleshooting/live-control.md)
   * [✅ Başlatmada eksik kaynaklar hatası](troubleshooting/missing-resources.md)

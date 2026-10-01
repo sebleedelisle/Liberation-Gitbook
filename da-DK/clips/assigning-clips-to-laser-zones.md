@@ -28,4 +28,4 @@ Du behøver ikke oprette en ny zone for at have forskellige spejlindstillinger. 
 
 ### Tildel zoner til flere clips på én gang
 
-Du kan tildele zones og justere X/Y for alle Clips i en zone. Se [Clip-grupper](groups.md "mention") for mere information.
+Du kan tildele zones og justere X/Y for alle Clips i en zone. Se [Clip-grupper](groups.md) for mere information.

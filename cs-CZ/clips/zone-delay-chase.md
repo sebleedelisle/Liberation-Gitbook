@@ -14,7 +14,7 @@ Systém Zone delay je jednoduchý, ale účinný způsob, jak přidat rozmanitos
 
 _Zone delay_ přidává zpoždění do časování Clip pro každou zone a vytváří tak určitý průběh napříč zones.
 
-Zone delay je velmi účinné přidat do již běžícího Clip. Pomocí příslušného ovládacího prvku na APC40 upravte úroveň a pattern. (Viz [Referenční přehled APC40](../reference/apc40-reference.md "mention")). Nebo můžete použít panel _Clip Settings_.
+Zone delay je velmi účinné přidat do již běžícího Clip. Pomocí příslušného ovládacího prvku na APC40 upravte úroveň a pattern. (Viz [Referenční přehled APC40](../reference/apc40-reference.md)). Nebo můžete použít panel _Clip Settings_.
 
 Nastavení Zone delay:
 
@@ -39,7 +39,7 @@ Pattern pracuje s čísly zone a předpokládá, že vaše zones jsou seřazené
 Zone delay se použije také na všechny aktivní efekty. Například blikající efekt bude zpožděný napříč zones stejně jako animace uvnitř samotného Clip.
 {% endhint %}
 
-Když má Clip jakýkoli typ _Zone delay_, v pravém horním rohu Clip uvidíte ikonu se třemi tečkami. Tyto tečky jsou animované a ukazují styl _Zone delay_ pro daný Clip. Další informace najdete v části [Co znamenají malé ikony na tlačítkách Clip?](what-are-the-small-icons-on-the-clip-buttons.md "mention").
+Když má Clip jakýkoli typ _Zone delay_, v pravém horním rohu Clip uvidíte ikonu se třemi tečkami. Tyto tečky jsou animované a ukazují styl _Zone delay_ pro daný Clip. Další informace najdete v části [Co znamenají malé ikony na tlačítkách Clip?](what-are-the-small-icons-on-the-clip-buttons.md).
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Symbol se třemi tečkami, který označuje, že Clip má Zone delay, a ukazuje jeho režim</p></figcaption></figure>
 

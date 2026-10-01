@@ -13,7 +13,7 @@ Po instalaci Liberation do počítače poběží aplikace ve _free režimu_, dok
 Ve _free režimu_ nejsou žádná omezení kromě výstupu do laserového hardwaru. Můžete si zkoušet show, vytvářet timelines a bez omezení ukládat i načítat soubory. Liberation můžete ve _free režimu_ nainstalovat na libovolný počet počítačů a instalaci stačí autorizovat až ve chvíli, kdy jste připraveni používat lasery!
 {% endhint %}
 
-Kromě počtu laserů, které můžete uvést do stavu armed, můžete používat také DMX zařízení. Viz [DMX / Art-Net](../dmx-control/ "mention").
+Kromě počtu laserů, které můžete aktivovat, můžete používat také DMX zařízení. Viz [DMX / Art-Net](../dmx-control/).
 
 Počet počítačů, na kterých můžete Liberation autorizovat, je také omezen podle úrovně vaší licence.
 

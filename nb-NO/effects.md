@@ -8,7 +8,7 @@ metaLinks:
 
 Effektsystemet i Liberation er en morsom og fleksibel måte å endre klipputgangen i sanntid på. Effekter er helt fleksible og kan brukes til å få alt til å blinke av og på, rotere, endre farger eller til og med fly tilfeldig rundt!
 
-Alt du kan gjøre i klippeditoren, kan brukes som en effekt. Faktisk redigeres effekter med nøyaktig samme nodeeditor som klipp! Se [Effekter](effects.md#editing-effects "mention"). De kreative mulighetene er praktisk talt uendelige.
+Alt du kan gjøre i Clip Editor, kan brukes som en effekt. Faktisk redigeres effekter med nøyaktig samme nodeeditor som Clips! Se [Redigere effekter](effects.md#editing-effects). De kreative mulighetene er praktisk talt uendelige.
 
 Standard effektknapper 1–8 ligger under soneknappene, og effektene 9–24 er de små knappene nederst.
 
@@ -32,12 +32,12 @@ Jeg vil påstå at det er et av de morsomste og mest kreative verktøyene som er
 
 #### Effektparametere
 
-Legg til en parameter i effekten din med en _Parameter node._ Parametersystemet lar deg justere flere innstillinger inne i effekten utenfra. Se [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") for mer informasjon.
+Legg til en parameter i effekten din med en _Parameter node._ Parameter-systemet lar deg justere flere innstillinger inne i effekten utenfra. Se [Parameter Control](clip-editor/oscillators/parameter-control.md) for mer informasjon.
 
 Bruk rotary-kontrollerne 1–8 til å justere _parameter_ for hver effekt. Eller høyreklikk på effektknappen og juster parameterslideren(e). Parameterendringen gjør ulike ting avhengig av hvordan effekten er satt opp. Se listen nedenfor for standardeffektene og hva parameterne deres gjør.
 
 {% hint style="info" %}
-Dreiekontrollerne 1–8 ligger langs toppen av en APC40 Mk2 og øverst til høyre på Mk1. Se også: [APC40-referanse](reference/apc40-reference.md "mention")
+Dreiekontrollerne 1–8 ligger langs toppen av en APC40 Mk2 og øverst til høyre på Mk1. Se også: [APC40-referanse](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Denne funksjonen er deaktivert hvis innstillingen _MX Group_ er 0.
 
 Høyreklikk på en effekt, og klikk på knappen _EDIT EFFECT_ for å åpne effekteditoren. Legg merke til at denne editoren er identisk med Clip Editor!
 
-Rediger effekten på samme måte som du ville redigert en hvilken som helst Clip. Se [Clip Editor](clip-editor/ "mention").
+Rediger effekten på samme måte som du ville redigert en hvilken som helst Clip. Se [Clip Editor](clip-editor/).
 
 Du må ha minst én creator-node. Dette kan være hva som helst (linje, sirkel, form, til og med tekst!), men du bør sannsynligvis velge noe som gir mest mening i forhåndsvisningen på effektknappen.
 

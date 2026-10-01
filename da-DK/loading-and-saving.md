@@ -14,7 +14,7 @@ Du kan dog eksportere din opsætning som backup eller for at overføre den til e
 
 Project-filen gemmer næsten alt i din aktuelle opsætning, herunder:
 
-* Alt det, der er beskrevet i [Indlæsning og lagring](loading-and-saving.md#laser-settings-import-export "mention") nedenfor
+* Alt det, der er beskrevet i [Import/eksport af Laser Settings](loading-and-saving.md#laser-settings-import-export) nedenfor
 * Clips, effects og group settings
 * Alle dine timelines (ikke inklusive audio- og videomedier)
 * Art-Net-opsætning
@@ -30,7 +30,7 @@ Den gemmer og indlæser i øjeblikket ikke:
 * Skrifttyper, der bruges i Text-noden
 
 {% hint style="danger" %}
-Sound- og videofiler i timeline gemmes ikke sammen med project files, så sørg for at gemme dem separat, hvis du vil overføre til en anden computer. Se [Indlæsning og lagring](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Sound- og videofiler i timeline gemmes ikke sammen med project files, så sørg for at gemme dem separat, hvis du vil overføre til en anden computer. Se [Vigtig bemærkning om mediefiler i timeline](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Import/eksport af laserindstillinger
@@ -67,7 +67,7 @@ Du kan tilføje clips fra en eksporteret Clip Deck-fil til dit aktuelle projekt 
 Alle clips, der aktuelt er valgt, eksporteres til en fil. Group settings og effects gemmes ikke, kun clips. Bemærk, at aktive clips, der kører lige nu, ikke eksporteres, medmindre de også er valgt.
 
 {% hint style="info" %}
-Option/Alt - Shift - klik på clips for at vælge dem (eller brug lassoen). Du kan se, hvilke clips der er valgt, på den tykke hvide kontur omkring dem. Se [Start / stop af clips](clips/starting-stopping-clips.md "mention")
+Option/Alt - Shift - klik på Clips for at vælge dem (eller brug lassoen). Du kan se, hvilke Clips der er valgt, på den tykke hvide kontur omkring dem. Se [Start / stop af Clips](clips/starting-stopping-clips.md)
 {% endhint %}
 
 ### Import/eksport af Effects
@@ -82,12 +82,12 @@ Hvis du kun vil importere effects fra et projekt, skal du vælge _**Effects->Imp
 
 ### Eksport af Timeline
 
-Eksportér en timeline-fil med én eller flere timelines. Bemærk, at Clip Deck altid inkluderes i eksporterede timeline-filer (selvom du kan vælge præcist, hvilke clips du importerer igen, se [Indlæsning og lagring](loading-and-saving.md#timeline-import "mention") nedenfor)
+Eksportér en timeline-fil med én eller flere timelines. Bemærk, at Clip Deck altid inkluderes i eksporterede timeline-filer (selvom du kan vælge præcist, hvilke Clips du importerer igen, se [Indlæsning og lagring](loading-and-saving.md#timeline-import) nedenfor)
 
 Hvis du har mere end én timeline i din project file, åbnes et panel, hvor du kan vælge, hvilke timelines du vil eksportere.
 
 {% hint style="danger" %}
-Sound- og videofiler i timeline gemmes ikke sammen med timeline-filer, så sørg for at gemme dem separat, hvis du vil overføre dit indhold til en anden computer. Se [Indlæsning og lagring](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+Sound- og videofiler i timeline gemmes ikke sammen med timeline-filer, så sørg for at gemme dem separat, hvis du vil overføre dit indhold til en anden computer. Se [Vigtig bemærkning om mediefiler i timeline](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Import af Timeline

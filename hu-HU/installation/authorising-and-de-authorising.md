@@ -29,7 +29,7 @@ Ha már engedélyezted a licencedhez tartozó maximális számú számítógépe
 Ha több licenced van, a rendszer megkér, hogy válaszd ki, melyik licenchez szeretnéd hozzárendelni a számítógépet.
 {% endhint %}
 
-Gratulálunk! A Liberation telepítésed most már engedélyezve van, és küldhetsz kimenetet a lézerekre. A lézerek élesítése előtt azonban olvasd el a [Gyors kezdési útmutató](../getting-started.md "mention") és [A lézerbeállítási folyamat áttekintése](../setting-up/setting-up-lasers.md "mention") részt.
+Gratulálunk! A Liberation telepítésed most már engedélyezve van, és küldhetsz kimenetet a lézerekre. A lézerek élesítése előtt azonban olvasd el a [Gyors kezdési útmutató](../getting-started.md) és [A lézerbeállítási folyamat áttekintése](../setting-up/setting-up-lasers.md) részt.
 
 {% hint style="info" %}
 Az _About panel_ bármikor megnyitható a _Liberation -> About Liberation_ vagy a _Liberation -> Authorise/Deauthorise this computer_ menüből.

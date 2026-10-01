@@ -27,13 +27,25 @@ Ez nem átfogó vagy teljesen szabványosított mérőszáma a valós teljesítm
 
 Ennek ellenére továbbra is ez a legelterjedtebb viszonyítási alap, és jó képet adhat a scannerek minőségéről, legalábbis megbízható gyártók esetén. A _kevésbé megbízható_ gyártóknál viszont...
 
-#### Ha a scannereket a megadott értékelésük szerint szeretnéd tesztelni
+#### Scannerek tesztelése Libera Lab segítségével
 
 {% hint style="danger" %}
 **Ez haladó technika, és ha nem vagy óvatos, kárt tehetsz a scannerekben. Nem ajánlott, hacsak nem tudod pontosan, mit csinálsz.**
 {% endhint %}
 
-Olyan szoftverre lesz szükséged, amely képes kiadni az [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) ábrát – úgy tudom, a LaserShowGen talán képes erre –, majd a kimeneti méretet a megadott pásztázási szöghöz kell igazítanod (pl. 8°). A kimenet elemzéséhez lásd az ILDA dokumentációját.
+Ha egy show-projekten kívül szeretnél kísérletezni a scannerek viselkedésével, használd a [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases) eszközt. Ez egy desktop alkalmazás Libera-kompatibilis lézervezérlőkhöz, amely a lézerkimenet felderítésére, tesztelésére, előnézetére és vizsgálatára készült.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+A Libera Lab azért hasznos, mert a következőket teheted vele:
+
+* ismert tesztábrákat adhatsz ki, köztük az ILDA test pattern ábrát
+* ILDA-fájlokat tölthetsz be és streamelhetsz
+* megtekintheted a pontfolyam előnézetét a kimenet előtt vagy közben
+* scope és scanner-load eszközökkel vizsgálhatod a kimenetet
+* összehasonlíthatod, hogyan hatnak a scannerekre a különböző minták, pontsebességek és kimeneti méretek
+
+Ha egy közzétett specifikáció alapján szeretnéd tesztelni a scannereket, állítsd be a Libera Lab alkalmazásban az [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) ábrát, válaszd ki a megadott pontsebességet, majd igazítsd a kimeneti méretet a megadott pásztázási szöghöz (pl. 8°). A kimenet elemzéséhez lásd az ILDA dokumentációját.
 
 #### Miért nem feltétlenül jó benchmark
 
@@ -54,6 +66,8 @@ A Phenix Technology (PT) általában alacsonyabb kategória, de őszintén szól
 #### Hogyan segít a Liberation
 
 Először is: a legtöbb feladathoz nincs szükséged igazán drága scannerekre! A megfizethető 30kpps DT, vagy akár PT scannerek is megfelelőek lesznek. Az alapértelmezett scanner-beállítások szándékosan óvatosak, és többnyire _nem kell módosítanod őket_ (a _Scanner sync_ kivételével).
+
+Ha szeretnéd megérteni, valójában mit csinálnak a scannerbeállítások, a Libera Lab jobb hely a kísérletezésre, mint a show-projekted. Módosíthatod a pontsebességet, a kimeneti szöget és a tesztábrát, miközben figyeled az előnézetet, a scope-ot és a scanner-load információkat.
 
 Még ha jobb scannereid is vannak, nincs értelme jobban terhelni őket, mint amennyire szükséges. Ez jelentősen meghosszabbítja az élettartamukat.
 
@@ -98,7 +112,8 @@ Jó kérdés. Íme a tippjeim:
 * Ha grafikákkal dolgozol, a legtöbb esetben több lézer többet számít, mint a gyorsabb scannerek.
 * Ha már felsőbb kategóriás rendszerekről van szó, bármelyik elismert prémium márka megfelelő lesz.
 * Ha csak a legolcsóbb, márkajelzés nélküli scannereket tudod beszerezni, a Liberation alapértelmezett beállításai elég óvatosak, és alap beam munkákhoz valószínűleg elfogadható eredményt kapsz. Ha nehezen boldogul, csökkentsd a **Speed** beállítást (de ne változtasd meg a pontsebességet!).
+* Ha beállításokat szeretnél tesztelni vagy összehasonlítani, először a Libera Lab alkalmazásban tedd, ne egy show-fájlon belül kísérletezz.
 
 #### És az ILDA Test Pattern?
 
-…továbbra is nagyon hasznos kalibrációs és viszonyítási eszköz, de soha nem átfogó benchmarknak tervezték, és a gyártók könnyen félrehasználhatják vagy lazán értelmezhetik.
+…továbbra is nagyon hasznos kalibrációs és viszonyítási eszköz, és a Libera Lab megkönnyíti a kiadását és a vizsgálatát. De soha nem átfogó benchmarknak tervezték, és a gyártók könnyen félrehasználhatják vagy lazán értelmezhetik.

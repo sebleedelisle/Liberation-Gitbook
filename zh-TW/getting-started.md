@@ -20,17 +20,17 @@ Liberation 非常彈性，即使沒有連接任何實體雷射，你也可以設
 你可以在 Liberation 中設定並視覺化任意數量的雷射；授權方案（Hobbyist、Pro 等）只會限制你可以_啟用輸出_的雷射數量。也就是說，即使使用免費授權，你仍然可以設計包含 100 台雷射的雷射秀。只有在你要實際用真實雷射執行時，才需要升級。
 {% endhint %}
 
-預設配置會將 8 台雷射水平排開，但你可以依需求自訂。剛開始熟悉軟體時，建議先保留這個預設值；之後再調整成符合你的硬體配置。（請參閱[設定你的專案](setting-up/setting-up-your-project.md "mention")）
+預設配置會將 8 台雷射水平排開，但你可以依需求自訂。剛開始熟悉軟體時，建議先保留這個預設值；之後再調整成符合你的硬體配置。（請參閱[設定你的專案](setting-up/setting-up-your-project.md)）
 
 {% hint style="warning" %}
-重要：在啟用任何雷射輸出之前，請務必了解相關風險，並仔細閱讀[雷射設定流程概覽](setting-up/setting-up-lasers.md "mention")章節。
+重要：在啟用任何雷射輸出之前，請務必了解相關風險，並仔細閱讀[雷射設定流程概覽](setting-up/setting-up-lasers.md)章節。
 {% endhint %}
 
 ## 軟體概覽
 
 ### 安全關閉
 
-只要你正在使用雷射，就必須隨手備有**硬體緊急停止按鈕**（請參閱[緊急停止／聯鎖](hardware/emergency-stop-interlocks.md "mention")）。如果只是想以較不緊急的方式停用所有輸出，可以使用 _**DISARM ALL**_ 按鈕，或按 `Escape` 鍵（也可以按 APC40 上的 _**SESSION**_ 鍵）。你也可以使用畫面上的滑桿，或 APC40 的主推桿來降低 Global Brightness。
+只要你正在使用雷射，就必須隨手備有**硬體緊急停止按鈕**（請參閱[緊急停止／聯鎖](hardware/emergency-stop-interlocks.md)）。如果只是想以較不緊急的方式停用所有輸出，可以使用 _**DISARM ALL**_ 按鈕，或按 `Escape` 鍵（也可以按 APC40 上的 _**SESSION**_ 鍵）。你也可以使用畫面上的滑桿，或 APC40 的主推桿來降低 Global Brightness。
 
 ### 滑桿元件
 
@@ -42,7 +42,7 @@ Liberation 中有各種滑桿與控制項。
 
 ### 鍵盤快捷鍵
 
-完整的鍵盤快捷鍵清單可在這裡找到：[鍵盤快捷鍵](reference/keyboard-shortcuts.md "mention")
+完整的鍵盤快捷鍵清單可在這裡找到：[鍵盤快捷鍵](reference/keyboard-shortcuts.md)
 
 ### 畫面配置
 
@@ -74,7 +74,7 @@ Menu 中可以找到所有檔案匯入／匯出選項，也可以用來開啟各
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view 會顯示雷射看起來的樣子，並且可以設定成符合你自己的雷射配置。按住並拖曳可旋轉攝影機，使用滑鼠滾輪可向前或向後移動。你可以在 _3D Visualiser settings_ 面板中找到更多選項（_View -> 3D Visualiser Settings_）。請參閱 [3D Visualiser](setting-up/3d-visualiser.md "mention")。
+3D view 會顯示雷射看起來的樣子，並且可以設定成符合你自己的雷射配置。按住並拖曳可旋轉攝影機，使用滑鼠滾輪可向前或向後移動。你可以在 _3D Visualiser settings_ 面板中找到更多選項（_View -> 3D Visualiser Settings_）。請參閱 [3D Visualiser](setting-up/3d-visualiser.md)。
 
 #### Output View
 
@@ -106,11 +106,11 @@ zone 是雷射輸出中的一個空間，你可以將雷射內容導向其中。
 
 左側有一列圖示按鈕，將滑鼠游標停在任何按鈕上都可看到功能說明。這些按鈕可讓你新增 beam zones、canvas zones 和 masks。也有一些選項可只為這台雷射設定 Test Pattern，以及格線與吸附設定。
 
-更多詳細資訊請參閱 [Output view](output-view/ "mention")。
+更多詳細資訊請參閱 [Output view](output-view/)。
 
 #### Canvas
 
-Canvas 系統主要用於圖形與建築投影對位。你可以將複雜影像分配到多台雷射上，並對每個區段進行透視校正。請參閱[圖形與 Canvas 系統](graphics-and-the-canvas-system/ "mention")。
+Canvas 系統主要用於圖形與建築投影對位。你可以將複雜影像分配到多台雷射上，並對每個區段進行透視校正。請參閱[圖形與 Canvas 系統](graphics-and-the-canvas-system/)。
 
 ### APC40 MIDI 控制器
 
@@ -118,7 +118,7 @@ Canvas 系統主要用於圖形與建築投影對位。你可以將複雜影像�
 
 雖然可以用滑鼠和鍵盤控制 Liberation，但使用 APC40 MIDI 控制介面會好很多（Mark 2 最佳，Mark 1 也可使用）。
 
-另請參閱：[APC40 參考](reference/apc40-reference.md "mention")
+另請參閱：[APC40 參考](reference/apc40-reference.md)
 
 Liberation 也支援 APC Mini 和 MIDI Fighter Twister。在大多數情況下，APC40 Mark 2 仍是最佳選擇。
 
@@ -146,7 +146,7 @@ Clip 是 Liberation 中用來裝載任何雷射內容的容器。Clips 可以包
 * APC40 捲動旋鈕
 * APC40 _<- DEVICE ->_ 按鈕
 
-為了幫助你掌握位置，頂端有一個 Clip Deck 的迷你 visualiser。另請參閱 [Clips 與 Clip Deck](clips/ "mention")
+為了幫助你掌握位置，頂端有一個 Clip Deck 的迷你 visualiser。另請參閱 [Clips 與 Clip Deck](clips/)
 
 #### 啟動與停止 Clips
 
@@ -168,7 +168,7 @@ _STOP_ 按鈕會停止所有目前正在播放的 Clips。
 請注意，這些 zone 分配與 X/Y 翻轉設定是連結到 Clip 本身的；下次執行該 Clip 時會保留。它們不是全域設定。
 {% endhint %}
 
-在 Clip 上按右鍵可編輯更多 Clip 設定。另請參閱 [Clip 設定](clips/clip-settings.md "mention")
+在 Clip 上按右鍵可編輯更多 Clip 設定。另請參閱 [Clip 設定](clips/clip-settings.md)
 
 ### Groups
 
@@ -190,7 +190,7 @@ Groups 也有淡入／淡出轉場設定，可由其中的 Clips 繼承，或由
 
 使用 APC40 時，按下 group 按鈕，接著在_按住不放時_使用 zone 與 X/Y 按鈕，切換該 group 內所有 Clips 的 zone 設定。
 
-另請參閱 [Clip 群組](clips/groups.md "mention")
+另請參閱 [Clip 群組](clips/groups.md)
 
 ### Effects
 
@@ -208,7 +208,7 @@ Liberation 的效果系統是一套強大且靈活的方式，可即時改變 Cl
 你在效果按鈕上看到的小數字，代表該效果的 _level_ 和 _parameter_。_level_ 由 APC40 上的推桿控制，也可以在按鈕上點擊並拖曳。parameter 則由 APC40 上的旋鈕調整，或可用滑鼠按右鍵調整。
 {% endhint %}
 
-_\*旋轉控制器 1-8 位於 APC40 Mk2 頂端；在 Mk1 上則位於右上方。另請參閱：_ [APC40 參考](reference/apc40-reference.md "mention")
+_\*旋轉控制器 1-8 位於 APC40 Mk2 頂端；在 Mk1 上則位於右上方。另請參閱：_ [APC40 參考](reference/apc40-reference.md)
 
 #### 預設效果
 
@@ -297,16 +297,18 @@ _Laser Overview panel_ 可讓你快速查看目前正在執行的雷射狀態。
 
 中間的圖表是 frame length 的歷史記錄，右側數字則是目前的 frame rate。內容越複雜，frame rate 就越低（也就是越容易閃爍）。低於約 25fps 時，看起來就會開始有點閃爍。
 
+如果影格率偏低，請參閱[改善舊型電腦的效能](troubleshooting/improving-performance-on-older-machines.md)取得建議。
+
 ### 連接雷射 — Controller Assignment 面板
 
 點擊 _Assign Laser Controllers_ 按鈕可開啟 _Controller Assignment_ 面板。（此面板也可以從選單列的 _View -> Controller Assignment_ 存取）。
 
 你可以在這裡選擇哪些雷射輸出要送到哪些雷射控制器。將右側清單中的控制器拖放到左側的插槽中。你可以重新命名控制器，讓名稱符合與它配對的雷射（使用筆形圖示按鈕）。
 
-更多詳細資訊請閱讀 [Controller Assignment](setting-up/controller-assignment.md "mention")章節。
+更多詳細資訊請閱讀 [Controller Assignment](setting-up/controller-assignment.md)章節。
 
 {% hint style="danger" %}
-在啟用任何雷射輸出之前，請務必先閱讀[雷射設定流程概覽](setting-up/setting-up-lasers.md "mention")章節。
+在啟用任何雷射輸出之前，請務必先閱讀[雷射設定流程概覽](setting-up/setting-up-lasers.md)章節。
 {% endhint %}
 
 ### 雷射輸出面板
@@ -337,10 +339,10 @@ Liberation 可讓你細部控制 point stream 的產生方式，讓每台雷射�
 基本 scanner settings 包括：
 
 * **Speed** 是 scanner speed，也就是雷射移動並畫出形狀的速度。這相當於傳統雷射軟體中的 point rate 調整，但在 Liberation 中，你可以在_不受 point rate 影響_的情況下改變雷射移動速度。你通常不需要調整這個設定。
-* **Scanner sync**（有時稱為 _blank shift_，以前稱為 Colour Shift）掃描器會讓雷射快速移動，但亮度與顏色變化通常會與移動不同步。這會在光束與線條邊緣呈現為細小閃爍的光「尾巴」。使用這個調整項目，可讓移動與顏色彼此同步。請參閱 [雷射輸出設定面板](setting-up/laser-settings.md "mention")
+* **Scanner sync**（有時稱為 _blank shift_，以前稱為 Colour Shift）掃描器會讓雷射快速移動，但亮度與顏色變化通常會與移動不同步。這會在光束與線條邊緣呈現為細小閃爍的光「尾巴」。使用這個調整項目，可讓移動與顏色彼此同步。請參閱 [雷射輸出設定面板](setting-up/laser-settings.md)
 
-其他掃描器進階設定會在[進階](advanced/ "mention")章節中說明。
+其他掃描器進階設定會在[進階](advanced/)章節中說明。
 
 ### Zoning
 
-如需雷射設定與 zone 的完整指南，請參閱：[雷射設定流程概覽](setting-up/setting-up-lasers.md "mention")
+如需雷射設定與 zone 的完整指南，請參閱：[雷射設定流程概覽](setting-up/setting-up-lasers.md)

@@ -22,16 +22,11 @@ Oznacza to problem z siecią albo z wydajnością CPU:
 
 **Wydajność CPU**
 
-Jeśli masz stary komputer albo maszynę o słabej specyfikacji, może być ona zbyt wolna do uruchamiania Liberation. Sprawdź wskaźnik liczby klatek po prawej stronie paska ikon.
+Jeśli masz stary komputer albo maszynę o słabej specyfikacji, może być ona zbyt wolna do uruchamiania Liberation. Sprawdź wskaźnik liczby klatek na górnym pasku.
 
 Widać tam dwie wartości: rzeczywistą liczbę klatek i docelową liczbę klatek. Jeśli rzeczywista liczba klatek spada poniżej 30, mogą wystąpić problemy.
 
-Pomóc mogą następujące działania:
-
-* Usuń nieużywane lasery, np. jeśli masz podłączony tylko jeden laser, usuń pozostałe.
-* Przełącz się do widoku Output lub Canvas.
-* Zamknij wszystkie inne programy, sprawdź ustawienia zapory sieciowej, zamknij program antywirusowy, Dropbox itp.
-* Zmniejsz rozdzielczość ekranu i zmniejsz okno Liberation.
+Sposoby zmniejszenia obciążenia komputera znajdziesz w sekcji [Poprawa wydajności na starszych komputerach](improving-performance-on-older-machines.md).
 
 Jeśli żadne z tych działań nie pomoże, rozważ modernizację komputera.
 

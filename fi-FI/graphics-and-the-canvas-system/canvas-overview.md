@@ -38,7 +38,7 @@ VAROITUS – jos laser on armed-tilassa, saatat yhtäkkiä alkaa projisoida sis�
 {% endhint %}
 
 {% hint style="info" %}
-Voit myös määrittää canvas zone -alueen laserille napsauttamalla _add canvas zone_ -painiketta _OUTPUT_-näkymässä. Katso [Vyöhykkeet](../output-view/zones.md "mention").
+Voit myös määrittää canvas zone -alueen laserille napsauttamalla _add canvas zone_ -painiketta _OUTPUT_-näkymässä. Katso [Vyöhykkeet](../output-view/zones.md).
 {% endhint %}
 
 ### Opaskuvat

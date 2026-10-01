@@ -33,7 +33,7 @@ Ez a node a pozíció alapján színváltozásokat alkalmaz a tartalmon. Alapér
 
 **Colour Modes**
 
-Ezek határozzák meg, hogy a színmódosítások mely részei kerülnek alkalmazásra a tartalomra. Lásd még: [Színbeállítások és HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Ezek határozzák meg, hogy a színmódosítások mely részei kerülnek alkalmazásra a tartalomra. Lásd még: [Színbeállítások és HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – a hue változatlan marad.
@@ -49,7 +49,7 @@ Ezek határozzák meg, hogy a színmódosítások mely részei kerülnek alkalma
 
 **Gradient editor**
 
-Ugyanazt a színátmenet-szerkesztőt használja, mint a [Szín módosítása](colour-changer.md "mention"), de a színátmenetet pozíció alapján képezi le a tartalomra.
+Ugyanazt a színátmenet-szerkesztőt használja, mint a [Szín módosítása](colour-changer.md), de a színátmenetet pozíció alapján képezi le a tartalomra.
 
 * Kattints a színátmenetsávra egy színpont hozzáadásához.
 * Bal kattintással jelölj ki egy pontot, majd húzd oldalra az áthelyezéséhez.

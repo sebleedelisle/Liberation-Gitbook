@@ -29,7 +29,7 @@ Jeśli autoryzowano już maksymalną liczbę komputerów dostępną w Twojej lic
 Jeśli masz wiele licencji, pojawi się prośba o wybranie licencji, do której chcesz przypisać komputer.
 {% endhint %}
 
-Gratulacje! Twoja instalacja Liberation została autoryzowana i możesz wysyłać sygnał do laserów. Przed uzbrojeniem laserów przeczytaj jednak [Szybki start](../getting-started.md "mention") oraz [Przegląd procesu konfiguracji laserów](../setting-up/setting-up-lasers.md "mention").
+Gratulacje! Twoja instalacja Liberation została autoryzowana i możesz wysyłać sygnał do laserów. Przed uzbrojeniem laserów przeczytaj jednak [Szybki start](../getting-started.md) oraz [Przegląd procesu konfiguracji laserów](../setting-up/setting-up-lasers.md).
 
 {% hint style="info" %}
 Możesz otworzyć _About panel_ w dowolnym momencie z menu _Liberation -> About Liberation_ albo _Liberation -> Authorise/Deauthorise this computer_

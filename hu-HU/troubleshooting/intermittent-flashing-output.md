@@ -22,16 +22,11 @@ Akkor valószínűleg hálózati vagy CPU-teljesítményproblémáról van szó:
 
 **CPU-teljesítmény**
 
-Ha régi vagy alacsony teljesítményű gépet használsz, előfordulhat, hogy túl lassú a Liberation futtatásához. Ellenőrizd a képkockasebesség-jelzőt az ikonsáv jobb oldalán.
+Ha régi vagy alacsony teljesítményű gépet használsz, előfordulhat, hogy túl lassú a Liberation futtatásához. Ellenőrizd a képkockasebesség-jelzőt a felső sávon.
 
 Két szám látható ott: a tényleges képkockasebesség és a cél képkockasebesség. Ha a tényleges képkockasebesség 30 alá esik, problémák jelentkezhetnek.
 
-A következő lépések segíthetnek:
-
-* Távolítsd el a nem használt lézereket; például ha csak egy lézer van csatlakoztatva, töröld a többit.
-* Válts az Output vagy Canvas nézetre.
-* Zárj be minden más programot, ellenőrizd a hálózati tűzfalbeállításokat, zárd be a vírusirtót, a Dropboxot stb.
-* Csökkentsd a kijelző felbontását, és tedd kisebbre a Liberation ablakát.
+A számítógép terhelésének csökkentéséhez lásd: [Teljesítmény javítása régebbi gépeken](improving-performance-on-older-machines.md).
 
 Ha ezek egyike sem segít, érdemes megfontolni a számítógép fejlesztését vagy cseréjét.
 

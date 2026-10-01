@@ -20,17 +20,17 @@ Liberation er nógu sveigjanlegt til að þú getir sett upp leysa og séð þá
 Þú getur sett upp og myndgert eins marga leysa og þú vilt í Liberation. Leyfisþrepin (Hobbyist, Pro o.s.frv.) takmarka aðeins fjölda leysa sem þú getur sett í _armed_ stöðu. Þetta þýðir að þú getur hannað leysisýningar með 100 leysum jafnvel með ókeypis leyfi. Þú þarft aðeins að uppfæra þegar kemur að því að keyra sýninguna á raunverulegum leysum.
 {% endhint %}
 
-Sjálfgefin uppsetning er með 8 leysum dreifðum lárétt, en þú getur breytt þessu eins og þú vilt. Líklega er best að halda þessari sjálfgefnu uppsetningu á meðan þú kynnist hugbúnaðinum og stilla hana síðar til að passa við búnaðinn þinn. (Sjá [Uppsetning verkefnisins](setting-up/setting-up-your-project.md "mention"))
+Sjálfgefin uppsetning er með 8 leysum dreifðum lárétt, en þú getur breytt þessu eins og þú vilt. Líklega er best að halda þessari sjálfgefnu uppsetningu á meðan þú kynnist hugbúnaðinum og stilla hana síðar til að passa við búnaðinn þinn. (Sjá [Uppsetning verkefnisins](setting-up/setting-up-your-project.md))
 
 {% hint style="warning" %}
-Mikilvægt: Áður en þú setur nokkra leysa í virka stöðu skaltu ganga úr skugga um að þú skiljir áhættuna og fara vandlega yfir kaflann [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md "mention").
+Mikilvægt: Áður en þú setur nokkra leysa í virka stöðu skaltu ganga úr skugga um að þú skiljir áhættuna og fara vandlega yfir kaflann [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ## Yfirlit yfir hugbúnaðinn
 
 ### Öryggisstöðvun
 
-Alltaf þegar þú keyrir leysa þarftu að hafa **neyðarstöðvunarhnapp í vélbúnaði** við höndina (sjá [Neyðarstöðvun / öryggislæsingar](hardware/emergency-stop-interlocks.md "mention")). Ef þú vilt aftengja allt án þess að um bráðatilvik sé að ræða geturðu notað _**DISARM ALL**_ hnappinn eða `Escape` lykilinn (eða _**SESSION**_ lykilinn á APC40). Þú getur líka lækkað Global Brightness með sleðanum á skjánum eða aðal-fader á APC40.
+Alltaf þegar þú keyrir leysa þarftu að hafa **neyðarstöðvunarhnapp í vélbúnaði** við höndina (sjá [Neyðarstöðvun / öryggislæsingar](hardware/emergency-stop-interlocks.md)). Ef þú vilt aftengja allt án þess að um bráðatilvik sé að ræða geturðu notað _**DISARM ALL**_ hnappinn eða `Escape` lykilinn (eða _**SESSION**_ lykilinn á APC40). Þú getur líka lækkað Global Brightness með sleðanum á skjánum eða aðal-fader á APC40.
 
 ### Sleðar og stýringar
 
@@ -42,7 +42,7 @@ Alltaf þegar þú keyrir leysa þarftu að hafa **neyðarstöðvunarhnapp í v�
 
 ### Flýtilyklar
 
-Heildarlista yfir flýtilykla má finna hér: [Flýtilyklar](reference/keyboard-shortcuts.md "mention")
+Heildarlista yfir flýtilykla má finna hér: [Flýtilyklar](reference/keyboard-shortcuts.md)
 
 ### Skjáuppsetning
 
@@ -74,7 +74,7 @@ Stóra svæðið efst til vinstri á skjánum getur verið eitt af 3 aðal-views
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view sýnir hvernig leysarnir munu líta út og hægt er að stilla það til að passa við þína eigin uppsetningu. Smelltu og dragðu til að snúa myndavélinni og notaðu músarhjólið til að færa þig fram og til baka. Þú finnur marga aðra valkosti í _3D Visualiser settings_ panel (_View -> 3D Visualiser Settings_). Sjá [3D Visualiser](setting-up/3d-visualiser.md "mention").
+3D view sýnir hvernig leysarnir munu líta út og hægt er að stilla það til að passa við þína eigin uppsetningu. Smelltu og dragðu til að snúa myndavélinni og notaðu músarhjólið til að færa þig fram og til baka. Þú finnur marga aðra valkosti í _3D Visualiser settings_ panel (_View -> 3D Visualiser Settings_). Sjá [3D Visualiser](setting-up/3d-visualiser.md).
 
 #### Output View
 
@@ -106,11 +106,11 @@ Smelltu á zone til að velja það og stilltu síðan hornpunktana með músinn
 
 Vinstra megin er stika með röð af táknhnöppum. Færðu músina yfir hvaða hnapp sem er til að fá lýsingu á því hvað hann gerir. Hnapparnir hér leyfa þér að bæta við beam zones, canvas zones og masks. Þar eru líka valkostir til að stilla test pattern aðeins fyrir þennan leysi, ásamt stillingum fyrir grid og snapping.
 
-Nánari upplýsingar eru í [Output-sýn](output-view/ "mention").
+Nánari upplýsingar eru í [Output-sýn](output-view/).
 
 #### Canvas
 
-Canvas kerfið er aðallega notað fyrir grafík og arkitektúr-mapping. Þú getur dreift flóknum myndum yfir marga leysa og leiðrétt sjónarhorn fyrir hvern hluta. Sjá [Grafík og Canvas kerfið](graphics-and-the-canvas-system/ "mention").
+Canvas kerfið er aðallega notað fyrir grafík og arkitektúr-mapping. Þú getur dreift flóknum myndum yfir marga leysa og leiðrétt sjónarhorn fyrir hvern hluta. Sjá [Grafík og Canvas kerfið](graphics-and-the-canvas-system/).
 
 ### APC40 MIDI controller
 
@@ -118,7 +118,7 @@ Canvas kerfið er aðallega notað fyrir grafík og arkitektúr-mapping. Þú ge
 
 Þótt hægt sé að stjórna Liberation með mús og lyklaborði er mun betra að nota APC40 MIDI controller (Mark 2 er best, en Mark 1 virkar líka).
 
-Sjá einnig: [APC40 tilvísun](reference/apc40-reference.md "mention")
+Sjá einnig: [APC40 tilvísun](reference/apc40-reference.md)
 
 Liberation styður einnig APC Mini og MIDI Fighter Twister. APC40 Mark 2 er enn besti kosturinn í flestum tilvikum.
 
@@ -146,7 +146,7 @@ Clip er ílát fyrir hvers konar laser-efni innan Liberation. Clips geta innihal
 * APC40 scroll knob
 * APC40 _<- DEVICE ->_ hnöppunum
 
-Til að auðvelda þér að átta þig er lítið visualiser af Clip Deck efst. Sjá einnig [Clips og Clip Deck](clips/ "mention")
+Til að auðvelda þér að átta þig er lítið visualiser af Clip Deck efst. Sjá einnig [Clips og Clip Deck](clips/)
 
 #### Að ræsa og stöðva Clips
 
@@ -168,7 +168,7 @@ Tveimur röðum fyrir neðan zone hnappana sérðu X/Y flip hnappana. Kveiktu e�
 Athugaðu að þessar zone úthlutanir og X/Y flip stillingar tengjast Clip sjálfu. Þær haldast næst þegar þú keyrir það Clip. Þetta er ekki global stilling.
 {% endhint %}
 
-Hægrismelltu á Clip til að breyta fleiri stillingum fyrir það. Sjá einnig [Clip stillingar](clips/clip-settings.md "mention")
+Hægrismelltu á Clip til að breyta fleiri stillingum fyrir það. Sjá einnig [Clip stillingar](clips/clip-settings.md)
 
 ### Groups
 
@@ -190,7 +190,7 @@ Breyta zone stillingum fyrir öll Clips innan group
 
 Með APC40 ýtirðu á group hnappinn og notar síðan, _á meðan honum er enn haldið niðri,_ zone og X/Y hnappana til að kveikja eða slökkva á zone stillingum fyrir öll Clips í þeim group.
 
-Sjá einnig [Hópar fyrir Clips](clips/groups.md "mention")
+Sjá einnig [Hópar fyrir Clips](clips/groups.md)
 
 ### Effects
 
@@ -208,7 +208,7 @@ Notaðu rotary controllers 1–8\* til að stilla _parameter_ fyrir hvert effect
 Litlu tölurnar sem þú sérð á effect hnöppunum vísa til _level_ og _parameter_ fyrir effect. _Level_ er stýrt með fader á APC40 eða með því að smella og draga á hnappnum. Parameter er stillt með rotary hnöppunum á APC40 eða með því að hægrismella og stilla með músinni.
 {% endhint %}
 
-_\*Rotary controllers 1–8 eru efst á APC40 Mk2 og efst til hægri á Mk1. Sjá einnig:_ [APC40 tilvísun](reference/apc40-reference.md "mention")
+_\*Rotary controllers 1–8 eru efst á APC40 Mk2 og efst til hægri á Mk1. Sjá einnig:_ [APC40 tilvísun](reference/apc40-reference.md)
 
 #### Sjálfgefin effects
 
@@ -297,16 +297,18 @@ _Laser Overview panel_ gefur þér fljótlegt yfirlit yfir stöðu leysanna sem 
 
 Grafið í miðjunni sýnir sögu rammalengda og talan hægra megin er núverandi frame rate. Því flóknara sem efnið er, því hægari verður frame rate (þ.e. meira flökt). Allt undir um það bil 25fps byrjar að líta dálítið flöktandi út.
 
+Ef rammatíðnin er lág skaltu skoða [Bætt afköst á eldri vélum](troubleshooting/improving-performance-on-older-machines.md) fyrir tillögur.
+
 ### Að tengjast leysum — Controller Assignment panel
 
 Smelltu á _Assign Laser Controllers_ hnappinn til að opna _Controller Assignment_ panel. (Þetta panel er einnig aðgengilegt í valmyndastikunni undir _View -> Controller Assignment_).
 
 Hér geturðu valið hvaða laser Outputs fara til hvaða laser controllers. Dragðu controllers úr listanum hægra megin yfir í reitina vinstra megin. Þú getur endurnefnt controllers til að passa við leysinn sem þeir eru paraðir við (notaðu pennatákn-hnappinn).
 
-Lestu kaflann [Úthlutun laser controller](setting-up/controller-assignment.md "mention") fyrir nánari upplýsingar.
+Lestu kaflann [Úthlutun laser controller](setting-up/controller-assignment.md) fyrir nánari upplýsingar.
 
 {% hint style="danger" %}
-Áður en þú setur nokkra leysa í virka stöðu skaltu fara yfir kaflann [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md "mention").
+Áður en þú setur nokkra leysa í virka stöðu skaltu fara yfir kaflann [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ### Laser Output panel
@@ -337,10 +339,10 @@ Ef þú ert vön eldri leysihugbúnaði sem byggir á fyrirfram útreiknuðum po
 Grunnstillingar fyrir scanner eru:
 
 * **Speed** er scanner hraðinn, þ.e. hversu hratt leysirinn hreyfist til að teikna form. Þetta jafngildir því að stilla point rate í hefðbundnum leysihugbúnaði, en í Liberation geturðu breytt því hversu hratt leysirinn hreyfist _óháð point rate._ Þú ættir ekki að þurfa að breyta þessu.
-* **Scanner sync** (stundum kallað _blank shift, áður Colour Shift_) Skannarnir færa leysigeislann mjög hratt, en yfirleitt eru breytingar á birtu og lit ekki í takt við hreyfinguna. Þetta birtist sem litlir flöktandi „halar“ af ljósi við jaðar geisla og lína. Notaðu þessa stillingu til að samstilla hreyfingu og lit. Sjá [Stillingaspjald fyrir Laser Output](setting-up/laser-settings.md "mention")
+* **Scanner sync** (stundum kallað _blank shift, áður Colour Shift_) Skannarnir færa leysigeislann mjög hratt, en yfirleitt eru breytingar á birtu og lit ekki í takt við hreyfinguna. Þetta birtist sem litlir flöktandi „halar“ af ljósi við jaðar geisla og lína. Notaðu þessa stillingu til að samstilla hreyfingu og lit. Sjá [Stillingaspjald fyrir Laser Output](setting-up/laser-settings.md)
 
-Aðrar ítarlegar stillingar fyrir skanna eru útskýrðar í kaflanum [Ítarlegt](advanced/ "mention").
+Aðrar ítarlegar stillingar fyrir skanna eru útskýrðar í kaflanum [Ítarlegt](advanced/).
 
 ### Zoning
 
-Heildarleiðbeiningar um uppsetningu leysa og skiptingu þeirra í zones eru hér: [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md "mention")
+Heildarleiðbeiningar um uppsetningu leysa og skiptingu þeirra í zones eru hér: [Yfirlit yfir uppsetningarferli leysa](setting-up/setting-up-lasers.md)

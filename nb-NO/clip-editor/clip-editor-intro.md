@@ -32,12 +32,12 @@ Dette ser du i Clip Editor:
 Mens du redigerer, ser du også hvordan klippet ser ut i 3D Visualiser i bakgrunnen.
 
 {% hint style="info" %}
-Hvis du ikke ser noe output i 3D Visualiser, må du kanskje bruke zone-knappene til å slå på sonene du vil bruke. Du må også kontrollere at _Preview to lasers_ er aktivert. Se [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel "mention") nedenfor.
+Hvis du ikke ser noe output i 3D visualiser, må du kanskje bruke zone-knappene til å slå på de sonene du vil bruke. Du må også kontrollere at _Preview to lasers_ er aktivert. Se [#clip-editor-panel](clip-editor-intro.md#clip-editor-panel) nedenfor.
 {% endhint %}
 
 ### Bygge et klipp
 
-Du starter vanligvis med én eller flere [creator-noder](creator-nodes.md), og kobler [Operator-noder](operator-nodes/) fra venstre mot høyre for å behandle innholdet. Når du flytter creators og/eller operators sammen, vil du se at de automatisk kobles til hverandre. Du kan dra dem fra hverandre igjen for å koble dem fra.
+Du starter vanligvis med én eller flere [Creator-noder](creator-nodes.md), og kobler [Operator-noder](operator-nodes/) fra venstre mot høyre for å behandle innholdet. Når du flytter Creators og/eller Operators sammen, vil du se at de automatisk kobles til hverandre. Du kan dra dem fra hverandre igjen for å koble dem fra.
 
 ### Legge til noder i klippet
 
@@ -75,7 +75,7 @@ Hvis du noen gang har brukt en analog synth, kjenner du til konseptet oscillator
 **Fun fact:** navnet _Liberation_ var inspirert av Moog Liberation, en «keytar»-synthesizer som ble lansert i 1980 og gjort kjent av Herbie Hancock, Jean-Michel Jarre og til og med James Brown!
 {% endhint %}
 
-Oscillatorer har alltid _range_-innstillinger som styrer minimums- og maksimumsverdien for egenskapen som skal justeres. _Wave Oscillators_ har alltid en _duration_-innstilling som bestemmer hvor raskt oscillatoren endrer verdien. Se [Bølgeoscillatorer](oscillators/wave-oscillators.md "mention") for mer informasjon.
+Oscillatorer har alltid _range_-innstillinger som styrer minimums- og maksimumsverdien for egenskapen som skal justeres. _Wave Oscillators_ har alltid en _duration_-innstilling som bestemmer hvor raskt oscillatoren endrer verdien. Se [Bølgeoscillatorer](oscillators/wave-oscillators.md) for mer informasjon.
 
 ### Clip Editor-panel
 

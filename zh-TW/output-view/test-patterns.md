@@ -19,7 +19,7 @@ metaLinks:
 3. 水平綠線：4 條等距的水平線。
 4. 垂直綠線：4 條等距的垂直線。
 
-色彩校正 pattern 5–8。這些 pattern 可搭配雷射設定中的色彩校正系統使用。請參閱[色彩校正](../advanced/colour-calibration.md "mention")。這些 pattern 不會填滿整個輸出空間。
+色彩校正 pattern 5–8。這些 pattern 可搭配雷射設定中的色彩校正系統使用。請參閱[色彩校正](../advanced/colour-calibration.md)。這些 pattern 不會填滿整個輸出空間。
 
 5. 色彩校正 pattern：紅色。
 6. 色彩校正 pattern：綠色。

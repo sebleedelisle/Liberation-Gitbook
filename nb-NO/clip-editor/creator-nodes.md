@@ -10,48 +10,48 @@ metaLinks:
 
 Lager ett enkelt punkt / én stråle.
 
-* **Render profile** - se [Render profile](fundamentals/render-profile.md "mention")
-* **Colour** - fargen på punktet. Se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Render profile** - se [Render profile](fundamentals/render-profile.md)
+* **Colour** - fargen på punktet. Se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md)
+* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md)
+* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
 
 Lager en linje / flate.
 
-* **Render profile** - se [Render profile](fundamentals/render-profile.md "mention")
+* **Render profile** - se [Render profile](fundamentals/render-profile.md)
 * **Size** - lengden på linjen
-* **Colour** - fargen på linjen. Se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md "mention")
+* **Colour** - fargen på linjen. Se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md)
+* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md)
 * **rotation** - vinkelen på linjen, i grader
-* **resolution** - se [Oppløsning](fundamentals/resolution.md "mention")
+* **resolution** - se [Oppløsning](fundamentals/resolution.md)
 * **alignment** - _LEFT / CENTRE / RIGHT -_ bestemmer startpunktet og rotasjonssenteret for linjen
-* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorCircle.png" alt="" data-size="line"> Circle Creator
 
 Lager en sirkel / kjegle.
 
-* **Render profile** - se [Render profile](fundamentals/render-profile.md "mention")
+* **Render profile** - se [Render profile](fundamentals/render-profile.md)
 * **radius** - sirkelens radius
-* **Colour** - fargen på sirkelen. Se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md "mention")
-* **resolution** - se [Oppløsning](fundamentals/resolution.md "mention")
-* **Fill state** - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Colour** - fargen på sirkelen. Se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md)
+* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md)
+* **resolution** - se [Oppløsning](fundamentals/resolution.md)
+* **Fill state** - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
+* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorPoly.png" alt="" data-size="line"> Polygon Creator
 
 Lager et likesidet polygon, trekant, kvadrat, femkant osv.
 
-* **Render profile** - se [Render profile](fundamentals/render-profile.md "mention")
+* **Render profile** - se [Render profile](fundamentals/render-profile.md)
 * **size** - avstanden fra sentrum til hvert hjørne
-* **Colour** - fargen på polygonet. Se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md "mention")
+* **Colour** - fargen på polygonet. Se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md)
+* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md)
 * **rotation** - figurens rotasjonsvinkel, i grader
-* **resolution** - se [Oppløsning](fundamentals/resolution.md "mention")
-* **Fill state** - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **resolution** - se [Oppløsning](fundamentals/resolution.md)
+* **Fill state** - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
+* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorShape.png" alt="" data-size="line"> Shape Creator
 
@@ -67,15 +67,15 @@ Liberation er kompatibel med _SVGTiny_-formatet. InkScape anbefales, men de fles
 Når en SVG er lastet inn, konverteres innholdet og lagres i klippet, så du trenger ikke å beholde en referanse til filen, med mindre du senere vil endre maskeinnstillingene.
 {% endhint %}
 
-* **Use fills as masks** - behandler alle fylte figurer som en maske, dvs. fylt med svart. Dette settes automatisk hvis SVG-en har fylte figurer. Hvis den ikke har fylte figurer, deaktiveres det. Se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** - behandler alle fylte figurer som en maske, dvs. fylt med svart. Dette settes automatisk hvis SVG-en har fylte figurer. Hvis den ikke har fylte figurer, deaktiveres det. Se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 * **Add outlines to filled shapes** - hvis figurene i SVG-en ikke har en kontur, kan vi ikke tegne dem! Dette alternativet legger til en kontur (eller _stroke_) på alle fylte figurer. Hvis SVG-en ikke har noen figurer med stroke, settes det automatisk. Hvis den ikke har fylte figurer, deaktiveres det.
 * **Invert black lines** - hvis alle linjene i SVG-en er svarte, kan du ikke se dem! Dette alternativet gjør dem hvite. Det settes automatisk hvis SVG-en bare har svarte figurer, men deaktiveres hvis du ikke har noen.
-* **Render profile** - se [Render profile](fundamentals/render-profile.md "mention")
+* **Render profile** - se [Render profile](fundamentals/render-profile.md)
 * **scale** - justerer størrelsen på SVG-en. Dette beregnes automatisk når SVG-en lastes inn (for å sikre at bildet er synlig), men kan redigeres manuelt etterpå.
-* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md "mention")
+* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md)
 * **rotation** - bildets rotasjonsvinkel, i grader
-* **resolution** - se [Oppløsning](fundamentals/resolution.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **resolution** - se [Oppløsning](fundamentals/resolution.md)
+* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorAnim.png" alt="" data-size="line"> Anim Creator
 
@@ -87,14 +87,14 @@ Lager en animasjon fra en sekvens med SVG-filer.
 Når SVG-sekvensen er lastet inn, konverteres innholdet og lagres i klippet, så du trenger ikke å beholde en referanse til filene, med mindre du senere vil endre maskeinnstillingene.
 {% endhint %}
 
-* **Use fills as masks** - behandler alle fylte figurer som en maske, dvs. fylt med svart. Dette settes automatisk hvis noen av SVG-ene dine har fylte figurer. Hvis ingen har fylte figurer, deaktiveres det. Se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** - behandler alle fylte figurer som en maske, dvs. fylt med svart. Dette settes automatisk hvis noen av SVG-ene dine har fylte figurer. Hvis ingen har fylte figurer, deaktiveres det. Se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 * **Add outlines to filled shapes** - hvis figurene i SVG-ene dine ikke har konturer, kan vi ikke tegne dem! Dette alternativet legger til en kontur (eller _stroke_) på alle fylte figurer. Hvis SVG-ene dine ikke har noen figurer med stroke, settes det automatisk. Hvis ingen har fylte figurer, deaktiveres det.
 * **Invert black lines** - hvis alle linjene i SVG-ene dine er svarte, kan du ikke se dem! Dette alternativet gjør dem hvite. Det settes automatisk hvis SVG-ene dine bare har svarte figurer, men deaktiveres hvis du ikke har noen.
-* **Render profile** - se [Render profile](fundamentals/render-profile.md "mention")
+* **Render profile** - se [Render profile](fundamentals/render-profile.md)
 * **scale** - justerer størrelsen på bildet.
-* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md "mention")
+* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md)
 * **rotation** - bildets rotasjonsvinkel, i grader
-* **resolution** - se [Oppløsning](fundamentals/resolution.md "mention")
+* **resolution** - se [Oppløsning](fundamentals/resolution.md)
 * **speed** - varigheten på hele animasjonen, i takter.
 * **time per frame** - hvis dette er aktivert, gjelder varigheten per bilde i stedet for hele animasjonens lengde. Så hvis _speed_ er satt til ¼, varer hvert bilde 1 slag.
 * **animation direction** -
@@ -103,7 +103,7 @@ Når SVG-sekvensen er lastet inn, konverteres innholdet og lagres i klippet, så
   * _PINGPONG_ - animasjonen går forover og deretter bakover i en loop
   * _MANUAL_ - gjeldende bilde settes med innstillingen _position manual_
 * **position manual** - angi gjeldende bilde. 0 % er første bilde, 100 % er siste bilde. Dette kan settes manuelt eller med en ekstern oscillator.
-* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorText.png" alt="" data-size="line"> Text Creator
 
@@ -116,16 +116,16 @@ Lager tekst med en TrueType- eller OpenType-font.
 For å legge til flere fonter i Liberation kopierer du .ttf- eller .otf-filene til mappen `data/fonts` i arbeidsmappen til Liberation, og starter deretter Liberation på nytt.
 {% endhint %}
 
-* **Render profile** - se [Render profile](fundamentals/render-profile.md "mention")
+* **Render profile** - se [Render profile](fundamentals/render-profile.md)
 * **horizontal alignment** - velg _LEFT_, _CENTRE_ eller _RIGHT_ for å velge tekstjustering.
-* **Fill state** - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Fill state** - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 * **size** - tekststørrelsen
 * **monospace** - tegner hvert tegn med samme bredde. Dette er nyttig for tidtakere og tellere fordi teksten ikke flytter seg sideveis når tallene endres.
 * **character spacing** - justerer avstanden mellom tegn. Øk den for større tegnavstand, eller reduser den for å stramme inn teksten.
-* **colour -** se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md "mention")
+* **colour -** se [Fargeinnstillinger og HSB](fundamentals/colour-settings-and-hsb.md)
+* **x**- og **y**-posisjon - se [Koordinatsystem](fundamentals/co-ordinate-system.md)
 * **rotation** - bildets rotasjonsvinkel, i grader
-* **resolution** - se [Oppløsning](fundamentals/resolution.md "mention")
+* **resolution** - se [Oppløsning](fundamentals/resolution.md)
 * **reveal** - bruk dette til å gradvis vise teksten, ett tegn om gangen. Når dette er mellom 0 og 50 %, vises teksten gradvis fra venstre mot høyre. Når det er mellom 50 % og 100 %, forsvinner teksten fra venstre mot høyre. Du kan koble en oscillator til denne sokkelen for å lage animasjoner.
 * **reveal by word** - når dette er aktivert, fungerer _reveal_ ord for ord i stedet for tegn for tegn.
 * **countdown** - erstatter teksten du har skrevet inn, med en nedtelling. Når nedtellingen når null, vises den vanlige **Text**-verdien.
@@ -134,7 +134,7 @@ For å legge til flere fonter i Liberation kopierer du .ttf- eller .otf-filene t
 * **countdown to date/time** - teller ned til en bestemt UTC-dato og et bestemt UTC-klokkeslett i stedet for å telle ned fra et tall.
 * **countdown datetime** - angir UTC-måldatoen og -klokkeslettet når **countdown to date/time** er på.
 * **start number** - starttallet når **countdown to date/time** er av.
-* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ - se [Fyll, masker og dybdesortering](fundamentals/fills-masks-and-depth-sorting.md)
 
 {% hint style="info" %}
 Hvis rullegardinmenyen for font er åpen, går pil opp- og pil ned-tastene gjennom de tilgjengelige fontene.

@@ -13,27 +13,27 @@ Sürecin genel özeti şöyledir:
 
 1.  **Projenizdeki lazer sayısını değiştirin:**
 
-_Laser Overview_ panelinde, bir lazeri silmek için sağdaki kırmızı düğmeye tıklayın. Alttaki _ADD LASER_ düğmesiyle bir lazer ekleyin. Ayrıca bkz. [Lazer ekleme / kaldırma](adding-removing-lasers.md "mention")
+_Laser Overview_ panelinde, bir lazeri silmek için sağdaki kırmızı düğmeye tıklayın. Alttaki _ADD LASER_ düğmesiyle bir lazer ekleyin. Ayrıca bkz. [Lazer ekleme / kaldırma](adding-removing-lasers.md)
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.32.22.png" alt="" width="268"><figcaption></figcaption></figure>
 2.  **3D görselleştirici görünümünü güncelleyin:**
 
-_3D Visualiser Settings_ panelini kullanarak her lazerin konumunu ve yönünü ayarlayın. Bkz. [3D Visualiser](3d-visualiser.md "mention").
+_3D Visualiser Settings_ panelini kullanarak her lazerin konumunu ve yönünü ayarlayın. Bkz. [3D Visualiser](3d-visualiser.md).
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.33.17.png" alt="" width="375"><figcaption></figcaption></figure>
 3.  **Zones ayarlarını yapın:**\
-    _OUTPUT_ view içinde zones ayarlarını kontrol edebilirsiniz. Her lazer arasında Tab ile geçiş yapın veya görünümün üst kısmındaki numaralı düğmelerden birine tıklayın. Her zone ayarını ihtiyacınıza göre düzenleyin, hatta yeni zones ekleyin. Bkz. [Output view](../output-view/ "mention").
+_OUTPUT_ view içinde zone ayarlarını kontrol edebilirsiniz. Her lazer arasında Tab ile geçiş yapın veya görünümün üst kısmındaki numaralı düğmelerden birine tıklayın. Her zone ayarını ihtiyacınıza göre düzenleyin, hatta yeni zone ekleyin. Bkz. [Output view](../output-view/).
 
     <figure><img src="../.gitbook/assets/Laser Output View.png" alt="" width="375"><figcaption></figcaption></figure>
 4.  **Her Clip için zones ayarlarını değiştirin:**\
-Her Clip düğmesine tıklayarak onu tetikleyin, ardından ekrandaki düğmeleri kullanarak zones ile X ve Y flip seçeneklerini açıp kapatın. Bkz. [Clips ve Clip Deck](../clips/ "mention").
+Her Clip düğmesine tıklayarak onu tetikleyin, ardından ekrandaki düğmeleri kullanarak zone seçenekleri ile X ve Y flip seçeneklerini açıp kapatın. Bkz. [Clips ve Clip Deck](../clips/).
 
     \\
 
     <figure><img src="../.gitbook/assets/Y.png" alt=""><figcaption></figcaption></figure>
-5.  **Controllers ile bağlantı kurun:** Lazerlerinizi bağlayıp çalışmaya hazır olduğunuzda _Controller Assignment_ panelini açın. Bkz. [Controller atama](controller-assignment.md "mention").
+5.  **Kontrol cihazlarınıza bağlanın:** Lazerlerinizi bağlayıp çalışmaya hazır olduğunuzda _Controller Assignment_ panelini açın. Bkz. [Controller Assignment](controller-assignment.md).
 
     \\
 
     <figure><img src="../.gitbook/assets/Screenshot 2025-01-22 at 10.36.58.png" alt=""><figcaption></figcaption></figure>
-6. **Lazerlerinizi etkinleştirin ve zone ayarlarını yapın:** [Lazer kurulum sürecine genel bakış](setting-up-lasers.md "mention") adımlarını dikkatle izleyin.
+6. **Lazerlerinizi etkinleştirin ve zone ayarlarını yapın:** [Lazer kurulum sürecine genel bakış](setting-up-lasers.md) adımlarını dikkatle izleyin

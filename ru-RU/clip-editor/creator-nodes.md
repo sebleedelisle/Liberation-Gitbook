@@ -10,48 +10,48 @@ metaLinks:
 
 Создаёт одну точку / луч.
 
-* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md "mention")
-* **Colour** — цвет точки. См. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md)
+* **Colour** — цвет точки. См. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md)
+* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md)
+* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorLine.png" alt="" data-size="line"> Line Creator
 
 Создаёт линию / плоскость.
 
-* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md "mention")
+* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md)
 * **Size** — длина линии
-* **Colour** — цвет линии. См. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md "mention")
+* **Colour** — цвет линии. См. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md)
+* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md)
 * **rotation** — угол линии в градусах
-* **resolution** — см. [Разрешение](fundamentals/resolution.md "mention")
+* **resolution** — см. [Разрешение](fundamentals/resolution.md)
 * **alignment** — _LEFT / CENTRE / RIGHT -_ определяет начальную точку и центр вращения линии
-* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorCircle.png" alt="" data-size="line"> Circle Creator
 
 Создаёт круг / конус.
 
-* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md "mention")
+* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md)
 * **radius** — радиус круга
-* **Colour** — цвет круга. См. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md "mention")
-* **resolution** — см. [Разрешение](fundamentals/resolution.md "mention")
-* **Fill state** — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Colour** — цвет круга. См. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md)
+* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md)
+* **resolution** — см. [Разрешение](fundamentals/resolution.md)
+* **Fill state** — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
+* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorPoly.png" alt="" data-size="line"> Polygon Creator
 
 Создаёт равносторонний многоугольник: треугольник, квадрат, пятиугольник и т. д.
 
-* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md "mention")
+* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md)
 * **size** — расстояние от центра до каждого угла
-* **Colour** — цвет многоугольника. См. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md "mention")
+* **Colour** — цвет многоугольника. См. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md)
+* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md)
 * **rotation** — угол поворота фигуры в градусах
-* **resolution** — см. [Разрешение](fundamentals/resolution.md "mention")
-* **Fill state** — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **resolution** — см. [Разрешение](fundamentals/resolution.md)
+* **Fill state** — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
+* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorShape.png" alt="" data-size="line"> Shape Creator
 
@@ -67,15 +67,15 @@ Liberation совместим с форматом _SVGTiny_. Рекоменду�
 После загрузки SVG его содержимое преобразуется и сохраняется внутри clip, поэтому хранить ссылку на файл не нужно — кроме случаев, когда позже вы захотите изменить настройки mask.
 {% endhint %}
 
-* **Use fills as masks** — обрабатывает любую фигуру с заливкой как mask, то есть заполняет её чёрным. Этот параметр включается автоматически, если в SVG есть фигуры с заливкой. Если фигур с заливкой нет, он будет отключён. См. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** — обрабатывает любую фигуру с заливкой как mask, то есть заполняет её чёрным. Этот параметр включается автоматически, если в SVG есть фигуры с заливкой. Если фигур с заливкой нет, он будет отключён. См. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 * **Add outlines to filled shapes** — если у фигур в SVG нет контура, мы не сможем их отрисовать! Этот параметр добавляет контур (или _stroke_) к любой фигуре с заливкой. Если в SVG нет фигур с обводкой, параметр включается автоматически. Если фигур с заливкой нет, он отключается.
 * **Invert black lines** — если все линии в SVG чёрные, вы их не увидите! Этот параметр делает их белыми. Он включается автоматически, если в SVG есть только чёрные фигуры, но отключается, если таких фигур нет.
-* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md "mention")
+* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md)
 * **scale** — изменяет размер SVG. Значение автоматически рассчитывается при загрузке SVG, чтобы изображение было видно, но затем его можно отредактировать вручную.
-* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md "mention")
+* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md)
 * **rotation** — угол поворота изображения в градусах
-* **resolution** — см. [Разрешение](fundamentals/resolution.md "mention")
-* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **resolution** — см. [Разрешение](fundamentals/resolution.md)
+* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorAnim.png" alt="" data-size="line"> Anim Creator
 
@@ -87,14 +87,14 @@ Liberation совместим с форматом _SVGTiny_. Рекоменду�
 После загрузки последовательности SVG её содержимое преобразуется и сохраняется внутри clip, поэтому хранить ссылки на файлы не нужно — кроме случаев, когда позже вы захотите изменить настройки mask.
 {% endhint %}
 
-* **Use fills as masks** — обрабатывает любую фигуру с заливкой как mask, то есть заполняет её чёрным. Этот параметр включается автоматически, если в любом из SVG есть фигуры с заливкой. Если ни в одном SVG таких фигур нет, он будет отключён. См. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Use fills as masks** — обрабатывает любую фигуру с заливкой как mask, то есть заполняет её чёрным. Этот параметр включается автоматически, если в любом из SVG есть фигуры с заливкой. Если ни в одном SVG таких фигур нет, он будет отключён. См. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 * **Add outlines to filled shapes** — если у фигур в SVG нет контуров, мы не сможем их отрисовать! Этот параметр добавляет контур (или _stroke_) к любой фигуре с заливкой. Если в SVG нет фигур с обводкой, параметр включается автоматически. Если ни в одном SVG нет фигур с заливкой, он отключается.
 * **Invert black lines** — если все линии в SVG чёрные, вы их не увидите! Этот параметр делает их белыми. Он включается автоматически, если в SVG есть только чёрные фигуры, но отключается, если таких фигур нет.
-* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md "mention")
+* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md)
 * **scale** — изменяет размер изображения.
-* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md "mention")
+* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md)
 * **rotation** — угол поворота изображения в градусах
-* **resolution** — см. [Разрешение](fundamentals/resolution.md "mention")
+* **resolution** — см. [Разрешение](fundamentals/resolution.md)
 * **speed** — длительность всей анимации в тактах.
 * **time per frame** — если этот параметр включён, длительность задаётся для каждого кадра, а не для всей анимации. Например, если _speed_ установлен на ¼, каждый кадр будет длиться 1 долю.
 * **animation direction** -
@@ -103,7 +103,7 @@ Liberation совместим с форматом _SVGTiny_. Рекоменду�
   * _PINGPONG_ — анимация в цикле идёт вперёд, затем назад
   * _MANUAL_ — текущий кадр задаётся параметром _position manual_
 * **position manual** — задаёт текущий кадр: 0% — первый кадр, 100% — последний кадр. Значение можно установить вручную или с помощью внешнего осциллятора.
-* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 
 ### <img src="../.gitbook/assets/CreatorText.png" alt="" data-size="line"> Text Creator
 
@@ -116,16 +116,16 @@ Liberation совместим с форматом _SVGTiny_. Рекоменду�
 Чтобы добавить в Liberation больше шрифтов, скопируйте файлы .ttf или .otf в папку `data/fonts` внутри рабочей папки Liberation, затем перезапустите Liberation.
 {% endhint %}
 
-* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md "mention")
+* **Render profile** — см. [Профиль рендеринга](fundamentals/render-profile.md)
 * **horizontal alignment** — выберите _LEFT_, _CENTRE_ или _RIGHT_, чтобы задать выравнивание текста.
-* **Fill state** — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* **Fill state** — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 * **size** — размер текста
 * **monospace** — рисует каждый символ с одинаковой шириной. Это удобно для таймеров и счётчиков, потому что текст не смещается в сторону при изменении цифр.
 * **character spacing** — настраивает расстояние между символами. Увеличьте значение для более разреженного набора или уменьшите, чтобы сделать текст плотнее.
-* **colour -** см. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md "mention")
-* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md "mention")
+* **colour -** см. [Настройки цвета и HSB](fundamentals/colour-settings-and-hsb.md)
+* Положение **x** и **y** — см. [Система координат](fundamentals/co-ordinate-system.md)
 * **rotation** — угол поворота изображения в градусах
-* **resolution** — см. [Разрешение](fundamentals/resolution.md "mention")
+* **resolution** — см. [Разрешение](fundamentals/resolution.md)
 * **reveal** — используйте этот параметр, чтобы постепенно показывать текст по одному символу. Когда значение находится между 0 и 50%, текст постепенно появляется слева направо. Когда значение между 50% и 100%, текст исчезает слева направо. К этому сокету можно подключить осциллятор для создания анимации.
 * **reveal by word** — если включено, _reveal_ работает по словам, а не по символам.
 * **countdown** — заменяет введённый текст обратным отсчётом. Когда отсчёт доходит до нуля, отображается обычное значение **Text**.
@@ -134,7 +134,7 @@ Liberation совместим с форматом _SVGTiny_. Рекоменду�
 * **countdown to date/time** — ведёт отсчёт до заданных даты и времени UTC, а не от начального числа.
 * **countdown datetime** — задаёт целевые дату и время UTC, когда включён параметр **countdown to date/time**.
 * **start number** — начальное число, когда параметр **countdown to date/time** выключен.
-* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md "mention")
+* _MOVE TO FRONT / MOVE TO BACK_ — см. [Заливки, masks и сортировка по глубине](fundamentals/fills-masks-and-depth-sorting.md)
 
 {% hint style="info" %}
 Если раскрывающееся меню выбора шрифта открыто, клавиши со стрелками вверх и вниз переключают доступные шрифты.

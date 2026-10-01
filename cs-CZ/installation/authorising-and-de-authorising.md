@@ -29,7 +29,7 @@ Pokud už máte pro svou licenci autorizovaný maximální počet počítačů, 
 Pokud máte více licencí, budete vyzváni k výběru licence, ke které chcete počítač přiřadit.
 {% endhint %}
 
-Hotovo! Vaše instalace Liberation je nyní autorizovaná a můžete posílat výstup do laserů. Než ale lasery zapnete do aktivního stavu, přečtěte si prosím [Stručný průvodce](../getting-started.md "mention") a [Přehled procesu nastavení laserů](../setting-up/setting-up-lasers.md "mention").
+Hotovo! Vaše instalace Liberation je nyní autorizovaná a můžete posílat výstup do laserů. Než ale lasery zapnete do aktivního stavu, přečtěte si prosím [Stručný průvodce](../getting-started.md) a [Přehled procesu nastavení laserů](../setting-up/setting-up-lasers.md).
 
 {% hint style="info" %}
 _About panel_ můžete kdykoli otevřít přes nabídku _Liberation -> About Liberation_ nebo _Liberation -> Authorise/Deauthorise this computer_

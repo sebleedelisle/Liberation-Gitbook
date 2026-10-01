@@ -11,7 +11,7 @@ metaLinks:
 
 Zmienia kolory całej treści przychodzącej. Możesz ustawić stałe wartości HSB albo przełączyć się na system gradientów i pobierać kolory z własnego gradientu.
 
-* **hue, saturation, brightness** - wartości koloru, zobacz [Ustawienia koloru i HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - wartości koloru, zobacz [Ustawienia koloru i HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - odcień nie jest zmieniany
   * FIXED - odcień elementów jest ustawiany na wartość hue
@@ -28,7 +28,7 @@ Zmienia kolory całej treści przychodzącej. Możesz ustawić stałe wartości 
 * **blend** - jak silnie stosowana jest zmiana koloru: 0% oznacza brak wpływu, 100% pełne zastosowanie, a 50% połączenie istniejącego koloru z nowymi wartościami.
 
 {% hint style="info" %}
-node Colour Change pobiera z gradientu jeden kolor dla całego wejścia. Jeśli chcesz, aby gradient przebiegał przez kształt zależnie od pozycji, użyj zamiast tego [modyfikatorów opartych na pozycji](position-based-changers.md "mention").
+node Colour Change pobiera z gradientu jeden kolor dla całego wejścia. Jeśli chcesz, aby gradient przebiegał przez kształt zależnie od pozycji, użyj zamiast tego [modyfikatorów opartych na pozycji](position-based-changers.md).
 {% endhint %}
 
 ### Edytor gradientu

@@ -8,7 +8,7 @@ metaLinks:
 
 Hệ thống hiệu ứng trong Liberation là một cách thú vị và linh hoạt để thay đổi Output của Clip theo thời gian thực. Hiệu ứng hoàn toàn linh hoạt và có thể dùng để làm mọi thứ nhấp nháy bật/tắt, xoay vòng, đổi màu, hoặc thậm chí bay ngẫu nhiên!
 
-Bất kỳ thứ gì bạn có thể làm trong Clip Editor đều có thể dùng làm hiệu ứng. Thực tế, hiệu ứng được chỉnh sửa bằng đúng cùng node editor như Clip! Xem [Chỉnh sửa hiệu ứng](effects.md#editing-effects "mention"). Khả năng sáng tạo gần như là vô hạn.
+Bất kỳ thứ gì bạn có thể làm trong Clip Editor đều có thể dùng làm hiệu ứng. Thực tế, hiệu ứng được chỉnh sửa bằng đúng cùng node editor như Clip! Xem [Chỉnh sửa hiệu ứng](effects.md#editing-effects). Khả năng sáng tạo gần như là vô hạn.
 
 Các nút hiệu ứng mặc định 1-8 nằm bên dưới các nút zone, còn hiệu ứng 9-24 là các nút nhỏ ở phía dưới.
 
@@ -32,12 +32,12 @@ Tôi cho rằng đây là một trong những công cụ thú vị và sáng t�
 
 #### Tham số hiệu ứng
 
-Thêm một tham số vào hiệu ứng của bạn bằng _Parameter node._ Hệ thống Parameter là một cách để điều chỉnh nhiều cài đặt bên trong hiệu ứng từ bên ngoài. Xem [Parameter Control](clip-editor/oscillators/parameter-control.md "mention") để biết thêm thông tin.
+Thêm một tham số vào hiệu ứng của bạn bằng _Parameter node._ Hệ thống Parameter là một cách để điều chỉnh nhiều cài đặt bên trong hiệu ứng từ bên ngoài. Xem [Parameter Control](clip-editor/oscillators/parameter-control.md) để biết thêm thông tin.
 
 Dùng các núm xoay 1-8 để điều chỉnh _parameter_ cho từng hiệu ứng. Hoặc nhấp chuột phải vào nút hiệu ứng và chỉnh các thanh trượt parameter. Việc thay đổi parameter sẽ tạo ra các kết quả khác nhau tùy theo cách hiệu ứng được thiết lập. Xem danh sách bên dưới để biết các hiệu ứng mặc định và chức năng parameter của chúng.
 
 {% hint style="info" %}
-Các núm xoay 1-8 nằm dọc phía trên của APC40 Mk2 và ở góc trên bên phải trên Mk1. Xem thêm: [Tham chiếu APC40](reference/apc40-reference.md "mention")
+Các núm xoay 1-8 nằm dọc phía trên của APC40 Mk2 và ở góc trên bên phải trên Mk1. Xem thêm: [Tham chiếu APC40](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Chức năng này bị tắt nếu cài đặt _MX Group_ là 0.
 
 Nhấp chuột phải vào bất kỳ hiệu ứng nào, rồi nhấp nút _EDIT EFFECT_ để mở effect editor. Lưu ý rằng editor này giống hệt Clip Editor!
 
-Chỉnh sửa hiệu ứng theo cùng cách bạn chỉnh sửa bất kỳ Clip nào. Xem [Clip Editor](clip-editor/ "mention").
+Chỉnh sửa hiệu ứng theo cùng cách bạn chỉnh sửa bất kỳ Clip nào. Xem [Clip Editor](clip-editor/).
 
 Bạn cần có ít nhất một Creator node; node này có thể là bất kỳ thứ gì (line, circle, shape, thậm chí text!), nhưng có lẽ bạn nên chọn thứ có ý nghĩa nhất trong phần xem trước của nút hiệu ứng.
 

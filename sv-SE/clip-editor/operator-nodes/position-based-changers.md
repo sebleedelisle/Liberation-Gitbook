@@ -33,7 +33,7 @@ Den här noden applicerar färgändringar över ditt innehåll baserat på posit
 
 **Colour Modes**
 
-Dessa avgör vilka delar av färgjusteringarna som appliceras på innehållet. Se även: [Färginställningar och HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Dessa avgör vilka delar av färgjusteringarna som appliceras på innehållet. Se även: [Färginställningar och HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue ändras inte.
@@ -49,7 +49,7 @@ Dessa avgör vilka delar av färgjusteringarna som appliceras på innehållet. S
 
 **Gradient editor**
 
-Använder samma gradientredigerare som [Färgändring](colour-changer.md "mention"), men mappar gradienten över innehållet efter position.
+Använder samma gradientredigerare som [Färgändring](colour-changer.md), men mappar gradienten över innehållet efter position.
 
 * Klicka på gradientstapeln för att lägga till ett färgstopp.
 * Vänsterklicka på ett stopp för att välja det och dra det sedan i sidled för att flytta det.

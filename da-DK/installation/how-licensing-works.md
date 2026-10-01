@@ -13,7 +13,7 @@ Når du har installeret Liberation på din computer, kører programmet i _free m
 Der er ingen begrænsninger i _free mode_ ud over output til laserhardware. Du kan øve shows, opbygge tidslinjer og gemme og indlæse dine filer uden begrænsninger. Du kan installere Liberation i _free mode_ på så mange computere, du vil, og du behøver først at autorisere din installation, når du er klar til at bruge lasere!
 {% endhint %}
 
-Ud over antallet af lasere, du kan aktivere til output, kan du også bruge DMX-fixtures. Se [DMX / Art-Net](../dmx-control/ "mention").
+Ud over antallet af lasere, du kan aktivere til output, kan du også bruge DMX-fixtures. Se [DMX / Art-Net](../dmx-control/).
 
 Der er også en grænse for, hvor mange computere du kan autorisere Liberation på, afhængigt af dit licensniveau.
 

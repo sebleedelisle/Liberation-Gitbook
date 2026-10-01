@@ -14,7 +14,7 @@ Thay đổi kích thước Output của Clip bằng _Scale X_ và _Scale Y_. Hai
 
 Thay đổi vị trí ngang và dọc của Clip bằng _Shift X_ và _Shift Y_.
 
-_Zone Delay/Chase_ là một tính năng thú vị đến mức cần có hẳn một phần riêng. [Zone delay / chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ là một tính năng thú vị đến mức cần có hẳn một phần riêng. [Zone delay / chase](zone-delay-chase.md)
 
 ### Parameters panel
 
@@ -33,7 +33,7 @@ Nếu một Clip bị khóa, bạn không thể di chuyển hoặc xóa Clip đ�
 
 ### Menu nhấp chuột phải
 
-Nếu bạn nhấp chuột phải vào một Clip, một menu sẽ xuất hiện với một số tùy chọn cho Clip đó. Xem [Giới thiệu Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Cài đặt Clip](clip-settings.md "mention") và [Nhóm Clip](groups.md "mention") để biết thêm về một vài mục đầu tiên trong menu này.
+Nếu bạn nhấp chuột phải vào một Clip, một menu sẽ xuất hiện với một số tùy chọn cho Clip đó. Xem [Giới thiệu Clip Editor](../clip-editor/clip-editor-intro.md), [Cài đặt Clip](clip-settings.md) và [Nhóm Clip](groups.md) để biết thêm về một vài mục đầu tiên trong menu này.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

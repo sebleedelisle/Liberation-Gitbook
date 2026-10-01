@@ -27,13 +27,25 @@ Det er ikke en fuldstændig eller fuldt standardiseret måling af ydeevne i prak
 
 Men det er stadig den mest udbredte reference, vi har, og den kan give dig en god idé om scannernes kvalitet, i hvert fald hos anerkendte producenter. Med _mindre anerkendte_ producenter derimod...
 
-#### Hvis du vil teste scannerne ud fra deres angivne specifikationer
+#### Test af scanners med Libera Lab
 
 {% hint style="danger" %}
 **Dette er en avanceret teknik, og du kan beskadige dine scannere, hvis du ikke er forsigtig. Anbefales ikke, medmindre du ved, hvad du laver.**
 {% endhint %}
 
-Du skal finde software, der kan outputte [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950) - jeg tror, LaserShowGen muligvis kan gøre det - og justere outputstørrelsen, så den matcher den angivne scanningsvinkel (f.eks. 8°). Se ILDA-dokumentationen for råd om, hvordan du analyserer outputtet.
+Hvis du vil eksperimentere med scanneradfærd uden for et showprojekt, kan du bruge [Libera Lab](https://github.com/sebleedelisle/libera-lab/releases). Det er et skrivebordsværktøj til Libera-kompatible laserkontrollere, udviklet til at finde, teste, forhåndsvise og inspicere laseroutput.
+
+<figure><img src="../.gitbook/assets/libera-lab-screenshot.png" alt="Libera Lab showing the ILDA test pattern, point-rate controls, controller list and scanner-load meter"><figcaption><p>Libera Lab can output known patterns, stream ILDA files and show a scanner-load estimate for the current point stream.</p></figcaption></figure>
+
+Libera Lab er nyttigt, fordi du kan:
+
+* outputte kendte testmønstre, herunder ILDA-testmønsteret
+* indlæse og streame ILDA-filer
+* forhåndsvise punktstrømmen før eller mens du outputter den
+* inspicere output med scope- og scannerbelastningsværktøjer
+* sammenligne, hvordan forskellige mønstre, punktrater og outputstørrelser påvirker scannerne
+
+Hvis du vil teste scannere i forhold til en offentliggjort specifikation, skal du indstille Libera Lab til [ILDA Test Pattern](https://ilda.com/technical.htm?r=7950), vælge den angivne punktrate og justere outputstørrelsen, så den matcher den angivne scanningsvinkel (f.eks. 8°). Se ILDA-dokumentationen for råd om, hvordan du analyserer outputtet.
 
 #### Hvorfor det måske ikke er en god benchmark
 
@@ -54,6 +66,8 @@ Phenix Technology (PT) ligger generelt i et lavere niveau, men helt ærligt er d
 #### Hvordan Liberation hjælper
 
 Først og fremmest: til det meste har du ikke brug for virkelig dyre scannere! Prisvenlige 30kpps DT eller endda PT er fine. Standardindstillingerne for scannerne er bevidst konservative, og for det meste _bør du ikke have brug for at justere dem_ (bortset fra _Scanner sync_).
+
+Hvis du vil forstå, hvad scannerindstillingerne egentlig gør, er Libera Lab et bedre sted at eksperimentere end dit showprojekt. Du kan ændre punktrate, outputvinkel og testmønster, mens du holder øje med forhåndsvisningen, scope og oplysningerne om scannerbelastning.
 
 Selv hvis du har bedre scannere, er der ingen grund til at drive dem hårdere end nødvendigt. Det forlænger deres levetid markant.
 
@@ -98,7 +112,8 @@ Godt spørgsmål. Her er mine tips:
 * Hvis du laver grafik, vil flere lasere i de fleste tilfælde være bedre end hurtigere scannere.
 * Når du når op i high-end setups, vil alle de etablerede high-end mærker være fine.
 * Hvis du kun kan få de billigste scannere uden mærke, er Liberations standardindstillinger ret konservative, og du får sandsynligvis OK resultater til grundlæggende beam-arbejde. Hvis det har svært ved at følge med, så reducer indstillingen **Speed** (men lad være med at ændre punktraten!).
+* Hvis du vil teste eller sammenligne indstillinger, så gør det først i Libera Lab i stedet for at eksperimentere inde i en showfil.
 
 #### Og ILDA Test Pattern?
 
-…er stadig meget nyttigt som kalibrerings- og referenceværktøj, men det blev aldrig designet som en komplet benchmark og kan misbruges eller fortolkes løst af producenter.
+…er stadig meget nyttigt som kalibrerings- og referenceværktøj, og Libera Lab gør det lettere at outputte og inspicere det. Men det blev aldrig designet som en komplet benchmark og kan misbruges eller fortolkes løst af producenter.

@@ -11,7 +11,7 @@ metaLinks:
 
 Endrer fargene på alt innkommende innhold. Du kan enten angi faste HSB-verdier, eller bytte til gradientsystemet og hente farger fra en egendefinert gradient.
 
-* **hue, saturation, brightness** – fargeverdiene, se [Fargeinnstillinger og HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** – fargeverdiene, se [Fargeinnstillinger og HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** –
   * OFF – hue endres ikke
   * FIXED – hue for elementer settes til hue-verdien
@@ -28,7 +28,7 @@ Endrer fargene på alt innkommende innhold. Du kan enten angi faste HSB-verdier,
 * **blend** – hvor sterkt colour changer brukes. 0 % er ikke i det hele tatt, 100 % er fullt, og 50 % er en kombinasjon av den eksisterende fargen og de nye verdiene.
 
 {% hint style="info" %}
-Colour Change node henter én farge fra gradienten for hele inndataen. Hvis du vil at gradienten skal gå over formen basert på posisjon, bruker du [Posisjonsbaserte endrere](position-based-changers.md "mention") i stedet.
+Colour Change node henter én farge fra gradienten for hele inndataen. Hvis du vil at gradienten skal gå over formen basert på posisjon, bruker du [Posisjonsbaserte endrere](position-based-changers.md) i stedet.
 {% endhint %}
 
 ### Gradientredigerer

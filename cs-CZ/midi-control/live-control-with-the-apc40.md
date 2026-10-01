@@ -27,7 +27,7 @@ Stručně řečeno doporučujeme Mark 2, protože má plnobarevná tlačítka, k
 Původní APC40 Mark 1 vyšel v roce 2009 (!) a někteří lidé ho stále preferují kvůli kovovému tělu a robustnímu konzolovému provedení. Aktualizovaný Mark 2 vyšel v roce 2014, a přestože byla jeho výroba v roce 2024 ukončena, v roce 2025 se kvůli poptávce ze strany vizuálních umělců (Resolume apod.) a laseristů vrací do výroby.
 {% endhint %}
 
-Úplný seznam ovládacích prvků dostupných na APC40 najdete v části [Referenční přehled APC40](../reference/apc40-reference.md "mention")
+Úplný seznam ovládacích prvků dostupných na APC40 najdete v části [Referenční přehled APC40](../reference/apc40-reference.md)
 
 ### APC Mini
 

@@ -9,7 +9,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
-Færir allt efni eftir x-, y- og/eða z-ás. Athugaðu að hnitakerfið er miðjað og nær frá +/-200 á x- og y-ás. Sjá [Hnitakerfi](../fundamentals/co-ordinate-system.md "mention").
+Færir allt efni eftir x-, y- og/eða z-ás. Athugaðu að hnitakerfið er miðjað og nær frá +/-200 á x- og y-ás. Sjá [Hnitakerfi](../fundamentals/co-ordinate-system.md).
 
 * **x** - fjarlægðin sem á að færa eftir x-ás (vinstri - hægri).
 * **y** - fjarlægðin sem á að færa eftir y-ás (efst - neðst).
@@ -20,7 +20,7 @@ Færir allt efni eftir x-, y- og/eða z-ás. Athugaðu að hnitakerfið er miðj
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Snýr öllu efni. Gildi eru í gráðum. Sjá [Hnitakerfi](../fundamentals/co-ordinate-system.md "mention").
+Snýr öllu efni. Gildi eru í gráðum. Sjá [Hnitakerfi](../fundamentals/co-ordinate-system.md).
 
 * **rotation** - hversu mikið efninu er snúið réttsælis, í gráðum. Öllu er snúið um upphafspunktinn (0,0), miðjuna.
 * **pivot point x / pivot point y** - notaðu þessi gildi til að hliðra upphafspunkti snúningsins.

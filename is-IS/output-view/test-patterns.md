@@ -19,7 +19,7 @@ Hér er heildarlisti yfir test pattern. Mynstrin fylla allt úttakssvæði hvers
 3. Láréttar grænar línur - 4 láréttar línur með jöfnu millibili.
 4. Lóðréttar grænar línur - 4 lóðréttar línur með jöfnu millibili.
 
-Litakvörðunarmynstur 5-8. Hægt er að nota þau samhliða litaleiðréttingarkerfinu í Laser Settings. Sjá [Litakvörðun](../advanced/colour-calibration.md "mention"). Þessi mynstur fylla ekki allt úttakssvæðið.
+Litakvörðunarmynstur 5-8. Hægt er að nota þau samhliða litaleiðréttingarkerfinu í Laser Settings. Sjá [Litakvörðun](../advanced/colour-calibration.md). Þessi mynstur fylla ekki allt úttakssvæðið.
 
 5. Litakvörðunarmynstur - rautt.
 6. Litakvörðunarmynstur - grænt.

@@ -32,7 +32,7 @@ Clip Editor 是建立雷射內容的多用途工具，也是 Liberation 的核�
 編輯時，你也會在背景的 3D 視覺化預覽中看到這個 clip 的樣子。
 
 {% hint style="info" %}
-如果你在 3D 視覺化預覽中看不到任何輸出，可能需要使用 zone 按鈕開啟你想要的 zones。你也需要確認 _Preview to lasers_ 已啟用，請參考下方的 [Clip Editor 面板](clip-editor-intro.md#clip-editor-panel "mention")。
+如果你在 3D 視覺化預覽中看不到任何輸出，可能需要使用 zone 按鈕開啟你想要的 zones。你也需要確認 _Preview to lasers_ 已啟用，請參考下方的 [Clip Editor 面板](clip-editor-intro.md#clip-editor-panel)。
 {% endhint %}
 
 ### 建立 clip
@@ -75,7 +75,7 @@ Oscillator nodes 用來隨時間改變屬性。它們通常代表鋸齒波或正
 **有趣小知識：** _Liberation_ 這個名稱的靈感來自 Moog Liberation，那是一把 1980 年推出的「keytar」合成器，並因 Herbie Hancock、Jean-Michel Jarre，甚至 James Brown 的使用而聞名！
 {% endhint %}
 
-Oscillators 一定會有 _range_ 設定，用來控制要調整之屬性的最小值與最大值。而 _Wave Oscillators_ 一定會有 _duration_ 設定，用來決定 oscillator 改變數值的速度。更多資訊請參考 [波形振盪器](oscillators/wave-oscillators.md "mention")。
+Oscillators 一定會有 _range_ 設定，用來控制要調整之屬性的最小值與最大值。而 _Wave Oscillators_ 一定會有 _duration_ 設定，用來決定 oscillator 改變數值的速度。更多資訊請參考 [波形振盪器](oscillators/wave-oscillators.md)。
 
 ### Clip Editor 面板
 

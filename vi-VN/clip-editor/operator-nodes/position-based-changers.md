@@ -33,7 +33,7 @@ Node này áp dụng thay đổi màu trên nội dung của bạn dựa theo v�
 
 **Chế độ màu**
 
-Các mục này xác định những thành phần nào của phần chỉnh màu được áp dụng lên nội dung. Xem thêm: [Thiết lập màu và HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Các mục này xác định những thành phần nào của phần chỉnh màu được áp dụng lên nội dung. Xem thêm: [Thiết lập màu và HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue không thay đổi.
@@ -49,7 +49,7 @@ Các mục này xác định những thành phần nào của phần chỉnh mà
 
 **Trình chỉnh sửa gradient**
 
-Sử dụng cùng trình chỉnh sửa gradient như [Thay đổi màu](colour-changer.md "mention"), nhưng ánh xạ gradient lên nội dung theo vị trí.
+Sử dụng cùng trình chỉnh sửa gradient như [Thay đổi màu](colour-changer.md), nhưng ánh xạ gradient lên nội dung theo vị trí.
 
 * Nhấp vào thanh gradient để thêm một điểm dừng màu.
 * Nhấp chuột trái vào một điểm dừng để chọn, rồi kéo ngang để di chuyển điểm đó.

@@ -14,7 +14,7 @@ Skift clippets outputstørrelse med _Scale X_ og _Scale Y_. De er låst sammen, 
 
 Skift clippets vandrette og lodrette placering med _Shift X_ og _Shift Y_.
 
-_Zone Delay/Chase_ er så sjov en funktion, at den har fået sit eget afsnit. [Zone delay / chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ er så sjov en funktion, at den har fået sit eget afsnit. [Zone Delay/Chase](zone-delay-chase.md)
 
 ### Parameters panel
 
@@ -33,7 +33,7 @@ Hvis et clip er låst, kan det ikke flyttes eller slettes. Du låser et clip med
 
 ### Højreklikmenu
 
-Hvis du højreklikker på et Clip, vises en menu med nogle af indstillingerne for det Clip. Se [Introduktion til Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip-indstillinger](clip-settings.md "mention") og [Clip-grupper](groups.md "mention") for mere om de første punkter i denne menu.
+Hvis du højreklikker på et Clip, vises en menu med nogle af indstillingerne for det Clip. Se [Introduktion til Clip Editor](../clip-editor/clip-editor-intro.md), [Clip-indstillinger](clip-settings.md) og [Clip-grupper](groups.md) for mere om de første punkter i denne menu.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

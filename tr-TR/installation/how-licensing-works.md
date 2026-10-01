@@ -13,7 +13,7 @@ Liberation bilgisayarınıza kurulduktan sonra, siz onu _yetkilendirene_ kadar _
 _free mode_ sırasında lazer donanımına çıkış verme dışında herhangi bir kısıtlama yoktur. Gösteri provası yapabilir, timeline oluşturabilir, dosyalarınızı sınırsız şekilde kaydedip yükleyebilirsiniz. Liberation’ı istediğiniz sayıda bilgisayara _free mode_ olarak kurabilirsiniz; kurulumunuzu yalnızca lazerleri kullanmaya hazır olduğunuzda yetkilendirmeniz gerekir.
 {% endhint %}
 
-Etkinleştirebileceğiniz lazer sayısına ek olarak DMX armatürlerini de kullanabilirsiniz. Bkz. [DMX / Art-Net](../dmx-control/ "mention").
+Etkinleştirebileceğiniz lazer sayısına ek olarak DMX armatürlerini de kullanabilirsiniz. Bkz. [DMX / Art-Net](../dmx-control/).
 
 Ayrıca Liberation’ı yetkilendirebileceğiniz bilgisayar sayısı, lisans katmanınıza göre sınırlıdır.
 

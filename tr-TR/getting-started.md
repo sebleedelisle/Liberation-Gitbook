@@ -20,17 +20,17 @@ Liberation, hiç gerçek lazer bağlı olmasa bile lazerleri ayarlayıp görsell
 Liberation içinde istediğiniz kadar lazer ayarlayabilir ve görselleştirebilirsiniz. Lisans katmanları (Hobbyist, Pro vb.) yalnızca _etkinleştirebileceğiniz_ lazer sayısını sınırlar. Bu, ücretsiz lisansla bile 100 lazerli gösteriler tasarlayabileceğiniz anlamına gelir. Yükseltme yalnızca gösteriyi gerçek lazerlerde çalıştıracağınız zaman gerekir.
 {% endhint %}
 
-Varsayılan kurulumda yatay olarak yayılmış 8 lazer bulunur, ancak bunu istediğiniz şekilde özelleştirebilirsiniz. Yazılımı tanırken bu varsayılan düzeni korumak muhtemelen en iyisidir; daha sonra donanım kurulumunuza uyacak şekilde ayarlayabilirsiniz. (Bkz. [Projenizi ayarlama](setting-up/setting-up-your-project.md "mention"))
+Varsayılan kurulumda yatay olarak yayılmış 8 lazer bulunur, ancak bunu istediğiniz şekilde özelleştirebilirsiniz. Yazılımı tanırken bu varsayılan düzeni korumak muhtemelen en iyisidir; daha sonra donanım kurulumunuza uyacak şekilde ayarlayabilirsiniz. (Bkz. [Projenizi ayarlama](setting-up/setting-up-your-project.md))
 
 {% hint style="warning" %}
-Önemli: Herhangi bir lazeri etkinleştirmeden önce riskleri anladığınızdan emin olun ve [Lazer kurulum sürecine genel bakış](setting-up/setting-up-lasers.md "mention") bölümünü dikkatlice okuyun.
+Önemli: Herhangi bir lazeri etkinleştirmeden önce riskleri anladığınızdan emin olun ve [Lazer kurulum sürecine genel bakış](setting-up/setting-up-lasers.md) bölümünü dikkatlice okuyun.
 {% endhint %}
 
 ## Yazılıma genel bakış
 
 ### Güvenlik kapatma
 
-Lazerleri çalıştırırken elinizin altında mutlaka bir **donanımsal acil durdurma butonu** bulunmalıdır (bkz. [Acil durdurma ve kilitlemeler](hardware/emergency-stop-interlocks.md "mention")). Ancak her şeyi daha az acil bir şekilde devre dışı bırakmak isterseniz _**DISARM ALL**_ düğmesini, `Escape` tuşunu veya APC40 üzerindeki _**SESSION**_ tuşunu kullanabilirsiniz. Ayrıca ekrandaki sürgüyü veya APC40 üzerindeki ana fader’ı kullanarak genel parlaklığı azaltabilirsiniz.
+Lazerleri çalıştırırken elinizin altında mutlaka bir **donanımsal acil durdurma butonu** bulunmalıdır (bkz. [Acil durdurma ve kilitlemeler](hardware/emergency-stop-interlocks.md)). Ancak her şeyi daha az acil bir şekilde devre dışı bırakmak isterseniz _**DISARM ALL**_ düğmesini, `Escape` tuşunu veya APC40 üzerindeki _**SESSION**_ tuşunu kullanabilirsiniz. Ayrıca ekrandaki sürgüyü veya APC40 üzerindeki ana fader’ı kullanarak genel parlaklığı azaltabilirsiniz.
 
 ### Sürgü öğeleri
 
@@ -42,7 +42,7 @@ Sürgünün sunduğundan daha hassas bir kontrol gerekiyorsa yeni bir değer yaz
 
 ### Klavye kısayolları
 
-Klavye kısayollarının tam listesine buradan ulaşabilirsiniz: [Klavye kısayolları](reference/keyboard-shortcuts.md "mention")
+Klavye kısayollarının tam listesine buradan ulaşabilirsiniz: [Klavye kısayolları](reference/keyboard-shortcuts.md)
 
 ### Ekran düzeni
 
@@ -74,7 +74,7 @@ Ekranın sol üstündeki geniş alan üç ana görünümden biri olabilir: **3D*
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view, lazerlerinizin nasıl görüneceğini gösterir ve kendi lazer kurulumunuza uyacak şekilde yapılandırılabilir. Kamerayı döndürmek için tıklayıp sürükleyin; ileri ve geri hareket etmek için fare tekerleğini kullanın. Birçok ek seçeneği _3D Visualiser settings_ panelinde bulabilirsiniz (_View -> 3D Visualiser Settings_). Bkz. [3D Visualiser](setting-up/3d-visualiser.md "mention").
+3D view, lazerlerinizin nasıl görüneceğini gösterir ve kendi lazer kurulumunuza uyacak şekilde yapılandırılabilir. Kamerayı döndürmek için tıklayıp sürükleyin; ileri ve geri hareket etmek için fare tekerleğini kullanın. Birçok ek seçeneği _3D Visualiser settings_ panelinde bulabilirsiniz (_View -> 3D Visualiser Settings_). Bkz. [3D Visualiser](setting-up/3d-visualiser.md).
 
 #### Output View
 
@@ -106,11 +106,11 @@ Bir zone seçmek için üzerine tıklayın, ardından köşe noktalarını farey
 
 Sol tarafta bir dizi simge düğmesi bulunan bir çubuk vardır; ne işe yaradığını görmek için herhangi bir düğmenin üzerinde imleci bekletin. Buradaki düğmeler beam zone, canvas zone ve mask eklemenizi sağlar. Ayrıca yalnızca bu lazer için Test Pattern ayarlama seçenekleri ile grid ve snapping ayarları da bulunur.
 
-Daha fazla ayrıntı için bkz. [Output view](output-view/ "mention").
+Daha fazla ayrıntı için bkz. [Output view](output-view/).
 
 #### Canvas
 
-Canvas sistemi çoğunlukla grafikler ve mimari mapping için kullanılır. Karmaşık görüntüleri birden fazla lazer arasında dağıtabilir ve her bölümü perspektife göre düzeltebilirsiniz. Bkz. [Grafikler ve Canvas sistemi](graphics-and-the-canvas-system/ "mention").
+Canvas sistemi çoğunlukla grafikler ve mimari mapping için kullanılır. Karmaşık görüntüleri birden fazla lazer arasında dağıtabilir ve her bölümü perspektife göre düzeltebilirsiniz. Bkz. [Grafikler ve Canvas sistemi](graphics-and-the-canvas-system/).
 
 ### APC40 MIDI denetleyici
 
@@ -118,7 +118,7 @@ Canvas sistemi çoğunlukla grafikler ve mimari mapping için kullanılır. Karm
 
 Liberation uygulamasını fare ve klavyeyle kontrol etmek mümkün olsa da, APC40 MIDI kontrol arayüzü kullanmak çok daha iyidir (Mark 2 en iyi seçenektir, ancak Mark 1 de çalışır).
 
-Ayrıca bkz.: [APC40 başvurusu](reference/apc40-reference.md "mention")
+Ayrıca bkz.: [APC40 başvurusu](reference/apc40-reference.md)
 
 Liberation, APC Mini ve MIDI Fighter Twister desteği de sunar. APC40 Mark 2 çoğu durumda hâlâ en iyi seçenektir.
 
@@ -146,7 +146,7 @@ Clip Deck alanını sola ve sağa kaydırmak için şunları kullanabilirsiniz:
 * APC40 kaydırma düğmesi
 * APC40 _<- DEVICE ->_ düğmeleri
 
-Yönünüzü bulmanıza yardımcı olmak için üst kısımda Clip Deck için küçük bir görselleştirici bulunur. Ayrıca bkz. [Clips ve Clip Deck](clips/ "mention")
+Yönünüzü bulmanıza yardımcı olmak için üst kısımda Clip Deck için küçük bir görselleştirici bulunur. Ayrıca bkz. [Clips ve Clip Deck](clips/)
 
 #### Clip başlatma ve durdurma
 
@@ -168,7 +168,7 @@ Zone düğmelerinin iki satır altında X/Y flip düğmelerini görürsünüz; C
 Bu zone atamalarının ve X/Y flip ayarlarının Clip öğesinin kendisine bağlı olduğunu unutmayın; aynı Clip bir sonraki çalıştırıldığında korunurlar. Global bir ayar değildir.
 {% endhint %}
 
-Clip için daha fazla ayarı düzenlemek üzere Clip üzerinde sağ tıklayın. Ayrıca bkz. [Clip ayarları](clips/clip-settings.md "mention")
+Clip için daha fazla ayarı düzenlemek üzere Clip üzerinde sağ tıklayın. Ayrıca bkz. [Clip ayarları](clips/clip-settings.md)
 
 ### Gruplar
 
@@ -190,7 +190,7 @@ Bir grup içindeki tüm Clip öğeleri için zone ayarlarını değiştirme
 
 APC40 kullanırken grup düğmesine basın, ardından _basılı tutmaya devam ederken_ o grup içindeki tüm Clip öğeleri için zone ve X/Y düğmelerini kullanarak zone ayarlarını açıp kapatın.
 
-Ayrıca bkz. [Clip grupları](clips/groups.md "mention")
+Ayrıca bkz. [Clip grupları](clips/groups.md)
 
 ### Efektler
 
@@ -208,7 +208,7 @@ Her efektin _parameter_ değerini ayarlamak için rotary controller 1-8\* kullan
 Efekt düğmelerinde gördüğünüz küçük sayılar, efektin _level_ ve _parameter_ değerlerini gösterir. _Level_, APC40 üzerindeki fader ile kontrol edilir veya düğme üzerinde tıklayıp sürükleyebilirsiniz. Parameter, APC40 üzerindeki rotary controller ile ayarlanır veya fareyle sağ tıklayarak ayarlayabilirsiniz.
 {% endhint %}
 
-_\*Rotary controller 1-8, APC40 Mk2 üzerinde üst kısımda; Mk1 üzerinde sağ üstte bulunur. Ayrıca bkz.:_ [APC40 başvurusu](reference/apc40-reference.md "mention")
+_\*Rotary controller 1-8, APC40 Mk2 üzerinde üst kısımda; Mk1 üzerinde sağ üstte bulunur. Ayrıca bkz.:_ [APC40 başvurusu](reference/apc40-reference.md)
 
 #### Varsayılan efektler
 
@@ -297,16 +297,18 @@ _Laser Overview panel_, o anda çalışan lazerlerinizin durumuna hızlıca bakm
 
 Ortadaki grafik kare uzunluklarının geçmişini gösterir; sağdaki sayı ise mevcut kare hızıdır. İçerik ne kadar karmaşıksa kare hızı o kadar düşük olur (yani daha fazla titreme görülür). Yaklaşık 25 fps altındaki değerler biraz titreşimli görünmeye başlar.
 
+Kare hızı düşükse öneriler için [Eski makinelerde performansı iyileştirme](troubleshooting/improving-performance-on-older-machines.md) bölümüne bakın.
+
 ### Lazerlere bağlanma - Controller Assignment paneli
 
 _Controller Assignment_ panelini açmak için _Assign Laser Controllers_ düğmesine tıklayın. (Bu panele menü çubuğundan _View -> Controller Assignment_ yoluyla da erişebilirsiniz.)
 
 Hangi lazer çıkışlarının hangi lazer denetleyicilerine gideceğini burada seçebilirsiniz. Sağdaki listeden denetleyicileri sürükleyip soldaki yuvalara bırakın. Denetleyicilerinizi eşleştirildikleri lazerle uyumlu olacak şekilde yeniden adlandırabilirsiniz (kalem simgesi düğmesini kullanın).
 
-Daha fazla ayrıntı için [Controller Assignment](setting-up/controller-assignment.md "mention") bölümünü okuyun.
+Daha fazla ayrıntı için [Controller Assignment](setting-up/controller-assignment.md) bölümünü okuyun.
 
 {% hint style="danger" %}
-Herhangi bir lazeri etkinleştirmeden önce [Lazer kurulum sürecine genel bakış](setting-up/setting-up-lasers.md "mention") bölümünü mutlaka okuyun.
+Herhangi bir lazeri etkinleştirmeden önce [Lazer kurulum sürecine genel bakış](setting-up/setting-up-lasers.md) bölümünü mutlaka okuyun.
 {% endhint %}
 
 ### Laser Settings paneli
@@ -337,10 +339,10 @@ Liberation, bu nokta akışının nasıl oluşturulacağı üzerinde ayrıntıl�
 Temel tarayıcı ayarları şunlardır:
 
 * **Speed** tarayıcı hızıdır; yani lazerin şekiller çizmek için ne kadar hızlı hareket ettiğidir. Bu, geleneksel lazer yazılımlarında nokta hızını ayarlamaya denktir, ancak Liberation içinde lazerin hareket hızını _nokta hızından bağımsız_ olarak değiştirebilirsiniz. Bunu ayarlamanız gerekmez.
-* **Scanner sync** (bazen _blank shift_, daha önce Colour Shift olarak bilinir) Tarayıcılar lazeri çok hızlı hareket ettirir, ancak genellikle parlaklık ve renk değişimi hareketle senkronize değildir. Bu durum beam ve çizgilerin kenarında küçük, titrek ışık “kuyrukları” olarak görünür. Hareket ve rengin birbiriyle senkronize olması için bu ayarı kullanın. Bkz. [Lazer çıkış ayarları paneli](setting-up/laser-settings.md "mention")
+* **Scanner sync** (bazen _blank shift_, daha önce Colour Shift olarak bilinir) Tarayıcılar lazeri çok hızlı hareket ettirir, ancak genellikle parlaklık ve renk değişimi hareketle senkronize değildir. Bu durum beam ve çizgilerin kenarında küçük, titrek ışık “kuyrukları” olarak görünür. Hareket ve rengin birbiriyle senkronize olması için bu ayarı kullanın. Bkz. [Lazer çıkış ayarları paneli](setting-up/laser-settings.md)
 
-Diğer gelişmiş tarayıcı ayarları [Gelişmiş](advanced/ "mention") bölümünde ele alınır.
+Diğer gelişmiş tarayıcı ayarları [Gelişmiş](advanced/) bölümünde ele alınır.
 
 ### Zoning
 
-Lazerleri ayarlama ve zone yapılandırma konusunda eksiksiz bir kılavuz için bkz.: [Lazer kurulum sürecine genel bakış](setting-up/setting-up-lasers.md "mention")
+Lazerleri ayarlama ve zone yapılandırma konusunda eksiksiz bir kılavuz için bkz.: [Lazer kurulum sürecine genel bakış](setting-up/setting-up-lasers.md)

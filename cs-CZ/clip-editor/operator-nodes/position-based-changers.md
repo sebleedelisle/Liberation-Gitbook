@@ -33,7 +33,7 @@ Tento node aplikuje barevné změny na obsah podle pozice. Ve výchozím nastave
 
 **Režimy barev**
 
-Určují, které části barevných úprav se na obsah aplikují. Viz také: [Nastavení barev a HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Určují, které části barevných úprav se na obsah aplikují. Viz také: [Nastavení barev a HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – odstín se nemění.
@@ -49,7 +49,7 @@ Určují, které části barevných úprav se na obsah aplikují. Viz také: [Na
 
 **Editor gradientu**
 
-Používá stejný editor gradientu jako [Změna barvy](colour-changer.md "mention"), ale mapuje gradient na obsah podle pozice.
+Používá stejný editor gradientu jako [Změna barvy](colour-changer.md), ale mapuje gradient na obsah podle pozice.
 
 * Kliknutím na lištu gradientu přidáte barevný bod.
 * Kliknutím levým tlačítkem na bod jej vyberete; tažením do stran jej přesunete.

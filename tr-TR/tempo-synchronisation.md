@@ -60,7 +60,7 @@ Ayarlamak için _TEMPO_ knob öğesini kullanın. Hassas ayar için _TEMPO_ knob
 
 **Tempoyu** yukarı veya aşağı doğru tam bir BPM değerine **yuvarlamak** için _TEMPO_ knob öğesini sağa veya sola bir “tık” çevirin.
 
-Ayrıca bkz. [APC40 referansı](reference/apc40-reference.md "mention")
+Ayrıca bkz. [APC40 referansı](reference/apc40-reference.md)
 
 ### Tempoyu kaydırma
 

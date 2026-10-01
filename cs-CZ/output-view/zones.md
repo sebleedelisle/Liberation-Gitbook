@@ -6,10 +6,10 @@ metaLinks:
 
 # 🟩 Zones
 
-Hlavní typ zone, který budete používat ve většině projektů, je _Beam zone_. Je určená pro atmosférické paprskové efekty ve vzduchu. Druhým typem je _Canvas zone_ (viz [Grafika a systém Canvas](../graphics-and-the-canvas-system/ "mention")).
+Hlavní typ zone, který budete používat ve většině projektů, je _Beam zone_. Je určená pro atmosférické paprskové efekty ve vzduchu. Druhým typem je _Canvas zone_ (viz [Grafika a systém Canvas](../graphics-and-the-canvas-system/)).
 
 {% hint style="danger" %}
-**VAROVÁNÍ – Při přesouvání zones za běhu laseru buďte mimořádně opatrní** a stáhněte jas na co nejnižší hodnotu. Podrobný návod, jak lasery bezpečně aktivovat a nastavit jejich zones, najdete v části [Přehled procesu nastavení laserů](../setting-up/setting-up-lasers.md "mention").
+**VAROVÁNÍ – Při přesouvání zones za běhu laseru buďte mimořádně opatrní** a stáhněte jas na co nejnižší hodnotu. Podrobný návod, jak lasery bezpečně aktivovat a nastavit jejich zones, najdete v části [Přehled procesu nastavení laserů](../setting-up/setting-up-lasers.md).
 {% endhint %}
 
 Zones můžete myší uchopit a přetáhnout. Zapněte test pattern, abyste viděli, kam daná zone směřuje.
@@ -19,16 +19,16 @@ Pomocí kláves se šipkami můžete aktuálně vybranou zone nebo bod jemně **
 {% endhint %}
 
 {% hint style="info" %}
-Tip: nastavení zone můžete rychle zkopírovat mezi více lasery. Viz [Kopírování nastavení mezi lasery](../setting-up/copy-laser-settings.md "mention").
+Tip: nastavení zone můžete rychle zkopírovat mezi více lasery. Viz [Kopírování nastavení mezi lasery](../setting-up/copy-laser-settings.md).
 {% endhint %}
 
 ### Přidání nové Beam zone
 
-Klikněte na tlačítko _Add a new beam zone_ v horní části panelu nástrojů a objeví se nová zone. Beam zones jsou seřazené v pořadí, ve kterém je přidáte, ale jejich pořadí můžete změnit. Viz [Změna pořadí beam zones](re-ordering-beam-zones.md "mention").
+Klikněte na tlačítko _Add a new beam zone_ v horní části panelu nástrojů a objeví se nová zone. Beam zones jsou seřazené v pořadí, ve kterém je přidáte, ale jejich pořadí můžete změnit. Viz [Změna pořadí beam zones](re-ordering-beam-zones.md).
 
 ### Přidání existující Canvas zone
 
-Klikněte na tlačítko _Add existing canvas zone_. Zobrazí se seznam dostupných Canvas zones a pro tento laser je můžete zapínat a vypínat. Viz [Grafika a systém Canvas](../graphics-and-the-canvas-system/ "mention").
+Klikněte na tlačítko _Add existing canvas zone_. Zobrazí se seznam dostupných Canvas zones a pro tento laser je můžete zapínat a vypínat. Viz [Grafika a systém Canvas](../graphics-and-the-canvas-system/).
 
 ### Typy tvarů pro zone
 
@@ -47,7 +47,7 @@ Kliknutím pravým tlačítkem na libovolnou zone otevřete její nastavení. V 
 * Vrátit ji do výchozí pozice
 * Otevřít nastavení specifická pro daný typ tvaru
 * Smazat ji
-* Přidat _Alt Zone_ (viz [Systém Alt zone](alt-zone-system.md "mention"))
+* Přidat _Alt Zone_ (viz [Systém Alt zone](alt-zone-system.md))
 
 {% hint style="danger" %}
 **VAROVÁNÍ –** při změně typu zone v době, kdy je laser aktivní, buďte velmi opatrní. Zone se vrátí na poslední pozici a velikost pro daný tvar, takže se výstup může náhle změnit. Před změnou typu zone je nejlepší laser vypnout.

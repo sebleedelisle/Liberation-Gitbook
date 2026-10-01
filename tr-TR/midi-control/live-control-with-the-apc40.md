@@ -27,7 +27,7 @@ Kısaca, Mark 2 önerilir. Tam renkli düğmeleri vardır ve Liberation Clip Dec
 Orijinal APC40 Mark 1, 2009’da(!) çıktı ve bazı kişiler metal gövdesi ile sağlam, konsol benzeri formu nedeniyle hâlâ onu tercih ediyor. Güncellenmiş Mark 2 ise 2014’te çıktı. 2024’te üretimi durdurulmuş olsa da görsel sanatçılar (Resolume vb.) ve lazer sanatçılarından gelen talep nedeniyle 2025’te yeniden üretime giriyor.
 {% endhint %}
 
-APC40 üzerindeki tüm kontrollerin listesi için bkz. [APC40 referansı](../reference/apc40-reference.md "mention")
+APC40 üzerindeki tüm kontrollerin listesi için bkz. [APC40 referansı](../reference/apc40-reference.md)
 
 ### APC Mini
 

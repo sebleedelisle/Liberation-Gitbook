@@ -14,7 +14,7 @@ metaLinks:
 
 使用 _Shift X_ 和 _Shift Y_ 變更 Clip 的水平與垂直位置。
 
-_Zone Delay/Chase_ 是個很有趣的功能，所以有獨立章節介紹。[Zone delay / chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ 是個很有趣的功能，所以有獨立章節介紹。[Zone delay / chase](zone-delay-chase.md)
 
 ### Parameters panel
 
@@ -33,7 +33,7 @@ Clip Deck 右側的面板會顯示八個情境相關參數。選取 Clip 時，�
 
 ### 右鍵選單
 
-在 Clip 上按右鍵時，會出現一個選單，其中包含該 Clip 的部分選項。關於這個選單前幾個項目的更多資訊，請參閱 [Clip Editor 簡介](../clip-editor/clip-editor-intro.md "mention")、[Clip 設定](clip-settings.md "mention") 和 [Clip 群組](groups.md "mention")。
+在 Clip 上按右鍵時，會出現一個選單，其中包含該 Clip 的部分選項。關於這個選單前幾個項目的更多資訊，請參閱 [Clip Editor 簡介](../clip-editor/clip-editor-intro.md)、[Clip 設定](clip-settings.md) 和 [Clip 群組](groups.md)。
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

@@ -16,7 +16,7 @@ metaLinks:
 
 這也代表你可以針對每台雷射的不同掃描器類型調整同一份內容，而不需要修改 Clip 本身。
 
-更多詳細資訊請參閱 [◼️ Liberation 如何產生雷射內容](../../advanced/how-liberation-generates-laser-content.md "mention")
+更多詳細資訊請參閱 [◼️ Liberation 如何產生雷射內容](../../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
 共有三個預設的 _Render Profiles_：_DEFAULT_、_FAST_ 和 _DETAIL_。
@@ -28,5 +28,5 @@ _**FAST** -_ 如果你的 Clip 內容很多，而且其中有些只是很簡單�
 _**DETAIL**_ - 如果你要繪製需要銳利轉角的內容，請使用這個選項。但請注意，掃描器的移動速度會變慢，可能讓輸出看起來更閃爍。
 
 {% hint style="info" %}
-在 Clip Editor 中，你可以將 Creator 指派到不同的 render profile，但每台雷射會依據自己的掃描器設定來處理這些 profile。請參閱 [◼️ 掃描器預設值與 render profile](../../advanced/scanner-presets.md "mention")
+在 Clip Editor 中，你可以將 Creator 指派到不同的 render profile，但每台雷射會依據自己的掃描器設定來處理這些 profile。請參閱 [◼️ 掃描器預設值與 render profile](../../advanced/scanner-presets.md)
 {% endhint %}

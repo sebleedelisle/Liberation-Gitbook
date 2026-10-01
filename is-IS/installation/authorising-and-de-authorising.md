@@ -29,7 +29,7 @@ Ef þú hefur þegar veitt hámarksfjölda tölva heimild fyrir leyfið þitt þ
 Ef þú ert með fleiri en eitt leyfi verður þú beðin um að velja leyfið sem þú vilt tengja tölvuna við.
 {% endhint %}
 
-Til hamingju! Liberation uppsetningin þín hefur nú fengið heimild og þú getur sent út í leysa! Lestu samt [Flýtileiðbeiningar](../getting-started.md "mention") og [Yfirlit yfir uppsetningarferli leysa](../setting-up/setting-up-lasers.md "mention") áður en þú virkjar leysana.
+Til hamingju! Liberation uppsetningin þín hefur nú fengið heimild og þú getur sent út í leysa! Lestu samt [Flýtileiðbeiningar](../getting-started.md) og [Yfirlit yfir uppsetningarferli leysa](../setting-up/setting-up-lasers.md) áður en þú virkjar leysana.
 
 {% hint style="info" %}
 Þú getur opnað _About panel_ hvenær sem er í valmyndinni _Liberation -> About Liberation_ eða _Liberation -> Authorise/Deauthorise this computer_

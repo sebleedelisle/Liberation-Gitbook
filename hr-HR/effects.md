@@ -8,7 +8,7 @@ metaLinks:
 
 Sustav efekata u aplikaciji Liberation zabavan je i svestran način za promjenu izlaza Clip sadržaja u stvarnom vremenu. Efekti su potpuno fleksibilni i mogu se koristiti za bljeskanje, uključivanje i isključivanje, vrtnju, promjenu boja ili čak nasumično kretanje!
 
-Sve što možete napraviti u Clip Editor može se koristiti kao efekt. Zapravo, efekti se uređuju istim node editorom kao i Clips! Pogledajte [Uređivanje efekata](effects.md#editing-effects "mention"). Kreativne mogućnosti praktički su beskonačne.
+Sve što možete napraviti u Clip Editor može se koristiti kao efekt. Zapravo, efekti se uređuju istim node editorom kao i Clips! Pogledajte [Uređivanje efekata](effects.md#editing-effects). Kreativne mogućnosti praktički su beskonačne.
 
 Zadani gumbi za efekte 1–8 nalaze se ispod gumba za zone, a efekti 9–24 mali su gumbi pri dnu.
 
@@ -32,12 +32,12 @@ Rekao bih da je to jedan od najzabavnijih i najkreativnijih alata ugrađenih u L
 
 #### Parametri efekta
 
-Dodajte parametar svojem efektu pomoću _Parameter node_. Sustav Parameter način je za podešavanje više postavki unutar efekta izvana. Pogledajte [Upravljanje parametrima](clip-editor/oscillators/parameter-control.md "mention") za više informacija.
+Dodajte parametar svojem efektu pomoću _Parameter node_. Sustav Parameter način je za podešavanje više postavki unutar efekta izvana. Pogledajte [Upravljanje parametrima](clip-editor/oscillators/parameter-control.md) za više informacija.
 
 Upotrijebite rotacijske kontrolere 1–8 za podešavanje _parameter_ za svaki efekt. Možete i kliknuti desnom tipkom miša na gumb efekta i podesiti klizač ili klizače parametara. Promjena parametra radi različite stvari, ovisno o tome kako je efekt postavljen. U nastavku je popis zadanih efekata i objašnjenje što rade njihovi parametri.
 
 {% hint style="info" %}
-Rotacijski kontroleri 1–8 nalaze se uz gornji rub APC40 Mk2, a na Mk1 gore desno. Pogledajte i: [APC40 referenca](reference/apc40-reference.md "mention")
+Rotacijski kontroleri 1–8 nalaze se uz gornji rub APC40 Mk2, a na Mk1 gore desno. Pogledajte i: [APC40 referenca](reference/apc40-reference.md)
 {% endhint %}
 
 {% hint style="info" %}
@@ -89,7 +89,7 @@ Ova je funkcionalnost onemogućena ako je postavka _MX Group_ postavljena na 0.
 
 Kliknite desnom tipkom miša na bilo koji efekt i kliknite gumb _EDIT EFFECT_ da biste otvorili editor efekta. Primijetite da je ovaj editor isti kao Clip Editor!
 
-Uređujte efekt na isti način na koji biste uređivali bilo koji Clip. Pogledajte [Clip Editor](clip-editor/ "mention").
+Uređujte efekt na isti način na koji biste uređivali bilo koji Clip. Pogledajte [Clip Editor](clip-editor/).
 
 Morate imati barem jedan node tipa Creator; to može biti bilo što (linija, krug, oblik, čak i tekst!), ali vjerojatno biste trebali odabrati nešto što ima najviše smisla u pretpregledu gumba efekta.
 

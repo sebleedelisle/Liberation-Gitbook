@@ -33,7 +33,7 @@ Denne node anvender farveændringer på dit indhold baseret på position. Som st
 
 **Farvetilstande**
 
-Disse bestemmer, hvilke dele af farvejusteringerne der anvendes på indholdet. Se også: [Farveindstillinger og HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Disse bestemmer, hvilke dele af farvejusteringerne der anvendes på indholdet. Se også: [Farveindstillinger og HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue ændres ikke.
@@ -49,7 +49,7 @@ Disse bestemmer, hvilke dele af farvejusteringerne der anvendes på indholdet. S
 
 **Gradient-editor**
 
-Bruger den samme gradient-editor som [Colour change](colour-changer.md "mention"), men mapper gradienten hen over indholdet efter position.
+Bruger den samme gradient-editor som [Colour change](colour-changer.md), men mapper gradienten hen over indholdet efter position.
 
 * Klik på gradientbjælken for at tilføje et farvestop.
 * Venstreklik på et stop for at vælge det, og træk det derefter sidelæns for at flytte det.

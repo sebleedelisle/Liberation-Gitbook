@@ -13,7 +13,7 @@ När du har installerat Liberation på din dator körs programmet i _friläge_ t
 Det finns inga begränsningar i _friläge_ förutom att du inte kan skicka Output till laserhårdvara. Du kan öva på shower, bygga timelines samt spara och läsa in dina filer utan begränsningar. Du kan installera Liberation i _friläge_ på så många datorer du vill, och du behöver bara auktorisera installationen när du är redo att använda lasrar!
 {% endhint %}
 
-Utöver det antal lasrar du kan aktivera kan du också använda DMX-enheter. Se [DMX / Art-Net](../dmx-control/ "mention").
+Utöver det antal lasrar du kan aktivera kan du också använda DMX-enheter. Se [DMX / Art-Net](../dmx-control/).
 
 Det finns också en gräns för hur många datorer du kan auktorisera Liberation på, beroende på din licensnivå.
 

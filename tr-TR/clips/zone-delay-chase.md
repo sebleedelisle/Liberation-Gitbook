@@ -14,7 +14,7 @@ Zone delay sistemi, zone öğeleri arasında çeşitlilik oluşturmanın basit a
 
 _Zone delay_, Clip zamanlamasına her zone için bir gecikme ekler ve zones arasında bir tür süpürme hareketi oluşturur.
 
-Zaten çalışan bir Clip üzerine zone delay eklemek çok etkilidir. Seviyeyi ve pattern seçimini ayarlamak için APC40 üzerindeki ilgili kontrolü kullanın. (Bkz. [APC40 referansı](../reference/apc40-reference.md "mention")). İsterseniz _Clip Settings_ panelini de kullanabilirsiniz.
+Zaten çalışan bir Clip üzerine zone delay eklemek çok etkilidir. Seviyeyi ve pattern seçimini ayarlamak için APC40 üzerindeki ilgili kontrolü kullanın. (Bkz. [APC40 referansı](../reference/apc40-reference.md)). İsterseniz _Clip Settings_ panelini de kullanabilirsiniz.
 
 Zone delay ayarları:
 
@@ -39,7 +39,7 @@ Pattern, zone numaralarına göre çalışır ve zones öğelerinin soldan sağa
 Zone delay, etkin olan tüm efektlere de uygulanır. Örneğin yanıp sönen bir efekt, Clip içindeki animasyonla birlikte zones arasında gecikmeli ilerler.
 {% endhint %}
 
-Bir Clip herhangi bir _Zone delay_ kullandığında, Clip öğesinin sağ üst köşesinde üç noktalı bir simge görürsünüz. Bu noktalar, o Clip için kullanılan _Zone delay_ stilini gösterecek şekilde animasyonludur. Daha fazla bilgi için [Clip düğmelerindeki küçük simgeler nelerdir?](what-are-the-small-icons-on-the-clip-buttons.md "mention") bölümüne bakın.
+Bir Clip herhangi bir _Zone delay_ kullandığında, Clip öğesinin sağ üst köşesinde üç noktalı bir simge görürsünüz. Bu noktalar, o Clip için kullanılan _Zone delay_ stilini gösterecek şekilde animasyonludur. Daha fazla bilgi için [Clip düğmelerindeki küçük simgeler nelerdir?](what-are-the-small-icons-on-the-clip-buttons.md) bölümüne bakın.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-21 at 10.00.14.png" alt=""><figcaption><p>Bir Clip içinde zone delay olduğunu ve hangi modda olduğunu gösteren üç nokta simgesi</p></figcaption></figure>
 

@@ -13,7 +13,7 @@ Sau khi bạn cài đặt Liberation trên máy tính, phần mềm sẽ chạy 
 Trong _chế độ miễn phí_ không có hạn chế nào ngoài việc xuất tín hiệu ra phần cứng laser. Bạn có thể luyện tập show, xây dựng timeline, cũng như lưu và mở file không giới hạn. Bạn có thể cài Liberation ở _chế độ miễn phí_ trên bao nhiêu máy tính tùy ý, và chỉ cần kích hoạt bản quyền khi đã sẵn sàng sử dụng laser!
 {% endhint %}
 
-Ngoài số lượng laser bạn có thể kích hoạt, bạn cũng có thể sử dụng các thiết bị DMX. Xem [DMX / Art-Net](../dmx-control/ "mention").
+Ngoài số lượng laser bạn có thể kích hoạt, bạn cũng có thể sử dụng các thiết bị DMX. Xem [DMX / Art-Net](../dmx-control/).
 
 Số lượng máy tính mà bạn có thể kích hoạt Liberation cũng bị giới hạn tùy theo hạng giấy phép.
 

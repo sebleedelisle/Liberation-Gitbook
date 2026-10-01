@@ -29,7 +29,7 @@ Om du redan har auktoriserat det maximala antalet datorer för din licens behöv
 Om du har flera licenser blir du ombedd att välja vilken licens du vill tilldela datorn.
 {% endhint %}
 
-Grattis! Din Liberation-installation är nu auktoriserad och du kan skicka output till lasrar! Men läs [Snabbstartsguide](../getting-started.md "mention") och [Översikt över processen för laserkonfiguration](../setting-up/setting-up-lasers.md "mention") innan du armerar dina lasrar.
+Grattis! Din Liberation-installation är nu auktoriserad och du kan skicka output till lasrar! Men läs [Snabbstartsguide](../getting-started.md) och [Översikt över processen för laserkonfiguration](../setting-up/setting-up-lasers.md) innan du armerar dina lasrar.
 
 {% hint style="info" %}
 Du kan öppna _About panel_ när som helst via menyn _Liberation -> About Liberation_ eller _Liberation -> Authorise/Deauthorise this computer_

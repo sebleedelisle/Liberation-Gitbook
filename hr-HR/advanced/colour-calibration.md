@@ -17,7 +17,7 @@ Laserske diode mijenjaju ponašanje dok se zagrijavaju. Prije kalibracije uvijek
 
 #### Kako radi kalibracijski test
 
-Za kalibraciju upotrijebite test pattern (pogledajte [Testni uzorci](../output-view/test-patterns.md "mention"))
+Za kalibraciju upotrijebite testne uzorke (pogledajte [Testni uzorci](../output-view/test-patterns.md))
 
 * **5** – Crvena
 * **6** – Zelena

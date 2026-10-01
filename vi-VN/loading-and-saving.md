@@ -14,7 +14,7 @@ Tuy nhiên, bạn vẫn có thể xuất thiết lập của mình để sao lư
 
 File dự án lưu gần như mọi thứ trong thiết lập hiện tại của bạn, bao gồm:
 
-* Mọi nội dung được mô tả trong phần [Nhập / xuất Laser Settings](loading-and-saving.md#laser-settings-import-export "mention") bên dưới
+* Mọi nội dung được mô tả trong phần [Nhập / xuất Laser Settings](loading-and-saving.md#laser-settings-import-export) bên dưới
 * Clips, hiệu ứng và cài đặt nhóm
 * Tất cả timeline của bạn (không bao gồm media âm thanh và video)
 * Thiết lập Art-Net
@@ -30,7 +30,7 @@ Hiện tại, file này chưa lưu và tải:
 * Phông chữ dùng trong Text node
 
 {% hint style="danger" %}
-File âm thanh và video trong timeline không được lưu cùng file dự án, vì vậy hãy nhớ lưu chúng riêng nếu bạn muốn chuyển sang máy tính khác. Xem [Lưu ý quan trọng về file media của timeline](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+File âm thanh và video trong timeline không được lưu cùng file dự án, vì vậy hãy nhớ lưu chúng riêng nếu bạn muốn chuyển sang máy tính khác. Xem [Lưu ý quan trọng về file media của timeline](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Nhập / xuất Laser Settings
@@ -67,7 +67,7 @@ Bạn có thể thêm Clip từ một file Clip Deck đã xuất vào dự án h
 Mọi Clip đang được chọn sẽ được xuất vào một file. Cài đặt nhóm và hiệu ứng sẽ không được lưu, chỉ lưu Clip. Lưu ý rằng các Clip đang chạy sẽ không được xuất, trừ khi chúng cũng đang được chọn.
 
 {% hint style="info" %}
-Option/Alt - shift - click vào Clip để chọn chúng (hoặc dùng lasso). Bạn có thể nhận biết Clip nào đang được chọn bằng viền trắng dày xung quanh Clip đó. Xem [Bắt đầu / dừng Clip](clips/starting-stopping-clips.md "mention")
+Option/Alt - shift - click vào Clip để chọn chúng (hoặc dùng lasso). Bạn có thể nhận biết Clip nào đang được chọn bằng viền trắng dày xung quanh Clip đó. Xem [Bắt đầu / dừng Clip](clips/starting-stopping-clips.md)
 {% endhint %}
 
 ### Nhập / xuất hiệu ứng
@@ -82,12 +82,12 @@ Tải và lưu tất cả hiệu ứng cùng cài đặt nhóm và tham số c�
 
 ### Xuất timeline
 
-Xuất file timeline có một hoặc nhiều timeline. Lưu ý rằng Clip Deck luôn được bao gồm trong các file timeline đã xuất (mặc dù bạn có thể chọn Clip nào sẽ nhập lại; xem [Nhập timeline](loading-and-saving.md#timeline-import "mention") bên dưới).
+Xuất file timeline có một hoặc nhiều timeline. Lưu ý rằng Clip Deck luôn được bao gồm trong các file timeline đã xuất (mặc dù bạn có thể chọn Clip nào sẽ nhập lại; xem [Nhập timeline](loading-and-saving.md#timeline-import) bên dưới).
 
 Nếu file dự án của bạn có nhiều hơn một timeline, một panel sẽ mở ra để bạn chọn các timeline muốn xuất.
 
 {% hint style="danger" %}
-File âm thanh và video trong timeline không được lưu cùng file timeline, vì vậy hãy nhớ lưu chúng riêng nếu bạn muốn chuyển nội dung sang máy tính khác. Xem [Lưu ý quan trọng về file media của timeline](loading-and-saving.md#important-note-about-timeline-media-files "mention")
+File âm thanh và video trong timeline không được lưu cùng file timeline, vì vậy hãy nhớ lưu chúng riêng nếu bạn muốn chuyển nội dung sang máy tính khác. Xem [Lưu ý quan trọng về file media của timeline](loading-and-saving.md#important-note-about-timeline-media-files)
 {% endhint %}
 
 ### Nhập timeline

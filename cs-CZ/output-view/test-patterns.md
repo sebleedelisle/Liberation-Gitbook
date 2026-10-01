@@ -19,7 +19,7 @@ Níže je úplný seznam test patterns. Pokud není uvedeno jinak, vzory vyplní
 3. Vodorovné zelené čáry – 4 rovnoměrně rozmístěné vodorovné čáry.
 4. Svislé zelené čáry – 4 rovnoměrně rozmístěné svislé čáry.
 
-Vzory pro kalibraci barev 5–8. Lze je používat společně se systémem korekce barev v nastavení laseru. Viz [Kalibrace barev](../advanced/colour-calibration.md "mention"). Tyto vzory nevyplňují celý výstupní prostor.
+Vzory pro kalibraci barev 5–8. Lze je používat společně se systémem korekce barev v nastavení laseru. Viz [Kalibrace barev](../advanced/colour-calibration.md). Tyto vzory nevyplňují celý výstupní prostor.
 
 5. Vzor pro kalibraci barev – červená.
 6. Vzor pro kalibraci barev – zelená.

@@ -20,17 +20,17 @@ Liberation on niin joustava, että voit määrittää ja visualisoida lasereita 
 Voit määrittää ja visualisoida Liberationissa niin monta laseria kuin haluat. Lisenssitasot (Hobbyist, Pro jne.) rajoittavat vain sitä, montako laseria voit _aktivoida käyttöön._ Tämä tarkoittaa, että voit suunnitella 100 laserin esityksiä myös ilmaisella lisenssillä. Päivitys tarvitaan vasta, kun esitys ajetaan oikeilla lasereilla.
 {% endhint %}
 
-Oletuksena käytössä on 8 laseria vaakasuunnassa, mutta voit muokata tämän haluamaksesi. Alkuun on yleensä parasta pitää oletusasetukset käytössä, kun tutustut ohjelmistoon. Myöhemmin voit säätää ne vastaamaan omaa laitteistoasi. (Katso [Projektin määrittäminen](setting-up/setting-up-your-project.md "mention"))
+Oletuksena käytössä on 8 laseria vaakasuunnassa, mutta voit muokata tämän haluamaksesi. Alkuun on yleensä parasta pitää oletusasetukset käytössä, kun tutustut ohjelmistoon. Myöhemmin voit säätää ne vastaamaan omaa laitteistoasi. (Katso [Projektin määrittäminen](setting-up/setting-up-your-project.md))
 
 {% hint style="warning" %}
-Tärkeää: Ennen kuin aktivoit yhtään laseria, varmista että ymmärrät niihin liittyvät riskit ja käy huolellisesti läpi luku [Lasereiden käyttöönoton prosessin yleiskatsaus](setting-up/setting-up-lasers.md "mention").
+Tärkeää: Ennen kuin aktivoit yhtään laseria, varmista että ymmärrät niihin liittyvät riskit ja käy huolellisesti läpi luku [Lasereiden käyttöönoton prosessin yleiskatsaus](setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ## Ohjelmiston yleiskuva
 
 ### Turvakatkaisu
 
-Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / turvalukitukset](hardware/emergency-stop-interlocks.md "mention")). Jos haluat poistaa kaiken käytöstä vähemmän kiireellisesti, voit käyttää _**DISARM ALL**_ -painiketta tai `Escape`-näppäintä (tai APC40:n _**SESSION**_-näppäintä). Voit myös vähentää yleistä kirkkautta näytön liukusäätimellä tai APC40:n pääliukusäätimellä.
+Aina kun käytät lasereita, sinulla on oltava käytettävissä **fyysinen hätäpysäytyspainike** (katso [Hätäpysäytys / turvalukitukset](hardware/emergency-stop-interlocks.md)). Jos haluat poistaa kaiken käytöstä vähemmän kiireellisesti, voit käyttää _**DISARM ALL**_ -painiketta tai `Escape`-näppäintä (tai APC40:n _**SESSION**_-näppäintä). Voit myös vähentää yleistä kirkkautta näytön liukusäätimellä tai APC40:n pääliukusäätimellä.
 
 ### Liukusäätimet
 
@@ -42,7 +42,7 @@ Liberationissa on eri puolilla erilaisia liukusäätimiä ja ohjaimia.
 
 ### Pikanäppäimet
 
-Täydellinen pikanäppäinluettelo löytyy täältä: [Pikanäppäimet](reference/keyboard-shortcuts.md "mention")
+Täydellinen pikanäppäinluettelo löytyy täältä: [Pikanäppäimet](reference/keyboard-shortcuts.md)
 
 ### Näytön asettelu
 
@@ -74,7 +74,7 @@ Näytön vasemman yläosan suuri alue voi olla jokin kolmesta päänäkymästä:
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view näyttää, miltä laserisi näyttävät, ja sen voi määrittää vastaamaan omaa laserjärjestelmääsi. Kierrä kameraa klikkaamalla ja vetämällä. Siirry eteen- ja taaksepäin hiiren rullalla. Lisää asetuksia löytyy _3D Visualiser settings_ -paneelista (_View -> 3D Visualiser Settings_). Katso [3D Visualiser](setting-up/3d-visualiser.md "mention").
+3D view näyttää, miltä laserisi näyttävät, ja sen voi määrittää vastaamaan omaa laserjärjestelmääsi. Kierrä kameraa klikkaamalla ja vetämällä. Siirry eteen- ja taaksepäin hiiren rullalla. Lisää asetuksia löytyy _3D Visualiser settings_ -paneelista (_View -> 3D Visualiser Settings_). Katso [3D Visualiser](setting-up/3d-visualiser.md).
 
 #### Output-näkymä
 
@@ -106,11 +106,11 @@ Valitse alue klikkaamalla sitä ja säädä sitten sen kulmapisteitä hiirellä.
 
 Vasemmassa reunassa on palkki, jossa on sarja kuvakepainikkeita. Vie hiiri minkä tahansa painikkeen päälle nähdäksesi, mitä se tekee. Näillä painikkeilla voit lisätä beam-alueita, canvas-alueita ja maskeja. Lisäksi käytettävissä on asetuksia, joilla voit määrittää testikuvion vain tälle laserille sekä säätää ruudukkoa ja kohdistumista.
 
-Lisätietoja: [Output-näkymä](output-view/ "mention").
+Lisätietoja: [Output-näkymä](output-view/).
 
 #### Canvas
 
-Canvas-järjestelmää käytetään pääasiassa grafiikkaan ja arkkitehtoniseen mappaukseen. Voit jakaa monimutkaisia kuvia useille lasereille ja perspektiivikorjata jokaisen osan. Katso [Grafiikka ja Canvas-järjestelmä](graphics-and-the-canvas-system/ "mention").
+Canvas-järjestelmää käytetään pääasiassa grafiikkaan ja arkkitehtoniseen mappaukseen. Voit jakaa monimutkaisia kuvia useille lasereille ja perspektiivikorjata jokaisen osan. Katso [Grafiikka ja Canvas-järjestelmä](graphics-and-the-canvas-system/).
 
 ### APC40 MIDI -ohjain
 
@@ -118,7 +118,7 @@ Canvas-järjestelmää käytetään pääasiassa grafiikkaan ja arkkitehtoniseen
 
 Liberationia voi ohjata hiirellä ja näppäimistöllä, mutta APC40 MIDI -ohjain tekee käytöstä huomattavasti parempaa (Mark 2 on paras vaihtoehto, mutta myös Mark 1 toimii).
 
-Katso myös: [APC40-viite](reference/apc40-reference.md "mention")
+Katso myös: [APC40-viite](reference/apc40-reference.md)
 
 Liberation tukee myös APC Miniä ja MIDI Fighter Twisteriä. APC40 Mark 2 on edelleen useimmissa tilanteissa paras vaihtoehto.
 
@@ -146,7 +146,7 @@ Voit vierittää clip deckiä vasemmalle ja oikealle seuraavilla tavoilla:
 * APC40:n vieritysnuppi
 * APC40:n _<- DEVICE ->_ -painikkeet
 
-Suuntaamisen helpottamiseksi yläreunassa on Clip Deckin pieni visualisointi. Katso myös [Clips ja Clip Deck](clips/ "mention")
+Suuntaamisen helpottamiseksi yläreunassa on Clip Deckin pieni visualisointi. Katso myös [Clips ja Clip Deck](clips/)
 
 #### Clippien käynnistäminen ja pysäyttäminen
 
@@ -168,7 +168,7 @@ Kaksi riviä aluepainikkeiden alapuolella näet X/Y-kääntöpainikkeet. Niillä
 Huomaa, että nämä aluemääritykset ja X/Y-kääntöasetukset liittyvät itse clipiin. Ne säilyvät seuraavan kerran, kun ajat kyseisen clipin. Ne eivät ole globaali asetus.
 {% endhint %}
 
-Muokkaa Clipin lisäasetuksia klikkaamalla sitä hiiren oikealla painikkeella. Katso myös [Clip settings](clips/clip-settings.md "mention")
+Muokkaa Clipin lisäasetuksia klikkaamalla sitä hiiren oikealla painikkeella. Katso myös [Clip settings](clips/clip-settings.md)
 
 ### Ryhmät
 
@@ -190,7 +190,7 @@ Muuta alueasetuksia kaikille ryhmän clipeille
 
 Paina APC40:llä ryhmäpainiketta ja _sen ollessa edelleen painettuna_ muuta kaikkien kyseisen ryhmän clippien alueasetuksia zone- ja X/Y-painikkeilla.
 
-Katso myös [Clip-ryhmät](clips/groups.md "mention")
+Katso myös [Clip-ryhmät](clips/groups.md)
 
 ### Efektit
 
@@ -208,7 +208,7 @@ Säädä kunkin efektin _parametria_ kiertosäätimillä 1–8\*. (Voit myös s�
 Efektipainikkeissa näkyvät pienet numerot viittaavat efektin _level_- ja _parameter_-arvoihin. _Level_-arvoa ohjataan APC40:n liukusäätimellä, tai sitä voi säätää klikkaamalla ja vetämällä painiketta. Parametria säädetään APC40:n kiertosäätimillä, tai sitä voi säätää hiirellä klikkaamalla oikealla painikkeella.
 {% endhint %}
 
-_\*Kiertosäätimet 1–8 ovat APC40 Mk2:n yläreunassa ja Mk1:n oikeassa yläkulmassa. Katso myös:_ [APC40-viite](reference/apc40-reference.md "mention")
+_\*Kiertosäätimet 1–8 ovat APC40 Mk2:n yläreunassa ja Mk1:n oikeassa yläkulmassa. Katso myös:_ [APC40-viite](reference/apc40-reference.md)
 
 #### Oletusefektit
 
@@ -297,16 +297,18 @@ _Laser overview panel_ näyttää nopeasti parhaillaan käytössä olevien laser
 
 Keskellä oleva kuvaaja näyttää ruutujen keston historian, ja oikealla oleva numero on nykyinen kuvataajuus. Mitä monimutkaisempaa sisältö on, sitä hitaampi kuvataajuus on (eli sitä enemmän se voi välkkyä). Alle noin 25 fps alkaa yleensä näyttää hieman välkkyvältä.
 
+Jos kuvataajuus on matala, katso ehdotuksia kohdasta [Suorituskyvyn parantaminen vanhemmilla koneilla](troubleshooting/improving-performance-on-older-machines.md).
+
 ### Lasereihin yhdistäminen – Controller Assignment -paneeli
 
 Avaa _Controller Assignment_ -paneeli klikkaamalla _Assign Laser Controllers_ -painiketta. (Paneeliin pääsee myös valikkoriviltä kohdasta _View -> Controller Assignment_.)
 
 Tässä voit valita, mitkä laserulostulot lähetetään millekin laserohjaimelle. Vedä ja pudota ohjaimet oikean reunan luettelosta vasemman reunan paikkoihin. Voit nimetä ohjaimet uudelleen vastaamaan laseria, jonka kanssa ne on yhdistetty (käytä kynäkuvakkeen painiketta).
 
-Lue lisätiedot luvusta [Ohjaimen määritys](setting-up/controller-assignment.md "mention").
+Lue lisätiedot luvusta [Ohjaimen määritys](setting-up/controller-assignment.md).
 
 {% hint style="danger" %}
-Ennen kuin aktivoit yhtään laseria, käy läpi luku [Lasereiden käyttöönoton prosessin yleiskatsaus](setting-up/setting-up-lasers.md "mention").
+Ennen kuin aktivoit yhtään laseria, käy läpi luku [Lasereiden käyttöönoton prosessin yleiskatsaus](setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ### Laser Output -paneeli
@@ -337,10 +339,10 @@ Jos olet tottunut vanhempiin laserohjelmistoihin, jotka perustuvat ennakkoon las
 Perusskanneriasetukset ovat:
 
 * **Speed** on skannerin nopeus, eli kuinka nopeasti laser liikkuu piirtäessään muotoja. Tämä vastaa pisteennopeuden säätämistä perinteisissä laserohjelmistoissa, mutta Liberationissa voit muuttaa laserin liikkumisnopeutta _pisteennopeudesta riippumatta._ Tätä asetusta ei yleensä tarvitse säätää.
-* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Skannerit liikuttavat laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon "häntinä" säteiden ja viivojen reunoissa. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laser output -asetuspaneeli](setting-up/laser-settings.md "mention")
+* **Scanner sync** (tunnetaan joskus nimellä _blank shift, aiemmin Colour Shift_) Skannerit liikuttavat laseria todella nopeasti, mutta kirkkauden ja värin muutos ei yleensä ole synkronissa liikkeen kanssa. Tämä näkyy pieninä välkkyvinä valon "häntinä" säteiden ja viivojen reunoissa. Tällä säädöllä saat liikkeen ja värin synkroniin keskenään. Katso [Laser output -asetuspaneeli](setting-up/laser-settings.md)
 
-Muut edistyneet skanneriasetukset käsitellään luvussa [Edistyneet toiminnot](advanced/ "mention").
+Muut edistyneet skanneriasetukset käsitellään luvussa [Edistyneet toiminnot](advanced/).
 
 ### Alueistus
 
-Täydellinen opas lasereiden määrittämiseen ja alueistukseen löytyy täältä: [Lasereiden käyttöönoton prosessin yleiskatsaus](setting-up/setting-up-lasers.md "mention")
+Täydellinen opas lasereiden määrittämiseen ja alueistukseen löytyy täältä: [Lasereiden käyttöönoton prosessin yleiskatsaus](setting-up/setting-up-lasers.md)

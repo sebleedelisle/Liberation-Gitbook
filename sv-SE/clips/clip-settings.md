@@ -14,7 +14,7 @@ metaLinks:
 
 Ändra clipets horisontella och vertikala position med _Shift X_ och _Shift Y_.
 
-_Zone Delay/Chase_ är en så rolig funktion att den får ett eget avsnitt. [Zone Delay/Chase](zone-delay-chase.md "mention")
+_Zone Delay/Chase_ är en så rolig funktion att den får ett eget avsnitt. [Zone Delay/Chase](zone-delay-chase.md)
 
 ### Parameters-panel
 
@@ -33,7 +33,7 @@ Om ett clip är låst kan det inte flyttas eller tas bort. För att låsa ett cl
 
 ### Högerklicksmeny
 
-Om du högerklickar på ett Clip visas en meny med några av alternativen för det Clipet. Se [Introduktion till Clip Editor](../clip-editor/clip-editor-intro.md "mention"), [Clip-inställningar](clip-settings.md "mention") och [Clip groups](groups.md "mention") för mer om de första objekten i den här menyn.
+Om du högerklickar på ett Clip visas en meny med några av alternativen för detta Clip. Se [Introduktion till Clip Editor](../clip-editor/clip-editor-intro.md), [Clip-inställningar](clip-settings.md) och [Clip groups](groups.md) för mer om de första objekten i den här menyn.
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-01-14 at 11.22.48.png" alt="" width="322"><figcaption><p>The clip settings right-click menu</p></figcaption></figure>
 

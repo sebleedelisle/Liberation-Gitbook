@@ -9,7 +9,7 @@ metaLinks:
 
 ## <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line"> Translate
 
-Přesune veškerý obsah podél os x, y a/nebo z. Souřadnicový systém má střed uprostřed a na osách x a y sahá od -200 do +200. Viz [Souřadnicový systém](../fundamentals/co-ordinate-system.md "mention").
+Přesune veškerý obsah podél os x, y a/nebo z. Souřadnicový systém má střed uprostřed a na osách x a y sahá od -200 do +200. Viz [Souřadnicový systém](../fundamentals/co-ordinate-system.md).
 
 * **x** - vzdálenost posunu podél osy x (vlevo–vpravo).
 * **y** - vzdálenost posunu podél osy y (nahoru–dolů).
@@ -20,7 +20,7 @@ Přesune veškerý obsah podél os x, y a/nebo z. Souřadnicový systém má st�
 
 ## <img src="../../.gitbook/assets/image (3).png" alt="" data-size="line"> Rotate
 
-Otočí veškerý obsah. Hodnoty jsou ve stupních. Viz [Souřadnicový systém](../fundamentals/co-ordinate-system.md "mention").
+Otočí veškerý obsah. Hodnoty jsou ve stupních. Viz [Souřadnicový systém](../fundamentals/co-ordinate-system.md).
 
 * **rotation** - velikost otočení obsahu po směru hodinových ručiček ve stupních. Vše se otáčí kolem počátku (0,0), tedy středu.
 * **pivot point x / pivot point y** - těmito hodnotami posunete střed otáčení.

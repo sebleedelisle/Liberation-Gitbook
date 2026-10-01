@@ -27,7 +27,7 @@ Ekki örvænta — tengdu hana bara aftur. Liberation tengist sjálfkrafa aftur,
 Upprunalegi APC40 Mark 1 kom út árið 2009(!) og sumir kjósa hann enn vegna málmbyggingarinnar og trausts, stjórnborðslíks forms. Uppfærði Mark 2 kom út árið 2014 og þótt framleiðslu hans hafi verið hætt árið 2024 fer hann aftur í framleiðslu árið 2025 vegna eftirspurnar frá myndlistarfólki í visuals (Resolume o.fl.) og laseristum.
 {% endhint %}
 
-Sjá heildarlista yfir stjórntæki sem eru tiltæk á APC40 í [APC40-tilvísun](../reference/apc40-reference.md "mention")
+Sjá heildarlista yfir stjórntæki sem eru tiltæk á APC40 í [APC40-tilvísun](../reference/apc40-reference.md)
 
 ### APC Mini
 

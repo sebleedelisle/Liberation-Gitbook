@@ -33,7 +33,7 @@ Bu node, içeriğinde konuma göre renk değişiklikleri uygular. Varsayılan ol
 
 **Renk Modları**
 
-Bunlar, renk ayarlarının hangi yönlerinin içeriğe uygulanacağını belirler. Ayrıca bkz.: [Renk ayarları ve HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Bunlar, renk ayarlarının hangi yönlerinin içeriğe uygulanacağını belirler. Ayrıca bkz.: [Renk ayarları ve HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – hue değişmez.
@@ -49,7 +49,7 @@ Bunlar, renk ayarlarının hangi yönlerinin içeriğe uygulanacağını belirle
 
 **Gradyan düzenleyici**
 
-[Renk değişimi](colour-changer.md "mention") ile aynı gradyan düzenleyiciyi kullanır, ancak gradyanı içeriğe konuma göre eşler.
+[Renk değişimi](colour-changer.md) ile aynı gradyan düzenleyiciyi kullanır, ancak gradyanı içeriğe konuma göre eşler.
 
 * Bir renk durağı eklemek için gradyan çubuğuna tıkla.
 * Bir durağı seçmek için sol tıkla, ardından taşımak için yana doğru sürükle.

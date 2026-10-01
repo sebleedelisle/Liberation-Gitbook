@@ -20,17 +20,17 @@ Liberation je dovoljno fleksibilan da možete postaviti lasere i vizualizirati i
 Unutar Liberation možete postaviti i vizualizirati koliko god lasera želite; razine licence (Hobbyist, Pro itd.) ograničavaju samo broj lasera koje možete _aktivirati za izlaz._ To znači da možete dizajnirati laserske showove sa 100 lasera čak i s besplatnom licencom. Nadogradnja vam treba tek kada show zaista želite pokrenuti na stvarnim laserima.
 {% endhint %}
 
-Zadana postavka ima 8 lasera raspoređenih vodoravno, ali to možete prilagoditi kako god želite. Vjerojatno je najbolje zadržati ovu zadanu postavku dok se upoznajete sa softverom, a kasnije je možete prilagoditi svojoj hardverskoj konfiguraciji. (Pogledajte [Postavljanje projekta](setting-up/setting-up-your-project.md "mention"))
+Zadana postavka ima 8 lasera raspoređenih vodoravno, ali to možete prilagoditi kako god želite. Vjerojatno je najbolje zadržati ovu zadanu postavku dok se upoznajete sa softverom, a kasnije je možete prilagoditi svojoj hardverskoj konfiguraciji. (Pogledajte [Postavljanje projekta](setting-up/setting-up-your-project.md))
 
 {% hint style="warning" %}
-Važno: prije nego što aktivirate bilo koji laser za izlaz, provjerite razumijete li povezane rizike i pažljivo prođite kroz poglavlje [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md "mention").
+Važno: prije nego što aktivirate bilo koji laser za izlaz, provjerite razumijete li povezane rizike i pažljivo prođite kroz poglavlje [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ## Pregled softvera
 
 ### Sigurnosno isključivanje
 
-Kad god koristite lasere, morate imati pri ruci **hardversku tipku za zaustavljanje u nuždi** (pogledajte [Zaustavljanje u nuždi i sigurnosne blokade](hardware/emergency-stop-interlocks.md "mention")), ali ako sve želite deaktivirati bez hitnog zaustavljanja, možete upotrijebiti tipku _**DISARM ALL**_ ili tipku `Escape` (ili tipku _**SESSION**_ na APC40). Global Brightness možete smanjiti i pomoću klizača na zaslonu ili glavnog fadera na APC40.
+Kad god koristite lasere, morate imati pri ruci **hardversku tipku za zaustavljanje u nuždi** (pogledajte [Zaustavljanje u nuždi i sigurnosne blokade](hardware/emergency-stop-interlocks.md)), ali ako sve želite deaktivirati bez hitnog zaustavljanja, možete upotrijebiti tipku _**DISARM ALL**_ ili tipku `Escape` (ili tipku _**SESSION**_ na APC40). Global Brightness možete smanjiti i pomoću klizača na zaslonu ili glavnog fadera na APC40.
 
 ### Klizači
 
@@ -42,7 +42,7 @@ Kliknite klizač uz `Cmd / Ctrl` kako biste upisali novu vrijednost ako vam treb
 
 ### Tipkovni prečaci
 
-Cijeli popis tipkovnih prečaca nalazi se ovdje: [Tipkovni prečaci](reference/keyboard-shortcuts.md "mention")
+Cijeli popis tipkovnih prečaca nalazi se ovdje: [Tipkovni prečaci](reference/keyboard-shortcuts.md)
 
 ### Raspored zaslona
 
@@ -74,7 +74,7 @@ Veliko područje u gornjem lijevom dijelu zaslona može prikazivati jedan od 3 g
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view prikazuje kako će vaši laseri izgledati i može se konfigurirati tako da odgovara vašoj vlastitoj postavi lasera. Kliknite i povucite za rotiranje kamere, a kotačićem miša pomičite se naprijed i natrag. Mnoge druge opcije nalaze se u panelu _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Pogledajte [3D Visualiser](setting-up/3d-visualiser.md "mention").
+3D view prikazuje kako će vaši laseri izgledati i može se konfigurirati tako da odgovara vašoj vlastitoj postavi lasera. Kliknite i povucite za rotiranje kamere, a kotačićem miša pomičite se naprijed i natrag. Mnoge druge opcije nalaze se u panelu _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Pogledajte [3D Visualiser](setting-up/3d-visualiser.md).
 
 #### Output View
 
@@ -106,11 +106,11 @@ Kliknite na zone da biste je odabrali, a zatim mišem prilagodite njezine kutne 
 
 S lijeve strane nalazi se traka s nizom tipki s ikonama; zadržite pokazivač iznad bilo koje tipke kako biste dobili opis njezine funkcije. Tipke ovdje omogućuju dodavanje beam zone, canvas zone i mask. Tu su i opcije za postavljanje testnog uzorka samo za ovaj laser, zajedno s postavkama mreže i prianjanja.
 
-Za više pojedinosti pogledajte [Output view](output-view/ "mention").
+Za više pojedinosti pogledajte [Output view](output-view/).
 
 #### Canvas
 
-Sustav Canvas koristi se uglavnom za grafiku i arhitektonsko mapiranje. Složene slike možete rasporediti preko više lasera i perspektivno korigirati svaki dio. Pogledajte [Grafika i sustav Canvas](graphics-and-the-canvas-system/ "mention").
+Sustav Canvas koristi se uglavnom za grafiku i arhitektonsko mapiranje. Složene slike možete rasporediti preko više lasera i perspektivno korigirati svaki dio. Pogledajte [Grafika i sustav Canvas](graphics-and-the-canvas-system/).
 
 ### APC40 MIDI kontroler
 
@@ -118,7 +118,7 @@ Sustav Canvas koristi se uglavnom za grafiku i arhitektonsko mapiranje. Složene
 
 Iako je Liberation moguće kontrolirati mišem i tipkovnicom, mnogo je bolje koristiti APC40 MIDI kontrolersko sučelje (Mark 2 je najbolji izbor, ali Mark 1 također radi).
 
-Pogledajte i: [APC40 referenca](reference/apc40-reference.md "mention")
+Pogledajte i: [APC40 referenca](reference/apc40-reference.md)
 
 Liberation podržava i APC Mini te MIDI Fighter Twister. APC40 Mark 2 i dalje je najbolja opcija za većinu slučajeva.
 
@@ -146,7 +146,7 @@ Clip Deck možete pomicati lijevo i desno na sljedeće načine:
 * kotačićem za pomicanje na APC40
 * tipkama APC40 _<- DEVICE ->_
 
-Kako biste se lakše snašli, uz vrh se nalazi mini vizualizator za Clip Deck. Pogledajte i [Clips i Clip Deck](clips/ "mention")
+Kako biste se lakše snašli, uz vrh se nalazi mini vizualizator za Clip Deck. Pogledajte i [Clips i Clip Deck](clips/)
 
 #### Pokretanje i zaustavljanje Clips
 
@@ -168,7 +168,7 @@ Dva reda ispod tipki za zone nalaze se tipke za X/Y flip; uključite ih ili iskl
 Imajte na umu da su ove dodjele zone i postavke X/Y flip povezane sa samim Clip; zadržavaju se sljedeći put kada pokrenete taj Clip. Nisu globalna postavka.
 {% endhint %}
 
-Desnim klikom na Clip možete urediti više njegovih postavki. Pogledajte i [Postavke za Clip](clips/clip-settings.md "mention")
+Desnim klikom na Clip možete urediti više njegovih postavki. Pogledajte i [Postavke za Clip](clips/clip-settings.md)
 
 ### Grupe
 
@@ -190,7 +190,7 @@ Promjena postavki zone za sve Clips unutar grupe
 
 Na APC40 pritisnite tipku grupe, zatim _dok je još držite pritisnutom,_ koristite tipke za zone i X/Y kako biste uključivali ili isključivali postavke zone za sve Clips unutar te grupe.
 
-Pogledajte i [Clip grupe](clips/groups.md "mention")
+Pogledajte i [Clip grupe](clips/groups.md)
 
 ### Efekti
 
@@ -208,7 +208,7 @@ Rotacijskim kontrolerima 1-8\* prilagodite _parametar_ za svaki efekt. (Ili mož
 Mali brojevi koje vidite na tipkama efekata odnose se na _razinu_ i _parametar_ efekta. _Razinom_ upravlja fader na APC40 ili je možete prilagoditi klikom i povlačenjem po tipki. Parametar se podešava rotacijskim kontrolerima na APC40 ili desnim klikom miša.
 {% endhint %}
 
-_\*Rotacijski kontroleri 1-8 nalaze se uz vrh APC40 Mk2, a na Mk1 u gornjem desnom dijelu. Pogledajte i:_ [APC40 referenca](reference/apc40-reference.md "mention")
+_\*Rotacijski kontroleri 1-8 nalaze se uz vrh APC40 Mk2, a na Mk1 u gornjem desnom dijelu. Pogledajte i:_ [APC40 referenca](reference/apc40-reference.md)
 
 #### Zadani efekti
 
@@ -297,16 +297,18 @@ Panel _Laser overview_ daje vam brz uvid u status lasera koji se trenutno izvode
 
 Graf u sredini prikazuje povijest duljina frameova, a broj s desne strane trenutačnu brzinu frameova. Što je sadržaj složeniji, brzina frameova bit će sporija (tj. prikaz će više titrati). Sve ispod otprilike 25 fps počet će izgledati pomalo titravo.
 
+Ako je broj sličica u sekundi nizak, prijedloge potražite u odjeljku [Poboljšanje performansi na starijim računalima](troubleshooting/improving-performance-on-older-machines.md).
+
 ### Povezivanje s laserima - panel Controller Assignment
 
 Kliknite tipku _Assign Laser Controllers_ kako biste otvorili panel _Controller Assignment_. (Ovom panelu možete pristupiti i putem _View -> Controller Assignment_ u traci izbornika).
 
 Ovdje možete odabrati koji laser output ide na koji laserski kontroler. Povucite i ispustite kontrolere s popisa s desne strane u utore s lijeve strane. Kontrolere možete preimenovati tako da odgovaraju laseru s kojim su upareni (upotrijebite tipku s ikonom olovke).
 
-Za više pojedinosti pročitajte poglavlje [Dodjela kontrolera](setting-up/controller-assignment.md "mention").
+Za više pojedinosti pročitajte poglavlje [Dodjela kontrolera](setting-up/controller-assignment.md).
 
 {% hint style="danger" %}
-Prije nego što aktivirate bilo koji laser za izlaz, obavezno prođite kroz poglavlje [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md "mention").
+Prije nego što aktivirate bilo koji laser za izlaz, obavezno prođite kroz poglavlje [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ### Panel Laser output
@@ -337,10 +339,10 @@ Ako ste navikli na stariji laserski softver koji se oslanja na unaprijed izraču
 Osnovne postavke skenera su:
 
 * **Speed** je brzina skenera, tj. koliko se brzo laser kreće kako bi crtao oblike. To je ekvivalent podešavanju brzine točaka u tradicionalnom laserskom softveru, ali u Liberation možete mijenjati brzinu kretanja lasera _neovisno o brzini točaka._ Ovu postavku ne biste trebali morati podešavati.
-* **Scanner sync** (ponekad poznato kao _blank shift, prethodno Colour Shift_) Skeneri pomiču laser vrlo brzo, ali promjena svjetline i boje obično nije sinkronizirana s kretanjem. To se vidi kao mali treperavi "repovi" svjetla na rubu beam elemenata i linija. Ovom prilagodbom uskladite kretanje i boju. Pogledajte [Panel s postavkama laserskog izlaza](setting-up/laser-settings.md "mention")
+* **Scanner sync** (ponekad poznato kao _blank shift, prethodno Colour Shift_) Skeneri pomiču laser vrlo brzo, ali promjena svjetline i boje obično nije sinkronizirana s kretanjem. To se vidi kao mali treperavi "repovi" svjetla na rubu beam elemenata i linija. Ovom prilagodbom uskladite kretanje i boju. Pogledajte [Panel s postavkama laserskog izlaza](setting-up/laser-settings.md)
 
-Ostale napredne postavke skenera obrađene su u poglavlju [Napredno](advanced/ "mention").
+Ostale napredne postavke skenera obrađene su u poglavlju [Napredno](advanced/).
 
 ### Zoning
 
-Cijeli vodič za postavljanje lasera i zone potražite ovdje: [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md "mention")
+Cijeli vodič za postavljanje lasera i zone potražite ovdje: [Pregled postupka postavljanja lasera](setting-up/setting-up-lasers.md)

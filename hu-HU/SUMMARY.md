@@ -104,6 +104,7 @@
   * [🟩 Színkalibrálás](advanced/colour-calibration.md)
 * [◼️ Hálózati tanácsok](network-advice.md)
 * [✅ Hibaelhárítás](troubleshooting/README.md)
+* [✅ Teljesítmény javítása régebbi gépeken](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Szakadozó / villogó kimenet](troubleshooting/intermittent-flashing-output.md)
   * [✅ Élő vezérlés](troubleshooting/live-control.md)
   * [✅ Hiányzó erőforrások hiba indításkor](troubleshooting/missing-resources.md)

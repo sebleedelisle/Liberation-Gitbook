@@ -60,7 +60,7 @@ Tlačítkem _METRONOME_ **resetujete takt**. (Tlačítko _METRONOME_ také blik�
 
 Otočením knobu _TEMPO_ o jeden „krok“ doprava nebo doleva **zaokrouhlíte tempo** nahoru nebo dolů na celé BPM.
 
-Viz také [Referenční příručka APC40](reference/apc40-reference.md "mention")
+Viz také [Referenční příručka APC40](reference/apc40-reference.md)
 
 ### Nudge tempo
 

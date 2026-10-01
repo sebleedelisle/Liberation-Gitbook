@@ -22,16 +22,11 @@ Pravděpodobně máte problém se sítí nebo s výkonem CPU:
 
 **Výkon CPU**
 
-Pokud máte starý nebo méně výkonný počítač, může být pro běh Liberation příliš pomalý. Zkontrolujte indikátor snímkové frekvence na pravé straně lišty ikon.
+Pokud máte starý nebo méně výkonný počítač, může být pro běh Liberation příliš pomalý. Zkontrolujte indikátor snímkové frekvence v horní liště.
 
 Jsou tam dvě hodnoty – aktuální snímková frekvence a cílová snímková frekvence. Pokud aktuální snímková frekvence klesne pod 30, mohou nastat problémy.
 
-Pomoci mohou následující kroky:
-
-* Odstraňte nepoužívané lasery, tedy pokud máte připojený pouze jeden laser, smažte ostatní.
-* Přepněte do Output view nebo Canvas view.
-* Zavřete všechny ostatní programy, zkontrolujte nastavení síťového firewallu, vypněte antivirus, Dropbox apod.
-* Snižte rozlišení displeje a zmenšete okno Liberation.
+Možnosti, jak snížit zátěž počítače, najdete v části [Zlepšení výkonu na starších počítačích](improving-performance-on-older-machines.md).
 
 Pokud nic z toho nepomůže, zvažte upgrade počítače.
 

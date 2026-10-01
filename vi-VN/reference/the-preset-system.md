@@ -27,7 +27,7 @@ Bạn cũng có thể nhập và xuất file preset bằng nút tải/lưu (bi�
 Nếu bạn chỉnh sửa một preset, ví dụ thiết lập scanner có tên _Default_, hãy lưu ý rằng các laser khác sẽ không được tự động cập nhật. Thay vào đó, thiết lập scanner của từng laser đó sẽ được gắn nhãn _Default(edited)_. Để cập nhật sang preset _Default_ mới, hãy chọn lại preset đó trong danh sách thả xuống.
 
 {% hint style="info" %}
-Nếu bạn có nhiều laser và muốn cập nhật thiết lập scanner cho tất cả, hãy dùng hệ thống _COPY LASER SETTINGS_. Xem [Sao chép cài đặt giữa các laser](../setting-up/copy-laser-settings.md "mention")
+Nếu bạn có nhiều laser và muốn cập nhật thiết lập scanner cho tất cả, hãy dùng hệ thống _COPY LASER SETTINGS_. Xem [Sao chép cài đặt giữa các laser](../setting-up/copy-laser-settings.md)
 {% endhint %}
 
 Nếu bạn xóa một preset đang được dùng ở nơi khác, bạn sẽ không mất thiết lập đó; thay vào đó, thiết lập sẽ được gắn nhãn là _(deleted)._

@@ -104,6 +104,7 @@
   * [🟩 Farvekalibrering](advanced/colour-calibration.md)
 * [◼️ Netværksråd](network-advice.md)
 * [✅ Fejlfinding](troubleshooting/README.md)
+* [✅ Forbedring af ydeevnen på ældre maskiner](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Ustabilt / blinkende output](troubleshooting/intermittent-flashing-output.md)
   * [✅ Live-styring](troubleshooting/live-control.md)
   * [✅ Fejl om manglende ressourcer ved start](troubleshooting/missing-resources.md)

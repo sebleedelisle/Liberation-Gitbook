@@ -20,17 +20,17 @@ Liberation đủ linh hoạt để bạn có thể thiết lập và mô phỏng
 Bạn có thể thiết lập và mô phỏng bao nhiêu laser tùy ý trong Liberation; các cấp giấy phép (Hobbyist, Pro, v.v.) chỉ giới hạn số laser bạn có thể _kích hoạt._ Điều này có nghĩa là bạn có thể thiết kế laser show với 100 laser ngay cả khi dùng giấy phép miễn phí. Bạn chỉ cần nâng cấp khi thực sự chạy show trên laser thật.
 {% endhint %}
 
-Mặc định có 8 laser được trải theo chiều ngang, nhưng bạn có thể tùy chỉnh theo ý muốn. Có lẽ tốt nhất là giữ mặc định này trong khi bạn làm quen với phần mềm, sau đó điều chỉnh để khớp với hệ thống phần cứng của mình. (Xem [Thiết lập dự án của bạn](setting-up/setting-up-your-project.md "mention"))
+Mặc định có 8 laser được trải theo chiều ngang, nhưng bạn có thể tùy chỉnh theo ý muốn. Có lẽ tốt nhất là giữ mặc định này trong khi bạn làm quen với phần mềm, sau đó điều chỉnh để khớp với hệ thống phần cứng của mình. (Xem [Thiết lập dự án của bạn](setting-up/setting-up-your-project.md))
 
 {% hint style="warning" %}
-Quan trọng: Trước khi kích hoạt bất kỳ laser nào, hãy chắc chắn rằng bạn hiểu các rủi ro liên quan và đọc kỹ chương [Tổng quan quy trình thiết lập laser](setting-up/setting-up-lasers.md "mention").
+Quan trọng: Trước khi kích hoạt bất kỳ laser nào, hãy chắc chắn rằng bạn hiểu các rủi ro liên quan và đọc kỹ chương [Tổng quan quy trình thiết lập laser](setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ## Tổng quan về phần mềm
 
 ### Ngắt an toàn
 
-Bất cứ khi nào chạy laser, bạn phải có sẵn **nút dừng khẩn cấp phần cứng** trong tầm tay (xem [Dừng khẩn cấp / khóa liên động](hardware/emergency-stop-interlocks.md "mention")), nhưng nếu bạn muốn tắt kích hoạt toàn bộ hệ thống trong tình huống ít khẩn cấp hơn, bạn có thể dùng nút _**DISARM ALL**_, hoặc phím `Escape` (hoặc phím _**SESSION**_ trên APC40). Bạn cũng có thể giảm Global Brightness bằng thanh trượt trên màn hình hoặc fader chính trên APC40.
+Bất cứ khi nào chạy laser, bạn phải có sẵn **nút dừng khẩn cấp phần cứng** trong tầm tay (xem [Dừng khẩn cấp / khóa liên động](hardware/emergency-stop-interlocks.md)), nhưng nếu bạn muốn tắt kích hoạt toàn bộ hệ thống trong tình huống ít khẩn cấp hơn, bạn có thể dùng nút _**DISARM ALL**_, hoặc phím `Escape` (hoặc phím _**SESSION**_ trên APC40). Bạn cũng có thể giảm Global Brightness bằng thanh trượt trên màn hình hoặc fader chính trên APC40.
 
 ### Thành phần thanh trượt
 
@@ -42,7 +42,7 @@ Trong Liberation có nhiều thanh trượt và bộ điều khiển khác nhau.
 
 ### Phím tắt
 
-Danh sách đầy đủ các phím tắt có tại đây: [Phím tắt](reference/keyboard-shortcuts.md "mention")
+Danh sách đầy đủ các phím tắt có tại đây: [Phím tắt](reference/keyboard-shortcuts.md)
 
 ### Bố cục màn hình
 
@@ -74,7 +74,7 @@ Khu vực lớn ở góc trên bên trái màn hình có thể là một trong 3
 
 <figure><img src=".gitbook/assets/qs-3d-view.png" alt=""><figcaption></figcaption></figure>
 
-3D view cho bạn thấy laser sẽ trông như thế nào và có thể được cấu hình để khớp với thiết lập laser của riêng bạn. Click và kéo để xoay camera, dùng con lăn chuột để di chuyển tiến/lùi. Bạn có thể tìm thấy nhiều tùy chọn khác trong panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Xem [3D Visualiser](setting-up/3d-visualiser.md "mention").
+3D view cho bạn thấy laser sẽ trông như thế nào và có thể được cấu hình để khớp với thiết lập laser của riêng bạn. Click và kéo để xoay camera, dùng con lăn chuột để di chuyển tiến/lùi. Bạn có thể tìm thấy nhiều tùy chọn khác trong panel _3D Visualiser settings_ (_View -> 3D Visualiser Settings_). Xem [3D Visualiser](setting-up/3d-visualiser.md).
 
 #### Output view
 
@@ -106,11 +106,11 @@ Click vào một zone để chọn, sau đó dùng chuột điều chỉnh các 
 
 Dọc bên trái là một thanh với nhiều nút biểu tượng; di chuột lên bất kỳ nút nào để xem mô tả chức năng. Các nút ở đây cho phép bạn thêm beam zone, canvas zone và mask. Cũng có các tùy chọn để đặt Test Pattern chỉ cho laser này, cùng với thiết lập lưới và snapping.
 
-Để biết thêm chi tiết, xem [Output view](output-view/ "mention").
+Để biết thêm chi tiết, xem [Output view](output-view/).
 
 #### Canvas
 
-Hệ thống Canvas chủ yếu được dùng cho đồ họa và mapping kiến trúc. Bạn có thể phân phối hình ảnh phức tạp qua nhiều laser và hiệu chỉnh phối cảnh cho từng phần. Xem [Đồ họa và hệ thống Canvas](graphics-and-the-canvas-system/ "mention").
+Hệ thống Canvas chủ yếu được dùng cho đồ họa và mapping kiến trúc. Bạn có thể phân phối hình ảnh phức tạp qua nhiều laser và hiệu chỉnh phối cảnh cho từng phần. Xem [Đồ họa và hệ thống Canvas](graphics-and-the-canvas-system/).
 
 ### Bộ điều khiển MIDI APC40
 
@@ -118,7 +118,7 @@ Hệ thống Canvas chủ yếu được dùng cho đồ họa và mapping kiế
 
 Mặc dù có thể điều khiển Liberation bằng chuột và bàn phím, tốt hơn nhiều là dùng giao diện điều khiển MIDI APC40 (Mark 2 là tốt nhất, nhưng Mark 1 cũng hoạt động).
 
-Xem thêm: [Tham khảo APC40](reference/apc40-reference.md "mention")
+Xem thêm: [Tham khảo APC40](reference/apc40-reference.md)
 
 Liberation cũng hỗ trợ APC Mini và MIDI Fighter Twister. APC40 Mark 2 vẫn là lựa chọn tốt nhất trong hầu hết trường hợp.
 
@@ -146,7 +146,7 @@ Bạn có thể cuộn Clip Deck sang trái và phải bằng:
 * Núm cuộn APC40
 * Các nút APC40 _<- DEVICE ->_
 
-Để giúp bạn định hướng, có một trình hiển thị mini của Clip Deck dọc phía trên. Xem thêm [Clips và Clip Deck](clips/ "mention")
+Để giúp bạn định hướng, có một trình hiển thị mini của Clip Deck dọc phía trên. Xem thêm [Clips và Clip Deck](clips/)
 
 #### Bắt đầu và dừng Clip
 
@@ -168,7 +168,7 @@ Hai hàng bên dưới các nút zone, bạn sẽ thấy các nút lật X/Y; b�
 Lưu ý rằng các phân bổ zone và thiết lập lật X/Y này được gắn với chính Clip; chúng sẽ được giữ lại lần sau bạn chạy Clip đó. Đây không phải là thiết lập toàn cục.
 {% endhint %}
 
-Right-click vào một Clip để chỉnh thêm các thiết lập của Clip. Xem thêm [Cài đặt Clip](clips/clip-settings.md "mention")
+Right-click vào một Clip để chỉnh thêm các thiết lập của Clip. Xem thêm [Cài đặt Clip](clips/clip-settings.md)
 
 ### Nhóm
 
@@ -190,7 +190,7 @@ Thay đổi thiết lập zone cho tất cả Clip trong một nhóm
 
 Khi dùng APC40, nhấn nút nhóm, rồi _trong khi vẫn giữ nút đó,_ dùng các nút zone và X/Y để bật/tắt thiết lập zone cho tất cả Clip trong nhóm đó.
 
-Xem thêm [Nhóm Clip](clips/groups.md "mention")
+Xem thêm [Nhóm Clip](clips/groups.md)
 
 ### Hiệu ứng
 
@@ -208,7 +208,7 @@ Dùng các rotary controller 1-8\* để điều chỉnh _tham số_ cho từng 
 Các con số nhỏ bạn thấy trên nút hiệu ứng thể hiện _level_ và _parameter_ của hiệu ứng. _Level_ được điều khiển bằng fader trên APC40, hoặc bạn có thể click và kéo trên nút. Tham số được điều chỉnh bằng các núm xoay trên APC40, hoặc bạn có thể right-click để điều chỉnh bằng chuột.
 {% endhint %}
 
-_\*Rotary controller 1-8 nằm dọc phía trên APC40 Mk2 và ở góc trên bên phải trên Mk1. Xem thêm:_ [Tham khảo APC40](reference/apc40-reference.md "mention")
+_\*Rotary controller 1-8 nằm dọc phía trên APC40 Mk2 và ở góc trên bên phải trên Mk1. Xem thêm:_ [Tham khảo APC40](reference/apc40-reference.md)
 
 #### Các hiệu ứng mặc định
 
@@ -297,16 +297,18 @@ Panel _Laser Overview_ cho bạn cái nhìn nhanh về trạng thái của các 
 
 Biểu đồ ở giữa là lịch sử độ dài frame, và con số bên phải là tốc độ khung hình hiện tại. Nội dung càng phức tạp thì tốc độ khung hình càng chậm (tức là dễ nhấp nháy hơn). Bất kỳ giá trị nào dưới khoảng 25fps sẽ bắt đầu trông hơi nhấp nháy.
 
+Nếu tốc độ khung hình thấp, xem [Cải thiện hiệu năng trên máy cũ](troubleshooting/improving-performance-on-older-machines.md) để biết các gợi ý.
+
 ### Kết nối với laser - Panel Controller Assignment
 
 Click nút _Assign Laser Controllers_ để mở panel _Controller Assignment_. (Bạn cũng có thể truy cập panel này qua _View -> Controller Assignment_ trên thanh menu).
 
 Tại đây, bạn có thể chọn Output laser nào đi tới bộ điều khiển laser nào. Kéo và thả các bộ điều khiển từ danh sách bên phải vào các ô bên trái. Bạn có thể đổi tên bộ điều khiển để khớp với laser đang ghép cặp với nó (dùng nút biểu tượng cây bút).
 
-Đọc chương [Controller Assignment](setting-up/controller-assignment.md "mention") để biết thêm chi tiết.
+Đọc chương [Controller Assignment](setting-up/controller-assignment.md) để biết thêm chi tiết.
 
 {% hint style="danger" %}
-Trước khi kích hoạt bất kỳ laser nào, hãy chắc chắn đọc chương [Tổng quan quy trình thiết lập laser](setting-up/setting-up-lasers.md "mention").
+Trước khi kích hoạt bất kỳ laser nào, hãy chắc chắn đọc chương [Tổng quan quy trình thiết lập laser](setting-up/setting-up-lasers.md).
 {% endhint %}
 
 ### Panel Laser Settings
@@ -337,10 +339,10 @@ Nếu bạn đã quen với phần mềm laser cũ dựa trên các luồng đi�
 Các thiết lập scanner cơ bản gồm:
 
 * **Speed** là tốc độ scanner, tức là laser di chuyển nhanh đến mức nào để vẽ hình. Thiết lập này tương đương việc điều chỉnh point rate trong phần mềm laser truyền thống, nhưng trong Liberation bạn có thể thay đổi tốc độ di chuyển của laser _độc lập với point rate._ Thông thường bạn không cần điều chỉnh mục này.
-* **Scanner sync** (đôi khi được gọi là _blank shift, trước đây là Colour Shift_) Scanner di chuyển laser rất nhanh, nhưng thường thì thay đổi độ sáng và màu sắc không đồng bộ với chuyển động. Điều này xuất hiện dưới dạng các "đuôi" sáng nhỏ nhấp nháy ở rìa của beam và đường. Dùng điều chỉnh này để đồng bộ chuyển động và màu sắc với nhau. Xem [Panel cài đặt đầu ra laser](setting-up/laser-settings.md "mention")
+* **Scanner sync** (đôi khi được gọi là _blank shift, trước đây là Colour Shift_) Scanner di chuyển laser rất nhanh, nhưng thường thì thay đổi độ sáng và màu sắc không đồng bộ với chuyển động. Điều này xuất hiện dưới dạng các "đuôi" sáng nhỏ nhấp nháy ở rìa của beam và đường. Dùng điều chỉnh này để đồng bộ chuyển động và màu sắc với nhau. Xem [Panel cài đặt đầu ra laser](setting-up/laser-settings.md)
 
-Các thiết lập scanner nâng cao khác được trình bày trong chương [Nâng cao](advanced/ "mention").
+Các thiết lập scanner nâng cao khác được trình bày trong chương [Nâng cao](advanced/).
 
 ### Zoning
 
-Để xem hướng dẫn đầy đủ về thiết lập và phân vùng laser, xem: [Tổng quan quy trình thiết lập laser](setting-up/setting-up-lasers.md "mention")
+Để xem hướng dẫn đầy đủ về thiết lập và phân vùng laser, xem: [Tổng quan quy trình thiết lập laser](setting-up/setting-up-lasers.md)

@@ -29,7 +29,7 @@ Ako ste već autorizirali najveći dopušteni broj računala za svoju licencu, m
 Ako imate više licenci, od vas će se tražiti da odaberete licencu kojoj želite dodijeliti računalo.
 {% endhint %}
 
-Čestitamo! Vaša instalacija programa Liberation sada je autorizirana i možete slati izlaz na lasere. No prije nego što uključite izlaz lasera, pročitajte [Vodič za brzi početak](../getting-started.md "mention") i [Pregled postupka postavljanja lasera](../setting-up/setting-up-lasers.md "mention").
+Čestitamo! Vaša instalacija programa Liberation sada je autorizirana i možete slati izlaz na lasere. No prije nego što uključite izlaz lasera, pročitajte [Vodič za brzi početak](../getting-started.md) i [Pregled postupka postavljanja lasera](../setting-up/setting-up-lasers.md).
 
 {% hint style="info" %}
 _About panel_ možete otvoriti u bilo kojem trenutku putem izbornika _Liberation -> About Liberation_ ili _Liberation -> Authorise/Deauthorise this computer_

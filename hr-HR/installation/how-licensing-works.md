@@ -13,7 +13,7 @@ Nakon što instalirate Liberation na računalo, program će raditi u _besplatnom
 U _besplatnom načinu_ nema ograničenja osim slanja izlaza na laserski hardver. Možete vježbati predstave, izrađivati timelineove te spremati i učitavati datoteke bez ograničenja. Liberation možete instalirati u _besplatnom načinu_ na koliko god računala želite, a instalaciju trebate autorizirati tek kada ste spremni koristiti lasere!
 {% endhint %}
 
-Osim broja lasera koje možete aktivirati, možete koristiti i DMX uređaje. Pogledajte [DMX / Art-Net](../dmx-control/ "mention").
+Osim broja lasera koje možete aktivirati, možete koristiti i DMX uređaje. Pogledajte [DMX / Art-Net](../dmx-control/).
 
 Postoji i ograničenje broja računala na kojima možete autorizirati Liberation, ovisno o vašem licencnom paketu.
 

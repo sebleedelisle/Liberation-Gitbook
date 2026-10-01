@@ -29,7 +29,7 @@ Lisansınız için izin verilen en fazla bilgisayar sayısını zaten yetkilendi
 Birden fazla lisansınız varsa, bilgisayarı hangi lisansa atamak istediğiniz sorulur.
 {% endhint %}
 
-Tebrikler! Liberation kurulumunuz artık yetkilendirildi ve lazerlere çıkış verebilirsiniz! Ancak lazerlerinizi arm durumuna geçirmeden önce lütfen [Hızlı başlangıç kılavuzu](../getting-started.md "mention") ve [Lazer kurulum sürecine genel bakış](../setting-up/setting-up-lasers.md "mention") bölümlerini okuyun.
+Tebrikler! Liberation kurulumunuz artık yetkilendirildi ve lazerlere çıkış verebilirsiniz! Ancak lazerlerinizi etkinleştirmeden önce lütfen [Hızlı başlangıç kılavuzu](../getting-started.md) ve [Lazer kurulum sürecine genel bakış](../setting-up/setting-up-lasers.md) bölümlerini okuyun.
 
 {% hint style="info" %}
 _About panel_ öğesini istediğiniz zaman _Liberation -> About Liberation_ veya _Liberation -> Authorise/Deauthorise this computer_ menüsünden açabilirsiniz.

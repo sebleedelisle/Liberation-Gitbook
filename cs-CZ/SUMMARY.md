@@ -104,6 +104,7 @@
   * [🟩 Kalibrace barev](advanced/colour-calibration.md)
 * [◼️ Doporučení pro síť](network-advice.md)
 * [✅ Řešení problémů](troubleshooting/README.md)
+* [✅ Zlepšení výkonu na starších počítačích](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Přerušovaný / blikající výstup](troubleshooting/intermittent-flashing-output.md)
   * [✅ Živé ovládání](troubleshooting/live-control.md)
   * [✅ Chyba chybějících prostředků při spuštění](troubleshooting/missing-resources.md)

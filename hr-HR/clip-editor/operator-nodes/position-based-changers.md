@@ -33,7 +33,7 @@ Ovaj node primjenjuje promjene boje na sadržaj prema položaju. Prema zadanim p
 
 **Načini boje**
 
-Ove postavke određuju koji se aspekti prilagodbi boje primjenjuju na sadržaj. Vidi također: [Postavke boje i HSB](../fundamentals/colour-settings-and-hsb.md "mention").
+Ove postavke određuju koji se aspekti prilagodbi boje primjenjuju na sadržaj. Vidi također: [Postavke boje i HSB](../fundamentals/colour-settings-and-hsb.md).
 
 * **hue mode**
   * _OFF_ – nijansa se ne mijenja.
@@ -49,7 +49,7 @@ Ove postavke određuju koji se aspekti prilagodbi boje primjenjuju na sadržaj. 
 
 **Uređivač gradijenta**
 
-Koristi isti uređivač gradijenta kao [Promjena boje](colour-changer.md "mention"), ali mapira gradijent preko sadržaja prema položaju.
+Koristi isti uređivač gradijenta kao [Promjena boje](colour-changer.md), ali mapira gradijent preko sadržaja prema položaju.
 
 * Kliknite traku gradijenta za dodavanje točke boje.
 * Lijevim klikom odaberite točku, zatim je povucite bočno za pomicanje.

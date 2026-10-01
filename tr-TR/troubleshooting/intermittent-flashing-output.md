@@ -22,16 +22,11 @@ Bu durumda sorun büyük olasılıkla ağdan veya CPU performansından kaynaklan
 
 **CPU performansı**
 
-Eski veya düşük özellikli bir bilgisayarınız varsa Liberation’ı çalıştırmak için fazla yavaş kalabilir. Simge çubuğunun sağ tarafındaki kare hızı göstergesini kontrol edin.
+Eski veya düşük özellikli bir bilgisayarınız varsa Liberation’ı çalıştırmak için fazla yavaş kalabilir. Üst çubuktaki kare hızı göstergesini kontrol edin.
 
 Burada iki sayı bulunur: gerçek kare hızı ve hedef kare hızı. Gerçek kare hızı 30’un altına düşerse sorun yaşayabilirsiniz.
 
-Aşağıdaki işlemler yardımcı olabilir:
-
-* Kullanmadığınız lazerleri kaldırın; örneğin yalnızca bir lazer bağlıysa diğerlerini silin.
-* Output view veya Canvas view görünümüne geçin.
-* Diğer tüm programları kapatın, ağ güvenlik duvarı ayarlarını kontrol edin, antivirüs, Dropbox vb. uygulamaları kapatın.
-* Ekran çözünürlüğünüzü düşürün ve Liberation penceresini küçültün.
+Bilgisayarınızdaki yükü azaltmanın yolları için bkz. [Eski bilgisayarlarda performansı iyileştirme](improving-performance-on-older-machines.md).
 
 Bunların hiçbiri işe yaramazsa bilgisayarınızı yükseltmeyi düşünün.
 

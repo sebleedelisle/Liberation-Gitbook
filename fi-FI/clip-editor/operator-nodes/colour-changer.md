@@ -11,7 +11,7 @@ metaLinks:
 
 Muuttaa kaiken sisään tulevan sisällön värejä. Voit joko asettaa kiinteät HSB-arvot tai vaihtaa gradienttijärjestelmään ja poimia värit mukautetusta gradientista.
 
-* **hue, saturation, brightness** - väriarvot, katso [Väriasetukset ja HSB](../fundamentals/colour-settings-and-hsb.md "mention")
+* **hue, saturation, brightness** - väriarvot, katso [Väriasetukset ja HSB](../fundamentals/colour-settings-and-hsb.md)
 * **hue mode** -
   * OFF - sävyä ei muuteta
   * FIXED - elementtien sävy asetetaan hue-arvoon
@@ -28,7 +28,7 @@ Muuttaa kaiken sisään tulevan sisällön värejä. Voit joko asettaa kiinteät
 * **blend** - kuinka voimakkaasti Colour change otetaan käyttöön. 0 % ei vaikuta lainkaan, 100 % käyttää vaikutusta kokonaan, ja 50 % on yhdistelmä nykyistä väriä ja uusia arvoja.
 
 {% hint style="info" %}
-Colour Change node poimii gradientista yhden värin koko syötteelle. Jos haluat gradientin kulkevan muodon yli sijainnin mukaan, käytä sen sijaan kohtaa [Sijaintiin perustuvat muuttajat](position-based-changers.md "mention").
+Colour Change node poimii gradientista yhden värin koko syötteelle. Jos haluat gradientin kulkevan muodon yli sijainnin mukaan, käytä sen sijaan kohtaa [Sijaintiin perustuvat muuttajat](position-based-changers.md).
 {% endhint %}
 
 ### Gradienttieditori

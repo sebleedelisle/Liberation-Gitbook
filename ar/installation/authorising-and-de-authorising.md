@@ -29,7 +29,7 @@ metaLinks:
 إذا كانت لديك تراخيص متعددة، فسيُطلب منك اختيار الترخيص الذي تريد ربط الكمبيوتر به.
 {% endhint %}
 
-تهانينا! تم الآن تفعيل تثبيت Liberation لديك ويمكنك الإخراج إلى أجهزة الليزر! لكن يُرجى قراءة [دليل البدء السريع](../getting-started.md "mention") و[نظرة عامة على عملية إعداد أجهزة الليزر](../setting-up/setting-up-lasers.md "mention") قبل تسليح أجهزة الليزر.
+تهانينا! تم الآن تفعيل تثبيت Liberation لديك ويمكنك الإخراج إلى أجهزة الليزر! لكن يُرجى قراءة [دليل البدء السريع](../getting-started.md) و[نظرة عامة على عملية إعداد أجهزة الليزر](../setting-up/setting-up-lasers.md) قبل تفعيل أجهزة الليزر.
 
 {% hint style="info" %}
 يمكنك فتح _About panel_ في أي وقت من خلال القائمة _Liberation -> About Liberation_ أو _Liberation -> Authorise/Deauthorise this computer_

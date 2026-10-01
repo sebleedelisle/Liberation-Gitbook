@@ -41,7 +41,7 @@ Huomaa, että orientation / mirroring -korjaukset eivät muuta mitään 3D Visua
 
 ### Laserasetusten kopiointi
 
-Katso [Laser output -asetuspaneeli](laser-settings.md#copy-laser-settings "mention").
+Katso [Laser output -asetuspaneeli](laser-settings.md#copy-laser-settings).
 
 ### Scanner settings
 
@@ -56,10 +56,12 @@ Vaikka oletusasetukset ovat melko varovaiset, voit silti vahingoittaa skannereit
 {% endhint %}
 
 {% hint style="info" %}
-Tämä Speed-asetus ei muuta pisteiden lähetysnopeutta, vaan säätää sitä, kuinka harvassa tai tiheässä pisteet ovat. Lisätietoja: [◼️ Miten Liberation luo lasersisältöä](../advanced/how-liberation-generates-laser-content.md "mention")
+Tämä Speed-asetus ei muuta pisteiden lähetysnopeutta, vaan säätää sitä, kuinka harvassa tai tiheässä pisteet ovat. Lisätietoja: [◼️ Miten Liberation luo lasersisältöä](../advanced/how-liberation-generates-laser-content.md)
 {% endhint %}
 
-#### **Scanner sync (Colour shift / blank shift)**
+Jos haluat kokeilla pisteiden lähetysnopeutta, lähtökulmaa ja skannerikuormaa show-projektin ulkopuolella, katso [🟩 Skannerin tekniset tiedot ja Liberation](../appendix-articles/scanner-specifications-and-liberation.md).
+
+#### **Scanner sync (blank shift)**
 
 Säde vaihtaa väriä sekä kytkeytyy päälle ja pois, kun skannerit liikuttavat sitä. Nämä kaksi asiaa eivät yleensä ole täysin synkronissa keskenään. Säädä tätä asetusta, jotta ajoitus saadaan kohdalleen.
 
@@ -67,18 +69,18 @@ Säde vaihtaa väriä sekä kytkeytyy päälle ja pois, kun skannerit liikuttava
 Tätä kutsutaan joskus nimellä _blank shift_, mutta itse pidän termistä _scanner sync_ – se on hieman tarkempi, koska asetus säätää kaikkien värimuutosten ajoitusta suhteessa skannerien liikkeeseen.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserin ”hännät” – Colour shift ei ole oikein säädetty</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Ei laserin ”häntiä”! Colour shift on kohdallaan!</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/Colour shift tails.jpeg" alt="" width="320"><figcaption><p>Laserin ”hännät” – Scanner Sync ei ole oikein säädetty</p></figcaption></figure> <figure><img src="../.gitbook/assets/Colour shift no tails.jpeg" alt="" width="320"><figcaption><p>Ei laserin ”häntiä”! Scanner Sync on kohdallaan!</p></figcaption></figure></div>
 
 Jos laserin ulostulossa näkyy pieniä ”häntiä”, scanner sync vaatii todennäköisesti säätöä. Jos hännät näkyvät edelleen asetuksesta riippumatta, ajat skannereita tai laserin ohjaimia todennäköisesti nopeammin kuin ne kestävät. Kokeile laskea skannerien nopeutta.
 
 #### Scanner presets
 
-Tällä valitaan valmis skanneriasetus. Oletusvaihtoehto on yleensä sopiva, joten tätä asetusta ei pitäisi tarvita muuttaa, elleivät skannerisi ole erityisen huonot (tai hyvät). Jos haluat perehtyä tarkemmin, katso [◼️ Skanneriesiasetukset ja renderöintiprofiilit](../advanced/scanner-presets.md "mention")
+Tällä valitaan valmis skanneriasetus. Oletusvaihtoehto on yleensä sopiva, joten tätä asetusta ei pitäisi tarvita muuttaa, elleivät skannerisi ole erityisen huonot (tai hyvät). Jos haluat perehtyä tarkemmin, katso [◼️ Skanneriesiasetukset ja renderöintiprofiilit](../advanced/scanner-presets.md)
 
 #### Colour calibration
 
-Tällä järjestelmällä voit korjata laserin kirkkauskäyrää ja valkotasapainoa. Katso [Värikalibrointi](../advanced/colour-calibration.md "mention")
+Tällä järjestelmällä voit korjata laserin kirkkauskäyrää ja valkotasapainoa. Katso [Värikalibrointi](../advanced/colour-calibration.md)
 
 #### Advanced settings
 
-Näihin ei yleensä tarvitse koskea, mutta jos olet kiinnostunut, katso [◼️ Laserin lisäasetukset](../advanced/advanced-laser-settings.md "mention")
+Näihin ei yleensä tarvitse koskea, mutta jos olet kiinnostunut, katso [◼️ Laserin lisäasetukset](../advanced/advanced-laser-settings.md)

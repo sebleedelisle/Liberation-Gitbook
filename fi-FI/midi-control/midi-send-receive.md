@@ -25,6 +25,6 @@ Käytä _BOTH_-asetusta varoen. MIDI-laitteet ja -ohjelmistot voidaan määritt�
 
 ### MIDI-määritys
 
-Katso [MIDI-lähetyksen ja -vastaanoton oletusmääritys](../reference/midi-send-receive-default-mapping.md "mention")
+Katso [MIDI-lähetyksen ja -vastaanoton oletusmääritys](../reference/midi-send-receive-default-mapping.md)
 
 Aion lisätä tulevaisuudessa paljon mukautettavampia MIDI-määrityksiä, mutta sillä välin voit käyttää sovelluksia kuten [BOME](https://www.bome.com/products/miditranslator) ja [Chetaigne](http://benjamin.kuperberg.fr/chataigne/en) muuntamaan MIDI-viestejä Liberationin ja oman laitteistosi välillä.

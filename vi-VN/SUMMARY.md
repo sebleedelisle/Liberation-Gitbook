@@ -104,6 +104,7 @@
   * [🟩 Hiệu chuẩn màu](advanced/colour-calibration.md)
 * [◼️ Khuyến nghị về mạng](network-advice.md)
 * [✅ Khắc phục sự cố](troubleshooting/README.md)
+* [✅ Cải thiện hiệu năng trên máy cũ](troubleshooting/improving-performance-on-older-machines.md)
   * [✅ Đầu ra chập chờn / nhấp nháy](troubleshooting/intermittent-flashing-output.md)
   * [✅ Điều khiển live](troubleshooting/live-control.md)
   * [✅ Lỗi thiếu tài nguyên khi khởi động](troubleshooting/missing-resources.md)
